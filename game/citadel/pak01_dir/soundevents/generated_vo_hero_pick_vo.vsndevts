@@ -1149,6 +1149,8 @@
 		context_name = "unicorn"
 		vsnd_files = 
 		[
+			"sounds/vo/unicorn/unicorn_select_01.vsnd",
+			"sounds/vo/unicorn/unicorn_select_02.vsnd",
 			"sounds/vo/unicorn/unicorn_select_03.vsnd",
 			"sounds/vo/unicorn/unicorn_select_04.vsnd",
 			"sounds/vo/unicorn/unicorn_select_05.vsnd",
@@ -1167,17 +1169,17 @@
 		context_name = "unicorn"
 		vsnd_files = 
 		[
+			"sounds/vo/unicorn/unicorn_unselect_01.vsnd",
 			"sounds/vo/unicorn/unicorn_unselect_02.vsnd",
 			"sounds/vo/unicorn/unicorn_unselect_03.vsnd",
 			"sounds/vo/unicorn/unicorn_unselect_04.vsnd",
 			"sounds/vo/unicorn/unicorn_unselect_05.vsnd",
 			"sounds/vo/unicorn/unicorn_unselect_06.vsnd",
 			"sounds/vo/unicorn/unicorn_unselect_07.vsnd",
-			"sounds/vo/unicorn/unicorn_unselect_08.vsnd",
 			"sounds/vo/unicorn/unicorn_unselect_09.vsnd",
 			"sounds/vo/unicorn/unicorn_unselect_10.vsnd",
 		]
-		vsnd_duration = 7.231021
+		vsnd_duration = 11.122000
 	}
 	Generated.Vampirebat.Hero.Pick.VO = 
 	{

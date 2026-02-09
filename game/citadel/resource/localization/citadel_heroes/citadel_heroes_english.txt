@@ -185,8 +185,6 @@
 		//"cadence_ability_grandfinale"				"Grand Finale"
 		//"cadence_ability_grandfinale_quip"		"Build a stage, then fight from it with weapon buffs."
 		//"cadence_ability_grandfinale_desc"		"Build high ground undernearth Cadence. Allies fighting from the high ground get a fire rate bonus and explosive bullets."
-		//"ExplodeRadius_label"						"Explosion Radius"
-		"ExplodeRadius_postfix"					"m"
 		"StageDuration_label"						"Duration"
 		"StageDuration_postvalue_label"						"Duration"
 		"StageDuration_postfix"					"s"
@@ -4291,6 +4289,7 @@
 		"ability_boho_damageshare_desc" "Enemies hit by {g:citadel_inline_attribute:'SpiritDamage'} are <span class=\"highlight\">linked</span> to other <span class=\"highlight\">linked</span> enemies, sharing a portion of incoming damage as {g:citadel_inline_attribute:'BonusSpiritDamage'}."
 		"ability_boho_damageshare/damageshare" "Weave Fate"
 		"BounceCount_postvalue_label" "Max Bounces"
+		"BounceRadius_label" "Bounce Range"
 		"BounceRadius_postvalue_label" "Bounce Range"
 		"BounceRadius_postfix"	"m"
 		"DamageShareRadius_label" "Link Distance"
@@ -4764,7 +4763,62 @@
 		"ability_priest_beartrap/immobilize" "Hex-Lined Snap Trap"
 		"ability_priest_beartrap_t3_desc"	"You deal <span class=\"highlight\">+{s:IncomingDamagePercentFromCaster}%</span> damage against targets"
 
+	
+		//-----------------------------------------------------------------------------
+		// Unicorn
+		//-----------------------------------------------------------------------------
+		"hero_unicorn_lore"			"Even in a world of magic, some things are still rare and unusual. So what is a unicorn to do?  Announce her presence to the world and potentially have poachers looking to saw off her horn? Or hide in plain sight at a Coney Island Side Show where most folk would assume her appearance was just part of an act?\n\nOver the years \"The Dazzling Celeste\" has grown into one of the more popular attractions on Coney, and while the applause from a cheering audience is appreciated; what keeps her waking up in the morning is the found family she's made at work.\n\nKeruba the Mermaid.\n\nBlockhead Lenny.\n\nChickenwing.\n\nTed.\n\nThese were her people.  So when she discovered that one of her own sold part of their soul in order to cover a gambling debt, Celeste knew it was time to step out of the shadows and do whatever it takes to get it back.  Is revealing her power to The Patrons a risk?  Yes.  But that's tomorrow's problem... her family needs help today."
 
+		"ability_melee_unicorn"		"Melee" 
+		
+		"ability_unicorn_radiantblast"				"Light Eater"
+		"ability_unicorn_radiantblast_desc"			"Blast enemies in a cone in front of you with a flare of light. Enemies hit take {g:citadel_inline_attribute:'SpiritDamage'} when attacked by Celeste and provides <span class=\"highlight\">spirit lifesteal</span>."
+		"ability_unicorn_radiantblast_on_bullet_hit_desc" "On Bullet Hit"
+		"ability_unicorn_radiantblast_t2_desc"		"+{s:AbilityCastRange}m Cast Range and +{s:AbilityLifestealPercentHero}% Spirit Lifesteal"
+		"ability_unicorn_radiantblast_t3_desc"		"+{s:Damage} Damage and Increased Spirit Scaling"
+		"FlareDamage_label"				"Flare Damage"
+		"FlareDamage_postvalue_label"				"Flare Damage"
+		"ability_unicorn_radiantblast/unicorn_radiantblast_debuff"				"Light Eater"
+
+
+		"ability_unicorn_prismaticguard"			"Dazzling Trick"
+		"ability_unicorn_prismaticguard_desc"		"Surround yourself in a protective prism that provides {g:citadel_inline_attribute:'BonusMoveSpeed'}. If the barrier is destroyed, it silences nearby enemies and deals a portion of the barrier as damage."
+		"ability_unicorn_prismaticguard_on_explode_desc" "On Explode"
+		"ability_unicorn_prismaticguard_t2_desc"		"+{s:CombatBarrier} Barrier and Increased Barrier Spirit Scaling"
+		"ability_unicorn_prismaticguard_t3_desc"		"+{s:DebuffDuration} Silence Duration and {s:AbilityCooldown} Cooldown. Allows Shining Wonder Bounce."
+		"ExplodeRadius_postvalue_label"				"Explosion Radius"
+		"ExplodeRadius_postfix"						"m"
+		"ExplodeRadius_label"						"Explosion Radius"
+		"ability_unicorn_prismaticguard/modifier_unicorn_prismatic_guard_buff"					"Dazzling Trick"
+		"BarrierDamagePercentage_label"			"Barrier Damage"
+		"BarrierDamagePercentage_postvalue_label"			"Barrier Damage"
+		"BarrierDamagePercentage_postfix"		"%"
+
+
+		"ability_unicorn_dazzlingorb"				"Shining Wonder"
+		"ability_unicorn_dazzlingorb_desc"			"Launch a deadly orb of light that deals {g:citadel_inline_attribute:'SpiritDamage'} and applies {g:citadel_inline_attribute:'Slow'} and reduces <span class=\"highlight\">Dash Distance</span> on impact. The orb then bounces to the nearest enemy within range. If no target is found, the orb will linger for a short duration while continuing to look for targets.<br><br><span class=\"diminish\">Prioritizes enemy heroes when picking targets. Refunds half the cooldown on a miss.</span>"
+		"ability_unicorn_dazzlingorb_t1_desc"		"-{s:SlowPercent}% Move Speed and {s:GroundDashReductionPercent}% Dash Distance"
+		"ability_unicorn_dazzlingorb_t3_desc"		"+{s:MaxBounces} Max Bounces and {s:AbilityCooldown}s Cooldown"
+		"BounceGrace_postvalue_label"				"Max Linger Duration"
+		"BounceGrace_postfix"						""
+		
+		"ability_unicorn_luminousstrike"				"Radiant Daggers"
+		"ability_unicorn_luminousstrike_desc"			"Call down a beam of light from the sky. After a short duration, the beam will fully form, causing an explosion that deals {g:citadel_inline_attribute:'SpiritDamage'} to all targets in the area.<br><br> Celeste will receive a stacking buff that increases her spirit damage anytime this hits an enemy hero."
+		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown}s Cooldown and +{s:ImpactDamage} Impact Damage"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% Spirit Amp and +{s:FireRatePerStack}% Fire Rate Per Stack"
+		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Luminous Strike Burn"
+		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Radiant Daggers"
+
+
+
+		"AreaRadius_label"							"Radius"
+		"AreaRadius_postvalue_label"				"Radius"
+		"AreaRadius_postfix"						"m"
+		"ExplosionInterval_postvalue_label"			"Beam Interval"
+		"ExplosionInterval_postfix"					"s"
+		"ExplosionInterval_label"					"Beam Interval"
+		"PreExplosionDuration_postvalue_label"		"Beam Form Duration"
+		"PreExplosionDuration_postfix"				"s"
+		"BuffMaxStacks_postvalue_label"				"Max Stacks"
 
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES

@@ -2006,6 +2006,7 @@
 		"CitadelHeroStats_SpiritPower_Impact"				"Spirit Power Impact"
 		"CitadelHeroStats_SpiritPower_Desc"					"Spirit Power increases the effectiveness of your Abilities and Items."
 		"CitadelHeroStats_Weapon_Falloff"					"Falloff Range"
+		"CitadelHeroStats_Weapon_Falloff_NA"				"N/A"
 
 		"Citadel_Shop_Sort_Tooltip_Categories"				"Sort Items by Category"
 		"Citadel_Shop_Sort_Tooltip_Tier"					"Sort Items by Price"
@@ -4255,7 +4256,7 @@
 		"Citadel_Hideout_News_Button"		"Press {g:citadel_binding:'HideoutUse'} to view the news"
 		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir earned by {s:hideout_owner} during the Winter Update"
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'} Melee to Collect Souls"
-		"Citadel_Hideout_VaultHint02"				"{g:citadel_binding:'AbilityMelee'} Melee during flashing lights for bonuses, <br>Heavy melee for even more"
+		"Citadel_Hideout_VaultHint02"				"{g:citadel_binding:'AbilityMelee'} Melee during flashing lights for bonuses, heavy melee for even more"
 		"Citadel_Hideout_HolidayChallenge" 		"Press {g:citadel_binding:'HideoutUse'} to view Holiday Challenge Progress"
 
 		"citadel_keybind_hideout_use"					"Interact with Hideout object"

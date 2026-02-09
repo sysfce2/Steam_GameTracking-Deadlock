@@ -473,6 +473,8 @@ CitadelHudModifierIcons
 	width: fit-children;
 	visibility: collapse;
 	flow-children: down;
+	height: 48px;
+	text-overflow: shrink;
 }
 
 .action_binding
@@ -494,6 +496,8 @@ CitadelHudModifierIcons
 	world-blur: ingameHudBlur;
 	background-size: cover;
 	background-img-opacity: 0.04;
+	height: 48px;
+	text-overflow: shrink;
 }
 
 .action_binding .InlineGlyph
@@ -1899,14 +1903,14 @@ CitadelHudModifierIcons
 	horizontal-align: center;
 	height: 240px;
 	margin-bottom: 120px;
-	width: 550px;
+	width: 850px;
 	flow-children: down;
 }
 
 #hud_modifiers
 {
 	horizontal-align: center;
-	width: 850px;
+	width: 100%;
 }
 
 #hud_custom_modifiers

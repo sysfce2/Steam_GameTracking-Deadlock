@@ -114,6 +114,7 @@
  <b>@import</b> 
  ACTIVE GROUP
  AInvalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
+ ApR
  CCitadelTeamRelativeParticleSettings_t
  C_PhysPropClientside::Spawn: SetupPhysicsAsModel() failed for %s.\n
  FLK
@@ -662,7 +663,6 @@
 #Citadel_HeroBuilds_Saving_Title
 #Citadel_HeroBuilds_ValidateErrorBody
 #Citadel_HeroBuilds_ValidateErrorTitle
-#Citadel_HeroReleaseVote_Toast_HasVotes
 #Citadel_HideoutBallJuggle_Increment
 #Citadel_HideoutBallJuggle_Land
 #Citadel_HideoutConnectionFailed_FailedToConnect
@@ -2439,6 +2439,7 @@ $hRh
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
+(4PR
 (5Me
 (5jP
 (?PulseCursorCancelPriority_t
@@ -5377,6 +5378,7 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_UltCombo_Target@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_UltimateBurst_DelayedEffect@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_UltimateBurst_Proc@@$0PPPP@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_UnicornGravity@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Unicorn_DazzlingOrbNextTarget@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Unicorn_PrismaticGuard@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Unstable_Concoction@@$0PPPP@@@
@@ -6602,6 +6604,7 @@ $hRh
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flRadiusScale@C_EnvParticleGlow@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flRange@CLightComponent@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flRange@C_BarnLight@@@@
+.?AV?$CNetworkVarBase@MVNetworkVar_m_flRangeAtCast@CProjectile_Priest_SlideTrap_Projectile@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flRemoteViewForwardOffset@C_RenderPortal@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flRopeRadius@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flScale@CGameSceneNode@@@@
@@ -8570,6 +8573,7 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_UltCombo_Target@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_UltimateBurst_DelayedEffect@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_UltimateBurst_Proc@@VCBaseModifier@@@@
+.?AV?$CSubclassFactory@VCCitadel_Modifier_UnicornGravity@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Unicorn_DazzlingOrbNextTarget@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Unicorn_PrismaticGuard@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Unstable_Concoction@@VCBaseModifier@@@@
@@ -12499,6 +12503,7 @@ $hRh
 .?AVCCitadel_Modifier_UltimateBurst_DelayedEffect@@
 .?AVCCitadel_Modifier_UltimateBurst_Proc@@
 .?AVCCitadel_Modifier_UltimateBurst_ProcVData@@
+.?AVCCitadel_Modifier_UnicornGravity@@
 .?AVCCitadel_Modifier_Unicorn_DazzlingOrbNextTarget@@
 .?AVCCitadel_Modifier_Unicorn_DazzlingOrbNextTargetVData@@
 .?AVCCitadel_Modifier_Unicorn_PrismaticGuard@@
@@ -16810,7 +16815,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0v41\v
+0v$I\v
 0x%4.4x 
 0x%X
 0x%X 
@@ -17100,9 +17105,10 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
+4BH\f
 4Ch;
 4F0I
-4F\v@W
+4F\v0b
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17519,6 +17525,7 @@ $hRh
 >fN46R^
 >l\rur
 >p00<
+>xyi
 >yhP
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
@@ -17529,6 +17536,7 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
+?CCitadel_Modifier_Necro_Gravestone_BuffVData
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CitadelEditParty
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
@@ -17575,13 +17583,14 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N41\v
+@08N$I\v
 @0pp
-@60V
+@6Pm
+@6pl
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
-@CAbilityStackingDamageVData
 @DebugIndividualStyle
+@HPX`hvp
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17598,13 +17607,13 @@ $hRh
 @\tV_iswspace
 @absorigin_follow
 @dKb]
-@f41\v
 @fff>fff>fff>fff>
+@htPR
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
+@m_DashImpactEffect
 @n2w
-@n41\v
 A bias on the lerp
 A comma separated list of hero IDs that hold the currently banned brawl roster heroes
 A comma separated list of hero IDs that hold the currently banned roster heroes
@@ -17934,7 +17943,7 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
-A\vWW
+A\vGb
 A_txt
 AbW_
 Abandoned
@@ -18945,6 +18954,7 @@ B\n\fCOrientation
 B\n\nobjectives
 B\n\rHeroWhitelist
 B\n\vbook_reward
+B\v0b
 B\vP\n0
 B\vp\n0
 B_txt
@@ -19674,7 +19684,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:720
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4221
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4127
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4301
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:167
@@ -19920,6 +19931,7 @@ CAbilitySleepDaggerVData
 CAbilitySlideVData
 CAbilitySpiderShieldVData
 CAbilitySprintVData
+CAbilityStackingDamageVData
 CAbilityStickyBombVData
 CAbilityStompVData
 CAbilityStormCloudVData
@@ -20361,6 +20373,7 @@ CCitadelModifierDruidLeechSeedVData
 CCitadelModifierDustStormAuraApplyVData
 CCitadelModifierFrameUpdateGameSystem
 CCitadelModifierIdolReturnTimerVData
+CCitadelModifierItemPickupTimerVData
 CCitadelModifierProjectilePitchingLoopSoundThinker
 CCitadelModifierProjectilePitchingLoopSoundThinkerVData
 CCitadelModifierResponseRulesFilterType_t
@@ -21928,7 +21941,6 @@ CCitadel_Modifier_Nearby_Enemy_Boost
 CCitadel_Modifier_Necro_Ghoul_Explode
 CCitadel_Modifier_Necro_Ghoul_ExplodeVData
 CCitadel_Modifier_Necro_Gravestone_Buff
-CCitadel_Modifier_Necro_Gravestone_BuffVData
 CCitadel_Modifier_Necro_GunSearching
 CCitadel_Modifier_Necro_GunTether
 CCitadel_Modifier_Necro_GunTetherVData
@@ -22283,6 +22295,7 @@ CCitadel_Modifier_UltCombo_TargetVData
 CCitadel_Modifier_UltimateBurst_DelayedEffect
 CCitadel_Modifier_UltimateBurst_Proc
 CCitadel_Modifier_UltimateBurst_ProcVData
+CCitadel_Modifier_UnicornGravity
 CCitadel_Modifier_Unicorn_DazzlingOrbNextTarget
 CCitadel_Modifier_Unicorn_DazzlingOrbNextTargetVData
 CCitadel_Modifier_Unicorn_PrismaticGuard
@@ -30944,7 +30957,6 @@ Ease In
 Ease In/Out
 Ease Out
 East
-Ecitadel_catapult_on_damage_channel_time
 EconEntityParticleDisableMode_t
 EconItemIconEnabled
 EconItemImage
@@ -32783,7 +32795,6 @@ HBJ\nTRF
 HDR Color Scale: %0.3f
 HDRColor
 HDRColorScale
-HDxd
 HEAD 
 HH&a
 HIERARCHY
@@ -33198,7 +33209,6 @@ HeroPurchaseBonus_t
 HeroQuickSearchFadeOutTime
 HeroReleaseVoteOption
 HeroReleaseVoteOptions
-HeroReleaseVotesRemainingToast
 HeroReveal
 HeroRevealManifest_global_client
 HeroRevealScene
@@ -37225,6 +37235,7 @@ NoTitle
 NoUnlockedHeroes
 NoVisibleBasicProperties
 NoWeaponDesc
+NoWeaponFalloffRange
 NoWindUpTime
 NoZipLine
 Node Movement
@@ -37906,14 +37917,13 @@ P-224
 P-256
 P-384
 P-521
-P08J 
-P08N41\v
+P08N$I\v
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
 P5[1
-P60P
-P6@o
+P6 h
+P6p[
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -38847,7 +38857,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
-Pn41\v
+Pn$I\v
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -41516,6 +41526,7 @@ Show Global Leaderboards
 Show HUD Telemetry Settings.
 Show Hero Labs Heroes in hero grid
 Show IK trace related details
+Show N/A for falloff numbers in gun panel.
 Show On Minimap
 Show POTG hud callout
 Show POTG hud intro
@@ -43845,7 +43856,6 @@ UI.Boss_UnderAttack_Ping
 UI.Cheat.Ban
 UI.Cheat.Frog
 UI.CommendConfirmation
-UI.HeroReleaseVotesRemainingToast
 UI.HeroSelection.Selected
 UI.Idol_Spawn_MapPing
 UI.ItemDraft.End
@@ -46884,8 +46894,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6PW
-`6pX
+`6Pn
 `:zQF
 `D$daM-l
 `DZG
@@ -46894,10 +46903,8 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`f41\v
 `fPw.\vM
 `h9T~
-`n41\v
 `o_je
 `yNT
 a null shared library handle was used
@@ -46915,7 +46922,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv41\v
+aBv$I\v
 aD/x
 aDSS
 aECDH
@@ -47691,6 +47698,7 @@ attach_ent_index
 attach_heal_fx
 attach_point_name
 attach_suitcase_fx
+attach_sword_fx
 attached
 attachedTo
 attached_soundevents
@@ -49197,6 +49205,7 @@ citadel_capture_point
 citadel_capture_point_enable_fast_capture
 citadel_capturepoint_show_event_timer
 citadel_cat_animating
+citadel_catapult_on_damage_channel_time
 citadel_catapult_on_damage_disable_time
 citadel_change_team
 citadel_chat_fade_time
@@ -52490,7 +52499,6 @@ f#9i\n
 f%wyLmX:
 f&dy
 f1cK%
-f41\v
 f45\r
 fBB\fy
 fC\tc
@@ -57552,7 +57560,6 @@ m_DamageTracker
 m_DamagedParticle
 m_DashBurstSound
 m_DashEchoParticle
-m_DashImpactEffect
 m_DashJumpParticle
 m_DashLineEffect
 m_DashModifier
@@ -59764,6 +59771,7 @@ m_bMovementInputActive
 m_bMoving
 m_bMultiplayer
 m_bMuzzleFlashEnabled
+m_bNAGunFalloffRange
 m_bNeedsBBoxUpdate
 m_bNeedsBeamReset
 m_bNeedsExplosion
@@ -60567,6 +60575,7 @@ m_flActivateDelay
 m_flActivatePressTime
 m_flActivateRange
 m_flActivationTime
+m_flActiveDashRangeWithHitTargets
 m_flActiveTime
 m_flActivesReductionWeightScale
 m_flActualGravityScale
@@ -60824,6 +60833,9 @@ m_flCachedCastTime
 m_flCachedSequenceCycleRate
 m_flCameraBackOffset
 m_flCameraBackOffsetAiming
+m_flCameraDashLagPct
+m_flCameraDashTurnSpeed
+m_flCameraDistToStartFollow
 m_flCameraEndPct
 m_flCameraFadeHold
 m_flCameraFadeIn
@@ -62084,6 +62096,7 @@ m_flRampUpTime
 m_flRandomSeed
 m_flRandomSpawnOffsetPerSummon
 m_flRange
+m_flRangeAtCast
 m_flRangeLength
 m_flRangeMax
 m_flRangeMin
@@ -62630,6 +62643,7 @@ m_flVertOffset
 m_flVerticalAimBias
 m_flVerticalAngleDegrees
 m_flVerticalAngleLimitDegrees
+m_flVerticalBoost
 m_flVerticalCameraOffset
 m_flVerticalCameraOffsetBias
 m_flVerticalCameraOffsetLerpTime
@@ -64190,11 +64204,11 @@ m_puddleAoeDamageFx
 m_qAngle
 m_qAngles
 m_qCastAngle
+m_qCurrDashCamAngle
 m_qForward
 m_qLastAngles
 m_qLaunchAngle
 m_qNoiseDelta
-m_qOriginalCamYawAngle
 m_qPostTeleportAngles
 m_qRelativeOffset
 m_quatMuzzleFlashOrientation
@@ -66987,6 +67001,7 @@ modifier_ult_combo_target
 modifier_ultimate_burst_delayed_effect
 modifier_ultimate_burst_proc
 modifier_unicorn_dazzling_orb_next_target
+modifier_unicorn_gravity
 modifier_unicorn_luminousstrike_buff
 modifier_unicorn_prismatic_guard
 modifier_unicorn_radiant_flare_damage
@@ -67176,7 +67191,6 @@ n does not equal p q
 n-resize
 n0?X
 n1Z 
-n41\v
 n5cM
 n6j/
 n:2C[
@@ -67946,8 +67960,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^41\v
-p0j0Q
+p08@H^$I\v
+p0j i
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67965,8 +67979,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6PF
-p>41\v
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -68758,7 +68770,7 @@ playsoundscape
 playtime_2weeks
 playtime_forever
 plum
-pn41\v
+pn$I\v
 pngsize
 point
 point arithmetic failure
@@ -72667,7 +72679,6 @@ v2i_ASN1_BIT_STRING
 v2i_GENERAL_NAMES
 v2i_GENERAL_NAME_ex
 v3\vt
-v41\v
 v8.dll
 v8array
 v8callback
@@ -73195,9 +73206,9 @@ z-index
 z-offset
 z/B,9d
 z<d2
+z>80
 z>Hz
 z?ff
-zDCCitadelModifierItemPickupTimerVData
 zF):O4
 zFar
 zG2m8

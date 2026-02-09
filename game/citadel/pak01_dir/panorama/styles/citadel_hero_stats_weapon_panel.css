@@ -54,6 +54,29 @@ CitadelHeroStatsWeapon
 	background-color: #00000000;
 }
 
+#NAWeaponRangeContainer
+{
+	visibility: collapse;
+}
+
+#NAWeaponRangeLabel
+{
+	horizontal-align: center;
+	font-weight: semi-bold;
+	padding: 5px;
+}
+
+.NoWeaponFalloffRange #NAWeaponRangeContainer
+{
+	width: 100%;
+	visibility: visible;
+}
+
+.NoWeaponFalloffRange #StatContainer_WeaponRangeFalloffMin,.NoWeaponFalloffRange #StatContainer_WeaponRangeFalloffMax,.NoWeaponFalloffRange .RangeArrow
+{
+	visibility: collapse;
+}
+
 #BulletDPSContainer
 {
 	horizontal-align: right;

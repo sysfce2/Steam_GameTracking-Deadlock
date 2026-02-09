@@ -6,6 +6,7 @@ CitadelHudModifiers_Entry
 	height: fit-children;
 	margin-bottom: 5px;
 	margin-top: 5px;
+	horizontal-align: middle;
 	animation-name: Anim_Stamp;
 	animation-iteration-count: 1;
 	animation-duration: 0.2s;

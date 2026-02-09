@@ -21,6 +21,7 @@ CitadelHudModifiers_Entry.buff,CitadelHudModifiers_Entry.debuff
 
 #BuffModifiers,#DebuffModifiers
 {
+	width: 100%;
 	flow-children: up;
 	horizontal-align: center;
 }
