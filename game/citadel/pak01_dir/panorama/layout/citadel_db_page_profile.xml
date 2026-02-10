@@ -163,27 +163,27 @@
 								<Panel class="StatRow">
 									<Panel id="GamesPlayedContainer" class="TextStat largeStat">
 										<Label class="statValue" text="{i:games_played}" />
-										<Label class="statLabel" text="#Citadel_Profile_Stats_GamesPlayed" />
+										<Label class="statLabel" text="#Citadel_Profile_Stats_GamesPlayed:f" />
 									</Panel>
 									<Panel id="GamesWonContainer" class="TextStat largeStat">
 										<Label class="statValue" text="{i:games_won}" />
-										<Label class="statLabel" text="#Citadel_Profile_Stats_GamesWon" />
+										<Label class="statLabel" text="#Citadel_Profile_Stats_GamesWon:f" />
 									</Panel>
 								</Panel>
 								<Panel class="StatRow">
 									<Panel id="LastHitsContainer" class="TextStat">
 										<Label class="statValue" text="{i:last_hits}" />
-										<Label class="statLabel" text="#Citadel_Profile_Stats_LastHits" />
+										<Label class="statLabel" text="#Citadel_Profile_Stats_LastHits:f" />
 									</Panel>
 									<Panel id="DeniesContainer" class="TextStat">
 										<Label class="statValue" text="{i:denies}" />
-										<Label class="statLabel" text="#Citadel_Profile_Stats_Denies" />
+										<Label class="statLabel" text="#Citadel_Profile_Stats_Denies:f" />
 									</Panel>
 								</Panel>
 								<Panel class="StatRow">
 									<Panel id="CommendsContainer" class="TextStat">
 										<Label class="statValue" text="{i:commend_count}" />
-										<Label class="statLabel" text="#Citadel_Profile_Stats_Commends" />
+										<Label class="statLabel" text="#Citadel_Profile_Stats_Commends:f" />
 									</Panel>
 								</Panel>
 							</Panel>

@@ -8445,7 +8445,6 @@ $prefix_element$
 ??YQString@@QEAAAEAV0@AEBV0@@Z
 ??YQString@@QEAAAEAV0@PEBD@Z
 ?DmeChannelsClip
-?Physics
 ?ToolScene
 ?Tools_Unlit_Opaque
 ?\f?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
@@ -14633,6 +14632,7 @@ Photoshop
 PhysFeModelDesc_t
 PhysShapeMarkup_t
 PhysSoftbodyDesc_t
+Physics
 Physics Debug Draw
 Physics Joint Modification Mode
 Physics Particle

@@ -17,7 +17,7 @@
 						<Label class="AbilityName" text="{s:damage_name}" />
 						<Panel class="ExtraInfoContainer">
 							<Panel class="killing_blow" />
-							<Label class="Hits" text="#Citadel_HUD_DamageRows_Hits" />
+							<Label class="Hits" text="#Citadel_HUD_DamageRows_Hits:f" />
 							<Label class="Adjusted PercentDecreased" html="true" text="#Citadel_HUD_DamageRows_PercentDecreased" />
 							<Label class="Adjusted PercentIncreased" html="true" text="#Citadel_HUD_DamageRows_PercentIncreased" />
 						</Panel>

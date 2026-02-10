@@ -473,8 +473,6 @@ CitadelHudModifierIcons
 	width: fit-children;
 	visibility: collapse;
 	flow-children: down;
-	height: 48px;
-	text-overflow: shrink;
 }
 
 .action_binding

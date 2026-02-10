@@ -1169,7 +1169,7 @@
 							<Panel class="SettingLabel LeftRightFlow">
 								<Image id="ControllerIcon" class="IconLeft" texturewidth="24px" textureheight="24px" src="s2r://panorama/images/icons/controller.vsvg" />
 								<Panel class="TopBottomFlow">
-									<Label id="" class="InfoLabel" text="#citadel_settings_steam_input_config" />
+									<Label id="" class="InfoLabel" text="#citadel_settings_steam_input_config:f" />
 									<Label id="" class="SettingSubLabel" text="Connected" />
 								</Panel>
 							</Panel>

@@ -278,6 +278,7 @@ CitadelPostGameProgressMVP
 	font-family: oracle;
 	color: offWhite;
 	margin-top: -8px;
+	tooltip-position: bottom;
 }
 
 .MVPDetails #MVPCommendButton
@@ -516,6 +517,7 @@ CitadelPostGameProgressMVP
 	max-width: 240px;
 	text-overflow: shrink;
 	height: 32px;
+	tooltip-position: bottom;
 }
 
 .MVPHonorableMention .Footer .CommendButton

@@ -60,7 +60,7 @@
 				<Panel class="BindingLabel">
 					<Label class="ShopSummaryLabel" text="#Citadel_Hud_Quickbuy" />
 				</Panel>
-				<Label class="ItemsReadyLabel" text="#Citadel_Hud_Quickbuy_ShopSummaryItemsInQueue" />
+				<Label class="ItemsReadyLabel" text="#Citadel_Hud_Quickbuy_ShopSummaryItemsInQueue:f" />
 			</Panel>
 		</Panel>
 	</Panel>

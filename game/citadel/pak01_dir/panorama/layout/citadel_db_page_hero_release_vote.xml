@@ -29,7 +29,7 @@
 			<Panel class="PageTitle">
 				<Label text="#Citadel_HeroReleaseVote_Title" />
 			</Panel>
-			<Label class="RemainingVotes" text="#Citadel_HeroReleaseVote_RemainingVotes" html="true" />
+			<Label class="RemainingVotes" text="#Citadel_HeroReleaseVote_RemainingVotes:f" html="true" />
 			<Label class="HowToGet" text="#Citadel_HeroReleaseVote_HowToGet" html="true" />
 			<Label class="HowToGetBonus" text="#Citadel_HeroReleaseVote_HowToGetBonus" html="true" />
 		</Panel>

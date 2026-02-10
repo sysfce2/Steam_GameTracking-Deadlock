@@ -158,7 +158,7 @@
 .?AVILocalize@@
 .?AVILocalizeCompiledString@@
 /resource/valve_
-2\vpH
+2\vp8
 :help
 :name_ref
 :shorthelp
@@ -212,6 +212,7 @@ Compatibility contexts on loc tokens are no longer supported, use a MessageForma
 CompiledMFString
 Czech
 Danish
+DisallowTokenContexts
 Duplicate load of loc file '%s'\n
 DuplicateFileLoadFail
 DuplicateTokensAssert
@@ -302,7 +303,7 @@ PERF WARNING: '%s' is in UTF-16 format, converting to UTF-8 will allow faster lo
 Plural context: %s\n
 Polish
 Portuguese
-R\fpH
+R\fp8
 Romanian
 Russian
 Simplified_Chinese
@@ -395,7 +396,7 @@ polish
 portuguese
 pt_BR
 pt_PT
-r\vpH
+r\vp8
 resource/countries_%language%.txt
 resource/valve_
 resource/valve_%language%.txt

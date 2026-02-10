@@ -414,8 +414,8 @@
 		"Citadel_Hud_Quickbuy_Delete_Tooltip"						"Remove from Queue"
 		"Citadel_Hud_Quickbuy_Exceeds_Slots"						"Slots Full"
 		"Citadel_Hud_Quickbuy_Sell_Slot"							"Marked for Sell"
-		"Citadel_Hud_Quickbuy_ShopSummaryItemsReady:p{items_ready}"				"{i:items_ready} Item#|#{i:items_ready} Items"
-		"Citadel_Hud_Quickbuy_ShopSummaryItemsInQueue:p{queue_size}"				"{i:queue_size} Item#|#{i:queue_size} Items"
+		"Citadel_Hud_Quickbuy_ShopSummaryItemsReady:f"				"{i:items_ready} {items_ready, plural, one{Item} other{Items}}"
+		"Citadel_Hud_Quickbuy_ShopSummaryItemsInQueue:f"			"{i:queue_size} {queue_size, plural, one{Item} other{Items}}"
 		
 		"CitadelComponentGroup_EBulletVelocity"				"Bullet Velocity"
 		"CitadelComponentGroup_EMagazines"					"Magazines"
@@ -699,7 +699,7 @@
 		"Citadel_StreetBrawl_Draft_Title"			"Select Items"
 		"Citadel_StreetBrawl_Draft_Choice"			"Choice {d:item_draft_round} of {d:item_draft_rounds_total}"
 		"Citadel_StreetBrawl_Draft_ReRoll_Btn"		"Use Re-Roll"
-		"Citadel_StreetBrawl_Draft_ReRoll_Desc:p{rerolls}"		"{i:rerolls} Re-Roll Remaining#|#{i:rerolls} Re-Rolls Remaining"
+		"Citadel_StreetBrawl_Draft_ReRoll_Desc:f"	"{i:rerolls} {rerolls, plural, one{Re-Roll} other{Re-Rolls}} Remaining"
 		"Citadel_StreetBrawl_Draft_Skip_Btn"		"Skip Item"
 
 		"Citadel_StreetBrawl_Overtime_Title"		"Overtime"
@@ -720,7 +720,7 @@
 		"Citadel_StreetBrawl_Tooltip_Modified"		"= Value adjusted for Street Brawl"
 
 		"Citadel_MatchmakingSchedule"							"Update:"
-		"Citadel_MatchmakingSchedule_Desc"							"Matchmaking now open 24/7!"
+		"Citadel_MatchmakingSchedule_Desc"						"Matchmaking now open 24/7!"
 
 		//Survey
 		"Citadel_Survey_Skip"									"Skip"
@@ -936,7 +936,7 @@
 		"Citadel_JoinParty_Title"									"Join Party"
 		"Citadel_JoinParty_Desc"									"If you’ve been sent a party code, please input the code below."
 		"Citadel_JoinParty_Prompt"									"Party ID"
-		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteHeaderText\">Party Invite</span>#|#<span class=\"InviteHeaderText\">Party Invites</span>"
+		"Citadel_Party_Invites:f"									"<span class=\"InviteHeaderText\">Party {party_invites, plural, one{Invite} other{Invites}}</span>"
 		"Citadel_PartyStartMatch"									"Start Match"
 		"Citadel_PartyFindMatch"									"Find Match"
 		"Citadel_Party_CreateEasyBot"								"Create a party that you can invite your friends to in order to play together against easy bots"
@@ -1074,7 +1074,7 @@
 		"Citadel_PauseMsg_UnpauseCountdown"							"Unpausing in {i:value}..."
 		"Citadel_PauseMsg_Unpaused"									"{s:player} resumed the game."
 		"Citadel_PauseMsg_AutoUnpaused"								"Game was automatically resumed."
-		"Citadel_PauseMsg_YouPaused:p{value}"						"You paused the game, you have {i:value} pause remaining.#|#You paused the game, you have {i:value} pauses remaining."
+		"Citadel_PauseMsg_YouPaused:f"								"You paused the game, you have {i:value} {value, plural, one{pause} other{pauses}} remaining."
 		"Citadel_PauseMsg_CantUnpauseTeam"							"You can not resume the game on this team yet."
 		"Citadel_PauseMsg_UnpauseButton"							"Press{g:citadel_binding:'Pause'}to unpause"
 		"Citadel_ChatMsg_CommsRestricted"							"You are currently Communication Restricted, your messages will not be sent."
@@ -1263,7 +1263,7 @@
 		"Citadel_HUD_DamageReport_Title"							"Damage Report"
 		"Citadel_HUD_DamageReport_DamageReceived"					"Incoming Damage"
 		"Citadel_HUD_DamageReport_DamageDealt"						"Outgoing Damage"
-		"Citadel_HUD_DamageReport_TopDamageSources:p{num_damage_rows}"	"Top Damage Source#|#Top {i:num_damage_rows} Damage Sources"
+		"Citadel_HUD_DamageReport_TopDamageSources:f"				"{num_damage_rows, plural, one{Top Damage Source} other{Top {i:num_damage_rows} Damage Sources}}"
 		"Citadel_HUD_DamageReport_ShowMore"							"Show More"
 		"Citadel_HUD_DamageReport_DamageByHero"						"Damage By Hero"
 
@@ -1311,7 +1311,7 @@
 
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
-		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"x{i:hit_count} #|#x{i:hit_count}"
+		"Citadel_HUD_DamageRows_Hits:f"								"x{i:hit_count}{hit_count, plural, one{ } other{}}"
 		"Citadel_HUD_DamageRows_PercentDecreased"					"-{i:percent_adjusted}%"
 		"Citadel_HUD_DamageRows_PercentIncreased"					"+{i:percent_adjusted}%"
 
@@ -1325,7 +1325,7 @@
 
 		"Citadel_PrivilegedFeatures_LowPriority_Title"				"Low Priority Matchmaking"
 		"Citadel_PrivilegedFeatures_LowPriority_InactiveTitle"		"Matchmaking"
-		"Citadel_PrivilegedFeatures_LowPriority_Active:p{low_priority_games_remaining}"		"You have {i:low_priority_games_remaining} win left in Low Priority Matchmaking.#|#You have {i:low_priority_games_remaining} wins left in Low Priority Matchmaking."
+		"Citadel_PrivilegedFeatures_LowPriority_Active:f"			"You have {i:low_priority_games_remaining} {low_priority_games_remaining, plural, one{win} other{wins}} left in Low Priority Matchmaking."
 		"Citadel_PrivilegedFeatures_LowPriority_Inactive"			"Players who intentionally grief or abandon matches will be put into a separate Low Priority Matchmaking queue, which when active, will only match you with other players who also have Low Priority Matchmaking."
 
 		"Citadel_PrivilegedFeatures_ReportingDisabled_Title"		"Reporting Disabled"
@@ -1469,7 +1469,7 @@
 		"Citadel_Matchmaking_WaitingForParty"						"Waiting for Party"
 		"Citadel_Matchmaking_SearchingForMatch"						"Finding"
 		"Citadel_Matchmaking_ConnectingToServer"					"Connecting to Server"
-		"Citadel_Matchmaking_PartyMembersReady:p"					"{d:ready_party_members} / {d:party_members}#|#{d:ready_party_members} / {d:party_members}"
+		"Citadel_Matchmaking_PartyMembersReady:f"					"{d:ready_party_members} / {d:party_members}"
 		"Citadel_Matchmaking_ElapsedTime"							"{s:queue_time}"
 		"Citadel_Matchmaking_InteractHint"							"{g:citadel_binding:'OpenMainMenu'} to Cancel Search"
 		"Citadel_Matchmaking_HideoutCancelHint"						"Hold {g:citadel_binding:'HideoutCancelMatchmaking'} to Cancel Search"
@@ -1557,7 +1557,7 @@
 
 		"Citadel_Watch_Page_NetWorthTeam0"							"{d:net_worth_team_0}k"
 		"Citadel_Watch_Page_NetWorthTeam1"							"{d:net_worth_team_1}k"
-		"Citadel_Watch_Page_Spectators:p{spectators}"				"{d:spectators} Spectator#|#{d:spectators} Spectators"
+		"Citadel_Watch_Page_Spectators:f"							"{d:spectators} {spectators, plural, one{Spectator} other{Spectators}}"
 		"Citadel_Watch_Page_FriendInMatch"							"Steam Friend in Match"
 		"Citadel_Watch_Page_MatchID"								"ID: {s:match_id}"
 		"Citadel_Watch_FriendsCheckbox"								"Friends Only"
@@ -1607,7 +1607,7 @@
 		"Citadel_JoinOrCreateParty_CreateParty"					"Create Code"
 		"Citadel_JoinOrCreateParty_CopyPartyCode"				"Copy Code"
 		"Citadel_JoinOrCreateParty_SelectAddFriend"				"Invite a friend"
-		"Citadel_JoinOrCreateParty_FriendsInGame:p{friend_count}"				"{d:friend_count} friend playing Deadlock#|#{d:friend_count} friends playing Deadlock"
+		"Citadel_JoinOrCreateParty_FriendsInGame:f"				"{d:friend_count} {friend_count, plural, one{friend} other{friends}} playing Deadlock"
 
 		"Citadel_FriendCode_Title"								"Friend Code"
 		"Citadel_FriendCode_AddFriendLabel"						"Enter Friend Code"
@@ -1766,17 +1766,17 @@
 		"Citadel_Profile_Skill_Arrow_Tooltip_0"					"Play this hero to calibrate Skill Rating"
 		"Citadel_Profile_Stats_All"								"All Heroes"
 		"Citadel_Profile_Stats_TitleSection"					"All Time Stats"
-		"Citadel_Profile_Stats_GamesPlayed:p{games_played}"		"Game Played#|#Games Played"
-		"Citadel_Profile_Stats_GamesWon:p{games_won}"			"Game Won#|#Games Won"
-		"Citadel_Profile_Stats_Kills:p"							"Kill#|#Kills"
-		"Citadel_Profile_Stats_Assists:p"						"Assist#|#Assists"
-		"Citadel_Profile_Stats_HeroDamage:p"					"Hero Damage#|#Hero Damage"
-		"Citadel_Profile_Stats_ObjDamage:p"						"Objective Damage#|#Objective Damage"
-		"Citadel_Profile_Stats_LastHits:p{last_hits}"			"Last Hit#|#Last Hits"
-		"Citadel_Profile_Stats_Denies:p{denies}"				"Deny#|#Denies"
-		"Citadel_Profile_Stats_Healing:p"						"Healing#|#Healing"
-		"Citadel_Profile_Stats_Commends:p{commend_count}"		"Commend#|#Commends"
-		"Citadel_Profile_Stats_Networth:p"						"Soul Collected#|#Souls Collected"
+		"Citadel_Profile_Stats_GamesPlayed:f"					"{games_played, plural, one{Game} other{Games}} Played"
+		"Citadel_Profile_Stats_GamesWon:f"						"{games_won, plural, one{Game} other{Games}} Won"
+		"Citadel_Profile_Stats_Kills:f"							"{stat_value, plural, one{Kill} other{Kills}}"
+		"Citadel_Profile_Stats_Assists:f"						"{stat_value, plural, one{Assist} other{Assists}}"
+		"Citadel_Profile_Stats_HeroDamage:f"					"Hero Damage"
+		"Citadel_Profile_Stats_ObjDamage:f"						"Objective Damage"
+		"Citadel_Profile_Stats_LastHits:f"						"{last_hits, plural, one{Last Hit} other{Last Hits}}"
+		"Citadel_Profile_Stats_Denies:f"						"{denies, plural, one{Deny} other{Denies}}"
+		"Citadel_Profile_Stats_Healing:f"						"Healing"
+		"Citadel_Profile_Stats_Commends:f"						"{commend_count, plural, one{Commend} other{Commends}}"
+		"Citadel_Profile_Stats_Networth:f"						"{stat_value, plural, one{Soul} other{Souls}} Collected"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
 		"Citadel_Profile_Stats_SortBy"							"Sort By:"
@@ -1844,6 +1844,9 @@
 		"Citadel_MatchDetails_GraphType"						"Graph Type:"
 		"Citadel_MatchDetails_StatsAt"							"Stats at {s:sample_time}"
 		"Citadel_MatchDetails_Objectives"						"Objectives"
+
+		"Citadel_MatchEnd_Title"								"Match Cancelled"
+		"Citadel_MatchEnd_Subtitle"								"Returning to Hideout"
 
 		"Citadel_GraphGroup_General"							"General"
 		"Citadel_GraphGroup_Player"								"Player-Specific"
@@ -1958,7 +1961,7 @@
 		"Citadel_Watch_Page_SpectateFull"				"Spectating full"
 		"Citadel_Watch_Page_ViewAllMatches"				"View all Matches"
 		"Citadel_Watch_Page_ViewFeaturedMatches"		"View Featured Matches"
-		"Citadel_WatchPage_ActiveMatches:p{ActiveMatchCount}"				"{d:ActiveMatchCount} Active Match#|#{d:ActiveMatchCount} Active Matches"
+		"Citadel_WatchPage_ActiveMatches:f"				"{d:ActiveMatchCount} Active {ActiveMatchCount, plural, one{Match} other{Matches}}"
 
 		// Post Game
 		"Citadel_Post_Game_MostKills"					"Most Kills"
@@ -2981,7 +2984,7 @@
 		"citadel_reset_controller"						"Reset Controller Settings?"
 		"citadel_confirm_reset_controller"				"Are you sure you want to restore default button glyph settings?"
 
-		"citadel_settings_steam_input_config:p{controller_count}"				"{d:controller_count} Controller#|#{d:controller_count} Controllers"
+		"citadel_settings_steam_input_config:f"			"{d:controller_count} {controller_count, plural, one{Controller} other{Controllers}}"
 		"citadel_settings_steam_input"						"Controller Options"
 		"citadel_settings_steam_input_no_controller"		"Controller not detected"
 		"citadel_settings_steam_input_open_configurator"	"Open Steam Settings"
@@ -3000,8 +3003,8 @@
 		"citadel_settings_glyph_universal_tooltip"			"Show generic controller button icons regardless of the type of controller connected."
 		"citadel_settings_keybind_unbound"					"[?]"
 
-		"citadel_settings_keybind_unbound_warning_title"					"Prior Binding Removed"
-		"citadel_settings_keybind_unbound_warning_body:p{num_conflicts}"	"You have saved one or more keybinds that were previously assigned to another command:<br><br><span class=\"h4 CriticalText\">{s:existing_binding_primary}{s:existing_binding_secondary}</span><br><br>Please be sure to rebind this command.#|#You have saved keybinds that were previously associated with other commands:<br><br><span class=\"h4 CriticalText\">{s:existing_binding_primary}<br>{s:existing_binding_secondary}</span><br><br>Please be sure to rebind these commands."
+		"citadel_settings_keybind_unbound_warning_title"	"Prior Binding Removed"
+		"citadel_settings_keybind_unbound_warning_body:f"	"{num_conflicts, plural, one{You have saved one or more keybinds that were previously assigned to another command:<br><br><span class=\"h4 CriticalText\">{s:existing_binding_primary}{s:existing_binding_secondary}</span><br><br>Please be sure to rebind this command.} other{You have saved keybinds that were previously associated with other commands:<br><br><span class=\"h4 CriticalText\">{s:existing_binding_primary}<br>{s:existing_binding_secondary}</span><br><br>Please be sure to rebind these commands.}}"
 
 		"Citadel_GraphicsDriverWarning_Title"			"Warning: Graphics Driver Out-of-Date"
 		"Citadel_GraphicsDriverOutOfDateWarning_AMD"	"For an optimal gameplay experience, please visit AMD support to download the latest driver."
@@ -3069,7 +3072,7 @@
 		"citadel_keybind_popup_confirm"				"Confirm"
 		"citadel_keybind_popup_ignore_conflict"		"Bind Anyway"
 		"citadel_keybind_popup_conflict_name"		"{s:first_command}"
-		"citadel_keybind_popup_conflict_list:p{numAdditional}"		"{s:first_command} + {d:numAdditional} more#|#{s:first_command} + {d:numAdditional} more"
+		"citadel_keybind_popup_conflict_list:f"		"{s:first_command} + {d:numAdditional} more"
 
 		"citadel_keybind_alt"							"ALT"
 		"citadel_keybind_shift"							"SHIFT"
@@ -3362,8 +3365,8 @@
 
 		"team_msg_Idol_Desc"	"Soul Urn"
 
-		"Citadel_GameOver_Victory:g"	"Victory"
-		"Citadel_GameOver_Defeat:g"		"Defeat"
+		"Citadel_GameOver_Victory:f"	"Victory"
+		"Citadel_GameOver_Defeat:f"		"Defeat"
 
 
 		"Citadel_LaneColorPurple"						"Purple"
@@ -3504,7 +3507,7 @@
 		"menu_play_browse_shop_desc"				"Browse all items in the shop and get ready for your next match!"
 		//"menu_play_learn_to_play_desc"			"Watch the tutorial then follow it up with some hero sandbox and lane training."
 		"menu_play_matchmaking"						"Play a standard match against other players"
-		"menu_play_low_priority_matchmaking:p{low_pri_games_remaining}"		"Your party is in the Low Priority matchmaking queue as a result of you or a party member abandoning matches or inappropriate behavior reported by other players. <br><br>You must win <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span> game in the Low Priority queue or remove the penalized party member to return to normal matchmaking.#|#Your party is in the Low Priority matchmaking queue as a result of you or a party member abandoning matches or inappropriate behavior reported by other players. <br><br>You must win <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span> games in the Low Priority queue or remove the penalized party member to return to normal matchmaking."
+		"menu_play_low_priority_matchmaking:f"		"Your party is in the Low Priority matchmaking queue as a result of you or a party member abandoning matches or inappropriate behavior reported by other players. <br><br>You must win <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span> {low_pri_games_remaining, plural, one{game} other{games}} in the Low Priority queue or remove the penalized party member to return to normal matchmaking."
 		"menu_learn_incomplete"						"Incomplete"
 		"menu_learn_completed"						"Completed"
 
@@ -4302,16 +4305,16 @@
 		"Citadel_HeroReleaseVote_Countdown" "<b>{t:d:t:countdown_time}</b> until next hero unlocks"
 		"Citadel_HeroReleaseVote_HowToGet" "Play a Standard Match or Street Brawl to earn votes."
 		"Citadel_HeroReleaseVote_HowToGetBonus" "Your first win of the day gives you 4 additional votes."
-		"Citadel_HeroReleaseVote_RemainingVotes:p{remaining_votes}" "You have <b>{d:remaining_votes}</b> <b>VOTE</b> to cast#|#You have <b>{d:remaining_votes}</b> <b>VOTES</b> to cast"
+		"Citadel_HeroReleaseVote_RemainingVotes:f" "You have <b>{d:remaining_votes}</b> <b>{remaining_votes, plural, one{VOTE} other{VOTES}}</b> to cast"
 		"Citadel_HeroReleaseVote_VoteButton" "Vote"
 		"Citadel_HeroReleaseVote_VoteCounter" "Your Total"
 		"Citadel_HeroReleaseVote_Unlocked" "Unlocked"
 
 		"Citadel_HeroReleaseVote_World" "Vote"
 		"Citadel_HeroReleaseVote_World_HasVotes" "Vote"
-		"Citadel_HeroReleaseVote_World_RemainingVotes:p{remaining_votes}" "{d:remaining_votes} vote to cast#|#{d:remaining_votes} votes to cast"
+		"Citadel_HeroReleaseVote_World_RemainingVotes:f" "{d:remaining_votes} {remaining_votes, plural, one{vote} other{votes}} to cast"
 
-		"Citadel_HeroReleaseVote_Toast_HasVotes:p{remaining_votes}" "You have {d:remaining_votes} hero unlock vote.<br />Cast it at the hideout ballot box.#|#You have {d:remaining_votes} hero unlock votes.<br />Cast them at the hideout ballot box."
+		"Citadel_HeroReleaseVote_Toast_HasVotes:f" "You have {d:remaining_votes} hero unlock {remaining_votes, plural, one{vote} other{votes}}.<br />Cast {remaining_votes, plural, one{it} other{them}} at the hideout ballot box."
 	
 		"Citadel_HeroReleaseVote_Reveal_Title" "THE VOTES are in..."
 		"Citadel_HeroReleaseVote_Reveal_Introducting" "Introducing"

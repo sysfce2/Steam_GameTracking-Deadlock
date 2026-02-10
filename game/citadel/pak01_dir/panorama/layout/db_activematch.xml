@@ -58,7 +58,7 @@
 							<Panel class="SteamFriendIcon" />
 						</Panel>
 						<Panel id="SpectatorCount">
-							<Label class="spectator_count" text="#Citadel_Watch_Page_Spectators" />
+							<Label class="spectator_count" text="#Citadel_Watch_Page_Spectators:f" />
 						</Panel>
 					</Panel>
 				</Panel>

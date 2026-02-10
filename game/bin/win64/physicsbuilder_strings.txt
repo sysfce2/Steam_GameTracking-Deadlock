@@ -6857,7 +6857,6 @@ $prefix_element$
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
-@APhysics
 @Integer overflow in %s
 @ToolsStartup
 @m_vCenter
@@ -10138,6 +10137,7 @@ Photoshop
 PhysFeModelDesc_t
 PhysShapeMarkup_t
 PhysSoftbodyDesc_t
+Physics
 Physics Joint Modification Mode
 Physics Particle
 Physics Prop

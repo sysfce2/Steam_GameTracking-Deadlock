@@ -116,8 +116,7 @@
  <b>@import</b> 
  ACTIVE GROUP
  AInvalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
- ApR
- CCitadelTeamRelativeParticleSettings_t
+ CCitadelCameraSettings_t
  C_PhysPropClientside::Spawn: SetupPhysicsAsModel() failed for %s.\n
  FLK
  FWa
@@ -565,8 +564,8 @@
 #Citadel_GC_nosteam
 #Citadel_GC_steamupdating
 #Citadel_GC_updating
-#Citadel_GameOver_Defeat:g
-#Citadel_GameOver_Victory:g
+#Citadel_GameOver_Defeat:f
+#Citadel_GameOver_Victory:f
 #Citadel_GenericError_DurationControlBlocked
 #Citadel_GenericError_InvalidClientVersion
 #Citadel_GenericError_RegionInfoNotProvided
@@ -790,7 +789,7 @@
 #Citadel_MatchmakingStopped_Reason_VersionUpdated
 #Citadel_Matchmaking_ConnectingToServer
 #Citadel_Matchmaking_ElapsedTime
-#Citadel_Matchmaking_PartyMembersReady:p
+#Citadel_Matchmaking_PartyMembersReady:f
 #Citadel_Matchmaking_SearchingForMatch
 #Citadel_Matchmaking_WaitingForParty
 #Citadel_ModBonus_ArmorInvestment
@@ -944,7 +943,6 @@
 #Citadel_PostGame_AwardAbilityKills
 #Citadel_PostGame_AwardAssists
 #Citadel_PostGame_AwardHeadshotKills
-#Citadel_PostGame_AwardHealing
 #Citadel_PostGame_AwardKills
 #Citadel_PostGame_AwardMaxKillstreak
 #Citadel_PostGame_AwardMeleeKills
@@ -972,7 +970,7 @@
 #Citadel_PrivateLobby_StartPrompt_Title
 #Citadel_PrivilegedFeatures_CommsRestricted_Active
 #Citadel_PrivilegedFeatures_CommsRestricted_Inactive
-#Citadel_PrivilegedFeatures_LowPriority_Active
+#Citadel_PrivilegedFeatures_LowPriority_Active:f
 #Citadel_PrivilegedFeatures_LowPriority_Inactive
 #Citadel_PrivilegedFeatures_PausingDisabled_Inactive
 #Citadel_PrivilegedFeatures_ReportingDisabled_Active
@@ -985,12 +983,12 @@
 #Citadel_Profile_NotScored
 #Citadel_Profile_Skill_Arrow_Tooltip_%i
 #Citadel_Profile_Stats_All
-#Citadel_Profile_Stats_Assists:p
-#Citadel_Profile_Stats_Healing:p
-#Citadel_Profile_Stats_HeroDamage:p
-#Citadel_Profile_Stats_Kills:p
-#Citadel_Profile_Stats_Networth:p
-#Citadel_Profile_Stats_ObjDamage:p
+#Citadel_Profile_Stats_Assists:f
+#Citadel_Profile_Stats_Healing:f
+#Citadel_Profile_Stats_HeroDamage:f
+#Citadel_Profile_Stats_Kills:f
+#Citadel_Profile_Stats_Networth:f
+#Citadel_Profile_Stats_ObjDamage:f
 #Citadel_Profile_Stats_Value_Networth_High
 #Citadel_Profile_Stats_Value_Networth_Low
 #Citadel_Profile_Win
@@ -1470,7 +1468,7 @@
 #citadel_settings_keybind_category_confirm_reset
 #citadel_settings_keybind_category_reset
 #citadel_settings_keybind_hero_name
-#citadel_settings_keybind_unbound_warning_body
+#citadel_settings_keybind_unbound_warning_body:f
 #citadel_settings_keybind_unbound_warning_title
 #citadel_settings_keybinddefaults
 #citadel_settings_language
@@ -1935,7 +1933,6 @@ $hRh
 %s Received GameSystem event GameShutdown.\n
 %s Received GameSystem event PostInit. Registering game events.\n
 %s Received IGameEvent: '%s'.\n
-%s Received UserMsg event 'OnTeamRewardsReceived': %s.\n
 %s Received UserMsg event 'PlayerLifetimeStatInfo': 'end_of_match' true.\n
 %s Received `UserMsg event 'HeroKilled', viewing as player.\n
 %s Received game lobby assigned.\n
@@ -2443,7 +2440,6 @@ $hRh
 (0x%08X)'??'
 (5Me
 (5jP
-(?PulseCursorCancelPriority_t
 (ACTIVE)
 (App Id to retrieve published files from.
 (BZq
@@ -3808,7 +3804,6 @@ $hRh
 .?AV<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCCitadelUserMsg_StaminaConsumed_t@@@@EEAAXAEBVCCitadelUserMsg_StaminaConsumed_t@@@Z@
 .?AV<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCCitadelUserMsg_StreetBrawlScoring_t@@@@EEAAXAEBVCCitadelUserMsg_StreetBrawlScoring_t@@@Z@
 .?AV<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCCitadelUserMsg_TeamMsg_t@@@@EEAAXAEBVCCitadelUserMsg_TeamMsg_t@@@Z@
-.?AV<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCCitadelUserMsg_TeamRewards_t@@@@EEAAXAEBVCCitadelUserMsg_TeamRewards_t@@@Z@
 .?AV<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCCitadelUserMsg_TriggerDamageFlash_t@@@@EEAAXAEBVCCitadelUserMsg_TriggerDamageFlash_t@@@Z@
 .?AV<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCEntityMessageRemoveAllDecals_t@@@@EEAAXAEBVCEntityMessageRemoveAllDecals_t@@@Z@
 .?AV<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCUserMessageAudioParameter_t@@@@EEAAXAEBVCUserMessageAudioParameter_t@@@Z@
@@ -4472,7 +4467,6 @@ $hRh
 .?AV?$CGameMessageDelegateHook@VCCitadelUserMsg_StaminaConsumed_t@@@@
 .?AV?$CGameMessageDelegateHook@VCCitadelUserMsg_StreetBrawlScoring_t@@@@
 .?AV?$CGameMessageDelegateHook@VCCitadelUserMsg_TeamMsg_t@@@@
-.?AV?$CGameMessageDelegateHook@VCCitadelUserMsg_TeamRewards_t@@@@
 .?AV?$CGameMessageDelegateHook@VCCitadelUserMsg_TriggerDamageFlash_t@@@@
 .?AV?$CGameMessageDelegateHook@VCEntityMessageRemoveAllDecals_t@@@@
 .?AV?$CGameMessageDelegateHook@VCUserMessageAudioParameter_t@@@@
@@ -6130,6 +6124,7 @@ $hRh
 .?AV?$CNetworkVarBase@HVNetworkVar_m_iTeamSapphireScore@CStreetBrawlController@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_iTrophyCount@CCitadel_Item_TrophyCollector@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_iVaultState@C_NPC_Neutral_SinnersSacrifice@@@@
+.?AV?$CNetworkVarBase@HVNetworkVar_m_iWinningTeam@C_CitadelGameRules@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nAABBDirection@CCitadelSoundOpvarSetOBB@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nActiveCapturers@CCitadelTriggerCapturePoint@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nActivelyCapturingTeam@CCitadelTriggerCapturePoint@@@@
@@ -8976,7 +8971,6 @@ $hRh
 .?AV?$CUserCmdBaseHost@VCCitadelUserCmdPB@@@@
 .?AV?$CUserMessagePB@$0BCM@VCCitadelUserMessage_Damage@@$00@@
 .?AV?$CUserMessagePB@$0BCP@VCCitadelUserMsg_MapPing@@$00@@
-.?AV?$CUserMessagePB@$0BDA@VCCitadelUserMsg_TeamRewards@@$00@@
 .?AV?$CUserMessagePB@$0BDE@VCCitadelUserMsg_TriggerDamageFlash@@$00@@
 .?AV?$CUserMessagePB@$0BDF@VCCitadelUserMsg_AbilitiesChanged@@$00@@
 .?AV?$CUserMessagePB@$0BDG@VCCitadelUserMsg_RecentDamageSummary@@$00@@
@@ -9814,7 +9808,6 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCCitadelUserMsg_StaminaConsumed_t@@@@EEAAXAEBVCCitadelUserMsg_StaminaConsumed_t@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCCitadelUserMsg_StreetBrawlScoring_t@@@@EEAAXAEBVCCitadelUserMsg_StreetBrawlScoring_t@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCCitadelUserMsg_TeamMsg_t@@@@EEAAXAEBVCCitadelUserMsg_TeamMsg_t@@@Z@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCCitadelUserMsg_TeamRewards_t@@@@EEAAXAEBVCCitadelUserMsg_TeamRewards_t@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCCitadelUserMsg_TriggerDamageFlash_t@@@@EEAAXAEBVCCitadelUserMsg_TriggerDamageFlash_t@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCEntityMessageRemoveAllDecals_t@@@@EEAAXAEBVCEntityMessageRemoveAllDecals_t@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?BA@??Dispatch@?$CGameMessageDelegateHook@VCUserMessageAudioParameter_t@@@@EEAAXAEBVCUserMessageAudioParameter_t@@@Z@X$$V@std@@
@@ -10679,7 +10672,6 @@ $hRh
 .?AVCCitadelUserMsg_TeamMsg@@
 .?AVCCitadelUserMsg_TeamMsg_t@@
 .?AVCCitadelUserMsg_TeamRewards@@
-.?AVCCitadelUserMsg_TeamRewards_t@@
 .?AVCCitadelUserMsg_TriggerDamageFlash@@
 .?AVCCitadelUserMsg_TriggerDamageFlash_t@@
 .?AVCCitadelVScriptGameSystem@@
@@ -16785,6 +16777,7 @@ $hRh
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
 0W/5
+0X8\v
 0Z@q
 0\f504P
 0\n+k_EMsgClientToGCGetFriendGameStatusResponse
@@ -16818,7 +16811,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vTO\v
+0v$D\v
 0x%4.4x 
 0x%X
 0x%X 
@@ -17040,7 +17033,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpL3
+2\vpX8\v
 2^pV
 2a"l
 2bT~
@@ -17109,7 +17102,6 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4BX\f
 4Ch;
 4F0I
 4Mv8
@@ -17260,7 +17252,7 @@ $hRh
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
-8HTMLStopMousePanning
+8HTMLFormHasFocus
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
 8Name of the file to use as the published file's preview.
@@ -17372,9 +17364,9 @@ $hRh
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
+;Have closed caption Panorama panel perform depth testing against the scene
 ;LGEW
 ;Qo0
-;Show missing closecaptions (0 = no, 1 = devconsole, 2 = show in hud)
 ;\n6k_EMsgClientToGCGetLimitedItemPurchaseQuantityResponse
 ;\n7STEAMLEARN_INFERENCE_METADATA_ERROR_NO_PUBLISHED_CONFIG
 ;\n\fbook_rewards
@@ -17538,9 +17530,9 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CCitadel_Modifier_Necro_Gravestone_BuffVData
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelEditParty
+?CitadelMatchmakingStatus
+?Converted\n
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?EncodeBC7Blocks
@@ -17576,7 +17568,6 @@ $hRh
 ?expf
 ?ff&?333?
 ?gwL
-?hero_preview
 ?jOb
 ?m_flInvisLevel
 ?srJO
@@ -17585,12 +17576,14 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NTO\v
+@08N$D\v
 @0pp
-@6Pt
+@6Ph
+@6pg
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
+@HPX`hvp
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17606,15 +17599,13 @@ $hRh
 @\n\vPowerUpBuff
 @\tV_iswspace
 @absorigin_follow
+@citadel_napalm_projectile_show_debug
 @dKb]
-@fTO\v
 @fff>fff>fff>fff>
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
-@m_DashImpactEffect
 @n2w
-@nTO\v
 A bias on the lerp
 A comma separated list of hero IDs that hold the currently banned brawl roster heroes
 A comma separated list of hero IDs that hold the currently banned roster heroes
@@ -18763,7 +18754,6 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
-B>citadel_unit_status_hide_names
 BACK
 BAD ENUMERATED
 BAD INTEGER
@@ -20423,7 +20413,6 @@ CCitadelProjectileTouchVolume
 CCitadelProjectileTouchVolumeVData
 CCitadelProjectileTrackingParams
 CCitadelProjectile_ImmobilizeTrap
-CCitadelRecentDamage
 CCitadelReplayObserverHandler
 CCitadelRichPresence
 CCitadelScratchRenderTargetChangeSystem
@@ -21940,6 +21929,7 @@ CCitadel_Modifier_Nearby_Enemy_Boost
 CCitadel_Modifier_Necro_Ghoul_Explode
 CCitadel_Modifier_Necro_Ghoul_ExplodeVData
 CCitadel_Modifier_Necro_Gravestone_Buff
+CCitadel_Modifier_Necro_Gravestone_BuffVData
 CCitadel_Modifier_Necro_GunSearching
 CCitadel_Modifier_Necro_GunTether
 CCitadel_Modifier_Necro_GunTetherVData
@@ -26606,7 +26596,6 @@ CitadelCameraFOVOperationDef_t
 CitadelCameraHorizOffsetOperationDef_t
 CitadelCameraOperationDef_t
 CitadelCameraOperationsSequence_t
-CitadelCameraSettings_t
 CitadelCameraTargetPosOperationDef_t
 CitadelCameraVertOffsetOperationDef_t
 CitadelCancelFriendInvite
@@ -26687,6 +26676,7 @@ CitadelDiscordConfirmed
 CitadelDiscordCopyToClipboard
 CitadelDiscordInviteResponse
 CitadelEditMatchmakingRoster
+CitadelEditParty
 CitadelEnableCustomGraphics
 CitadelEnableCustomResolution
 CitadelEnglishHeroNamesConVarChanged
@@ -26697,7 +26687,6 @@ CitadelExitHeroSelection
 CitadelExitHeroSheet
 CitadelExitItemDraft
 CitadelExitUpgradeShop
-CitadelFadeOutAndExitGame
 CitadelFailedShopAction
 CitadelFindOpponentStateChanged
 CitadelFlexUnlockMessage
@@ -26725,6 +26714,7 @@ CitadelGameChatModeSelected
 CitadelGameLobbyUpdated
 CitadelGamePadBinding
 CitadelGamePadGlyph
+CitadelGameStateChanged
 CitadelGameStatePostProcessingManifest
 CitadelGenericData_t
 CitadelGoldHistory
@@ -26976,7 +26966,7 @@ CitadelMatchDetailsGraphStopHoverPlayer
 CitadelMatchDetailsReplayClicked
 CitadelMatchDetailsRetry
 CitadelMatchDetailsUpdated
-CitadelMatchEndScheduledUpdate
+CitadelMatchEndDisconnectFromAbandonedMatch
 CitadelMatchFormed
 CitadelMatchHistoryBlock
 CitadelMatchHistoryBlockLarge
@@ -26990,7 +26980,6 @@ CitadelMatchMetaDataAccessUpdated
 CitadelMatchMetadataManager
 CitadelMatchMetadataUpdated
 CitadelMatchReportsUpdated
-CitadelMatchmakingStatus
 CitadelMatchmakingStatusScheduledUpdate
 CitadelMidiNotePitch_t
 CitadelMinimapConvarChanged
@@ -27151,7 +27140,6 @@ CitadelPostGameSelectScreenIndex
 CitadelPostGameShowPlayerContextMenu
 CitadelPostHud
 CitadelPregameCountdown
-CitadelPregameFakeGameStateChanged
 CitadelPrevTipText
 CitadelPrewarmAssetsStatus
 CitadelPrewarmAssetsUpdated
@@ -27464,6 +27452,7 @@ CitadelSwitchSpectatorCameraToTopBarIndex
 CitadelTV: could not find entity with entindex: %d\n
 CitadelTVCamera
 CitadelTaggedSoundSettings_t
+CitadelTeamRelativeParticleSettings_t
 CitadelTeam_t
 CitadelTierBonusTooltip
 CitadelTipClicked
@@ -27975,7 +27964,6 @@ Convert from a world-space to local-space vector
 Convert radians (0-pi) to degrees (0-180)
 Convert team_relative_particle_cfg to CitadelTeamRelativeParticleSettings_t
 ConvertToDebrisWhenPossible
-Converted\n
 Cooldown
 CooldownClass
 CooldownLabel
@@ -32168,6 +32156,7 @@ FuseVariableIndex_t
 FuseVariableType_t
 FxRadius
 F|w)a]c
+G#Citadel_PostGame_AwardHealing
 G0Tv~:
 G1b1
 G2bQ
@@ -32219,7 +32208,6 @@ GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD
 GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET
 GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION
 GAME_PARTICLE_MANAGER_EVENT_UPDATE_TRANSFORM
-GAwardSouls
 GB=\nHB
 GBUFFER_ALBEDO
 GBUFFER_AO
@@ -32394,7 +32382,6 @@ GameAnimEventIndex_t
 GameClientExports001
 GameConfigClientV001
 GameControls
-GameDataList
 GameDebugVisualizer
 GameEvent_BulletImpact_t
 GameEvent_FireBullets_t
@@ -32867,7 +32854,6 @@ HTMLFileDialog
 HTMLFinishRequest
 HTMLFocusedNodeValue
 HTMLFormFocusPending
-HTMLFormHasFocus
 HTMLFullScreen
 HTMLHorizontalScrollBar
 HTMLJSAlert
@@ -32884,6 +32870,7 @@ HTMLSimpleNavigationWrapper
 HTMLStartMousePanning
 HTMLStartRequest
 HTMLStatusText
+HTMLStopMousePanning
 HTMLTexture
 HTMLTitle
 HTMLURLChanged
@@ -33012,7 +32999,6 @@ HaticsType_Default
 HaticsType_None
 HauntCount
 Have all towers standing at 7 minutes
-Have closed caption Panorama panel perform depth testing against the scene
 HaveActivePopups
 HaveNewSettings
 HbAta
@@ -35186,7 +35172,6 @@ Loot list %s: Missing "escalating_chance_drop" loot list or item name
 Loot list %s: Multiple "escalating_chance_drop" blocks in the same slot not supported!
 Loot list %s: Specified both an item (%s) and a loot list (%s)
 LootTableEntry_t
-Loser
 LosingLockGraceTime
 Lost camera
 Lost locator target handle.
@@ -35420,6 +35405,7 @@ MODIFIER_EVENT_UNIT_SHIELD_REMOVED
 MODIFIER_EVENT_VISCOUS_CUBE_DESTROYED
 MODIFIER_EVENT_WALL_JUMP_EXECUTED
 MODIFIER_NON_PLAYER_BONUS_BASE_DAMAGE_PERCENT
+MODIFIER_PRIORITY_HIGH
 MODIFIER_PRIORITY_LOW
 MODIFIER_PRIORITY_NORMAL
 MODIFIER_PRIORITY_SUPER_ULTRA
@@ -36152,12 +36138,14 @@ Masked Scale
 Master Achievements
 Match
 Match Settings
+MatchAbandoned
 MatchBlockBigContainer
 MatchBlockMiniContainer
 MatchComplete
 MatchContainer
 MatchDetailsGraphs
 MatchDetailsReplayButton
+MatchFinished
 MatchHistoryButton
 MatchIDEntry
 MatchID_t
@@ -37916,13 +37904,14 @@ P-224
 P-256
 P-384
 P-521
-P08J@!
-P08NTO\v
+P08J@
+P08N$D\v
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
 P5[1
-P6Pn
+P6 c
+P6pV
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -38415,6 +38404,7 @@ PULSE_CALL_SYNC
 PULSE_SHARED_SAVE_RESTORE_BLOCK_HANDLER_VERSION
 PULSE_VMMD
 PUT 
+PX8\v
 P\n\nnumperpage
 P\n\nregression
 Package
@@ -38856,7 +38846,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
-PnTO\v
+Pn$D\v
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -39602,7 +39592,7 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpL3
+R\vpX8\v
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -41547,6 +41537,7 @@ Show frame time (FPS) in the HUD.  0=never, 1=only if poor, 2=always
 Show graph of the server recv margin in the HUD.  (How early/late user commands are arriving at the server before they are executed.)   0=never, 1=only when there are command queue problems, 2=always
 Show hideout news
 Show lag compensated hitboxes for the specified player index whenever a player fires.
+Show missing closecaptions (0 = no, 1 = devconsole, 2 = show in hud)
 Show new topbar
 Show packet jitter and netframe loss/reordering in the HUD.  0=never, 1=only in poor conditions, 2=always
 Show percentage of user commands & server snapshots that are missed due to network conditions.  0=never, 1=only in poor conditions, 2=always
@@ -44591,6 +44582,7 @@ WATER_WAKE_NONE
 WATER_WAKE_RUNNING
 WATER_WAKE_WALKING
 WATER_WAKE_WATER_OVERHEAD
+WCCitadelRecentDamage
 WD%g"0Q-)
 WEAKNESSES
 WEAPON_SOUND_EMPTY
@@ -44720,7 +44712,6 @@ WavePositionStagger
 WaveSpeed
 WaveStartRadius
 WaveThickness
-Wcitadel_powerup_spawner_show_event_timer
 Wcr"
 We have predicted data for command %d, but we cannot locate the command?\n
 We_A0
@@ -45035,7 +45026,6 @@ WindowLostFocus
 WindowOffScreen
 WindowOnScreen
 WindowShown
-Winner
 WinnerTeam1
 WinnerTeam2
 WinnerTie
@@ -45399,10 +45389,7 @@ You must specify a book by name or book ID\n
 You must type in 
 You need to name the scheme (%s)!
 You need to read the OpenSSL FAQ, http://www.openssl.org/support/faq.html
-You received %u xp and %u gold!
 You won.
-Your team was eliminated!
-Your team was won the round!
 Ys/MA
 Z Axis offset from our camera pivot. +Up and -Down
 Z"T-47\f8
@@ -45561,6 +45548,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fpX8\v
 \ful2
 \fy&3Gl
 \l:ArR
@@ -46577,11 +46565,12 @@ Z~wl
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
-\r8if
+\r8Xf
 \r@h!Aq8
 \rB6uZ
 \rChallengeID_t
 \rChallengeID_t"
+\rGameDataList
 \rHeroBadgeXP_t
 \rHeroBuildID_t
 \rHeroBuildID_t"
@@ -46611,7 +46600,6 @@ Z~wl
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\vpL1
 \r^mX
-\rcitadel_convert_deps
 \ri1I
 \rjwB\t
 \roKK
@@ -46821,6 +46809,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpX8\v
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46897,7 +46886,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6pu
+`6Pi
 `:zQF
 `D$daM-l
 `DZG
@@ -46907,9 +46896,8 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
-`fTO\v
 `h9T~
-`nTO\v
+`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -46927,7 +46915,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvTO\v
+aBv$D\v
 aD/x
 aDSS
 aECDH
@@ -49242,6 +49230,7 @@ citadel_control_point_decay_delay
 citadel_control_point_decay_rate
 citadel_control_point_max_capture_players
 citadel_control_point_max_capture_rate
+citadel_convert_deps
 citadel_convert_particle_cfg
 citadel_convert_tight_camera_settings
 citadel_cooldown_scaling_vdata_tweak
@@ -49634,6 +49623,7 @@ citadel_mantle_debug
 citadel_mantle_horizontal_movement_distance
 citadel_mantle_max_height
 citadel_mantle_probe_depth
+citadel_match_abandoned_display_time
 citadel_match_details
 citadel_match_details_failure_delay_s
 citadel_match_details_flip_teams
@@ -49698,7 +49688,6 @@ citadel_music_opvars
 citadel_nano_debugcatform
 citadel_nano_predatory_statue
 citadel_nano_set_shouldercat_bodygroup
-citadel_napalm_projectile_show_debug
 citadel_new_player_flow_finished can't be turned off (because of the callback) unless you reset the other new player convars. This allows you to turn it off.
 citadel_new_player_flow_visible
 citadel_new_player_progress
@@ -49809,6 +49798,7 @@ citadel_post_game_local_player_screen_enabled
 citadel_post_game_progress
 citadel_post_game_progress_test_screen
 citadel_post_game_progress_use_test_data
+citadel_powerup_spawner_show_event_timer
 citadel_pregame_fake_game_state
 citadel_pregame_fake_match_intro_duration
 citadel_pregame_fake_match_intro_state
@@ -50068,6 +50058,7 @@ citadel_unit_status_health_per_pip
 citadel_unit_status_health_pips_per_row
 citadel_unit_status_healthbar_highlight_speed
 citadel_unit_status_height
+citadel_unit_status_hide_names
 citadel_unit_status_max_distance_distance
 citadel_unit_status_max_distance_scale
 citadel_unit_status_max_health_per_bar
@@ -51330,7 +51321,6 @@ data_center_codes
 data_cp
 data_cp_value
 data_element_path
-data_entry
 data_plus_mac_plus_padding_size < 1024 * 1024
 data_source_id
 date
@@ -52279,7 +52269,6 @@ entityid
 entityname
 entitytable_t
 entries
-entry
 entry_body
 entry_id
 entry_state
@@ -52509,7 +52498,6 @@ fBB\fy
 fC\tc
 fL\ri
 fP;y
-fTO\v
 fUnh\
 f\trixZ
 f_%s_weight
@@ -52530,7 +52518,6 @@ fadeSpeed
 fade_debug_splitscreen_slot
 fade_end_angle
 fade_end_dist
-fade_in
 fade_in_color_in
 fade_out
 fade_size_end
@@ -54082,6 +54069,7 @@ hero_model_change
 hero_name
 hero_necro
 hero_pos_debug
+hero_preview
 hero_priest
 hero_punkgoat
 hero_reveal_deck
@@ -57566,6 +57554,7 @@ m_DamageTracker
 m_DamagedParticle
 m_DashBurstSound
 m_DashEchoParticle
+m_DashImpactEffect
 m_DashJumpParticle
 m_DashLineEffect
 m_DashModifier
@@ -63232,6 +63221,7 @@ m_iWeakPointRespawnTime
 m_iWeakPointType
 m_iWeight
 m_iWindSeed
+m_iWinningTeam
 m_impactEnergyScale
 m_indices
 m_infoType
@@ -65844,6 +65834,7 @@ match_disconnect_time
 match_duration
 match_duration_s
 match_end_time
+match_end_type
 match_intro_state
 match_load_error
 match_load_state
@@ -67236,7 +67227,6 @@ nSpawnNodeID
 nStf,a
 nSummarisedCount
 nSw}Z\tu
-nTO\v
 nType
 nValue
 n\r2S
@@ -67970,8 +67960,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^TO\v
-p0jPo
+p08@H^$D\v
+p0jPg
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67989,9 +67979,8 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6pd
+p6@Y
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>TO\v
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -68005,7 +67994,6 @@ pHeroReleaseVoteOptions->GetChildCount() == (int)EActiveHeroReleaseVoteOption::C
 pHitEntity
 pIp 
 pLocationEntity
-pMODIFIER_PRIORITY_HIGH
 pO0h
 pOtherEntity
 pRTH
@@ -68021,6 +68009,7 @@ pTagName
 pU>\AL
 pUnitName
 pWorldObject
+pX8\v
 p\n$k_EPingMarkerInfo_ShowMarkerOnSender
 p\n\fDevQueueSize
 p\rP\f0!h
@@ -68782,7 +68771,7 @@ playsoundscape
 playtime_2weeks
 playtime_forever
 plum
-pnTO\v
+pn$D\v
 pngsize
 point
 point arithmetic failure
@@ -72706,7 +72695,6 @@ vF'l
 vForward
 vHullPos[%i] %g %g %g\n
 vOffset2D
-vTO\v
 vVelocity %.2f %.2f %.2f
 vVelocityDownLine %.2f %.2f %.2f
 vW3N&
@@ -73219,7 +73207,6 @@ z-index
 z-offset
 z/B,9d
 z<d2
-z>80
 z>Hz
 z?ff
 zF):O4

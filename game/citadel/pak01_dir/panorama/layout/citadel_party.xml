@@ -22,7 +22,7 @@
 			<Panel id="LocalPlayer" />
 		</Panel>
 		<Panel class="FriendsCountContainer" hittest="false">
-			<Panel class="FriendsCount" onmouseover="CitadelUIShowTextTooltip( &apos;#Citadel_JoinOrCreateParty_FriendsInGame&apos; )" onmouseout="CitadelUIHideTextTooltip()" onactivate="CitadelEditParty()">
+			<Panel class="FriendsCount" onmouseover="CitadelUIShowTextTooltip( &apos;#Citadel_JoinOrCreateParty_FriendsInGame:f&apos; )" onmouseout="CitadelUIHideTextTooltip()" onactivate="CitadelEditParty()">
 				<Panel class="FriendsIcon" />
 				<Label class="PlayWithFriendsCount" text="{d:friend_count}" />
 			</Panel>

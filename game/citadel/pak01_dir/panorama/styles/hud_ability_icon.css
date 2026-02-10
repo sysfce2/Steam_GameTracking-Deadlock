@@ -167,7 +167,7 @@ CitadelHudTopBarPlayer #PlayerAbilitiesContainer CitadelAbilityIcon:hover .butto
 	transform: translateY(0px);
 }
 
-.Tier1 .button_container
+CitadelAbilityIcon.Tier1 .button_container
 {
 	width: 120px;
 }
@@ -247,7 +247,7 @@ CitadelHudTopBarPlayer #PlayerAbilitiesContainer .ability_bg
 	max-width: 110px;
 }
 
-.Tier0.not_trained .ability_bg,.Tier0.not_trained .ability_ring
+CitadelAbilityIcon.Tier0.not_trained .ability_bg,CitadelAbilityIcon.Tier0.not_trained .ability_ring
 {
 	opacity: 0.1;
 	saturation: 0;
@@ -481,7 +481,7 @@ CitadelAbilityIcon.AbilityCooldownEndChanged .ability_bg
 	background-image: url("s2r://panorama/images/hud/core/ability_frame_passive_1_psd.vtex");
 }
 
-.Tier0 .ability_ring
+CitadelAbilityIcon.Tier0 .ability_ring
 {
 	visibility: collapse;
 }
@@ -493,12 +493,12 @@ CitadelAbilityIcon.AbilityCooldownEndChanged .ability_bg
 	background-position: center;
 }
 
-.Tier2 .ability_bg
+CitadelAbilityIcon.Tier2 .ability_bg
 {
 	background-image: url("s2r://panorama/images/hud/core/ability_frame_passive_2_psd.vtex");
 }
 
-.Tier3 .ability_bg
+CitadelAbilityIcon.Tier3 .ability_bg
 {
 	background-image: url("s2r://panorama/images/hud/core/ability_frame_passive_3_psd.vtex");
 }
@@ -563,7 +563,7 @@ CitadelHudTopBarPlayer CitadelAbilityIcon
 	background-size: 100% 100%;
 }
 
-.Tier0.active .ability_ring,.Tier1.active .ability_ring,.Tier2.active .ability_ring,.Tier3.active .ability_ring,.Tier0.toggled_on .ability_ring,.Tier1.toggled_on .ability_ring,.Tier2.toggled_on .ability_ring,.Tier3.toggled_on .ability_ring,.channeling .ability_ring
+CitadelAbilityIcon.Tier0.active .ability_ring,CitadelAbilityIcon.Tier1.active .ability_ring,CitadelAbilityIcon.Tier2.active .ability_ring,CitadelAbilityIcon.Tier3.active .ability_ring,CitadelAbilityIcon.Tier0.toggled_on .ability_ring,CitadelAbilityIcon.Tier1.toggled_on .ability_ring,CitadelAbilityIcon.Tier2.toggled_on .ability_ring,CitadelAbilityIcon.Tier3.toggled_on .ability_ring,.channeling .ability_ring
 {
 	transform: rotateZ(10deg);
 	animation-name: ActiveRotate;
@@ -1171,11 +1171,6 @@ CitadelHudTopBarPlayer #PlayerAbilitiesContainer .ability_image
 	width: height-percentage( 100% );
 }
 
-CitadelTooltipModDetails .ability_image
-{
-	height: 100%;
-}
-
 #ModImbuedContainer .ability_image
 {
 	height: 50%;
@@ -1365,22 +1360,22 @@ CitadelTooltipModDetails .ability_image
 	visibility: collapse;
 }
 
-.Tier0.cooling_down #cooldown_mask,.Tier0.ability_not_ready #cooldown_mask
+CitadelAbilityIcon.Tier0.cooling_down #cooldown_mask,CitadelAbilityIcon.Tier0.ability_not_ready #cooldown_mask
 {
 	opacity-mask: url("s2r://panorama/images/hud/core/ability_frame_0.vsvg");
 }
 
-.Tier1.cooling_down #cooldown_mask,.Tier1.ability_not_ready #cooldown_mask
+CitadelAbilityIcon.Tier1.cooling_down #cooldown_mask,CitadelAbilityIcon.Tier1.ability_not_ready #cooldown_mask
 {
 	opacity-mask: url("s2r://panorama/images/hud/core/ability_frame_1.vsvg");
 }
 
-.Tier2.cooling_down #cooldown_mask,.Tier2.ability_not_ready #cooldown_mask
+CitadelAbilityIcon.Tier2.cooling_down #cooldown_mask,CitadelAbilityIcon.Tier2.ability_not_ready #cooldown_mask
 {
 	opacity-mask: url("s2r://panorama/images/hud/core/ability_frame_2.vsvg");
 }
 
-.Tier3.cooling_down #cooldown_mask,.Tier3.ability_not_ready #cooldown_mask
+CitadelAbilityIcon.Tier3.cooling_down #cooldown_mask,CitadelAbilityIcon.Tier3.ability_not_ready #cooldown_mask
 {
 	opacity-mask: url("s2r://panorama/images/hud/core/ability_frame_3.vsvg");
 }
@@ -1498,7 +1493,7 @@ CitadelTooltipModDetails .ability_image
 	height: 10px;
 }
 
-.Tier2 .stack_charges,.Tier3 .stack_charges
+CitadelAbilityIcon.Tier2 .stack_charges,CitadelAbilityIcon.Tier3 .stack_charges
 {
 	transform: translateY(-5px);
 }

@@ -61,7 +61,7 @@
 					</Panel>
 					<Panel id="DamageByHero" class="DamageByHero" />
 				</Panel>
-				<Label class="TopDamageSources" text="#Citadel_HUD_DamageReport_TopDamageSources" />
+				<Label class="TopDamageSources" text="#Citadel_HUD_DamageReport_TopDamageSources:f" />
 				<CitadelDamageRows id="DamageByAbility" />
 				<Panel id="DamagePieGraph" />
 				<Panel class="Footer">

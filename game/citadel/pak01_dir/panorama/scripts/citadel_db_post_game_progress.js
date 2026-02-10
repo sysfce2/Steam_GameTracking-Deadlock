@@ -214,7 +214,7 @@ function SetupAccolades(parent, accolades, nMaxCount) {
         let accolade = accolades[i];
         accoladePanel.SetDialogVariableLocString("accolade_title", accolade.accolade_name);
         accoladePanel.SetDialogVariableInt("stat_value", accolade.accolade_stat_value);
-        accoladePanel.SetDialogVariablePluralLocStringIntNested("accolade_desc", accolade.accolade_desc, accolade.accolade_stat_value);
+        accoladePanel.SetDialogVariableLocStringNested("accolade_desc", accolade.accolade_desc);
         accoladePanel.SwitchClass("accolade_stars", "StarsAchieved" + accolade.accolade_stars_achieved);
         accoladePanel.RemoveClass('ShowAccolade');
         EnsureSnippetList(accoladeStarsPanel, 'AccoladeStar', accolade.accolade_stars_achieved);

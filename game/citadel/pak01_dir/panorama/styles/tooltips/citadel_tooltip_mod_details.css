@@ -1242,6 +1242,7 @@ CitadelTooltipModDetails.TechMod .AffectedAbilitiesTogglePanel
 	height: 20px;
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-texture-size: 20px;
 	vertical-align: center;
 	margin-right: 3px;
 }
@@ -1406,6 +1407,7 @@ CitadelTooltipModDetails.TechMod .AffectedAbilitiesTogglePanel
 	background-image: url("s2r://panorama/images/icons/icon_checkmark.vsvg");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-texture-size: 26px;
 	transform: translateX(3px) translateY(3px);
 	wash-color: fortitudeBrightColor;
 	vertical-align: center;
@@ -1653,6 +1655,7 @@ CitadelTooltipModDetails.TechMod .AffectedAbilitiesTogglePanel
 	vertical-align: middle;
 	background-image: url("s2r://panorama/images/hud/brawl/icon_brawl.vsvg");
 	background-size: cover;
+	background-texture-size: 12px;
 	wash-color: #ecc64c;
 	margin-right: 5px;
 	margin-left: 5px;

@@ -4765,6 +4765,7 @@ $tJ@T\tK
 .?AV?$CNetworkVarBase@HVNetworkVar_m_iTeamSapphireScore@CStreetBrawlController@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_iTrophyCount@CCitadel_Item_TrophyCollector@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_iVaultState@CNPC_Neutral_SinnersSacrifice@@@@
+.?AV?$CNetworkVarBase@HVNetworkVar_m_iWinningTeam@CCitadelGameRules@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nAABBDirection@CCitadelSoundOpvarSetOBB@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nActiveCapturers@CCitadelTriggerCapturePoint@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nActivelyCapturingTeam@CCitadelTriggerCapturePoint@@@@
@@ -14673,10 +14674,8 @@ $tJ@T\tK
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4B0#7
 4Ch;
 4F0I
-4F\v i
 4Mv8
 4Zis
 4\fPl
@@ -14732,7 +14731,8 @@ $tJ@T\tK
 6,2K
 6-zeZ
 60000
-60P/
+60E/
+60Y/
 62$|S)6f
 64CK\vH
 65535
@@ -14744,9 +14744,8 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
-6P7/
-6PZ/
-6Po/
+6Pc/
+6Px/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14765,7 +14764,8 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6pB/
+6pI/
+6pK/
 6qo~
 6r-m_v
 6r1ij
@@ -15054,10 +15054,11 @@ $tJ@T\tK
 >ztq
 ?33s?
 ?CAnimFoot
-?CCitadel_Modifier_DiminishingSlow
 ?HAI\t81\t9dcG'
 ?HP4
 ?Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
+?SlowPercentPerStack
+?SpawnGroupCompletionCallbackGameSystem
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15065,7 +15066,6 @@ $tJ@T\tK
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
-?citadel_familiar_sprites_debug
 ?d86L
 ?dt]X
 ?expf
@@ -15074,7 +15074,6 @@ $tJ@T\tK
 ?gwL
 ?jOb
 ?m_Entity_Color
-?m_flNextProjectileTime
 ?srJO
 ?tya
 ?uWS
@@ -15083,9 +15082,9 @@ $tJ@T\tK
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
-@6PU/
 @Accolades
 @BH]f
+@HPX`hv@0/
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15130,6 +15129,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:@D
 AABBDirection
 AABB_t
 AACompromise
@@ -15137,6 +15137,7 @@ ABORT_DO_NOT_APPLY_DAMAGE
 ABS BBox
 AC2,h
 ACCESS_DESCRIPTION
+ACCitadel_Ability_Trappers_Bolo_GraphController
 ACHIEVEMENT_EVENT_
 ACID
 ACPT_STATE
@@ -15505,7 +15506,6 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
-A\v7i
 AbW_
 Abandon
 Abandoned
@@ -15844,7 +15844,6 @@ Always
 Always false
 Always kick at least this much in the direction the player is facing.
 Always true
-Am_flThickness
 Amber
 Ambient Sound
 AmbientCubes
@@ -16319,7 +16318,7 @@ BRUSHSOLID_TOGGLE
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
 BT5f
-BTASK_SET_SCHEDULE
+BTASK_GET_PATH_TO_RANDOM_POSITION
 BUCKSHOT
 BUF lib
 BUFFED
@@ -18623,7 +18622,6 @@ CCitadel_Ability_Trapper_SpiderJar_VData
 CCitadel_Ability_Trapper_WebWall
 CCitadel_Ability_Trapper_WebWallVData
 CCitadel_Ability_Trappers_Bolo
-CCitadel_Ability_Trappers_Bolo_GraphController
 CCitadel_Ability_TriggerTower
 CCitadel_Ability_TrooperBossGrenade
 CCitadel_Ability_TrooperGrenade
@@ -19155,6 +19153,7 @@ CCitadel_Modifier_DetentionAmmo
 CCitadel_Modifier_DetentionAmmoVData
 CCitadel_Modifier_Digger_MudShield
 CCitadel_Modifier_Digger_MudShieldVData
+CCitadel_Modifier_DiminishingSlow
 CCitadel_Modifier_DiminishingSlowVData
 CCitadel_Modifier_DisarmProc
 CCitadel_Modifier_DisarmProcWatcher
@@ -27718,6 +27717,7 @@ EndingSoonTime
 EndingWarningSoundDuration
 Ends hero draft mode and goes straight to playing the game
 Ends the current match
+Ends the current match as if players all abandoned.
 Enemies are slowed for this duration when hit by this attack
 Enemies are slowed to this speed when hit by this attack
 Enemy
@@ -30105,6 +30105,7 @@ IGameSystem::Init( %-80s ) %8.3f msec
 IGameSystem::InitAllSystems
 IGameSystem::PostInit( %-80s ) %8.3f msec
 IHasAttributes
+IHideoutInteractable
 IKV3TransferInterface_AllowRawStringTokenTransfer
 IKV3TransferInterface_EngineTick_Load
 IKV3TransferInterface_EngineTick_Save
@@ -34965,7 +34966,7 @@ P08@JP
 P08N
 P1\t98"
 P5[1
-P6@Z/
+P6@c/
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -38776,7 +38777,6 @@ Slow %.1f, %s %.1f
 SlowDuration
 SlowDurationPerStack
 SlowPercent
-SlowPercentPerStack
 SlowResistance
 SlowTargetDuration
 Slowing Bullets
@@ -38905,7 +38905,6 @@ SpawnEntityGroupFromTable
 SpawnEntityListFromTableAsynchronous
 SpawnEntityListFromTableSynchronous
 SpawnFrequency
-SpawnGroupCompletionCallbackGameSystem
 SpawnGroupLoadingThink
 SpawnGroupManagerGameSystem
 SpawnGroupUnloadingThink
@@ -39539,7 +39538,6 @@ TASK_GET_PATH_FORWARD
 TASK_GET_PATH_TO_LASTPOSITION
 TASK_GET_PATH_TO_MELEE_ENEMY
 TASK_GET_PATH_TO_NAV_MESH
-TASK_GET_PATH_TO_RANDOM_POSITION
 TASK_GET_PATH_TO_SPAWN
 TASK_GET_TEST_PATH
 TASK_GRAPH_CANCEL_HANDSHAKE
@@ -39579,6 +39577,7 @@ TASK_RELOAD
 TASK_REQUEST_FACING_TARGET
 TASK_REQUEST_MOVEMENT_FACING_MODE_PATH
 TASK_SET_FAIL_SCHEDULE
+TASK_SET_SCHEDULE
 TASK_SET_TOLERANCE_DISTANCE
 TASK_SLEEP
 TASK_STAND
@@ -41265,7 +41264,7 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
-Vpg/
+Vpp/
 Vs Player DPS
 Vs Trooper DPS
 VsInputSignatureElement_t
@@ -41955,9 +41954,9 @@ XYD%
 X\tQo
 X`hr`
 Xd3h
-Xf H/
+Xf Q/
 XfJ7
-XfpF/
+XfpO/
 XjfR
 XqgA+
 Xuub
@@ -43052,6 +43051,7 @@ Z~wl
 \r^mX
 \ri1I
 \rjwB\t
+\rnon-conforming
 \roKK
 \rrCj
 \rstyle_index_t
@@ -45636,6 +45636,7 @@ citadel_fake_rank_for_match
 citadel_fake_subrank_for_match
 citadel_familiar_debug
 citadel_familiar_infiniteattach
+citadel_familiar_sprites_debug
 citadel_familiar_sprites_debug_spam
 citadel_familiar_sprites_stuck_detection_duration
 citadel_fencer_max_charge_unlag_players
@@ -45788,6 +45789,7 @@ citadel_mantle_debug
 citadel_mantle_horizontal_movement_distance
 citadel_mantle_max_height
 citadel_mantle_probe_depth
+citadel_match_abandoned
 citadel_match_data_allow_meta_prefix
 citadel_match_data_block_meta_prefix
 citadel_match_data_incombat_duration
@@ -54149,7 +54151,6 @@ m_TimeWallParticle
 m_TimelineEvents
 m_Timeout
 m_Timer
-m_TimerToSilence
 m_TintColor
 m_ToggleOnTime
 m_TornadoAura
@@ -58088,6 +58089,7 @@ m_flNextMoveSoundTime
 m_flNextPrimaryAttack
 m_flNextPrimaryAttackTickRatio
 m_flNextProcTime
+m_flNextProjectileTime
 m_flNextPulseTime
 m_flNextRandomLightningStrike
 m_flNextRandomPositionTime
@@ -65120,7 +65122,7 @@ mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
-n0D/
+n0M/
 n1Z 
 n5cM
 n6j/
@@ -65803,7 +65805,6 @@ non fips rsa method
 non hex characters
 non sslv2 initial packet
 non-
-non-conforming
 non-moveable %s '%s' is pushed\n
 nonRepudiation
 non_player_used_ability
@@ -66278,7 +66279,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6P;/
+p6PD/
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -70927,7 +70928,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-zDIHideoutInteractable
+zDm_TimerToSilence
 zF):O4
 zFar
 zG2m8
