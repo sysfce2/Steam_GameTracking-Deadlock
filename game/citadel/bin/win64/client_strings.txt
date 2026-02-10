@@ -89,9 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`jp
- (08@HPZp
- (08@Jp
+ (08@HPXb 
+ (0X`hpz 
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16763,8 +16762,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HRp
-08Bp
+08@J 
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16785,8 +16783,6 @@ $hRh
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
-0PA\v
-0TP\v
 0W/5
 0Z@q
 0\f504P
@@ -16818,6 +16814,7 @@ $hRh
 0\n\vstyle_index
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
+0dQ\v
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
@@ -17042,7 +17039,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpTP\v
+2\vpdQ\v
 2^pV
 2a"l
 2bT~
@@ -17111,10 +17108,10 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4BH\f
+4BX\f
 4Ch;
 4F0I
-4F\v0b
+4F\v@c
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17259,7 +17256,6 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@Jp
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
@@ -17591,10 +17587,10 @@ $hRh
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
-@6pl
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
+@HVp
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17946,7 +17942,7 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
-A\vGb
+A\vWc
 A_txt
 AbW_
 Abandoned
@@ -18957,7 +18953,6 @@ B\n\fCOrientation
 B\n\nobjectives
 B\n\rHeroWhitelist
 B\n\vbook_reward
-B\v0b
 B\vP\n0
 B\vp\n0
 B_txt
@@ -37920,6 +37915,7 @@ P-224
 P-256
 P-384
 P-521
+P08@J 
 P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
@@ -38231,7 +38227,6 @@ POTG Playback Camera Switch: Target(%d) Local(%d)
 POTG Playback Trigger: %s at offset %.2f\n
 POTG Playback: Trigger up to %.2f Events Triggered( %d / %d )\n
 POTG Playback: Trigger up to %.2f skipped due to above %.2f replay end time\n
-PPA\v
 PPz\v=
 PRB+
 PRECIPITATION
@@ -38649,7 +38644,7 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf@g
+PfPh
 Phoneme delay to account for sound system latency.
 Phrase
 Phrase%d
@@ -38860,7 +38855,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
-Pn@h
+PnPi
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -39174,6 +39169,7 @@ Projectile Info
 Projectile Model
 Projectile Speed over time.
 Projectile only interacts / touches world
+Projectile won't impact targets until this much time has elapsed.
 ProjectileAmount
 ProjectileAngleRandomness
 ProjectileArmTime
@@ -39601,12 +39597,11 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
-R\fpTP\v
+R\fpdQ\v
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpPA\v
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -45334,7 +45329,6 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hrp
 Xd3h
 XfJ7
 XjfR
@@ -45775,7 +45769,6 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
-\nPPA\v
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -46582,6 +46575,7 @@ Z~wl
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
+\r8if
 \r@h!Aq8
 \rB6uZ
 \rChallengeID_t
@@ -46825,8 +46819,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpPA\v
-\vpTP\v
+\vpdQ\v
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46903,6 +46896,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`6pF
 `:zQF
 `D$daM-l
 `DZG
@@ -51751,6 +51745,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -54250,6 +54245,7 @@ how long the player has been sprinting
 how this stat is implemented
 hows joint info for this entity
 hp_stat
+hpz 
 hr_H
 href="
 hscroll
@@ -61817,6 +61813,7 @@ m_flMinSustainSpeed
 m_flMinTargetDot
 m_flMinTimeBeforeSwappingBack
 m_flMinTimeToRoofCheck
+m_flMinTrackingTimeBeforeImpact
 m_flMinTravelTime
 m_flMinTurnRadius
 m_flMinVelocityDampening
@@ -67994,7 +67991,7 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pFPM
+pF`N
 pField
 pFilter
 pG_*h
@@ -68005,7 +68002,6 @@ pLocationEntity
 pMODIFIER_PRIORITY_HIGH
 pO0h
 pOtherEntity
-pPA\v
 pRTH
 pSPo
 pSectionData != nullptr
@@ -68015,7 +68011,6 @@ pSource
 pSourceFunc
 pSpawnedEntityName
 pSpecified
-pTP\v
 pTagName
 pU>\AL
 pUnitName
@@ -68387,6 +68382,7 @@ pcPathLengthConstraint
 pct_complete
 pct_item_complete
 pct_story_complete
+pdQ\v
 pdgAbilityUpgradeStateChanged
 pdgBonusCounterChanged
 pdgStolenAbilityChanged
@@ -69232,10 +69228,9 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpPA\v
 r\n\vstart_index
 r\vDi
-r\vpTP\v
+r\vpdQ\v
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight

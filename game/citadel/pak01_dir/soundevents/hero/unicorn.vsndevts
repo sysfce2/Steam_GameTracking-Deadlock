@@ -41,7 +41,7 @@
 		delay_rand_min = -2.000000
 		volume_fade_in = 0.200000
 		volume_fade_out = 0.200000
-		pitch = 1.200000
+		pitch = 1.250000
 		vsnd_files = "sounds/weapons/unicorn/unicorn_weapon_lp.vsnd"
 		vsnd_duration = 5.731814
 	}
@@ -710,6 +710,7 @@
 	{
 		base = "Base.Movement"
 		volume = 1.000000
+		volume_offset_opponent = -10.000000
 		vsnd_files = 
 		[
 			"sounds/player/movement/unicorn/unicorn_idle_twirl_01.vsnd",
