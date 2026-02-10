@@ -180,6 +180,12 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
+ (08@HPX`j`
+ (08@HPXbP
+ (08@HPZ`
+ (08@HRP
+ (08@JP
+ (0X`hpzP
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -1302,8 +1308,6 @@ $tJ@T\tK
 (.CMsgSteamLearn_SnapshotProject_Response"-
 (0'yX
 (0x%08X)'??'
-(4Pv
-(4pA
 (5Me
 (5jP
 (ACTIVE)
@@ -14428,6 +14432,9 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
+08@HR`
+08@JP
+08B`
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -14470,7 +14477,6 @@ $tJ@T\tK
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vD *
 0x%s
 0}dV
 1 = also npc select enemy finders in my squad
@@ -14608,7 +14614,6 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpp
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14671,6 +14676,7 @@ $tJ@T\tK
 4B0#7
 4Ch;
 4F0I
+4F\v i
 4Mv8
 4Zis
 4\fPl
@@ -14726,7 +14732,7 @@ $tJ@T\tK
 6,2K
 6-zeZ
 60000
-60F/
+60P/
 62$|S)6f
 64CK\vH
 65535
@@ -14738,8 +14744,9 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
-6P4/
-6PG/
+6P7/
+6PZ/
+6Po/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14758,8 +14765,7 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6pA/
-6pS/
+6pB/
 6qo~
 6r-m_v
 6r1ij
@@ -14809,8 +14815,6 @@ $tJ@T\tK
 8<pl
 8= zp
 8A6j
-8FPD/
-8F`C/
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15077,9 +15081,9 @@ $tJ@T\tK
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08ND *
+@08N
 @0pp
-@6pU/
+@6PU/
 @Accolades
 @BH]f
 @MfKZ
@@ -15096,7 +15100,6 @@ $tJ@T\tK
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@htpA
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -15502,6 +15505,7 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
+A\v7i
 AbW_
 Abandon
 Abandoned
@@ -31577,7 +31581,6 @@ LT_GAMETIME
 LT_INT
 LXKQ
 LY\r5
-L\tpU
 LabelledDebugHelperDebug
 LadderConnect
 LagCompensate
@@ -34958,9 +34961,11 @@ P-224
 P-256
 P-384
 P-521
-P08ND *
+P08@JP
+P08N
 P1\t98"
 P5[1
+P6@Z/
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -35714,7 +35719,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-PnD *
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -36367,7 +36371,6 @@ RUMBLE_STOP_ALL
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpp
 R]Di
 Rad2 Deg
 RadiationThink
@@ -41262,6 +41265,7 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
+Vpg/
 Vs Player DPS
 Vs Trooper DPS
 VsInputSignatureElement_t
@@ -41949,9 +41953,11 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr`
 Xd3h
+Xf H/
 XfJ7
-Xf`F/
+XfpF/
 XjfR
 XqgA+
 Xuub
@@ -42222,7 +42228,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -43226,7 +43231,6 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6pV/
 `:zQF
 `D$daM-l
 `DZG
@@ -43236,7 +43240,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`htPv
 `o_je
 `yNT
 a null shared library handle was used
@@ -43255,7 +43258,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvD *
 aD/x
 aDSS
 aECDH
@@ -46818,7 +46820,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\tpU
 dSAQuality
 dWry
 dZ!2.
@@ -49566,6 +49567,7 @@ how long the player has been sprinting
 how much hotter than the npc's flashpoint a heat source should be to instantly ignite them.
 how this stat is implemented
 hows joint info for this entity
+hpzP
 hr_H
 http request
 https proxy request
@@ -65118,6 +65120,7 @@ mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
+n0D/
 n1Z 
 n5cM
 n6j/
@@ -66269,13 +66272,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^D *
-p0jp
+p08@H^
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
+p6P;/
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -66896,7 +66899,6 @@ playing_commentary
 playoverscript
 plays for local player attacker dealing damage with this ability
 plays for local player victim taking damage from this ability
-pnD *
 point
 point arithmetic failure
 point at infinity
@@ -69476,7 +69478,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\tpU
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target

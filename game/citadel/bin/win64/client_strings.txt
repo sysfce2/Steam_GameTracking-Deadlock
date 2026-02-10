@@ -89,8 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXb 
- (0X`hpz 
+ (08@HPX`j 
+ (08@HPZ 
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16762,7 +16762,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J 
+08@HR 
+08B 
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16814,10 +16815,10 @@ $hRh
 0\n\vstyle_index
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
-0dQ\v
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vTO\v
 0x%4.4x 
 0x%X
 0x%X 
@@ -17039,7 +17040,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpdQ\v
+2\vpL3
 2^pV
 2a"l
 2bT~
@@ -17111,7 +17112,6 @@ $hRh
 4BX\f
 4Ch;
 4F0I
-4F\v@c
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17585,12 +17585,12 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N
+@08NTO\v
 @0pp
+@6Pt
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
-@HVp
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17607,12 +17607,14 @@ $hRh
 @\tV_iswspace
 @absorigin_follow
 @dKb]
+@fTO\v
 @fff>fff>fff>fff>
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @m_DashImpactEffect
 @n2w
+@nTO\v
 A bias on the lerp
 A comma separated list of hero IDs that hold the currently banned brawl roster heroes
 A comma separated list of hero IDs that hold the currently banned roster heroes
@@ -17942,7 +17944,6 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
-A\vWc
 A_txt
 AbW_
 Abandoned
@@ -37915,12 +37916,13 @@ P-224
 P-256
 P-384
 P-521
-P08@J 
-P08N
+P08J@!
+P08NTO\v
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
 P5[1
+P6Pn
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -38644,7 +38646,6 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-PfPh
 Phoneme delay to account for sound system latency.
 Phrase
 Phrase%d
@@ -38855,7 +38856,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
-PnPi
+PnTO\v
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -39597,11 +39598,11 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
-R\fpdQ\v
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vpL3
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -45329,6 +45330,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr 
 Xd3h
 XfJ7
 XjfR
@@ -46819,7 +46821,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpdQ\v
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46896,7 +46897,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6pF
+`6pu
 `:zQF
 `D$daM-l
 `DZG
@@ -46906,7 +46907,9 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
+`fTO\v
 `h9T~
+`nTO\v
 `o_je
 `yNT
 a null shared library handle was used
@@ -46924,6 +46927,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvTO\v
 aD/x
 aDSS
 aECDH
@@ -51745,7 +51749,6 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -52506,6 +52509,7 @@ fBB\fy
 fC\tc
 fL\ri
 fP;y
+fTO\v
 fUnh\
 f\trixZ
 f_%s_weight
@@ -54245,7 +54249,6 @@ how long the player has been sprinting
 how this stat is implemented
 hows joint info for this entity
 hp_stat
-hpz 
 hr_H
 href="
 hscroll
@@ -67233,6 +67236,7 @@ nSpawnNodeID
 nStf,a
 nSummarisedCount
 nSw}Z\tu
+nTO\v
 nType
 nValue
 n\r2S
@@ -67966,7 +67970,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
+p08@H^TO\v
+p0jPo
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67984,14 +67989,15 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6pd
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
+p>TO\v
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pF`N
 pField
 pFilter
 pG_*h
@@ -68382,7 +68388,6 @@ pcPathLengthConstraint
 pct_complete
 pct_item_complete
 pct_story_complete
-pdQ\v
 pdgAbilityUpgradeStateChanged
 pdgBonusCounterChanged
 pdgStolenAbilityChanged
@@ -68777,6 +68782,7 @@ playsoundscape
 playtime_2weeks
 playtime_forever
 plum
+pnTO\v
 pngsize
 point
 point arithmetic failure
@@ -69230,7 +69236,6 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
-r\vpdQ\v
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight
@@ -72701,6 +72706,7 @@ vF'l
 vForward
 vHullPos[%i] %g %g %g\n
 vOffset2D
+vTO\v
 vVelocity %.2f %.2f %.2f
 vVelocityDownLine %.2f %.2f %.2f
 vW3N&
