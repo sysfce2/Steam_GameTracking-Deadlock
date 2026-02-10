@@ -18,8 +18,8 @@
  !"#$%&'()*+,-./0123NULL output buffer with non-zero size passed to Base64Decode
  %4[^ =\t] =%d
  ' ) - 3 G M Q _ c e i w } 
- (08@HPX`hpz@\n
- (08@HPX`j@\n
+ (08@HPX`hpz
+ (08@HRp!
  (BGP MDT)
  (MPLS)
  (MPLS-labeled VPN)
@@ -635,7 +635,7 @@ $d`D-laM
 0123456789.:abcdefABCDEF
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz./
 08@HPX`hpx
-08@HR@\n
+08@Jp!
 08bX
 0F2R0P4
 0Z@q
@@ -663,7 +663,8 @@ $d`D-laM
 27;C
 2Ht\l
 2\n.k_ESteamDatagramMsg_SetSecondaryAddressRequest
-2\vpx
+2\vp8
+2\vpD
 2bT~
 2dV2:tN:\n
 2prB
@@ -782,7 +783,7 @@ $d`D-laM
 @0pp
 @?33s?H
 @HPX&9
-@HPXf
+@HPXfP
 @\n\nAltAddress
 @n2w
 A connection with that ID already exists.
@@ -3912,6 +3913,7 @@ P-256
 P-384
 P-521
 P00`
+P08@Jp!
 P1\t98"
 P2P %s
 P2P CMsgSteamDatagramConnectRequest from %s; we're listening on %s, hosted server connection\n
@@ -3942,6 +3944,7 @@ P2P_Transport_ICE_Enable
 P2P_Transport_ICE_Implementation
 P2P_Transport_ICE_Penalty
 P2P_Transport_SDR_Penalty
+P2p!
 P<xD<
 P@HPX`h\f
 PARAMETERS
@@ -4288,7 +4291,8 @@ RSA_sign_ASN1_OCTET_STRING
 RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
-R\vpx
+R\vp8
+R\vpD
 Rank=%d 
 Rbg.E
 Read-only file system
@@ -5596,6 +5600,7 @@ a2i_GENERAL_NAME
 a5<p
 a5j_5W
 a8Bk
+aBvL
 aI)h
 aRecord
 a\n\rRouterQuality
@@ -8235,7 +8240,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
+p08@H^L
 p2p_routing_summary
 p2p_share_ip
 p2p_via_peer_relay_pop_id

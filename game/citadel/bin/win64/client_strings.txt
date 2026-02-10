@@ -89,6 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
+ (08@HPX`jp
+ (08@HPZp
+ (08@Jp
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2439,7 +2442,6 @@ $hRh
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
-(4PR
 (5Me
 (5jP
 (?PulseCursorCancelPriority_t
@@ -16761,6 +16763,8 @@ $hRh
 0123456789
 02V8[
 05=k
+08@HRp
+08Bp
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16781,6 +16785,8 @@ $hRh
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
+0PA\v
+0TP\v
 0W/5
 0Z@q
 0\f504P
@@ -16815,7 +16821,6 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0v$I\v
 0x%4.4x 
 0x%X
 0x%X 
@@ -17037,6 +17042,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
+2\vpTP\v
 2^pV
 2a"l
 2bT~
@@ -17253,6 +17259,7 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@Jp
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
@@ -17525,7 +17532,6 @@ $hRh
 >fN46R^
 >l\rur
 >p00<
->xyi
 >yhP
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
@@ -17583,14 +17589,12 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N$I\v
+@08N
 @0pp
-@6Pm
 @6pl
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
-@HPX`hvp
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17608,7 +17612,6 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
-@htPR
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -37917,13 +37920,11 @@ P-224
 P-256
 P-384
 P-521
-P08N$I\v
+P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
 P5[1
-P6 h
-P6p[
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -38230,6 +38231,7 @@ POTG Playback Camera Switch: Target(%d) Local(%d)
 POTG Playback Trigger: %s at offset %.2f\n
 POTG Playback: Trigger up to %.2f Events Triggered( %d / %d )\n
 POTG Playback: Trigger up to %.2f skipped due to above %.2f replay end time\n
+PPA\v
 PPz\v=
 PRB+
 PRECIPITATION
@@ -38647,6 +38649,7 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+Pf@g
 Phoneme delay to account for sound system latency.
 Phrase
 Phrase%d
@@ -38857,7 +38860,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
-Pn$I\v
+Pn@h
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -39598,10 +39601,12 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
+R\fpTP\v
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vpPA\v
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -45329,6 +45334,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hrp
 Xd3h
 XfJ7
 XjfR
@@ -45769,6 +45775,7 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
+\nPPA\v
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -46818,6 +46825,8 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpPA\v
+\vpTP\v
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46894,7 +46903,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6Pn
 `:zQF
 `D$daM-l
 `DZG
@@ -46922,7 +46930,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$I\v
 aD/x
 aDSS
 aECDH
@@ -61768,6 +61775,7 @@ m_flMinAngleToConsiderASlope
 m_flMinAttackTime
 m_flMinBashDelay
 m_flMinButtonHoldTimeToActivate
+m_flMinButtonHoldTimeToPlaySound
 m_flMinCancelTime
 m_flMinCloak
 m_flMinConnectTime
@@ -64674,6 +64682,7 @@ m_strFinalExplodeSound
 m_strFireBatSound
 m_strFirePendingBulletSound
 m_strFireSound
+m_strFiringLoopSound
 m_strFirstShotSound
 m_strFlyDownLocString
 m_strFlyUpLocString
@@ -67960,8 +67969,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^$I\v
-p0j i
+p08@H^
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67986,6 +67994,7 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
+pFPM
 pField
 pFilter
 pG_*h
@@ -67996,6 +68005,7 @@ pLocationEntity
 pMODIFIER_PRIORITY_HIGH
 pO0h
 pOtherEntity
+pPA\v
 pRTH
 pSPo
 pSectionData != nullptr
@@ -68005,6 +68015,7 @@ pSource
 pSourceFunc
 pSpawnedEntityName
 pSpecified
+pTP\v
 pTagName
 pU>\AL
 pUnitName
@@ -68770,7 +68781,6 @@ playsoundscape
 playtime_2weeks
 playtime_forever
 plum
-pn$I\v
 pngsize
 point
 point arithmetic failure
@@ -69222,8 +69232,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpPA\v
 r\n\vstart_index
 r\vDi
+r\vpTP\v
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight

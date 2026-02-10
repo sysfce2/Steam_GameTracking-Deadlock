@@ -14605,6 +14605,7 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vpp
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14723,6 +14724,7 @@ $tJ@T\tK
 6,2K
 6-zeZ
 60000
+60D/
 62$|S)6f
 64CK\vH
 65535
@@ -14734,8 +14736,8 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
-6PL/
-6PX/
+6P2/
+6PE/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14754,8 +14756,7 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6p4/
-6pH/
+6pQ/
 6qo~
 6r-m_v
 6r1ij
@@ -14805,7 +14806,8 @@ $tJ@T\tK
 8<pl
 8= zp
 8A6j
-8F0=/
+8FPB/
+8F`A/
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15072,9 +15074,9 @@ $tJ@T\tK
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N$
+@08ND
 @0pp
-@6PN/
+@6pS/
 @Accolades
 @BH]f
 @MfKZ
@@ -15091,7 +15093,7 @@ $tJ@T\tK
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@htP:
+@htp?
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -34953,7 +34955,7 @@ P-224
 P-256
 P-384
 P-521
-P08N$
+P08ND
 P1\t98"
 P5[1
 PAGN_4
@@ -36360,6 +36362,7 @@ RUMBLE_STOP_ALL
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vpp
 R]Di
 Rad2 Deg
 RadiationThink
@@ -41943,6 +41946,7 @@ XYD%
 X\tQo
 Xd3h
 XfJ7
+Xf`D/
 XjfR
 XqgA+
 Xuub
@@ -42213,7 +42217,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPL
+\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -43217,7 +43221,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6PO/
+`6pT/
 `:zQF
 `D$daM-l
 `DZG
@@ -43245,7 +43249,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$
+aBvD
 aD/x
 aDSS
 aECDH
@@ -57895,6 +57899,7 @@ m_flMinBashDelay
 m_flMinBlendRate
 m_flMinBurstInterval
 m_flMinButtonHoldTimeToActivate
+m_flMinButtonHoldTimeToPlaySound
 m_flMinCancelTime
 m_flMinCloak
 m_flMinConnectTime
@@ -62254,6 +62259,7 @@ m_strFinalExplodeSound
 m_strFireBatSound
 m_strFirePendingBulletSound
 m_strFireSound
+m_strFiringLoopSound
 m_strFirstShotSound
 m_strFlyDownLocString
 m_strFlyUpLocString
@@ -65104,7 +65110,6 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n06/
 n0?X
 n1Z 
 n5cM
@@ -66257,8 +66262,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^$
-p0jP
+p08@H^D
+p0jp
 p2{l
 p4Z3
 p5Z3

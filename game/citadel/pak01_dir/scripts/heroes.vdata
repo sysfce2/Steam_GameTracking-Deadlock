@@ -75097,8 +75097,8 @@
 		m_strDeathSound = soundevent:"Damage.Receive.Lethal"
 		m_mapItemDraftWeights = 
 		{
-			upgrade_ability_power_shard = 1.000000
-			upgrade_ability_refresher = 1.000000
+			upgrade_ability_power_shard = 2.400000
+			upgrade_ability_refresher = 2.400000
 			upgrade_absorbing_armor = 2.400000
 			upgrade_acolytes_glove = 1.800000
 			upgrade_active_reload = 1.000000
@@ -75109,7 +75109,7 @@
 			upgrade_aprounds = 1.000000
 			upgrade_arcane_extension = 1.000000
 			upgrade_arcane_surge = 2.400000
-			upgrade_arctic_blast = 1.000000
+			upgrade_arctic_blast = 2.400000
 			upgrade_banshee_slugs = 1.000000
 			upgrade_berserker = 1.000000
 			upgrade_blitz_bullets = 1.000000
@@ -75123,17 +75123,17 @@
 			upgrade_cardio_calibrator = 1.000000
 			upgrade_chain_lightning = 1.000000
 			upgrade_cheat_death = 1.000000
-			upgrade_chonky = 2.400000
+			upgrade_chonky = 1.000000
 			upgrade_clip_size = 1.000000
 			upgrade_cloaking_device_active = 1.000000
 			upgrade_close_quarter_combat = 1.000000
 			upgrade_close_range = 1.000000
-			upgrade_cold_front = 1.000000
+			upgrade_cold_front = 2.400000
 			upgrade_colossus = 1.000000
 			upgrade_containment = 1.000000
 			upgrade_cooldown_reduction = 2.400000
 			upgrade_counterspell = 2.400000
-			upgrade_crackshot = 2.400000
+			upgrade_crackshot = 1.000000
 			upgrade_critshot = 1.000000
 			upgrade_crushing_fists = 1.800000
 			upgrade_damage_recycler = 2.400000
@@ -75145,7 +75145,7 @@
 			upgrade_dps_aura = 1.000000
 			upgrade_enchanted_holsters = 2.400000
 			upgrade_endurance = 0.400000
-			upgrade_escalating_exposure = 1.000000
+			upgrade_escalating_exposure = 2.400000
 			upgrade_ethereal_bullets = 1.000000
 			upgrade_express_shot = 1.000000
 			upgrade_extra_charge = 2.400000
@@ -75175,18 +75175,18 @@
 			upgrade_improved_spirit = 2.400000
 			upgrade_improved_stamina = 2.400000
 			upgrade_infinite_rounds = 1.000000
-			upgrade_infuser = 1.000000
+			upgrade_infuser = 2.400000
 			upgrade_inhibitor = 1.000000
 			upgrade_intensifying_clip = 1.000000
 			upgrade_juggernaut = 1.000000
-			upgrade_kinetic_sash = 2.400000
+			upgrade_kinetic_sash = 1.000000
 			upgrade_lifestrike_gauntlets = 1.800000
 			upgrade_long_range = 1.000000
 			upgrade_magic_burst = 2.400000
 			upgrade_magic_carpet = 1.000000
 			upgrade_magic_reach = 2.400000
 			upgrade_magic_shield = 2.400000
-			upgrade_magic_shock = 1.000000
+			upgrade_magic_shock = 2.400000
 			upgrade_magic_slow = 2.400000
 			upgrade_magic_storm = 2.400000
 			upgrade_magic_tempo = 2.400000
@@ -75206,7 +75206,7 @@
 			upgrade_rapid_recharge = 2.400000
 			upgrade_rapid_rounds = 1.000000
 			upgrade_reduce_debuff_duration = 2.400000
-			upgrade_regenerating_bullet_shield = 2.400000
+			upgrade_regenerating_bullet_shield = 1.000000
 			upgrade_reinforcing_casings = 1.000000
 			upgrade_rescue_beam = 1.000000
 			upgrade_resonant_healing = 2.400000
@@ -75224,7 +75224,7 @@
 			upgrade_spellbreaker = 1.000000
 			upgrade_spellslinger_headshots = 1.000000
 			upgrade_spirit_bubble = 1.000000
-			upgrade_spirit_burn = 1.000000
+			upgrade_spirit_burn = 2.400000
 			upgrade_spirit_sap = 1.000000
 			upgrade_spirit_snatch = 1.800000
 			upgrade_split_shot = 1.000000
@@ -75234,7 +75234,7 @@
 			upgrade_surging_power = 1.000000
 			upgrade_target_stun = 1.000000
 			upgrade_targeted_silence = 1.000000
-			upgrade_mystic_reverb = 1.000000
+			upgrade_mystic_reverb = 2.400000
 			upgrade_tech_damage_pulse = 2.400000
 			upgrade_tech_defense_shredders = 1.000000
 			upgrade_tech_overflow = 1.000000
@@ -75243,7 +75243,7 @@
 			upgrade_thermal_detonator = 1.000000
 			upgrade_timeless_emblem = 1.000000
 			upgrade_titan_round = 1.000000
-			upgrade_toxic_bullets = 2.400000
+			upgrade_toxic_bullets = 1.000000
 			upgrade_transcendent_cooldown = 2.400000
 			upgrade_trophy_collector = 1.000000
 			upgrade_ultimate_burst = 2.400000

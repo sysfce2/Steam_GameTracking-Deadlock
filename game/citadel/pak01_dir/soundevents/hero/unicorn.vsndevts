@@ -34,6 +34,17 @@
 		]
 		vsnd_duration = 2.108798
 	}
+	Unicorn.Weapon.Loop = 
+	{
+		base = "Base.Weapon"
+		volume = 1.000000
+		delay_rand_min = -2.000000
+		volume_fade_in = 0.200000
+		volume_fade_out = 0.200000
+		pitch = 1.200000
+		vsnd_files = "sounds/weapons/unicorn/unicorn_weapon_lp.vsnd"
+		vsnd_duration = 5.731814
+	}
 	Unicorn.Weapon.Impact = 
 	{
 		base = "Base.Ability.Detached"
