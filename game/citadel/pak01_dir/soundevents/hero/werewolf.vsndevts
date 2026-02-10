@@ -95,7 +95,7 @@
 	Werewolf.Wpn.Rifle.Cycle.Start = 
 	{
 		base = "Base.Ability"
-		volume = -16.000000
+		volume = -13.000000
 		limiter_max = 1.000000
 		vsnd_files = 
 		[
@@ -103,12 +103,12 @@
 			"sounds/weapons/werewolf/werewolf_wpn_rifle_cycle_start_02.vsnd",
 			"sounds/weapons/werewolf/werewolf_wpn_rifle_cycle_start_03.vsnd",
 		]
-		vsnd_duration = 0.693696
+		vsnd_duration = 0.290385
 	}
 	Werewolf.Wpn.Rifle.Cycle.Stop = 
 	{
 		base = "Base.Ability"
-		volume = -16.000000
+		volume = -13.000000
 		limiter_max = 1.000000
 		vsnd_files = 
 		[
@@ -116,7 +116,7 @@
 			"sounds/weapons/werewolf/werewolf_wpn_rifle_cycle_stop_02.vsnd",
 			"sounds/weapons/werewolf/werewolf_wpn_rifle_cycle_stop_03.vsnd",
 		]
-		vsnd_duration = 0.629546
+		vsnd_duration = 0.229546
 	}
 	Werewolf.Wpn.Rifle.Reload.Start = 
 	{
