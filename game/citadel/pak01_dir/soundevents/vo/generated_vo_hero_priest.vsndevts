@@ -1078,7 +1078,6 @@
 		[
 			"sounds/vo/priest/priest_ally_unicorn_killed_in_lane_01_alt_01.vsnd",
 		]
-		vsnd_duration = 1.194333
 	}
 	priest_ally_unicorn_killed_in_lane_01_hero_3d = 
 	{

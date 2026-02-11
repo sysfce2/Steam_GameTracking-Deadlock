@@ -403,8 +403,8 @@
 	}
 	Dynamo.A1.Stomp.Hit = 
 	{
-		type = "citadel_hit_confirm"
-		volume = 1.000000
+		base = "Base.Ability.Hit"
+		volume = 0.000000
 		limiter_on = true
 		vsnd_files = 
 		[

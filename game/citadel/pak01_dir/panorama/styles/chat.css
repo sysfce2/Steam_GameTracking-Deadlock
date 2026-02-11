@@ -4,12 +4,6 @@ CitadelChat
 {
 	width: 350px;
 	flow-children: down;
-	visibility: collapse;
-}
-
-CitadelChat.ShowChat
-{
-	visibility: visible;
 }
 
 CitadelChat.ChatExpanded

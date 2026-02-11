@@ -298,6 +298,12 @@ CitadelAccountSurvey
 	text-overflow: shrink;
 }
 
+.playAsHighlight
+{
+	color: offWhite;
+	text-decoration: underline;
+}
+
 .playtestHighlight
 {
 	color: #ff7f7f;

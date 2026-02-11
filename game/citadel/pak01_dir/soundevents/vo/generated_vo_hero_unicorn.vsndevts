@@ -4978,7 +4978,6 @@
 		[
 			"sounds/vo/unicorn/unicorn_killstreak_mid_03.vsnd",
 		]
-		vsnd_duration = 2.690167
 	}
 	unicorn_killstreak_mid_03_hero_announcer = 
 	{
@@ -4988,7 +4987,6 @@
 		[
 			"sounds/vo/unicorn/unicorn_killstreak_mid_03.vsnd",
 		]
-		vsnd_duration = 2.690167
 	}
 	unicorn_killstreak_start_01_hero_3d = 
 	{
@@ -18168,7 +18166,6 @@
 		[
 			"sounds/vo/unicorn/unicorn_use_tech_purge_02.vsnd",
 		]
-		vsnd_duration = 1.494083
 	}
 	unicorn_use_tech_purge_03_ability_3d = 
 	{

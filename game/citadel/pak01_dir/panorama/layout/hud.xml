@@ -311,7 +311,6 @@
 					<CitadelBinding id="UnlockBinding_AbilityRadial" class="APUnlockBinding" action="AbilityUpgradeRadial" />
 				</Panel>
 			</Panel>
-			<CitadelHudChat id="HudChat" />
 			<CitadelChat id="Chat" />
 			<CitadelHudHideout id="CitadelHudHideout" />
 		</Panel>

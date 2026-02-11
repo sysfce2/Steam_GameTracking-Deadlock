@@ -389,7 +389,6 @@
 	{
 		base = "Base.Ability"
 		volume = -4.000000
-		volume_enemy_targeting_boost = 4.000000
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_hotel_select_01.vsnd",
@@ -402,7 +401,6 @@
 		volume = -5.000000
 		volume_fade_out = 0.300000
 		volume_fade_in = 0.200000
-		volume_enemy_targeting_boost = 4.000000
 		vsnd_files = "sounds/abilities/doorman/doorman_hotel_select_lp_01.vsnd"
 		vsnd_duration = 8.663446
 	}

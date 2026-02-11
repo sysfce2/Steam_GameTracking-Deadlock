@@ -112,103 +112,14 @@
 		]
 		vsnd_duration = 0.883583
 	}
-	Synth.A1.Plasma.Flux.Cast = 
-	{
-		base = "Base.Ability"
-		volume = -6.000000
-		vsnd_files = "sounds/abilities/synth/a1_plasma_flux/cast.vsnd"
-		vsnd_duration = 1.972125
-	}
-	Synth.A1.Plasma.Flux.Proj.Expire = 
-	{
-		base = "Base.Ability"
-		volume = 5.000000
-		vsnd_files = "sounds/abilities/synth/a2_flying_cloak/expire.vsnd"
-		vsnd_duration = 1.388503
-	}
-	Synth.A1.Plasma.Flux.Teleport.Arrive = 
+	Pocket.Barrage.Fire = 
 	{
 		base = "Base.Ability"
 		volume = 2.000000
-		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_warp.vsnd"
-		vsnd_duration = 1.763946
-	}
-	Synth.A1.Plasma.Flux.DPS.Start = 
-	{
-		base = "Base.Ability"
-		volume = 0.000000
-		pitch = 1.100000
-		vsnd_files = "sounds/abilities/shiv/a1_thrown_shiv/debuff_start.vsnd"
-		vsnd_duration = 2.102187
-	}
-	Synth.A1.Plasma.Flux.DPS.Hit = 
-	{
-		base = "Base.Ability"
-		volume = -9.000000
-		pitch = 1.000000
-		vsnd_files = "sounds/abilities/synth/a2_flying_cloak/dot_hit_indicator.vsnd"
-		vsnd_duration = 0.832479
-	}
-	Synth.A1.Plasma.Flux.DPS.Hit.Pop = 
-	{
-		base = "Base.Ability"
-		volume = -12.000000
-		pitch = 1.000000
-		vsnd_files = "sounds/abilities/shiv/a1_thrown_shiv/dagger_hit_poof.vsnd"
-		vsnd_duration = 3.441708
-	}
-	Synth.A1.Plasma.Flux.DPS.Hit.Stab = 
-	{
-		base = "Base.Ability"
-		volume = -12.000000
-		pitch = 0.700000
-		vsnd_files = "sounds/abilities/shiv/a1_thrown_shiv/dagger_hit_stab.vsnd"
-		vsnd_duration = 1.349521
-	}
-	Synth.A1.Plasma.Flux.DPS.Hit.Stab2 = 
-	{
-		base = "Base.Ability"
-		vsnd_files = "sounds/abilities/shiv/shiv_dash_impact.vsnd"
-		vsnd_duration = 2.424438
-	}
-	Synth.A1.Plasma.Flux.Impact = 
-	{
-		base = "Base.Ability"
-		limiter_stop_oldest = true
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		volume = 0.000000
-		vsnd_files = "sounds/abilities/orion/a1_charged_shot/impact_lyr1.vsnd"
-		vsnd_duration = 1.216000
-	}
-	Synth.A1.Plasma.Flux.Tier3.Mod.Start = 
-	{
-		base = "Base.Ability"
-		volume = 0.000000
-		vsnd_files = "sounds/abilities/synth/a1_plasma_flux/t3_mod_start.vsnd"
-		vsnd_duration = 1.173458
-	}
-	Synth.A1.Plasma.Flux.Tier3.Mod.Lp = 
-	{
-		base = "Base.Ability"
-		volume = -18.000000
-		pitch = 1.200000
-		vsnd_files = "sounds/abilities/synth/a1_plasma_flux/t3_mod_lp.vsnd"
-		vsnd_duration = 7.590375
-	}
-	Synth.A1.Plasma.Flux.Tier3.Mod.End = 
-	{
-		base = "Base.Ability"
-		vsnd_files = "sounds/abilities/synth/a1_plasma_flux/t3_mod_end.vsnd"
-		vsnd_duration = 0.933625
-	}
-	Synth.Barrage.Fire = 
-	{
-		base = "Base.Ability"
-		volume = 0.000000
 		pitch = 1.200000
 		pitch_rand_min = 0.130000
 		pitch_rand_max = -0.120000
+		volume_enemy_targeting_boost = 7.000000
 		vsnd_files = 
 		[
 			"sounds/abilities/pocket/pocket_a1_barrage_cast_01.vsnd",
@@ -220,88 +131,183 @@
 		]
 		vsnd_duration = 2.378753
 	}
-	Synth.Pulse.Lp = 
+	Pocket.Barrage.Proj.Impact = 
+	{
+		base = "Base.Ability.Detached"
+		volume = 0.000000
+		volume_offset_opponent = 6.000000
+		vsnd_files = 
+		[
+			"sounds/abilities/pocket/pocket_a1_barrage_impact_01.vsnd",
+			"sounds/abilities/pocket/pocket_a1_barrage_impact_02.vsnd",
+			"sounds/abilities/pocket/pocket_a1_barrage_impact_03.vsnd",
+			"sounds/abilities/pocket/pocket_a1_barrage_impact_04.vsnd",
+		]
+		vsnd_duration = 0.810181
+	}
+	Pocket.Barrage.Start = 
+	{
+		base = "Base.Ability"
+		volume = 6.000000
+		pitch_rand_min = 0.130000
+		pitch_rand_max = -0.120000
+		vsnd_files = "sounds/abilities/pocket/pocket_a1_barrage_cast_start.vsnd"
+		vsnd_duration = 2.566803
+	}
+	Pocket.Cloak.Cast = 
+	{
+		base = "Base.Ability"
+		volume = 2.000000
+		volume_enemy_targeting_boost = 6.000000
+		vsnd_files = 
+		[
+			"sounds/abilities/pocket/pocket_cloak_cast_01.vsnd",
+			"sounds/abilities/pocket/pocket_cloak_cast_02.vsnd",
+			"sounds/abilities/pocket/pocket_cloak_cast_03.vsnd",
+		]
+		vsnd_duration = 1.395805
+	}
+	Pocket.Cloak.Caster.Lp = 
+	{
+		base = "Base.Ability"
+		volume = -15.000000
+		volume_fade_in = 0.500000
+		volume_fade_out = 0.300000
+		pitch = 0.950000
+		vsnd_files = "sounds/abilities/synth/a2_flying_cloak/player_cloak_lp.vsnd"
+		vsnd_duration = 5.896417
+	}
+	Pocket.Cloak.Expire = 
+	{
+		base = "Base.Ability.Detached"
+		volume = 5.000000
+		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_end.vsnd"
+		vsnd_duration = 0.965147
+	}
+	Pocket.Cloak.Arrive = 
+	{
+		base = "Base.Ability"
+		volume = 2.000000
+		volume_offset_opponent = 3.000000
+		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_warp.vsnd"
+		vsnd_duration = 1.763946
+	}
+	Pocket.Cloak.Hit = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 3.000000
+		limiter_stop_oldest = true
+		limiter_on = 1.000000
+		limiter_max = 1.000000
+		volume_offset_attacker_db = 3.000000
+		vsnd_files = 
+		[
+			"sounds/abilities/pocket/pocket_cloak_hit_01.vsnd",
+			"sounds/abilities/pocket/pocket_cloak_hit_02.vsnd",
+			"sounds/abilities/pocket/pocket_cloak_hit_03.vsnd",
+		]
+		vsnd_duration = 1.427438
+	}
+	Pocket.Cloak.Buff.Start = 
+	{
+		base = "Base.Ability"
+		volume = 0.000000
+		vsnd_files = "sounds/abilities/synth/a1_plasma_flux/t3_mod_start.vsnd"
+		vsnd_duration = 1.173458
+	}
+	Pocket.Cloak.Buff.Lp = 
+	{
+		base = "Base.Ability"
+		volume = -18.000000
+		pitch = 1.200000
+		vsnd_files = "sounds/abilities/synth/a1_plasma_flux/t3_mod_lp.vsnd"
+		vsnd_duration = 7.590375
+	}
+	Pocket.Cloak.Buff.End = 
+	{
+		base = "Base.Ability"
+		vsnd_files = "sounds/abilities/synth/a1_plasma_flux/t3_mod_end.vsnd"
+		vsnd_duration = 0.933625
+	}
+	Pocket.Cloak.Proj.Lp = 
+	{
+		base = "Base.Ability.Projectile"
+		volume = -3.000000
+		volume_fade_in = 0.500000
+		volume_fade_out = 0.200000
+		delay_rand_min = -3.000000
+		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_lp.vsnd"
+		vsnd_duration = 4.348844
+	}
+	Pocket.Cloak.Timer = 
+	{
+		base = "Base.Ability.Projectile"
+		volume = 0.000000
+		delay = 0.260000
+		volume_fade_out = 0.400000
+		play_from_listener_player = 1.000000
+		doppler_on = 0.000000
+		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_timer.vsnd"
+		vsnd_duration = 2.464898
+	}
+	Pocket.Satchel.Lp = 
 	{
 		base = "Base.Ability"
 		volume = 4.000000
 		volume_fade_in = 2.000000
 		volume_fade_out = 0.300000
 		param_envelope_enabled = 1.000000
-		param_envelope_duration = -1.000000
 		pitch_envelope_scale_min = 0.800000
 		pitch_envelope_scale_max = 1.300000
-		delay = 0.500000
-		volume_offset_player = -6.000000
+		volume_offset_player = -4.000000
 		vsnd_files = "sounds/abilities/pocket/pocket_a3_pulse_delay.vsnd"
 		vsnd_duration = 3.419887
 	}
-	Synth.A2.Grasp.Cast = 
+	Pocket.Satchel.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
-		pitch = 0.900000
-		vsnd_files = "sounds/abilities/synth/a2_grasp/cast.vsnd"
-		vsnd_duration = 2.524833
+		volume = 4.000000
+		vsnd_files = "sounds/abilities/pocket/pocket_a3_pulse_cast.vsnd"
+		vsnd_duration = 2.131950
 	}
-	Synth.A2.Grasp.Target.Lock = 
-	{
-		base = "Base.Ability"
-		volume = -1.000000
-		vsnd_files = "sounds/abilities/synth/a2_grasp/target_lock_start.vsnd"
-		vsnd_duration = 1.431813
-	}
-	Synth.A2.Grasp.Expire = 
-	{
-		base = "Base.Ability"
-		volume = -9.000000
-		vsnd_files = "sounds/abilities/synth/a2_grasp/target_lock_expire.vsnd"
-		vsnd_duration = 0.553625
-	}
-	Pocket.A2.Flying.Cloak.Caster.Lp = 
-	{
-		base = "Base.Ability"
-		volume = -9.000000
-		pitch = 0.950000
-		vsnd_files = "sounds/abilities/synth/a2_flying_cloak/player_cloak_lp.vsnd"
-		vsnd_duration = 5.896417
-	}
-	Synth.A3.Blitz = 
+	Pocket.Satchel.Explode = 
 	{
 		base = "Base.Ability"
 		volume = 0.000000
-		vsnd_files = "sounds/abilities/synth/a3_blitz/cast.vsnd"
-		vsnd_duration = 4.301813
+		vsnd_files = "sounds/abilities/pocket/pocket_a3_pulse_explode.vsnd"
+		vsnd_duration = 2.298254
 	}
-	Synth.Affliction.Cast = 
+	Pocket.Affliction.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 1.000000
+		volume = 2.000000
 		delay = 0.100000
 		vsnd_files = "sounds/abilities/pocket/pocket_a4_affliction_full.vsnd"
 		vsnd_duration = 4.175034
 	}
-	Synth.Affliction.Cast.Impact = 
+	Pocket.Affliction.Debuff.Start = 
 	{
-		base = "Base.Ability.Ult"
-		volume = 1.000000
-		vsnd_files = "sounds/abilities/synth/affliction/cast_05_impact.vsnd"
-		vsnd_duration = 1.889792
+		base = "Base.Ability.Hit"
+		limiter_max = 5.000000
+		volume = 5.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		volume_offset_attacker_db = 3.000000
+		vsnd_files = 
+		[
+			"sounds/abilities/pocket/pocket_affliction_hit_01.vsnd",
+			"sounds/abilities/pocket/pocket_affliction_hit_02.vsnd",
+			"sounds/abilities/pocket/pocket_affliction_hit_03.vsnd",
+		]
+		vsnd_duration = 1.769229
 	}
-	Synth.A4.Cosmic.Box.Cast = 
-	{
-		base = "Base.Ability.Ult"
-		volume = 0.000000
-		spread_min = 0.000000
-		spread_max = 250.000000
-		spread_min_value = 0.831492
-		vsnd_files = "sounds/abilities/pocket/pocket_affliction_cast.vsnd"
-		vsnd_duration = 4.175034
-	}
-	Synth.Affliction.Debuff_Lp = 
+	Pocket.Affliction.Debuff.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -15.000000
-		delay = 0.100000
+		volume = -14.000000
+		volume_fade_in = 0.200000
+		volume_fade_out = 0.500000
+		delay_rand_min = -3.000000
 		vsnd_files = "sounds/abilities/pocket/pocket_a4_affliction_debuff.vsnd"
 		vsnd_duration = 11.909252
 	}
@@ -505,70 +511,6 @@
 		]
 		vsnd_duration = 1.399792
 	}
-	Synth.Barrage.Proj.Impact = 
-	{
-		base = "Base.Ability.Detached"
-		volume = -2.000000
-		volume_offset_opponent = 6.000000
-		vsnd_files = 
-		[
-			"sounds/abilities/pocket/pocket_a1_barrage_impact_01.vsnd",
-			"sounds/abilities/pocket/pocket_a1_barrage_impact_02.vsnd",
-			"sounds/abilities/pocket/pocket_a1_barrage_impact_03.vsnd",
-			"sounds/abilities/pocket/pocket_a1_barrage_impact_04.vsnd",
-		]
-		vsnd_duration = 0.810181
-	}
-	Pocket.Pulse.Cast = 
-	{
-		base = "Base.Ability"
-		volume = 4.000000
-		vsnd_files = "sounds/abilities/pocket/pocket_a3_pulse_cast.vsnd"
-		vsnd_duration = 2.131950
-	}
-	Pocket.Pulse.Explode = 
-	{
-		base = "Base.Ability"
-		volume = 0.000000
-		vsnd_files = "sounds/abilities/pocket/pocket_a3_pulse_explode.vsnd"
-		vsnd_duration = 2.298254
-	}
-	Synth.A1.Plasma.Flux.Proj.Lp = 
-	{
-		base = "Base.Ability.Projectile"
-		volume = -3.000000
-		volume_fade_in = 0.500000
-		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_lp.vsnd"
-		vsnd_duration = 4.348844
-	}
-	Synth.A1.Plasma.Flux.End = 
-	{
-		base = "Base.Ability"
-		volume = 0.000000
-		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_end.vsnd"
-		vsnd_duration = 0.965147
-	}
-	Synth.A1.Plasma.Flux.Timer = 
-	{
-		base = "Base.Ability.Projectile"
-		volume = 0.000000
-		delay = 0.260000
-		volume_fade_out = 0.400000
-		play_from_listener_player = 1.000000
-		doppler_on = 0.000000
-		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_timer.vsnd"
-		vsnd_duration = 2.464898
-	}
-	Synth.Barrage.Start = 
-	{
-		base = "Base.Ability"
-		volume = 6.000000
-		pitch_rand_min = 0.130000
-		pitch_rand_max = -0.120000
-		delay = 0.100000
-		vsnd_files = "sounds/abilities/pocket/pocket_a1_barrage_cast_start.vsnd"
-		vsnd_duration = 2.566803
-	}
 	Synth.Progession.Page.Win.VO = 
 	{
 		base = "Base.VO.HeroVictory"
@@ -593,5 +535,34 @@
 			"sounds/vo/synth/synth_unselect_08.vsnd",
 		]
 		vsnd_duration = 3.003537
+	}
+	Synth.A2.Grasp.Cast = 
+	{
+		base = "Base.Ability"
+		volume = 1.000000
+		pitch = 0.900000
+		vsnd_files = "sounds/abilities/synth/a2_grasp/cast.vsnd"
+		vsnd_duration = 2.524833
+	}
+	Synth.A2.Grasp.Target.Lock = 
+	{
+		base = "Base.Ability"
+		volume = -1.000000
+		vsnd_files = "sounds/abilities/synth/a2_grasp/target_lock_start.vsnd"
+		vsnd_duration = 1.431813
+	}
+	Synth.A2.Grasp.Expire = 
+	{
+		base = "Base.Ability"
+		volume = -9.000000
+		vsnd_files = "sounds/abilities/synth/a2_grasp/target_lock_expire.vsnd"
+		vsnd_duration = 0.553625
+	}
+	Synth.A3.Blitz = 
+	{
+		base = "Base.Ability"
+		volume = 0.000000
+		vsnd_files = "sounds/abilities/synth/a3_blitz/cast.vsnd"
+		vsnd_duration = 4.301813
 	}
 }

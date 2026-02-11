@@ -142,61 +142,6 @@ b
 	vertical-align: center;
 }
 
-.ClearKeybinding
-{
-	width: 32px;
-	height: 24px;
-	vertical-align: center;
-	horizontal-align: right;
-	background-image: url("s2r://panorama/images/icons/delete_small.vsvg");
-	background-size: 20px;
-	background-texture-size: 20px;
-	background-repeat: no-repeat;
-	background-position: center;
-	wash-color: #C0B4A2;
-}
-
-#ClearAndResetContainer
-{
-	width: fit-children;
-	vertical-align: center;
-	opacity: 0;
-	transition-property: opacity;
-	transition-duration: 0.2s;
-	transition-delay: 0.25s;
-}
-
-#ResetBindingButton
-{
-	visibility: visible;
-	width: 32px;
-	height: 24px;
-	vertical-align: center;
-	text-overflow: shrink;
-	background-image: url("s2r://panorama/images/icons/settings_reset.vsvg");
-	background-size: 24px;
-	background-texture-size: 24px;
-	background-repeat: no-repeat;
-	background-position: center;
-	wash-color: offWhite;
-}
-
-#ResetBindingButton:disabled
-{
-	opacity: 0.1;
-	wash-color: colorEnemy;
-}
-
-#PushToTalkBinder #ResetBindingButton,#PushToTalkPartyBinder #ResetBindingButton,#MuteConsoleBinder #ResetBindingButton
-{
-	visibility: collapse;
-}
-
-.HeroAbilityBindAbilityButton .ClearKeybinding,.ItemBindButton .ClearKeybinding
-{
-	vertical-align: top;
-}
-
 .ActiveBindButton:selected #mod,.ActiveBindButton:selected #dash
 {
 	visibility: collapse;
@@ -228,11 +173,6 @@ b
 #KeybindContainer:hover #LabelFXContainer
 {
 	background-color: rgba(0, 0, 0, 0.75);
-}
-
-#KeybindContainer:hover #ClearAndResetContainer
-{
-	opacity: 1;
 }
 
 #KeybindContainer:hover Label
@@ -559,14 +499,6 @@ b
 {
 	padding-left: 6px;
 	padding-top: 6px;
-}
-
-#ItemsTPBindingContainer .ItemBindButton .ClearKeybinding,#ItemsNeutralSlotBindingContainer .ItemBindButton .ClearKeybinding
-{
-	width: 18px;
-	height: 18px;
-	margin-right: 8px;
-	margin-top: 8px;
 }
 
 #ChatWheelConceptsContainer #ChatWheelConceptsWrapper

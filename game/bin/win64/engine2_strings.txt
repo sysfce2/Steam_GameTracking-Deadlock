@@ -2563,13 +2563,10 @@ $tI(knN
 0B_u
 0C&C
 0E>X
-0L'C
 0T.Q
 0X8b?~
 0\n\vserializers
-0d\rC
 0iN>/
-0vd)C
 0x%x,
 0|t?L
 0|t?uj
@@ -2622,7 +2619,6 @@ $tI(knN
 2\r%2t
 2\r.PrefetchType"h\n
 2\rU2t
-2\vpL'C
 2i0/
 3$EE\f
 3'F^7
@@ -2691,8 +2687,8 @@ $tI(knN
 8>0RF>
 8@HP:
 8A3b
+8B@W%
 8Csinf
-8Iq^
 8Smt
 8W?i
 8\n\textension
@@ -3127,16 +3123,14 @@ $tI(knN
 ?ysB
 @ Current  :  %s\n
 @08@HPX`hpx
-@08Nd)C
+@08N
 @GetProfile_ultrafast
 @HPX
 @HPX&I
 @HPX`hv
 @^8U)zj
-@fd)C
 @htP1
 @i-kuX
-@nd)C
 A command with the specified name already exists. Cannot create an alias with the same name.\n
 A dB floor of when to stop transmitting packets, the volume between this and voice_threshold will still transmit packets to allow for volume ramping.
 A file with this name is already in the pool.
@@ -5568,11 +5562,10 @@ G|u0J\n
 H$6t
 H*0"ZOW
 H.FM
-H5O`
-H5Q`
 HD?0
 HGR9\f
 HH:mm:ss
+HIP`
 HKR~
 HLTV
 HLTV Broadcast
@@ -5592,7 +5585,6 @@ HardCancel
 HasField
 HasLegacyGameUI
 HasModAppSystems
-HeN`
 Hebrew
 Hello world!
 HelpSystem_001
@@ -5628,6 +5620,7 @@ Hostname for server.
 How far back before our current playback head in seconds to hold onto fragments.
 How long to show the message about Killer Replay after death. The best setting is a bit shorter than spec_replay_autostart_delay + spec_replay_leadup_time + spec_replay_winddown_time
 How often to flash demo recording/playback overlay (0 - disable overlay, -1 - show always)
+HuP`
 HudUpdate
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
@@ -6514,7 +6507,7 @@ Overrides the max players reported to prospective clients
 Overriding minidump handler with Engine2MinidumpFunction\n
 P08@J
 P08J
-P08Nd)C
+P08N
 P4File
 P:S;A
 P?fff?33s?{
@@ -6524,7 +6517,6 @@ PCRE does not support \L, \l, \N{name}, \U, or \u
 PHrk
 PInstruction_t<41>::Run
 PInstruction_t<42>::Run
-PL'C
 PLACEHOLDER_VALUE
 PLATFORM
 PLAYBACK: At end of data\n
@@ -6634,7 +6626,6 @@ Paused: %s
 Pauses demo playback.
 Pauses instant replay.
 Pauses when the 'render time' reaches the specified tick.
-Pd\rC
 Pe6^
 Peak commit charge: %.2f MiB\n
 Peak resident memory:    %s\n
@@ -6797,7 +6788,6 @@ Playing Broadcast (%s)
 Playing Demo (%s)
 Playing back demo: '%s' at tick %u\n
 PmNk
-Pnd)C
 Pointers cannot be used as numeric values
 PollAndProcessInput
 Poor man's restart: reload the current map from disk.
@@ -6980,7 +6970,6 @@ RP_PAUSE
 RP_TOGGLEPAUSE
 RSDSh
 RST%d
-R\vpL'C
 RaiseException
 Random Float
 Random Integer
@@ -8613,7 +8602,6 @@ You are trying to unmount addon '%s', but SetAllowAddonChanges is false which pr
 You have been kicked and banned %s by the server.\n
 Your current chat group is "%s"\n
 YpU_Z
-YzP`
 Z-google.golang.org/protobuf/types/descriptorpb
 Z48wN39
 Z6y\r?
@@ -8699,8 +8687,7 @@ Zq",9\fB
 \fV0U
 \fV4U
 \fX\fm\vH\vH\vm\v
-\fpL'C
-\fpn3
+\fp\vP0
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \n    Actual    : 
 \n    Field type: 
@@ -9096,7 +9083,6 @@ Zq",9\fB
 \vH\vm\vm\vm\vm\vH\vH\vH\vH\vH\v
 \vIG]h
 \vInterp
-\vPd\rC
 \vSimulationTicks
 \vSource
 \vVyC
@@ -9105,7 +9091,6 @@ Zq",9\fB
 \vm\vm\vm\vH\vm\vm\v
 \vm\vm\vm\vm\vH\v
 \vnJH
-\vpL'C
 \vxYT
 ] is an invalid data character in JavaScript compatibility mode
 ]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
@@ -9172,7 +9157,6 @@ _spawngroup_logging/log_%s_group_%s.txt
 _temp_mapcycle.txt
 `-uRQg
 `3Q"X
-`6P\tH
 `?m'_?&~]?(
 `RTTI
 `adjustor{
@@ -9186,7 +9170,6 @@ _temp_mapcycle.txt
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`fd)C
 `generic-class-parameter-
 `generic-method-parameter-
 `generic-type-
@@ -9201,7 +9184,6 @@ _temp_mapcycle.txt
 `managed vector constructor iterator'
 `managed vector copy constructor iterator'
 `managed vector destructor iterator'
-`nd)C
 `non-type-template-parameter
 `omni callsig'
 `placement delete closure'
@@ -9233,7 +9215,6 @@ a numbered reference must not be zero
 a&M-=Z]<i*k)n-t&q&p&|
 a6>r
 a?wSa?\
-aBvd)C
 a\v4+Wk
 abcdefghijklmnopqrstuvwxyz
 abortflag
@@ -9966,7 +9947,6 @@ extendee
 extension_range
 extern "C" 
 f#kI3\t
-f2)H
 f5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
 f9U\n
 f?3Jf?6
@@ -9989,7 +9969,6 @@ false:<\n
 false:=\n
 false:=\n\rvalve_map_key
 false:?\n
-fd)C
 field
 field_serializer_name_sym
 field_serializer_version
@@ -10748,7 +10727,6 @@ n`xBF|7T
 name
 nan(ind)
 nan(snan)
-nd)C
 ndZTNGA:3-' 
 near '%c' :\n
 near char(%#02X) :\n
@@ -10955,21 +10933,22 @@ overwatch
 owM&
 owner dead
 oz>!km>
-p08@H^d)C
+p08@H^
+p0j0
 p0p@
+p2@W%
 p2p_listpeers
 p2p_ping "%s"
 p4edit
-p>d)C
+p>8)H
+p>W)H
 p?ff
 p@HPX`h\f
 pClass
 pClass->m_ClassID(%i) >= %i\n
 pClient
 pCm)
-pF`\vH
 pH\fy
-pL'C
 pMessage
 pServerClass
 pYa(bu
@@ -11001,7 +10980,6 @@ path
 pause
 paused
 pc64
-pd\rC
 peer
 pending
 pending_full_frame
@@ -11043,7 +11021,6 @@ playing %s from '%s'\n
 playsound
 playsound 
 playsound <soundname>
-pnd)C
 png 
 png_screenshot
 pointer, 
@@ -11120,6 +11097,7 @@ quit
 quit\n
 qxs?L
 qxs?z7
+r0K(
 r?dar?\n
 rA?7
 rEy5
@@ -12021,7 +11999,6 @@ vaudio_speex
 vconcomm
 vconsole_rcon_server_details
 vcss
-vd)C
 vecSave
 vector
 vector too long

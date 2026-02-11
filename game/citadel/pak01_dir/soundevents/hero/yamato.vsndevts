@@ -538,7 +538,6 @@
 		param_envelope_enabled = 1.000000
 		pitch_envelope_scale_min = 0.950000
 		pitch_envelope_scale_max = 1.500000
-		volume_enemy_targeting_boost = 0.000000
 		vsnd_files = "sounds/abilities/yamato/a4_shadow_form/yamato_shadow_transformation_lp.vsnd"
 		vsnd_duration = 7.221587
 	}

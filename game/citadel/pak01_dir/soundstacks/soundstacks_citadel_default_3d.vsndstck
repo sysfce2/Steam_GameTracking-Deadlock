@@ -352,14 +352,6 @@
 			},
 			
 			{
-				name = "reset_mixlayer"
-				operator = "soundmixer_set_mixlayer_amount"
-				input_execute = "@start_vmix.output_voice_finished"
-				input = "0.000000"
-				mixlayer = "@public.mixer_mixlayer_to_set"
-			},
-			
-			{
 				name = "send_hrtf_on"
 				input_execute = "1"
 				operator = "vmix_voicegraph_input"

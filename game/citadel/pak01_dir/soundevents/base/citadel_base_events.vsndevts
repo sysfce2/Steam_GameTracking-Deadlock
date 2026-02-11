@@ -667,7 +667,7 @@
 		volume_offset_player = 0.000000
 		volume_offset_opponent = 0.000000
 		volume_offset_neutral = 0.000000
-		volume_enemy_targeting_boost = 0.000000
+		volume_enemy_targeting_boost = 2.000000
 		play_from_listener_player = 1.000000
 		spread_max_value_player = 0.000000
 		spread_min_value = 0.000000
@@ -725,7 +725,7 @@
 	Base.Ability.Telegraph = 
 	{
 		base = "Base.Ability"
-		volume_enemy_targeting_boost = 4.000000
+		volume_enemy_targeting_boost = 2.000000
 		volume_falloff_floor_enemy_targeting = 1.000000
 		volume_falloff_floor_enemy_relevance = 1.000000
 		hpf_non_player_enabled = 0.000000
@@ -741,7 +741,7 @@
 		block_team = true
 		block_neutral = true
 		volume_offset_opponent = -16.000000
-		volume_enemy_targeting_boost = 16.000000
+		volume_enemy_targeting_boost = 14.000000
 	}
 	Base.Ability.Projectile = 
 	{

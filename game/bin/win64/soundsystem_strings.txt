@@ -1367,7 +1367,7 @@ $toolgraphs
 08CG
 12dB
 1e<w 
-2\vpd
+2\vpt
 33s?
 8fff?fff?fff?fff?
 <EMPTY>
@@ -2005,6 +2005,7 @@ Exponential
 Exponential Ramp
 Extra taps
 Extract Source
+F8hK
 FIELDATA COMPARE FAIL: %s->%s\n
 FIELDATASIZE COMPARE FAIL: %s->%s\n
 FIELINFO COMPARE FAIL: %s->%s\n
@@ -3000,7 +3001,6 @@ _stack_properties
 _startSample
 _system_properties
 _voicegraph
-`ygO
 accumulate_indexed_speakers
 adsp_alley_min
 adsp_courtyard_min
@@ -5070,5 +5070,4 @@ wave_type
 weights_field_name
 zG(knN~|wmW)
 {\tV_strtok
-~?8hK
 ~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown\n

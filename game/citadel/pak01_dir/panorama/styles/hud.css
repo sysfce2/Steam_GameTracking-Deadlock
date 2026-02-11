@@ -3572,11 +3572,6 @@ CitadelHudSoulAPContainer.ShowGoldAndAPOnHud
 	margin-bottom: 200px;
 }
 
-.BothChatStyle #Chat
-{
-	margin-left: -130px;
-}
-
 #CitadelPartyContainer
 {
 	horizontal-align: right;

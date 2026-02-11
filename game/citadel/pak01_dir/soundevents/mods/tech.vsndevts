@@ -793,7 +793,7 @@
 	Mods.Tech.Silence.Wave.Cast = 
 	{
 		base = "Base.Mod"
-		volume_enemy_targeting_boost = 6.000000
+		volume_enemy_targeting_boost = 4.000000
 		volume = -2.000000
 		pitch_rand_min = -0.025000
 		pitch_rand_max = 0.025000
@@ -852,7 +852,6 @@
 	{
 		base = "Base.Mod"
 		volume = -4.000000
-		volume_enemy_targeting_boost = 4.000000
 		vsnd_files = "sounds/mods/tech/focus_lens/focus_lens_cast.vsnd"
 		vsnd_duration = 4.275714
 	}
@@ -1157,7 +1156,6 @@
 		volume = -7.000000
 		volume_fade_in = 0.100000
 		volume_fade_out = 0.600000
-		volume_enemy_targeting_boost = 4.000000
 		delay_rand_min = -3.000000
 		vsnd_files = "sounds/mods/tech/spirit_sap/spirit_sap_select_lp.vsnd"
 		vsnd_duration = 4.056689
@@ -1283,7 +1281,6 @@
 	{
 		base = "Base.Mod"
 		volume = -3.000000
-		volume_enemy_targeting_boost = 4.000000
 		vsnd_files = "sounds/mods/tech/disarming_hex/disarming_hex_cast.vsnd"
 		vsnd_duration = 2.679116
 	}
@@ -1358,7 +1355,7 @@
 		base = "Base.Ability.Ult"
 		volume = 3.000000
 		volume_offset_opponent = 3.000000
-		volume_enemy_targeting_boost = 5.000000
+		volume_enemy_targeting_boost = 3.000000
 		vsnd_files = 
 		[
 			"sounds/mods/tech/mystical_piano/mystical_piano_cast_01.vsnd",

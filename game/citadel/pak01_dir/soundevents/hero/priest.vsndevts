@@ -490,7 +490,7 @@
 		volume_fade_out = 0.100000
 		delay = 1.000000
 		delay_rand_min = -3.000000
-		volume_enemy_targeting_boost = 3.000000
+		volume_enemy_targeting_boost = 1.000000
 		vsnd_files = "sounds/abilities/priest/priest_witching_hour_active_lp_01.vsnd"
 		vsnd_duration = 10.817641
 	}

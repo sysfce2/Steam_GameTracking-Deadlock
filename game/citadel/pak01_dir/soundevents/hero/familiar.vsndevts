@@ -517,7 +517,6 @@
 	{
 		base = "Base.Ability.Ult"
 		volume = 1.000000
-		volume_enemy_targeting_boost = 2.000000
 		vsnd_files = "sounds/abilities/familiar/familiar_naptime_cast_delay_01.vsnd"
 		vsnd_duration = 1.949751
 	}
@@ -561,7 +560,6 @@
 	{
 		base = "Base.Ability"
 		volume = -7.000000
-		volume_enemy_targeting_boost = 3.000000
 		delay_rand_min = -3.000000
 		volume_fade_in = 0.200000
 		volume_fade_out = 0.200000

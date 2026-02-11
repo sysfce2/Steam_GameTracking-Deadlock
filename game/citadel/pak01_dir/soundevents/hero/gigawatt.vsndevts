@@ -293,7 +293,6 @@
 		volume_fade_out = 0.100000
 		volume_fade_in = 0.500000
 		delay_rand_max = -10.000000
-		volume_enemy_targeting_boost = 0.000000
 		param_envelope_enabled = 1.000000
 		pitch_envelope_scale_min = 0.950000
 		pitch_envelope_scale_max = 1.250000
@@ -463,7 +462,6 @@
 		base = "Base.Ability.Ult"
 		volume = 0.000000
 		pitch = 2.000000
-		volume_enemy_targeting_boost = 2.000000
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_storm_cloud_bolt_cast.vsnd"
 		vsnd_duration = 5.386326
 	}
@@ -472,7 +470,6 @@
 		base = "Base.Ability.Ult.Detached"
 		volume = -4.000000
 		volume_fade_out = 0.200000
-		volume_enemy_targeting_boost = 0.000000
 		delay_rand_max = -30.000000
 		param_envelope_enabled = 1.000000
 		pitch_envelope_scale_min = 1.000000
@@ -484,7 +481,6 @@
 	{
 		base = "Base.Ability.Ult.Detached"
 		volume = 2.000000
-		volume_enemy_targeting_boost = 0.000000
 		vsnd_files = 
 		[
 			"sounds/abilities/gigawatt/gigawatt_storm_cloud_bolt_explo_01.vsnd",

@@ -10348,7 +10348,6 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_unicorn_01.vsnd",
 		]
-		vsnd_duration = 1.184760
 	}
 	krill_ping_careful_vampirebat_01_ping_2d = 
 	{
@@ -15138,7 +15137,6 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_see_unicorn_01.vsnd",
 		]
-		vsnd_duration = 1.233698
 	}
 	krill_ping_see_vampirebat_01_ping_2d = 
 	{
@@ -16248,7 +16246,6 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_unicorn_missing_01.vsnd",
 		]
-		vsnd_duration = 1.423115
 	}
 	krill_ping_use_ability1_ping_2d = 
 	{

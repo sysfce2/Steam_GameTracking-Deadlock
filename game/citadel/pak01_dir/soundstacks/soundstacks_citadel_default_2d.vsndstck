@@ -230,14 +230,6 @@
 				input_memory_type = "@public.memory_type"
 				input_max_gain_change_per_second = "@public.volume_max_gain_change_per_second"
 			},
-			
-			{
-				name = "reset_mixlayer"
-				operator = "soundmixer_set_mixlayer_amount"
-				input_execute = "@start_vmix.output_voice_finished"
-				input = "0.000000"
-				mixlayer = "@public.mixer_mixlayer_to_set"
-			},
 		]
 		_system_properties = 
 		{

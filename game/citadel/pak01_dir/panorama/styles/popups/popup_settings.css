@@ -1694,6 +1694,11 @@ PopupSettingsSettingsSection
 	transition-delay: 0s;
 }
 
+#SettingsBody .SettingsSectionContainer .SettingsRow:hover .noKeyBinding .AddBinding
+{
+	visibility: collapse;
+}
+
 #SettingsBody .SettingsSectionContainer .SettingsRow:hover #LabelFXContainer CitadelKeyboardGlyph#keyboardMainGlyph.light .KeyboardKeyGlyphContainer,#SettingsBody .SettingsSectionContainer .SettingsRow:hover #LabelFXContainer CitadelKeyboardGlyph#keyboardMainGlyph.light .MouseGlyphBackground,#SettingsBody .SettingsSectionContainer .SettingsRow:hover #LabelFXContainer CitadelKeyboardGlyph#keyboardSecondaryGlyph.light .KeyboardKeyGlyphContainer,#SettingsBody .SettingsSectionContainer .SettingsRow:hover #LabelFXContainer CitadelKeyboardGlyph#keyboardSecondaryGlyph.light .MouseGlyphBackground,#SettingsBody .SettingsSectionContainer .SettingsRow:hover #LabelFXContainer2 CitadelKeyboardGlyph#keyboardMainGlyph.light .KeyboardKeyGlyphContainer,#SettingsBody .SettingsSectionContainer .SettingsRow:hover #LabelFXContainer2 CitadelKeyboardGlyph#keyboardMainGlyph.light .MouseGlyphBackground,#SettingsBody .SettingsSectionContainer .SettingsRow:hover #LabelFXContainer2 CitadelKeyboardGlyph#keyboardSecondaryGlyph.light .KeyboardKeyGlyphContainer,#SettingsBody .SettingsSectionContainer .SettingsRow:hover #LabelFXContainer2 CitadelKeyboardGlyph#keyboardSecondaryGlyph.light .MouseGlyphBackground
 {
 	background-color: keybindHousingBGColor&00;

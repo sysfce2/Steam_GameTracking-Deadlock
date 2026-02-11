@@ -261,7 +261,6 @@
 		base = "Base.Ability.Detached"
 		pitch = 1.000000
 		volume = -9.000000
-		volume_enemy_targeting_boost = 0.000000
 		vsnd_files = "sounds/abilities/archer/archer_trap_cast.vsnd"
 		vsnd_duration = 1.028617
 	}

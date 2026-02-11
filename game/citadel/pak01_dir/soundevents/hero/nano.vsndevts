@@ -355,7 +355,6 @@
 	{
 		base = "Base.Ability"
 		volume = 2.000000
-		volume_enemy_targeting_boost = 4.000000
 		pitch_rand_min = -0.100000
 		pitch_rand_max = 0.100000
 		vsnd_files = "sounds/abilities/nano/nano_gloombomb_cast.vsnd"
@@ -424,7 +423,6 @@
 	{
 		base = "Base.Ability"
 		volume = 1.000000
-		volume_enemy_targeting_boost = 4.000000
 		vsnd_files = "sounds/abilities/nano/nano_leapingslash_cast.vsnd"
 		vsnd_duration = 1.997211
 	}
@@ -432,7 +430,6 @@
 	{
 		base = "Base.Ability"
 		volume = 0.000000
-		volume_enemy_targeting_boost = 4.000000
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/nano_leapingslash_cast_delay_01.vsnd",
@@ -635,7 +632,6 @@
 	{
 		base = "Base.Ability.Ult"
 		volume = 2.000000
-		volume_enemy_targeting_boost = 4.000000
 		pitch_rand_min = -0.100000
 		pitch_rand_max = 0.100000
 		vsnd_files = "sounds/abilities/nano/nano_shadow_cast.vsnd"
@@ -652,7 +648,6 @@
 	{
 		base = "Base.Ability.Ult"
 		volume = 3.000000
-		volume_enemy_targeting_boost = 4.000000
 		pitch = 1.000000
 		volume_offset_opponent = 2.000000
 		pitch_rand_min = 0.000000

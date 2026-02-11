@@ -45,6 +45,7 @@
 	{
 		base = "Base.World"
 		volume = -4.000000
+		volume_fade_out = 0.300000
 		spread_min = 200.000000
 		spread_max_value = 0.900000
 		spread_max = 350.000000

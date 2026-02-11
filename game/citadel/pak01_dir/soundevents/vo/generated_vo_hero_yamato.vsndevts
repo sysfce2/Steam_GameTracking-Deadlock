@@ -748,7 +748,6 @@
 		[
 			"sounds/vo/yamato/yamato_ally_unicorn_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.355250
 	}
 	yamato_ally_vampirebat_killed_in_lane_01_hero_3d = 
 	{
@@ -6608,7 +6607,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_unicorn.vsnd",
 		]
-		vsnd_duration = 1.469656
 	}
 	yamato_ping_attack_vampirebat_ping_2d = 
 	{
@@ -7198,7 +7196,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_can_heal_unicorn.vsnd",
 		]
-		vsnd_duration = 1.468302
 	}
 	yamato_ping_can_heal_vampirebat_ping_2d = 
 	{
@@ -8158,7 +8155,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_careful_unicorn_01.vsnd",
 		]
-		vsnd_duration = 0.962229
 	}
 	yamato_ping_careful_unicorn_02_ping_2d = 
 	{
@@ -8168,7 +8164,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_careful_unicorn_02.vsnd",
 		]
-		vsnd_duration = 1.076385
 	}
 	yamato_ping_careful_unicorn_03_ping_2d = 
 	{
@@ -8178,7 +8173,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_careful_unicorn_03.vsnd",
 		]
-		vsnd_duration = 1.137333
 	}
 	yamato_ping_careful_vampirebat_01_ping_2d = 
 	{
@@ -10028,7 +10022,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ignore_unicorn.vsnd",
 		]
-		vsnd_duration = 1.176687
 	}
 	yamato_ping_ignore_vampirebat_ping_2d = 
 	{
@@ -12048,7 +12041,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_saw_unicorn.vsnd",
 		]
-		vsnd_duration = 1.001042
 	}
 	yamato_ping_saw_vampirebat_ping_2d = 
 	{
@@ -13038,7 +13030,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_unicorn_01.vsnd",
 		]
-		vsnd_duration = 1.109812
 	}
 	yamato_ping_see_unicorn_on_bridge_ping_2d = 
 	{
@@ -13048,7 +13039,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_unicorn_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.279323
 	}
 	yamato_ping_see_unicorn_on_roof_ping_2d = 
 	{
@@ -13058,7 +13048,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_unicorn_on_roof.vsnd",
 		]
-		vsnd_duration = 1.292823
 	}
 	yamato_ping_see_vampirebat_01_ping_2d = 
 	{
@@ -13738,7 +13727,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_stun_unicorn_01.vsnd",
 		]
-		vsnd_duration = 1.129719
 	}
 	yamato_ping_stun_vampirebat_01_ping_2d = 
 	{
@@ -14118,7 +14106,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_unicorn_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.520229
 	}
 	yamato_ping_unicorn_check_items_ping_2d = 
 	{
@@ -14128,7 +14115,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_unicorn_check_items.vsnd",
 		]
-		vsnd_duration = 1.678156
 	}
 	yamato_ping_unicorn_dead_ping_2d = 
 	{
@@ -14138,7 +14124,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_unicorn_dead.vsnd",
 		]
-		vsnd_duration = 1.120125
 	}
 	yamato_ping_unicorn_in_mid_ping_2d = 
 	{
@@ -14148,7 +14133,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_unicorn_in_mid.vsnd",
 		]
-		vsnd_duration = 1.095813
 	}
 	yamato_ping_unicorn_missing_01_ping_2d = 
 	{
@@ -14158,7 +14142,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_unicorn_missing_01.vsnd",
 		]
-		vsnd_duration = 1.173552
 	}
 	yamato_ping_unicorn_on_top_of_garage_ping_2d = 
 	{
@@ -14168,7 +14151,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_unicorn_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.731896
 	}
 	yamato_ping_unicorn_on_top_of_mid_ping_2d = 
 	{
@@ -14178,7 +14160,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_unicorn_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.504646
 	}
 	yamato_ping_unicorn_under_garage_ping_2d = 
 	{
@@ -14188,7 +14169,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_unicorn_under_garage.vsnd",
 		]
-		vsnd_duration = 1.551604
 	}
 	yamato_ping_unicorn_was_here_ping_2d = 
 	{
@@ -14198,7 +14178,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_unicorn_was_here.vsnd",
 		]
-		vsnd_duration = 1.081437
 	}
 	yamato_ping_use_ability1_ping_2d = 
 	{
@@ -15218,7 +15197,6 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_with_unicorn.vsnd",
 		]
-		vsnd_duration = 1.293167
 	}
 	yamato_ping_with_vampirebat_ping_2d = 
 	{

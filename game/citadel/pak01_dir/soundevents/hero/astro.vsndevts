@@ -285,7 +285,7 @@
 		doppler_factor = 4.000000
 		volume_offset_opponent = 9.000000
 		volume_offset_team = -7.500000
-		volume_enemy_targeting_boost = 5.000000
+		volume_enemy_targeting_boost = 3.000000
 		volume_fade_in = 0.300000
 		volume_fade_out = 0.250000
 		vsnd_files = "sounds/abilities/astro/a2_bounce_pad/holliday_a2_mod_travel_lp.vsnd"
@@ -345,7 +345,7 @@
 		volume = -5.000000
 		volume_fade_in = 0.300000
 		volume_fade_out = 0.200000
-		volume_enemy_targeting_boost = 7.000000
+		volume_enemy_targeting_boost = 5.000000
 		vsnd_files = "sounds/abilities/astro/a4_lasso/holliday_a4_lasso_select_lp.vsnd"
 		vsnd_duration = 3.553696
 	}
@@ -354,7 +354,7 @@
 		base = "Base.Ability.Ult"
 		volume = -6.000000
 		volume_fade_out = 0.200000
-		volume_enemy_targeting_boost = 6.000000
+		volume_enemy_targeting_boost = 4.000000
 		vsnd_files = "sounds/abilities/astro/a4_lasso/holliday_a4_lasso_cast_delay.vsnd"
 		vsnd_duration = 2.566553
 	}
@@ -410,7 +410,7 @@
 		volume = -1.000000
 		pitch = 1.000000
 		volume_offset_team = -6.000000
-		volume_enemy_targeting_boost = 9.000000
+		volume_enemy_targeting_boost = 7.000000
 		vsnd_files = "sounds/abilities/astro/a3_target_practice/holliday_a3_crackshot_ready.vsnd"
 		vsnd_duration = 1.888322
 	}

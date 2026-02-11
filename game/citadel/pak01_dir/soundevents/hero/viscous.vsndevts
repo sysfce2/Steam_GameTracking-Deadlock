@@ -238,12 +238,53 @@
 		]
 		vsnd_duration = 3.018594
 	}
-	Viscous.Cube.Dur.Lp = 
+	Viscous.GooBall.Proj.Lp = 
 	{
-		base = "Base.Ability"
-		volume = -12.000000
-		vsnd_files = "sounds/common/null.vsnd"
-		vsnd_duration = 0.050023
+		base = "Base.Ability.Projectile"
+		volume = -2.000000
+		volume_fade_in = 0.100000
+		volume_fade_out = 0.100000
+		delay_rand_min = -2.000000
+		vsnd_files = "sounds/abilities/viscous/viscous_a1_goo_ball_proj_lp_01.vsnd"
+		vsnd_duration = 9.302653
+	}
+	Viscous.GooBall.Impact = 
+	{
+		base = "Base.Ability.Detached"
+		volume = -4.000000
+		pitch_rand_min = -0.200000
+		pitch_rand_max = 0.200000
+		vsnd_files = 
+		[
+			"sounds/abilities/viscous/viscous_a1_gooball_impact_01.vsnd",
+			"sounds/abilities/viscous/viscous_a1_gooball_impact_02.vsnd",
+			"sounds/abilities/viscous/viscous_a1_gooball_impact_03.vsnd",
+			"sounds/abilities/viscous/viscous_a1_gooball_impact_04.vsnd",
+			"sounds/abilities/viscous/viscous_a1_gooball_impact_05.vsnd",
+		]
+		vsnd_duration = 0.921338
+	}
+	Viscous.GooBall.Hit = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 3.000000
+		pitch_rand_min = -0.200000
+		pitch_rand_max = 0.200000
+		vsnd_files = 
+		[
+			"sounds/abilities/viscous/viscous_gooball_hit_confirm_01.vsnd",
+			"sounds/abilities/viscous/viscous_gooball_hit_confirm_02.vsnd",
+			"sounds/abilities/viscous/viscous_gooball_hit_confirm_03.vsnd",
+		]
+		vsnd_duration = 0.752948
+	}
+	Viscous.Cube.Cast = 
+	{
+		base = "Base.Ability.StatusEffect"
+		volume = 8.000000
+		pitch = 0.900000
+		vsnd_files = "sounds/abilities/viscous/viscous_a2_cube_cast.vsnd"
+		vsnd_duration = 1.207324
 	}
 	Viscous.Cube.Dur.End = 
 	{
@@ -253,59 +294,120 @@
 		vsnd_files = "sounds/abilities/viscous/viscous_a2_cube_end.vsnd"
 		vsnd_duration = 1.207324
 	}
-	Viscous.GooBall.Debuff.Start = 
+	Viscous.Cube.Dur.Target.Lp = 
+	{
+		base = "Base.Ability.StatusEffect"
+		volume = -8.000000
+		param_envelope_enabled = 1.000000
+		pitch_envelope_scale_min = 0.850000
+		pitch_envelope_scale_max = 1.300000
+		param_envelope_duration = 6.000000
+		vsnd_files = "sounds/abilities/viscous/viscous_a2_cube_lp.vsnd"
+		vsnd_duration = 5.825306
+	}
+	Viscous.Telepunch.Cast = 
+	{
+		base = "Base.Ability"
+		volume = 3.000000
+		vsnd_files = "sounds/abilities/viscous/viscous_a3_telepunch_delay.vsnd"
+		vsnd_duration = 0.778639
+	}
+	Viscous.Telepunch.Hit = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 0.000000
+		vsnd_files = 
+		[
+			"sounds/abilities/viscous/viscous_a3_telepunch_hit_01.vsnd",
+			"sounds/abilities/viscous/viscous_a3_telepunch_hit_02.vsnd",
+			"sounds/abilities/viscous/viscous_a3_telepunch_hit_03.vsnd",
+		]
+		vsnd_duration = 1.875850
+	}
+	Viscous.Telepunch.Hit.Self = 
+	{
+		base = "Base.Ability"
+		volume = 0.000000
+		vsnd_files = 
+		[
+			"sounds/abilities/viscous/viscous_a3_telepunch_hit_01.vsnd",
+			"sounds/abilities/viscous/viscous_a3_telepunch_hit_02.vsnd",
+			"sounds/abilities/viscous/viscous_a3_telepunch_hit_03.vsnd",
+		]
+		vsnd_duration = 1.875850
+	}
+	Viscous.Telepunch.Portal = 
+	{
+		base = "Base.Ability.Detached"
+		volume = 1.000000
+		volume_offset_opponent = 4.000000
+		hrtf_on_opponent = 0
+		spread_max_value_opponent = 0.200000
+		vsnd_files = "sounds/abilities/viscous/viscous_a3_telepunch_portal_01.vsnd"
+		vsnd_duration = 1.857302
+	}
+	Viscous.Telepunch.Select.Lp = 
+	{
+		base = "Base.Ability"
+		volume = 0.000000
+		volume_fade_in = 0.400000
+		vsnd_files = "sounds/abilities/viscous/viscous_a3_telepunch_select_lp.vsnd"
+		vsnd_duration = 3.328254
+	}
+	Viscous.GooBowlingBall.Movement_Lp = 
 	{
 		base = "Base.Ability"
 		volume = 1.000000
-		vsnd_files = "sounds/abilities/viscous/a1_goo_ball/viscous_a1_goo_ball_debuff_start_01.vsnd"
-		vsnd_duration = 4.448005
+		volume_fade_in = 0.200000
+		volume_fade_out = 0.200000
+		doppler_on = 1.000000
+		doppler_factor = 5.000000
+		volume_offset_opponent = 9.000000
+		vsnd_files = "sounds/abilities/viscous/viscous_a4_ball_lp_01.vsnd"
+		vsnd_duration = 22.471724
 	}
-	Viscous.GooBall.Debuff.Dur.Lp = 
+	Viscous.GooBowlingBall.Impact_Wall = 
 	{
-		base = "Base.Ability"
-		vsnd_files = "sounds/abilities/viscous/a1_goo_ball/debuff_dur_lp.vsnd"
-		vsnd_duration = 7.490812
-	}
-	Viscous.GooBall.Debuff.End = 
-	{
-		base = "Base.Ability"
-		vsnd_files = "sounds/abilities/viscous/a1_goo_ball/debuff_end.vsnd"
-		vsnd_duration = 1.897479
-	}
-	Viscous.StickyMess.Cast = 
-	{
-		base = "Base.Ability.Ult"
-		vsnd_files = "sounds/abilities/viscous/a3_goo_puddle/cast.vsnd"
-		vsnd_duration = 3.442437
-	}
-	Viscous.StickyMess.Impact = 
-	{
-		base = "Base.Ability"
+		base = "Base.Ability.Detached"
+		volume = 2.000000
+		pitch_rand_min = -0.100000
+		pitch_rand_max = 0.100000
 		vsnd_files = 
 		[
-			"sounds/abilities/viscous/a1_goo_ball/proj_hit_hi_01.vsnd",
-			"sounds/abilities/viscous/a1_goo_ball/proj_hit_hi_02.vsnd",
-			"sounds/abilities/viscous/a1_goo_ball/proj_hit_hi_03.vsnd",
-			"sounds/abilities/viscous/a1_goo_ball/proj_hit_hi_04.vsnd",
+			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_01.vsnd",
+			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_02.vsnd",
+			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_03.vsnd",
+			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_04.vsnd",
+			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_05.vsnd",
 		]
-		vsnd_duration = 1.659146
+		vsnd_duration = 1.750408
 	}
-	Viscous.StickyMess.Lp = 
+	Viscous.GooBowlingBall.Impact_Hero = 
 	{
-		base = "Base.Ability"
-		vsnd_files = "sounds/abilities/viscous/sticky_mess_lp.vsnd"
+		base = "Base.Ability.Hit"
+		volume = 2.000000
+		vsnd_files = 
+		[
+			"sounds/abilities/viscous/viscous_a4_ball_impact_hero_01.vsnd",
+			"sounds/abilities/viscous/viscous_a4_ball_impact_hero_03.vsnd",
+			"sounds/abilities/viscous/viscous_a4_ball_impact_hero_04.vsnd",
+			"sounds/abilities/viscous/viscous_a4_ball_impact_hero_05.vsnd",
+		]
+		vsnd_duration = 1.740363
 	}
-	Viscous.GooSprinkler.Cast = 
+	Viscous.GooBowlingBall.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		vsnd_files = "sounds/abilities/viscous/goo_sprinkler_cast.vsnd"
-		vsnd_duration = 0.870250
+		volume = 3.000000
+		vsnd_files = "sounds/abilities/viscous/viscous_a4_ball_cast.vsnd"
+		vsnd_duration = 2.814399
 	}
-	Viscous.GooSprinkler.Lp = 
+	Viscous.GooBowlingBall.End = 
 	{
 		base = "Base.Ability.Ult"
-		vsnd_files = "sounds/abilities/viscous/goo_sprinkler_lp.vsnd"
-		vsnd_duration = 0.849250
+		volume = 3.000000
+		vsnd_files = "sounds/abilities/viscous/viscous_a4_ball_end.vsnd"
+		vsnd_duration = 1.787460
 	}
 	Viscous.Melee.Swing = 
 	{
@@ -371,23 +473,6 @@
 			"sounds/player/melee/shared/swing_long_25.vsnd",
 		]
 		vsnd_duration = 1.399792
-	}
-	Viscous.Cube.Dur.Target.Lp = 
-	{
-		base = "Base.Ability"
-		volume = -14.000000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.850000
-		pitch_envelope_scale_max = 1.300000
-		volume_offset_team = 15.000000
-		mixer_mixgroup = "All"
-		mixer_mixlayer_perspective_player = "ml-ability-pla"
-		mixer_mixlayer_perspective_team = "ml-ability-pla"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		param_envelope_duration = 6.000000
-		vsnd_files = "sounds/abilities/viscous/viscous_a2_cube_lp.vsnd"
-		vsnd_duration = 5.825306
 	}
 	Viscous.Movement.Short = 
 	{
@@ -472,133 +557,6 @@
 			"sounds/player/footsteps/viscous/viscous_footstep_17.vsnd",
 		]
 		vsnd_duration = 0.887596
-	}
-	Viscous.GooBall.Proj.Hit = 
-	{
-		base = "Base.Ability.Projectile"
-		volume = 9.000000
-		volume_fade_out = 0.500000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		volume_offset_opponent = 2.000000
-		vsnd_files = 
-		[
-			"sounds/abilities/viscous/viscous_a1_gooball_impact_01.vsnd",
-			"sounds/abilities/viscous/viscous_a1_gooball_impact_02.vsnd",
-			"sounds/abilities/viscous/viscous_a1_gooball_impact_03.vsnd",
-			"sounds/abilities/viscous/viscous_a1_gooball_impact_04.vsnd",
-			"sounds/abilities/viscous/viscous_a1_gooball_impact_05.vsnd",
-		]
-		vsnd_duration = 0.996281
-	}
-	Viscous.Telepunch.Cast = 
-	{
-		base = "Base.Ability"
-		volume = 3.000000
-		vsnd_files = "sounds/abilities/viscous/viscous_a3_telepunch_delay.vsnd"
-		vsnd_duration = 0.778639
-	}
-	Viscous.Telepunch.Erupt = 
-	{
-		base = "Base.Ability.Detached"
-		volume = 9.000000
-		pitch = 0.800000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_offset_opponent = 2.000000
-		spread_min = 0.000000
-		spread_max = 250.000000
-		spread_min_value = 0.000000
-		vsnd_files = "sounds/abilities/viscous/viscous_a3_telepunch_hit.vsnd"
-		vsnd_duration = 1.755510
-	}
-	Viscous.Telepunch.Select_Lp = 
-	{
-		base = "Base.Ability"
-		volume = 0.000000
-		volume_fade_in = 0.400000
-		vsnd_files = "sounds/abilities/viscous/viscous_a3_telepunch_select_lp.vsnd"
-		vsnd_duration = 3.328254
-	}
-	Viscous.Cube.Cast = 
-	{
-		base = "Base.Ability.StatusEffect"
-		volume = 8.000000
-		pitch = 0.900000
-		vsnd_files = "sounds/abilities/viscous/viscous_a2_cube_cast.vsnd"
-		vsnd_duration = 1.207324
-	}
-	Viscous.GooBowlingBall.Movement_Lp = 
-	{
-		base = "Base.Ability"
-		volume = 1.000000
-		volume_fade_in = 0.400000
-		volume_fade_out = 1.000000
-		doppler_on = 1.000000
-		doppler_factor = 5.000000
-		volume_offset_opponent = 9.000000
-		vsnd_files = "sounds/abilities/viscous/viscous_a4_ball_lp_01.vsnd"
-		vsnd_duration = 22.471724
-	}
-	Viscous.GooBowlingBall.Impact_Wall = 
-	{
-		base = "Base.Ability.Detached"
-		volume = 2.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		vsnd_files = 
-		[
-			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_01.vsnd",
-			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_02.vsnd",
-			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_03.vsnd",
-			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_04.vsnd",
-			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_05.vsnd",
-		]
-		vsnd_duration = 1.750408
-	}
-	Viscous.GooBowlingBall.Impact_Hero = 
-	{
-		base = "Base.Ability.Hit"
-		volume = 2.000000
-		vsnd_files = 
-		[
-			"sounds/abilities/viscous/viscous_a4_ball_impact_hero_01.vsnd",
-			"sounds/abilities/viscous/viscous_a4_ball_impact_hero_03.vsnd",
-			"sounds/abilities/viscous/viscous_a4_ball_impact_hero_04.vsnd",
-			"sounds/abilities/viscous/viscous_a4_ball_impact_hero_05.vsnd",
-		]
-		vsnd_duration = 1.740363
-	}
-	Viscous.GooBowlingBall.Cast = 
-	{
-		base = "Base.Ability.Ult"
-		volume = 3.000000
-		vsnd_files = "sounds/abilities/viscous/viscous_a4_ball_cast.vsnd"
-		vsnd_duration = 2.814399
-	}
-	Viscous.GooBowlingBall.End = 
-	{
-		base = "Base.Ability.Ult"
-		volume = 3.000000
-		vsnd_files = "sounds/abilities/viscous/viscous_a4_ball_end.vsnd"
-		vsnd_duration = 1.787460
-	}
-	Viscous.Telepunch.Portal = 
-	{
-		base = "Base.Ability.Detached"
-		volume = 9.000000
-		volume_offset_opponent = 2.000000
-		volume_offset_player = -15.000000
-		vsnd_files = "sounds/abilities/viscous/viscous_a3_telepunch_portal_01.vsnd"
-		vsnd_duration = 1.416440
-	}
-	Viscous.GooBall.Proj.Lp = 
-	{
-		base = "Base.Ability.Projectile"
-		volume = 1.000000
-		volume_fade_out = 0.100000
-		vsnd_files = "sounds/abilities/viscous/viscous_a1_goo_ball_proj_lp_01.vsnd"
-		vsnd_duration = 9.302653
 	}
 	Viscous.Progession.Page.Win.VO = 
 	{

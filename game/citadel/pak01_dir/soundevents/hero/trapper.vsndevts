@@ -4,7 +4,7 @@
 	{
 		base = "Base.Ability"
 		volume = 1.500000
-		volume_enemy_targeting_boost = 6.000000
+		volume_enemy_targeting_boost = 4.000000
 		pitch = 1.000000
 		vsnd_files = "sounds/abilities/trapper/a1/trapper_a1_cast.vsnd"
 		vsnd_duration = 2.169388

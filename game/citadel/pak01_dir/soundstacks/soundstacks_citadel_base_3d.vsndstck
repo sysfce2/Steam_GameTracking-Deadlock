@@ -763,45 +763,6 @@
 							property_group = "Mixer"
 						}
 					}
-					mixer_set_mixlayer_input = 
-					{
-						data_type = "enum"
-						enum_decl = 
-						{
-							value = 
-							[
-								"Disabled",
-								"Volume",
-								"Envelope",
-								"Custom Amount",
-							]
-						}
-						value = "Disabled"
-						_system_properties = 
-						{
-							property_group = "Mix Layer"
-							display_group = "advanced"
-						}
-					}
-					mixer_mixlayer_to_set = 
-					{
-						data_type = "string"
-						value = ""
-						_system_properties = 
-						{
-							property_group = "Mix Layer"
-							display_group = "advanced"
-						}
-					}
-					mixer_mixlayer_amount_manual = 
-					{
-						data_type = "float"
-						value = "0.000000"
-						_system_properties = 
-						{
-							property_group = "Mix Layer"
-						}
-					}
 					mixer_mixlayer_volume_gate = 
 					{
 						data_type = "float"
@@ -1560,41 +1521,6 @@
 				operator = "soundmixer_set_trigger"
 				input_trigger = "@mixer_trigger_amount.output"
 				input_mixgroups = "@mixer.output_mixgroups"
-			},
-			
-			{
-				name = "set_mixlayer_enabled"
-				operator = "math_float"
-				apply = "greater_than"
-				input1 = "@public.mixer_set_mixlayer_input"
-				input2 = "0.000000"
-			},
-			
-			{
-				name = "mixlayer_select_input"
-				operator = "ctrl_switch12_float"
-				input_execute = "@set_mixlayer_enabled.output"
-				input_index = "@public.mixer_set_mixlayer_input"
-				input0 = "0.0"
-				input1 = "@volume_filter.output"
-				input2 = "@select_envelope_check.output"
-				input3 = "@public.mixer_mixlayer_amount_manual"
-			},
-			
-			{
-				name = "mixer_layer_amount"
-				operator = "ctrl_switch_float"
-				input_switch = "@mixerlayer_volume_is_above_gate.output"
-				input1 = "0.0"
-				input2 = "@mixlayer_select_input.output"
-			},
-			
-			{
-				name = "mixer_set_mixlayer"
-				operator = "soundmixer_set_mixlayer_amount"
-				input_execute = "@set_mixlayer_enabled.output"
-				input = "@mixer_layer_amount.output"
-				mixlayer = "@public.mixer_mixlayer_to_set"
 			},
 			
 			{

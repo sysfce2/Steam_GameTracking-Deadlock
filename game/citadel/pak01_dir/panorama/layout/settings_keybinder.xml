@@ -45,10 +45,6 @@
 				<Label id="PlusSign" class="ExpandSecondary" text="+" />
 			</Panel>
 			<Panel id="ChatWheelConceptsContainer" />
-			<Panel id="ClearAndResetContainer" class="LeftRightFlow">
-				<Button id="ClearBindingButton" class="ClearKeybinding" onactivate="CitadelClearKeybinding()" onmouseover="UIShowTextTooltip( #citadel_settings_clear_keybind_tooltip );" onmouseout="UIHideTextTooltip()" />
-				<Label id="ResetBindingButton" class="ResetKeybinding" text="" onactivate="CitadelResetKeybinding()" onmouseover="UIShowTextTooltip( #citadel_settings_reset_keybind_tooltip );" onmouseout="UIHideTextTooltip()" />
-			</Panel>
 		</Panel>
 		<Panel id="QuickCastContainer">
 			<Panel id="UnitHasBindsIndicator" class="QuickCastBind" />

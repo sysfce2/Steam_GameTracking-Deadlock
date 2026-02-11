@@ -199,7 +199,7 @@
 	{
 		base = "Base.Ability.Ult"
 		volume = 3.000000
-		volume_enemy_targeting_boost = 6.000000
+		volume_enemy_targeting_boost = 4.000000
 		vsnd_files = "sounds/abilities/abrams/a4_leap/abrams_a4_slam_descend.vsnd"
 		vsnd_duration = 3.766077
 	}
@@ -209,7 +209,7 @@
 		volume = -9.000000
 		volume_offset_team = -6.000000
 		volume_offset_opponent = 3.000000
-		volume_enemy_targeting_boost = 9.000000
+		volume_enemy_targeting_boost = 7.000000
 		vsnd_files = "sounds/abilities/abrams/a4_leap/abrams_a4_slam_float_lp.vsnd"
 		vsnd_duration = 2.543424
 	}

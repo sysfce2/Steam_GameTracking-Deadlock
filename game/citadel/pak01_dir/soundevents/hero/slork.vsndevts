@@ -352,7 +352,7 @@
 		base = "Base.Ability"
 		volume = 1.000000
 		volume_offset_opponent = 3.000000
-		volume_enemy_targeting_boost = 3.000000
+		volume_enemy_targeting_boost = 1.000000
 		vsnd_files = "sounds/abilities/fathom/a2/fathom_a2_cast.vsnd"
 		vsnd_duration = 2.276485
 	}

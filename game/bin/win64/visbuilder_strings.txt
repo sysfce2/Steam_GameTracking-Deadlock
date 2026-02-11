@@ -87,7 +87,6 @@
 =fff?
 ?333?
 ?expf
-@08N
 @ht`s
 AA:p{
 AABB_t
@@ -233,7 +232,6 @@ OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
 ObjectTypeFlags_t
 Outside detection took %.2f seconds\n
 OverlayProjectionDirection
-P08N
 P2`p
 PackedBlobNormal
 PerVertexLighting
@@ -494,7 +492,6 @@ mesh_calculate_curvature_smooth_weight
 model_default_preview_sequence_name
 oldvis
 optionallycompressedtangentframe
-p08@H^
 p2`p
 pb`p
 posxyz
