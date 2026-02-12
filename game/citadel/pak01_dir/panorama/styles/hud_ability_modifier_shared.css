@@ -84,75 +84,6 @@
 	visibility: collapse;
 }
 
-@keyframes 'SilenceAnim'
-{
-	0%
-	{
-		transform: translateX( 1px );
-	}
-	
-	50%
-	{
-		transform: translateY( 1px );
-	}
-	
-	100%
-	{
-		transform: translateX( -1px );
-	}
-	
-}
-
-.silence #fancy_progress_container,.MODIFIER_STATE_SILENCED #fancy_progress_container
-{
-	visibility: visible;
-}
-
-.silence #basic_progress_container,.MODIFIER_STATE_SILENCED #basic_progress_container
-{
-	visibility: collapse;
-}
-
-.silence .ModifierProgressBarContainer,.MODIFIER_STATE_SILENCED .ModifierProgressBarContainer
-{
-	visibility: collapse;
-}
-
-.silence .ModifierProgressBar,.MODIFIER_STATE_SILENCED .ModifierProgressBar
-{
-	background-color: spiritColor;
-}
-
-.silence .SplitLabelProgressBar,.MODIFIER_STATE_SILENCED .SplitLabelProgressBar
-{
-	visibility: visible;
-	ui-scale: 160%;
-}
-
-.silence .SplitLabelProgressBar .SplitLabelName Image,.MODIFIER_STATE_SILENCED .SplitLabelProgressBar .SplitLabelName Image
-{
-	animation-name: SilenceAnim;
-	animation-duration: 0.4s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-frame-time: 300ms;
-}
-
-.silence .SplitLabelProgressBar .SplitLabelName Image:nth-child(odd),.MODIFIER_STATE_SILENCED .SplitLabelProgressBar .SplitLabelName Image:nth-child(odd)
-{
-	animation-direction: alternate-reverse;
-}
-
-.silence .SplitLabelProgressBar .SplitLabelName Image:nth-child(even),.MODIFIER_STATE_SILENCED .SplitLabelProgressBar .SplitLabelName Image:nth-child(even)
-{
-	animation-direction: alternate;
-}
-
-.silence .SplitLabelProgressBar .SplitLabelProgress,.MODIFIER_STATE_SILENCED .SplitLabelProgressBar .SplitLabelProgress
-{
-	wash-color: spiritColor;
-}
-
 @keyframes 'DisarmAnim'
 {
 	0%
@@ -360,6 +291,75 @@
 	wash-color: #349c4c;
 }
 
+@keyframes 'SilenceAnim'
+{
+	0%
+	{
+		transform: translateX( 1px );
+	}
+	
+	50%
+	{
+		transform: translateY( 1px );
+	}
+	
+	100%
+	{
+		transform: translateX( -1px );
+	}
+	
+}
+
+.silence #fancy_progress_container,.MODIFIER_STATE_SILENCED #fancy_progress_container,.MODIFIER_STATE_MUTED #fancy_progress_container
+{
+	visibility: visible;
+}
+
+.silence #basic_progress_container,.MODIFIER_STATE_SILENCED #basic_progress_container,.MODIFIER_STATE_MUTED #basic_progress_container
+{
+	visibility: collapse;
+}
+
+.silence .ModifierProgressBarContainer,.MODIFIER_STATE_SILENCED .ModifierProgressBarContainer,.MODIFIER_STATE_MUTED .ModifierProgressBarContainer
+{
+	visibility: collapse;
+}
+
+.silence .ModifierProgressBar,.MODIFIER_STATE_SILENCED .ModifierProgressBar,.MODIFIER_STATE_MUTED .ModifierProgressBar
+{
+	background-color: spiritColor;
+}
+
+.silence .SplitLabelProgressBar,.MODIFIER_STATE_SILENCED .SplitLabelProgressBar,.MODIFIER_STATE_MUTED .SplitLabelProgressBar
+{
+	visibility: visible;
+	ui-scale: 160%;
+}
+
+.silence .SplitLabelProgressBar .SplitLabelName Image,.MODIFIER_STATE_SILENCED .SplitLabelProgressBar .SplitLabelName Image,.MODIFIER_STATE_MUTED .SplitLabelProgressBar .SplitLabelName Image
+{
+	animation-name: SilenceAnim;
+	animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-frame-time: 300ms;
+}
+
+.silence .SplitLabelProgressBar .SplitLabelName Image:nth-child(odd),.MODIFIER_STATE_SILENCED .SplitLabelProgressBar .SplitLabelName Image:nth-child(odd),.MODIFIER_STATE_MUTED .SplitLabelProgressBar .SplitLabelName Image:nth-child(odd)
+{
+	animation-direction: alternate-reverse;
+}
+
+.silence .SplitLabelProgressBar .SplitLabelName Image:nth-child(even),.MODIFIER_STATE_SILENCED .SplitLabelProgressBar .SplitLabelName Image:nth-child(even),.MODIFIER_STATE_MUTED .SplitLabelProgressBar .SplitLabelName Image:nth-child(even)
+{
+	animation-direction: alternate;
+}
+
+.silence .SplitLabelProgressBar .SplitLabelProgress,.MODIFIER_STATE_SILENCED .SplitLabelProgressBar .SplitLabelProgress,.MODIFIER_STATE_MUTED .SplitLabelProgressBar .SplitLabelProgress
+{
+	wash-color: spiritColor;
+}
+
 @keyframes 'TetherAnim'
 {
 	0%
@@ -379,33 +379,33 @@
 	
 }
 
-.tether_proc #fancy_progress_container
+.tether_proc #fancy_progress_container,.MODIFIER_STATE_PUNKGOAT_TETHERED #fancy_progress_container
 {
 	visibility: visible;
 }
 
-.tether_proc #basic_progress_container
+.tether_proc #basic_progress_container,.MODIFIER_STATE_PUNKGOAT_TETHERED #basic_progress_container
 {
 	visibility: collapse;
 }
 
-.tether_proc .ModifierProgressBarContainer
+.tether_proc .ModifierProgressBarContainer,.MODIFIER_STATE_PUNKGOAT_TETHERED .ModifierProgressBarContainer
 {
 	visibility: collapse;
 }
 
-.tether_proc .ModifierProgressBar
+.tether_proc .ModifierProgressBar,.MODIFIER_STATE_PUNKGOAT_TETHERED .ModifierProgressBar
 {
 	background-color: hornetColor;
 }
 
-.tether_proc .SplitLabelProgressBar
+.tether_proc .SplitLabelProgressBar,.MODIFIER_STATE_PUNKGOAT_TETHERED .SplitLabelProgressBar
 {
 	visibility: visible;
 	ui-scale: 160%;
 }
 
-.tether_proc .SplitLabelProgressBar .SplitLabelName Image
+.tether_proc .SplitLabelProgressBar .SplitLabelName Image,.MODIFIER_STATE_PUNKGOAT_TETHERED .SplitLabelProgressBar .SplitLabelName Image
 {
 	animation-name: TetherAnim;
 	animation-duration: 0.4s;
@@ -414,17 +414,17 @@
 	animation-frame-time: 300ms;
 }
 
-.tether_proc .SplitLabelProgressBar .SplitLabelName Image:nth-child(odd)
+.tether_proc .SplitLabelProgressBar .SplitLabelName Image:nth-child(odd),.MODIFIER_STATE_PUNKGOAT_TETHERED .SplitLabelProgressBar .SplitLabelName Image:nth-child(odd)
 {
 	animation-direction: alternate-reverse;
 }
 
-.tether_proc .SplitLabelProgressBar .SplitLabelName Image:nth-child(even)
+.tether_proc .SplitLabelProgressBar .SplitLabelName Image:nth-child(even),.MODIFIER_STATE_PUNKGOAT_TETHERED .SplitLabelProgressBar .SplitLabelName Image:nth-child(even)
 {
 	animation-direction: alternate;
 }
 
-.tether_proc .SplitLabelProgressBar .SplitLabelProgress
+.tether_proc .SplitLabelProgressBar .SplitLabelProgress,.MODIFIER_STATE_PUNKGOAT_TETHERED .SplitLabelProgressBar .SplitLabelProgress
 {
 	wash-color: hornetColor;
 }

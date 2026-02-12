@@ -85,6 +85,7 @@
 		"modifier_citadel_disarmed"				"Disarmed"
 		"modifier_citadel_tech_shield"		"Spirit Shield"
 		"modifier_citadel_revealed_on_map"		"Revealed"
+		"modifier_citadel_cursed"				"Cursed"
 
 		"modifier_item_disarmed"				"Disarmed"
 		"modifier_citadel_disarm_proc"			"Disarmed"

@@ -40,6 +40,11 @@
 						data_type = "public_opvar"
 						value = "citadel_instance_attenuator"
 					}
+					citadel_occlusion = 
+					{
+						data_type = "public_opvar"
+						value = "citadel_occlusion"
+					}
 					position = 
 					{
 						data_type = "float3"
@@ -333,78 +338,6 @@
 						_system_properties = 
 						{
 							property_group = "Spread"
-						}
-					}
-					occlusion_scale = 
-					{
-						data_type = "float"
-						value = "1.0"
-						_system_properties = 
-						{
-							property_group = "Occlusion"
-						}
-					}
-					occlusion_radius = 
-					{
-						data_type = "float"
-						value = "150.000000"
-						_system_properties = 
-						{
-							property_group = "Occlusion"
-						}
-					}
-					occlusion_min = 
-					{
-						data_type = "float"
-						value = "0.25"
-						_system_properties = 
-						{
-							property_group = "Occlusion"
-						}
-					}
-					occlusion_max = 
-					{
-						data_type = "float"
-						value = "1.00000"
-						_system_properties = 
-						{
-							property_group = "Occlusion"
-						}
-					}
-					occlusion_volume_blend_distance_min = 
-					{
-						data_type = "float"
-						value = "800.00000"
-						_system_properties = 
-						{
-							property_group = "Occlusion"
-						}
-					}
-					occlusion_volume_blend_distance_max = 
-					{
-						data_type = "float"
-						value = "2000.00000"
-						_system_properties = 
-						{
-							property_group = "Occlusion"
-						}
-					}
-					occlusion_max_velocity = 
-					{
-						data_type = "float"
-						value = "1.0"
-						_system_properties = 
-						{
-							property_group = "Occlusion"
-						}
-					}
-					occlusion_interval = 
-					{
-						data_type = "float"
-						value = "0.100000"
-						_system_properties = 
-						{
-							property_group = "Occlusion"
 						}
 					}
 					limiter_on = 
@@ -1120,14 +1053,6 @@
 			},
 			
 			{
-				name = "occlusion_mixer_mult"
-				operator = "math_float"
-				apply = "mult"
-				input1 = "@public.occlusion_scale"
-				input2 = "@mixer.output_level"
-			},
-			
-			{
 				name = "citadel_distance_falloff"
 				operator = "sos_import_stack"
 				import_stack = "citadel_distance_falloff"
@@ -1145,51 +1070,6 @@
 						value = "@add_position_offset.output"
 					}
 				}
-			},
-			
-			{
-				name = "occlusion_calc_enabled"
-				operator = "math_float"
-				input_execute = 1.000000
-				apply = "greater_than"
-				input1 = "@citadel_distance_falloff::output.result_vol_linear"
-				input2 = "0.001"
-			},
-			
-			{
-				name = "occlusion"
-				operator = "calc_occlusion_src2"
-				input_execute = "@occlusion_calc_enabled.output"
-				input_scalar = "@occlusion_mixer_mult.output"
-				input_radius = "@public.occlusion_radius"
-				min_output = "@public.occlusion_min"
-				max_output = "@public.occlusion_max"
-				input_source_position = "@add_position_offset.output"
-				input_listener_position = "@globals.output_listener_position"
-				input_trace_interval = "@public.occlusion_interval"
-			},
-			
-			{
-				name = "occlusion_max_distance_switch"
-				operator = "ctrl_switch_float"
-				input_switch = "@occlusion_calc_enabled.output"
-				input1 = "@public.occlusion_min"
-				input2 = "@occlusion.output"
-			},
-			
-			{
-				name = "occlusion_filter"
-				operator = "math_filter_float"
-				input = "@occlusion_max_distance_switch.output"
-				input_max_velocity = "@public.occlusion_max_velocity"
-			},
-			
-			{
-				name = "occlusion_submix_math_invert"
-				operator = "math_float"
-				apply = "sub"
-				input1 = "1.000000"
-				input2 = "@occlusion_filter.output"
 			},
 			
 			{
@@ -1493,11 +1373,41 @@
 			},
 			
 			{
+				name = "citadel_occlusion"
+				operator = "sos_import_stack"
+				import_stack = "citadel_occlusion"
+				auto_connect_public_fields = "true"
+				operator_variables = 
+				{
+					input_occlusion_entity_index = 
+					{
+						data_type = "float"
+						value = "@source_info.output_entity_index"
+					}
+					input_occlusion_volume_falloff_ls = 
+					{
+						data_type = "float"
+						value = "@citadel_distance_falloff::output.result_vol_linear"
+					}
+					input_occlusion_source_position = 
+					{
+						data_type = "float3"
+						value = "@add_position_offset.output"
+					}
+					input_occlusion_listener_position = 
+					{
+						data_type = "float3"
+						value = "@globals.output_listener_position"
+					}
+				}
+			},
+			
+			{
 				name = "math_calc_mixlayer_volume_value"
 				operator = "math_float"
 				apply = "mult"
 				input1 = "@citadel_distance_falloff::output.result_vol_linear"
-				input2 = "@occlusion_volume_attenuation::output.result"
+				input2 = "@citadel_occlusion::output.result"
 			},
 			
 			{
@@ -1530,35 +1440,6 @@
 				input = "@volume_filter.output"
 				submix_name = "@public.send_name"
 				send_type = "named"
-			},
-			
-			{
-				name = "occlusion_volume_attenuation"
-				operator = "sos_import_stack"
-				import_stack = "citadel_occlusion_volume_attenuation"
-				operator_variables = 
-				{
-					occlusion_gain_value = 
-					{
-						data_type = "float"
-						value = "@occlusion_filter.output"
-					}
-					distance = 
-					{
-						data_type = "float"
-						value = "@distance_filter.output"
-					}
-					distance_min = 
-					{
-						data_type = "float"
-						value = "@public.occlusion_volume_blend_distance_min"
-					}
-					distance_max = 
-					{
-						data_type = "float"
-						value = "@public.occlusion_volume_blend_distance_max"
-					}
-				}
 			},
 			
 			{
@@ -1651,7 +1532,7 @@
 				detail_label_7 = "inst"
 				detail_value_7 = "@citadel_instance_attenuator::output.result_vol_offset_linear"
 				detail_label_8 = "occl"
-				detail_value_8 = "@occlusion_volume_attenuation::output.result"
+				detail_value_8 = "@citadel_occlusion::output.result"
 			},
 		]
 		_system_properties = 

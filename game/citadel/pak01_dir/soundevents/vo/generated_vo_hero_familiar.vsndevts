@@ -290,15 +290,6 @@
 		]
 		vsnd_duration = 2.194375
 	}
-	familiar_ally_unicorn_killed_in_lane_01_hero_3d = 
-	{
-		base = "Base.Hero.VO"
-		context_name = "familiar"
-		vsnd_files = 
-		[
-			"sounds/vo/familiar/familiar_ally_unicorn_killed_in_lane_01.vsnd",
-		]
-	}
 	familiar_ally_vampirebat_killed_in_lane_01_hero_3d = 
 	{
 		base = "Base.Hero.VO"

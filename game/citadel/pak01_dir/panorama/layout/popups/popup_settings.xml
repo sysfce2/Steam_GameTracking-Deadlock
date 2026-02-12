@@ -323,7 +323,7 @@
 							<CitadelSettingsKeyBinder id="AttackBinder" bind="Attack" />
 						</PopupSettingsSettingsRow>
 						<PopupSettingsSettingsRow>
-							<CitadelSettingsKeyBinder id="ADSBinder" bind="ADS" />
+							<CitadelSettingsKeyBinder id="ADSBinder" bind="ADS" search-alias="citadel_keybind_ads_search" />
 						</PopupSettingsSettingsRow>
 						<PopupSettingsSettingsRow>
 							<CitadelSettingsKeyBinder id="ReloadSheetBinder" bind="Reload" />

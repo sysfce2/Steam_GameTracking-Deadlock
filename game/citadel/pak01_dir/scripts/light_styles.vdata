@@ -3590,4 +3590,50 @@
 			]
 		}
 	}
+	storm_cloud_fade_in = 
+	{
+		dimmer = 
+		{
+			m_spline = 
+			[
+				
+				{
+					x = 0.000000
+					y = 0.000000
+					m_flSlopeIncoming = 0.000000
+					m_flSlopeOutgoing = 0.100000
+				},
+				
+				{
+					x = 10.000000
+					y = 1.000000
+					m_flSlopeIncoming = 0.100000
+					m_flSlopeOutgoing = 0.000000
+				},
+			]
+			m_tangents = 
+			[
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+					m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+				},
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+					m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+				},
+			]
+			m_vDomainMins = 
+			[
+				0.000000,
+				0.000000,
+			]
+			m_vDomainMaxs = 
+			[
+				10.000000,
+				1.000000,
+			]
+		}
+	}
 }

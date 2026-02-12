@@ -224,4 +224,18 @@
 			},
 		]
 	}
+	occlusion = 
+	{
+		m_Behavior_String = "kBranch"
+		m_Behavior_EntIndex = "kBranch"
+		m_vActions = 
+		[
+			
+			{
+				_class = "CSosGroupActionOcclusionSchema"
+				m_flRadius = 150.000000
+				m_flOcclusionMax = 1.000000
+			},
+		]
+	}
 }

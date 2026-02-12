@@ -93,6 +93,7 @@
 		fade_type = "linear"
 		mix_group_prefix = "Weapons"
 		enable_initial_reflection_send = true
+		occlusion_use_group_calculation = false
 		recency_bias_max_scale = 1.000000
 		limiter_on = 1.000000
 		limiter_max = 0.000000
@@ -103,7 +104,7 @@
 		volume_offset_team = -6.000000
 		volume_offset_opponent = -1.000000
 		volume_offset_neutral = -4.000000
-		volume_enemy_targeting_boost = 0.000000
+		volume_enemy_targeting_boost = 2.000000
 		vsnd_files_last_shot = 
 		[
 			"sounds/weapons/geist/geist_wpn_last_shot_01.vsnd",
@@ -432,6 +433,7 @@
 			},
 		]
 		mixer_mixgroup = "NPC-Neutral"
+		max_distance_recipient_filter = 1200.000000
 	}
 	Base.NPC.Trooper = 
 	{
@@ -446,6 +448,7 @@
 		mix_group_prefix = "NPC-Troop"
 		volume_enemy_targeting_boost = 3.000000
 		volume = -12.000000
+		max_distance_recipient_filter = 1000.000000
 	}
 	Base.NPC.Trooper.Close = 
 	{
@@ -461,6 +464,7 @@
 				event_name = "Volume.Falloff.NPC.Trooper.Close"
 			},
 		]
+		max_distance_recipient_filter = 600.000000
 	}
 	Base.NPC.Guardian = 
 	{
@@ -956,7 +960,7 @@
 		limiter_on = 1.000000
 		limiter_max = 1.000000
 		limiter_stop_oldest = true
-		volume_fade_out = 0.100000
+		volume_fade_out = 0.030000
 		block_volume_min = 0.001000
 		volume = 0.000000
 		volume_offset_player = 0.000000
@@ -2122,6 +2126,22 @@
 			0.000000,
 			50.000000,
 		]
+		volume = -6.000000
+		limiter_on = 1.000000
+		limiter_max = 4.000000
+	}
+	Base.Breakable = 
+	{
+		type = "citadel_default_3d"
+		base = 
+		[
+			
+			{
+				event_name = "Volume.Falloff.Breakable"
+			},
+		]
+		mixer_mixgroup = "World"
+		max_distance_recipient_filter = 1200.000000
 		volume = -6.000000
 		limiter_on = 1.000000
 		limiter_max = 4.000000

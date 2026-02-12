@@ -69220,7 +69220,7 @@
 		m_bNeedsTesting = false
 		m_bAssignedPlayersOnly = false
 		m_bLimitedTesting = false
-		m_bPrereleaseOnly = true
+		m_bPrereleaseOnly = false
 		m_nComplexity = 2
 		m_nAllyBotDifficulty = 1
 		m_nEnemyBotDifficulty = 1
@@ -69243,7 +69243,7 @@
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 63
 			EHeavyMeleeDamage = 116
-			EMaxHealth = 700.000000
+			EMaxHealth = 740.000000
 			EWeaponPower = 0
 			EReloadSpeed = 1
 			EWeaponPowerScale = 1
@@ -69956,7 +69956,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.600000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.500000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 41
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 44
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -69990,7 +69990,7 @@
 					"ELightMeleeDamage",
 					"EHeavyMeleeDamage",
 				]
-				m_eWeaponAttributes = "EWeaponAttribute_Spreadshot | EWeaponAttribute_CloseRange"
+				m_eWeaponAttributes = "EWeaponAttribute_MediumRange | EWeaponAttribute_Projectile"
 				m_strWeaponImage = panorama:"file://{images}/heroes/guns/fencer_rapier.psd"
 			}
 			m_eVitalityStatsDisplay = 

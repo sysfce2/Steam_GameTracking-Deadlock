@@ -4430,16 +4430,6 @@
 		]
 		vsnd_duration = 1.385271
 	}
-	unicorn_kill_synth_02_hero_3d = 
-	{
-		base = "Base.Hero.VO"
-		context_name = "unicorn"
-		vsnd_files = 
-		[
-			"sounds/vo/unicorn/unicorn_kill_synth_02.vsnd",
-		]
-		vsnd_duration = 1.807896
-	}
 	unicorn_kill_synth_03_hero_3d = 
 	{
 		base = "Base.Hero.VO"
@@ -4969,24 +4959,6 @@
 			"sounds/vo/unicorn/unicorn_killstreak_mid_02.vsnd",
 		]
 		vsnd_duration = 3.353521
-	}
-	unicorn_killstreak_mid_03_hero_3d = 
-	{
-		base = "Base.Hero.VO"
-		context_name = "unicorn"
-		vsnd_files = 
-		[
-			"sounds/vo/unicorn/unicorn_killstreak_mid_03.vsnd",
-		]
-	}
-	unicorn_killstreak_mid_03_hero_announcer = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "unicorn"
-		vsnd_files = 
-		[
-			"sounds/vo/unicorn/unicorn_killstreak_mid_03.vsnd",
-		]
 	}
 	unicorn_killstreak_start_01_hero_3d = 
 	{
@@ -18157,15 +18129,6 @@
 			"sounds/vo/unicorn/unicorn_use_tech_purge_01.vsnd",
 		]
 		vsnd_duration = 1.106792
-	}
-	unicorn_use_tech_purge_02_ability_3d = 
-	{
-		base = "Base.Hero.VO.Ability.3d"
-		context_name = "unicorn"
-		vsnd_files = 
-		[
-			"sounds/vo/unicorn/unicorn_use_tech_purge_02.vsnd",
-		]
 	}
 	unicorn_use_tech_purge_03_ability_3d = 
 	{

@@ -740,15 +740,6 @@
 		]
 		vsnd_duration = 1.623271
 	}
-	yamato_ally_unicorn_killed_in_lane_01_hero_3d = 
-	{
-		base = "Base.Hero.VO"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/yamato_ally_unicorn_killed_in_lane_01.vsnd",
-		]
-	}
 	yamato_ally_vampirebat_killed_in_lane_01_hero_3d = 
 	{
 		base = "Base.Hero.VO"
@@ -6599,15 +6590,6 @@
 		]
 		vsnd_duration = 1.307688
 	}
-	yamato_ping_attack_unicorn_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_attack_unicorn.vsnd",
-		]
-	}
 	yamato_ping_attack_vampirebat_ping_2d = 
 	{
 		base = "Base.VO.Ping"
@@ -7187,15 +7169,6 @@
 			"sounds/vo/yamato/ping/yamato_ping_can_heal_tengu.vsnd",
 		]
 		vsnd_duration = 1.432323
-	}
-	yamato_ping_can_heal_unicorn_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_can_heal_unicorn.vsnd",
-		]
 	}
 	yamato_ping_can_heal_vampirebat_ping_2d = 
 	{
@@ -8146,33 +8119,6 @@
 			"sounds/vo/yamato/ping/yamato_ping_careful_tengu_03.vsnd",
 		]
 		vsnd_duration = 1.082927
-	}
-	yamato_ping_careful_unicorn_01_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_careful_unicorn_01.vsnd",
-		]
-	}
-	yamato_ping_careful_unicorn_02_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_careful_unicorn_02.vsnd",
-		]
-	}
-	yamato_ping_careful_unicorn_03_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_careful_unicorn_03.vsnd",
-		]
 	}
 	yamato_ping_careful_vampirebat_01_ping_2d = 
 	{
@@ -10013,15 +9959,6 @@
 			"sounds/vo/yamato/ping/yamato_ping_ignore_tengu.vsnd",
 		]
 		vsnd_duration = 1.082031
-	}
-	yamato_ping_ignore_unicorn_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_ignore_unicorn.vsnd",
-		]
 	}
 	yamato_ping_ignore_vampirebat_ping_2d = 
 	{
@@ -12033,15 +11970,6 @@
 		]
 		vsnd_duration = 0.948490
 	}
-	yamato_ping_saw_unicorn_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_saw_unicorn.vsnd",
-		]
-	}
 	yamato_ping_saw_vampirebat_ping_2d = 
 	{
 		base = "Base.VO.Ping"
@@ -13022,33 +12950,6 @@
 		]
 		vsnd_duration = 0.970781
 	}
-	yamato_ping_see_unicorn_01_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_see_unicorn_01.vsnd",
-		]
-	}
-	yamato_ping_see_unicorn_on_bridge_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_see_unicorn_on_bridge.vsnd",
-		]
-	}
-	yamato_ping_see_unicorn_on_roof_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_see_unicorn_on_roof.vsnd",
-		]
-	}
 	yamato_ping_see_vampirebat_01_ping_2d = 
 	{
 		base = "Base.VO.Ping"
@@ -13719,15 +13620,6 @@
 		]
 		vsnd_duration = 0.995375
 	}
-	yamato_ping_stun_unicorn_01_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_stun_unicorn_01.vsnd",
-		]
-	}
 	yamato_ping_stun_vampirebat_01_ping_2d = 
 	{
 		base = "Base.VO.Ping"
@@ -14097,87 +13989,6 @@
 			"sounds/vo/yamato/ping/yamato_ping_theyre_under_garage.vsnd",
 		]
 		vsnd_duration = 1.568292
-	}
-	yamato_ping_unicorn_almost_respawn_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_unicorn_almost_respawn.vsnd",
-		]
-	}
-	yamato_ping_unicorn_check_items_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_unicorn_check_items.vsnd",
-		]
-	}
-	yamato_ping_unicorn_dead_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_unicorn_dead.vsnd",
-		]
-	}
-	yamato_ping_unicorn_in_mid_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_unicorn_in_mid.vsnd",
-		]
-	}
-	yamato_ping_unicorn_missing_01_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_unicorn_missing_01.vsnd",
-		]
-	}
-	yamato_ping_unicorn_on_top_of_garage_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_unicorn_on_top_of_garage.vsnd",
-		]
-	}
-	yamato_ping_unicorn_on_top_of_mid_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_unicorn_on_top_of_mid.vsnd",
-		]
-	}
-	yamato_ping_unicorn_under_garage_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_unicorn_under_garage.vsnd",
-		]
-	}
-	yamato_ping_unicorn_was_here_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_unicorn_was_here.vsnd",
-		]
 	}
 	yamato_ping_use_ability1_ping_2d = 
 	{
@@ -15188,15 +14999,6 @@
 			"sounds/vo/yamato/ping/yamato_ping_with_tengu.vsnd",
 		]
 		vsnd_duration = 1.209510
-	}
-	yamato_ping_with_unicorn_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "yamato"
-		vsnd_files = 
-		[
-			"sounds/vo/yamato/ping/yamato_ping_with_unicorn.vsnd",
-		]
 	}
 	yamato_ping_with_vampirebat_ping_2d = 
 	{

@@ -1473,7 +1473,7 @@
 				name = "set_occlusion_blend"
 				operator = "container_set_param_number"
 				input_execute = "@public.send_occlusion_to_blend_container"
-				input_value = "@citadel_default_3d::citadel_base_3d::occlusion_filter.output"
+				input_value = "@citadel_default_3d::citadel_base_3d::citadel_occlusion::output.result"
 				input_name = "Occlusion"
 			},
 			

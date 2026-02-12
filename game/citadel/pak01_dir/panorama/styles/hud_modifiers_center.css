@@ -502,7 +502,7 @@ CitadelHudModifiers_Entry
 {
 	ignore-parent-flow: true;
 	flow-children: down;
-	width: 100%;
+	width: fit-children;
 	vertical-align: top;
 	margin-top: 70px;
 }

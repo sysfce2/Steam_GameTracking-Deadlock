@@ -17,6 +17,7 @@
 			},
 		]
 		mix_group_prefix = "VO-Hero"
+		occlusion_use_group_calculation = true
 		enable_pre_priority_volume_blocking = true
 		enable_combat_blocking = true
 		combat_blocking_priority_threshold = 380.000000
@@ -213,8 +214,8 @@
 			},
 		]
 		mix_group_prefix = "VO-Hero-ULT"
-		occlusion_scale_non_player = 0.300000
-		volume_falloff_floor = 0.100000
+		occlusion_scale_non_player = 0.600000
+		volume_falloff_floor = 0.010000
 		volume_falloff_floor_enemy_relevance = 0.100000
 		play_from_listener_player = 1.000000
 		send_name_player = "hero_vo_ult"

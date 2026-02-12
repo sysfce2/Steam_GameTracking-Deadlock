@@ -1803,11 +1803,6 @@ CitadelHudModifierIcons
 	border-radius: 2px;
 }
 
-.gShopOpen.PopupVisible #hud_signature
-{
-	visibility: collapse;
-}
-
 .gShopOpen #hud_signature
 {
 	ui-scale: 75%;

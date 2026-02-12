@@ -44,6 +44,7 @@ CitadelChatWheel.ChatWheelOpen
 	transform: scale3d( 0.8 , 0.8, 0.8 );
 	transition-property: opacity, transform;
 	transition-delay: 0.0s;
+	transition-duration: 0.05s;
 	transition-timing-function: ease-out;
 }
 

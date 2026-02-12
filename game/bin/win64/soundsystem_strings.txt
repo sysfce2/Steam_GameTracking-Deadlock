@@ -1015,6 +1015,7 @@ $toolgraphs
 .?AVCSosEventInfo_t@@
 .?AVCSosGroupActionLimitSchema@@
 .?AVCSosGroupActionMemberCountEnvelopeSchema@@
+.?AVCSosGroupActionOcclusionSchema@@
 .?AVCSosGroupActionSchema@@
 .?AVCSosGroupActionSetSoundeventParameterSchema@@
 .?AVCSosGroupActionSoundeventClusterSchema@@
@@ -1364,10 +1365,9 @@ $toolgraphs
 0 360
 0 = use biquad instead of svf, 1 = use vectorized svf, 2 = use scalar svf
 0.1 16000
-08CG
+0XCG
 12dB
 1e<w 
-2\vpt
 33s?
 8fff?fff?fff?fff?
 <EMPTY>
@@ -1466,7 +1466,6 @@ C:\buildworker\citadel_rel_win64\build\src\soundsystem\snd_op_sys\sos_system.cpp
 C:\buildworker\citadel_rel_win64\build\src\soundsystem\snd_wave_mixer_mp3.cpp
 C:\buildworker\citadel_rel_win64\build\src\soundsystem\vmix.cpp
 C:\buildworker\citadel_rel_win64\build\src\soundsystem\vsound_manager.cpp
-CAssociateResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!\n
 CAsyncWavDataCache:  %i sounds total %s, %.2f %% of capacity\n
 CAudioDecoderWaveMP3::OpenHandle
 CAudioEmphasisSample
@@ -1523,6 +1522,7 @@ CSequence: %s\n
 CSequence:\t%f : %i : %i\n
 CSosGroupActionLimitSchema
 CSosGroupActionMemberCountEnvelopeSchema
+CSosGroupActionOcclusionSchema
 CSosGroupActionSchema
 CSosGroupActionSetSoundeventParameterSchema
 CSosGroupActionSoundeventClusterSchema
@@ -1722,6 +1722,7 @@ CVoiceContainerSwitch
 CVoiceContainerTapePlayer
 C\nw+C
 C_Sharp
+Calculation interval ( seconds ).
 Can't find mix layer %s\n
 Can't find mixgroup name %s for submix\n
 Can't find sound event to remove for %s!\n
@@ -2005,7 +2006,7 @@ Exponential
 Exponential Ramp
 Extra taps
 Extract Source
-F8hK
+F8jK
 FIELDATA COMPARE FAIL: %s->%s\n
 FIELDATASIZE COMPARE FAIL: %s->%s\n
 FIELINFO COMPARE FAIL: %s->%s\n
@@ -2310,6 +2311,11 @@ OUTSIDE ALLEY Detected \n
 OUTSIDE COURTYARD Detected \n
 OUTSIDE STREET Detected \n
 Occlusion
+Occlusion Info
+Occlusion max.
+Occlusion min.
+Occlusion radius.
+Occlusion scale.
 Octave
 Octaves shifted
 Only Tails On Fade Out
@@ -2724,6 +2730,7 @@ Tape Player
 Taps
 Target
 Target Value
+Test depth.
 Test nesting voice containers.
 The amount of attenuation .
 The amount the modulating sine tone modulates this sine tone.
@@ -2969,6 +2976,7 @@ X<"wP
 \nSOS PRINT STRING: %s: %s\n
 \nType Name: %s\n
 \nUpdate SoundEvent: %s\n
+\rCAssociateResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!\n
 \r\tV_coshf
 \t dspmix %1.2f : lvol %1.2f : cvol %1.2f : rvol %1.2f : rlvol %1.2f : rrvol %1.2f\n
 \t x: %4f y: %4f z: %4f\n
@@ -3730,6 +3738,7 @@ kBranch
 kIgnore
 kMatch
 key_groups
+last_calc_time
 left_front
 left_front1
 left_front2
@@ -3880,6 +3889,7 @@ m_flBandwidth
 m_flBaseValue
 m_flBassFreq
 m_flBlendFactor
+m_flCalculationInterval
 m_flCarrierFrequency
 m_flCents
 m_flClusterEpsilon
@@ -3952,6 +3962,9 @@ m_flModifier
 m_flModifierMin
 m_flModulatorAmount
 m_flModulatorFrequency
+m_flOcclusionMax
+m_flOcclusionMin
+m_flOcclusionScale
 m_flOpvar
 m_flOutputBalance
 m_flOutputGain
@@ -3962,6 +3975,7 @@ m_flPreDelayMS
 m_flPrefilter
 m_flQ
 m_flRMSTimeMS
+m_flRadius
 m_flRatio
 m_flRatioAbove
 m_flRatioBelow
@@ -3987,6 +4001,7 @@ m_flTapeSpeedAttackTime
 m_flTapeSpeedReleaseTime
 m_flTaps
 m_flTargetValue
+m_flTestDepth
 m_flThreshold
 m_flTime
 m_flTimeJitter
@@ -4664,6 +4679,7 @@ snd_gamevoicevolume
 snd_gamevolume
 snd_get_physics_surface_properties
 snd_group_cluster_debug
+snd_group_occlusion_debug
 snd_group_priority_debug
 snd_group_priority_max_tolerance
 snd_headphone_pan_exponent

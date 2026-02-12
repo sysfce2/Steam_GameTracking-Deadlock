@@ -236,6 +236,46 @@
 	clip: radial( 50% 50%, 167.142deg, 10.86deg );
 }
 
+.charge_count_8 #charge1
+{
+	clip: radial( 50% 50%, 90deg, 10.0deg );
+}
+
+.charge_count_8 #charge2
+{
+	clip: radial( 50% 50%, 101.25deg, 10.0deg );
+}
+
+.charge_count_8 #charge3
+{
+	clip: radial( 50% 50%, 112.5deg, 10.0deg );
+}
+
+.charge_count_8 #charge4
+{
+	clip: radial( 50% 50%, 123.75deg, 10.0deg );
+}
+
+.charge_count_8 #charge5
+{
+	clip: radial( 50% 50%, 135deg, 10.0deg );
+}
+
+.charge_count_8 #charge6
+{
+	clip: radial( 50% 50%, 146.25deg, 10.0deg );
+}
+
+.charge_count_8 #charge7
+{
+	clip: radial( 50% 50%, 157.5deg, 10.0deg );
+}
+
+.charge_count_8 #charge8
+{
+	clip: radial( 50% 50%, 168.75deg, 10.0deg );
+}
+
 .charge.charging .charge_fg
 {
 	border: 8px solid rgb(255, 238, 0);

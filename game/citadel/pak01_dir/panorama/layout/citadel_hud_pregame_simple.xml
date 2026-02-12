@@ -11,6 +11,7 @@
 			<Panel class="HeroInfo">
 				<Label class="HeroRevealLabel" text="#Citadel_MatchIntro_HeroReveal" />
 				<CitadelHeroLogo id="HeroLogo" />
+				<CitadelHeroAbilities id="HeroAbilities" />
 			</Panel>
 		</Panel>
 	</CitadelHudPregameSimple>

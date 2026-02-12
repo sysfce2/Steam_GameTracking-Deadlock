@@ -138,7 +138,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		block_duration = 8.000000
 		vsnd_files = "sounds/ambient/soundscapes/entities/shop_active_lp.vsnd"
@@ -177,7 +176,6 @@
 		spread_min_value = 0.000000
 		pitch = 0.950000
 		volume_mult = 3.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		block_duration = 8.000000
 		vsnd_files = "sounds/common/null.vsnd"
@@ -216,7 +214,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		block_duration = 8.000000
 		vsnd_files = "sounds/ambient/soundscapes/entities/shop_open_metaldooropen.vsnd"
@@ -255,7 +252,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		block_duration = 8.000000
 		vsnd_files = "sounds/ambient/soundscapes/entities/shop_open_miscitems.vsnd"
@@ -294,7 +290,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		block_duration = 8.000000
 		vsnd_files = "sounds/ambient/soundscapes/entities/shop_open_merchantrise.vsnd"
@@ -376,7 +371,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		pitch_rand_min = -0.010000
 		pitch_rand_max = 0.010000
@@ -419,7 +413,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		pitch_rand_min = -0.010000
 		pitch_rand_max = 0.010000
@@ -460,7 +453,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		pitch_rand_min = -0.010000
 		pitch_rand_max = 0.010000
@@ -502,7 +494,6 @@
 		cull_at_distance = 2800.000000
 		volume_falloff_min = 450.000000
 		volume_falloff_max = 2800.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		vsnd_files = "sounds/world/powerup/powerup_gun_lp.vsnd"
 		vsnd_duration = 12.325375
@@ -519,7 +510,6 @@
 		cull_at_distance = 2800.000000
 		volume_falloff_min = 450.000000
 		volume_falloff_max = 2800.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		vsnd_files = "sounds/world/powerup/powerup_survival_lp.vsnd"
 		vsnd_duration = 12.637483
@@ -536,7 +526,6 @@
 		cull_at_distance = 2800.000000
 		volume_falloff_min = 450.000000
 		volume_falloff_max = 2800.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		vsnd_files = "sounds/world/powerup/powerup_casting_lp.vsnd"
 		vsnd_duration = 12.325375
@@ -553,7 +542,6 @@
 		cull_at_distance = 2800.000000
 		volume_falloff_min = 450.000000
 		volume_falloff_max = 2800.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		vsnd_files = "sounds/world/powerup/powerup_movement_lp.vsnd"
 		vsnd_duration = 12.330000

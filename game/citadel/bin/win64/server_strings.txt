@@ -375,6 +375,7 @@
 "F\n\fGCSQLVersion
 "Find " + entityType + " Entities In Trigger
 "Find " + entityType + " Entities Within Radius
+"Find " + entityType + " Entity
 "Find " + entityType + " Entity Within Radius
 "Find All " + entityType + " Entities
 "IYW
@@ -3627,8 +3628,6 @@ $tJ@T\tK
 .?AV?$CModifierFactory@VCCitadel_Modifier_FealtyTarget@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Fear@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_FearWatcher@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_Fencer_Lunge_Victim@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_Fencer_Riposte@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Fervor@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Fervor_Bonuses@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_FireBomb@@$0PPPP@@@
@@ -3696,7 +3695,7 @@ $tJ@T\tK
 .?AV?$CModifierFactory@VCCitadel_Modifier_HideoutIntro@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HideoutIntroExit@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Hideout_Teleport@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_HoldingGoldenIdol@@$0JD@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_HoldingGoldenIdol@@$0JE@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HollowPoint_Proc@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HollowPoint_Stack@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HookSelf@@$0PPPP@@@
@@ -4148,7 +4147,6 @@ $tJ@T\tK
 .?AV?$CModifierFactory@VCModifier_Drifter_ShadowMark_Target@@$0PPPP@@@
 .?AV?$CModifierFactory@VCModifier_Drifter_StalkersMark_PostTeleport@@$0PPPP@@@
 .?AV?$CModifierFactory@VCModifier_Fathom_LurkersAmbush_Debuff@@$0PPPP@@@
-.?AV?$CModifierFactory@VCModifier_Fencer_Lunge_Bleed@@$0PPPP@@@
 .?AV?$CModifierFactory@VCModifier_Fencer_Riposte_Attack_Debuff@@$0PPPP@@@
 .?AV?$CModifierFactory@VCModifier_Fencer_Ultimate_Caster@@$0PPPP@@@
 .?AV?$CModifierFactory@VCModifier_Fencer_Ultimate_Caster_Arrival@@$0PPPP@@@
@@ -4472,7 +4470,8 @@ $tJ@T\tK
 .?AV?$CNetworkHandleBase@VCCitadelBaseAbility@@VNetworkVar_m_hCastDelayingAbility@CCitadelAbilityComponent@@@@
 .?AV?$CNetworkHandleBase@VCCitadelBaseAbility@@VNetworkVar_m_hChannellingAbility@CCitadelAbilityComponent@@@@
 .?AV?$CNetworkHandleBase@VCCitadelBaseAbility@@VNetworkVar_m_hSelectedAbility@CCitadelAbilityComponent@@@@
-.?AV?$CNetworkHandleBase@VCCitadelBaseAbility@@VNetworkVar_m_pCopyUltimateAbility@CCitadel_Ability_Magician_CopyUlt@@@@
+.?AV?$CNetworkHandleBase@VCCitadelBaseAbility@@VNetworkVar_m_pActiveCopyUltimateAbility@CCitadel_Ability_Magician_CopyUlt@@@@
+.?AV?$CNetworkHandleBase@VCCitadelBaseAbility@@VNetworkVar_m_pLastTrainedCopiedUltimateAbility@CCitadel_Ability_Magician_CopyUlt@@@@
 .?AV?$CNetworkHandleBase@VCCitadelPlayerPawn@@VNetworkVar_m_hHeroPawn@CCitadelPlayerController@@@@
 .?AV?$CNetworkHandleBase@VCCitadelPlayerPawn@@VNetworkVar_m_hVacuumTarget@CCitadel_BreakablePropPickup@@@@
 .?AV?$CNetworkHandleBase@VCCitadelProjectile@@VNetworkVar_m_hProjectile@CCitadel_Ability_HatTrick@@@@
@@ -5261,6 +5260,8 @@ $tJ@T\tK
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpeed@CBaseEntity@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpeedAdjust@CCitadel_Ability_Slide@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpeedMultiplier@CCitadelZipLineNode@@@@
+.?AV?$CNetworkVarBase@MVNetworkVar_m_flSpeedMultiplierFromBaseBonus@CCitadelZipLineNode@@@@
+.?AV?$CNetworkVarBase@MVNetworkVar_m_flSpeedMultiplierToBaseBonus@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpreadPenalty@CCitadel_Ability_PrimaryWeapon@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpriteFramerate@CSprite@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpriteScale@CSprite@@@@
@@ -5451,6 +5452,7 @@ $tJ@T\tK
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vDashDirection@CCitadel_Ability_Fencer_Riposte@@@@
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vDashDirection@CCitadel_Ability_NanoDash@@@@
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vDashDirection@CCitadel_Ability_ShivDash@@@@
+.?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vDashStartPos@CAbility_Fencer_Lunge@@@@
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vDeparturePosition@CCitadel_Ability_Nano_Pounce@@@@
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vDeparturePosition@CCitadel_Ability_Nano_Pounce_Instant@@@@
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vDeparturePosition@CCitadel_Ability_Shiv_KillingBlow@@@@
@@ -5524,7 +5526,6 @@ $tJ@T\tK
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vStartPosition@CCitadel_Ability_Nano_Pounce_Instant@@@@
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vStartPosition@CCitadel_Ability_ShivDash@@@@
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vStartPosition@CCitadel_Ability_Shiv_KillingBlow@@@@
-.?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vStateStartPosition@CAbility_Fencer_Lunge@@@@
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vStateStartPosition@CAbility_Fencer_Riposte_Attack@@@@
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vStrikeDirection@CAbility_Fencer_Lunge@@@@
 .?AV?$CNetworkVarBase@V?$Vec3D@M@@VNetworkVar_m_vStrikeDirection@CAbility_Fencer_Riposte_Attack@@@@
@@ -6766,8 +6767,6 @@ $tJ@T\tK
 .?AV?$CSubclassFactory@VCCitadel_Modifier_FealtyTarget@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Fear@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_FearWatcher@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_Fencer_Lunge_Victim@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_Fencer_Riposte@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Fervor@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Fervor_Bonuses@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_FireBomb@@VCBaseModifier@@@@
@@ -7287,7 +7286,6 @@ $tJ@T\tK
 .?AV?$CSubclassFactory@VCModifier_Drifter_ShadowMark_Target@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCModifier_Drifter_StalkersMark_PostTeleport@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCModifier_Fathom_LurkersAmbush_Debuff@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCModifier_Fencer_Lunge_Bleed@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCModifier_Fencer_Riposte_Attack_Debuff@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCModifier_Fencer_Ultimate_Caster@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCModifier_Fencer_Ultimate_Caster_Arrival@@VCBaseModifier@@@@
@@ -10007,10 +10005,6 @@ $tJ@T\tK
 .?AVCCitadel_Modifier_FearWatcher@@
 .?AVCCitadel_Modifier_FearWatcherVData@@
 .?AVCCitadel_Modifier_Fear_VData@@
-.?AVCCitadel_Modifier_Fencer_Lunge_Victim@@
-.?AVCCitadel_Modifier_Fencer_Lunge_VictimVData@@
-.?AVCCitadel_Modifier_Fencer_Riposte@@
-.?AVCCitadel_Modifier_Fencer_RiposteVData@@
 .?AVCCitadel_Modifier_Fervor@@
 .?AVCCitadel_Modifier_Fervor_Bonuses@@
 .?AVCCitadel_Modifier_Fervor_Bonuses_VData@@
@@ -11566,7 +11560,6 @@ $tJ@T\tK
 .?AVCModifier_Drifter_StalkersMark_PostTeleport@@
 .?AVCModifier_Fathom_LurkersAmbush_Debuff@@
 .?AVCModifier_Fathom_LurkersAmbush_Debuff_VData@@
-.?AVCModifier_Fencer_Lunge_Bleed@@
 .?AVCModifier_Fencer_Riposte_Attack_Debuff@@
 .?AVCModifier_Fencer_Ultimate_Caster@@
 .?AVCModifier_Fencer_Ultimate_Caster_Arrival@@
@@ -14602,7 +14595,6 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpp
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14664,7 +14656,6 @@ $tJ@T\tK
 4@AA
 4Ch;
 4F0I
-4F\v r
 4Mv8
 4Zis
 4\fPl
@@ -14720,7 +14711,6 @@ $tJ@T\tK
 6,2K
 6-zeZ
 60000
-60C/
 62$|S)6f
 64CK\vH
 65535
@@ -14732,8 +14722,6 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
-6P1/
-6PD/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14752,7 +14740,8 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6pP/
+6pO/
+6pU/
 6qo~
 6r-m_v
 6r1ij
@@ -14802,7 +14791,7 @@ $tJ@T\tK
 8<pl
 8= zp
 8A6j
-8FPA/
+8FP*/
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15042,10 +15031,9 @@ $tJ@T\tK
 >ztq
 ?33s?
 ?CAnimFoot
-?CCitadel_Modifier_Necro_HauntingSpirits
+?CModifier_Synth_Grasp_Victim
 ?HAI\t81\t9dcG'
 ?HP4
-?If set, deployment will always be normal to surface.
 ?Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
@@ -15068,9 +15056,8 @@ $tJ@T\tK
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08ND
+@08N4
 @0pp
-@6pR/
 @Accolades
 @BH]f
 @MfKZ
@@ -15087,7 +15074,7 @@ $tJ@T\tK
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@htp>
+@htP(
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -15493,7 +15480,6 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
-A\v7r
 AbW_
 Abandon
 Abandoned
@@ -16146,7 +16132,6 @@ Away from closest point
 Axis
 AxisAngleToQuaternion
 B!rA
-B"Find " + entityType + " Entity
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
 B+N3
@@ -16303,10 +16288,11 @@ BREAKABLE
 BRUSHSOLID_ALWAYS
 BRUSHSOLID_NEVER
 BRUSHSOLID_TOGGLE
+BRegisterChoice_CPulseServerFuncs_AddNewModifier
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
 BT5f
-BTASK_GET_PATH_TO_LASTPOSITION
+BTASK_INVALID
 BUCKSHOT
 BUF lib
 BUFFED
@@ -16569,7 +16555,6 @@ BlastJumpVelocityGround
 BlastRadius
 BlastedExtendByBulletDuration
 BlastedRateOnBulletPct
-BleedDPS
 BleedDPSPerStack
 BleedDuration
 BleedTickRate
@@ -16985,7 +16970,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_barrack_boss.
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_base_defense_turret.cpp:284
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_boss_tier1.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_boss_tier2.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_field_sentry.cpp:335
+C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_field_sentry.cpp:336
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_flying_drone.cpp:884
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_mid_boss.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_nano_drone.cpp
@@ -17028,8 +17013,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_b
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_beam.cpp:243
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4127
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4301
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4133
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4307
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_gamerules.cpp
@@ -19226,10 +19211,6 @@ CCitadel_Modifier_Fear
 CCitadel_Modifier_FearWatcher
 CCitadel_Modifier_FearWatcherVData
 CCitadel_Modifier_Fear_VData
-CCitadel_Modifier_Fencer_Lunge_Victim
-CCitadel_Modifier_Fencer_Lunge_VictimVData
-CCitadel_Modifier_Fencer_Riposte
-CCitadel_Modifier_Fencer_RiposteVData
 CCitadel_Modifier_Fervor
 CCitadel_Modifier_Fervor_Bonuses
 CCitadel_Modifier_Fervor_Bonuses_VData
@@ -19513,6 +19494,7 @@ CCitadel_Modifier_Necro_GunTether
 CCitadel_Modifier_Necro_GunTetherVData
 CCitadel_Modifier_Necro_HauntingSkull_Area
 CCitadel_Modifier_Necro_HauntingSkull_AreaVData
+CCitadel_Modifier_Necro_HauntingSpirits
 CCitadel_Modifier_Necro_HauntingSpiritsVData
 CCitadel_Modifier_Necro_RampUp
 CCitadel_Modifier_Necro_RampUpVData
@@ -20172,6 +20154,7 @@ CDebugOverlayGameSystem
 CDebugOverlayGameSystem::CacheNPCState
 CDebugOverlayScriptHelper
 CDecalGameSystem::LoopInit
+CDecalGroupVData
 CDecalInstance
 CDeltaTicksAndFrac::operator -
 CDestructableBuildingVData
@@ -21531,7 +21514,6 @@ CModifier_Drifter_ShadowMark_TargetVData
 CModifier_Drifter_StalkersMark_PostTeleport
 CModifier_Fathom_LurkersAmbush_Debuff
 CModifier_Fathom_LurkersAmbush_Debuff_VData
-CModifier_Fencer_Lunge_Bleed
 CModifier_Fencer_Riposte_Attack_Debuff
 CModifier_Fencer_Ultimate_Caster
 CModifier_Fencer_Ultimate_Caster_Arrival
@@ -21591,7 +21573,6 @@ CModifier_Synth_Blitz_TechAmp_VData
 CModifier_Synth_Grasp_BulletShield
 CModifier_Synth_Grasp_Caster
 CModifier_Synth_Grasp_Caster_VData
-CModifier_Synth_Grasp_Victim
 CModifier_Synth_Grasp_Victim_VData
 CModifier_Synth_PlasmaFlux_WeaponDamage_VData
 CModifier_Synth_Pulse_Escape
@@ -24652,7 +24633,6 @@ CooldownRefreshChancePercent
 CooldownRefundPercent
 CooldownSpeedPerBlastedPct
 CoopBot
-Copied ult & model.\n
 CopiedUltWindow
 Copy 'element' to the end of 'a', increasing its count by one.
 Copy R%d <- R%d
@@ -26678,6 +26658,7 @@ EHeroLootTable_T4
 EHeroLootTable_T5
 EHeroReleaseVoteOption_August2025
 EHeroReleaseVoteOption_January2026
+EHeroReleaseVoteOption_None
 EHeroSpiritLifestealEffectiveness
 EHeroSwap
 EHeroType
@@ -27115,6 +27096,7 @@ EProgress_OffsetUp
 EProgress_Opacity
 EProgress_RadialCCW
 EProgress_RadialCW
+EProgress_Scale
 EProjectileRadius_DEPRECATED
 EPropertyValueContext
 EProtoExecutionSite
@@ -27974,6 +27956,7 @@ F'pY
 F+Zb
 F,mZq
 F/o4
+F02/
 F2M+
 F6tr
 F7!z
@@ -27992,7 +27975,6 @@ FAMILIARTASK_INFEST_HEAL
 FAMILIARTASK_INVALID
 FAMILIARTASK_MAX
 FAMILIARTASK_SHOP
-FCDecalGroupVData
 FCVAR_DEMO
 FCVAR_DEVELOPMENTONLY
 FCVAR_HIDDEN
@@ -28550,6 +28532,7 @@ Flying
 FlyingBulletResist
 FlyingStartBoost
 Flying_Motor
+Fm_iFilterModifier
 Fm{#t
 Fog Volume %s found at position (%f %f %f)
 Fog: %s, post process: %s, color correct: %s
@@ -30306,6 +30289,7 @@ If set to the name of the rule, that rule's score will be shown whenever a conce
 If set, always use a line trace, instead of tracing the size of the object.
 If set, animgraph_debug_variables won't show debug for variable sets that don't change the value.
 If set, animgraph_debug_variables won't show debug for warnings about sets to missing variables.
+If set, deployment will always be normal to surface.
 If set, deployment will always have a pitch and roll of 0.
 If set, deployment will do a cast from above the cast point to see if there's a valid up surface to deploy to.  Will reject any non up facing surfaces.
 If set, deployment will trace up and down to search for valid ground position.
@@ -32173,6 +32157,8 @@ MODIFIER_STATE_BULLET_INVULNERABLE
 MODIFIER_STATE_BURNING
 MODIFIER_STATE_BUSY_WITH_ACTION
 MODIFIER_STATE_CAMERA_CEILING_BEHAVIOR
+MODIFIER_STATE_CAMERA_TRANSITION_ALWAYS
+MODIFIER_STATE_CAMERA_TRANSITION_DISABLED
 MODIFIER_STATE_CANNOT_SEE_ALLY_GLOWS
 MODIFIER_STATE_CAN_ACTIVE_RELOAD
 MODIFIER_STATE_CHAINED
@@ -32340,6 +32326,7 @@ MODIFIER_STATE_NECRO_GUNTETHER
 MODIFIER_STATE_NECRO_GUN_BONUSTETHER
 MODIFIER_STATE_NECRO_PICKUP_TARGET
 MODIFIER_STATE_NECRO_WITHER
+MODIFIER_STATE_NON_ULT_SIGNATURE_ABILITIES_DISABLED
 MODIFIER_STATE_NO_INCOMING_DAMAGE
 MODIFIER_STATE_NO_MINIMAP
 MODIFIER_STATE_NO_OUTGOING_DAMAGE
@@ -32388,6 +32375,7 @@ MODIFIER_STATE_SIGNATURE_ABILITIES_DISABLED
 MODIFIER_STATE_SILENCED
 MODIFIER_STATE_SILENCED_HIDDEN
 MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES
+MODIFIER_STATE_SINCLAIR_TAX_KEEP_MODEL_SWAP
 MODIFIER_STATE_SINCLAIR_TAX_ULT_ACTIVE
 MODIFIER_STATE_SIPHON_BULLET_LOSS
 MODIFIER_STATE_SLIDING
@@ -32411,7 +32399,6 @@ MODIFIER_STATE_TECH_UNTARGETABLE_BY_ENEMIES
 MODIFIER_STATE_TECH_UNTARGETABLE_BY_TEAMMATES
 MODIFIER_STATE_TELEPORTER_DISABLED
 MODIFIER_STATE_TIER3_DEFENDER_IN_PIT
-MODIFIER_STATE_ULTING
 MODIFIER_STATE_UNICORN_RADIANT_FLARED
 MODIFIER_STATE_UNIT_STATUS_HEALTH_HIDDEN
 MODIFIER_STATE_UNIT_STATUS_HIDDEN
@@ -32998,7 +32985,6 @@ MaxNPCCount
 MaxNetworkableEntities
 MaxNonNetworkableEntities
 MaxPitch
-MaxProcBleedDamagePercent
 MaxProjectileSpeed
 MaxPushForceHorizontal
 MaxPushForceVertical
@@ -33014,6 +33000,7 @@ MaxSlowDuration
 MaxSlowPercent
 MaxSlowTime
 MaxSpread
+MaxStabs
 MaxStacks
 MaxStaminaRestore
 MaxStolenAttackDamage
@@ -34949,7 +34936,7 @@ P-224
 P-256
 P-384
 P-521
-P08ND
+P08N4
 P1\t98"
 P5[1
 PAGN_4
@@ -36357,7 +36344,6 @@ RUMBLE_STOP_ALL
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpp
 R]Di
 Rad2 Deg
 RadiationThink
@@ -36502,7 +36488,6 @@ Register
 Register Test Checkpoint
 Register as a listener for a game event from script.
 Register with the GC for matchmaking
-RegisterChoice_CPulseServerFuncs_AddNewModifier
 RegisterChoice_CPulseServerFuncs_HasModifier
 RegisterChoice_CPulseServerFuncs_RemoveModifier
 RegisterCommand
@@ -36683,7 +36668,6 @@ ResetTimer
 Resets a street brawl match
 ResetsAirLimit
 Resetting Death Penalty
-Resetting model to base\n
 ResistReductionDuration
 ResistStealAmount
 Resistance/friction in the constraint
@@ -38698,6 +38682,9 @@ SimulateUserCommands
 Simulated GC communications failure is active.\n
 Simulated GC communications failure is not active.\n
 Simulates and spews the results of all draft rounds in street brawl
+Sinclair - Copied ult & model. %s\n
+Sinclair - Resetting model to base\n
+Sinclair - Ult copying failed. \n
 Sine
 Sine of angle. Input in radians, output in radians
 Single
@@ -39523,6 +39510,7 @@ TASK_FAMILIARHELPER_STUNNED
 TASK_FAMILIARHELPER_WAIT_AT_WANDER_GOAL
 TASK_FAMILIARHELPER_WAIT_FOR_BREAK_WINDOW
 TASK_GET_PATH_FORWARD
+TASK_GET_PATH_TO_LASTPOSITION
 TASK_GET_PATH_TO_MELEE_ENEMY
 TASK_GET_PATH_TO_NAV_MESH
 TASK_GET_PATH_TO_RANDOM_POSITION
@@ -39536,7 +39524,6 @@ TASK_GRAPH_WAIT_FOR_HANDSHAKE_TO_BECOME_ACTIVE
 TASK_GRAPH_WAIT_FOR_PREVIOUS_HANDSHAKE_TO_BECOME_INACTIVE
 TASK_HIDE_IN_NODE
 TASK_IDLE
-TASK_INVALID
 TASK_MELEE_ATTACK
 TASK_MIDBOSS_CHARGE_ACTIVATE
 TASK_MIDBOSS_CHARGE_SELECT
@@ -40356,6 +40343,7 @@ Timeline
 TimelineCompression_t
 Timeout in seconds for backend requests
 TimeoutThink
+TimerSoundDuration
 Timers
 TintColor
 To prevent zombie matches, if a match has been active longer than this many minutes, it should be timed out and the server restarted
@@ -40764,7 +40752,6 @@ UUUUUUUUUUUa\f\v
 UVElements
 U^Pg
 Ugi<
-Ult copying failed. \n
 Ultimate cast detected. Swapping model to cached copy.\n
 UnPauseSound
 UnTransformRecastNonZup
@@ -41941,7 +41928,8 @@ XYD%
 X\tQo
 Xd3h
 XfJ7
-Xf`C/
+XfP-/
+Xfp./
 XjfR
 XqgA+
 Xuub
@@ -42212,7 +42200,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -43216,7 +43203,9 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6pS/
+`2Pl
+`2po
+`6pK/
 `:zQF
 `D$daM-l
 `DZG
@@ -43244,7 +43233,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvD
+aBv4
 aD/x
 aDSS
 aECDH
@@ -44171,6 +44160,7 @@ attacker
 attacker_class
 attackerehandle
 attackername
+attacks_left
 attempt to reuse session in different context
 attempt_deny_orb_pct
 attempt_orb_range
@@ -44681,7 +44671,6 @@ bonename2
 bonus item - consumed component
 bonus item - no imbues
 bonus roll for %s
-bonus_damage_pct
 bonus_itemdefs
 bonus_max_clip
 bonus_regen
@@ -45307,6 +45296,8 @@ citadel_afk_detection_enabled
 citadel_ag2_controller_parallel_update_enabled
 citadel_ag2_crouch_spring_strength
 citadel_ag2_debug_draw_crouch_spring
+citadel_ag2_direction_commit_blend_time
+citadel_ag2_direction_commit_min_time
 citadel_ag2_fidget_max_interval
 citadel_ag2_fidget_min_interval
 citadel_ag2_loco_lean_trigger_speed
@@ -46847,6 +46838,7 @@ damage_sources
 damage_summary
 damage_table
 damage_taken_reduction_percent
+damage_time
 damage_to_players
 damagebits
 damagecap
@@ -47133,6 +47125,7 @@ dinfo
 dirName
 dirPrimary
 direction
+direction_commitment
 directional
 directionentityname
 directlight
@@ -49360,6 +49353,7 @@ hero_action_is_alt_cast
 hero_action_is_instant
 hero_action_source
 hero_action_source value when doing an action
+hero_base
 hero_bookworm
 hero_bullets_fired
 hero_bullets_hit
@@ -52830,6 +52824,7 @@ m_InfestModifier
 m_InfestWaitingModifier
 m_InfestedHeroParticle
 m_InfestedParticle
+m_InformTargetUltCopiedModifier
 m_InitPos
 m_InitPose
 m_InitialExplodeParticle
@@ -53474,7 +53469,6 @@ m_ParryBossVictimNoMeleeModifier
 m_ParryCooldownModifier
 m_ParryEndVisualModifier
 m_ParryFXOverride
-m_ParryModifier
 m_ParryVictimModifier
 m_Particle
 m_ParticleAOEHeal
@@ -54735,7 +54729,6 @@ m_bDurationReducible
 m_bDynamicAILOD
 m_bDynamicBounce
 m_bEarlyCratesSpawned
-m_bEffectDone
 m_bEmbeddedMapMesh
 m_bEnableAdvancedFeatures
 m_bEnableAngleBetweenNormalAndGravityRange
@@ -54887,7 +54880,6 @@ m_bGlowWhenInTrigger
 m_bGlowing
 m_bGoalPosSet
 m_bGoalTypeSet
-m_bGotMaxStacks
 m_bGrabbable
 m_bGradientFogNeedsTextures
 m_bGrantAmmoOnCast
@@ -55320,7 +55312,6 @@ m_bOnlyDestroyWhenGibbing
 m_bOnlyRenderToTexture
 m_bOnlySampleBaseRootMotion
 m_bOnlyShadow
-m_bOnlyTurnOnHit
 m_bOpaque
 m_bOpenAway
 m_bOriginalBlockLOS
@@ -55710,6 +55701,7 @@ m_bUseBaseWeaponCycleTimeForDelay
 m_bUseCameraOffsetsForCone
 m_bUseCasterFacing
 m_bUseCenterPusher
+m_bUseChaseCam
 m_bUseCompressedNormalTangent
 m_bUseConfig
 m_bUseConfig || ( m_AttachmentType != PATTACH_POINT && m_AttachmentType != PATTACH_POINT_FOLLOW )
@@ -56622,7 +56614,6 @@ m_flBoneWeight
 m_flBonusClipSize
 m_flBonusDamage
 m_flBonusDamageMult
-m_flBonusDamagePct
 m_flBonusFirerate
 m_flBonusHealth
 m_flBonusMoveSpeedMeterPerSecond
@@ -56716,11 +56707,10 @@ m_flCameraBackOffsetAiming
 m_flCameraDashLagPct
 m_flCameraDashTurnSpeed
 m_flCameraDistToStartFollow
-m_flCameraEndPct
 m_flCameraFadeHold
 m_flCameraFadeIn
 m_flCameraFadeOut
-m_flCameraFadeStart
+m_flCameraFinishReturnTime
 m_flCameraForwardForce
 m_flCameraHeightCrouching
 m_flCameraHeightOffsetZiplining
@@ -56734,7 +56724,6 @@ m_flCameraRotateMaxTime
 m_flCameraRotateSpeed
 m_flCameraSideOffset
 m_flCameraSideOffsetZiplining
-m_flCameraStartPct
 m_flCameraWobbleIntensity
 m_flCancelCooldown
 m_flCancelHookTime
@@ -56783,6 +56772,9 @@ m_flChargeRechargeStart
 m_flChargeStartTime
 m_flChargingTime
 m_flChaseAtTarget
+m_flChaseCamOffset
+m_flChaseCamOffsetTime
+m_flChaseCamSpeed
 m_flChaseDistTolerance
 m_flChaseDistanceEnd
 m_flChaseDistanceStart
@@ -56926,7 +56918,8 @@ m_flDamageResistancePerSecond
 m_flDamageScale
 m_flDamageTaken
 m_flDamageTickRate
-m_flDamageTimeFromEnd
+m_flDamageTime
+m_flDamageTimeOffset
 m_flDamageToDealAtEnd
 m_flDamageTraceProbeDamageRadius
 m_flDamageTraceProbeDropDownRate
@@ -56943,6 +56936,7 @@ m_flDampingForce
 m_flDampingRatio
 m_flDangerousTime
 m_flDashAngle
+m_flDashAnimDelay
 m_flDashCastStartTime
 m_flDashCastTriggerRadius
 m_flDashCollideForwardOffset
@@ -56963,6 +56957,7 @@ m_flDashSlideSpeed
 m_flDashSlideStartTime
 m_flDashSpeed
 m_flDashStartTime
+m_flDashTurnRateMax
 m_flDeathDestroyTime
 m_flDeathFadeTimeEnd
 m_flDeathFadeTimeStart
@@ -57028,6 +57023,7 @@ m_flDetonationTimeMax
 m_flDetonationTimeMin
 m_flDieTime
 m_flDirectDamagePerSecond
+m_flDirectionCommitment
 m_flDisconnectDistanceBuffer
 m_flDisconnectTime
 m_flDisengageDistance
@@ -57039,6 +57035,7 @@ m_flDissolveStartTime
 m_flDistAdvancedToCurWaypoint
 m_flDistMaxSqr
 m_flDistMinSqr
+m_flDistRemainingForCameraTurn
 m_flDistToNext
 m_flDistToTarget
 m_flDistTolerance
@@ -57108,7 +57105,6 @@ m_flEffectSize
 m_flEffectivecFireRatePercent
 m_flEffectiveness
 m_flEffectsLingerTime
-m_flEffectsTimeFromEnd
 m_flElapsedPct
 m_flElasticDamping
 m_flElasticity
@@ -57431,6 +57427,7 @@ m_flHeavyAttackRequiredHoldTime
 m_flHeavyMeleeDmg
 m_flHeavyMeleeMaxTurnRate
 m_flHeight
+m_flHeightAboveGround
 m_flHeightFogDepth
 m_flHeightOffset
 m_flHeightOffsetFar
@@ -57516,6 +57513,7 @@ m_flInitialYaw
 m_flInnerAngle
 m_flInnerDistance
 m_flInnerRadius
+m_flInputDirectionCommitment
 m_flInputForce
 m_flInputHoldTimeToCancel
 m_flInputOffset
@@ -57596,7 +57594,6 @@ m_flLastAppliedTime
 m_flLastAttackTime
 m_flLastAttackedTime
 m_flLastBeamUpdateTime
-m_flLastBleedStartTime
 m_flLastBuildupAppliedTime
 m_flLastBurn
 m_flLastBurnTime
@@ -57609,6 +57606,7 @@ m_flLastDamageTime
 m_flLastDamageWaveTime
 m_flLastDamagedTime
 m_flLastDeferredDamageApplicationTime
+m_flLastDirChange
 m_flLastDmgTime
 m_flLastDuckTime
 m_flLastEntitySteadyState
@@ -57629,6 +57627,7 @@ m_flLastNavFailTime
 m_flLastNpcOverlapTime
 m_flLastOnGroundTime
 m_flLastOriginChangeTime
+m_flLastOuterCircleProgress
 m_flLastPathRecalc
 m_flLastPhysicsInfluenceTime
 m_flLastPickupCheck
@@ -57983,6 +57982,7 @@ m_flMoveDoneTime
 m_flMoveDownStartTime
 m_flMoveInterpTime
 m_flMoveInterval
+m_flMoveSlashThreshold
 m_flMoveSolveNudgeYaw
 m_flMoveSoundMaxDuration
 m_flMoveSoundMaxPitch
@@ -58123,6 +58123,7 @@ m_flOnCancelVerticalSpeedBonus
 m_flOnGroundDuration
 m_flOnGroundStartTime
 m_flOnHitDetonateTimer
+m_flOnHitDistanceExtension
 m_flOnRestoreEffectDuration
 m_flOnTakeDamageEffectDuration
 m_flOpvarValue
@@ -58261,6 +58262,7 @@ m_flPortalStartTime
 m_flPoseParameter
 m_flPosition
 m_flPositionScoreWeight
+m_flPostAttackDuration
 m_flPostCastCooldown
 m_flPostCastDelayEndTime
 m_flPostCastHoldEndTime
@@ -58530,6 +58532,7 @@ m_flShortestEdge
 m_flShotCosmeticVarianceMagnitude
 m_flShotTimeScaleEndTime
 m_flShotTimeScaleLingerDuration
+m_flShouldKeepLastCopiedUltimateTrainedTime
 m_flShrineAttackHealthLossPerAttack
 m_flShrineAttackMinTimeBetweenAttacks
 m_flShrineChargeOffset
@@ -58616,6 +58619,8 @@ m_flSpeedChangeTime
 m_flSpeedDecayScale
 m_flSpeedDeccel
 m_flSpeedMultiplier
+m_flSpeedMultiplierFromBaseBonus
+m_flSpeedMultiplierToBaseBonus
 m_flSpeedScale
 m_flSpeedScaleBias
 m_flSpeedWhenSpinUpOrSpinDownStarted
@@ -58902,7 +58907,6 @@ m_flTossHorizontalMin
 m_flTossSpeed
 m_flTossUpSpeed
 m_flTossUpStrength
-m_flTotalBleedDamage
 m_flTotalBuildup
 m_flTotalDamageTakenWhileAsleep
 m_flTotalHeal
@@ -59691,7 +59695,6 @@ m_iFarmBaseline
 m_iFilterClass
 m_iFilterContext
 m_iFilterModel
-m_iFilterModifier
 m_iFilterName
 m_iFilterTeam
 m_iFlags
@@ -60893,6 +60896,7 @@ m_nNoiseRunningGuid
 m_nNotReadySequenceCount
 m_nNotifyState
 m_nNpcEvents
+m_nNumAbilityBulletsStillLive
 m_nNumBeamEnts
 m_nNumBonesInChain
 m_nNumChannels
@@ -61166,6 +61170,7 @@ m_nSubShardGeneration
 m_nSubclassID
 m_nSubjectClassifyAs
 m_nSubjectID
+m_nSuccessiveDirChanges
 m_nSuccessiveDucks
 m_nSuppressProcShotID
 m_nSurfaceProp
@@ -61337,6 +61342,7 @@ m_pAG1GraphController
 m_pAbility
 m_pActivator
 m_pActiveBehavior
+m_pActiveCopyUltimateAbility
 m_pActiveTurret
 m_pAllowPickupScriptFunction
 m_pAmbientSoundEffect
@@ -61365,7 +61371,6 @@ m_pChoreoServices
 m_pCollision
 m_pController
 m_pController == NULL
-m_pCopyUltimateAbility
 m_pCrossbowWeapon
 m_pCurrentCommand
 m_pCurrentKeyFrame
@@ -61397,6 +61402,7 @@ m_pItemServices
 m_pItemSet
 m_pJoint
 m_pKeyValuesCopy
+m_pLastTrainedCopiedUltimateAbility
 m_pMainGraphController
 m_pManager
 m_pModelConfigList
@@ -61580,6 +61586,7 @@ m_qAngles
 m_qAngularVelocity
 m_qBaseOrientation
 m_qCastAngle
+m_qCastAngles
 m_qChildBindRotation
 m_qCurrDashCamAngle
 m_qForward
@@ -62108,7 +62115,6 @@ m_strBeamStopSound
 m_strBeamTarget
 m_strBeepSound
 m_strBerserkerStackSound
-m_strBleedLoopSound
 m_strBlockedSound
 m_strBloodSpillStatName
 m_strBodygroupName
@@ -62576,6 +62582,7 @@ m_strSwipeHitSound
 m_strSwipeParticle
 m_strSwipeTracerParticleLeft
 m_strSwipeTracerParticleRight
+m_strSwipeTracerParticleRightMove
 m_strTarget
 m_strTargetCompleteSound
 m_strTargetEnemyParticleEffect
@@ -62960,6 +62967,7 @@ m_vDamagePos
 m_vDamageTakenEvents
 m_vDashCastDir
 m_vDashDirection
+m_vDashStartPos
 m_vDebugVelocityIntentModelSpace
 m_vDefBurstOffset
 m_vDeparturePosition
@@ -62994,6 +63002,7 @@ m_vFanEndLS
 m_vFanOriginLS
 m_vFanOriginOffset
 m_vFanOriginWS
+m_vFinishOffset
 m_vFloorPointCached
 m_vFlyingInitialOffsetToPath
 m_vForce
@@ -63062,6 +63071,7 @@ m_vLastValidWallJumpNormal
 m_vLastValidWallJumpNormal_PlayerPosition
 m_vLastVelocity
 m_vLastWallCollidedWithNormal
+m_vLastWishDir
 m_vLaunchPosition
 m_vLaunchTarget
 m_vLaunchVelocity
@@ -63484,6 +63494,7 @@ m_vecMins
 m_vecModifierBonusCounterValues
 m_vecModifierValues
 m_vecModifiers
+m_vecModifiersThatKeepThisAbilityTrained
 m_vecMoveAng
 m_vecMoveDirParentSpace
 m_vecMovers
@@ -64518,9 +64529,6 @@ modifier_fathom_scalding_spray_target
 modifier_fathom_scalding_spray_weapon_damage
 modifier_fear
 modifier_fear_watcher
-modifier_fencer_lunge_bleed
-modifier_fencer_lunge_victim
-modifier_fencer_riposte
 modifier_fencer_riposte_attack_debuff
 modifier_fencer_ultimate_caster
 modifier_fencer_ultimate_caster_arrival
@@ -65100,6 +65108,7 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
+n01/
 n0?X
 n1Z 
 n5cM
@@ -65837,6 +65846,7 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
+npS/
 npc_ability_name
 npc_ability_range_debug
 npc_barrack_boss
@@ -66209,6 +66219,7 @@ out_tangent_local
 outbound
 outcome
 outer_angle
+outer_circle
 outerconeangle
 outerradius
 outofdate_subscribed_caches
@@ -66252,8 +66263,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^D
-p0jp
+p08@H^4
+p0jP
 p2{l
 p4Z3
 p5Z3
@@ -66603,6 +66614,7 @@ pennant_item_id
 per-frame
 percent amount of troopers in the area to celebrate
 perf=%s %s %s %s
+perfect_window
 performant_frames
 permission_request
 permitresponses
@@ -68794,6 +68806,8 @@ speech
 speech_concept
 speed_from_mover
 speed_multiplier
+speed_multiplier_from_base_bonus
+speed_multiplier_to_base_bonus
 speed_range
 speed_scale
 speeds
@@ -70430,6 +70444,7 @@ vNewPoint.IsValid()\n
 vOffset
 vOffset2D
 vOrigin
+vPQ/
 vPoint
 vPoint1
 vPoint2

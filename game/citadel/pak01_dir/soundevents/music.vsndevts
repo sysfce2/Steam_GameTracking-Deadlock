@@ -877,7 +877,7 @@
 		[
 			"sounds/music/brawl/music_brawl_overtime_95bpm.vsnd",
 		]
-		vsnd_duration = 8.842041
+		vsnd_duration = 6.481156
 	}
 	Music.Brawl.Round.Won = 
 	{
@@ -1083,7 +1083,7 @@
 	{
 		base = "Base.Music.Queue"
 		preload_vsnds = true
-		volume = 3.000000
+		volume = 2.000000
 		endpoint = 
 		[
 			10.104000,
@@ -1096,13 +1096,13 @@
 		[
 			"sounds/music/brawl/music_brawl_round_1_start_95bpm.vsnd",
 		]
-		vsnd_duration = 15.157914
+		vsnd_duration = 14.016870
 	}
 	Music.Brawl.RoundStart2 = 
 	{
 		base = "Base.Music.Queue"
 		preload_vsnds = true
-		volume = 3.000000
+		volume = 2.000000
 		endpoint = 
 		[
 			10.104000,
@@ -1115,13 +1115,13 @@
 		[
 			"sounds/music/brawl/music_brawl_round_2_start_95bpm.vsnd",
 		]
-		vsnd_duration = 16.421043
+		vsnd_duration = 14.268957
 	}
 	Music.Brawl.RoundStart3 = 
 	{
 		base = "Base.Music.Queue"
 		preload_vsnds = true
-		volume = 3.000000
+		volume = 2.000000
 		endpoint = 
 		[
 			10.104000,
@@ -1134,13 +1134,13 @@
 		[
 			"sounds/music/brawl/music_brawl_round_3_start_95bpm.vsnd",
 		]
-		vsnd_duration = 15.157891
+		vsnd_duration = 14.030862
 	}
 	Music.Brawl.RoundStart4 = 
 	{
 		base = "Base.Music.Queue"
 		preload_vsnds = true
-		volume = 3.000000
+		volume = 2.000000
 		endpoint = 
 		[
 			10.104000,
@@ -1153,13 +1153,13 @@
 		[
 			"sounds/music/brawl/music_brawl_round_4_start_95bpm.vsnd",
 		]
-		vsnd_duration = 16.421043
+		vsnd_duration = 14.295986
 	}
 	Music.Brawl.RoundStart5 = 
 	{
 		base = "Base.Music.Queue"
 		preload_vsnds = true
-		volume = 3.000000
+		volume = 2.000000
 		endpoint = 
 		[
 			10.104000,
@@ -1172,7 +1172,7 @@
 		[
 			"sounds/music/brawl/music_brawl_round_5_start_95bpm.vsnd",
 		]
-		vsnd_duration = 16.421043
+		vsnd_duration = 14.336689
 	}
 	Music.Brawl.Match.Won = 
 	{
@@ -1181,7 +1181,7 @@
 		preload_vsnds = true
 		event_voice_layer = "ui"
 		event_use_music_convar = true
-		volume = 5.000000
+		volume = 4.000000
 		vsnd_files = 
 		[
 			"sounds/music/brawl/music_brawl_match_won_95bpm.vsnd",
@@ -1195,7 +1195,7 @@
 		preload_vsnds = true
 		event_voice_layer = "ui"
 		event_use_music_convar = true
-		volume = 5.000000
+		volume = 4.000000
 		vsnd_files = 
 		[
 			"sounds/music/brawl/music_brawl_match_lost_95bpm.vsnd",

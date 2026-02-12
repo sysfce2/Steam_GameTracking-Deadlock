@@ -10340,15 +10340,6 @@
 		]
 		vsnd_duration = 1.499456
 	}
-	krill_ping_careful_unicorn_01_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "krill"
-		vsnd_files = 
-		[
-			"sounds/vo/krill/ping/krill_ping_careful_unicorn_01.vsnd",
-		]
-	}
 	krill_ping_careful_vampirebat_01_ping_2d = 
 	{
 		base = "Base.VO.Ping"
@@ -15129,15 +15120,6 @@
 		]
 		vsnd_duration = 1.551315
 	}
-	krill_ping_see_unicorn_01_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "krill"
-		vsnd_files = 
-		[
-			"sounds/vo/krill/ping/krill_ping_see_unicorn_01.vsnd",
-		]
-	}
 	krill_ping_see_vampirebat_01_ping_2d = 
 	{
 		base = "Base.VO.Ping"
@@ -16237,15 +16219,6 @@
 			"sounds/vo/krill/ping/krill_ping_theyre_under_garage.vsnd",
 		]
 		vsnd_duration = 1.768866
-	}
-	krill_ping_unicorn_missing_01_ping_2d = 
-	{
-		base = "Base.VO.Ping"
-		context_name = "krill"
-		vsnd_files = 
-		[
-			"sounds/vo/krill/ping/krill_ping_unicorn_missing_01.vsnd",
-		]
 	}
 	krill_ping_use_ability1_ping_2d = 
 	{

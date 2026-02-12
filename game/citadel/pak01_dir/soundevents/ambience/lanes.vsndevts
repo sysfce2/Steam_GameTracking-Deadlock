@@ -202,7 +202,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		volume_falloff_max = 800.000000
 		volume_fade_over_time_curve = 
@@ -245,7 +244,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		pitch_rand_min = -0.010000
 		pitch_rand_max = 0.010000
@@ -495,7 +493,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 5000.000000
-		occlusion_interval = 0.000000
 		pitch_rand_min = -0.400000
 		pitch_rand_max = 0.100000
 		mixer_mixgroup = "Ambience-Details"
@@ -600,7 +597,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 0.000000
-		occlusion_interval = 0.000000
 		volume_fade_over_time_curve = 
 		[
 			
@@ -693,7 +689,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		pitch_rand_min = -0.010000
 		pitch_rand_max = 0.010000
@@ -738,7 +733,6 @@
 		pitch = 0.900000
 		volume_mult = 3.000000
 		cull_at_distance = 2750.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		volume_falloff_max = 2750.000000
 		volume_fade_over_time_curve = 
@@ -783,7 +777,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		volume_falloff_max = 1500.000000
 		position_force_from_player = false
@@ -843,7 +836,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 0.000000
-		occlusion_interval = 0.000000
 		pitch_rand_min = -0.100000
 		pitch_rand_max = 0.100000
 		mixer_mixgroup = "Ambience-Details"
@@ -1101,7 +1093,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		volume_fade_over_time_curve = 
 		[
@@ -2041,7 +2032,6 @@
 		pitch = 0.950000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		pitch_rand_min = -0.020000
 		pitch_rand_max = 0.020000
@@ -2199,7 +2189,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 3000.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		pitch_rand_min = -0.020000
 		pitch_rand_max = 0.020000
@@ -2316,7 +2305,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 5000.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		occlusion_scale = 1.000000
 		volume_fade_over_time_curve = 
@@ -2867,7 +2855,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 0.000000
-		occlusion_interval = 0.000000
 		pitch_rand_min = -0.100000
 		pitch_rand_max = 0.100000
 		mixer_mixgroup = "Ambience-Details"
@@ -3299,7 +3286,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 0.000000
-		occlusion_interval = 0.000000
 		pitch_rand_min = -0.400000
 		pitch_rand_max = 0.100000
 		mixer_mixgroup = "Ambience-Details"
@@ -3393,7 +3379,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 0.000000
-		occlusion_interval = 0.000000
 		pitch_rand_min = -0.400000
 		pitch_rand_max = 0.100000
 		mixer_mixgroup = "Ambience-Details"
@@ -3495,7 +3480,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 5000.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		occlusion_scale = 1.000000
 		position_offset = 
@@ -3545,7 +3529,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 5000.000000
-		occlusion_interval = 0.000000
 		pitch_rand_min = -0.130000
 		pitch_rand_max = 0.130000
 		mixer_mixgroup = "Ambience-Details"
@@ -3743,7 +3726,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		volume_falloff_max = 2700.000000
 		volume_falloff_curve_amount = 0.500000
@@ -3788,7 +3770,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		volume_falloff_max = 1500.000000
 		enable_retrigger = true
@@ -3849,7 +3830,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		volume_falloff_max = 1500.000000
 		enable_retrigger = true
@@ -3916,7 +3896,6 @@
 		spread_min_value = 0.000000
 		pitch = 1.000000
 		cull_at_distance = 5000.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		occlusion_scale = 1.000000
 		volume_falloff_max = 2400.000000
@@ -4042,7 +4021,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		volume_falloff_max = 1500.000000
 		enable_retrigger = true
@@ -4114,7 +4092,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		volume_falloff_max = 6000.000000
 		volume_falloff_curve_amount = 0.500000
@@ -4179,13 +4156,11 @@
 		spread_min_value = 0.000000
 		pitch = 1.000000
 		cull_at_distance = 5000.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Bed"
 		occlusion_scale = 1.000000
 		volume_falloff_max = 900.000000
 		volume_falloff_min = 0.000000
 		volume_mult = 3.000000
-		send_occlusion_to_blend_container = true
 		volume = -6.000000
 		enable_shop_music_crossfade = true
 		occlusion_min = 0.000000
@@ -4298,7 +4273,6 @@
 		pitch = 1.000000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		volume_falloff_max = 1500.000000
 		pitch_rand_min = -0.010000
@@ -4349,7 +4323,6 @@
 		pitch = 1.050000
 		volume_mult = 3.000000
 		cull_at_distance = 1500.000000
-		occlusion_interval = 0.000000
 		mixer_mixgroup = "Ambience-Details"
 		volume_falloff_max = 2700.000000
 		volume_falloff_curve_amount = 0.500000

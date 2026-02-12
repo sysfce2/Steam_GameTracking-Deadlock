@@ -1832,7 +1832,7 @@
 		"ability_power_jump_quip"		"Jump high up in the air and unleash multishots"
 		"ability_power_jump_desc"		"Launches you high in the air, allowing you to glide slowly. While airborne, you gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">multishot on your weapon</span>. <br>{g:citadel_binding:'AltCast'}for reduced jump height.  <br>Press{g:citadel_binding:'Mantle'}to cancel the glide."
 		"ability_power_jump_t2_desc"	"While airborne, <span class=\"highlight\">+{s:WeaponDamageBonus}</span> Weapon Damage and weapon damage applies <span class=\"highlight\">{s:SlowPercent}%</span> movement slow for {s:SlowDuration}s"
-		"ability_power_jump_t3_desc"	"While airborne, <span class=\"highlight\">+{s:TechLifestealPercent}%</span> Bullet Lifesteal, <span class=\"highlight\">+{s:BulletLifestealPercent}%</span> Spirit Lifesteal and <span class=\"highlight\">+{s:EvasionPercent}%</span> Bullet Evasion"
+		"ability_power_jump_t3_desc"	"While airborne, <span class=\"highlight\">+{s:BulletLifestealPercent}%</span> Bullet Lifesteal, <span class=\"highlight\">+{s:TechLifestealPercent}%</span> Spirit Lifesteal and <span class=\"highlight\">+{s:EvasionPercent}%</span> Bullet Evasion"
 		//"modifier_citadel_archer_air_raid"			"Power Jump"
 		"BulletSplitShot_label"			"Weapon Multishot"
 		"BulletSplitShot_postvalue_label"			"Weapon Multishot"
@@ -3687,6 +3687,7 @@
 		"ability_magician_copyult_desc" "<span class=\"highlight\">Copy the Ultimate</span> of an enemy hero for a limited time. Reactivating the ability will use the <span class=\"highlight\">Copied Ultimate</span> instead.<br><br><span class=\"diminish\">Copies will inherit this ability's upgrade points.<br>Audience Participation will also copy the cooldown."
 		"ability_magician_copyult/copyult_modifier" "Tada!"
 		"ability_magician_copyult/ultcopied" "Ultimate Copied...!"
+		"ability_magician_inform_target_ultcopied" "Ultimate Copied...!"
 		"CopiedUltWindow_label" "Copy Duration"
 		"CopiedUltWindow_postvalue_label" "Copy Duration"
 		"CopiedUltWindow_postfix" "s"
@@ -4767,8 +4768,6 @@
 		//-----------------------------------------------------------------------------
 		// Unicorn
 		//-----------------------------------------------------------------------------
-		"hero_unicorn_lore"			"Even in a world of magic, some things are still rare and unusual. So what is a unicorn to do?  Announce her presence to the world and potentially have poachers looking to saw off her horn? Or hide in plain sight at a Coney Island Side Show where most folk would assume her appearance was just part of an act?\n\nOver the years \"The Dazzling Celeste\" has grown into one of the more popular attractions on Coney, and while the applause from a cheering audience is appreciated; what keeps her waking up in the morning is the found family she's made at work.\n\nKeruba the Mermaid.\n\nBlockhead Lenny.\n\nChickenwing.\n\nTed.\n\nThese were her people.  So when she discovered that one of her own sold part of their soul in order to cover a gambling debt, Celeste knew it was time to step out of the shadows and do whatever it takes to get it back.  Is revealing her power to The Patrons a risk?  Yes.  But that's tomorrow's problem... her family needs help today."
-
 		"ability_melee_unicorn"		"Melee" 
 		
 		"ability_unicorn_radiantblast"				"Light Eater"
@@ -4819,6 +4818,114 @@
 		"PreExplosionDuration_postvalue_label"		"Beam Form Duration"
 		"PreExplosionDuration_postfix"				"s"
 		"BuffMaxStacks_postvalue_label"				"Max Stacks"
+
+
+
+		//-----------------------------------------------------------------------------
+		// Fencer
+		//-----------------------------------------------------------------------------
+		"ability_melee_fencer"		"Melee" 
+		
+		"ability_fencer_throwblade" "Disengaging Sigil"
+		"ability_fencer_throwblade_desc" "Draw a sigil sphere in front of you and then <span class=\"highlight\">leap backwards</span> as it explodes, <span class=\"highlight\">damaging and slowing</span> enemies caught in it."
+		"ability_fencer_throwblade_t2_desc" "+{s:BonusFireRate}% Fire Rate and +{s:BonusBulletSpeedPercent}% Bullet Speed for {s:BuffDuration}s"
+		"ability_fencer_throwblade_t3_desc" "On Player Hit: +{s:StaminaToRestore} stamina restored and resets Air Jump/Dash limit"
+		"ability_fencer_throwblade_on_player_hit" "On Player Hit"
+		"ResetsAirLimit_label"			"Reset Air Limit"
+		"ResetsAirLimit_postvalue_label"	"Reset Air Limit"
+		"SigilBuff_label"				"On Use:"
+		"SigilRadius_label"				"Radius"
+		"SigilRadius_postvalue_label"	"Radius"
+		"SigilRadius_postfix"			"m"
+		
+		"ability_fencer_lunge"		"Flawless Advance"
+		"ability_fencer_lunge_desc"	"Perform a series of lunges in any direction, delivering piercing stabs ahead of you. Hold your ability key to time your attacks, dealing more damage the longer its held. Releasing your attack during the <span class=\"highlight\">perfect window</span> deals <span class=\"highlight\">maximum damage</span>.<br><br><span class=\"diminish\">Press {g:citadel_binding:'Ability3'} to re-cast.</span>"
+		"ability_fencer_lunge_t1_desc" "Perfect Hit on Hero: Heal {s:HealFixedHealth}"
+		"ability_fencer_lunge_t2_desc" "{s:AbilityCooldown}s Cooldown <br>Increased lunge speed"
+		"ability_fencer_lunge_t3_desc" "+{s:PerfectDamage} Perfect Damage and increased spirit scaling.<br>Increased lunge attacking dash distance."
+		"ability_fencer_lunge_on_hold_threshold"		"On Perfect Hold:"
+		"ability_fencer_lunge_on_hold_threshold_label"	"On Perfect Hold:"
+		"ability_fencer_lunge_recast_hint"				"Recast"
+
+		"MaxStabs_label"			"Max Lunges"
+		"MaxStabs_postvalue_label"	"Max Lunges"
+
+		"PerfectHoldTimeStart_label"			"Perfect Window Start"
+		"PerfectHoldTimeStart_postvalue_label"	"Perfect Window Start"
+		"PerfectHoldTimeStart_postfix"			"s"
+		"PerfectWindowDuration_label"			"Perfect Window Duration"
+		"PerfectWindowDuration_postvalue_label"	"Perfect Window Duration"
+		"PerfectWindowDuration_postfix"			"s"
+
+		"FencerLungeStabDamage_label"			"Base Hold Damage"
+		"FencerLungeStabDamage_postvalue_label"	"Base Hold Damage"
+		"FencerLungeBaseDamage_label"			"Base Hold Damage"
+		"FencerLungeBaseDamage_postvalue_label"	"Base Hold Damage"
+		"MaxDamageBeforePerfect_label"				"Max Hold Damage"
+		"MaxDamageBeforePerfect_postvalue_label"	"Max Hold Damage"
+		"PerfectDamage_label"			"Perfect Damage"
+		"PerfectDamage_postvalue_label"	"Perfect Damage"
+		"StrikeRange_label"				"Strike Range"
+		"StrikeRange_postvalue_label"	"Strike Range"
+		"StrikeRange_postfix"			"m"
+		"LungeDistance_label"			"Lunge Distance"
+		"LungeDistance_postvalue_label"	"Lunge Distance"
+		"LungeDistance_postfix"			"m"
+		"AttackDashRange_label"				"Attacking Lunge Distance"
+		"AttackDashRange_postvalue_label"	"Attacking Lunge Distance"
+		"AttackDashRange_postfix"			"m"
+		"ability_fencer_lunge_on_proc"		"On Max Stacks Proc"
+
+		"ability_fencer_riposte"	"Riposte"
+		"ability_fencer_riposte_desc" "Prepare to <span class=\"highlight\">deflect</span> the next incoming attack. On a successful deflection, briefly become <span class=\"highlight\">invulnerable</span>, before performing a dash forward that <span class=\"highlight\">stuns an enemy</span> and reduces their <span class=\"highlight\">Bullet Resist</span>."
+		"RiposteChannelTime_postvalue_label"	"Deflect Duration"
+		"RiposteChannelTime_postfix"			"s"
+		"LungeCooldownReduction_prefix"			"-"
+		"LungeCooldownReduction_label"			"Lunging Stab Cooldown"
+		"LungeCooldownReduction_postvalue_label"	"Lunging Stab Cooldown"
+		"LungeCooldownReduction_postfix"			"s"
+		"ability_fencer_riposte_on_parry"		"On Pommel Hit:"
+		"modifier_fencer_riposte"			"Riposte"
+		//"DashRange_label"				"Time Window"
+		//"DashRange_postvalue_label"		"Time Window"
+		//"DashRange_postfix"				"s"
+		"ParryWindow_label"				"Invulnerability Duration"
+		"ParryWindow_postvalue_label"	"Invulnerability Duration"
+		"ParryWindow_postfix"			"s"
+		//"CounterTimeWindow_label"			"Time Window"
+		//"CounterTimeWindow_postvalue_label"	"Time Window"
+		//"CounterTimeWindow_postfix"			"s"
+
+		"ability_fencer_riposte_attack"			"Riposte"
+		"ability_fencer_riposte_attack_desc"	"Perform a quick dash forward and stun an enemy with your weapon's pommel."
+		"BulletResistReductionDuration_label"			"Bullet Resist Reduction Duration"
+		"BulletResistReductionDuration_postvalue_label"	"Debuff Duration"
+		"BulletResistReductionDuration_postfix"			"s"
+
+		"ability_fencer_ultimate"		"Itani Lo Sahn"
+		"ability_fencer_ultimate_desc"	"Charge up and perform a long range slash. Struck enemies are <span class=\"highlight\">cursed</span> and stuck in slow motion. When this effect expires, they suffer <span class=\"highlight\">devastating damage</span>, dealing bonus damage against half-health enemies.<br><br><span class=\"diminish\">While in slow motion, Apollo is invulnerable and enemies take reduced damage.<br><br>Hold {g:citadel_binding:'Ability4'} or {g:citadel_binding:'Attack'} to delay the cast.</span>"
+		//"ability_fencer_ultimate_t3_desc"	"+{s:ImpactDamage} Impact Damage and +{s:DelayedDamage} Delayed Damage"
+		//"ability_fencer_ultimate_t3_desc"	"{s:}% Max Health Damage"
+		"DelayedDamage_label"			"Delayed Damage"
+		"DelayedDamage_postvalue_label"	"Delayed Damage"
+		"FencerUltDebuffDuration_label"	"Debuff Duration"
+		"FencerUltDebuffDuration_postvalue_label"	"Debuff Duration"
+		"FencerUltDebuffDuration_postfix"	"s"
+		"DashRadius_label"				"Radius"
+		"DashRadius_postvalue_label"	"Radius"
+		"DashRadius_postfix"			"m"
+		"ApolloUltBonusTotalDamage_prefix"			"+"
+		"ApolloUltBonusTotalDamage_label"			"Bonus Damage"
+		"ApolloUltBonusTotalDamage_postvalue_label"	"Bonus Damage"
+		"ApolloUltBonusTotalDamage_postfix"			"%"
+		"IncomingDamageReductionPercent_label"				"Time Slow Damage Reduction"
+		"IncomingDamageReductionPercent_postvalue_label"	"Time Slow Damage Reduction"
+		"IncomingDamageReductionPercent_postfix"			"%"
+		"modifier_fencer_ultimate_target"	"Grand Finale"
+		"MinHealthFractionToTrack_postvalue_label" "Low Health Threshold"
+		"MinHealthFractionToTrack_postfix" "%"
+
+
 
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
@@ -5111,5 +5218,7 @@
 		"hero_necro_lore"			"The daughter of high-power defense attorneys, Darcy Graves grew up in a home where every conversation was a debate, argument, or negotiation. It was exhausting. But while her parents were often too busy meeting with clients or working on cases to bond with her, the dead were always there to listen.\n\nGraves enjoyed her time in the cemetery.  It was a quiet place to calm her thoughts and talk through her problems... but one day her 1-sided conversations started to change.\n\nIt began with a faint whisper.  A woman's voice that seemed to respond to Graves' complaints.  Intrigued, the teenager listened... and followed the voice's instructions until it guided her to a lead lined box buried in Van Cortlandt Park.  But while most high school students would freak out if they were to unearth a severed lich hand, Graves was certainly not most teens.  The hand now free of its prison, the lich's voice grew stronger... it had spent years looking to find a student she could pass her knowledge to, and Graves was eager to learn.\n\nNow a fledgling necromancer, Darcy balances not only her homework at Blackmore Academy... but the demands of graveyard denizens, each of whom have their own unfinished business that they seek her aid in resolving."
 		"hero_werewolf_lore"					"Lilah Silver is a mess.  She drinks too much, she smokes too much, and the less is said about her personal life the better.   But despite Silver's flaws she has managed to carve out a career as a successful bounty hunter, and while she would like to think that her successes are solely because she has incredible intuition, the fact that she’s a werewolf doesn’t hurt."
 		"hero_priest_lore"				"The Venators of St. Benedict are a Vatican-sanctioned order whose members are deployed to regions with a high concentration of supernatural predators.   Few in number, their modus operandi is to observe, identify, and exterminate. They are methodical, they are precise, and once they identify a threat to the flock they are relentless.\n\nBut even amongst those who are called The Sword Of St. Benedict, one stands apart from the others.  A man whose hardened heart has allowed him to pay terrible prices in the name of the greater good... and he has once again been dispatched to New York."
+		"hero_unicorn_lore"			"Even in a world of magic, some things are still rare and unusual. So what is a unicorn to do?  Announce her presence to the world and potentially have poachers looking to saw off her horn? Or hide in plain sight at a Coney Island Side Show where most folk would assume her appearance was just part of an act?\n\nOver the years \"The Dazzling Celeste\" has grown into one of the more popular attractions on Coney, and while the applause from a cheering audience is appreciated; what keeps her waking up in the morning is the found family she's made at work.\n\nKeruba the Mermaid.\n\nBlockhead Lenny.\n\nChickenwing.\n\nTed.\n\nThese were her people.  So when she discovered that one of her own sold part of their soul in order to cover a gambling debt, Celeste knew it was time to step out of the shadows and do whatever it takes to get it back.  Is revealing her power to The Patrons a risk?  Yes.  But that's tomorrow's problem... her family needs help today."
+		"hero_fencer_lore"			"A land of beauty, tradition and conflict; North Ixia is no stranger to brutal political violence. So when Apollo was told that it was for his own safety he was being sent to New York for school, he knew the situation was serious.\n\nAdjusting to life at Blackmore Academy didn’t come easy to Apollo. His school was supposed to be filled with The Cursed Apple’s best and brightest but all he saw, with few exceptions, was a sea of aggressive mediocrity.  Electing not to waste his time with frivolous things like parties and dances, he instead put his energy on the piste, where he rigorously trains as captain of the Blackmore fencing team.\n\nHowever, at the end of the day Apollo does not fret too much on the tedium of life in New York.  He knows that eventually the time will come when his father will call on him to come home and he will get to show the he is worthy of wielding his family's ancestral blade."
 	}
 }

@@ -57,21 +57,8 @@
 		</Panel>
 		<Panel id="HeroInfo">
 			<CitadelHeroLogo id="HeroLogo" />
-			<Panel id="HeroTags">
-				<Panel class="heroTag Tag1">
-					<Panel class="tagBacker" />
-					<Label text="{s:hero_tag_1}" />
-				</Panel>
-				<Panel class="heroTag Tag2">
-					<Panel class="tagBacker" />
-					<Label text="{s:hero_tag_2}" />
-				</Panel>
-				<Panel class="heroTag Tag3">
-					<Panel class="tagBacker" />
-					<Label text="{s:hero_tag_3}" />
-				</Panel>
-			</Panel>
-			<Panel id="HeroAbilities" hittest="false" />
+			<CitadelHeroTags id="HeroTags" />
+			<CitadelHeroAbilities id="HeroAbilities" />
 			<Panel id="GunTag">
 				<Label text="{s:gun_tag}" />
 			</Panel>
