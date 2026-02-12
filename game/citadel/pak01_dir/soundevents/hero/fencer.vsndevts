@@ -348,7 +348,7 @@
 	{
 		base = "Base.Ability.Ult"
 		volume = 4.000000
-		volume_offset_opponent = 3.000000
+		volume_offset_opponent = 2.000000
 		vsnd_files = "sounds/abilities/fencer/super_slash/fencer_super_slash_cast_delay.vsnd"
 		vsnd_duration = 3.646417
 	}
@@ -356,7 +356,7 @@
 	{
 		base = "Base.Ability.Ult"
 		volume = 5.000000
-		volume_offset_opponent = 5.000000
+		volume_offset_opponent = 3.000000
 		vsnd_files = "sounds/abilities/fencer/super_slash/fencer_super_slash_cast.vsnd"
 		vsnd_duration = 4.372744
 	}
@@ -366,6 +366,7 @@
 		volume = 5.000000
 		volume_fade_in = 0.200000
 		volume_fade_out = 1.000000
+		volume_enemy_targeting_boost = 4.000000
 		vsnd_files = "sounds/abilities/fencer/super_slash/fencer_super_slash_channel.vsnd"
 		vsnd_duration = 3.611089
 	}
@@ -376,7 +377,7 @@
 		volume_fade_in = 0.100000
 		volume_fade_out = 0.300000
 		pitch = 1.250000
-		volume_enemy_targeting_boost = 6.000000
+		volume_enemy_targeting_boost = 4.000000
 		vsnd_files = "sounds/abilities/fencer/super_slash/fencer_super_slash_caster_arrival_mod_lp.vsnd"
 		vsnd_duration = 4.162631
 	}
@@ -384,8 +385,8 @@
 	{
 		base = "Base.Ability.Hit"
 		volume = 4.000000
-		volume_offset_attacker_db = 3.000000
-		volume_offset_victim_db = 6.000000
+		volume_offset_attacker_db = 4.000000
+		volume_offset_victim_db = 4.000000
 		pitch = 0.900000
 		limiter_max = 6.000000
 		pitch_increment_count_max = 8.000000
@@ -440,7 +441,7 @@
 	Fencer.Super.Slash.Target.Mod.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 3.000000
+		volume = 1.000000
 		vsnd_files = "sounds/abilities/fencer/super_slash/fencer_super_slash_victim_mod_timer.vsnd"
 		vsnd_duration = 2.530612
 	}
@@ -449,7 +450,7 @@
 		base = "Base.Ability.StatusEffect"
 		volume = 4.000000
 		volume_offset_opponent = 3.000000
-		volume_offset_player = 5.000000
+		volume_offset_player = 3.000000
 		pitch_rand_min = -0.040000
 		pitch_rand_max = 0.040000
 		limiter_max = 8.000000
@@ -554,7 +555,7 @@
 	Fencer.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -12.000000
+		volume = -11.000000
 		vsnd_files_track2 = 
 		[
 			"sounds/player/movement/holliday/astro_foley_light_01.vsnd",

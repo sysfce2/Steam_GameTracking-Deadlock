@@ -241,7 +241,7 @@
 	Werewolf.Slamfire.Mod.Expire = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
+		volume = -1.000000
 		vsnd_files = "sounds/abilities/werewolf/human_a1_slamfire/werewolf_slamfire_mod_expire.vsnd"
 		vsnd_duration = 2.496349
 	}
@@ -321,7 +321,8 @@
 	Werewolf.Netshot.Debuff.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -13.000000
+		volume = -6.000000
+		volume_offset_player = 4.000000
 		volume_fade_in = 0.100000
 		volume_fade_out = 0.200000
 		delay_rand_min = -2.000000
@@ -336,7 +337,7 @@
 	Werewolf.Netshot.Debuff.Expire = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -5.000000
+		volume = 0.000000
 		pitch_rand_min = -0.100000
 		pitch_rand_max = 0.100000
 		vsnd_files = "sounds/abilities/werewolf/human_a3_bola/werewolf_netshot_debuff_expire.vsnd"

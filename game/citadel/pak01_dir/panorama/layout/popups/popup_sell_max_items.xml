@@ -15,26 +15,33 @@
 		</snippet>
 	</snippets>
 	<PopupSellMaxItems class="PopupPanel Hidden" popupbackground="dim" oncancel="UIPopupButtonClicked( CitadelShopPurchaseDialogCanceled() )">
-		<Panel id="ModToPurchaseContainer">
-			<Panel class="LeftRightFlow topModContainer">
-				<CitadelModIcon id="ModIconToSell" class="modIconButton" />
-				<Panel id="ModNameAndCostContainer" class="TopBottomFlow">
-					<Label id="modNameToPurchase" class="centerAlign" text="{s:mod_name}" />
-					<Panel class="LeftRightFlow">
-						<Panel class="goldIcon" />
-						<Label id="ModCost" class="centerAlign" text="{i:mod_cost}" />
+		<Panel class="PopupBackground" />
+		<Panel id="PopupContent">
+			<Panel id="ModsSellContainer">
+				<Panel id="HeaderContainer">
+					<Panel id="ItemsFull">
+						<Label id="HeaderLabel" class="centerAlign" text="{s:title}" />
+						<Label class="headerDesc" text="#Citadel_Shop_SellMaxItems_Desc" html="true" />
+					</Panel>
+					<Panel id="ModToPurchaseContainer">
+						<Panel class="LeftRightFlow topModContainer">
+							<CitadelModIcon id="ModIconToSell" class="modIconButton" />
+							<Panel id="ModNameAndCostContainer" class="TopBottomFlow">
+								<Label id="modNameToPurchase" class="centerAlign" text="{s:mod_name}" />
+								<Panel class="LeftRightFlow">
+									<Panel class="goldIcon" />
+									<Label id="ModCost" class="centerAlign" text="{i:mod_cost}" />
+								</Panel>
+							</Panel>
+						</Panel>
 					</Panel>
 				</Panel>
-			</Panel>
-		</Panel>
-		<Panel id="ModsSellContainer">
-			<Panel id="HeaderContainer">
-				<Label id="HeaderLabel" class="centerAlign" text="{s:title}" />
-				<Label class="headerDesc" text="#Citadel_Shop_SellMaxItems_Desc" html="true" />
-			</Panel>
-			<Panel id="ModsContainer" class="centerAlign" />
-			<Panel id="ButtonsContainer">
-				<TextButton id="CancelButton" class="sellButton" text="#Cancel" onactivate="UIPopupButtonClicked( CitadelShopPurchaseDialogCanceled())" />
+				<Panel id="InventorySlots">
+					<Panel id="ModsContainer" class="centerAlign" />
+				</Panel>
+				<Panel id="ButtonsContainer">
+					<CitadelButton id="CancelButton" class="Large" text="#Cancel" onactivate="UIPopupButtonClicked( CitadelShopPurchaseDialogCanceled())" />
+				</Panel>
 			</Panel>
 		</Panel>
 	</PopupSellMaxItems>

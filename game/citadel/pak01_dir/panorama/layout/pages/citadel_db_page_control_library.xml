@@ -1260,6 +1260,117 @@
 						</Panel>
 					</Panel>
 					<Panel class="Section">
+						<Label text="CitadelButton" class="Title" />
+						<Label text="Large" class="SubTitle" />
+						<Panel class="Row">
+							<CitadelButton class="Large" text="Default" />
+							<CitadelButton class="Large" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Large" text="Icon" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Large">
+								<CitadelHeroImage heroid="6" heroimagestyle="icon" />
+							</CitadelButton>
+							<CitadelButton class="Large Dark" text="Dark" />
+							<CitadelButton class="Large CTA" text="Dark" />
+							<CitadelButton class="Large Caution" text="Dark" />
+							<CitadelButton class="Large Warning" text="Warning" />
+							<CitadelButton class="Large Disabled" text="Disabled" />
+						</Panel>
+						<Panel class="Row">
+							<CitadelButton class="Large Fill" text="Default" />
+							<CitadelButton class="Large Fill" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Large Fill" text="Icon" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Large Fill">
+								<CitadelHeroImage heroid="6" heroimagestyle="icon" />
+							</CitadelButton>
+							<CitadelButton class="Large Fill Dark" text="Dark" />
+							<CitadelButton class="Large Fill CTA" text="Dark" />
+							<CitadelButton class="Large Fill Caution" text="Dark" />
+							<CitadelButton class="Large Fill Warning" text="Warning" />
+							<CitadelButton class="Large Fill Disabled" text="Disabled" />
+						</Panel>
+						<Label text="Medium" class="SubTitle" />
+						<Panel class="Row">
+							<CitadelButton class="Medium" text="Default" />
+							<CitadelButton class="Medium" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Medium" text="Icon" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Medium">
+								<CitadelHeroImage heroid="6" heroimagestyle="icon" />
+							</CitadelButton>
+							<CitadelButton class="Medium Dark" text="Dark" />
+							<CitadelButton class="Medium CTA" text="Dark" />
+							<CitadelButton class="Medium Caution" text="Dark" />
+							<CitadelButton class="Medium Warning" text="Warning" />
+							<CitadelButton class="Medium Disabled" text="Disabled" />
+						</Panel>
+						<Panel class="Row">
+							<CitadelButton class="Medium Fill" text="Default" />
+							<CitadelButton class="Medium Fill" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Medium Fill" text="Icon" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Medium Fill">
+								<CitadelHeroImage heroid="6" heroimagestyle="icon" />
+							</CitadelButton>
+							<CitadelButton class="Medium Fill Dark" text="Dark" />
+							<CitadelButton class="Medium Fill CTA" text="Dark" />
+							<CitadelButton class="Medium Fill Caution" text="Dark" />
+							<CitadelButton class="Medium Fill Warning" text="Warning" />
+							<CitadelButton class="Medium Fill Disabled" text="Disabled" />
+						</Panel>
+						<Label text="Small" class="SubTitle" />
+						<Panel class="Row">
+							<CitadelButton class="Small" text="Default" />
+							<CitadelButton class="Small" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Small" text="Icon" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Small">
+								<CitadelHeroImage heroid="6" heroimagestyle="icon" />
+							</CitadelButton>
+							<CitadelButton class="Small Dark" text="Dark" />
+							<CitadelButton class="Small CTA" text="Dark" />
+							<CitadelButton class="Small Caution" text="Dark" />
+							<CitadelButton class="Small Warning" text="Warning" />
+							<CitadelButton class="Small Disabled" text="Disabled" />
+						</Panel>
+						<Panel class="Row">
+							<CitadelButton class="Small Fill" text="Default" />
+							<CitadelButton class="Small Fill" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Small Fill" text="Icon" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="Small Fill">
+								<CitadelHeroImage heroid="6" heroimagestyle="icon" />
+							</CitadelButton>
+							<CitadelButton class="Small Fill Dark" text="Dark" />
+							<CitadelButton class="Small Fill CTA" text="Dark" />
+							<CitadelButton class="Small Fill Caution" text="Dark" />
+							<CitadelButton class="Small Fill Warning" text="Warning" />
+							<CitadelButton class="Small Fill Disabled" text="Disabled" />
+						</Panel>
+						<Label text="XSmall" class="SubTitle" />
+						<Panel class="Row">
+							<CitadelButton class="XSmall" text="Default" />
+							<CitadelButton class="XSmall" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="XSmall" text="Icon" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="XSmall">
+								<CitadelHeroImage heroid="6" heroimagestyle="icon" />
+							</CitadelButton>
+							<CitadelButton class="XSmall Dark" text="Dark" />
+							<CitadelButton class="XSmall CTA" text="Dark" />
+							<CitadelButton class="XSmall Caution" text="Dark" />
+							<CitadelButton class="XSmall Warning" text="Warning" />
+							<CitadelButton class="XSmall Disabled" text="Disabled" />
+						</Panel>
+						<Panel class="Row">
+							<CitadelButton class="XSmall Fill" text="Default" />
+							<CitadelButton class="XSmall Fill" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="XSmall Fill" text="Icon" imagesrc="s2r://panorama/images/icons/settings_shortcut.vsvg" />
+							<CitadelButton class="XSmall Fill">
+								<CitadelHeroImage heroid="6" heroimagestyle="icon" />
+							</CitadelButton>
+							<CitadelButton class="XSmall Fill Dark" text="Dark" />
+							<CitadelButton class="XSmall Fill CTA" text="Dark" />
+							<CitadelButton class="XSmall Fill Caution" text="Dark" />
+							<CitadelButton class="XSmall Fill Warning" text="Warning" />
+							<CitadelButton class="XSmall Fill Disabled" text="Disabled" />
+						</Panel>
+					</Panel>
+					<Panel class="Section">
 						<Label text="Legacy" class="Title" />
 						<Label text="Primary" />
 						<TextButton class="PrimaryButton" text="PrimaryButton" onactivate="" />

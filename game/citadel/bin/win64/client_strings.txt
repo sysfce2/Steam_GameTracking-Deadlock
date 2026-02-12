@@ -89,8 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j 
- (08@HPZ 
+ (08@HPXb0\
+ (08@HR0\
+ (0X`hpz0\
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2863,7 +2864,6 @@ $hRh
 (default)
 (degrees) Increase this to change how much you have to move your camera angle to make the Chat Wheel instantly visible while holding Ping. 
 (fS{ggRcjh
-(fpm
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
 (i/Al
@@ -12667,6 +12667,7 @@ $hRh
 .?AVCCitadel_UI_BuildDetails@@
 .?AVCCitadel_UI_BuildSelector@@
 .?AVCCitadel_UI_BuildTag@@
+.?AVCCitadel_UI_Button@@
 .?AVCCitadel_UI_Chapter@@
 .?AVCCitadel_UI_ChapterLink@@
 .?AVCCitadel_UI_Chat@@
@@ -16727,8 +16728,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR 
-08B 
+08@J0\
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -17005,7 +17005,6 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp8
 2^pV
 2a"l
 2bT~
@@ -17074,7 +17073,7 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4B(4
+4B(T
 4Ch;
 4F0I
 4Mv8
@@ -17474,7 +17473,7 @@ $hRh
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >Sem
 >WK6
->X7h
+>XWh
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
 >\n\fItemPosition
 >\n\fdev_settings
@@ -17503,7 +17502,7 @@ $hRh
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelMatchmakingStatus
+?CitadelPlayerLevelDisplay
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?EncodeBC7Blocks
@@ -17548,10 +17547,11 @@ $hRh
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
+@60C
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
-@HPX`hvPD
+@HPX`hv0h
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -18715,7 +18715,7 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
-B>m_flUIScale
+B>MiniMapUnitSelectEvent
 BACK
 BAD ENUMERATED
 BAD INTEGER
@@ -19275,6 +19275,7 @@ Bots choose a random angle in this range to offset their perfect aim
 Bots get free gold over time
 Bots pick on a time interval
 Bots try to balance lanes
+Bottom
 BottomArc
 BottomArrow
 BottomArrowVisible
@@ -19515,6 +19516,7 @@ Button.FocusBorderColor
 Button.TextColor
 ButtonBitMask_t
 ButtonContainer
+ButtonImage
 ButtonLabel
 ButtonText
 ButtonToSell
@@ -26525,8 +26527,10 @@ CitadelBuildBrowserRemoveSearchTag
 CitadelBuildBrowserSelectBuild
 CitadelBuildBrowserSetTabFilter
 CitadelBuildDetails
+CitadelBuildTag
 CitadelBuildTagSelected
 CitadelBulletEventsGameSystem
+CitadelButton
 CitadelCallCheaterVote
 CitadelCameraDistanceOperationDef_t
 CitadelCameraFOVOperationDef_t
@@ -26912,6 +26916,7 @@ CitadelMatchMetaDataAccessUpdated
 CitadelMatchMetadataManager
 CitadelMatchMetadataUpdated
 CitadelMatchReportsUpdated
+CitadelMatchmakingStatus
 CitadelMatchmakingStatusScheduledUpdate
 CitadelMidiNotePitch_t
 CitadelMinimapConvarChanged
@@ -27023,7 +27028,6 @@ CitadelPlayPage
 CitadelPlayerContextMenuSetAudioVolume
 CitadelPlayerDraftRoundChanged
 CitadelPlayerLevel
-CitadelPlayerLevelDisplay
 CitadelPlayerLevelDisplayTooltip
 CitadelPlayerLevelUpBonuses
 CitadelPlayerListEntrySetMuted
@@ -27277,7 +27281,6 @@ CitadelShowHomePage
 CitadelShowInteractiveStatsPanelTooltipForSlot
 CitadelShowJoinOrCreatePartyPopup
 CitadelShowLatestPatchNotes
-CitadelShowLearnPage
 CitadelShowLevelRewardsTooltip
 CitadelShowMatchDetails
 CitadelShowMinimapTooltip
@@ -27822,6 +27825,7 @@ ConsumeHealPercentage
 ConsumeStaminaOnWake
 ConsumedComponentState_t
 ContainmentDamage
+Content
 Content Height
 Content Panel Scroll X
 Content Panel Scroll Y
@@ -32188,6 +32192,7 @@ GCSDK::GCDirIndex_t
 GCSQL_VERSION_BASELINE
 GCSQL_VERSION_BOOLTYPE
 GCType_t"2\n
+GCitadelShowLearnPage
 GENERALIZEDTIME
 GENERALSTRING
 GENERAL_ALLOCATE_BOOLEAN
@@ -32243,7 +32248,6 @@ GE_Source1LegacyGameEventList
 GE_Source1LegacyListenEvents
 GE_VDebugGameSessionIDEvent
 GGet a list of friends who are playing, have played, own, or want a game
-GHeroSortingType_t
 GI.lesson.%s
 GL.n
 GLOBALESTATE
@@ -32708,7 +32712,7 @@ HBJ\nTRF
 HDR Color Scale: %0.3f
 HDRColor
 HDRColorScale
-HDX;
+HDX[
 HEAD 
 HH&a
 HIERARCHY
@@ -32869,6 +32873,7 @@ HasHero
 HasHeroInvis
 HasHeroesInRoster
 HasHoldAction
+HasImage
 HasImbueTarget
 HasInput
 HasKeyBind
@@ -33139,6 +33144,7 @@ HeroSelection1
 HeroSelector
 HeroSelectorRow
 HeroSnippet
+HeroSortingType_t
 HeroSpiritLifestealEffectiveness
 HeroSpotlight
 HeroStack
@@ -35151,7 +35157,6 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MCitadelBuildTag
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -36335,7 +36340,6 @@ MiniMap
 MiniMapEntryMouseOutEvent
 MiniMapEntryMouseOverEvent
 MiniMapFoWUnitSelectEvent
-MiniMapUnitSelectEvent
 Minimal Text
 MinimalProfileEdit
 MinimapBossSnippet
@@ -37823,12 +37827,13 @@ P-224
 P-256
 P-384
 P-521
-P08J@
+P08@J0\
 P1\t98"
+P20\
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
 P5[1
-P6 w
+P602
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -39504,7 +39509,6 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp8
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -45217,9 +45221,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr 
 Xd3h
-Xf0e
 XfJ7
 XjfR
 XqgA+
@@ -46780,7 +46782,8 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6p9
+`6PF
+`6PG
 `:zQF
 `D$daM-l
 `DZG
@@ -46791,6 +46794,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`ht0
 `o_je
 `yNT
 a null shared library handle was used
@@ -54125,6 +54129,7 @@ how long the player has been sprinting
 how this stat is implemented
 hows joint info for this entity
 hp_stat
+hpz0\
 hr_H
 href="
 hscroll
@@ -54552,6 +54557,8 @@ imageType
 image_banner
 image_inventory
 image_inventory_overlay
+imagescaling
+imagesrc
 imbue
 imbue_target_ability_id
 imbued_ability_id
@@ -62486,6 +62493,7 @@ m_flTurnSpeed
 m_flTurnSpringSpeed
 m_flTurnThreshold
 m_flTurretExpireTime
+m_flUIScale
 m_flUltCooldownProgress
 m_flUltimateCooldownEnd
 m_flUltimateCooldownStart
@@ -67854,7 +67862,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0jP 
+p20\
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67872,7 +67880,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6`X
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName

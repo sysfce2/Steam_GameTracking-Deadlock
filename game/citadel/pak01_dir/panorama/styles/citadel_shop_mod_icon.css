@@ -329,26 +329,27 @@ PopupSellMaxItems #PurchaseItemIcon .mod_icon_background_container,PopupActivate
 	padding: 0px;
 }
 
+PopupSellMaxItems CitadelModIcon
+{
+	ui-scale: 140%;
+}
+
 PopupSellMaxItems #ModToPurchaseContainer CitadelModIcon,PopupActivatedAbilitiesSelection #ModToPurchaseContainer CitadelModIcon,.largeDragIcon.IsBeingDragged CitadelModIcon
 {
-	width: 128px;
-	height: 128px;
 	margin: 0px;
 	padding: 0px;
 }
 
 PopupSellMaxItems #ModToPurchaseContainer .mod_icon_single_container,PopupActivatedAbilitiesSelection #ModToPurchaseContainer .mod_icon_single_container,.largeDragIcon.IsBeingDragged .mod_icon_single_container
 {
-	width: 128px;
-	height: 128px;
 	margin: 0px;
 	padding: 0px;
 }
 
 PopupSellMaxItems #ModToPurchaseContainer .mod_icon_background_container,PopupActivatedAbilitiesSelection #ModToPurchaseContainer .mod_icon_background_container,.largeDragIcon.IsBeingDragged #ModToPurchaseContainer .mod_icon_background_container
 {
-	width: 96px;
-	height: 96px;
+	width: 100%;
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
 }

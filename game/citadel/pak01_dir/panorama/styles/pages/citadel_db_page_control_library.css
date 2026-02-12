@@ -2029,3 +2029,15 @@ CitadelControlLibraryPage
 	background-color: brandGreen&00;
 }
 
+CitadelButton
+{
+	margin-right: 16px;
+}
+
+CitadelButton CitadelHeroImage
+{
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+}
+

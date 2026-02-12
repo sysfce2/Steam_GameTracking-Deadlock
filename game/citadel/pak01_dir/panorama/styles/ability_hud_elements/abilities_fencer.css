@@ -45,6 +45,37 @@
 	visibility: collapse;
 }
 
+.ability_fencer_lunge.ability_element_progress
+{
+	transform: rotateZ(0deg);
+	ui-scale: 70%;
+	margin-left: 0px;
+}
+
+.ability_fencer_lunge .SplitLabelProgressBar .SplitLabelName Image
+{
+	animation-name: DefaultAnim;
+	animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-frame-time: 300ms;
+}
+
+.ability_fencer_lunge .SplitLabelProgressBar .SplitLabelName Image:nth-child(odd)
+{
+	animation-direction: alternate-reverse;
+}
+
+.ability_fencer_lunge .SplitLabelProgressBar .SplitLabelName Image:nth-child(even)
+{
+	animation-direction: alternate;
+}
+
+.ability_fencer_lunge .SplitLabelProgressBar .SplitLabelProgress
+{
+	wash-color: fencerColor;
+}
+
 .SplitLabelProgressBar .SplitLabelName Image
 {
 	animation-name: DefaultAnim;

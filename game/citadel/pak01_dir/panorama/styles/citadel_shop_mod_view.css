@@ -503,11 +503,6 @@ PopupPickEnhanceItem .owned .modStatusCol
 	brightness: 0.5;
 }
 
-.owned .mod_icon
-{
-	opacity: 1;
-}
-
 .isWeapon.usedAsComponent .mod_icon,.isWeapon.owned:not(.IgnoreOwnership) .mod_icon
 {
 	wash-color: courageBrightColor;
@@ -1925,6 +1920,65 @@ CitadelShopMod.isWeapon:hover
 CitadelShopMod.isTech:hover
 {
 	sound: "UI.Shop.Mod.Hover.Spirit";
+}
+
+PopupSellMaxItems .owned .mod_name_area,PopupSellMaxItems .usedAsComponent .mod_name_area
+{
+	background-color: none;
+}
+
+PopupSellMaxItems .owned #ModCard .modName
+{
+	color: offBlack;
+}
+
+PopupSellMaxItems .ModTier3.isWeapon #ModCard .modName
+{
+	color: black;
+	text-shadow: 0 0 12px #aa8470;
+}
+
+PopupSellMaxItems .ModTier4.isWeapon #ModCard .modName
+{
+	color: #d4472f;
+	color: #e4c5a1;
+}
+
+PopupSellMaxItems .ModTier4.isArmor #ModCard .modName
+{
+	color: #70a44b;
+	color: #c2e7cd;
+}
+
+PopupSellMaxItems .owned.ModTier4.isTech #ModCard .modName
+{
+	color: #895ae2;
+	color: #e3d4f2;
+}
+
+PopupSellMaxItems .modStatusCol
+{
+	visibility: collapse;
+}
+
+PopupSellMaxItems .owned #ModIconImage
+{
+	brightness: 1;
+}
+
+PopupSellMaxItems CitadelShopMod.owned:not(.IgnoreOwnership) #ItemPurchased,PopupSellMaxItems CitadelShopMod.owned #ItemPurchased,PopupSellMaxItems CitadelShopMod.usedAsComponent #ItemPurchased
+{
+	visibility: collapse;
+}
+
+PopupSellMaxItems .owned #Outline
+{
+	visibility: collapse;
+}
+
+PopupSellMaxItems #ModIconImage
+{
+	margin: 0px;
 }
 
 CitadelItemDraftPanel CitadelShopMod
