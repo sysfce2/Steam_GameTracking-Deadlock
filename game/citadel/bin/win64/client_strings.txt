@@ -89,9 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXb0\
- (08@HR0\
- (0X`hpz0\
+ (08@HPXbP]
+ (08@HRP]
+ (0X`hpzP]
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16728,7 +16728,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J0\
+08@JP]
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16783,6 +16783,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vD$\n
 0x%4.4x 
 0x%X
 0x%X 
@@ -17005,6 +17006,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
+2\vpx
 2^pV
 2a"l
 2bT~
@@ -17473,7 +17475,6 @@ $hRh
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >Sem
 >WK6
->XWh
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
 >\n\fItemPosition
 >\n\fdev_settings
@@ -17546,12 +17547,12 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08ND$\n
 @0pp
-@60C
+@6pH
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
-@HPX`hv0h
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -37827,13 +37828,15 @@ P-224
 P-256
 P-384
 P-521
-P08@J0\
+P08@JP]
+P08ND$\n
 P1\t98"
-P20\
 P2P ping to "%s". Timed out after %.2fms\n
+P2P]
 P2P_Messages
 P5[1
-P602
+P6@C
+P6Pb
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -38765,6 +38768,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
+PnD$\n
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -39509,6 +39513,7 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vpx
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -46477,6 +46482,7 @@ Z~wl
 \rTxL
 \rUHz4Z}\r
 \rWhO
+\rXEe
 \rY=QX
 \rYYHl
 \r\n\tEUpgraded
@@ -46782,8 +46788,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6PF
-`6PG
+`6pI
 `:zQF
 `D$daM-l
 `DZG
@@ -46794,7 +46799,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`ht0
 `o_je
 `yNT
 a null shared library handle was used
@@ -46812,6 +46816,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvD$\n
 aD/x
 aDSS
 aECDH
@@ -54129,7 +54134,7 @@ how long the player has been sprinting
 how this stat is implemented
 hows joint info for this entity
 hp_stat
-hpz0\
+hpzP]
 hr_H
 href="
 hscroll
@@ -57036,6 +57041,7 @@ m_ActiveParticle
 m_AdditionalTargetEntities
 m_AfterburnDotModifier
 m_AggroEnemy
+m_AimLoopSound
 m_AimPos
 m_AimSpringStrength
 m_AimingShootSpreadPenalty
@@ -67862,7 +67868,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p20\
+p08@H^D$\n
+p2P]
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67880,6 +67887,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6`9
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -68670,6 +68678,7 @@ playsoundscape
 playtime_2weeks
 playtime_forever
 plum
+pnD$\n
 pngsize
 point
 point arithmetic failure
@@ -68937,6 +68946,7 @@ program
 progress_bar
 progress_state
 progressheroxp
+projectile
 projectile_airheart_floatingbomb
 projectile_cyclone
 projectile_doorman_cart_projectile

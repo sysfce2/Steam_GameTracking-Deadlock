@@ -9,7 +9,7 @@
 		pitch_rand_max = 0.020000
 		tail_vol_offset_db = -7.500000
 		source_reverb_level = 2.500000
-		low_ammo_vol_offset_db = 3.000000
+		low_ammo_vol_offset_db = 4.000000
 		vsnd_files = 
 		[
 			"sounds/weapons/fencer/fencer_wpn_fire_01.vsnd",
@@ -90,7 +90,7 @@
 		]
 		vsnd_files_last_shot = 
 		[
-			"sounds/weapons/yamato/yamato_wpn_last_shot_01.vsnd",
+			"sounds/weapons/fencer/fencer_last_shot_01.vsnd",
 		]
 		vsnd_duration = 2.319388
 	}

@@ -208,6 +208,7 @@
  <-- Arg '%s'
  <-- Retval '%s'
  ACTIVE GROUP
+ ApF
  Damage Dealt to Trooper Boss
  Damage Taken from Player
  FLK
@@ -14722,6 +14723,7 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
+6PA/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14740,8 +14742,6 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6pO/
-6pU/
 6qo~
 6r-m_v
 6r1ij
@@ -14791,7 +14791,7 @@ $tJ@T\tK
 8<pl
 8= zp
 8A6j
-8FP*/
+8Bpp
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15030,8 +15030,8 @@ $tJ@T\tK
 >yhP
 >ztq
 ?33s?
+?BurstBonusPerStack
 ?CAnimFoot
-?CModifier_Synth_Grasp_Victim
 ?HAI\t81\t9dcG'
 ?HP4
 ?Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
@@ -15056,7 +15056,6 @@ $tJ@T\tK
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N4
 @0pp
 @Accolades
 @BH]f
@@ -15074,7 +15073,6 @@ $tJ@T\tK
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@htP(
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -16131,6 +16129,7 @@ AwakeDamage
 Away from closest point
 Axis
 AxisAngleToQuaternion
+AxtI
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
@@ -16902,7 +16901,6 @@ BurnLingerDuration
 BurnRadius
 Burst Damage
 Burst Fire
-BurstBonusPerStack
 BurstFireShotPercent
 BurstFireShotsFromClipPercent
 BurstLocation
@@ -21573,6 +21571,7 @@ CModifier_Synth_Blitz_TechAmp_VData
 CModifier_Synth_Grasp_BulletShield
 CModifier_Synth_Grasp_Caster
 CModifier_Synth_Grasp_Caster_VData
+CModifier_Synth_Grasp_Victim
 CModifier_Synth_Grasp_Victim_VData
 CModifier_Synth_PlasmaFlux_WeaponDamage_VData
 CModifier_Synth_Pulse_Escape
@@ -27956,7 +27955,6 @@ F'pY
 F+Zb
 F,mZq
 F/o4
-F02/
 F2M+
 F6tr
 F7!z
@@ -34936,7 +34934,7 @@ P-224
 P-256
 P-384
 P-521
-P08N4
+P08J }
 P1\t98"
 P5[1
 PAGN_4
@@ -41928,8 +41926,6 @@ XYD%
 X\tQo
 Xd3h
 XfJ7
-XfP-/
-Xfp./
 XjfR
 XqgA+
 Xuub
@@ -43203,9 +43199,6 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2Pl
-`2po
-`6pK/
 `:zQF
 `D$daM-l
 `DZG
@@ -43233,7 +43226,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4
 aD/x
 aDSS
 aECDH
@@ -51807,6 +51799,7 @@ m_ActualFlags
 m_AdditionalTargetEntities
 m_AfterburnDotModifier
 m_AggroEnemy
+m_AimLoopSound
 m_AimPos
 m_AimSpringStrength
 m_AimingShootSpreadPenalty
@@ -65108,7 +65101,6 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n01/
 n0?X
 n1Z 
 n5cM
@@ -65846,7 +65838,6 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
-npS/
 npc_ability_name
 npc_ability_range_debug
 npc_barrack_boss
@@ -66263,8 +66254,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4
-p0jP
+p2pp
 p2{l
 p4Z3
 p5Z3
@@ -67111,6 +67101,7 @@ problems mapping cipher functions
 procedural_inputs
 procedural_outputs
 producedAt
+projectile
 projectile_airheart_floatingbomb
 projectile_cyclone
 projectile_doorman_cart_projectile
@@ -70444,7 +70435,6 @@ vNewPoint.IsValid()\n
 vOffset
 vOffset2D
 vOrigin
-vPQ/
 vPoint
 vPoint1
 vPoint2
