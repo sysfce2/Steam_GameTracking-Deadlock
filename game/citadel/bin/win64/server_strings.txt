@@ -180,6 +180,13 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
+ (08@HPX`j`
+ (08@HPXbPI
+ (08@HPZ`
+ (08@HRPI
+ (08@JPI
+ (0X`hpzPI
+ (2PI
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -207,6 +214,7 @@
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
+ A0A
  ACTIVE GROUP
  Damage Dealt to Trooper Boss
  Damage Taken from Player
@@ -14426,6 +14434,9 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
+08@HR`
+08@JPI
+08B`
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -14438,6 +14449,7 @@ $tJ@T\tK
 0=normal, 1=rebirth, 2=rejuvenator
 0AgffA
 0M2~@p
+0Pz*
 0W/5
 0Z@q
 0\n+k_EMsgClientToGCRemoveItemAttributeResponse
@@ -14607,6 +14619,7 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vpT
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14662,7 +14675,6 @@ $tJ@T\tK
 3wQ]
 3|rN>
 4)#bH
-4)\tC3
 4)m1
 474E4U4W4c4i4m4
 4<Td
@@ -14735,7 +14747,6 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
-6PX/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14754,7 +14765,6 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6pZ/
 6qo~
 6r-m_v
 6r1ij
@@ -15075,7 +15085,7 @@ $tJ@T\tK
 @0pp
 @Accolades
 @BH]f
-@HPX`hvP
+@HVp
 @MfKZ
 @Pgl
 @Pu\rm
@@ -28672,7 +28682,6 @@ Found target\n
 FourQuaternions
 FourVectors
 Fph7
-Fpm/
 Frac
 Frac * 5 Players to get how much extra buildup is added. Larger values make the buildup complete faster.  0.2 (*5 Players) is exactly halving the buildup time
 Fractional component (ie. returns 0.34 for 12.34)
@@ -34951,10 +34960,12 @@ P-224
 P-256
 P-384
 P-521
+P08@JPI
 P1\t98"
+P2PI
 P5[1
-P60d/
-P6px/
+P6 y/
+P:PI
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -35255,6 +35266,7 @@ POTG Eval: No important events at hottest locale, skipped eval\n
 POTG: Began replay for %s [ %.2f -> %.2f ] \n
 POTG: Stashed %.2f -> %.2f (miss time: %.2f) \n
 POTG:\n\tEvents: %d\n\tLocales: %d\n\tMemory Total: %d bytes\n
+PPz*
 PPz\v=
 PRB+
 PRECIPITATION
@@ -35496,6 +35508,7 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+Pf@l/
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -35709,6 +35722,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+Pn@m/
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -36358,6 +36372,7 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
+R\fpT
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
@@ -41948,6 +41963,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr`
 Xd3h
 XfJ7
 XjfR
@@ -43091,6 +43107,7 @@ Z~wl
 \tMax uptime scheduled Shutdown: %u (%u seconds from now)\n
 \tNone\n
 \tPOTG Eval: Contribution(%s) Weight(%.2f) Time(%.2f -> %.2f)\n
+\tPPz*
 \tPartyID_t
 \tPrivate script scope:
 \tPublic script scope:
@@ -43142,6 +43159,7 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
+\vPPz*
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
@@ -43224,7 +43242,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60T/
+`2PI
 `:zQF
 `D$daM-l
 `DZG
@@ -47269,6 +47287,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
+dq\fp9
 draft
 draft_item_sets
 drag_override
@@ -48269,7 +48288,6 @@ eyj5yR
 f#9i\n
 f%wyLmX:
 f&dy
-f0Q/
 f1cK%
 f45\r
 f4MaxDist
@@ -49595,6 +49613,7 @@ how long the player has been sprinting
 how much hotter than the npc's flashpoint a heat source should be to instantly ignite them.
 how this stat is implemented
 hows joint info for this entity
+hpzPI
 hr_H
 http request
 https proxy request
@@ -65178,6 +65197,7 @@ mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
+n0X/
 n1Z 
 n5cM
 n6j/
@@ -66330,7 +66350,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j`s
+p2PI
 p2{l
 p4Z3
 p5Z3
@@ -66383,6 +66403,7 @@ pOwner
 pParamValue
 pParameterName
 pPhysicsModel
+pPz*
 pRTH
 pSPo
 pSequenceName
@@ -67382,6 +67403,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vpT
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight

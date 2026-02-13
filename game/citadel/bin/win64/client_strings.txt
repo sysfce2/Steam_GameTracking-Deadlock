@@ -89,6 +89,10 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
+ (08@HPXbp
+ (08@HRp
+ (08@Jp
+ (0X`hpzp
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16738,6 +16742,7 @@ $hRh
 0123456789
 02V8[
 05=k
+08@Jp
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16755,6 +16760,7 @@ $hRh
 0=Model, 1=Particle, 2=Model+Particle
 0=Never; 1=Only if there is a problem; 2=always
 0=default 1=friendly 2=enemy 3=both
+0Hr\n
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -16792,12 +16798,10 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vD}\n
 0x%4.4x 
 0x%X
 0x%X 
 0x%s
-0xq\n
 0}dV
 1 == client, 2 == server
 1 set of base guardians
@@ -17016,8 +17020,8 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp<a
-2\vpxq\n
+2\vpHr\n
+2\vp\fb
 2^pV
 2a"l
 2bT~
@@ -17233,6 +17237,7 @@ $hRh
 8<pl
 8= zp
 8A6j
+8Bp]
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17558,12 +17563,12 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08ND}\n
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CCitadel_Modifier_HealthSwapPrecast
 @DebugIndividualStyle
+@HPX`hv`
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17581,6 +17586,7 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
+@ht0
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -34726,7 +34732,6 @@ LT_txt
 LWIN
 LXKQ
 LY\r5
-L\f0O
 L\n\fincludevotes
 L\n\tfile_type
 Label.BgColor
@@ -37848,8 +37853,7 @@ P-224
 P-256
 P-384
 P-521
-P08J P
-P08ND}\n
+P08@Jp
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
@@ -37987,6 +37991,7 @@ PHAG2
 PHYSGUN
 PHYS_SAVE_RESTORE_VERSION
 PHhn}Y
+PHr\n
 PIID_IPHYSAGGREGATE
 PIID_IPHYSICSBODY
 PIID_IPHYSICSJOINT
@@ -38786,7 +38791,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
-PnD}\n
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -39256,7 +39260,6 @@ PushToTalkPartyBinder
 Pushes an identifier used to group overlays. Deletes all existing overlays using this overlay id.
 Pushes an identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch.
 Put all physics in all the worlds to sleep
-Pxq\n
 P|iC\r
 Q(Optional) If supplied, the resulting published file's Id is appended to the URI.
 Q*hd
@@ -39534,8 +39537,8 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp<a
-R\vpxq\n
+R\vpHr\n
+R\vp\fb
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -45482,7 +45485,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fpxq\n
+\fpHr\n
 \ful2
 \fy&3Gl
 \l:ArR
@@ -46743,7 +46746,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpxq\n
+\vpHr\n
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46830,7 +46833,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -46848,7 +46850,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvD}\n
 aD/x
 aDSS
 aECDH
@@ -54187,6 +54188,7 @@ how long the player has been sprinting
 how this stat is implemented
 hows joint info for this entity
 hp_stat
+hpzp
 hr_H
 href="
 hscroll
@@ -67934,7 +67936,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^D}\n
+p2p]
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67964,6 +67966,7 @@ pFilter
 pG_*h
 pHeroReleaseVoteOptions->GetChildCount() == (int)EActiveHeroReleaseVoteOption::Count
 pHitEntity
+pHr\n
 pIp 
 pLocationEntity
 pO0h
@@ -68742,7 +68745,6 @@ playsoundscape
 playtime_2weeks
 playtime_forever
 plum
-pnD}\n
 pngsize
 point
 point arithmetic failure
@@ -69126,7 +69128,6 @@ pvk too short
 pvsplayer
 pwatchent
 pwatchvar
-pxq\n
 pzKD)
 q not prime
 q&A\nn
