@@ -89,8 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j 
- (08@HPZ 
+ (08@HPX`jP
+ (08@HPZP
+ (08@JP
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -131,7 +132,6 @@
  CCitadelSteamInputHandler::SteamDeviceDisconnected: %llu\n
  CCitadelSteamInputHandler::UpdateControllerActionSet: ControllerHandle: %llu, ActionSet: %llu \n
  C_PhysPropClientside::Spawn: SetupPhysicsAsModel() failed for %s.\n
- CxM.
  FLK
  FWa
  Failed to pack %s\n
@@ -1069,6 +1069,15 @@
 #Citadel_RosterMode_StreetBrawl
 #Citadel_RosterMode_TutorialGuided
 #Citadel_RosterMode_TutorialSandbox
+#Citadel_RosterUpdate_Disabled
+#Citadel_RosterUpdate_FailedTitle
+#Citadel_RosterUpdate_InternalError
+#Citadel_RosterUpdate_InvalidHeroSelection
+#Citadel_RosterUpdate_MMBusy
+#Citadel_RosterUpdate_NotInMatchmaking
+#Citadel_RosterUpdate_RateLimited
+#Citadel_RosterUpdate_Timeout
+#Citadel_RosterUpdate_TooBusy
 #Citadel_Scoreboard_BrawlRoundTitle
 #Citadel_Scoreboard_BrawlRoundTotalTitle
 #Citadel_Scoreboard_LaneSwapAvailable_Tooltip
@@ -2997,6 +3006,7 @@ $hRh
 *.vmdl
 *.vnmgraph
 *0fT
+*0op
 *1~Pt
 *5\n\rESourceEngine
 *5pB
@@ -9417,7 +9427,6 @@ $hRh
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??SubmitSurveyResponse@CAccountSurveyManager@@QEAAX_NI@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??ThinkIntroActions@CCitadelHideoutController@@AEAAXXZ@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??Update@CCitadelClientAccountEvent@@QEAAXXZ@@GCSDK@@
-.?AV?$GCClientJobLambda@V<lambda_1>@?1??UpdateMatchmakingRoster@CCitadel_PlayController@@QEAAXAEBV?$CUtlVector@URosterSlot_t@@HV?$CUtlVectorMemory_Growable@URosterSlot_t@@H$0A@@@@@@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??citadel_build_tag_picker@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??citadel_commend_player@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??citadel_fetch_cheat_reports@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@GCSDK@@
@@ -16729,8 +16738,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR 
-08B 
+08@HRP
+08BP
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16782,7 +16791,6 @@ $hRh
 0\n\vstyle_index
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
-0d6\n
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
@@ -17008,7 +17016,6 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpd6\n
 2^pV
 2a"l
 2bT~
@@ -17223,6 +17230,7 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@JP
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
@@ -17307,6 +17315,7 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
+:0op
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -17474,6 +17483,7 @@ $hRh
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >Sem
 >WK6
+>Xih
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
 >\n\fItemPosition
 >\n\fdev_settings
@@ -17502,7 +17512,7 @@ $hRh
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelObjectivesMap
+?CitadelPlayerLevelDisplay
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?EOrbLaneTrooper
@@ -17549,10 +17559,11 @@ $hRh
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
+@60P
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
-@HVp
+@HPX`hv0u
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17599,7 +17610,6 @@ A!A3A5A;A?AYAeAkAwA{A
 A%N_A
 A,uw"
 A.00h
-A0;f
 A2VPD
 A4Wn>
 A9ur
@@ -18718,7 +18728,7 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
-B>While a spectator, view team amber's minimap view 
+B>While a spectator, view both teams' minimap view 
 BACK
 BAD ENUMERATED
 BAD INTEGER
@@ -26628,7 +26638,6 @@ CitadelExitHeroSheet
 CitadelExitItemDraft
 CitadelExitUpgradeShop
 CitadelFailedShopAction
-CitadelFindOpponentStateChanged
 CitadelFlexUnlockMessage
 CitadelFooterBar
 CitadelForceResolutionChange
@@ -26920,6 +26929,7 @@ CitadelMatchMetaDataAccessUpdated
 CitadelMatchMetadataManager
 CitadelMatchMetadataUpdated
 CitadelMatchReportsUpdated
+CitadelMatchmakingStateChanged
 CitadelMatchmakingStatus
 CitadelMatchmakingStatusScheduledUpdate
 CitadelMidiNotePitch_t
@@ -26973,6 +26983,7 @@ CitadelNewsPage
 CitadelNewsPageRequestMore
 CitadelNextTipText
 CitadelObjectiveTooltip
+CitadelObjectivesMap
 CitadelObjectivesTooltip
 CitadelOpenBook
 CitadelOpenBuildBrowser
@@ -27031,7 +27042,6 @@ CitadelPlayPage
 CitadelPlayerContextMenuSetAudioVolume
 CitadelPlayerDraftRoundChanged
 CitadelPlayerLevel
-CitadelPlayerLevelDisplay
 CitadelPlayerLevelDisplayTooltip
 CitadelPlayerLevelUpBonuses
 CitadelPlayerListEntrySetMuted
@@ -37833,11 +37843,12 @@ P-224
 P-256
 P-384
 P-521
-P08J@
+P08Jp
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
 P5[1
+P60?
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -38560,7 +38571,6 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-PfPM
 Phoneme delay to account for sound system latency.
 Phrase
 Phrase%d
@@ -38770,7 +38780,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
-PnPN
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -39511,7 +39520,6 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
-R\fpd6\n
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
@@ -44071,7 +44079,6 @@ UpdateImbueList
 UpdateInactiveLesson
 UpdateJSConsoleNextHistory
 UpdateJSConsolePriorHistory
-UpdateMatchmakingRoster
 UpdateNewEffects
 UpdatePanelInfo
 UpdatePanelInfo - update
@@ -44899,7 +44906,7 @@ Which stick controls movement (0 is left stick)
 Which team to auto-select the first time in the game.
 Which team to view the minimap as when freeflying
 While a spectator and viewing a player, view team their minimap view 
-While a spectator, view both teams' minimap view 
+While a spectator, view team amber's minimap view 
 While a spectator, view team sapphire's minimap view
 While active, activate a child state based on the results of a boolean condition. Any referenced variables must be marked as observable.
 While lagging behind, the max value we can approach the target value.
@@ -45226,7 +45233,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr 
+X`hrP
 Xd3h
 XfJ7
 XjfR
@@ -45649,6 +45656,7 @@ Z~wl
 \n/CMsgClientToGCUpdateHeroBuildPreferenceResponse
 \n/steammessages_publishedfile.steamworkssdk.proto
 \n0CCitadelUserMsg_ParticipantSetLibraryStackFields
+\n0op
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
 \n3CCitadelClientMsg_HideoutUpdateHeroReleaseVoteTally
 \n3CMsgServerSteamLearnCitadelPlayerMechanicalBehavior
@@ -45854,6 +45862,7 @@ Z~wl
 \n\fwinning_team
 \n\fx_resolution
 \n\fy_resolution
+\n\n0op
 \n\nDiagnostic
 \n\nEAddSocket
 \n\nEEndReason
@@ -46712,7 +46721,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpd6\n
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46788,7 +46796,11 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`2Pe
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`6PS
+`6PT
+`6Pj
 `:zQF
 `D$daM-l
 `DZG
@@ -46799,6 +46811,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -51636,6 +51649,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\f0
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -52247,6 +52261,7 @@ error with the srp params
 error-text
 error:%08lX:%s:%s:%s
 errorLoadingData
+error_code
 errors
 es-419
 es_419
@@ -56295,6 +56310,7 @@ k_eInvalidParam
 k_eInvalidPartyID
 k_eInvalidPartyMatchMode
 k_eInvalidPartyMode
+k_eInvalidPartyRoster
 k_eInvalidPawn
 k_eInvalidPermission
 k_eInvalidPermissions
@@ -56360,6 +56376,7 @@ k_eNoRegionPings
 k_eNone
 k_eNotAlive
 k_eNotAllPlayersAvailable
+k_eNotInMatchmaking
 k_eOpenedBookTest
 k_eOpenedSubmitFeedback
 k_eOutOfDateClient
@@ -67871,7 +67888,6 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0jPT
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67896,7 +67912,6 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pF`3
 pField
 pFilter
 pG_*h
@@ -68286,7 +68301,6 @@ pcPathLengthConstraint
 pct_complete
 pct_item_complete
 pct_story_complete
-pd6\n
 pdgAbilityUpgradeStateChanged
 pdgBonusCounterChanged
 pdgStolenAbilityChanged
@@ -69135,7 +69149,6 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
-r\vpd6\n
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight

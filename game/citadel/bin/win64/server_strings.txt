@@ -180,11 +180,6 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j0
- (08@HPXb 
- (08@HPZ0
- (08@J0
- (0X`hpz 
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -1307,6 +1302,7 @@ $tJ@T\tK
 (.CMsgSteamLearn_SnapshotProject_Response"-
 (0'yX
 (0x%08X)'??'
+(4PW
 (5Me
 (5jP
 (ACTIVE)
@@ -14426,9 +14422,6 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
-08@HR0
-08@J 
-08B0
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -14470,8 +14463,8 @@ $tJ@T\tK
 0\rP!e
 0e\r8
 0pp@5tqE?|sO541
-0t8*
 0tU+xc:
+0v46*
 0x%s
 0}dV
 1 = also npc select enemy finders in my squad
@@ -14610,8 +14603,6 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpl
-2\vpt8*
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14728,8 +14719,6 @@ $tJ@T\tK
 6,2K
 6-zeZ
 60000
-60L/
-60o/
 62$|S)6f
 64CK\vH
 65535
@@ -14741,8 +14730,6 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
-6PU/
-6PW/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14761,7 +14748,6 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6pF/
 6qo~
 6r-m_v
 6r1ij
@@ -14810,8 +14796,9 @@ $tJ@T\tK
 851Pe
 8<pl
 8= zp
-8@J0
 8A6j
+8F@Z/
+8FPY/
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15078,8 +15065,9 @@ $tJ@T\tK
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08N46*
 @0pp
-@60j/
+@6PP/
 @Accolades
 @BH]f
 @MfKZ
@@ -15095,9 +15083,12 @@ $tJ@T\tK
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
+@f46*
 @fff>fff>fff>fff>
+@htPW
 @i1V
 @n2w
+@n46*
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A bias on the lerp
@@ -27981,6 +27972,7 @@ F'pY
 F+Zb
 F,mZq
 F/o4
+F0a/
 F2M+
 F6tr
 F7!z
@@ -34960,11 +34952,10 @@ P-224
 P-256
 P-384
 P-521
-P08@J 
-P08JP
+P08N46*
 P1\t98"
 P5[1
-P6 o/
+P6 2/
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -35719,6 +35710,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+Pn46*
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -36368,11 +36360,9 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
-R\fpt8*
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpl
 R]Di
 Rad2 Deg
 RadiationThink
@@ -41272,6 +41262,7 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
+Vpm/
 Vs Player DPS
 Vs Trooper DPS
 VsInputSignatureElement_t
@@ -41960,11 +41951,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr0
 Xd3h
 XfJ7
-XfP[/
-Xfp\/
+XfP\/
+Xfp]/
 XjfR
 XqgA+
 Xuub
@@ -43161,7 +43151,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpt8*
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -43239,6 +43228,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`6pz/
 `:zQF
 `D$daM-l
 `DZG
@@ -43246,8 +43236,10 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`f46*
 `fPw.\vM
 `h9T~
+`n46*
 `o_je
 `yNT
 a null shared library handle was used
@@ -43266,6 +43258,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv46*
 aD/x
 aDSS
 aECDH
@@ -48260,6 +48253,7 @@ f%wyLmX:
 f&dy
 f1cK%
 f45\r
+f46*
 f4MaxDist
 f4MinDist
 f4RelaxationFactor
@@ -48804,6 +48798,7 @@ found_friendship
 fov_desired
 fow_control_point
 fow_control_point2
+fpB/
 fpnS
 frac
 fraction
@@ -49580,7 +49575,6 @@ how long the player has been sprinting
 how much hotter than the npc's flashpoint a heat source should be to instantly ignite them.
 how this stat is implemented
 hows joint info for this entity
-hpz 
 hr_H
 http request
 https proxy request
@@ -65163,6 +65157,7 @@ n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
 n1Z 
+n46*
 n5cM
 n6j/
 n:2C[
@@ -65898,6 +65893,7 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
+npZ/
 npc_ability_name
 npc_ability_range_debug
 npc_barrack_boss
@@ -66314,12 +66310,14 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^46*
+p0jP\v
 p2{l
 p4Z3
 p5Z3
 p5\nL,
-p60P/
 p618
+p>46*
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -66942,6 +66940,7 @@ playoverscript
 plays for local player attacker dealing damage with this ability
 plays for local player victim taking damage from this ability
 pm_bSendToClients
+pn46*
 point
 point arithmetic failure
 point at infinity
@@ -67246,7 +67245,6 @@ pszExplosionType
 pszName
 pszOrgValue
 pszTagName
-pt8*
 pub: 
 pub_key
 pubkey
@@ -67368,7 +67366,6 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
-r\vpt8*
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight
@@ -70472,6 +70469,7 @@ v2i_ASN1_BIT_STRING
 v2i_GENERAL_NAMES
 v2i_GENERAL_NAME_ex
 v3\vt
+v46*
 v8array
 v8callback
 v8object

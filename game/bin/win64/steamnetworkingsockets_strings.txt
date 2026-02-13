@@ -18,8 +18,8 @@
  !"#$%&'()*+,-./0123NULL output buffer with non-zero size passed to Base64Decode
  %4[^ =\t] =%d
  ' ) - 3 G M Q _ c e i w } 
- (08@HPX`hpz
- (08@HRp!
+ (08@HPX`hpz`\n
+ (08@HPX`j`\n
  (BGP MDT)
  (MPLS)
  (MPLS-labeled VPN)
@@ -635,7 +635,7 @@ $d`D-laM
 0123456789.:abcdefABCDEF
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz./
 08@HPX`hpx
-08@Jp!
+08@HR`\n
 08bX
 0F2R0P4
 0Z@q
@@ -663,8 +663,6 @@ $d`D-laM
 27;C
 2Ht\l
 2\n.k_ESteamDatagramMsg_SetSecondaryAddressRequest
-2\vp8
-2\vpD
 2bT~
 2dV2:tN:\n
 2prB
@@ -714,7 +712,6 @@ $d`D-laM
 7XRJ
 7nY7m
 82\n:XPH
-855<
 88pH
 8@HP*
 8A6j
@@ -783,7 +780,7 @@ $d`D-laM
 @0pp
 @?33s?H
 @HPX&9
-@HPXfP
+@HPXf
 @\n\nAltAddress
 @n2w
 A connection with that ID already exists.
@@ -2148,6 +2145,7 @@ C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steam
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steam\csteamnetworkingsockets_steampartner.cpp
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_connections.cpp
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_connections.h
+C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_ice_client.cpp
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.h
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_p2p.cpp
@@ -2155,7 +2153,6 @@ C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steam
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_p2p_ice.cpp
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_snp.cpp
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_snp.h
-C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_stun.cpp
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\clientlib\steamnetworkingsockets_udp.cpp
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\sdr\steamdatagram_internal.h
 C:\buildworker\sdr_public_win64\build\src\steamnetworkingsockets\sdr\steamdatagram_network_config.cpp
@@ -3160,9 +3157,7 @@ Fatal Assertion Failed: EVP_EncryptFinal_ex( ctx, pOut, &nBytesWritten ) == 1
 Fatal Assertion Failed: EVP_EncryptInit_ex( ctx, nullptr, nullptr, nullptr, (const uint8*)pIV ) == 1
 Fatal Assertion Failed: EVP_EncryptUpdate( ctx, nullptr, &nBytesWritten, (const uint8*)pAdditionalAuthenticationData, (int)cbAuthenticationData ) == 1
 Fatal Assertion Failed: EVP_EncryptUpdate( ctx, pOut, &nBytesWritten, (const uint8*)pPlaintextData, (int)cbPlaintextData ) == 1
-Fatal Assertion Failed: EVP_PKEY_derive(ctx, bufSharedSecret, &skeylen ) == 1
 Fatal Assertion Failed: EVP_PKEY_derive_init(ctx) == 1
-Fatal Assertion Failed: EVP_PKEY_derive_set_peer(ctx, peerkey) == 1
 Fatal Assertion Failed: SetRawDataAndWipeInput( tmp, cbData )
 Fatal Assertion Failed: V_stristr( STEAMNETWORKINGSOCKETS_HARDCODED_ROOT_CA_KEY, checkID ) != NULL
 Fatal Assertion Failed: bRtlGenRandomOK
@@ -3913,7 +3908,6 @@ P-256
 P-384
 P-521
 P00`
-P08@Jp!
 P1\t98"
 P2P %s
 P2P CMsgSteamDatagramConnectRequest from %s; we're listening on %s, hosted server connection\n
@@ -3944,7 +3938,6 @@ P2P_Transport_ICE_Enable
 P2P_Transport_ICE_Implementation
 P2P_Transport_ICE_Penalty
 P2P_Transport_SDR_Penalty
-P2p!
 P<xD<
 P@HPX`h\f
 PARAMETERS
@@ -4291,8 +4284,6 @@ RSA_sign_ASN1_OCTET_STRING
 RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
-R\vp8
-R\vpD
 Rank=%d 
 Rbg.E
 Read-only file system
@@ -5600,7 +5591,6 @@ a2i_GENERAL_NAME
 a5<p
 a5j_5W
 a8Bk
-aBvL
 aI)h
 aRecord
 a\n\rRouterQuality
@@ -7114,7 +7104,6 @@ group2pkparameters failure
 group=
 h2Wl
 h8,4$
-h94<
 hHpX
 h\44Q
 h\f90
@@ -7812,7 +7801,7 @@ legacy_your_public_ip
 legacy_your_public_port
 length too long
 level_add_node
-lib Oct  2 2025 16:55:47
+lib Feb  9 2026 17:04:34
 lib(%lu)
 lifetime
 linebuffer_ctrl
@@ -8240,7 +8229,6 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^L
 p2p_routing_summary
 p2p_share_ip
 p2p_via_peer_relay_pop_id

@@ -64,13 +64,13 @@
 			</Panel>
 		</Panel>
 		<Panel id="HeroStats">
-			<Panel id="WeaponStats" class="statHoverIcon" onmouseout="CitadelHideStatsTooltip();">
+			<Panel id="WeaponStats" class="statHoverIcon">
 				<Panel class="statIcon" />
 			</Panel>
-			<Panel id="VitalityStats" class="statHoverIcon" onmouseout="CitadelHideStatsTooltip();">
+			<Panel id="VitalityStats" class="statHoverIcon">
 				<Panel class="statIcon" />
 			</Panel>
-			<Panel id="SpiritStats" class="statHoverIcon" onmouseout="CitadelHideStatsTooltip();">
+			<Panel id="SpiritStats" class="statHoverIcon">
 				<Panel class="statIcon" />
 			</Panel>
 			<Panel id="MiscStats" class="statHoverIcon">

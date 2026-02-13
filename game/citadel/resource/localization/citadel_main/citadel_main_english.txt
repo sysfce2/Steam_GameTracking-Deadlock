@@ -1030,6 +1030,16 @@
 		"Citadel_Roster_Instructions_Title_HeroLabs"				"Hero Labs"
 		"Citadel_Roster_Instructions_Desc_HeroLabs"					"Queue up to play as or against new Experimental Heroes.<br><br>Select a minimum of three Heroes, <b>two of which must be standard, non-testing Heroes.</b> Players will be more likely to be given an Experimental Hero from their roster based on how long it has been since they've played any Experimental Hero."
 
+		"Citadel_RosterUpdate_FailedTitle"							"Unable to Update Roster"
+		"Citadel_RosterUpdate_Timeout"								"Unable to connect to the Deadlock Network"
+		"Citadel_RosterUpdate_InternalError"						"Unexpected error code {d:error_code}."
+		"Citadel_RosterUpdate_Disabled"								"Roster updates are currently disabled."
+		"Citadel_RosterUpdate_TooBusy"								"The Deadlock Network is too busy."
+		"Citadel_RosterUpdate_RateLimited"							"Too many requests."
+		"Citadel_RosterUpdate_MMBusy"								"Match is already being formed."
+		"Citadel_RosterUpdate_InvalidHeroSelection"					"Invalid hero selection."
+		"Citadel_RosterUpdate_NotInMatchmaking"						"Not in the matchmaking queue."
+
 		"Citadel_BannedHeroes"										"Banned Heroes"
 		"Citadel_BannedWarning_Title"								"Avoided Hero"
 		"Citadel_BannedWarning_Desc"								"You will be less likely to see this hero in this match."
