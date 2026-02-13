@@ -114,7 +114,7 @@ PopupManager
 	visibility: collapse;
 }
 
-.connectedToGame #HeroScenePanel,.connectedToHeroTesting #HeroScenePanel,.connectedToLaneTraining #HeroScenePanel,.connectedToHeroTraining #HeroScenePanel
+.connectedToGame #HeroScenePanel,.connectedToHeroTesting #HeroScenePanel,.connectedToTutorial #HeroScenePanel,.connectedToHeroTraining #HeroScenePanel
 {
 	visibility: collapse;
 }
@@ -1199,7 +1199,7 @@ PopupManager
 	visibility: visible;
 }
 
-.is_in_lobby #matchmakeEnter,.is_in_lobby #rosterDetail,.in_matchmaking #matchmakeEnter,.connecting_server #matchmakeEnter,.entering_mm #matchmakeEnter,.entering_mm #rosterDetail,.is_in_lobby #matchmakeLeave,.connectedToGame #matchmakeEnter,.connectedToGame #learn,.connectedToGame.isSpectator.in_matchmaking #matchmakeEnter,.connectedToGame.isSpectator.in_matchmaking #rosterDetail,.connecting_server #rosterDetail,.connectedToGame #matchmakeLeave,.connectedToGame #rosterDetail,.disconnected.in_matchmaking #matchmakeEnter,.connectedToHeroTesting #spectate,.connectedToNewPlayerSandbox #spectate,#connect,.disconnected #resume,.disconnected #spectate,.gc_disconnected #matchmakeLeave,.connecting_server #match_practice,.connectedToGame #match_practice,.connectedToGame #heroes,.connectedToGame #watch,.connecting_server #watch,.connecting_server #social,.connectedToGame #NewPlayerContainer,.connectedToLaneTraining #NewPlayerContainer
+.is_in_lobby #matchmakeEnter,.is_in_lobby #rosterDetail,.in_matchmaking #matchmakeEnter,.connecting_server #matchmakeEnter,.entering_mm #matchmakeEnter,.entering_mm #rosterDetail,.is_in_lobby #matchmakeLeave,.connectedToGame #matchmakeEnter,.connectedToGame #learn,.connectedToGame.isSpectator.in_matchmaking #matchmakeEnter,.connectedToGame.isSpectator.in_matchmaking #rosterDetail,.connecting_server #rosterDetail,.connectedToGame #matchmakeLeave,.connectedToGame #rosterDetail,.disconnected.in_matchmaking #matchmakeEnter,.connectedToHeroTesting #spectate,.connectedToNewPlayerSandbox #spectate,#connect,.disconnected #resume,.disconnected #spectate,.gc_disconnected #matchmakeLeave,.connecting_server #match_practice,.connectedToGame #match_practice,.connectedToGame #heroes,.connectedToGame #watch,.connecting_server #watch,.connecting_server #social,.connectedToGame #NewPlayerContainer,.connectedToTutorial #NewPlayerContainer
 {
 	visibility: collapse;
 }

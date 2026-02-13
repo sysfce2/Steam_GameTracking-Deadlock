@@ -35,11 +35,6 @@ CitadelPaused
 	height: fit-children;
 }
 
-.connectedToLaneTraining #PausedGameContainer
-{
-	visibility: collapse;
-}
-
 CitadelPaused.MinigameVisible
 {
 	margin-top: 50px;

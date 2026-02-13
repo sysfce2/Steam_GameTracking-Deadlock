@@ -1847,7 +1847,7 @@ CitadelHudModifierIcons
 	horizontal-align: right;
 }
 
-.ExperimentalBranch #CosmeticAbilitiesMenu
+.connectedToTutorial #CosmeticAbilitiesMenu
 {
 	visibility: collapse;
 }
@@ -2174,15 +2174,7 @@ CitadelHudModifierIcons
 	visibility: collapse;
 }
 
-#reportCard
-{
-	margin-top: 100px;
-	align: right center;
-	z-index: 100;
-	visibility: visible;
-}
-
-.GameStatePreGame #reportCard,.GameStatePreGameWait #reportCard
+#hud_reportcard
 {
 	visibility: collapse;
 }
@@ -2352,6 +2344,11 @@ CitadelTooltipManager
 	ui-scale: 100%;
 	transition-property: ui-scale;
 	transition-duration: 0.2s;
+}
+
+.connectedToNewPlayerSandbox.heroTestingDisableUpgrades #APContainer
+{
+	opacity: 0;
 }
 
 .upgrade_reminder #APContainer,.unlock_available #APContainer
@@ -2751,7 +2748,7 @@ CitadelHudSandboxTutorial
 	visibility: collapse;
 }
 
-.connectedToHeroTesting CitadelHudSandboxTutorial
+.connectedToTutorial CitadelHudSandboxTutorial
 {
 	visibility: visible;
 }

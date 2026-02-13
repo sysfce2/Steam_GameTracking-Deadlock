@@ -9,6 +9,11 @@ CitadelLearnPage
 	background-color: #000000aa;
 }
 
+#GettingStarted,#HeroSandbox
+{
+	visibility: collapse;
+}
+
 #BotTitle
 {
 	horizontal-align: left;
@@ -223,6 +228,11 @@ Label.unavailableText
 	opacity: 0.5;
 	margin-bottom: 4px;
 	color: brandGreen;
+}
+
+.playTime
+{
+	visibility: collapse;
 }
 
 .playDesc

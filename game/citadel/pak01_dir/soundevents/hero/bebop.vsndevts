@@ -47,8 +47,13 @@
 	{
 		base = "Base.Weapon.Foley"
 		volume = -2.000000
-		vsnd_files = "sounds/weapons/bebop/bebop_primaryweapon_prepare.vsnd"
-		vsnd_duration = 1.673469
+		vsnd_files = 
+		[
+			"sounds/weapons/bebop/bebop_wpn_windup_01.vsnd",
+			"sounds/weapons/bebop/bebop_wpn_windup_02.vsnd",
+			"sounds/weapons/bebop/bebop_wpn_windup_03.vsnd",
+		]
+		vsnd_duration = 1.738639
 	}
 	Bebop.ZoomIn = 
 	{

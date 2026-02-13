@@ -11,7 +11,7 @@ TeamChatStatus
 	visibility: collapse;
 }
 
-.connectedToHeroTesting TeamChatStatus,.connectedToLaneTraining.connectedToGame TeamChatStatus
+.connectedToTutorial.connectedToGame TeamChatStatus
 {
 	visibility: collapse;
 }

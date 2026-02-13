@@ -172,6 +172,18 @@ CitadelShopMod.itemDisabled:hover,CitadelShopMod.disabledFromPurchasing:hover
 	visibility: visible;
 }
 
+.RestrictedItems CitadelShopMod
+{
+	saturation: 0;
+	opacity: 0.5;
+}
+
+.RestrictedItems CitadelShopMod.AllowedInRestrictedShop
+{
+	saturation: 1;
+	opacity: 1;
+}
+
 #Enhanced
 {
 	width: 30px;
@@ -1348,7 +1360,7 @@ CitadelShopMod.recommended:hover #AddToBuild,CitadelShopMod.itemDisabled:hover #
 	visibility: collapse;
 }
 
-.connectedToNewPlayerSandbox .new_tag,.connectedToLaneTraining .new_tag
+.connectedToTutorial .new_tag
 {
 	visibility: collapse;
 }

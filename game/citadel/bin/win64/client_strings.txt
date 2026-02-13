@@ -89,9 +89,6 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`jP
- (08@HPZP
- (08@JP
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -117,6 +114,7 @@
  <b>@import</b> 
  ACTIVE GROUP
  AInvalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
+ AhQ^
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreAnalogActionHandlesReady: Analog Action not found: %s \n
@@ -1067,8 +1065,6 @@
 #Citadel_RosterMode_PrivateBotMedium
 #Citadel_RosterMode_PrivateLobby
 #Citadel_RosterMode_StreetBrawl
-#Citadel_RosterMode_TutorialGuided
-#Citadel_RosterMode_TutorialSandbox
 #Citadel_RosterUpdate_Disabled
 #Citadel_RosterUpdate_FailedTitle
 #Citadel_RosterUpdate_InternalError
@@ -3006,7 +3002,6 @@ $hRh
 *.vmdl
 *.vnmgraph
 *0fT
-*0op
 *1~Pt
 *5\n\rESourceEngine
 *5pB
@@ -3306,6 +3301,7 @@ $hRh
 -\n)k_eCitadelTeamObjective_BarrackBoss_Lane2
 -\n)k_eCitadelTeamObjective_BarrackBoss_Lane3
 -\n)k_eCitadelTeamObjective_BarrackBoss_Lane4
+-\n)k_eNewPlayerProgress_CombinedTutorial2026
 -\n\nend_reason
 -\n\tchat_mode
 -\n\tdef_index
@@ -3345,6 +3341,7 @@ $hRh
 .$$BY03M
 .$$BY03V?$Vec3D@M@@
 .$$BY03VGameTime_t@@
+.$$BY03_N
 .$$BY05H
 .$$BY07V?$Vec3D@M@@
 .$$BY09I
@@ -3715,7 +3712,6 @@ $hRh
 .?AV<lambda_1>@?1??Restart@CNewParticleEffect@@QEAAXXZ@
 .?AV<lambda_1>@?1??RunExploreMap@CCitadel_PlayController@@QEAAXXZ@
 .?AV<lambda_1>@?1??RunHeroTesting@CCitadel_PlayController@@QEAAXVHeroID_t@@W4ECitadelClientAccountEvent@@@Z@
-.?AV<lambda_1>@?1??RunSandboxTutorial@CCitadel_PlayController@@QEAAXVHeroID_t@@@Z@
 .?AV<lambda_1>@?1??SetClassOnSelectedHero@CCitadel_DB_Page_Profile@@AEAAXXZ@
 .?AV<lambda_1>@?1??SetDormant@CNewParticleEffect@@QEAAX_N@Z@
 .?AV<lambda_1>@?1??SetupAccelerationStructure@RayTracingEnvironment@@QEAAXXZ@
@@ -3744,6 +3740,7 @@ $hRh
 .?AV<lambda_1>@?4??UpdateExlusiveVisibility@CCitadel_Hud_Main@@QEAAXXZ@
 .?AV<lambda_1>@?4??UpdateStamina@CUnitStatusOverlayV2@@AEAAXXZ@
 .?AV<lambda_1>@?6??RemoveDisconnectedAndWrongTeamPlayers@CCitadel_Hud_TopBar_Team@@QEAA_NXZ@
+.?AV<lambda_1>@?6??RunTutorial@CCitadel_PlayController@@QEAAXVHeroID_t@@@Z@
 .?AV<lambda_1>@?7???$RunCodeInSimulation@V<lambda_1>@?1???$ModifyHeroRevealCard@V<lambda_1>@?1??RemoveHeroRevealCard@CCitadel_Hud_Pregame_HeroReveal@@AEAAXH@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV1?1??RemoveHeroRevealCard@2@AEAAXH@Z@@Z@@CGame_UI_ScenePanel@@QEAAXV0?1???$ModifyHeroRevealCard@V<lambda_1>@?1??RemoveHeroRevealCard@CCitadel_Hud_Pregame_HeroReveal@@AEAAXH@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV0?1??RemoveHeroRevealCard@2@AEAAXH@Z@@Z@@Z@
 .?AV<lambda_1>@?7???$RunCodeInSimulation@V<lambda_1>@?1???$ModifyHeroRevealCard@V<lambda_1>@?1??SetHeroRevealCardAngles@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHMMM@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV1?1??SetHeroRevealCardAngles@2@AEAAXHMMM@Z@@Z@@CGame_UI_ScenePanel@@QEAAXV0?1???$ModifyHeroRevealCard@V<lambda_1>@?1??SetHeroRevealCardAngles@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHMMM@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV0?1??SetHeroRevealCardAngles@2@AEAAXHMMM@Z@@Z@@Z@
 .?AV<lambda_1>@?7???$RunCodeInSimulation@V<lambda_1>@?1???$ModifyHeroRevealCard@V<lambda_1>@?1??SetHeroRevealCardPosition@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHMMM@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV1?1??SetHeroRevealCardPosition@2@AEAAXHMMM@Z@@Z@@CGame_UI_ScenePanel@@QEAAXV0?1???$ModifyHeroRevealCard@V<lambda_1>@?1??SetHeroRevealCardPosition@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHMMM@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV0?1??SetHeroRevealCardPosition@2@AEAAXHMMM@Z@@Z@@Z@
@@ -5024,7 +5021,7 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_HideoutIntro@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HideoutIntroExit@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Hideout_Teleport@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_HoldingGoldenIdol@@$0JE@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_HoldingGoldenIdol@@$0JD@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HollowPoint_Proc@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HollowPoint_Stack@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HookSelf@@$0PPPP@@@
@@ -5879,6 +5876,7 @@ $hRh
 .?AV?$CNetworkArrayBase@VGameTime_t@@$03HVNetworkVar_m_flTimeSlowedEnd@C_CitadelPlayerPawn@@@@
 .?AV?$CNetworkArrayBase@VGameTime_t@@$03HVNetworkVar_m_flTimeSlowedStart@C_CitadelPlayerPawn@@@@
 .?AV?$CNetworkArrayBase@VGameTime_t@@$0BE@HVNetworkVar_m_rgTargetPosTime@CCitadel_Ability_TangoTether@@@@
+.?AV?$CNetworkArrayBase@_N$03HVNetworkVar_m_arrPreventAbilityLearning@C_CitadelPlayerPawn@@@@
 .?AV?$CNetworkColorBase@VColor@@VNetworkVar_colorPrimary@fogparams_t@@@@
 .?AV?$CNetworkColorBase@VColor@@VNetworkVar_colorPrimaryLerpTo@fogparams_t@@@@
 .?AV?$CNetworkColorBase@VColor@@VNetworkVar_colorSecondary@fogparams_t@@@@
@@ -9271,6 +9269,7 @@ $hRh
 .?AV?$C_NetworkUtlVectorBase@VCUtlStringToken@@VNetworkVar_m_vecImbuedAbilities@ItemImbuementPair_t@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VCUtlStringToken@@VNetworkVar_m_vecQuickbuyQueue@C_CitadelPlayerPawn@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VCUtlStringToken@@VNetworkVar_m_vecQuickbuySellQueue@C_CitadelPlayerPawn@@$0?0H@@
+.?AV?$C_NetworkUtlVectorBase@VCUtlStringToken@@VNetworkVar_m_vecRestrictedToItems@C_CitadelPlayerPawn@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VCUtlStringToken@@VNetworkVar_m_vecUpgrades@PlayerDataGlobal_t@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VCUtlSymbolLarge@@VNetworkVar_m_AssociatedEntityNames@ActiveModelConfig_t@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VCUtlSymbolLarge@@VNetworkVar_m_vecCSSClasses@CInfoOffscreenPanoramaTexture@@$0?0H@@
@@ -9419,11 +9418,10 @@ $hRh
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??SpectateLobby@CCitadel_PlayController@@QEAAXVCitadelLobbyID_t@@VMatchID_t@@@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??SpectateUser@CCitadel_PlayController@@QEAAXI@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??StartBotMatch@CCitadel_PlayController@@QEAAXXZ@@GCSDK@@
-.?AV?$GCClientJobLambda@V<lambda_1>@?1??StartGuidedBotMatch@CCitadel_PlayController@@QEAAXXZ@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??StartHeroTesting@CCitadel_PlayController@@QEAAX_N@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??StartMMKeepAliveCheck@CCitadel_PlayController@@QEAAXXZ@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??StartRequestReplayExistence@CCitadelReplayManager@@QEAAX_K@Z@@GCSDK@@
-.?AV?$GCClientJobLambda@V<lambda_1>@?1??StartSandboxTutorial@CCitadel_PlayController@@QEAAXXZ@@GCSDK@@
+.?AV?$GCClientJobLambda@V<lambda_1>@?1??StartStreetBrawlBotMatch@CCitadel_PlayController@@QEAAXXZ@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??SubmitSurveyResponse@CAccountSurveyManager@@QEAAX_NI@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??ThinkIntroActions@CCitadelHideoutController@@AEAAXXZ@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1??Update@CCitadelClientAccountEvent@@QEAAXXZ@@GCSDK@@
@@ -9703,7 +9701,6 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??Restart@CNewParticleEffect@@QEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??RunExploreMap@CCitadel_PlayController@@QEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??RunHeroTesting@CCitadel_PlayController@@QEAAXVHeroID_t@@W4ECitadelClientAccountEvent@@@Z@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??RunSandboxTutorial@CCitadel_PlayController@@QEAAXVHeroID_t@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SetClassOnSelectedHero@CCitadel_DB_Page_Profile@@AEAAXXZ@_NPEAVCPanel2D@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SetDormant@CNewParticleEffect@@QEAAX_N@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SetupAccelerationStructure@RayTracingEnvironment@@QEAAXXZ@X$$V@std@@
@@ -9732,6 +9729,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??UpdateExlusiveVisibility@CCitadel_Hud_Main@@QEAAXXZ@_NPEAVCPanel2D@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??UpdateStamina@CUnitStatusOverlayV2@@AEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?6??RemoveDisconnectedAndWrongTeamPlayers@CCitadel_Hud_TopBar_Team@@QEAA_NXZ@_NPEAVCCitadel_Hud_TopBar_Player@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?6??RunTutorial@CCitadel_PlayController@@QEAAXVHeroID_t@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?7???$RunCodeInSimulation@V<lambda_1>@?1???$ModifyHeroRevealCard@V<lambda_1>@?1??RemoveHeroRevealCard@CCitadel_Hud_Pregame_HeroReveal@@AEAAXH@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV1?1??RemoveHeroRevealCard@2@AEAAXH@Z@@Z@@CGame_UI_ScenePanel@@QEAAXV1?1???$ModifyHeroRevealCard@V<lambda_1>@?1??RemoveHeroRevealCard@CCitadel_Hud_Pregame_HeroReveal@@AEAAXH@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV1?1??RemoveHeroRevealCard@3@AEAAXH@Z@@Z@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?7???$RunCodeInSimulation@V<lambda_1>@?1???$ModifyHeroRevealCard@V<lambda_1>@?1??SetHeroRevealCardAngles@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHMMM@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV1?1??SetHeroRevealCardAngles@2@AEAAXHMMM@Z@@Z@@CGame_UI_ScenePanel@@QEAAXV1?1???$ModifyHeroRevealCard@V<lambda_1>@?1??SetHeroRevealCardAngles@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHMMM@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV1?1??SetHeroRevealCardAngles@3@AEAAXHMMM@Z@@Z@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?7???$RunCodeInSimulation@V<lambda_1>@?1???$ModifyHeroRevealCard@V<lambda_1>@?1??SetHeroRevealCardPosition@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHMMM@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV1?1??SetHeroRevealCardPosition@2@AEAAXHMMM@Z@@Z@@CGame_UI_ScenePanel@@QEAAXV1?1???$ModifyHeroRevealCard@V<lambda_1>@?1??SetHeroRevealCardPosition@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHMMM@Z@@CCitadel_Hud_Pregame_HeroReveal@@AEAAXHV1?1??SetHeroRevealCardPosition@3@AEAAXHMMM@Z@@Z@@Z@X$$V@std@@
@@ -13271,6 +13269,8 @@ $hRh
 .?AVCInfoOffscreenPanoramaTexture@@
 .?AVCInfoParticleTarget@@
 .?AVCInfoTarget@@
+.?AVCInfoTutorialController@@
+.?AVCInfoTutorialPoint@@
 .?AVCInfoWorldLayer@@
 .?AVCInlineJob_CMsgClientWelcome@@
 .?AVCInlineJob_CMsgGCClientVersionUpdated@@
@@ -16738,8 +16738,6 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HRP
-08BP
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16794,10 +16792,12 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vD}\n
 0x%4.4x 
 0x%X
 0x%X 
 0x%s
+0xq\n
 0}dV
 1 == client, 2 == server
 1 set of base guardians
@@ -17016,6 +17016,8 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
+2\vp<a
+2\vpxq\n
 2^pV
 2a"l
 2bT~
@@ -17230,12 +17232,11 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@JP
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
-8HTMLScreenShotTaken
+8HTMLFormHasFocus
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
 8Name of the file to use as the published file's preview.
@@ -17315,7 +17316,6 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0op
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -17337,6 +17337,7 @@ $hRh
 :\n\nchallenges
 :\n\robjects_added
 :\n\tmove_type
+:citadel_player_dash_breakable_debug
 :cwd|
 :eaI
 :gN(dq
@@ -17483,7 +17484,6 @@ $hRh
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >Sem
 >WK6
->Xih
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
 >\n\fItemPosition
 >\n\fdev_settings
@@ -17511,11 +17511,12 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
+?CAbilityNikumanVData
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelPlayerLevelDisplay
+?CitadelObjectivesMap
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
-?EOrbLaneTrooper
+?EAbilityUpgradeTier
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17544,26 +17545,25 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
+?ability_familiar_helpinghands
 ?d86L
 ?dt]X
 ?expf
 ?ff&?333?
 ?gwL
 ?jOb
-?m_hAOEParticle
-?m_nHitGroup
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08ND}\n
 @0pp
-@60P
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
+@CCitadel_Modifier_HealthSwapPrecast
 @DebugIndividualStyle
-@HPX`hv0u
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17584,7 +17584,6 @@ $hRh
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
-@m_hEnemyAura
 @n2w
 A bias on the lerp
 A comma separated list of hero IDs that hold the currently banned brawl roster heroes
@@ -18285,6 +18284,7 @@ AirControlPercent
 AirDampingDuration
 AirDashDistanceInMeters
 AirDashDuration
+AirDashTask
 AirDrag
 AirDropBulletShield
 AirJumpForce
@@ -18332,6 +18332,7 @@ AllowRamMultiple
 AllowResetCooldownOnKill
 AllowSwap
 AllowTransition
+AllowedInRestrictedShop
 Allows bots to be puppeteered by the player.  The player will do nothing while the bots perform the inputs
 Allows canceling out of the reload at any time by firing your gun.
 Allows creating a hideout for a party even if a single player (dev only)
@@ -18728,7 +18729,7 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
-B>While a spectator, view both teams' minimap view 
+B>Show the old neutral camp icons on the minimap
 BACK
 BAD ENUMERATED
 BAD INTEGER
@@ -18758,6 +18759,7 @@ BC_EMPTY
 BC_PARTICLE_SYSTEM_OVERRIDE
 BC_PROP_GROUP_OVERRIDE
 BCanSeeInParentScroll
+BCitadelPingWheelMessagesVDATA_t
 BEAM_ENTPOINT
 BEAM_ENTS
 BEAM_HOSE
@@ -18770,7 +18772,6 @@ BEOS_BIND_VAR
 BEOS_LOAD
 BEOS_NAME_CONVERTER
 BEOS_UNLOAD
-BEPlayerPlayState
 BF-CBC
 BF-CFB
 BF-ECB
@@ -19641,15 +19642,15 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\baseflex_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayercontroller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayerpawn_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\beam_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1449
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1451
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1026
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:287
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:329
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:720
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4133
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4307
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4142
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4316
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
@@ -19872,7 +19873,6 @@ CAbilityMantleVData
 CAbilityMedicHealVData
 CAbilityMeleeParryVData
 CAbilityMeleeVData
-CAbilityNikumanVData
 CAbilityPerchedPredatorVData
 CAbilityPowerJumpVData
 CAbilityPowerSlashVData
@@ -20408,6 +20408,7 @@ CCitadelSteamInputHandler::OnSteamInputConfigurationLoaded: AppID: %d, SteamInpu
 CCitadelSteamInputHandler::OnSteamInputConfigurationLoaded: User Config is completely out of date: User Config Version %u. Expected: %u \n
 CCitadelSteamInputHandler::OnSteamInputConfigurationLoaded: User Config is slightly out of date: User Config Revision %u. Expected: %u \n
 CCitadelSteamShare
+CCitadelTaggedSound_t
 CCitadelTeam
 CCitadelTeamRevealHeroCard
 CCitadelTeleportTrigger
@@ -21717,7 +21718,6 @@ CCitadel_Modifier_HealEntitiyVData
 CCitadel_Modifier_HealingPulse_Tracker
 CCitadel_Modifier_Healing_Disabled
 CCitadel_Modifier_HealthSwap
-CCitadel_Modifier_HealthSwapPrecast
 CCitadel_Modifier_HealthSwapPrecastVData
 CCitadel_Modifier_HealthSwapVData
 CCitadel_Modifier_HeldItemPickupAura
@@ -22384,11 +22384,9 @@ CCitadel_PlayController::RunConCommand( %s ) \n
 CCitadel_PlayController::SelectHero
 CCitadel_PlayController::StartBotMatch
 CCitadel_PlayController::StartCalibrationMatch
-CCitadel_PlayController::StartGuidedBotMatch
 CCitadel_PlayController::StartHeroTesting
 CCitadel_PlayController::StartPlayAgainMatch - Coop Bots
 CCitadel_PlayController::StartPlayAgainMatch - Private Bots
-CCitadel_PlayController::StartSandboxTutorial
 CCitadel_PlayController::StartUnrankedMatch
 CCitadel_PopupSettings::GoToNextSubSection
 CCitadel_PopupSettings::PopulateResolutionDropDown
@@ -23290,6 +23288,8 @@ CInfoOffscreenPanoramaTexture
 CInfoParticleTarget
 CInfoPortalLink
 CInfoTarget
+CInfoTutorialController
+CInfoTutorialPoint
 CInfoVisibilityBox
 CInfoWorldLayer
 CInlineJob_CMsgClientWelcome
@@ -24247,6 +24247,7 @@ CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecFullSellPriceItems ,
 CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecImbuedAbilities , -1, int >
 CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecQuickbuyQueue , -1, int >
 CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecQuickbuySellQueue , -1, int >
+CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecRestrictedToItems , -1, int >
 CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecUpgrades , -1, int >
 CNetworkUtlVectorBase< FullSellPriceAbilityUpgrades_t, NetworkVar_m_vecFullSellPriceAbilityUpgrades , -1, int >
 CNetworkUtlVectorBase< GameTime_t, NetworkVar_m_vecNextExplosionTime , -1, int >
@@ -26983,7 +26984,6 @@ CitadelNewsPage
 CitadelNewsPageRequestMore
 CitadelNextTipText
 CitadelObjectiveTooltip
-CitadelObjectivesMap
 CitadelObjectivesTooltip
 CitadelOpenBook
 CitadelOpenBuildBrowser
@@ -27035,13 +27035,13 @@ CitadelPerformaceTracker
 CitadelPingEvent_t
 CitadelPingIndicator
 CitadelPingWheelConcept_t
-CitadelPingWheelMessagesVDATA_t
 CitadelPlayChatWheelSound
 CitadelPlayMenu
 CitadelPlayPage
 CitadelPlayerContextMenuSetAudioVolume
 CitadelPlayerDraftRoundChanged
 CitadelPlayerLevel
+CitadelPlayerLevelDisplay
 CitadelPlayerLevelDisplayTooltip
 CitadelPlayerLevelUpBonuses
 CitadelPlayerListEntrySetMuted
@@ -27207,10 +27207,9 @@ CitadelRosterSingleHeroSelected
 CitadelRotatableScenePanelNew
 CitadelRunCalibrationBotMatch
 CitadelRunExploreMap
-CitadelRunGuidedBotMatch
 CitadelRunHeroTesting
 CitadelRunMatchPractice
-CitadelRunSandboxTutorial
+CitadelRunTutorial
 CitadelSatVolumeGameSystem
 CitadelSatVolumeGameSystemServerDebug
 CitadelScenePanel
@@ -27363,11 +27362,11 @@ CitadelStartBotMatch
 CitadelStartCalibrationMatch
 CitadelStartCustomMatch
 CitadelStartEditingProfileCard
-CitadelStartGuidedBotMatch
 CitadelStartHeroTesting
 CitadelStartPostMatchDetails
 CitadelStartPostMatchSurvey
-CitadelStartSandboxTutorial
+CitadelStartStreetBrawlBotMatch
+CitadelStartTutorial
 CitadelStartUnrankedMatch
 CitadelStartUnrankedStreetBrawl
 CitadelStatFormulaTooltip
@@ -27676,6 +27675,7 @@ CloseCaption_Normal
 CloseRangeBonusDamageRange
 CloseRangeBonusWeaponPower
 CloseRangeSpeed
+CloseShopTask
 CloseToolhelp32Snapshot
 ClosedCaptionItemsChanged
 Closest radial abilities menu on release
@@ -29010,6 +29010,7 @@ DesiredLaneChanged
 Destroy Immediately
 Destroy a tier 1 tower in less than 10 minutes
 DestroyEntities
+DestroyGuardianTask
 DestroyImmediately
 DestroyParticle
 DestroyParticleInvolving
@@ -29137,7 +29138,6 @@ DisplayMode
 DisplayModeDropDown
 Displays a list of the active screen shakes.
 Displays audio relevance info.
-Displays citadel_base_3d sound stack debug.
 Displays citadel_dialog sound stack debug.
 Displays counts of which kinds of entities have been deleted since map started
 Displays debug draws about the given entity(ies) animgraph\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
@@ -29530,7 +29530,6 @@ EAbilityType_Ultimate
 EAbilityType_Weapon
 EAbilityType_t
 EAbilityUnlocks
-EAbilityUpgradeTier
 EAbilityUpgradeTier_1
 EAbilityUpgradeTier_2
 EAbilityUpgradeTier_3
@@ -30454,6 +30453,7 @@ EOrbBaseGuardians
 EOrbBaseSentry
 EOrbDeny
 EOrbDeployable
+EOrbLaneTrooper
 EOrbNeutralTrooper
 EOrbPlayer
 EOrbShrines
@@ -30483,6 +30483,7 @@ EPlayerChoosingHero
 EPlayerKill
 EPlayerKillAssist
 EPlayerKillComeback
+EPlayerPlayState
 EPlayerPlayStateCount
 EPlayerSprayStatus
 EPlayerStateInvalid
@@ -32801,7 +32802,6 @@ HTMLFileDialog
 HTMLFinishRequest
 HTMLFocusedNodeValue
 HTMLFormFocusPending
-HTMLFormHasFocus
 HTMLFullScreen
 HTMLHorizontalScrollBar
 HTMLJSAlert
@@ -32812,6 +32812,7 @@ HTMLOpenLinkInNewTab
 HTMLOpenPopupLink
 HTMLRequestRepaint
 HTMLScreenShotCaptured
+HTMLScreenShotTaken
 HTMLSecurityStatus
 HTMLSimpleNavigationWrapper
 HTMLStartMousePanning
@@ -33048,6 +33049,7 @@ Heavy Hitter
 HeavyMeleeDamage
 HeavyMeleeForce
 HeavyMeleeMultiplier
+HeavyMeleeTask
 Height
 Height Offset (far)
 Height Offset (near)
@@ -34626,6 +34628,7 @@ KillStreakCount6
 KillStreakCount7
 KillStreakCount8Plus
 KillStreakParticlePanel
+KillTroopersTask
 KillWindow
 Killed
 Killer Replay - replay from victim's point of view (1); the default is killer's (0). Experimental.
@@ -34723,6 +34726,7 @@ LT_txt
 LWIN
 LXKQ
 LY\r5
+L\f0O
 L\n\fincludevotes
 L\n\tfile_type
 Label.BgColor
@@ -34921,6 +34925,7 @@ LightMeleeCooldownMult
 LightMeleeDamage
 LightMeleeForce
 LightMeleeScale
+LightMeleeTask
 LightMeleeTimeWindow
 LightProbeDirectLightShadowsTexture
 LightProbeTexture
@@ -35573,7 +35578,6 @@ MODIFIER_STATE_NECRO_GUNTETHER
 MODIFIER_STATE_NECRO_GUN_BONUSTETHER
 MODIFIER_STATE_NECRO_PICKUP_TARGET
 MODIFIER_STATE_NECRO_WITHER
-MODIFIER_STATE_NON_ULT_SIGNATURE_ABILITIES_DISABLED
 MODIFIER_STATE_NO_INCOMING_DAMAGE
 MODIFIER_STATE_NO_MINIMAP
 MODIFIER_STATE_NO_OUTGOING_DAMAGE
@@ -36601,6 +36605,7 @@ MoveSpeedSlowPct
 MoveSpeedSlowPercent
 MoveSpeedToTarget
 MoveSpeedWhileShootingPenaltyReduction
+MoveTarget
 MoveType
 MoveType_t
 MoveUp
@@ -37843,12 +37848,12 @@ P-224
 P-256
 P-384
 P-521
-P08Jp
+P08J P
+P08ND}\n
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
 P5[1
-P60?
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -38427,6 +38432,7 @@ ParryCooldown
 ParryMoveSpeed
 ParrySuccessHealPercentage
 ParrySuccessTimeChanged
+ParryTask
 ParryWindow
 Parse error on %s: %s\n
 ParserResponse
@@ -38616,7 +38622,6 @@ PickupsPerNeutralTrooperDeath
 Pin or Unpin the overlay to the Entity's location
 Ping Target and Pinging Player only
 Ping a peer.
-Ping button pressed
 Ping button released
 Ping higher than this (ms) is considered 'poor'.
 Ping keybind pressed
@@ -38705,6 +38710,7 @@ Played to the teammates of the player who claimed the orb.
 Played when the client hit the orb but it isn't confirmed by the server yet.
 Played when the server receives a hit on the orb but is waiting to fully claim it.
 Player %d
+Player Cam switching button pressed
 Player Cam switching button released
 Player Clip: %s(%d)
 Player Kill Assist Bounty
@@ -38780,6 +38786,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
+PnD}\n
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -38787,6 +38794,7 @@ PointOrientConstraint_t
 PointOrientGoalDirectionType_t
 PointTemplateClientOnlyEntityBehavior_t
 PointTemplateOwnerSpawnGroupType_t
+PointType
 PointWorldTextJustifyHorizontal_t
 PointWorldTextJustifyVertical_t
 PointWorldTextReorientMode_t
@@ -39221,6 +39229,7 @@ Pulses
 PunchHalfHeight
 PunchRollSlowDuration
 Purchase the next quickbuy item
+PurchaseModsTask
 PurchaseQuickbuy
 PurgeDebuffs
 PurgeOnActivate
@@ -39247,6 +39256,7 @@ PushToTalkPartyBinder
 Pushes an identifier used to group overlays. Deletes all existing overlays using this overlay id.
 Pushes an identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch.
 Put all physics in all the worlds to sleep
+Pxq\n
 P|iC\r
 Q(Optional) If supplied, the resulting published file's Id is appended to the URI.
 Q*hd
@@ -39524,6 +39534,8 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vp<a
+R\vpxq\n
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -39901,6 +39913,7 @@ Report
 Report Player
 Report RTX perf stats at N bounces. -1 means no report
 ReportButton
+ReportCardFinished
 ReportEventW
 ReportPlayer
 ReportedPlayer
@@ -40018,6 +40031,7 @@ RestoreEntityToPredictedSlot
 RestoreHookCooldown
 RestoreLastSimulationValues(%s->%s)
 RestoreStaminaOnUse
+RestrictedItems
 RestrictionDuration
 Restricts items to this tier for a normal roll.
 Restricts spectator modes for dead players
@@ -41476,7 +41490,6 @@ Show status of all spawn groups.
 Show the NPE modal when navigating to the roster select.
 Show the damage effectiveness on every damage number
 Show the movement speed in units instead of m/s
-Show the old neutral camp icons on the minimap
 Show the player list and rosters of party members that have this hero in their roster
 Show the rating average rating of a team in the post game.
 Show the rating notification on the post game if your rating changed that game.
@@ -41750,6 +41763,7 @@ SlideInRight
 SlideInTop
 SlideLeapSpeedPenaltyMax
 SlideLeapSpeedPenaltyTime
+SlideTask
 Slider
 Slider.DisabledTextColor1
 Slider.DisabledTextColor2
@@ -43739,6 +43753,12 @@ TurretHealMult
 TurretHealth
 TurretLifetime
 Tutorial Flags
+TutorialTask1Finished
+TutorialTask2Finished
+TutorialTask3Finished
+TutorialTask4Finished
+TutorialTask5Finished
+TutorialTask6Finished
 Tweak this parameter to adjust Free Camera mouse rotation.
 Tweak this parameter to adjust Free Camera movement acceleration.
 Tweak this parameter to adjust Free Camera movement max speed.
@@ -43945,6 +43965,7 @@ Ugi<
 Ukrainian
 UltimateCooldownReady
 UltimateStatusBG
+UltimateTask
 UltimateUnlock
 UltimateUnlocked
 UnPauseSound
@@ -44112,6 +44133,7 @@ Updating last executed command %d -> %d, on tick %d\n
 UpgradeAvailable
 UpgradeFailed
 UpgradeSuccess
+UpgradeTask
 Upgrades applied to this or the dependant shall be applied to the other
 Upgrades.CloakingDevice.Loop
 UploadUserApplicationLog
@@ -44550,7 +44572,7 @@ WORLDTEXT_VERTICAL_ALIGN_BOTTOM
 WORLDTEXT_VERTICAL_ALIGN_CENTER
 WORLDTEXT_VERTICAL_ALIGN_TOP
 WP4$!
-WPlayer Cam switching button pressed
+WPing button pressed
 WRINKLE
 WRITABLE
 WRITE_PENDING
@@ -44906,6 +44928,7 @@ Which stick controls movement (0 is left stick)
 Which team to auto-select the first time in the game.
 Which team to view the minimap as when freeflying
 While a spectator and viewing a player, view team their minimap view 
+While a spectator, view both teams' minimap view 
 While a spectator, view team amber's minimap view 
 While a spectator, view team sapphire's minimap view
 While active, activate a child state based on the results of a boolean condition. Any referenced variables must be marked as observable.
@@ -45233,7 +45256,6 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hrP
 Xd3h
 XfJ7
 XjfR
@@ -45450,7 +45472,7 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@CCitadelTaggedSound_t
+\f@Displays citadel_base_3d sound stack debug.
 \fAccoladeID_t
 \fKS1
 \fResourceId_t
@@ -45460,6 +45482,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fpxq\n
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45656,7 +45679,6 @@ Z~wl
 \n/CMsgClientToGCUpdateHeroBuildPreferenceResponse
 \n/steammessages_publishedfile.steamworkssdk.proto
 \n0CCitadelUserMsg_ParticipantSetLibraryStackFields
-\n0op
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
 \n3CCitadelClientMsg_HideoutUpdateHeroReleaseVoteTally
 \n3CMsgServerSteamLearnCitadelPlayerMechanicalBehavior
@@ -45862,7 +45884,6 @@ Z~wl
 \n\fwinning_team
 \n\fx_resolution
 \n\fy_resolution
-\n\n0op
 \n\nDiagnostic
 \n\nEAddSocket
 \n\nEEndReason
@@ -46512,6 +46533,7 @@ Z~wl
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\vpL1
 \r^mX
+\rcitadel_rapid_stamina_regen
 \ri1I
 \rjwB\t
 \roKK
@@ -46721,6 +46743,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpxq\n
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46796,11 +46819,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2Pe
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6PS
-`6PT
-`6Pj
 `:zQF
 `D$daM-l
 `DZG
@@ -46829,6 +46848,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvD}\n
 aD/x
 aDSS
 aECDH
@@ -46959,7 +46979,6 @@ ability_familiar_clone_end
 ability_familiar_clonesingle
 ability_familiar_clonesingle_trigger
 ability_familiar_healhost
-ability_familiar_helpinghands
 ability_familiar_primary_weapon_bubblegun
 ability_familiar_spotlight
 ability_fencer_lunge
@@ -47336,6 +47355,7 @@ aimColorDesat
 aimColorOutline
 aimColorSat
 aiming
+air_dash
 air_dash_back
 air_dash_forward
 air_dash_left
@@ -48136,6 +48156,7 @@ bool1_
 bool2_
 bool3_
 bool4_
+bool[4]
 boolean is wrong length
 boon_level
 boost
@@ -49365,7 +49386,6 @@ citadel_grandfinale_stage
 citadel_grant_dev_account
 citadel_gravestone_blocker
 citadel_gravity_scaling_experiment
-citadel_guided_bot_match
 citadel_guided_bot_match_hint_time_mult
 citadel_gun_boon_growth_vdata_tweak
 citadel_gun_damage
@@ -49395,35 +49415,18 @@ citadel_hero_roster_banned
 citadel_hero_roster_high_priority
 citadel_hero_roster_preferred
 citadel_hero_roster_random
-citadel_hero_testing_ability1_state
-citadel_hero_testing_ability2_state
-citadel_hero_testing_ability3_state
-citadel_hero_testing_ability4_state
-citadel_hero_testing_ability_learn_finished
-citadel_hero_testing_ability_purchased_finished
-citadel_hero_testing_ability_upgrade_finished
-citadel_hero_testing_dash_finished
 citadel_hero_testing_enabled
-citadel_hero_testing_guided_sandbox
-citadel_hero_testing_hide_mods
 citadel_hero_testing_infinite_money
-citadel_hero_testing_jump_finished
-citadel_hero_testing_mantle_finished
-citadel_hero_testing_mods_purchased_finished
-citadel_hero_testing_movement_finished
-citadel_hero_testing_reload_finished
-citadel_hero_testing_shoot_finished
-citadel_hero_testing_show_intro_modal
-citadel_hero_testing_show_outro_modal
-citadel_hero_testing_wasd_finished
-citadel_hero_testing_zipline_attach_finished
-citadel_hero_testing_zoom_finished
 citadel_hero_unlock
 citadel_hero_unlock_all
 citadel_herolabs_schedule_override
 citadel_herotest_orbspawner
+citadel_hide_botbrawl_after_brawl_wins
+citadel_hide_botbrawl_after_normal_wins
 citadel_hide_modifier_bars_on_left_hud
 citadel_hide_replay_hud
+citadel_hide_tutorial_after_brawl_wins
+citadel_hide_tutorial_after_normal_games
 citadel_hideout_accept_request
 citadel_hideout_ball
 citadel_hideout_button
@@ -49607,6 +49610,7 @@ citadel_news_entries_seen
 citadel_news_entry_override_latest
 citadel_no_orbs_on_hero_kill
 citadel_no_orbs_on_objective_kill
+citadel_npc_dps_multiplier
 citadel_num_matches_in_profile_history
 citadel_observer_roaming_speed
 citadel_one_on_one_match
@@ -49641,6 +49645,11 @@ citadel_ping_indicator_display_time
 citadel_ping_indicator_duration
 citadel_ping_indicator_duration_for_bosses
 citadel_ping_wheel_activation_radius
+citadel_play_page_fake_brawl_wins
+citadel_play_page_fake_data
+citadel_play_page_fake_normal_losses
+citadel_play_page_fake_normal_wins
+citadel_play_page_finished_tutorial
 citadel_player_aim_at_hero_query_angle
 citadel_player_aim_at_hero_query_distance
 citadel_player_aim_at_hero_query_half_width
@@ -49648,7 +49657,6 @@ citadel_player_aim_at_hero_query_interval
 citadel_player_anim_debug
 citadel_player_controller
 citadel_player_crit_multiplier
-citadel_player_dash_breakable_debug
 citadel_player_dash_breakable_lookahead
 citadel_player_dash_breakable_radius
 citadel_player_dash_down_stamina_cost
@@ -49746,7 +49754,6 @@ citadel_radial_ability_suggestion_weight
 citadel_radial_distortion
 citadel_radial_distortion_growth_factor
 citadel_radial_testing
-citadel_rapid_stamina_regen
 citadel_region_override
 citadel_relevance_opvars
 citadel_reload_rank_data
@@ -49882,6 +49889,7 @@ citadel_spoof_persona_name
 citadel_spoof_profile_account
 citadel_spray_max_range
 citadel_start_calibration_bot_match
+citadel_start_players_on_zipline
 citadel_stat_override_official_match
 citadel_stat_preview
 citadel_stat_tracker.h
@@ -49939,6 +49947,42 @@ citadel_trooper_minion_sight_range
 citadel_trooper_offscreen_indicator_range
 citadel_trooper_outline_enabled
 citadel_tunnel_trigger
+citadel_tutorial_ability1_state
+citadel_tutorial_ability2_state
+citadel_tutorial_ability3_state
+citadel_tutorial_ability4_state
+citadel_tutorial_ability_learn_finished
+citadel_tutorial_ability_purchased_finished
+citadel_tutorial_ability_upgrade_finished
+citadel_tutorial_ability_use_finished
+citadel_tutorial_air_dash_finished
+citadel_tutorial_auto_teleport_dist
+citadel_tutorial_close_shop
+citadel_tutorial_controller
+citadel_tutorial_dash_finished
+citadel_tutorial_enabled
+citadel_tutorial_guardian_destroyed
+citadel_tutorial_heavy_melee_finished
+citadel_tutorial_hide_mods
+citadel_tutorial_jump_finished
+citadel_tutorial_kill_troopers_finished
+citadel_tutorial_light_melee_finished
+citadel_tutorial_mantle_finished
+citadel_tutorial_match_on_dedicated_server
+citadel_tutorial_mods_purchased_finished
+citadel_tutorial_movement_finished
+citadel_tutorial_near_guardian_finished
+citadel_tutorial_parry_finished
+citadel_tutorial_reload_finished
+citadel_tutorial_shoot_finished
+citadel_tutorial_show_intro_modal
+citadel_tutorial_show_outro_modal
+citadel_tutorial_slide_finished
+citadel_tutorial_troopers_remaining
+citadel_tutorial_ultimate_used
+citadel_tutorial_wasd_finished
+citadel_tutorial_zipline_attach_finished
+citadel_tutorial_zoom_finished
 citadel_tweak_hero_level_boons
 citadel_ui_allow_feature_bot_test
 citadel_ui_damage_impact_duration
@@ -50707,8 +50751,8 @@ connectedToBotMatch
 connectedToGame
 connectedToHeroTesting
 connectedToHideout
-connectedToLaneTraining
 connectedToNewPlayerSandbox
+connectedToTutorial
 connected_player_count
 connecting_server
 connection id is different
@@ -51649,7 +51693,6 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\f0
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -53885,6 +53928,7 @@ heartbeat request already pending
 heat_delay
 heat_display
 heavy
+heavy_melee
 heavy_melee_chance
 heavy_melee_chance_in_reload
 height-percentage
@@ -53919,14 +53963,8 @@ heroDead
 heroID
 heroIcon
 heroImage
-heroTestingAbilityLearnFinished
-heroTestingAbilityPurchasedFinished
-heroTestingAbilityUpgradeFinished
 heroTestingDisableMods
 heroTestingDisableUpgrades
-heroTestingModPurchasedFinished
-heroTestingMovementFinished
-heroTestingRideZiplineFinished
 hero_
 hero_%d
 hero_%s
@@ -54734,6 +54772,7 @@ info_target_choreo
 info_target_portrait_root
 info_team_relative_particle_system
 info_trigger_fan
+info_tutorial_point
 info_world_layer
 infos
 ingame_scale
@@ -56366,6 +56405,7 @@ k_eMoveType_Normal
 k_eMoveType_RopeClimbing
 k_eMoveType_Slide
 k_eMoveType_Ziplining
+k_eNewPlayerProgress_CombinedTutorial2026
 k_eNewPlayerProgress_GettingStarted
 k_eNewPlayerProgress_HeroTraining
 k_eNewPlayerProgress_LaneTraining
@@ -56813,6 +56853,7 @@ light_capsule
 light_directional
 light_environment
 light_map_uniqueid
+light_melee
 light_omni
 light_omni2
 light_ortho
@@ -57691,6 +57732,7 @@ m_FadeDuration
 m_FailOutflow
 m_FailureParticle
 m_FakeFamiliarParticle
+m_FallSpeedCurve
 m_FallSpeedMax
 m_FanForceCurveString
 m_FervorParticle
@@ -59045,6 +59087,7 @@ m_arPendingAsyncAbilityReservationAbilityIDs
 m_arPendingAsyncAbilityReservationSlots
 m_arPriceAdjustPercentForTier
 m_arrForceSubtickMoveWhen
+m_arrPreventAbilityLearning
 m_attachToBoneID
 m_attachmentName
 m_attachmentPoint0
@@ -60306,6 +60349,7 @@ m_ePingConcept != CITADEL_PING_HEADING_TO_LANE && m_ePingConcept != CITADEL_PING
 m_ePingMarkerInfo
 m_ePingWheelSoundType
 m_ePlayState
+m_ePointType
 m_ePreferredKnockdownType
 m_eProjectileShape
 m_eProjectileShape != Capsule
@@ -61604,7 +61648,6 @@ m_flMaxDrag
 m_flMaxElevation
 m_flMaxExposure
 m_flMaxFallSpeed
-m_flMaxFallSpeedWhileChanneling
 m_flMaxFlyHeight
 m_flMaxFrame
 m_flMaxGravity
@@ -62686,6 +62729,7 @@ m_groundNormal
 m_groupName
 m_guid
 m_hAOEEffect
+m_hAOEParticle
 m_hAbility
 m_hAbilityOwner
 m_hAbilityRequiresDebounce
@@ -62747,6 +62791,7 @@ m_hEffectEntity
 m_hEndEntity
 m_hEndPoint
 m_hEnemy
+m_hEnemyAura
 m_hEnemyPlayerAimTarget
 m_hEnt
 m_hEntActivator
@@ -63569,6 +63614,7 @@ m_nHierarchyType
 m_nHighestNote
 m_nHitBox
 m_nHitCounter
+m_nHitGroup
 m_nHitIndex
 m_nHitParticle
 m_nHitbox
@@ -64275,6 +64321,7 @@ m_sModelName
 m_sModelValue
 m_sModifer
 m_sModifierToAdd
+m_sMoveTarget
 m_sMovementBodySection
 m_sMovementHandshakesSupported
 m_sMovementSettingsId
@@ -64837,7 +64884,6 @@ m_strShivOnlyLoopSound
 m_strShootDelaySound
 m_strShootSound
 m_strShopIconLarge
-m_strShopIconSmall
 m_strShotReleaseSound
 m_strShotSound
 m_strSilenceTargetSound
@@ -65584,6 +65630,7 @@ m_vecRenderAttributes
 m_vecReportedPosition
 m_vecRespawnTimes
 m_vecRespondsToConcepts
+m_vecRestrictedToItems
 m_vecReturningHitList
 m_vecRoundLengthMinutes
 m_vecRoundLengthMinutesUrgent
@@ -67262,7 +67309,6 @@ new_player_score
 new_slot
 new_value
 newer crl not newer
-newplayersandbox
 news_state
 newunit
 next
@@ -67888,6 +67934,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^D}\n
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -68695,6 +68742,7 @@ playsoundscape
 playtime_2weeks
 playtime_forever
 plum
+pnD}\n
 pngsize
 point
 point arithmetic failure
@@ -69078,6 +69126,7 @@ pvk too short
 pvsplayer
 pwatchent
 pwatchvar
+pxq\n
 pzKD)
 q not prime
 q&A\nn
@@ -69957,11 +70006,16 @@ sandboxAbility4Learn
 sandboxAbility4Passive
 sandboxAbility4Use
 sandboxAbility4Used
+sandboxAirDashTaskCompleted
 sandboxDashTaskCompleted
+sandboxHeavyMeleeTaskCompleted
 sandboxJumpTaskCompleted
+sandboxLightMeleeTaskCompleted
 sandboxMantleTaskCompleted
+sandboxParryTaskCompleted
 sandboxReloadTaskCompleted
 sandboxShootTaskCompleted
+sandboxSlideTaskCompleted
 sandboxWASDTaskCompleted
 sandboxZoomTaskCompleted
 sandybrown
@@ -70575,6 +70629,7 @@ show text debug overlay for this entity
 show the rbox overlay
 show the state of scripted commands
 show trigger bounds
+showBrawlBots
 showCallout
 showClampedArrow
 showDistanceField
@@ -70592,6 +70647,7 @@ showShowcaseTab
 showStacks
 showStars
 showTelemetrySettings
+showTutorial
 show_botmatch_warning
 show_context_label
 show_cooldowns
@@ -70915,6 +70971,7 @@ spawn group
 spawnGroupType
 spawn_background_models
 spawn_breakpieces
+spawn_citadel_tutorial_controller
 spawn_hero_testing_controller
 spawn_in_alternate_loadout_only
 spawn_in_loadout_only
@@ -72023,6 +72080,7 @@ trooper_kill_non_bosses
 trooper_neutral
 trooper_neutral_grenade
 trooper_zipline_distance_to_drop_from_enemy
+troopers_remaining
 true 
 true"A\n CCitadelUserMsg_PostMatchDetails
 trueBw
@@ -73131,7 +73189,6 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDh[
 zF):O4
 zFar
 zG2m8

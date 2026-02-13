@@ -39,7 +39,7 @@
  *CentralNode*
  *Inactive*
  *Unused*
- .PBU
+ .pBU
  ; contains 
  BreakOnDelete: 
  BreakOnDraw: 
@@ -443,63 +443,64 @@ $tIP
 (%6.1f,%6.1f) (%6.1f,%6.1f) Size (%6.1f,%6.1f) %s
 (%6.1f,%6.1f) (%6.1f,%6.1f) Size (%6.1f,%6.1f) Col %d %s
 (%d,%d,%d,%d)
+(1Qa
+(1Za
 (2) Or right-click this text
 (3) Or click this button
-(5Qa
-(5Za
+(9Ja
+(9Ya
 (<-- right-click here)
-(ASa
 (ActiveIdUsing: AllKeyboardKeys: %d, NavDirMask: 0x%X)
-(Axa
 (Click and drag to scroll)
 (Context Name: "%s")
 (Debug Log: Auto-disabled some ImGuiDebugLogFlags after 2 frames)\n
 (Dock node)
+(EWa
+(Efa
+(Eoa
 (Hex)
 (Hold Ctrl to: 
 (Hold Ctrl to: use 
 (Hold Shift to display a dummy viewport)
-(IWa
-(Ifa
 (Internal Buffer: TextA Size: %d, Capacity: %d)
-(Ioa
 (Left) Using ImGui::PushClipRect():\nWill alter ImGui hit-testing logic + ImDrawList rendering.\n(use this if you want your clipping rectangle to affect interactions)\n\n(Center) Using ImDrawList::PushClipRect():\nWill alter ImDrawList rendering only.\n(use this as a shortcut if you are only using ImDrawList calls)\n\n(Right) Using ImDrawList::AddText() with a fine ClipRect:\nWill alter only this specific ImDrawList::AddText() rendering.\nThis is often used internally to avoid altering the clipping rectangle and minimize draw calls.
 (Main menu bar)
 (Popup)
 (R = radius, N = approx number of segments)
 (SceneWorld 3D Dump contains %d large objects - they are scaled down and will render red.)\n
+(UKa
 (Untitled)
 (Use ImGui::SameLine() to keep adding items to the right of the preceding item)
-(YKa
+(YTa
 (Z(^(b(f(j(n(r(v(z1
 (\?=\nW>=\nW>=\nW>
-(aYa
 (also access from 'Examples->Assets Browser' in menu)
 (and more errors)
 (c) 2014-2025 Omar Cornut
 (demo menu)
 (dump)
 (dump3d)
+(eVa
 (except InputRouting which is spammy)
-(f`tU
-(iVa
+(f0tU
+(iZa
 (in ChildD: not using same Shortcut)
 (in ChildE: using same Shortcut)
 (in PopupF)
 (in WindowA)
-(mZa
+(mEa
 (no material)
 (no model)
 (note: some platform backends may not reflect a change of this value for existing viewports, and may need the viewport to be recreated)
-(qEa
+(qna
+(qwa
 (see Demo->Configuration for details & more)
-(una
 (unnamed)
-(uwa
 (viewmodel) depth to increment candidate plane values per iteration to satisfy selection.
 (viewmodel) max error (distance away in depth) candidate plane is allowed before rejecting.
 (viewmodel) precision for depth compression at SST leaf nodes.
 (void*)0x%p
+(yJa
 ** %d instances of same table! Some data below will refer to last instance.
 **DebugBreak**
 *COPIED*
@@ -526,11 +527,8 @@ $tIP
 .%03d %03d
 ..-         -XXXXXXX-    X    -           X           -XXXXXXX          -          XXXXXXX-     XX          - XX       XX ..-         -X.....X-   X.X   -          X.X          -X.....X          -          X.....X-    X..X         -X..X     X..X---         -XXX.XXX-  X...X  -         X...X         -X....X           -           X....X-    X..X         -X...X   X...XX           -  X.X  - X.....X -        X.....X        -X...X            -            X...X-    X..X         - X...X X...X XX          -  X.X  -X.......X-       X.......X       -X..X.X           -           X.X..X-    X..X         -  X...X...X  X.X         -  X.X  -XXXX.XXXX-       XXXX.XXXX       -X.X X.X          -          X.X X.X-    X..XXX       -   X.....X   X..X        -  X.X  -   X.X   -          X.X          -XX   X.X         -         X.X   XX-    X..X..XXX    -    X...X    X...X       -  X.X  -   X.X   -    XX    X.X    XX    -      X.X        -        X.X      -    X..X..X..XX  -     X.X     X....X      -  X.X  -   X.X   -   X.X    X.X    X.X   -       X.X       -       X.X       -    X..X..X..X.X -    X...X    X.....X     -  X.X  -   X.X   -  X..X    X.X    X..X  -        X.X      -      X.X        -XXX X..X..X..X..X-   X.....X   X......X    -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -         X.X   XX-XX   X.X         -X..XX........X..X-  X...X...X  X.......X   -  X.X  -   X.X   -X.....................X-          X.X X.X-X.X X.X          -X...X...........X- X...X X...X X........X  -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -           X.X..X-X..X.X           - X..............X-X...X   X...XX.........X -XXX.XXX-   X.X   -  X..X    X.X    X..X  -            X...X-X...X            -  X.............X-X..X     X..XX..........X-X.....X-   X.X   -   X.X    X.X    X.X   -           X....X-X....X           -  X.............X- XX       XX X......XXXXX-XXXXXXX-   X.X   -    XX    X.X    XX    -          X.....X-X.....X          -   X............X--------------X...X..X    ---------   X.X   -          X.X          -          XXXXXXX-XXXXXXX          -   X...........X -             X..X X..X   -       -XXXX.XXXX-       XXXX.XXXX       -------------------------------------    X..........X -             X.X  X..X   -       -X.......X-       X.......X       -    XX           XX    -           -    X..........X -             XX    X..X  -       - X.....X -        X.....X        -   X.X           X.X   -           -     X........X  -                   X..X  -       -  X...X  -         X...X         -  X..X           X..X  -           -     X........X  -                    XX   -       -   X.X   -          X.X          - X...XXXXXXXXXXXXX...X -           -     XXXXXXXXXX  -             -------------       -    X    -           X           -X.....................X-           -------------------                                 ----------------------------------- X...XXXXXXXXXXXXX...X -                                                                                                 -  X..X           X..X  -                                                                                                 -   X.X           X.X   -                                                                                                 -    XX           XX    -                                           
 ................
-.0FU
-.0GU
-.0XU
-.0ZU
-.0kU
+.0QU
+.0SU
 .?AUReadStatsCallback_t@?4??OnBeginSubmitDisplayLists@CInstancedMeshSceneObjectDesc@@UEAAXPEAVIRenderContext@@@Z@
 .?AV<lambda_1>@?1??DrawCurrentPrimitives@CRenderBatchList@@AEAAXXZ@
 .?AV<lambda_1>@?1??GatherHammerLights@CLightBinnerGPU@@AEAAXXZ@
@@ -805,21 +803,22 @@ $tIP
 .AY4I
 .AppleDouble/
 .B.F.J.N.R.V.Z.^2
+.LtK
 .P6AXPEAVCSceneObject@@@Z
-.PCU
 .PFU
-.PGU
-.PSU
+.PIU
+.PPU
 .PXU
-.PYU
-.PZU
-.PxU
 .\v1o0
 .notdef
 .null
-.pGU
-.pYU
-.pwU
+.pCU
+.pIU
+.pPU
+.pQU
+.pWU
+.pXU
+.pdU
 .resource/
 .vtex
 /*\n The Pentium F00F bug, shorthand for F0 0F C7 C8,\n the hexadecimal encoding of one offending instruction,\n more formally, the invalid operand with locked CMPXCHG8B\n instruction bug, is a design flaw in the majority of\n Intel Pentium, Pentium MMX, and Pentium OverDrive\n processors (all in the P5 microarchitecture).\n*/\n\nlabel:\n\tlock cmpxchg8b eax\n
@@ -847,7 +846,8 @@ $tIP
 050s0
 0: spheres, 1: cubes
 0?333?333?333?333?
-0v|tK
+0\iK
+0vLtK
 0x%02X
 0x%04X
 0x%08X
@@ -875,7 +875,6 @@ $tIP
 24 Hour Clock
 2C2L
 2d arr
-2po 
 2q2z2
 3 (tab skip)
 3)323A3O3
@@ -901,19 +900,23 @@ $tIP
 5by Tristan GrimmerRegularTTX ProggyCleanTT2004/
 5gib
 6 PQ
+6 gU
 6&6r6
-60^U
-60tU
+60AU
+60kU
+60|U
 646.1991
 646B
-6@fU
 6K6S
-6P]U
-6PgU
+6PdU
+6PnU
+6PyU
 6\f%646
-6`AU
-6`kU
+6`RU
+6`mU
 6o6v6
+6p@U
+6puU
 797k7
 7F7W7c
 7\n0K0O0S0W0[0_0c0g0k0o0
@@ -921,7 +924,7 @@ $tIP
 8859
 8888
 8C3F
-8F`pU
+8F0pU
 8\f58
 8\foQS
 8n8y
@@ -1010,14 +1013,14 @@ $tIP
 =n4X?e
 =uvz?
 =v?ke
->0AU
 >0G??Ou
->0hU
->0sU
+>0lU
 >333?
 >333?333?333?
 >333?ff&?
 >7>Ba
+>PtU
+>PxU
 >c<yXH?B
 >fff>
 >fff?
@@ -1049,7 +1052,7 @@ $tIP
 ?fff?fff?fff?
 ?ffffff
 ?sqrt
-@08N|tK
+@08NLtK
 @33333
 @33333#
 @33333'
@@ -1088,9 +1091,11 @@ $tIP
 @33333{
 @33333}
 @33SA
-@6`jU
+@60jU
+@6@FU
+@6@IU
+@6pDU
 @6pFU
-@6pIU
 @OS/2
 @Show
 @fff>fff>fff>fff>
@@ -1135,7 +1140,7 @@ $tIP
 @fffffx
 @fffffz
 @fffff|
-@n|tK
+@nLtK
 A Rather Long Title
 A#4A\v
 A*A3
@@ -1148,6 +1153,7 @@ A8_UNORM
 A:%0.3f
 A:%3d
 A;AAA[
+AA:0
 AAAA
 AABB
 ABOUT THIS DEMO:
@@ -2580,6 +2586,9 @@ Extensions
 EyeBallDataConstants_t
 EyeShader
 F'F2F>F\Fsa
+F0sU
+F@HU
+F@eU
 FACE_NAME
 FAMILY_NAME
 FC\r4
@@ -2600,7 +2609,7 @@ FOUNDRY
 FRAGMENT_SHADER
 FSType
 FULL_NAME
-F`sU
+F`cU
 Factor
 Failed to allocate scratch rendertarget for %s from pool. The following pool entries were matches:\n
 Failed to allocate space for morph!\n
@@ -2718,8 +2727,6 @@ Format
 ForwardLightSetup
 Four
 FourFourFour
-FpHU
-FpeU
 Frag
 FragmentBounds
 FragmentDrawArgs
@@ -2931,7 +2938,6 @@ Hammer/UsesBakedLighting
 Hand
 Handle ImGuiBackendFlags_RendererHasVtxOffset for 16-bit indices in your backend.
 HasRange: %s
-Ha|a
 Header
 Header with a close button
 HeaderActive
@@ -3513,7 +3519,6 @@ LPV_SH2_DC
 LPV_SH2_G
 LPV_SH2_R
 LU\fF
-L\fpo 
 LaLj
 Label1
 Label2
@@ -4176,7 +4181,7 @@ Override. Old value was 1.0
 Overrides the map's fog settings (-1 populates fog_ vars with map's values)
 P+\fGj
 P.P5
-P08N|tK
+P08NLtK
 P3\rA
 P8\nD
 PAPU
@@ -4196,6 +4201,7 @@ POSITION
 PRESSED
 PRE_RASTERIZATION_SHADERS
 PROGRAMMER GUIDE:
+P\iK
 PackId: 0x%X (%dx%d rect at %d,%d)
 Packed rects: %d, area: about %d px ~%dx%d px
 PackedBlobNormal
@@ -4284,6 +4290,7 @@ Plotting
 Plum
 Plus
 PmXh]=b
+Pn`|U
 Points
 PolitiFact: Who Lies More?
 Pollock
@@ -5654,13 +5661,13 @@ Using the simplified one-liner ListBox API here.\nRefer to the "List boxes" sect
 Usmall
 V$VYW
 V,V7VB
+V0wU
 V:%0.3f
 V:%3d
 VERTEX_ATTRIBUTE_READ_BIT
 VERTEX_INPUT
 VIEWMODEL_LAYER 
 VVector
-V`wU
 Validate
 Value = %.3f <-- (1) right-click this text
 Values
@@ -5729,6 +5736,7 @@ VolumetricFogVolumes
 VoxelSpaceFromWorldSpace
 Voxelize Density
 Voxelize Tangents
+VpBU
 Vsmall
 W$W>WBWSW
 W,W6
@@ -5942,7 +5950,6 @@ XInputGetState
 XK+G
 XUID
 X_HEIGHT
-Xf qU
 Xo1 WB
 Xsmall
 Y 3A
@@ -6170,15 +6177,13 @@ _WidthFixed
 _WidthStretch
 _XFREE86_GLYPH_RANGES
 _atlas
-`6 HU
-`6 QU
-`6pXU
-`f|tK
-`n|tK
+`6@XU
+`6`PU
+`fLtK
+`nLtK
 a'aCaYb"b8b
 a-a8
-a/p0
-aBv|tK
+aBvLtK
 aJ!\vA
 aJaP
 a\ft/tOtet
@@ -6408,7 +6413,6 @@ dagger
 daggerdbl
 darkening-parameters
 data%d
-db/@0
 dcroat
 dddd
 dear imgui says hello! (%s) (%d)
@@ -6548,8 +6552,8 @@ f(x) = sin(x)
 f(x) = sin(x)*3+1
 f(x) = sin(x)+1
 f(x) = sin(x+.5)*100+200 
-f0cU
 f?yu
+fLtK
 fPfo
 fWfc
 fakeview
@@ -6613,7 +6617,6 @@ fresnel_exponent
 frustum
 fullscreenquad
 func
-f|tK
 g5g>gK
 g?Q1
 gZgnhKhWhci
@@ -6645,8 +6648,9 @@ guillemotleft
 guillemotright
 guilsinglleft
 guilsinglright
-h=Ya
+h9Ya
 h>4hp?
+ha_a
 hair
 hairdensityaccumvolume
 hairdummybuffer
@@ -6661,7 +6665,6 @@ hairsimvelocityvolume
 hairtangentaccumvolume
 half
 has_preferred_x: %d (%.2f)
-he_a
 head
 heat
 heat1
@@ -7170,9 +7173,11 @@ nCascade
 nCompressedSize == nUncompressedSize
 nDepthBias
 nIndex < m_RenderTargets.Count()
+nLtK
 nPnq
 nPrevTransformBufferIndex < V_ARRAYSIZE( m_transformBufferSlotsForIndex )
 n^nf
+n`pU
 near_blue
 near_green
 near_red
@@ -7191,12 +7196,13 @@ nonbreakingspace
 nonmarkingreturn
 not 
 notequal
+nplU
+nprU
 nsuperior
 ntilde
 number of steps to push candidate plane behind depths.
 numbersign
 nxnstripped
-n|tK
 o O 0
 oEoOoZoaozo
 oacute
@@ -7231,11 +7237,13 @@ outer_size
 overlaps
 p q g j y
 p#p7pP
-p08@H^|tK
-p6PzU
-p>|tK
+p08@H^LtK
+p6 zU
+p6pjU
+p>LtK
 pCRF
-pFpHU
+pF@HU
+p\iK
 paragraph
 parallel
 parenleft
@@ -7267,7 +7275,7 @@ pixelvis_debug
 plots
 plus
 plusminus
-pn|tK
+pnLtK
 pos2Dtex2D
 post
 postscript-cmaps
@@ -7402,7 +7410,6 @@ roughness for LPV debug grid
 row bg target
 row bg type
 row_min_height
-rpo 
 rsuperior
 rtx_dynamic_blas
 rtx_dynamic_blas_caching
@@ -7780,6 +7787,7 @@ uv x offset during copy to cascade.
 uv y offset during copy to cascade.
 uvtangent
 v8vUb
+vLtK
 vertex cache
 vertex cache instances
 vertexbuffer
@@ -7804,7 +7812,6 @@ volume_fog_temporal_weight
 volume_fog_width
 volumetric fog
 volumetric_fog.vtex
-v|tK
 wDwNwYw`wy
 wH>r
 warn
@@ -7851,7 +7858,6 @@ x=300
 x>xoxyx~
 xF%\nD
 xIxRx[xe
-xb\f3
 xinput1_1.dll
 xinput1_2.dll
 xinput1_3.dll
@@ -7877,7 +7883,6 @@ zerooldstyle
 zerosuperior
 zezn
 };\nImPlotColormap %s = ImPlot::AddColormap("%s", %s_Data, %d);
-}\rPyU
 }~~~~~~~~~~~~~~~~
-~0YU
+~pBU
 ~wZ\tBu

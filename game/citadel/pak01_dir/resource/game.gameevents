@@ -237,6 +237,7 @@
 		"player"			"player_pawn"
 		"caster"			"ehandle"
 		"abilityname"		"string"
+		"annotation"		"string"
 	}
 
 	"player_used_item"

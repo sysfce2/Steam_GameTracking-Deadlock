@@ -38,7 +38,9 @@ CitadelKeyboardGlyph
 
 .MouseButtonGlyphContainer
 {
-	flow-children: none;
+	vertical-align: middle;
+	horizontal-align: center;
+	border-radius: 4px;
 }
 
 .KeyboardKeyGlyphContainer
@@ -143,6 +145,11 @@ CitadelKeyboardGlyph
 {
 	width: 22px;
 	height: 22px;
+}
+
+.MouseButtonGlyph
+{
+	padding: 1px;
 }
 
 .ModifierCombinerContainer

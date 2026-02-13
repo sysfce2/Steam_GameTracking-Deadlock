@@ -113,6 +113,7 @@ CitadelHud #StatusEffectContainer
 	height: 60%;
 	width: 60%;
 	background-size: 100% 100%;
+	background-texture-size: 32px;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	vertical-align: center;
@@ -171,6 +172,7 @@ CitadelHud #StatusEffectContainer
 	width: 100%;
 	height: 100%;
 	background-image: url("s2r://panorama/images/hud/world_space/status_border.vsvg");
+	background-texture-size: 48px;
 	background-size: 100%;
 	z-index: -2;
 	wash-color: offWhite;

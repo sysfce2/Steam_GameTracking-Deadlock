@@ -1302,7 +1302,6 @@ $tJ@T\tK
 (.CMsgSteamLearn_SnapshotProject_Response"-
 (0'yX
 (0x%08X)'??'
-(4PW
 (5Me
 (5jP
 (ACTIVE)
@@ -2074,6 +2073,7 @@ $tJ@T\tK
 .$$BY03M
 .$$BY03V?$Vec3D@M@@
 .$$BY03VGameTime_t@@
+.$$BY03_N
 .$$BY05H
 .$$BY07V?$Vec3D@M@@
 .$$BY09I
@@ -3698,7 +3698,7 @@ $tJ@T\tK
 .?AV?$CModifierFactory@VCCitadel_Modifier_HideoutIntro@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HideoutIntroExit@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Hideout_Teleport@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_HoldingGoldenIdol@@$0JE@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_HoldingGoldenIdol@@$0JD@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HollowPoint_Proc@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HollowPoint_Stack@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HookSelf@@$0PPPP@@@
@@ -4425,6 +4425,7 @@ $tJ@T\tK
 .?AV?$CNetworkArrayBase@VGameTime_t@@$03HVNetworkVar_m_flTimeSlowedEnd@CCitadelPlayerPawn@@@@
 .?AV?$CNetworkArrayBase@VGameTime_t@@$03HVNetworkVar_m_flTimeSlowedStart@CCitadelPlayerPawn@@@@
 .?AV?$CNetworkArrayBase@VGameTime_t@@$0BE@HVNetworkVar_m_rgTargetPosTime@CCitadel_Ability_TangoTether@@@@
+.?AV?$CNetworkArrayBase@_N$03HVNetworkVar_m_arrPreventAbilityLearning@CCitadelPlayerPawn@@@@
 .?AV?$CNetworkColorBase@VColor@@VNetworkVar_colorPrimary@fogparams_t@@@@
 .?AV?$CNetworkColorBase@VColor@@VNetworkVar_colorPrimaryLerpTo@fogparams_t@@@@
 .?AV?$CNetworkColorBase@VColor@@VNetworkVar_colorSecondary@fogparams_t@@@@
@@ -4566,6 +4567,7 @@ $tJ@T\tK
 .?AV?$CNetworkUtlVectorBase@VCUtlStringToken@@VNetworkVar_m_vecImbuedAbilities@ItemImbuementPair_t@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VCUtlStringToken@@VNetworkVar_m_vecQuickbuyQueue@CCitadelPlayerPawn@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VCUtlStringToken@@VNetworkVar_m_vecQuickbuySellQueue@CCitadelPlayerPawn@@$0?0H@@
+.?AV?$CNetworkUtlVectorBase@VCUtlStringToken@@VNetworkVar_m_vecRestrictedToItems@CCitadelPlayerPawn@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VCUtlStringToken@@VNetworkVar_m_vecUpgrades@PlayerDataGlobal_t@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VCUtlSymbolLarge@@VNetworkVar_m_AssociatedEntityNames@ActiveModelConfig_t@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VCUtlSymbolLarge@@VNetworkVar_m_vecCSSClasses@CInfoOffscreenPanoramaTexture@@$0?0H@@
@@ -11306,6 +11308,8 @@ $tJ@T\tK
 .?AVCInfoTrooperNeutralMovementNode@@
 .?AVCInfoTrooperNeutralSpawn@@
 .?AVCInfoTrooperSpawn@@
+.?AVCInfoTutorialController@@
+.?AVCInfoTutorialPoint@@
 .?AVCInfoVisibilityBox@@
 .?AVCInfoWorldLayer@@
 .?AVCInlineJob_CMsgClientWelcome_Server@@
@@ -14464,7 +14468,6 @@ $tJ@T\tK
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0v46*
 0x%s
 0}dV
 1 = also npc select enemy finders in my squad
@@ -14479,6 +14482,7 @@ $tJ@T\tK
 11nN
 12'0
 12v)
+1300
 14 (default)
 15\tr\
 16777215
@@ -14658,6 +14662,7 @@ $tJ@T\tK
 3wQ]
 3|rN>
 4)#bH
+4)\tC3
 4)m1
 474E4U4W4c4i4m4
 4<Td
@@ -14725,11 +14730,12 @@ $tJ@T\tK
 65535"
 65535"j\n
 65535B$
-6666666666666666 9
+6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
 6H,N
 6O|T%
+6PX/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14748,6 +14754,7 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
+6pZ/
 6qo~
 6r-m_v
 6r1ij
@@ -14797,8 +14804,6 @@ $tJ@T\tK
 8<pl
 8= zp
 8A6j
-8F@Z/
-8FPY/
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14831,6 +14836,7 @@ $tJ@T\tK
 9*VU
 95\r9{
 9966
+999999999
 9:dzGN
 9@Xp&
 9IGv
@@ -15016,6 +15022,7 @@ $tJ@T\tK
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
+>POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15039,11 +15046,11 @@ $tJ@T\tK
 >ztq
 ?33s?
 ?CAnimFoot
-?EWallAttachState
+?CCitadel_Modifier_Infested
 ?HAI\t81\t9dcG'
 ?HP4
 ?OnSource1LegacyGameEventListenBitsReceived: game event %i not found.\n
-?Plays when a projectile hits the world ONLY.
+?Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15065,11 +15072,10 @@ $tJ@T\tK
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N46*
 @0pp
-@6PP/
 @Accolades
 @BH]f
+@HPX`hvP
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15083,12 +15089,9 @@ $tJ@T\tK
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
-@f46*
 @fff>fff>fff>fff>
-@htPW
 @i1V
 @n2w
-@n46*
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A bias on the lerp
@@ -15492,6 +15495,7 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
+Aability_gunslinger_knockbackblast
 AbW_
 Abandon
 Abandoned
@@ -16460,7 +16464,7 @@ Batched Inference response without corresponding waiting handle! (%d)
 Batched Snapshot response without corresponding waiting handle! (%d)
 BatteryGenerationPercent
 BcT`
-Bcitadel_guided_bot_match_net_worth_boost
+Bcitadel_death_replay_pre_death_time
 Bd]U
 Beam Weapon
 BeamClipStyle_t
@@ -17013,7 +17017,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\baseflex_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayercontroller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayerpawn_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\breakableprop.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1449
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1451
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1026
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:287
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:329
@@ -17026,8 +17030,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_b
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_beam.cpp:243
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4133
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4307
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4142
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4316
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_gamerules.cpp
@@ -17041,7 +17045,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_player_pa
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_player_pawn_shared.cpp:1889
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stat_tracker_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stats_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_archer.cpp:1229
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_archer.cpp:1236
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:549
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_familiar.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp
@@ -19363,7 +19367,6 @@ CCitadel_Modifier_InMenu
 CCitadel_Modifier_InMenuVData
 CCitadel_Modifier_InShopTunnel
 CCitadel_Modifier_IncendiaryDebuff
-CCitadel_Modifier_Infested
 CCitadel_Modifier_InfestedBuilding
 CCitadel_Modifier_InfiniteMagazineActive
 CCitadel_Modifier_Infuser
@@ -21003,7 +21006,6 @@ CInfoDynamicShadowHintBox
 CInfoFan
 CInfoGameEventProxy
 CInfoHeroTestingController
-CInfoHeroTestingController:  Couldn't determine duration of %s\n
 CInfoHeroTestingPoint
 CInfoInstructorHintTarget
 CInfoInteraction
@@ -21026,6 +21028,8 @@ CInfoTrooperNeutralCamp
 CInfoTrooperNeutralMovementNode
 CInfoTrooperNeutralSpawn
 CInfoTrooperSpawn
+CInfoTutorialController
+CInfoTutorialPoint
 CInfoVisibilityBox
 CInfoWorldLayer
 CInlineJob_CMsgClientWelcome_Server
@@ -22081,6 +22085,7 @@ CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecFullSellPriceItems ,
 CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecImbuedAbilities , -1, int >
 CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecQuickbuyQueue , -1, int >
 CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecQuickbuySellQueue , -1, int >
+CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecRestrictedToItems , -1, int >
 CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecUpgrades , -1, int >
 CNetworkUtlVectorBase< FullSellPriceAbilityUpgrades_t, NetworkVar_m_vecFullSellPriceAbilityUpgrades , -1, int >
 CNetworkUtlVectorBase< GameTime_t, NetworkVar_m_vecNextExplosionTime , -1, int >
@@ -25419,7 +25424,6 @@ DateTime('UTC')
 DazeDuration
 DbgBit
 DcO/lcK+hSK
-Dcitadel_default_reveal_duration
 Dd g4X3
 Deactivate
 Deactivated
@@ -27482,6 +27486,7 @@ EVisibleByMirageTeleport
 EVisibleByNPC
 EVisibleByObjective
 EVisibleFromAttackingEnemyPlayer
+EWallAttachState
 EWallJumpFacing
 EWeakPointBreakBehavior
 EWeaponAttribute_BeamWeapon
@@ -27688,7 +27693,6 @@ End Position to Goal Position
 End Time
 EndHint
 EndJumpVelocity
-EndLaneTest
 EndOfHookCommandRestrictLinger
 EndOfHookMoveSpeedBonus
 EndOfHookSlowTargetDuration
@@ -27972,7 +27976,6 @@ F'pY
 F+Zb
 F,mZq
 F/o4
-F0a/
 F2M+
 F6tr
 F7!z
@@ -28668,6 +28671,8 @@ Found target!\n
 Found target\n
 FourQuaternions
 FourVectors
+Fph7
+Fpm/
 Frac
 Frac * 5 Players to get how much extra buildup is added. Larger values make the buildup complete faster.  0.2 (*5 Players) is exactly halving the buildup time
 Fractional component (ie. returns 0.34 for 12.34)
@@ -30627,7 +30632,6 @@ InputEnablePuntSound
 InputEnableShadow
 InputEnableUpdateTarget
 InputEndHint
-InputEndLaneTest
 InputEndTouch
 InputExplode
 InputExtinguish
@@ -30998,7 +31002,6 @@ InputStartCommentary
 InputStartFogTransition
 InputStartForward
 InputStartGlowing
-InputStartLaneTest
 InputStartPlayback
 InputStartReverse
 InputStartShake
@@ -32342,7 +32345,6 @@ MODIFIER_STATE_NECRO_GUNTETHER
 MODIFIER_STATE_NECRO_GUN_BONUSTETHER
 MODIFIER_STATE_NECRO_PICKUP_TARGET
 MODIFIER_STATE_NECRO_WITHER
-MODIFIER_STATE_NON_ULT_SIGNATURE_ABILITIES_DISABLED
 MODIFIER_STATE_NO_INCOMING_DAMAGE
 MODIFIER_STATE_NO_MINIMAP
 MODIFIER_STATE_NO_OUTGOING_DAMAGE
@@ -33726,12 +33728,9 @@ NPC Vault Sounds
 NPC View Cone
 NPC collides with entity %d, class '%s', name '%s', (%0.2f, %0.2f, %0.2f)\n
 NPC prevented transition
-NPC.Reporter.NewPlayer.VO.Sandbox.Abilities.Edit2
-NPC.Reporter.NewPlayer.VO.Sandbox.Hyperline
-NPC.Reporter.NewPlayer.VO.Sandbox.Mods
+NPC.Reporter.NewPlayer.VO.Sandbox.Completed
 NPC.Reporter.NewPlayer.VO.Sandbox.OpenShop
 NPC.Reporter.NewPlayer.VO.Sandbox.TestControls
-NPC.Reporter.NewPlayer.VO.Sandbox.Upgrade
 NPCAILODDesc_t
 NPCAttachmentDesc_t
 NPCAttachmentSpawnKV_t
@@ -34952,10 +34951,10 @@ P-224
 P-256
 P-384
 P-521
-P08N46*
 P1\t98"
 P5[1
-P6 2/
+P60d/
+P6px/
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -35249,7 +35248,6 @@ POSE_SPACE_MORPH
 POST
 POST 
 POTG Eval Result: score %.2f\n
-POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
 POTG Eval: Found replay\n
 POTG Eval: No POTG found - used last timeframe\n
 POTG Eval: No POTG\n
@@ -35699,6 +35697,7 @@ Plays alongside the default footstep.
 Plays when a projectile detonates. Not all projectiles detonate.
 Plays when a projectile hits a valid target - or the world. Not the same as detonating, just colliding.
 Plays when a projectile hits a valid target ONLY.
+Plays when a projectile hits the world ONLY.
 Plays when the enable period starts.
 Plays when the juggle run ends (the ball touches a ground surface). This is not the same as contact sounds. It's a gameplay event
 Plays when the point is fully captured.
@@ -35710,7 +35709,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn46*
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -38510,6 +38508,7 @@ Sets the value of the given cvar, as a float.
 Sets this entity's owner
 Sets whether or not NPCs can cache their Visibility checks against other entities. If set to 2, also tests to make sure that NPC->Target results match that of Target->NPC.
 Sets whether or not the visibility check cache should be reciprocal.
+Sets you to a specific spot in the tutorial
 Setting an animgraph parameter via Pulse is only supported on prop_dynamic!
 Setting nav_select_hull to %d for selected NPC.\n
 Setting next camp '%s' spawn time to: %f, %f seconds into the future\n
@@ -38651,7 +38650,6 @@ Shows Stun Status Effect in the Important Box
 Shows Tethered Status Effect in the Important Box
 Shows Unstoppable Status Effect in the Important Box
 Shows base damage below what sv_showimpacts would show, and if a player was hit he'll show the damage he took above it (as healthdamage (armorabsorbed)).  1 = show hits.  2 = show hits and misses
-Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
 Shows debug properties.
 Shows memory of NPC.  Draws an X on top of each memory.\n\tEluded entities drawn in blue (don't know where it went)\n\tUnreachable entities drawn in green (can't get to it)\n\tCurrent enemy drawn in red\n\tCurrent target entity drawn in magenta\n\tAll other entities drawn in pink\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
 Shows player spawn points (red=invalid)
@@ -38922,6 +38920,7 @@ Spawning camp '%s' at match time %f because its respawn was at '%f\n
 Spawning...
 Spawns an NPC with an npc_maker or npc_template_maker entity. Returns EHANDLE to spawned entity if successful
 Spawns an entity that activates sandbox mode controls.
+Spawns an entity that activates tutorial mode controls.
 Spawns any neutral camps within 800 units (~20m)
 Spawns the escort with an optional delay
 Speak
@@ -39144,7 +39143,6 @@ StartForward
 StartGlowing
 StartHintDisabled
 StartLagCompensation
-StartLaneTest
 StartNewShot: %d   next: %d\n
 StartParticleSystemThink
 StartPosition
@@ -39272,7 +39270,6 @@ Stick to valid targets
 Stick to world
 Still in the last area
 Stinger.EnTeam_CartActivated
-Stinger.Tutorial.Complete
 Stinger.YrTeam_CartActivated
 StitchPath has incorrect ending\n
 StolenAbilityPair_t
@@ -40660,6 +40657,7 @@ UF_FAIL_INVALID_TEAM
 UF_FAIL_INVALID_TYPE
 UF_SUCCESS
 UI Messages
+UI.CommendConfirmation
 UI.Match.End
 UI.Shop.Ability.Train
 UI.Shop.Ability.Upgrade
@@ -41262,7 +41260,6 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
-Vpm/
 Vs Player DPS
 Vs Trooper DPS
 VsInputSignatureElement_t
@@ -41953,8 +41950,6 @@ XYD%
 X\tQo
 Xd3h
 XfJ7
-XfP\/
-Xfp]/
 XjfR
 XqgA+
 Xuub
@@ -43053,6 +43048,7 @@ Z~wl
 \rrCj
 \rstyle_index_t
 \rusercmd.proto"
+\rxh7
 \sG7tPD
 \t"%s" "%.2f"\n
 \t"%s" "%i"\n
@@ -43228,7 +43224,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6pz/
+`60T/
 `:zQF
 `D$daM-l
 `DZG
@@ -43236,10 +43232,8 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`f46*
 `fPw.\vM
 `h9T~
-`n46*
 `o_je
 `yNT
 a null shared library handle was used
@@ -43258,7 +43252,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv46*
 aD/x
 aDSS
 aECDH
@@ -43401,7 +43394,6 @@ ability_graf_ability03
 ability_graf_ult
 ability_gravity_lasso
 ability_guided_arrow
-ability_gunslinger_knockbackblast
 ability_gunslinger_spreadingfire
 ability_hat_trick
 ability_health_swap
@@ -44044,6 +44036,7 @@ animgraph_trace_ignore_prop_physics
 animgraph_trace_static_only
 animgraphcontroller
 animlib
+annotation
 announce_event
 announcer
 announcer_preview
@@ -44711,6 +44704,7 @@ bool1_
 bool2_
 bool3_
 bool4_
+bool[4]
 boolean is wrong length
 boost_hint
 boss
@@ -45396,6 +45390,7 @@ citadel_boss_tier_3_test_shrine_attack
 citadel_boss_tier_3_testing_enter_phase2
 citadel_boss_tier_3_testing_reset
 citadel_bot_attack_enemies
+citadel_bot_attack_enemies1
 citadel_bot_brain_aim_angle_attack
 citadel_bot_brain_aim_inaccuracy
 citadel_bot_brain_aim_inaccuracy_speed
@@ -45417,6 +45412,7 @@ citadel_bot_brain_parry_tick_frequency
 citadel_bot_brain_stop_shooting_los_time
 citadel_bot_broadcast_updates
 citadel_bot_buddy
+citadel_bot_choose_balanced_lanes
 citadel_bot_crouch
 citadel_bot_director_base_threat_distance
 citadel_bot_director_debug_spew
@@ -45429,6 +45425,7 @@ citadel_bot_director_respawn_window
 citadel_bot_director_zipline_min
 citadel_bot_director_zipline_stable
 citadel_bot_disconnect_takeover_enabled
+citadel_bot_fight_for_idol
 citadel_bot_give_all_abilities
 citadel_bot_give_all_abilities_base
 citadel_bot_give_team_gold
@@ -45441,6 +45438,7 @@ citadel_bot_melee
 citadel_bot_mimic_player_pitch
 citadel_bot_move_random
 citadel_bot_net_worth_max_spawn_time
+citadel_bot_override_spawn_time
 citadel_bot_parry
 citadel_bot_passive_gold_enabled
 citadel_bot_playrecording
@@ -45554,7 +45552,6 @@ citadel_dash_cast_ability
 citadel_death_linger_time
 citadel_death_replay_enabled
 citadel_death_replay_post_death_time
-citadel_death_replay_pre_death_time
 citadel_death_replay_pre_death_time_quick
 citadel_debug_ability_beams
 citadel_debug_barrier_damage_order
@@ -45573,6 +45570,7 @@ citadel_debug_trooper_look_target
 citadel_debug_zipline_camera_height_add
 citadel_debug_zipline_camera_side_add
 citadel_default_bot_difficulty
+citadel_default_reveal_duration
 citadel_deny_denied_percentage
 citadel_deny_denier_percentage
 citadel_deny_orb_scale
@@ -45684,6 +45682,7 @@ citadel_guide_bot_say
 citadel_guided_bot_ap_boost
 citadel_guided_bot_match
 citadel_guided_bot_match_countdown_time
+citadel_guided_bot_match_net_worth_boost
 citadel_guided_bot_match_net_worth_target
 citadel_guided_bot_match_report_card_time
 citadel_guided_bot_t1_boss_ignore_damage_threshold
@@ -45701,32 +45700,11 @@ citadel_hero_demo_spawn_items
 citadel_hero_demo_unlock_flex_slots
 citadel_hero_refresh
 citadel_hero_release_vote_august_2025_debug_votes_cast_total
-citadel_hero_testing_ability1_state
-citadel_hero_testing_ability2_state
-citadel_hero_testing_ability3_state
-citadel_hero_testing_ability4_state
-citadel_hero_testing_ability_learn_finished
-citadel_hero_testing_ability_purchased_finished
-citadel_hero_testing_ability_upgrade_finished
-citadel_hero_testing_dash_finished
 citadel_hero_testing_dummy_target
 citadel_hero_testing_enabled
 citadel_hero_testing_give_abilities
-citadel_hero_testing_guided_sandbox
-citadel_hero_testing_hide_mods
 citadel_hero_testing_infinite_money
-citadel_hero_testing_jump_finished
-citadel_hero_testing_mantle_finished
-citadel_hero_testing_mods_purchased_finished
 citadel_hero_testing_money
-citadel_hero_testing_movement_finished
-citadel_hero_testing_reload_finished
-citadel_hero_testing_shoot_finished
-citadel_hero_testing_show_intro_modal
-citadel_hero_testing_show_outro_modal
-citadel_hero_testing_wasd_finished
-citadel_hero_testing_zipline_attach_finished
-citadel_hero_testing_zoom_finished
 citadel_herotest_orbspawner
 citadel_hideout_ball
 citadel_hideout_ball_combat
@@ -45763,6 +45741,7 @@ citadel_item_pickup_fallrate
 citadel_item_pickup_idol
 citadel_item_pickup_rejuv
 citadel_item_pickup_rejuv_herotest
+citadel_item_pickup_rejuv_herotest_infospawn
 citadel_item_powerup_spawner
 citadel_item_punchable_gold
 citadel_item_purchases_force_enhanced
@@ -45880,6 +45859,7 @@ citadel_npc_debug_enemies
 citadel_npc_debug_look_target
 citadel_npc_disable_cockroaches
 citadel_npc_disable_floor_point_caching
+citadel_npc_dps_multiplier
 citadel_npc_force_animate_every_tick
 citadel_npc_jump_gravity_mult
 citadel_npc_max_direct_follow_distance
@@ -46100,6 +46080,7 @@ citadel_spew_ping_recipients
 citadel_spew_rate_limited_suppressed_sounds
 citadel_spider_animating
 citadel_spray_max_range
+citadel_start_players_on_zipline
 citadel_stat_preview
 citadel_stat_tracker.h
 citadel_steamlearn_disable
@@ -46219,6 +46200,43 @@ citadel_trooper_use_ziplines
 citadel_trooper_waypoint_threshold
 citadel_trooper_zipline_leap_speed
 citadel_tunnel_trigger
+citadel_tutorial_ability1_state
+citadel_tutorial_ability2_state
+citadel_tutorial_ability3_state
+citadel_tutorial_ability4_state
+citadel_tutorial_ability_learn_finished
+citadel_tutorial_ability_purchased_finished
+citadel_tutorial_ability_upgrade_finished
+citadel_tutorial_ability_use_finished
+citadel_tutorial_air_dash_finished
+citadel_tutorial_auto_teleport_dist
+citadel_tutorial_close_shop
+citadel_tutorial_controller
+citadel_tutorial_dash_finished
+citadel_tutorial_enabled
+citadel_tutorial_guardian_destroyed
+citadel_tutorial_heavy_melee_finished
+citadel_tutorial_hide_mods
+citadel_tutorial_jump_finished
+citadel_tutorial_kill_troopers_finished
+citadel_tutorial_light_melee_finished
+citadel_tutorial_mantle_finished
+citadel_tutorial_mods_purchased_finished
+citadel_tutorial_movement_finished
+citadel_tutorial_near_guardian_finished
+citadel_tutorial_parry_finished
+citadel_tutorial_reload_finished
+citadel_tutorial_shoot_finished
+citadel_tutorial_shop_closed
+citadel_tutorial_show_intro_modal
+citadel_tutorial_show_outro_modal
+citadel_tutorial_slide_finished
+citadel_tutorial_test
+citadel_tutorial_troopers_remaining
+citadel_tutorial_ultimate_used
+citadel_tutorial_wasd_finished
+citadel_tutorial_zipline_attach_finished
+citadel_tutorial_zoom_finished
 citadel_unlock_flex_slots
 citadel_unlock_flex_slots\n
 citadel_unpause_countdown
@@ -48251,9 +48269,9 @@ eyj5yR
 f#9i\n
 f%wyLmX:
 f&dy
+f0Q/
 f1cK%
 f45\r
-f46*
 f4MaxDist
 f4MinDist
 f4RelaxationFactor
@@ -48798,7 +48816,6 @@ found_friendship
 fov_desired
 fow_control_point
 fow_control_point2
-fpB/
 fpnS
 frac
 fraction
@@ -49360,6 +49377,7 @@ heat_display
 heat_power
 heat_temp
 heavy
+heavy_melee
 heavy_melee_chance
 heavy_melee_chance_in_reload
 heavy_melee_damage
@@ -49401,7 +49419,9 @@ hero_incoming_bullets_crit
 hero_incoming_bullets_fired
 hero_incoming_bullets_hit
 hero_inferno
+hero_inferno,hero_orion,hero_haze
 hero_kelvin
+hero_kelvin,hero_forge
 hero_locked
 hero_magician
 hero_magician_henry
@@ -50116,6 +50136,7 @@ info_teleport_destination
 info_teleport_location
 info_trigger_fan
 info_trooper_spawn
+info_tutorial_point
 info_visibility_box
 info_world_layer
 infos
@@ -51573,6 +51594,7 @@ light_dynamic
 light_dynamic at [%d %d %d] has invalid exponent value (%d must be between %d and %d).\n
 light_environment
 light_map_uniqueid
+light_melee
 light_melee_damage
 light_name
 light_omni
@@ -52561,6 +52583,7 @@ m_FailChooseEnemyTimer
 m_FailOutflow
 m_FailureParticle
 m_FakeFamiliarParticle
+m_FallSpeedCurve
 m_FallSpeedMax
 m_FanForceCurveString
 m_FeModelAnims
@@ -54424,6 +54447,7 @@ m_arPendingAsyncAbilityReservationSlots
 m_arPriceAdjustPercentForTier
 m_arrForceSubtickMoveWhen
 m_arrGoldSources
+m_arrPreventAbilityLearning
 m_associatedRelayEntity
 m_associatedRelayTargetName
 m_attachToBoneID
@@ -55416,7 +55440,6 @@ m_bPredictedOwner
 m_bPreparing
 m_bPreppingShoot
 m_bPrereleaseOnly
-m_bPreventAbilityLearning
 m_bPreventChangesWhileMoving
 m_bPreventLoopback
 m_bPreventMovement
@@ -57818,7 +57841,6 @@ m_flMaxElevation
 m_flMaxExposure
 m_flMaxEyeDeflection
 m_flMaxFallSpeed
-m_flMaxFallSpeedWhileChanneling
 m_flMaxFlyHeight
 m_flMaxForce
 m_flMaxFrame
@@ -62568,7 +62590,6 @@ m_strShootDelaySound
 m_strShootOrigin
 m_strShootSound
 m_strShopIconLarge
-m_strShopIconSmall
 m_strShotReleaseSound
 m_strShotSound
 m_strSilenceTargetSound
@@ -63625,6 +63646,7 @@ m_vecRenderAttributes
 m_vecReportedPosition
 m_vecRespawnTimes
 m_vecRespondsToConcepts
+m_vecRestrictedToItems
 m_vecReturningHitList
 m_vecRotatorHistory
 m_vecRotatorQueue
@@ -65157,7 +65179,6 @@ n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
 n1Z 
-n46*
 n5cM
 n6j/
 n:2C[
@@ -65893,7 +65914,6 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
-npZ/
 npc_ability_name
 npc_ability_range_debug
 npc_barrack_boss
@@ -66310,14 +66330,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^46*
-p0jP\v
+p0j`s
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p>46*
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -66889,7 +66907,6 @@ player_fire_only
 player_footstep
 player_given_barrier
 player_given_shield
-player_guided_sandbox_started
 player_heal_prevented
 player_healed
 player_healing
@@ -66940,7 +66957,6 @@ playoverscript
 plays for local player attacker dealing damage with this ability
 plays for local player victim taking damage from this ability
 pm_bSendToClients
-pn46*
 point
 point arithmetic failure
 point at infinity
@@ -68812,6 +68828,7 @@ spawn
 spawn group
 spawnGroupType
 spawn_breakpieces
+spawn_citadel_tutorial_controller
 spawn_frequency_dist_to_nearest
 spawn_frequency_seconds
 spawn_group_activate
@@ -70312,6 +70329,7 @@ upgrade_diviners_kevlar
 upgrade_double_jump
 upgrade_dps_aura
 upgrade_electric_slippers
+upgrade_escalating_exposure
 upgrade_express_shot
 upgrade_fire_rate_aura
 upgrade_fleetfoot_boots
@@ -70339,6 +70357,7 @@ upgrade_mod_disruptor
 upgrade_mystic_regeneration
 upgrade_mystic_reverb
 upgrade_name
+upgrade_non_player_bonus
 upgrade_non_player_bonus_sacrifice
 upgrade_nullification_aura
 upgrade_omnicharge_pendant
@@ -70469,7 +70488,6 @@ v2i_ASN1_BIT_STRING
 v2i_GENERAL_NAMES
 v2i_GENERAL_NAME_ex
 v3\vt
-v46*
 v8array
 v8callback
 v8object
@@ -70972,7 +70990,6 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-zDcitadel_item_pickup_rejuv_herotest_infospawn
 zF):O4
 zFar
 zG2m8

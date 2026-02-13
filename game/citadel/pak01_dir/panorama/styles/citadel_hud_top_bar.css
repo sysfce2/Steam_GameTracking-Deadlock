@@ -346,7 +346,7 @@ CitadelHudTopBarTeam.enemy
 	overflow: noclip;
 }
 
-.connectedToHeroTesting .friend #PlayersContainer,.gamemode_streetbrawl .friend #PlayersContainer,.TeamSpectator.gamemode_streetbrawl .team1 #PlayersContainer
+.connectedToHeroTesting .friend #PlayersContainer,.gamemode_streetbrawl .friend #PlayersContainer,.TeamSpectator.gamemode_streetbrawl .team1 #PlayersContainer,.connectedToTutorial .friend #PlayersContainer
 {
 	flow-children: left;
 }

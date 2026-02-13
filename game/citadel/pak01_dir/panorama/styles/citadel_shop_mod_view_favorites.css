@@ -225,7 +225,7 @@ CitadelShopMod
 	visibility: visible;
 }
 
-.connectedToNewPlayerSandbox .new_tag,.connectedToLaneTraining .new_tag
+.connectedToNewPlayerSandbox .new_tag,.connectedToTutorial .new_tag
 {
 	visibility: collapse;
 }

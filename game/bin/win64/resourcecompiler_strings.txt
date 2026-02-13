@@ -167,7 +167,9 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (08@HPX`j`
+ (08@HPXb@
  (08@HPZ`
+ (0X`hpz@
  (Bad Remap %d)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -20345,6 +20347,7 @@ $prefix_element$
 02V8[
 05=k
 08@HR`
+08@J@
 08B`
 08bX
 09,h
@@ -20357,7 +20360,6 @@ $prefix_element$
 0\r%0t
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
-0lq]
 0pp@5tqE?|sO541
 0tU+xc:
 0x%llx
@@ -20378,11 +20380,11 @@ $prefix_element$
 1.01 8.0
 10 2000
 100 22050
+11:23:27
 11nN
 12'0
 1280x720
 12v)
-13:26:11
 14 (default)
 15\tr\
 16-byte data pool
@@ -20435,8 +20437,7 @@ $prefix_element$
 2\fWQx
 2\rE2h
 2\rlhp
-2\vpL
-2\vpXw
+2\vpt
 2^pV
 2_BONE_IK
 2a"l
@@ -20789,14 +20790,12 @@ $prefix_element$
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
-@08Nd
 @0pp
-@6PD
-@6PF
 @Ah5
 @BH]f
-@CCompressedFullVector4D
 @CMixControlAutomatic
+@HPX`hv`[
+@HV0i
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -23005,6 +23004,7 @@ CCompressedFullQuaternion
 CCompressedFullShort
 CCompressedFullVector2D
 CCompressedFullVector3
+CCompressedFullVector4D
 CCompressedStaticBool
 CCompressedStaticChar
 CCompressedStaticColor32
@@ -29574,6 +29574,7 @@ Feature combo %s referenced in expression doesn't exist.
 FeatureAlias
 FeatureRule
 Features
+Feb 13 2026
 Feedback
 Feedback (dB)
 Feedback Depth
@@ -33959,10 +33960,11 @@ P-224
 P-256
 P-384
 P-521
-P08Nd
+P08@J@
+P08JP
 P1\t98"
 P5[1
-P6Pv
+P6PJ
 PAGN_4
 PANEL
 PANEL_ATTRIBUTE
@@ -34563,6 +34565,7 @@ PetEvent_DocumentReplaced_t
 PetEvent_PropertyDomainTopologyChanged_t
 PetGroundType_t
 Pf\n%d %d\n-1.000000\n
+PfpK
 Phase
 Phase ( 0 - 1 )
 Phase (degrees)
@@ -34744,6 +34747,7 @@ Please move your current gameinfo.gi agent settings to a %s file and create a %s
 Please specify parent for the cluster
 Pm8A?
 PmR"H?
+Pn0M
 Point
 Point 0
 Point 1
@@ -35393,11 +35397,11 @@ RTPROXY_INSTANCE_UNIQUE_MESH
 RTProxyBLAS_t
 RTProxyInstanceFlags_t
 RTProxyInstanceInfo_t
-R\fpXw
 R\r1>Vp
 R\vp!6
 R\vp!y
-R\vpL
+R\vpT
+R\vpt
 R]Di
 R_T5Y
 Rad2 Deg
@@ -39702,6 +39706,7 @@ X\tQo
 X`hr`
 Xd3h
 XfJ7
+Xf`m
 XjfR
 XqgA+
 Xuub
@@ -40050,6 +40055,7 @@ Z~wl
 \tMean Edge Length: %.2f\n
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tNode %s, Vert Count: %u (%s)\n
+\tP0k
 \tRemoved Degenerate Triangle Count: %i\n
 \tTriangle Count: %i\n
 \tUnique Geometry: %s unique meshes w/ %s tris, %s verts\n
@@ -40108,11 +40114,11 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
+\vP0k
 \vUY6[E
 \v\vTSG
 \vj0k
 \vjC7
-\vpXw
 ] Done (%.2f seconds)
 ]1h=bfz
 ]>jkT>Q3
@@ -40302,9 +40308,7 @@ _zero
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6Ps
-`6pF
-`6pG
+`6PG
 `:zQF
 `=IhC?zm6>
 `D$daM-l
@@ -40332,7 +40336,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvd
 aD/x
 aDSS
 aECDH
@@ -44190,6 +44193,7 @@ g|FeW\v
 g|MT
 h&eC
 h*Ax
+h.\n02
 h0XB
 h2Wl
 h2n_\
@@ -44368,6 +44372,7 @@ horizontal differencing
 horizontal_pose_param_name
 houdini
 houseIdentifier
+hpz@
 hr_H
 hsequence
 http request
@@ -50943,15 +50948,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^d
+p0j 
 p2{l
 p4Z3
 p4lib
 p5Z3
 p5\nL,
-p60K
 p618
-p6Pg
 p=f3G=
 p@0pqE5tsO?|1
 pCheckpointName
@@ -50959,7 +50962,6 @@ pD4t
 pDescription
 pEnumInfo
 pEvent != nullptr
-pF@6
 pG_*h
 pIp 
 pMaterialGroupName
@@ -51136,7 +51138,7 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
-pc64 Feb 12 2026 13:26:14
+pc64 Feb 13 2026 11:23:28
 pcPathLengthConstraint
 peak
 peak_attr
@@ -51612,15 +51614,14 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpT
 r\vDi
-r\vpXw
 r_freezeparticles
 r_limit_particle_job_duration
 r_particle_max_detail_level
 r_particle_timescale
 r_threaded_particle_creation
 r_threaded_particles
-r`fD
 rad2deg
 radians
 radius0_key

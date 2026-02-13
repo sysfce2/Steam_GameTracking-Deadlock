@@ -51,7 +51,10 @@ CitadelPlayPage
 
 #PrimaryModes
 {
-	margin: 20px;
+	height: fill-parent-flow(1.0);
+	vertical-align: bottom;
+	margin: 0px 20px;
+	margin-top: -20px;
 	flow-children: right;
 }
 
@@ -64,7 +67,8 @@ Label.PlayTitle
 	padding: 0px;
 	font-family: block;
 	text-transform: uppercase;
-	horizontal-align: middle;
+	horizontal-align: left;
+	margin-left: 80px;
 	font-family: oracle;
 }
 
@@ -98,6 +102,13 @@ Label.PlayTitle
 	width: 100%;
 	vertical-align: bottom;
 	margin-bottom: 100px;
+}
+
+#Option_Tutorial2026 .TextArea,#Option_Tutorial_BotsBrawl .TextArea
+{
+	margin-bottom: 0px;
+	margin-left: 30px;
+	vertical-align: middle;
 }
 
 #Option_StreetBrawl .TextArea
@@ -148,7 +159,8 @@ Label.PlayTitle
 {
 	background-color: offBlack;
 	width: 100%;
-	height: 100%;
+	height: 90%;
+	vertical-align: middle;
 	animation-name: TagGroove1;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
@@ -158,6 +170,12 @@ Label.PlayTitle
 .DescArea .titleBG
 {
 	animation-name: TagGroove2;
+	animation-name: none;
+}
+
+.tutorial_button .titleBG
+{
+	background-color: rgb(23, 6, 31);
 }
 
 @keyframes 'TagGroove1'
@@ -220,7 +238,7 @@ Label.PlayTitle
 
 .playoptionLabel
 {
-	font-size: 52px;
+	font-size: 50px;
 	font-family: serif;
 	font-weight: bold;
 	horizontal-align: center;
@@ -230,13 +248,18 @@ Label.PlayTitle
 	font-family: oracle;
 	text-transform: uppercase;
 	text-overflow: shrink;
-	padding: 0px 16px;
-	max-height: 80px;
+	padding: 0px 12px;
+	max-height: 70px;
+}
+
+.tutorial_button .playoptionLabel
+{
+	color: #edc8ff;
 }
 
 #SubModes .playoptionLabel
 {
-	max-height: 60px;
+	max-height: 70px;
 }
 
 .Language_japanese .playoptionLabel
@@ -286,9 +309,8 @@ Label.PlayTitle
 {
 	flow-children: down;
 	width: 600px;
-	height: 500px;
+	height: 550px;
 	vertical-align: middle;
-	margin: 40px 0px;
 }
 
 .playoption
@@ -333,7 +355,6 @@ Label.PlayTitle
 #SubModesContainerTop
 {
 	flow-children: right;
-	height: 50%;
 	width: fit-children;
 }
 
@@ -344,10 +365,18 @@ Label.PlayTitle
 	width: fit-children;
 }
 
+#SubModesContainerNewPlayer
+{
+	flow-children: right;
+	height: fit-children;
+	width: fit-children;
+}
+
 .playoption.smallButton
 {
 	width: fill-parent-flow(1.0);
 	height: fill-parent-flow(1.0);
+	height: 260px;
 	margin: 0px 10px;
 }
 
@@ -402,7 +431,7 @@ Label.playModeDesc
 	font-size: 16px;
 	color: offWhite&50;
 	font-weight: semi-bold;
-	padding: 5px 15px;
+	padding: 5px 10px;
 	text-overflow: shrink;
 }
 
@@ -504,6 +533,16 @@ Label.playModeDesc
 	background-image: url("s2r://panorama/images/main_menu/play/card_custom_psd.vtex");
 }
 
+#Option_Tutorial2026 .backgroundImg
+{
+	background-image: url("s2r://panorama/images/main_menu/play/card_tutorial_psd.vtex");
+}
+
+#Option_Tutorial_BotsBrawl .backgroundImg
+{
+	background-image: url("s2r://panorama/images/main_menu/play/card_tutorial_psd.vtex");
+}
+
 .playoption:hover .backgroundImg
 {
 	pre-transform-scale2d: 1.1;
@@ -518,6 +557,16 @@ Label.playModeDesc
 #Option_PlayersVsBots.playoption:hover .backgroundImg
 {
 	transform: rotateZ(2deg);
+}
+
+#Option_Tutorial2026.playoption:hover .backgroundImg
+{
+	transform: rotateZ(-2deg);
+}
+
+#Option_Tutorial_BotsBrawl.playoption:hover .backgroundImg
+{
+	transform: rotateZ(-2deg);
 }
 
 .playImage
@@ -718,5 +767,83 @@ Label.playModeDesc
 	font-weight: bold;
 	horizontal-align: center;
 	vertical-align: center;
+}
+
+#Option_Tutorial2026,#Option_Tutorial_BotsBrawl
+{
+	visibility: collapse;
+}
+
+.showTutorial #SubModes,.showBrawlBots #SubModes
+{
+	height: 800px;
+}
+
+.showTutorial #Option_Tutorial2026
+{
+	visibility: visible;
+}
+
+.showBrawlBots #Option_Tutorial_BotsBrawl
+{
+	visibility: visible;
+}
+
+.tutorial_button
+{
+	animation-name: tutorial_glow;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.tutorial_button:hover
+{
+	animation-name: none;
+}
+
+@keyframes 'tutorial_glow'
+{
+	0%
+	{
+		brightness: 1;
+		pre-transform-scale2d: 1;
+	}
+	
+	50%
+	{
+		brightness: 1.2;
+		pre-transform-scale2d: 1.03;
+		transform: rotateZ(0deg);
+	}
+	
+	100%
+	{
+		brightness: 1;
+		pre-transform-scale2d: 1;
+	}
+	
+}
+
+.RecommendedTag
+{
+	background-color: #be46e0;
+	ignore-parent-flow: true;
+	horizontal-align: right;
+	vertical-align: top;
+	margin-right: 30px;
+	padding: 0px 5px;
+	border-radius: 1px;
+	animation-name: TagGroove2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-frame-time: 1s;
+}
+
+.RecommendedTag Label
+{
+	font-family: block;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: offBlack;
 }
 

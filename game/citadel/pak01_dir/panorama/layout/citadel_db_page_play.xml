@@ -139,6 +139,43 @@
 							</Panel>
 						</Button>
 					</Panel>
+					<Panel id="SubModesContainerNewPlayer">
+						<Button id="Option_Tutorial2026" class="playoption largeButton tutorial_button" onactivate="CitadelStartTutorial()" onmouseover="CitadelMusicQueueArpeggiatorNote()">
+							<Panel id="UnavailableOverlay">
+								<Label class="unavailable_queue" text="#menu_play_unavailable_in_queue" />
+							</Panel>
+							<Panel class="backgroundImg" />
+							<Panel class="RecommendedTag">
+								<Label text="#Tutorial_Recommended" />
+							</Panel>
+							<Panel class="TextArea">
+								<Panel class="TitleArea">
+									<Panel class="titleBG" />
+									<Label text="#menu_learn" class="playoptionLabel" />
+								</Panel>
+								<Panel class="DescArea">
+									<Panel class="titleBG" />
+									<Label text="#menu_play_learn_to_play_desc" class="playModeDesc" />
+								</Panel>
+							</Panel>
+						</Button>
+						<Button id="Option_Tutorial_BotsBrawl" class="playoption largeButton tutorial_button" onactivate="CitadelStartStreetBrawlBotMatch()" onmouseover="CitadelMusicQueueArpeggiatorNote()">
+							<Panel class="backgroundImg" />
+							<Panel class="RecommendedTag">
+								<Label text="#Tutorial_Recommended" />
+							</Panel>
+							<Panel class="TextArea">
+								<Panel class="TitleArea">
+									<Panel class="titleBG" />
+									<Label text="#Tutorial_BrawlBots" class="playoptionLabel" />
+								</Panel>
+								<Panel class="DescArea">
+									<Panel class="titleBG" />
+									<Label text="#Tutorial_BrawlBots_Desc" class="playModeDesc" />
+								</Panel>
+							</Panel>
+						</Button>
+					</Panel>
 				</Panel>
 			</Panel>
 		</Panel>

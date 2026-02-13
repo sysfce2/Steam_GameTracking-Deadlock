@@ -3257,7 +3257,7 @@
 		"guide_the_map_desc"						"Hover over areas on the map to learn more about the things you'll see while playing Deadlock."
 
 		"guide_the_map_lanes_header"				"Lanes"
-		"guide_the_map_lanes_desc"					"There are three lanes, each with a transit line that players can ride to move quickly."
+		"guide_the_map_lanes_desc"					"There are three lanes, each with a zipline that players can ride to move quickly."
 
 		"guide_the_map_guardians_header"			"Guardians"
 		"guide_the_map_guardians_desc"				"Guardians are the first line of defense in each lane. Their attacks are very powerful, so it's best to push into them with your troopers."
@@ -3313,7 +3313,7 @@
 		"guide_movement_dodge_header"				"Dash"
 		"guide_movement_dodge_desc"					"While moving press {g:citadel_binding:'Roll'} to dash.<br><br>Requires stamina."
 
-		"guide_movement_zipline_header"				"Transit Lines"
+		"guide_movement_zipline_header"				"Ziplines"
 		"guide_movement_zipline_desc"				"Hold {g:citadel_binding:'Zipline'} to get on the line.<br><br>You can jump off by pressing {g:citadel_binding:'Mantle'}"
 
 		"guide_movement_mantle_header"				"Mantle"
@@ -3512,7 +3512,7 @@
 		"menu_play_placement_matches_desc"			"Play your first few matches of Deadlock."
 		
 		"menu_play_get_started_time_est"			"4 Minutes"
-		"menu_play_sandbox_time_est"				"5 Minutes"
+		"menu_play_sandbox_time_est"				"3 Minutes"
 		"menu_play_lane_training_time_est"			"8 Minutes"
 		"menu_play_lane_training"					"Lane Training"
 		"menu_play_unavailable_in_queue"			"Unavailable while in Queue"
@@ -3520,7 +3520,7 @@
 		"menu_play_get_started_desc"				"A helpful breakdown of the game's Objectives and Controls."
 		"menu_play_botmatchmaking_desc"				"Play against Bots privately or alongside other players"
 		"menu_play_browse_shop_desc"				"Browse all items in the shop and get ready for your next match!"
-		//"menu_play_learn_to_play_desc"			"Watch the tutorial then follow it up with some hero sandbox and lane training."
+		"menu_play_learn_to_play_desc"				"Learn the basics to get started"
 		"menu_play_matchmaking"						"Play a standard match against other players"
 		"menu_play_low_priority_matchmaking:f"		"Your party is in the Low Priority matchmaking queue as a result of you or a party member abandoning matches or inappropriate behavior reported by other players. <br><br>You must win <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span> {low_pri_games_remaining, plural, one{game} other{games}} in the Low Priority queue or remove the penalized party member to return to normal matchmaking."
 		"menu_learn_incomplete"						"Incomplete"
@@ -3766,6 +3766,11 @@
 		// TUTORIAL - LANE TRAINING
 		//-----------------------------------------------------------------------------
 
+		
+		"Tutorial_Recommended"						"Recommended"
+		"Tutorial_BrawlBots"						"Street Brawl (Bots)"
+		"Tutorial_BrawlBots_Desc"					"Try a Street Brawl match against Bots"
+		
 		"LaneTraining_Intro_Title"					"Welcome to <b>Lane Training</b>"
 		"LaneTraining_Intro_Desc"					"The goal of the early game is to build up enough power to take down objectives.<br><br>When you complete the goals listed on the right, you'll be ready to take on the Guardian."
 		"LaneTraining_Intro_Button"					"Begin"
@@ -3830,10 +3835,13 @@
 		//"NewPlayer_YouAreFinished"					"You're ready! Try a bot match within Practice or Play your first game!"
 		//"NewPlayer_Finish"							"End Tutorial"
 
+		"Basics_Tutorial_Title"						"Basics Tutorial"
+		"Basics_Tutorial_Desc"						"Learn the ropes in this quick interactive walk through."
+
 		"HeroTraining_Intro_Title"					"Welcome to <b>Hero Training</b>"
 		"HeroTraining_Intro_Desc"					"Here you'll be able to test out your hero's movement and abilities. Mastering these concepts is key to completing the ritual."
-		"HeroTraining_Outro_Title"					"<b>Hero Training</b> Complete"
-		"HeroTraining_Outro_Desc"					"You've grasped the fundamentals;<br />now prepare yourself for lane training."
+		"HeroTraining_Outro_Title"					"Basics Tutorial Complete"
+		"HeroTraining_Outro_Desc"					"Next try playing a match of Street Brawl."
 		"HeroTraining_Outro_Button"					"Finish"
 		"HeroTraining_Continue_Button"				"Keep Playing"
 
@@ -3853,8 +3861,13 @@
 		"Sandbox_Tutorial_Controls_Jump"			"{g:citadel_binding:1st:'Mantle'}"
 		"Sandbox_Tutorial_Controls_Attack"			"{g:citadel_binding:1st:'Attack'}"
 		"Sandbox_Tutorial_Controls_Zoom"			"{g:citadel_binding:1st:'ADS'}"
-		"Sandbox_Tutorial_Controls_Reload"			"{g:citadel_binding:1st:'Reload'}"
-		"Sandbox_Tutorial_Controls_Dash"			"{g:citadel_binding:1st:'Roll'}"
+		"Sandbox_Tutorial_Controls_Reload"			"{g:citadel_binding:1st:'Reload'}"	
+		"Sandbox_Tutorial_Controls_LightMelee"		"{g:citadel_binding:1st:'AbilityMelee'}"
+		"Sandbox_Tutorial_Controls_HeavyMelee"		"Hold {g:citadel_binding:1st:'AbilityMelee'}"
+		"Sandbox_Tutorial_Controls_Parry"			"{g:citadel_binding:1st:'HeldItem'}"
+		"Sandbox_Tutorial_Controls_Dash"			"{g:citadel_binding:1st:'MoveForward'}+{g:citadel_binding:1st:'Roll'}"
+		"Sandbox_Tutorial_Controls_Slide"			"{g:citadel_binding:1st:'Crouch'} then {g:citadel_binding:1st:'Roll'}"
+		"Sandbox_Tutorial_Controls_AirDash"			"{g:citadel_binding:1st:'Mantle'} then {g:citadel_binding:1st:'Roll'}"
 		"Sandbox_Tutorial_Controls_Mantle"			"Hold {g:citadel_binding:1st:'Mantle'}"
 		"Sandbox_Tutorial_Controls_Mantle_desc"		"Mantle<br><span class=\"footnote\">(Climb up a Ledge)</span>"
 
@@ -3865,28 +3878,53 @@
 		"Sandbox_Tutorial_Controls_task_Zoom"			"Zoom"
 		"Sandbox_Tutorial_Controls_task_Reload"			"Reload"
 		"Sandbox_Tutorial_Controls_task_Dash"			"Dash"
+		"Sandbox_Tutorial_Controls_task_Slide"			"Slide"
+		"Sandbox_Tutorial_Controls_task_AirDash"		"Air Dash"
+		"Sandbox_Tutorial_Controls_task_LightMelee"		"Light Melee"
+		"Sandbox_Tutorial_Controls_task_HeavyMelee"		"Heavy Melee"
+		"Sandbox_Tutorial_Controls_task_Parry"			"Parry"
 
-		"Sandbox_Tutorial_Step_1"					"Step 1 of 6"
-		"Sandbox_Tutorial_Step_2"					"Step 2 of 6"
-		"Sandbox_Tutorial_Step_3"					"Step 3 of 6"
-		"Sandbox_Tutorial_Step_4"					"Step 4 of 6"
-		"Sandbox_Tutorial_Step_5"					"Step 5 of 6"
-		"Sandbox_Tutorial_Step_6"					"Step 6 of 6"
+		"Sandbox_Tutorial_Step_1"					"1 of 6"
+		"Sandbox_Tutorial_Step_2"					"2 of 6"
+		"Sandbox_Tutorial_Step_3"					"3 of 6"
+		"Sandbox_Tutorial_Step_4"					"4 of 6"
+		"Sandbox_Tutorial_Step_5"					"5 of 6"
+		"Sandbox_Tutorial_Step_6"					"6 of 6"
+
+		"Sandbox_Tutorial_Controls_Cast"			"Cast"
+		"Sandbox_Tutorial_Controls_Upgraded"		"Upgrade"
+		"Sandbox_Tutorial_Controls_PurchaseMods"	"Purchase Escalating Exposure"
+		"Sandbox_Tutorial_Controls_CloseShop"		"Close Shop"
+		"Sandbox_Tutorial_Controls_DestroyGuardian"	"Guardian Destroyed"
 
 		"Sandbox_Tutorial_Unlock_Abilities"			"Unlock Your Abilities"
 		"Sandbox_Tutorial_Unlock_Abilities_desc"	"Hold {g:citadel_binding:'Default.Scoreboard'} to unlock new abilities."
 
-		"Sandbox_Tutorial_Abilities"				"Test your Abilities"
-		"Sandbox_Tutorial_Abilities_desc"			"Try using your Abilities by pressing {g:citadel_binding:'Ability1'}, {g:citadel_binding:'Ability2'}, {g:citadel_binding:'Ability3'} or {g:citadel_binding:'Ability4'}."
+		"Sandbox_Tutorial_Abilities"				"Use an Ability"
+		"Sandbox_Tutorial_Abilities_Unlock_desc"	"Hold {g:citadel_binding:'Ability1'} to Unlock"
+		"Sandbox_Tutorial_Abilities_Cast_desc"		"Press {g:citadel_binding:'Ability1'} to Cast"
+		"Sandbox_Tutorial_Abilities_Upgrade_desc"	"Hold {g:citadel_binding:'Default.Scoreboard'} and click to Upgrade"
 
-		"Sandbox_Tutorial_Upgrades"					"Upgrade your Abilities"
-		"Sandbox_Tutorial_Upgrades_desc"			"Hold {g:citadel_binding:'Default.Scoreboard'} to spend Ability Points to upgrade your Abilities."
+		"Sandbox_Tutorial_Upgrades"					"Upgrade Ability"
+		"Sandbox_Tutorial_Upgrades_desc"			"Hold {g:citadel_binding:'Default.Scoreboard'} Ability Points."
 
-		"Sandbox_Tutorial_Zipline"					"Ride the Transit Line"
-		"Sandbox_Tutorial_Zipline_desc"				"Hold{g:citadel_binding:'Default.Mantle'}to get on the Transit Line. You can jump off by pressing{g:citadel_binding:'Default.Mantle'}"
+		"Sandbox_Tutorial_Ultimate"					"Unleash your Ultimate"
+		"Sandbox_Tutorial_Ultimate_desc"			"Kill Troopers ({i:troopers_remaining} remaining)"
 
-		"Sandbox_Tutorial_Mods"						"Purchase Items for your Hero"
-		"Sandbox_Tutorial_Mods_desc"				"Go to the Shop to browse items. Try purchasing a few."
+		"Sandbox_Tutorial_UltimateAbility"			"{s:Ability4Name2}"
+		"Sandbox_Tutorial_UltimateAbility_desc"		"Press {g:citadel_binding:'Ability4'} to cast your Ultimate."
+
+		"Sandbox_Tutorial_KillTroopers"				"Kill Troopers ({i:troopers_remaining} remaining)"
+		"Sandbox_Tutorial_KillTroopers_desc"		"There are {i:troopers_remaining} enemy troopers remaining."
+
+		"Sandbox_Tutorial_Zipline"					"Ride the Zipline"
+		"Sandbox_Tutorial_Zipline_desc"				"Aim at the Zipline, then hold {g:citadel_binding:'Default.Mantle'} to ride it to your Guardian."
+
+		"Sandbox_Tutorial_Mods"						"Purchase Items"
+		"Sandbox_Tutorial_Mods_desc"				"Items in the Curiosity Shop make your hero much more powerful.<br/><br/>Move within range of the shop and press {g:citadel_binding:'OpenHeroSheet'}."
+
+		"Sandbox_Tutorial_DestroyGuardian"			"Defeat the Enemy Guardian"
+		"Sandbox_Tutorial_DestroyGuardian_desc"		"We've loaded you up with some additional Items and Ability Points, now face off against enemy heroes and troopers.<br/><br/>Destroy their Guardian while defending your own."
 
 		//"Sandbox_Tutorial_Completed"				"Sandbox Completed"
 		//"Sandbox_Tutorial_Completed_desc"			"Feel free to play around more. When you’re done, leave Sandbox and start Lane Training."
