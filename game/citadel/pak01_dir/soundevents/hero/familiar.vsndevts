@@ -479,6 +479,27 @@
 		]
 		vsnd_duration = 0.528753
 	}
+	Familiar.HelpingHands.Emote.Scared = 
+	{
+		base = "Base.Ability.Detached.Close"
+		volume = 0.000000
+		pitch_rand_min = -0.150000
+		pitch_rand_max = 0.150000
+		vsnd_files = 
+		[
+			"sounds/abilities/familiar/familiar_helper_emote_scared_01.vsnd",
+			"sounds/abilities/familiar/familiar_helper_emote_scared_02.vsnd",
+			"sounds/abilities/familiar/familiar_helper_emote_scared_03.vsnd",
+			"sounds/abilities/familiar/familiar_helper_emote_scared_04.vsnd",
+			"sounds/abilities/familiar/familiar_helper_emote_scared_05.vsnd",
+			"sounds/abilities/familiar/familiar_helper_emote_scared_06.vsnd",
+			"sounds/abilities/familiar/familiar_helper_emote_scared_07.vsnd",
+			"sounds/abilities/familiar/familiar_helper_emote_scared_08.vsnd",
+			"sounds/abilities/familiar/familiar_helper_emote_scared_09.vsnd",
+			"sounds/abilities/familiar/familiar_helper_emote_scared_10.vsnd",
+		]
+		vsnd_duration = 0.802472
+	}
 	Familiar.HelpingHands.Shoot = 
 	{
 		base = "Base.Ability.Detached.Close"

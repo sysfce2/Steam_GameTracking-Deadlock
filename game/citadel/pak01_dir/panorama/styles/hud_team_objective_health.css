@@ -68,3 +68,8 @@
 	width: 500px;
 }
 
+.gamemode_streetbrawl #shield_gen_container,.gamemode_streetbrawl #base_boss_container
+{
+	visibility: collapse;
+}
+

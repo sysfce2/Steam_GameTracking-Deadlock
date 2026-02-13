@@ -89,9 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXbP]
- (08@HRP]
- (0X`hpzP]
+ (08@HPX`j 
+ (08@HPZ 
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -132,6 +131,7 @@
  CCitadelSteamInputHandler::SteamDeviceDisconnected: %llu\n
  CCitadelSteamInputHandler::UpdateControllerActionSet: ControllerHandle: %llu, ActionSet: %llu \n
  C_PhysPropClientside::Spawn: SetupPhysicsAsModel() failed for %s.\n
+ CxM.
  FLK
  FWa
  Failed to pack %s\n
@@ -5284,8 +5284,8 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_Stimpak_regen@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_StompDebuff@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_StormCloud@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_StreetBrawlBuyPhase@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_StreetBrawlTrooper@@$0PPPP@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_StreetBrawl_Phase@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Stunned@@$0BC@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Succor_Move@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_SuperAcolytesGlove@@$0PPPP@@@
@@ -8479,8 +8479,8 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Stimpak_regen@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_StompDebuff@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_StormCloud@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_StreetBrawlBuyPhase@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_StreetBrawlTrooper@@VCBaseModifier@@@@
+.?AV?$CSubclassFactory@VCCitadel_Modifier_StreetBrawl_Phase@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Stunned@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Succor_Move@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_SuperAcolytesGlove@@VCBaseModifier@@@@
@@ -12352,8 +12352,9 @@ $hRh
 .?AVCCitadel_Modifier_Stimpak_regen@@
 .?AVCCitadel_Modifier_StompDebuff@@
 .?AVCCitadel_Modifier_StormCloud@@
-.?AVCCitadel_Modifier_StreetBrawlBuyPhase@@
 .?AVCCitadel_Modifier_StreetBrawlTrooper@@
+.?AVCCitadel_Modifier_StreetBrawl_Phase@@
+.?AVCCitadel_Modifier_StreetBrawl_Phase_VData@@
 .?AVCCitadel_Modifier_Stunned@@
 .?AVCCitadel_Modifier_StunnedVData@@
 .?AVCCitadel_Modifier_Succor_Move@@
@@ -16728,7 +16729,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@JP]
+08@HR 
+08B 
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16780,10 +16782,10 @@ $hRh
 0\n\vstyle_index
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
+0d6\n
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vD$\n
 0x%4.4x 
 0x%X
 0x%X 
@@ -17006,7 +17008,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpx
+2\vpd6\n
 2^pV
 2a"l
 2bT~
@@ -17075,7 +17077,6 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4B(T
 4Ch;
 4F0I
 4Mv8
@@ -17327,12 +17328,10 @@ $hRh
 :\n\nchallenges
 :\n\robjects_added
 :\n\tmove_type
-:citadel_ability_hold_melee
 :cwd|
 :eaI
 :gN(dq
 :mIR
-:m_nValue
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -17503,9 +17502,10 @@ $hRh
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelPlayerLevelDisplay
+?CitadelObjectivesMap
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
+?EOrbLaneTrooper
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17540,19 +17540,19 @@ $hRh
 ?ff&?333?
 ?gwL
 ?jOb
-?m_flInvisLevel
+?m_hAOEParticle
+?m_nHitGroup
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08ND$\n
 @0pp
-@6pH
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
+@HVp
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17573,6 +17573,7 @@ $hRh
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
+@m_hEnemyAura
 @n2w
 A bias on the lerp
 A comma separated list of hero IDs that hold the currently banned brawl roster heroes
@@ -17598,6 +17599,7 @@ A!A3A5A;A?AYAeAkAwA{A
 A%N_A
 A,uw"
 A.00h
+A0;f
 A2VPD
 A4Wn>
 A9ur
@@ -18716,7 +18718,7 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
-B>MiniMapUnitSelectEvent
+B>While a spectator, view team amber's minimap view 
 BACK
 BAD ENUMERATED
 BAD INTEGER
@@ -19640,7 +19642,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_abil
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4307
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:167
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_constants.h
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_generic_data.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_hero_build.cpp
@@ -21744,6 +21746,7 @@ CCitadel_Modifier_IceDomeVData
 CCitadel_Modifier_IceDome_AuraModifierBase
 CCitadel_Modifier_IcePath
 CCitadel_Modifier_IcePath_TechPowerLinger
+CCitadel_Modifier_IdolReturnTimer
 CCitadel_Modifier_IdolTeamTimeout
 CCitadel_Modifier_Idol_Return
 CCitadel_Modifier_InFountain
@@ -22128,8 +22131,9 @@ CCitadel_Modifier_StickyBombOnGroundVData
 CCitadel_Modifier_Stimpak_regen
 CCitadel_Modifier_StompDebuff
 CCitadel_Modifier_StormCloud
-CCitadel_Modifier_StreetBrawlBuyPhase
 CCitadel_Modifier_StreetBrawlTrooper
+CCitadel_Modifier_StreetBrawl_Phase
+CCitadel_Modifier_StreetBrawl_Phase_VData
 CCitadel_Modifier_Stunned
 CCitadel_Modifier_StunnedVData
 CCitadel_Modifier_Succor_Move
@@ -26882,7 +26886,6 @@ CitadelLeaderboardsFailedData
 CitadelLeaderboardsSelectHero
 CitadelLeaderboardsSelectRegion
 CitadelLeaderboardsUpdated
-CitadelLearnPage
 CitadelLeaveMatchmaking
 CitadelLeftGameLobby
 CitadelLevelReward
@@ -26970,7 +26973,6 @@ CitadelNewsPage
 CitadelNewsPageRequestMore
 CitadelNextTipText
 CitadelObjectiveTooltip
-CitadelObjectivesMap
 CitadelObjectivesTooltip
 CitadelOpenBook
 CitadelOpenBuildBrowser
@@ -27029,6 +27031,7 @@ CitadelPlayPage
 CitadelPlayerContextMenuSetAudioVolume
 CitadelPlayerDraftRoundChanged
 CitadelPlayerLevel
+CitadelPlayerLevelDisplay
 CitadelPlayerLevelDisplayTooltip
 CitadelPlayerLevelUpBonuses
 CitadelPlayerListEntrySetMuted
@@ -27282,6 +27285,7 @@ CitadelShowHomePage
 CitadelShowInteractiveStatsPanelTooltipForSlot
 CitadelShowJoinOrCreatePartyPopup
 CitadelShowLatestPatchNotes
+CitadelShowLearnPage
 CitadelShowLevelRewardsTooltip
 CitadelShowMatchDetails
 CitadelShowMinimapTooltip
@@ -30440,7 +30444,6 @@ EOrbBaseGuardians
 EOrbBaseSentry
 EOrbDeny
 EOrbDeployable
-EOrbLaneTrooper
 EOrbNeutralTrooper
 EOrbPlayer
 EOrbShrines
@@ -30562,6 +30565,7 @@ ERoundsPerSecond
 ERoundsPerSecondInverse
 ESBGS_Buy
 ESBGS_Combat
+ESBGS_Count
 ESBGS_Init
 ESBGS_PreBuy
 ESBGS_PreScoring
@@ -31738,7 +31742,6 @@ Finished removing sparse shadow tree data, shutting down\n
 FinishedButton
 FinishedText
 Finnish
-Finput_img_temp_enable
 Fire And Forget
 Fire At Name
 Fire Con Command
@@ -31857,6 +31860,7 @@ FlyMoveSpeed
 Flying
 FlyingBulletResist
 FlyingStartBoost
+Fm_bEnableAngleBetweenNormalAndGravityRange == 0
 Fm{#t
 Focus team shops to team %i %s. \n
 FocusBlocker
@@ -32193,7 +32197,7 @@ GCSDK::GCDirIndex_t
 GCSQL_VERSION_BASELINE
 GCSQL_VERSION_BOOLTYPE
 GCType_t"2\n
-GCitadelShowLearnPage
+GCitadelLearnPage
 GENERALIZEDTIME
 GENERALSTRING
 GENERAL_ALLOCATE_BOOLEAN
@@ -32713,7 +32717,7 @@ HBJ\nTRF
 HDR Color Scale: %0.3f
 HDRColor
 HDRColorScale
-HDX[
+HDTELargeFunnel_GameEvent_t
 HEAD 
 HH&a
 HIERARCHY
@@ -36341,6 +36345,7 @@ MiniMap
 MiniMapEntryMouseOutEvent
 MiniMapEntryMouseOverEvent
 MiniMapFoWUnitSelectEvent
+MiniMapUnitSelectEvent
 Minimal Text
 MinimalProfileEdit
 MinimapBossSnippet
@@ -37828,15 +37833,11 @@ P-224
 P-256
 P-384
 P-521
-P08@JP]
-P08ND$\n
+P08J@
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
-P2P]
 P2P_Messages
 P5[1
-P6@C
-P6Pb
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -38559,6 +38560,7 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+PfPM
 Phoneme delay to account for sound system latency.
 Phrase
 Phrase%d
@@ -38693,7 +38695,7 @@ Played to the teammates of the player who claimed the orb.
 Played when the client hit the orb but it isn't confirmed by the server yet.
 Played when the server receives a hit on the orb but is waiting to fully claim it.
 Player %d
-Player Cam switching button pressed
+Player Cam switching button released
 Player Clip: %s(%d)
 Player Kill Assist Bounty
 Player Kill Bounty
@@ -38768,7 +38770,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
-PnD$\n
+PnPN
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -39509,11 +39511,11 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
+R\fpd6\n
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpx
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -42694,7 +42696,6 @@ TEFizz_GameEvent_t
 TEGlowSprite_GameEvent_t
 TEImpact_GameEvent_t
 TELETEXSTRING
-TELargeFunnel_GameEvent_t
 TEMuzzleFlash_GameEvent_t
 TEPhysicsProp_GameEvent_t
 TESmoke_GameEvent_t
@@ -43580,7 +43581,6 @@ TouchingThink
 Trace particle when hit an enemy with targeted ability
 Trace particle when missed an enemy with targeted ability
 TraceCollideable
-TraceDistanceForStun
 TraceHull
 TraceLine
 TraceRays
@@ -44543,7 +44543,7 @@ WORLDTEXT_VERTICAL_ALIGN_BOTTOM
 WORLDTEXT_VERTICAL_ALIGN_CENTER
 WORLDTEXT_VERTICAL_ALIGN_TOP
 WP4$!
-WPlayer Cam switching button released
+WPlayer Cam switching button pressed
 WRINKLE
 WRITABLE
 WRITE_PENDING
@@ -44581,6 +44581,7 @@ WallImpactLookAheadDistance
 WallLatchIdealDist
 WallLatchSettleDist
 WallLatchSettleTime
+WallStunDistance
 WallToBack
 WallToFront
 WallToLeft
@@ -44899,7 +44900,6 @@ Which team to auto-select the first time in the game.
 Which team to view the minimap as when freeflying
 While a spectator and viewing a player, view team their minimap view 
 While a spectator, view both teams' minimap view 
-While a spectator, view team amber's minimap view 
 While a spectator, view team sapphire's minimap view
 While active, activate a child state based on the results of a boolean condition. Any referenced variables must be marked as observable.
 While lagging behind, the max value we can approach the target value.
@@ -45226,6 +45226,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr 
 Xd3h
 XfJ7
 XjfR
@@ -46482,7 +46483,6 @@ Z~wl
 \rTxL
 \rUHz4Z}\r
 \rWhO
-\rXEe
 \rY=QX
 \rYYHl
 \r\n\tEUpgraded
@@ -46712,6 +46712,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpd6\n
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46788,7 +46789,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6pI
 `:zQF
 `D$daM-l
 `DZG
@@ -46816,7 +46816,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvD$\n
 aD/x
 aDSS
 aECDH
@@ -48793,6 +48792,7 @@ citadel_ability_force_gold_collection
 citadel_ability_fortuna_primaryweapon
 citadel_ability_gunslinger_demon_carbine
 citadel_ability_healing_slash
+citadel_ability_hold_melee
 citadel_ability_hook
 citadel_ability_hornet_chain
 citadel_ability_hornet_leap
@@ -54134,7 +54134,6 @@ how long the player has been sprinting
 how this stat is implemented
 hows joint info for this entity
 hp_stat
-hpzP]
 hr_H
 href="
 hscroll
@@ -54752,6 +54751,7 @@ input not reduced
 inputOffset
 inputType
 input_img_temp_disable
+input_img_temp_enable
 inputlimit
 inputnamespace
 inset
@@ -58522,6 +58522,7 @@ m_SapphireReformingLoopSound
 m_SatTint
 m_SatVolumeCastDelayRadiusCurve
 m_SatchelParticle
+m_ScaredParticle
 m_ScopeFoV
 m_ScriptCallbackScope
 m_ScriptSpawnCallback
@@ -59273,7 +59274,6 @@ m_bDurationCanBeTimeScaled
 m_bDurationReducible
 m_bDynamicBounce
 m_bEnableAngleBetweenNormalAndGravityRange
-m_bEnableAngleBetweenNormalAndGravityRange == 0
 m_bEnableAnimgraphTagDrivenStrafing
 m_bEnableBlinking
 m_bEnableCodeDrivenAnimgraphMovement
@@ -60337,6 +60337,7 @@ m_eType != MODIFIER_SCRIPT_VARIANT_PARTICLE
 m_eUIAttributeType
 m_eUpgradeType
 m_eValType
+m_eValidStates
 m_eValueType
 m_eVarType
 m_eVehicleMeleeSide
@@ -61361,6 +61362,7 @@ m_flHorizGap
 m_flHorizontalAngleDegrees
 m_flHorizontalAngleLimitDegrees
 m_flHorizontalPunch
+m_flHorizontalSpawnOffset
 m_flHorizontalTime
 m_flHoverInputAcceleration
 m_flHoverInputSpeedMax
@@ -61415,6 +61417,7 @@ m_flInteractRadius
 m_flInterval
 m_flIntraBurstCycleTime
 m_flInvisBias
+m_flInvisLevel
 m_flInvulDurationMax
 m_flInvulDurationMin
 m_flInvulModifierRange
@@ -61584,6 +61587,7 @@ m_flMaxDrag
 m_flMaxElevation
 m_flMaxExposure
 m_flMaxFallSpeed
+m_flMaxFallSpeedWhileChanneling
 m_flMaxFlyHeight
 m_flMaxFrame
 m_flMaxGravity
@@ -62094,6 +62098,7 @@ m_flScanlineStrength
 m_flScatterYawScale
 m_flScattering
 m_flScopeStartTime
+m_flScoringGameTimeScale
 m_flScoringTime
 m_flScrollSpeed
 m_flSearchDownDistance
@@ -62664,7 +62669,6 @@ m_groundNormal
 m_groupName
 m_guid
 m_hAOEEffect
-m_hAOEParticle
 m_hAbility
 m_hAbilityOwner
 m_hAbilityRequiresDebounce
@@ -62726,7 +62730,6 @@ m_hEffectEntity
 m_hEndEntity
 m_hEndPoint
 m_hEnemy
-m_hEnemyAura
 m_hEnemyPlayerAimTarget
 m_hEnt
 m_hEntActivator
@@ -63549,7 +63552,6 @@ m_nHierarchyType
 m_nHighestNote
 m_nHitBox
 m_nHitCounter
-m_nHitGroup
 m_nHitIndex
 m_nHitParticle
 m_nHitbox
@@ -64611,6 +64613,7 @@ m_strHeavyMeleeSweetenerSound
 m_strHelperEmoteSound
 m_strHelperFoundEnemySound
 m_strHelperHealTroopSound
+m_strHelperScaredSound
 m_strHelperShootSound
 m_strHelperSpawnSound
 m_strHeroSearchName
@@ -66841,7 +66844,7 @@ modifier_stasis_bomb_aura
 modifier_stimpak_regen
 modifier_stomp_debuff
 modifier_street_brawl_trooper
-modifier_streetbrawl_buyphase
+modifier_streetbrawl_phase
 modifier_subclass
 modifier_succor_move
 modifier_superacolytes_glove
@@ -67868,8 +67871,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^D$\n
-p2P]
+p0jPT
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67887,7 +67889,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6`9
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -67895,6 +67896,7 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
+pF`3
 pField
 pFilter
 pG_*h
@@ -68284,6 +68286,7 @@ pcPathLengthConstraint
 pct_complete
 pct_item_complete
 pct_story_complete
+pd6\n
 pdgAbilityUpgradeStateChanged
 pdgBonusCounterChanged
 pdgStolenAbilityChanged
@@ -68678,7 +68681,6 @@ playsoundscape
 playtime_2weeks
 playtime_forever
 plum
-pnD$\n
 pngsize
 point
 point arithmetic failure
@@ -69133,6 +69135,7 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
+r\vpd6\n
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight
@@ -73115,7 +73118,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDCCitadel_Modifier_IdolReturnTimer
+zDh[
 zF):O4
 zFar
 zG2m8

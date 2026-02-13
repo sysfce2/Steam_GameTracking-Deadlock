@@ -180,6 +180,11 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
+ (08@HPX`j0
+ (08@HPXb 
+ (08@HPZ0
+ (08@J0
+ (0X`hpz 
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -208,7 +213,6 @@
  <-- Arg '%s'
  <-- Retval '%s'
  ACTIVE GROUP
- ApF
  Damage Dealt to Trooper Boss
  Damage Taken from Player
  FLK
@@ -2332,47 +2336,49 @@ $tJ@T\tK
 .?AUshard_model_desc_t@@
 .?AUsky3dparams_t@@
 .?AUsndopvarlatchdata_t@@
-.?AV<lambda_102>@?$PulseBindingTypesafeIntTraits_t@VAI_VolumetricEventHandle_t@@@@
-.?AV<lambda_103>@?$PulseBindingTypesafeIntTraits_t@VAI_VolumetricEventHandle_t@@@@
-.?AV<lambda_104>@?$PulseBindingSchemaEnumTraits_t@W4AI_VolumetricEventType_t@@@@
-.?AV<lambda_105>@?$PulseBindingSchemaEnumTraits_t@W4AI_VolumetricEventType_t@@@@
-.?AV<lambda_106>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@
-.?AV<lambda_107>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@
-.?AV<lambda_10>@?$PulseBindingSchemaEnumTraits_t@W4NPC_STATE@@@@
-.?AV<lambda_115>@?$PulseBindingSchemaEnumTraits_t@W4DamageTypes_t@@@@
-.?AV<lambda_115>@?$PulseBindingTypesafeIntTraits_t@VParticleIndex_t@@@@
-.?AV<lambda_116>@?$PulseBindingSchemaEnumTraits_t@W4DamageTypes_t@@@@
-.?AV<lambda_116>@?$PulseBindingTypesafeIntTraits_t@VParticleIndex_t@@@@
-.?AV<lambda_117>@?$PulseBindingSchemaEnumTraits_t@W4ParticleAttachment_t@@@@
-.?AV<lambda_118>@?$PulseBindingSchemaEnumTraits_t@W4ParticleAttachment_t@@@@
-.?AV<lambda_119>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@
-.?AV<lambda_11>@?$PulseBindingSchemaEnumTraits_t@W4AILOD_t@@@@
-.?AV<lambda_120>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@
+.?AV<lambda_104>@?$PulseBindingTypesafeIntTraits_t@VAI_VolumetricEventHandle_t@@@@
+.?AV<lambda_105>@?$PulseBindingTypesafeIntTraits_t@VAI_VolumetricEventHandle_t@@@@
+.?AV<lambda_106>@?$PulseBindingSchemaEnumTraits_t@W4AI_VolumetricEventType_t@@@@
+.?AV<lambda_107>@?$PulseBindingSchemaEnumTraits_t@W4AI_VolumetricEventType_t@@@@
+.?AV<lambda_108>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@
+.?AV<lambda_109>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@
+.?AV<lambda_10>@?$PulseBindingSchemaEnumTraits_t@W4EStreetBrawlGameState@@@@
+.?AV<lambda_117>@?$PulseBindingSchemaEnumTraits_t@W4DamageTypes_t@@@@
+.?AV<lambda_117>@?$PulseBindingTypesafeIntTraits_t@VParticleIndex_t@@@@
+.?AV<lambda_118>@?$PulseBindingSchemaEnumTraits_t@W4DamageTypes_t@@@@
+.?AV<lambda_118>@?$PulseBindingTypesafeIntTraits_t@VParticleIndex_t@@@@
+.?AV<lambda_119>@?$PulseBindingSchemaEnumTraits_t@W4ParticleAttachment_t@@@@
+.?AV<lambda_11>@?$PulseBindingSchemaEnumTraits_t@W4NPC_STATE@@@@
+.?AV<lambda_120>@?$PulseBindingSchemaEnumTraits_t@W4ParticleAttachment_t@@@@
 .?AV<lambda_121>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@
 .?AV<lambda_122>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@
-.?AV<lambda_123>@?$PulseBindingSchemaEnumTraits_t@W4TestInputOutputCombinationsEnum_t@@@@
-.?AV<lambda_124>@?$PulseBindingSchemaEnumTraits_t@W4TestInputOutputCombinationsEnum_t@@@@
-.?AV<lambda_128>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtMode_t@@@@
-.?AV<lambda_129>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtMode_t@@@@
-.?AV<lambda_12>@?$PulseBindingSchemaEnumTraits_t@W4AILOD_t@@@@
-.?AV<lambda_130>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtSpeed_t@@@@
-.?AV<lambda_131>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtSpeed_t@@@@
-.?AV<lambda_132>@?$PulseBindingSchemaEnumTraits_t@W4SharedMovementGait_t@@@@
-.?AV<lambda_133>@?$PulseBindingSchemaEnumTraits_t@W4SharedMovementGait_t@@@@
-.?AV<lambda_134>@?$PulseBindingSchemaEnumTraits_t@W4StanceType_t@@@@
-.?AV<lambda_135>@?$PulseBindingSchemaEnumTraits_t@W4StanceType_t@@@@
-.?AV<lambda_136>@?$PulseBindingSchemaEnumTraits_t@W4MoveType_t@@@@
-.?AV<lambda_137>@?$PulseBindingSchemaEnumTraits_t@W4MoveType_t@@@@
-.?AV<lambda_138>@?$PulseBindingSchemaEnumTraits_t@W4AI_Strafing_t@@@@
-.?AV<lambda_139>@?$PulseBindingSchemaEnumTraits_t@W4AI_Strafing_t@@@@
-.?AV<lambda_140>@?$PulseBindingSchemaEnumTraits_t@W4NPCFollowFormation_t@@@@
-.?AV<lambda_141>@?$PulseBindingSchemaEnumTraits_t@W4NPCFollowFormation_t@@@@
-.?AV<lambda_142>@?$PulseBindingSchemaEnumTraits_t@W4PulseNPCCondition_t@@@@
-.?AV<lambda_143>@?$PulseBindingSchemaEnumTraits_t@W4PulseNPCCondition_t@@@@
-.?AV<lambda_144>@?$PulseBindingSchemaEnumTraits_t@W4PulseTraceContents_t@@@@
-.?AV<lambda_145>@?$PulseBindingSchemaEnumTraits_t@W4PulseTraceContents_t@@@@
-.?AV<lambda_146>@?$PulseBindingSchemaEnumTraits_t@W4PulseCollisionGroup_t@@@@
-.?AV<lambda_147>@?$PulseBindingSchemaEnumTraits_t@W4PulseCollisionGroup_t@@@@
+.?AV<lambda_123>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@
+.?AV<lambda_124>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@
+.?AV<lambda_125>@?$PulseBindingSchemaEnumTraits_t@W4TestInputOutputCombinationsEnum_t@@@@
+.?AV<lambda_126>@?$PulseBindingSchemaEnumTraits_t@W4TestInputOutputCombinationsEnum_t@@@@
+.?AV<lambda_12>@?$PulseBindingSchemaEnumTraits_t@W4NPC_STATE@@@@
+.?AV<lambda_130>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtMode_t@@@@
+.?AV<lambda_131>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtMode_t@@@@
+.?AV<lambda_132>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtSpeed_t@@@@
+.?AV<lambda_133>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtSpeed_t@@@@
+.?AV<lambda_134>@?$PulseBindingSchemaEnumTraits_t@W4SharedMovementGait_t@@@@
+.?AV<lambda_135>@?$PulseBindingSchemaEnumTraits_t@W4SharedMovementGait_t@@@@
+.?AV<lambda_136>@?$PulseBindingSchemaEnumTraits_t@W4StanceType_t@@@@
+.?AV<lambda_137>@?$PulseBindingSchemaEnumTraits_t@W4StanceType_t@@@@
+.?AV<lambda_138>@?$PulseBindingSchemaEnumTraits_t@W4MoveType_t@@@@
+.?AV<lambda_139>@?$PulseBindingSchemaEnumTraits_t@W4MoveType_t@@@@
+.?AV<lambda_13>@?$PulseBindingSchemaEnumTraits_t@W4AILOD_t@@@@
+.?AV<lambda_140>@?$PulseBindingSchemaEnumTraits_t@W4AI_Strafing_t@@@@
+.?AV<lambda_141>@?$PulseBindingSchemaEnumTraits_t@W4AI_Strafing_t@@@@
+.?AV<lambda_142>@?$PulseBindingSchemaEnumTraits_t@W4NPCFollowFormation_t@@@@
+.?AV<lambda_143>@?$PulseBindingSchemaEnumTraits_t@W4NPCFollowFormation_t@@@@
+.?AV<lambda_144>@?$PulseBindingSchemaEnumTraits_t@W4PulseNPCCondition_t@@@@
+.?AV<lambda_145>@?$PulseBindingSchemaEnumTraits_t@W4PulseNPCCondition_t@@@@
+.?AV<lambda_146>@?$PulseBindingSchemaEnumTraits_t@W4PulseTraceContents_t@@@@
+.?AV<lambda_147>@?$PulseBindingSchemaEnumTraits_t@W4PulseTraceContents_t@@@@
+.?AV<lambda_148>@?$PulseBindingSchemaEnumTraits_t@W4PulseCollisionGroup_t@@@@
+.?AV<lambda_149>@?$PulseBindingSchemaEnumTraits_t@W4PulseCollisionGroup_t@@@@
+.?AV<lambda_14>@?$PulseBindingSchemaEnumTraits_t@W4AILOD_t@@@@
 .?AV<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4HitGroup_t@@@@
 .?AV<lambda_1>@?1???$GetAreaToAreas@V?$CUtlVector@U?$NavIndirectDst_t@VCNavArea@@V1@@@HV?$CUtlVectorMemory_Growable@U?$NavIndirectDst_t@VCNavArea@@V1@@@H$0A@@@@@@CNavIndirectConnections@@QEAAXPEBVCNavArea@@PEAV?$CUtlVector@U?$NavIndirectDst_t@VCNavArea@@V1@@@HV?$CUtlVectorMemory_Growable@U?$NavIndirectDst_t@VCNavArea@@V1@@@H$0A@@@@@@Z@
 .?AV<lambda_1>@?1???$GetAreaToAreas_LinksIn@V?$CUtlVector@PEAVCNavArea@@HV?$CUtlVectorMemory_Growable@PEAVCNavArea@@H$0A@@@@@@CNavIndirectConnections@@QEAAXPEBVCNavArea@@PEAV?$CUtlVector@PEAVCNavArea@@HV?$CUtlVectorMemory_Growable@PEAVCNavArea@@H$0A@@@@@@Z@
@@ -2567,7 +2573,7 @@ $tJ@T\tK
 .?AV<lambda_7>@?CG@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@
 .?AV<lambda_8>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCModel@@@@@@
 .?AV<lambda_8>@?CG@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@
-.?AV<lambda_9>@?$PulseBindingSchemaEnumTraits_t@W4NPC_STATE@@@@
+.?AV<lambda_9>@?$PulseBindingSchemaEnumTraits_t@W4EStreetBrawlGameState@@@@
 .?AV?$CAI_ExpresserHost@VCAI_BaseNPC@@@@
 .?AV?$CAI_ExpresserHost@VCCitadelPlayerPawnBase@@@@
 .?AV?$CAI_ExpresserHost@VCCitadel_Announcer_Base@@@@
@@ -3970,8 +3976,8 @@ $tJ@T\tK
 .?AV?$CModifierFactory@VCCitadel_Modifier_Stimpak_regen@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_StompDebuff@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_StormCloud@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_StreetBrawlBuyPhase@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_StreetBrawlTrooper@@$0PPPP@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_StreetBrawl_Phase@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Stunned@@$0BC@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Succor_Move@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_SuperAcolytesGlove@@$0PPPP@@@
@@ -7109,8 +7115,8 @@ $tJ@T\tK
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Stimpak_regen@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_StompDebuff@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_StormCloud@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_StreetBrawlBuyPhase@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_StreetBrawlTrooper@@VCBaseModifier@@@@
+.?AV?$CSubclassFactory@VCCitadel_Modifier_StreetBrawl_Phase@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Stunned@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Succor_Move@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_SuperAcolytesGlove@@VCBaseModifier@@@@
@@ -7846,47 +7852,49 @@ $tJ@T\tK
 .?AV?$_Func_base@_NV?$Vec3D@H@@@std@@
 .?AV?$_Func_impl_no_alloc@P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@ZXU1@PEAV2@@std@@
 .?AV?$_Func_impl_no_alloc@P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@ZXPEAV1@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_102>@?$PulseBindingTypesafeIntTraits_t@VAI_VolumetricEventHandle_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_103>@?$PulseBindingTypesafeIntTraits_t@VAI_VolumetricEventHandle_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_104>@?$PulseBindingSchemaEnumTraits_t@W4AI_VolumetricEventType_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_105>@?$PulseBindingSchemaEnumTraits_t@W4AI_VolumetricEventType_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_106>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_107>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_10>@?$PulseBindingSchemaEnumTraits_t@W4NPC_STATE@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_115>@?$PulseBindingSchemaEnumTraits_t@W4DamageTypes_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_115>@?$PulseBindingTypesafeIntTraits_t@VParticleIndex_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_116>@?$PulseBindingSchemaEnumTraits_t@W4DamageTypes_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_116>@?$PulseBindingTypesafeIntTraits_t@VParticleIndex_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_117>@?$PulseBindingSchemaEnumTraits_t@W4ParticleAttachment_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_118>@?$PulseBindingSchemaEnumTraits_t@W4ParticleAttachment_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_119>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_11>@?$PulseBindingSchemaEnumTraits_t@W4AILOD_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_120>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_104>@?$PulseBindingTypesafeIntTraits_t@VAI_VolumetricEventHandle_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_105>@?$PulseBindingTypesafeIntTraits_t@VAI_VolumetricEventHandle_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_106>@?$PulseBindingSchemaEnumTraits_t@W4AI_VolumetricEventType_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_107>@?$PulseBindingSchemaEnumTraits_t@W4AI_VolumetricEventType_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_108>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_109>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_10>@?$PulseBindingSchemaEnumTraits_t@W4EStreetBrawlGameState@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_117>@?$PulseBindingSchemaEnumTraits_t@W4DamageTypes_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_117>@?$PulseBindingTypesafeIntTraits_t@VParticleIndex_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_118>@?$PulseBindingSchemaEnumTraits_t@W4DamageTypes_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_118>@?$PulseBindingTypesafeIntTraits_t@VParticleIndex_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_119>@?$PulseBindingSchemaEnumTraits_t@W4ParticleAttachment_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_11>@?$PulseBindingSchemaEnumTraits_t@W4NPC_STATE@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_120>@?$PulseBindingSchemaEnumTraits_t@W4ParticleAttachment_t@@@@I$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_121>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_122>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_123>@?$PulseBindingSchemaEnumTraits_t@W4TestInputOutputCombinationsEnum_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_124>@?$PulseBindingSchemaEnumTraits_t@W4TestInputOutputCombinationsEnum_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_128>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtMode_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_129>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtMode_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_12>@?$PulseBindingSchemaEnumTraits_t@W4AILOD_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_130>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtSpeed_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_131>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtSpeed_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_132>@?$PulseBindingSchemaEnumTraits_t@W4SharedMovementGait_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_133>@?$PulseBindingSchemaEnumTraits_t@W4SharedMovementGait_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_134>@?$PulseBindingSchemaEnumTraits_t@W4StanceType_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_135>@?$PulseBindingSchemaEnumTraits_t@W4StanceType_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_136>@?$PulseBindingSchemaEnumTraits_t@W4MoveType_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_137>@?$PulseBindingSchemaEnumTraits_t@W4MoveType_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_138>@?$PulseBindingSchemaEnumTraits_t@W4AI_Strafing_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_139>@?$PulseBindingSchemaEnumTraits_t@W4AI_Strafing_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_140>@?$PulseBindingSchemaEnumTraits_t@W4NPCFollowFormation_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_141>@?$PulseBindingSchemaEnumTraits_t@W4NPCFollowFormation_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_142>@?$PulseBindingSchemaEnumTraits_t@W4PulseNPCCondition_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_143>@?$PulseBindingSchemaEnumTraits_t@W4PulseNPCCondition_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_144>@?$PulseBindingSchemaEnumTraits_t@W4PulseTraceContents_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_145>@?$PulseBindingSchemaEnumTraits_t@W4PulseTraceContents_t@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_146>@?$PulseBindingSchemaEnumTraits_t@W4PulseCollisionGroup_t@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_147>@?$PulseBindingSchemaEnumTraits_t@W4PulseCollisionGroup_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_123>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_124>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeIParticleSystemDefinition@@@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_125>@?$PulseBindingSchemaEnumTraits_t@W4TestInputOutputCombinationsEnum_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_126>@?$PulseBindingSchemaEnumTraits_t@W4TestInputOutputCombinationsEnum_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_12>@?$PulseBindingSchemaEnumTraits_t@W4NPC_STATE@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_130>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtMode_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_131>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtMode_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_132>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtSpeed_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_133>@?$PulseBindingSchemaEnumTraits_t@W4ChoreoLookAtSpeed_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_134>@?$PulseBindingSchemaEnumTraits_t@W4SharedMovementGait_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_135>@?$PulseBindingSchemaEnumTraits_t@W4SharedMovementGait_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_136>@?$PulseBindingSchemaEnumTraits_t@W4StanceType_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_137>@?$PulseBindingSchemaEnumTraits_t@W4StanceType_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_138>@?$PulseBindingSchemaEnumTraits_t@W4MoveType_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_139>@?$PulseBindingSchemaEnumTraits_t@W4MoveType_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_13>@?$PulseBindingSchemaEnumTraits_t@W4AILOD_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_140>@?$PulseBindingSchemaEnumTraits_t@W4AI_Strafing_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_141>@?$PulseBindingSchemaEnumTraits_t@W4AI_Strafing_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_142>@?$PulseBindingSchemaEnumTraits_t@W4NPCFollowFormation_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_143>@?$PulseBindingSchemaEnumTraits_t@W4NPCFollowFormation_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_144>@?$PulseBindingSchemaEnumTraits_t@W4PulseNPCCondition_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_145>@?$PulseBindingSchemaEnumTraits_t@W4PulseNPCCondition_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_146>@?$PulseBindingSchemaEnumTraits_t@W4PulseTraceContents_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_147>@?$PulseBindingSchemaEnumTraits_t@W4PulseTraceContents_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_148>@?$PulseBindingSchemaEnumTraits_t@W4PulseCollisionGroup_t@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_149>@?$PulseBindingSchemaEnumTraits_t@W4PulseCollisionGroup_t@@@@I$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_14>@?$PulseBindingSchemaEnumTraits_t@W4AILOD_t@@@@I$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4HitGroup_t@@@@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$GetAreaToAreas@V?$CUtlVector@U?$NavIndirectDst_t@VCNavArea@@V1@@@HV?$CUtlVectorMemory_Growable@U?$NavIndirectDst_t@VCNavArea@@V1@@@H$0A@@@@@@CNavIndirectConnections@@QEAAXPEBVCNavArea@@PEAV?$CUtlVector@U?$NavIndirectDst_t@VCNavArea@@V1@@@HV?$CUtlVectorMemory_Growable@U?$NavIndirectDst_t@VCNavArea@@V1@@@H$0A@@@@@@Z@XAEBU?$NavIndirectDst_t@VCNavArea@@V1@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$GetAreaToAreas_LinksIn@V?$CUtlVector@PEAVCNavArea@@HV?$CUtlVectorMemory_Growable@PEAVCNavArea@@H$0A@@@@@@CNavIndirectConnections@@QEAAXPEBVCNavArea@@PEAV?$CUtlVector@PEAVCNavArea@@HV?$CUtlVectorMemory_Growable@PEAVCNavArea@@H$0A@@@@@@Z@XPEAV3@@std@@
@@ -8081,7 +8089,7 @@ $tJ@T\tK
 .?AV?$_Func_impl_no_alloc@V<lambda_7>@?CG@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEAULootTableEntry_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCModel@@@@@@I$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8>@?CG@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEAULootTableEntry_t@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_9>@?$PulseBindingSchemaEnumTraits_t@W4NPC_STATE@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9>@?$PulseBindingSchemaEnumTraits_t@W4EStreetBrawlGameState@@@@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_impl_no_alloc@V?$CUtlDelegate@$$A6A?AVParticleIndex_t@@H@Z@@VParticleIndex_t@@H@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CEntitySolverForSmooth@@EAA?AV?$Vec3D@M@@AEBV4@0@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@V?$Vec3D@M@@AEBV3@AEBV3@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CMarkupSearchHelper@@EAAXPEBVCMarkupVolumeTagged@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBQEBVCMarkupVolumeTagged@@@std@@
@@ -10523,8 +10531,9 @@ $tJ@T\tK
 .?AVCCitadel_Modifier_Stimpak_regen@@
 .?AVCCitadel_Modifier_StompDebuff@@
 .?AVCCitadel_Modifier_StormCloud@@
-.?AVCCitadel_Modifier_StreetBrawlBuyPhase@@
 .?AVCCitadel_Modifier_StreetBrawlTrooper@@
+.?AVCCitadel_Modifier_StreetBrawl_Phase@@
+.?AVCCitadel_Modifier_StreetBrawl_Phase_VData@@
 .?AVCCitadel_Modifier_Stunned@@
 .?AVCCitadel_Modifier_StunnedVData@@
 .?AVCCitadel_Modifier_Succor_Move@@
@@ -14417,6 +14426,9 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
+08@HR0
+08@J 
+08B0
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -14458,6 +14470,7 @@ $tJ@T\tK
 0\rP!e
 0e\r8
 0pp@5tqE?|sO541
+0t8*
 0tU+xc:
 0x%s
 0}dV
@@ -14467,6 +14480,7 @@ $tJ@T\tK
 1 == client, 2 == server
 1 set of base guardians
 1!1'1-191C1E1K1]1a1g1m1s1
+1.35
 1.45
 1000
 11nN
@@ -14596,6 +14610,8 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vpl
+2\vpt8*
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14712,18 +14728,21 @@ $tJ@T\tK
 6,2K
 6-zeZ
 60000
+60L/
+60o/
 62$|S)6f
 64CK\vH
 65535
 65535"
 65535"j\n
 65535B$
+6666666666666666 9
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666label
 67-s
 6H,N
 6O|T%
-6PA/
+6PU/
+6PW/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14742,6 +14761,7 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
+6pF/
 6qo~
 6r-m_v
 6r1ij
@@ -14790,8 +14810,8 @@ $tJ@T\tK
 851Pe
 8<pl
 8= zp
+8@J0
 8A6j
-8Bpp
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14889,6 +14909,7 @@ $tJ@T\tK
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
+;DSourceTV broadcast delay in seconds
 ;LGEW
 ;Qo0
 ;X94<
@@ -15030,11 +15051,12 @@ $tJ@T\tK
 >yhP
 >ztq
 ?33s?
-?BurstBonusPerStack
 ?CAnimFoot
+?EWallAttachState
 ?HAI\t81\t9dcG'
 ?HP4
-?Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
+?OnSource1LegacyGameEventListenBitsReceived: game event %i not found.\n
+?Plays when a projectile hits the world ONLY.
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15042,6 +15064,7 @@ $tJ@T\tK
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
+?ai_debug_shoot_positions
 ?d86L
 ?dt]X
 ?expf
@@ -15049,7 +15072,6 @@ $tJ@T\tK
 ?ffffff
 ?gwL
 ?jOb
-?m_Entity_Color
 ?srJO
 ?tya
 ?uWS
@@ -15057,6 +15079,7 @@ $tJ@T\tK
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
+@60j/
 @Accolades
 @BH]f
 @MfKZ
@@ -16025,6 +16048,7 @@ Asynchronous - returns and continues despite the called method yielding
 Asynchronously spawn an entity group from a list of spawn tables. A callback will be triggered when the spawning is complete
 Asynchronously spawns a single entity from a table
 At what percentage of melee charge does a bot decide to parry, lower values mean the bot will parry earlier
+Atrigger_tonemap
 Attach an effect control point to an entity
 AttachStateChanged
 AttachedEntityThink
@@ -16129,7 +16153,6 @@ AwakeDamage
 Away from closest point
 Axis
 AxisAngleToQuaternion
-AxtI
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
@@ -16162,6 +16185,7 @@ BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
+BCPulseCell_Outflow_ListenForAnimgraphTag::Cancel
 BC_DEFAULT
 BC_EMPTY
 BC_PARTICLE_SYSTEM_OVERRIDE
@@ -16287,11 +16311,9 @@ BREAKABLE
 BRUSHSOLID_ALWAYS
 BRUSHSOLID_NEVER
 BRUSHSOLID_TOGGLE
-BRegisterChoice_CPulseServerFuncs_AddNewModifier
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
 BT5f
-BTASK_INVALID
 BUCKSHOT
 BUF lib
 BUFFED
@@ -16447,6 +16469,7 @@ Batched Inference response without corresponding waiting handle! (%d)
 Batched Snapshot response without corresponding waiting handle! (%d)
 BatteryGenerationPercent
 BcT`
+Bcitadel_guided_bot_match_net_worth_boost
 Bd]U
 Beam Weapon
 BeamClipStyle_t
@@ -16577,7 +16600,6 @@ BloodSpillDPSPercent
 BloodSpillDuration
 BlurVisionRange
 Blurry up through this distance.
-Bm_vPositionDeltaVelocity
 BoX5
 Body
 Body Component Scriptdesc
@@ -16901,6 +16923,7 @@ BurnLingerDuration
 BurnRadius
 Burst Damage
 Burst Fire
+BurstBonusPerStack
 BurstFireShotPercent
 BurstFireShotsFromClipPercent
 BurstLocation
@@ -16974,6 +16997,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_mid_boss.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_nano_drone.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_neutral.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_neutral_node_mover.cpp
+C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_neutral_vault.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_pestilence_drone.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_shielded_sentry.cpp:412
 C:\buildworker\citadel_rel_win64\build\src\game\server\citadel\npc_surveillance_drone.cpp
@@ -17964,6 +17988,7 @@ CCitadelPointPulseAPI::OnHideoutLobbyChanged
 CCitadelPointPulseAPI::OnHideoutOwnerHeroReleaseVoteTallyUpdated
 CCitadelPointPulseAPI::OnStartMatchmaking
 CCitadelPointPulseAPI::OnStopMatchmaking
+CCitadelPointPulseAPI::OnStreetBrawlEnterState
 CCitadelPointPulseAPI::SetFastCooldownsEnabled
 CCitadelPointPulseAPI::SetFastStaminaEnabled
 CCitadelPointPulseSystem
@@ -19727,8 +19752,9 @@ CCitadel_Modifier_StickyBombOnGroundVData
 CCitadel_Modifier_Stimpak_regen
 CCitadel_Modifier_StompDebuff
 CCitadel_Modifier_StormCloud
-CCitadel_Modifier_StreetBrawlBuyPhase
 CCitadel_Modifier_StreetBrawlTrooper
+CCitadel_Modifier_StreetBrawl_Phase
+CCitadel_Modifier_StreetBrawl_Phase_VData
 CCitadel_Modifier_Stunned
 CCitadel_Modifier_StunnedVData
 CCitadel_Modifier_Succor_Move
@@ -21913,6 +21939,7 @@ CNPC_Neutral_Hideout_CatVData
 CNPC_Neutral_Hideout_Rabbit
 CNPC_Neutral_Hideout_RabbitVData
 CNPC_Neutral_SinnersSacrifice
+CNPC_Neutral_SinnersSacrifice::GetLastDamageTaken
 CNPC_Neutral_SinnersSacrifice_Hideout
 CNPC_Neutral_Weakpoint
 CNPC_Neutral_WeakpointVData
@@ -22747,7 +22774,6 @@ CPulseCell_LimitCount::InstanceState_t
 CPulseCell_Outflow_CycleOrdered::InstanceState_t
 CPulseCell_Outflow_CycleShuffled::InstanceState_t
 CPulseCell_Outflow_ListenForAnimgraphTag
-CPulseCell_Outflow_ListenForAnimgraphTag::Cancel
 CPulseCell_Outflow_ListenForAnimgraphTag::Run
 CPulseCell_Outflow_ListenForEntityOutput
 CPulseCell_Outflow_ListenForEntityOutput::Cancel
@@ -27195,6 +27221,7 @@ ERoundsPerSecond
 ERoundsPerSecondInverse
 ESBGS_Buy
 ESBGS_Combat
+ESBGS_Count
 ESBGS_Init
 ESBGS_PreBuy
 ESBGS_PreScoring
@@ -27464,7 +27491,6 @@ EVisibleByMirageTeleport
 EVisibleByNPC
 EVisibleByObjective
 EVisibleFromAttackingEnemyPlayer
-EWallAttachState
 EWallJumpFacing
 EWeakPointBreakBehavior
 EWeaponAttribute_BeamWeapon
@@ -28453,6 +28479,7 @@ FireUser4
 FireUserEntityIO_t
 Fired
 Fired after spawning an instance of this template.
+Fired when the buy phase of street brawl starts.
 Fired when the hideout lobby changes.
 Fired when the hideout owner's hero release vote tally changes.
 Fired when the last sensor event has ended.
@@ -28530,7 +28557,6 @@ Flying
 FlyingBulletResist
 FlyingStartBoost
 Flying_Motor
-Fm_iFilterModifier
 Fm{#t
 Fog Volume %s found at position (%f %f %f)
 Fog: %s, post process: %s, color correct: %s
@@ -34712,7 +34738,6 @@ OnSimulate
 OnSimulateUserCommands
 OnSimulateUserCommands(), extended starvation\n
 OnSoundFinished
-OnSource1LegacyGameEventListenBitsReceived: game event %i not found.\n
 OnSpark
 OnSpawn
 OnSpawnGroupLoadFinished
@@ -34747,6 +34772,7 @@ OnStopMatchmaking
 OnStopMoving
 OnStopped
 OnStoppedOnOrInSegment
+OnStreetBrawlEnterState
 OnStyleEvent%u
 OnTakeDamage
 OnTakeDamage_React_Alive
@@ -34934,9 +34960,11 @@ P-224
 P-256
 P-384
 P-521
-P08J }
+P08@J 
+P08JP
 P1\t98"
 P5[1
+P6 o/
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -35421,8 +35449,10 @@ PerformTaskBuildPathToOwner
 PerformTaskCitadelMoveTo
 PerformTaskEscortGetLaneNodePath
 PerformTaskFamiliarHelperBeginKineMoveToTarget
+PerformTaskFamiliarHelperCheckBreakScare
 PerformTaskFamiliarHelperKinematicMoveToLocation
 PerformTaskFamiliarHelperKinematicMoveToPatrol
+PerformTaskFamiliarHelperWaitForBreakWindow
 PerformTaskGetPathForward
 PerformTaskGetPathToLastPosition
 PerformTaskGetPathToMeleeEnemy
@@ -35678,7 +35708,6 @@ Plays alongside the default footstep.
 Plays when a projectile detonates. Not all projectiles detonate.
 Plays when a projectile hits a valid target - or the world. Not the same as detonating, just colliding.
 Plays when a projectile hits a valid target ONLY.
-Plays when a projectile hits the world ONLY.
 Plays when the enable period starts.
 Plays when the juggle run ends (the ball touches a ground surface). This is not the same as contact sounds. It's a gameplay event
 Plays when the point is fully captured.
@@ -36339,9 +36368,11 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
+R\fpt8*
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vpl
 R]Di
 Rad2 Deg
 RadiationThink
@@ -36486,6 +36517,7 @@ Register
 Register Test Checkpoint
 Register as a listener for a game event from script.
 Register with the GC for matchmaking
+RegisterChoice_CPulseServerFuncs_AddNewModifier
 RegisterChoice_CPulseServerFuncs_HasModifier
 RegisterChoice_CPulseServerFuncs_RemoveModifier
 RegisterCommand
@@ -36995,6 +37027,7 @@ SCHED_FAMILIARHELPER_PERFORM_TASK_DAMAGE_UNIT
 SCHED_FAMILIARHELPER_PERFORM_TASK_END_INFEST
 SCHED_FAMILIARHELPER_PERFORM_TASK_HEAL_INFEST
 SCHED_FAMILIARHELPER_PERFORM_TASK_SHOP
+SCHED_FAMILIARHELPER_SCARED
 SCHED_FAMILIARHELPER_SLEEP_COOLDOWN
 SCHED_FORCED_GO
 SCHED_FORCED_GO_INTERRUPTIBLE
@@ -38628,6 +38661,7 @@ Shows Stun Status Effect in the Important Box
 Shows Tethered Status Effect in the Important Box
 Shows Unstoppable Status Effect in the Important Box
 Shows base damage below what sv_showimpacts would show, and if a player was hit he'll show the damage he took above it (as healthdamage (armorabsorbed)).  1 = show hits.  2 = show hits and misses
+Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
 Shows debug properties.
 Shows memory of NPC.  Draws an X on top of each memory.\n\tEluded entities drawn in blue (don't know where it went)\n\tUnreachable entities drawn in green (can't get to it)\n\tCurrent enemy drawn in red\n\tCurrent target entity drawn in magenta\n\tAll other entities drawn in pink\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
 Shows player spawn points (red=invalid)
@@ -38835,7 +38869,6 @@ Source2Metrics.MatchPerfSummary#1
 Source2Metrics.RecordPlayStats#1
 Source2PlayStats_LowCardinalityString
 SourceEntityName
-SourceTV broadcast delay in seconds
 SourceTV camera is now controlled by %s.
 SourceTV camera switched to auto-director mode.
 SourceTV reconnecting ...
@@ -39484,11 +39517,13 @@ TASK_FAMILIARHELPER_BEGIN_KINE_MOVE_TO_TARGET
 TASK_FAMILIARHELPER_BEGIN_PATROL
 TASK_FAMILIARHELPER_BREAK
 TASK_FAMILIARHELPER_CHARGING_UP
+TASK_FAMILIARHELPER_CHECK_FOR_BREAK_SCARE
 TASK_FAMILIARHELPER_COLLECT
 TASK_FAMILIARHELPER_COMPLETE_FAM_TASK
 TASK_FAMILIARHELPER_DAMAGE
 TASK_FAMILIARHELPER_DAMAGE_ATTACHED
 TASK_FAMILIARHELPER_EMOTE
+TASK_FAMILIARHELPER_EMOTE_SCARED
 TASK_FAMILIARHELPER_END_INFEST
 TASK_FAMILIARHELPER_END_PATROL
 TASK_FAMILIARHELPER_HEAL_INFEST
@@ -39522,6 +39557,7 @@ TASK_GRAPH_WAIT_FOR_HANDSHAKE_TO_BECOME_ACTIVE
 TASK_GRAPH_WAIT_FOR_PREVIOUS_HANDSHAKE_TO_BECOME_INACTIVE
 TASK_HIDE_IN_NODE
 TASK_IDLE
+TASK_INVALID
 TASK_MELEE_ATTACK
 TASK_MIDBOSS_CHARGE_ACTIVATE
 TASK_MIDBOSS_CHARGE_SELECT
@@ -40430,7 +40466,6 @@ Trace a sphere through portals and draw the results
 Trace particle when hit an enemy with targeted ability
 Trace particle when missed an enemy with targeted ability
 TraceCollideable
-TraceDistanceForStun
 TraceHull
 TraceLine
 TracePathForObstacle
@@ -41388,6 +41423,7 @@ WallImpactRange
 WallLatchIdealDist
 WallLatchSettleDist
 WallLatchSettleTime
+WallStunDistance
 WallStunDuration
 WallToBack
 WallToFront
@@ -41924,8 +41960,11 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr0
 Xd3h
 XfJ7
+XfP[/
+Xfp\/
 XjfR
 XqgA+
 Xuub
@@ -43122,6 +43161,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpt8*
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -43685,7 +43725,6 @@ ai_debug_radial_goal
 ai_debug_ragdoll_magnets
 ai_debug_schedule_stoppages
 ai_debug_scripted_sequence
-ai_debug_shoot_positions
 ai_debug_speech
 ai_debug_squads
 ai_debug_squadslotusage
@@ -45642,6 +45681,7 @@ citadel_gcmessages_server.proto
 citadel_gg_call_time
 citadel_give_gold
 citadel_give_player_gold
+citadel_gold_bonus_scale_for_familiar_infest
 citadel_golden_idol_balance_threshold
 citadel_golden_idol_balance_threshold_first_spawn
 citadel_grandfinale_stage
@@ -45651,7 +45691,6 @@ citadel_guide_bot_say
 citadel_guided_bot_ap_boost
 citadel_guided_bot_match
 citadel_guided_bot_match_countdown_time
-citadel_guided_bot_match_net_worth_boost
 citadel_guided_bot_match_net_worth_target
 citadel_guided_bot_match_report_card_time
 citadel_guided_bot_t1_boss_ignore_damage_threshold
@@ -45731,7 +45770,6 @@ citadel_item_pickup_fallrate
 citadel_item_pickup_idol
 citadel_item_pickup_rejuv
 citadel_item_pickup_rejuv_herotest
-citadel_item_pickup_rejuv_herotest_infospawn
 citadel_item_powerup_spawner
 citadel_item_punchable_gold
 citadel_item_purchases_force_enhanced
@@ -47503,6 +47541,7 @@ eSphere
 eSplinePushType
 eSquadOnly
 eStart
+eState
 eStationary
 eStop
 eStrafe
@@ -49541,6 +49580,7 @@ how long the player has been sprinting
 how much hotter than the npc's flashpoint a heat source should be to instantly ignite them.
 how this stat is implemented
 hows joint info for this entity
+hpz 
 hr_H
 http request
 https proxy request
@@ -49886,6 +49926,7 @@ idol_picked_up
 idol_sitting
 idol_spawn
 idp mismatch
+idx < DAMAGE_RECORD_COUNT && idx >= 0
 if > 0.0, show lag compensated hitboxes (value is seconds) whenever a bullet is lag compensated and hits something.
 if imgui should consume input
 if imgui should display
@@ -52445,6 +52486,7 @@ m_EnemyVisionModifier
 m_EnemyWallParticle
 m_EnterBallSound
 m_EntityClass
+m_Entity_Color
 m_Entity_bCopyDiffuseFromDefaultCubemap
 m_Entity_bCustomCubemapTexture
 m_Entity_bDefaultEnvMap
@@ -53758,6 +53800,7 @@ m_SapphireReformingLoopSound
 m_SatTint
 m_SatVolumeCastDelayRadiusCurve
 m_SatchelParticle
+m_ScaredParticle
 m_ScheduleState
 m_Scheduler
 m_ScopeFoV
@@ -55489,7 +55532,6 @@ m_bSelectionModeIsAltMode
 m_bSelfReference
 m_bSelfish
 m_bSendHandle
-m_bSendToClients
 m_bSensing
 m_bSensingUseExactEyePosition
 m_bSequenceChangeNetworked
@@ -55649,6 +55691,7 @@ m_bTetheringActive
 m_bThinkDangerous
 m_bThinking
 m_bThrownByPlayer
+m_bTimeScaleActive
 m_bTimeoutFired
 m_bToLocalPlayer
 m_bToggleDuckActive
@@ -56186,6 +56229,7 @@ m_eType != eGroundCapsule && m_eType != eGenericCapsule && m_eType != eCenteredC
 m_eUIAttributeType
 m_eUpgradeType
 m_eValType
+m_eValidStates
 m_eValueType
 m_eVarType
 m_eVehicleMeleeSide
@@ -57452,6 +57496,7 @@ m_flHorizGap
 m_flHorizontalAngleDegrees
 m_flHorizontalAngleLimitDegrees
 m_flHorizontalPunch
+m_flHorizontalSpawnOffset
 m_flHorizontalTime
 m_flHourChimeInterval
 m_flHourHand
@@ -57779,6 +57824,7 @@ m_flMaxElevation
 m_flMaxExposure
 m_flMaxEyeDeflection
 m_flMaxFallSpeed
+m_flMaxFallSpeedWhileChanneling
 m_flMaxFlyHeight
 m_flMaxForce
 m_flMaxFrame
@@ -58132,6 +58178,7 @@ m_flOrbitRadius
 m_flOrientationScoreWeight
 m_flOriginalAngleDelta
 m_flOriginalDamage
+m_flOriginalTimeScale
 m_flOrthoLightHeight
 m_flOrthoLightWidth
 m_flOscilateMaxPitch
@@ -58461,6 +58508,7 @@ m_flScanlineStrength
 m_flScatterYawScale
 m_flScattering
 m_flScopeStartTime
+m_flScoringGameTimeScale
 m_flScoringTime
 m_flScrollSpeed
 m_flSearchDist
@@ -58859,6 +58907,13 @@ m_flTimePathUpdated
 m_flTimeRotationStart
 m_flTimeScale
 m_flTimeScale1
+m_flTimeScaleDuration
+m_flTimeScaleEndTime
+m_flTimeScaleRampInEndTime
+m_flTimeScaleRampInTime
+m_flTimeScaleRampOutStartTime
+m_flTimeScaleRampOutTime
+m_flTimeScaleStart
 m_flTimeSlowedEnd
 m_flTimeSlowedStart
 m_flTimeStartFadeIn
@@ -59688,6 +59743,7 @@ m_iFarmBaseline
 m_iFilterClass
 m_iFilterContext
 m_iFilterModel
+m_iFilterModifier
 m_iFilterName
 m_iFilterTeam
 m_iFlags
@@ -62287,6 +62343,7 @@ m_strHeavyMeleeSweetenerSound
 m_strHelperEmoteSound
 m_strHelperFoundEnemySound
 m_strHelperHealTroopSound
+m_strHelperScaredSound
 m_strHelperShootSound
 m_strHelperSpawnSound
 m_strHeroSearchName
@@ -63142,6 +63199,7 @@ m_vPortalBLocal
 m_vPos
 m_vPosBeginFailedSteer
 m_vPosPrev
+m_vPositionDeltaVelocity
 m_vPositionLS
 m_vPreSolveAnchorPos
 m_vPrecomputedBoundsMaxs
@@ -64838,7 +64896,9 @@ modifier_stomp_debuff
 modifier_street_brawl_intro_player
 modifier_street_brawl_round_start_zipline_boost
 modifier_street_brawl_trooper
-modifier_streetbrawl_buyphase
+modifier_streetbrawl_buyphase_drafting
+modifier_streetbrawl_buyphase_finished
+modifier_streetbrawl_phase
 modifier_stringtable_dump
 modifier_subclass
 modifier_succor_move
@@ -66254,11 +66314,11 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p2pp
 p2{l
 p4Z3
 p5Z3
 p5\nL,
+p60P/
 p618
 p@0pqE5tsO?|1
 pActivator
@@ -66881,6 +66941,7 @@ playing_commentary
 playoverscript
 plays for local player attacker dealing damage with this ability
 plays for local player victim taking damage from this ability
+pm_bSendToClients
 point
 point arithmetic failure
 point at infinity
@@ -67185,6 +67246,7 @@ pszExplosionType
 pszName
 pszOrgValue
 pszTagName
+pt8*
 pub: 
 pub_key
 pubkey
@@ -67306,6 +67368,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vpt8*
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight
@@ -69893,7 +69956,6 @@ trigger_team_base
 trigger_teleport
 trigger_tier3phase2_shield
 trigger_togglesave
-trigger_tonemap
 trigger_transition
 trigger_trooper_damage_reduction_detector
 trigger_trooper_detector
@@ -70912,6 +70974,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
+zDcitadel_item_pickup_rejuv_herotest_infospawn
 zF):O4
 zFar
 zG2m8
