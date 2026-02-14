@@ -53,8 +53,7 @@ PopupSettings .PopupBackground
 	background-size: cover;
 	opacity-mask: url("s2r://panorama/images/masks/wipe_test_01_bw_wide_psd.vtex");
 	opacity-mask-threshold: 0% 5%;
-	animation-name: PopupBackgroundTransitionOn;
-	animation-duration: 1s;
+	animation-duration: 0s;
 	animation-iteration-count: 1;
 }
 

@@ -89,10 +89,6 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXbp
- (08@HRp
- (08@Jp
- (0X`hpzp
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -118,7 +114,6 @@
  <b>@import</b> 
  ACTIVE GROUP
  AInvalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
- AhQ^
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreAnalogActionHandlesReady: Analog Action not found: %s \n
@@ -16742,7 +16737,6 @@ $hRh
 0123456789
 02V8[
 05=k
-08@Jp
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16760,7 +16754,6 @@ $hRh
 0=Model, 1=Particle, 2=Model+Particle
 0=Never; 1=Only if there is a problem; 2=always
 0=default 1=friendly 2=enemy 3=both
-0Hr\n
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -16796,6 +16789,7 @@ $hRh
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
+0hv\n
 0pp@5tqE?|sO541
 0tU+xc:
 0x%4.4x 
@@ -17020,8 +17014,8 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpHr\n
-2\vp\fb
+2\vp,f
+2\vphv\n
 2^pV
 2a"l
 2bT~
@@ -17092,6 +17086,7 @@ $hRh
 4@AA
 4Ch;
 4F0I
+4F\vp
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17237,7 +17232,6 @@ $hRh
 8<pl
 8= zp
 8A6j
-8Bp]
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17563,12 +17557,11 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08N4
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
-@CCitadel_Modifier_HealthSwapPrecast
 @DebugIndividualStyle
-@HPX`hv`
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17586,7 +17579,7 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
-@ht0
+@htP
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -18735,7 +18728,6 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
-B>Show the old neutral camp icons on the minimap
 BACK
 BAD ENUMERATED
 BAD INTEGER
@@ -21724,6 +21716,7 @@ CCitadel_Modifier_HealEntitiyVData
 CCitadel_Modifier_HealingPulse_Tracker
 CCitadel_Modifier_Healing_Disabled
 CCitadel_Modifier_HealthSwap
+CCitadel_Modifier_HealthSwapPrecast
 CCitadel_Modifier_HealthSwapPrecastVData
 CCitadel_Modifier_HealthSwapVData
 CCitadel_Modifier_HeldItemPickupAura
@@ -21763,7 +21756,6 @@ CCitadel_Modifier_IceDome_AuraModifierBase
 CCitadel_Modifier_IcePath
 CCitadel_Modifier_IcePath_TechPowerLinger
 CCitadel_Modifier_IdolReturnTimer
-CCitadel_Modifier_IdolTeamTimeout
 CCitadel_Modifier_Idol_Return
 CCitadel_Modifier_InFountain
 CCitadel_Modifier_InHideoutMap
@@ -26902,6 +26894,7 @@ CitadelLeaderboardsFailedData
 CitadelLeaderboardsSelectHero
 CitadelLeaderboardsSelectRegion
 CitadelLeaderboardsUpdated
+CitadelLearnPage
 CitadelLeaveMatchmaking
 CitadelLeftGameLobby
 CitadelLevelReward
@@ -27296,7 +27289,6 @@ CitadelShowHeroDetailsPage
 CitadelShowHeroPage
 CitadelShowHeroReleaseVotePage
 CitadelShowHoliday2025Page
-CitadelShowHomePage
 CitadelShowInteractiveStatsPanelTooltipForSlot
 CitadelShowJoinOrCreatePartyPopup
 CitadelShowLatestPatchNotes
@@ -28738,6 +28730,7 @@ Danish
 DarkFactor
 DashAirSpeed
 DashAngleThreshold
+DashBuffDuration
 DashDistance
 DashRadius
 DashRange
@@ -29144,6 +29137,7 @@ DisplayMode
 DisplayModeDropDown
 Displays a list of the active screen shakes.
 Displays audio relevance info.
+Displays citadel_base_3d sound stack debug.
 Displays citadel_dialog sound stack debug.
 Displays counts of which kinds of entities have been deleted since map started
 Displays debug draws about the given entity(ies) animgraph\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
@@ -32214,7 +32208,7 @@ GCSDK::GCDirIndex_t
 GCSQL_VERSION_BASELINE
 GCSQL_VERSION_BOOLTYPE
 GCType_t"2\n
-GCitadelLearnPage
+GCitadelShowHomePage
 GENERALIZEDTIME
 GENERALSTRING
 GENERAL_ALLOCATE_BOOLEAN
@@ -34686,6 +34680,7 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
+L=X7g
 L>ff
 L?fff?
 L@4T
@@ -37853,7 +37848,7 @@ P-224
 P-256
 P-384
 P-521
-P08@Jp
+P08N4
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
@@ -37991,7 +37986,6 @@ PHAG2
 PHYSGUN
 PHYS_SAVE_RESTORE_VERSION
 PHhn}Y
-PHr\n
 PIID_IPHYSAGGREGATE
 PIID_IPHYSICSBODY
 PIID_IPHYSICSJOINT
@@ -38587,6 +38581,7 @@ Phrase
 Phrase%d
 PhraseContainer
 PhrasesContainer
+Phv\n
 PhysBlockHeader_t
 PhysDisableEntityCollisions called on entities in two different scene worlds (%s - %u vs %s - %u)\n
 PhysEnableEntityCollisions called on entities in two different scene worlds (%s - %u vs %s - %u)\n
@@ -38627,6 +38622,7 @@ PickupsPerNeutralTrooperDeath
 Pin or Unpin the overlay to the Entity's location
 Ping Target and Pinging Player only
 Ping a peer.
+Ping button pressed
 Ping button released
 Ping higher than this (ms) is considered 'poor'.
 Ping keybind pressed
@@ -39537,8 +39533,8 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpHr\n
-R\vp\fb
+R\vp,f
+R\vphv\n
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -41493,6 +41489,7 @@ Show status of all spawn groups.
 Show the NPE modal when navigating to the roster select.
 Show the damage effectiveness on every damage number
 Show the movement speed in units instead of m/s
+Show the old neutral camp icons on the minimap
 Show the player list and rosters of party members that have this hero in their roster
 Show the rating average rating of a team in the post game.
 Show the rating notification on the post game if your rating changed that game.
@@ -44575,7 +44572,6 @@ WORLDTEXT_VERTICAL_ALIGN_BOTTOM
 WORLDTEXT_VERTICAL_ALIGN_CENTER
 WORLDTEXT_VERTICAL_ALIGN_TOP
 WP4$!
-WPing button pressed
 WRINKLE
 WRITABLE
 WRITE_PENDING
@@ -44971,6 +44967,7 @@ WinnerTie
 WinningTeam
 WinningTeamNumber
 WizardSubPanel.BgColor
+Wm_bAlignCameraOnAutoDismount
 Wmn|CH
 Wn4'
 Work Item for Work Pool %s completed but job no longer existed to notify\n
@@ -45475,7 +45472,6 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@Displays citadel_base_3d sound stack debug.
 \fAccoladeID_t
 \fKS1
 \fResourceId_t
@@ -45485,7 +45481,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fpHr\n
+\fphv\n
 \ful2
 \fy&3Gl
 \l:ArR
@@ -46746,7 +46742,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpHr\n
+\vphv\n
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46850,6 +46846,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv4
 aD/x
 aDSS
 aECDH
@@ -54188,7 +54185,6 @@ how long the player has been sprinting
 how this stat is implemented
 hows joint info for this entity
 hp_stat
-hpzp
 hr_H
 href="
 hscroll
@@ -56747,6 +56743,7 @@ lastModifiedTime
 lastUpdate
 last_applied_time
 last_hits
+last_mm_match_time
 last_nonempty_bar
 last_playtimes
 last_updated_time
@@ -57509,6 +57506,7 @@ m_DamageTakenParticle
 m_DamageTargetParticle
 m_DamageTracker
 m_DamagedParticle
+m_DashBuffModifier
 m_DashBurstSound
 m_DashEchoParticle
 m_DashImpactEffect
@@ -59113,7 +59111,6 @@ m_bAiming
 m_bAirCast
 m_bAirRaiding
 m_bAirborneWhenDuckPressed
-m_bAlignCameraOnAutoDismount
 m_bAlignWithParent
 m_bAlignWithTargetAtLastWarpEvent
 m_bAlive
@@ -61412,6 +61409,7 @@ m_flHeroLockBreakRange
 m_flHeroLockRange
 m_flHideDuration
 m_flHintRecoveryStrength
+m_flHitConeAngleExtra
 m_flHitPctForCamera
 m_flHoldBombOffsetX
 m_flHoldBombOffsetY
@@ -67936,7 +67934,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p2p]
+p08@H^4
+p0j 
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67966,7 +67965,6 @@ pFilter
 pG_*h
 pHeroReleaseVoteOptions->GetChildCount() == (int)EActiveHeroReleaseVoteOption::Count
 pHitEntity
-pHr\n
 pIp 
 pLocationEntity
 pO0h
@@ -68420,6 +68418,7 @@ phonenumber
 photo
 phrase
 phrase is too short, needs to be at least %d chars\n
+phv\n
 phys
 phys_batch_ray_test
 phys_continuous_kinematic_update
@@ -73190,6 +73189,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
+zDCCitadel_Modifier_IdolTeamTimeout
 zF):O4
 zFar
 zG2m8
