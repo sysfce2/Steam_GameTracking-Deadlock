@@ -89,6 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
+ (08@HPX`jPQ
+ (08@HPZPQ
+ (08@JPQ
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16737,6 +16740,8 @@ $hRh
 0123456789
 02V8[
 05=k
+08@HRPQ
+08BPQ
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16789,7 +16794,6 @@ $hRh
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
-0hv\n
 0pp@5tqE?|sO541
 0tU+xc:
 0x%4.4x 
@@ -17014,8 +17018,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp,f
-2\vphv\n
+2\vpD
 2^pV
 2a"l
 2bT~
@@ -17231,7 +17234,9 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@JPQ
 8A6j
+8BPQ
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17249,6 +17254,7 @@ $hRh
 8\n4STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PROJECT_ID
 8\n4k_EGCMsgInitiateTradeResponse_Target_Already_Trading
 8\n4k_EGCMsgInitiateTradeResponse_Trade_Banned_Initiator
+8\nPQ
 8\n\nchat_lines
 8\n\nmatch_info
 8\n\nobjectives
@@ -17557,11 +17563,12 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N4
 @0pp
+@2PQ
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
+@HVP
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17579,7 +17586,6 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
-@htP
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -31523,6 +31529,7 @@ FXAA PS
 FX_RicochetSound.Ricochet
 F\fEF4+
 F\n ParticleFreezeTransitionOverride
+F\nPQ
 F\n\finventories2
 F\n\finventories3
 F\n\fitem_scalars
@@ -34680,7 +34687,7 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
-L=X7g
+L=8'g
 L>ff
 L?fff?
 L@4T
@@ -37848,9 +37855,10 @@ P-224
 P-256
 P-384
 P-521
-P08N4
+P08JpS
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
+P2PQ
 P2P_Messages
 P5[1
 PAGN_4
@@ -38581,7 +38589,6 @@ Phrase
 Phrase%d
 PhraseContainer
 PhrasesContainer
-Phv\n
 PhysBlockHeader_t
 PhysDisableEntityCollisions called on entities in two different scene worlds (%s - %u vs %s - %u)\n
 PhysEnableEntityCollisions called on entities in two different scene worlds (%s - %u vs %s - %u)\n
@@ -38657,6 +38664,7 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 Pivot
 PivotPaint
 PixelToProj
+PjPQ
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -39529,12 +39537,11 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
+R\fpD
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp,f
-R\vphv\n
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -45256,6 +45263,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hrPQ
 Xd3h
 XfJ7
 XjfR
@@ -45481,7 +45489,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fphv\n
 \ful2
 \fy&3Gl
 \l:ArR
@@ -46742,7 +46749,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vphv\n
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46818,7 +46824,9 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`2PQ
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`6Px
 `:zQF
 `D$daM-l
 `DZG
@@ -46827,6 +46835,8 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`bPQ
+`dPQ
 `fPw.\vM
 `h9T~
 `o_je
@@ -46846,7 +46856,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4
 aD/x
 aDSS
 aECDH
@@ -51691,6 +51700,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\f0
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -61409,7 +61419,6 @@ m_flHeroLockBreakRange
 m_flHeroLockRange
 m_flHideDuration
 m_flHintRecoveryStrength
-m_flHitConeAngleExtra
 m_flHitPctForCamera
 m_flHoldBombOffsetX
 m_flHoldBombOffsetY
@@ -67934,8 +67943,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4
-p0j 
+p2PQ
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -68332,6 +68340,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pbPQ
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -68418,7 +68427,6 @@ phonenumber
 photo
 phrase
 phrase is too short, needs to be at least %d chars\n
-phv\n
 phys
 phys_batch_ray_test
 phys_continuous_kinematic_update
@@ -69198,6 +69206,7 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
+r\vpD
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight

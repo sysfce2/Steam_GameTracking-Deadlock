@@ -180,13 +180,11 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j`
- (08@HPXbPM
- (08@HPZ`
- (08@HRPM
- (08@JPM
- (0X`hpzPM
- (2PM
+ (08@HPXbpO
+ (08@HRpO
+ (08@JpO
+ (0X`hpzpO
+ (2pO
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -14433,9 +14431,7 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
-08@HR`
-08@JPM
-08B`
+08@JpO
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -14476,6 +14472,7 @@ $tJ@T\tK
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0\rP!e
 0e\r8
+0l0/
 0pp@5tqE?|sO541
 0tU+xc:
 0x%s
@@ -14617,7 +14614,8 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpT
+2\vpl0/
+2\vpt
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -15084,7 +15082,7 @@ $tJ@T\tK
 @0pp
 @Accolades
 @BH]f
-@HVp
+@HPX`hv 
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15099,6 +15097,7 @@ $tJ@T\tK
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
+@ht0
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -34963,11 +34962,11 @@ P-224
 P-256
 P-384
 P-521
-P08@JPM
+P08@JpO
 P1\t98"
-P2PM
+P2pO
 P5[1
-P:PM
+P:pO
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -35509,7 +35508,7 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf@p/
+Pf`r/
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -35723,7 +35722,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn@q/
+Pn`s/
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -36373,10 +36372,11 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
-R\fpT
+R\fpt
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vpl0/
 R]Di
 Rad2 Deg
 RadiationThink
@@ -41964,7 +41964,6 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr`
 Xd3h
 XfJ7
 XjfR
@@ -43241,7 +43240,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2PM
+`2pO
 `:zQF
 `D$daM-l
 `DZG
@@ -47287,7 +47286,6 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
-dq\fp=
 draft
 draft_item_sets
 drag_override
@@ -49613,7 +49611,7 @@ how long the player has been sprinting
 how much hotter than the npc's flashpoint a heat source should be to instantly ignite them.
 how this stat is implemented
 hows joint info for this entity
-hpzPM
+hpzpO
 hr_H
 http request
 https proxy request
@@ -57516,7 +57514,6 @@ m_flHeroLockBreakRange
 m_flHeroLockRange
 m_flHideDuration
 m_flHintRecoveryStrength
-m_flHitConeAngleExtra
 m_flHitHeading
 m_flHitPctForCamera
 m_flHitStrength
@@ -66350,7 +66347,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p2PM
+p0j0z
+p2pO
 p2{l
 p4Z3
 p5Z3
@@ -66880,6 +66878,7 @@ pkey
 pkeyalg
 pkix
 pkparameters2group failure
+pl0/
 placebo
 placementattachment
 placementbone
@@ -67402,7 +67401,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
-r\vpT
+r\vpt
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight
