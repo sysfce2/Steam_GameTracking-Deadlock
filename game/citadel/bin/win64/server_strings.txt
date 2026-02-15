@@ -180,11 +180,13 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPXbpO
- (08@HRpO
- (08@JpO
- (0X`hpzpO
- (2pO
+ (08@HPX`j`
+ (08@HPXbPQ
+ (08@HPZ`
+ (08@HRPQ
+ (08@JPQ
+ (0X`hpzPQ
+ (2PQ
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -14431,7 +14433,9 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
-08@JpO
+08@HR`
+08@JPQ
+08B`
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -14443,6 +14447,7 @@ $tJ@T\tK
 0=instant gold 1=orbs in experimental only 2=orbs always
 0=normal, 1=rebirth, 2=rejuvenator
 0AgffA
+0L2/
 0M2~@p
 0W/5
 0Z@q
@@ -14472,7 +14477,6 @@ $tJ@T\tK
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0\rP!e
 0e\r8
-0l0/
 0pp@5tqE?|sO541
 0tU+xc:
 0x%s
@@ -14614,8 +14618,8 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpl0/
-2\vpt
+2\vpL2/
+2\vpT
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -15082,7 +15086,7 @@ $tJ@T\tK
 @0pp
 @Accolades
 @BH]f
-@HPX`hv 
+@HVp
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15097,7 +15101,6 @@ $tJ@T\tK
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@ht0
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -34962,11 +34965,11 @@ P-224
 P-256
 P-384
 P-521
-P08@JpO
+P08@JPQ
 P1\t98"
-P2pO
+P2PQ
 P5[1
-P:pO
+P:PQ
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -35508,7 +35511,7 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf`r/
+Pf@t/
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -35722,7 +35725,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn`s/
+Pn@u/
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -36372,11 +36375,11 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
-R\fpt
+R\fpT
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpl0/
+R\vpL2/
 R]Di
 Rad2 Deg
 RadiationThink
@@ -41964,6 +41967,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr`
 Xd3h
 XfJ7
 XjfR
@@ -43240,7 +43244,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2pO
+`2PQ
 `:zQF
 `D$daM-l
 `DZG
@@ -47286,6 +47290,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
+dq\fpA
 draft
 draft_item_sets
 drag_override
@@ -49611,7 +49616,7 @@ how long the player has been sprinting
 how much hotter than the npc's flashpoint a heat source should be to instantly ignite them.
 how this stat is implemented
 hows joint info for this entity
-hpzpO
+hpzPQ
 hr_H
 http request
 https proxy request
@@ -66347,8 +66352,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j0z
-p2pO
+p2PQ
 p2{l
 p4Z3
 p5Z3
@@ -66385,6 +66389,7 @@ pHitEntity
 pIdentifier
 pIp 
 pJointName
+pL2/
 pLocationEntity
 pMaterialGroup
 pMeshGroupName
@@ -66878,7 +66883,6 @@ pkey
 pkeyalg
 pkix
 pkparameters2group failure
-pl0/
 placebo
 placementattachment
 placementbone
@@ -67401,7 +67405,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
-r\vpt
+r\vpT
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight
