@@ -55814,7 +55814,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_iAddedTime = 1768852800
 		m_strIconImageSmall = panorama:"file://{images}/heroes/priest_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/priest_mm.psd"
 		m_strDeathVOSound = soundevent:"Generated.Priest.Hero.Death.VO"
@@ -69181,7 +69180,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_iAddedTime = 1768852800
 		m_strIconImageSmall = panorama:"file://{images}/heroes/necro_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/necro_mm.psd"
 		m_strHeroSortName = "#hero_necro_sort"
@@ -70403,7 +70401,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_iAddedTime = 1768852800
 		m_strIconImageSmall = panorama:"file://{images}/heroes/fencer_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/fencer_mm.psd"
 		m_strDeathVOSound = soundevent:"Generated.Fencer.Hero.Death.VO"
@@ -72829,7 +72826,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_iAddedTime = 1768852800
 		m_strIconImageSmall = panorama:"file://{images}/heroes/familiar_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/familiar_mm.psd"
 		m_strHeroSearchName = "#hero_familiar_search"
@@ -74048,7 +74044,6 @@
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
 		m_bLaneTestingRecommended = false
-		m_iAddedTime = 1768852800
 		m_strIconImageSmall = panorama:"file://{images}/heroes/werewolf_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/werewolf_mm.psd"
 		m_strDeathVOSound = soundevent:"Generated.Werewolf.Hero.Death.VO"
@@ -75271,7 +75266,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_iAddedTime = 1768852800
 		m_strIconImageSmall = panorama:"file://{images}/heroes/unicorn_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/unicorn_mm.psd"
 		m_strHeroSearchName = "#hero_unicorn_search"

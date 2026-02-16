@@ -14607,6 +14607,7 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vpP
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14723,7 +14724,6 @@ $tJ@T\tK
 6,2K
 6-zeZ
 60000
-60b/
 62$|S)6f
 64CK\vH
 65535
@@ -14735,7 +14735,6 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
-6Pd/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14754,6 +14753,8 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
+6pj/
+6pt/
 6qo~
 6r-m_v
 6r1ij
@@ -15072,10 +15073,10 @@ $tJ@T\tK
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08N$
 @0pp
 @Accolades
 @BH]f
-@HPX`hv0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15120,7 +15121,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:p
 AABBDirection
 AABB_t
 AACompromise
@@ -28219,7 +28219,6 @@ FORMAT
 FORWARD
 FOV Added onto user's base FOV. Should typically be negative.
 FOV2D
-FPw/
 FUNC_DOOR_SPAWN_CLOSED
 FUNC_DOOR_SPAWN_OPEN
 FU\n-XP
@@ -34956,8 +34955,10 @@ P-224
 P-256
 P-384
 P-521
+P08N$
 P1\t98"
 P5[1
+P6`l/
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -35499,7 +35500,6 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pfpu/
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -35713,7 +35713,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pnpv/
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -36366,6 +36365,7 @@ RUMBLE_STOP_ALL
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vpP
 R]Di
 Rad2 Deg
 RadiationThink
@@ -42225,6 +42225,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -43256,6 +43257,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv$
 aD/x
 aDSS
 aECDH
@@ -46845,6 +46847,7 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
+dP\t0
 dSAQuality
 dWry
 dZ!2.
@@ -59673,7 +59676,6 @@ m_hurtThinkPeriod
 m_iAPNetWorth
 m_iAbilityID
 m_iAccountID
-m_iAddedTime
 m_iAlphaOption
 m_iAmberRejuvCount
 m_iAmmo
@@ -66334,12 +66336,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j@}
+p08@H^$
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
+p6@o/
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -66363,6 +66366,7 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
+pF v/
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -69544,6 +69548,7 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
+tR\t0
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target

@@ -400,7 +400,7 @@
 		"NonHeroAbilityLifestealTooltipOnly_postfix"		"%"
 		
 		//Mystic Vulnerability
-		"upgrade_magic_vulnerability_desc"	"When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Spirit Resist</span> reduced."		
+		"upgrade_magic_vulnerability_desc"	"When an enemy takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Spirit Resist</span> reduced."		
 
 		//Healbane
 		"upgrade_healbane_desc"	"Your <span class=\"highlight\">Spirit Damage</span> applies <span class=\"highlight\">Healing Reduction</span>. If an enemy hero dies under this effect, you receive a large heal."
