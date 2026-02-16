@@ -14723,6 +14723,7 @@ $tJ@T\tK
 6,2K
 6-zeZ
 60000
+60b/
 62$|S)6f
 64CK\vH
 65535
@@ -14734,7 +14735,7 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
-6Pb/
+6Pd/
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14753,7 +14754,6 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6pd/
 6qo~
 6r-m_v
 6r1ij
@@ -15075,7 +15075,7 @@ $tJ@T\tK
 @0pp
 @Accolades
 @BH]f
-@HPX`hvP
+@HPX`hv0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15120,6 +15120,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:p
 AABBDirection
 AABB_t
 AACompromise
@@ -28218,6 +28219,7 @@ FORMAT
 FORWARD
 FOV Added onto user's base FOV. Should typically be negative.
 FOV2D
+FPw/
 FUNC_DOOR_SPAWN_CLOSED
 FUNC_DOOR_SPAWN_OPEN
 FU\n-XP
@@ -28672,7 +28674,6 @@ Found target!\n
 Found target\n
 FourQuaternions
 FourVectors
-Fpw/
 Fpx7
 Frac
 Frac * 5 Players to get how much extra buildup is added. Larger values make the buildup complete faster.  0.2 (*5 Players) is exactly halving the buildup time
@@ -34957,7 +34958,6 @@ P-384
 P-521
 P1\t98"
 P5[1
-P60n/
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -35499,6 +35499,7 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+Pfpu/
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -35712,6 +35713,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+Pnpv/
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -66332,7 +66334,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j`}
+p0j@}
 p2{l
 p4Z3
 p5Z3
