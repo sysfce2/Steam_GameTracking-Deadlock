@@ -89,8 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j`O
- (08@HPZ`O
+ (08@HPX`j@P
+ (08@HPZ@P
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -116,6 +116,7 @@
  <b>@import</b> 
  ACTIVE GROUP
  AInvalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
+ AxQ^
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreAnalogActionHandlesReady: Analog Action not found: %s \n
@@ -16736,11 +16737,12 @@ $hRh
 0.0: turn off corner boosts. 1.0: raw corner boost.
 0.5 = 50% speed\n1 = 100% speed\n2 = 200% speed\n(Only editable when Fixed Length is false)
 0.CPlayer_UpdateSteamAnnouncementLastRead_Request
+00s\n
 0123456789
 02V8[
 05=k
-08@HR`O
-08B`O
+08@HR@P
+08B@P
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16761,7 +16763,6 @@ $hRh
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
-0Pr\n
 0W/5
 0Z@q
 0\f504P
@@ -16794,7 +16795,6 @@ $hRh
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
-0lZ\n
 0pp@5tqE?|sO541
 0tU+xc:
 0x%4.4x 
@@ -17019,7 +17019,8 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpT
+2\vp4
+2\vp|c
 2^pV
 2a"l
 2bT~
@@ -17234,9 +17235,9 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@J`O
+8@J@P
 8A6j
-8B`O
+8B@P
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -34729,6 +34730,7 @@ LT_txt
 LWIN
 LXKQ
 LY\r5
+L\fpQ
 L\n\fincludevotes
 L\n\tfile_type
 Label.BgColor
@@ -37850,10 +37852,12 @@ P-224
 P-256
 P-384
 P-521
+P08J`R
+P0s\n
 P1\t98"
+P2@P
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
-P2`O
 P5[1
 PAGN_4
 PANEL_ID
@@ -38161,7 +38165,6 @@ POTG Playback Camera Switch: Target(%d) Local(%d)
 POTG Playback Trigger: %s at offset %.2f\n
 POTG Playback: Trigger up to %.2f Events Triggered( %d / %d )\n
 POTG Playback: Trigger up to %.2f skipped due to above %.2f replay end time\n
-PPr\n
 PPz\v=
 PRB+
 PRECIPITATION
@@ -38659,8 +38662,7 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 Pivot
 PivotPaint
 PixelToProj
-Pj`O
-PlZ\n
+Pj@P
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -39533,12 +39535,13 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
-R\fpT
+R\fp4
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpPr\n
+R\vp0s\n
+R\vp|c
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -45260,7 +45263,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr`O
+X`hr@P
 Xd3h
 XfJ7
 XjfR
@@ -45486,7 +45489,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPlZ\n
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45697,7 +45699,7 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
-\nPPr\n
+\nP0s\n
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -46748,8 +46750,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpPr\n
-\vplZ\n
+\vp0s\n
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -67938,7 +67939,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p2`O
+p0jp
+p0s\n
+p2@P
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67963,7 +67966,6 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pFP~
 pField
 pFilter
 pG_*h
@@ -67973,7 +67975,6 @@ pIp
 pLocationEntity
 pO0h
 pOtherEntity
-pPr\n
 pRTH
 pSPo
 pSectionData != nullptr
@@ -68337,7 +68338,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pb`O
+pb@P
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -68621,7 +68622,6 @@ pkey
 pkeyalg
 pkix
 pkparameters2group failure
-plZ\n
 pl_PL
 placebo
 placeholder
@@ -69202,10 +69202,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpPr\n
+r\fp0s\n
 r\n\vstart_index
 r\vDi
-r\vpT
+r\vp4
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight

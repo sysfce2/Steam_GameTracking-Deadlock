@@ -208,6 +208,7 @@
  <-- Arg '%s'
  <-- Retval '%s'
  ACTIVE GROUP
+ APR
  Damage Dealt to Trooper Boss
  Damage Taken from Player
  FLK
@@ -14607,7 +14608,6 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpP
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14753,8 +14753,6 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6pj/
-6pt/
 6qo~
 6r-m_v
 6r1ij
@@ -15073,7 +15071,7 @@ $tJ@T\tK
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N$
+@08NT
 @0pp
 @Accolades
 @BH]f
@@ -15834,6 +15832,7 @@ Always
 Always false
 Always kick at least this much in the direction the player is facing.
 Always true
+Am_cameraSequencePreRelease
 Amber
 Ambient Sound
 AmbientCubes
@@ -34955,10 +34954,10 @@ P-224
 P-256
 P-384
 P-521
-P08N$
+P08J0
+P08NT
 P1\t98"
 P5[1
-P6`l/
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -36365,7 +36364,6 @@ RUMBLE_STOP_ALL
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpP
 R]Di
 Rad2 Deg
 RadiationThink
@@ -42225,7 +42223,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -43239,6 +43236,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`htp\r
 `o_je
 `yNT
 a null shared library handle was used
@@ -43257,7 +43255,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$
+aBvT
 aD/x
 aDSS
 aECDH
@@ -46847,7 +46845,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\t0
 dSAQuality
 dWry
 dZ!2.
@@ -47277,6 +47274,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
+dq\f A
 draft
 draft_item_sets
 drag_override
@@ -55937,7 +55935,6 @@ m_cameraSequenceImpact
 m_cameraSequenceInSatchel
 m_cameraSequenceInShadow
 m_cameraSequenceLatched
-m_cameraSequencePreRelease
 m_cameraSequenceRemoved
 m_cameraSequenceSelected
 m_cameraSequenceSlash
@@ -66336,13 +66333,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^$
+p08@H^T
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6@o/
+p6po/
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -66366,7 +66363,7 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
-pF v/
+pFPv/
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -69548,7 +69545,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\t0
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
