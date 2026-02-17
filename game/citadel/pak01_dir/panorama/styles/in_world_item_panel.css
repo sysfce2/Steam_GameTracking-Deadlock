@@ -17,16 +17,11 @@
 .name
 {
 	width: 100%;
-	font-size: 200px;
+	font-size: 250px;
 	text-align: center;
 	color: white;
-	font-family: sans;
+	font-family: oracle;
 	font-weight: semi-bold;
 	text-overflow: shrink;
-}
-
-.Language_japanese .name
-{
-	font-size: 190px;
 }
 

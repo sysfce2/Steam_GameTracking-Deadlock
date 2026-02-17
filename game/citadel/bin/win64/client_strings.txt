@@ -89,8 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j@P
- (08@HPZ@P
+ (08@HPX`j@
+ (08@HPZ@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -116,7 +116,6 @@
  <b>@import</b> 
  ACTIVE GROUP
  AInvalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
- AxQ^
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreAnalogActionHandlesReady: Analog Action not found: %s \n
@@ -3106,7 +3105,6 @@ $hRh
 +Ultimate Properties
 +Updates information about a published file.
 +Vacuum Properties
-+Visuals
 +\n#dota_spectator_watching_broadcaster
 +\n&k_ECitadelDisconnectReason_UserQuitApp
 +\n&k_EMsgClientToGCChallengeClaimResponse
@@ -3359,6 +3357,7 @@ $hRh
 .$$BY0IB@D
 .%.-.3.7.9.?.W.[.o.y.
 .(Optional) Set of tags for the published file.
+... %s culled event %s after max %i reached \n
 ....................
 ...Randomly seeking to marker index %i at time %.03f with offset %.03f \n
 ...Resuming from %.03f \n
@@ -4541,6 +4540,7 @@ $hRh
 .?AV?$CGameSystemStaticFactory@VCCameraManagerGameSystem@@V1@@@
 .?AV?$CGameSystemStaticFactory@VCCitadelAccoladesGameSystem@@V1@@@
 .?AV?$CGameSystemStaticFactory@VCCitadelAudioEntityInfo@@V1@@@
+.?AV?$CGameSystemStaticFactory@VCCitadelAudioLimiter@@V1@@@
 .?AV?$CGameSystemStaticFactory@VCCitadelAudioManager@@V1@@@
 .?AV?$CGameSystemStaticFactory@VCCitadelAudioRelevance@@V1@@@
 .?AV?$CGameSystemStaticFactory@VCCitadelBeamUpdaterGameSystem@@V1@@@
@@ -10274,6 +10274,7 @@ $hRh
 .?AVCCitadelAudioAnimEventHandler@@
 .?AVCCitadelAudioEntityInfo@@
 .?AVCCitadelAudioFilter@@
+.?AVCCitadelAudioLimiter@@
 .?AVCCitadelAudioLoop@@
 .?AVCCitadelAudioManager@@
 .?AVCCitadelAudioRelevance@@
@@ -16737,12 +16738,11 @@ $hRh
 0.0: turn off corner boosts. 1.0: raw corner boost.
 0.5 = 50% speed\n1 = 100% speed\n2 = 200% speed\n(Only editable when Fixed Length is false)
 0.CPlayer_UpdateSteamAnnouncementLastRead_Request
-00s\n
 0123456789
 02V8[
 05=k
-08@HR@P
-08B@P
+08@HR@
+08B@
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16760,6 +16760,7 @@ $hRh
 0=Model, 1=Particle, 2=Model+Particle
 0=Never; 1=Only if there is a problem; 2=always
 0=default 1=friendly 2=enemy 3=both
+0>ps
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -17020,7 +17021,6 @@ $hRh
 2\r.ECommendType
 2\rlhp
 2\vp4
-2\vp|c
 2^pV
 2a"l
 2bT~
@@ -17235,9 +17235,7 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@J@P
 8A6j
-8B@P
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17516,12 +17514,12 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CAbilityNikumanVData
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelObjectivesMap
+?CitadelPartyCode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
+?Disable purchasing if you deal or take damage from an enemy player.
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
-?EAbilityUpgradeTier
+?ELOSCheck_BodyCenter_IgnoreObscureBlockers
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17550,23 +17548,25 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
-?ability_familiar_helpinghands
 ?d86L
 ?dt]X
 ?expf
 ?ff&?333?
 ?gwL
 ?jOb
+?m_TeleportStartParticle
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@+Visuals
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
+@HV@l
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17587,6 +17587,7 @@ $hRh
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
+@m_tLingerMovementControlUntilTime
 @n2w
 A bias on the lerp
 A comma separated list of hero IDs that hold the currently banned brawl roster heroes
@@ -18651,6 +18652,7 @@ Attribute_%s
 AttributesBox
 AttributesSection_%i
 AttributesSection_%s
+AudioLimiter
 AudioManager
 AudioUtil
 AudioVolume
@@ -18761,7 +18763,6 @@ BC_EMPTY
 BC_PARTICLE_SYSTEM_OVERRIDE
 BC_PROP_GROUP_OVERRIDE
 BCanSeeInParentScroll
-BCitadelPingWheelMessagesVDATA_t
 BEAM_ENTPOINT
 BEAM_ENTS
 BEAM_HOSE
@@ -19510,6 +19511,7 @@ BulletsOverride
 BulletsReloadedPerHeavyMeleePct
 BulletsReloadedPerLightMeleePct
 Bundle has circular reference: 
+Bunique integer ID of this ping wheel message
 BurnDuration
 BurnLingerDuration
 BurnRadius
@@ -19875,6 +19877,7 @@ CAbilityMantleVData
 CAbilityMedicHealVData
 CAbilityMeleeParryVData
 CAbilityMeleeVData
+CAbilityNikumanVData
 CAbilityPerchedPredatorVData
 CAbilityPowerJumpVData
 CAbilityPowerSlashVData
@@ -21760,6 +21763,7 @@ CCitadel_Modifier_IceDome_AuraModifierBase
 CCitadel_Modifier_IcePath
 CCitadel_Modifier_IcePath_TechPowerLinger
 CCitadel_Modifier_IdolReturnTimer
+CCitadel_Modifier_IdolTeamTimeout
 CCitadel_Modifier_Idol_Return
 CCitadel_Modifier_InFountain
 CCitadel_Modifier_InHideoutMap
@@ -25392,6 +25396,7 @@ CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CEntityInde
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CHandle<class C_BaseEntity>,class ParticleIndex_t,class CDefEquals<class CHandle<class C_BaseEntity> >,struct HashMapFunctor_t<class CHandle<class C_BaseEntity> >,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CHandle<class C_BaseEntity>,class ParticleIndex_t,class CDefEquals<class CHandle<class C_BaseEntity> >,struct HashMapFunctor_t<class CHandle<class C_BaseEntity> >,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CHandle<class C_BaseEntity>,int,class CDefEquals<class CHandle<class C_BaseEntity> >,struct HashMapFunctor_t<class CHandle<class C_BaseEntity> >,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CHandle<class C_BaseEntity>,int,class CDefEquals<class CHandle<class C_BaseEntity> >,struct HashMapFunctor_t<class CHandle<class C_BaseEntity> >,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CHandle<class C_CitadelPlayerPawn>,int,class CDefEquals<class CHandle<class C_CitadelPlayerPawn> >,struct HashMapFunctor_t<class CHandle<class C_CitadelPlayerPawn> >,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CHandle<class C_CitadelPlayerPawn>,int,class CDefEquals<class CHandle<class C_CitadelPlayerPawn> >,struct HashMapFunctor_t<class CHandle<class C_CitadelPlayerPawn> >,int>::HashBucket_t,int>::AddMultipleToTail
+CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CPlayerSlot,class CRecipientLimiter,class CDefEquals<class CPlayerSlot>,struct HashMapFunctor_t<class CPlayerSlot>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CPlayerSlot,class CRecipientLimiter,class CDefEquals<class CPlayerSlot>,struct HashMapFunctor_t<class CPlayerSlot>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CPlayerSlot,class CUtlVector<class CUtlStringToken,int,class CUtlVectorMemory_Growable<class CUtlStringToken,int,0> >,class CDefEquals<class CPlayerSlot>,struct HashMapFunctor_t<class CPlayerSlot>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CPlayerSlot,class CUtlVector<class CUtlStringToken,int,class CUtlVectorMemory_Growable<class CUtlStringToken,int,0> >,class CDefEquals<class CPlayerSlot>,struct HashMapFunctor_t<class CPlayerSlot>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CPlayerSlot,class Color,class CDefEquals<class CPlayerSlot>,struct HashMapFunctor_t<class CPlayerSlot>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CPlayerSlot,class Color,class CDefEquals<class CPlayerSlot>,struct HashMapFunctor_t<class CPlayerSlot>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CPlayerSlot,class GameTime_t,class CDefEquals<class CPlayerSlot>,struct HashMapFunctor_t<class CPlayerSlot>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CPlayerSlot,class GameTime_t,class CDefEquals<class CPlayerSlot>,struct HashMapFunctor_t<class CPlayerSlot>,int>::HashBucket_t,int>::AddMultipleToTail
@@ -25405,7 +25410,9 @@ CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CUtlString,
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CUtlString,struct RecentAudioData_t,class CDefEquals<class CUtlString>,struct HashMapFunctor_t<class CUtlString>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CUtlString,struct RecentAudioData_t,class CDefEquals<class CUtlString>,struct HashMapFunctor_t<class CUtlString>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CUtlStringToken,bool,class CDefEquals<class CUtlStringToken>,struct HashMapFunctor_t<class CUtlStringToken>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CUtlStringToken,bool,class CDefEquals<class CUtlStringToken>,struct HashMapFunctor_t<class CUtlStringToken>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CUtlStringToken,class CUtlVector<class CUtlStringToken,int,class CUtlVectorMemory_Growable<class CUtlStringToken,int,0> >,class CDefEquals<class CUtlStringToken>,struct HashMapFunctor_t<class CUtlStringToken>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CUtlStringToken,class CUtlVector<class CUtlStringToken,int,class CUtlVectorMemory_Growable<class CUtlStringToken,int,0> >,class CDefEquals<class CUtlStringToken>,struct HashMapFunctor_t<class CUtlStringToken>,int>::HashBucket_t,int>::AddMultipleToTail
+CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CUtlStringToken,float,class CDefEquals<class CUtlStringToken>,struct HashMapFunctor_t<class CUtlStringToken>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CUtlStringToken,float,class CDefEquals<class CUtlStringToken>,struct HashMapFunctor_t<class CUtlStringToken>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CUtlStringToken,struct CCitadel_Hud_Health_Container::RecentHealEvent_t,class CDefEquals<class CUtlStringToken>,struct HashMapFunctor_t<class CUtlStringToken>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CUtlStringToken,struct CCitadel_Hud_Health_Container::RecentHealEvent_t,class CDefEquals<class CUtlStringToken>,struct HashMapFunctor_t<class CUtlStringToken>,int>::HashBucket_t,int>::AddMultipleToTail
+CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CUtlStringToken,unsigned short,class CDefEquals<class CUtlStringToken>,struct HashMapFunctor_t<class CUtlStringToken>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CUtlStringToken,unsigned short,class CDefEquals<class CUtlStringToken>,struct HashMapFunctor_t<class CUtlStringToken>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,struct CHudMinimap::MinimapPointList_t,class CDefEquals<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,struct HashMapFunctor_t<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,struct CHudMinimap::MinimapPointList_t,class CDefEquals<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,struct HashMapFunctor_t<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class HeroID_t,bool,class CDefEquals<class HeroID_t>,struct HashMapFunctor_t<class HeroID_t>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class HeroID_t,bool,class CDefEquals<class HeroID_t>,struct HashMapFunctor_t<class HeroID_t>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class HeroID_t,class CCitadelHeroCard *,class CDefEquals<class HeroID_t>,struct HashMapFunctor_t<class HeroID_t>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class HeroID_t,class CCitadelHeroCard *,class CDefEquals<class HeroID_t>,struct HashMapFunctor_t<class HeroID_t>,int>::HashBucket_t,int>::AddMultipleToTail
@@ -26507,6 +26514,7 @@ CitadelApplyResolutionChoice
 CitadelArpeggiatorMode_t
 CitadelArpeggiator_t
 CitadelAssignedGameLobby
+CitadelAudioLimiter
 CitadelAudioRelevance
 CitadelAvatarImage
 CitadelAvatarImageLoaded
@@ -26987,6 +26995,7 @@ CitadelNewsPage
 CitadelNewsPageRequestMore
 CitadelNextTipText
 CitadelObjectiveTooltip
+CitadelObjectivesMap
 CitadelObjectivesTooltip
 CitadelOpenBook
 CitadelOpenBuildBrowser
@@ -27003,7 +27012,6 @@ CitadelPartyAcceptInvite( %llu )
 CitadelPartyCancelInviteAccountID
 CitadelPartyClearMode
 CitadelPartyClearReady
-CitadelPartyCode
 CitadelPartyCodeHiddenUpdated
 CitadelPartyCodeTooltip
 CitadelPartyCreatePrivateLobby
@@ -27038,6 +27046,7 @@ CitadelPerformaceTracker
 CitadelPingEvent_t
 CitadelPingIndicator
 CitadelPingWheelConcept_t
+CitadelPingWheelMessagesVDATA_t
 CitadelPlayChatWheelSound
 CitadelPlayMenu
 CitadelPlayPage
@@ -27134,7 +27143,6 @@ CitadelProfileShowMatchHistoryTab
 CitadelProfileSortHeroes
 CitadelProgressBarDelta
 CitadelPurchaseModItem
-CitadelQuickGuide
 CitadelQuickGuideCategory
 CitadelQuickGuideViewPeriod
 CitadelQuickSearch
@@ -27293,6 +27301,7 @@ CitadelShowHeroDetailsPage
 CitadelShowHeroPage
 CitadelShowHeroReleaseVotePage
 CitadelShowHoliday2025Page
+CitadelShowHomePage
 CitadelShowInteractiveStatsPanelTooltipForSlot
 CitadelShowJoinOrCreatePartyPopup
 CitadelShowLatestPatchNotes
@@ -27602,6 +27611,7 @@ Clears out all survey questions from this account and resets the state
 Clears that we need to be in the next playtest
 Clears the list of names to display text debugging information about the given entity(ies) on top of the entity (See Overlay Text)\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
 Clears world decals
+Client - CCitadelAudioLimiter frame total: culled %i sounds \n
 Client Main World:
 Client Messages
 Client Modifiers [entity %d (%s)]:\n
@@ -29086,7 +29096,6 @@ Disable glow on friendly troopers except for through walls during laning
 Disable interpolation list optimizations.
 Disable map color-correction entities
 Disable passing through portals
-Disable purchasing if you deal or take damage from an enemy player.
 Disable the early dev build message
 Disable the early post match survey
 Disable this entity.
@@ -29534,6 +29543,7 @@ EAbilityType_Ultimate
 EAbilityType_Weapon
 EAbilityType_t
 EAbilityUnlocks
+EAbilityUpgradeTier
 EAbilityUpgradeTier_1
 EAbilityUpgradeTier_2
 EAbilityUpgradeTier_3
@@ -30143,7 +30153,6 @@ ELEMENT_ACCESS_VEC4
 ELF0
 ELOSCheck
 ELOSCheck_BodyCenter
-ELOSCheck_BodyCenter_IgnoreObscureBlockers
 ELOSCheck_Bounds
 ELOSCheck_Bounds_IgnoreObscureBlockers
 ELOSCheck_FibonacciSphere
@@ -30175,7 +30184,6 @@ ELightMeleeDamage
 ELobbyServerState
 ELockNone
 ELockPaused
-ELockingOn
 ELockonState
 ELootTableEntryType
 ELootType_Item
@@ -32212,7 +32220,7 @@ GCSDK::GCDirIndex_t
 GCSQL_VERSION_BASELINE
 GCSQL_VERSION_BOOLTYPE
 GCType_t"2\n
-GCitadelShowHomePage
+GCitadelQuickGuide
 GENERALIZEDTIME
 GENERALSTRING
 GENERAL_ALLOCATE_BOOLEAN
@@ -34529,7 +34537,6 @@ JoinSection
 JoiningChat
 Joins a party
 Joint Info
-JoystickCamera
 Jq;v
 Jq?a
 Jr\tA
@@ -34730,7 +34737,6 @@ LT_txt
 LWIN
 LXKQ
 LY\r5
-L\fpQ
 L\n\fincludevotes
 L\n\tfile_type
 Label.BgColor
@@ -36253,6 +36259,7 @@ MeleeIgniteTime
 MeleeRadius
 MeleeRange
 MeleeResist
+MeleeResistReductionDuration
 MeleeScalingFromWeaponPower
 MeleeSpeedBonusPercentage
 MeleeTravelDistance
@@ -37852,10 +37859,8 @@ P-224
 P-256
 P-384
 P-521
-P08J`R
-P0s\n
+P08J`
 P1\t98"
-P2@P
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
 P5[1
@@ -38662,7 +38667,6 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 Pivot
 PivotPaint
 PixelToProj
-Pj@P
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -39540,8 +39544,7 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp0s\n
-R\vp|c
+R\vp0
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -39893,6 +39896,7 @@ RenderingChanged
 RenderingPipelineCitadelHelpersManifest
 RenderingPipelineCitadelManifest
 RenderingPipelineCitadelShadowsManifest
+Renders limiter debug spheres and enables logging.
 Renders mix layer debug.
 ReorientThink
 Rep=%d/%d, Seg=%d/%d
@@ -41886,7 +41890,6 @@ Source1LegacyListenEvents_t
 Source2 HTML
 Source2/Composite Material Debug
 Source2EntitySystem
-Source2EntitySystemDeallocator
 Source2PlayStats_LowCardinalityString
 SourceOffset
 SourceTexture
@@ -44559,6 +44562,7 @@ WIN32_NAME_CONVERTER
 WIN32_PATHBYADDR
 WIN32_SPLITTER
 WIN32_UNLOAD
+WJoystickCamera
 WL6e}:
 WL_Chest
 WL_Count
@@ -44974,7 +44978,6 @@ WinnerTie
 WinningTeam
 WinningTeamNumber
 WizardSubPanel.BgColor
-Wm_bAlignCameraOnAutoDismount
 Wmn|CH
 Wn4'
 Work Item for Work Pool %s completed but job no longer existed to notify\n
@@ -45263,8 +45266,9 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr@P
+X`hr@
 Xd3h
+Xf u
 XfJ7
 XjfR
 XqgA+
@@ -45480,6 +45484,7 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
+\f@ELockingOn
 \fAccoladeID_t
 \fKS1
 \fResourceId_t
@@ -45489,6 +45494,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45699,7 +45705,6 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
-\nP0s\n
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -46517,6 +46522,7 @@ Z~wl
 \rKT8v
 \rLAM
 \rMinghuaQu\f
+\rSource2EntitySystemDeallocator
 \rTxL
 \rUHz4Z}\r
 \rWhO
@@ -46540,9 +46546,9 @@ Z~wl
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\vpL1
 \r^mX
-\rcitadel_rapid_stamina_regen
 \ri1I
 \rjwB\t
+\rm_flMovespeedOverride
 \roKK
 \rrCj
 \rstyle_index_t
@@ -46750,7 +46756,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vp0s\n
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -46837,6 +46842,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -46984,6 +46990,7 @@ ability_familiar_clone_end
 ability_familiar_clonesingle
 ability_familiar_clonesingle_trigger
 ability_familiar_healhost
+ability_familiar_helpinghands
 ability_familiar_primary_weapon_bubblegun
 ability_familiar_spotlight
 ability_fencer_lunge
@@ -47694,6 +47701,7 @@ audio_enclosure_speed
 audio_enemy_relevance_debug
 audio_enemy_relevance_targeting_range
 audio_health_change_damage_priority_threshold
+audio_limiter_debug
 audio_relevance_debug_enabled
 audio_render_mixlayer_debug
 audio_viewing_damage_debug
@@ -49759,6 +49767,7 @@ citadel_radial_ability_suggestion_weight
 citadel_radial_distortion
 citadel_radial_distortion_growth_factor
 citadel_radial_testing
+citadel_rapid_stamina_regen
 citadel_region_override
 citadel_relevance_opvars
 citadel_reload_rank_data
@@ -51698,6 +51707,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\f`u
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -55553,6 +55563,7 @@ k_ECitadelDisconnectReason_UserCancel
 k_ECitadelDisconnectReason_UserLeaveMatch
 k_ECitadelDisconnectReason_UserQuitApp
 k_ECitadelGameMode_1v1Test
+k_ECitadelGameMode_ExploreNYC
 k_ECitadelGameMode_Invalid
 k_ECitadelGameMode_Normal
 k_ECitadelGameMode_Sandbox
@@ -58871,7 +58882,6 @@ m_TeleportFXModifier
 m_TeleportModelParticle
 m_TeleportOriginParticle
 m_TeleportParticle
-m_TeleportStartParticle
 m_TeleportStartSound
 m_TeleportToGangster
 m_TeleportTrailParticle
@@ -59118,6 +59128,7 @@ m_bAiming
 m_bAirCast
 m_bAirRaiding
 m_bAirborneWhenDuckPressed
+m_bAlignCameraOnAutoDismount
 m_bAlignWithParent
 m_bAlignWithTargetAtLastWarpEvent
 m_bAlive
@@ -60763,8 +60774,6 @@ m_flBulletLifetime
 m_flBulletOnlyTriggerRadius
 m_flBulletRadius
 m_flBulletRadiusVsWorld
-m_flBulletResistReduction
-m_flBulletResistReductionDuration
 m_flBulletResistancePctMax
 m_flBulletResistancePctMin
 m_flBulletShouldExpireTime
@@ -61416,6 +61425,7 @@ m_flHeroLockBreakRange
 m_flHeroLockRange
 m_flHideDuration
 m_flHintRecoveryStrength
+m_flHitConeAngleExtra
 m_flHitPctForCamera
 m_flHoldBombOffsetX
 m_flHoldBombOffsetY
@@ -61720,6 +61730,8 @@ m_flMeleeFireDelay
 m_flMeleeHitRange
 m_flMeleeHitTime
 m_flMeleeInputBufferTime
+m_flMeleeResistReduction
+m_flMeleeResistReductionDuration
 m_flMeleeTargetRadius
 m_flMeleeTrooperStunTime
 m_flMessageInterval
@@ -61813,7 +61825,6 @@ m_flMovementMaxPathEndDirectionAngleDifferenceForStop
 m_flMovementPlantedTurnAngleThreshold
 m_flMovementRestrictionTime
 m_flMovementSpeedCurveAvgSpeed
-m_flMovespeedOverride
 m_flMuzzleFlashBrightness
 m_flMuzzleSmokeDecrementRate
 m_flMuzzleSmokeTimeout
@@ -62626,7 +62637,6 @@ m_flVerticalDeadzoneHard
 m_flVerticalDeadzoneSoft
 m_flVerticalFOV
 m_flVerticalMoveSpeedPercent
-m_flVerticalOffset
 m_flVerticalPunch
 m_flVerticalSpawnOffset
 m_flVerticalSpeed
@@ -64104,6 +64114,7 @@ m_pRagdollControl
 m_pRenderComponent
 m_pReserveAmmo
 m_pSceneNode
+m_pSearchingParticle
 m_pSkeletonInstance
 m_pSubclassVData
 m_pSurfaceData
@@ -65094,7 +65105,6 @@ m_tLastTetherTime
 m_tLastWallAttachTime
 m_tLeapOffTime
 m_tLeapStartTime
-m_tLingerMovementControlUntilTime
 m_tModeBeginTime
 m_tNextAbilityTriggerWindow
 m_tNextDetonateTime
@@ -67939,9 +67949,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0jp
-p0s\n
-p2@P
+p0jp-
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67966,6 +67974,7 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
+pF0\f
 pField
 pFilter
 pG_*h
@@ -68338,7 +68347,6 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pb@P
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -69088,6 +69096,7 @@ public key not rsa
 public-key:
 public.
 public.attachment
+public.filter_include_others
 public.max_distance_recipient_filter
 public.other_prop_mass_input
 public.position
@@ -69202,7 +69211,7 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp0s\n
+r\fp0
 r\n\vstart_index
 r\vDi
 r\vp4
@@ -72272,7 +72281,6 @@ unimplemented digest
 unimplemented public key method
 uninitialized
 unique integer ID of this new setting
-unique integer ID of this ping wheel message
 unique integer ID of this stat
 uniqueMember
 unique_target
@@ -73197,7 +73205,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDCCitadel_Modifier_IdolTeamTimeout
+zDm_flVerticalOffset
 zF):O4
 zFar
 zG2m8

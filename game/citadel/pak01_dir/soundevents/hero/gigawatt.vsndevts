@@ -359,6 +359,7 @@
 	Gigawatt.StaticCharge.Proc.Other = 
 	{
 		base = "Base.Ability.Hit"
+		filter_include_others = true
 		volume = 0.000000
 		vsnd_files = 
 		[

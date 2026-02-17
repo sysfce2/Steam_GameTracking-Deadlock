@@ -60,7 +60,6 @@
 	transition-property: opacity;
 	transition-duration: 0.25s;
 	transition-timing-function: linear;
-	background-image: url("s2r://panorama/images/textures/bg_smoke_psd.vtex");
 }
 
 .replayIntroStart

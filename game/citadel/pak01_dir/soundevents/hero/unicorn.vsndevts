@@ -402,18 +402,15 @@
 	}
 	Unicorn.Dazzling.Orb.Hit = 
 	{
-		base = "Base.Ability.Ult.Detached"
-		volume = 3.000000
+		base = "Base.Ability.Hit"
+		filter_include_others = true
+		volume = 4.000000
 		limiter_max = 2.000000
-		instance_attenuator_enabled = 1.000000
-		pitch_increment_count_max = 16.000000
-		incremental_pitch_offset = 0.060000
-		spread_min = 150.000000
-		spread_max_value_player = 0.600000
-		spread_max_value_opponent = 0.600000
-		spread_max_value_team = 0.600000
-		spread_max = 250.000000
-		spread_min_value = 0.000000
+		volume_offset_attacker_db = 3.000000
+		volume_offset_victim_db = 2.000000
+		instance_attenuator_enabled = 0.000000
+		pitch_increment_count_max = 18.000000
+		incremental_pitch_offset = 0.057500
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a4/unicorn_dazzling_orb_bounce_01.vsnd",
@@ -429,14 +426,9 @@
 	}
 	Unicorn.Dazzling.Orb.Hit.Final = 
 	{
-		base = "Base.Ability.Ult.Detached"
-		volume = -1.500000
-		spread_min = 150.000000
-		spread_max_value_player = 0.600000
-		spread_max_value_opponent = 0.600000
-		spread_max_value_team = 0.600000
-		spread_max = 250.000000
-		spread_min_value = 0.000000
+		base = "Base.Ability.Hit"
+		filter_include_others = true
+		volume = 4.000000
 		vsnd_files = "sounds/abilities/unicorn/a4/unicorn_dazzling_orb_final_hit.vsnd"
 		vsnd_duration = 2.162177
 	}

@@ -254,6 +254,7 @@
 	Bebop.Hook.Player = 
 	{
 		base = "Base.Ability.Hit"
+		filter_include_others = true
 		volume = 0.000000
 		vsnd_files = "sounds/abilities/bebop/a3_hook/bebop_a3_hook_impact_success_01.vsnd"
 		vsnd_duration = 1.935760

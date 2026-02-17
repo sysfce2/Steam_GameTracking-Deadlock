@@ -632,7 +632,18 @@
 						value = "-1.f"
 						_system_properties = 
 						{
-							display_group = "Normal"
+							display_group = "locked"
+							property_group = "Blocking"
+							property_help = "The server and client may query this value to see if it should play the sound from game code."
+						}
+					}
+					filter_include_others = 
+					{
+						data_type = "float"
+						value = "0.f"
+						_system_properties = 
+						{
+							display_group = "locked"
 							property_group = "Blocking"
 							property_help = "The server and client may query this value to see if it should play the sound from game code."
 						}

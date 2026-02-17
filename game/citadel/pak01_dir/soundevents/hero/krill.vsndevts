@@ -74,14 +74,6 @@
 	MoKrill.Wpn.Impact = 
 	{
 		base = "Base.Bullet.Impact"
-		vsnd_files = 
-		[
-			"sounds/physics/bullet_impacts/default/default_impact_bullet_01.vsnd",
-			"sounds/physics/bullet_impacts/default/default_impact_bullet_02.vsnd",
-			"sounds/physics/bullet_impacts/default/default_impact_bullet_03.vsnd",
-			"sounds/physics/bullet_impacts/default/default_impact_bullet_04.vsnd",
-		]
-		vsnd_duration = 0.464938
 	}
 	MoKrill.Wpn.ZoomIn = 
 	{

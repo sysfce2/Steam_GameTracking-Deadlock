@@ -802,6 +802,7 @@
 	Necro.Wall.Grasp = 
 	{
 		base = "Base.Ability.Hit"
+		filter_include_others = true
 		volume = 2.000000
 		vsnd_files = 
 		[

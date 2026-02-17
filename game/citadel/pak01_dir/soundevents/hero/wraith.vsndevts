@@ -418,6 +418,7 @@
 	{
 		base = "Base.Ability.Hit"
 		volume = 2.000000
+		filter_include_others = true
 		vsnd_files = "sounds/abilities/wraith/psychic_lift_impact.vsnd"
 		vsnd_duration = 2.714208
 	}

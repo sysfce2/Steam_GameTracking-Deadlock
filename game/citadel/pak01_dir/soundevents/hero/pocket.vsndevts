@@ -56,8 +56,6 @@
 	Pocket.Wpn.Impact = 
 	{
 		base = "Base.Bullet.Impact"
-		vsnd_files = "sounds/common/null.vsnd"
-		vsnd_duration = 0.050023
 	}
 	Pocket.Wpn.ZoomIn = 
 	{

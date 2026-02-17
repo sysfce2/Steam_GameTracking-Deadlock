@@ -812,6 +812,7 @@
 	Mods.Tech.Silence.Wave.Hit = 
 	{
 		base = "Base.Ability.Hit"
+		filter_include_others = true
 		pitch_rand_min = -0.070000
 		pitch_rand_max = 0.070000
 		volume = 0.000000

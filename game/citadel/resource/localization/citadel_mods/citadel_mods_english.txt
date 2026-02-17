@@ -952,10 +952,10 @@
 		"upgrade_runed_gauntlets_parry_desc"		"Pierces through parry."
 		"upgrade_electric_slippers_desc"		"When sliding, evade bullets, gain fire rate and deal damage to enemies around you. <span class=\"diminish\"><br><br>Cooldown is per target.</span>"
 		"upgrade_prism_blast_desc"				"You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which lasers blast out and rotate around you."
-		"upgrade_unstable_concoction_desc"		"Consume a concotion that grants you increased <span class=\"highlight\">speed, health, spirit and weapon damage</span>. After a short duration <span class=\"highlight\">you die and explode</span>, stunning nearby enemies and dealing damage based on your maximum health."
+		"upgrade_unstable_concoction_desc"		"Consume a concoction that grants you increased <span class=\"highlight\">speed, health, spirit and weapon damage</span>. After a short duration <span class=\"highlight\">you die and explode</span>, stunning nearby enemies and dealing damage based on your maximum health."
 		"upgrade_shivas_bracelet_desc"			"Imbued ability has its <span class=\"highlight\">Cooldown reduced</span> and gains <span class=\"highlight\">Spirit Power</span>. When the ability deals damage, <span class=\"highlight\">freeze</span> the target and apply <span class=\"highlight\">bonus damage</span>. <span class=\"diminish\"><br><br>Cooldown is per target.</span>"
 		"upgrade_shadow_strike_desc"			"Go <span class=\"highlight\">Invisible</span> on <span class=\"highlight\">Stamina use</span> with no detection range. Doing a <span class=\"highlight\">melee attack</span> while invisible will cause you to <span class=\"highlight\">steal bullet and spirit resistance</span> from them and deal <span class=\"highlight\">damage over time</span>."
-		"upgrade_omnicharge_pendant_desc"		"Imbue any active non-ultimate ability with <span class=\"highlight\">Bonus Ability Charges</span>. Already charged abilities recieve more bonus charges."
+		"upgrade_omnicharge_pendant_desc"		"Imbue any active non-ultimate ability with <span class=\"highlight\">Bonus Ability Charges</span>. Already charged abilities receive more bonus charges."
 		"upgrade_omnicharge_pendant_charges"	"Bonus Charges"
 
 		//-----------------------------------------------------------------------------

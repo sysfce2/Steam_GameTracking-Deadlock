@@ -352,6 +352,7 @@
 		base = "Base.Ability.Hit"
 		volume = 2.000000
 		block_duration = 0.500000
+		filter_include_others = true
 		vsnd_files = 
 		[
 			"sounds/gameplay/purge_debuff_01.vsnd",

@@ -7304,7 +7304,6 @@
 		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/abrams_localized.svg"
 		m_strDeathVOSound = soundevent:"Generated.Atlas.Hero.Death.VO"
 		m_strHeroSearchName = "#hero_atlas_search"
-		m_bNewPlayerRecommended = true
 		m_bLaneTestingRecommended = false
 		m_hGameSoundEventScript = resource_name:"soundevents/hero/abrams.vsndevts"
 		m_strRosterSelectedSound = soundevent:"Generated.Atlas.Hero.Pick.VO"
@@ -69208,6 +69207,7 @@
 		m_strLogoImageEnglish = panorama:"file://{images}/heroes/hero_names/necro.svg"
 		m_strPostGameVictorySound = soundevent:"Necro.Progession.Page.Win.VO"
 		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/necro_localized.svg"
+		m_bNewPlayerRecommended = true
 	}
 	hero_fencer = 
 	{

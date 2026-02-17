@@ -135,6 +135,7 @@
 	Abrams.Charge.Wall.Impact = 
 	{
 		base = "Base.Ability.Hit"
+		filter_include_others = true
 		volume = 3.000000
 		volume_offset_victim_db = 2.000000
 		vsnd_files = "sounds/abilities/abrams/a2_charge/abrams_a2_charge_wall_impact.vsnd"

@@ -669,6 +669,10 @@
 		"BulletResistReduction_postvalue_label"		"Bullet Resist"
 		"BulletResistReduction_postfix"	"%"
 
+		"MeleeResistReduction_label"		"Melee Resist"
+		"MeleeResistReduction_postvalue_label"		"Melee Resist"
+		"MeleeResistReduction_postfix"	"%"
+
 		"BulletResistReductionPerStack_label"		"Bullet Resist per Stack"
 		"BulletResistReductionPerStack_postvalue_label"		"Bullet Resist per Stack"
 		"BulletResistReductionPerStack_postfix"	"%"

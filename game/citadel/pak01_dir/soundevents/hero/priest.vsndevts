@@ -347,6 +347,7 @@
 	{
 		base = "Base.Ability.Hit"
 		volume = 0.000000
+		filter_include_others = true
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_a2_gutshot_wall_slam_01.vsnd",
@@ -370,6 +371,7 @@
 	Priest.Trap.Trip = 
 	{
 		base = "Base.Ability.Hit"
+		filter_include_others = true
 		volume = 2.000000
 		vsnd_files = 
 		[

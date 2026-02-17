@@ -832,6 +832,7 @@
 	{
 		type = "citadel_hit_confirm"
 		max_distance_recipient_filter = 3500.000000
+		filter_include_others = false
 		block_on_hit_world = true
 		volume_offset_attacker_db = 0.000000
 		volume_offset_victim_db = 0.000000
@@ -1685,7 +1686,7 @@
 				field_name = "citadel_distance_falloff"
 			},
 		]
-		max_distance_recipient_filter = 800.000000
+		max_distance_recipient_filter = 600.000000
 		volume = 0.000000
 		limiter_on = 1.000000
 		limiter_max = 1.000000
@@ -1714,15 +1715,15 @@
 				1.000000,
 				0.000000,
 				0.000000,
-				-3.333333,
+				-2.296429,
 				0.000000,
 				0.000000,
 			],
 			
 			[
 				10.000000,
-				-30.000000,
-				-3.333333,
+				-20.667858,
+				-2.296429,
 				0.000000,
 				0.000000,
 				0.000000,

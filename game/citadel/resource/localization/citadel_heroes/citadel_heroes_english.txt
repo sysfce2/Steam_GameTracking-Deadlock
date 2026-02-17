@@ -4901,9 +4901,9 @@
 
 		"ability_fencer_riposte_attack"			"Riposte"
 		"ability_fencer_riposte_attack_desc"	"Perform a quick dash forward and stun an enemy with your weapon's pommel."
-		"BulletResistReductionDuration_label"			"Bullet Resist Reduction Duration"
-		"BulletResistReductionDuration_postvalue_label"	"Debuff Duration"
-		"BulletResistReductionDuration_postfix"			"s"
+		"MeleeResistReductionDuration_label"			"Melee Resist Reduction Duration"
+		"MeleeResistReductionDuration_postvalue_label"	"Debuff Duration"
+		"MeleeResistReductionDuration_postfix"			"s"
 
 		"ability_fencer_ultimate"		"Itani Lo Sahn"
 		"ability_fencer_ultimate_desc"	"Charge up and perform a long range slash. Struck enemies <span class=\"highlight\">cannot take action or heal</span> and are stuck in slow motion. When this effect expires, they suffer <span class=\"highlight\">devastating damage</span>, dealing bonus damage against half-health enemies.<br><br><span class=\"diminish\">While in slow motion, Apollo is invulnerable and enemies take reduced damage.<br><br>Hold {g:citadel_binding:'Ability4'} or {g:citadel_binding:'Attack'} to delay the cast.</span>"
