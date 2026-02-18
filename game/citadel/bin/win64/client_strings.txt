@@ -89,8 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j@
- (08@HPZ@
+ (08@HPX`jP
+ (08@HPZP
+ (08@JP
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16741,8 +16742,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR@
-08B@
+08@HRP
+08BP
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -16760,7 +16761,6 @@ $hRh
 0=Model, 1=Particle, 2=Model+Particle
 0=Never; 1=Only if there is a problem; 2=always
 0=default 1=friendly 2=enemy 3=both
-0>ps
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -17020,7 +17020,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp4
+2\vpD
 2^pV
 2a"l
 2bT~
@@ -17235,6 +17235,7 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@JP
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
@@ -17566,9 +17567,10 @@ $hRh
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
-@HV@l
+@HVPl
 @MVDataRoot
 @MfKZ
+@NpW
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -37859,7 +37861,7 @@ P-224
 P-256
 P-384
 P-521
-P08J`
+P08Jp
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
@@ -38587,6 +38589,7 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+Pf0&
 Phoneme delay to account for sound system latency.
 Phrase
 Phrase%d
@@ -38797,6 +38800,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
+Pn0'
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -39539,12 +39543,11 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
-R\fp4
+R\fpD
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp0
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -45266,9 +45269,9 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr@
+X`hrP
 Xd3h
-Xf u
+Xf0u
 XfJ7
 XjfR
 XqgA+
@@ -45494,7 +45497,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -46831,6 +46833,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`2PE
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -46842,7 +46845,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -51707,7 +51709,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\f`u
+dq\fpu
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -67949,7 +67951,6 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0jp-
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67974,7 +67975,6 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pF0\f
 pField
 pFilter
 pG_*h
@@ -69211,10 +69211,9 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp0
 r\n\vstart_index
 r\vDi
-r\vp4
+r\vpD
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight
