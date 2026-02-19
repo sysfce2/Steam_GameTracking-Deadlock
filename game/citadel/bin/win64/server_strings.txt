@@ -180,10 +180,6 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPXbp
- (08@HRp
- (08@Jp
- (0X`hpzp
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -1306,7 +1302,6 @@ $tJ@T\tK
 (.CMsgSteamLearn_SnapshotProject_Response"-
 (0'yX
 (0x%08X)'??'
-(40O
 (5Me
 (5jP
 (ACTIVE)
@@ -2098,7 +2093,6 @@ $tJ@T\tK
 ... and no start position
 ....................
 ..uR5&m
-.0c0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -2550,7 +2544,6 @@ $tJ@T\tK
 .?AV<lambda_3>@?$PulseBindingTypesafeIntTraits_t@VCPlayerSlot@@@@
 .?AV<lambda_3>@?1??GetOutput@CNavGenOrientedMeshTile@@QEAAXAEAUNavGenVertexData_t@@AEAV?$CUtlVector@VCNavGenPoly@@HV?$CUtlVectorMemory_Growable@VCNavGenPoly@@H$0A@@@@@PEAV?$CUtlVector@UNavGenRecastDebugStage_t@@HV?$CUtlVectorMemory_Growable@UNavGenRecastDebugStage_t@@H$0A@@@@@@Z@
 .?AV<lambda_3>@?1??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@
-.?AV<lambda_3>@?1??Roll@CCitadelLootTableVData@@QEBAXAEAV?$CUtlVector@URolledLoot_t@@HV?$CUtlVectorMemory_Growable@URolledLoot_t@@H$0A@@@@@AEBULootTableRollParams_t@@@Z@
 .?AV<lambda_3>@?1??SaveGame_Finalize@CEntity2SaveRestore@@UEAA_NPEAUSaveRestoreDataHandle_t__@@@Z@
 .?AV<lambda_3>@?BA@??ResetForNewRound@CStreetBrawlController@@AEAAXXZ@
 .?AV<lambda_3>@?BC@??GetNeighbors_GroundToGround@CNavMultiContext@@IEBAXAEBVCNavMulti@@PEAV?$IUtlVectorAbstract@UNavMultiAdj_t@@@@@Z@
@@ -2573,10 +2566,11 @@ $tJ@T\tK
 .?AV<lambda_6>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCModel@@@@@@
 .?AV<lambda_6>@?BD@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@
 .?AV<lambda_7>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCModel@@@@@@
-.?AV<lambda_7>@?CG@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@
+.?AV<lambda_7>@?BD@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@
 .?AV<lambda_8>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCModel@@@@@@
-.?AV<lambda_8>@?CG@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@
+.?AV<lambda_8>@?CH@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@
 .?AV<lambda_9>@?$PulseBindingSchemaEnumTraits_t@W4EStreetBrawlGameState@@@@
+.?AV<lambda_9>@?CH@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@
 .?AV?$CAI_ExpresserHost@VCAI_BaseNPC@@@@
 .?AV?$CAI_ExpresserHost@VCCitadelPlayerPawnBase@@@@
 .?AV?$CAI_ExpresserHost@VCCitadel_Announcer_Base@@@@
@@ -7819,6 +7813,7 @@ $tJ@T\tK
 .?AV?$_Func_base@XAEBU?$NavIndirectDst_t@VCNavArea@@V1@@@@std@@
 .?AV?$_Func_base@XAEBU?$NavIndirectDst_t@VCNavArea@@VCNavBlock@@@@@std@@
 .?AV?$_Func_base@XAEBU?$NavIndirectDst_t@VCNavBlock@@VCNavArea@@@@@std@@
+.?AV?$_Func_base@XAEBULootTableEntry_t@@AEAURolledLoot_t@@@std@@
 .?AV?$_Func_base@XAEBUTreeIter_t@CNavTree@@@std@@
 .?AV?$_Func_base@XAEBV?$Vec3D@M@@AEBV1@@std@@
 .?AV?$_Func_base@XAEBW4GameAnimEventIndex_t@@@std@@
@@ -8050,7 +8045,7 @@ $tJ@T\tK
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??FindConnectedNavAreasWithinDistOfSeg@NavSearch@@YAHAEBVCNavArea@@AEBV?$Vec2D@M@@1MAEBVCNavPathCost@@PEAV?$CUtlVectorFixedGrowable@PEAVCNavArea@@$0CA@H@@@Z@W4NavIncludeResult_t@@AEAV4@AEBU?$NavIncludeInfo_t@VCNavArea@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??Generate@CNavGenOrientedMesh@@QEAAXAEAUNavGenVertexData_t@@AEAV?$CUtlVector@VCNavGenPoly@@HV?$CUtlVectorMemory_Growable@VCNavGenPoly@@H$0A@@@@@AEBV?$function@$$A6A?AV?$Vec3D@M@@AEBV1@PEBV1@@Z@std@@PEAVIThreadPool@@PEAV?$CUtlVector@UNavGenRecastDebugStage_t@@HV?$CUtlVectorMemory_Growable@UNavGenRecastDebugStage_t@@H$0A@@@@@@Z@XH@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??GetOutput@CNavGenOrientedMeshTile@@QEAAXAEAUNavGenVertexData_t@@AEAV?$CUtlVector@VCNavGenPoly@@HV?$CUtlVectorMemory_Growable@VCNavGenPoly@@H$0A@@@@@PEAV?$CUtlVector@UNavGenRecastDebugStage_t@@HV?$CUtlVectorMemory_Growable@UNavGenRecastDebugStage_t@@H$0A@@@@@@Z@XHHHAEBUVoxelSparseIndex_t@CNavOrientedMesh@@AEBW4OrientedMeshSparseVoxelState_t@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEAULootTableEntry_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEBULootTableEntry_t@@AEAURolledLoot_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??OnServerGameBeginAsyncPostTickWork@CAI_AsyncWorkQueue@@UEAAXAEBUEventServerGameBeginAsyncPostTickWork_t@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??RunBuildTree@CNavSpaceBuildTreeJob@@AEAAXXZ@_NAEBUAABB_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??StreamEntitiesToFile@CEntity2SaveRestore@@AEAA_NPEAVCSaveRestoreHostData@@AEBUSaveStreamInfo_t@@AEBUSPAWNGROUP_HEADER@@@Z@X$$V@std@@
@@ -8069,7 +8064,6 @@ $tJ@T\tK
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?$PulseBindingTypesafeIntTraits_t@VCPlayerSlot@@@@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??GetOutput@CNavGenOrientedMeshTile@@QEAAXAEAUNavGenVertexData_t@@AEAV?$CUtlVector@VCNavGenPoly@@HV?$CUtlVectorMemory_Growable@VCNavGenPoly@@H$0A@@@@@PEAV?$CUtlVector@UNavGenRecastDebugStage_t@@HV?$CUtlVectorMemory_Growable@UNavGenRecastDebugStage_t@@H$0A@@@@@@Z@XHHHAEBUVoxelSparseIndex_t@CNavOrientedMesh@@EE_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEAULootTableEntry_t@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??Roll@CCitadelLootTableVData@@QEBAXAEAV?$CUtlVector@URolledLoot_t@@HV?$CUtlVectorMemory_Growable@URolledLoot_t@@H$0A@@@@@AEBULootTableRollParams_t@@@Z@XAEAULootTableEntry_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??SaveGame_Finalize@CEntity2SaveRestore@@UEAA_NPEAUSaveRestoreDataHandle_t__@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?BA@??ResetForNewRound@CStreetBrawlController@@AEAAXXZ@_NHHH@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?BC@??GetNeighbors_GroundToGround@CNavMultiContext@@IEBAXAEBVCNavMulti@@PEAV?$IUtlVectorAbstract@UNavMultiAdj_t@@@@@Z@XPEAVCNavArea@@@std@@
@@ -8092,10 +8086,11 @@ $tJ@T\tK
 .?AV?$_Func_impl_no_alloc@V<lambda_6>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCModel@@@@@@I$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6>@?BD@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEAULootTableEntry_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCModel@@@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_7>@?CG@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEAULootTableEntry_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7>@?BD@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEAULootTableEntry_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCModel@@@@@@I$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_8>@?CG@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEAULootTableEntry_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8>@?CH@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEAULootTableEntry_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9>@?$PulseBindingSchemaEnumTraits_t@W4EStreetBrawlGameState@@@@VCPulseValueFullType@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9>@?CH@??ItemDraftRollOptionsFromParams@CCitadelPlayerPawn@@QEBA?AV?$CUtlVector@UItemDraftOption_t@@HV?$CUtlVectorMemory_Growable@UItemDraftOption_t@@H$0A@@@@@AEBUPlayerItemDraftRoundParams_t@@AEBV?$CUtlVector@PEAVILootTableModifier@@HV?$CUtlVectorMemory_Growable@PEAVILootTableModifier@@H$0A@@@@@@Z@XAEAULootTableEntry_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$CUtlDelegate@$$A6A?AVParticleIndex_t@@H@Z@@VParticleIndex_t@@H@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CEntitySolverForSmooth@@EAA?AV?$Vec3D@M@@AEBV4@0@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@V?$Vec3D@M@@AEBV3@AEBV3@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CMarkupSearchHelper@@EAAXPEBVCMarkupVolumeTagged@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBQEBVCMarkupVolumeTagged@@@std@@
@@ -8683,6 +8678,7 @@ $tJ@T\tK
 .?AVCCitadelLobby@@
 .?AVCCitadelLootTable@@
 .?AVCCitadelLootTableBase@@
+.?AVCCitadelLootTableBasic@@
 .?AVCCitadelLootTableVData@@
 .?AVCCitadelLootTableValidaterGameSystem@@
 .?AVCCitadelMVPSchemaGameSystem@@
@@ -11446,9 +11442,7 @@ $tJ@T\tK
 .?AVCLogicScript@@
 .?AVCLogicalEntity@@
 .?AVCLoopModeGame@@
-.?AVCLootTableModifier_ActivesLimiter@@
 .?AVCLootTableModifier_ExcludeList@@
-.?AVCLootTableModifier_ExponentialWeight@@
 .?AVCMVPMapOverrideModifier@@
 .?AVCMapEffectModifier@@
 .?AVCMapLoadEntityFilter@@
@@ -13582,6 +13576,7 @@ $tJ@T\tK
 .?AVIBreakableSystem@@
 .?AVIChoreoEventCallback@@
 .?AVIChoreoServices@@
+.?AVICitadelLootTable@@
 .?AVICompressorService@@
 .?AVICurveDataAccessor@@
 .?AVIEconItemAttributeDefinition@@
@@ -13640,7 +13635,6 @@ $tJ@T\tK
 .?AVILoadingSpawnGroup@@
 .?AVILoopModeGameSharedState@@
 .?AVILootTableModifier@@
-.?AVILootTableModifier_TypeLimiter@@
 .?AVIMatchStatListener@@
 .?AVIModifierFactorySpecific@@
 .?AVIModifierFunctionTable@@
@@ -14064,11 +14058,9 @@ $tJ@T\tK
 .GCProtoBufMsgSrc
 .HCK\v
 .MODIFIER_ENTRY_TYPE
-.P20
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
-.PE0
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
 .PEAVCCitadelGameRules@@
@@ -14086,7 +14078,6 @@ $tJ@T\tK
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
 .PartnerAccountType
-.Pb0
 .PingCommonData
 .PostProcessingGameStates
 .Q.Ol
@@ -14373,9 +14364,7 @@ $tJ@T\tK
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pb0
 .pp@0
-.py0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14440,7 +14429,6 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
-08@Jp
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -14482,7 +14470,6 @@ $tJ@T\tK
 0\rP!e
 0e\r8
 0pp@5tqE?|sO541
-0t0+
 0tU+xc:
 0x%s
 0}dV
@@ -14623,8 +14610,7 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpl
-2\vpt0+
+2\vpP
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14735,19 +14721,12 @@ $tJ@T\tK
 5s\nl
 5t?F
 5~EW
-6 20
-6 A0
-6 S0
-6 o0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60D0
-60g0
-60|0
 62$|S)6f
 64CK\vH
 65535
@@ -14755,14 +14734,10 @@ $tJ@T\tK
 65535"j\n
 65535B$
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666PETLEVELFROM_KILLEATER
+6666666666666666PETLEVELFROM_NOTHING
 67-s
-6@T0
-6@Y0
 6H,N
 6O|T%
-6PM0
-6PO0
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14781,7 +14756,6 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6p>0
 6qo~
 6r-m_v
 6r1ij
@@ -14831,6 +14805,7 @@ $tJ@T\tK
 8<pl
 8= zp
 8A6j
+8B 7
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14902,7 +14877,6 @@ $tJ@T\tK
 :9\n\tkey_field
 :BAD OBJECT
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
-:CCitadel_Ability_Melee_Base
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
@@ -14929,7 +14903,7 @@ $tJ@T\tK
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;DSend a screen message to all clients.
+;DDon't retain more than N perf samples for any given client
 ;LGEW
 ;Qo0
 ;X94<
@@ -14999,6 +14973,8 @@ $tJ@T\tK
 <team number> - Unlock the flex slots for a team (or both teams if you omit the team number)
 <type %u>
 <type name is DEBUG only>
+<unknown hero>
+<unknown name>
 <unnamed>
 <unsupported>
 <unused>
@@ -15073,10 +15049,10 @@ $tJ@T\tK
 >ztq
 ?33s?
 ?CAnimFoot
-?CCitadel_Modifier_HalloweenMaskVData
 ?HAI\t81\t9dcG'
 ?HP4
-?TLK_CITADEL_DOORMAN_HOTEL_TAUNT
+?Localization token to use when failing to cast when out of this resource?
+?SAVE_HEADER
 ?VBH;
 ?WaterWheelDrag_t
 ?\n1increase_spring_strength_to_keep_target_on_screen
@@ -15092,19 +15068,16 @@ $tJ@T\tK
 ?ffffff
 ?gwL
 ?jOb
-?levellist_t
+?m_nHeadFX
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08N$
 @0pp
-@60b0
-@6p\r0
 @BH]f
-@CCitadelMinimapBoundary
-@HPX`hv 40
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15119,7 +15092,6 @@ $tJ@T\tK
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@ht0O
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -15150,12 +15122,12 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:`H
 AABBDirection
 AABB_t
 AACompromise
 ABORT_DO_NOT_APPLY_DAMAGE
 ABS BBox
+ABulletSpeedPercent
 AC2,h
 ACCESS_DESCRIPTION
 ACHIEVEMENT_EVENT_
@@ -15413,6 +15385,7 @@ AOE Attack
 AOE Heal Particle
 AOE Heal Settings
 AOERadius
+APNK
 APPEND_EXP
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
@@ -15526,6 +15499,7 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
+A\v:05
 AbW_
 Abandon
 Abandoned
@@ -15636,7 +15610,6 @@ AcculumatePlayTimeThink
 AccuracyDebuffFalloffBias
 AccuracyPercentage
 AchievementEvent
-Acitadel_ability_gunslinger_demon_carbine
 Act Busy
 Act Busy: Exit Point
 Action
@@ -16218,6 +16191,7 @@ BC_EMPTY
 BC_PARTICLE_SYSTEM_OVERRIDE
 BC_PROP_GROUP_OVERRIDE
 BCollect model names of the entities you're pointing at
+BDuration to draw the various traces that formed a shot.  Set to a negative number to view the current angles without shooting.
 BEAM_ENTPOINT
 BEAM_ENTS
 BEAM_HOSE
@@ -16934,7 +16908,6 @@ BulletShieldPoints
 BulletSpeed
 BulletSpeedIncrease
 BulletSpeedOverride
-BulletSpeedPercent
 BulletSplitShot
 BulletSpread
 BulletThink
@@ -17931,12 +17904,14 @@ CCitadelItemPunchableNeutralGoldVData
 CCitadelLobby
 CCitadelLootTable
 CCitadelLootTableBase
+CCitadelLootTableBasic
 CCitadelLootTableVData
 CCitadelLootTableValidaterGameSystem
 CCitadelMVPSchema: %s\n
 CCitadelMVPSchemaGameSystem
 CCitadelMatchDataWatcher Tracked Stats\n
 CCitadelMatchmakingStatusInfo
+CCitadelMinimapBoundary
 CCitadelMinimapComponent
 CCitadelMinimapComponent::Storage_t
 CCitadelMinimapComponentReferenced
@@ -18409,6 +18384,7 @@ CCitadel_Ability_Mantle
 CCitadel_Ability_MedicHeal
 CCitadel_Ability_MedicHeal_GraphController
 CCitadel_Ability_MeleeParry
+CCitadel_Ability_Melee_Base
 CCitadel_Ability_Mirage_FireBeetles
 CCitadel_Ability_Mirage_FireBeetles_VData
 CCitadel_Ability_Mirage_Teleport
@@ -19334,6 +19310,7 @@ CCitadel_Modifier_Gunslinger_DemonMark
 CCitadel_Modifier_Gunslinger_DemonMarkVData
 CCitadel_Modifier_Gunslinger_WallStunVData
 CCitadel_Modifier_HalloweenMask
+CCitadel_Modifier_HalloweenMaskVData
 CCitadel_Modifier_HauntWatcher
 CCitadel_Modifier_HauntWatcherVData
 CCitadel_Modifier_Haunt_Damage
@@ -23275,8 +23252,8 @@ CSoundscapeSystem::Init:  Manifest '%s' with bogus file type '%s', expecting 'fi
 CSource1LegacyGameEventGameSystem
 CSource2GameClients::StartHLTVServer: game event %s not found.\n
 CSource2GameEntities::CheckEntities: %d ents\n
-CSource2GameEntities::CheckTransmit(), C:\buildworker\citadel_rel_win64\build\src\game\server\gameinterface.cpp:2963
-CSource2GameEntities::CheckTransmit(), C:\buildworker\citadel_rel_win64\build\src\game\server\gameinterface.cpp:3078
+CSource2GameEntities::CheckTransmit(), C:\buildworker\citadel_rel_win64\build\src\game\server\gameinterface.cpp:2976
+CSource2GameEntities::CheckTransmit(), C:\buildworker\citadel_rel_win64\build\src\game\server\gameinterface.cpp:3091
 CSource2Server::GameFrame
 CSource2Server::GameServerSteamAPIActivated()\n
 CSource2Server::GameServerSteamAPIDeactivated()\n
@@ -23742,6 +23719,7 @@ CUtlOrderedMap<enum ECitadelAudioLoopSounds,class CSoundEventName,class CDefLess
 CUtlOrderedMap<enum EModifierValue,float,class CDefLess<enum EModifierValue>,int>::FindElement
 CUtlOrderedMap<int,float,class CDefLess<int>,int>::FindElement
 CUtlOrderedMap<int,int,class CDefLess<int>,int>::FindElement
+CUtlOrderedMap<struct CStreetBrawlController::LootTableKey_t,class CCitadelLootTableBasic *,class CDefLess<struct CStreetBrawlController::LootTableKey_t>,int>::FindElement
 CUtlOrderedMap<unsigned int,struct CCitadelMatchDataWatcher::Objective_t,class CDefLess<unsigned int>,int>::FindElement
 CUtlQueue<int,class CUtlLeanVector<struct CUtlQueueNode_t<int>,int,class CMemAllocAllocator> >::RemoveAtTail
 CUtlRBTree<char const *,class CDefFastCaselessStringLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<char const *,int>,int,class CMemAllocAllocator> >::Insert
@@ -23797,6 +23775,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,float,class CDefLess<class
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct CPhysicsBodyGameMarkup,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct CPhysicsBodyGameMarkup,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct CPhysicsBodyGameMarkup,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct CitadelAbilityProperty_t,class CDefFastCaselessStringLess,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct CitadelAbilityProperty_t,class CDefFastCaselessStringLess,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct CitadelAbilityProperty_t,class CDefFastCaselessStringLess,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct CitadelMusicChord_t,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct CitadelMusicChord_t,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct CitadelMusicChord_t,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct ItemDraftWeight_t,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct ItemDraftWeight_t,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct ItemDraftWeight_t,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlStringToken,struct PerSurfaceImpactEffects_t,class CDefLess<class CUtlStringToken>,int>::Node_t,class CUtlOrderedMapBase<class CUtlStringToken,struct PerSurfaceImpactEffects_t,class CDefLess<class CUtlStringToken>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlStringToken,struct PerSurfaceImpactEffects_t,class CDefLess<class CUtlStringToken>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlSymbol,struct HSCRIPT__ *,class CDefLess<class CUtlSymbol>,int>::Node_t,class CUtlOrderedMapBase<class CUtlSymbol,struct HSCRIPT__ *,class CDefLess<class CUtlSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlSymbol,struct HSCRIPT__ *,class CDefLess<class CUtlSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlSymbolLarge,unsigned int,class CDefLess<class CUtlSymbolLarge>,int>::Node_t,class CUtlOrderedMapBase<class CUtlSymbolLarge,unsigned int,class CDefLess<class CUtlSymbolLarge>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlSymbolLarge,unsigned int,class CDefLess<class CUtlSymbolLarge>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -23848,6 +23827,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<enum EItemSlotTypes_t,class CUtlVector<stru
 CUtlRBTree<struct CUtlOrderedMapBase<enum EItemSlotTypes_t,class CUtlVector<struct ModCostBonuses_t,int,class CUtlVectorMemory_Growable<struct ModCostBonuses_t,int,0> >,class CDefLess<enum EItemSlotTypes_t>,int>::Node_t,class CUtlOrderedMapBase<enum EItemSlotTypes_t,class CUtlVector<struct ModCostBonuses_t,int,class CUtlVectorMemory_Growable<struct ModCostBonuses_t,int,0> >,class CDefLess<enum EItemSlotTypes_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EItemSlotTypes_t,class CUtlVector<struct ModCostBonuses_t,int,class CUtlVectorMemory_Growable<struct ModCostBonuses_t,int,0> >,class CDefLess<enum EItemSlotTypes_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<enum EItemSlotTypes_t,struct ItemSlotInfo_t,class CDefLess<enum EItemSlotTypes_t>,int>::Node_t,class CUtlOrderedMapBase<enum EItemSlotTypes_t,struct ItemSlotInfo_t,class CDefLess<enum EItemSlotTypes_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EItemSlotTypes_t,struct ItemSlotInfo_t,class CDefLess<enum EItemSlotTypes_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<enum EMeleeHold_AttackType,struct AttackData_t,class CDefLess<enum EMeleeHold_AttackType>,int>::Node_t,class CUtlOrderedMapBase<enum EMeleeHold_AttackType,struct AttackData_t,class CDefLess<enum EMeleeHold_AttackType>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EMeleeHold_AttackType,struct AttackData_t,class CDefLess<enum EMeleeHold_AttackType>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<enum EModTier_t,struct ItemDraftBucketing_t,class CDefLess<enum EModTier_t>,int>::Node_t,class CUtlOrderedMapBase<enum EModTier_t,struct ItemDraftBucketing_t,class CDefLess<enum EModTier_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EModTier_t,struct ItemDraftBucketing_t,class CDefLess<enum EModTier_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<enum EModifierValue,float,class CDefLess<enum EModifierValue>,int>::Node_t,class CUtlOrderedMapBase<enum EModifierValue,float,class CDefLess<enum EModifierValue>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EModifierValue,float,class CDefLess<enum EModifierValue>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<enum EMusicState_t,struct CitadelMusicCueOverrides_t,class CDefLess<enum EMusicState_t>,int>::Node_t,class CUtlOrderedMapBase<enum EMusicState_t,struct CitadelMusicCueOverrides_t,class CDefLess<enum EMusicState_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EMusicState_t,struct CitadelMusicCueOverrides_t,class CDefLess<enum EMusicState_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<enum ENextAttackDelayReason_t,class CCitadelAudioLoop,class CDefLess<enum ENextAttackDelayReason_t>,int>::Node_t,class CUtlOrderedMapBase<enum ENextAttackDelayReason_t,class CCitadelAudioLoop,class CDefLess<enum ENextAttackDelayReason_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum ENextAttackDelayReason_t,class CCitadelAudioLoop,class CDefLess<enum ENextAttackDelayReason_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -23874,6 +23854,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<struct AccountHero_t,struct CAsyncDataCache
 CUtlRBTree<struct CUtlOrderedMapBase<struct AsyncQueryHandle_t,class CUtlVector<class CHandle<class CBaseEntity>,int,class CUtlVectorMemory_Growable<class CHandle<class CBaseEntity>,int,0> >,class CDefLess<struct AsyncQueryHandle_t>,int>::Node_t,class CUtlOrderedMapBase<struct AsyncQueryHandle_t,class CUtlVector<class CHandle<class CBaseEntity>,int,class CUtlVectorMemory_Growable<class CHandle<class CBaseEntity>,int,0> >,class CDefLess<struct AsyncQueryHandle_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct AsyncQueryHandle_t,class CUtlVector<class CHandle<class CBaseEntity>,int,class CUtlVectorMemory_Growable<class CHandle<class CBaseEntity>,int,0> >,class CDefLess<struct AsyncQueryHandle_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct AsyncQueryHandle_t,struct CPhysicsAsyncQueryManager::TraceLineResult_t,class CDefLess<struct AsyncQueryHandle_t>,int>::Node_t,class CUtlOrderedMapBase<struct AsyncQueryHandle_t,struct CPhysicsAsyncQueryManager::TraceLineResult_t,class CDefLess<struct AsyncQueryHandle_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct AsyncQueryHandle_t,struct CPhysicsAsyncQueryManager::TraceLineResult_t,class CDefLess<struct AsyncQueryHandle_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct CCitadelServerAccoladesGameSystem::PlayerAccoladeKey_t,struct CCitadelServerAccoladesGameSystem::PlayerAccoladeState_t,class CDefLess<struct CCitadelServerAccoladesGameSystem::PlayerAccoladeKey_t>,int>::Node_t,class CUtlOrderedMapBase<struct CCitadelServerAccoladesGameSystem::PlayerAccoladeKey_t,struct CCitadelServerAccoladesGameSystem::PlayerAccoladeState_t,class CDefLess<struct CCitadelServerAccoladesGameSystem::PlayerAccoladeKey_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct CCitadelServerAccoladesGameSystem::PlayerAccoladeKey_t,struct CCitadelServerAccoladesGameSystem::PlayerAccoladeState_t,class CDefLess<struct CCitadelServerAccoladesGameSystem::PlayerAccoladeKey_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<struct CStreetBrawlController::LootTableKey_t,class CCitadelLootTableBasic *,class CDefLess<struct CStreetBrawlController::LootTableKey_t>,int>::Node_t,class CUtlOrderedMapBase<struct CStreetBrawlController::LootTableKey_t,class CCitadelLootTableBasic *,class CDefLess<struct CStreetBrawlController::LootTableKey_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct CStreetBrawlController::LootTableKey_t,class CCitadelLootTableBasic *,class CDefLess<struct CStreetBrawlController::LootTableKey_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct GCSDK::SOID_t,class GCSDK::CGCClientSharedObjectCache *,class CDefLess<struct GCSDK::SOID_t>,int>::Node_t,class CUtlOrderedMapBase<struct GCSDK::SOID_t,class GCSDK::CGCClientSharedObjectCache *,class CDefLess<struct GCSDK::SOID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct GCSDK::SOID_t,class GCSDK::CGCClientSharedObjectCache *,class CDefLess<struct GCSDK::SOID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct GCSDK::SOID_t,struct GCSDK::CGCClient::PartialSOCache_t *,class CDefLess<struct GCSDK::SOID_t>,int>::Node_t,class CUtlOrderedMapBase<struct GCSDK::SOID_t,struct GCSDK::CGCClient::PartialSOCache_t *,class CDefLess<struct GCSDK::SOID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct GCSDK::SOID_t,struct GCSDK::CGCClient::PartialSOCache_t *,class CDefLess<struct GCSDK::SOID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct GCSDK::SOID_t,struct GCSDK::CGCClient::SOVersion_t *,class CDefLess<struct GCSDK::SOID_t>,int>::Node_t,class CUtlOrderedMapBase<struct GCSDK::SOID_t,struct GCSDK::CGCClient::SOVersion_t *,class CDefLess<struct GCSDK::SOID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct GCSDK::SOID_t,struct GCSDK::CGCClient::SOVersion_t *,class CDefLess<struct GCSDK::SOID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -24238,8 +24219,8 @@ CheckClient
 CheckCough
 CheckDistance
 CheckForIdleAndDisconnectedPlayers(Pregame): %d/%d players connected\n
-CheckForIdleAndDisconnectedPlayers: Player %s (%u) disconnected for too long, processing as leaver.\n
-CheckForIdleAndDisconnectedPlayers: Player %s (%u) has %d seconds to reconnect.\n
+CheckForIdleAndDisconnectedPlayers: Player %s (%u) disconnected for %ds, processing as leaver.\n
+CheckForIdleAndDisconnectedPlayers: Player %s (%u) has been disconnected for %d/%d seconds.\n
 CheckForIdleAndDisconnectedPlayers: Player %s (%u) idle for too long (%ds), processing as leaver.\n
 CheckPoint
 CheckQueuedMovementTask
@@ -24307,7 +24288,7 @@ CitadelDebugOverlayMovement
 CitadelEntityMessageIds
 CitadelGenericData_t
 CitadelHeroData_t
-CitadelHeroData_t::KV3TransferPostLoad
+CitadelHeroData_t::PostLoad
 CitadelHeroSpawnData_t
 CitadelHideoutLobbyID_t
 CitadelHideoutLobbyID_t"
@@ -25461,7 +25442,6 @@ DateTime('UTC')
 DazeDuration
 DbgBit
 DcO/lcK+hSK
-Dcitadel_match_data_interval
 Dd g4X3
 Deactivate
 Deactivated
@@ -25816,6 +25796,8 @@ Disposition_t
 Disruption
 Dissolve
 DissolveThink
+DistMean
+DistStdDev
 Distance
 Distance  bots are willing to engage enemies at
 Distance  bots will engage to the left or right of the target
@@ -25888,7 +25870,6 @@ Don't have a route: illegal move
 Don't have a route: no goal
 Don't have an enemy
 Don't remove on touching tracked target
-Don't retain more than N perf samples for any given client
 Don't show a status effect in the Important Box
 Don't show any effects at the apex of a juggled ball if it's less juggles than this
 Don't show deltas because it's being applied to an enemy. i.e. We don't want to show fire rate or movement slow on yourself.
@@ -25939,7 +25920,6 @@ DotaMapUtils001
 Double Tap Alt-Cast Started
 DoublePounceTime
 Dq;n
-Draft from the specified loot table
 DragReleaseSpeed
 DragonConeRange
 DragonRangePerSecond
@@ -26093,7 +26073,6 @@ Duration Bot prioritizes changing lanes vs fighting
 Duration of a period of accumulated tick gold. Larger values will result in longer between a team getting gold and a player getting the benefit.
 Duration of ent_skeleton display
 Duration to display debug draw for FindAbilityUnits functions
-Duration to draw the various traces that formed a shot.  Set to a negative number to view the current angles without shooting.
 DurationPerHeavyMelee
 DurationPerLightMelee
 During channel, what modifier states are set.
@@ -26708,12 +26687,6 @@ EHealthAttribute_DEPRECATED
 EHealthRegen
 EHeavyMeleeDamage
 EHeroBulletLifestealEffectiveness
-EHeroDefinedLootTableType
-EHeroLootTable_T1
-EHeroLootTable_T2
-EHeroLootTable_T3
-EHeroLootTable_T4
-EHeroLootTable_T5
 EHeroReleaseVoteOption_August2025
 EHeroReleaseVoteOption_January2026
 EHeroReleaseVoteOption_None
@@ -26802,7 +26775,7 @@ ELockingOn
 ELockonState
 ELootTableEntryType
 ELootType_Item
-ELootType_NestedLootTable
+ELootType_LootTableReference
 ELoot_GoldIdol
 ELoot_Invalid
 ELoot_LootTypeCount
@@ -27968,7 +27941,6 @@ Expo
 Exponent:
 Exponential Decay
 ExponentialDecay
-Exponentially weight rares by this much, making higher weighted things even more weighted
 Expression Group
 Expression Name
 ExpressionGroup
@@ -28409,6 +28381,7 @@ FilterHealth
 FilterPopup
 FilterType
 Filters
+Final
 Final Boss
 Find
 Find All Entities
@@ -29401,6 +29374,7 @@ Gold per 'level' after maxing out rewards
 GoldChangeSounds_t
 GoldReward
 GooDuration
+Good
 Got a NaN origin on %s\n
 Got a NaN velocity on %s\n
 Got an infinite origin on %s\n
@@ -31353,12 +31327,14 @@ ItemCooldown
 ItemCount%d
 ItemData
 ItemDescriptionsLanguageBlock
+ItemDraftBucketing_t
 ItemDraftItem_t
 ItemDraftOption_t
 ItemDraftReroll
 ItemDraftRoundID_t
 ItemDraftRoundParams_t
 ItemDraftRoundState_t
+ItemDraftWeight_t
 ItemEnhancements
 ItemFlagTypes_t
 ItemGenericTouch
@@ -31452,6 +31428,7 @@ K5!n^n
 K8uH
 K;xs
 KCsJ
+KDARatio
 KDF failed
 KFz"
 KISA
@@ -31854,7 +31831,6 @@ LocalPlayerRemoveCSSClass
 LocalTeamExclusive
 LocalTime
 LocalWeaponExclusive
-Localization token to use when failing to cast when out of this resource?
 Lock
 Lock Entity Facing
 Lock the pathfinding goal to the current intersection point.
@@ -31903,7 +31879,7 @@ Loot List %s: Missing required field "chance" in the "random_attributes" block.
 Loot List %s: Weight is not 1.0f and random_attibutes_add_all_if_picked is enabled for "random_attributes" block.
 Loot List %s: unusual_properties has a drop chance that is implausibly high (%.2f)
 Loot List %s: unusual_properties refers to an unusual list that does not exist '%s'
-Loot Table
+Loot Table Reference
 Loot Tables
 Loot definition %s: Attribute "%s" missing required 'weight' field
 Loot list %s: Attribute definition "%s" was not found
@@ -32805,9 +32781,6 @@ MVDataRoot
 MVDataSingleton
 MVDataUniqueMonotonicInt
 MVDataUseLinkedEntityClasses
-MVP Score: Player %d Hero %s (%u) starting calculation\n
-MVP Score: Player %d final score: %.2f\n
-MVP Score: Player %d stat %s (%u) has value %d. Compared to mean %.2f, std dev %.2f. Player std dev is %.2f, multiplied by %.2f score is %.2f\n
 MZL}
 M\n\fperf_samples
 M\n\ngold_stats
@@ -33502,6 +33475,7 @@ Multiple entity classes have the same designer name "%s" ( alias class %s and cl
 Multiple entity classes have the same designer name "%s" ( class %s and class %s )\n
 Multiple registration of class %s\n
 MultipleGameInstances
+Multiplier
 Multiply
 Multiply scaling
 Multiply the damage on guns
@@ -34994,10 +34968,9 @@ P-224
 P-256
 P-384
 P-521
-P08@Jp
+P08N$
 P1\t98"
 P5[1
-P6 g0
 PAGN_4
 PANEL_ID
 PARALYZE
@@ -35118,7 +35091,7 @@ PEM_read_bio_Parameters
 PEM_write
 PEM_write_bio
 PETLEVELFROM_COMPENDIUM_LEVEL
-PETLEVELFROM_NOTHING
+PETLEVELFROM_KILLEATER
 PEvent
 PFT_SOUND
 PGDInstruction_t
@@ -35657,6 +35630,7 @@ Player %s is out of the play area\n
 Player %s trying to pick hero %s out of draft order\n
 Player %u - Awarding stat %s %u for account hero stat %u\n
 Player %u - Awarding stat %s %u for account stat %u\n
+Player '%s' (%d)
 Player '%s' ('%s') is off nav at (%0.2f, %0.2f, %0.2f)\n
 Player Active
 Player Awaiting Hero Assignment
@@ -36400,11 +36374,10 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
-R\fpt0+
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpl
+R\vpP
 R]Di
 Rad2 Deg
 RadiationThink
@@ -36983,7 +36956,6 @@ S<hN-AO
 SAT Volume
 SAVED_POSITION
 SAVE\animgraph
-SAVE_HEADER
 SAmerica
 SBatches multiple data updates, snapshots, and inference requests into a single call
 SCALE
@@ -37653,6 +37625,7 @@ Schedule: %s (%s) (time: %.2f) \n
 Schedule: %s (time: %.2f) \n
 Schema_AllocateDerivedClassByNameVoid
 Scorch
+Score
 ScrapDamage
 Screen Space Particle FX
 Screen-space particle system to create if the parent of the modifier is the local player
@@ -37985,6 +37958,7 @@ SelfPushForceCameraAway
 SelfPushForceInput
 SelfPushForceUp
 SelfShoveForce
+Send a screen message to all clients.
 Send a string to the console as a client command
 Send a string to the console as a server command
 Send msg %u (%s), %u bytes\n
@@ -39143,7 +39117,6 @@ StaminaToRestore
 Stance
 StanceType_t
 StandStillMinTime
-Standard loot table to roll.
 Start Forward
 Start Forward [calcstop=%i calctimes=%i moveimmediate=%i]
 Start PC
@@ -39174,7 +39147,6 @@ Start or stop continuously adding to the selected set.
 Start or stop continuously removing from the selected set.
 Start scene playback, takes activatorEntity as param
 Start the event
-Start the specified street brawl draft round
 Start: %3.0f
 Start: %s
 StartActive
@@ -39240,6 +39212,7 @@ StatDesc_%s
 StatDistribution
 StatID
 StatName
+StatStdDev
 StatStealDamageInstances
 StatStealDuration
 StatTracker
@@ -39681,6 +39654,8 @@ TASK_WAIT_FOR_NAVSPACE_BUILD
 TASK_WAIT_INDEFINITE
 TASK_WAIT_RANDOM
 TC\tf\
+TEAM_AMBER
+TEAM_SAPPHIRE
 TEArmorRicochet_GameEvent_t
 TEBeamEntPoint_GameEvent_t
 TEBeamEnts_GameEvent_t
@@ -39786,6 +39761,7 @@ TLK_CITADEL_CUSTOM
 TLK_CITADEL_DEATH
 TLK_CITADEL_DEFEAT
 TLK_CITADEL_DENY
+TLK_CITADEL_DOORMAN_HOTEL_TAUNT
 TLK_CITADEL_DROP_ITEM
 TLK_CITADEL_ENEMY_ESCAPED
 TLK_CITADEL_ENEMY_PICKED_UP_REJUVENATOR
@@ -41033,7 +41009,7 @@ UseScreenAspectRatio
 UseWind
 Used by button hints as labels for 'alt-casting' (ex. cast on self, bring allies, heal teammate).
 Used by button hints as labels for 'casting' (ex. cast, throw, deploy).
-Used by the UI to communicate how rare this entry it. 0 is not rare, 1 is rare. Nested loot tables will add their rarity to their children
+Used by the UI to communicate how rare this entry is. 0 is not rare, 1 is rare. Nested loot tables will add their rarity to their children
 Used to debug ViewPunch
 Used to flag a test as having failed.
 User Entity IO to fire when modifier added. 0 = don't fire.
@@ -41144,7 +41120,6 @@ VPhysXRange_t
 VPhysics2ShapeDef_t
 VPhysicsCollision
 VPhysicsCollisionAttribute_t
-VPt0
 VR_HAND_HAPTIC_PULSE_LIGHT
 VR_HAND_HAPTIC_PULSE_MEDIUM
 VR_HAND_HAPTIC_PULSE_STRONG
@@ -41159,7 +41134,6 @@ V\rKk
 V\tV_powd
 V_a|I
 V_strcmp( pDataMap->dataClassName, pCodeClass ) == 0
-V`e0
 Vacuum Settings
 Vacuum Start Sound
 VacuumRadius
@@ -41614,7 +41588,7 @@ When NPC damage is received
 When NPC melee damage is received
 When True
 When a HOT has topped off the player
-When a players' team is in comeback state, apply this exponential weighting to their drafts, improving the items they get
+When a players' team is in comeback state, apply this weighting scale to their "Good" bucket of items
 When a rare is rolled, restrict items to this tier.
 When a specific damage received can not be selected
 When an animgraph is reloaded, should the underlying system restore all params?
@@ -41645,6 +41619,7 @@ When pressing forward, how far to the side you need to look to start turning in 
 When pushed against tower
 When registering for MM, we can be assigned hideouts
 When registering for MM, we can be assigned normal matches
+When rolling a rare item scale up the "Good" bucket's weight by this much
 When running on flat ground and trying to initiate a slide, how far forward to look for a slope that will let's us trigger a slide early.
 When selecting an area under nav_edit, allow area marked as blocked.
 When set to true, we will ignore stats being reset for a lifetime when the player comes back from rebirth
@@ -41723,6 +41698,7 @@ When you get gold from a boss kill.
 When you get gold from a lane trooper kill.
 When you get gold from a lane trooper orb.
 When you get gold from a neutral boss kill.
+When you get gold from a neutral trooper kill.
 When you get gold from a neutral trooper orb.
 When you get gold from a orb from a deployable.
 When you get gold from a player kill assist.
@@ -41996,8 +41972,6 @@ XYD%
 X\tQo
 Xd3h
 XfJ7
-XfPS0
-XfpT0
 XjfR
 XqgA+
 Xuub
@@ -42268,6 +42242,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -43194,7 +43169,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpt0+
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -43202,16 +43176,13 @@ Z~wl
 ]MSd
 ][LK~lO
 ^.om5r
-^0v0
 ^DnJ
 ^DqPt
 ^J_spY
 ^Nij
-^Po0
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
-^pY0
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -43284,7 +43255,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`ht0
+`ht 4
 `o_je
 `yNT
 a null shared library handle was used
@@ -43303,6 +43274,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv$
 aD/x
 aDSS
 aECDH
@@ -45261,6 +45233,7 @@ citadel_ability_fissure_wall_trigger
 citadel_ability_flying_strike
 citadel_ability_force_gold_collection
 citadel_ability_fortuna_primaryweapon
+citadel_ability_gunslinger_demon_carbine
 citadel_ability_healing_slash
 citadel_ability_hold_melee
 citadel_ability_hook
@@ -45813,8 +45786,6 @@ citadel_log_idle_time
 citadel_log_in_combat_state
 citadel_loot_table_spew_flattened_table
 citadel_loot_table_spew_modifications
-citadel_loot_table_test_draft
-citadel_loot_table_test_street_brawl_draft_round
 citadel_lose
 citadel_magic_beam_blocker
 citadel_magician_turret_object
@@ -45827,6 +45798,7 @@ citadel_match_abandoned
 citadel_match_data_allow_meta_prefix
 citadel_match_data_block_meta_prefix
 citadel_match_data_incombat_duration
+citadel_match_data_interval
 citadel_match_data_max_path_samples
 citadel_match_data_path_sample_interval_s
 citadel_match_end
@@ -46502,7 +46474,6 @@ colortint
 combat
 combine
 combo
-comeback weighting
 comeback_kills
 comeback_treasure
 command not supported
@@ -46996,7 +46967,6 @@ deaththink
 debris_surfaceprop
 debuff
 debug - disable trace query cache
-debug force draw
 debug of origin changes for %d set to %s\n
 debug_ai_heat_sensing
 debug_destructible_parts
@@ -47915,6 +47885,7 @@ engine-tick
 engine-time
 engines section error
 enginesound
+enhanced weight flatten
 enhancedSearchGuide
 enhanceitem
 enjoy_angled_1
@@ -49441,7 +49412,6 @@ helper
 helper_idx
 hero
 hero incompatible
-hero weighting
 hero_
 hero_%d
 hero_action
@@ -49647,7 +49617,6 @@ how long the player has been sprinting
 how much hotter than the npc's flashpoint a heat source should be to instantly ignite them.
 how this stat is implemented
 hows joint info for this entity
-hpzp
 hr_H
 http request
 https proxy request
@@ -50317,7 +50286,6 @@ invalid key encryption parameter
 invalid key length
 invalid keybits
 invalid label
-invalid loot table name\n
 invalid message length
 invalid mgf1 md
 invalid mime type
@@ -50352,7 +50320,6 @@ invalid pss saltlen
 invalid public key
 invalid purpose
 invalid range
-invalid round number "%d"
 invalid safi
 invalid salt length
 invalid section
@@ -51616,6 +51583,7 @@ less actives bias
 lethaldamageme
 level
 levelName
+levellist_t
 levels
 levelup_rule
 lfofrac
@@ -56290,10 +56258,9 @@ m_eTurn
 m_eType
 m_eType != CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS
 m_eType != ELootType_Item
-m_eType != ELootType_NestedLootTable
+m_eType != ELootType_LootTableReference
 m_eType != MODIFIER_SCRIPT_VARIANT_MODEL
 m_eType != MODIFIER_SCRIPT_VARIANT_MODIFIER_FLOAT && m_eType != MODIFIER_SCRIPT_VARIANT_MODIFIER_BOOLEAN && m_eType != MODIFIER_SCRIPT_VARIANT_MODIFIER_INTEGER
-m_eType != MODIFIER_SCRIPT_VARIANT_PARTICLE
 m_eType != eGenericCapsule
 m_eType != eGroundBox
 m_eType != eGroundCapsule && m_eType != eCenteredCapsule
@@ -56911,7 +56878,7 @@ m_flCollisionHeight
 m_flCollisionRadius
 m_flCollisionSize
 m_flColorTemperature
-m_flComebackWeightExponentialBias
+m_flComebackWeightScale
 m_flComparand
 m_flCompareValue
 m_flComparisonValue
@@ -58468,7 +58435,7 @@ m_flRangeScaleIncreaseMaxSpeed
 m_flRangeStart
 m_flRangeWhileZoomed
 m_flRareWeight
-m_flRareWeightExponentialBias
+m_flRareWeightScale
 m_flRatchetOffset
 m_flRate
 m_flRearOffset
@@ -60283,6 +60250,7 @@ m_mapAccountStats
 m_mapAttacks
 m_mapBonusCurrencies
 m_mapBoundAbilities
+m_mapBuckets
 m_mapCastEventParticles
 m_mapCellDesc
 m_mapChallengeProgress
@@ -60298,9 +60266,10 @@ m_mapHeroDeaths
 m_mapHeroPurchases
 m_mapHunterAbilities
 m_mapImpactEffects
+m_mapItemDraftBucketing
 m_mapItemDraftCounterWeights
-m_mapItemDraftWeights
 m_mapItemSlotInfo
+m_mapItemTierToItemDraftBuckets
 m_mapLagCompensationSamples
 m_mapLevelInfo
 m_mapLevelsToValue
@@ -60776,7 +60745,6 @@ m_nHandshakeScope
 m_nHandshakeState
 m_nHapticsType
 m_nHardwareType
-m_nHeadFX
 m_nHeadshotsOnEnemyHeroes
 m_nHeadshotsOnImmobileEnemyHeroes
 m_nHeadshotsOnUs
@@ -62249,6 +62217,8 @@ m_strBounceSound
 m_strBoundaryPuffParticle
 m_strBreakableContentsParticleOverride
 m_strBreakableContentsPropGroupOverride
+m_strBucket
+m_strBucketName
 m_strBuffGainedSound
 m_strBuffReceivedSound
 m_strBulletImpactSound
@@ -62502,7 +62472,6 @@ m_strLogoImageEnglish
 m_strLogoImageLocalized
 m_strLoopingSequenceName
 m_strLoopingSound
-m_strLootTable
 m_strLowHealthSound
 m_strMainOnlyModelName
 m_strMapToLoad
@@ -65213,7 +65182,6 @@ multiple sgc restarts
 multiple_instances
 multisource
 music_state
-must specify a loot table name\n
 mute_impact_effects
 muzzle
 muzzle_0
@@ -66385,11 +66353,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^$
+p0j`
+p2 7
 p2{l
 p4Z3
 p5Z3
 p5\nL,
-p60H0
 p618
 p@0pqE5tsO?|1
 pActivator
@@ -67011,6 +66981,7 @@ playing_commentary
 playoverscript
 plays for local player attacker dealing damage with this ability
 plays for local player victim taking damage from this ability
+pm_eType != MODIFIER_SCRIPT_VARIANT_PARTICLE
 point
 point arithmetic failure
 point at infinity
@@ -67315,7 +67286,6 @@ pszExplosionType
 pszName
 pszOrgValue
 pszTagName
-pt0+
 pub: 
 pub_key
 pubkey
@@ -67438,7 +67408,6 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
-r\vpt0+
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight
@@ -67510,7 +67479,6 @@ rangefinder2d
 ranges
 rank
 rare
-rare weight bias
 rarities
 rarities_lootlist_weights
 rarity
@@ -69735,7 +69703,6 @@ test_list_entities
 test_occlusion
 test_play_stats_send
 test_visible_occlusion
-testing round %d
 tether_radius
 tethered_to
 texcoord
@@ -71048,7 +71015,6 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-zDWhen you get gold from a neutral trooper kill.
 zF):O4
 zFar
 zG2m8

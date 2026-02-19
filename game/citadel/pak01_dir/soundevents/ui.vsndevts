@@ -1393,23 +1393,27 @@
 	UI.ItemDraft.Appear.Rare = 
 	{
 		base = "Base.UI"
-		volume = -2.000000
+		volume = 0.000000
 		vsnd_files = "sounds/ui/ui_draft_item_appear_rare.vsnd"
 		vsnd_duration = 3.801655
 	}
 	UI.ItemDraft.Appear.Legendary = 
 	{
 		base = "Base.UI"
-		volume = -2.000000
+		mixer_mixgroup = "UI-Brawl-Legendary"
+		volume = 0.000000
+		limiter_max = 1.000000
+		volume_fade_out = 0.100000
 		vsnd_files = "sounds/ui/ui_draft_item_legendary.vsnd"
 		vsnd_duration = 5.084875
 	}
 	Base.UI.ItemDraft.Appear = 
 	{
 		base = "Base.UI"
-		volume = 0.000000
+		volume = -2.000000
 		limiter_max = 0.000000
-		volume_fade_out = 0.250000
+		limiter_stop_oldest = true
+		volume_fade_out = 0.100000
 		vsnd_files_track2 = 
 		[
 			"sounds/ui/ui_draft_item_appear_base_01.vsnd",
@@ -1423,28 +1427,37 @@
 	UI.ItemDraft.Appear.Spirit = 
 	{
 		base = "Base.UI.ItemDraft.Appear"
-		volume = -2.000000
+		volume = -3.000000
+		pitch = 1.000000
+		pitch_rand_max = 0.050000
+		pitch_rand_min = -0.050000
 		vsnd_files = "sounds/ui/ui_draft_item_appear_spirit.vsnd"
 		vsnd_duration = 3.243696
 	}
 	UI.ItemDraft.Appear.Vitality = 
 	{
 		base = "Base.UI.ItemDraft.Appear"
-		volume = -2.000000
+		volume = -3.000000
+		pitch = 1.000000
+		pitch_rand_max = 0.050000
+		pitch_rand_min = -0.050000
 		vsnd_files = "sounds/ui/ui_draft_item_appear_vitality.vsnd"
 		vsnd_duration = 3.040884
 	}
 	UI.ItemDraft.Appear.Weapon = 
 	{
 		base = "Base.UI.ItemDraft.Appear"
-		volume = -2.000000
+		volume = -3.000000
+		pitch = 1.000000
+		pitch_rand_max = 0.050000
+		pitch_rand_min = -0.050000
 		vsnd_files = "sounds/ui/ui_draft_item_appear_weapon.vsnd"
 		vsnd_duration = 2.698821
 	}
 	UI.ItemDraft.RevolverSpin = 
 	{
 		base = "Base.UI"
-		volume = -3.000000
+		volume = -4.000000
 		vsnd_files = 
 		[
 			"sounds/ui/ui_item_draft_spin_01.vsnd",

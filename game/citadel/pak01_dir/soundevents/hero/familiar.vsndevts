@@ -22,53 +22,6 @@
 		]
 		vsnd_duration = 1.506349
 	}
-	Familiar.Wpn.Alt.Fire = 
-	{
-		base = "Base.Weapon"
-		volume_fade_out = 0.250000
-		volume = -1.000000
-		limiter_max_offset_player = 2.000000
-		last_shot_vol_offset_db = 3.000000
-		vsnd_files = 
-		[
-			"sounds/weapons/inferno/fire/inferno_weapon_fire_01.vsnd",
-			"sounds/weapons/inferno/fire/inferno_weapon_fire_02.vsnd",
-			"sounds/weapons/inferno/fire/inferno_weapon_fire_03.vsnd",
-			"sounds/weapons/inferno/fire/inferno_weapon_fire_04.vsnd",
-			"sounds/weapons/inferno/fire/inferno_weapon_fire_05.vsnd",
-			"sounds/weapons/inferno/fire/inferno_weapon_fire_06.vsnd",
-			"sounds/weapons/inferno/fire/inferno_weapon_fire_07.vsnd",
-			"sounds/weapons/inferno/fire/inferno_weapon_fire_08.vsnd",
-			"sounds/weapons/inferno/fire/inferno_weapon_fire_09.vsnd",
-		]
-		vsnd_files_last_shot = 
-		[
-			"sounds/weapons/inferno/infernus_wpn_last_shot_01.vsnd",
-		]
-		vsnd_duration = 1.907869
-	}
-	Familiar.Wpn.Alt.Windup = 
-	{
-		base = "Base.Ability"
-		volume = -1.000000
-		vsnd_files = 
-		[
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_01.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_02.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_03.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_04.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_05.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_06.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_07.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_08.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_10.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_11.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_12.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_13.vsnd",
-			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_14.vsnd",
-		]
-		vsnd_duration = 1.277188
-	}
 	Familiar.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
@@ -109,6 +62,10 @@
 			"sounds/weapons/familiar/familiar_wpn_reload_end_03.vsnd",
 		]
 		vsnd_duration = 1.378345
+	}
+	Familiar.Wpn.Impact = 
+	{
+		base = "Base.Bullet.Impact"
 	}
 	Familiar.Pillow.Cast = 
 	{

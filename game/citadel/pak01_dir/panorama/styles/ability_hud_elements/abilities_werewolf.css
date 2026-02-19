@@ -266,7 +266,6 @@
 
 .MODIFIER_STATE_WEREWOLF_READY .SplitLabelProgressBar
 {
-	ui-scale: 130%;
 	animation-name: ScaleBar;
 	animation-duration: CurseBeckonsDuration;
 	animation-iteration-count: 1;

@@ -1066,6 +1066,18 @@ CitadelHudModifierIcons
 	opacity: 1;
 }
 
+.gamemode_streetbrawl .showShopWhileDeadHint .death_button_hint.shop_while_dead
+{
+	transform: translateY(0px);
+	opacity: 0;
+}
+
+.gamemode_streetbrawl .deathReplayAvailable .death_button_hint.replay_death
+{
+	transform: translateY(-40px);
+	opacity: 1;
+}
+
 .gShopOpen .shop_while_dead,.gShopOpen .replay_death
 {
 	visibility: collapse;

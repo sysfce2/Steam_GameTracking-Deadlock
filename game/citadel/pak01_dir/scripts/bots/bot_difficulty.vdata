@@ -93,22 +93,27 @@
 	{
 		difficulty = 5
 		spend_random_ap = 5
+		allow_purchasing_anywhere = 1
 		purchase_upgrades_in_order = 0
 		purchase_random_upgrades = 1
 		reload_pct = 75
 		attack_enemies_inaccuracy = 2
-		citadel_bot_attack_miss_chance = 0.330000
 		free_gold_per_minute = 20
 		free_gold_per_minute_scaled = 0
 		last_hit_threshold = 50
-		engage_distance_hero_bonus = -500
-		bonus_regen = 1
-		attempt_orb_start_time = 60
-		attempt_deny_orb_pct = 10
-		attempt_secure_orb_pct = 20
+		engage_extra_player_priority = 0
+		engage_distance_hero_bonus = 30
+		bonus_regen = 0
+		attempt_orb_start_time = 200
+		attempt_deny_orb_pct = 0
+		attempt_secure_orb_pct = 0
 		attempt_orb_range = 20
 		safety_distance_behind_ally_creeps = 5
-		choose_lane_on_interval = 0
-		choose_balanced_lanes = 0
+		heavy_melee_chance = 0
+		heavy_melee_chance_in_reload = 0
+		parry_chance = 0
+		parry_no_los_penalty = 10.000000
+		parry_chance_escalation = 0.020000
+		parry_melee_charge_detection_pct = 0
 	}
 }

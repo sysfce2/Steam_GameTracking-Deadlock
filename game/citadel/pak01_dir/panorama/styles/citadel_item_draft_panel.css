@@ -1,14 +1,10 @@
 /* Prettified by Source 2 Viewer - https://valveresourceformat.github.io */
 
-@define itemDraftAppearSpirit: "UI.ItemDraft.Appear.Spirit";
-@define itemDraftAppearWeapon: "UI.ItemDraft.Appear.Weapon";
-@define itemDraftAppearVitality: "UI.ItemDraft.Appear.Vitality";
-@define itemDraftAppearRare: "UI.ItemDraft.Appear.Rare";
-@define itemDraftAppearEnhanced: "UI.ItemDraft.Appear.Enhanced";
-@define itemDraftAppearLegendary: "UI.ItemDraft.Appear.Legendary";
 @define DraftOptionRevealDuration: 0.4s;
 @define DraftOptionInitialDelay: 0.2s;
 @define DraftOptionTimeBetweenOptionsAppearing: 0.4s;
+@define DraftOptionRareAnticipationDuration: 0.2s;
+@define DraftOptionLegendaryAnticipationDuration: 0.3s;
 @define DraftSelectedClassDuration: 0.8s;
 @define DraftSelectedDuration: 0.5s;
 @define LogoHoldTime: 3;
@@ -229,11 +225,10 @@ CitadelItemDraftPanel.Waiting,CitadelItemDraftPanel.Finish
 	opacity-mask-threshold: 100% 20%;
 }
 
-.concealed.DraftOption
+.anticipation.DraftOption
 {
+	visibility: collapse;
 	opacity-mask-threshold: 100% 20%;
-	transition-property: opacity;
-	transition-duration: .2s;
 }
 
 .reveal.DraftOption
@@ -245,21 +240,6 @@ CitadelItemDraftPanel.Waiting,CitadelItemDraftPanel.Finish
 	opacity-mask-threshold: 0% 20%;
 }
 
-.reveal.DraftOption.isWeapon
-{
-	sound: itemDraftAppearWeapon;
-}
-
-.reveal.DraftOption.isArmor
-{
-	sound: itemDraftAppearVitality;
-}
-
-.reveal.DraftOption.isTech
-{
-	sound: itemDraftAppearSpirit;
-}
-
 .selected.DraftOption
 {
 	animation-name: itemSelect;
@@ -269,19 +249,16 @@ CitadelItemDraftPanel.Waiting,CitadelItemDraftPanel.Finish
 
 .reveal.DraftOption.isLegendary.isWeapon,.reveal.DraftOption.isLegendary.isArmor,.reveal.DraftOption.isLegendary.isTech
 {
-	sound: itemDraftAppearLegendary;
 	animation-name: itemReveal_fancy;
 }
 
 .reveal.DraftOption.isRare.isWeapon,.reveal.DraftOption.isRare.isArmor,.reveal.DraftOption.isRare.isTech
 {
-	sound: itemDraftAppearRare;
 	animation-name: itemReveal_fancy;
 }
 
 .reveal.DraftOption.isEnhanced.isWeapon,.reveal.DraftOption.isEnhanced.isArmor,.reveal.DraftOption.isEnhanced.isTech
 {
-	sound: itemDraftAppearEnhanced;
 	animation-name: itemReveal_fancy;
 }
 

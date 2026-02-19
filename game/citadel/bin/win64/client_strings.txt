@@ -89,9 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`jP
- (08@HPZP
- (08@JP
+ (08@HPXb@
+ (0X`hpz@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -3106,6 +3105,7 @@ $hRh
 +Ultimate Properties
 +Updates information about a published file.
 +Vacuum Properties
++Visuals
 +\n#dota_spectator_watching_broadcaster
 +\n&k_ECitadelDisconnectReason_UserQuitApp
 +\n&k_EMsgClientToGCChallengeClaimResponse
@@ -3648,6 +3648,7 @@ $hRh
 .?AV<lambda_1>@?1???$TweakKV@V<lambda_1>@?1??citadel_port_muzzles@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV1@AEBV0?1??citadel_port_muzzles@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@
 .?AV<lambda_1>@?1???$TweakKV@V<lambda_1>@?1??citadel_tech_damage_vdata_tagging@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV1@AEBV0?1??citadel_tech_damage_vdata_tagging@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@
 .?AV<lambda_1>@?1???$TweakKV@V<lambda_1>@?1??citadel_tech_power_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV1@AEBV0?1??citadel_tech_power_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@
+.?AV<lambda_1>@?1???$TweakKV@V<lambda_1>@?1??citadel_tweak_weights@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV1@AEBV0?1??citadel_tweak_weights@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@
 .?AV<lambda_1>@?1???$TweakKV@V<lambda_2>@?1??citadel_cooldown_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV1@AEBV<lambda_2>@?1??citadel_cooldown_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@
 .?AV<lambda_1>@?1???$TweakKV@V<lambda_2>@?1??citadel_gun_boon_growth_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV1@AEBV<lambda_2>@?1??citadel_gun_boon_growth_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@
 .?AV<lambda_1>@?1???$TweakKV@V<lambda_2>@?1??citadel_tech_power_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV1@AEBV<lambda_2>@?1??citadel_tech_power_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@
@@ -3874,7 +3875,6 @@ $hRh
 .?AV<lambda_3>@?$PulseBindingTypesafeIntTraits_t@VCPlayerSlot@@@@
 .?AV<lambda_3>@?1??DisplayCommendToast@@YAXAEBVCMsgGCToClientCommendNotification@@@Z@
 .?AV<lambda_3>@?1??OnLayoutTraverse@CSplitLabel@panorama@@EEAAXMM@Z@
-.?AV<lambda_3>@?1??Roll@CCitadelLootTableVData@@QEBAXAEAV?$CUtlVector@URolledLoot_t@@HV?$CUtlVectorMemory_Growable@URolledLoot_t@@H$0A@@@@@AEBULootTableRollParams_t@@@Z@
 .?AV<lambda_3>@?1??SaveGame_Finalize@CEntity2SaveRestore@@UEAA_NPEAUSaveRestoreDataHandle_t__@@@Z@
 .?AV<lambda_3>@?1??Update@CCitadel_Hud_Health_Container@@QEAAXXZ@
 .?AV<lambda_3>@?1??UpdateComponentModList@CCitadel_Tooltip_ModDetails@@AEAAXXZ@
@@ -9548,7 +9548,6 @@ $hRh
 .?AV?$_Func_base@PEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_base@VCTransform@@AEBV1@AEBV1@@std@@
 .?AV?$_Func_base@VParticleIndex_t@@H@std@@
-.?AV?$_Func_base@XAEAULootTableEntry_t@@@std@@
 .?AV?$_Func_base@XAEBW4GameAnimEventIndex_t@@@std@@
 .?AV?$_Func_base@XHH@std@@
 .?AV?$_Func_base@XHPEAPEBDPEAVCPulseValueFullType@@PEAPEBVCPulseVariant@@@std@@
@@ -9638,6 +9637,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$TweakKV@V<lambda_1>@?1??citadel_port_muzzles@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV2@AEBV1?1??citadel_port_muzzles@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@XPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$TweakKV@V<lambda_1>@?1??citadel_tech_damage_vdata_tagging@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV2@AEBV1?1??citadel_tech_damage_vdata_tagging@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@XPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$TweakKV@V<lambda_1>@?1??citadel_tech_power_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV2@AEBV1?1??citadel_tech_power_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@XPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$TweakKV@V<lambda_1>@?1??citadel_tweak_weights@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV2@AEBV1?1??citadel_tweak_weights@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@XPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$TweakKV@V<lambda_2>@?1??citadel_cooldown_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV2@AEBV<lambda_2>@?1??citadel_cooldown_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@XPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$TweakKV@V<lambda_2>@?1??citadel_gun_boon_growth_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV2@AEBV<lambda_2>@?1??citadel_gun_boon_growth_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@XPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$TweakKV@V<lambda_2>@?1??citadel_tech_power_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@@YAXV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@AEAV2@AEBV<lambda_2>@?1??citadel_tech_power_scaling_vdata_tweak@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@@Z@XPEBD@std@@
@@ -9864,7 +9864,6 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?$PulseBindingTypesafeIntTraits_t@VCPlayerSlot@@@@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??DisplayCommendToast@@YAXAEBVCMsgGCToClientCommendNotification@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??OnLayoutTraverse@CSplitLabel@panorama@@EEAAXMM@Z@XPEAVCImagePanel@4@H@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??Roll@CCitadelLootTableVData@@QEBAXAEAV?$CUtlVector@URolledLoot_t@@HV?$CUtlVectorMemory_Growable@URolledLoot_t@@H$0A@@@@@AEBULootTableRollParams_t@@@Z@XAEAULootTableEntry_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??SaveGame_Finalize@CEntity2SaveRestore@@UEAA_NPEAUSaveRestoreDataHandle_t__@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??Update@CCitadel_Hud_Health_Container@@QEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??UpdateComponentModList@CCitadel_Tooltip_ModDetails@@AEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
@@ -10428,6 +10427,7 @@ $hRh
 .?AVCCitadelLobby@@
 .?AVCCitadelLootTable@@
 .?AVCCitadelLootTableBase@@
+.?AVCCitadelLootTableBasic@@
 .?AVCCitadelLootTableVData@@
 .?AVCCitadelLootTableValidaterGameSystem@@
 .?AVCCitadelMatchHistoryBlock@@
@@ -13117,7 +13117,6 @@ $hRh
 .?AVCFriendRequestHandler@@
 .?AVCFriendsMenuDynamicListData@@
 .?AVCFuncFoliageVData@@
-.?AVCFunctorLootTableModifier@@
 .?AVCFxaaComputeRenderer@@
 .?AVCGBackpackSortFinished@@
 .?AVCGCClient@GCSDK@@
@@ -15748,6 +15747,7 @@ $hRh
 .?AVICameraManager@@
 .?AVIChoreoEventCallback@@
 .?AVICitadelKeybindCommandHandler@@
+.?AVICitadelLootTable@@
 .?AVICitadelModifierCustomHudDisplay@@
 .?AVIClientAlphaProperty@@
 .?AVIClientAlphaPropertyMgr@@
@@ -16742,8 +16742,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HRP
-08BP
+08@J@
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -17020,7 +17019,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpD
+2\vpX
 2^pV
 2a"l
 2bT~
@@ -17091,6 +17090,7 @@ $hRh
 4@AA
 4Ch;
 4F0I
+4F\vP
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17235,7 +17235,6 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@JP
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
@@ -17516,11 +17515,8 @@ $hRh
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelPartyCode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
-?Disable purchasing if you deal or take damage from an enemy player.
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
-?ELOSCheck_BodyCenter_IgnoreObscureBlockers
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17555,22 +17551,22 @@ $hRh
 ?ff&?333?
 ?gwL
 ?jOb
-?m_TeleportStartParticle
+?m_bInFlight
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@+Visuals
+@08N$
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
+@CitadelMusicChord_t
 @DebugIndividualStyle
-@HVPl
+@HPX`hvp
 @MVDataRoot
 @MfKZ
-@NpW
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -17589,7 +17585,7 @@ $hRh
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
-@m_tLingerMovementControlUntilTime
+@modifier_incendiary_debuff
 @n2w
 A bias on the lerp
 A comma separated list of hero IDs that hold the currently banned brawl roster heroes
@@ -17622,6 +17618,7 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
+AA:01
 AABBDirection
 AABB_t
 AACompromise
@@ -18656,7 +18653,6 @@ AttributesSection_%i
 AttributesSection_%s
 AudioLimiter
 AudioManager
-AudioUtil
 AudioVolume
 AudioVolumeFull
 AudioVolumeMuted
@@ -18777,6 +18773,7 @@ BEOS_BIND_VAR
 BEOS_LOAD
 BEOS_NAME_CONVERTER
 BEOS_UNLOAD
+BEPlayerPlayState
 BF-CBC
 BF-CFB
 BF-ECB
@@ -19513,7 +19510,6 @@ BulletsOverride
 BulletsReloadedPerHeavyMeleePct
 BulletsReloadedPerLightMeleePct
 Bundle has circular reference: 
-Bunique integer ID of this ping wheel message
 BurnDuration
 BurnLingerDuration
 BurnRadius
@@ -20318,6 +20314,7 @@ CCitadelKeyBindingManager::InitUnitSpecificBindings encountered null pUnitName!!
 CCitadelLobby
 CCitadelLootTable
 CCitadelLootTableBase
+CCitadelLootTableBasic
 CCitadelLootTableVData
 CCitadelLootTableValidaterGameSystem
 CCitadelMatchHistoryStore::RequestMatchDetails
@@ -25578,6 +25575,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,short,class CDefFastCasele
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct CPhysicsBodyGameMarkup,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct CPhysicsBodyGameMarkup,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct CPhysicsBodyGameMarkup,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct CitadelAbilityProperty_t,class CDefFastCaselessStringLess,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct CitadelAbilityProperty_t,class CDefFastCaselessStringLess,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct CitadelAbilityProperty_t,class CDefFastCaselessStringLess,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct CitadelMusicChord_t,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct CitadelMusicChord_t,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct CitadelMusicChord_t,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct ItemDraftWeight_t,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct ItemDraftWeight_t,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct ItemDraftWeight_t,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlStringToken,struct PerSurfaceImpactEffects_t,class CDefLess<class CUtlStringToken>,int>::Node_t,class CUtlOrderedMapBase<class CUtlStringToken,struct PerSurfaceImpactEffects_t,class CDefLess<class CUtlStringToken>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlStringToken,struct PerSurfaceImpactEffects_t,class CDefLess<class CUtlStringToken>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlSymbol,struct HSCRIPT__ *,class CDefLess<class CUtlSymbol>,int>::Node_t,class CUtlOrderedMapBase<class CUtlSymbol,struct HSCRIPT__ *,class CDefLess<class CUtlSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlSymbol,struct HSCRIPT__ *,class CDefLess<class CUtlSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlSymbol,struct LocalPanelRegistration_t,class CDefLess<class CUtlSymbol>,int>::Node_t,class CUtlOrderedMapBase<class CUtlSymbol,struct LocalPanelRegistration_t,class CDefLess<class CUtlSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlSymbol,struct LocalPanelRegistration_t,class CDefLess<class CUtlSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -25642,6 +25640,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<enum EItemSlotTypes_t,class CUtlVector<stru
 CUtlRBTree<struct CUtlOrderedMapBase<enum EItemSlotTypes_t,class CUtlVector<struct ModCostBonuses_t,int,class CUtlVectorMemory_Growable<struct ModCostBonuses_t,int,0> >,class CDefLess<enum EItemSlotTypes_t>,int>::Node_t,class CUtlOrderedMapBase<enum EItemSlotTypes_t,class CUtlVector<struct ModCostBonuses_t,int,class CUtlVectorMemory_Growable<struct ModCostBonuses_t,int,0> >,class CDefLess<enum EItemSlotTypes_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EItemSlotTypes_t,class CUtlVector<struct ModCostBonuses_t,int,class CUtlVectorMemory_Growable<struct ModCostBonuses_t,int,0> >,class CDefLess<enum EItemSlotTypes_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<enum EItemSlotTypes_t,struct ItemSlotInfo_t,class CDefLess<enum EItemSlotTypes_t>,int>::Node_t,class CUtlOrderedMapBase<enum EItemSlotTypes_t,struct ItemSlotInfo_t,class CDefLess<enum EItemSlotTypes_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EItemSlotTypes_t,struct ItemSlotInfo_t,class CDefLess<enum EItemSlotTypes_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<enum EMeleeHold_AttackType,struct AttackData_t,class CDefLess<enum EMeleeHold_AttackType>,int>::Node_t,class CUtlOrderedMapBase<enum EMeleeHold_AttackType,struct AttackData_t,class CDefLess<enum EMeleeHold_AttackType>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EMeleeHold_AttackType,struct AttackData_t,class CDefLess<enum EMeleeHold_AttackType>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<enum EModTier_t,struct ItemDraftBucketing_t,class CDefLess<enum EModTier_t>,int>::Node_t,class CUtlOrderedMapBase<enum EModTier_t,struct ItemDraftBucketing_t,class CDefLess<enum EModTier_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EModTier_t,struct ItemDraftBucketing_t,class CDefLess<enum EModTier_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<enum EModifierValue,float,class CDefLess<enum EModifierValue>,int>::Node_t,class CUtlOrderedMapBase<enum EModifierValue,float,class CDefLess<enum EModifierValue>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EModifierValue,float,class CDefLess<enum EModifierValue>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<enum EMusicState_t,struct CitadelMusicCueOverrides_t,class CDefLess<enum EMusicState_t>,int>::Node_t,class CUtlOrderedMapBase<enum EMusicState_t,struct CitadelMusicCueOverrides_t,class CDefLess<enum EMusicState_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum EMusicState_t,struct CitadelMusicCueOverrides_t,class CDefLess<enum EMusicState_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<enum ENextAttackDelayReason_t,class CCitadelAudioLoop,class CDefLess<enum ENextAttackDelayReason_t>,int>::Node_t,class CUtlOrderedMapBase<enum ENextAttackDelayReason_t,class CCitadelAudioLoop,class CDefLess<enum ENextAttackDelayReason_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum ENextAttackDelayReason_t,class CCitadelAudioLoop,class CDefLess<enum ENextAttackDelayReason_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -26697,7 +26696,7 @@ CitadelHeroContainer
 CitadelHeroContainerText
 CitadelHeroDataLoaded
 CitadelHeroData_t
-CitadelHeroData_t::KV3TransferPostLoad
+CitadelHeroData_t::PostLoad
 CitadelHeroDebutShowLore
 CitadelHeroDebutSwapToHero
 CitadelHeroDetailsMouseOutAbilityNum
@@ -26893,6 +26892,7 @@ CitadelItemDraftEnterState
 CitadelItemDraftOption
 CitadelItemDraftOptionEnableTooltip
 CitadelItemDraftPanel
+CitadelItemDraftPlayRevealSound
 CitadelItemDraftReroll
 CitadelItemDraftSkip
 CitadelItemVData
@@ -26969,7 +26969,6 @@ CitadelModifiedAttributeLabel
 CitadelModifierMessage
 CitadelModsPurchasedPanel
 CitadelMonitorMicChanged
-CitadelMusicChord_t
 CitadelMusicCueData_t
 CitadelMusicCueOverrides_t
 CitadelMusicCues_t
@@ -27014,6 +27013,7 @@ CitadelPartyAcceptInvite( %llu )
 CitadelPartyCancelInviteAccountID
 CitadelPartyClearMode
 CitadelPartyClearReady
+CitadelPartyCode
 CitadelPartyCodeHiddenUpdated
 CitadelPartyCodeTooltip
 CitadelPartyCreatePrivateLobby
@@ -27145,6 +27145,7 @@ CitadelProfileShowMatchHistoryTab
 CitadelProfileSortHeroes
 CitadelProgressBarDelta
 CitadelPurchaseModItem
+CitadelQuickGuide
 CitadelQuickGuideCategory
 CitadelQuickGuideViewPeriod
 CitadelQuickSearch
@@ -29098,6 +29099,7 @@ Disable glow on friendly troopers except for through walls during laning
 Disable interpolation list optimizations.
 Disable map color-correction entities
 Disable passing through portals
+Disable purchasing if you deal or take damage from an enemy player.
 Disable the early dev build message
 Disable the early post match survey
 Disable this entity.
@@ -29298,6 +29300,8 @@ DraftMMFail
 DraftOption
 DraftOption%d
 DraftOptionInitialDelay
+DraftOptionLegendaryAnticipationDuration
+DraftOptionRareAnticipationDuration
 DraftOptionRevealDuration
 DraftOptionTimeBetweenOptionsAppearing
 DraftRoundChanged
@@ -30096,12 +30100,6 @@ EHealthAttribute_DEPRECATED
 EHealthRegen
 EHeavyMeleeDamage
 EHeroBulletLifestealEffectiveness
-EHeroDefinedLootTableType
-EHeroLootTable_T1
-EHeroLootTable_T2
-EHeroLootTable_T3
-EHeroLootTable_T4
-EHeroLootTable_T5
 EHeroReleaseVoteOption_August2025
 EHeroReleaseVoteOption_January2026
 EHeroReleaseVoteOption_None
@@ -30155,6 +30153,7 @@ ELEMENT_ACCESS_VEC4
 ELF0
 ELOSCheck
 ELOSCheck_BodyCenter
+ELOSCheck_BodyCenter_IgnoreObscureBlockers
 ELOSCheck_Bounds
 ELOSCheck_Bounds_IgnoreObscureBlockers
 ELOSCheck_FibonacciSphere
@@ -30186,10 +30185,11 @@ ELightMeleeDamage
 ELobbyServerState
 ELockNone
 ELockPaused
+ELockingOn
 ELockonState
 ELootTableEntryType
 ELootType_Item
-ELootType_NestedLootTable
+ELootType_LootTableReference
 ELoot_GoldIdol
 ELoot_Invalid
 ELoot_LootTypeCount
@@ -30497,7 +30497,6 @@ EPlayerChoosingHero
 EPlayerKill
 EPlayerKillAssist
 EPlayerKillComeback
-EPlayerPlayState
 EPlayerPlayStateCount
 EPlayerSprayStatus
 EPlayerStateInvalid
@@ -31297,7 +31296,6 @@ Expo
 Exponent:
 Exponential Decay
 ExponentialDecay
-Exponentially weight rares by this much, making higher weighted things even more weighted
 ExposureBias
 Expression Group
 Expression Name
@@ -32222,7 +32220,6 @@ GCSDK::GCDirIndex_t
 GCSQL_VERSION_BASELINE
 GCSQL_VERSION_BOOLTYPE
 GCType_t"2\n
-GCitadelQuickGuide
 GENERALIZEDTIME
 GENERALSTRING
 GENERAL_ALLOCATE_BOOLEAN
@@ -32318,6 +32315,7 @@ GPM that scales with game time
 GPU Level - Default: High
 GRAPHICSTRING
 GROUP
+GSeasonalAchievementTooltip
 GService for submitting data, training, and inferencing with SteamLearn.
 GSyncPanel
 GSyncStatus
@@ -32649,6 +32647,7 @@ Gold per 'level' after maxing out rewards
 GoldChangeSounds_t
 GoldStar
 GooDuration
+Good
 Got CMsgClientToGCStartMatchmakingResponse: %s\n
 Got a NaN origin on %s\n
 Got a NaN velocity on %s\n
@@ -34441,6 +34440,7 @@ ItemData
 ItemDescriptionsLanguageBlock
 ItemDisplay
 ItemDraft
+ItemDraftBucketing_t
 ItemDraftItem_t
 ItemDraftOption_t
 ItemDraftReroll
@@ -34448,6 +34448,7 @@ ItemDraftRoundChanged
 ItemDraftRoundID_t
 ItemDraftRoundParams_t
 ItemDraftRoundState_t
+ItemDraftWeight_t
 ItemEnhancements
 ItemFlagTypes_t
 ItemImage
@@ -34539,6 +34540,7 @@ JoinSection
 JoiningChat
 Joins a party
 Joint Info
+JoystickCamera
 Jq;v
 Jq?a
 Jr\tA
@@ -35111,7 +35113,7 @@ Loot List %s: Missing required field "chance" in the "random_attributes" block.
 Loot List %s: Weight is not 1.0f and random_attibutes_add_all_if_picked is enabled for "random_attributes" block.
 Loot List %s: unusual_properties has a drop chance that is implausibly high (%.2f)
 Loot List %s: unusual_properties refers to an unusual list that does not exist '%s'
-Loot Table
+Loot Table Reference
 Loot Tables
 Loot definition %s: Attribute "%s" missing required 'weight' field
 Loot list %s: Attribute definition "%s" was not found
@@ -37861,11 +37863,13 @@ P-224
 P-256
 P-384
 P-521
-P08Jp
+P08@J@
+P08N$
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
 P5[1
+P6@0
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -38589,7 +38593,6 @@ PetLevelup_Rule_t
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf0&
 Phoneme delay to account for sound system latency.
 Phrase
 Phrase%d
@@ -38800,7 +38803,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Plots view angles yaw at various stages of the frame/tick in Tracy.
 Pm8A?
 PmR"H?
-Pn0'
 Point entity.
 Point under crosshair
 PointCameraSettings_t
@@ -39543,11 +39545,11 @@ RUMBLE_SHOTGUN_DOUBLE
 RUMBLE_SHOTGUN_SINGLE
 RUMBLE_SMG1
 RUMBLE_STOP_ALL
-R\fpD
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vpX
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -41893,6 +41895,7 @@ Source1LegacyListenEvents_t
 Source2 HTML
 Source2/Composite Material Debug
 Source2EntitySystem
+Source2EntitySystemDeallocator
 Source2PlayStats_LowCardinalityString
 SourceOffset
 SourceTexture
@@ -42171,7 +42174,6 @@ StaminaToRestore
 StanceType_t
 StandStillMinTime
 Standard
-Standard loot table to roll.
 StandardTags
 Standing Pivot
 Star
@@ -43776,6 +43778,7 @@ Tweak this parameter to adjust Free Camera mouse rotation.
 Tweak this parameter to adjust Free Camera movement acceleration.
 Tweak this parameter to adjust Free Camera movement max speed.
 TweakKV
+Tweaks the hero item bucketing.
 Type=
 TypeDropDown
 Tz$o
@@ -43804,6 +43807,12 @@ UI.Cheat.Frog
 UI.CommendConfirmation
 UI.HeroSelection.Selected
 UI.Idol_Spawn_MapPing
+UI.ItemDraft.Appear.Enhanced
+UI.ItemDraft.Appear.Legendary
+UI.ItemDraft.Appear.Rare
+UI.ItemDraft.Appear.Spirit
+UI.ItemDraft.Appear.Vitality
+UI.ItemDraft.Appear.Weapon
 UI.ItemDraft.End
 UI.ItemDraft.RevolverSpin
 UI.ItemDraft.Start
@@ -44202,7 +44211,7 @@ UsePrevious
 UseScreenAspectRatio
 Used by button hints as labels for 'alt-casting' (ex. cast on self, bring allies, heal teammate).
 Used by button hints as labels for 'casting' (ex. cast, throw, deploy).
-Used by the UI to communicate how rare this entry it. 0 is not rare, 1 is rare. Nested loot tables will add their rarity to their children
+Used by the UI to communicate how rare this entry is. 0 is not rare, 1 is rare. Nested loot tables will add their rarity to their children
 Used to flag a test as having failed.
 User
 User Entity IO to fire when modifier added. 0 = don't fire.
@@ -44565,7 +44574,6 @@ WIN32_NAME_CONVERTER
 WIN32_PATHBYADDR
 WIN32_SPLITTER
 WIN32_UNLOAD
-WJoystickCamera
 WL6e}:
 WL_Chest
 WL_Count
@@ -44783,7 +44791,7 @@ When a HOT has topped off the player
 When a page has an audio queue, this delay will be used before auto play advancing unless it specifies an override value
 When a page has no audio queue, this delay will be used before auto play advancing unless it specifies an override value
 When a perf report is dumped at the end of the session, should it be detailed?
-When a players' team is in comeback state, apply this exponential weighting to their drafts, improving the items they get
+When a players' team is in comeback state, apply this weighting scale to their "Good" bucket of items
 When a rare is rolled, restrict items to this tier.
 When a specific damage received can not be selected
 When ability damage events are within this amount of time of each other, they will be added together into a single entry.
@@ -44813,6 +44821,7 @@ When pressing forward, how far to the side you need to look to start turning in 
 When pure damage events are within this amount of time of each other, they will be added together into a single entry.
 When pushed against tower
 When resuming, fades music in over this duration of time.
+When rolling a rare item scale up the "Good" bucket's weight by this much
 When running on flat ground and trying to initiate a slide, how far forward to look for a slope that will let's us trigger a slide early.
 When set to non-0, a sound effect is played during Killer Replay
 When set to non-zero, it will use this account as the account for bots to test UI on the active match
@@ -45269,9 +45278,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hrP
 Xd3h
-Xf0u
 XfJ7
 XjfR
 XqgA+
@@ -45487,7 +45494,7 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@ELockingOn
+\f@AudioUtil
 \fAccoladeID_t
 \fKS1
 \fResourceId_t
@@ -46524,7 +46531,6 @@ Z~wl
 \rKT8v
 \rLAM
 \rMinghuaQu\f
-\rSource2EntitySystemDeallocator
 \rTxL
 \rUHz4Z}\r
 \rWhO
@@ -46550,7 +46556,6 @@ Z~wl
 \r^mX
 \ri1I
 \rjwB\t
-\rm_flMovespeedOverride
 \roKK
 \rrCj
 \rstyle_index_t
@@ -46832,8 +46837,8 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
+`201
 `28)fk
-`2PE
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -46845,6 +46850,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`ht I
 `o_je
 `yNT
 a null shared library handle was used
@@ -46862,6 +46868,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv$
 aD/x
 aDSS
 aECDH
@@ -47546,6 +47553,7 @@ answered_questions
 antialias
 antialiasing
 anticipating_dash_jump
+anticipation
 antiquewhite
 anyExtendedKeyUsage
 anyPolicy
@@ -50000,6 +50008,7 @@ citadel_tutorial_wasd_finished
 citadel_tutorial_zipline_attach_finished
 citadel_tutorial_zoom_finished
 citadel_tweak_hero_level_boons
+citadel_tweak_weights
 citadel_ui_allow_feature_bot_test
 citadel_ui_damage_impact_duration
 citadel_ui_damage_impact_duration_fadeindelay
@@ -50752,7 +50761,6 @@ compression id not within private range
 compression library error
 compressionAlgorithm
 con_vars
-concealed
 condensed
 conditional_classes
 conditions
@@ -51709,7 +51717,6 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\fpu
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -53974,7 +53981,6 @@ height_fog_type
 heightfog
 hero
 hero incompatible
-hero weighting
 heroBadge
 heroDead
 heroID
@@ -54204,6 +54210,7 @@ how long the player has been sprinting
 how this stat is implemented
 hows joint info for this entity
 hp_stat
+hpz@
 hr_H
 href="
 hscroll
@@ -58884,6 +58891,7 @@ m_TeleportFXModifier
 m_TeleportModelParticle
 m_TeleportOriginParticle
 m_TeleportParticle
+m_TeleportStartParticle
 m_TeleportStartSound
 m_TeleportToGangster
 m_TeleportTrailParticle
@@ -59547,7 +59555,6 @@ m_bInCheckState
 m_bInCombat
 m_bInDelayTime
 m_bInDevelopment
-m_bInFlight
 m_bInGraphParamUpdateFlow
 m_bInGround
 m_bInHideoutZone
@@ -60410,7 +60417,7 @@ m_eTrooperType
 m_eType
 m_eType != CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS
 m_eType != ELootType_Item
-m_eType != ELootType_NestedLootTable
+m_eType != ELootType_LootTableReference
 m_eType != MODIFIER_SCRIPT_VARIANT_MODEL
 m_eType != MODIFIER_SCRIPT_VARIANT_MODIFIER_FLOAT && m_eType != MODIFIER_SCRIPT_VARIANT_MODIFIER_BOOLEAN && m_eType != MODIFIER_SCRIPT_VARIANT_MODIFIER_INTEGER
 m_eType != MODIFIER_SCRIPT_VARIANT_PARTICLE
@@ -60895,7 +60902,7 @@ m_flCollisionHeight
 m_flCollisionRadius
 m_flCollisionSize
 m_flColorTemperature
-m_flComebackWeightExponentialBias
+m_flComebackWeightScale
 m_flCommandQueueMaxDilationPercentage=%f
 m_flComparand
 m_flComparisonValue
@@ -61827,6 +61834,7 @@ m_flMovementMaxPathEndDirectionAngleDifferenceForStop
 m_flMovementPlantedTurnAngleThreshold
 m_flMovementRestrictionTime
 m_flMovementSpeedCurveAvgSpeed
+m_flMovespeedOverride
 m_flMuzzleFlashBrightness
 m_flMuzzleSmokeDecrementRate
 m_flMuzzleSmokeTimeout
@@ -62087,7 +62095,7 @@ m_flRangeStart
 m_flRangeWhileZoomed
 m_flRareLoadoutAnimChance
 m_flRareWeight
-m_flRareWeightExponentialBias
+m_flRareWeightScale
 m_flRatchetOffset
 m_flRate
 m_flRearOffset
@@ -62639,6 +62647,7 @@ m_flVerticalDeadzoneHard
 m_flVerticalDeadzoneSoft
 m_flVerticalFOV
 m_flVerticalMoveSpeedPercent
+m_flVerticalOffset
 m_flVerticalPunch
 m_flVerticalSpawnOffset
 m_flVerticalSpeed
@@ -63272,6 +63281,7 @@ m_mapAbilityProperties
 m_mapAttacks
 m_mapBonusCurrencies
 m_mapBoundAbilities
+m_mapBuckets
 m_mapCastEventParticles
 m_mapCellDesc
 m_mapClonedAbilities
@@ -63283,9 +63293,10 @@ m_mapDependentAbilities
 m_mapEntToTimeHit
 m_mapHunterAbilities
 m_mapImpactEffects
+m_mapItemDraftBucketing
 m_mapItemDraftCounterWeights
-m_mapItemDraftWeights
 m_mapItemSlotInfo
+m_mapItemTierToItemDraftBuckets
 m_mapLevelInfo
 m_mapLevelsToValue
 m_mapModCostBonuses
@@ -64539,6 +64550,8 @@ m_strBounceSound
 m_strBoundaryPuffParticle
 m_strBreakableContentsParticleOverride
 m_strBreakableContentsPropGroupOverride
+m_strBucket
+m_strBucketName
 m_strBuffGainedSound
 m_strBuffReceivedSound
 m_strBulletImpactSound
@@ -64779,7 +64792,6 @@ m_strLogoImageEnglish
 m_strLogoImageLocalized
 m_strLoopingSequenceName
 m_strLoopingSound
-m_strLootTable
 m_strLowHealthSound
 m_strMainOnlyModelName
 m_strMapToLoad
@@ -65107,6 +65119,7 @@ m_tLastTetherTime
 m_tLastWallAttachTime
 m_tLeapOffTime
 m_tLeapStartTime
+m_tLingerMovementControlUntilTime
 m_tModeBeginTime
 m_tNextAbilityTriggerWindow
 m_tNextDetonateTime
@@ -66693,7 +66706,6 @@ modifier_icepath
 modifier_icepath_tech_power_linger
 modifier_idol_return_timer
 modifier_idol_team_timeout
-modifier_incendiary_debuff
 modifier_incendiary_thinker
 modifier_infinite_magazine_active
 modifier_infuser
@@ -67951,6 +67963,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^$
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -69213,7 +69226,6 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
-r\vpD
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
 r_AirboatViewZHeight
@@ -72280,6 +72292,7 @@ unimplemented digest
 unimplemented public key method
 uninitialized
 unique integer ID of this new setting
+unique integer ID of this ping wheel message
 unique integer ID of this stat
 uniqueMember
 unique_target
@@ -73204,7 +73217,6 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDm_flVerticalOffset
 zF):O4
 zFar
 zG2m8

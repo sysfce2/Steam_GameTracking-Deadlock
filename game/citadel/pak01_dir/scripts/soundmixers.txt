@@ -1497,6 +1497,19 @@
 			duck_to_percent = 100
 			ducker_threshold = 20
 		},
+		{
+			name = "UI-Brawl-Legendary"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
 	]
 	SoundMixers = 
 	{
@@ -2422,6 +2435,14 @@
 				lvl = 1.0
 				dsp = 0.0
 			},
+			{
+				mixgroup = "UI-Brawl-Legendary"
+				vol = 1.0
+				solo = 0.0
+				mute = 0.0
+				lvl = 1.0
+				dsp = 0.0
+			},
 		]
 	}
 	MixLayers = 
@@ -3201,6 +3222,14 @@
 				},
 				{
 					mixgroup = "VO-Hero-Zipline"
+					vol = 1.0
+					lvl = 0.0
+					dsp = 1.0
+					mute = 0.0
+					solo = 1.0
+				},
+				{
+					mixgroup = "UI-Brawl-Legendary"
 					vol = 1.0
 					lvl = 0.0
 					dsp = 1.0
@@ -4131,7 +4160,7 @@
 					lvl = 0.0
 					dsp = 1.0
 					mute = 0.0
-					solo = 0.5
+					solo = 0.55
 				},
 				{
 					mixgroup = "Music-GameOver"
@@ -4139,7 +4168,7 @@
 					lvl = 0.0
 					dsp = 1.0
 					mute = 0.0
-					solo = 0.5
+					solo = 0.55
 				},
 				{
 					mixgroup = "Music-KS"
@@ -4147,7 +4176,7 @@
 					lvl = 0.0
 					dsp = 1.0
 					mute = 0.0
-					solo = 0.5
+					solo = 0.55
 				},
 				{
 					mixgroup = "Music-Objective"
@@ -4155,14 +4184,14 @@
 					lvl = 0.0
 					dsp = 1.0
 					mute = 0.0
-					solo = 0.5
+					solo = 0.55
 				},
 			]
 			Triggers = 
 			[
 				{
 					trigger = "Music-GameOver"
-					threshold = 0.01
+					threshold = 0.1
 					mixamount = 1.0
 					attack = 0.1
 					release = 0.1
@@ -4173,6 +4202,38 @@
 					mixamount = 1.0
 					attack = 0.1
 					release = 0.1
+				},
+			]
+		}
+		"ml-brawl-legendary" = 
+		{
+			Mixers = 
+			[
+				{
+					mixgroup = "Music"
+					lvl = 0.0
+					dsp = 1.0
+					mute = 0.0
+					solo = 0.0
+					vol = 0.75
+				},
+				{
+					mixgroup = "Announcer"
+					lvl = 0.0
+					dsp = 1.0
+					solo = 0.0
+					mute = 0.0
+					vol = 0.75
+				},
+			]
+			Triggers = 
+			[
+				{
+					trigger = "UI-Brawl-Legendary"
+					threshold = 0.7
+					mixamount = 1.0
+					attack = 0.05
+					release = 0.05
 				},
 			]
 		}

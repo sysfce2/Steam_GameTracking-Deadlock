@@ -12,6 +12,7 @@
 		position_force_from_player = true
 		mixer_mixgroup = "UI"
 		volume_fade_out = 0.250000
+		block_volume_min = -1.000000
 		pitch_mult_horizontal = 
 		[
 			

@@ -49,14 +49,6 @@
 	background-color: dynamoColor;
 }
 
-#BuffModifiers .dynamo2 .SplitLabelProgressBar
-{
-	ui-scale: 180%;
-	transform: rotateZ(-8deg);
-	margin-left: 300px;
-	border: 1px solid red;
-}
-
 #BuffModifiers .dynamo2 .SplitLabelProgressBar .SplitLabelName Image
 {
 	animation-name: TagAlong;
@@ -107,17 +99,7 @@
 
 #BuffModifiers .dynamo2 .SplitLabelProgressBar .SplitLabelProgress
 {
-	wash-color: familiarColor;
-}
-
-#BuffModifiers .dynamo2 .BarAndNameContainer
-{
-	visibility: collapse;
-}
-
-#BuffModifiers .dynamo2 .AbilityNameLabel
-{
-	visibility: collapse;
+	wash-color: dynamoColor;
 }
 
 @keyframes 'TextWiggle'
@@ -136,13 +118,13 @@
 	
 }
 
-.SplitLabelProgressBar .SplitLabelName Label
+.citadel_ability_nikuman .SplitLabelProgressBar .SplitLabelName Label
 {
 	font-size: 34px;
 	text-shadow: 0px 0px 6.0 offBlack;
 }
 
-.SplitLabelProgressBar .SplitLabelName Image:nth-child(even)
+.citadel_ability_nikuman .SplitLabelProgressBar .SplitLabelName Image:nth-child(even)
 {
 	animation-name: TextWiggle;
 	animation-duration: 0.7s;
@@ -150,7 +132,7 @@
 	animation-direction: alternate-reverse;
 }
 
-.SplitLabelProgressBar .SplitLabelName Image:nth-child(odd)
+.citadel_ability_nikuman .SplitLabelProgressBar .SplitLabelName Image:nth-child(odd)
 {
 	animation-name: TextWiggle;
 	animation-duration: 0.7s;
@@ -158,7 +140,7 @@
 	animation-direction: alternate;
 }
 
-.SplitLabelProgressBar .SplitLabelProgress
+.citadel_ability_nikuman .SplitLabelProgressBar .SplitLabelProgress
 {
 	wash-color: fortitudeBrightColor;
 }

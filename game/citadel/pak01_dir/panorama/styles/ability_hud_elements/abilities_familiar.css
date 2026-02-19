@@ -104,7 +104,7 @@
 
 #BuffModifiers .SplitLabelProgressBar
 {
-	ui-scale: 180%;
+	ui-scale: 120%;
 	transform: rotateZ(-8deg);
 	margin-left: 300px;
 }

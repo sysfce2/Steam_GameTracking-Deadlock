@@ -851,7 +851,6 @@ $tI(knN
 (*VERB) not recognized
 (0`hpx
 (27>?<:20./-(
-(4P1
 (64-bit process)
 (8GXgw
 (?R or (?[+-]digits must be followed by )
@@ -2563,10 +2562,12 @@ $tI(knN
 0B_u
 0C&C
 0E>X
+0L(C
 0T.Q
 0X8b?~
 0\n\vserializers
 0iN>/
+0vd*C
 0x%x,
 0|t?L
 0|t?uj
@@ -2619,6 +2620,7 @@ $tI(knN
 2\r%2t
 2\r.PrefetchType"h\n
 2\rU2t
+2\vpL(C
 2i0/
 3$EE\f
 3'F^7
@@ -2687,7 +2689,6 @@ $tI(knN
 8>0RF>
 8@HP:
 8A3b
-8B@W%
 8Csinf
 8Smt
 8W?i
@@ -3123,14 +3124,15 @@ $tI(knN
 ?ysB
 @ Current  :  %s\n
 @08@HPX`hpx
-@08N
+@08Nd*C
 @GetProfile_ultrafast
 @HPX
 @HPX&I
 @HPX`hv
 @^8U)zj
-@htP1
+@fd*C
 @i-kuX
+@nd*C
 A command with the specified name already exists. Cannot create an alias with the same name.\n
 A dB floor of when to stop transmitting packets, the volume between this and voice_threshold will still transmit packets to allow for volume ramping.
 A file with this name is already in the pool.
@@ -3532,10 +3534,10 @@ C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserver.cpp
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserver.cpp:986
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserverbase.cpp
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserverbase.cpp:3035
-C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserverbase.cpp:5673
-C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserverbase.cpp:5739
-C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserverbase.cpp:5830
-C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserverbase.cpp:5836
+C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserverbase.cpp:5682
+C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserverbase.cpp:5748
+C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserverbase.cpp:5839
+C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameserverbase.cpp:5845
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkp2pservice.cpp
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkserverservice.cpp
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkstringtable.cpp
@@ -5563,9 +5565,9 @@ H$6t
 H*0"ZOW
 H.FM
 HD?0
+HEO`
 HGR9\f
 HH:mm:ss
-HIP`
 HKR~
 HLTV
 HLTV Broadcast
@@ -5620,7 +5622,6 @@ Hostname for server.
 How far back before our current playback head in seconds to hold onto fragments.
 How long to show the message about Killer Replay after death. The best setting is a bit shorter than spec_replay_autostart_delay + spec_replay_leadup_time + spec_replay_winddown_time
 How often to flash demo recording/playback overlay (0 - disable overlay, -1 - show always)
-HuP`
 HudUpdate
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
@@ -6118,6 +6119,7 @@ Marker,GPUTimeAvgMS,GPUTimeRangeMS,GPUTimeMinMS,GPUTimeMaxMS\n
 Marks the current demo playback tick for later use
 Master "%s", delay %.0f, frames %d / ticks %d\n
 Match start status: %u/%u\n
+MatchID: %lld\n
 MatchSession
 Matchmaking failed; Waiting on %d/%d clients
 Material Group
@@ -6507,7 +6509,7 @@ Overrides the max players reported to prospective clients
 Overriding minidump handler with Engine2MinidumpFunction\n
 P08@J
 P08J
-P08N
+P08Nd*C
 P4File
 P:S;A
 P?fff?33s?{
@@ -6517,6 +6519,7 @@ PCRE does not support \L, \l, \N{name}, \U, or \u
 PHrk
 PInstruction_t<41>::Run
 PInstruction_t<42>::Run
+PL(C
 PLACEHOLDER_VALUE
 PLATFORM
 PLAYBACK: At end of data\n
@@ -6788,6 +6791,7 @@ Playing Broadcast (%s)
 Playing Demo (%s)
 Playing back demo: '%s' at tick %u\n
 PmNk
+Pnd*C
 Pointers cannot be used as numeric values
 PollAndProcessInput
 Poor man's restart: reload the current map from disk.
@@ -6970,6 +6974,7 @@ RP_PAUSE
 RP_TOGGLEPAUSE
 RSDSh
 RST%d
+R\vpL(C
 RaiseException
 Random Float
 Random Integer
@@ -8268,7 +8273,7 @@ UtlVectorMemory_FailedAllocation
 U}JK
 U}g7x~
 V/?[w8rV
-V0\nH
+V0\vH
 V<@ss
 V?wm\v
 VApplication001
@@ -8592,6 +8597,7 @@ XsBI
 Y8a:
 Y>kX>M
 YSb2
+YZQ`
 Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
 Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
 Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
@@ -8687,7 +8693,8 @@ Zq",9\fB
 \fV0U
 \fV4U
 \fX\fm\vH\vH\vm\v
-\fp\vP0
+\fpL(C
+\fpo3
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \n    Actual    : 
 \n    Field type: 
@@ -9091,6 +9098,7 @@ Zq",9\fB
 \vm\vm\vm\vH\vm\vm\v
 \vm\vm\vm\vm\vH\v
 \vnJH
+\vpL(C
 \vxYT
 ] is an invalid data character in JavaScript compatibility mode
 ]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
@@ -9157,6 +9165,7 @@ _spawngroup_logging/log_%s_group_%s.txt
 _temp_mapcycle.txt
 `-uRQg
 `3Q"X
+`6P\nH
 `?m'_?&~]?(
 `RTTI
 `adjustor{
@@ -9170,11 +9179,11 @@ _temp_mapcycle.txt
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
+`fd*C
 `generic-class-parameter-
 `generic-method-parameter-
 `generic-type-
 `hp\nU
-`htP1
 `hyz
 `local static destructor helper'
 `local static guard'
@@ -9184,6 +9193,7 @@ _temp_mapcycle.txt
 `managed vector constructor iterator'
 `managed vector copy constructor iterator'
 `managed vector destructor iterator'
+`nd*C
 `non-type-template-parameter
 `omni callsig'
 `placement delete closure'
@@ -9215,6 +9225,7 @@ a numbered reference must not be zero
 a&M-=Z]<i*k)n-t&q&p&|
 a6>r
 a?wSa?\
+aBvd*C
 a\v4+Wk
 abcdefghijklmnopqrstuvwxyz
 abortflag
@@ -9947,6 +9958,7 @@ extendee
 extension_range
 extern "C" 
 f#kI3\t
+f2*H
 f5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
 f9U\n
 f?3Jf?6
@@ -9969,6 +9981,7 @@ false:<\n
 false:=\n
 false:=\n\rvalve_map_key
 false:?\n
+fd*C
 field
 field_serializer_name_sym
 field_serializer_version
@@ -10727,6 +10740,7 @@ n`xBF|7T
 name
 nan(ind)
 nan(snan)
+nd*C
 ndZTNGA:3-' 
 near '%c' :\n
 near char(%#02X) :\n
@@ -10933,22 +10947,21 @@ overwatch
 owM&
 owner dead
 oz>!km>
-p08@H^
-p0j0
+p08@H^d*C
 p0p@
-p2@W%
 p2p_listpeers
 p2p_ping "%s"
 p4edit
-p>8)H
-p>W)H
+p>d*C
 p?ff
 p@HPX`h\f
 pClass
 pClass->m_ClassID(%i) >= %i\n
 pClient
 pCm)
+pF`\fH
 pH\fy
+pL(C
 pMessage
 pServerClass
 pYa(bu
@@ -11021,6 +11034,7 @@ playing %s from '%s'\n
 playsound
 playsound 
 playsound <soundname>
+pnd*C
 png 
 png_screenshot
 pointer, 
@@ -11097,7 +11111,6 @@ quit
 quit\n
 qxs?L
 qxs?z7
-r0K(
 r?dar?\n
 rA?7
 rEy5
@@ -11999,6 +12012,7 @@ vaudio_speex
 vconcomm
 vconsole_rcon_server_details
 vcss
+vd*C
 vecSave
 vector
 vector too long

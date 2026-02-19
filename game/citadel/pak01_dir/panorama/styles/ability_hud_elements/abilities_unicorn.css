@@ -22,7 +22,7 @@
 
 .buff
 {
-	horizontal-align: right;
+	horizontal-align: center;
 }
 
 #fancy_progress_container
@@ -48,13 +48,6 @@
 .BarAndNameContainer
 {
 	visibility: collapse;
-}
-
-.SplitLabelProgressBar
-{
-	transform: rotateZ(-8deg);
-	ui-scale: 150%;
-	horizontal-align: right;
 }
 
 .SplitLabelProgressBar .SplitLabelName Image
