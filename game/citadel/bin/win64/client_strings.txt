@@ -89,8 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXb@
- (0X`hpz@
+ (08@HPX`jP
+ (08@HPZP
+ (08@JP
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16742,7 +16743,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J@
+08@HRP
+08BP
 08bX
 09,h
 0: (V0) Legacy save format, 1: (V1) KeyValues3 save format, 2: (V2) KV3Transfer saves
@@ -17019,7 +17021,6 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpX
 2^pV
 2a"l
 2bT~
@@ -17090,7 +17091,6 @@ $hRh
 4@AA
 4Ch;
 4F0I
-4F\vP
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17235,6 +17235,7 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@JP
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
@@ -17514,9 +17515,13 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
+?CCitadel_Ability_Magician_AnimalHexAreaVData
+?CITADEL_CONCEPT_NONE
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
+?CitadelPartyInviteReject
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
+?EMeleeResist
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17551,20 +17556,19 @@ $hRh
 ?ff&?333?
 ?gwL
 ?jOb
-?m_bInFlight
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N$
+@08N
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
-@CitadelMusicChord_t
 @DebugIndividualStyle
-@HPX`hvp
+@HPX`hv`
+@How far offset to the left and right will damage numbers be when this model takes damage and is far from the camera
 @MVDataRoot
 @MfKZ
 @Pgl
@@ -17582,10 +17586,10 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
+@hua
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
-@modifier_incendiary_debuff
 @n2w
 A bias on the lerp
 A comma separated list of hero IDs that hold the currently banned brawl roster heroes
@@ -17618,7 +17622,6 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
-AA:01
 AABBDirection
 AABB_t
 AACompromise
@@ -18653,6 +18656,7 @@ AttributesSection_%i
 AttributesSection_%s
 AudioLimiter
 AudioManager
+AudioUtil
 AudioVolume
 AudioVolumeFull
 AudioVolumeMuted
@@ -18731,6 +18735,7 @@ B64_READ_PKCS7
 B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
+B>HeroTestingSelectTab
 B>J7I
 BACK
 BAD ENUMERATED
@@ -20756,7 +20761,6 @@ CCitadel_Ability_MageWalkVData
 CCitadel_Ability_Magician_AnimalCurse
 CCitadel_Ability_Magician_AnimalCurseVData
 CCitadel_Ability_Magician_AnimalHexArea
-CCitadel_Ability_Magician_AnimalHexAreaVData
 CCitadel_Ability_Magician_BigBolt
 CCitadel_Ability_Magician_BigBoltVData
 CCitadel_Ability_Magician_CopyUlt
@@ -23099,7 +23103,6 @@ CITADEL_CM_PingWheel
 CITADEL_CM_PlayerStatsUpdated
 CITADEL_CM_QuickResponse
 CITADEL_CONCEPT_COUNT
-CITADEL_CONCEPT_NONE
 CITADEL_DAMAGETYPE_ABILITY
 CITADEL_DAMAGETYPE_BULLET
 CITADEL_DAMAGETYPE_ENVIRONMENTAL
@@ -25513,6 +25516,7 @@ CUtlOrderedMap<enum ECitadelAudioLoopSounds,class CSoundEventName,class CDefLess
 CUtlOrderedMap<enum EModifierValue,float,class CDefLess<enum EModifierValue>,int>::FindElement
 CUtlOrderedMap<enum EStatsType,struct HeroScalingStat_t,class CDefLess<enum EStatsType>,int>::FindElement
 CUtlOrderedMap<int,float,class CDefLess<int>,int>::FindElement
+CUtlOrderedMap<struct CitadelBodygroupSetting_t const *,class GameTime_t,class CDefLess<struct CitadelBodygroupSetting_t const *>,int>::FindElement
 CUtlQueue<unsigned __int64,class CUtlLeanVector<struct CUtlQueueNode_t<unsigned __int64>,int,class CMemAllocAllocator> >::RemoveAtTail
 CUtlRBTree<char const *,class CDefFastCaselessStringLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<char const *,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<class CUtlString,class CDefFastCaselessStringLess,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<class CUtlString,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
@@ -25559,6 +25563,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<class CEntityIndex,struct CHudMinimap::Part
 CUtlRBTree<struct CUtlOrderedMapBase<class CEntityIndex,struct CHudMinimap::SimpleMinimapEntry_t,class CDefLess<class CEntityIndex>,int>::Node_t,class CUtlOrderedMapBase<class CEntityIndex,struct CHudMinimap::SimpleMinimapEntry_t,class CDefLess<class CEntityIndex>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CEntityIndex,struct CHudMinimap::SimpleMinimapEntry_t,class CDefLess<class CEntityIndex>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CEntityIndex,struct EntityPredictionErrors_t,class CDefLess<class CEntityIndex>,unsigned short>::Node_t,class CUtlOrderedMapBase<class CEntityIndex,struct EntityPredictionErrors_t,class CDefLess<class CEntityIndex>,unsigned short>::CKeyLess,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CEntityIndex,struct EntityPredictionErrors_t,class CDefLess<class CEntityIndex>,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CGlobalSymbol,class CGlobalSymbol,class CDefLess<class CGlobalSymbol>,int>::Node_t,class CUtlOrderedMapBase<class CGlobalSymbol,class CGlobalSymbol,class CDefLess<class CGlobalSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CGlobalSymbol,class CGlobalSymbol,class CDefLess<class CGlobalSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<class CGlobalSymbol,class CUtlVector<struct CitadelBodygroupSetting_t,int,class CUtlVectorMemory_Growable<struct CitadelBodygroupSetting_t,int,0> >,class CDefLess<class CGlobalSymbol>,int>::Node_t,class CUtlOrderedMapBase<class CGlobalSymbol,class CUtlVector<struct CitadelBodygroupSetting_t,int,class CUtlVectorMemory_Growable<struct CitadelBodygroupSetting_t,int,0> >,class CDefLess<class CGlobalSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CGlobalSymbol,class CUtlVector<struct CitadelBodygroupSetting_t,int,class CUtlVectorMemory_Growable<struct CitadelBodygroupSetting_t,int,0> >,class CDefLess<class CGlobalSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CGlobalSymbol,int,class CDefLess<class CGlobalSymbol>,int>::Node_t,class CUtlOrderedMapBase<class CGlobalSymbol,int,class CDefLess<class CGlobalSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CGlobalSymbol,int,class CDefLess<class CGlobalSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CHandle<class C_BaseEntity>,float,class CDefLess<class CHandle<class C_BaseEntity> >,int>::Node_t,class CUtlOrderedMapBase<class CHandle<class C_BaseEntity>,float,class CDefLess<class CHandle<class C_BaseEntity> >,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CHandle<class C_BaseEntity>,float,class CDefLess<class CHandle<class C_BaseEntity> >,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CHandle<class C_BaseEntity>,int,class CDefLess<class CHandle<class C_BaseEntity> >,int>::Node_t,class CUtlOrderedMapBase<class CHandle<class C_BaseEntity>,int,class CDefLess<class CHandle<class C_BaseEntity> >,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CHandle<class C_BaseEntity>,int,class CDefLess<class CHandle<class C_BaseEntity> >,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -25576,6 +25581,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct CPhysicsBodyGameMar
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct CitadelAbilityProperty_t,class CDefFastCaselessStringLess,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct CitadelAbilityProperty_t,class CDefFastCaselessStringLess,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct CitadelAbilityProperty_t,class CDefFastCaselessStringLess,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct CitadelMusicChord_t,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct CitadelMusicChord_t,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct CitadelMusicChord_t,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct ItemDraftWeight_t,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct ItemDraftWeight_t,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct ItemDraftWeight_t,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<class CUtlStringToken,struct CitadelBodygroupSetting_t const *,class CDefLess<class CUtlStringToken>,int>::Node_t,class CUtlOrderedMapBase<class CUtlStringToken,struct CitadelBodygroupSetting_t const *,class CDefLess<class CUtlStringToken>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlStringToken,struct CitadelBodygroupSetting_t const *,class CDefLess<class CUtlStringToken>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlStringToken,struct PerSurfaceImpactEffects_t,class CDefLess<class CUtlStringToken>,int>::Node_t,class CUtlOrderedMapBase<class CUtlStringToken,struct PerSurfaceImpactEffects_t,class CDefLess<class CUtlStringToken>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlStringToken,struct PerSurfaceImpactEffects_t,class CDefLess<class CUtlStringToken>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlSymbol,struct HSCRIPT__ *,class CDefLess<class CUtlSymbol>,int>::Node_t,class CUtlOrderedMapBase<class CUtlSymbol,struct HSCRIPT__ *,class CDefLess<class CUtlSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlSymbol,struct HSCRIPT__ *,class CDefLess<class CUtlSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CUtlSymbol,struct LocalPanelRegistration_t,class CDefLess<class CUtlSymbol>,int>::Node_t,class CUtlOrderedMapBase<class CUtlSymbol,struct LocalPanelRegistration_t,class CDefLess<class CUtlSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlSymbol,struct LocalPanelRegistration_t,class CDefLess<class CUtlSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -26525,6 +26531,7 @@ CitadelBindingButton
 CitadelBindingGlyphModeChanged
 CitadelBindlessDesc
 CitadelBlurTarget
+CitadelBodygroupSetting_t
 CitadelBookEnableNavigation
 CitadelBookLibraryPage
 CitadelBookNavButtonActivate
@@ -26644,6 +26651,7 @@ CitadelEditParty
 CitadelEnglishHeroNamesConVarChanged
 CitadelEntityMessageIds
 CitadelEscapeMenuChangeHero
+CitadelEventIDToBodyGroupMapping_t
 CitadelEventMovieDelay
 CitadelExitHeroSelection
 CitadelExitHeroSheet
@@ -26969,6 +26977,7 @@ CitadelModifiedAttributeLabel
 CitadelModifierMessage
 CitadelModsPurchasedPanel
 CitadelMonitorMicChanged
+CitadelMusicChord_t
 CitadelMusicCueData_t
 CitadelMusicCueOverrides_t
 CitadelMusicCues_t
@@ -27026,7 +27035,6 @@ CitadelPartyInviteAccept
 CitadelPartyInviteFriendAccountID
 CitadelPartyInviteFriendOrCreateParty
 CitadelPartyInviteList
-CitadelPartyInviteReject
 CitadelPartyInviteUpdated
 CitadelPartyInvited
 CitadelPartyJoined
@@ -27086,7 +27094,6 @@ CitadelPostGameCopyMatchID
 CitadelPostGameForceHeroID
 CitadelPostGameGraphsDropDownChanged
 CitadelPostGameIncrementScreen
-CitadelPostGameNew
 CitadelPostGamePlayAgain
 CitadelPostGamePlayerContextMenu
 CitadelPostGameProgress
@@ -29185,14 +29192,14 @@ Disposition_t
 Disruption
 DisruptionFilter
 Distance
-Distance  bots are willing to engage enemies at
-Distance  bots will engage to the left or right of the target
 Distance (m) to make bots even worse accuracy
 Distance Field
 Distance Field AO quality
 Distance above player step height that needs to be clear to allow for jumping
 Distance away from target to search for an attack location
 Distance behind creep wave midpoint where bots will prefer to be
+Distance bots are willing to engage enemies at
+Distance bots will engage to the left or right of the target
 Distance field blur depth threshold
 Distance field composite
 Distance field down sample factor
@@ -30231,7 +30238,6 @@ EMeleeDamage_DEPRECATED
 EMeleeHold_AttackState
 EMeleeHold_AttackType
 EMeleeRange
-EMeleeResist
 EMeleeScalingFromWeaponPower_DEPRECATED
 EMeleeSpirit
 EMeleeTravelDistanceScale
@@ -31317,8 +31323,8 @@ ExternalGraphOwnerHandle
 ExternalGraphSlotID
 ExternalGraphs
 ExternalHealthRegen
-Extra distance  bots are willing to engage enemies at to get last hits
-Extra distance  bots are willing to engage heroes at
+Extra distance bots are willing to engage enemies at to get last hits
+Extra distance bots are willing to engage heroes at
 Extra distance that a melee attacking npc can hit this npc from. Useful for medium and larger npcs.
 Extra time for ice path movement controller to linger to prevent mispredictions
 Extra velocity along the wall, either direction, based on wish direction.
@@ -31957,14 +31963,13 @@ ForceRefresh
 ForceSpawn
 ForceSpawn() : Spawns all of the entities the point_template is pointing at.
 ForcedCrouchState_t
-Forces  bots to attack nearby enemies
-Forces  bots to avoid human allies
-Forces  bots to prioritize getting last hits on enemies below this health
 Forces HUD and game to draw team colors as if you are a spectator
 Forces a button to be a particular state - WHEN PROCESSING USERCOMMANDS
 Forces a button to be a particular state -- WHEN SAMPLING INPUT
 Forces a hint to be ready to show in the HUD
 Forces a soundscape to play
+Forces bots to attack nearby enemies
+Forces bots to prioritize getting last hits on enemies below this health
 Forces color correction entities to be updated on the client
 Format: %s <Account ID> <Match ID> <Comment>\n
 Format: citadel_exonerate_account <Account ID>\n
@@ -32095,7 +32100,6 @@ FuelRefillRateOnWall
 Full
 FullChargeDamage
 FullMember
-FullSellPriceAbilityUpgrades_t
 FullUpdate
 Fullscreen
 FullscreenBrightness
@@ -32220,6 +32224,7 @@ GCSDK::GCDirIndex_t
 GCSQL_VERSION_BASELINE
 GCSQL_VERSION_BOOLTYPE
 GCType_t"2\n
+GCitadelPostGameNew
 GENERALIZEDTIME
 GENERALSTRING
 GENERAL_ALLOCATE_BOOLEAN
@@ -32315,7 +32320,6 @@ GPM that scales with game time
 GPU Level - Default: High
 GRAPHICSTRING
 GROUP
-GSeasonalAchievementTooltip
 GService for submitting data, training, and inferencing with SteamLearn.
 GSyncPanel
 GSyncStatus
@@ -33189,7 +33193,6 @@ HeroTestingButton
 HeroTestingChangeHero
 HeroTestingChangeSelectedBot
 HeroTestingChangeTeam
-HeroTestingSelectTab
 HeroTestingSpawnBotHero
 HeroTestingToggleMenuExpanded
 HeroTestingUnlockFlexSlots
@@ -33280,7 +33283,8 @@ HighPrecisionWorldFromProj
 HighPrecisionWorldFromProjNoJitter
 HighPriority
 HighPriorityPick
-Higher values encourage bots to engage players over troopers when a player is within engagement range.  0 means players and troopers are roughly equal
+Higher values encourage bots to engage heroes over troopers when a player is within engagement range. 1.0 means heroes and troopers are equal.
+Higher values encourage bots to engage human players when within engagement range.  1.0 means human players and other targets equal
 Highest
 Highlight
 HighlightHero
@@ -33361,7 +33365,6 @@ How far forward from the plane of hero and camera forward to move the shoot posi
 How far forward the mantle will move the player onto the ledge
 How far in front of player to trace when looking for mantle ledges.
 How far in front of the shoot position to check if the eyes can see for turning on the shoot lean
-How far offset to the left and right will damage numbers be when this model takes damage and is far from the camera
 How far offset to the left and right will damage numbers be when this model takes damage and is near the camera
 How far out of the players effective gun range do we show the health bar
 How far to make allied players' unit status show through walls. Use values <= 0 for no limit.
@@ -36088,6 +36091,7 @@ MapPingPanel
 MapUnitName
 MapValuesEntry
 Mapped Movement Settings
+Maps event IDs to bodygrup settings
 MarkDuration
 MarkSurroundingBoundsDirty
 MarkerTrack
@@ -37863,13 +37867,14 @@ P-224
 P-256
 P-384
 P-521
-P08@J@
-P08N$
+P08Jp\n
+P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P2P_Messages
 P5[1
-P6@0
+P6 v
+P6`J
 PAGN_4
 PANEL_ID
 PANORAMA_LAYOUTFILE
@@ -39549,7 +39554,6 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpX
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -44204,6 +44208,7 @@ Use the ability name of the weapon instead of the generic primary weapon name
 Use the garbage collector to track down reference cycles
 Use the new latch motion for getting on a zipline. 0: Dont use 1: Just those with b_UseNewZipLineSetup 2: Everyone use
 Use the specified entity for animation debugging.
+Use this choice for the specified bodygroup
 Use to debug break on any soundevent that is started matching this name
 UseAttachedAudioStream
 UseHeavyMelee
@@ -44562,6 +44567,7 @@ WEAPON_SOUND_SPECIAL3
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEST
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
+WFullSellPriceAbilityUpgrades_t
 WIDE_HUMAN_HULL
 WIN32_BIND_FUNC
 WIN32_BIND_VAR
@@ -45278,6 +45284,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hrP
 Xd3h
 XfJ7
 XjfR
@@ -45494,7 +45501,6 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@AudioUtil
 \fAccoladeID_t
 \fKS1
 \fResourceId_t
@@ -46837,8 +46843,8 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
-`201
 `28)fk
+`2Pp
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -46850,7 +46856,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`ht I
 `o_je
 `yNT
 a null shared library handle was used
@@ -46868,7 +46873,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$
 aD/x
 aDSS
 aECDH
@@ -47769,7 +47773,6 @@ average_output_time
 average_swap_time
 avg_idle
 avg_time_to_kill_s
-avoid_human_ally
 awO8
 award_description
 award_id
@@ -51717,6 +51720,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\fp
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -52152,12 +52156,13 @@ enemy_team_net_worth
 enemy_under_crosshair
 engageDistance
 engage_distance
-engage_distance_hero_bonus
-engage_distance_last_hit_bonus
-engage_extra_player_priority
+engage_distance_hero_mult
+engage_distance_last_hit_mult
 engage_lane_side_dist
 engage_last_hit_threshold
 engage_player_side_dist
+engage_priority_hero_mult
+engage_priority_human_mult
 engine configuration error
 engine is not in the list
 engine routines
@@ -54210,7 +54215,6 @@ how long the player has been sprinting
 how this stat is implemented
 hows joint info for this entity
 hp_stat
-hpz@
 hr_H
 href="
 hscroll
@@ -59555,6 +59559,7 @@ m_bInCheckState
 m_bInCombat
 m_bInDelayTime
 m_bInDevelopment
+m_bInFlight
 m_bInGraphParamUpdateFlow
 m_bInGround
 m_bInHideoutZone
@@ -63292,6 +63297,7 @@ m_mapDelayLoopsSounds
 m_mapDependentAbilities
 m_mapEntToTimeHit
 m_mapHunterAbilities
+m_mapIDToSettings
 m_mapImpactEffects
 m_mapItemDraftBucketing
 m_mapItemDraftCounterWeights
@@ -63391,6 +63397,7 @@ m_nBodyGroupChoice
 m_nBodyGroupChoices
 m_nBodyGroupName
 m_nBodyGroupValue
+m_nBodygroupChoice
 m_nBoneIdx
 m_nBoneIndex
 m_nBoneMaskValueNodeIdx
@@ -66706,6 +66713,7 @@ modifier_icepath
 modifier_icepath_tech_power_linger
 modifier_idol_return_timer
 modifier_idol_team_timeout
+modifier_incendiary_debuff
 modifier_incendiary_thinker
 modifier_infinite_magazine_active
 modifier_infuser
@@ -67963,7 +67971,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^$
+p08@H^
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
 p2p_Ping
@@ -67980,6 +67988,7 @@ p2{l
 p4Z3
 p5Z3
 p5\nL,
+p60M
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
@@ -73215,6 +73224,7 @@ z-index
 z-offset
 z/B,9d
 z<d2
+z>8b
 z>Hz
 z?ff
 zF):O4

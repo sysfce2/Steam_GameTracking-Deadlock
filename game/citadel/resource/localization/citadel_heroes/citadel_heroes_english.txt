@@ -257,7 +257,7 @@
 
 		"citadel_ability_shieldedsentry"		"Mini Turret"
 		"citadel_ability_shieldedsentry_quip"	"Deploy an automated turret"
-		"citadel_ability_shieldedsentry_desc"	"Deploy a turret that shoots enemies, dealing {g:citadel_inline_attribute:'SpiritDPS'}. The turret expires after a limited lifetime.<br>Turrets gain <span class=\"highlight\">{s:TurretHealthPerBoon}HP per Boon</span>. They deal reduced damage to troopers and objectives."
+		"citadel_ability_shieldedsentry_desc"	"Deploy a turret that shoots enemies, dealing {g:citadel_inline_attribute:'SpiritDPS'}. The turret expires after a limited lifetime.<br><span class=\"diminish\">Turrets deal reduced damage to troopers and objectives.</span>"
 		"citadel_ability_shieldedsentry_t1_desc"	"Turrets apply <span class=\"highlight\">+{s:MoveSlowPercent}%</span> Movement Slow"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange}m</span> Attack Range and <span class=\"highlight\">+{s:AttackSpeedMult}%</span> turret fire rate"
 		"citadel_ability_shieldedsentry_t3_desc"	"<span class=\"highlight\">+{s:TurretDPS}</span> Turret DPS and <span class=\"highlight\">+{s:TurretLifetime}s</span> Turret Lifetime"

@@ -349,7 +349,6 @@ CitadelAbilityIcon.upgradeApplied .ability_bg,.wants_scoreboard CitadelAbilityIc
 
 .AbilityCastFailed .button_container
 {
-	wash-color: colorEnemy;
 	animation-name: abilityCastFailedAnimation;
 	animation-timing-function: ease-out;
 	animation-duration: 0.06666s;
@@ -360,6 +359,7 @@ CitadelAbilityIcon.upgradeApplied .ability_bg,.wants_scoreboard CitadelAbilityIc
 {
 	0%
 	{
+		wash-color: colorEnemy;
 		transform: translateX(2px);
 	}
 	
@@ -382,7 +382,6 @@ CitadelAbilityIcon.upgradeApplied .ability_bg,.wants_scoreboard CitadelAbilityIc
 
 .AbilityUpgradeFailed .button_container
 {
-	wash-color: apCurrencyColor;
 	animation-name: abilityUpgradeFailedAnimation;
 	animation-timing-function: ease-out;
 	animation-duration: 0.06666s;
@@ -393,6 +392,7 @@ CitadelAbilityIcon.upgradeApplied .ability_bg,.wants_scoreboard CitadelAbilityIc
 {
 	0%
 	{
+		wash-color: apCurrencyColor;
 		transform: translateX(2px);
 	}
 	

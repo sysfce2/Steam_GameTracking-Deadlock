@@ -402,7 +402,6 @@ Label.ability_key
 
 .AbilityCastFailed .button_container
 {
-	wash-color: colorEnemy;
 	animation-name: abilityCastFailedAnimation;
 	animation-timing-function: ease-out;
 	animation-duration: 0.06s;
@@ -413,6 +412,7 @@ Label.ability_key
 {
 	0%
 	{
+		wash-color: colorEnemy;
 		transform: translateX(2px);
 	}
 	
@@ -435,7 +435,6 @@ Label.ability_key
 
 .AbilityUpgradeFailed .button_container
 {
-	wash-color: apCurrencyColor;
 	animation-name: abilityUpgradeFailedAnimation;
 	animation-timing-function: ease-out;
 	animation-duration: 0.06666s;
@@ -446,6 +445,7 @@ Label.ability_key
 {
 	0%
 	{
+		wash-color: apCurrencyColor;
 		transform: translateX(2px);
 	}
 	
