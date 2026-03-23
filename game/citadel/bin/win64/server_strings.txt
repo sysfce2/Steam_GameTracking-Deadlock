@@ -209,7 +209,6 @@
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
- A0x
  ACTIVE GROUP
  Damage Dealt to Trooper Boss
  Damage Taken from Player
@@ -1679,6 +1678,7 @@ $tJ@T\tK
 (d4t8
 (debug)
 (default)
+(f0 0
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
@@ -2050,8 +2050,6 @@ $tJ@T\tK
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.000
-.090
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14324,6 +14322,7 @@ $tJ@T\tK
 .google.protobuf.ServiceOptions
 .lbN
 .league
+.p90
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14675,8 +14674,11 @@ $tJ@T\tK
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666CAttributeManager
 67-s
+6@20
 6H,N
 6O|T%
+6P;0
+6PA0
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14695,8 +14697,7 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6p.0
-6p\f0
+6p40
 6qo~
 6r-m_v
 6r1ij
@@ -14986,7 +14987,7 @@ $tJ@T\tK
 ?CAnimFoot
 ?HAI\t81\t9dcG'
 ?HP4
-?SlowPercentPerStack
+?SummonBurstFrequency
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15008,10 +15009,8 @@ $tJ@T\tK
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
-@6P!0
 @Accolades
 @BH]f
-@HPX`hv@
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15027,6 +15026,7 @@ $tJ@T\tK
 @citadel_loot_table_spew_modifications
 @dKb]
 @fff>fff>fff>fff>
+@htP@
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -16520,9 +16520,9 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_he
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1951
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:1996
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2093
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1540
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1577
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1932
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1933
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_wrecker.cpp:2067
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\familiar\citadel_hero_familiar_sprites.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\npc_escort.cpp
@@ -25653,6 +25653,7 @@ P-384
 P-521
 P1\t98"
 P5[1
+P6p,0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -28495,6 +28496,7 @@ Slow %.1f, %s %.1f
 SlowDuration
 SlowDurationPerStack
 SlowPercent
+SlowPercentPerStack
 SlowResistance
 SlowTargetDuration
 SmallVisionDistance
@@ -28997,7 +28999,6 @@ Summary for '%s' %s (%llu):\n
 Summary: %d entities considered\n
 SummonBuffDuration
 SummonBurstCount
-SummonBurstFrequency
 SummonCasterHealthPct
 SummonCount
 SummonDPS
@@ -30061,7 +30062,6 @@ UsingMelee
 Ut]<E
 Uv1t
 Uz_G3=
-V0-0
 V07;m
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
@@ -30109,6 +30109,7 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
+VP(0
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -31855,6 +31856,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`6P70
 `:zQF
 `D$daM-l
 `DZG
@@ -33354,6 +33356,7 @@ caster_has_ultimate_ready
 caster_hero_name
 caster_is_enemy
 casting
+casting_ability
 castshadows
 catapulted
 catchup
@@ -34596,7 +34599,6 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
-dq\fp
 draft
 draft_item_sets
 drag_override
@@ -37946,6 +37948,7 @@ m_fog.start
 m_guid
 m_hAmbientSound
 m_hAttachAbility.IsValid()
+m_hCastingAbility
 m_hColorCorrectionController
 m_hConVarUserInfoSet
 m_hCurrentNavArea
@@ -39450,6 +39453,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
+nP?0
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -40076,10 +40080,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p0jP
 p2{l
 p4Z3
 p5Z3
 p5\nL,
+p6 \v0
 p618
 p@0pqE5tsO?|1
 pActivator
@@ -43510,6 +43516,7 @@ uvs are all identical
 uxX/
 v'A>M6
 v)56
+v0=0
 v0o/5
 v1(0)
 v1GZ
@@ -43568,7 +43575,6 @@ v_movement_stop_position
 v_navlink_exit_direction
 v_navlink_target
 v_navlink_up
-v`90
 valid
 validation_errors
 validity
