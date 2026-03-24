@@ -89,8 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j
- (08@HPZ
+ (08@HPX`j`
+ (08@HPZ`
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2156,6 +2156,7 @@ $hRh
 %s: Setting body part %s to %d\n
 %s: Suppressed sound '%s' due to rate limiting\n
 %s: [%f %f %f]
+%s: allocations are not allowed\n
 %s: bShow:%d\n
 %s: bWide:%d\n
 %s: modifier_set_modelscale can only be applied to model entities! (applied to %s)\n
@@ -2574,6 +2575,7 @@ $hRh
 (\t:\vlastupdatedB8
 (\v2 .CCommunity_ClanAnnouncementInfo"p\n$CBroadcast_PostGameDataFrame_Request
 (\v2 .CMsgGCHUpdateSession.ExtraField
+(\v2 .CMsgGCReportMetrics.MetricEntry
 (\v2 .CMsgGCToGCForwardAccountDetails"&\n$CMsgGCToGCLoadSessionSOCacheResponse"f\n
 (\v2 .CMsgHeroSelectionMatchInfo.Hero
 (\v2 .CMsgHttpResponse.ResponseHeader
@@ -2683,6 +2685,7 @@ $hRh
 (\v2).CUserMsg_ParticleManager.SetParticleText
 (\v2*.CCitadelUserMsg_CameraController.Approach
 (\v2*.CCitadelUserMsg_CameraController.Maintain
+(\v2*.CMsgGCReportMetrics.MetricEntry.Dimension
 (\v2*.CMsgGCRequestStoreSalesDataResponse.Price
 (\v2*.CMsgMatchPlayerDamageMatrix.SourceDetails
 (\v2*.CMsgParticleSystemManager.DestroyParticle
@@ -2703,6 +2706,7 @@ $hRh
 (\v2,.CMsgAMSendEmail.PersonaNameReplacementToken
 (\v2,.CMsgClientToGCAggregateMetrics.SingleMetric
 (\v2,.CMsgClientToGCGetMatchHistoryResponse.Match
+(\v2,.CMsgGCReportMetrics.MetricEntry.Measurement
 (\v2,.CMsgGCToClientDevAnnouncements.Announcement
 (\v2,.CMsgGCToGCSOCacheSubscribe.CMsgHaveVersions
 (\v2,.CMsgParticleSystemManager.UpdateParticleEnt
@@ -3639,7 +3643,7 @@ $hRh
 .?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_3>@?1??UpdateDirtyPanel@CCitadel_UI_HeroChallengeStatus@@UEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_3>@?1??UpdateDirtyPanel@CCitadel_UI_HeroChallengeStatus@@UEAAXXZ@@Z@
 .?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_3>@?1??UpdatePartyMembers@CCitadel_UI_Popup_RosterSelect@@AEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_3>@?1??UpdatePartyMembers@CCitadel_UI_Popup_RosterSelect@@AEAAXXZ@@Z@
 .?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_4>@?BN@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_4>@?BN@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@@Z@
-.?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXAEBVCMsgPostGameProgressData@@@Z@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXAEBVCMsgPostGameProgressData@@@Z@@Z@
+.?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@@Z@
 .?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_5>@?1??Update@CCitadel_Hud_Health_Container@@QEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_5>@?1??Update@CCitadel_Hud_Health_Container@@QEAAXXZ@@Z@
 .?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_5>@?1??UpdateComponentModList@CCitadel_Tooltip_ModDetails@@AEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_5>@?1??UpdateComponentModList@CCitadel_Tooltip_ModDetails@@AEAAXXZ@@Z@
 .?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_6>@?1??UpdateDirtyPanel@CCitadel_ShopModsBuild@@UEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_6>@?1??UpdateDirtyPanel@CCitadel_ShopModsBuild@@UEAAXXZ@@Z@
@@ -3839,7 +3843,7 @@ $hRh
 .?AV<lambda_4>@?$PulseBindingTypesafeIntTraits_t@VCPlayerSlot@@@@
 .?AV<lambda_4>@?1???R<lambda_1>@?1??UpdateDirtyPanel@CCitadel_UI_PlayersList@@UEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@
 .?AV<lambda_4>@?1??DisplayCommendToast@@YAXAEBVCMsgGCToClientCommendNotification@@@Z@
-.?AV<lambda_4>@?1??InitScreen@CCitadel_DB_PostGame_Progress_LocalPlayer@@UEAAXAEBVCMsgPostGameProgressData@@@Z@
+.?AV<lambda_4>@?1??InitScreen@CCitadel_DB_PostGame_Progress_LocalPlayer@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@
 .?AV<lambda_4>@?1??SetupSettingsSearchDataTraverse@CCitadel_PopupSettings@@AEAAXPEAVCPanel2D@panorama@@VSettingsSectionIndex_t@@VSettingsSubSectionIndex_t@@AEAH@Z@
 .?AV<lambda_4>@?1??UpdateChallengeStatusRow@CCitadel_UI_HeroChallengeStatus@@QEAAXPEAVCPanel2D@panorama@@IPEAV?$CUtlVector@VHeroID_t@@HV?$CUtlVectorMemory_Growable@VHeroID_t@@H$0A@@@@@_N@Z@
 .?AV<lambda_4>@?1??UpdateDirtyPanel@CCitadel_Hud_PlayerIntents_Team@@UEAAXXZ@
@@ -3848,13 +3852,13 @@ $hRh
 .?AV<lambda_4>@?1??UpdateDirtyPanel@CCitadel_UI_PartyInviteList@@EEAAXXZ@
 .?AV<lambda_4>@?1??UpdateHeroGrid@CCitadel_UI_Popup_RosterSelect@@AEAAXXZ@
 .?AV<lambda_4>@?1??UpdateReveal@CCitadel_Hud_Pregame_TeamReveal@@QEAAXH@Z@
-.?AV<lambda_4>@?2??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXAEBVCMsgPostGameProgressData@@@Z@
+.?AV<lambda_4>@?2??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@
 .?AV<lambda_4>@?BK@??FireEventsOnBodyMovementAsync@CPathSimple@@UEAAXIAEBV?$Vec3D@M@@0AEAV?$CUtlLeanVector@V?$function@$$A6AXXZ@std@@HVCMemAllocAllocator@@@@@Z@
 .?AV<lambda_4>@?BN@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@
 .?AV<lambda_5>@?$PulseBindingSchemaEnumTraits_t@W4DamageTypes_t@@@@
 .?AV<lambda_5>@?$PulseBindingSchemaEnumTraits_t@W4NPC_STATE@@@@
-.?AV<lambda_5>@?1???R0?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXAEBVCMsgPostGameProgressData@@@Z@QEBA@PEAVCPanel2D@panorama@@H@Z@
-.?AV<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXAEBVCMsgPostGameProgressData@@@Z@
+.?AV<lambda_5>@?1???R0?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@QEBA@PEAVCPanel2D@panorama@@H@Z@
+.?AV<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@
 .?AV<lambda_5>@?1??Update@CCitadel_Hud_Health_Container@@QEAAXXZ@
 .?AV<lambda_5>@?1??UpdateChallengeStatusRow@CCitadel_UI_HeroChallengeStatus@@QEAAXPEAVCPanel2D@panorama@@IPEAV?$CUtlVector@VHeroID_t@@HV?$CUtlVectorMemory_Growable@VHeroID_t@@H$0A@@@@@_N@Z@
 .?AV<lambda_5>@?1??UpdateComponentModList@CCitadel_Tooltip_ModDetails@@AEAAXXZ@
@@ -9643,7 +9647,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_3>@?1??UpdateDirtyPanel@CCitadel_UI_HeroChallengeStatus@@UEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_3>@?1??UpdateDirtyPanel@CCitadel_UI_HeroChallengeStatus@@UEAAXXZ@@Z@PEAV32@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_3>@?1??UpdatePartyMembers@CCitadel_UI_Popup_RosterSelect@@AEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_3>@?1??UpdatePartyMembers@CCitadel_UI_Popup_RosterSelect@@AEAAXXZ@@Z@PEAV32@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_4>@?BN@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_4>@?BN@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@@Z@PEAV32@H@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXAEBVCMsgPostGameProgressData@@@Z@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXAEBVCMsgPostGameProgressData@@@Z@@Z@PEAV32@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@@Z@PEAV32@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_5>@?1??Update@CCitadel_Hud_Health_Container@@QEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_5>@?1??Update@CCitadel_Hud_Health_Container@@QEAAXXZ@@Z@PEAV32@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_5>@?1??UpdateComponentModList@CCitadel_Tooltip_ModDetails@@AEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_5>@?1??UpdateComponentModList@CCitadel_Tooltip_ModDetails@@AEAAXXZ@@Z@PEAV32@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_6>@?1??UpdateDirtyPanel@CCitadel_ShopModsBuild@@UEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_6>@?1??UpdateDirtyPanel@CCitadel_ShopModsBuild@@UEAAXXZ@@Z@PEAV32@H@std@@
@@ -9843,7 +9847,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?$PulseBindingTypesafeIntTraits_t@VCPlayerSlot@@@@I$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1???R<lambda_1>@?1??UpdateDirtyPanel@CCitadel_UI_PlayersList@@UEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@XPEAVCCitadel_UI_PlayersListEntry@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??DisplayCommendToast@@YAXAEBVCMsgGCToClientCommendNotification@@@Z@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??InitScreen@CCitadel_DB_PostGame_Progress_LocalPlayer@@UEAAXAEBVCMsgPostGameProgressData@@@Z@XPEAVCCitadel_DB_PostGame_Progress_Accolade@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??InitScreen@CCitadel_DB_PostGame_Progress_LocalPlayer@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@XPEAVCCitadel_DB_PostGame_Progress_Accolade@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??SetupSettingsSearchDataTraverse@CCitadel_PopupSettings@@AEAAXPEAVCPanel2D@panorama@@VSettingsSectionIndex_t@@VSettingsSubSectionIndex_t@@AEAH@Z@_NPEAV45@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??UpdateChallengeStatusRow@CCitadel_UI_HeroChallengeStatus@@QEAAXPEAVCPanel2D@panorama@@IPEAV?$CUtlVector@VHeroID_t@@HV?$CUtlVectorMemory_Growable@VHeroID_t@@H$0A@@@@@_N@Z@PEAVCCitadel_UI_HeroImage@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??UpdateDirtyPanel@CCitadel_Hud_PlayerIntents_Team@@UEAAXXZ@_NPEAVCCitadel_Hud_PlayerIntents_Player@@@std@@
@@ -9852,13 +9856,13 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??UpdateDirtyPanel@CCitadel_UI_PartyInviteList@@EEAAXXZ@XPEAVCCitadel_UI_PartyInvite@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??UpdateHeroGrid@CCitadel_UI_Popup_RosterSelect@@AEAAXXZ@PEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??UpdateReveal@CCitadel_Hud_Pregame_TeamReveal@@QEAAXH@Z@XPEAVCPanel2D@panorama@@H@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_4>@?2??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXAEBVCMsgPostGameProgressData@@@Z@XPEAVCCitadel_DB_PostGame_Award@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4>@?2??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@XPEAVCCitadel_DB_PostGame_Award@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?BK@??FireEventsOnBodyMovementAsync@CPathSimple@@UEAAXIAEBV?$Vec3D@M@@0AEAV?$CUtlLeanVector@V?$function@$$A6AXXZ@std@@HVCMemAllocAllocator@@@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4>@?BN@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5>@?$PulseBindingSchemaEnumTraits_t@W4DamageTypes_t@@@@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5>@?$PulseBindingSchemaEnumTraits_t@W4NPC_STATE@@@@VCPulseValueFullType@@$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_5>@?1???R1?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXAEBVCMsgPostGameProgressData@@@Z@QEBA@PEAVCPanel2D@panorama@@H@Z@XPEAVCCitadel_DB_PostGame_Award@@H@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXAEBVCMsgPostGameProgressData@@@Z@XPEAVCPanel2D@panorama@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_5>@?1???R1?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@QEBA@PEAVCPanel2D@panorama@@H@Z@XPEAVCCitadel_DB_PostGame_Award@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_5>@?1??InitScreen@CCitadel_DB_PostGame_Progress_MVP@@UEAAXPEBVCCitadel_DB_Page_PostGame_New@@@Z@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5>@?1??Update@CCitadel_Hud_Health_Container@@QEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5>@?1??UpdateChallengeStatusRow@CCitadel_UI_HeroChallengeStatus@@QEAAXPEAVCPanel2D@panorama@@IPEAV?$CUtlVector@VHeroID_t@@HV?$CUtlVectorMemory_Growable@VHeroID_t@@H$0A@@@@@_N@Z@XPEAVCCitadel_UI_HeroImage@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5>@?1??UpdateComponentModList@CCitadel_Tooltip_ModDetails@@AEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
@@ -13830,6 +13834,11 @@ $hRh
 .?AVCMsgGCMsgSetOptions_MessageRange@@
 .?AVCMsgGCMsgWebAPIJobRequestForwardResponse@@
 .?AVCMsgGCMultiplexMessage@@
+.?AVCMsgGCReportMetrics@@
+.?AVCMsgGCReportMetrics_MetricEntry@@
+.?AVCMsgGCReportMetrics_MetricEntry_Dimension@@
+.?AVCMsgGCReportMetrics_MetricEntry_Measurement@@
+.?AVCMsgGCReportMetrics_Response@@
 .?AVCMsgGCRequestStoreSalesData@@
 .?AVCMsgGCRequestStoreSalesDataResponse@@
 .?AVCMsgGCRequestStoreSalesDataResponse_Price@@
@@ -16691,13 +16700,13 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR
+08@HR`
+08B`
 08bX
 09,h
 0:00
 0;Q5[
 0<cz
-0>0g
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -16954,13 +16963,13 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
+2\vpH
 2^pV
 2a"l
 2bT~
 2cb:RO
 2d\v
 2f)l=
-2lY\v
 2nIg
 2ndry
 2p"6
@@ -17021,9 +17030,10 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4B8L
+4B8|
 4Ch;
 4F0I
+4F\vP
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17067,6 +17077,7 @@ $hRh
 5\n\taction_id
 5\n\trank_info
 5\n\tset_vdata
+5\n\vmetric_data
 5\n\vreward_type
 5\n\vtype_caches
 5\tV_isfinited
@@ -17170,6 +17181,7 @@ $hRh
 8= zp
 8A6j
 8Client ID for which to count the number of issued tokens"
+8F J
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
@@ -17402,6 +17414,7 @@ $hRh
 >\n\fdev_settings
 >\n\nPlayerSlot
 >\n\nchat_lines
+>\n\ndimensions
 >\n\nsale_price
 >\n\rgranted_items
 >\n\tTypeCache
@@ -17464,6 +17477,7 @@ $hRh
 ?expf
 ?gwL
 ?jOb
+?m_qCurrentAngles
 ?srJO
 ?tya
 ?uWS
@@ -17477,7 +17491,7 @@ $hRh
 @CAccoladeDefinition
 @CitadelMusicCueOverrides_t
 @DebugIndividualStyle
-@HVp
+@HPX`hv`-
 @MfKZ
 @Pgl
 @Pu\rm
@@ -18529,6 +18543,7 @@ BYldPromptYesNo
 BZZn\rN]#8f'
 B\n>STEAMLEARN_REGISTER_DATA_SOURCE_RESULT_ERROR_INVALID_TIMESTAMP
 B\n\fCOrientation
+B\n\fmeasurements
 B\n\nobjectives
 B\n\rHeroWhitelist
 B\n\vbook_reward
@@ -19181,8 +19196,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:720
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4251
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4425
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4246
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4420
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
@@ -19906,6 +19921,8 @@ CEntitySystem::RegisterComponentType
 CEntitySystem::RegisterEntityClass
 CEnvCubemapBox
 CExtraMsgBlock
+CFatalErrorAllocator::AllocConstAligned
+CFatalErrorAllocator::FreeConstAligned
 CFilterMultipleAPI::AddFilter
 CFilterMultipleAPI::RemoveFilter
 CFlatGroupDatabase::LookupFlatGroup
@@ -20414,6 +20431,8 @@ CMsgGCMsgMasterSetDirectory
 CMsgGCMsgMasterSetWebAPIRouting
 CMsgGCMsgSetOptions
 CMsgGCMultiplexMessage
+CMsgGCReportMetrics
+CMsgGCReportMetrics_Response
 CMsgGCRequestStoreSalesData
 CMsgGCRequestSubGCSessionInfo
 CMsgGCRoutingInfo
@@ -26133,7 +26152,6 @@ GetStr(name) : returns the convar as a string. May return null if no such convar
 GetStyleBuffer
 GetSystemTime
 GetTeamNumber
-GetTestingProgressDataJSON
 GetThreadContext
 GetTimeFormatA
 GetTooltipTarget
@@ -27683,7 +27701,6 @@ LT_txt
 LWIN
 LXKQ
 LY\r5
-L\f0l
 L\n\fincludevotes
 L\n\tfile_type
 Label.BgColor
@@ -29336,10 +29353,10 @@ P-224
 P-256
 P-384
 P-521
-P08J m
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
+P60`
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30635,11 +30652,11 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpd
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vpH
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -33313,6 +33330,7 @@ TS_VERIFY_CERT
 TS_VERIFY_CTX_new
 TXJw^{
 TYPE=
+T\n\vMeasurement
 Tab Index
 TabBackward
 TabContents
@@ -34501,6 +34519,7 @@ WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WD%g"0Q-)
+WDpD
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -34943,11 +34962,11 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr
+X`hr`
 Xd3h
-Xf0$
+Xf M
+Xf@N
 XfJ7
-XfP%
 XjfR
 XqgA+
 Xuub
@@ -35147,7 +35166,6 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@CCitadel_Modifier_PowerUp_Movement
 \fAccoladeID_t
 \fCitadelMMR_t
 \fKS1
@@ -35399,7 +35417,6 @@ Z~wl
 \n\faccount_name
 \n\faudit_action
 \n\fautograph_id
-\n\faward_column
 \n\fbanned_words
 \n\fbonus_to_add
 \n\fbooster_type
@@ -35865,6 +35882,8 @@ Z~wl
 \n\ruser_sessions
 \n\rusercmd.proto
 \n\rvalidate_only
+\n\rvalue_boolean
+\n\rvalue_integer
 \n\rworkshop_file
 \n\tEMoveType
 \n\tENameItem
@@ -35962,6 +35981,7 @@ Z~wl
 \n\tnew_class
 \n\tnew_value
 \n\tnum_kills
+\n\toperation
 \n\tosversion
 \n\tp2p_Voice
 \n\tpackageid
@@ -36016,7 +36036,7 @@ Z~wl
 \n\vEReportType
 \n\vEResultCode
 \n\vHeroXPGrant
-\n\vPlayerAward
+\n\vMetricEntry
 \n\vProjectInfo
 \n\vROLL_OUTTRO
 \n\vRoundPlayer
@@ -38081,6 +38101,7 @@ casterSnippet
 casting
 casting_ability
 castshadows
+catalog
 catapulted
 categorical_crossentropy
 category
@@ -40327,6 +40348,7 @@ failed loading private key
 failed loading public key
 failedToBuy
 failed_ability_name
+failed_entry_count
 failed_lookup_steamids
 fake_commend_hero_id
 fake_particle_system
@@ -43403,6 +43425,7 @@ lC57
 lDcW
 lM2p
 l\n\fexcludedtags
+l\n\tDimension
 ladder
 lag_time
 landed
@@ -46082,7 +46105,6 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j0
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46092,8 +46114,8 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6pA
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>tf
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -47141,6 +47163,7 @@ qOy*o
 qPq2k
 qTm_fC=
 qUN1
+q\n\vPlayerAward
 q_%s_target_rot
 qcStatements
 qf`ny
@@ -47194,7 +47217,6 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
-r\vpd
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -50145,6 +50167,7 @@ validation_errors
 validity
 value missing
 value { %s }
+value"N\n
 value.bag
 value.byKey
 value.byName
@@ -50608,7 +50631,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDm_hPortalToCaster
+zDWhen you get gold from a tier2 boss orb.
 zF):O4
 zFar
 zG2m8
