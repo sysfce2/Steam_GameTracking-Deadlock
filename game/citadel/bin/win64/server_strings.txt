@@ -181,8 +181,10 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j
- (08@HPZ
+ (08@HPXb0
+ (08@HR0
+ (08@J0
+ (0X`hpz0
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -206,6 +208,7 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
+ .pQ0
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -1417,6 +1420,7 @@ $tJ@T\tK
 (\t"{\n\rCMsgSDOAssert
 (\v2 .CCommunity_ClanAnnouncementInfo"p\n$CBroadcast_PostGameDataFrame_Request
 (\v2 .CMsgGCHUpdateSession.ExtraField
+(\v2 .CMsgGCReportMetrics.MetricEntry
 (\v2 .CMsgGCToGCForwardAccountDetails"&\n$CMsgGCToGCLoadSessionSOCacheResponse"f\n
 (\v2 .CMsgHeroSelectionMatchInfo.Hero
 (\v2 .CMsgHttpResponse.ResponseHeader
@@ -1512,6 +1516,7 @@ $tJ@T\tK
 (\v2).CUserMsg_ParticleManager.SetParticleText
 (\v2*.CCitadelUserMsg_CameraController.Approach
 (\v2*.CCitadelUserMsg_CameraController.Maintain
+(\v2*.CMsgGCReportMetrics.MetricEntry.Dimension
 (\v2*.CMsgGCRequestStoreSalesDataResponse.Price
 (\v2*.CMsgMatchPlayerDamageMatrix.SourceDetails
 (\v2*.CMsgParticleSystemManager.DestroyParticle
@@ -1530,6 +1535,7 @@ $tJ@T\tK
 (\v2,.CCitadelUserMsg_PlayerLifetimeStatInfo.Stat
 (\v2,.CMsgAMSendEmail.PersonaNameReplacementToken
 (\v2,.CMsgClientToGCAggregateMetrics.SingleMetric
+(\v2,.CMsgGCReportMetrics.MetricEntry.Measurement
 (\v2,.CMsgGCToGCSOCacheSubscribe.CMsgHaveVersions
 (\v2,.CMsgParticleSystemManager.UpdateParticleEnt
 (\v2,.CMsgParticleSystemManager.UpdateParticleFwd
@@ -1678,7 +1684,6 @@ $tJ@T\tK
 (d4t8
 (debug)
 (default)
-(f0 0
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
@@ -2050,6 +2055,7 @@ $tJ@T\tK
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
+.0h0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -11782,6 +11788,11 @@ $tJ@T\tK
 .?AVCMsgGCMsgSetOptions_MessageRange@@
 .?AVCMsgGCMsgWebAPIJobRequestForwardResponse@@
 .?AVCMsgGCMultiplexMessage@@
+.?AVCMsgGCReportMetrics@@
+.?AVCMsgGCReportMetrics_MetricEntry@@
+.?AVCMsgGCReportMetrics_MetricEntry_Dimension@@
+.?AVCMsgGCReportMetrics_MetricEntry_Measurement@@
+.?AVCMsgGCReportMetrics_Response@@
 .?AVCMsgGCRequestStoreSalesData@@
 .?AVCMsgGCRequestStoreSalesDataResponse@@
 .?AVCMsgGCRequestStoreSalesDataResponse_Price@@
@@ -14035,7 +14046,10 @@ $tJ@T\tK
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PN0
+.PZ0
 .PartnerAccountType
+.Ph0
 .PingCommonData
 .PostProcessingGameStates
 .Q.Ol
@@ -14322,7 +14336,8 @@ $tJ@T\tK
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p90
+.p20
+.pN0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14380,12 +14395,13 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
-08@HR
+08@J0
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
+0>P<0
 0AgffA
 0M2~@p
 0W/5
@@ -14551,6 +14567,7 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vp4
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14607,12 +14624,14 @@ $tJ@T\tK
 4)m1
 474E4U4W4c4i4m4
 4<Td
+4?\fpN
 4@AA
 4Ch;
 4F0I
 4Mv8
 4Zis
 4\fPl
+4\fpN
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
 4\n0PARTICLE_SYSTEM_MANAGER_EVENT_UPDATE_ORIENTATION
@@ -14649,6 +14668,7 @@ $tJ@T\tK
 5\n1k_RemoveItemAttribute_Failed_AttributeDoesntExist
 5\n1k_UnpackBundle_Failed_UnableToCreateContainedItem
 5\n\tset_vdata
+5\n\vmetric_data
 5\n\vtype_caches
 5\tV_isfinited
 5\vFuo
@@ -14659,6 +14679,8 @@ $tJ@T\tK
 5s\nl
 5t?F
 5~EW
+6 S0
+6 h0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
@@ -14674,11 +14696,8 @@ $tJ@T\tK
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666CAttributeManager
 67-s
-6@20
 6H,N
 6O|T%
-6P;0
-6PA0
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14697,7 +14716,7 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6p40
+6pS0
 6qo~
 6r-m_v
 6r1ij
@@ -14747,6 +14766,8 @@ $tJ@T\tK
 8<pl
 8= zp
 8A6j
+8F`;0
+8Fp:0
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14968,6 +14989,7 @@ $tJ@T\tK
 >\n\fdev_settings
 >\n\nPlayerSlot
 >\n\nchat_lines
+>\n\ndimensions
 >\n\nsale_price
 >\n\rgranted_items
 >\n\tTypeCache
@@ -14987,7 +15009,7 @@ $tJ@T\tK
 ?CAnimFoot
 ?HAI\t81\t9dcG'
 ?HP4
-?SummonBurstFrequency
+?KnockupSideRatio
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15009,8 +15031,10 @@ $tJ@T\tK
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
+@6p10
 @Accolades
 @BH]f
+@HV 50
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15026,7 +15050,6 @@ $tJ@T\tK
 @citadel_loot_table_spew_modifications
 @dKb]
 @fff>fff>fff>fff>
-@htP@
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -15902,6 +15925,7 @@ BYldUMRequest %s/%s request timed out (%2.4f seconds) waiting for response for p
 BYldUMRequest: failed with eResult %d (service/method name will follow)\n
 BZZn\rN]#8f'
 B\n>STEAMLEARN_REGISTER_DATA_SOURCE_RESULT_ERROR_INVALID_TIMESTAMP
+B\n\fmeasurements
 B\n\nobjectives
 B\n\vbook_reward
 B\vP\n0
@@ -16496,8 +16520,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_b
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_beam.cpp:243
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4251
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4425
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4246
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4420
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_gamerules.cpp
@@ -16517,7 +16541,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_he
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:557
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_familiar.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1951
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1950
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:1996
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2093
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
@@ -17774,6 +17798,8 @@ CMsgGCMsgMasterSetDirectory
 CMsgGCMsgMasterSetWebAPIRouting
 CMsgGCMsgSetOptions
 CMsgGCMultiplexMessage
+CMsgGCReportMetrics
+CMsgGCReportMetrics_Response
 CMsgGCRequestStoreSalesData
 CMsgGCRequestSubGCSessionInfo
 CMsgGCRoutingInfo
@@ -21468,6 +21494,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FPB0
 FU\n-XP
 FVisible
 FV|FgUV
@@ -23800,7 +23827,6 @@ KnockbackSpeed
 KnockedOffDamagePct
 KnockupImmune
 KnockupRadius
-KnockupSideRatio
 KnockupSpeed
 Kochanek-Bartels
 Kochanek-Bartels Early
@@ -25651,9 +25677,10 @@ P-224
 P-256
 P-384
 P-521
+P08@J0
+P08J`
 P1\t98"
 P5[1
-P6p,0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26618,6 +26645,7 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
+R\fp4
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
@@ -28999,6 +29027,7 @@ Summary for '%s' %s (%llu):\n
 Summary: %d entities considered\n
 SummonBuffDuration
 SummonBurstCount
+SummonBurstFrequency
 SummonCasterHealthPct
 SummonCount
 SummonDPS
@@ -29318,6 +29347,7 @@ TYPE is the type of parameter (Bool, Float, Enum, etc).\nOPTIONAL, is the parame
 TYPE:instant
 TYPE:smooth
 TYPE=
+T\n\vMeasurement
 TackleDurationMax
 TackleDurationMin
 TackleRadius
@@ -30109,7 +30139,6 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
-VP(0
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -30590,9 +30619,9 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr
 Xd3h
 XfJ7
+Xfp=0
 XjfR
 XqgA+
 Xuub
@@ -31396,6 +31425,8 @@ Z~wl
 \n\ruser_sessions
 \n\rusercmd.proto
 \n\rvalidate_only
+\n\rvalue_boolean
+\n\rvalue_integer
 \n\tEMoveType
 \n\tENameItem
 \n\tEResetGem
@@ -31482,6 +31513,7 @@ Z~wl
 \n\tnew_class
 \n\tnew_value
 \n\tnum_kills
+\n\toperation
 \n\tosversion
 \n\tpackageid
 \n\tperf_time
@@ -31526,6 +31558,7 @@ Z~wl
 \n\vEM_FixAngle
 \n\vEPackBundle
 \n\vHeroXPGrant
+\n\vMetricEntry
 \n\vProjectInfo
 \n\vROLL_OUTTRO
 \n\vRoundPlayer
@@ -31856,7 +31889,6 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6P70
 `:zQF
 `D$daM-l
 `DZG
@@ -33358,6 +33390,7 @@ caster_is_enemy
 casting
 casting_ability
 castshadows
+catalog
 catapulted
 catchup
 categorical_crossentropy
@@ -34202,6 +34235,7 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
+dP\t0
 dSAQuality
 dWry
 dZ!2.
@@ -35337,6 +35371,7 @@ fadescale
 fadetime
 failed loading private key
 failed loading public key
+failed_entry_count
 failed_lookup_steamids
 fake_particle_system
 fakeclient
@@ -36373,6 +36408,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
+hpz0
 hr_H
 http request
 https proxy request
@@ -37544,6 +37580,7 @@ l7@J
 lC57
 lDcW
 lM2p
+l\n\tDimension
 ladderSurfaceProperties
 lag compensation: Lag compensation hitboxes lerp fraction was %.4f\n
 lag_time
@@ -38673,7 +38710,6 @@ modifier_citadel_gravity_lasso_self
 modifier_citadel_halloween_mask
 modifier_citadel_hideout_in_menu
 modifier_citadel_hideout_intro
-modifier_citadel_hideout_intro_exit
 modifier_citadel_holding_golden_idol
 modifier_citadel_hookself
 modifier_citadel_hooktarget
@@ -39453,7 +39489,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nP?0
+nPA0
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39468,6 +39504,7 @@ nValue
 nVersion
 n\r2S
 n`3i
+n`40
 name constraints minimum and maximum not supported
 name of highest net worth enemy
 name too long
@@ -40080,12 +40117,10 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0jP
 p2{l
 p4Z3
 p5Z3
 p5\nL,
-p6 \v0
 p618
 p@0pqE5tsO?|1
 pActivator
@@ -40996,6 +41031,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vp4
 rad2deg
 radial
 radialalt
@@ -42636,6 +42672,7 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
+tR\t0
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -43516,7 +43553,6 @@ uvs are all identical
 uxX/
 v'A>M6
 v)56
-v0=0
 v0o/5
 v1(0)
 v1GZ
@@ -43580,6 +43616,7 @@ validation_errors
 validity
 value missing
 value { %s }
+value"N\n
 value.bag
 value.byKey
 value.byName
@@ -43703,6 +43740,7 @@ volume_resolution_z
 volumematcheseventramp
 vote_round_to_tally
 voxel_size
+vp 0
 vparams
 vqw0\nU
 vscripts
@@ -43972,6 +44010,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
+zDmodifier_citadel_hideout_intro_exit
 zF):O4
 zFar
 zG2m8

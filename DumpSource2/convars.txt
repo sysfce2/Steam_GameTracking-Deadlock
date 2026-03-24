@@ -3730,9 +3730,6 @@ citadel_post_game_local_player_screen_enabled false (developmentonly clientdll)
 citadel_post_game_progress 0 (developmentonly clientdll)
 	-1 = force disabled, 0 = default, 1 = force enabled
 
-citadel_post_game_progress_use_test_data false (developmentonly clientdll)
-	<no description>
-
 citadel_postgame_duration 10 (gamedll cheat)
 	How long postgame lasts until play of the game
 
