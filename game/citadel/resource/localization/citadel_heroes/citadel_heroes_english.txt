@@ -2469,9 +2469,9 @@
 		//"AbilityButtonHint_MirageLaunchFireBeetle"	"Launch Fire Beetle"
 		"modifier_mirage_fire_scarabs_health_gain"	"Fire Scarabs"
 		"modifier_mirage_fire_scarabs_health_loss"	"Fire Scarabs"
-		"MirageFireScarabsHealthSteal_label"	"Health Steal Per Sec"
+		"MirageFireScarabsHealthSteal_label"	"Health Steal"
 
-		"MirageFireScarabsHealthSteal_postvalue_label"	"Health Steal Per Sec"
+		"MirageFireScarabsHealthSteal_postvalue_label"	"Health Steal"
 
 		"mirage_teleport"		"Traveler"
 		"mirage_teleport_quip"	"Teleport to an ally or enemy hero"

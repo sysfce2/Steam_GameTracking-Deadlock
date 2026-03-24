@@ -4433,7 +4433,6 @@
 		"Citadel_PostGame_AwardSouls_RankOther"			"<br/>Souls"
 		"Citadel_PostGame_AwardKills_RankOther"			"<br/>Kills"
 		"Citadel_PostGame_AwardWeaponKills_RankOther"	"<br/>Weapon Kills"
-		"Citadel_PostGame_AwardHeadshotKills_RankOther"	"<br/>Headshot Kills"
 		"Citadel_PostGame_AwardAbilityKills_RankOther"	"<br/>Ability Kills"
 		"Citadel_PostGame_AwardMeleeKills_RankOther"	"<br/>Melee Kills"
 		"Citadel_PostGame_AwardMaxKillstreak_RankOther"	"<br/>Killstreak"

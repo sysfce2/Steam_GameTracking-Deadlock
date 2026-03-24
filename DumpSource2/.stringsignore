@@ -21394,6 +21394,7 @@ citadel_portrait_world_renderer_off
 citadel_post_game_force_hero_id
 citadel_post_game_local_player_screen_enabled
 citadel_post_game_progress
+citadel_post_game_progress_use_test_data
 citadel_postgame_duration
 citadel_powerup_initial_spawn_time_override
 citadel_powerup_spawn_enabled
@@ -26190,7 +26191,6 @@ m_HealthBarColorTeam2
 m_HealthBarColorTeamNeutral
 m_HealthBarParticle
 m_HealthDisplayModifier
-m_HealthLossParticle
 m_HealthModifier
 m_HeartCardTrail
 m_HeatDotModifier
