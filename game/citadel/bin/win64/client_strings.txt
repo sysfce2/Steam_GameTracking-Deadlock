@@ -90,9 +90,11 @@
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
  (08@HPX`j
- (08@HPXb`
+ (08@HPXb0
  (08@HPZ
- (0X`hpz`
+ (08@HR0
+ (08@J0
+ (0X`hpz0
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2443,7 +2445,6 @@ $hRh
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
-(4Pa
 (5Me
 (5jP
 (?PulseCursorCancelPriority_t
@@ -16704,13 +16705,13 @@ $hRh
 02V8[
 05=k
 08@HR
-08@J`
+08@J0
 08bX
 09,h
 0:00
-0:P7
 0;Q5[
 0<cz
+0>0N
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -16967,7 +16968,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpl
+2\vpx
 2^pV
 2a"l
 2bT~
@@ -17184,7 +17185,8 @@ $hRh
 8= zp
 8A6j
 8Client ID for which to count the number of issued tokens"
-8FpL
+8F@M
+8FPL
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
@@ -17487,17 +17489,16 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Nt
+@08ND
 @0pp
+@6PC
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
 @CCitadel_Ability_SmokeBomb
 @CitadelMusicCueOverrides_t
 @DebugIndividualStyle
-@HV0F
 @MfKZ
-@NP1
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -17513,7 +17514,7 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
-@htPa
+@ht b
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -17533,7 +17534,7 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
-AA:P@
+AA: A
 AABBDirection
 AACompromise
 ABXY
@@ -29361,11 +29362,13 @@ P-224
 P-256
 P-384
 P-521
-P08@J`
-P08Nt
+P08@J0
+P08ND
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
+P6P%
+P6`b
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30665,7 +30668,7 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpl
+R\vpx
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34974,6 +34977,8 @@ X\tQo
 X`hr
 Xd3h
 XfJ7
+XfPO
+XfpP
 XjfR
 XqgA+
 Xuub
@@ -36515,7 +36520,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6pl
 `:zQF
 `D$daM-l
 `DZG
@@ -36543,7 +36547,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvt
+aBvD
 aD/x
 aDSS
 aECDH
@@ -37233,6 +37237,7 @@ associatedName
 associated_item
 associated_item_def
 associated_workshop_files
+astro_bouncepad_stomp
 async load of
 async_state
 asynchronous
@@ -41898,7 +41903,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz`
+hpz0
 hr_H
 href="
 hscroll
@@ -46116,7 +46121,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^t
+p08@H^D
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
