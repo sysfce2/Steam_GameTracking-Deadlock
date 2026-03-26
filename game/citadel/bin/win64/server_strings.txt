@@ -181,11 +181,11 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`jp
- (08@HPXb`
- (08@HPZp
- (08@Jp
- (0X`hpz`
+ (08@HPX`j0
+ (08@HPXb 
+ (08@HPZ0
+ (08@J0
+ (0X`hpz 
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -209,6 +209,8 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
+ .pS0
+ .pZ0
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -2055,7 +2057,7 @@ $tJ@T\tK
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0O0
+.0k0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14026,7 +14028,6 @@ $tJ@T\tK
 .GCProtoBufMsgSrc
 .HCK\v
 .MODIFIER_ENTRY_TYPE
-.P00
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
@@ -14048,6 +14049,7 @@ $tJ@T\tK
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
 .PartnerAccountType
+.Ph0
 .PingCommonData
 .PostProcessingGameStates
 .Q.Ol
@@ -14334,7 +14336,7 @@ $tJ@T\tK
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pk0
+.pD0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14392,9 +14394,9 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
-08@HRp
-08@J`
-08Bp
+08@HR0
+08@J 
+08B0
 08bX
 09,h
 0;Q5[
@@ -14565,6 +14567,7 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vpL
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14677,15 +14680,13 @@ $tJ@T\tK
 5s\nl
 5t?F
 5~EW
-6 e0
-6 k0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
-60+0
 60000
+60@0
 62$|S)6f
 64CK\vH
 65535
@@ -14697,10 +14698,9 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
-6PV0
+6P.0
+6PA0
 6P\f0
-6P\v0
-6Pk0
 6Qd=
 6\fwN
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
@@ -14713,6 +14713,7 @@ $tJ@T\tK
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
+6`V0
 6afD
 6bX+
 6c&0|vvX
@@ -14720,7 +14721,10 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6p@0
+6p;0
+6pM0
+6p\t0
+6pe0
 6qo~
 6r-m_v
 6r1ij
@@ -14769,8 +14773,10 @@ $tJ@T\tK
 851Pe
 8<pl
 8= zp
-8@Jp
+8@J0
 8A6j
+8FP>0
+8F`=0
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14984,7 +14990,6 @@ $tJ@T\tK
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
->PE0
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
 >Sem
 >WK6
@@ -15034,12 +15039,14 @@ $tJ@T\tK
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08Nt
 @0pp
+@6`40
+@6pO0
 @Accolades
 @BH]f
-@HVP80
 @MfKZ
-@Np#0
+@N0#0
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -15054,7 +15061,6 @@ $tJ@T\tK
 @citadel_loot_table_spew_modifications
 @dKb]
 @fff>fff>fff>fff>
-@ht j
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -15075,7 +15081,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:Pc
 AABBDirection
 AACompromise
 AC2,h
@@ -21469,6 +21474,7 @@ F6tr
 F7!z
 F9q'
 F<mb
+F@E0
 FAE_EMPTY
 FAILED - target has no valid ultimate ability. \n
 FALL
@@ -25684,10 +25690,11 @@ P-224
 P-256
 P-384
 P-521
-P08@J`
+P08@J 
+P08JP
+P08Nt
 P1\t98"
 P5[1
-P6@V0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26652,10 +26659,10 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
-R\fpd
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vpL
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30099,8 +30106,8 @@ UsingMelee
 Ut]<E
 Uv1t
 Uz_G3=
-V R0
 V07;m
+V0c0
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -30259,7 +30266,6 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
-Vpc0
 Vt_9
 VulnerabilityPerStack
 V~~Vq
@@ -30628,10 +30634,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hrp
+X`hr0
 Xd3h
-Xf0A0
 XfJ7
+Xf`@0
 XjfR
 XqgA+
 Xuub
@@ -31834,12 +31840,10 @@ Z~wl
 ]MSd
 ][LK~lO
 ^.om5r
-^0F0
 ^DnJ
 ^DqPt
 ^J_spY
 ^Nij
-^Pe0
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
@@ -31900,11 +31904,9 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
+`20D
 `28)fk
-`2PA
-`2Pc
-`2pD
-`6 a0
+`6pP0
 `:zQF
 `D$daM-l
 `DZG
@@ -31932,6 +31934,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvt
 aD/x
 aDSS
 aECDH
@@ -36423,7 +36426,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpz`
+hpz 
 hr_H
 http request
 https proxy request
@@ -39469,12 +39472,13 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n i0
+n0'0
 n0?X
 n1Z 
 n5cM
 n6j/
 n:2C[
+n@D0
 n@PK
 nAlpha
 nAttributeValue
@@ -39504,6 +39508,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
+nP70
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39813,7 +39818,6 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
-np'0
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -40131,7 +40135,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j 
+p08@H^t
 p2{l
 p4Z3
 p5Z3
@@ -41046,7 +41050,6 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
-r\vpd
 rad2deg
 radial
 radialalt
