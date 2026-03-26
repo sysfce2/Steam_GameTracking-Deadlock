@@ -89,12 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j
- (08@HPXb0
- (08@HPZ
- (08@HR0
- (08@J0
- (0X`hpz0
+ (08@HPX`j 
+ (08@HPZ 
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -117,6 +113,7 @@
  <-- Arg '%s'
  <-- Retval '%s'
  <b>@import</b> 
+ A03
  ACTIVE GROUP
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
@@ -1169,6 +1166,7 @@
 #Citadel_StartMatchmaking_TooManyPlayersOnTeam
 #Citadel_StartMatchmaking_TooManySpectators
 #Citadel_StartMatchmaking_UnassignedPlayers
+#Citadel_StartMatchmaking_UnverifiedPGI
 #Citadel_StatusEffect
 #Citadel_Steamshare_Desc_Death_Player
 #Citadel_Steamshare_Desc_Kill_Player
@@ -2998,6 +2996,7 @@ $hRh
 ***** Local Player client modifiers *****\n
 ******************************************************************\n
 *,vJEd
+*-camdistance
 *.CMsgSteamLearn_InferenceMetadata_Response"D
 *.CMsgSteamLearn_RegisterDataSource_Request
 *.COAuthToken_ImplicitGrantNoPrompt_Request
@@ -3064,7 +3063,6 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
-*snapto
 +'+1+3+=+?+K+O+U+i+m+o+{+
 +(#\v&dbF:xrJ'$#
 +(Optional) Filename for the published file.
@@ -16688,7 +16686,6 @@ $hRh
 /\n\rpawn_entindex
 /\n\tdirectory
 /\n\vitem_def_id
-/\tV_isEntirelyWhitespace
 /usr/local/ssl
 /usr/local/ssl/cert.pem
 /usr/local/ssl/certs
@@ -16704,14 +16701,13 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR
-08@J0
+08@HR 
+08B 
 08bX
 09,h
 0:00
 0;Q5[
 0<cz
-0>0N
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -16968,7 +16964,6 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpx
 2^pV
 2a"l
 2bT~
@@ -17016,7 +17011,7 @@ $hRh
 3\n/k_EGCMsgUseItemResponse_EmoticonUnlock_Complete
 3\n\nsending_gc
 3\n\rdamage_matrix
-3\tV_isbreakablewspace32
+3\tV_isEntirelyWhitespace
 3\v;8BJ\nH
 3dSkyboxFrustum
 3dSkyboxWorldOffset
@@ -17035,7 +17030,6 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4B8|
 4Ch;
 4F0I
 4Mv8
@@ -17084,7 +17078,6 @@ $hRh
 5\n\vmetric_data
 5\n\vreward_type
 5\n\vtype_caches
-5\tV_isfinited
 5\vFuo
 5b!g
 5dO7
@@ -17168,6 +17161,7 @@ $hRh
 7\n\rannouncements
 7\rayf+
 7\tFq?
+7\tV_isbreakablewspace32
 7gS_
 7i@X
 7m:e
@@ -17185,8 +17179,6 @@ $hRh
 8= zp
 8A6j
 8Client ID for which to count the number of issued tokens"
-8F@M
-8FPL
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
@@ -17246,7 +17238,7 @@ $hRh
 9\n\vdiagnostics
 9\n\vmvp_players
 9\not
-9\tV_isvalidhex
+9\tV_isfinited
 9\tiI
 9]ZV
 9aDW
@@ -17345,7 +17337,6 @@ $hRh
 <\n\taccolades
 <\n\tresponses
 <\n\vdiagnostics
-<\tV_iswcntrl
 <a class="PersonaName"%s%s%s>%s</a>
 <a href="\1\3">\1\3</a>
 <array element>
@@ -17400,7 +17391,7 @@ $hRh
 =\n\nBookReward
 =\n\rability_stats
 =\n\tstat_type
-=\tV_iswdigit
+=\tV_isvalidhex
 =cdE
 =trF6,#
 >#>)>/>3>A>W>c>e>w>
@@ -17443,6 +17434,7 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
+?CCitadel_Modifier_PunkgoatTetheredVData
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CitadelPartyCode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
@@ -17455,6 +17447,7 @@ $hRh
 ?Exit@Isolate@v8@@QEAAXXZ
 ?Far field
 ?For@Symbol@v8@@SA?AV?$Local@VSymbol@v8@@@2@PEAVIsolate@2@V?$Local@VString@v8@@@2@@Z
+?Found Property [ %s ] changing from %f to %f\n
 ?FromJustIsNothing@api_internal@v8@@YAXXZ
 ?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@I@Z
 ?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@@Z
@@ -17463,7 +17456,6 @@ $hRh
 ?GetName@Function@v8@@QEBA?AV?$Local@VValue@v8@@@2@XZ
 ?Global@Context@v8@@QEAA?AV?$Local@VObject@v8@@@2@XZ
 ?GlobalizeReference@api_internal@v8@@YAPEA_KPEAVIsolate@internal@2@_K@Z
-?Good
 ?HAI\t81\t9dcG'
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
@@ -17482,22 +17474,20 @@ $hRh
 ?expf
 ?gwL
 ?jOb
-?m_qCurrentAngles
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08ND
 @0pp
-@6PC
+@60s
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
-@CCitadel_Ability_SmokeBomb
 @CitadelMusicCueOverrides_t
 @DebugIndividualStyle
+@HPX`hv E
 @MfKZ
 @Pgl
 @Pu\rm
@@ -17510,11 +17500,10 @@ $hRh
 @\n<STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INTERNAL_DATA_SOURCE_ERROR
 @\n\fSingleObject
 @\n\vPowerUpBuff
-@\tV_iswspace
+@\tV_iswcntrl
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
-@ht b
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -17534,7 +17523,6 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
-AA: A
 AABBDirection
 AACompromise
 ABXY
@@ -17750,6 +17738,7 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
+A\tV_iswdigit
 A_txt
 AbW_
 AbandonButton
@@ -18190,6 +18179,7 @@ ApplyBreakCommandListToPieces
 ApplyStyles
 Applying overrides for %s 0x%p\n
 Approach
+Ar_enable_rigid_animation
 Arc Cos
 Arc Cosine of input value. Input must be -1.0, 1.0 range. Output in radians, from 0 to 
 Arc Sin
@@ -18389,6 +18379,7 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
+B>pK
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -20327,7 +20318,7 @@ CMsgApplyRemoteConVars
 CMsgApplyStrangePart
 CMsgBannedWordList
 CMsgBulletImpact
-CMsgCitadelClientHello"
+CMsgCitadelClientHello
 CMsgCitadelProfileCard
 CMsgClearDecalsForEntityEvent
 CMsgClearEntityDecalsEvent
@@ -22231,7 +22222,6 @@ CitadelCopySelectedBuildIDToClipboard
 CitadelCreatePartyFromInvites
 CitadelCustomLayoutPage
 CitadelCustomMatchCreate
-CitadelCustomMatchJoin
 CitadelDB
 CitadelDamageImpact
 CitadelDamageIndicator
@@ -22277,7 +22267,6 @@ CitadelFriendVoiceTransmittingStateChanged
 CitadelFriendsList
 CitadelFriendsListEntry
 CitadelFriendsListEntryParty
-CitadelFriendsPanelButtonClicked
 CitadelGCConnectionStatusChanged
 CitadelGameAccountClientChanged
 CitadelGameChatModeSelected
@@ -23923,6 +23912,7 @@ D\n\fentity_index
 D\n\fentityhandle
 D\n\nItemDetail
 D\n\nvisibility
+D\tV_iswspace
 D_4X_DOWNSAMPLE
 D_AREA_LIGHTS
 D_BAKED_SHADOWS
@@ -25683,7 +25673,6 @@ ForwardOpaque
 ForwardVelocity
 Found %d matches.\n
 Found Property Without Tag - [ %s ]\n
-Found Property [ %s ] changing from %f to %f\n
 Found duplicate particle system index %d
 Found no entity at %d.\n
 Found soundscape entity "%s" with no soundscape name.\n
@@ -26213,6 +26202,7 @@ Gold
 GoldPerMinute
 GoldStar
 GooDuration
+Good
 GooseEgg
 Got CMsgClientToGCStartMatchmakingResponse: %s\n
 Got a NaN origin on %s\n
@@ -26914,7 +26904,6 @@ IV block
 I\n$k_EPingMarkerInfo_HideMarkerAndSound
 I\n\rexcluded_tags
 I\tHA\t981G'dc
-I\tV_log2f
 IceBeamBuildupProcDuration
 IcePathAuraDuration
 IcePathInterval
@@ -27526,7 +27515,6 @@ J\nHBF
 J\n\fcheer_remaps
 J\n\finput_errors
 J\n\foutput_items
-J\tV_logd
 J`KL
 Japanese
 JarDamage
@@ -28072,6 +28060,7 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
+MCitadelFriendsPanelButtonClicked
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -28182,6 +28171,7 @@ M\n\ngold_stats
 M\n\raccount_stats
 M\n\tgame_type
 M\rLAI)haL<|p\t\t
+M\tV_log2f
 M\vOj
 MageTime
 Magic - 
@@ -28801,6 +28791,7 @@ N[Ox
 N[iY 
 N\n\fredirect_uri
 N\n\nchallenges
+N\tV_logd
 N\v7e_
 N`UaK
 Name\t\t\t\t\tCount\t\tParticle Count\n
@@ -29362,13 +29353,10 @@ P-224
 P-256
 P-384
 P-521
-P08@J0
-P08ND
+P08J@
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6P%
-P6`b
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -29433,6 +29421,7 @@ PEM_read_bio
 PEM_read_bio_Parameters
 PEM_write
 PEM_write_bio
+PGIVersion
 PGr]
 PHAG2
 PHYSGUN
@@ -30668,7 +30657,6 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpx
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34374,7 +34362,6 @@ VSyncToggle
 VY5[;o
 V\n\vItemCharges
 V\rKk
-V\tV_powd
 V_a|I
 V_strcmp( pDataMap->dataClassName, pCodeClass ) == 0
 VacuumRadius
@@ -34531,7 +34518,7 @@ WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WD%g"0Q-)
-WDpD
+WDCitadelCustomMatchJoin
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -34697,7 +34684,6 @@ WinnerTie
 WinningTeam
 WinningTeamNumber
 WizardSubPanel.BgColor
-Wm_tNextDropTime
 Wmn|CH
 Wn4'
 Work Item for Work Pool %s completed but job no longer existed to notify\n
@@ -34974,11 +34960,11 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr
+X`hr 
 Xd3h
 XfJ7
-XfPO
-XfpP
+XfPd
+Xfpe
 XjfR
 XqgA+
 Xuub
@@ -35063,6 +35049,7 @@ ZLONG
 ZSz@
 ZXF,`i
 Z\n\nmap_values
+Z\tV_powd
 Zabecki
 Zd[w
 Ze2Zh@
@@ -35525,6 +35512,7 @@ Z~wl
 \n\fnum_children
 \n\fobjective_id
 \n\fpersona_name
+\n\fpgi_verified
 \n\fplatform_mac
 \n\fplatform_win
 \n\fplayer_kills
@@ -35912,7 +35900,6 @@ Z~wl
 \n\tTE_DustId
 \n\tTE_FizzId
 \n\tUpdateFan
-\n\tV_cosd
 \n\tabandoned
 \n\taccountid
 \n\tadd_slots
@@ -36149,6 +36136,7 @@ Z~wl
 \n\vparam_value
 \n\vparty_index
 \n\vpermissions
+\n\vpgi_version
 \n\vpitch_delta
 \n\vplatform_id
 \n\vplay_endcap
@@ -36206,7 +36194,6 @@ Z~wl
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
-\r0Fg
 \r@h!Aq8
 \rB6uZ
 \rChallengeID_t
@@ -36241,9 +36228,8 @@ Z~wl
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\vpL1
 \r^mX
-\rc_thirdpersonshoulderaimdist
+\rc_thirdpersonshoulderheight
 \ri1I
-\rinfo_assigned_lane_particle
 \rjwB\t
 \roKK
 \rrCj
@@ -36344,7 +36330,9 @@ Z~wl
 \tText
 \tTotals: %d/%d (%.3f%%) EvaluatePoses Used, %dx using bones without eval [Ave Eval/tick: %.3f]\n
 \tUTIL_CountNumBitsSet([%s]) 
+\tV_atand
 \tV_atanf
+\tV_cosd
 \tV_exp2f
 \tV_strcat([%s], [%s] 
 \tV_strcmp([%s] 
@@ -36354,6 +36342,9 @@ Z~wl
 \tV_strcpy( [stringINVALID], [%s]->GetPlayerName() 
 \tV_strcpy([%s], [%s] 
 \tV_stricmp( [%s]->ModelName() 
+\tV_strtok
+\tV_strtoui64
+\tV_strupper_fast
 \tV_tand
 \tVar GetActiveWeapon returned NULL!\n
 \tVar GetWeaponInSlot returned NULL!\n
@@ -36547,7 +36538,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvD
 aD/x
 aDSS
 aECDH
@@ -39219,7 +39209,6 @@ dSAQuality
 dWry
 dZ!2.
 d[kHy 
-d\tV_sind
 d_r_0
 da_DK
 dac_dof_far_blurry
@@ -39704,6 +39693,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\f B
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -41503,6 +41493,7 @@ hW1M
 hW_z
 hX@e
 h\n\frequiredtags
+h\tV_sind
 h`Zr
 half_extent_xy
 half_extent_z
@@ -41903,7 +41894,6 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz0
 hr_H
 href="
 hscroll
@@ -42428,6 +42418,7 @@ inflated
 influenceradius
 info.m_unRequiredGold == 0
 info.m_unRequiredGold > m_vecLevelToInfo.Tail()->m_unRequiredGold
+info_assigned_lane_particle
 info_citadel_hideout
 info_citadel_matchmaking_status
 info_dynamic_shadow_hint
@@ -43048,7 +43039,6 @@ kV!DA
 kV'0
 kVV\t/
 k\n\fredirect_uri
-k\tV_snprintfcat
 k^ZP
 k_AddGem_Failed_FailedToAddGem
 k_AddGem_Failed_GemIsInvalid
@@ -43091,6 +43081,7 @@ k_EResult_RankedNotUnlocked
 k_EResult_RegionInfoNotProvided
 k_EResult_TooManyLimitedHeroes
 k_EResult_Unspecified
+k_EResult_UnverifiedPGI
 k_EResult_VersionUpdated
 k_ESignout_Failed_InFlight
 k_ESignout_Failed_NoRetry
@@ -43312,6 +43303,7 @@ k_eType_Healing
 k_eType_LethalDamage
 k_eType_Mitigated
 k_eUnassignedPlayers
+k_eUnverifiedPGI
 ka`O
 kali_boomerang_projectile
 kdf parameter error
@@ -45826,6 +45818,7 @@ oN86
 oWnS
 oXHT
 o\n$k_EPingMarkerInfo_ShowMarkerAndSound
+o\tV_snprintfcat
 oad2:,
 oaep
 oaep decoding error
@@ -46121,7 +46114,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^D
+p0jP
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46130,6 +46123,7 @@ p2{l
 p4Z3
 p5Z3
 p5\nL,
+p60Y
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
@@ -46522,6 +46516,7 @@ perspective
 perspective-origin
 peru
 pet_npc_script_override
+pgi_hash
 phase not supported
 phase1
 phase2
@@ -47040,6 +47035,7 @@ privateKey
 privateKeyUsagePeriod
 private_ip_address
 private_lobby_settings
+private_signature_token
 private|
 privilegeWithdrawn
 pro:
@@ -47927,6 +47923,7 @@ scripts/surfaceproperties_impact_effects.txt
 scripts/talker/response_rules.vrr
 scripts/talker/response_rules.vrr_c
 scripts/user_surveys.txt
+scripts_gc/protect_gameinfo_private.kv3
 scroll
 scrollbehavior
 scrolloffset_x
@@ -50563,7 +50560,6 @@ xFKF
 xOu\vsF
 xQfF
 xUN'
-x\tV_strstr32
 x\v6V
 x_max
 x_min
@@ -50647,7 +50643,6 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDWhen you get gold from a tier2 boss orb.
 zF):O4
 zFar
 zG2m8
@@ -50684,7 +50679,6 @@ zz2K
 {9d:c
 {H}yq
 {STEAM_CLAN_IMAGE}
-{\tV_strtok
 {d:val}
 {g:citadel_hero_name:hero_id}
 {g:citadel_persona:
@@ -50704,7 +50698,7 @@ zz2K
 |F?ToObject@Value@v8@@QEBA?AV?$MaybeLocal@VObject@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 |InzT
 |XYl
-|\tV_strtoui64
+|\tV_strstr32
 |hdX)
 |sG2
 |}Eq1
@@ -50714,7 +50708,6 @@ zz2K
 }VKRZ
 }W70d
 }Xee+
-}\tV_strupper_fast
 }gE3
 }n2W
 ~9ob

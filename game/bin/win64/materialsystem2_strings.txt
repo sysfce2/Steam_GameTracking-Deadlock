@@ -196,10 +196,10 @@
 7\rE7h
 <<unknown_mod>>\
 <Unknown font>
-<\tV_iswcntrl
 <anon>/
 <anon>:
 =\t ();,\n\r<>
+@\tV_iswcntrl
 A%mB,
 ANDROID_VULKAN
 ANDROID_VULKAN_4_0
@@ -437,7 +437,6 @@ IS_MOBILE
 IS_PC
 IS_SM_
 IS_VULKAN
-I\tV_log2f
 ImageSize
 Incorrect vpk path delimiter for shader %s\n
 InvTextureDim
@@ -448,6 +447,7 @@ LoadKV3ObjectInPlace error: %s\n
 MD5 match on %s, loading from vcs\n
 MD5 mismatch on %s, will load from vfx instead.\n
 MODES
+M\tV_log2f
 MainPs
 MainVs
 Malgun Gothic
@@ -644,7 +644,6 @@ VMatError
 VS_MS_RTX
 VS_RTX
 VULKAN
-V\tV_powd
 Verdana
 Version
 Vertex Shader
@@ -665,6 +664,7 @@ VfxRule_t
 Viewport
 WARNING: Failed to convert introspected block for file: %s\n
 WARNING: Invalid resource version (%d): %s\n
+Z\tV_powd
 [ mat_print_material_info ] Error! Cannot find material '%s'!\n
 [Dynamic shader compile] Reloading %d material(s)\n
 [Dynamic shader compile] Warning: %d material(s) are not reloaded because they have outstanding file I/O requests\n
@@ -769,6 +769,7 @@ WARNING: Invalid resource version (%d): %s\n
 \n\t\tDynamic:
 \src\shaders\
 \tV_exp2f
+\tV_strtoui64
 \tV_towupper32
 \t\tStatic:
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -1148,6 +1149,5 @@ vs_4_0
 vs_4_1
 vs_5_0
 vs_6_0
-w\tV_strspn
 win98japanese
-|\tV_strtoui64
+{\tV_strspn

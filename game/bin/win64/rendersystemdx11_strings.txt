@@ -1038,7 +1038,6 @@ Issuing a copy from the stand-in texture from '%s', this is probably a bug. Copy
 Issuing a copy to the stand-in texture to '%s', this is probably a bug. Copy will be skipped.\n
 J%f%f%f%f%f%f%f%f
 JPEG
-J\tV_logd
 Jitter.Offset.X
 Jitter.Offset.Y
 K32GetModuleFileNameExW
@@ -1226,6 +1225,7 @@ NVSDK_NGX_Parameter_SetUI
 NVSDK_NGX_Parameter_SetULL
 NVSDK_NGX_Parameter_SetVoidPointer
 NVSDK_NGX_UpdateFeature
+N\tV_logd
 N_U9203
 NeXT
 NeXTDecode: Not enough data for scanline %ld
@@ -1633,7 +1633,6 @@ VS_MS_RTX
 VS_RTX
 VULKAN
 VZ#-DLU[3=h
-V\tV_powd
 Valve.Source.Render
 Version
 VertexShader_t::CreateVertexShaderInputParameters
@@ -1693,6 +1692,7 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
+Z\tV_powd
 [    Discard |    NoTear]
 [%Y-%m-%d %H:%M:%S] 
 [FlipDiscard |    NoTear]
@@ -1783,8 +1783,10 @@ ZIPVSetField
 \tMultisampleEnable: %d\n
 \tScissorEnable: %d\n
 \tSlopeScaledDepthBias: %f\n
+\tV_atan2d
 \tV_atanf
 \tV_expd
+\tV_strtoui64
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StrSubst
 \t_V_strcspn
@@ -2222,7 +2224,6 @@ vs_4_0
 vs_4_1
 vs_5_0
 vs_6_0
-w\tV_strspn
 warning: failed to load %ls
 warning: unable to find filename for the application
 wine_get_version
@@ -2231,7 +2232,7 @@ writing renderdoc capture to %s\n
 wyS]
 x0Ysqx
 y6uHI
-z\tV_strtoi64
+{\tV_strspn
 |Bati_compress_wrapper.dll
-|\tV_strtoui64
+~\tV_strtoi64
 ~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#"! 

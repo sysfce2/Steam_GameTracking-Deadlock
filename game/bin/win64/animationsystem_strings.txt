@@ -2742,7 +2742,6 @@ IKV3TransferInterface_AllowRawStringTokenTransfer
 IKV3TransferInterface_ResourceSave
 IKV3TransferInterface_UtlSymbolLarge
 IND)ind)"
-I\tV_log2f
 If (R%d) Jump to Instr I%d
 If (R%d) Leap to Chunk C%d
 If -1 timer will continue forever
@@ -2831,6 +2830,7 @@ MPropertySuppressField
 MPulseExpressionAlias
 MPulseFunctionHiddenInTool
 MVDataRoot
+M\tV_log2f
 Make Angle
 Make Angle From Forward Vector
 Make Color
@@ -3157,7 +3157,6 @@ Unsupported use of property accessor "%s.%s", property accessors can only be use
 Unsupported version %d for resource '%s' (Expected %d)\n
 UpdateContext
 Used to flag a test as having failed.
-V\tV_powd
 Value 0-1 how far along duration (always 0 if duration is -1)
 Variable "%s" has %i components, a specific component must be specified, for example use: "%s.x"
 Variable '%s' is referenced but not declared in this system (%s). Adding a fallback now.\n
@@ -3194,6 +3193,7 @@ X`hr
 Y (Green / Left)
 Yield, Resume=%s
 Z (Blue  / Up)
+Z\tV_powd
 Zero Pose Task
 Zero frame animations are not supported for warping!
 Zero input vector for info node!
@@ -3207,17 +3207,19 @@ Zero input vector for info node!
 [RETURN R%d]
 [RETURN]
 \nPTNZ
-\n\tV_cosd
 \rRESOURCE_TYPE_ANIMGRAPH
-\r\tV_coshf
 \t%d (%d) : %s %s %s %s\n
 \t%d:%d - %s (agrp vs agrp flag mismatch) %s:%s (promoted to match existing) %s:%s\n
 \t%d:%d - %s (match)\n
 \t%d:%d - %s (skipped)\n
 \t%d:%d - %s\n
 \tError\n
+\tV_atand
 \tV_atanf
+\tV_cosd
+\tV_coshf
 \tV_exp2f
+\tV_strtok
 \tV_tand
 \tV_tanhf
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -3571,7 +3573,6 @@ criteria
 current_status
 curvature
 cycle
-d\tV_sind
 deg2rad
 detach_from_owner
 domain_scope
@@ -3620,7 +3621,6 @@ flc_lines
 frac
 frequencyMax
 frequencyMin
-g\tV_sinhf
 game:tools/images/animgraph_editor/animgraph_icon_action.png
 game:tools/images/animgraph_editor/animgraph_icon_component.png
 game:tools/images/animgraph_editor/animgraph_icon_lookcomponent.png
@@ -3635,12 +3635,14 @@ game:tools/images/animgraph_editor/animgraph_icon_statemachine.png
 game:tools/images/animgraph_editor/animgraph_parameter_base.png
 game:tools/images/animgraph_editor/animgraph_parameter_virtual_base.png
 game:tools/images/animgraph_editor/animgraph_tag_base.png
+h\tV_sind
 handshakeTypes
 hsequence
 idiv
 instantly
 is_selector
 kAnimGraphSaveRestoreVersion
+k\tV_sinhf
 keyvalues
 kv3:ParticleParamID_t
 length2d
@@ -3866,4 +3868,3 @@ whileCurrent
 worldrelative
 zDconst char *__cdecl Reflection::Internal::GetFuncName<class CFootPinningPoseOperation>(void)
 zero dir
-{\tV_strtok

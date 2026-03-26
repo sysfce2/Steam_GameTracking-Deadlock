@@ -3569,7 +3569,6 @@ VMS_UNLOAD
 VPK directory for '%s' corrupt
 VY5[;o
 V\rKk
-V\tV_powd
 V_a|I
 VbfOc,p
 Vcsc 
@@ -3817,6 +3816,7 @@ ZLIB
 ZLONG
 ZSz@
 ZXF,`i
+Z\tV_powd
 Zd[w
 Ze2Zh@
 ZjLS
@@ -4974,7 +4974,6 @@ gF{A
 gHAx
 gTH.M
 gXC.nT\v
-g\tV_sinhf
 g]i/H
 gb`X
 gdPI
@@ -5721,6 +5720,7 @@ kSRP
 kV!DA
 kV'0
 kVV\t/
+k\tV_sinhf
 k^ZP
 ka`O
 kdf parameter error

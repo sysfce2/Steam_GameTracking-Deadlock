@@ -400,7 +400,7 @@ Warning (problem that doesn't prevent forward progress)
 WeldVertices
 [Default] Determine a lifespan based on the warning/error state of the group
 [Default] General information
-\n\tV_cosd
+\tV_cosd
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \tg_flConfigMaxCoord
 addEdge: Too many edges (%d/%d).

@@ -321,7 +321,6 @@ $name_$id
 &OYMW
 &OYm
 &TpxA
-&\tV_frexpf
 &x\r@3333B
 ' ?timerEvent@QPlainTextEdit@@MEAAXPEAVQTimerEvent@@@Z
 '%s' is not a valid variable type
@@ -379,6 +378,7 @@ $name_$id
 *E]1D
 *NONE*VALID*
 *\f?focusOutEvent@QAbstractSpinBox@@MEAAXPEAVQFocusEvent@@@Z
+*\tV_frexpf
 *^?style@QBrush@@QEBA?AW4BrushStyle@Qt@@XZ
 *`LDI
 *y-Affff
@@ -11239,7 +11239,6 @@ JIGGLE_BONE
 JPEG
 J\f?font@QApplication@@SA?AVQFont@@XZ
 J\r?hitButton@QPushButton@@MEBA_NAEBVQPoint@@@Z
-J\tV_logd
 J\v?event@QLabel@@MEAA_NPEAVQEvent@@@Z
 Jiggle Root Bone
 Jiggle Type
@@ -11709,6 +11708,7 @@ NOT
 NOT_ARRAY_MEMBERS
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
 NULL VP8Io parameter in VP8Decode().
+N\tV_logd
 N\v?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
 N_U9203
 Name Mode
@@ -13268,7 +13268,6 @@ VToolMessage Init Failed
 VToolMessage Version Mismatch
 VTools_
 VZ#-DLU[3=h
-V\tV_powd
 V\v.Nc
 V\v?event@QProgressBar@@MEAA_NPEAVQEvent@@@Z
 V_4A
@@ -13519,6 +13518,7 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
+Z\tV_powd
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 Zc!Q
 Zd;W
@@ -13653,7 +13653,6 @@ Z}uU
 \nFas@
 \n\nThe chosen shader doesn't have an input for this texture.\nIf selected, this texture will be copied, but not used.
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
-\n\tV_cosd
 \ng default\n
 \nh"lx
 \r/9AF
@@ -13710,7 +13709,9 @@ Z}uU
 \tK<p9@Nd
 \tR)v4N
 \tR)v4n
+\tV_atan2d
 \tV_atofloat64
+\tV_cosd
 \tV_expd
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -14395,7 +14396,6 @@ dW98
 dYp\n
 d\f?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 d\f?deleteLater@QObject@@QEAAXXZ
-d\tV_sind
 damage_direction_cp
 damage_position_cp
 dangerous
@@ -14953,6 +14953,7 @@ hS^<6?G
 hUK:J
 hW!e
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
+h\tV_sind
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 h\vcf
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ

@@ -42,10 +42,10 @@
 %s(): Bone referenced by collision mesh not found in render skeleton. Skipping collision mesh.\n
 %s_color
 %s_matgrp
-&\tV_frexpf
 ( + %d more)
 (%.4g,%.4g)
 *?333?8
+*\tV_frexpf
 , Fully Rigid
 -----------------\nObject: %s\n
 -aggs
@@ -987,6 +987,7 @@ Wrong alignment %d\n
 \t%2d.  %16llx - %s%s\n
 \t%d. %4x - %s\n
 \tV_atanf
+\tV_strtoui64
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \tg_bUpdateStringTokenDatabase
 \tg_flConfigMaxCoord
@@ -1392,5 +1393,4 @@ wireframe
 with
 worldGeometry
 zD(knN
-|\tV_strtoui64
 }\n %llu aggs, %s total data\n

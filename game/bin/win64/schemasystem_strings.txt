@@ -260,7 +260,7 @@ WARNING: SchemaSystem tried to load schema data for module '%s' but InstallSchem
 WARNING: SchemaSystem tried to load schema data for module '%s' but failed to load the module.\n
 WARNING: SchemaSystem tried to load schema data for module '%s' but failed to locate InstallSchemaBindings.\n
 WARNING: Unknown schema class '%s' referenced.\n
-\t\tV_containsWhitespace
+\r\tV_containsWhitespace
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 all-scopes
 bitfield:%d

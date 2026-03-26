@@ -588,7 +588,6 @@ HandleInt
 HandleIntDerived
 IKV3TransferInterface_ResourceSave
 IPulseReloadListener
-I\tV_log2f
 If (R%d) Jump to Instr I%d
 If (R%d) Leap to Chunk C%d
 If -1 timer will continue forever
@@ -645,6 +644,7 @@ MPulseExpressionAlias
 MPulseFunctionDisableRequirements
 MPulseFunctionHiddenInTool
 MPulseLegacyName
+M\tV_log2f
 Make Angle
 Make Angle From Forward Vector
 Make Color
@@ -902,7 +902,8 @@ Yield, Resume=%s
 [NOP]
 [RETURN R%d]
 [RETURN]
-\n\tV_cosd
+\tV_atand
+\tV_cosd
 \tV_exp2f
 \tV_tand
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -949,7 +950,6 @@ cursor_id
 cursors
 cursors[ 0 ]->DomainCursorAssertCast< CPulseGraphInstance_TestDomain_Derived >()->m_nCursorValueA == values[ 0 ]
 cursors[ 1 ]->DomainCursorAssertCast< CPulseGraphInstance_TestDomain_Derived >()->m_nCursorValueA == values[ 1 ]
-d\tV_sind
 deg2rad
 disable_requirements
 domain_scope
@@ -1001,6 +1001,7 @@ gameitemclass
 gameunitclass
 gamma
 hInstance
+h\tV_sind
 header_expr
 header_text
 highlight_instance_id

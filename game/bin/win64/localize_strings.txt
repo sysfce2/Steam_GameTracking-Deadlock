@@ -298,7 +298,6 @@ Localize_Create
 MessageFormat %s
 Mex$
 Norwegian
-O\tV_modfd
 PERF WARNING: '%s' is in UTF-16 format, converting to UTF-8 will allow faster loading of it\n
 Plural context: %s\n
 Polish
@@ -306,6 +305,7 @@ Portuguese
 R\fp8
 Romanian
 Russian
+S\tV_modfd
 Simplified_Chinese
 Spanish
 Swedish
@@ -319,13 +319,13 @@ Unknown loc variable string modifier '%c'\n
 Unknown loc variable time modifier '%c'\n
 Unlocalized token '%s'\n
 Usage: %s <token>\n
-V\tV_powd
 Valve_Test
 Valve_TestGendersEnglishOnly_A:g
 Valve_TestGendersEnglishOnly_N:n
 Valve_TestPluralsEnglishOnly:p
 Vietnamese
 WARNING: Duplicate string token '%s' found in %s (original in %s) - new value '%s', original value '%s'\n
+Z\tV_powd
 [END]
 [unknown string]
 \resource\valve_

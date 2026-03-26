@@ -672,6 +672,7 @@ World contexts: '%s',
 \nFailed to save %s\n
 \nFailed to upconvert %s\n
 \rRESOURCE_TYPE_CHOREO_SCENE
+\tV_strtok
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 _CustomCommand
 _CustomCommand%d
@@ -909,4 +910,3 @@ wHammer/GameFeatureSet
 wait_until_end
 weapondelay
 zero_value
-{\tV_strtok

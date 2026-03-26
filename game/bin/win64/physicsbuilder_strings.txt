@@ -181,7 +181,6 @@ $prefix_element$
 %s_right
 %s_spline_delta
 %suncompressed data
-&\tV_frexpf
 '%s' is not a valid variable type
 'OverrideClass' was specified but class '%s' has not been previously defined.\n
 ( min( max( %s, %.2g ), %.2g ) - %.2g ) / %.2g
@@ -206,6 +205,7 @@ $prefix_element$
 *** TimeFrame "%s" has attribute "%s" with an unexpected type (expected float)!\n
 *** TimeFrame "%s" is missing attribute "%s"!\n
 *** Unable to find or add attribute "%s" to element "%s"!\n
+*\tV_frexpf
 +Advanced Options
 +Animation
 +Chain Settings
@@ -8999,7 +8999,6 @@ IKV3TransferInterface_ResourceSave
 INLINE
 INVALID SUBTYPE!
 ISO JBIG
-I\tV_log2f
 If Lerp Type is Full Frame Range, this is the fixed scale value applied, the curve is used otherwise
 If animation has been subtracted in ModelDoc to create an additive animation to be used with AnimGraph, set this to true
 If any faces with a given material are selected, expand the selection to include ALL faces using those materials.
@@ -9168,7 +9167,6 @@ Iterations
 J%f%f%f%f%f%f%f%f
 JIGGLE_BONE
 JPEG
-J\tV_logd
 JawD
 JawH
 JawV
@@ -9375,6 +9373,7 @@ MVDataUniqueMonotonicInt
 MVDataUseLinkedEntityClasses
 MVDataUsesComponentEditor
 MVDataVirtualNodeFactoryFn
+M\tV_log2f
 Make
 Make sheet file
 MakerNoteSafety
@@ -9570,6 +9569,7 @@ NO TARGET
 NOT 
 NOT_ARRAY_MEMBERS
 NULL VP8Io parameter in VP8Decode().
+N\tV_logd
 N_U9203
 Name Mode
 Name of the bone this pose refers to
@@ -10821,7 +10821,6 @@ VSNAPEmpty
 VSNAPList
 VSNAPParticle
 VZ#-DLU[3=h
-V\tV_powd
 Value One
 Value Zero
 Valve Map File
@@ -10963,6 +10962,7 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
+Z\tV_powd
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
@@ -10982,6 +10982,7 @@ ZIPVSetField
 \nprop 
 \t@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
+\tV_atan2d
 \tV_expd
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StringAfterPrefixCaseSensitive
@@ -12582,7 +12583,6 @@ numsides_key
 o KPBf
 oOffset
 oY.o<
-o\tV_sscanf_s
 offsetTime
 offset_angles
 offset_origin
@@ -12906,6 +12906,7 @@ row_fixed_blend_val
 row_pose_param_name
 row_weight_list
 s off\ng cMesh\nusemtl initialShadingGroup\n
+s\tV_sscanf_s
 sample_rays
 sanitizetrajectories
 saturation
@@ -13616,7 +13617,6 @@ uses_range
 uvmapcylinder
 v %f %f %f\n#%d ComponentIndex %d, queue %d, angle %.1f; ring:
 vIK \f3
-v\tV_strnchr
 valueDeltaRotation
 valueOrientation
 valuePivot
@@ -13763,6 +13763,7 @@ yaw_friction
 yaw_stiffness
 z>AlignedByteArray not properly aligned\n
 zDStatic
+z\tV_strnchr
 zero dir
 zero_unselected
 zfar

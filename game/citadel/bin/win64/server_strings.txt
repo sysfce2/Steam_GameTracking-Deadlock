@@ -181,11 +181,8 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`jP
- (08@HPXb@
- (08@HPZP
- (08@JP
- (0X`hpz@
+ (08@HPX`j
+ (08@HPZ
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -209,6 +206,7 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
+ .0X0
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -595,7 +593,6 @@ $f;Zv9l\r
 $g#8lu#
 $hRh 
 $light_emissive
-$tJ@T\tK
 %%%d.%ds [%%3.3s] (%%5d) %%%d.%ds:
 %%%d.%ds [%%s::%%s] 
 %%s  %%c %%10s : %c%%%ds%c %%s
@@ -2055,7 +2052,7 @@ $tJ@T\tK
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.040
+.0I0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14046,9 +14043,12 @@ $tJ@T\tK
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PG0
+.PT0
 .PartnerAccountType
+.Pb0
 .PingCommonData
-.Po0
+.Pk0
 .PostProcessingGameStates
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
@@ -14334,7 +14334,7 @@ $tJ@T\tK
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pl0
+.pT0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14392,15 +14392,12 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
-08@HRP
-08@J@
-08BP
+08@HR
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
-0>`C0
 0AgffA
 0M2~@p
 0W/5
@@ -14432,6 +14429,7 @@ $tJ@T\tK
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0v4!+
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14566,7 +14564,6 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpl
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14623,13 +14620,11 @@ $tJ@T\tK
 4)m1
 474E4U4W4c4i4m4
 4<Td
-4?\fPN
 4@AA
 4Ch;
 4F0I
 4Mv8
 4Zis
-4\fPN
 4\fPl
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
@@ -14658,7 +14653,6 @@ $tJ@T\tK
 5N{j
 5\f%54
 5\fE54L
-5\fwN
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14670,7 +14664,6 @@ $tJ@T\tK
 5\n\tset_vdata
 5\n\vmetric_data
 5\n\vtype_caches
-5\tV_isfinited
 5\vFuo
 5b!g
 5dO7
@@ -14679,15 +14672,15 @@ $tJ@T\tK
 5s\nl
 5t?F
 5~EW
-6 b0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60Z0
-60o0
+60@0
+60R0
+60j0
 62$|S)6f
 64CK\vH
 65535
@@ -14699,10 +14692,11 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
-6PD0
-6P\n0
+6P"0
+6P:0
+6PN0
+6P\t0
 6Qd=
-6\fwN
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14713,6 +14707,8 @@ $tJ@T\tK
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
+6`20
+6`D0
 6afD
 6bX+
 6c&0|vvX
@@ -14720,8 +14716,7 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6p20
-6pE0
+6p50
 6qo~
 6r-m_v
 6r1ij
@@ -14770,9 +14765,8 @@ $tJ@T\tK
 851Pe
 8<pl
 8= zp
-8@JP
 8A6j
-8FpB0
+8F B0
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14825,6 +14819,7 @@ $tJ@T\tK
 9\n\taward_ids
 9\n\vdiagnostics
 9\not
+9\tV_isfinited
 9\tiI
 9]ZV
 9aDW
@@ -14965,7 +14960,6 @@ $tJ@T\tK
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->0I0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15016,6 +15010,7 @@ $tJ@T\tK
 ?HAI\t81\t9dcG'
 ?HP4
 ?KnockupSideRatio
+?TLK_CITADEL_DOORMAN_HOTEL_TAUNT
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15036,12 +15031,15 @@ $tJ@T\tK
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08N4!+
 @0pp
+@6 90
+@60T0
+@6pS0
 @Accolades
 @BH]f
-@HV0<0
+@HPX`hv`%0
 @MfKZ
-@NP'0
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -15053,7 +15051,7 @@ $tJ@T\tK
 @\n<STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INTERNAL_DATA_SOURCE_ERROR
 @\n\fSingleObject
 @\n\vPowerUpBuff
-@citadel_loot_table_spew_modifications
+@citadel_item_pickup_rejuv_herotest_infospawn
 @dKb]
 @fff>fff>fff>fff>
 @i1V
@@ -15076,7 +15074,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:0g
 AABBDirection
 AACompromise
 AC2,h
@@ -19631,7 +19628,6 @@ Client Messages
 ClientFirstActivated
 ClientGamePrecache_server
 ClientHitEntity
-ClientMessages
 ClientPrecacheRegistry_server
 ClientPutInServer create new player controller [%s]\n
 ClientPutInServer reconnecting player controller [%s]\n
@@ -21511,7 +21507,6 @@ F\n\finventories3
 F\n\fitem_scalars
 F\n\trow_range
 F\rH'4
-F`I0
 Face %s
 Face Actor
 Face Entity
@@ -22829,7 +22824,6 @@ ITestScriptMgr
 IV block
 I\n$k_EPingMarkerInfo_HideMarkerAndSound
 I\tHA\t981G'dc
-I\tV_log2f
 IceBeamBuildupProcDuration
 IcePath m_vLastShardPosition=%g %g %g\n
 IcePathAuraDuration
@@ -23731,7 +23725,6 @@ J\nHBF
 J\n\fcheer_remaps
 J\n\finput_errors
 J\n\foutput_items
-J\tV_logd
 J`KL
 JarDamage
 Job %s has EXCEEDED TIMEOUT THRESHOLD exclusive time: %ums >= %ums\n
@@ -24221,6 +24214,7 @@ M\n\fperf_samples
 M\n\ngold_stats
 M\n\raccount_stats
 M\rLAI)haL<|p\t\t
+M\tV_log2f
 M\vOj
 MageTime
 MagicDamagePerBullet
@@ -24832,6 +24826,7 @@ NXfT>o
 N[Ox
 N[iY 
 N\n\nchallenges
+N\tV_logd
 N\v7e_
 N`UaK
 Name Matches
@@ -25686,11 +25681,9 @@ P-224
 P-256
 P-384
 P-521
-P08@J@
-P08Jp
+P08N4!+
 P1\t98"
 P5[1
-P6 Z0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -25725,6 +25718,7 @@ PBES2
 PBKDF2
 PBKDF2PARAM
 PBMAC1
+PCG@T\tK
 PEIF
 PEM lib
 PEM part of OpenSSL 1.0.2j  26 Sep 2016
@@ -26226,6 +26220,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+Pn4!+
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26658,7 +26653,6 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpl
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30120,6 +30114,7 @@ V3 s
 V3_ADDR_VALIDATE_PATH_INTERNAL
 V3_GENERIC_EXTENSION
 V5u f
+V@V0
 VALV
 VALVw
 VDPr
@@ -30149,7 +30144,7 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
-VPg0
+VP_0
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -30159,7 +30154,6 @@ VScriptScripts
 VY5[;o
 V\n\vItemCharges
 V\rKk
-V\tV_powd
 V_a|I
 V_strcmp( pDataMap->dataClassName, pCodeClass ) == 0
 VacuumRadius
@@ -30630,8 +30624,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hrP
+X`hr
 Xd3h
+Xf E0
+Xf@F0
 XfJ7
 XjfR
 XqgA+
@@ -30690,6 +30686,7 @@ ZLONG
 ZSz@
 ZXF,`i
 Z\n\nmap_values
+Z\tV_powd
 Zap trigger is missing a shoot from entity %s.
 Zd[w
 Ze2Zh@
@@ -31452,7 +31449,6 @@ Z~wl
 \n\tTE_DustId
 \n\tTE_FizzId
 \n\tUpdateFan
-\n\tV_cosd
 \n\taccountid
 \n\tadd_slots
 \n\tadult_sex
@@ -31704,6 +31700,7 @@ Z~wl
 \rB6uZ
 \rChallengeID_t
 \rCitadelMMRu_t
+\rClientMessages
 \rHeroBadgeXP_t
 \rHeroBuildID_t
 \rKT8v
@@ -31781,8 +31778,11 @@ Z~wl
 \tSpeed: %2.f\n
 \tText
 \tTotals: %d/%d (%.3f%%) EvaluatePoses Used, %dx using bones without eval [Ave Eval/tick: %.3f]\n
+\tV_atand
 \tV_atanf
+\tV_cosd
 \tV_exp2f
+\tV_strupper_fast
 \tV_tand
 \tWhen creating abilities, the additional argument is the primary ability name\n
 \tWhen creating modifiers, the additional arguments are additional keys of the form [{ "key1" "value1" "key2" "value2" }]\n
@@ -31835,12 +31835,10 @@ Z~wl
 ]MSd
 ][LK~lO
 ^.om5r
-^0i0
 ^DnJ
 ^DqPt
 ^J_spY
 ^Nij
-^Pb0
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
@@ -31901,10 +31899,8 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
-`20E
-`20g
 `28)fk
-`2PH
+`60U0
 `:zQF
 `D$daM-l
 `DZG
@@ -31932,6 +31928,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv4!+
 aD/x
 aDSS
 aECDH
@@ -32771,7 +32768,6 @@ b\fzUkm
 b\n k_EPingMarkerInfo_OnlyShowMarker
 b\n\fAppInfoEntry
 b\n\fdescriptor_t
-b\tV_sincosd
 b]jY
 b_%s_lock_rot
 b_Active
@@ -33701,7 +33697,6 @@ citadel_item_pickup
 citadel_item_pickup_idol
 citadel_item_pickup_rejuv
 citadel_item_pickup_rejuv_herotest
-citadel_item_pickup_rejuv_herotest_infospawn
 citadel_item_powerup_spawner
 citadel_item_punchable_gold
 citadel_lose
@@ -34256,7 +34251,6 @@ dSAQuality
 dWry
 dZ!2.
 d[kHy 
-d\tV_sind
 d_r_0
 dac_dof_far_blurry
 dac_dof_far_crisp
@@ -35336,6 +35330,7 @@ fSpinUpTime
 fUnh\
 fValue
 fYaw
+f\tV_sincosd
 f\trixZ
 f_%s_weight
 f_DrainScale
@@ -36160,6 +36155,7 @@ hW*m
 hW1M
 hW_z
 hX@e
+h\tV_sind
 h`Zr
 half_extent_xy
 half_extent_z
@@ -36424,7 +36420,6 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpz@
 hr_H
 http request
 https proxy request
@@ -38725,6 +38720,7 @@ modifier_citadel_gravity_lasso_self
 modifier_citadel_halloween_mask
 modifier_citadel_hideout_in_menu
 modifier_citadel_hideout_intro
+modifier_citadel_hideout_intro_exit
 modifier_citadel_holding_golden_idol
 modifier_citadel_hookself
 modifier_citadel_hooktarget
@@ -39475,6 +39471,7 @@ n1Z
 n5cM
 n6j/
 n:2C[
+n@C0
 n@PK
 nAlpha
 nAttributeValue
@@ -39504,7 +39501,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nP+0
+nPB0
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39519,7 +39516,6 @@ nValue
 nVersion
 n\r2S
 n`3i
-n`H0
 name constraints minimum and maximum not supported
 name of highest net worth enemy
 name too long
@@ -39815,7 +39811,6 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
-np;0
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -40133,11 +40128,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^4!+
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
+p6p90
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40661,6 +40658,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
+pn4!+
 point
 point arithmetic failure
 point at infinity
@@ -44023,7 +44021,6 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-zDmodifier_citadel_hideout_intro_exit
 zF):O4
 zFar
 zG2m8
@@ -44077,7 +44074,6 @@ zz2K
 }VKRZ
 }W70d
 }Xee+
-}\tV_strupper_fast
 }gE3
 }n2W
 ~9ob

@@ -1488,7 +1488,6 @@ IKV3TransferInterface_ResourceSave
 IKV3TransferInterface_UtlSymbolLarge
 IS_EFFECTS_LAYER
 IS_PARTICLE_MIXED_RESOLUTION_LAYER
-I\tV_log2f
 If (R%d) Jump to Instr I%d
 If (R%d) Leap to Chunk C%d
 If -1 timer will continue forever
@@ -1615,6 +1614,7 @@ MPulseExpressionAlias
 MPulseFunctionHiddenInTool
 MVectorIsCoordinate
 MVectorIsSometimesCoordinate
+M\tV_log2f
 Made disabling operators + children actually fully work.\n
 Make Angle
 Make Angle From Forward Vector
@@ -2219,15 +2219,16 @@ Z>wg}?0
 [Ofm}
 [RETURN R%d]
 [RETURN]
-[\tV_remainderf
 \fT>M-+?#gy?
 \n\n----------------------------\nInstance Count:\n
-\n\tV_cosd
 \t%4d -  %s\n
+\tV_atand
+\tV_cosd
 \tV_exp2f
 \tV_tand
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \tg_flConfigMaxCoord
+_\tV_remainderf
 __CursorQueue__
 __FireCursorsParent__
 __State_Child_Condition__
@@ -2287,7 +2288,6 @@ compressedtangentframe
 con_command
 creation_time
 curvature
-d\tV_sind
 data_offset
 data_size
 def min cpu=%d system cpu=%d def gpu=%d system gpu=%d\n
@@ -2337,6 +2337,7 @@ g?Q1
 glow_alpha
 glow_rgb
 h>4hp?
+h\tV_sind
 hitbox
 hitbox_offset
 hl?S

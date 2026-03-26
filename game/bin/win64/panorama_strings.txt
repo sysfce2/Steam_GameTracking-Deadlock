@@ -1144,7 +1144,6 @@ $hRh
 8GZS
 8SIffK5W
 8TZvrv<
-8\tV_isstrlower_fast
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
@@ -1168,7 +1167,6 @@ $hRh
 9Y@nJM
 9Zr4
 9\not
-9\tV_isvalidhex
 9\tiI
 9]ZV
 9aDW
@@ -1223,6 +1221,7 @@ $hRh
 <SVX
 <YGr+
 <YVtV&
+<\tV_isstrlower_fast
 <b>%s</b> (from %s)<br /><br />
 <script /> tags within XML files are no longer supported. Please create a separate script file that is included via an <include /> in the <scripts /> section.
 <string conversion failed>
@@ -1236,6 +1235,7 @@ $hRh
 =?Run@Script@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 =O?AqP
 =Q9M
+=\tV_isvalidhex
 =aes(partial)
 =cdE
 =trF6,#
@@ -4690,7 +4690,6 @@ VNotify: %s\n
 VY5[;o
 VZ#-DLU[3=h
 V\rKk
-V\tV_powd
 V_a|I
 ValveSMMem:%s
 ValveSMMut:%s
@@ -4967,6 +4966,7 @@ ZLIB
 ZLONG
 ZSz@
 ZXF,`i
+Z\tV_powd
 Zd[w
 Ze2Zh@
 ZjLS
@@ -5058,6 +5058,7 @@ Z~wl
 \tHAI8xpH\f
 \tJm_9
 \tLa0+
+\tV_strtoui64
 \t\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StringAfterPrefixCaseSensitive
 \t_V_strcspn
@@ -9653,7 +9654,6 @@ z>Hz
 zF):O4
 zG2m8
 zRXU 
-z\tV_strtoi64
 zlVO
 zlib compression
 zone
@@ -9680,7 +9680,6 @@ zz2K
 |F?ToObject@Value@v8@@QEBA?AV?$MaybeLocal@VObject@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 |InzT
 |XYl
-|\tV_strtoui64
 |hdX)
 |sG2
 |}Eq1
@@ -9697,6 +9696,7 @@ zz2K
 ~If D
 ~P2T
 ~R65Fu
+~\tV_strtoi64
 ~jLRG
 ~w]UG
 ~yhZ

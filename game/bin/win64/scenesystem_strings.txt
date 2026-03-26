@@ -26,7 +26,10 @@
  %i fog-only.
  %s [%.2f ms]
  (08@HPX`j
+ (08@HPXb`Q
  (08@HPZ
+ (08@HR`Q
+ (0X`hpz`Q
  (EXTERN)
  (Frozen)
  (MAYBE DISABLED?!)
@@ -41,6 +44,8 @@
  *CentralNode*
  *Inactive*
  *Unused*
+ .0CU
+ .pBU
  ; contains 
  BreakOnDelete: 
  BreakOnDraw: 
@@ -480,6 +485,7 @@ $tIP
 (dump3d)
 (eVa
 (except InputRouting which is spammy)
+(f@uU
 (iJa
 (in ChildD: not using same Shortcut)
 (in ChildE: using same Shortcut)
@@ -518,16 +524,17 @@ $tIP
 --> granting current route\n
 ->\n  [%s:%s]
 ->\n  [%s:%s] %s
--\npzU
 -j'j2j>jU
 .%03d %03d
 ..-         -XXXXXXX-    X    -           X           -XXXXXXX          -          XXXXXXX-     XX          - XX       XX ..-         -X.....X-   X.X   -          X.X          -X.....X          -          X.....X-    X..X         -X..X     X..X---         -XXX.XXX-  X...X  -         X...X         -X....X           -           X....X-    X..X         -X...X   X...XX           -  X.X  - X.....X -        X.....X        -X...X            -            X...X-    X..X         - X...X X...X XX          -  X.X  -X.......X-       X.......X       -X..X.X           -           X.X..X-    X..X         -  X...X...X  X.X         -  X.X  -XXXX.XXXX-       XXXX.XXXX       -X.X X.X          -          X.X X.X-    X..XXX       -   X.....X   X..X        -  X.X  -   X.X   -          X.X          -XX   X.X         -         X.X   XX-    X..X..XXX    -    X...X    X...X       -  X.X  -   X.X   -    XX    X.X    XX    -      X.X        -        X.X      -    X..X..X..XX  -     X.X     X....X      -  X.X  -   X.X   -   X.X    X.X    X.X   -       X.X       -       X.X       -    X..X..X..X.X -    X...X    X.....X     -  X.X  -   X.X   -  X..X    X.X    X..X  -        X.X      -      X.X        -XXX X..X..X..X..X-   X.....X   X......X    -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -         X.X   XX-XX   X.X         -X..XX........X..X-  X...X...X  X.......X   -  X.X  -   X.X   -X.....................X-          X.X X.X-X.X X.X          -X...X...........X- X...X X...X X........X  -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -           X.X..X-X..X.X           - X..............X-X...X   X...XX.........X -XXX.XXX-   X.X   -  X..X    X.X    X..X  -            X...X-X...X            -  X.............X-X..X     X..XX..........X-X.....X-   X.X   -   X.X    X.X    X.X   -           X....X-X....X           -  X.............X- XX       XX X......XXXXX-XXXXXXX-   X.X   -    XX    X.X    XX    -          X.....X-X.....X          -   X............X--------------X...X..X    ---------   X.X   -          X.X          -          XXXXXXX-XXXXXXX          -   X...........X -             X..X X..X   -       -XXXX.XXXX-       XXXX.XXXX       -------------------------------------    X..........X -             X.X  X..X   -       -X.......X-       X.......X       -    XX           XX    -           -    X..........X -             XX    X..X  -       - X.....X -        X.....X        -   X.X           X.X   -           -     X........X  -                   X..X  -       -  X...X  -         X...X         -  X..X           X..X  -           -     X........X  -                    XX   -       -   X.X   -          X.X          - X...XXXXXXXXXXXXX...X -           -     XXXXXXXXXX  -             -------------       -    X    -           X           -X.....................X-           -------------------                                 ----------------------------------- X...XXXXXXXXXXXXX...X -                                                                                                 -  X..X           X..X  -                                                                                                 -   X.X           X.X   -                                                                                                 -    XX           XX    -                                           
 ................
-.0FU
+.0DU
+.0GU
 .0HU
-.0IU
-.0KU
-.0RU
+.0TU
+.0YU
+.0ZU
+.0yU
 .?AUReadStatsCallback_t@?4??OnBeginSubmitDisplayLists@CInstancedMeshSceneObjectDesc@@UEAAXPEAVIRenderContext@@@Z@
 .?AV<lambda_1>@?1??DrawCurrentPrimitives@CRenderBatchList@@AEAAXXZ@
 .?AV<lambda_1>@?1??GatherHammerLights@CLightBinnerGPU@@AEAAXXZ@
@@ -803,16 +810,17 @@ $tIP
 .AppleDouble/
 .B.F.J.N.R.V.Z.^2
 .P6AXPEAVCSceneObject@@@Z
+.PHU
 .PZU
-.PjU
-.PtU
+.PxU
 .\v1o0
 .notdef
 .null
-.pGU
+.pDU
 .pHU
-.pIU
-.pYU
+.pJU
+.peU
+.pxU
 .resource/
 .vtex
 /*\n The Pentium F00F bug, shorthand for F0 0F C7 C8,\n the hexadecimal encoding of one offending instruction,\n more formally, the invalid operand with locked CMPXCHG8B\n instruction bug, is a design flaw in the majority of\n Intel Pentium, Pentium MMX, and Pentium OverDrive\n processors (all in the P5 microarchitecture).\n*/\n\nlabel:\n\tlock cmpxchg8b eax\n
@@ -839,10 +847,10 @@ $tIP
 04c/
 050s0
 08@HR
-0>`EU
+08@J`Q
 0?333?333?333?333?
-0\fkK
-0h)U
+0ljK
+0v\uK
 0x%02X
 0x%04X
 0x%08X
@@ -868,7 +876,6 @@ $tIP
 2. I am selectable
 24 Hour Clock
 2C2L
-2\vph)U
 2d arr
 2q2z2
 3 (tab skip)
@@ -894,21 +901,23 @@ $tIP
 5_5i5p
 5by Tristan GrimmerRegularTTX ProggyCleanTT2004/
 5gib
-6 BU
 6 PQ
-6 wU
+6 gU
 6&6r6
-60EU
-60_U
-60iU
+60^U
+60hU
 646.1991
 646B
-6@jU
+6@BU
+6@lU
 6K6S
 6\f%646
-6`pU
+6`eU
+6`oU
+6`zU
 6o6v6
-6pTU
+6pSU
+6pnU
 797k7
 7F7W7c
 7\n0K0O0S0W0[0_0c0g0k0o0
@@ -916,6 +925,7 @@ $tIP
 8859
 8888
 8C3F
+8F@qU
 8\f58
 8\foQS
 8n8y
@@ -1009,9 +1019,6 @@ $tIP
 >333?333?333?
 >333?ff&?
 >7>Ba
->PTU
->PhU
->PmU
 >c<yXH?B
 >fff>
 >fff?
@@ -1028,10 +1035,10 @@ $tIP
 ?333?
 ?333?333?fff?
 ?Bxt>
+?ESceneObjectVisualization
 ?JA7=
 ?Label1
 ?PUNCTUAL
-?SCENEOBJECT_VIS_NONE
 ?The "Tools" menu above gives access to: Style Editors (ImPlot/ImGui)\nand Metrics (general purpose Dear ImGui debugging tool).
 ?VertexPos_t
 ?XXXXXXXXXXXXXXXX
@@ -1043,6 +1050,7 @@ $tIP
 ?fff?fff?fff?
 ?ffffff
 ?sqrt
+@08N\uK
 @33333
 @33333#
 @33333'
@@ -1081,10 +1089,9 @@ $tIP
 @33333{
 @33333}
 @33SA
-@6 FU
-@6 HU
-@HPX`hv``U
-@HVpnU
+@6@kU
+@6PGU
+@6PJU
 @OS/2
 @fff>fff>fff>fff>
 @fffff
@@ -1128,6 +1135,7 @@ $tIP
 @fffffx
 @fffffz
 @fffff|
+@n\uK
 @sc_setclassflags %s %d
 A Rather Long Title
 A#4A\v
@@ -2486,6 +2494,7 @@ Extensions
 EyeBallDataConstants_t
 EyeShader
 F'F2F>F\Fsa
+F@tU
 FACE_NAME
 FAMILY_NAME
 FC\r4
@@ -2503,6 +2512,8 @@ FONT_DESCENT
 FORCE_UINT
 FORWARD_LAYER_ONLY 
 FOUNDRY
+FPIU
+FPfU
 FRAGMENT_SHADER
 FSType
 FULL_NAME
@@ -2617,6 +2628,7 @@ Format
 ForwardLightSetup
 Four
 FourFourFour
+FpdU
 Frag
 FragmentBounds
 FragmentDrawArgs
@@ -2972,7 +2984,6 @@ ITEM: Text
 ITEM: TreeNode
 ITEM: TreeNode w/ ImGuiTreeNodeFlags_OpenOnDoubleClick
 ITEMS
-I\tV_log2f
 IaIrI
 Iacute
 Iacutesmall
@@ -3565,6 +3576,7 @@ MSIndirectDispatchArgsRecull
 MULTISELECT_DEMO_ITEMS
 MY CUSTOM COLOR PICKER WITH AN AMAZING PALETTE!
 MY_DND
+M\tV_log2f
 Mackerel
 Macronsmall
 Main Area = entire viewport,\nWork Area = entire viewport minus sections used by the main menu bars, task bars etc.\n\nEnable the main-menu bar in Examples menu to see the difference.
@@ -4034,11 +4046,10 @@ Override ChildBg color
 Override Streaming GPU Memory
 P+\fGj
 P.P5
-P08JPR 
+P08@J`Q
+P08N\uK
+P2`Q
 P3\rA
-P6PFU
-P6`{U
-P6pZU
 P8\nD
 PAPU
 PG\f 3n
@@ -4057,7 +4068,6 @@ POSITION
 PRESSED
 PRE_RASTERIZATION_SHADERS
 PROGRAMMER GUIDE:
-P\fkK
 PackId: 0x%X (%dx%d rect at %d,%d)
 Packed rects: %d, area: about %d px ~%dx%d px
 PackedBlobNormal
@@ -4093,7 +4103,6 @@ PerViewLightProbeVolumeConstantBuffer_t
 PerViewLightingConstantBufferGpu_t
 Period
 Perry
-PfP|U
 PiYG
 Picker Mode
 Pie Charts
@@ -4112,6 +4121,7 @@ PixelsToPlot() needs to be called between BeginPlot() and EndPlot()!
 Plasma
 Player Overlay
 Please submit feedback:
+PljK
 Plot
 Plot 1 Sources: Legend Item Labels
 Plot 1 Targets: Plot, Y-Axes, Legend
@@ -4142,6 +4152,7 @@ Plotting
 Plum
 Plus
 PmXh]=b
+Pnp}U
 PolitiFact: Who Lies More?
 Pollock
 Pool Mem
@@ -5407,12 +5418,11 @@ Using the format string parameter to display a name instead of the underlying in
 Using the simplified one-liner Combo API here.\nRefer to the "Combo" section below for an explanation of how to use the more flexible and general BeginCombo/EndCombo API.
 Using the simplified one-liner ListBox API here.\nRefer to the "List boxes" section below for an explanation of how to use the more flexible and general BeginListBox/EndListBox API.
 Usmall
-V DU
 V$VYW
 V,V7VB
-V0yU
 V:%0.3f
 V:%3d
+V@xU
 VERTEX_ATTRIBUTE_READ_BIT
 VERTEX_INPUT
 VIEWMODEL_LAYER 
@@ -5843,6 +5853,7 @@ Zsmall
 \fG7+B
 \fPy\vE
 \fT>M-+?#gy?
+\fp\v`ljK
 \n Render %d specific objects
 \n Render world : %s\n
 \n"\n)\n7\nA\nH\nS\nc\np\n|\n
@@ -5854,6 +5865,7 @@ Zsmall
 \nYg:a
 \naI1 
 \r%\r1\rB\rQ\rZ\rf\rr\r~\r
+\r`ljK
 \t \t$\t6\tI\tY\th\ts\tz\t
 \tLayer %d "%s": %d inputs, %d outputs\n
 \tLayer %d "%s"\n
@@ -5918,12 +5930,15 @@ _WidthFixed
 _WidthStretch
 _XFREE86_GLYPH_RANGES
 _atlas
-`6PHU
-`6PIU
-`6PxU
+`6PYU
+`6pQU
 `QZa
+`f\uK
+`ljK
+`n\uK
 a'aCaYb"b8b
 a-a8
+aBv\uK
 aJ!\vA
 aJaP
 a\ft/tOtet
@@ -6256,6 +6271,7 @@ f(x) = sin(x+.5)*100+200
 f?yu
 fPfo
 fWfc
+f\uK
 fakeview
 fallback-script
 far_blue
@@ -6304,7 +6320,6 @@ four
 fourinferior
 fouroldstyle
 foursuperior
-fpQU
 fraction
 frag %i
 fragmentbounds
@@ -6376,6 +6391,7 @@ hitgroup_shader_%p
 hl?S
 horizontal
 horizontal split
+hpz`Q
 https://github.com/epezent/implot
 https://github.com/ocornut/imgui
 https://github.com/ocornut/imgui/blob/master/docs/BACKENDS.md
@@ -6544,7 +6560,6 @@ items_type (first column)
 jDjK
 j[ros
 jasonm_433ce42d
-jpl 
 k k.k;m
 k2U\v
 k>Mg
@@ -6715,19 +6730,16 @@ my_toggle_popup
 mycolumns
 mycolumns3
 mypicker
-n nU
 n r x z o e s c
-n tU
 n2n?
-n@eU
 nCascade
 nCompressedSize == nUncompressedSize
 nDepthBias
 nIndex < m_RenderTargets.Count()
 nPnq
 nPrevTransformBufferIndex < V_ARRAYSIZE( m_transformBufferSlotsForIndex )
+n\uK
 n^nf
-n`AU
 nan_expectfail
 near_blue
 near_green
@@ -6747,6 +6759,7 @@ nonbreakingspace
 nonmarkingreturn
 not 
 notequal
+npqU
 nsuperior
 ntilde
 numbersign
@@ -6785,10 +6798,12 @@ outer_size
 overlaps
 p q g j y
 p#p7pP
-p0jP
-p6 lU
+p08@H^\uK
+p2`Q
+p60{U
+p>\uK
 pCRF
-p\fkK
+pFPIU
 paragraph
 parallel
 parenleft
@@ -6815,11 +6830,12 @@ permutations
 perthousand
 pervertexlighting
 pfr-metrics
-ph)U
 picker
+pljK
 plots
 plus
 plusminus
+pn\uK
 pos2Dtex2D
 post
 postscript-cmaps
@@ -7130,7 +7146,9 @@ unicode#0x0001
 uniform_color
 uppercase
 uvtangent
+v aU
 v8vUb
+v\uK
 vertex cache
 vertex cache instances
 vertexbuffer
@@ -7208,5 +7226,7 @@ zerooldstyle
 zerosuperior
 zezn
 };\nImPlotColormap %s = ImPlot::AddColormap("%s", %s_Data, %d);
+}\r0zU
 }~~~~~~~~~~~~~~~~
+~pZU
 ~wZ\tBu

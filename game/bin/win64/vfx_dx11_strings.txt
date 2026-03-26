@@ -415,7 +415,6 @@ INV_SRC_COLOR
 IOS_VULKAN_4_0
 IOS_VULKAN_4_1
 IOS_VULKAN_5_0
-I\tV_log2f
 IndependentBlendEnable
 InvTextureDim
 InvViewportSize
@@ -445,6 +444,7 @@ MIN_POINT_MAG_MIP_LINEAR
 MIRROR
 MIRROR_ONCE
 MODES
+M\tV_log2f
 MainCs
 MainGs
 MainMs
@@ -898,5 +898,5 @@ vs_4_0
 vs_4_1
 vs_5_0
 vs_6_0
-w\tV_strspn
 xyzw
+{\tV_strspn

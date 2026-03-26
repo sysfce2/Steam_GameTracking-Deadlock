@@ -2660,7 +2660,6 @@ NumSub
 NumToggle
 ONE_SHOT
 OP?isNull@QIcon@@QEBA_NXZ
-O\tV_modfd
 Oa?width@QImage@@QEBAHXZ
 OkClicked
 OnAbout
@@ -2899,6 +2898,7 @@ SLIDER_VALTEXT_LEFT
 SLIDER_VALTEXT_RIGHT
 SP?isNull@QPixmap@@QEBA_NXZ
 STANDIN: %1
+S\tV_modfd
 Sample Pixel Color
 Save changes to "%1"?\n(%2)
 Save color changes?
@@ -3596,7 +3596,6 @@ w"?valueFromText@QDoubleSpinBox@@UEBANAEBVQString@@@Z
 w[?setSelectable@QStandardItem@@QEAAX_N@Z
 w\n?connectImpl@QObject@@CA?AVConnection@QMetaObject@@PEBV1@PEAPEAX01PEAVQSlotObjectBase@QtPrivate@@W4ConnectionType@Qt@@PEBHPEBU3@@Z
 w\n?dragLeaveEvent@QLineEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
-w\tV_strspn
 waiting_group
 warn
 white
@@ -3611,6 +3610,7 @@ z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
+{\tV_strspn
 |"?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
 }\r?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z

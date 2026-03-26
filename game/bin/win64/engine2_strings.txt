@@ -216,7 +216,7 @@
  [default = $0
  [max spawn group creation sequence to (%u)]
  \n\vview_offset
- \tV_fprintf
+ \tV_fmodf
  a protocol buffer. Use the 'bytes' type if you intend to send raw bytes. 
  adr
  args were given.  Full format string was: "
@@ -286,6 +286,7 @@
 !8F[q
 !AxU
 !NPE.2
+!\tV_fopen
 !engine_frametime_warnings_enable
 !fE+15
 !link
@@ -379,6 +380,7 @@
 "O7v
 "S\n\nCEntityMsg
 "\nis running without a known mod!\n\nSet the VMOD environment variable or run with -game to set the mod name.\n
+"\tV_fopenUTF8
 "\v\n\tCDemoStop"0\n\fCDemoUserCmd
 "^\n\fOneofOptions
 "c\n\rCMsgTransform
@@ -463,6 +465,7 @@
 #Valve_Reject_Hidden_Game
 #Valve_Reject_Single_Player
 #\n\npause_type
+#\tV_fpclassifyd
 #bML"
 #end\n
 $#GameUI_Disconnect_BadServerPassword
@@ -488,6 +491,7 @@ $Ib?s
 $\n\fsignon_state
 $\n\rresource_type
 $\n\vorientation
+$\tV_fprintf
 $lZT
 $schemasystem/schema_enable_defines.h
 $tI(knN
@@ -961,7 +965,6 @@ $tI(knN
 *StO9>T
 *\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f
 *\n"host_computationtime_std_deviation
-*\tV_ftell
 *h\n\vDIALOG_TYPE
 *zvC
 ++CBaseSpawnGroup
@@ -996,7 +999,6 @@ $tI(knN
 ,\n$host_frame_irregular_arrival_pct_x10
 ,\n$polymorphic_field_serializer_version
 ,\n\vplayer_slot
-,\tV_fwrite
 ,d3c&
 ,j.b0^2`4^6`8^:f<
 ,p\tX4
@@ -2447,6 +2449,7 @@ $tI(knN
 .TBMD
 .VoiceDataFormat_t:
 .\n\fentity_index
+.\tV_ftell
 .arc
 .arj
 .bak
@@ -2554,6 +2557,7 @@ $tI(knN
 08@J
 08B@
 08\fj
+09:09:23
 0: Force z prepass off. 1: Force on. -1: Don't force
 0: Use normals reconstructed from depth. 1: Output correct normals in z prepass.
 0: run all send jobs on main thread; 1: send jobs run asynchronously (except on dedicated server); 2: send jobs asynchronously; 3: send jobs run in parallel but block to not overlap the next tick; 4: main server clients' send jobs run in parallel, then HLTV server jobs; this approximately matches pre-async profile for a single HLTV server configuration
@@ -2566,7 +2570,9 @@ $tI(knN
 0T.Q
 0X8b?~
 0\n\vserializers
+0\tV_fwrite
 0iN>/
+0l(C
 0x%x,
 0|t?L
 0|t?uj
@@ -2579,7 +2585,6 @@ $tI(knN
 1.2.11
 11Y@
 127.0.0.1
-12:07:04
 16777215"R\n\nCMsg_CVars
 16777215B$
 1:1: Tokens : ( T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | TOK_COLON | OPEN_BRACE | CLOSE_BRACE | OPEN_PAREN | CLOSE_PAREN | OPEN_BRACKET | CLOSE_BRACKET | SEMICOLON | OP_EQUAL | COMMA | DOUBLE_AND | NEGATIVE_TOK | DOUBLE_OR | LITERAL_TRUE | LITERAL_FALSE | POS_INTLITERAL | POS_FLOATLITERAL | ID | DOUBLE_QUOTED_STRING | SINGLE_QUOTED_STRING | SINGLE_LINE_COMMENT | ML_COMMENT | WS | UNRECOGNIZED );
@@ -2620,6 +2625,7 @@ $tI(knN
 2\r%2t
 2\r.PrefetchType"h\n
 2\rU2t
+2\vpl(C
 2i0/
 2pX%
 3$EE\f
@@ -2648,7 +2654,6 @@ $tI(knN
 4\n\fperf_samples
 4\r%4h
 4\rE4h
-4\tV_isdigit_str
 5!MwJ
 51>W
 52F*
@@ -2678,7 +2683,6 @@ $tI(knN
 7K[iu
 7T0P
 7\n\tenum_type
-7\tV_isnand
 7g8\n0
 7~8A
 7~xh
@@ -2695,10 +2699,10 @@ $tI(knN
 8W?i
 8\n\textension
 8\n\vdescriptors
+8\tV_isdigit_str
 8\vu8t
 8b  16-May-2010
 8ke?;
-8mq^
 8}WW`
 9*ubC'
 9=aA\E
@@ -2721,6 +2725,7 @@ $tI(knN
 ;BWu
 ;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;Jx
 ;\n\frecord_types
+;\tV_isnand
 ;nGVKUTS[BXIWH\KbHi:k6s4r7p8
 <<unknown>>
 <DOWN>
@@ -2938,6 +2943,7 @@ $tI(knN
 ?GetFloat@KeyValues@@QEBAMPEBDM@Z
 ?GetForModify@CUtlString@@QEAAPEADXZ
 ?GetGameInfoBool@@YA_NPEBD_N@Z
+?GetGameInfoPlatformSpecificBool@@YA_NPEBD_N@Z
 ?GetIPHostByteOrder@netadr_t@@QEBAIXZ
 ?GetIPNetworkByteOrder@netadr_t@@QEBAIXZ
 ?GetId@CStableSymbolTable@@QEAAHPEBDPEA_N@Z
@@ -3500,6 +3506,7 @@ C2S_CONNECT_Message
 C2S_CONNECT_SameProcessCheck
 C5R?\t
 C:\buildworker\citadel_rel_win64\build\_build_\engine2\_vpc_engine2\default\win64\_msvc_\Retail\engine2.pdb
+C:\buildworker\citadel_rel_win64\build\src\appframework\gameinfo.cpp
 C:\buildworker\citadel_rel_win64\build\src\common\protobuf_helpers.cpp
 C:\buildworker\citadel_rel_win64\build\src\engine2\basespawngroup.h
 C:\buildworker\citadel_rel_win64\build\src\engine2\cl_demo.cpp
@@ -4774,6 +4781,7 @@ Directory to store replays in
 Disable focus based priority boost
 Disable vprof
 Disabling user config reading/writing due to -playtest\n
+DisallowGameInfoConditionals
 Disallowed variable name: %s
 DiscardMouseFocusClick
 Discarding pending request '%s, %u'\n
@@ -5023,6 +5031,7 @@ EstimatedMaxCPUMemUsageMB
 EstimatedMinGPUMemUsageMB
 Ethiopic
 Eval
+EvalGameInfoConditionals
 Event
 EventAdvanceTick_t
 EventAppShutdown_t
@@ -5125,7 +5134,6 @@ FYLh.o
 FZ?w
 F\n%NETWORK_DISCONNECT_DISCONNECT_BY_USER
 F\n\foptimize_for
-F\tV_log10f
 Fail to schedule the chore!
 Failed
 Failed To Load '%s'! VConsole Communication Disabled!\n
@@ -5357,7 +5365,6 @@ GOTV[%d] not active.\n
 GOTV[%u]\n
 GPU Frame Time
 GPUTimeAvgMS,GPUTimeRangeMS,GPUTimeMinMS,GPUTimeMaxMS,rendersystemdll,width,height,msaa\n
-G\tV_log2_uint
 Game
 Game Engine
 Game Server is not running\n
@@ -5563,9 +5570,8 @@ G|u0J\n
 H$6t
 H*0"ZOW
 H.FM
+HAP`
 HD?0
-HEO`
-HEQ`
 HGR9\f
 HH:mm:ss
 HKR~
@@ -5592,6 +5598,7 @@ Hello world!
 HelpSystem_001
 Hen\fM
 Hex and octal numbers must be integers.
+HiP`
 Hibernating
 Hide the console.
 Hides the game UI
@@ -5622,7 +5629,6 @@ Hostname for server.
 How far back before our current playback head in seconds to hold onto fragments.
 How long to show the message about Killer Replay after death. The best setting is a bit shorter than spec_replay_autostart_delay + spec_replay_leadup_time + spec_replay_winddown_time
 How often to flash demo recording/playback overlay (0 - disable overlay, -1 - show always)
-HuN`
 HudUpdate
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
@@ -5813,6 +5819,7 @@ JPEGMEM
 JSType
 J\n NETWORK_DISCONNECT_SNAPSHOTERROR
 J\n'NETWORK_DISCONNECT_DISCONNECT_BY_SERVER
+J\tV_log10f
 January
 Javanese
 JiYMm
@@ -5833,7 +5840,7 @@ K\n!NETWORK_DISCONNECT_INTERNAL_ERROR
 K\n#NETWORK_DISCONNECT_TICKMSG_OVERFLOW
 K\n$NETWORK_DISCONNECT_STEAM_AUTHINVALID
 K\n'NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP
-K\tV_logf
+K\tV_log2_uint
 Kaithi
 Kannada
 Katakana
@@ -6114,6 +6121,7 @@ MapValueRef::SetUInt32Value
 MapValueRef::SetUInt64Value
 MapViewOfFile
 Mar  6 2026
+Mar 26 2026
 March
 Marked tick %u in '%s'\n
 Marker,GPUTimeAvgMS,GPUTimeRangeMS,GPUTimeMinMS,GPUTimeMaxMS\n
@@ -6203,6 +6211,7 @@ Missing/invalid pause tick number.\n
 MmB_
 MobileClientVersion
 Mod doesn't support SourceTV. No director module found.\n
+Mod specifies 'DisallowGameInfoConditionals' but %d conditionals were evaluated
 ModelDocUtils001
 Monday
 Mongolian
@@ -6405,6 +6414,7 @@ O\n%NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW
 O\n(NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
 O\n(NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
 O\n\nAnnotation
+O\tV_logf
 Obtained EMS handle %u
 Obtained XMS handle %u
 October
@@ -6577,7 +6587,6 @@ PX`hpx
 P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
 P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
 P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
-P\tV_modff
 PackEntities_Normal EnsureInstanceBaseline
 PackEntity: SnagChangeFrameList returned null
 PackEntity: ent(%d) at tick %d Encountered field '%s' %s in incremental change that was not in the diff change. This can lead to slight network inefficiency\n
@@ -6642,6 +6651,7 @@ Phoenician
 Physics interface checksum is 0x%08X, expected 0x%08X. One of the binaries is out of date, please rebuild %s.\n
 PhysicsBuilderMgr001
 Ping
+Pl(C
 Plain assert text (has prefix)\n
 Plain general text (no prefix)\n
 Plat_AlertUser
@@ -6973,6 +6983,7 @@ RP_PAUSE
 RP_TOGGLEPAUSE
 RSDSh
 RST%d
+R\vpl(C
 RaiseException
 Random Float
 Random Integer
@@ -7903,6 +7914,7 @@ T\n&NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
 T\n&NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
 T\n)NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
 T\n+NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT
+T\tV_modff
 Ta?jib?
 Tagalog
 Tagbanwa
@@ -8272,7 +8284,6 @@ UtlVectorMemory_FailedAllocation
 U}JK
 U}g7x~
 V/?[w8rV
-V0\nH
 V<@ss
 V?wm\v
 VApplication001
@@ -8293,6 +8304,7 @@ VOICEDATA_FORMAT_OPUS
 VOICEDATA_FORMAT_STEAM
 VP4003
 VPK overrides: 
+VP\vH
 VPhysics2_Handle_Interface_001
 VPhysics2_Interface_001
 VProcessUtils002
@@ -8369,8 +8381,6 @@ V_UInt32ToString_Unsafe
 V_UInt64ToString_Unsafe
 V_UnqualifiedFileName
 V_acosf
-V_asinf
-V_atan2f
 Validate each StateChanged against known offsets.
 Validation stalled\n
 Value must be "true" or "false" for boolean option "
@@ -8477,7 +8487,6 @@ WSAVERNOTSUPPORTED
 WSWSAECONNABORTEDAEINTR
 W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
 W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
-W\tV_powf
 WaNd?
 Wait
 Wait, Resume=%s
@@ -8588,7 +8597,6 @@ X\n'NETWORK_DISCONNECT_BADSPECTATORPASSWORD
 X\n'NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
 X\n'NETWORK_DISCONNECT_KICKED_NOSTEAMTICKET
 X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
-X\tV_qsort
 X`hr@
 Xn1G
 Xr?9
@@ -8600,7 +8608,6 @@ Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
 Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
 Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
 Y\n\fdescriptor_t
-Y\tV_qsort_s
 You are trying to mount addon '%s' but SetAllowAddonChanges is false which probably means you shouldn't be calling this directly.\n
 You are trying to unmount addon '%s', but SetAllowAddonChanges is false which probably means you should be using calling this directly.\n
 You have been kicked and banned %s by the server.\n
@@ -8644,6 +8651,7 @@ Zq",9\fB
 [Unreliable payload]
 [Voice payload]
 [\n+NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION
+[\tV_powf
 [aOni*{
 [client]
 [demoscrub]
@@ -8681,6 +8689,7 @@ Zq",9\fB
 \\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
 \\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
 \\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
+\\tV_qsort
 \c at end of pattern
 \c must be followed by an ASCII character
 \cnlauncher.txt
@@ -8691,7 +8700,7 @@ Zq",9\fB
 \fV0U
 \fV4U
 \fX\fm\vH\vH\vm\v
-\fp\vP0
+\fpl(C
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \n    Actual    : 
 \n    Field type: 
@@ -8887,6 +8896,7 @@ Zq",9\fB
 \n\ryou_hear_them
 \n\tCGameInfo
 \n\tDEM_Error
+\n\tV_atoui64
 \n\tbit_count
 \n\tbool_vals
 \n\tbuild_num
@@ -9025,20 +9035,17 @@ Zq",9\fB
 \t?\tZ\tZ\tZ\tZ\t?\tg\t\n\t
 \t?\tZ\tt\tt\tt\t
 \tN1a
+\tV_asinf
+\tV_atan2f
 \tV_atof
 \tV_atofloat32
 \tV_atoi
-\tV_atoi64
-\tV_atoui64
+\tV_cosf
 \tV_expf
 \tV_fclose
 \tV_fflush
 \tV_fileno
 \tV_fmodd
-\tV_fmodf
-\tV_fopen
-\tV_fopenUTF8
-\tV_fpclassifyd
 \tV_tanf
 \tV_tier0_strcmp
 \tV_vsnprintf
@@ -9046,6 +9053,7 @@ Zq",9\fB
 \tWorldsize_Init
 \t[%d]Demo playback max rate capped at %f.\n
 \t\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r
+\t\tV_atoi64
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
@@ -9090,21 +9098,20 @@ Zq",9\fB
 \vSimulationTicks
 \vSource
 \vVyC
-\v\tV_cosf
 \vbasetypes.h
 \vm\vm\vm\vH\vm\vm\v
 \vm\vm\vm\vm\vH\v
 \vnJH
+\vpl(C
 \vxYT
 ] is an invalid data character in JavaScript compatibility mode
 ]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
-]\tV_roundd
+]\tV_qsort_s
 ^<V7w
 ^RfN>
 ^\n*NETWORK_DISCONNECT_KICKED_CONVICTEDACCOUNT
 ^\n*NETWORK_DISCONNECT_KICKED_UNTRUSTEDACCOUNT
 ^\n*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
-^\tV_roundf
 ^^^ Duplicate connection allowed\n
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -9161,6 +9168,7 @@ _spawngroup_logging/log_%s_group_%s.txt
 _temp_mapcycle.txt
 `-uRQg
 `3Q"X
+`6p\nH
 `?m'_?&~]?(
 `RTTI
 `adjustor{
@@ -9218,6 +9226,7 @@ a numbered reference must not be zero
 a&M-=Z]<i*k)n-t&q&p&|
 a6>r
 a?wSa?\
+a\tV_roundd
 a\v4+Wk
 abcdefghijklmnopqrstuvwxyz
 abortflag
@@ -9344,6 +9353,7 @@ b#M**y`Bl+o(u,{ x$w!
 b0xNA;;|E)!
 b3>7
 b?qq
+b\tV_roundf
 backColorBuffer
 backDepthBuffer
 backbuffer,
@@ -9456,7 +9466,6 @@ c?FA@s}
 cB$$"$""""SE$4"tfFDD
 cM*"K
 cNDS
-c\tV_sincosf
 c_os
 callback_index
 cameraman_scoreboard
@@ -9845,7 +9854,6 @@ eO@R
 eOXy
 eQueryCvarValueStatus_NotACvar
 eSOUax
-e\tV_sinf
 echo
 echoln
 edem
@@ -9958,6 +9966,7 @@ fD""B
 fD>b
 fDD"AUDT$t
 fP~V
+fR*H
 fWi?
 fabs
 failed
@@ -10060,6 +10069,7 @@ future
 future already retrieved
 g>M-a>Y
 gSB5*!
+g\tV_sincosf
 g_pRenderDeviceMgr is NULL. Driver data unavailable\n
 game
 game does not support save/restore.
@@ -10154,7 +10164,6 @@ hJ4%
 hPU3
 hTarget
 h\n,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
-h\tV_snprintf
 has_pvs_vis_bits_deprecated
 header crc mismatch
 header_icon
@@ -10212,6 +10221,7 @@ http://localhost:8080
 i3V.
 i91k
 iController
+i\tV_sinf
 i]Wb
 idempotency_level
 identifier removed
@@ -10411,6 +10421,7 @@ kv 0x%p Release refcount == %d\n
 l6qnk
 l:Iv
 lDa>
+l\tV_snprintf
 l`UROM=;98310-*)(&$"
 label
 lambda
@@ -10725,7 +10736,6 @@ nMax
 nMin
 nTries < 10000000
 n\n0NETWORK_DISCONNECT_KICKED_VACNETABNORMALBEHAVIOR
-n\tV_sscanf
 n]?iJ
 n`xBF|7T
 name
@@ -10944,8 +10954,6 @@ p2pX%
 p2p_listpeers
 p2p_ping "%s"
 p4edit
-p>8)H
-p>W)H
 p?ff
 p@HPX`h\f
 pClass
@@ -11001,6 +11009,7 @@ phys_highlight_expensive_objects
 phys_highlight_expensive_objects_strength
 ping
 pitch
+pl(C
 playback_frames
 playback_ticks
 playcast
@@ -11085,6 +11094,7 @@ pulse_system.dll
 punct
 purecall
 push_var_values
+pvConditionalsEvaluated
 py_generic_services
 qIU<
 qM1H
@@ -11105,6 +11115,7 @@ r?dar?\n
 rA?7
 rEy5
 rFg7
+r\tV_sscanf
 r\tVr.>T
 r_add_views_in_pre_output
 r_always_render_all_windows
@@ -11292,7 +11303,6 @@ s5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
 sAmTb
 sHF'
 sUIL\s
-s\tV_stricmp_fast
 satisfied
 save
 save LowBattery_AutoSave\n
@@ -11881,7 +11891,6 @@ type.googleprod.com/
 typesafe_float, 
 typesafe_int, 
 uV<c
-u\tV_strlower_fast
 ub?L
 udp/ip   : %s:%i
 udp_port
@@ -12101,6 +12110,7 @@ wPj}
 wU9%
 wXR\r
 w\fg3
+w\tV_stricmp_fast
 waC+
 wait_time
 waiting
@@ -12156,7 +12166,7 @@ y22]
 y9*O
 y?Zzy?
 yM+7
-y\tV_strtod
+y\tV_strlower_fast
 yields
 yiq-
 yslf`ZTMGA;5.
@@ -12187,6 +12197,7 @@ zx?L
 |qke_XRLF@93-'!
 } Dispatched EventAppShutdown_t\n
 }J;Ea
+}\tV_strtod
 }p?IGq?|\fr?
 }sKI
 }uxa

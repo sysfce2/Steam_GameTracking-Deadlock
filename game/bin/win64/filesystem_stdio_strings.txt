@@ -76,7 +76,6 @@
 #P0_?G0
 #Q7z
 #\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
-#\tV_fread
 #\v+(bF&drJ:x#
 #k+ka\T
 #lyj
@@ -194,6 +193,7 @@ $hRh
 'DAE
 'O6n
 'Z9t%
+'\tV_fread
 'g0dW
 'id' or 'name' missing
 'pSN.F
@@ -210,7 +210,6 @@ $hRh
 (NONE)
 (U1h
 (ZdOt\n&
-(\tV_fseek
 (d4t8
 (fS{ggRcjh
 (h`H1pqA
@@ -224,7 +223,6 @@ $hRh
 )J9o
 )TpH
 )Urz
-)\tV_fseeki64
 )fuG
 )haI
 *%*/*O*U*_*e*k*m*s*
@@ -244,7 +242,6 @@ $hRh
 +(#\v&dbF:xrJ'$#
 +D5X
 +Sgs
-+\tV_ftelli64
 +gC&s
 +v30Y
 , Type=
@@ -258,6 +255,7 @@ $hRh
 ,Reason=
 ,ShfPQ
 ,ZFDGn
+,\tV_fseek
 ,fQM(
 ,h11]
 ,hmQ#
@@ -283,6 +281,7 @@ $hRh
 -DBF
 -U`5K
 -\6G5
+-\tV_fseeki64
 -l34
 -mB:t
 -~T\viMOb
@@ -609,6 +608,7 @@ $hRh
 /2x1
 /5dJ
 /RIv
+/\tV_ftelli64
 /usr/local/ssl
 /usr/local/ssl/cert.pem
 /usr/local/ssl/certs
@@ -3841,6 +3841,7 @@ Z~wl
 \tJm_9
 \tLa0+
 \tV_ferror
+\tV_strtoui64
 \tV_tmpnam
 \toRE
 \ttqE5
@@ -3919,7 +3920,6 @@ aRWZ5
 aRecord
 aSRP
 aXvC
-a\tV_setvbuf
 a]?xG
 aaControls
 ac-auditEntity
@@ -4678,6 +4678,7 @@ eNULL
 eODj
 eTU\n
 eXQd
+e\tV_setvbuf
 e\tcCPtH
 ec group new by name failure
 ec_GF2m_simple_group_check_discriminant
@@ -7274,7 +7275,6 @@ zz2K
 |<C!FReQ
 |InzT
 |XYl
-|\tV_strtoui64
 |hdX)
 |sG2
 |}Eq1

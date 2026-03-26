@@ -319,7 +319,6 @@ $prefix_element$
 &Paste
 &Paste (
 &X?setAlphaF@QColor@@QEAAXN@Z
-&\tV_frexpf
 ' ?timerEvent@QPlainTextEdit@@MEAAXPEAVQTimerEvent@@@Z
 '%s' is not a valid variable type
 'OverrideClass' was specified but class '%s' has not been previously defined.\n
@@ -373,6 +372,7 @@ $prefix_element$
 *NONE*VALID*
 *\f?focusOutEvent@QAbstractSpinBox@@MEAAXPEAVQFocusEvent@@@Z
 *\nNx+\nCh,\n'
+*\tV_frexpf
 + ?timerEvent@QToolButton@@MEAAXPEAVQTimerEvent@@@Z
 +"?updateGeometries@QListView@@MEAAXXZ
 +Advanced Options
@@ -8106,7 +8106,6 @@ $prefix_element$
 64 283 0
 6[?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 6\f?focusOutEvent@QPlainTextEdit@@MEAAXPEAVQFocusEvent@@@Z
-6\tV_isinfd
 6\v?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
 6\v?event@QComboBox@@UEAA_NPEAVQEvent@@@Z
 7&F|If
@@ -8126,6 +8125,7 @@ $prefix_element$
 :: <NO TARGET BONE>
 :\f?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
 :\n?doSetTextCursor@QPlainTextEdit@@MEAAXAEBVQTextCursor@@@Z
+:\tV_isinfd
 :\v?canRead@QImageReader@@QEBA_NXZ
 ; tris:
 ;\n?doSetTextCursor@QTextEdit@@MEAAXAEBVQTextCursor@@@Z
@@ -12324,7 +12324,6 @@ I[?setRgbF@QColor@@QEAAXNNNN@Z
 I\n?compare@QString@@QEBAHAEBV1@W4CaseSensitivity@Qt@@@Z
 I\r?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 I\r?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
-I\tV_log2f
 If (R%d) Jump to Instr I%d
 If (R%d) Leap to Chunk C%d
 If -1 timer will continue forever
@@ -12543,7 +12542,6 @@ J%f%f%f%f%f%f%f%f
 JIGGLE_BONE
 JPEG
 J\r?hitButton@QPushButton@@MEBA_NAEBVQPoint@@@Z
-J\tV_logd
 J\v?event@QLabel@@MEAA_NPEAVQEvent@@@Z
 JawD
 JawH
@@ -12789,6 +12787,7 @@ MWheelRight
 MWheelUp
 M\n?done@QDialog@@UEAAXH@Z
 M\t?canDropMimeData@QAbstractProxyModel@@UEBA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
+M\tV_log2f
 M\v?event@QListWidget@@MEAA_NPEAVQEvent@@@Z
 Make
 Make Angle
@@ -13061,6 +13060,7 @@ NOT_EQUAL
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
 NULL CELL 
 NULL VP8Io parameter in VP8Decode().
+N\tV_logd
 N\v?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
 N_U9203
 Name Mode
@@ -13222,7 +13222,6 @@ Number of Sides
 Number of samples per pixel.
 NumberOfInks
 ORIENT
-O\tV_modfd
 Oa?width@QImage@@QEBAHXZ
 Object
 Object Rotation
@@ -14111,6 +14110,7 @@ SMaxSampleValue
 SMinSampleValue
 SP?isNull@QPixmap@@QEBA_NXZ
 STANDIN: %1
+S\tV_modfd
 Safeguard against producing a model outside budgetary limits.
 Sample Count
 Sample Pixel Color
@@ -14996,7 +14996,6 @@ VSNAPEmpty
 VSNAPList
 VSNAPParticle
 VZ#-DLU[3=h
-V\tV_powd
 V\v?event@QProgressBar@@MEAA_NPEAVQEvent@@@Z
 Va?width@QPixmap@@QEBAHXZ
 Value 0-1 how far along duration (always 0 if duration is -1)
@@ -15224,6 +15223,7 @@ ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
 Z\f?convertFromImage@QPixmap@@QEAA_NAEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+Z\tV_powd
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 ZoomAllCamerasIn
 ZoomAllCamerasOut
@@ -15338,7 +15338,6 @@ ZoomForwardBack3D
 \n?editingFinished@QLineEdit@@QEAAXXZ
 \n?editorDestroyed@QAbstractItemView@@MEAAXPEAVQObject@@@Z
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
-\n\tV_cosd
 \n\t\tCREATE TABLE IF NOT EXISTS Thumbnails (\n\t\t\tAssetPath TEXT PRIMARY KEY,\n\t\t\tFingerprint INTEGER,\n\t\t\tPNGData BLOB\n\t\t);\n\t
 \n\t\tDELETE FROM Thumbnails WHERE AssetPath IN ( SELECT AssetPath FROM AssetsToDelete );\n\t\tDROP TABLE AssetsToDelete;\n\t\tCOMMIT;\n\t
 \n\t\tDELETE FROM Thumbnails WHERE AssetPath IN (\n\t\t\tSELECT T.AssetPath\n\t\t\tFROM Thumbnails T\n\t\t\tLEFT JOIN ExistingAssets EA\n\t\t\t\tON T.AssetPath = EA.AssetPath\n\t\t\tWHERE EA.AssetPath IS NULL\n\t\t\t\tOR T.Fingerprint != EA.Fingerprint\n\t\t);\n\t\tDROP TABLE ExistingAssets;\n\t\tCOMMIT;\n\t
@@ -15368,7 +15367,6 @@ ZoomForwardBack3D
 \rO?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
-\r\tV_coshf
 \t?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
 \t?alpha@QColor@@QEBAHXZ
 \t?alphaF@QColor@@QEBANXZ
@@ -15389,7 +15387,11 @@ ZoomForwardBack3D
 \t?defaultWidget@QWidgetAction@@QEBAPEAVQWidget@@XZ
 \t@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
+\tV_atan2d
+\tV_atand
 \tV_atanf
+\tV_cosd
+\tV_coshf
 \tV_exp2f
 \tV_expd
 \tV_tand
@@ -16087,7 +16089,6 @@ cyclestart
 cylinder
 d\f?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 d\f?deleteLater@QObject@@QEAAXXZ
-d\tV_sind
 d\v?event@QStackedWidget@@MEAA_NPEAVQEvent@@@Z
 damage_direction_cp
 damage_position_cp
@@ -16471,7 +16472,6 @@ func_physbox
 functionName
 g\r?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
-g\tV_sinhf
 g_pToolSceneNodeFactory
 g_vLayerBlendParams1
 g_vLayerHeightRangeOffset1
@@ -16589,6 +16589,7 @@ guide_hair_count
 hResource
 hS(e
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
+h\tV_sind
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ
 hair_count
@@ -16769,6 +16770,7 @@ joint_parent
 joints
 k"?value@QAbstractSlider@@QEBAHXZ
 kX?setBlue@QColor@@QEAAXH@Z
+k\tV_sinhf
 k\v?event@QTextEdit@@MEAA_NPEAVQEvent@@@Z
 keep_colliders
 keep_vertices_in_memory
@@ -17277,7 +17279,6 @@ numsides_key
 o KPBf
 oY.o<
 o\n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
-o\tV_sscanf_s
 o\v?event@QTreeWidget@@MEAA_NPEAVQEvent@@@Z
 observable_listeners
 observer_cursors
@@ -17646,6 +17647,7 @@ rsqrt
 s off\ng cMesh\nusemtl initialShadingGroup\n
 sO?insertRows@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 s\f?copy@QPixmap@@QEBA?AV1@HHHH@Z
+s\tV_sscanf_s
 s_hColoredVertexLayout
 sample_rays
 sanitizetrajectories

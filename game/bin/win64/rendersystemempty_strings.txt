@@ -448,7 +448,6 @@ Invalid tile size x :
 Invalid tile size y : 
 J%f%f%f%f%f%f%f%f
 JPEG
-J\tV_logd
 Keeping resolution of (%dx%d)\n
 LZWDecode: Bogus encoding, loop in the code table; scanline %d
 LZWDecode: Corrupted LZW table at scanline %d
@@ -496,6 +495,7 @@ Minimum VRAM required: %s MB\n
 MissingRequired
 MnZ/rs
 NULL VP8Io parameter in VP8Decode().
+N\tV_logd
 N_U9203
 NeXT
 NeXTDecode: Not enough data for scanline %ld
@@ -680,7 +680,6 @@ Usage: %s <window_name>
 VB Size: %s (Count: %d)\n
 VBPool
 VZ#-DLU[3=h
-V\tV_powd
 Valve.Source.Render
 Version
 Video Card %s (%04x : %04x)\n
@@ -711,7 +710,9 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
+Z\tV_powd
 \t@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
+\tV_atan2d
 \tV_expd
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \tg_TSPointerListNodes
@@ -848,5 +849,5 @@ video.cfg
 video_version
 wyS]
 x0Ysqx
-z\tV_strtoi64
+~\tV_strtoi64
 ~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#"! 

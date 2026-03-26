@@ -833,7 +833,6 @@ $prefix_element$
 &AK(h
 &V6J
 &Ylb
-&\tV_frexpf
 '%s' cannot be referenced via VPDI, use item resource compiler instead.\n
 '%s' follows '%s'
 '%s' is not a known input
@@ -981,6 +980,7 @@ $prefix_element$
 *\fhsD
 *\nNx+\nCh,\n'
 *\nOx+\nDh,\n(
+*\tV_frexpf
 *d\f\f*T\v\f*4\n\f*
 *extraFilterString=tileset
 *gFBk
@@ -20253,6 +20253,7 @@ $prefix_element$
 08B0
 08bX
 09,h
+09:08:13
 0;Q5[
 0<cz
 0M2~@p
@@ -20277,7 +20278,6 @@ $prefix_element$
 11nN
 12'0
 1280x720
-12:06:26
 12v)
 14 (default)
 15\tr\
@@ -20332,8 +20332,6 @@ $prefix_element$
 2\fWQx
 2\rE2h
 2\rlhp
-2\vp4
-2\vpH\t
 2^pV
 2_BONE_IK
 2a"l
@@ -20396,7 +20394,6 @@ $prefix_element$
 5A10K
 5EwO
 5N{j
-5\tV_isfinited
 5\vFuo
 5b!g
 5dO7
@@ -20498,6 +20495,7 @@ $prefix_element$
 9Y@nJM
 9Zr4
 9\not
+9\tV_isfinited
 9\tiI
 9]ZV
 9aDW
@@ -20646,7 +20644,6 @@ $prefix_element$
 ??1HandleScope@v8@@QEAA@XZ
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
-?Animation node must have a name!
 ?CChoreoObjectBase
 ?Compile@Script@v8@@SA?AV?$MaybeLocal@VScript@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VString@v8@@@2@PEAVScriptOrigin@2@@Z
 ?Create@FbxIOSettings@fbxsdk@@SAPEAV12@PEAVFbxManager@2@PEBD@Z
@@ -20668,6 +20665,7 @@ $prefix_element$
 ?PermModelData_t
 ?SelectionSource_t
 ?VBH;
+?clip_raw_size
 ?d86L
 ?dt]X
 ?func_ladder
@@ -20685,11 +20683,10 @@ $prefix_element$
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
-@08NT
+@08N$
 @0pp
 @BH]f
 @CMixControlAutomatic
-@HPX`hv 
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -21338,6 +21335,7 @@ Animation Pose
 Animation Skeleton Compiler Version
 Animation Skeleton Name
 Animation Source
+Animation node must have a name!
 Animation references itself as blend target
 Animation references itself as the source animation
 Animation/AccumulatePose
@@ -21553,7 +21551,7 @@ AxisAlignedDualDepthMap_t::AxisAlignedDualDepthMap_t(), C:\buildworker\citadel_r
 B (Optional)
 B channel
 B channel not found!\n
-B!=WINDOWS
+B!=C:\buildworker\citadel_rel_win64\build\src\appframework\gameinfo.cpp
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
@@ -21566,7 +21564,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0f?
 B2I_DSS
 B2I_RSA
 B2pr
@@ -23994,7 +23991,6 @@ Cannot convert KV3 type '%s' (%u) to a string token
 Cannot convert from %s to %s
 Cannot create convex hull from %d verts
 Cannot create input layouts for mesh\n
-Cannot create texture atlas
 Cannot determine end effector bone from :: %s[%s]
 Cannot directly compile files of type "%s".\n
 Cannot find Cloth Node "%s"
@@ -24025,6 +24021,7 @@ Cannot find sequence %s\n
 Cannot find sheet image "%s"!\n
 Cannot find source animation :: %s
 Cannot find tag with ID %i
+Cannot fit morph into atlas: "%s"
 Cannot generate literal for Unknown type - choose a specific type
 Cannot generate literal for Variant directly - choose a specific type
 Cannot generate literal for Void type
@@ -28229,7 +28226,6 @@ ITEMS
 ITU-T
 IV block
 I\tHA\t981G'dc
-I\tV_log2f
 If (R%d) Jump to Instr I%d
 If (R%d) Leap to Chunk C%d
 If -1 timer will continue forever
@@ -28780,7 +28776,6 @@ JPQv
 JS_!0
 JZIX
 J\nHBF
-J\tV_logd
 J`KL
 JavaScript Compiler Version
 JavaScriptCompiler
@@ -29324,6 +29319,7 @@ MVDataUsesComponentEditor
 MVDataVirtualNodeFactoryFn
 MZL}
 M\rLAI)haL<|p\t\t
+M\tV_log2f
 M\vOj
 Mail
 Main Actor
@@ -29938,6 +29934,7 @@ NWzl\n\
 NXfT>o
 N[Ox
 N[iY 
+N\tV_logd
 N\v7e_
 N_U9203
 N`UaK
@@ -30621,9 +30618,10 @@ P-224
 P-256
 P-384
 P-521
-P08NT
+P08N$
 P1\t98"
 P5[1
+P6p\t
 PAGN_4
 PARAMETERS
 PARENT
@@ -31660,11 +31658,9 @@ RSDSX
 RT Proxy albedo: %s verts / %s.  %i/%i instances with unique data.\n
 RT Proxy geometry: %s verts / %s, %s indices / %s.  Duplicated %i verts due to partitions\n
 RT60 for low, mid, and high frequency bands for the probe.
-R\fpH\t
 R\r1>Vp
 R\vp!6
 R\vp!y
-R\vp4
 R]Di
 R_T5Y
 Rad2 Deg
@@ -34347,7 +34343,6 @@ VULKAN
 VY5[;o
 VZ#-DLU[3=h
 V\rKk
-V\tV_powd
 V_a|I
 V_uuid_t
 Valid Content Absolute Path
@@ -35002,6 +34997,7 @@ ZLIB
 ZLONG
 ZSz@
 ZXF,`i
+Z\tV_powd
 Zd[w
 Ze2Zh@
 Zero Pose Task
@@ -35205,7 +35201,6 @@ Z~wl
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 \n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
-\n\tV_cosd
 \ncompute_all_lightmap_blocks:\n
 \ncompute_lpv_%d:\n
 \ndummyfilename.tif
@@ -35219,7 +35214,7 @@ Z~wl
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
 \r@h!Aq8
 \rB6uZ
-\rCannot fit morph into atlas: "%s"
+\rCannot create texture atlas
 \rKT8v
 \rLAM
 \rMinghuaQu\f
@@ -35239,7 +35234,6 @@ Z~wl
 \r[100] polygonizing (%lld ms)\n
 \r[100] sorting vertices (%lld ms)\n
 \r[WRN] %d crossing edges detected - unfixed\n
-\r\tV_coshf
 \r\vpL1
 \r^mX
 \rbinary
@@ -35279,10 +35273,16 @@ Z~wl
 \tRemoved Degenerate Triangle Count: %i\n
 \tTriangle Count: %i\n
 \tUnique Geometry: %s unique meshes w/ %s tris, %s verts\n
+\tV_atan2d
+\tV_atand
 \tV_atanf
+\tV_cosd
+\tV_coshf
 \tV_exp2f
 \tV_expd
 \tV_fgets
+\tV_strtok
+\tV_strtoui64
 \tV_tand
 \tV_tanhf
 \tVertex Count: %i\n
@@ -35554,7 +35554,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvT
+aBv$
 aD/x
 aDSS
 aECDH
@@ -36710,7 +36710,6 @@ clip_compressed_size
 clip_compression_ratio
 clip_compression_time
 clip_name
-clip_raw_size
 clipmap_levels
 close_outline_at_hard_edges
 closed
@@ -37726,7 +37725,6 @@ dSAQuality
 dWry
 dZ!2.
 d[kHy 
-d\tV_sind
 d_r_0
 damage_direction_cp
 damage_position_cp
@@ -38907,7 +38905,6 @@ gF{A
 gHAx
 gTH.M
 gXC.nT\v
-g\tV_sinhf
 g]i/H
 g_bFogTypeEnabled
 g_bOtherFxEnabled
@@ -39225,8 +39222,7 @@ g|FeW\v
 g|MT
 h&eC
 h*Ax
-h+\npk
-h,\nPE
+h+\n02
 h0XB
 h2Wl
 h2n_\
@@ -39244,6 +39240,7 @@ hW*m
 hW1M
 hW_z
 hX@e
+h\tV_sind
 h`Zr
 hair_count
 halfEdges %d,%d faces %d,%d angle %.1f deg.
@@ -40165,6 +40162,7 @@ kSRP
 kV!DA
 kV'0
 kVV\t/
+k\tV_sinhf
 k^ZP
 ka`O
 kdf parameter error
@@ -42152,7 +42150,6 @@ oOffset
 oWnS
 oXHT
 oY.o<
-o\tV_sscanf_s
 oad2:,
 oaep
 oaep decoding error
@@ -42340,7 +42337,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^T
+p08@H^$
 p2{l
 p4Z3
 p4lib
@@ -42523,7 +42520,7 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
-pc64 Mar  6 2026 12:06:29
+pc64 Mar 26 2026 09:08:36
 pcPathLengthConstraint
 peak
 peak_attr
@@ -42989,7 +42986,6 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
-r\vpH\t
 rad2deg
 radians
 radius0_key
@@ -43405,6 +43401,7 @@ sOARecord
 sRGB
 sT5w!
 sV u\t
+s\tV_sscanf_s
 s\tor
 s_pfnRtlGenRandom && s_pfnRtlGenRandom( buf, num )
 saJ!
@@ -45363,7 +45360,6 @@ vTraceDirection
 vUpDirection
 vVOnPlane1
 vW3N&
-v\tV_strnchr
 v\v$m8
 v_movement_direction
 valid
@@ -45616,7 +45612,6 @@ wQ0"
 wR\fe3c
 wRlb.
 wY[K,
-w\tV_strspn
 w_5&#R4
 wait_until_end
 waiting_group
@@ -45819,6 +45814,7 @@ zDconst char *__cdecl Reflection::Internal::GetFuncName<class CFootPinningPoseOp
 zF):O4
 zG2m8
 zRXU 
+z\tV_strnchr
 zero dir
 zero_unselected
 zero_value
@@ -45837,7 +45833,7 @@ zz2K
 {9d:c
 {Hammer node %d} 
 {H}yq
-{\tV_strtok
+{\tV_strspn
 {actor}
 {error}
 {ghz6
@@ -45868,7 +45864,6 @@ zz2K
 |F?ToObject@Value@v8@@QEBA?AV?$MaybeLocal@VObject@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 |InzT
 |XYl
-|\tV_strtoui64
 |hdX)
 |sG2
 |}Eq1

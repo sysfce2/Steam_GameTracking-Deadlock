@@ -443,18 +443,16 @@
 2\vpD.
 3?New@Number@v8@@SA?AV?$Local@VNumber@v8@@@2@PEAVIsolate@2@N@Z
 3?New@Object@v8@@SA?AV?$Local@VObject@v8@@@2@PEAVIsolate@2@@Z
-3\tV_isbreakablewspace32
 5butt
 6?NumberValue@Value@v8@@QEBA?AV?$Maybe@N@2@V?$Local@VContext@v8@@@2@@Z
+7\tV_isbreakablewspace32
 89n&
 8B@w
 8C:\buildworker\citadel_rel_win64\build\src\panorama\layout\stylepropertyfactory.cpp
-9\tV_isvalidhex
 :context->%p->%s:\n
 :context->null->UIEngine Global:\n
 << LIST TRUNCATED >>
 << Unconverted type %d >>
-<\tV_iswcntrl
 <a href="\1\3">\1\3</a>
 <span class="%s"> %s="</span>
 <span class="%s"> address="</span>
@@ -465,7 +463,7 @@
 <span class="%s">%p</span>
 <span class="%s">%s</span>
 <span class="%s">0x%x</span>
-=\tV_iswdigit
+=\tV_isvalidhex
 >SystemInputLanguageChanged
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
@@ -491,13 +489,14 @@
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @DebugIndividualStyle
-@\tV_iswspace
+@\tV_iswcntrl
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @panorama_streaming_load_local_images
 AA:0
 ABXY
 APIN_txt
+A\tV_iswdigit
 A_txt
 AccessDropDownMenu
 Activated
@@ -709,6 +708,7 @@ CreatePanelWithCurrentContext
 CreateVideoPlayer
 CuesContainer
 CycleButton
+D\tV_iswspace
 DaisyInputTypeABXY
 DaisyInputTypePIN
 DaisyInputTypeRS
@@ -1598,6 +1598,7 @@ X`hr
 Y_txt
 [object@%p]
 \tV_atanf
+\tV_strupper_fast
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_AppendSlash
 \t_V_strcspn
@@ -2435,7 +2436,6 @@ zoom-out
 zoomwithuiscale
 |F?ToObject@Value@v8@@QEBA?AV?$MaybeLocal@VObject@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 }3?New@FunctionTemplate@v8@@SA?AV?$Local@VFunctionTemplate@v8@@@2@PEAVIsolate@2@P6AXAEBV?$FunctionCallbackInfo@VValue@v8@@@2@@ZV?$Local@VValue@v8@@@2@V?$Local@VSignature@v8@@@2@HW4ConstructorBehavior@2@W4SideEffectType@2@PEBVCFunction@2@GGG@Z
-}\tV_strupper_fast
 ~CMoviePlayer
 ~CPanel2D
 ~CPanel2D - destroy members

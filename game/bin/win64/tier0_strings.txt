@@ -56,6 +56,7 @@
  with base 
 !AxU
 !TdM
+!V_isempty( pSecretKey )
 !link
 "%s","%s",%s,"%s"\n
 "0x%llX"
@@ -76,6 +77,7 @@
 #include is NULL 
 #int#
 #nyf
+#vpulse2
 $Ib?s
 $eax
 $ebp
@@ -431,6 +433,7 @@ $xmm9
 (yaX
 ) : AssertMsg Failed in function 
 ) : Assertion Failed in function 
+)05\t8K1
 )14:;EFIJ^de
 )14:EFIJNOde\
 )EIWde
@@ -781,12 +784,10 @@ $xmm9
 1;TRUE;YES;ON
 1A26b
 1DBlend
-1Ia0J1
 1icl
 1wsHp
 2,THh
 28~v
-2\vpd
 2aNuE
 3 FB
 3+5<t
@@ -813,6 +814,7 @@ $xmm9
 5\fE5d
 5m8>8=t
 5nsfZ
+5tPI1
 64-bit DWARF format is not supported\n
 67VW
 6A_p
@@ -859,7 +861,6 @@ $xmm9
 ;srv*http://symbols/windows
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <!-- schema 
-<"PK1
 </link>
 </script>
 <6Rj
@@ -1261,6 +1262,7 @@ $xmm9
 ?AttemptToLoad@CDbgHelpFunctionsLoader@@AEAAXXZ
 ?AttemptToLoad@CImageHlpFunctionsLoader@@AEAAXXZ
 ?AttemptToLoad@CPSApiFunctionsLoader@@AEAAXXZ
+?Authenticate@Blake3SignedHash_t@@QEBA_NPEBD@Z
 ?BaseSymCleanup@CDbgHelpFunctionsLoader@@QEAAXPEAX@Z
 ?BaseSymInitialize@CDbgHelpFunctionsLoader@@QEAAXPEAXPEBD_N@Z
 ?BeginItem@IFormatOutputStream@@UEAAXXZ
@@ -1324,6 +1326,7 @@ $xmm9
 ?CreateKeyUsingKnownLastChild@KeyValues@@QEAAPEAV1@PEBDPEAV1@@Z
 ?CreateNewKey@KeyValues@@QEAAPEAV1@XZ
 ?CreatePeerKey@KeyValues@@QEAAPEAV1@PEBD@Z
+?CreateUnsignedHash@Blake3SignedHash_t@@SA?AU1@PEBX_K@Z
 ?CurrentFileFullPath@CDirIterator@@QEAAPEBDXZ
 ?DebugPrintKV3@@YAXPEBVKeyValues3@@@Z
 ?Debug_GetAllocationsSnapshot@CPoolAllocator@@QEBAXPEAV?$CUtlVector@UHandle_t@CPoolAllocator@@HV?$CUtlVectorMemory_Growable@UHandle_t@CPoolAllocator@@H$0A@@@@@@Z
@@ -1609,6 +1612,7 @@ $xmm9
 ?GetGameInfoFloat@@YAMPEBDM@Z
 ?GetGameInfoInt@@YAHPEBDH@Z
 ?GetGameInfoKey@@YAPEAVKeyValues@@PEBD@Z
+?GetGameInfoPlatformSpecificBool@@YA_NPEBD_N@Z
 ?GetGameInfoString@@YAPEBDPEBD0PEAD_K@Z
 ?GetGameInfoUint64@@YA_KPEBD_K@Z
 ?GetHandle@CThreadSyncObject@@QEBAPEAXXZ
@@ -1703,7 +1707,7 @@ $xmm9
 ?GetWinLevelRevision@CPUInformation@@SA_NPEAG0@Z
 ?GrowByChunks@CBufferString@@QEAAHHH@Z
 ?GrowPool@CPoolAllocator@@QEAAXI@Z
-?HEAP WARNING: memory block at %p appears to be corrupt\n
+?HEAP WARNING: memory pointer %p is invalid\n
 ?HandleFirstWriteLockTransition@CEventRWLock@@IEAAXAEAVCEventListNode@@@Z
 ?HandleToString@CCountedStringPool_CI@@QEBAPEBDG@Z
 ?HandlerQueueHeartBeat@MiniDumpStandardData_t@@QEBAXXZ
@@ -2197,6 +2201,7 @@ $xmm9
 ?SetWordWrapColumn@CGridStringPrinter@@QEAAXH_N0@Z
 ?ShortenPath@CBufferString@@QEAAPEBD_N@Z
 ?ShutdownInstance@CSingleAppInstance@@QEAAXXZ
+?SignHash@Blake3SignedHash_t@@QEAAXPEBD@Z
 ?Signal@CThreadMultiWaitObject@@QEAAXXZ
 ?SimpleSpew@CGridStringPrinter@@QEBAXHPEBD@Z
 ?SimpleSpewColor@CGridStringPrinter@@QEBAXHAEBVColor@@PEBD@Z
@@ -2558,7 +2563,6 @@ AppPolicyGetThreadInitializationType
 ApplyDiffs
 April
 AreFileApisANSI
-Assert
 AssertDlgThread
 Assertion Dialog could not be created. Breaking in debugger.\n
 Assertion Dialog could not be created. Ignoring assertion. Run under the debugger to break instead.\n
@@ -2644,6 +2648,8 @@ BeginPaint
 BenchmarkService001
 BentNormalData
 BinaryProperties_GetValue
+Blake3SignedHash_t::Authenticate
+Blake3SignedHash_t::SignHash
 BlendLayer
 BlendLayerBase
 BlendLayerPoseParam
@@ -2674,6 +2680,7 @@ C:\buildworker\citadel_rel_win64\build\src\public\tier0\threadmutex.h
 C:\buildworker\citadel_rel_win64\build\src\public\tier0\tslist.h
 C:\buildworker\citadel_rel_win64\build\src\public\tier0\utldict.h
 C:\buildworker\citadel_rel_win64\build\src\public\tier0\utlrbtree.h
+C:\buildworker\citadel_rel_win64\build\src\tier0\checksum_blake3.cpp
 C:\buildworker\citadel_rel_win64\build\src\tier0\coroutine.cpp
 C:\buildworker\citadel_rel_win64\build\src\tier0\fileio.cpp
 C:\buildworker\citadel_rel_win64\build\src\tier0\keyvalues3_kv1textwriter.cpp
@@ -3960,6 +3967,7 @@ GameDVR_Enabled
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
+General
 GenerateHashFromUniqueId
 GenericGameData
 Generic_x86
@@ -4110,10 +4118,10 @@ H$BQ
 H(VVH
 H*0"ZOW
 H>r1
+HEAP WARNING: memory block at %p appears to be corrupt\n
 HEAP WARNING: memory block at %p is unexpectedly allocated\n
 HEAP WARNING: memory block at %p is unexpectedly free\n
 HEAP WARNING: memory block at %p is unexpectedly unrecognized\n
-HEAP WARNING: memory pointer %p is invalid\n
 HH:MM:SS.z
 HH:mm:ss
 HIGHDPI
@@ -4138,7 +4146,7 @@ Hit end of line before closing quote (%c)
 Hits/Min
 Hj`F
 HostStateMgr001
-I7@J1
+I7hK1
 I;u>A
 IAnimAction
 IAnimClipData
@@ -4303,7 +4311,7 @@ ISolveIKChainAnimNode
 ISubGraphAnimNode
 ISubGraphManager
 ITALIAN
-I\zH60K1
+I\zH6hJ1
 Ignore
 Ignore All Asserts
 Ignore For 24 Hours
@@ -4342,7 +4350,6 @@ InitializeSListHead
 InitializeSRWLock
 InitializeSecurityDescriptor
 Inline attr without expected value\n
-Input contains no data
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
@@ -4831,7 +4838,7 @@ Outflow_NPCScriptedMoveTo
 Outflow_NPCUseScriptedAbility
 Outflow_Simultaneous
 OutputDebugStringA
-P(YXx
+P(YX(
 P4_EXTRACT_CMD=p4.exe print -o %srcsrvtrg% -q "//%var3%#%var4%"\n
 P4_EXTRACT_TARGET=%targ%\%var2%\%fnbksl%(%var3%)\%var4%\%fnfile%(%var1%)\n
 PARTICLE_DEPTH_FEATHERING_OFF
@@ -6694,7 +6701,7 @@ Vrad3_001
 Vtube
 VtuneApi32e.dll
 W 7x
-W)lQ0
+W)lQ
 W/q#IX
 W4vC
 WARNING
@@ -6806,7 +6813,7 @@ Z>w_F
 ZSq>
 Z\>z8
 Zjz\v
-Zvpcf1
+Zvpcf2
 ZwSetTimerResolution
 [   func+child         func ]
 [   func+child       func ]
@@ -6857,7 +6864,8 @@ ZwSetTimerResolution
 \nh?oT
 \nk>oB
 \r00000000-0000-0000-0000-000000000000
-\rGeneral
+\rAssert
+\rInput contains no data
 \r\f\v\v\n\n\t\t\t\t\t
 \rmj>zjZ
 \sdktools\bin
@@ -6939,6 +6947,7 @@ _V_wcsncat_cch
 _V_wcsncpy_bytes
 _Warning_AlwaysSpewCallStack_Enable
 _Warning_AlwaysSpewCallStack_Length
+_Windows
 __based(
 __cdecl
 __clrcall
@@ -7014,6 +7023,7 @@ _wWT+
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+`xJ1
 a6>r
 a?y#c?sIe?
 aC.B
@@ -8271,6 +8281,7 @@ nOffset < m_nAllocationSize
 nSwitchValue
 nTries < 10000000
 n\f"pA3Q
+n\f"pA3QX
 n]?iJ
 name
 nan(ind)
@@ -8582,6 +8593,7 @@ symbol
 symsrv.dll
 symtab
 t#tvI
+t+0Re\f
 table
 tail_frame
 tanf
@@ -8597,6 +8609,7 @@ template-param doesn't start with a 'T'\n
 template-param index doesn't end with a '_'\n
 test_angles_relative
 testscript_debug
+text
 text file busy
 texturescale
 the arena size is too small (memory at %p with size %zu)\n
@@ -8721,6 +8734,7 @@ vmdlkeys4
 void
 volatile
 vpcf
+vpcf1
 vpcf10
 vpcf11
 vpcf12
@@ -8731,7 +8745,6 @@ vpcf16
 vpcf17
 vpcf18
 vpcf19
-vpcf2
 vpcf20
 vpcf21
 vpcf22
@@ -8796,7 +8809,6 @@ vpulse14
 vpulse15
 vpulse16
 vpulse17
-vpulse2
 vpulse3
 vpulse4
 vpulse5
@@ -8844,9 +8856,8 @@ x=9v
 xSvf$
 xT?V
 xYiu
-x\t`K1
+x\tXK1
 x`tm6
-xrYPJ1
 xu37
 xuRCk
 y9*O
@@ -8857,7 +8868,6 @@ yaw_end
 yaw_start
 z3zr
 z8ji
-z:Ktext
 z>h4
 zN,W
 zQ3W

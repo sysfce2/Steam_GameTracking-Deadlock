@@ -4,7 +4,6 @@
 !!SyncExtref!!%s
 !I>Ct
 #OS_Default_Device
-#\tV_fread
 $procedural
 $toolgraphs
 %*s%s.%s: %s
@@ -38,15 +37,16 @@ $toolgraphs
 %s: Sound event executionlist has too many active voices (%d). Index %i : %s\n
 %s: params.pSfx is NULL.\n
 %s::Execute: Can't find operator stack %s in %s\n
+'\tV_fread
 (%2db) %6lli : %s\n
 (Steam Audio) Update physics material attribute of a VMAT file. They are used for picking acoustic material property for Steam Audio.
-(\tV_fseek
 (connected: %s %i )
 ** %s -> %s\n
 **Cleanup resources**
 **unload**
 *SoundEvent Data*\n\t
 +KjB
+,\tV_fseek
 ---empty---
 ---invalid event---
 -> Success (%d attempts)\n
@@ -2257,7 +2257,6 @@ VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
 VSNDVEC COMPARE FAIL: %s->%s\n
-V\tV_powd
 Value Operator Offset: %i\n
 Value Stack Offset: %i\n
 ValveSMMem:%s
@@ -2314,6 +2313,7 @@ Wrong arg count for '%s' %d, expected 2
 Wrong arg count for '%s' %d, expected 3
 Wt<c
 X<"wP
+Z\tV_powd
 [%s] %s : src %d : vol %.2f : time %.3f\n
 [Default] Determine a lifespan based on the warning/error state of the group
 [Default] General information
@@ -2327,13 +2327,14 @@ X<"wP
 \nType Name: %s\n
 \nUpdate SoundEvent: %s\n
 \rCAssociateResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!\n
-\r\tV_coshf
 \t dspmix %1.2f : lvol %1.2f : cvol %1.2f : rvol %1.2f : rlvol %1.2f : rrvol %1.2f\n
 \t x: %4f y: %4f z: %4f\n
 \tRefs %16s : Name (Locks)\n
 \tTrack: %s\n
 \tVOL: %f\n\tLVL: %f\n\tDSP: %f\n\tMUTE: %f\n\tSOLO: %f\n\n
 \tV_atanf
+\tV_coshf
+\tV_strtok
 \tV_tand
 \tV_tanhf
 \t[%2d] %16.16s : %s (%d) priority: %d\n
@@ -2571,7 +2572,6 @@ force_direction
 forever
 frames
 function
-g\tV_sinhf
 g_mastermixlayer:\n
 gainReduction
 game/
@@ -3035,6 +3035,7 @@ is_ducked
 is_local_player_slot
 is_untimed
 k8y<=
+k\tV_sinhf
 key_groups
 last_calc_time
 left_front
@@ -3758,7 +3759,6 @@ util_print_vsnd
 util_timer
 util_timer_ramp
 util_usable_float_range
-v\tV_strnchr
 values
 vector_facing_point
 velocity_zones
@@ -3808,5 +3808,5 @@ warn
 wave_type
 weights_field_name
 zG(knN~|wmW)
-{\tV_strtok
+z\tV_strnchr
 ~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown\n
