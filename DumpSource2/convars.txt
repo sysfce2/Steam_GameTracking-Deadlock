@@ -1168,7 +1168,7 @@ citadel_always_transmit_abilities false (developmentonly gamedll)
 citadel_announcement_banned_heroes_display_time 10 (developmentonly clientdll defensive)
 	<no description>
 
-citadel_announcement_display_time 1 (developmentonly clientdll defensive)
+citadel_announcement_display_time 4 (developmentonly clientdll defensive)
 	<no description>
 
 citadel_announcement_game_over_msg_display_time 11 (developmentonly clientdll defensive)

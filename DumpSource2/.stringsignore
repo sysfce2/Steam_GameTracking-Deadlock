@@ -6532,6 +6532,17 @@ CStateNodeTransitionData
 CStateUpdateData
 CStaticPoseCache
 CStaticPoseCacheBuilder
+CSteamAudioAmbisonicsField
+CSteamAudioBakedDimensionsData
+CSteamAudioBakedMaterialsData
+CSteamAudioBakedOcclusionData
+CSteamAudioBakedPathingData
+CSteamAudioBakedReverbData
+CSteamAudioCompressedReverb
+CSteamAudioProbeData
+CSteamAudioProbeGrid
+CSteamAudioProbeLineSegment
+CSteamAudioSceneData
 CStepsRemainingMetricEvaluator
 CStopAtGoalUpdateNode
 CStopwatch
@@ -17792,8 +17803,14 @@ Status Effects Offset (from abs origin)
 Status Tag
 StatusEffectProperty_t
 Stay crisp up through this distance.
+SteamAudioCustomDataDimensionsSettings_t
+SteamAudioCustomDataOcclusionSettings_t
 SteamAudioHRTFInterpolationType_t
 SteamAudioOcclusionModeType_t
+SteamAudioPathSettings_t
+SteamAudioReverbClusteringSettings_t
+SteamAudioReverbCompressionSettings_t
+SteamAudioReverbSettings_t
 Stencil
 Step Height
 Step Height Max
@@ -28033,6 +28050,7 @@ m_aPlayerControllers
 m_aPlayers
 m_aShootSounds
 m_aThinkFunctions
+m_aabb
 m_abilityID
 m_actions
 m_activated
@@ -28682,8 +28700,10 @@ m_bEnableAngularMotor
 m_bEnableAnimgraphTagDrivenStrafing
 m_bEnableBlinking
 m_bEnableClothSimulation
+m_bEnableClustering
 m_bEnableCodeDrivenAnimgraphMovement
 m_bEnableCollision
+m_bEnableCompression
 m_bEnableDistanceBlend
 m_bEnableDistanceBlend == false
 m_bEnableDistanceScaling
@@ -28706,10 +28726,12 @@ m_bEnableMovementToNodes
 m_bEnableNamedValues
 m_bEnableOcclusionBlend
 m_bEnableOcclusionBlend == false
+m_bEnablePathing
 m_bEnablePerspectiveCorrection
 m_bEnablePhaseMatching
 m_bEnablePreferredRotationDirection
 m_bEnableProjectedDepthControls
+m_bEnableReflections
 m_bEnableRendering
 m_bEnableRootHeightDamping
 m_bEnableRotationCorrection
@@ -28776,6 +28798,7 @@ m_bExplodeOnSpawn
 m_bExplosionCanHitMultipleTimes
 m_bExplosionReact
 m_bExplosions
+m_bExportScene
 m_bExposeAsParameter
 m_bExposeAsParameter == false
 m_bExposureControl
@@ -28951,7 +28974,6 @@ m_bHasBeenDrafted
 m_bHasBeenPhysgunned
 m_bHasBeenPreFiltered
 m_bHasBloomParams
-m_bHasBouncedPlayerBefore
 m_bHasBreakPiecesOrCommands
 m_bHasCameraOverride
 m_bHasCheckedFriendName
@@ -30580,6 +30602,7 @@ m_closedPosition
 m_clrRender
 m_clrTint
 m_clusterSizeOpvar
+m_clusteredProbes
 m_clutterSceneObjects
 m_cmd
 m_cmdLayerArray
@@ -30650,6 +30673,8 @@ m_componentID
 m_componentManager
 m_componentName
 m_components
+m_compressedClusteredData
+m_compressedData
 m_compressedFloatCurveData
 m_compressedFloatCurveOffsets
 m_compressedPoseData
@@ -31234,6 +31259,7 @@ m_feedbackFilter
 m_feet
 m_fetch
 m_fidgetTime
+m_field
 m_fileName
 m_filter
 m_filterType
@@ -32090,6 +32116,7 @@ m_flDepthBias
 m_flDepthBiasClamp
 m_flDepthOffset
 m_flDepthSortBias
+m_flDepthThreshold
 m_flDesatAmount
 m_flDesatFactor
 m_flDesaturation
@@ -32750,6 +32777,7 @@ m_flHullCapsuleRadius
 m_flHybridRatio
 m_flHysteresisInnerAngle
 m_flHysteresisOuterAngle
+m_flIRDuration
 m_flIdealSpringLength
 m_flIdealSpringLengthOverride
 m_flIdleModifier
@@ -32832,6 +32860,7 @@ m_flInputPixelVisFade
 m_flInputScale1
 m_flInputScale2
 m_flInputValue
+m_flInsideThreshold
 m_flInstantGoldPercentage
 m_flIntensity
 m_flIntentMultiplier
@@ -33742,6 +33771,7 @@ m_flOutputMax
 m_flOutputMin
 m_flOutputRemap
 m_flOutputStart
+m_flOutsideThreshold
 m_flOverbrightFactor
 m_flOverdriveCooldown
 m_flOverheatSoundTime
@@ -33935,6 +33965,9 @@ m_flPrimaryDropChance
 m_flPrimaryMuzzleResetTime
 m_flPriorityTargetLingerDuration
 m_flProbability
+m_flProbePathRange
+m_flProbeVisRadius
+m_flProbeVisThreshold
 m_flProceduralIdleTurnSpeed
 m_flProgress
 m_flProgression
@@ -33966,6 +33999,7 @@ m_flQ
 m_flQAngleSmoothRate
 m_flQAngleSpringConstant
 m_flQuadVelocitySmoothRate
+m_flQuality
 m_flQuantizeScale
 m_flQuantizeStrength
 m_flQuantizeValue
@@ -34317,6 +34351,7 @@ m_flSize
 m_flSizeMax
 m_flSizeMin
 m_flSizeSqr
+m_flSizeThreshold
 m_flSkirt
 m_flSkirtNear
 m_flSkullMeleeRange
@@ -35228,6 +35263,7 @@ m_graphType
 m_grassFileName
 m_gravityOverride
 m_gravityScale
+m_grid
 m_groundDashPositionCurve
 m_groundNormal
 m_groundType
@@ -36469,6 +36505,7 @@ m_motions
 m_motor
 m_motorGroundAnimgraph
 m_motors
+m_movables
 m_moveHeadingParam
 m_moveHeadingParamID
 m_moveHeadingParamName
@@ -36521,6 +36558,9 @@ m_nAmbientLoopingSoundRecipients
 m_nAmbientLoopingSoundSource
 m_nAmbientParticle
 m_nAmbientParticleRadiusControlPoint
+m_nAmbisonicsOrder
+m_nAmbisonicsOrderInsideSizeField
+m_nAmbisonicsOrderOutsideField
 m_nAmbushParticle
 m_nAmmoToBeConsumedForChannel
 m_nAmountAttribute
@@ -36584,6 +36624,7 @@ m_nBakeSpecularToCubemaps
 m_nBakedShadowIndex
 m_nBallParticle
 m_nBandCount
+m_nBands
 m_nBase
 m_nBaseCP
 m_nBaseClusterCount
@@ -36607,6 +36648,7 @@ m_nBehindSetMethod
 m_nBeverageType
 m_nBiasType
 m_nBindOffsetBytes
+m_nBins
 m_nBlackboardReference
 m_nBlackboardReferenceIdx
 m_nBlendWeightValueNodeIdx
@@ -36850,6 +36892,7 @@ m_nCreationType == PARTICLE_VOLUMETRIC_SMOKE_TYPE_CONTINUOUS
 m_nCritHitGroup
 m_nCropTextureOverride
 m_nCubeMapPrecomputedHandshake
+m_nCubeMapResolution
 m_nCubemapSourceType
 m_nCullControlPoint
 m_nCullMode
@@ -37573,6 +37616,7 @@ m_nNpcEvents
 m_nNthPositionIndexOffset
 m_nNumBeamEnts
 m_nNumBonesInChain
+m_nNumBounces
 m_nNumChannels
 m_nNumChildrenToEnable
 m_nNumComponents
@@ -37591,10 +37635,12 @@ m_nNumPlayersAffected
 m_nNumPlayersKilled
 m_nNumPointsAlongPath
 m_nNumPrefixedContexts
+m_nNumRays
 m_nNumSpawnDestinations
 m_nNumStacks
 m_nNumTicksRemaining
 m_nNumValidDestinations
+m_nNumVisSamples
 m_nObjectCulling
 m_nObjectID
 m_nObjectTypeFlags
@@ -37759,6 +37805,7 @@ m_nPrimaryType
 m_nPrimitiveCount
 m_nPrimitiveType
 m_nPriority
+m_nProbes
 m_nProcType
 m_nProcessOrder
 m_nProcessor
@@ -37801,6 +37848,8 @@ m_nRefCP2
 m_nRefCount
 m_nRefCounter
 m_nReferencedGraphIdx
+m_nReflectionBounces
+m_nReflectionRays
 m_nRefractBlurRadius
 m_nRefractBlurType
 m_nReg
@@ -38275,6 +38324,9 @@ m_numBonesToSampleAtLowLOD
 m_numCloseAttempts
 m_numInfluences
 m_numLocalResults
+m_nx
+m_ny
+m_nz
 m_objectData
 m_objectFlags
 m_offset
@@ -38364,6 +38416,7 @@ m_pChoreoServices
 m_pClientAlphaProperty
 m_pClientsideRagdoll
 m_pCollision
+m_pCompressedData
 m_pController
 m_pCrossbowWeapon
 m_pCurrentKeyFrame
@@ -38454,6 +38507,7 @@ m_pPrev
 m_pPrevByClass
 m_pPrevKey
 m_pPrevNode
+m_pProbeBatch
 m_pProjectile
 m_pPulseGraphInstance
 m_pRagdollControl
@@ -38462,6 +38516,7 @@ m_pRenderComponent
 m_pReserveAmmo
 m_pRootGraph
 m_pRootNode
+m_pScene
 m_pSceneNode
 m_pSearchingParticle
 m_pSecondaryGraph
@@ -38481,6 +38536,7 @@ m_pSpringJoint
 m_pSprite
 m_pStanceRequests
 m_pStanceSourceNode
+m_pStaticMesh
 m_pStaticPoseCache
 m_pTagManagerUpdater
 m_pTarget
@@ -38642,6 +38698,7 @@ m_priorityContributeButDontRead
 m_priorityRule
 m_priorityValue
 m_priorityVolumeScalar
+m_probes
 m_proceduralRootMotion
 m_processingType
 m_profileName
@@ -38777,6 +38834,9 @@ m_resultType
 m_resultVarName
 m_retaliateParticle
 m_returnSpeed
+m_reverbClusteringSettings
+m_reverbCompressionSettings
+m_reverbSettings
 m_reversalSoundThresholdLarge
 m_reversalSoundThresholdMedium
 m_reversalSoundThresholdSmall
@@ -39115,6 +39175,7 @@ m_savedFlags
 m_saved_effects
 m_scale
 m_scaleRange
+m_scene
 m_sceneInstance
 m_sceneName
 m_sceneNode
@@ -40284,6 +40345,7 @@ m_vBiasPosLeft
 m_vBiasPosRight
 m_vBlurTint
 m_vBottom
+m_vBouncedPlayerBefore
 m_vBoundaryDistCachedPos
 m_vBoundsMaxLS
 m_vBoundsMinLS
@@ -40827,12 +40889,14 @@ m_vecChoreoModifiers
 m_vecClawSwipeInfos
 m_vecClientAngles
 m_vecClientOrigin
+m_vecClusterForProbe
 m_vecColorLit
 m_vecColorScale
 m_vecColorUnlit
 m_vecComparisonVelocity
 m_vecComponentItems
 m_vecComponentScale
+m_vecCompressedData
 m_vecConnectionDir
 m_vecConnections
 m_vecConsumedComponents
@@ -40859,6 +40923,7 @@ m_vecDeployedGravestones
 m_vecDeployedProjectiles
 m_vecDeployedSentries
 m_vecDeployedSkulls
+m_vecDictionary
 m_vecDirection
 m_vecDirectionBias
 m_vecDisabledOnHeroes
@@ -40949,12 +41014,15 @@ m_vecImbuedAbilityIDs
 m_vecImbuements
 m_vecImportantAbilityProperties
 m_vecImpulse
+m_vecInOut
 m_vecInitialPosition
 m_vecInitialVel
 m_vecInitialVelocity
 m_vecInput
 m_vecInput1
 m_vecInput2
+m_vecInsideSmallSizeField
+m_vecIntervals
 m_vecIntrinsicModifiers
 m_vecIntroCameraSequence
 m_vecIntroCameraSequenceAmber
@@ -40983,6 +41051,7 @@ m_vecLiftTargets
 m_vecLightingOverride
 m_vecLightningCenter
 m_vecLights
+m_vecLineSegments
 m_vecLinearForceDirection
 m_vecLinearForcePointAt
 m_vecLinearForcePointAtWorld
@@ -40998,6 +41067,8 @@ m_vecMagicHeaderStats
 m_vecMagicStats
 m_vecMantleTypes
 m_vecMarks
+m_vecMaterialTokens
+m_vecMaterialWeights
 m_vecMax
 m_vecMaxs
 m_vecMin
@@ -41030,6 +41101,7 @@ m_vecNoiseOffsetRate
 m_vecNoiseScale
 m_vecNormal
 m_vecNpcUsersByNavLink
+m_vecNumSingularValues
 m_vecObjectiveMaxHealth
 m_vecOfferedEnhanced
 m_vecOfferedLegendaries
@@ -41053,6 +41125,7 @@ m_vecOutgoingHits
 m_vecOutput
 m_vecOutputMax
 m_vecOutputMin
+m_vecOutsideField
 m_vecOverlappingLinks
 m_vecOverrideSpawnPos
 m_vecPackages
@@ -41065,7 +41138,9 @@ m_vecPathNodes
 m_vecPathSampleDistances
 m_vecPathSampleParameters
 m_vecPathSamplePositions
+m_vecPathingDeviation
 m_vecPathingEQ
+m_vecPathingRatio
 m_vecPickups_lv2
 m_vecPickups_lv3
 m_vecPlaneDirection
@@ -41093,6 +41168,8 @@ m_vecPreviousImpulse
 m_vecPreviousTestPoint
 m_vecPrimaryMuzzles
 m_vecPrimaryPickups
+m_vecProbeIndices
+m_vecProbes
 m_vecProcDamageTypes
 m_vecProcdBulletIDs
 m_vecProcdUnitsThisShot
@@ -41112,6 +41189,7 @@ m_vecRandomSkin
 m_vecRateMax
 m_vecRateMin
 m_vecRecentCommAttempts
+m_vecReflectionRatio
 m_vecRenderAttributes
 m_vecReportedPosition
 m_vecRespawnTimes

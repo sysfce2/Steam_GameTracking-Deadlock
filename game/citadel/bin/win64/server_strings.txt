@@ -181,10 +181,11 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPXb0
- (08@HR0
- (08@J0
- (0X`hpz0
+ (08@HPX`jp
+ (08@HPXb`
+ (08@HPZp
+ (08@Jp
+ (0X`hpz`
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -208,7 +209,6 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
- .pQ0
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -2055,7 +2055,7 @@ $tJ@T\tK
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0h0
+.0O0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14026,6 +14026,7 @@ $tJ@T\tK
 .GCProtoBufMsgSrc
 .HCK\v
 .MODIFIER_ENTRY_TYPE
+.P00
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
@@ -14046,10 +14047,7 @@ $tJ@T\tK
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PN0
-.PZ0
 .PartnerAccountType
-.Ph0
 .PingCommonData
 .PostProcessingGameStates
 .Q.Ol
@@ -14336,8 +14334,7 @@ $tJ@T\tK
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p20
-.pN0
+.pk0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14395,13 +14392,14 @@ $tJ@T\tK
 0123456789
 02V8[
 05=k
-08@J0
+08@HRp
+08@J`
+08Bp
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
-0>P<0
 0AgffA
 0M2~@p
 0W/5
@@ -14567,7 +14565,6 @@ $tJ@T\tK
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vp4
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14624,14 +14621,14 @@ $tJ@T\tK
 4)m1
 474E4U4W4c4i4m4
 4<Td
-4?\fpN
+4?\fPN
 4@AA
 4Ch;
 4F0I
 4Mv8
 4Zis
+4\fPN
 4\fPl
-4\fpN
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
 4\n0PARTICLE_SYSTEM_MANAGER_EVENT_UPDATE_ORIENTATION
@@ -14659,6 +14656,7 @@ $tJ@T\tK
 5N{j
 5\f%54
 5\fE54L
+5\fwN
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14679,13 +14677,14 @@ $tJ@T\tK
 5s\nl
 5t?F
 5~EW
-6 S0
-6 h0
+6 e0
+6 k0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
+60+0
 60000
 62$|S)6f
 64CK\vH
@@ -14698,7 +14697,12 @@ $tJ@T\tK
 67-s
 6H,N
 6O|T%
+6PV0
+6P\f0
+6P\v0
+6Pk0
 6Qd=
+6\fwN
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14716,7 +14720,7 @@ $tJ@T\tK
 6l13
 6lkc
 6myY;
-6pS0
+6p@0
 6qo~
 6r-m_v
 6r1ij
@@ -14765,9 +14769,8 @@ $tJ@T\tK
 851Pe
 8<pl
 8= zp
+8@Jp
 8A6j
-8F`;0
-8Fp:0
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14981,6 +14984,7 @@ $tJ@T\tK
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
+>PE0
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
 >Sem
 >WK6
@@ -15031,11 +15035,11 @@ $tJ@T\tK
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
-@6p10
 @Accolades
 @BH]f
-@HV 50
+@HVP80
 @MfKZ
+@Np#0
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -15050,6 +15054,7 @@ $tJ@T\tK
 @citadel_loot_table_spew_modifications
 @dKb]
 @fff>fff>fff>fff>
+@ht j
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -15070,6 +15075,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:Pc
 AABBDirection
 AACompromise
 AC2,h
@@ -15539,6 +15545,7 @@ AltJumpSpeed
 Alternate icon definition index %d must be greater than or equal to zero
 AlternativeSorting
 Am_Entity_flInfluenceRadius
+Am_bStartedInAir
 Amber
 AmbientCubes
 AmbushDuration
@@ -16374,7 +16381,6 @@ BulletDamageIncrease
 BulletDamageReflectedPct
 BulletEffectiveness
 BulletLifesteal
-BulletLifestealEffectiveness
 BulletLifestealPercent
 BulletLifestealPercentHero
 BulletMagnitude
@@ -21494,7 +21500,6 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FPB0
 FU\n-XP
 FVisible
 FV|FgUV
@@ -22647,6 +22652,7 @@ Hero1
 Hero2
 HeroAndSelfHPS
 HeroAndSelfHPSGrowthPerMinute
+HeroBulletLifestealEffectiveness
 HeroDataManifest_global_server
 HeroDataSystem
 HeroID
@@ -22658,6 +22664,7 @@ HeroMMR
 HeroMultiplier
 HeroNearbyRange
 HeroSelection
+HeroSpiritLifestealEffectiveness
 HeroTargetBonus
 HeroTesting
 HexDuration
@@ -25677,10 +25684,10 @@ P-224
 P-256
 P-384
 P-521
-P08@J0
-P08J`
+P08@J`
 P1\t98"
 P5[1
+P6@V0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26645,7 +26652,7 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
-R\fp4
+R\fpd
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
@@ -28683,7 +28690,6 @@ SpinUpTime
 SpiritDamage
 SpiritDamageReductionProc
 SpiritDamageReflectedPct
-SpiritLifestealEffectiveness
 SpiritPerStack
 SpiritPower
 SpiritPowerPerSoul
@@ -28896,6 +28902,7 @@ StatusEffectStun
 StatusEffectTethered
 StatusEffectUnstoppable
 StatusImmuneDuration
+StatusResistancePercent
 StdDev
 StealDuration
 SteamGameCoordinator001
@@ -30092,6 +30099,7 @@ UsingMelee
 Ut]<E
 Uv1t
 Uz_G3=
+V R0
 V07;m
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
@@ -30251,6 +30259,7 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
+Vpc0
 Vt_9
 VulnerabilityPerStack
 V~~Vq
@@ -30619,9 +30628,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hrp
 Xd3h
+Xf0A0
 XfJ7
-Xfp=0
 XjfR
 XqgA+
 Xuub
@@ -31824,10 +31834,12 @@ Z~wl
 ]MSd
 ][LK~lO
 ^.om5r
+^0F0
 ^DnJ
 ^DqPt
 ^J_spY
 ^Nij
+^Pe0
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
@@ -31889,6 +31901,10 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`2PA
+`2Pc
+`2pD
+`6 a0
 `:zQF
 `D$daM-l
 `DZG
@@ -34235,7 +34251,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\t0
 dSAQuality
 dWry
 dZ!2.
@@ -36408,7 +36423,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpz0
+hpz`
 hr_H
 http request
 https proxy request
@@ -38091,7 +38106,6 @@ m_pParameter == nullptr
 m_pPrecacheEntityKeys
 m_pQueuedSmartGoal
 m_pRecipientFilter
-m_pScene
 m_pSchedule
 m_pSink
 m_pSquad
@@ -39455,6 +39469,7 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
+n i0
 n0?X
 n1Z 
 n5cM
@@ -39489,7 +39504,6 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nPA0
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39504,7 +39518,6 @@ nValue
 nVersion
 n\r2S
 n`3i
-n`40
 name constraints minimum and maximum not supported
 name of highest net worth enemy
 name too long
@@ -39800,6 +39813,7 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
+np'0
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -40117,6 +40131,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p0j 
 p2{l
 p4Z3
 p5Z3
@@ -41031,7 +41046,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
-r\vp4
+r\vpd
 rad2deg
 radial
 radialalt
@@ -42672,7 +42687,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\t0
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -43740,7 +43754,6 @@ volume_resolution_z
 volumematcheseventramp
 vote_round_to_tally
 voxel_size
-vp 0
 vparams
 vqw0\nU
 vscripts

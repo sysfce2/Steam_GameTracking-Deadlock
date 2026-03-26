@@ -1616,7 +1616,7 @@
 
 		"ability_bounce_pad"					"Bounce Pad"
 		"ability_bounce_pad_quip"				"Send yourself and others flying"
-		"ability_bounce_pad_desc"				"Drop a bounce pad in the world that <span class=\"highlight\">launches any hero</span>. <br><br>You <span class=\"highlight\">explode</span> on landing, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> to any nearby enemies. The explosion can only occur once per Bounce Pad."
+		"ability_bounce_pad_desc"				"Drop a bounce pad in the world that <span class=\"highlight\">launches any hero</span>. <br><br>You <span class=\"highlight\">explode</span> on landing, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> to any nearby enemies. <br><br><span class=\"diminish\">The explosion can only occur once per person per Bounce Pad.</span>"
 		"ability_bounce_pad_t1_desc"			"<span class=\"highlight\">{s:AbilityCooldown}s</span> Cooldown"
 		"ability_bounce_pad_t2_desc"			"You and allies gain a +{s:SpeedOnLand}m/s move speed bonus for {s:BuffDuration}s on landing"
 		"ability_bounce_pad_t3_desc"			"<span class=\"highlight\">+{s:StompDamage}</span> Stomp Damage. Improve Spirit scaling"
@@ -2437,7 +2437,7 @@
 		"mirage_tornado_desc"				"Transform yourself into a whirlwind that travels forward, <span class=\"highlight\">damaging enemies</span>, slowing their <span class=\"highlight\">move speed</span> and <span class=\"highlight\">lifting them up</span> in the air. After emerging from the tornado you gain <span class=\"highlight\">bullet evasion</span>."
 		"mirage_tornado_t1_desc"			"<span class=\"highlight\">+{s:Damage}</span> Damage"
 		"mirage_tornado_t2_desc"			"<br><span class=\"highlight\">{s:AbilityCooldown}s</span> Cooldown<br><span class=\"highlight\">+{s:WhirlwindEvasionChance}%</span> Evasion"
-		"mirage_tornado_t3_desc"			"Can be recast within <span class=\"highlight\">{s:RecastWindow}s</span>. Increases spirit scaling."
+		"mirage_tornado_t3_desc"			"Recast within <span class=\"highlight\">{s:RecastWindow}s</span>.<br><span class=\"highlight\">+{s:HoldInPlaceDuration}s</span> Lift Duration <br>Increases spirit scaling."
 
 		"WhirlwindEvasionChance_label"	"Bullet Evasion Chance"
 		"WhirlwindEvasionChance_postvalue_label"	"Bullet Evasion Chance"
@@ -3965,7 +3965,8 @@
 
 		"ability_doorman_luggage_cart" "Luggage Cart"
 		"ability_doorman_luggage_cart_desc" "Send out a luggage Cart that deals {g:citadel_inline_attribute:'SpiritDamage'} and {g:citadel_inline_attribute:'Pulls'} enemy heroes along its path. <br><br>Can be alt cast with {g:citadel_binding:'AltCast'} to target friendly heroes instead."
-		"ability_doorman_luggage_cart_t3_note" "If the cart collides with a wall while dragging an enemy, it will {g:citadel_inline_attribute:'Stun'} the targets."
+		"ability_doorman_luggage_cart_t3_note" "If the cart collides with a wall while dragging an enemy, it will deal bonus damage to the targets."
+		"ability_doorman_luggage_cart_t2_desc" "+{s:AbilityCastRange}m Cast Range<br>+{s:WallImpactDamage} Damage on wall impact"
 		"ability_doorman_luggage_cart_t3_desc" "{s:AbilityCooldown}s Cooldown and {s:StunDuration}s {g:citadel_inline_attribute:'Stun'} on wall impact"
 		"ability_doormab_luggage_cart_on_wall_hit" "On Wall Hit"
 		"CartDamage_postvalue_label" "Cart Damage"
@@ -4084,7 +4085,7 @@
 		"ability_frank_selfzap_desc" "Deal {g:citadel_inline_attribute:'SpiritDamage'} to yourself. Then, gain bonus {g:citadel_inline_attribute:'Regen'} and {g:citadel_inline_attribute:'BonusMoveSpeed'}, decaying over time."
 		"ability_frank_selfzap/selfzap" "Jumpstart"
 		"ability_frank_selfzap_t2_desc" "<span class=\"highlight\">+{s:TotalHealthRegen}</span> Total HP Regen and <span class=\"highlight\">{s:AbilityCooldown}s</span> Cooldown"
-		"ability_frank_selfzap_t3_desc" "<span class=\"highlight\">+{s:AbilityCharges}</span> Charge, Purges non-ultimate debuffs and increases spirit scaling"
+		"ability_frank_selfzap_t3_desc" "<span class=\"highlight\">+{s:AbilityCharges}</span> Charge<br>+{s:StatusResistancePercent}%</span> Debuff Resistance<br>Increases spirit scaling"
 
 
 		//Ability 3
@@ -4344,7 +4345,7 @@
 		"ability_familiar_ability01_desc" "Cast your gaze forward, piercing walls and floors. Enemies in the gaze are <span class=\"highlight\">slowed, have reduced dash distance, and cannot use movement abilities.</span><br><br>When the channel ends <span class=\"highlight\">they fall asleep</span> before waking up to a splitting headache that deals heavy {g:citadel_inline_attribute:'SpiritDamage'}."
 		"ability_familiar_ability01_t1_desc" "-{s:ConsumeStaminaOnWake} Stamina On Wake and no Stamina Regen while sleeping"
 		"ability_familiar_ability01_t2_desc" "+{s:Radius}m Radius and +{s:SleepDuration}s Sleep Duration"
-		"ability_familiar_ability01_t3_desc" "{s:AbilityCooldown}s cooldown and reduced damage while channeling"
+		"ability_familiar_ability01_t3_desc" "{s:AbilityCooldown}s cooldown <br>Reduced damage and unstoppable while channeling"
 		"DamagePctInAura_postvalue_label" "Damage vs Rem" 
 		"DamagePctInAura_postfix" "%" 
 		"ability_familiar_ability01/effect" "Taking a snooze..."
@@ -4499,7 +4500,7 @@
 		"ability_necro_zombiewall" "Grasping Hands"
 		"ability_necro_zombiewall_desc" "Unearth a line of grasping hands, dealing {g:citadel_inline_attribute:'SpiritDamage'} and applying {g:citadel_inline_attribute:'Immobilize'} to enemies when they pass through.  <br><br><span class=\"diminish\">Alt-Cast {g:citadel_binding:'AltCast'} rotates the orientation of the wall."
 		"ability_necro_zombiewall_t2_desc" "<span class=\"highlight\">+{s:Damage}</span> Damage and <span class=\"highlight\">+{s:ZombieWallLength}m</span> Wall Length"
-		"ability_necro_zombiewall_t3_desc" "<span class=\"highlight\">+{s:ImmobilizeDuration}s</span> Immobilize Duration & Summon <span class=\"highlight\">{s:SummonCount}</span> Ghouls"
+		"ability_necro_zombiewall_t3_desc" "Summons <span class=\"highlight\">{s:SummonCount}</span> Ghoul<br><span class=\"highlight\">{s:AbilityCooldown}s</span> Cooldown<br><span class=\"highlight\">+{s:ImmobilizeDuration}s</span> Immobilize Duration"
 		"ZombieWallLength_postfix" "m"
 		"ZombieWallLength_postvalue_label" "Wall Length"
 		"ZombieWallLength_label" "Wall Length"

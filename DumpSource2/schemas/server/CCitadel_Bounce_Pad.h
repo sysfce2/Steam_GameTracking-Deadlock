@@ -14,5 +14,5 @@ class CCitadel_Bounce_Pad : public CCitadelAnimatingModelEntity
 	float32 m_flBarrelBounceVelocity;
 	float32 m_flBarrelUpFactor;
 	bool m_bSpeedOnLand;
-	bool m_bHasBouncedPlayerBefore;
+	CUtlVector< CHandle< CBaseEntity > > m_vBouncedPlayerBefore;
 };
