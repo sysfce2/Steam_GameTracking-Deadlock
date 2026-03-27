@@ -91,6 +91,7 @@
 2\vpL
 8Fp5
 ?expf
+@08N
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
 APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!\n
@@ -124,6 +125,7 @@ LightmapUV
 LightmapUVW
 OverlayProjectionDirection
 P08J`
+P08N
 PackedBlobNormal
 PerVertexLighting
 PivotPaint
@@ -173,6 +175,7 @@ m_bUseCompressedNormalTangent
 m_bUseShadowFastPath
 medium
 optionallycompressedtangentframe
+p08@H^
 p0j`n
 posxyz
 prev

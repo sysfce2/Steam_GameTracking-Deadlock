@@ -89,6 +89,7 @@
 =fff?
 ?333?
 ?expf
+@08N
 @ht`s
 Adaptive border clusters (%.fs)\n
 Aslow
@@ -182,6 +183,7 @@ Note, removing %u lines of sight, too much memory! (was %s, use -debuglos to pre
 Outside detection took %.2f seconds\n
 OverlayProjectionDirection
 P08J 
+P08N
 P2`p
 PackedBlobNormal
 PerVertexLighting
@@ -274,6 +276,7 @@ matrix3x4_t
 medium
 oldvis
 optionallycompressedtangentframe
+p08@H^
 p0j 
 p2`p
 p6p\t
