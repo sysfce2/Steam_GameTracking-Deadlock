@@ -1035,10 +1035,10 @@ $tIP
 ?333?
 ?333?333?fff?
 ?Bxt>
-?ESceneObjectVisualization
 ?JA7=
 ?Label1
 ?PUNCTUAL
+?SCENEOBJECT_VIS_NONE
 ?The "Tools" menu above gives access to: Style Editors (ImPlot/ImGui)\nand Metrics (general purpose Dear ImGui debugging tool).
 ?VertexPos_t
 ?XXXXXXXXXXXXXXXX
@@ -1093,6 +1093,7 @@ $tIP
 @6PGU
 @6PJU
 @OS/2
+@Show
 @fff>fff>fff>fff>
 @fffff
 @fffff"
@@ -1136,7 +1137,6 @@ $tIP
 @fffffz
 @fffff|
 @n\uK
-@sc_setclassflags %s %d
 A Rather Long Title
 A#4A\v
 A*A3
@@ -4826,7 +4826,6 @@ Shift+Click to check multiple boxes.
 Shift+Keyboard to copy current value to other boxes.
 Short Text
 Shortcuts
-Show
 Show "Debug Break" buttons in other sections (io.ConfigDebugIsDebuggerPresent)
 Show 2nd header
 Show Axes Rects
@@ -6918,6 +6917,7 @@ s1s:sHsX
 s_hScrambledHalton != GENERIC_DATA_HANDLE_INVALID
 sc_dumpworld %d
 sc_dumpworld3d %d
+sc_setclassflags %s %d
 scaron
 scedilla
 scene_quadindexbuffer

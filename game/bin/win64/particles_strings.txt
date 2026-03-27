@@ -956,7 +956,6 @@ $SFXDetailBlendMode
 .?AVISceneObjectListener@@
 .?AVISequence@@
 0=don't clear particle attrs at init 1=clear to zero 2=clear to 0xdb -1=clear to zero at first sim
-2\vpD
 33S@ff
 3E"F
 3E"W

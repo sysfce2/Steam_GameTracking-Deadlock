@@ -744,7 +744,7 @@
 							</PopupSettingsSettingsRow>
 							<PopupSettingsSettingsRow onmouseover="UIShowTextTooltipStyled( #citadel_settings_dlsstechnology_desc, SettingsMenuTooltip )" onmouseout="UIHideTextTooltip()">
 								<CitadelSettingsEnum class="HorizontalEnum" convar="r_dlss_preset" text="#citadel_settings_dlsstechnology" id="RenderQualityDLSSTechnology">
-									<RadioButton text="#citadel_settings_dlsstechnology_cnn" value="5" class="EnumButton" id="DLSSTechnologyCNN" group="dlsstechnology" />
+									<RadioButton text="#citadel_settings_dlsstechnology_cnn" value="6" class="EnumButton" id="DLSSTechnologyCNN" group="dlsstechnology" />
 									<RadioButton text="#citadel_settings_dlsstechnology_transformer" value="10" class="EnumButton" id="DLSSTechnologyTransformer" group="dlsstechnology" />
 								</CitadelSettingsEnum>
 							</PopupSettingsSettingsRow>

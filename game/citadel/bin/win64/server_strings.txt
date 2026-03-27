@@ -15010,7 +15010,7 @@ $light_emissive
 ?HAI\t81\t9dcG'
 ?HP4
 ?KnockupSideRatio
-?TLK_CITADEL_DOORMAN_HOTEL_TAUNT
+?Set to something >= 0 to test setting every unit's timescale to that value
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT

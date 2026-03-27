@@ -1471,7 +1471,7 @@
 		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"Hero Labs matchmaking is not allowed while in low priority."
 		"Citadel_StartMatchmaking_AccountLocked"					"Your Steam account is currently locked and is unable to play in this mode while locked"
 		"Citadel_StartMatchmaking_TooManyLimitedHeroes"				"Your roster contains mostly new heroes. In order to help form matches, we are currently requiring rosters to include some heroes that are not new. Please add some more heroes into your roster."
-		"Citadel_StartMatchmaking_UnverifiedPGI"					"Unable to enter matchmaking while any party member has changes to ConVars in gameinfo.gi or is running Tools-mode."
+		"Citadel_StartMatchmaking_UnverifiedPGI"					"Unable to enter matchmaking while any party member is running Tools-mode, or has unsupported changes to the following sections of their 'gameinfo.gi': Engine2, MaterialSystem2, NetworkSystem, Particles, RenderSystem, SceneSystem, WorldRenderer"
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"Matchmaking stopped. Failed to get a response from the GC"
 		"Citadel_StopMatchMaking_GeneralError"						"Matchmaking failed. Please try again"
 		"Citadel_LeaveLobby_FailedToGetResponse"					"Failed to stop matchmaking. Please try again."

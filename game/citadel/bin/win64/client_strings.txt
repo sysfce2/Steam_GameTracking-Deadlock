@@ -89,8 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j 
- (08@HPZ 
+ (08@HPX`j
+ (08@HPZ
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2443,6 +2443,7 @@ $hRh
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
+(4pv
 (5Me
 (5jP
 (?PulseCursorCancelPriority_t
@@ -16701,11 +16702,11 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR 
-08B 
+08@HR
 08bX
 09,h
 0:00
+0:pL
 0;Q5[
 0<cz
 0M2~@p
@@ -16964,6 +16965,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
+2\vpD
 2^pV
 2a"l
 2bT~
@@ -17481,14 +17483,14 @@ $hRh
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
-@60s
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
 @CitadelMusicCueOverrides_t
 @DebugIndividualStyle
-@HPX`hv E
+@HVP[
 @MfKZ
+@NpF
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -17504,6 +17506,7 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
+@htpv
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -17523,6 +17526,7 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
+AA:pU
 AABBDirection
 AACompromise
 ABXY
@@ -29353,7 +29357,6 @@ P-224
 P-256
 P-384
 P-521
-P08J@
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
@@ -30653,6 +30656,7 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
+R\fpD
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
@@ -34960,11 +34964,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr 
+X`hr
 Xd3h
+Xf0d
 XfJ7
-XfPd
-Xfpe
 XjfR
 XqgA+
 Xuub
@@ -36510,6 +36513,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`2pU
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -39599,6 +39603,12 @@ disableaudio
 disabled by parent
 disabled for fips
 disabledFromPurchasing
+disabled_asleep
+disabled_immobilized
+disabled_movement
+disabled_muted
+disabled_silenced
+disabled_stunned
 disabledoubleclick
 disableifoutofrange
 disablenav
@@ -39693,7 +39703,6 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\f B
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -46114,7 +46123,6 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0jP
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46123,7 +46131,6 @@ p2{l
 p4Z3
 p5Z3
 p5\nL,
-p60Y
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
@@ -47229,6 +47236,7 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
+r\vpD
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
