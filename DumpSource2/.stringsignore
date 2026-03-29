@@ -7797,6 +7797,7 @@ Compress the dynamic range of a signal when it is louder than some threshold.
 Compress the dynamic range of both ends of a signal.
 Compression Ratio
 Compression Threshold(dB)
+Compute
 Compute LOD mask internally like since 2016, i.e. force all LOD groups' bones to compute
 Compute a dot or cross product between two 3D vectors
 Compute duration from the active weapon info, instead of the stat value. Used when overloading GetWeaponInfo()
@@ -10102,6 +10103,7 @@ EntryOverrideTree
 Enum
 Enum Parameter
 EnumParameter
+Enumerator Types
 Envelope
 Envelope (Relative to Tone Envelope)
 Envelope Analyzer
@@ -13396,6 +13398,7 @@ Makes the CPs for a team available to capture
 Makes the bots purchase a random draft option
 Makes the debug overlay dashboard visible.
 ManifestTestResource_t
+Manipulators
 MantleType_t
 Mantle_128
 Mantle_32
@@ -17780,6 +17783,7 @@ Starts/stops a timespan with an ever increasing name.
 StartupBehavior_t
 StatViewerModifierValues_t
 StatWithCategory_t
+State
 State Machine
 State Status Condition
 StateActionBehavior
@@ -27914,6 +27918,7 @@ m_Values
 m_VariableComparison
 m_VariableName
 m_VariableValue
+m_VariableValue.m_TargetName
 m_VariableValues
 m_Variables
 m_Vars
@@ -43752,6 +43757,7 @@ shatterglass_hit_tolerance
 shatterglass_restore
 shatterglass_shard_lifetime
 sheet animation time scale
+sheet_file_preview
 shoot_duration
 show NPC's current conditions
 show abs bounding box overlay
@@ -43821,6 +43827,7 @@ skyboxFogFactorLerpTo
 slack
 slots
 slowed
+smart_prop
 smartprop_choice_options
 smoke type
 smoothstairs
