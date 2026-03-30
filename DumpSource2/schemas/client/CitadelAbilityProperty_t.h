@@ -25,7 +25,14 @@
 //}
 class CitadelAbilityProperty_t
 {
+	// MPropertyFlattenIntoParentRow
+	// MPropertyFlattenStretchFactor (UNKNOWN FOR PARSER)
+	// MPropertyFlattenIncludeLabel
 	CUtlString m_strValue;
+	// MPropertyFlattenIntoParentRow
+	// MPropertyFlattenStretchFactor (UNKNOWN FOR PARSER)
+	// MPropertyFlattenIncludeLabel
+	// MPropertyFriendlyName = "SB"
 	CUtlString m_strStreetBrawlValue;
 	CEmbeddedSubclass< CScaleFunctionBase > m_subclassScaleFunction;
 	CEmbeddedSubclass< CScaleFunctionBase > m_subclassScaleFunctionStreetBrawl;

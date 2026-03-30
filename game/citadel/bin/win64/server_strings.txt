@@ -206,7 +206,7 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
- .0X0
+ .0Y0
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -1682,6 +1682,7 @@ $light_emissive
 (debug)
 (default)
 (fS{ggRcjh
+(fpN0
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
@@ -2052,7 +2053,10 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0I0
+.0T0
+.0Z0
+.0b0
+.0m0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14043,12 +14047,10 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PG0
 .PT0
+.PV0
 .PartnerAccountType
-.Pb0
 .PingCommonData
-.Pk0
 .PostProcessingGameStates
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
@@ -14334,7 +14336,10 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
+.p50
+.pS0
 .pT0
+.pV0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14429,7 +14434,6 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0v4!+
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14564,6 +14568,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vpP
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14672,15 +14677,14 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
+6 R0
+6 j0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60@0
-60R0
-60j0
 62$|S)6f
 64CK\vH
 65535
@@ -14690,12 +14694,13 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666CAttributeManager
 67-s
+6@N0
 6H,N
 6O|T%
-6P"0
-6P:0
-6PN0
-6P\t0
+6P#0
+6P20
+6PD0
+6P\r0
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14707,8 +14712,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`20
-6`D0
+6`50
 6afD
 6bX+
 6c&0|vvX
@@ -14716,7 +14720,8 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p50
+6pE0
+6pJ0
 6qo~
 6r-m_v
 6r1ij
@@ -14766,7 +14771,6 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8F B0
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15001,15 +15005,17 @@ $light_emissive
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >fN46R^
 >l\rur
+>p00
 >p00<
+>p60
 >yhP
 >ztq
 ?333?
 ?33s?
+?BonusSpiritDamagePercentage
 ?CAnimFoot
 ?HAI\t81\t9dcG'
 ?HP4
-?KnockupSideRatio
 ?Set to something >= 0 to test setting every unit's timescale to that value
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
@@ -15031,14 +15037,12 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N4!+
 @0pp
-@6 90
-@60T0
-@6pS0
+@6 T0
+@6`S0
 @Accolades
 @BH]f
-@HPX`hv`%0
+@HPX`hvP%0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15078,6 +15082,7 @@ AABBDirection
 AACompromise
 AC2,h
 ACCESS_DESCRIPTION
+ACCitadel_Modifier_SleepBomb_Aura
 ACHIEVEMENT_EVENT_
 ACID
 ACPT_STATE
@@ -15543,7 +15548,6 @@ AltJumpSpeed
 Alternate icon definition index %d must be greater than or equal to zero
 AlternativeSorting
 Am_Entity_flInfluenceRadius
-Am_bStartedInAir
 Amber
 AmbientCubes
 AmbushDuration
@@ -16232,7 +16236,6 @@ BonusShocksDelay
 BonusShotsDuration
 BonusSoulsPct
 BonusSpirit
-BonusSpiritDamagePercentage
 BonusSpiritLingerDuration
 BonusSpiritMax
 BonusSpiritMeter
@@ -21861,6 +21864,7 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
+Fp.0
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -23829,6 +23833,7 @@ KnockbackSpeed
 KnockedOffDamagePct
 KnockupImmune
 KnockupRadius
+KnockupSideRatio
 KnockupSpeed
 Kochanek-Bartels
 Kochanek-Bartels Early
@@ -25681,7 +25686,7 @@ P-224
 P-256
 P-384
 P-521
-P08N4!+
+P08N$!+
 P1\t98"
 P5[1
 PAGN_4
@@ -26220,7 +26225,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn4!+
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26653,6 +26657,7 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vpP
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30096,6 +30101,7 @@ Ut]<E
 Uv1t
 Uz_G3=
 V07;m
+V0V0
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -30113,7 +30119,6 @@ V3 s
 V3_ADDR_VALIDATE_PATH_INTERNAL
 V3_GENERIC_EXTENSION
 V5u f
-V@V0
 VALV
 VALVw
 VDPr
@@ -30143,7 +30148,6 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
-VP_0
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -30625,8 +30629,7 @@ XYD%
 X\tQo
 X`hr
 Xd3h
-Xf E0
-Xf@F0
+Xf0F0
 XfJ7
 XjfR
 XqgA+
@@ -30894,6 +30897,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31838,6 +31842,7 @@ Z~wl
 ^DqPt
 ^J_spY
 ^Nij
+^Pj0
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
@@ -31899,7 +31904,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60U0
+`6 U0
 `:zQF
 `D$daM-l
 `DZG
@@ -31909,6 +31914,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`htp
 `o_je
 `yNT
 a null shared library handle was used
@@ -31927,7 +31933,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4!+
 aD/x
 aDSS
 aECDH
@@ -35314,6 +35319,7 @@ eyj5yR
 f#9i\n
 f%wyLmX:
 f&dy
+f0+0
 f1cK%
 f45\r
 fBB\fy
@@ -39466,11 +39472,12 @@ mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
+n0C0
 n1Z 
 n5cM
 n6j/
 n:2C[
-n@C0
+n@B0
 n@PK
 nAlpha
 nAttributeValue
@@ -39500,7 +39507,6 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nPB0
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -40127,13 +40133,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4!+
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6p90
+p6`90
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40657,7 +40662,6 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pn4!+
 point
 point arithmetic failure
 point at infinity
@@ -43752,6 +43756,7 @@ volumematcheseventramp
 vote_round_to_tally
 voxel_size
 vparams
+vpk0
 vqw0\nU
 vscripts
 vsnd_selection_index
