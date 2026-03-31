@@ -10,21 +10,6 @@
 		"allow_private_lobby"		"0"
 	}
 
-	"MPAmsterdam"
-	{
-		"region"	"50"
-		"region_mode"	"Europe"
-		"leaderboard_region"		"Europe"
-		"mm_stats_region"			"Europe"
-		"code"		"ams4"
-		"latitude"	"52.37"
-		"longitude"	"4.89"
-		"day_determinism_offset"	"7200"		
-		"bit_index"					"0"
-		"allow_hideout_servers"		"0"
-		"allow_private_lobby"		"0"		
-	}
-
 	"Australia"
 	{
 		"code"		"syd"
@@ -210,21 +195,6 @@
 		"day_determinism_offset"	"28800"
 		"is_low_pop_region"			"1"
 		"bit_index"					"14"
-	}
-
-	"MPHongKong"
-	{
-		"region"	"48"
-		"region_mode"	"SEA"
-		"leaderboard_region"		"SEA"
-		"mm_stats_region"			"SEA"
-		"code"		"hkg4"
-		"latitude"	"22.311"
-		"longitude"	"114.170"
-		"day_determinism_offset"	"28800"
-		"is_low_pop_region"			"1"
-		"bit_index"					"25"
-		"allow_private_lobby"		"0"
 	}
 
 	"Europe"

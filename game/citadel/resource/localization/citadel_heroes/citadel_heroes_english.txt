@@ -1634,7 +1634,7 @@
 
 		"ability_crackshot"						"Crackshot"
 		"ability_crackshot_quip"				"Deal bonus damage with headshots"
-		"ability_crackshot_desc"				"Bullets apply . If hit three times consecutively, deal {g:citadel_inline_attribute:'BonusWeaponDamage'} and apply {g:citadel_inline_attribute:'Slow'}. <br><span class=\"diminish\">Crackshot ignores range damage fall-off and does not apply to objectives.</span>"
+		"ability_crackshot_desc"				"Headshots deal bonus <Panel class=\"AbilityPropertyIcon prop_bullet_damage\"> <span class=\"highlight_courage\">Damage</span> and applies a <Panel class=\"AbilityPropertyIcon prop_slow\"> <span class=\"highlight\">Fading Move Speed penalty</span>. This effect can only occur when off cooldown. <br><br>Cooldown is reduced by {s:CrackshotNPCCDReduction}% on NPC hits. <br><span class=\"diminish\">Crackshot ignores range damage fall-off and does not apply to objectives.</span>"
 		"FadingSlowPercent_label" "Fading Move Speed"
 		"FadingSlowPercent_postvalue_label" "Fading Move Speed"
 		"FadingSlowPercent_postfix" "%"
