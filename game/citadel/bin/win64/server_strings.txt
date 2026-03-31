@@ -206,7 +206,6 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
- .0Y0
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -1682,7 +1681,6 @@ $light_emissive
 (debug)
 (default)
 (fS{ggRcjh
-(fpN0
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
@@ -2053,10 +2051,7 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0T0
-.0Z0
-.0b0
-.0m0
+.0Y0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14047,11 +14042,12 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PT0
-.PV0
+.PW0
 .PartnerAccountType
+.Pe0
 .PingCommonData
 .PostProcessingGameStates
+.Pp0
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14336,10 +14332,8 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p50
-.pS0
-.pT0
-.pV0
+.pW0
+.pY0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14400,6 +14394,7 @@ $light_emissive
 08@HR
 08bX
 09,h
+0:p1
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
@@ -14434,6 +14429,7 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vD$+
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14568,7 +14564,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpP
+2\vpp
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14677,14 +14673,17 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 R0
-6 j0
+6 60
+6 I0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
+60\n0
+60\r0
+60^0
 62$|S)6f
 64CK\vH
 65535
@@ -14694,13 +14693,12 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666CAttributeManager
 67-s
-6@N0
+6@C0
+6@U0
+6@m0
 6H,N
 6O|T%
-6P#0
-6P20
-6PD0
-6P\r0
+6P\v0
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14712,7 +14710,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`50
+6`Q0
 6afD
 6bX+
 6c&0|vvX
@@ -14720,8 +14718,10 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pE0
-6pJ0
+6p&0
+6p50
+6pG0
+6p\t0
 6qo~
 6r-m_v
 6r1ij
@@ -14771,6 +14771,8 @@ $light_emissive
 8<pl
 8= zp
 8A6j
+8F F0
+8F0E0
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14964,6 +14966,7 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
+>0J0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15005,17 +15008,15 @@ $light_emissive
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >fN46R^
 >l\rur
->p00
 >p00<
->p60
 >yhP
 >ztq
 ?333?
 ?33s?
-?BonusSpiritDamagePercentage
 ?CAnimFoot
 ?HAI\t81\t9dcG'
 ?HP4
+?ProgressLossMultiplier
 ?Set to something >= 0 to test setting every unit's timescale to that value
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
@@ -15037,12 +15038,13 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08ND$+
 @0pp
-@6 T0
-@6`S0
+@60<0
+@6@W0
 @Accolades
 @BH]f
-@HPX`hvP%0
+@HPX`hvp(0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -16236,6 +16238,7 @@ BonusShocksDelay
 BonusShotsDuration
 BonusSoulsPct
 BonusSpirit
+BonusSpiritDamagePercentage
 BonusSpiritLingerDuration
 BonusSpiritMax
 BonusSpiritMeter
@@ -16548,7 +16551,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_he
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:557
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_familiar.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1950
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1970
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:1996
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2093
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
@@ -21864,7 +21867,6 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
-Fp.0
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25686,7 +25688,8 @@ P-224
 P-256
 P-384
 P-521
-P08N$!+
+P08J 
+P08ND$+
 P1\t98"
 P5[1
 PAGN_4
@@ -26225,6 +26228,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+PnD$+
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26365,7 +26369,6 @@ Prof1SecMaxSamples
 ProfFrameMS_Avg
 ProfFrameMS_P99
 ProfFrameSamples
-ProgressLossMultiplier
 ProjThink
 ProjectileAmount
 ProjectileAngleRandomness
@@ -26657,7 +26660,7 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpP
+R\vpp
 R]Di
 Rad2 Deg
 RadiationThink
@@ -28505,7 +28508,8 @@ SkullImmuneDuration
 SkullKillGold
 SkullLifetime
 SkullRevives
-SkullsApplyPassive
+SkullsFireRateOnCasterDeath
+SkullsOnCasterDeath
 SkullsOnZombieDeath
 SkyboxSlot
 Slack
@@ -30101,7 +30105,6 @@ Ut]<E
 Uv1t
 Uz_G3=
 V07;m
-V0V0
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -30148,6 +30151,7 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
+VPY0
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -30159,6 +30163,7 @@ V\n\vItemCharges
 V\rKk
 V_a|I
 V_strcmp( pDataMap->dataClassName, pCodeClass ) == 0
+V`b0
 VacuumRadius
 ValidatePrivateScriptScope
 ValidateVertices
@@ -30629,8 +30634,9 @@ XYD%
 X\tQo
 X`hr
 Xd3h
-Xf0F0
+Xf0H0
 XfJ7
+XfPI0
 XjfR
 XqgA+
 Xuub
@@ -30705,7 +30711,9 @@ ZiplineProtectionSlowDurationOnHit
 ZjLS
 Zod6
 ZombieChargeOnCast
+ZombieExplosionBuildUp
 ZombieLifeDuration
+ZombieMeleeBuildUp
 ZombieTickRate
 ZombieWallDeployTime
 ZombieWallHeight
@@ -30897,7 +30905,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPL
+\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31842,10 +31850,10 @@ Z~wl
 ^DqPt
 ^J_spY
 ^Nij
-^Pj0
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
+^pm0
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -31904,7 +31912,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6 U0
+`6@X0
 `:zQF
 `D$daM-l
 `DZG
@@ -31933,6 +31941,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvD$+
 aD/x
 aDSS
 aECDH
@@ -35319,7 +35328,6 @@ eyj5yR
 f#9i\n
 f%wyLmX:
 f&dy
-f0+0
 f1cK%
 f45\r
 fBB\fy
@@ -35327,6 +35335,7 @@ fC\tc
 fL\ri
 fLength
 fMaxLength
+fP.0
 fP;y
 fPitch
 fRoll
@@ -39472,12 +39481,10 @@ mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
-n0C0
 n1Z 
 n5cM
 n6j/
 n:2C[
-n@B0
 n@PK
 nAlpha
 nAttributeValue
@@ -39507,6 +39514,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
+nPF0
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39521,6 +39529,7 @@ nValue
 nVersion
 n\r2S
 n`3i
+n`E0
 name constraints minimum and maximum not supported
 name of highest net worth enemy
 name too long
@@ -40133,12 +40142,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^D$+
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6`90
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40662,6 +40671,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
+pnD$+
 point
 point arithmetic failure
 point at infinity
@@ -43568,6 +43578,7 @@ uvs are all identical
 uxX/
 v'A>M6
 v)56
+v0+0
 v0o/5
 v1(0)
 v1GZ
@@ -43756,7 +43767,6 @@ volumematcheseventramp
 vote_round_to_tally
 voxel_size
 vparams
-vpk0
 vqw0\nU
 vscripts
 vsnd_selection_index
@@ -44080,6 +44090,7 @@ zz2K
 }Xee+
 }gE3
 }n2W
+~0k0
 ~9ob
 ~If D
 ~P2T

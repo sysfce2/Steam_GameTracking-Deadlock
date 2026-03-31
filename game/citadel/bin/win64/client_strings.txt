@@ -89,8 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j`
- (08@HPZ`
+ (08@HPX`j
+ (08@HPZ
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -113,7 +113,7 @@
  <-- Arg '%s'
  <-- Retval '%s'
  <b>@import</b> 
- A03
+ A0C
  ACTIVE GROUP
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
@@ -16701,8 +16701,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR`
-08B`
+08@HR
 08bX
 09,h
 0:00
@@ -16964,7 +16963,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpH
+2\vpT
 2^pV
 2a"l
 2bT~
@@ -17180,7 +17179,6 @@ $hRh
 8= zp
 8A6j
 8Client ID for which to count the number of issued tokens"
-8F b
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
@@ -17425,6 +17423,7 @@ $hRh
 >fN46R^
 >l\rur
 >p00<
+>xzj
 >yhP
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
@@ -17484,14 +17483,11 @@ $hRh
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
-@60t
-@6ps
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
 @CitadelMusicCueOverrides_t
 @DebugIndividualStyle
-@HPX`hv`E
 @MfKZ
 @Pgl
 @Pu\rm
@@ -18383,7 +18379,6 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
-B>pK
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -29361,7 +29356,6 @@ P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P60x
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30658,11 +30652,12 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
+R\fpT
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpH
+R\vpP
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -32401,6 +32396,7 @@ SkullBuildUp
 SkullCount
 SkullLifetime
 SkullRevives
+SkullsOnCasterDeath
 SkullsOnZombieDeath
 SkyBox
 SkyBox_LightingOnly
@@ -34966,7 +34962,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr`
+X`hr
 Xd3h
 Xf e
 Xf@f
@@ -35076,7 +35072,9 @@ Zipping %s (%d files)\n
 ZjLS
 Zod6
 ZombieChargeOnCast
+ZombieExplosionBuildUp
 ZombieLifeDuration
+ZombieMeleeBuildUp
 ZombieTickRate
 ZombieWallDeployTime
 ZombieWallHeight
@@ -35182,6 +35180,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -36201,7 +36200,6 @@ Z~wl
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
-\r0Xg
 \r@h!Aq8
 \rB6uZ
 \rChallengeID_t
@@ -36519,7 +36517,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60u
 `:zQF
 `D$daM-l
 `DZG
@@ -39709,7 +39706,6 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\f`B
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -46130,6 +46126,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
+p0j 
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46139,7 +46136,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6pY
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -47242,8 +47238,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpP
 r\n\vstart_index
 r\vDi
+r\vpT
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
