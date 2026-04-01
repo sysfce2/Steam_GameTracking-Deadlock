@@ -4503,6 +4503,7 @@ CITADEL_ABILITY_BEHAVIOR_PROJECTILE
 CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET
 CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD
 CITADEL_ABILITY_BEHAVIOR_PURCHASABLE_MULTIPLE_TIMES
+CITADEL_ABILITY_BEHAVIOR_REFUND_FULL_COOLDOWN_ON_CHANNEL_INTERRUPT
 CITADEL_ABILITY_BEHAVIOR_REFUND_HALF_COOLDOWN_ON_CHANNEL_INTERRUPT
 CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL
 CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION
@@ -4756,6 +4757,7 @@ CITADEL_UNIT_TARGET_TROPHY_ENEMY
 CITADEL_UNIT_TARGET_TROPHY_FRIENDLY
 CITADEL_UNIT_TARGET_TYPE
 CITADEL_UNIT_TARGET_ZIPLINE
+CIcePathShardGenerator
 CInButtonState
 CInWorldItemPanel
 CInWorldKeyBindPanel
@@ -12867,9 +12869,9 @@ MODIFIER_STATE_FAMILIAR_ABILITY_KEEPALIVE
 MODIFIER_STATE_FAMILIAR_ATTACHED
 MODIFIER_STATE_FAMILIAR_ATTACH_LOCKOUT
 MODIFIER_STATE_FAMILIAR_CLONE
-MODIFIER_STATE_FAMILIAR_HOMING_ACTIVE
 MODIFIER_STATE_FAMILIAR_INFESTED
 MODIFIER_STATE_FAMILIAR_INFEST_WAITING
+MODIFIER_STATE_FAMILIAR_MOVING_TO_ATTACH
 MODIFIER_STATE_FAMILIAR_SPIRIT_STOLEN
 MODIFIER_STATE_FATHOM_DO_NOT_REQUIRE_STAND_STILL_FOR_INVIS
 MODIFIER_STATE_FLYING
@@ -14480,7 +14482,6 @@ OnDisabledHitgroupsChanged
 OnEffectsChanged
 OnElectricBeamCastsChanged
 OnEnableStateChanged
-OnEndTimeChanged
 OnEntry
 OnExit
 OnEyeBeamActiveChanged
@@ -14561,7 +14562,6 @@ OnShieldActiveChanged
 OnSimulationTimeChanged
 OnSprintingChanged
 OnSpriteScaleChanged
-OnStartTimeChanged
 OnSteamIDChanged
 OnSubclassIDChanged
 OnTargetCameraAnglesChanged
@@ -30529,6 +30529,7 @@ m_bvEnabledPredictedStateMask
 m_bvEnabledStateMask
 m_cGlowColor
 m_cRenderColor
+m_cShardGenerator
 m_cTicksNoMovement
 m_calmSpeed
 m_cameraCancelledTransitionBacktoArcher
@@ -35323,6 +35324,7 @@ m_hBall
 m_hBarrel
 m_hBaseAbility
 m_hBaseMaterial
+m_hBaseModel
 m_hBasePoseCacheHandle
 m_hBigStepGroundEnt
 m_hBlackboardResource
@@ -35651,6 +35653,7 @@ m_hStartRelay
 m_hStatue
 m_hSteeringMimicsEntity
 m_hStopAtNode
+m_hSurfModel
 m_hSurfShard
 m_hSynchronizedPrimaryNPC
 m_hTarget
@@ -36057,6 +36060,8 @@ m_iWeakPointType
 m_iWeight
 m_iWindSeed
 m_iWinningTeam
+m_icePathModelDesc
+m_icePathSurfModelDesc
 m_id
 m_idToIndexMap
 m_idleTurnTarget
@@ -40653,6 +40658,7 @@ m_vPrecomputedOBBOrigin5
 m_vPreservedVelocity
 m_vPrevEnd
 m_vPrevEndPointPos
+m_vPrevFrontEdgeVerts
 m_vPrevPos
 m_vPrevVPhysicsUpdatePos
 m_vPrevWaypoint
@@ -41171,6 +41177,9 @@ m_vecPrevAbsOrigin
 m_vecPrevPos
 m_vecPreviewGravity
 m_vecPreviousImpulse
+m_vecPreviousPreviousShardOrigin
+m_vecPreviousShard
+m_vecPreviousShardOrigin
 m_vecPreviousTestPoint
 m_vecPrimaryMuzzles
 m_vecPrimaryPickups
@@ -41298,6 +41307,7 @@ m_vecTravellingPosition
 m_vecTriggers
 m_vecTwistAxis
 m_vecUniqueHitList
+m_vecUnitCirclePoints
 m_vecUnitStatusOffset
 m_vecUpgrades
 m_vecUsers

@@ -113,7 +113,6 @@
  <-- Arg '%s'
  <-- Retval '%s'
  <b>@import</b> 
- A0C
  ACTIVE GROUP
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
@@ -2871,6 +2870,7 @@ $hRh
 (\v2\v.CMsgVector*
 (d4t8
 (default)
+(f0H
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
@@ -4574,7 +4574,6 @@ $hRh
 .?AV?$CGameSystemStaticFactory@VCGamePortraitWorldSystem@@V1@@@
 .?AV?$CGameSystemStaticFactory@VCGameTimescale@@V1@@@
 .?AV?$CGameSystemStaticFactory@VCHudIcons@@V1@@@
-.?AV?$CGameSystemStaticFactory@VCIcePathShardGameSystem@@V1@@@
 .?AV?$CGameSystemStaticFactory@VCImpactEffectsManager@@V1@@@
 .?AV?$CGameSystemStaticFactory@VCItemGeneration@@V1@@@
 .?AV?$CGameSystemStaticFactory@VCKeyBindQueuedCommands@@V1@@@
@@ -13225,7 +13224,6 @@ $hRh
 .?AVCHud_PerfStatsBasics@@
 .?AVCIPASNInfo@@
 .?AVCIPLocationInfo@@
-.?AVCIcePathShardGameSystem@@
 .?AVCIconLesson@@
 .?AVCIconModifier@@
 .?AVCIconModifier_Hero@@
@@ -16963,7 +16961,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpT
+2\vpt
 2^pV
 2a"l
 2bT~
@@ -17030,6 +17028,7 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
+4B8l
 4Ch;
 4F0I
 4Mv8
@@ -17423,7 +17422,6 @@ $hRh
 >fN46R^
 >l\rur
 >p00<
->xzj
 >yhP
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
@@ -17507,6 +17505,7 @@ $hRh
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
+@modifier_lash_grapple_enemy_debuff
 @n2w
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
@@ -19193,8 +19192,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:720
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4246
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4420
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4251
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4425
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
@@ -20077,7 +20076,6 @@ CHud_PerfStatsBasics::Update
 CIPLocationInfo
 CITADEL Account Stats
 CITADEL_MinimapRenderer
-CIcePathShardGameSystem
 CIconLesson::IsVisible
 CIconLesson::ShouldDisplay
 CImagePanel::SetImage
@@ -21431,7 +21429,6 @@ CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<__int64,stru
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<char const *,struct CoJobType_t const *,struct CaseSensitiveStrEquals,struct MurmurHash3ConstCharPtr>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<char const *,struct CoJobType_t const *,struct CaseSensitiveStrEquals,struct MurmurHash3ConstCharPtr>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class AccountSyncID_t,struct CCitadelAccountSyncStorage::SyncIDInfo_t,class CUtlHashMapLargeDefEquals<class AccountSyncID_t>,struct MurmurHash3Functor<class AccountSyncID_t> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class AccountSyncID_t,struct CCitadelAccountSyncStorage::SyncIDInfo_t,class CUtlHashMapLargeDefEquals<class AccountSyncID_t>,struct MurmurHash3Functor<class AccountSyncID_t> >::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class CEconSchemaSymbol,class CEconItemDefinition *,class CUtlHashMapLargeDefEquals<class CEconSchemaSymbol>,struct MurmurHash3Functor<class CEconSchemaSymbol> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class CEconSchemaSymbol,class CEconItemDefinition *,class CUtlHashMapLargeDefEquals<class CEconSchemaSymbol>,struct MurmurHash3Functor<class CEconSchemaSymbol> >::HashBucket_t,int>::AddMultipleToTail
-CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class HeroID_t,struct PartyAssignedHero_t,class CUtlHashMapLargeDefEquals<class HeroID_t>,struct MurmurHash3Functor<class HeroID_t> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class HeroID_t,struct PartyAssignedHero_t,class CUtlHashMapLargeDefEquals<class HeroID_t>,struct MurmurHash3Functor<class HeroID_t> >::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class MatchID_t,unsigned int,class CUtlHashMapLargeDefEquals<class MatchID_t>,struct MurmurHash3Functor<class MatchID_t> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class MatchID_t,unsigned int,class CUtlHashMapLargeDefEquals<class MatchID_t>,struct MurmurHash3Functor<class MatchID_t> >::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class item_definition_index_t,class CEconItemDefinition *,class CUtlHashMapLargeDefEquals<class item_definition_index_t>,struct MurmurHash3Functor<class item_definition_index_t> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class item_definition_index_t,class CEconItemDefinition *,class CUtlHashMapLargeDefEquals<class item_definition_index_t>,struct MurmurHash3Functor<class item_definition_index_t> >::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class itemid_t,class CEconItem *,class CUtlHashMapLargeDefEquals<class itemid_t>,struct MurmurHash3Functor<class itemid_t> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class itemid_t,class CEconItem *,class CUtlHashMapLargeDefEquals<class itemid_t>,struct MurmurHash3Functor<class itemid_t> >::HashBucket_t,int>::AddMultipleToTail
@@ -27673,6 +27670,7 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
+L=X|h
 L>ff
 L?fff?
 L@4T
@@ -29352,6 +29350,7 @@ P-224
 P-256
 P-384
 P-521
+P08J0
 P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
@@ -30652,12 +30651,12 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpT
+R\fpt
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpP
+R\vpp
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34964,8 +34963,6 @@ XYD%
 X\tQo
 X`hr
 Xd3h
-Xf e
-Xf@f
 XfJ7
 XjfR
 XqgA+
@@ -35180,7 +35177,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -36527,7 +36523,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`ht0
 `o_je
 `yNT
 a null shared library handle was used
@@ -44953,7 +44948,6 @@ modifier_kinetic_sash
 modifier_kinetic_sash_triggered
 modifier_knockback_aura
 modifier_lash_flog_debuff
-modifier_lash_grapple_enemy_debuff
 modifier_lash_grapple_target
 modifier_learning_hero_ability
 modifier_leech_healbane_debuff
@@ -46126,7 +46120,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0j 
+p0j@
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46135,6 +46129,7 @@ p2{l
 p4Z3
 p5Z3
 p5\nL,
+p6 3
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
@@ -47238,10 +47233,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpP
+r\fpp
 r\n\vstart_index
 r\vDi
-r\vpT
+r\vpt
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -50656,6 +50651,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
+zDWhen you get gold from a tier1 boss orb.
 zF):O4
 zFar
 zG2m8

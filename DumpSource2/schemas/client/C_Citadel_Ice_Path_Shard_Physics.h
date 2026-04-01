@@ -12,10 +12,8 @@ class C_Citadel_Ice_Path_Shard_Physics : public C_BaseModelEntity
 	// MNetworkEnable
 	QAngle m_qForward;
 	// MNetworkEnable
-	// MNetworkChangeCallback = "OnStartTimeChanged"
 	GameTime_t m_flStartTime;
 	// MNetworkEnable
-	// MNetworkChangeCallback = "OnEndTimeChanged"
 	GameTime_t m_flEndTime;
 	// MNetworkEnable
 	float32 m_flShardWidth;

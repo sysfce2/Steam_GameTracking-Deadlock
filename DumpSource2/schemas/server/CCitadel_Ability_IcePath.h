@@ -5,6 +5,7 @@
 class CCitadel_Ability_IcePath : public CCitadelBaseAbility
 {
 	VectorWS m_vInitialPosition;
+	CIcePathShardGenerator m_cShardGenerator;
 	// MNetworkEnable
 	// MNetworkUserGroup = "LocalPlayerOwnerAndObserversExclusive"
 	bool m_bIcePathing;
