@@ -1,7 +1,7 @@
 {
 	"1422452": // deadlock windows
 	[
-		"regex:.+?\\.dll",
+		"regex:.+?\\.(dll|exe)",
 		"regex:.+?_dir\\.vpk",
 	],
 	"1422456": // deadlock content
