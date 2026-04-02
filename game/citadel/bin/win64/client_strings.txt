@@ -113,6 +113,7 @@
  <-- Arg '%s'
  <-- Retval '%s'
  <b>@import</b> 
+ A02
  ACTIVE GROUP
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
@@ -2870,7 +2871,6 @@ $hRh
 (\v2\v.CMsgVector*
 (d4t8
 (default)
-(f0H
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
@@ -16961,7 +16961,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpt
+2\vpd
 2^pV
 2a"l
 2bT~
@@ -17028,7 +17028,6 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4B8l
 4Ch;
 4F0I
 4Mv8
@@ -17486,6 +17485,7 @@ $hRh
 @CAccoladeDefinition
 @CitadelMusicCueOverrides_t
 @DebugIndividualStyle
+@HVpM
 @MfKZ
 @Pgl
 @Pu\rm
@@ -18378,6 +18378,7 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
+B>pJ
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -21429,6 +21430,7 @@ CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<__int64,stru
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<char const *,struct CoJobType_t const *,struct CaseSensitiveStrEquals,struct MurmurHash3ConstCharPtr>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<char const *,struct CoJobType_t const *,struct CaseSensitiveStrEquals,struct MurmurHash3ConstCharPtr>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class AccountSyncID_t,struct CCitadelAccountSyncStorage::SyncIDInfo_t,class CUtlHashMapLargeDefEquals<class AccountSyncID_t>,struct MurmurHash3Functor<class AccountSyncID_t> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class AccountSyncID_t,struct CCitadelAccountSyncStorage::SyncIDInfo_t,class CUtlHashMapLargeDefEquals<class AccountSyncID_t>,struct MurmurHash3Functor<class AccountSyncID_t> >::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class CEconSchemaSymbol,class CEconItemDefinition *,class CUtlHashMapLargeDefEquals<class CEconSchemaSymbol>,struct MurmurHash3Functor<class CEconSchemaSymbol> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class CEconSchemaSymbol,class CEconItemDefinition *,class CUtlHashMapLargeDefEquals<class CEconSchemaSymbol>,struct MurmurHash3Functor<class CEconSchemaSymbol> >::HashBucket_t,int>::AddMultipleToTail
+CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class HeroID_t,struct PartyAssignedHero_t,class CUtlHashMapLargeDefEquals<class HeroID_t>,struct MurmurHash3Functor<class HeroID_t> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class HeroID_t,struct PartyAssignedHero_t,class CUtlHashMapLargeDefEquals<class HeroID_t>,struct MurmurHash3Functor<class HeroID_t> >::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class MatchID_t,unsigned int,class CUtlHashMapLargeDefEquals<class MatchID_t>,struct MurmurHash3Functor<class MatchID_t> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class MatchID_t,unsigned int,class CUtlHashMapLargeDefEquals<class MatchID_t>,struct MurmurHash3Functor<class MatchID_t> >::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class item_definition_index_t,class CEconItemDefinition *,class CUtlHashMapLargeDefEquals<class item_definition_index_t>,struct MurmurHash3Functor<class item_definition_index_t> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class item_definition_index_t,class CEconItemDefinition *,class CUtlHashMapLargeDefEquals<class item_definition_index_t>,struct MurmurHash3Functor<class item_definition_index_t> >::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMapLarge<class itemid_t,class CEconItem *,class CUtlHashMapLargeDefEquals<class itemid_t>,struct MurmurHash3Functor<class itemid_t> >::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMapLarge<class itemid_t,class CEconItem *,class CUtlHashMapLargeDefEquals<class itemid_t>,struct MurmurHash3Functor<class itemid_t> >::HashBucket_t,int>::AddMultipleToTail
@@ -27670,7 +27672,6 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
-L=X|h
 L>ff
 L?fff?
 L@4T
@@ -29350,11 +29351,12 @@ P-224
 P-256
 P-384
 P-521
-P08J0
+P08J 
 P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
+P6P\n
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30651,12 +30653,11 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpt
+R\fpd
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpp
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34963,7 +34964,9 @@ XYD%
 X\tQo
 X`hr
 Xd3h
+Xf0U
 XfJ7
+XfPV
 XjfR
 XqgA+
 Xuub
@@ -46120,7 +46123,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0j@
+p0j0
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46129,7 +46132,6 @@ p2{l
 p4Z3
 p5Z3
 p5\nL,
-p6 3
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
@@ -47233,10 +47235,9 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpp
 r\n\vstart_index
 r\vDi
-r\vpt
+r\vpd
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
