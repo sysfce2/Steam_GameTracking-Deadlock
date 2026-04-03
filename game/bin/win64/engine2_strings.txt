@@ -150,11 +150,10 @@
  %4u stashed frames = %12s bytes
  %i refs\n
  (08@HPX`hpx
- (08@HPX`j@
- (08@HPXb
- (08@HPZ@
- (08@HR
- (0X`hpz
+ (08@HPX`j
+ (08@HPXb`
+ (08@HPZ
+ (0X`hpz`
  (Start: 
  (Texture)
  (default = .tga + .wav file)\n
@@ -611,7 +610,9 @@ $tI(knN
 %d/%d: '%s' %s
 %d: rgb(%d, %d, %d) : hsv( %g, %g, %g ) : %s%s\n
 %f %f %f %f
+%f FRAME end %d server ticks, %d client ticks (%.2fms elapsed)\n
 %f FRAME end %d ticks (%.2fms elapsed)\n
+%f FRAME start %d server ticks %d client ticks\n
 %f FRAME start %d ticks\n
 %f Long frame (%s): %.2fms elapsed, %.2fms sim time, %d ticks, %d..%d.\n
 %f Player [%s][%d][adr:%s] was sent a datagram %d bits (%8.3f bytes)\n
@@ -2553,10 +2554,10 @@ $tI(knN
 0123456789abcdef
 0123456789abcdefghijklmnopqrstuvwxyz
 08@HP
-08@HR@
-08@J
-08B@
+08@HR
+08@J`
 08\fj
+09:52:22
 0: Force z prepass off. 1: Force on. -1: Don't force
 0: Use normals reconstructed from depth. 1: Output correct normals in z prepass.
 0: run all send jobs on main thread; 1: send jobs run asynchronously (except on dedicated server); 2: send jobs asynchronously; 3: send jobs run in parallel but block to not overlap the next tick; 4: main server clients' send jobs run in parallel, then HLTV server jobs; this approximately matches pre-async profile for a single HLTV server configuration
@@ -2565,13 +2566,14 @@ $tI(knN
 0=Off, 1=Visualize trace from camera, 2=Visualize occlusion, 3=Visualize far field trace from camera
 0B_u
 0C&C
+0D#G
+0D&C
 0E>X
 0T.Q
 0X8b?~
 0\n\vserializers
 0\tV_fwrite
 0iN>/
-0vt*C
 0x%x,
 0|t?L
 0|t?uj
@@ -2582,7 +2584,6 @@ $tI(knN
 1#QNAN
 1#SNAN
 1.2.11
-10:18:28
 11Y@
 127.0.0.1
 16777215"R\n\nCMsg_CVars
@@ -2624,6 +2625,7 @@ $tI(knN
 2\r%2t
 2\r.PrefetchType"h\n
 2\rU2t
+2\vpD#G
 2i0/
 3$EE\f
 3'F^7
@@ -2663,12 +2665,12 @@ $tI(knN
 5\n\vnested_type
 5c;3E
 5y?4
-60\tH
 64-bit
 6?k 6?t
 6GQ^h~
 6KT3c7
 6NK>
+6P\nH
 6\fXO>\ntA
 6\n\fmessage_type
 6\r56t
@@ -2691,7 +2693,6 @@ $tI(knN
 8>0RF>
 8@HP:
 8A3b
-8B`X%
 8Csinf
 8Smt
 8W?i
@@ -2701,7 +2702,6 @@ $tI(knN
 8\vu8t
 8b  16-May-2010
 8ke?;
-8mr^
 8}WW`
 9*ubC'
 9=aA\E
@@ -3131,16 +3131,13 @@ $tI(knN
 ?ysB
 @ Current  :  %s\n
 @08@HPX`hpx
-@08Nt*C
+@08N
 @GetProfile_ultrafast
 @HPX
 @HPX&I
 @HPX`hv
-@HVp
 @^8U)zj
-@ft*C
 @i-kuX
-@nt*C
 A command with the specified name already exists. Cannot create an alias with the same name.\n
 A dB floor of when to stop transmitting packets, the volume between this and voice_threshold will still transmit packets to allow for volume ramping.
 A file with this name is already in the pool.
@@ -3290,6 +3287,7 @@ Application transferred too few scanlines
 Application transferred too many scanlines
 Application unable to load gameinfo.gi file from directory "%s"\n%s
 ApplicationInfo
+Apr  3 2026
 April
 Arabic
 AreFileApisANSI
@@ -3531,10 +3529,10 @@ C:\buildworker\citadel_rel_win64\build\src\engine2\loopmoderemoteconnect.cpp
 C:\buildworker\citadel_rel_win64\build\src\engine2\looptypeclientserver.cpp
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkclientservice.cpp
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclient.cpp
-C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclient.cpp:2677
-C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclient.cpp:3661
-C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclient.cpp:4311
-C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclient.cpp:4607
+C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclient.cpp:2663
+C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclient.cpp:3647
+C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclient.cpp:4297
+C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclient.cpp:4593
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclientbase.cpp
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclientbase.cpp:2804
 C:\buildworker\citadel_rel_win64\build\src\engine2\networkgameclientbase.cpp:4321
@@ -5310,7 +5308,6 @@ Found %d lines of sight!\n
 Found existing value when inserting into dict - replacing existing value with new value. If this is intended behavior, use InsertOrReplace. If leaving existing values alone is intended, use InsertIfNotFound.
 Found existing value when inserting into tree - replacing existing value with new value. If this is intended behavior, use InsertOrReplace. If leaving existing values alone is intended, use InsertIfNotFound. If duplicate entries are intended, use InsertWithDupes.
 Found invalid proto option data for: 
-Fp\fH
 Fractional sampling not implemented yet
 Frame
 Frame %d has corrupted snip @%u(%u,%u) in %u byte stream\n
@@ -5573,9 +5570,9 @@ H$6t
 H*0"ZOW
 H.FM
 HD?0
-HEO`
 HGR9\f
 HH:mm:ss
+HIP`
 HKR~
 HLTV
 HLTV Broadcast
@@ -5630,6 +5627,7 @@ Hostname for server.
 How far back before our current playback head in seconds to hold onto fragments.
 How long to show the message about Killer Replay after death. The best setting is a bit shorter than spec_replay_autostart_delay + spec_replay_leadup_time + spec_replay_winddown_time
 How often to flash demo recording/playback overlay (0 - disable overlay, -1 - show always)
+HuP`
 HudUpdate
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
@@ -6122,7 +6120,6 @@ MapValueRef::SetUInt32Value
 MapValueRef::SetUInt64Value
 MapViewOfFile
 Mar  6 2026
-Mar 27 2026
 March
 Marked tick %u in '%s'\n
 Marker,GPUTimeAvgMS,GPUTimeRangeMS,GPUTimeMinMS,GPUTimeMaxMS\n
@@ -6519,15 +6516,16 @@ Override Fog color: %f %f %f\n
 Overrides the SourceTV master root address.
 Overrides the max players reported to prospective clients
 Overriding minidump handler with Engine2MinidumpFunction\n
-P08@J
-P08J
-P08Nt*C
+P08@J`
+P08Jp
+P08N
 P4File
 P:S;A
 P?fff?33s?{
 P@HPX`hpx\f
 PBDEMS2
 PCRE does not support \L, \l, \N{name}, \U, or \u
+PD&C
 PHrk
 PInstruction_t<41>::Run
 PInstruction_t<42>::Run
@@ -6801,7 +6799,6 @@ Playing Broadcast (%s)
 Playing Demo (%s)
 Playing back demo: '%s' at tick %u\n
 PmNk
-Pnt*C
 Pointers cannot be used as numeric values
 PollAndProcessInput
 Poor man's restart: reload the current map from disk.
@@ -6984,6 +6981,7 @@ RP_PAUSE
 RP_TOGGLEPAUSE
 RSDSh
 RST%d
+R\vpD&C
 RaiseException
 Random Float
 Random Integer
@@ -7390,7 +7388,6 @@ Seek failed on temporary file
 SelectObject
 Selected %d colors for quantization
 Send Table signon buffer overflowed %i bytes!!!\n
-Send a network packet each time we generate a new usercommand, even if our frame rate is slow and we generate multiple commands in one frame
 Send embedded full frames
 Send full frame on every hltv replay transition
 Send tables cache file
@@ -8284,6 +8281,7 @@ UtlVectorMemory_FailedAllocation
 U}JK
 U}g7x~
 V/?[w8rV
+V0\nH
 V<@ss
 V?wm\v
 VApplication001
@@ -8596,14 +8594,13 @@ X\n'NETWORK_DISCONNECT_BADSPECTATORPASSWORD
 X\n'NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
 X\n'NETWORK_DISCONNECT_KICKED_NOSTEAMTICKET
 X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
-X`hr@
+X`hr
 Xn1G
 Xr?9
 XsBI
 Y8a:
 Y>kX>M
 YSb2
-YZQ`
 Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
 Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
 Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
@@ -8697,6 +8694,7 @@ Zq",9\fB
 \fBLo
 \fCEntityIndex
 \fFlX
+\fPo3
 \fV0U
 \fV4U
 \fX\fm\vH\vH\vm\v
@@ -8729,6 +8727,7 @@ Zq",9\fB
 \nEnd mem_test\n
 \nGame: "%s"\nMap: "%s"\nPlayers: %i (%i bots) / %i humans\nBuild: %u (revision %s)\nServer Number: %i\n\n
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
+\nPD&C
 \nParsing attempt:  
 \nProcess Memory:\nWorking set: %.2f MiB\nPeak working set: %.2f MiB\n
 \nRegistered comments:\n
@@ -9101,6 +9100,7 @@ Zq",9\fB
 \vm\vm\vm\vH\vm\vm\v
 \vm\vm\vm\vm\vH\v
 \vnJH
+\vpD&C
 \vxYT
 ] is an invalid data character in JavaScript compatibility mode
 ]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
@@ -9179,7 +9179,6 @@ _temp_mapcycle.txt
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`ft*C
 `generic-class-parameter-
 `generic-method-parameter-
 `generic-type-
@@ -9194,7 +9193,6 @@ _temp_mapcycle.txt
 `managed vector copy constructor iterator'
 `managed vector destructor iterator'
 `non-type-template-parameter
-`nt*C
 `omni callsig'
 `placement delete closure'
 `placement delete[] closure'
@@ -9225,7 +9223,6 @@ a numbered reference must not be zero
 a&M-=Z]<i*k)n-t&q&p&|
 a6>r
 a?wSa?\
-aBvt*C
 a\tV_roundd
 a\v4+Wk
 abcdefghijklmnopqrstuvwxyz
@@ -9560,7 +9557,6 @@ cl_poll_network_early
 cl_precacheinfo
 cl_precacheinfo:  not connected\n
 cl_predict
-cl_predict_after_every_createmove
 cl_resend
 cl_sendtable_cache_filename
 cl_showdemooverlay
@@ -9576,7 +9572,6 @@ cl_tickpacket_recvmargin_minsamples
 cl_tickpacket_recvmargin_spew_interval
 cl_tickpacket_recvmargin_timeconstant
 cl_tickpacket_recvmargin_window
-cl_tickpacket_send_every_tick
 cl_ticks_net_print_threshold
 cl_ticks_warning_level
 cl_ticktiming
@@ -9961,11 +9956,9 @@ f#kI3\t
 f5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
 f9U\n
 f?3Jf?6
-fB*H
 fD""B
 fD>b
 fDD"AUDT$t
-fN*H
 fP~V
 fWi?
 fabs
@@ -10057,7 +10050,6 @@ frametime_ms
 frexp
 friendly_name
 fs_report_sync_opens
-ft*C
 ft: %-60s %-40s : %-80.80s raw:%s\n
 ftLh!b
 fu`z
@@ -10215,6 +10207,7 @@ hostname
 hostname : %s\n
 hostname_in_client_status
 hostport
+hpz`
 hscript
 hscript_lightbinding
 http Send %.3f ms ave, %.3f ms max\n
@@ -10837,7 +10830,6 @@ not started
 not supported
 notes
 nothing to repeat
-nt*C
 null
 nullptr
 num_bits
@@ -10949,21 +10941,19 @@ overwatch
 owM&
 owner dead
 oz>!km>
-p08@H^t*C
-p0jP
+p08@H^
 p0p@
-p2`X%
 p2p_listpeers
 p2p_ping "%s"
 p4edit
-p>t*C
+p>h(H
 p?ff
 p@HPX`h\f
 pClass
 pClass->m_ClassID(%i) >= %i\n
 pClient
 pCm)
-pFp\fH
+pD&C
 pH\fy
 pMessage
 pServerClass
@@ -11039,7 +11029,6 @@ playsound
 playsound <soundname>
 png 
 png_screenshot
-pnt*C
 pointer, 
 polymorphic_dependent_arg
 polymorphic_field_t
@@ -11119,7 +11108,7 @@ r?dar?\n
 rA?7
 rEy5
 rFg7
-rPL(
+r\fpD&C
 r\tV_sscanf
 r\tVr.>T
 r_add_views_in_pre_output
@@ -11302,7 +11291,6 @@ rpt/%04d_%02d_%02d
 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 rtdelay
 ru&o
-run prediction after every CreateMove instead of only after CreateMove for the final tick in a frame.
 run_perftest
 s5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
 sAmTb
@@ -12103,7 +12091,6 @@ vrgrp
 vrnmd
 vscript
 vsnd_c
-vt*C
 vtune
 vtune "pause" | "resume" : Suspend or resume VTune's sampling.\n
 vxml

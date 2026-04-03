@@ -1,6 +1,7 @@
  !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$X_&
- (08@HPX`j
- (08@HPZ
+ (08@HPXb
+ (08@HR
+ (0X`hpz
  <b>@import</b> 
  cubic-bezier( %1.3f, %1.3f, %1.3f, %1.3f ) 
  ellipsis
@@ -437,7 +438,7 @@
 .PEAVIVideoPlayer@@
 .PEA_N
 .PEBVILocalizationString@panorama@@
-08@HR
+08@J
 0:pf
 0x%4.4x 
 2\vpD.
@@ -487,7 +488,6 @@
 ?GetName@Function@v8@@QEBA?AV?$Local@VValue@v8@@@2@XZ
 ?GlobalizeReference@api_internal@v8@@YAPEA_KPEAVIsolate@internal@2@_K@Z
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
-@08N
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @DebugIndividualStyle
 @\tV_iswcntrl
@@ -1107,8 +1107,8 @@ OpenStyleFileForEditAtByteIndex
 OpenText
 Option_%d
 OverMaxPips
+P08@J
 P08JP
-P08N
 PageDown
 PageLeft
 PagePanelDown
@@ -1596,7 +1596,6 @@ WindowShown
 Wrapper
 WriteCompositionLayerPNG
 XInputPad
-X`hr
 Y_txt
 [object@%p]
 \tV_atanf
@@ -2107,7 +2106,6 @@ orange
 orangered
 orchid
 otherPanelID, eventToFire
-p08@H^
 p2@w
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 padding

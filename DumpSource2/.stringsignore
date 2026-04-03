@@ -16977,7 +16977,6 @@ Send Name 4
 Send These Voices
 Send To Track
 Send a game pause request.
-Send a network packet each time we generate a new usercommand, even if our frame rate is slow and we generate multiple commands in one frame
 Send a screen message to all clients.
 Send embedded full frames
 Send full frame on every hltv replay transition
@@ -21142,7 +21141,6 @@ citadel_max_disconnected_time
 citadel_max_disconnected_time_pregame
 citadel_max_path_detour
 citadel_max_reconnect_time_secs
-citadel_max_separation_force
 citadel_max_videomode_matches
 citadel_medic_minion_sight_range
 citadel_melee_damage_scale
@@ -22216,7 +22214,6 @@ cl_pred_print_every_cmd
 cl_pred_track
 cl_pred_track_off
 cl_predict
-cl_predict_after_every_createmove
 cl_prediction_savedata_postentitypacketreceived
 cl_predictioncopy_describe
 cl_predictioncopy_print
@@ -22315,7 +22312,6 @@ cl_tickpacket_recvmargin_minsamples
 cl_tickpacket_recvmargin_spew_interval
 cl_tickpacket_recvmargin_timeconstant
 cl_tickpacket_recvmargin_window
-cl_tickpacket_send_every_tick
 cl_ticks_net_print_threshold
 cl_ticks_warning_level
 cl_ticktiming
@@ -27272,6 +27268,7 @@ m_QAngle
 m_Quads
 m_Quaternion
 m_QuaternionStorage
+m_QueuedAbilityEndTime
 m_QueuedEvents
 m_QueuedLightStyleStrings
 m_RadianEuler
@@ -29312,6 +29309,7 @@ m_bIsSeasonal
 m_bIsSecondaryTool
 m_bIsSemiAuto
 m_bIsSet
+m_bIsShadowFormCast
 m_bIsSideHead
 m_bIsSignatureAbility == false
 m_bIsSliding
@@ -29453,6 +29451,7 @@ m_bLoopPreIdleSequence
 m_bLoopedPath
 m_bLooping
 m_bLowHealth
+m_bMadeSlashParticle
 m_bMaintainHitbox
 m_bMaintainUpDirection
 m_bManualAnimFrame
@@ -29708,6 +29707,9 @@ m_bPowerupActive
 m_bPreEvaluatePassthroughTransitionPath
 m_bPreIntroFinished
 m_bPrecomputedFieldsValid
+m_bPredErrorCheckCasting
+m_bPredErrorCheckChanneling
+m_bPredErrorCheckIsSelected
 m_bPredict
 m_bPredictable
 m_bPredicted
@@ -29736,6 +29738,7 @@ m_bPreview
 m_bPreviewInGame
 m_bPreviewMode
 m_bPreviousAbilityQueued
+m_bPrimaryAttackHeld
 m_bPrioritizeUp
 m_bPriorityReadButDontContribute
 m_bProcApplied
@@ -30098,6 +30101,8 @@ m_bStarted
 m_bStartedInAir
 m_bStartedMoving
 m_bStartedOnGround
+m_bStartedPhase01
+m_bStartedPhase02
 m_bStartedSlideViaProbeSlope
 m_bState
 m_bStatic
@@ -30393,6 +30398,7 @@ m_bWasLatchedWhenCast
 m_bWasMovingOffPath
 m_bWasPlaying
 m_bWasSelected
+m_bWasSpinningUp
 m_bWillBeCallingPostDataUpdate
 m_bWillLeapOff
 m_bWithinTrackingRange
@@ -31718,6 +31724,7 @@ m_flBurstSpeedMultiplier
 m_flButtonPressWindow
 m_flBuyTimeGracePeriod
 m_flCParm
+m_flCachedCastTime
 m_flCalculationInterval
 m_flCameraBackOffset
 m_flCameraBackOffsetAiming
@@ -33613,6 +33620,7 @@ m_flNextDamageTick
 m_flNextDamageTime
 m_flNextDisarmSound
 m_flNextMPSoundTime
+m_flNextMeepMopTime
 m_flNextMoveSoundTime
 m_flNextPrimaryAttack
 m_flNextPrimaryAttackTickRatio
@@ -33945,6 +33953,7 @@ m_flPreSimTime
 m_flPreSimulationTime
 m_flPreTeleportDuration
 m_flPrecomputedMaxRange
+m_flPredErrorCheckCastCompleteTime
 m_flPredSlowSpeed
 m_flPredTimeSlowedEnd
 m_flPredTimeSlowedStart
@@ -37831,6 +37840,7 @@ m_nQuadVelocitySmoothIterations
 m_nQuality
 m_nQuantizeType
 m_nQuestPhase
+m_nQueuedAbility
 m_nQueuedButtonChangeMask
 m_nQueuedButtonDownMask
 m_nQueuedModifierRefreshHandle
@@ -39548,6 +39558,8 @@ m_strEndingWarningSound
 m_strEnemyBeenTargetedSound
 m_strEnemyParticle
 m_strEnemySkin
+m_strEntangleCounter
+m_strEntangleSound
 m_strEnterSound
 m_strEntityName
 m_strEntityOutput
@@ -43415,7 +43427,6 @@ rtx_force_default_hitgroup
 rtx_perf_stats
 rtx_texture_resolution
 run in a square, # represents how many usercommands to run before turning.
-run prediction after every CreateMove instead of only after CreateMove for the final tick in a frame.
 run_perftest
 run_voicecontainer_async
 sIcon

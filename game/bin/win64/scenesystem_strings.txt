@@ -25,9 +25,7 @@
  !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  %i fog-only.
  %s [%.2f ms]
- (08@HPX`j
  (08@HPXb`Q
- (08@HPZ
  (08@HR`Q
  (0X`hpz`Q
  (EXTERN)
@@ -846,7 +844,6 @@ $tIP
 001.003
 04c/
 050s0
-08@HR
 08@J`Q
 0?333?333?333?333?
 0ljK
@@ -4047,6 +4044,7 @@ Override Streaming GPU Memory
 P+\fGj
 P.P5
 P08@J`Q
+P08J
 P08N\uK
 P2`Q
 P3\rA
@@ -5701,7 +5699,6 @@ XInputGetState
 XK+G
 XUID
 X_HEIGHT
-X`hr
 Xo1 WB
 Xsmall
 Y 3A

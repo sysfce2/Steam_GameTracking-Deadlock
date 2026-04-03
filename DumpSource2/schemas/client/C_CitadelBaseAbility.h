@@ -133,4 +133,9 @@ class C_CitadelBaseAbility : public C_BaseEntity
 	// MNetworkEnable
 	// MNetworkUserGroup = "LocalPlayerOwnerAndObserversExclusive"
 	bool m_bSelectionModeIsAltMode;
+	bool m_bPredErrorCheckChanneling;
+	bool m_bPredErrorCheckCasting;
+	GameTime_t m_flPredErrorCheckCastCompleteTime;
+	bool m_bPredErrorCheckIsSelected;
+	GameTime_t m_flNextMeepMopTime;
 };

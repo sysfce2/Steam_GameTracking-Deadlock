@@ -22,6 +22,7 @@ class CCitadel_Ability_Shiv_KillingBlow : public CCitadelBaseShivAbility
 	// MNetworkEnable
 	CCitadelAutoScaledTime m_flArrivalTime;
 	Vector m_vLastKnownSafePos;
+	bool m_bMadeSlashParticle;
 	ParticleIndex_t m_ChannelParticle;
 	// MNetworkEnable
 	GameTime_t m_flDrainSuppressEndTime;

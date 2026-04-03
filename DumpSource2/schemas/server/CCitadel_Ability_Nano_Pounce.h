@@ -24,6 +24,8 @@ class CCitadel_Ability_Nano_Pounce : public CCitadelBaseAbility
 	// MNetworkEnable
 	CCitadelAutoScaledTime m_flArrivalTime;
 	Vector m_vLastKnownSafePos;
+	bool m_bStartedPhase01;
+	bool m_bStartedPhase02;
 	// MNetworkEnable
 	bool m_bIsFirstCastCompleted;
 	// MNetworkEnable

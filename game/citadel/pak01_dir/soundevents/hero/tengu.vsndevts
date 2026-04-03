@@ -328,7 +328,7 @@
 	Ivy.Kudzu.Bomb.AOE.Start = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
+		volume = 1.000000
 		vsnd_files = "sounds/abilities/tengu/ivy_a1_vines_extend_01.vsnd"
 		vsnd_duration = 3.553379
 	}
@@ -350,6 +350,31 @@
 		volume = 0.000000
 		vsnd_files = "sounds/abilities/tengu/ivy_a1_vines_retract_01.vsnd"
 		vsnd_duration = 1.653741
+	}
+	Ivy.Kudzu.Bomb.Immobilize.Buildup = 
+	{
+		base = "Base.Ability.StatusEffect"
+		volume = -1.000000
+		vsnd_files = 
+		[
+			"sounds/abilities/tengu/ivy_kudzu_immobilize_buildup_01.vsnd",
+			"sounds/abilities/tengu/ivy_kudzu_immobilize_buildup_02.vsnd",
+			"sounds/abilities/tengu/ivy_kudzu_immobilize_buildup_03.vsnd",
+		]
+		vsnd_duration = 2.874717
+	}
+	Ivy.Kudzu.Bomb.Immobilize = 
+	{
+		base = "Base.Ability.Hit"
+		filter_include_others = true
+		volume = 0.000000
+		vsnd_files = 
+		[
+			"sounds/abilities/tengu/ivy_kudzu_immobilize_01.vsnd",
+			"sounds/abilities/tengu/ivy_kudzu_immobilize_02.vsnd",
+			"sounds/abilities/tengu/ivy_kudzu_immobilize_03.vsnd",
+		]
+		vsnd_duration = 1.947302
 	}
 	Ivy.Tether.Cast = 
 	{

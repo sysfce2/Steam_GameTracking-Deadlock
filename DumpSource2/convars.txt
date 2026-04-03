@@ -2974,9 +2974,6 @@ citadel_max_path_detour 500 (developmentonly gamedll)
 citadel_max_reconnect_time_secs 7200 (developmentonly clientdll)
 	Max time to attempt a reconnect after a crash.
 
-citadel_max_separation_force 256 (developmentonly clientdll)
-	<no description>
-
 citadel_max_videomode_matches 20 (min: 1, max: 20, developmentonly clientdll defensive)
 	Max number of video resolutions to show in UI.
 
@@ -5644,9 +5641,6 @@ cl_pred_print_every_cmd false (clientdll release)
 cl_predict true (clientdll userinfo cheat)
 	Perform client side prediction.
 
-cl_predict_after_every_createmove true (developmentonly)
-	run prediction after every CreateMove instead of only after CreateMove for the final tick in a frame.
-
 cl_prediction_savedata_postentitypacketreceived false (clientdll release)
 	Experimental optimization.  If you are reading this in 2026, please delete this convar.
 
@@ -5805,9 +5799,6 @@ cl_tickpacket_recvmargin_timeconstant 0.4 (developmentonly)
 
 cl_tickpacket_recvmargin_window 4 (developmentonly)
 	Recvmargin-based usercommand pacing will use past N seconds
-
-cl_tickpacket_send_every_tick true (developmentonly)
-	Send a network packet each time we generate a new usercommand, even if our frame rate is slow and we generate multiple commands in one frame
 
 cl_ticks_net_print_threshold 2 (release)
 	Print a message if network issues cause problems with server snapshots of user commands not being available when needed, if the percentage (0...100) exceeds this value.  A value of 0 will cause the message to always print each time it is calculated

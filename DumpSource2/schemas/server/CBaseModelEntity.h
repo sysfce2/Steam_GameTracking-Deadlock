@@ -55,7 +55,7 @@ class CBaseModelEntity : public CBaseEntity
 	CUtlString m_szAddModifier;
 	bool m_bAllowFadeInView;
 	bool m_bHasCollision;
-	Vector m_vSupport;
+	VectorWS m_vSupport;
 	// MNetworkEnable
 	// MNetworkChangeCallback = "OnColorChanged"
 	Color m_clrRender;

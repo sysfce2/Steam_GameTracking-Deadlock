@@ -137,10 +137,16 @@
 //	"m_bRemoveOnInterrupted": false,
 //	"m_EntangleModifier":
 //	{
-//	}
+//	},
+//	"m_strEntangleCounter": "",
+//	"m_strEntangleSound": ""
 //}
 class CCitadel_Modifier_Urn_DebuffVData : public CCitadelModifierVData
 {
 	// MPropertyStartGroup = "Modifiers"
 	CEmbeddedSubclass< CCitadelModifier > m_EntangleModifier;
+	// MPropertyStartGroup = "Visuals"
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_strEntangleCounter;
+	// MPropertyStartGroup = "Sounds"
+	CSoundEventName m_strEntangleSound;
 };

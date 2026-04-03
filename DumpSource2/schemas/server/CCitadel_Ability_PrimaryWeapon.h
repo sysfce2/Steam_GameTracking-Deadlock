@@ -141,7 +141,9 @@ class CCitadel_Ability_PrimaryWeapon : public CCitadelBaseAbility
 	float32 m_currentMaxSpread;
 	float32 m_currentFireSpread;
 	float32 m_flCurrentSpinRate;
+	bool m_bWasSpinningUp;
 	float32 m_fFireDuration;
+	bool m_bPrimaryAttackHeld;
 	bool m_bFireOnEmpty;
 	bool m_bHasReleasedForSemiAuto;
 	GameTime_t m_flNextDisarmSound;

@@ -59,6 +59,7 @@
 // MNetworkVarNames = "bool m_bAudioHasSkyExposure"
 class C_CitadelPlayerPawn : public CCitadelPlayerPawnBase
 {
+	CHandle< C_CitadelBaseAbility > m_hAbilityRequiresDebounce;
 	// MNetworkEnable
 	// MNetworkEncoder = "qangle"
 	// MNetworkBitCount = 11
@@ -180,7 +181,10 @@ class C_CitadelPlayerPawn : public CCitadelPlayerPawnBase
 	// MNetworkAlias = "CCitadelHeroComponent"
 	// MNetworkTypeAlias = "CCitadelHeroComponent"
 	CCitadelHeroComponent m_CCitadelHeroComponent;
+	Vector m_vLastVelocity;
 	float32 m_flRichPresenceUpdateInterval;
+	InputBitMask_t m_nQueuedAbility;
+	GameTime_t m_QueuedAbilityEndTime;
 	// MNetworkEnable
 	bool m_bAnimGraphMovementClipped;
 	// MNetworkEnable

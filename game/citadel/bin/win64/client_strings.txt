@@ -89,8 +89,11 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j
- (08@HPZ
+ (08@HPXb03
+ (08@HR03
+ (08@J03
+ (0X`hpz03
+ (203
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -113,7 +116,7 @@
  <-- Arg '%s'
  <-- Retval '%s'
  <b>@import</b> 
- A02
+ A0R
  ACTIVE GROUP
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
@@ -16699,7 +16702,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR
+08@J03
 08bX
 09,h
 0:00
@@ -16961,7 +16964,6 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpd
 2^pV
 2a"l
 2bT~
@@ -17028,6 +17030,7 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
+4BxT
 4Ch;
 4F0I
 4Mv8
@@ -17262,12 +17265,12 @@ $hRh
 :9\n\tkey_field
 :BAD OBJECT
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
+:CAbilitySlideVData
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
 :NPCAttachmentSpawnKV_t
 :QYJ
-:VictimDamageTakenScale
 :Vlq
 :\n5k_EMsgClientToGCCancelUnfinalizedTransactionsResponse
 :\n6GAME_PARTICLE_MANAGER_EVENT_FREEZE_TRANSITION_OVERRIDE
@@ -17432,12 +17435,11 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CCitadel_Modifier_PunkgoatTetheredVData
+?CScaleFunctionAbilityProperty_WeaponDamage
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CitadelPartyCode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
-?ECitadelStatusImpact
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17445,7 +17447,6 @@ $hRh
 ?Exit@Isolate@v8@@QEAAXXZ
 ?Far field
 ?For@Symbol@v8@@SA?AV?$Local@VSymbol@v8@@@2@PEAVIsolate@2@V?$Local@VString@v8@@@2@@Z
-?Found Property [ %s ] changing from %f to %f\n
 ?FromJustIsNothing@api_internal@v8@@YAXXZ
 ?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@I@Z
 ?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@@Z
@@ -17457,6 +17458,7 @@ $hRh
 ?HAI\t81\t9dcG'
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
+?KnockbackSpeed
 ?LatchVariables
 ?TabButton
 ?The most recent last-played time the client already knows about"
@@ -17467,6 +17469,7 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
+?citadel_ability_damage_vdata_tweak
 ?d86L
 ?dt]X
 ?expf
@@ -17478,14 +17481,13 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
 @CitadelMusicCueOverrides_t
 @DebugIndividualStyle
-@HVpM
+@HPX`hv@d
 @MfKZ
 @Pgl
 @Pu\rm
@@ -17499,13 +17501,13 @@ $hRh
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @\tV_iswcntrl
+@ability_kali_trappers_bolo
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
-@modifier_lash_grapple_enemy_debuff
 @n2w
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
@@ -17522,6 +17524,7 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
+AA: v
 AABBDirection
 AACompromise
 ABXY
@@ -18377,8 +18380,8 @@ B64_READ_PKCS7
 B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
+B>CitadelHudStreetBrawlRoundScoringDisplay
 B>J7I
-B>pJ
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -19117,9 +19120,9 @@ C:\buildworker\citadel_rel_win64\build\src\game\client\c_impact_effects.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\client\c_rope.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\client\c_te_effect_dispatch.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\client\cdll_client_int.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\client\citadel\c_citadel_player_pawn.cpp:2934
-C:\buildworker\citadel_rel_win64\build\src\game\client\citadel\c_citadel_player_pawn.cpp:3227
-C:\buildworker\citadel_rel_win64\build\src\game\client\citadel\c_citadel_player_pawn.cpp:3351
+C:\buildworker\citadel_rel_win64\build\src\game\client\citadel\c_citadel_player_pawn.cpp:2712
+C:\buildworker\citadel_rel_win64\build\src\game\client\citadel\c_citadel_player_pawn.cpp:3005
+C:\buildworker\citadel_rel_win64\build\src\game\client\citadel\c_citadel_player_pawn.cpp:3129
 C:\buildworker\citadel_rel_win64\build\src\game\client\citadel\c_citadel_triggers.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\client\citadel\c_playerspraydecal.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\client\citadel\citadel_musicmanager.cpp
@@ -19216,7 +19219,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:557
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:1996
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2093
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2109
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1933
@@ -22219,7 +22222,7 @@ CitadelCopyPartyCode
 CitadelCopySelectedBuildIDToClipboard
 CitadelCreatePartyFromInvites
 CitadelCustomLayoutPage
-CitadelCustomMatchCreate
+CitadelCustomMatchJoin
 CitadelDB
 CitadelDamageImpact
 CitadelDamageIndicator
@@ -22255,7 +22258,6 @@ CitadelForumConfirmClose
 CitadelForumPasswordCopyToClipboard
 CitadelFriend
 CitadelFriendCategoryClicked
-CitadelFriendCodeClicked
 CitadelFriendDataChanged
 CitadelFriendElementContainer
 CitadelFriendMenu
@@ -22265,6 +22267,7 @@ CitadelFriendVoiceTransmittingStateChanged
 CitadelFriendsList
 CitadelFriendsListEntry
 CitadelFriendsListEntryParty
+CitadelFriendsPanelButtonClicked
 CitadelGCConnectionStatusChanged
 CitadelGameAccountClientChanged
 CitadelGameChatModeSelected
@@ -22466,7 +22469,6 @@ CitadelHudScreenEffects_Stunned
 CitadelHudShieldsContainer
 CitadelHudSoulAPContainer
 CitadelHudSpectateBar
-CitadelHudStreetBrawlRoundScoringDisplay
 CitadelHudSubtitles
 CitadelHudTeamMsg
 CitadelHudTopBar
@@ -23900,6 +23902,7 @@ DTLSv1 part of OpenSSL 1.0.2j  26 Sep 2016
 DTLSv1.2
 DVCS
 DVRTextTooltip
+DX b
 DYING
 DYNAMIC_CTRL
 DYNAMIC_GET_DATA_CTX
@@ -25671,6 +25674,7 @@ ForwardOpaque
 ForwardVelocity
 Found %d matches.\n
 Found Property Without Tag - [ %s ]\n
+Found Property [ %s ] changing from %f to %f\n
 Found duplicate particle system index %d
 Found no entity at %d.\n
 Found soundscape entity "%s" with no soundscape name.\n
@@ -27652,7 +27656,6 @@ KnightPositionSpread
 KnightPositionStagger
 KnockAwaySpeed
 KnockForce
-KnockbackSpeed
 KnockedOffDamagePct
 KnockupImmune
 KnockupRadius
@@ -28058,7 +28061,7 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MCitadelFriendsPanelButtonClicked
+MCitadelFriendCodeClicked
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -29351,12 +29354,13 @@ P-224
 P-256
 P-384
 P-521
-P08J 
-P08N
+P08@J03
+P08J
 P1\t98"
+P203
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6P\n
+P:03
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -29566,7 +29570,7 @@ PPz\v=
 PRB+
 PRECIPITATION
 PRECIPITATIONBLOCKER
-PREDMAP: %s has inert DEFINE_OVERRIDE_RECURSIVE(%s), field not found in base classes\n
+PREDMAP: %s has inert DEFINE_PRED_OVERRIDE_RECURSIVE(%s), field not found in base classes\n
 PREDMAP: Class '%s' field '%s' in BEGIN_PREDICTION_DATA but not tagged w MPredictable\n
 PREDMAP: Class '%s' field '%s' tagged MPredictable but not in BEGIN_PREDICTION_DATA\n
 PREDMAP: Class '%s' predictable field '%s' array size mismatch\n
@@ -30653,7 +30657,6 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpd
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
@@ -34432,6 +34435,7 @@ Vg3LE
 VggjeK uO5n
 VguiScreen
 VictimDamageReduction
+VictimDamageTakenScale
 VictimHeroImage
 VictimImage
 VictimPushTime
@@ -34520,7 +34524,7 @@ WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WD%g"0Q-)
-WDCitadelCustomMatchJoin
+WDCitadelCustomMatchCreate
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -34726,6 +34730,7 @@ WriteSteamRemoteStorageFileBlocking( "%s", buf ) -> %f seconds\n
 WriteToBuffer Message %s is not initialized! Probably missing required fields!\n
 Writing SST data to %s...\n
 Writing cubemaps to %s\n
+Wteam_manager
 X to the Y power
 X(Optional) If true, only return the published file ids of files that satisfy this query.
 X.509 part of OpenSSL 1.0.2j  26 Sep 2016
@@ -34962,11 +34967,8 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr
 Xd3h
-Xf0U
 XfJ7
-XfPV
 XjfR
 XqgA+
 Xuub
@@ -35169,7 +35171,6 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@modifier_citadel_powerup_survival
 \fAccoladeID_t
 \fCitadelMMR_t
 \fKS1
@@ -36237,6 +36238,7 @@ Z~wl
 \ri1I
 \rjwB\t
 \roKK
+\rpwi
 \rrCj
 \rstyle_index_t
 \rusercmd.proto"
@@ -36514,6 +36516,7 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
+`203
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
@@ -36723,7 +36726,6 @@ ability_innate_2
 ability_innate_3
 ability_intimidate
 ability_kali_dust_storm
-ability_kali_trappers_bolo
 ability_key
 ability_lash_flog
 ability_leap
@@ -41904,6 +41906,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
+hpz03
 hr_H
 href="
 hscroll
@@ -43797,7 +43800,6 @@ m_ParamType
 m_PlugType
 m_PointerFieldTypes
 m_PulseArguments
-m_QueuedAbilityEndTime
 m_RenamedSerializers
 m_RenamedTypes
 m_RequeuedMessages : %d entries: \n
@@ -43828,23 +43830,15 @@ m_bHasBakedLightingFromVertexStream
 m_bHasPulseArguments
 m_bInvokePostDataUpdates
 m_bIsNotMatchedToMaterial
-m_bIsShadowFormCast
 m_bIsTickRateLockedToDisplayRate=%d
 m_bIsViewmodelCascade
-m_bMadeSlashParticle
 m_bMatchStartOfTypeOnly
 m_bNoIconTarget
 m_bNoShadow
 m_bOnlyShadow
-m_bPredErrorCheckCasting
-m_bPredErrorCheckChanneling
-m_bPredErrorCheckIsSelected
-m_bPrimaryAttackHeld
 m_bRemoveWhenOutOfScope
 m_bSendHandle: %d, m_Handle.Get: 0x%p\n
 m_bShowWhenOccluded
-m_bStartedPhase01
-m_bStartedPhase02
 m_bSuppressAllEntities
 m_bUseCompressedNormalTangent
 m_bUseShadowFastPath
@@ -43866,15 +43860,12 @@ m_fLockDuration
 m_fOutput
 m_fTimeout
 m_fUpdateInterval
-m_flCachedCastTime
 m_flCachedSequenceCycleRate
 m_flClientLastReceivedTeleportTimeUpdate
 m_flCommandQueueMaxDilationPercentage=%f
 m_flDelayedShow
 m_flLastRadius
 m_flMaintainFloat
-m_flNextMeepMopTime
-m_flPredErrorCheckCastCompleteTime
 m_flRelativeUpOffset
 m_flSaveTime
 m_flSlopeIncoming
@@ -43932,7 +43923,6 @@ m_nOutputWidth
 m_nParamIndex < 0
 m_nPixelSSTHeight
 m_nPixelSSTWidth
-m_nQueuedAbility
 m_nResult
 m_nSpawnGroupCount
 m_nStackDepthWhenAdded
@@ -44697,6 +44687,7 @@ modifier_citadel_powerup
 modifier_citadel_powerup_casting
 modifier_citadel_powerup_gun
 modifier_citadel_powerup_movement
+modifier_citadel_powerup_survival
 modifier_citadel_pre_match_wait
 modifier_citadel_priest_silencebomb_aura
 modifier_citadel_projectmind
@@ -44951,6 +44942,7 @@ modifier_kinetic_sash
 modifier_kinetic_sash_triggered
 modifier_knockback_aura
 modifier_lash_flog_debuff
+modifier_lash_grapple_enemy_debuff
 modifier_lash_grapple_target
 modifier_learning_hero_ability
 modifier_leech_healbane_debuff
@@ -45387,7 +45379,7 @@ n1Z
 n5cM
 n6j/
 n:2C[
-n<}\v<}\v<}\v<}\v
+n<}\v<}\v<}\v<}\vp
 n@PK
 nCRD
 nChangeOffset < INT16_MAX
@@ -46122,8 +46114,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p0j0
+p203
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46133,6 +46124,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6Px
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -47237,7 +47229,6 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
-r\vpd
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -49263,7 +49254,6 @@ team_friendly_container
 team_id
 team_image
 team_kills
-team_manager
 team_name
 team_net_worth
 team_networth
@@ -50652,7 +50642,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDWhen you get gold from a tier1 boss orb.
+zDWhen you get gold from a lane trooper orb.
 zF):O4
 zFar
 zG2m8
