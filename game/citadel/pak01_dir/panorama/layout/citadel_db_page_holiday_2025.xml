@@ -5,7 +5,7 @@
 		<include src="s2r://panorama/styles/citadel_db_page_shared.vcss_c" />
 		<include src="s2r://panorama/styles/citadel_db_page_holiday_2025.vcss_c" />
 	</styles>
-	<CitadelHoliday2025Page class="DashboardPage" oncancel="CitadelNavigateBack();" dashboardclass="isShowingHoliday2025Page" onnavigatingto="PlayUISoundScript( &apos;UI.SeasonalAchievement&apos; )">
+	<CitadelHoliday2025Page class="DashboardPage" oncancel="CitadelNavigateBack();" dashboardclass="isShowingHoliday2025Page" onnavigatingto="PlayUISoundEvent( &apos;UI.SeasonalAchievement&apos; )">
 		<Panel class="MainContents">
 			<CitadelHeroChallengeStatus id="HeroChallengeStatus" />
 			<Panel class="CosmeticSection">

@@ -213,6 +213,7 @@
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
+ @expressions
  ACTIVE GROUP
  Damage Dealt to Trooper Boss
  Damage Taken from Player
@@ -306,6 +307,7 @@
 !Access to convar functions
 !Access to global system functions
 !Access to steam functions
+!CitadelAbilityUpgradeInfoPacked_t
 !Custom game event manager
 !HRN
 !ITestScriptMgr
@@ -2055,7 +2057,7 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0P0
+.0W0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14044,10 +14046,10 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PP0
+.PW0
 .PartnerAccountType
-.Pd0
 .PingCommonData
+.Pk0
 .PostProcessingGameStates
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
@@ -14333,9 +14335,10 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pc0
-.pl0
+.p00
+.pj0
 .pp@0
+.ps0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14624,7 +14627,6 @@ $light_emissive
 4@AA
 4Ch;
 4F0I
-4F\v0
 4Mv8
 4Zis
 4\fPl
@@ -14674,27 +14676,34 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
+6 B0
+6 D0
+6 d0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60f0
-60l0
+60\f0
+60\t0
+60m0
+60s0
 62$|S)6f
 64CK\vH
 65535
 65535"
 65535"j\n
 65535B$
+6666666666666666 
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666CAttributeManager
 67-s
+6@30
 6H,N
 6O|T%
-6P)0
-6P_0
+6P00
+6P\n0
+6Pf0
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14706,8 +14715,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`W0
-6`l0
+6`s0
 6afD
 6bX+
 6c&0|vvX
@@ -14715,6 +14723,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
+6p\v0
 6qo~
 6r-m_v
 6r1ij
@@ -14849,6 +14858,7 @@ $light_emissive
 :\n6STEAMLEARN_REGISTER_DATA_SOURCE_RESULT_ERROR_FORBIDDEN
 :\n6STEAMLEARN_REGISTER_DATA_SOURCE_RESULT_SUCCESS_CREATED
 :\n6k_EGCMsgInitiateTradeResponse_Shared_Account_Initiator
+:\n\fupgrade_info
 :\n\nCMsgUpdate
 :\n\nchallenges
 :\n\robjects_added
@@ -14957,7 +14967,7 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->0K0
+>0R0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -14979,8 +14989,6 @@ $light_emissive
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
->P10
->P70
 >P80
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
 >Sem
@@ -15008,6 +15016,7 @@ $light_emissive
 ?333?
 ?33s?
 ?CAnimFoot
+?Format: ent_find substring [substring...] [-exclude_substring...] \n
 ?HAI\t81\t9dcG'
 ?HP4
 ?Set to something >= 0 to test setting every unit's timescale to that value
@@ -15018,14 +15027,12 @@ $light_emissive
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
-?crossbow_muzzle_fx
 ?d86L
 ?dt]X
 ?expf
 ?ffffff
 ?gwL
 ?jOb
-?m_iFilterName
 ?srJO
 ?tya
 ?uWS
@@ -15035,7 +15042,6 @@ $light_emissive
 @0pp
 @Accolades
 @BH]f
-@HV`90
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15071,7 +15077,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:@e
+AA:@l
 AABBDirection
 AACompromise
 AC2,h
@@ -15203,6 +15209,7 @@ ANIMPARAM_GLOBALSYMBOL == m_pParameter->GetParameterType()
 ANSI X9.62
 ANY PRIVATE KEY
 AOERadius
+AOpenHeight
 APPEND_EXP
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
@@ -15546,7 +15553,6 @@ AmbientCubes
 AmbushDuration
 AmmoConsumedPct
 AmmoPerSoul
-Amodifier_citadel_wing_blast_apply
 AmpDamagePercent
 AmpDuration
 AmpPercentPerStack
@@ -15800,6 +15806,7 @@ BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
+BCPulseServerFuncs_Sounds::SoundEventStop
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -15963,6 +15970,7 @@ Bad reinterpret on ArrayRemoveElementMatching
 Bad sequence in GetSequenceActivityName() for model '%s'!\n
 Bad sequence of path_tracks from %s\n
 Bad time value
+Bai_debug_detect_bad_schedules_print_conditions
 BallHitRadius
 BallOffset
 BallRadius
@@ -16148,7 +16156,6 @@ BloodImpact
 BloodSpillDPSPercent
 BloodSpillDuration
 BlurVisionRange
-Bm_nCurTask
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -16522,8 +16529,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_b
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_beam.cpp:243
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4251
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4425
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4269
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4443
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_gamerules.cpp
@@ -18565,7 +18572,6 @@ CPulseServerFuncs::StringToEntityName
 CPulseServerFuncs::TeleportEntity
 CPulseServerFuncs_Sounds::SoundEventSetParamFloat
 CPulseServerFuncs_Sounds::SoundEventSetParamStringToken
-CPulseServerFuncs_Sounds::SoundEventStop
 CPulseTestScriptLib::AssertTrue
 CPulseTestScriptLib::IndicateTestFailure
 CPulseTestScriptLib::IsInTestMode
@@ -19625,6 +19631,7 @@ Client Messages
 ClientFirstActivated
 ClientGamePrecache_server
 ClientHitEntity
+ClientMessages
 ClientPrecacheRegistry_server
 ClientPutInServer create new player controller [%s]\n
 ClientPutInServer reconnecting player controller [%s]\n
@@ -21496,7 +21503,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FP(0
+FP/0
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21833,7 +21840,6 @@ Forcing S1 g_pNetworkStringTable to use version from engine.dll\n
 Forcing split screen player onto team %s\n
 ForgetEntity
 Format: citadel_bot_give_team_gold <team> <amount>\n
-Format: ent_find substring [substring...] [-exclude_substring...] \n
 Format: ent_find_index <index>\n
 Format: ent_orient <entity name> <optional: allangles>\n
 Format: ent_teleport <entity name>\n
@@ -25600,7 +25606,6 @@ Opaque
 Open
 OpenAwayFrom
 OpenAwayFromActivator
-OpenHeight
 OpenMutexA
 OpenSSL 1.0.2j  26 Sep 2016
 OpenSSL CMAC method
@@ -25686,7 +25691,7 @@ P08@JP
 P08J
 P1\t98"
 P5[1
-P6PW0
+P6P^0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -30099,7 +30104,7 @@ Ut]<E
 Uv1t
 Uz_G3=
 V07;m
-V0S0
+V0Z0
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -30627,8 +30632,8 @@ XYD%
 X\tQo
 X`hr`
 Xd3h
-Xf A0
-Xf@B0
+Xf H0
+Xf@I0
 XfJ7
 XjfR
 XqgA+
@@ -31703,7 +31708,6 @@ Z~wl
 \rB6uZ
 \rChallengeID_t
 \rCitadelMMRu_t
-\rClientMessages
 \rHeroBadgeXP_t
 \rHeroBuildID_t
 \rKT8v
@@ -31842,6 +31846,7 @@ Z~wl
 ^DqPt
 ^J_spY
 ^Nij
+^PD0
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
@@ -31903,7 +31908,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60b0
+`60i0
 `:zQF
 `D$daM-l
 `DZG
@@ -34083,6 +34088,7 @@ crls
 crlsign
 crossCertificatePair
 crossbow
+crossbow_muzzle_fx
 crouch_fraction
 crouching
 cryptocom
@@ -34248,7 +34254,7 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\tP
+dP\t0
 dSAQuality
 dWry
 dZ!2.
@@ -35288,7 +35294,6 @@ exposuresmoothingrange
 exposurespeeddown
 exposurespeedup
 expr_alias
-expressions
 expressions/%s.vfe
 exptext
 extReq
@@ -38804,6 +38809,7 @@ modifier_citadel_sticky_bomb_attached
 modifier_citadel_sticky_bomb_on_ground
 modifier_citadel_stormcloud
 modifier_citadel_stunned
+modifier_citadel_stunned_no_cc_diminish
 modifier_citadel_super_neutral_charge_active
 modifier_citadel_super_neutral_charge_prepare
 modifier_citadel_tech_cleave
@@ -38832,6 +38838,7 @@ modifier_citadel_viper_stackingdebuff
 modifier_citadel_viper_venom_proc_watcher
 modifier_citadel_werewolf_leaping
 modifier_citadel_werewolf_maulingleapdebuff
+modifier_citadel_wing_blast_apply
 modifier_citadel_wing_blast_push
 modifier_climb_rope_slow
 modifier_cloak_of_opportunity_watcher
@@ -39469,7 +39476,7 @@ mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
-n0j0
+n0q0
 n1Z 
 n5cM
 n6j/
@@ -40159,6 +40166,7 @@ pDescription
 pEntity
 pField
 pFilter
+pFireUserEntityIO_t
 pFirstWaypoint type[%d]
 pG_*h
 pHitEntity
@@ -42683,7 +42691,7 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\tP
+tR\t0
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -44020,7 +44028,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-z>x7
+z>xG
 zF):O4
 zFar
 zG2m8

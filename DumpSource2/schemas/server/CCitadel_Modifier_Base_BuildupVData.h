@@ -42,6 +42,7 @@
 //	"m_flLingeringAssistWindow": 0.000000,
 //	"m_bDurationCanBeTimeScaled": false,
 //	"m_bDurationReducible": false,
+//	"m_bDurationReducibleByCrowdControlDiminish": true,
 //	"m_eTimeScaleSource": "MODIFIER_TIME_SCALE_USE_PARENT",
 //	"m_bDurationAffectedByEffectiveness": false,
 //	"m_AG2BaseAction":

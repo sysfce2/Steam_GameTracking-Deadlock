@@ -42,6 +42,7 @@
 //	"m_flLingeringAssistWindow": 0.000000,
 //	"m_bDurationCanBeTimeScaled": false,
 //	"m_bDurationReducible": true,
+//	"m_bDurationReducibleByCrowdControlDiminish": true,
 //	"m_eTimeScaleSource": "MODIFIER_TIME_SCALE_USE_PARENT",
 //	"m_bDurationAffectedByEffectiveness": false,
 //	"m_AG2BaseAction":
@@ -152,6 +153,8 @@ class CCitadelModifierVData : public CModifierVData
 	// MPropertyDescription = "When set, the duration will get scaled depending on the owner's timescale"
 	bool m_bDurationCanBeTimeScaled;
 	bool m_bDurationReducible;
+	// MPropertyDescription = "When set, the duration will get reduced based on recent CC applied to the victim"
+	bool m_bDurationReducibleByCrowdControlDiminish;
 	// MPropertyDescription = "Whose timescale to use when adjusting duration."
 	ModifierTimeScaleSource_t m_eTimeScaleSource;
 	// MPropertyDescription = "When true, the 'effectiveness' value for the modifier will be used to scale the duration. You most likely want 'Keep Maximum Duration On Refresh' to match this value"

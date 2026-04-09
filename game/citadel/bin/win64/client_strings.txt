@@ -89,11 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXb03
- (08@HR03
- (08@J03
- (0X`hpz03
- (203
+ (08@HPXb`4
+ (08@HR`4
+ (0X`hpz`4
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -116,7 +114,6 @@
  <-- Arg '%s'
  <-- Retval '%s'
  <b>@import</b> 
- A0R
  ACTIVE GROUP
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
@@ -219,6 +216,7 @@
 !Access to convar functions
 !Access to global system functions
 !App ID to enumerate the files of.
+!CitadelAbilityUpgradeInfoPacked_t
 !FieldRequiresSpecialHandling( field )
 !HRN
 !ITestScriptMgr
@@ -2448,7 +2446,6 @@ $hRh
 (0x%08X)'??'
 (5Me
 (5jP
-(?PulseCursorCancelPriority_t
 (ACTIVE)
 (App Id to retrieve published files from.
 (BZq
@@ -2999,7 +2996,6 @@ $hRh
 ***** Local Player client modifiers *****\n
 ******************************************************************\n
 *,vJEd
-*-camdistance
 *.CMsgSteamLearn_InferenceMetadata_Response"D
 *.CMsgSteamLearn_RegisterDataSource_Request
 *.COAuthToken_ImplicitGrantNoPrompt_Request
@@ -3066,6 +3062,7 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
+*thirdpersonshoulder
 +'+1+3+=+?+K+O+U+i+m+o+{+
 +(#\v&dbF:xrJ'$#
 +(Optional) Filename for the published file.
@@ -16702,10 +16699,11 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J03
+08@J`4
 08bX
 09,h
 0:00
+0:Pn
 0;Q5[
 0<cz
 0M2~@p
@@ -16964,6 +16962,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
+2\vpX
 2^pV
 2a"l
 2bT~
@@ -17030,7 +17029,6 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4BxT
 4Ch;
 4F0I
 4Mv8
@@ -17280,6 +17278,7 @@ $hRh
 :\n6STEAMLEARN_REGISTER_DATA_SOURCE_RESULT_SUCCESS_CREATED
 :\n6k_EGCMsgInitiateTradeResponse_Shared_Account_Initiator
 :\n\flocal_player
+:\n\fupgrade_info
 :\n\nCMsgUpdate
 :\n\nchallenges
 :\n\robjects_added
@@ -17340,7 +17339,6 @@ $hRh
 <\n\vdiagnostics
 <a class="PersonaName"%s%s%s>%s</a>
 <a href="\1\3">\1\3</a>
-<array element>
 <classptr>
 <custom>
 <embedded>
@@ -17428,6 +17426,7 @@ $hRh
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
 ?333?
+?<array element>
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
 ??0Utf8Value@String@v8@@QEAA@PEAVIsolate@2@V?$Local@VValue@v8@@@2@@Z
@@ -17435,7 +17434,6 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CScaleFunctionAbilityProperty_WeaponDamage
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CitadelPartyCode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
@@ -17458,7 +17456,6 @@ $hRh
 ?HAI\t81\t9dcG'
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
-?KnockbackSpeed
 ?LatchVariables
 ?TabButton
 ?The most recent last-played time the client already knows about"
@@ -17469,25 +17466,27 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
-?citadel_ability_damage_vdata_tweak
 ?d86L
 ?dt]X
 ?expf
 ?gwL
 ?jOb
+?m_flNextProjectileTime
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08N$
 @0pp
+@60y
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
 @CitadelMusicCueOverrides_t
 @DebugIndividualStyle
-@HPX`hv@d
+@HPX`hvpe
 @MfKZ
 @Pgl
 @Pu\rm
@@ -17501,13 +17500,14 @@ $hRh
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @\tV_iswcntrl
-@ability_kali_trappers_bolo
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
+@htP
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
+@m_vCrashDir
 @n2w
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
@@ -17524,7 +17524,7 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
-AA: v
+AA:Pw
 AABBDirection
 AACompromise
 ABXY
@@ -18181,7 +18181,6 @@ ApplyBreakCommandListToPieces
 ApplyStyles
 Applying overrides for %s 0x%p\n
 Approach
-Ar_enable_rigid_animation
 Arc Cos
 Arc Cosine of input value. Input must be -1.0, 1.0 range. Output in radians, from 0 to 
 Arc Sin
@@ -19196,8 +19195,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:720
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4251
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4425
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4269
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4443
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
@@ -22222,6 +22221,7 @@ CitadelCopyPartyCode
 CitadelCopySelectedBuildIDToClipboard
 CitadelCreatePartyFromInvites
 CitadelCustomLayoutPage
+CitadelCustomMatchCreate
 CitadelCustomMatchJoin
 CitadelDB
 CitadelDamageImpact
@@ -22258,6 +22258,7 @@ CitadelForumConfirmClose
 CitadelForumPasswordCopyToClipboard
 CitadelFriend
 CitadelFriendCategoryClicked
+CitadelFriendCodeClicked
 CitadelFriendDataChanged
 CitadelFriendElementContainer
 CitadelFriendMenu
@@ -22513,7 +22514,6 @@ CitadelLobbyID_t""\n CMsgClientToGCLeaveLobbyResponse"
 CitadelLobbyID_t"8\n%CMsgClientToGCSetServerConVarResponse
 CitadelLobbyID_t"S\n*CMsgClientToGCReplacementSDRTicketResponse
 CitadelLobbyPlayerSlot_t"
-CitadelManageFriendsClicked
 CitadelMatchDetailsDeleteReplay
 CitadelMatchDetailsGraphClickPlayer
 CitadelMatchDetailsGraphHoverPlayer
@@ -23902,7 +23902,7 @@ DTLSv1 part of OpenSSL 1.0.2j  26 Sep 2016
 DTLSv1.2
 DVCS
 DVRTextTooltip
-DX b
+DX"b
 DYING
 DYNAMIC_CTRL
 DYNAMIC_GET_DATA_CTX
@@ -27387,7 +27387,6 @@ IsMaster
 IsMetaData
 IsMuted
 IsNewItem
-IsPanelSoundPlaying
 IsPassive
 IsPlayer
 IsPlayerUnassigned
@@ -27411,6 +27410,7 @@ IsSpectator
 IsStatusEffect
 IsTimedOut
 IsTopBar
+IsUISoundEventPlaying
 IsUnique
 IsUnlockable
 IsValid
@@ -27656,6 +27656,7 @@ KnightPositionSpread
 KnightPositionStagger
 KnockAwaySpeed
 KnockForce
+KnockbackSpeed
 KnockedOffDamagePct
 KnockupImmune
 KnockupRadius
@@ -28061,7 +28062,7 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MCitadelFriendCodeClicked
+MCitadelManageFriendsClicked
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -29354,13 +29355,15 @@ P-224
 P-256
 P-384
 P-521
-P08@J03
+P08@J`4
 P08J
+P08N$
 P1\t98"
-P203
 P2P ping to "%s". Timed out after %.2fms\n
+P2`4
 P5[1
-P:03
+P60[
+P6p/
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30020,7 +30023,7 @@ PlayPanelSound
 PlayPause
 PlaySequenceOverScript
 PlaySoundEffect
-PlayUISoundScript
+PlayUISoundEvent
 Playback Rate
 PlaybackControls
 PlaybackProgress
@@ -30107,7 +30110,6 @@ PopupBuildTagPicker
 PopupButton
 PopupCommendPlayer
 PopupCustomLayout
-PopupCustomMatch
 PopupDiscordInvite
 PopupEnableButtons
 PopupEventDisconnectFromGame
@@ -30661,6 +30663,7 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vpX
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -33040,12 +33043,11 @@ StopGlowing
 StopListeningToAllGameEvents
 StopListeningToGameEvent
 StopLocalHeroSound
-StopPanelSound
 StopPlayEndCap
 StopSound
 StopSoundEvent
 StopSoundOn
-StopUISoundScript
+StopUISoundEvent
 Stopped lesson 
 Stopping all game layer sounds...\n
 Stopping and deregistering all shop triggers.\n
@@ -34524,10 +34526,11 @@ WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WD%g"0Q-)
-WDCitadelCustomMatchCreate
+WDPopupCustomMatch
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
+WForce third person camera angles
 WIDE_HUMAN_HULL
 WIN32_BIND_FUNC
 WIN32_BIND_VAR
@@ -34730,7 +34733,6 @@ WriteSteamRemoteStorageFileBlocking( "%s", buf ) -> %f seconds\n
 WriteToBuffer Message %s is not initialized! Probably missing required fields!\n
 Writing SST data to %s...\n
 Writing cubemaps to %s\n
-Wteam_manager
 X to the Y power
 X(Optional) If true, only return the published file ids of files that satisfy this query.
 X.509 part of OpenSSL 1.0.2j  26 Sep 2016
@@ -36234,11 +36236,10 @@ Z~wl
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\vpL1
 \r^mX
-\rc_thirdpersonshoulderheight
+\rc_orthowidth
 \ri1I
 \rjwB\t
 \roKK
-\rpwi
 \rrCj
 \rstyle_index_t
 \rusercmd.proto"
@@ -36516,9 +36517,11 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
-`203
 `28)fk
+`2Pw
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`60A
+`60B
 `:zQF
 `D$daM-l
 `DZG
@@ -36546,6 +36549,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv$
 aD/x
 aDSS
 aECDH
@@ -36726,6 +36730,7 @@ ability_innate_2
 ability_innate_3
 ability_intimidate
 ability_kali_dust_storm
+ability_kali_trappers_bolo
 ability_key
 ability_lash_flog
 ability_leap
@@ -41906,7 +41911,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz03
+hpz`4
 hr_H
 href="
 hscroll
@@ -45379,7 +45384,7 @@ n1Z
 n5cM
 n6j/
 n:2C[
-n<}\v<}\v<}\v<}\vp
+n<}\v<}\v<}\v<}\v
 n@PK
 nCRD
 nChangeOffset < INT16_MAX
@@ -46114,7 +46119,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p203
+p08@H^$
+p2`4
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46124,7 +46130,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6Px
+p6@2
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -46139,6 +46145,7 @@ pHeroReleaseVoteOptions->GetChildCount() == (int)EActiveHeroReleaseVoteOption::C
 pHitEntity
 pIp 
 pLocationEntity
+pModifierPropRuntimeHandle_t
 pO0h
 pOtherEntity
 pRTH
@@ -49254,6 +49261,7 @@ team_friendly_container
 team_id
 team_image
 team_kills
+team_manager
 team_name
 team_net_worth
 team_networth
@@ -50642,7 +50650,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDWhen you get gold from a lane trooper orb.
+zDWhen you get gold from a treasure (probably idol?).
 zF):O4
 zFar
 zG2m8

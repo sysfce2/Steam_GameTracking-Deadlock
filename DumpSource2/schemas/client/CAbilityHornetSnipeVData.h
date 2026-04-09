@@ -448,7 +448,8 @@
 //	"m_flFoVChangeTime": 0.150000,
 //	"m_ScopeFoV":
 //	[
-//	]
+//	],
+//	"m_flKillCheckDuration": 4.000000
 //}
 class CAbilityHornetSnipeVData : public CitadelAbilityVData
 {
@@ -471,4 +472,5 @@ class CAbilityHornetSnipeVData : public CitadelAbilityVData
 	float32 m_flFadeToBlackTime;
 	float32 m_flFoVChangeTime;
 	CUtlVector< float32 > m_ScopeFoV;
+	float32 m_flKillCheckDuration;
 };

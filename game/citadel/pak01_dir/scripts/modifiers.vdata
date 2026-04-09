@@ -19,6 +19,14 @@
 		m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
 		m_strSmallIconCssClass = "stunned"
 	}
+	modifier_citadel_stunned_no_cc_diminish = 
+	{
+		_class = "modifier_citadel_stunned"
+		m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+		m_strSmallIconCssClass = "stunned"
+		_base = "modifier_citadel_stunned"
+		m_bDurationReducibleByCrowdControlDiminish = false
+	}
 	modifier_citadel_knockdown = 
 	{
 		_class = "modifier_citadel_knockdown"

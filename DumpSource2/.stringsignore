@@ -19488,6 +19488,7 @@ When set, only show the panel with the corresponding id
 When set, only users in game can be invited
 When set, projectile will not touch anything but the world
 When set, stacks will automatically be decayed after a duration's worth of time has passed.  Only makes sense if adding a stack refreshed the modifier.
+When set, the duration will get reduced based on recent CC applied to the victim
 When set, the duration will get scaled depending on the owner's timescale
 When set, the message will appear in the middle of the HUD for the target player.
 When set, the modifier will not be visible overhead of the casting player for the other players
@@ -28649,6 +28650,7 @@ m_bDisplayModel
 m_bDistanceAlpha
 m_bDistributeEvenly
 m_bDoDecalLightmapping
+m_bDoFinalTeleport
 m_bDoNotDrawInParticlePass
 m_bDoNotRepeatCycle
 m_bDoNotWarnAboutLargeAssetBatches
@@ -28685,6 +28687,7 @@ m_bDucked
 m_bDurationAffectedByEffectiveness
 m_bDurationCanBeTimeScaled
 m_bDurationReducible
+m_bDurationReducibleByCrowdControlDiminish
 m_bDynamicAILOD
 m_bDynamicBounce
 m_bEarlyCratesSpawned
@@ -32926,6 +32929,7 @@ m_flK
 m_flKeyPointMaxSoundThreshold
 m_flKeyPointMinSoundThreshold
 m_flKeyValue
+m_flKillCheckDuration
 m_flKillCheckWindow
 m_flKillRadius
 m_flKillableGlowRange
