@@ -26,6 +26,7 @@
 		m_strSmallIconCssClass = "stunned"
 		_base = "modifier_citadel_stunned"
 		m_bDurationReducibleByCrowdControlDiminish = false
+		m_sLocalizationName = "modifier_citadel_stunned"
 	}
 	modifier_citadel_knockdown = 
 	{
