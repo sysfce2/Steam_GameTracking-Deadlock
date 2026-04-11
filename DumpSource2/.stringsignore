@@ -8963,6 +8963,7 @@ ECitadelAbilityOrder_Invalid_OtherDoorTooFar
 ECitadelAbilityOrder_Invalid_OutOfStamina
 ECitadelAbilityOrder_Invalid_OverridenManually
 ECitadelAbilityOrder_Invalid_ParryDisabledUrnPickup
+ECitadelAbilityOrder_Invalid_PlacementBlocked
 ECitadelAbilityOrder_Invalid_PositionInvalid
 ECitadelAbilityOrder_Invalid_Prematch
 ECitadelAbilityOrder_Invalid_Rooted
@@ -25695,6 +25696,7 @@ m_DashJumpParticle
 m_DashLineEffect
 m_DashModifier
 m_DashParticle
+m_DashSlowModifier
 m_DashSwingEffect
 m_DashTrailEffect
 m_DashTrailParticle
@@ -31766,6 +31768,7 @@ m_flCaptureSpeedPerPlayer
 m_flCaptureTime
 m_flCarrierFrequency
 m_flCartSpeed
+m_flCartSpeedFast
 m_flCastCompleteToAttackTime
 m_flCastCompletedTime
 m_flCastDelayMax
@@ -33197,6 +33200,7 @@ m_flManualModelSelection
 m_flManualTargetSpeed
 m_flMarkInterval
 m_flMarkTolerance
+m_flMashProtectTime
 m_flMass
 m_flMassInv
 m_flMassOverride
@@ -33812,7 +33816,7 @@ m_flParryCheckRadius
 m_flParryEndVisualTime
 m_flParryMoveSpeed
 m_flParryStartTime
-m_flParrySuccessTime
+m_flParrySuccessEndTime
 m_flParticleDensity
 m_flParticleForceScale
 m_flParticleInnerDist

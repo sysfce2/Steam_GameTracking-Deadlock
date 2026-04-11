@@ -181,12 +181,9 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j`
- (08@HPXbP
- (08@HPZ`
- (08@HRP
- (08@JP
- (0X`hpzP
+ (08@HPXbp:
+ (08@HRp:
+ (0X`hpzp:
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -499,6 +496,7 @@
 #CITADEL_ABILITY_INVALID_OTHER_DOOR_TOO_FAR
 #CITADEL_ABILITY_INVALID_OUT_OF_STAMINA
 #CITADEL_ABILITY_INVALID_PARRY_DISABLED_URN_PICKUP
+#CITADEL_ABILITY_INVALID_PLACEMENT_BLOCKED
 #CITADEL_ABILITY_INVALID_POSITION
 #CITADEL_ABILITY_INVALID_PREMATCH
 #CITADEL_ABILITY_INVALID_ROOTED
@@ -2057,7 +2055,9 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0W0
+.0B0
+.0S0
+.0w0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -5774,7 +5774,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flOnGroundStartTime@CCitadel_Ability_Slide@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flOverheatSoundTime@CCitadel_Ability_Tokamak_HeatSinks_Inherent@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flParryStartTime@CCitadel_Ability_MeleeParry@@@@
-.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flParrySuccessTime@CCitadel_Ability_MeleeParry@@@@
+.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flParrySuccessEndTime@CCitadel_Ability_MeleeParry@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flPostCastDelayEndTime@CCitadelBaseAbility@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flPostCastHoldEndTime@CCitadel_Ability_HealthSwap@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flPredTimeSlowedEnd@CCitadelPlayerPawn@@@@
@@ -14029,6 +14029,7 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
+.PB0
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14046,10 +14047,8 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PW0
 .PartnerAccountType
 .PingCommonData
-.Pk0
 .PostProcessingGameStates
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
@@ -14335,10 +14334,7 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p00
-.pj0
 .pp@0
-.ps0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14395,9 +14391,7 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@HR`
-08@JP
-08B`
+08@Jp:
 08bX
 09,h
 0;Q5[
@@ -14676,34 +14670,29 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 B0
-6 D0
-6 d0
+6 R0
+6 w0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60\f0
-60\t0
-60m0
-60s0
+60I0
 62$|S)6f
 64CK\vH
 65535
 65535"
 65535"j\n
 65535B$
-6666666666666666 
+6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@30
+6@N0
 6H,N
 6O|T%
-6P00
-6P\n0
-6Pf0
+6PG0
+6PJ0
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14715,7 +14704,8 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`s0
+6`10
+6`q0
 6afD
 6bX+
 6c&0|vvX
@@ -14723,7 +14713,9 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p\v0
+6pH0
+6pM0
+6pn0
 6qo~
 6r-m_v
 6r1ij
@@ -14845,10 +14837,10 @@ $light_emissive
 :9\n\tkey_field
 :BAD OBJECT
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
-:CCitadel_Ability_Melee_Base
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
+:QAngle
 :QYJ
 :Vlq
 :\n5k_EMsgClientToGCCancelUnfinalizedTransactionsResponse
@@ -14873,7 +14865,7 @@ $light_emissive
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;DDon't retain more than N perf samples for any given client
+;Dm_scriptState
 ;LGEW
 ;Qo0
 ;X94<
@@ -14967,7 +14959,9 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->0R0
+>0P0
+>0r0
+>0x0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -14989,7 +14983,7 @@ $light_emissive
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
->P80
+>PK0
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
 >Sem
 >WK6
@@ -15011,11 +15005,13 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
+>pv0
 >yhP
 >ztq
 ?333?
 ?33s?
 ?CAnimFoot
+?CModifier_Synth_Affliction_Debuff_VData
 ?Format: ent_find substring [substring...] [-exclude_substring...] \n
 ?HAI\t81\t9dcG'
 ?HP4
@@ -15054,9 +15050,9 @@ $light_emissive
 @\n<STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INTERNAL_DATA_SOURCE_ERROR
 @\n\fSingleObject
 @\n\vPowerUpBuff
-@citadel_item_pickup_rejuv_herotest_infospawn
 @dKb]
 @fff>fff>fff>fff>
+@ht0
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -15077,7 +15073,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:@l
 AABBDirection
 AACompromise
 AC2,h
@@ -15209,7 +15204,6 @@ ANIMPARAM_GLOBALSYMBOL == m_pParameter->GetParameterType()
 ANSI X9.62
 ANY PRIVATE KEY
 AOERadius
-AOpenHeight
 APPEND_EXP
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
@@ -15970,7 +15964,7 @@ Bad reinterpret on ArrayRemoveElementMatching
 Bad sequence in GetSequenceActivityName() for model '%s'!\n
 Bad sequence of path_tracks from %s\n
 Bad time value
-Bai_debug_detect_bad_schedules_print_conditions
+Bai_debug_detect_bad_schedules
 BallHitRadius
 BallOffset
 BallRadius
@@ -16516,11 +16510,11 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\baseflex_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayercontroller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayerpawn_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\breakableprop.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1452
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1028
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:287
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:329
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:720
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1482
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1031
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:290
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:332
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:723
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_2_boss_abilities.cpp:1535
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_2_boss_abilities.cpp:1557
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_3_boss_abilities.cpp:517
@@ -16529,8 +16523,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_b
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_beam.cpp:243
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4269
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4443
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4270
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4444
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_gamerules.cpp
@@ -16547,11 +16541,11 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stats_sha
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2331
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2456
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_archer.cpp:1255
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:557
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:560
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_familiar.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1971
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:1996
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:1999
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2109
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
@@ -21466,12 +21460,12 @@ F'pY
 F+Zb
 F,mZq
 F/o4
+F0p0
 F2M+
 F6tr
 F7!z
 F9q'
 F<mb
-FAE_EMPTY
 FAILED - attempting to steal CopyUlt! Resetting cooldown and letting the user try again. \n
 FAILED - target has no valid ultimate ability. \n
 FALL
@@ -21503,7 +21497,6 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FP/0
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21766,6 +21759,7 @@ Fixed
 Fixed Length
 Fixed Section
 FixedLength
+Fl98
 Flags: 
 Flags: %X (%X)
 Flags[%s]
@@ -21867,6 +21861,7 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
+Fpm0
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25606,6 +25601,7 @@ Opaque
 Open
 OpenAwayFrom
 OpenAwayFromActivator
+OpenHeight
 OpenMutexA
 OpenSSL 1.0.2j  26 Sep 2016
 OpenSSL CMAC method
@@ -25687,11 +25683,12 @@ P-224
 P-256
 P-384
 P-521
-P08@JP
+P08@Jp:
 P08J
 P1\t98"
+P2p:
 P5[1
-P6P^0
+P6P)0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26468,7 +26465,6 @@ Q/xtJ2
 Q4EX
 Q6p]
 Q<%g %g %g %g>
-QAngle
 QAngle-world
 QAngle: %.2f %.2f %.2f
 QSlerp
@@ -26664,6 +26660,7 @@ R]Di
 Rad2 Deg
 RadiationThink
 RadiusIncreasePerPulse
+RadiusMin
 RadiusPerSecond
 Ragdoll PreSolve
 Ragdoll magnet adding %f inches/sec to %s\n
@@ -30104,7 +30101,6 @@ Ut]<E
 Uv1t
 Uz_G3=
 V07;m
-V0Z0
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -30630,10 +30626,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr`
 Xd3h
-Xf H0
-Xf@I0
 XfJ7
 XjfR
 XqgA+
@@ -31846,7 +31839,6 @@ Z~wl
 ^DqPt
 ^J_spY
 ^Nij
-^PD0
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
@@ -31908,7 +31900,6 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60i0
 `:zQF
 `D$daM-l
 `DZG
@@ -33704,6 +33695,7 @@ citadel_item_pickup
 citadel_item_pickup_idol
 citadel_item_pickup_rejuv
 citadel_item_pickup_rejuv_herotest
+citadel_item_pickup_rejuv_herotest_infospawn
 citadel_item_powerup_spawner
 citadel_item_punchable_gold
 citadel_lose
@@ -34254,7 +34246,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\t0
 dSAQuality
 dWry
 dZ!2.
@@ -36427,7 +36418,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpzP
+hpzp:
 hr_H
 http request
 https proxy request
@@ -39476,7 +39467,6 @@ mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
-n0q0
 n1Z 
 n5cM
 n6j/
@@ -40136,10 +40126,14 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p0j0e
+p2p:
 p2{l
 p4Z3
 p5Z3
 p5\nL,
+p6 {0
+p60,0
 p618
 p@0pqE5tsO?|1
 pActivator
@@ -42691,7 +42685,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\t0
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -44028,7 +44021,6 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-z>xG
 zF):O4
 zFar
 zG2m8

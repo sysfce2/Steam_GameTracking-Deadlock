@@ -961,7 +961,7 @@
 		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
 
 		"ability_bullet_flurry_t2_desc"	"<span class=\"highlight\">+{s:BonusFireRate}%</span> Fire Rate <br><span class=\"highlight\">{s:AbilityCooldown}s</span> Cooldown"
-		"ability_bullet_flurry_t3_desc"	"<span class=\"highlight\">+{s:TargetsPerTick}</span> Additional Target<br><span class=\"highlight\">+{s:DanceMoveSpeed}m</span> Dance Movespeed"
+		"ability_bullet_flurry_t3_desc"	"<span class=\"highlight\">+{s:EvasionPercent}%</span> Evasion <br><span class=\"highlight\">+{s:DanceMoveSpeed}m</span> Movespeed"
 		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Bullet Damage"
 		"BonusWeaponDamage_postvalue_label"				"Bullet Damage"
@@ -4091,7 +4091,7 @@
 		//Ability 3
 		"ability_frank_painaura" "Aura of Suffering"
 		"ability_frank_painaura_desc" "Unleash pain, dealing {g:citadel_inline_attribute:'SpiritDPS'} to both enemies and yourself. <br><br>The damage <span class=\"highlight\">continues to increase</span> the longer the ability is channeled, up to a maximum amount."
-		"ability_frank_painaura_t1_desc" "Enemies receive <span class=\"highlight\">{s:SlowPercent}%</span> Slow"
+		"ability_frank_painaura_t1_desc" "Enemies receive <span class=\"highlight\">{s:SlowPercent}%</span> Move and Dash Slow"
 		"ability_frank_painaura_t2_desc" "<span class=\"highlight\">+{s:MinDPS}</span> Min DPS and <span class=\"highlight\">+{s:MaxDPS}</span> Max DPS"
 		"ability_frank_painaura_t3_desc" "Enemies take <span class=\"highlight\">+{s:IncomingDamagePercent}%</span> Damage"
 		"IncomingDamagePercentOnHit_label" "Damage Taken"
@@ -4106,7 +4106,7 @@
 
 		//Ability 4
 		"ability_frank_revive" "Shocking Reanimation"
-		"ability_frank_revive_desc" "Reanimate after taking lethal damage, dealing {g:citadel_inline_attribute:'SpiritDamage'} and applying {g:citadel_inline_attribute:'Stun'} to nearby enemies."
+		"ability_frank_revive_desc" "Release a wave after taking lethal damage, applying a diminishing {g:citadel_inline_attribute:'Slow'}. <br><br>After a brief channel you reanimate, dealing {g:citadel_inline_attribute:'SpiritDamage'} and applying {g:citadel_inline_attribute:'Stun'} to nearby enemies."
 		"CooldownRefreshChancePercent_label" "Cooldown Refund Chance"
 		"CooldownRefreshChancePercent_postvalue_label" "Cooldown Refund Chance"
 		"CooldownRefreshChancePercent_postfix" "%"

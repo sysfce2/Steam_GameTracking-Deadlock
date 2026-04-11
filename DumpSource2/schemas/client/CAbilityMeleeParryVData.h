@@ -431,6 +431,7 @@
 //	"m_flActiveTime": 0.000000,
 //	"m_flParryEndVisualTime": 0.000000,
 //	"m_flSuccessActiveTime": 0.000000,
+//	"m_flMashProtectTime": 0.250000,
 //	"m_flBossVictimNoMeleeTime": 7.000000,
 //	"m_flBossVictimCalmTime": 2.000000,
 //	"m_SuccessfulParryParticle": "",
@@ -463,6 +464,7 @@ class CAbilityMeleeParryVData : public CitadelAbilityVData
 	float32 m_flActiveTime;
 	float32 m_flParryEndVisualTime;
 	float32 m_flSuccessActiveTime;
+	float32 m_flMashProtectTime;
 	float32 m_flBossVictimNoMeleeTime;
 	float32 m_flBossVictimCalmTime;
 	// MPropertyStartGroup = "Visuals"

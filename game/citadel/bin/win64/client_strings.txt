@@ -89,9 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXb`4
- (08@HR`4
- (0X`hpz`4
+ (08@HPXb
+ (08@HR
+ (0X`hpz
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -115,6 +115,7 @@
  <-- Retval '%s'
  <b>@import</b> 
  ACTIVE GROUP
+ Ax_b
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreAnalogActionHandlesReady: Analog Action not found: %s \n
@@ -425,6 +426,7 @@
 #CITADEL_ABILITY_INVALID_OTHER_DOOR_TOO_FAR
 #CITADEL_ABILITY_INVALID_OUT_OF_STAMINA
 #CITADEL_ABILITY_INVALID_PARRY_DISABLED_URN_PICKUP
+#CITADEL_ABILITY_INVALID_PLACEMENT_BLOCKED
 #CITADEL_ABILITY_INVALID_POSITION
 #CITADEL_ABILITY_INVALID_PREMATCH
 #CITADEL_ABILITY_INVALID_ROOTED
@@ -7127,7 +7129,7 @@ $hRh
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flOnGroundStartTime@CCitadel_Ability_Slide@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flOverheatSoundTime@CCitadel_Ability_Tokamak_HeatSinks_Inherent@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flParryStartTime@CCitadel_Ability_MeleeParry@@@@
-.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flParrySuccessTime@CCitadel_Ability_MeleeParry@@@@
+.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flParrySuccessEndTime@CCitadel_Ability_MeleeParry@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flPostCastDelayEndTime@C_CitadelBaseAbility@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flPostCastHoldEndTime@CCitadel_Ability_HealthSwap@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_flPredTimeSlowedEnd@C_CitadelPlayerPawn@@@@
@@ -16699,11 +16701,10 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J`4
+08@J
 08bX
 09,h
 0:00
-0:Pn
 0;Q5[
 0<cz
 0M2~@p
@@ -16743,6 +16744,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vt.
 0x%4.4x 
 0x%X
 0x%X 
@@ -16962,7 +16964,8 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpX
+2\vp$1
+2\vpl
 2^pV
 2a"l
 2bT~
@@ -17031,6 +17034,7 @@ $hRh
 4@AA
 4Ch;
 4F0I
+4F\v m
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17263,7 +17267,7 @@ $hRh
 :9\n\tkey_field
 :BAD OBJECT
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
-:CAbilitySlideVData
+:CModifierKnockdownVData
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
@@ -17339,6 +17343,7 @@ $hRh
 <\n\vdiagnostics
 <a class="PersonaName"%s%s%s>%s</a>
 <a href="\1\3">\1\3</a>
+<array element>
 <classptr>
 <custom>
 <embedded>
@@ -17426,7 +17431,6 @@ $hRh
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
 ?333?
-?<array element>
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
 ??0Utf8Value@String@v8@@QEAA@PEAVIsolate@2@V?$Local@VValue@v8@@@2@@Z
@@ -17434,6 +17438,7 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
+?CCitadel_Modifier_Priest_KnockbackBuff
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CitadelPartyCode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
@@ -17471,23 +17476,23 @@ $hRh
 ?expf
 ?gwL
 ?jOb
-?m_flNextProjectileTime
 ?srJO
+?trigger_portal
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N$
+@08Nt.
 @0pp
-@60y
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
 @CitadelMusicCueOverrides_t
 @DebugIndividualStyle
-@HPX`hvpe
+@HV0
 @MfKZ
+@NPy
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -17503,11 +17508,9 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
-@htP
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
-@m_vCrashDir
 @n2w
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
@@ -17524,7 +17527,6 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
-AA:Pw
 AABBDirection
 AACompromise
 ABXY
@@ -17741,6 +17743,7 @@ A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
 A\tV_iswdigit
+A\v7m
 A_txt
 AbW_
 AbandonButton
@@ -19188,15 +19191,15 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\baseflex_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayercontroller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayerpawn_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\beam_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1452
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1028
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:287
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:329
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:720
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1482
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1031
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:290
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:332
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:723
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4269
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4443
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4270
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4444
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
@@ -19216,8 +19219,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stats_sha
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2331
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2456
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:557
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:1996
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:560
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:1999
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2109
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
@@ -23902,7 +23905,6 @@ DTLSv1 part of OpenSSL 1.0.2j  26 Sep 2016
 DTLSv1.2
 DVCS
 DVRTextTooltip
-DX"b
 DYING
 DYNAMIC_CTRL
 DYNAMIC_GET_DATA_CTX
@@ -29355,15 +29357,12 @@ P-224
 P-256
 P-384
 P-521
-P08@J`4
-P08J
-P08N$
+P08@J
+P08J0
+P08Nt.
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
-P2`4
 P5[1
-P60[
-P6p/
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30082,6 +30081,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
+Pnt.
 Point entity.
 Point under crosshair
 PointType
@@ -30659,11 +30659,12 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
+R\fp$1
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpX
+R\vpl
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -30678,6 +30679,7 @@ RadioButton.TextColor
 RadioButtonHero
 RadioSelected
 RadiusIncreasePerPulse
+RadiusMin
 RadiusPerSecond
 Ragdoll PreSolve
 RagdollGameSystem
@@ -36518,10 +36520,9 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2Pw
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60A
-`60B
+`60R
+`6PS
 `:zQF
 `D$daM-l
 `DZG
@@ -36532,6 +36533,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`htp
 `o_je
 `yNT
 a null shared library handle was used
@@ -36549,7 +36551,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$
+aBvt.
 aD/x
 aDSS
 aECDH
@@ -41911,7 +41913,6 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz`4
 hr_H
 href="
 hscroll
@@ -44672,7 +44673,6 @@ modifier_citadel_knockback
 modifier_citadel_knockdown
 modifier_citadel_lightning_bullet
 modifier_citadel_lightningball
-modifier_citadel_link
 modifier_citadel_magic_shield_spirit_buff
 modifier_citadel_metal
 modifier_citadel_metal_skin
@@ -46119,8 +46119,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^$
-p2`4
+p08@H^t.
+p0j@-
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46130,7 +46130,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6@2
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -46809,6 +46808,7 @@ playtime_2weeks
 playtime_forever
 plum
 pngsize
+pnt.
 point
 point arithmetic failure
 point at infinity
@@ -47236,6 +47236,7 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
+r\vp$1
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -49575,7 +49576,6 @@ trigger_mins
 trigger_neutral_shield
 trigger_passthrough_fake_wall
 trigger_physics
-trigger_portal
 trigger_tier3phase2_shield
 trigger_transition
 tripmine
@@ -50650,7 +50650,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDWhen you get gold from a treasure (probably idol?).
+zDmodifier_citadel_link
 zF):O4
 zFar
 zG2m8

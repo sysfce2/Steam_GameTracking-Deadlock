@@ -790,9 +790,9 @@
 	modifier_crowd_control_diminish_watcher = 
 	{
 		_class = "modifier_crowd_control_diminish_watcher"
-		m_flModifierWindow = 8.000000
-		m_flReductionPerModifier = 10.000000
-		m_flMaxReduction = 30.000000
+		m_flModifierWindow = 9.000000
+		m_flReductionPerModifier = 15.000000
+		m_flMaxReduction = 35.000000
 	}
 	modifier_street_brawl_round_start_zipline_boost = 
 	{

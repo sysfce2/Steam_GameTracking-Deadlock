@@ -436,6 +436,12 @@
 //	"m_strElectricBulletHitSound": "",
 //	"m_RevivingModifier":
 //	{
+//	},
+//	"m_SlowModifier":
+//	{
+//	},
+//	"m_DashSlowModifier":
+//	{
 //	}
 //}
 class CCitadel_Ability_Frank_ReviveVData : public CitadelAbilityVData
@@ -452,4 +458,6 @@ class CCitadel_Ability_Frank_ReviveVData : public CitadelAbilityVData
 	CSoundEventName m_strElectricBulletHitSound;
 	// MPropertyStartGroup = "Modifiers"
 	CEmbeddedSubclass< CCitadelModifier > m_RevivingModifier;
+	CEmbeddedSubclass< CCitadelModifier > m_SlowModifier;
+	CEmbeddedSubclass< CCitadelModifier > m_DashSlowModifier;
 };

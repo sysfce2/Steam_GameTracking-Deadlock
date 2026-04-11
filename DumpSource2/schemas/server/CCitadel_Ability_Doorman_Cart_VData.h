@@ -435,6 +435,7 @@
 //	"m_flMaxPitch": 90.000000,
 //	"m_flJumpHeight": 10.000000,
 //	"m_flQAngleSmoothRate": 10.000000,
+//	"m_flCartSpeedFast": 1500.000000,
 //	"m_flGroundHitPitchCurve":
 //	{
 //		"m_spline":
@@ -516,6 +517,7 @@ class CCitadel_Ability_Doorman_Cart_VData : public CitadelAbilityVData
 	float32 m_flMaxPitch;
 	float32 m_flJumpHeight;
 	float32 m_flQAngleSmoothRate;
+	float32 m_flCartSpeedFast;
 	CPiecewiseCurve m_flGroundHitPitchCurve;
 	CPiecewiseCurve m_flGroundHitRollCurve;
 	CPiecewiseCurve m_flGroundHitYawCurve;
