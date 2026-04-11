@@ -181,9 +181,9 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPXbp:
- (08@HRp:
- (0X`hpzp:
+ (08@HPXb
+ (08@HR
+ (0X`hpz
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -2055,9 +2055,9 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0B0
-.0S0
-.0w0
+.020
+.0C0
+.0D0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14029,7 +14029,7 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
-.PB0
+.PC0
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14047,9 +14047,11 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PT0
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
+.Px0
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14334,6 +14336,7 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
+.pC0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14388,10 +14391,11 @@ $light_emissive
 0.25
 0.5 = 50% speed\n1 = 100% speed\n2 = 200% speed\n(Only editable when Fixed Length is false)
 0.75
+00X+
 0123456789
 02V8[
 05=k
-08@Jp:
+08@J
 08bX
 09,h
 0;Q5[
@@ -14562,6 +14566,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vp0X+
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14670,8 +14675,8 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 R0
-6 w0
+6 L0
+6 e0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
@@ -14679,6 +14684,9 @@ $light_emissive
 6-zeZ
 60000
 60I0
+60P0
+60f0
+60u0
 62$|S)6f
 64CK\vH
 65535
@@ -14688,10 +14696,10 @@ $light_emissive
 6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@N0
+6@S0
+6@x0
 6H,N
 6O|T%
-6PG0
 6PJ0
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
@@ -14704,8 +14712,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`10
-6`q0
+6`O0
 6afD
 6bX+
 6c&0|vvX
@@ -14714,8 +14721,7 @@ $light_emissive
 6lkc
 6myY;
 6pH0
-6pM0
-6pn0
+6pK0
 6qo~
 6r-m_v
 6r1ij
@@ -14959,9 +14965,6 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->0P0
->0r0
->0x0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -14983,8 +14986,10 @@ $light_emissive
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
->PK0
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
+>PQ0
+>Ps0
+>Py0
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15005,7 +15010,7 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->pv0
+>pL0
 >yhP
 >ztq
 ?333?
@@ -15038,6 +15043,7 @@ $light_emissive
 @0pp
 @Accolades
 @BH]f
+@HPX`hv0h0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15052,7 +15058,7 @@ $light_emissive
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@ht0
+@htP
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -21460,7 +21466,6 @@ F'pY
 F+Zb
 F,mZq
 F/o4
-F0p0
 F2M+
 F6tr
 F7!z
@@ -21497,6 +21502,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FPq0
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21861,7 +21867,6 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
-Fpm0
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25683,12 +25688,12 @@ P-224
 P-256
 P-384
 P-521
-P08@Jp:
+P08@J
 P08J
+P0X+
 P1\t98"
-P2p:
 P5[1
-P6P)0
+P6p*0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26656,6 +26661,7 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vp0X+
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30896,6 +30902,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp0X+
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31828,6 +31835,8 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vp0B+
+\vp0X+
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -31900,6 +31909,8 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`6 F0
+`6 G0
 `:zQF
 `D$daM-l
 `DZG
@@ -36418,7 +36429,6 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpzp:
 hr_H
 http request
 https proxy request
@@ -40126,15 +40136,15 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j0e
-p2p:
+p0X+
+p0jPf
 p2{l
 p4Z3
 p5Z3
 p5\nL,
-p6 {0
-p60,0
 p618
+p6@|0
+p6P-0
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40158,6 +40168,7 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
+pF040
 pField
 pFilter
 pFireUserEntityIO_t
