@@ -39566,6 +39566,7 @@ m_strEndingWarningSound
 m_strEnemyBeenTargetedSound
 m_strEnemyParticle
 m_strEnemySkin
+m_strEntangleBuildupSound
 m_strEntangleCounter
 m_strEntangleSound
 m_strEnterSound

@@ -115,7 +115,6 @@
  <-- Retval '%s'
  <b>@import</b> 
  ACTIVE GROUP
- Ax_b
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreAnalogActionHandlesReady: Analog Action not found: %s \n
@@ -16744,7 +16743,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vt.
+0vT0
 0x%4.4x 
 0x%X
 0x%X 
@@ -16964,8 +16963,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp$1
-2\vpl
+2\vpL
 2^pV
 2a"l
 2bT~
@@ -17034,7 +17032,6 @@ $hRh
 4@AA
 4Ch;
 4F0I
-4F\v m
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17483,16 +17480,14 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Nt.
+@08NT0
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
 @CitadelMusicCueOverrides_t
 @DebugIndividualStyle
-@HV0
 @MfKZ
-@NPy
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -17507,11 +17502,13 @@ $hRh
 @\tV_iswcntrl
 @absorigin_follow
 @dKb]
+@fT0
 @fff>fff>fff>fff>
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @n2w
+@nT0
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -17743,7 +17740,6 @@ A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
 A\tV_iswdigit
-A\v7m
 A_txt
 AbW_
 AbandonButton
@@ -19221,7 +19217,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:560
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:1999
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2109
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2112
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1933
@@ -23644,6 +23640,7 @@ D2I_X509_CINF
 D2Lb!
 D4tp
 D514p
+D8Cb
 D@D/lcO+hcK
 DAE!
 DAL\fL@
@@ -29358,11 +29355,12 @@ P-256
 P-384
 P-521
 P08@J
-P08J0
-P08Nt.
+P08J
+P08NT0
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
+P6`n
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30081,7 +30079,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-Pnt.
+PnT0
 Point entity.
 Point under crosshair
 PointType
@@ -30659,12 +30657,11 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fp$1
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpl
+R\vpL
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -36521,8 +36518,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60R
-`6PS
+`60U
 `:zQF
 `D$daM-l
 `DZG
@@ -36532,8 +36528,9 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
+`fT0
 `h9T~
-`htp
+`nT0
 `o_je
 `yNT
 a null shared library handle was used
@@ -36551,7 +36548,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvt.
+aBvT0
 aD/x
 aDSS
 aECDH
@@ -46119,8 +46116,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^t.
-p0j@-
+p08@H^T0
+p0j /
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46130,7 +46127,9 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6pE
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
+p>T0
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -46807,8 +46806,8 @@ playrandom
 playtime_2weeks
 playtime_forever
 plum
+pnT0
 pngsize
-pnt.
 point
 point arithmetic failure
 point at infinity
@@ -47236,7 +47235,6 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
-r\vp$1
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals

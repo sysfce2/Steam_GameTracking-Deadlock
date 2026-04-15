@@ -140,7 +140,8 @@
 //	{
 //	},
 //	"m_strEntangleCounter": "",
-//	"m_strEntangleSound": ""
+//	"m_strEntangleSound": "",
+//	"m_strEntangleBuildupSound": ""
 //}
 class CCitadel_Modifier_Urn_DebuffVData : public CCitadelModifierVData
 {
@@ -150,4 +151,5 @@ class CCitadel_Modifier_Urn_DebuffVData : public CCitadelModifierVData
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_strEntangleCounter;
 	// MPropertyStartGroup = "Sounds"
 	CSoundEventName m_strEntangleSound;
+	CSoundEventName m_strEntangleBuildupSound;
 };

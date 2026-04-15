@@ -130,10 +130,10 @@
 	Mirage.A1.Beetles.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 4.000000
+		volume = 3.000000
 		pitch_rand_min = -0.050000
 		pitch_rand_max = 0.050000
-		volume_enemy_targeting_boost = 4.000000
+		volume_enemy_targeting_boost = 6.000000
 		vsnd_files = 
 		[
 			"sounds/abilities/mirage/mirage_scarabs_cast_01.vsnd",
@@ -146,6 +146,7 @@
 	{
 		base = "Base.Ability.Hit"
 		volume = 0.000000
+		volume_offset_attacker_db = 3.000000
 		vsnd_files = 
 		[
 			"sounds/abilities/mirage/a1_beetles/mirage_a2_beetle_hit_01.vsnd",
@@ -168,23 +169,27 @@
 		vsnd_files = "sounds/abilities/mirage/mirage_scarabs_debuff_lp.vsnd"
 		vsnd_duration = 5.844558
 	}
+	Mirage.A1.Beetles.Debuff.Expire = 
+	{
+		base = "Base.Ability.StatusEffect"
+		volume = -6.000000
+		volume_offset_team = -99.000000
+		volume_offset_opponent = -99.000000
+		vsnd_files = "sounds/abilities/mirage/mirage_scarabs_debuff_expire.vsnd"
+		vsnd_duration = 1.634150
+	}
 	Mirage.A1.Beetles.Fly.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 4.000000
+		volume = 6.000000
 		pitch_rand_min = -0.100000
 		pitch_rand_max = 0.100000
 		limiter_max = 0.000000
 		volume_fade_out = 0.200000
 		volume_fade_in = 0.200000
 		delay_rand_min = -2.000000
-		vsnd_files = 
-		[
-			"sounds/abilities/mirage/a1_beetles/mirage_a2_beetle_proj_lp_01.vsnd",
-			"sounds/abilities/mirage/a1_beetles/mirage_a2_beetle_proj_lp_02.vsnd",
-			"sounds/abilities/mirage/a1_beetles/mirage_a2_beetle_proj_lp_03.vsnd",
-		]
-		vsnd_duration = 4.620567
+		vsnd_files = "sounds/abilities/mirage/a1_beetles/mirage_scarabs_proj_lp.vsnd"
+		vsnd_duration = 4.103515
 	}
 	Mirage.A1.Beetles.World.Impact = 
 	{
