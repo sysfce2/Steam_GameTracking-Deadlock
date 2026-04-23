@@ -121,7 +121,7 @@
 			"sounds/vo/drifter/emote/drifter_pain_death_06.vsnd",
 			"sounds/vo/drifter/emote/drifter_pain_death_07.vsnd",
 		]
-		vsnd_duration = 1.353000
+		vsnd_duration = 1.353
 	}
 	Generated.Dynamo.Hero.Death.VO = 
 	{

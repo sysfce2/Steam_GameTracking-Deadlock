@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "music.brawl_draft"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -140,7 +138,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "private"
 				operator = "util_null"
@@ -153,7 +150,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "brawl_time_set"
 				operator = "math_float"
@@ -161,7 +157,6 @@
 				input1 = "@public.brawl_buy_time_remaining"
 				input2 = "-1.0"
 			},
-			
 			{
 				name = "opvar_set_init_smooth_time_remaining"
 				input = "@public.brawl_buy_time_remaining"
@@ -171,7 +166,6 @@
 				input_operator_name = "private"
 				input_field_name = "smooth_time_remaining"
 			},
-			
 			{
 				name = "math_delta_smooth_to_timer"
 				operator = "math_float"
@@ -180,7 +174,6 @@
 				input2 = "@public.brawl_buy_time_remaining"
 				input1 = "@private.smooth_time_remaining"
 			},
-			
 			{
 				name = "math_delta_greater_than_one"
 				input_execute = "@brawl_time_set.output"
@@ -189,7 +182,6 @@
 				input1 = "@math_delta_smooth_to_timer.output"
 				input2 = "1.0"
 			},
-			
 			{
 				name = "math_filter_smooth"
 				operator = "math_filter_smooth_approach_float"
@@ -199,7 +191,6 @@
 				input_rate_rising = "30.0"
 				input_rate_falling = "30.0"
 			},
-			
 			{
 				name = "math_filter_approach"
 				operator = "math_filter_approach_float"
@@ -208,7 +199,6 @@
 				input_target = "@public.brawl_buy_time_remaining"
 				input_max_speed = "1.0"
 			},
-			
 			{
 				name = "ctrl_switch_delta_speed"
 				operator = "ctrl_switch_float"
@@ -217,7 +207,6 @@
 				input1 = "@math_filter_approach.output"
 				input2 = "@math_filter_smooth.output"
 			},
-			
 			{
 				name = "opvar_set_smooth_time_remaining"
 				input = "@ctrl_switch_delta_speed.output"
@@ -226,7 +215,6 @@
 				input_operator_name = "private"
 				input_field_name = "smooth_time_remaining"
 			},
-			
 			{
 				name = "remap_draft_lerp_speed"
 				operator = "math_remap_float"
@@ -237,7 +225,6 @@
 				input_map_max = "30.0"
 				clamp_range = "true"
 			},
-			
 			{
 				name = "draft_time_filter"
 				operator = "math_filter_float"
@@ -245,7 +232,6 @@
 				input = "@private.smooth_time_remaining"
 				input_max_velocity = "@remap_draft_lerp_speed.output"
 			},
-			
 			{
 				name = "ctrl_switch_draft_vol_input"
 				operator = "ctrl_switch_float"
@@ -253,14 +239,12 @@
 				input1 = "9999.00"
 				input2 = "@draft_time_filter.output"
 			},
-			
 			{
 				name = "remap_draft_vol_db"
 				operator = "math_curve_2d"
 				input = "@ctrl_switch_draft_vol_input.output"
 				public_field_name = "public.layer_draft_countdown_crossfade_db"
 			},
-			
 			{
 				name = "math_vol_offset_draft_db"
 				operator = "math_float"
@@ -268,7 +252,6 @@
 				input1 = "@remap_draft_vol_db.output"
 				input2 = "@public.layer_draft_vol_offset_db"
 			},
-			
 			{
 				name = "remap_draft_fx_vol_db"
 				operator = "math_curve_2d"
@@ -276,7 +259,6 @@
 				input_execute = "@brawl_time_set.output"
 				public_field_name = "public.layer_draft_fx_countdown_crossfade_db"
 			},
-			
 			{
 				name = "math_vol_offset_draft_fx_db"
 				operator = "math_float"
@@ -285,7 +267,6 @@
 				input1 = "@remap_draft_fx_vol_db.output"
 				input2 = "@public.layer_draft_fx_vol_offset_db"
 			},
-			
 			{
 				name = "ctr_switch_draft_fx_vol_final"
 				operator = "ctrl_switch_float"
@@ -293,7 +274,6 @@
 				input1 = "-99.0"
 				input2 = "@math_vol_offset_draft_fx_db.output"
 			},
-			
 			{
 				name = "remap_draft_timer_lerp_speed"
 				operator = "math_remap_float"
@@ -305,7 +285,6 @@
 				input_map_max = "30.0"
 				clamp_range = "true"
 			},
-			
 			{
 				name = "draft_timer_filter"
 				operator = "math_filter_float"
@@ -313,7 +292,6 @@
 				input = "@private.smooth_time_remaining"
 				input_max_velocity = "@remap_draft_timer_lerp_speed.output"
 			},
-			
 			{
 				name = "remap_draft_timer_vol_db"
 				operator = "math_curve_2d"
@@ -321,7 +299,6 @@
 				input_execute = "@brawl_time_set.output"
 				public_field_name = "public.layer_draft_timer_countdown_crossfade_db"
 			},
-			
 			{
 				name = "math_vol_offset_timer_fx_db"
 				operator = "math_float"
@@ -330,7 +307,6 @@
 				input1 = "@remap_draft_timer_vol_db.output"
 				input2 = "@public.layer_draft_timer_vol_offset_db"
 			},
-			
 			{
 				name = "ctr_switch_draft_timer_vol_final"
 				operator = "ctrl_switch_float"
@@ -338,7 +314,6 @@
 				input1 = "-99.00"
 				input2 = "@math_vol_offset_timer_fx_db.output"
 			},
-			
 			{
 				name = "import_citadel_music"
 				operator = "sos_import_stack"

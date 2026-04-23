@@ -3,7 +3,7 @@
 	StatusEffects.InvisRevealed = 
 	{
 		base = "Base.Mod.StatusEffect"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = "sounds/gameplay/status_effects/invis_interrupt.vsnd"
 		vsnd_duration = 1.746083
 	}
@@ -16,53 +16,33 @@
 	StatusEffects.ShieldBreak = 
 	{
 		base = "Base.Ability.Hit"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = "sounds/hit_indicators/damage_send_shield_break.vsnd"
 		vsnd_duration = 3.669388
 	}
 	StatusEffects.Bleeding = 
 	{
 		base = "Base.Mod.StatusEffect"
-		volume = -12.000000
-		volume_fade_out = 0.400000
-		instance_attenuator_enabled = 1.000000
+		volume = -12.0
+		volume_fade_out = 0.4
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-4.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, -4.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				4.000000,
-				-8.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				4.0, -8.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = "sounds/gameplay/status_effects/bleeding_lp.vsnd"
@@ -77,13 +57,13 @@
 	Player.Weapon.Jammed = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -3.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		pitch = 1.000000
+		volume = -3.0
+		limiter_on = 1.0
+		limiter_max = 0.0
+		pitch = 1.0
 		limiter_stop_oldest = true
 		vsnd_files = "sounds/gameplay/weapon_jammed.vsnd"
-		vsnd_duration = 0.231610
+		vsnd_duration = 0.23161
 	}
 	Ability.Stun.Impact = 
 	{
@@ -94,7 +74,7 @@
 	Status.Sleep = 
 	{
 		base = "Base.Mod.StatusEffect"
-		volume = -15.000000
+		volume = -15.0
 		vsnd_files = "sounds/common/null.vsnd"
 		vsnd_duration = 0.050023
 	}
@@ -107,26 +87,26 @@
 	Status.Silence = 
 	{
 		base = "Base.Mod.StatusEffect"
-		volume = 0.000000
+		volume = 0.0
 		spread_min = 177.009872
 		spread_max_value = 0.924242
-		spread_max = 500.000000
+		spread_max = 500.0
 		spread_min_value = 0.921717
-		volume_fade_out = 1.000000
+		volume_fade_out = 1.0
 		vsnd_files = "sounds/player/statuseffects/silence_lp.vsnd"
 		vsnd_duration = 7.718843
 	}
 	Status.MoveRestrict = 
 	{
 		base = "Base.Mod.StatusEffect"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = "sounds/player/statuseffects/moverestrict_lp.vsnd"
 		vsnd_duration = 4.760612
 	}
 	Status.Muted.DspFx = 
 	{
 		base = "Base.Mod.StatusEffect"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = "sounds/mods/temp/silence_lp.vsnd"
 		vsnd_duration = 0.711667
 	}

@@ -11,34 +11,24 @@
 	Ability.ZipLine.End = 
 	{
 		base = "Base.Zipline"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = "sounds/world/zipline/world_zipline_end_01.vsnd"
-		vsnd_duration = 2.642290
+		vsnd_duration = 2.64229
 	}
 	Ability.ZipLine.Summon = 
 	{
 		base = "Base.Zipline"
-		volume = -3.000000
-		instance_attenuator_enabled = 1.000000
+		volume = -3.0
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.147959,
-				0.000000,
-				0.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
+				1.147959, 0.0, 0.0, -2.087491,
+				0.0, 0.0,
 			],
-			
 			[
-				8.000000,
-				-14.303572,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				8.0, -14.303572, -2.087491, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = "sounds/common/null.vsnd"
@@ -47,22 +37,22 @@
 	Ability.ZipLine.Loop = 
 	{
 		base = "Base.Zipline"
-		volume = -6.000000
-		play_from_listener_player = 1.000000
-		spread_max_value_player = 1.000000
-		delay_rand_min = -2.000000
-		doppler_on = 1.000000
-		doppler_factor = 5.000000
-		volume_fade_in = 0.800000
-		volume_fade_out = 0.800000
-		volume_offset_opponent = 2.000000
+		volume = -6.0
+		play_from_listener_player = 1.0
+		spread_max_value_player = 1.0
+		delay_rand_min = -2.0
+		doppler_on = 1.0
+		doppler_factor = 5.0
+		volume_fade_in = 0.8
+		volume_fade_out = 0.8
+		volume_offset_opponent = 2.0
 		vsnd_files = "sounds/world/zipline/world_zipline_travel_lp_01.vsnd"
 		vsnd_duration = 21.119251
 	}
 	Gameplay.World.Zipline.Speed.Boost.Start = 
 	{
 		base = "Base.Zipline"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = "sounds/gameplay/zipline/speed_boost.vsnd"
 		vsnd_duration = 4.361905
 	}

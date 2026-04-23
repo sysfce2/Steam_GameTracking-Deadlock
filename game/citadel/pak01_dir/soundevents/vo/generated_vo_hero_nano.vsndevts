@@ -18,7 +18,7 @@
 		[
 			"sounds/vo/nano/nano_ally_astro_bounce_pad_02.vsnd",
 		]
-		vsnd_duration = 0.685760
+		vsnd_duration = 0.68576
 	}
 	nano_ally_astro_bounce_pad_03_hero_3d = 
 	{
@@ -78,7 +78,7 @@
 		[
 			"sounds/vo/nano/nano_ally_astro_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.030590
+		vsnd_duration = 1.03059
 	}
 	nano_ally_atlas_big_stun_01_hero_3d = 
 	{
@@ -278,7 +278,7 @@
 		[
 			"sounds/vo/nano/nano_ally_chrono_swap_to_boss_01.vsnd",
 		]
-		vsnd_duration = 1.725170
+		vsnd_duration = 1.72517
 	}
 	nano_ally_chrono_swap_to_boss_02_hero_3d = 
 	{
@@ -328,7 +328,7 @@
 		[
 			"sounds/vo/nano/nano_ally_dynano_big_blackhole_02.vsnd",
 		]
-		vsnd_duration = 2.674830
+		vsnd_duration = 2.67483
 	}
 	nano_ally_dynano_big_blackhole_03_hero_3d = 
 	{
@@ -418,7 +418,7 @@
 		[
 			"sounds/vo/nano/nano_ally_forge_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.241950
+		vsnd_duration = 1.24195
 	}
 	nano_ally_forge_pass_on_zipline_01_hero_3d = 
 	{
@@ -498,7 +498,7 @@
 		[
 			"sounds/vo/nano/nano_ally_ghost_see_big_swap_02.vsnd",
 		]
-		vsnd_duration = 1.326100
+		vsnd_duration = 1.3261
 	}
 	nano_ally_ghost_see_big_swap_03_hero_3d = 
 	{
@@ -548,7 +548,7 @@
 		[
 			"sounds/vo/nano/nano_ally_gigawatt_multi_kill_ult_03.vsnd",
 		]
-		vsnd_duration = 2.321020
+		vsnd_duration = 2.32102
 	}
 	nano_ally_gigawatt_pass_on_zipline_01_hero_3d = 
 	{
@@ -818,7 +818,7 @@
 		[
 			"sounds/vo/nano/nano_ally_krill_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.119320
+		vsnd_duration = 1.11932
 	}
 	nano_ally_lash_killed_in_lane_01_hero_3d = 
 	{
@@ -858,7 +858,7 @@
 		[
 			"sounds/vo/nano/nano_ally_lash_see_massive_stomp_02.vsnd",
 		]
-		vsnd_duration = 1.294240
+		vsnd_duration = 1.29424
 	}
 	nano_ally_lash_see_massive_stomp_03_hero_3d = 
 	{
@@ -1208,7 +1208,7 @@
 		[
 			"sounds/vo/nano/nano_ally_viper_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.101270
+		vsnd_duration = 1.10127
 	}
 	nano_ally_viper_pass_on_zipline_01_hero_3d = 
 	{
@@ -1288,7 +1288,7 @@
 		[
 			"sounds/vo/nano/nano_ally_warden_big_ult_01.vsnd",
 		]
-		vsnd_duration = 1.205760
+		vsnd_duration = 1.20576
 	}
 	nano_ally_warden_big_ult_02_hero_3d = 
 	{
@@ -1388,7 +1388,7 @@
 		[
 			"sounds/vo/nano/nano_ally_wrecker_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 0.964830
+		vsnd_duration = 0.96483
 	}
 	nano_ally_wrecker_pass_on_zipline_01_hero_3d = 
 	{
@@ -1448,7 +1448,7 @@
 		[
 			"sounds/vo/nano/nano_ally_yamato_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.986440
+		vsnd_duration = 1.98644
 	}
 	nano_angry_01_hero_3d = 
 	{
@@ -1768,7 +1768,7 @@
 		[
 			"sounds/vo/nano/nano_concerned_01.vsnd",
 		]
-		vsnd_duration = 1.863220
+		vsnd_duration = 1.86322
 	}
 	nano_concerned_01_ult_3d = 
 	{
@@ -1778,7 +1778,7 @@
 		[
 			"sounds/vo/nano/nano_concerned_01.vsnd",
 		]
-		vsnd_duration = 1.863220
+		vsnd_duration = 1.86322
 	}
 	nano_concerned_02_hero_3d = 
 	{
@@ -1968,7 +1968,7 @@
 		[
 			"sounds/vo/nano/nano_congrats_01.vsnd",
 		]
-		vsnd_duration = 1.600680
+		vsnd_duration = 1.60068
 	}
 	nano_congrats_02_hero_3d = 
 	{
@@ -2058,7 +2058,7 @@
 		[
 			"sounds/vo/nano/nano_dash_effort_05.vsnd",
 		]
-		vsnd_duration = 0.550590
+		vsnd_duration = 0.55059
 	}
 	nano_dash_effort_06_hero_3d = 
 	{
@@ -2238,7 +2238,7 @@
 		[
 			"sounds/vo/nano/nano_desperation_power3_05.vsnd",
 		]
-		vsnd_duration = 2.394490
+		vsnd_duration = 2.39449
 	}
 	nano_desperation_power4_01_ability_3d = 
 	{
@@ -2618,7 +2618,7 @@
 		[
 			"sounds/vo/nano/nano_enemy_chrono_kill_post_swap_01.vsnd",
 		]
-		vsnd_duration = 1.512880
+		vsnd_duration = 1.51288
 	}
 	nano_enemy_chrono_kill_post_swap_02_hero_3d = 
 	{
@@ -2718,7 +2718,7 @@
 		[
 			"sounds/vo/nano/nano_enemy_gets_rejuv_02.vsnd",
 		]
-		vsnd_duration = 1.130000
+		vsnd_duration = 1.13
 	}
 	nano_enemy_gets_rejuv_03_hero_3d = 
 	{
@@ -2858,7 +2858,7 @@
 		[
 			"sounds/vo/nano/nano_enemy_hornet_killed_mid_air_01.vsnd",
 		]
-		vsnd_duration = 2.005510
+		vsnd_duration = 2.00551
 	}
 	nano_enemy_hornet_killed_mid_air_02_hero_3d = 
 	{
@@ -2888,7 +2888,7 @@
 		[
 			"sounds/vo/nano/nano_enemy_inferno_killed_mid_ult_01.vsnd",
 		]
-		vsnd_duration = 1.131270
+		vsnd_duration = 1.13127
 	}
 	nano_enemy_inferno_killed_mid_ult_02_hero_3d = 
 	{
@@ -2898,7 +2898,7 @@
 		[
 			"sounds/vo/nano/nano_enemy_inferno_killed_mid_ult_02.vsnd",
 		]
-		vsnd_duration = 1.846780
+		vsnd_duration = 1.84678
 	}
 	nano_enemy_inferno_killed_mid_ult_03_hero_3d = 
 	{
@@ -2928,7 +2928,7 @@
 		[
 			"sounds/vo/nano/nano_enemy_kelvin_kill_on_ice_path_02.vsnd",
 		]
-		vsnd_duration = 2.473560
+		vsnd_duration = 2.47356
 	}
 	nano_enemy_kelvin_kill_on_ice_path_03_hero_3d = 
 	{
@@ -3018,7 +3018,7 @@
 		[
 			"sounds/vo/nano/nano_enemy_orion_see_missile_02.vsnd",
 		]
-		vsnd_duration = 1.085170
+		vsnd_duration = 1.08517
 	}
 	nano_enemy_orion_see_missile_03_hero_3d = 
 	{
@@ -3038,7 +3038,7 @@
 		[
 			"sounds/vo/nano/nano_enemy_shiv_unkillable_01.vsnd",
 		]
-		vsnd_duration = 1.804490
+		vsnd_duration = 1.80449
 	}
 	nano_enemy_shiv_unkillable_02_hero_3d = 
 	{
@@ -3048,7 +3048,7 @@
 		[
 			"sounds/vo/nano/nano_enemy_shiv_unkillable_02.vsnd",
 		]
-		vsnd_duration = 1.174240
+		vsnd_duration = 1.17424
 	}
 	nano_enemy_shiv_unkillable_03_hero_3d = 
 	{
@@ -3148,7 +3148,7 @@
 		[
 			"sounds/vo/nano/nano_enemy_wraith_lifts_03.vsnd",
 		]
-		vsnd_duration = 0.982290
+		vsnd_duration = 0.98229
 	}
 	nano_enemy_yamato_starts_ult_01_hero_3d = 
 	{
@@ -3208,7 +3208,7 @@
 		[
 			"sounds/vo/nano/nano_happy_02.vsnd",
 		]
-		vsnd_duration = 2.543220
+		vsnd_duration = 2.54322
 	}
 	nano_happy_02_ult_3d = 
 	{
@@ -3218,7 +3218,7 @@
 		[
 			"sounds/vo/nano/nano_happy_02.vsnd",
 		]
-		vsnd_duration = 2.543220
+		vsnd_duration = 2.54322
 	}
 	nano_happy_03_hero_3d = 
 	{
@@ -3228,7 +3228,7 @@
 		[
 			"sounds/vo/nano/nano_happy_03.vsnd",
 		]
-		vsnd_duration = 2.114240
+		vsnd_duration = 2.11424
 	}
 	nano_happy_03_ult_3d = 
 	{
@@ -3238,7 +3238,7 @@
 		[
 			"sounds/vo/nano/nano_happy_03.vsnd",
 		]
-		vsnd_duration = 2.114240
+		vsnd_duration = 2.11424
 	}
 	nano_happy_04_hero_3d = 
 	{
@@ -3568,7 +3568,7 @@
 		[
 			"sounds/vo/nano/nano_kill_astro_01.vsnd",
 		]
-		vsnd_duration = 4.098050
+		vsnd_duration = 4.09805
 	}
 	nano_kill_astro_02_hero_3d = 
 	{
@@ -3608,7 +3608,7 @@
 		[
 			"sounds/vo/nano/nano_kill_astro_05.vsnd",
 		]
-		vsnd_duration = 6.861950
+		vsnd_duration = 6.86195
 	}
 	nano_kill_atlas_02_hero_3d = 
 	{
@@ -3638,7 +3638,7 @@
 		[
 			"sounds/vo/nano/nano_kill_bebop_02.vsnd",
 		]
-		vsnd_duration = 1.518980
+		vsnd_duration = 1.51898
 	}
 	nano_kill_bebop_03_hero_3d = 
 	{
@@ -3648,7 +3648,7 @@
 		[
 			"sounds/vo/nano/nano_kill_bebop_03.vsnd",
 		]
-		vsnd_duration = 1.130000
+		vsnd_duration = 1.13
 	}
 	nano_kill_bebop_04_hero_3d = 
 	{
@@ -3698,7 +3698,7 @@
 		[
 			"sounds/vo/nano/nano_kill_chrono_03.vsnd",
 		]
-		vsnd_duration = 3.067460
+		vsnd_duration = 3.06746
 	}
 	nano_kill_chrono_04_hero_3d = 
 	{
@@ -3718,7 +3718,7 @@
 		[
 			"sounds/vo/nano/nano_kill_chrono_05.vsnd",
 		]
-		vsnd_duration = 1.972290
+		vsnd_duration = 1.97229
 	}
 	nano_kill_dynano_01_hero_3d = 
 	{
@@ -3738,7 +3738,7 @@
 		[
 			"sounds/vo/nano/nano_kill_dynano_02.vsnd",
 		]
-		vsnd_duration = 3.047370
+		vsnd_duration = 3.04737
 	}
 	nano_kill_dynano_03_hero_3d = 
 	{
@@ -3748,7 +3748,7 @@
 		[
 			"sounds/vo/nano/nano_kill_dynano_03.vsnd",
 		]
-		vsnd_duration = 5.656440
+		vsnd_duration = 5.65644
 	}
 	nano_kill_dynano_04_hero_3d = 
 	{
@@ -3828,7 +3828,7 @@
 		[
 			"sounds/vo/nano/nano_kill_ghost_01.vsnd",
 		]
-		vsnd_duration = 2.209410
+		vsnd_duration = 2.20941
 	}
 	nano_kill_ghost_02_hero_3d = 
 	{
@@ -4028,7 +4028,7 @@
 		[
 			"sounds/vo/nano/nano_kill_hornet_04.vsnd",
 		]
-		vsnd_duration = 1.613560
+		vsnd_duration = 1.61356
 	}
 	nano_kill_hornet_05_hero_3d = 
 	{
@@ -4148,7 +4148,7 @@
 		[
 			"sounds/vo/nano/nano_kill_kelvin_05.vsnd",
 		]
-		vsnd_duration = 0.969660
+		vsnd_duration = 0.96966
 	}
 	nano_kill_krill_01_hero_3d = 
 	{
@@ -4308,7 +4308,7 @@
 		[
 			"sounds/vo/nano/nano_kill_mirage_02.vsnd",
 		]
-		vsnd_duration = 2.463900
+		vsnd_duration = 2.4639
 	}
 	nano_kill_mirage_03_hero_3d = 
 	{
@@ -4398,7 +4398,7 @@
 		[
 			"sounds/vo/nano/nano_kill_orion_01.vsnd",
 		]
-		vsnd_duration = 1.241020
+		vsnd_duration = 1.24102
 	}
 	nano_kill_orion_02_hero_3d = 
 	{
@@ -4408,7 +4408,7 @@
 		[
 			"sounds/vo/nano/nano_kill_orion_02.vsnd",
 		]
-		vsnd_duration = 1.110000
+		vsnd_duration = 1.11
 	}
 	nano_kill_orion_03_hero_3d = 
 	{
@@ -4488,7 +4488,7 @@
 		[
 			"sounds/vo/nano/nano_kill_shiv_05.vsnd",
 		]
-		vsnd_duration = 1.146780
+		vsnd_duration = 1.14678
 	}
 	nano_kill_slork_01_hero_3d = 
 	{
@@ -4508,7 +4508,7 @@
 		[
 			"sounds/vo/nano/nano_kill_slork_02.vsnd",
 		]
-		vsnd_duration = 2.001020
+		vsnd_duration = 2.00102
 	}
 	nano_kill_slork_03_hero_3d = 
 	{
@@ -4538,7 +4538,7 @@
 		[
 			"sounds/vo/nano/nano_kill_slork_05.vsnd",
 		]
-		vsnd_duration = 1.087120
+		vsnd_duration = 1.08712
 	}
 	nano_kill_synth_01_hero_3d = 
 	{
@@ -4738,7 +4738,7 @@
 		[
 			"sounds/vo/nano/nano_kill_viper_05.vsnd",
 		]
-		vsnd_duration = 1.157710
+		vsnd_duration = 1.15771
 	}
 	nano_kill_viscous_01_hero_3d = 
 	{
@@ -4858,7 +4858,7 @@
 		[
 			"sounds/vo/nano/nano_kill_wraith_02.vsnd",
 		]
-		vsnd_duration = 2.442880
+		vsnd_duration = 2.44288
 	}
 	nano_kill_wraith_03_hero_3d = 
 	{
@@ -4928,7 +4928,7 @@
 		[
 			"sounds/vo/nano/nano_kill_wrecker_04.vsnd",
 		]
-		vsnd_duration = 4.768730
+		vsnd_duration = 4.76873
 	}
 	nano_kill_wrecker_05_hero_3d = 
 	{
@@ -5558,7 +5558,7 @@
 		[
 			"sounds/vo/nano/nano_outnumbered_03.vsnd",
 		]
-		vsnd_duration = 1.570000
+		vsnd_duration = 1.57
 	}
 	nano_pain_big_01_emote_pain_3d = 
 	{
@@ -5568,7 +5568,7 @@
 		[
 			"sounds/vo/nano/emote/nano_pain_big_01.vsnd",
 		]
-		vsnd_duration = 0.740000
+		vsnd_duration = 0.74
 	}
 	nano_pain_big_02_emote_pain_3d = 
 	{
@@ -5728,7 +5728,7 @@
 		[
 			"sounds/vo/nano/emote/nano_pain_small_01.vsnd",
 		]
-		vsnd_duration = 0.430340
+		vsnd_duration = 0.43034
 	}
 	nano_pain_small_02_emote_pain_3d = 
 	{
@@ -5768,7 +5768,7 @@
 		[
 			"sounds/vo/nano/emote/nano_pain_small_05.vsnd",
 		]
-		vsnd_duration = 0.560340
+		vsnd_duration = 0.56034
 	}
 	nano_pain_small_06_emote_pain_3d = 
 	{
@@ -5788,7 +5788,7 @@
 		[
 			"sounds/vo/nano/emote/nano_pain_small_07.vsnd",
 		]
-		vsnd_duration = 0.650000
+		vsnd_duration = 0.65
 	}
 	nano_parry_01_hero_3d = 
 	{
@@ -6038,7 +6038,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_astro_missing_01.vsnd",
 		]
-		vsnd_duration = 1.095170
+		vsnd_duration = 1.09517
 	}
 	nano_ping_astro_on_top_of_garage_ping_2d = 
 	{
@@ -6078,7 +6078,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_astro_was_here.vsnd",
 		]
-		vsnd_duration = 1.088980
+		vsnd_duration = 1.08898
 	}
 	nano_ping_atlas_almost_respawn_ping_2d = 
 	{
@@ -6218,7 +6218,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_attack_chrono.vsnd",
 		]
-		vsnd_duration = 1.448730
+		vsnd_duration = 1.44873
 	}
 	nano_ping_attack_dynamo_ping_2d = 
 	{
@@ -6228,7 +6228,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_attack_dynamo.vsnd",
 		]
-		vsnd_duration = 1.229660
+		vsnd_duration = 1.22966
 	}
 	nano_ping_attack_enemy_avatar_ping_2d = 
 	{
@@ -6528,7 +6528,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_bebop_check_items.vsnd",
 		]
-		vsnd_duration = 1.523900
+		vsnd_duration = 1.5239
 	}
 	nano_ping_bebop_dead_ping_2d = 
 	{
@@ -6728,7 +6728,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_can_heal_chrono.vsnd",
 		]
-		vsnd_duration = 1.445850
+		vsnd_duration = 1.44585
 	}
 	nano_ping_can_heal_dynamo_ping_2d = 
 	{
@@ -6888,7 +6888,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_can_heal_slork.vsnd",
 		]
-		vsnd_duration = 1.770680
+		vsnd_duration = 1.77068
 	}
 	nano_ping_can_heal_synth_ping_2d = 
 	{
@@ -6988,7 +6988,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_careful_astro_01.vsnd",
 		]
-		vsnd_duration = 1.078980
+		vsnd_duration = 1.07898
 	}
 	nano_ping_careful_astro_02_ping_2d = 
 	{
@@ -7258,7 +7258,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_careful_haze_01.vsnd",
 		]
-		vsnd_duration = 1.362540
+		vsnd_duration = 1.36254
 	}
 	nano_ping_careful_haze_02_ping_2d = 
 	{
@@ -7298,7 +7298,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_careful_hornet_02.vsnd",
 		]
-		vsnd_duration = 1.341610
+		vsnd_duration = 1.34161
 	}
 	nano_ping_careful_hornet_03_ping_2d = 
 	{
@@ -7328,7 +7328,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_careful_inferno_02.vsnd",
 		]
-		vsnd_duration = 1.429660
+		vsnd_duration = 1.42966
 	}
 	nano_ping_careful_inferno_03_ping_2d = 
 	{
@@ -7658,7 +7658,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_careful_tengu_02.vsnd",
 		]
-		vsnd_duration = 1.074490
+		vsnd_duration = 1.07449
 	}
 	nano_ping_careful_tengu_03_ping_2d = 
 	{
@@ -7728,7 +7728,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_careful_viper_03.vsnd",
 		]
-		vsnd_duration = 1.277370
+		vsnd_duration = 1.27737
 	}
 	nano_ping_careful_viscous_01_ping_2d = 
 	{
@@ -7748,7 +7748,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_careful_viscous_02.vsnd",
 		]
-		vsnd_duration = 1.247460
+		vsnd_duration = 1.24746
 	}
 	nano_ping_careful_viscous_03_ping_2d = 
 	{
@@ -7808,7 +7808,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_careful_wraith_02.vsnd",
 		]
-		vsnd_duration = 1.160000
+		vsnd_duration = 1.16
 	}
 	nano_ping_careful_wraith_03_ping_2d = 
 	{
@@ -7828,7 +7828,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_careful_wrecker_01.vsnd",
 		]
-		vsnd_duration = 1.077120
+		vsnd_duration = 1.07712
 	}
 	nano_ping_careful_wrecker_02_ping_2d = 
 	{
@@ -7848,7 +7848,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_careful_wrecker_03.vsnd",
 		]
-		vsnd_duration = 1.249410
+		vsnd_duration = 1.24941
 	}
 	nano_ping_careful_yamato_01_ping_2d = 
 	{
@@ -8068,7 +8068,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_dynamo_in_mid.vsnd",
 		]
-		vsnd_duration = 1.091950
+		vsnd_duration = 1.09195
 	}
 	nano_ping_dynamo_missing_01_ping_2d = 
 	{
@@ -8478,7 +8478,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_going_in_01.vsnd",
 		]
-		vsnd_duration = 0.964580
+		vsnd_duration = 0.96458
 	}
 	nano_ping_going_in_ping_2d = 
 	{
@@ -8488,7 +8488,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_going_in.vsnd",
 		]
-		vsnd_duration = 0.765850
+		vsnd_duration = 0.76585
 	}
 	nano_ping_going_shop_01_ping_2d = 
 	{
@@ -8688,7 +8688,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_headed_green_02.vsnd",
 		]
-		vsnd_duration = 1.200930
+		vsnd_duration = 1.20093
 	}
 	nano_ping_headed_this_way_ping_2d = 
 	{
@@ -8738,7 +8738,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_health_nova_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.473900
+		vsnd_duration = 1.4739
 	}
 	nano_ping_health_nova_not_ready_ping_2d = 
 	{
@@ -8948,7 +8948,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_ignore_hornet.vsnd",
 		]
-		vsnd_duration = 1.256780
+		vsnd_duration = 1.25678
 	}
 	nano_ping_ignore_inferno_ping_2d = 
 	{
@@ -8988,7 +8988,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_ignore_lash.vsnd",
 		]
-		vsnd_duration = 1.084490
+		vsnd_duration = 1.08449
 	}
 	nano_ping_ignore_magician_ping_2d = 
 	{
@@ -8998,7 +8998,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_ignore_magician.vsnd",
 		]
-		vsnd_duration = 1.415510
+		vsnd_duration = 1.41551
 	}
 	nano_ping_ignore_mirage_ping_2d = 
 	{
@@ -9198,7 +9198,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_inferno_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.275510
+		vsnd_duration = 1.27551
 	}
 	nano_ping_inferno_under_garage_ping_2d = 
 	{
@@ -9488,7 +9488,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_lash_in_mid.vsnd",
 		]
-		vsnd_duration = 1.125510
+		vsnd_duration = 1.12551
 	}
 	nano_ping_lash_missing_01_ping_2d = 
 	{
@@ -9688,7 +9688,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_magician_in_mid.vsnd",
 		]
-		vsnd_duration = 1.282290
+		vsnd_duration = 1.28229
 	}
 	nano_ping_magician_missing_01_ping_2d = 
 	{
@@ -9708,7 +9708,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_magician_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.712630
+		vsnd_duration = 1.71263
 	}
 	nano_ping_magician_on_top_of_mid_ping_2d = 
 	{
@@ -9818,7 +9818,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_mirage_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.293900
+		vsnd_duration = 1.2939
 	}
 	nano_ping_mirage_under_garage_ping_2d = 
 	{
@@ -10008,7 +10008,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_negative_02.vsnd",
 		]
-		vsnd_duration = 0.984830
+		vsnd_duration = 0.98483
 	}
 	nano_ping_negative_03_ping_2d = 
 	{
@@ -10088,7 +10088,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_operative_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.198730
+		vsnd_duration = 2.19873
 	}
 	nano_ping_operative_check_items_ping_2d = 
 	{
@@ -10148,7 +10148,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_operative_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.335170
+		vsnd_duration = 1.33517
 	}
 	nano_ping_operative_under_garage_ping_2d = 
 	{
@@ -10238,7 +10238,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_orion_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.408050
+		vsnd_duration = 1.40805
 	}
 	nano_ping_orion_under_garage_ping_2d = 
 	{
@@ -10258,7 +10258,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_orion_was_here.vsnd",
 		]
-		vsnd_duration = 1.300680
+		vsnd_duration = 1.30068
 	}
 	nano_ping_post_game_01_ping_2d = 
 	{
@@ -10308,7 +10308,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_post_game_05.vsnd",
 		]
-		vsnd_duration = 1.997370
+		vsnd_duration = 1.99737
 	}
 	nano_ping_post_game_06_ping_2d = 
 	{
@@ -10358,7 +10358,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_pre_game_04.vsnd",
 		]
-		vsnd_duration = 3.445510
+		vsnd_duration = 3.44551
 	}
 	nano_ping_pre_game_05_ping_2d = 
 	{
@@ -10508,7 +10508,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_retreat.vsnd",
 		]
-		vsnd_duration = 0.679660
+		vsnd_duration = 0.67966
 	}
 	nano_ping_returning_to_base_ping_2d = 
 	{
@@ -10778,7 +10778,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_saw_tengu.vsnd",
 		]
-		vsnd_duration = 1.273810
+		vsnd_duration = 1.27381
 	}
 	nano_ping_saw_them_ping_2d = 
 	{
@@ -10828,7 +10828,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_saw_warden.vsnd",
 		]
-		vsnd_duration = 1.093560
+		vsnd_duration = 1.09356
 	}
 	nano_ping_saw_wraith_ping_2d = 
 	{
@@ -10968,7 +10968,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_bebop.vsnd",
 		]
-		vsnd_duration = 0.945170
+		vsnd_duration = 0.94517
 	}
 	nano_ping_see_cadence_01_ping_2d = 
 	{
@@ -11098,7 +11098,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_enemy_on_roof.vsnd",
 		]
-		vsnd_duration = 0.979660
+		vsnd_duration = 0.97966
 	}
 	nano_ping_see_enemy_ping_2d = 
 	{
@@ -11208,7 +11208,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_gigawatt_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.076440
+		vsnd_duration = 1.07644
 	}
 	nano_ping_see_gigawatt_on_roof_ping_2d = 
 	{
@@ -11398,7 +11398,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_krill.vsnd",
 		]
-		vsnd_duration = 0.910340
+		vsnd_duration = 0.91034
 	}
 	nano_ping_see_lash_02_ping_2d = 
 	{
@@ -11408,7 +11408,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_lash_02.vsnd",
 		]
-		vsnd_duration = 1.585510
+		vsnd_duration = 1.58551
 	}
 	nano_ping_see_lash_on_bridge_ping_2d = 
 	{
@@ -11558,7 +11558,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_orion_02.vsnd",
 		]
-		vsnd_duration = 1.020930
+		vsnd_duration = 1.02093
 	}
 	nano_ping_see_orion_on_bridge_ping_2d = 
 	{
@@ -11568,7 +11568,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_orion_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.442540
+		vsnd_duration = 1.44254
 	}
 	nano_ping_see_orion_on_roof_ping_2d = 
 	{
@@ -11618,7 +11618,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_shiv.vsnd",
 		]
-		vsnd_duration = 0.900000
+		vsnd_duration = 0.9
 	}
 	nano_ping_see_slork_01_ping_2d = 
 	{
@@ -11638,7 +11638,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_slork_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.167030
+		vsnd_duration = 1.16703
 	}
 	nano_ping_see_slork_on_roof_ping_2d = 
 	{
@@ -11678,7 +11678,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_synth_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.226190
+		vsnd_duration = 1.22619
 	}
 	nano_ping_see_synth_on_roof_ping_2d = 
 	{
@@ -11878,7 +11878,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_wraith_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.009660
+		vsnd_duration = 1.00966
 	}
 	nano_ping_see_wraith_on_roof_ping_2d = 
 	{
@@ -11888,7 +11888,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_see_wraith_on_roof.vsnd",
 		]
-		vsnd_duration = 1.170000
+		vsnd_duration = 1.17
 	}
 	nano_ping_see_wraith_ping_2d = 
 	{
@@ -12048,7 +12048,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_shiv_under_garage.vsnd",
 		]
-		vsnd_duration = 1.328050
+		vsnd_duration = 1.32805
 	}
 	nano_ping_shiv_was_here_ping_2d = 
 	{
@@ -12058,7 +12058,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_shiv_was_here.vsnd",
 		]
-		vsnd_duration = 0.921270
+		vsnd_duration = 0.92127
 	}
 	nano_ping_silence_almost_ready_ping_2d = 
 	{
@@ -12108,7 +12108,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_slork_in_mid.vsnd",
 		]
-		vsnd_duration = 1.149320
+		vsnd_duration = 1.14932
 	}
 	nano_ping_slork_missing_01_ping_2d = 
 	{
@@ -12128,7 +12128,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_slork_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.504580
+		vsnd_duration = 1.50458
 	}
 	nano_ping_slork_on_top_of_mid_ping_2d = 
 	{
@@ -12158,7 +12158,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_slork_was_here.vsnd",
 		]
-		vsnd_duration = 1.139320
+		vsnd_duration = 1.13932
 	}
 	nano_ping_sorry_01_ping_2d = 
 	{
@@ -12228,7 +12228,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_stun_astro_01.vsnd",
 		]
-		vsnd_duration = 1.088730
+		vsnd_duration = 1.08873
 	}
 	nano_ping_stun_atlas_01_ping_2d = 
 	{
@@ -12318,7 +12318,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_stun_haze_01.vsnd",
 		]
-		vsnd_duration = 1.174150
+		vsnd_duration = 1.17415
 	}
 	nano_ping_stun_hornet_01_ping_2d = 
 	{
@@ -12598,7 +12598,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_synth_under_garage.vsnd",
 		]
-		vsnd_duration = 1.427370
+		vsnd_duration = 1.42737
 	}
 	nano_ping_synth_was_here_ping_2d = 
 	{
@@ -12628,7 +12628,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_t2_under_attack.vsnd",
 		]
-		vsnd_duration = 1.280340
+		vsnd_duration = 1.28034
 	}
 	nano_ping_take_mid_ping_2d = 
 	{
@@ -12738,7 +12738,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_tengu_was_here.vsnd",
 		]
-		vsnd_duration = 1.099320
+		vsnd_duration = 1.09932
 	}
 	nano_ping_thank_you_01_ping_2d = 
 	{
@@ -12928,7 +12928,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_use_ability2.vsnd",
 		]
-		vsnd_duration = 1.200000
+		vsnd_duration = 1.2
 	}
 	nano_ping_use_ability3_ping_2d = 
 	{
@@ -13138,7 +13138,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_viper_check_items.vsnd",
 		]
-		vsnd_duration = 1.472540
+		vsnd_duration = 1.47254
 	}
 	nano_ping_viper_dead_ping_2d = 
 	{
@@ -13158,7 +13158,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_viper_in_mid.vsnd",
 		]
-		vsnd_duration = 1.100590
+		vsnd_duration = 1.10059
 	}
 	nano_ping_viper_missing_01_ping_2d = 
 	{
@@ -13168,7 +13168,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_viper_missing_01.vsnd",
 		]
-		vsnd_duration = 1.132540
+		vsnd_duration = 1.13254
 	}
 	nano_ping_viper_on_top_of_garage_ping_2d = 
 	{
@@ -13248,7 +13248,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_viscous_in_mid.vsnd",
 		]
-		vsnd_duration = 1.142290
+		vsnd_duration = 1.14229
 	}
 	nano_ping_viscous_missing_01_ping_2d = 
 	{
@@ -13328,7 +13328,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_warden_check_items.vsnd",
 		]
-		vsnd_duration = 1.853900
+		vsnd_duration = 1.8539
 	}
 	nano_ping_warden_dead_ping_2d = 
 	{
@@ -13338,7 +13338,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_warden_dead.vsnd",
 		]
-		vsnd_duration = 1.142290
+		vsnd_duration = 1.14229
 	}
 	nano_ping_warden_in_mid_ping_2d = 
 	{
@@ -13358,7 +13358,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_warden_missing_01.vsnd",
 		]
-		vsnd_duration = 1.110000
+		vsnd_duration = 1.11
 	}
 	nano_ping_warden_on_top_of_garage_ping_2d = 
 	{
@@ -13468,7 +13468,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_with_bebop.vsnd",
 		]
-		vsnd_duration = 1.044490
+		vsnd_duration = 1.04449
 	}
 	nano_ping_with_cadence_ping_2d = 
 	{
@@ -13728,7 +13728,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_with_wrecker.vsnd",
 		]
-		vsnd_duration = 1.016440
+		vsnd_duration = 1.01644
 	}
 	nano_ping_with_yamato_ping_2d = 
 	{
@@ -14018,7 +14018,7 @@
 		[
 			"sounds/vo/nano/ping/nano_ping_yellow_help_01.vsnd",
 		]
-		vsnd_duration = 1.375760
+		vsnd_duration = 1.37576
 	}
 	nano_ping_yellow_help_02_ping_2d = 
 	{
@@ -14048,7 +14048,7 @@
 		[
 			"sounds/vo/nano/nano_sad_01.vsnd",
 		]
-		vsnd_duration = 2.493560
+		vsnd_duration = 2.49356
 	}
 	nano_sad_02_hero_3d = 
 	{
@@ -14118,7 +14118,7 @@
 		[
 			"sounds/vo/nano/nano_sad_08.vsnd",
 		]
-		vsnd_duration = 1.690000
+		vsnd_duration = 1.69
 	}
 	nano_sad_09_hero_3d = 
 	{
@@ -14198,7 +14198,7 @@
 		[
 			"sounds/vo/nano/nano_see_money_03.vsnd",
 		]
-		vsnd_duration = 2.428390
+		vsnd_duration = 2.42839
 	}
 	nano_select_01_hero_3d = 
 	{
@@ -14338,7 +14338,7 @@
 		[
 			"sounds/vo/nano/nano_t2_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 1.755510
+		vsnd_duration = 1.75551
 	}
 	nano_t2_shop_reminder_02_hero_3d = 
 	{
@@ -14478,7 +14478,7 @@
 		[
 			"sounds/vo/nano/nano_unselect_01.vsnd",
 		]
-		vsnd_duration = 1.654490
+		vsnd_duration = 1.65449
 	}
 	nano_unselect_02_hero_3d = 
 	{
@@ -14678,7 +14678,7 @@
 		[
 			"sounds/vo/nano/nano_upgrade_power2_01.vsnd",
 		]
-		vsnd_duration = 2.063560
+		vsnd_duration = 2.06356
 	}
 	nano_upgrade_power2_02_hero_3d = 
 	{
@@ -14718,7 +14718,7 @@
 		[
 			"sounds/vo/nano/nano_upgrade_power2_05.vsnd",
 		]
-		vsnd_duration = 2.506100
+		vsnd_duration = 2.5061
 	}
 	nano_upgrade_power2_06_hero_3d = 
 	{
@@ -14738,7 +14738,7 @@
 		[
 			"sounds/vo/nano/nano_upgrade_power2_07.vsnd",
 		]
-		vsnd_duration = 1.722970
+		vsnd_duration = 1.72297
 	}
 	nano_upgrade_power2_08_hero_3d = 
 	{
@@ -14948,7 +14948,7 @@
 		[
 			"sounds/vo/nano/nano_upgrade_power4_08.vsnd",
 		]
-		vsnd_duration = 1.606440
+		vsnd_duration = 1.60644
 	}
 	nano_upgrade_power4_09_hero_3d = 
 	{
@@ -14968,7 +14968,7 @@
 		[
 			"sounds/vo/nano/nano_upgrade_power4_10.vsnd",
 		]
-		vsnd_duration = 1.352200
+		vsnd_duration = 1.3522
 	}
 	nano_use_ability_refresher_01_ability_3d = 
 	{
@@ -15378,7 +15378,7 @@
 		[
 			"sounds/vo/nano/nano_use_power2_07.vsnd",
 		]
-		vsnd_duration = 1.164150
+		vsnd_duration = 1.16415
 	}
 	nano_use_power2_08_ability_3d = 
 	{
@@ -15388,7 +15388,7 @@
 		[
 			"sounds/vo/nano/nano_use_power2_08.vsnd",
 		]
-		vsnd_duration = 1.149320
+		vsnd_duration = 1.14932
 	}
 	nano_use_power2_09_ability_3d = 
 	{
@@ -15438,7 +15438,7 @@
 		[
 			"sounds/vo/nano/nano_use_power3_03.vsnd",
 		]
-		vsnd_duration = 1.284150
+		vsnd_duration = 1.28415
 	}
 	nano_use_power3_04_ability_3d = 
 	{
@@ -15758,7 +15758,7 @@
 		[
 			"sounds/vo/nano/nano_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.509070
+		vsnd_duration = 1.50907
 	}
 	nano_use_power4_09_hero_announcer = 
 	{
@@ -15768,7 +15768,7 @@
 		[
 			"sounds/vo/nano/nano_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.509070
+		vsnd_duration = 1.50907
 	}
 	nano_use_power4_09_ult_3d = 
 	{
@@ -15778,7 +15778,7 @@
 		[
 			"sounds/vo/nano/nano_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.509070
+		vsnd_duration = 1.50907
 	}
 	nano_use_power4_10_ability_3d = 
 	{

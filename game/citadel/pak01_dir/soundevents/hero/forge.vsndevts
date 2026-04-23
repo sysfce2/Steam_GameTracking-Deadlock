@@ -3,12 +3,12 @@
 	McGinnis.Wpn.Fire.Main = 
 	{
 		base = "Base.Weapon.MachineGun"
-		volume = 2.000000
-		volume_fade_out = 0.150000
-		tail_vol_offset_db = 0.000000
-		tail_interior_vol_offset_db = -10.000000
-		low_ammo_threshold = 8.000000
-		last_shot_vol_offset_db = 1.000000
+		volume = 2.0
+		volume_fade_out = 0.15
+		tail_vol_offset_db = 0.0
+		tail_interior_vol_offset_db = -10.0
+		low_ammo_threshold = 8.0
+		last_shot_vol_offset_db = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/forge/forge_weapon_fire_mid_01.vsnd",
@@ -33,53 +33,28 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.999681,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.999681, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.440422,
-				0.000000,
-				0.000000,
-				-0.646341,
-				0.000000,
-				0.000000,
+				1.440422, 0.0, 0.0, -0.646341,
+				0.0, 0.0,
 			],
-			
 			[
-				5.000000,
-				-2.300702,
-				-0.276190,
-				-0.276190,
-				2.000000,
-				3.000000,
+				5.0, -2.300702, -0.27619, -0.27619,
+				2.0, 3.0,
 			],
 		]
 		vsnd_files_last_shot = 
@@ -91,8 +66,8 @@
 	McGinnis.Wpn.Fire.First = 
 	{
 		base = "McGinnis.Wpn.Fire.Main"
-		transient_offset_db = 4.000000
-		limiter_max = 0.000000
+		transient_offset_db = 4.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/forge/forge_weapon_fire_first_01.vsnd",
@@ -109,7 +84,7 @@
 	McGinnis.Wpn.Fire.Release = 
 	{
 		base = "Base.Weapon.Tail"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files_tail = 
 		[
 			"sounds/weapons/forge/forge_weapon_fire_release_01.vsnd",
@@ -123,44 +98,24 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.999681,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.999681, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 1.602562
@@ -168,9 +123,9 @@
 	McGinnis.Wpn.BulletWhizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -6.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = -6.0
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_stop_oldest = false
 		vsnd_files = 
 		[
@@ -204,29 +159,29 @@
 	McGinnis.Wpn.SpinUp.Start = 
 	{
 		base = "Base.Movement"
-		volume = -10.000000
+		volume = -10.0
 		vsnd_files = "sounds/common/null.vsnd"
 		vsnd_duration = 0.050023
 	}
 	McGinnis.Wpn.Spin.Lp = 
 	{
 		base = "Base.Movement"
-		volume = -10.000000
+		volume = -10.0
 		vsnd_files = "sounds/common/null.vsnd"
 		vsnd_duration = 0.050023
 	}
 	McGinnis.Wpn.Spin.Down = 
 	{
 		base = "Base.Movement"
-		volume = -10.000000
+		volume = -10.0
 		vsnd_files = "sounds/common/null.vsnd"
 		vsnd_duration = 0.050023
 	}
 	McGinnis.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/forge/reload/mcginnis_wpn_reload_start_01.vsnd",
@@ -238,8 +193,8 @@
 	McGinnis.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/forge/reload/mcginnis_wpn_reload_mid_01.vsnd",
@@ -251,8 +206,8 @@
 	McGinnis.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/forge/reload/mcginnis_wpn_reload_end_01.vsnd",
@@ -264,50 +219,50 @@
 	McGinnis.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -22.000000
-		pitch = 1.200000
+		volume = -22.0
+		pitch = 1.2
 		vsnd_files = "sounds/weapons/forge/zoom/zoom_in.vsnd"
 		vsnd_duration = 0.707583
 	}
 	McGinnis.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -22.000000
-		pitch = 1.600000
+		volume = -22.0
+		pitch = 1.6
 		vsnd_files = "sounds/weapons/forge/zoom/zoom_out.vsnd"
-		vsnd_duration = 0.831250
+		vsnd_duration = 0.83125
 	}
 	Forge.Turret.Select = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = "sounds/abilities/forge/forge_turret_select.vsnd"
 		vsnd_duration = 1.683991
 	}
 	Forge.Turret.Unselect = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = "sounds/abilities/forge/forge_turret_unselect.vsnd"
 		vsnd_duration = 0.936145
 	}
 	Forge.Turret.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 2.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = "sounds/abilities/forge/forge_turret_cast_01.vsnd"
 		vsnd_duration = 1.313243
 	}
 	Forge.Turret.Place = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 2.000000
-		pitch_rand_max = 0.020000
-		pitch_rand_min = -0.020000
-		block_duration = 0.500000
-		block_match_entity = 0.000000
+		volume = 2.0
+		pitch_rand_max = 0.02
+		pitch_rand_min = -0.02
+		block_duration = 0.5
+		block_match_entity = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/forge/forge_turret_deploy_01.vsnd",
@@ -319,33 +274,33 @@
 	Forge.Turret.LockOn = 
 	{
 		base = "Base.Ability.Detached"
-		volume_fade_out = 0.500000
-		pitch_rand_max = 0.050000
-		pitch_rand_min = -0.100000
-		volume = -99.000000
+		volume_fade_out = 0.5
+		pitch_rand_max = 0.05
+		pitch_rand_min = -0.1
+		volume = -99.0
 		vsnd_files = "sounds/abilities/forge/a1_turret/alert.vsnd"
 		vsnd_duration = 1.018813
 	}
 	Forge.Turret.LockOn.LocalClient = 
 	{
 		base = "Base.Ability.Detached"
-		pitch_rand_max = 0.050000
-		pitch_rand_min = -0.100000
-		volume = 5.000000
-		block_duration = 1.000000
-		block_match_entity = 0.000000
+		pitch_rand_max = 0.05
+		pitch_rand_min = -0.1
+		volume = 5.0
+		block_duration = 1.0
+		block_match_entity = 0.0
 		vsnd_files = "sounds/abilities/forge/a1_turret/alert.vsnd"
 		vsnd_duration = 1.018813
 	}
 	Forge.Turret.Shoot = 
 	{
 		base = "Base.Ability"
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_global_event_distance_on = true
-		limiter_global_event_distance_max = 2.000000
-		limiter_match_entity = 0.000000
-		volume_offset_team = -8.000000
+		limiter_global_event_distance_max = 2.0
+		limiter_match_entity = 0.0
+		volume_offset_team = -8.0
 		vsnd_files = 
 		[
 			"sounds/abilities/forge/a1_turret/wpn_fire_01.vsnd",
@@ -359,13 +314,13 @@
 			"sounds/abilities/forge/a1_turret/wpn_fire_09.vsnd",
 			"sounds/abilities/forge/a1_turret/wpn_fire_10.vsnd",
 		]
-		vsnd_duration = 0.930500
+		vsnd_duration = 0.9305
 	}
 	Forge.Turret.Explosion = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -1.500000
-		volume_offset_team = -6.000000
+		volume = -1.5
+		volume_offset_team = -6.0
 		vsnd_files = 
 		[
 			"sounds/abilities/forge/forge_turret_explode_01.vsnd",
@@ -377,84 +332,84 @@
 	Forge.Specter.Select = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = "sounds/abilities/forge/forge_specter_select.vsnd"
 		vsnd_duration = 1.240748
 	}
 	Forge.Specter.Unselect = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = "sounds/abilities/forge/forge_specter_unselect.vsnd"
 		vsnd_duration = 1.245215
 	}
 	Forge.Specter.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/forge/forge_specter_cast.vsnd"
 		vsnd_duration = 1.487596
 	}
 	Forge.Specter.Start = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
-		volume_offset_team = 5.000000
+		volume = 0.0
+		volume_offset_team = 5.0
 		vsnd_files = "sounds/abilities/forge/forge_specter_deploy.vsnd"
 		vsnd_duration = 3.144989
 	}
 	Forge.MobileResupply.Aura.Lp = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 2.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.300000
-		volume_offset_team = 4.000000
-		spread_max = 200.000000
-		spread_max_value_team = 0.500000
-		spread_max_value_player = 0.500000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.800000
-		pitch_envelope_scale_max = 1.200000
+		volume = 2.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.3
+		volume_offset_team = 4.0
+		spread_max = 200.0
+		spread_max_value_team = 0.5
+		spread_max_value_player = 0.5
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.8
+		pitch_envelope_scale_max = 1.2
 		vsnd_files = "sounds/abilities/forge/forge_specter_aura_lp.vsnd"
-		vsnd_duration = 9.128050
+		vsnd_duration = 9.12805
 	}
 	Forge.MobileResupply.End = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = "sounds/abilities/forge/forge_specter_aura_end.vsnd"
 		vsnd_duration = 2.662222
 	}
 	Forge.FissureWall.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/forge/a3_fissure_wall/forge_a3_fissure_wall_cast_01.vsnd"
 		vsnd_duration = 1.725329
 	}
 	Forge.FissureWall.Travel.Lp = 
 	{
 		base = "Base.Ability.Detached"
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
-		delay_rand_min = -2.000000
-		volume_offset_opponent = 8.000000
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		delay_rand_min = -2.0
+		volume_offset_opponent = 8.0
 		vsnd_files = "sounds/abilities/forge/a3_fissure_wall/forge_a3_fissure_wall_lp_01.vsnd"
 		vsnd_duration = 10.633039
 	}
 	Forge.FissureWall.Spawn = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/forge/a3_fissure_wall/forge_a3_fissure_wall_spawn_01.vsnd"
 		vsnd_duration = 2.796757
 	}
 	Forge.FissureWall.End = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -3.000000
-		volume_offset_opponent = 3.000000
+		volume = -3.0
+		volume_offset_opponent = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/forge/a3_fissure_wall/end_01.vsnd",
@@ -467,10 +422,10 @@
 	Forge.FissureWall.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 3.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		volume_offset_attacker_db = 3.000000
+		volume = 3.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		volume_offset_attacker_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/forge/a3_fissure_wall/dmg_01.vsnd",
@@ -482,11 +437,11 @@
 	Forge.FissureWall.ApplySlow = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -1.000000
+		volume = -1.0
 		block_team = true
 		block_opponent = true
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/forge/forge_wall_apply_slow_01.vsnd",
@@ -498,13 +453,13 @@
 	Forge.FissureWall.Destroy = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 5.000000
-		spread_max_value_opponent = 0.700000
-		spread_max_value_team = 0.700000
-		spread_min = 200.000000
-		spread_max = 500.000000
-		block_duration = 0.100000
-		block_match_entity = 0.000000
+		volume = 5.0
+		spread_max_value_opponent = 0.7
+		spread_max_value_team = 0.7
+		spread_min = 200.0
+		spread_max = 500.0
+		block_duration = 0.1
+		block_match_entity = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/forge/forge_wall_destroy_01.vsnd",
@@ -516,13 +471,13 @@
 	Forge.FissureWall.Damage = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 3.000000
-		spread_max_value_opponent = 0.700000
-		spread_max_value_team = 0.700000
-		spread_min = 200.000000
-		spread_max = 500.000000
-		block_duration = 0.100000
-		block_match_entity = 0.000000
+		volume = 3.0
+		spread_max_value_opponent = 0.7
+		spread_max_value_team = 0.7
+		spread_min = 200.0
+		spread_max = 500.0
+		block_duration = 0.1
+		block_match_entity = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/forge/forge_wall_damage_01.vsnd",
@@ -534,10 +489,10 @@
 	Forge.Rocket.Barrage.Fire = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -3.000000
-		limiter_on = 1.000000
-		limiter_max = 2.000000
-		volume_offset_player = -2.000000
+		volume = -3.0
+		limiter_on = 1.0
+		limiter_max = 2.0
+		volume_offset_player = -2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/forge/forge_rocket_barrage_fire_01.vsnd",
@@ -554,60 +509,55 @@
 	Forge.Rocket.Barrage.Channel = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/forge/forge_rocket_barrage_cast.vsnd"
 		vsnd_duration = 5.176009
 	}
 	Forge.Rocket.Barrage.Channel.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume_offset_player = -8.000000
-		volume = 2.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 1.000000
-		param_envelope_enabled = 1.000000
-		param_envelope_duration = 12.000000
-		pitch_envelope_scale_min = 0.900000
-		pitch_envelope_scale_max = 1.100000
+		volume_offset_player = -8.0
+		volume = 2.0
+		volume_fade_in = 0.1
+		volume_fade_out = 1.0
+		param_envelope_enabled = 1.0
+		param_envelope_duration = 12.0
+		pitch_envelope_scale_min = 0.9
+		pitch_envelope_scale_max = 1.1
 		vsnd_files = "sounds/abilities/forge/forge_rocket_barrage_air_raid_lp.vsnd"
 		vsnd_duration = 7.995374
 	}
 	Forge.Rocket.Barrage.Channel.End = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = "sounds/abilities/forge/forge_rocket_barrage_channel_end.vsnd"
-		vsnd_duration = 3.795760
+		vsnd_duration = 3.79576
 	}
 	Forge.Rocket.Barrage.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -12.000000
-		delay = 0.000000
-		delay_rand_min = -7.000000
-		delay_rand_max = 0.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		limiter_on = 1.000000
-		limiter_max = 3.000000
-		doppler_on = 1.000000
-		doppler_factor = 5.000000
+		volume = -12.0
+		delay = 0.0
+		delay_rand_min = -7.0
+		delay_rand_max = 0.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		limiter_on = 1.0
+		limiter_max = 3.0
+		doppler_on = 1.0
+		doppler_factor = 5.0
 		vsnd_files = "sounds/abilities/forge/forge_rocket_barrage_proj_lp.vsnd"
 		vsnd_duration = 12.387981
 	}
 	Forge.Rocket.Barrage.Explode = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -10.000000
-		limiter_on = 1.000000
-		limiter_max = 2.000000
-		volume_fade_out = 0.100000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
+		volume = -10.0
+		limiter_on = 1.0
+		limiter_max = 2.0
+		volume_fade_out = 0.1
+		position_offset = [ 0.0, 0.0, 50.0 ]
 		vsnd_files = 
 		[
 			"sounds/abilities/forge/forge_rocket_barrage_explo_01.vsnd",
@@ -619,13 +569,13 @@
 			"sounds/abilities/forge/forge_rocket_barrage_explo_07.vsnd",
 			"sounds/abilities/forge/forge_rocket_barrage_explo_08.vsnd",
 		]
-		vsnd_duration = 4.397800
+		vsnd_duration = 4.3978
 	}
 	McGinnis.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		track_1.vsnd_track_vol_offset_db = -3.000000
-		track_2.vsnd_track_vol_offset_db = -4.000000
+		track_1.vsnd_track_vol_offset_db = -3.0
+		track_2.vsnd_track_vol_offset_db = -4.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/forge/forge_step_01.vsnd",
@@ -661,12 +611,12 @@
 	McGinnis.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -3.000000
+		volume = -3.0
 	}
 	McGinnis.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -710,7 +660,7 @@
 	McGinnis.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",
@@ -755,7 +705,7 @@
 	McGinnis.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/forge/forge_foley_long_01.vsnd",
@@ -764,12 +714,12 @@
 			"sounds/player/movement/forge/forge_foley_long_04.vsnd",
 			"sounds/player/movement/forge/forge_foley_long_05.vsnd",
 		]
-		vsnd_duration = 0.649660
+		vsnd_duration = 0.64966
 	}
 	McGinnis.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/forge/forge_foley_short_01.vsnd",
@@ -786,10 +736,10 @@
 	McGinnis.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -3.000000
-		track_2.vsnd_track_vol_offset_db = -12.000000
-		pitch = 1.000000
-		volume_fade_in = 0.020000
+		track_1.vsnd_track_vol_offset_db = -3.0
+		track_2.vsnd_track_vol_offset_db = -12.0
+		pitch = 1.0
+		volume_fade_in = 0.02
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/forge/forge_step_01.vsnd",

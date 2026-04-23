@@ -2,7 +2,6 @@
 {
 	m_Cells = 
 	[
-		
 		{
 			_class = "CPulseCell_Inflow_GraphHook"
 			m_nEditorNodeID = 76489499
@@ -14,19 +13,16 @@
 			}
 			m_HookName = "CPulseGraphInstance_ServerEntity::GraphStart"
 		},
-		
 		{
 			m_nEditorNodeID = 919496774
 			_class = "CPulseCell_Step_EntFire"
 			m_Input = "Disable"
 		},
-		
 		{
 			m_nEditorNodeID = 905917393
 			_class = "CPulseCell_Step_EntFire"
 			m_Input = "Disable"
 		},
-		
 		{
 			_class = "CPulseCell_Inflow_EventHandler"
 			m_nEditorNodeID = 85268445
@@ -41,25 +37,21 @@
 			}
 			m_EventName = "CCitadelPointPulseAPI::OnStreetBrawlEnterState"
 		},
-		
 		{
 			m_nEditorNodeID = 624818887
 			_class = "CPulseCell_Step_EntFire"
 			m_Input = "Enable"
 		},
-		
 		{
 			m_nEditorNodeID = 844376971
 			_class = "CPulseCell_Step_EntFire"
 			m_Input = "Enable"
 		},
-		
 		{
 			m_nEditorNodeID = 972157426
 			_class = "CPulseCell_Step_EntFire"
 			m_Input = "Disable"
 		},
-		
 		{
 			m_nEditorNodeID = 184515673
 			_class = "CPulseCell_Step_EntFire"
@@ -70,12 +62,9 @@
 	m_DomainSubType = "PVAL_EHANDLE:point_pulse"
 	m_ParentMapName = "maps/prefabs/midtown_gameplay_entities.vmap"
 	m_ParentXmlName = ""
-	m_Vars = 
-	[
-	]
+	m_Vars = [  ]
 	m_Constants = 
 	[
-		
 		{
 			m_Type = "PVAL_SCHEMA_ENUM:EStreetBrawlGameState"
 			m_Value = "ESBGS_Buy"
@@ -83,28 +72,21 @@
 	]
 	m_DomainValues = 
 	[
-		
 		{
 			m_nType = "ENTITY_NAME"
 			m_Value = "amber_spawn_block_brush"
 			m_RequiredRuntimeType = "PVAL_ENTITY_NAME"
 		},
-		
 		{
 			m_nType = "ENTITY_NAME"
 			m_Value = "sapphire_spawn_block_brush"
 			m_RequiredRuntimeType = "PVAL_ENTITY_NAME"
 		},
 	]
-	m_BlackboardReferences = 
-	[
-	]
-	m_PublicOutputs = 
-	[
-	]
+	m_BlackboardReferences = [  ]
+	m_PublicOutputs = [  ]
 	m_InvokeBindings = 
 	[
-		
 		{
 			m_RegisterMap = 
 			{
@@ -119,7 +101,6 @@
 			m_nSrcChunk = 0
 			m_nSrcInstruction = 2
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -134,7 +115,6 @@
 			m_nSrcChunk = 0
 			m_nSrcInstruction = 4
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -149,7 +129,6 @@
 			m_nSrcChunk = 1
 			m_nSrcInstruction = 7
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -164,7 +143,6 @@
 			m_nSrcChunk = 1
 			m_nSrcInstruction = 9
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -179,7 +157,6 @@
 			m_nSrcChunk = 1
 			m_nSrcInstruction = 12
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -195,47 +172,39 @@
 			m_nSrcInstruction = 14
 		},
 	]
-	m_CallInfos = 
-	[
-	]
+	m_CallInfos = [  ]
 	m_OutputConnections = 
 	[
-		
 		{
 			m_SourceOutput = "Step_EntFire:184515673"
 			m_TargetEntity = "sapphire_spawn_block_brush"
 			m_TargetInput = "Disable"
 			m_Param = ""
 		},
-		
 		{
 			m_SourceOutput = "Step_EntFire:624818887"
 			m_TargetEntity = "amber_spawn_block_brush"
 			m_TargetInput = "Enable"
 			m_Param = ""
 		},
-		
 		{
 			m_SourceOutput = "Step_EntFire:844376971"
 			m_TargetEntity = "sapphire_spawn_block_brush"
 			m_TargetInput = "Enable"
 			m_Param = ""
 		},
-		
 		{
 			m_SourceOutput = "Step_EntFire:905917393"
 			m_TargetEntity = "sapphire_spawn_block_brush"
 			m_TargetInput = "Disable"
 			m_Param = ""
 		},
-		
 		{
 			m_SourceOutput = "Step_EntFire:919496774"
 			m_TargetEntity = "amber_spawn_block_brush"
 			m_TargetInput = "Disable"
 			m_Param = ""
 		},
-		
 		{
 			m_SourceOutput = "Step_EntFire:972157426"
 			m_TargetEntity = "amber_spawn_block_brush"
@@ -245,11 +214,9 @@
 	]
 	m_Chunks = 
 	[
-		
 		{
 			m_Instructions = 
 			[
-				
 				{
 					m_nCode = "NOP"
 					m_nVar = -1
@@ -264,7 +231,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -279,7 +245,6 @@
 					m_nDomainValueIdx = 0
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "CELL_INVOKE"
 					m_nVar = -1
@@ -294,7 +259,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -309,7 +273,6 @@
 					m_nDomainValueIdx = 1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "CELL_INVOKE"
 					m_nVar = -1
@@ -324,7 +287,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "RETURN_VOID"
 					m_nVar = -1
@@ -342,7 +304,6 @@
 			]
 			m_Registers = 
 			[
-				
 				{
 					m_nReg = 0
 					m_Type = "PVAL_ENTITY_NAME"
@@ -350,7 +311,6 @@
 					m_nWrittenByInstruction = 1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 1
 					m_Type = "PVAL_ENTITY_NAME"
@@ -361,37 +321,31 @@
 			]
 			m_InstructionDebugInfos = 
 			[
-				
 				{
 					m_nFlowNodeID = 76489499
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_OptionalSpontaneousPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 919496774
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 919496774
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 905917393
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 905917393
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 905917393
 					m_nValueNodeID = -1
@@ -399,11 +353,9 @@
 				},
 			]
 		},
-		
 		{
 			m_Instructions = 
 			[
-				
 				{
 					m_nCode = "NOP"
 					m_nVar = -1
@@ -418,7 +370,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_CONST"
 					m_nVar = -1
@@ -433,7 +384,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "EQ"
 					m_nVar = -1
@@ -448,7 +398,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "JUMP_COND"
 					m_nVar = -1
@@ -463,7 +412,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "JUMP"
 					m_nVar = -1
@@ -478,7 +426,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "IMMEDIATE_HALT"
 					m_nVar = -1
@@ -493,7 +440,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -508,7 +454,6 @@
 					m_nDomainValueIdx = 0
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "CELL_INVOKE"
 					m_nVar = -1
@@ -523,7 +468,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -538,7 +482,6 @@
 					m_nDomainValueIdx = 1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "CELL_INVOKE"
 					m_nVar = -1
@@ -553,7 +496,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "RETURN_VOID"
 					m_nVar = -1
@@ -568,7 +510,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -583,7 +524,6 @@
 					m_nDomainValueIdx = 0
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "CELL_INVOKE"
 					m_nVar = -1
@@ -598,7 +538,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -613,7 +552,6 @@
 					m_nDomainValueIdx = 1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "CELL_INVOKE"
 					m_nVar = -1
@@ -628,7 +566,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "RETURN_VOID"
 					m_nVar = -1
@@ -646,7 +583,6 @@
 			]
 			m_Registers = 
 			[
-				
 				{
 					m_nReg = 0
 					m_Type = "PVAL_SCHEMA_ENUM:EStreetBrawlGameState"
@@ -654,7 +590,6 @@
 					m_nWrittenByInstruction = -1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 1
 					m_Type = "PVAL_SCHEMA_ENUM:EStreetBrawlGameState"
@@ -662,7 +597,6 @@
 					m_nWrittenByInstruction = 1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 2
 					m_Type = "PVAL_BOOL"
@@ -670,7 +604,6 @@
 					m_nWrittenByInstruction = 2
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 3
 					m_Type = "PVAL_ENTITY_NAME"
@@ -678,7 +611,6 @@
 					m_nWrittenByInstruction = 6
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 4
 					m_Type = "PVAL_ENTITY_NAME"
@@ -686,7 +618,6 @@
 					m_nWrittenByInstruction = 8
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 5
 					m_Type = "PVAL_ENTITY_NAME"
@@ -694,7 +625,6 @@
 					m_nWrittenByInstruction = 11
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 6
 					m_Type = "PVAL_ENTITY_NAME"
@@ -705,97 +635,81 @@
 			]
 			m_InstructionDebugInfos = 
 			[
-				
 				{
 					m_nFlowNodeID = 85268445
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_OptionalSpontaneousPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 523257340
 					m_nValueNodeID = 645756977
 					m_SequencePointName = "m_PrimaryPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 523257340
 					m_nValueNodeID = 645756977
 					m_SequencePointName = "m_PrimaryPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 523257340
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_PrimaryPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 523257340
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_PrimaryPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 523257340
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_PrimaryPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 624818887
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 624818887
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 844376971
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 844376971
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 844376971
 					m_nValueNodeID = -1
 					m_SequencePointName = "OutDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 972157426
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 972157426
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 184515673
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 184515673
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 184515673
 					m_nValueNodeID = -1

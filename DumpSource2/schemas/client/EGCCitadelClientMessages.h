@@ -152,4 +152,6 @@ enum EGCCitadelClientMessages : uint32_t
 	k_EMsgGCToClientPartyChatMsg = 9279,
 	k_EMsgClientToGCRequestHeroReleaseVoteTally = 9280,
 	k_EMsgGCToClientUpdateHeroReleaseVoteTally = 9281,
+	k_EMsgClientToGCSetAccountPrivacySetting = 9282,
+	k_EMsgClientToGCSetAccountPrivacySettingResponse = 9283,
 };

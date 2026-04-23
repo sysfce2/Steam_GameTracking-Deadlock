@@ -3,10 +3,10 @@
 	Abrams.Wpn.Fire.Main = 
 	{
 		base = "Base.Weapon.Shotgun"
-		volume = 3.000000
-		volume_fade_out = 0.250000
-		tail_vol_offset_db = 0.000000
-		last_shot_vol_offset_db = 2.000000
+		volume = 3.0
+		volume_fade_out = 0.25
+		tail_vol_offset_db = 0.0
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/abrams/abrams_weapon_fire_mid_01.vsnd",
@@ -34,8 +34,8 @@
 	Abrams.Wpn.Fire.First = 
 	{
 		base = "Abrams.Wpn.Fire.Main"
-		transient_offset_db = 3.000000
-		limiter_max = 0.000000
+		transient_offset_db = 3.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/abrams/abrams_weapon_fire_first_01.vsnd",
@@ -58,22 +58,22 @@
 	Abrams.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -19.000000
+		volume = -19.0
 		vsnd_files = "sounds/weapons/astro/zoom/in.vsnd"
 		vsnd_duration = 1.323604
 	}
 	Abrams.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -21.000000
+		volume = -21.0
 		vsnd_files = "sounds/weapons/astro/zoom/out.vsnd"
 		vsnd_duration = 1.829146
 	}
 	Abrams.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/abrams/reload/abram_wpn_reload_start_01.vsnd",
@@ -85,7 +85,7 @@
 	Abrams.Wpn.Reload.Round = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -8.000000
+		volume = -8.0
 		vsnd_files = 
 		[
 			"sounds/weapons/abrams/reload/abram_wpn_reload_bullet_01.vsnd",
@@ -99,8 +99,8 @@
 	Abrams.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/abrams/reload/abram_wpn_reload_end_01.vsnd",
@@ -112,17 +112,17 @@
 	Abrams.Charge.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 5.000000
+		volume = 5.0
 		vsnd_files = "sounds/abilities/abrams/abrams_a2_charge_cast_01.vsnd"
-		vsnd_duration = 4.475420
+		vsnd_duration = 4.47542
 	}
 	Abrams.Charge.HitEnemy = 
 	{
 		base = "Base.Ability.Hit"
-		volume = -2.000000
-		volume_offset_attacker_db = 6.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = -2.0
+		volume_offset_attacker_db = 6.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/abilities/abrams/a2_charge/abrams_charge_hero_impact_01.vsnd",
@@ -135,17 +135,17 @@
 	{
 		base = "Base.Ability.Hit"
 		filter_include_others = true
-		volume = 3.000000
-		volume_offset_victim_db = 2.000000
+		volume = 3.0
+		volume_offset_victim_db = 2.0
 		vsnd_files = "sounds/abilities/abrams/a2_charge/abrams_a2_charge_wall_impact.vsnd"
 		vsnd_duration = 2.982676
 	}
 	Ability.Abrams.Charge.Step = 
 	{
 		base = "Base.Ability"
-		volume = 5.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 5.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/abilities/abrams/abrams_a2_charge_step_01.vsnd",
@@ -162,62 +162,62 @@
 	Abrams.A1.SiphonLife.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/abrams/abrams_a1_siphonlife_cast.vsnd"
 		vsnd_duration = 2.971814
 	}
 	Abrams.A1.SiphonLife.Loop = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = "sounds/abilities/abrams/abrams_a1_siphonlife_loop.vsnd"
 		vsnd_duration = 13.406576
 	}
 	Abrams.A1.SiphonLife.End = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/abrams/abrams_a1_siphonlife_end.vsnd"
 		vsnd_duration = 0.999977
 	}
 	Abrams.A4.Leap.Impact = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/abrams/a4_leap/abrams_a4_slam_impact.vsnd"
 		vsnd_duration = 3.903991
 	}
 	Abrams.A4.Leap.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
-		mono_downmix_min_distance = 300.000000
+		volume = 2.0
+		mono_downmix_min_distance = 300.0
 		vsnd_files = "sounds/abilities/abrams/a4_leap/abrams_a4_slam_cast.vsnd"
 		vsnd_duration = 5.117211
 	}
 	Abrams.A4.Leap.Descend = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
-		volume_enemy_targeting_boost = 4.000000
+		volume = 3.0
+		volume_enemy_targeting_boost = 4.0
 		vsnd_files = "sounds/abilities/abrams/a4_leap/abrams_a4_slam_descend.vsnd"
 		vsnd_duration = 3.766077
 	}
 	Abrams.A4.Leap.Float.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -9.000000
-		volume_offset_team = -6.000000
-		volume_offset_opponent = 3.000000
-		volume_enemy_targeting_boost = 7.000000
+		volume = -9.0
+		volume_offset_team = -6.0
+		volume_offset_opponent = 3.0
+		volume_enemy_targeting_boost = 7.0
 		vsnd_files = "sounds/abilities/abrams/a4_leap/abrams_a4_slam_float_lp.vsnd"
 		vsnd_duration = 2.543424
 	}
 	Abrams.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -6.000000
-		track_2.vsnd_track_vol_offset_db = -20.000000
+		track_1.vsnd_track_vol_offset_db = -6.0
+		track_2.vsnd_track_vol_offset_db = -20.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/abrams/abrams_footstep_01.vsnd",
@@ -240,11 +240,11 @@
 			"sounds/player/movement/abrams/abrams_movement_foley_short_07.vsnd",
 			"sounds/player/movement/abrams/abrams_movement_foley_short_08.vsnd",
 		]
-		vsnd_duration = 0.300590
+		vsnd_duration = 0.30059
 	}
 	Abrams.Movement.Short = 
 	{
-		volume = -7.000000
+		volume = -7.0
 		base = "Base.Movement"
 		vsnd_files = 
 		[
@@ -262,12 +262,12 @@
 	Abrams.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = 0.000000
+		volume = 0.0
 	}
 	Abrams.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/abrams/abrams_footstep_01.vsnd",
@@ -291,7 +291,7 @@
 			"sounds/player/movement/generic/foley_light/default_foley_08.vsnd",
 			"sounds/player/movement/generic/foley_light/default_foley_09.vsnd",
 		]
-		vsnd_duration = 0.300590
+		vsnd_duration = 0.30059
 	}
 	Abrams.Mantle = 
 	{

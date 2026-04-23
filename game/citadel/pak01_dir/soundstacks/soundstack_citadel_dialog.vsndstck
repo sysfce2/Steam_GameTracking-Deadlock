@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -166,7 +164,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "private"
 				operator = "util_null"
@@ -179,19 +176,16 @@
 					}
 				}
 			},
-			
 			{
 				name = "get_event_info"
 				operator = "soundevent_get_info"
 			},
-			
 			{
 				name = "convar_get_debug_enabled"
 				operator = "convar_get"
 				input_execute = "1.0"
 				convar = "audio_display_soundstack_debug_dialog"
 			},
-			
 			{
 				name = "cache_priority"
 				operator = "opvar_set_float"
@@ -203,26 +197,22 @@
 				input_field_name = "cached_priority"
 				input_use_namespace = "true"
 			},
-			
 			{
 				name = "source_info"
 				operator = "game_get_source_info"
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_execute = "1"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "citadel_find_perspective"
 				operator = "sos_import_stack"
 				import_stack = "citadel_find_perspective"
 				auto_connect_public_fields = "true"
 			},
-			
 			{
 				name = "perspective_switch_force_player_position"
 				operator = "logic_perspective_switch_float"
@@ -232,7 +222,6 @@
 				input_opponent_value = "@public.play_from_listener_opponent"
 				input_neutral_value = "@public.play_from_listener_neutral"
 			},
-			
 			{
 				name = "test_from_player_index"
 				operator = "ctrl_switch_float"
@@ -240,7 +229,6 @@
 				input2 = "-1"
 				input1 = "@source_info.output_entity_index"
 			},
-			
 			{
 				name = "get_entity_info"
 				input_execute = "1"
@@ -252,14 +240,12 @@
 				use_world_position = "@public.position_force_from_input"
 				attachment = "@public.attachment"
 			},
-			
 			{
 				name = "get_entity_health"
 				operator = "game_entity_get_health"
 				input_execute = "@public.health_volume_enabled"
 				input_entity = "@source_info.output_entity_index"
 			},
-			
 			{
 				name = "get_dealt_recent_damage"
 				operator = "opvar_get_float"
@@ -269,7 +255,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "dealt_recent_damage"
 			},
-			
 			{
 				name = "get_received_recent_damage"
 				operator = "opvar_get_float"
@@ -279,7 +264,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "received_recent_damage"
 			},
-			
 			{
 				name = "get_enemy_is_in_proximity"
 				operator = "opvar_get_float"
@@ -289,7 +273,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "is_enemy_in_proximity"
 			},
-			
 			{
 				name = "test_priority_below_combat_blocking_threshold"
 				operator = "math_float"
@@ -299,7 +282,6 @@
 				input1 = "@public.dialog_mix_priority"
 				input2 = "@public.combat_blocking_priority_threshold"
 			},
-			
 			{
 				name = "math_add_combat_criteria"
 				operator = "math_accumulate12_float"
@@ -318,7 +300,6 @@
 				input11 = "0.0"
 				input12 = "0.0"
 			},
-			
 			{
 				name = "opvar_get_is_in_hideout"
 				operator = "opvar_get_float"
@@ -328,7 +309,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "citadel_in_hideout"
 			},
-			
 			{
 				name = "min_hideout"
 				operator = "math_float"
@@ -338,7 +318,6 @@
 				input1 = "@opvar_get_is_in_hideout.output"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "invert_in_hideout"
 				operator = "math_float"
@@ -348,7 +327,6 @@
 				input1 = "1.0"
 				input2 = "@min_hideout.output"
 			},
-			
 			{
 				name = "disable_combat_threshold"
 				operator = "math_float"
@@ -358,7 +336,6 @@
 				input1 = "@invert_in_hideout.output"
 				input2 = "@math_add_combat_criteria.output"
 			},
-			
 			{
 				name = "test_is_in_combat"
 				operator = "math_float"
@@ -368,7 +345,6 @@
 				input1 = "@disable_combat_threshold.output"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "test_should_block_low_priority_dialog"
 				operator = "math_accumulate12_float"
@@ -387,7 +363,6 @@
 				input11 = "1.0"
 				input12 = "1.0"
 			},
-			
 			{
 				name = "priority_blocking_message"
 				operator = "math_string"
@@ -397,7 +372,6 @@
 				input1 = "@get_event_info.output_soundevent_name"
 				input2 = " - blocked, at or below threshold."
 			},
-			
 			{
 				name = "print_priority_blocking"
 				operator = "util_print_string"
@@ -405,7 +379,6 @@
 				input_execute = "@test_should_block_low_priority_dialog.output"
 				input = "@priority_blocking_message.output_string"
 			},
-			
 			{
 				name = "block_priority"
 				operator = "sos_goto"
@@ -413,7 +386,6 @@
 				input_goto_end = "true"
 				input_execute = "@test_should_block_low_priority_dialog.output"
 			},
-			
 			{
 				name = "perspective_switch_volume_curve_field_name"
 				operator = "logic_perspective_switch_string"
@@ -423,7 +395,6 @@
 				input_opponent_value = "public.volume_falloff_curve_db_opponent"
 				input_neutral_value = "public.volume_falloff_curve_db_neutral"
 			},
-			
 			{
 				name = "perspective_switch_volume_falloff_min"
 				operator = "logic_perspective_switch_float"
@@ -433,7 +404,6 @@
 				input_opponent_value = "@public.volume_falloff_min_opponent"
 				input_neutral_value = "@public.volume_falloff_min_neutral"
 			},
-			
 			{
 				name = "perspective_switch_volume_falloff_max"
 				operator = "logic_perspective_switch_float"
@@ -443,7 +413,6 @@
 				input_opponent_value = "@public.volume_falloff_max_opponent"
 				input_neutral_value = "@public.volume_falloff_max_neutral"
 			},
-			
 			{
 				name = "citadel_distance_falloff"
 				operator = "sos_import_stack"
@@ -478,14 +447,12 @@
 					}
 				}
 			},
-			
 			{
 				name = "distance_to_source"
 				operator = "calc_distance"
 				input_position1 = "@get_entity_info.output_position"
 				input_position2 = "@globals.output_listener_position"
 			},
-			
 			{
 				name = "volume_below_blocking_threshold"
 				operator = "math_float"
@@ -494,7 +461,6 @@
 				input1 = "@citadel_distance_falloff::output.result_vol_linear"
 				input2 = ".01"
 			},
-			
 			{
 				name = "volume_blocking_enabled"
 				operator = "math_float"
@@ -503,7 +469,6 @@
 				input1 = "@public.enable_pre_priority_volume_blocking"
 				input2 = "@volume_below_blocking_threshold.output"
 			},
-			
 			{
 				name = "blocking_message"
 				operator = "math_string"
@@ -512,7 +477,6 @@
 				input1 = "@get_event_info.output_soundevent_name"
 				input2 = " - blocked, below volume threshold (citadel_dialog)."
 			},
-			
 			{
 				name = "blocking_message_enabled"
 				operator = "math_float"
@@ -521,14 +485,12 @@
 				input1 = "@convar_get_debug_enabled.output"
 				input2 = "@volume_below_blocking_threshold.output"
 			},
-			
 			{
 				name = "print_blocking"
 				operator = "util_print_string"
 				input_execute = "@blocking_message_enabled.output"
 				input = "@blocking_message.output_string"
 			},
-			
 			{
 				name = "block_volume"
 				operator = "sos_goto"
@@ -536,7 +498,6 @@
 				execute_once = "1.000000"
 				input_execute = "@volume_blocking_enabled.output"
 			},
-			
 			{
 				name = "distance_falloff_less_than_threshold"
 				operator = "math_float"
@@ -544,7 +505,6 @@
 				input1 = "@citadel_distance_falloff::output.result_vol_linear"
 				input2 = ".5"
 			},
-			
 			{
 				name = "switch_priority_below_volume_threshold"
 				operator = "ctrl_switch_float"
@@ -552,7 +512,6 @@
 				input1 = "@private.cached_priority"
 				input2 = "-1.0"
 			},
-			
 			{
 				name = "overwrite_floored_priority"
 				operator = "opvar_set_float"
@@ -562,7 +521,6 @@
 				input_field_name = "dialog_mix_priority"
 				input_use_namespace = "true"
 			},
-			
 			{
 				name = "join_dialog_priority_group"
 				input_execute = "1.0"
@@ -570,7 +528,6 @@
 				operator = "soundevent_group_join"
 				input_group_name = "@public.dialog_priority_group_name"
 			},
-			
 			{
 				name = "get_dialog_priority_kv3_max"
 				execute_once = "false"
@@ -579,7 +536,6 @@
 				input_group_result = "@join_dialog_priority_group.output_result"
 				input_name = "max"
 			},
-			
 			{
 				name = "get_group_result_info"
 				input_execute = "1.0"
@@ -587,7 +543,6 @@
 				operator = "soundevent_group_info"
 				input_group_result = "@join_dialog_priority_group.output_result"
 			},
-			
 			{
 				name = "priority_less_than_max"
 				operator = "math_float"
@@ -596,7 +551,6 @@
 				input1 = "@public.dialog_mix_priority"
 				input2 = "@get_dialog_priority_kv3_max.output"
 			},
-			
 			{
 				name = "check_health_volume_enabled"
 				operator = "math_float"
@@ -604,7 +558,6 @@
 				input1 = "@public.health_volume_enabled"
 				input2 = "@citadel_find_perspective::math_perspective_is_team.output"
 			},
-			
 			{
 				name = "check_health_below_threshold"
 				operator = "math_float"
@@ -613,7 +566,6 @@
 				input2 = "@public.low_health_fraction_vol_offset_threshold"
 				input1 = "@get_entity_health.output_normalized"
 			},
-			
 			{
 				name = "switch_health_volume"
 				operator = "ctrl_switch_float"
@@ -621,7 +573,6 @@
 				input1 = "0.0"
 				input2 = "@public.low_health_volume_offset_db"
 			},
-			
 			{
 				name = "volume_accumulate"
 				operator = "math_accumulate12_float"
@@ -639,14 +590,12 @@
 				input11 = "1.0"
 				input12 = "1.0"
 			},
-			
 			{
 				name = "volume_filter"
 				operator = "math_filter_float"
 				input = "@volume_accumulate.output"
 				input_max_velocity = "@public.low_priority_vol_filter_rate"
 			},
-			
 			{
 				name = "get_context_volume"
 				operator = "opvar_get_float"
@@ -656,7 +605,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "@public.context_name"
 			},
-			
 			{
 				name = "add_volume_offset"
 				operator = "math_accumulate12_float"
@@ -675,14 +623,12 @@
 				input11 = "0.0"
 				input12 = "0.0"
 			},
-			
 			{
 				name = "get_citadel_entity_info"
 				operator = "citadel_entity_info"
 				input_execute = "1"
 				input_entity_index = "@source_info.output_entity_index"
 			},
-			
 			{
 				name = "modifier_cache"
 				operator = "util_null"
@@ -695,7 +641,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "set_initial_shrink_cache"
 				input = "@get_citadel_entity_info.output_entity_is_shrunken"
@@ -705,7 +650,6 @@
 				input_operator_name = "modifier_cache"
 				input_field_name = "shrink_cache"
 			},
-			
 			{
 				name = "math_filter_smooth_shrink_value"
 				operator = "math_filter_smooth_approach_float"
@@ -714,7 +658,6 @@
 				input_rate_rising = "100.0"
 				input_rate_falling = "100.0"
 			},
-			
 			{
 				name = "set_lerped_shrink_cache"
 				input = "@math_filter_smooth_shrink_value.output"
@@ -723,7 +666,6 @@
 				input_operator_name = "modifier_cache"
 				input_field_name = "shrink_cache"
 			},
-			
 			{
 				name = "remap_shrink_to_pitch"
 				operator = "math_remap_float"
@@ -734,7 +676,6 @@
 				input_map_max = "@public.pitch_shrunken_scalar"
 				default_to_max = "false"
 			},
-			
 			{
 				name = "math_mult_pitch"
 				operator = "math_float"
@@ -742,7 +683,6 @@
 				input1 = "@remap_shrink_to_pitch.output"
 				input2 = "@public.pitch_adjust"
 			},
-			
 			{
 				name = "remap_shrink_to_volume"
 				operator = "math_remap_float"
@@ -753,7 +693,6 @@
 				input_map_max = "@public.volume_shrunken_offset_db"
 				default_to_max = "false"
 			},
-			
 			{
 				name = "math_add_shrink_vol_offset"
 				operator = "math_float"
@@ -761,7 +700,6 @@
 				input1 = "@add_volume_offset.output"
 				input2 = "@remap_shrink_to_volume.output"
 			},
-			
 			{
 				name = "citadel_perspective_default"
 				operator = "sos_import_stack"
@@ -781,7 +719,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "switch_debug_color_below_threshold"
 				operator = "ctrl_switch_float3"
@@ -789,7 +726,6 @@
 				input1 = "[252., 3., 82.]"
 				input2 = "[3., 119., 252.]"
 			},
-			
 			{
 				name = "switch_debug_color"
 				operator = "ctrl_switch_float3"
@@ -797,7 +733,6 @@
 				input1 = "[3., 252., 111.]"
 				input2 = "@switch_debug_color_below_threshold.output"
 			},
-			
 			{
 				name = "util_draw_debug_sphere"
 				operator = "util_draw_debug_sphere"

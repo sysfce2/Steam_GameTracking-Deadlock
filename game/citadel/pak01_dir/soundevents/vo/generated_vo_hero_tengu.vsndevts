@@ -8,7 +8,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_astro_bounce_pad_01.vsnd",
 		]
-		vsnd_duration = 1.167500
+		vsnd_duration = 1.1675
 	}
 	tengu_ally_astro_bounce_pad_02_hero_3d = 
 	{
@@ -48,7 +48,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_astro_lasso_victim_01.vsnd",
 		]
-		vsnd_duration = 1.335750
+		vsnd_duration = 1.33575
 	}
 	tengu_ally_astro_lasso_victim_02_hero_3d = 
 	{
@@ -158,7 +158,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_atlas_unkillable_03.vsnd",
 		]
-		vsnd_duration = 2.065750
+		vsnd_duration = 2.06575
 	}
 	tengu_ally_bebop_far_hook_01_hero_3d = 
 	{
@@ -538,7 +538,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_gigawatt_multi_kill_ult_02.vsnd",
 		]
-		vsnd_duration = 1.710500
+		vsnd_duration = 1.7105
 	}
 	tengu_ally_gigawatt_multi_kill_ult_03_hero_3d = 
 	{
@@ -588,7 +588,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_haze_big_ult_03.vsnd",
 		]
-		vsnd_duration = 2.065500
+		vsnd_duration = 2.0655
 	}
 	tengu_ally_haze_interrupt_with_finesse_01_hero_3d = 
 	{
@@ -658,7 +658,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_hornet_far_snipe_02.vsnd",
 		]
-		vsnd_duration = 1.915250
+		vsnd_duration = 1.91525
 	}
 	tengu_ally_hornet_far_snipe_03_hero_3d = 
 	{
@@ -778,7 +778,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_kelvin_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.434750
+		vsnd_duration = 1.43475
 	}
 	tengu_ally_kelvin_pass_on_zipline_01_hero_3d = 
 	{
@@ -998,7 +998,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_orion_missile_stops_ult_02.vsnd",
 		]
-		vsnd_duration = 1.911250
+		vsnd_duration = 1.91125
 	}
 	tengu_ally_orion_missile_stops_ult_03_hero_3d = 
 	{
@@ -1038,7 +1038,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_shiv_multikill_01.vsnd",
 		]
-		vsnd_duration = 2.022000
+		vsnd_duration = 2.022
 	}
 	tengu_ally_shiv_multikill_02_hero_3d = 
 	{
@@ -1158,7 +1158,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_viscous_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.519500
+		vsnd_duration = 1.5195
 	}
 	tengu_ally_viscous_pass_on_zipline_01_hero_3d = 
 	{
@@ -1298,7 +1298,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_yamato_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.389750
+		vsnd_duration = 1.38975
 	}
 	tengu_ally_yamato_kills_with_hook_01_hero_3d = 
 	{
@@ -1308,7 +1308,7 @@
 		[
 			"sounds/vo/tengu/tengu_ally_yamato_kills_with_hook_01.vsnd",
 		]
-		vsnd_duration = 1.456750
+		vsnd_duration = 1.45675
 	}
 	tengu_ally_yamato_kills_with_hook_02_hero_3d = 
 	{
@@ -1348,7 +1348,7 @@
 		[
 			"sounds/vo/tengu/tengu_angry_01.vsnd",
 		]
-		vsnd_duration = 1.589500
+		vsnd_duration = 1.5895
 	}
 	tengu_angry_01_ult_3d = 
 	{
@@ -1358,7 +1358,7 @@
 		[
 			"sounds/vo/tengu/tengu_angry_01.vsnd",
 		]
-		vsnd_duration = 1.589500
+		vsnd_duration = 1.5895
 	}
 	tengu_angry_02_hero_3d = 
 	{
@@ -1448,7 +1448,7 @@
 		[
 			"sounds/vo/tengu/tengu_angry_06.vsnd",
 		]
-		vsnd_duration = 1.264750
+		vsnd_duration = 1.26475
 	}
 	tengu_angry_06_ult_3d = 
 	{
@@ -1458,7 +1458,7 @@
 		[
 			"sounds/vo/tengu/tengu_angry_06.vsnd",
 		]
-		vsnd_duration = 1.264750
+		vsnd_duration = 1.26475
 	}
 	tengu_angry_07_hero_3d = 
 	{
@@ -1678,7 +1678,7 @@
 		[
 			"sounds/vo/tengu/tengu_concerned_02.vsnd",
 		]
-		vsnd_duration = 1.605250
+		vsnd_duration = 1.60525
 	}
 	tengu_concerned_02_ult_3d = 
 	{
@@ -1688,7 +1688,7 @@
 		[
 			"sounds/vo/tengu/tengu_concerned_02.vsnd",
 		]
-		vsnd_duration = 1.605250
+		vsnd_duration = 1.60525
 	}
 	tengu_concerned_03_hero_3d = 
 	{
@@ -1878,7 +1878,7 @@
 		[
 			"sounds/vo/tengu/tengu_congrats_03.vsnd",
 		]
-		vsnd_duration = 1.663000
+		vsnd_duration = 1.663
 	}
 	tengu_congrats_04_hero_3d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/tengu/tengu_desperation_power1_05.vsnd",
 		]
-		vsnd_duration = 1.775250
+		vsnd_duration = 1.77525
 	}
 	tengu_desperation_power2_01_ability_3d = 
 	{
@@ -1998,7 +1998,7 @@
 		[
 			"sounds/vo/tengu/tengu_desperation_power2_05.vsnd",
 		]
-		vsnd_duration = 1.631000
+		vsnd_duration = 1.631
 	}
 	tengu_desperation_power3_01_ability_3d = 
 	{
@@ -2398,7 +2398,7 @@
 		[
 			"sounds/vo/tengu/emote/tengu_effort_melee_big_05.vsnd",
 		]
-		vsnd_duration = 1.057500
+		vsnd_duration = 1.0575
 	}
 	tengu_effort_melee_big_05_emote_melee_effort_3d = 
 	{
@@ -2408,7 +2408,7 @@
 		[
 			"sounds/vo/tengu/emote/tengu_effort_melee_big_05.vsnd",
 		]
-		vsnd_duration = 1.057500
+		vsnd_duration = 1.0575
 	}
 	tengu_effort_melee_small_01_emote_effort_3d = 
 	{
@@ -2568,7 +2568,7 @@
 		[
 			"sounds/vo/tengu/tengu_enemy_astro_bounce_escape_03.vsnd",
 		]
-		vsnd_duration = 2.308500
+		vsnd_duration = 2.3085
 	}
 	tengu_enemy_astro_lassoed_01_hero_3d = 
 	{
@@ -2578,7 +2578,7 @@
 		[
 			"sounds/vo/tengu/tengu_enemy_astro_lassoed_01.vsnd",
 		]
-		vsnd_duration = 1.818750
+		vsnd_duration = 1.81875
 	}
 	tengu_enemy_astro_lassoed_02_hero_3d = 
 	{
@@ -2618,7 +2618,7 @@
 		[
 			"sounds/vo/tengu/tengu_enemy_atlas_unkillable_02.vsnd",
 		]
-		vsnd_duration = 1.498750
+		vsnd_duration = 1.49875
 	}
 	tengu_enemy_atlas_unkillable_03_hero_3d = 
 	{
@@ -2668,7 +2668,7 @@
 		[
 			"sounds/vo/tengu/tengu_enemy_bebop_kill_mid_laser_01.vsnd",
 		]
-		vsnd_duration = 1.974250
+		vsnd_duration = 1.97425
 	}
 	tengu_enemy_bebop_kill_mid_laser_02_hero_3d = 
 	{
@@ -2788,7 +2788,7 @@
 		[
 			"sounds/vo/tengu/tengu_enemy_gets_rejuv_01.vsnd",
 		]
-		vsnd_duration = 1.418750
+		vsnd_duration = 1.41875
 	}
 	tengu_enemy_gets_rejuv_02_hero_3d = 
 	{
@@ -2888,7 +2888,7 @@
 		[
 			"sounds/vo/tengu/tengu_enemy_gigawatt_hide_from_ult_02.vsnd",
 		]
-		vsnd_duration = 1.563250
+		vsnd_duration = 1.56325
 	}
 	tengu_enemy_gigawatt_hide_from_ult_03_hero_3d = 
 	{
@@ -3428,7 +3428,7 @@
 		[
 			"sounds/vo/tengu/tengu_happy_09.vsnd",
 		]
-		vsnd_duration = 1.948500
+		vsnd_duration = 1.9485
 	}
 	tengu_happy_09_ult_3d = 
 	{
@@ -3438,7 +3438,7 @@
 		[
 			"sounds/vo/tengu/tengu_happy_09.vsnd",
 		]
-		vsnd_duration = 1.948500
+		vsnd_duration = 1.9485
 	}
 	tengu_happy_10_hero_3d = 
 	{
@@ -3668,7 +3668,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_astro_03.vsnd",
 		]
-		vsnd_duration = 1.526500
+		vsnd_duration = 1.5265
 	}
 	tengu_kill_astro_04_hero_3d = 
 	{
@@ -3838,7 +3838,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_bookworm_05.vsnd",
 		]
-		vsnd_duration = 2.764250
+		vsnd_duration = 2.76425
 	}
 	tengu_kill_chrono_01_hero_3d = 
 	{
@@ -3898,7 +3898,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_doorman_01.vsnd",
 		]
-		vsnd_duration = 3.465500
+		vsnd_duration = 3.4655
 	}
 	tengu_kill_doorman_02_hero_3d = 
 	{
@@ -3978,7 +3978,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_drifter_04.vsnd",
 		]
-		vsnd_duration = 2.306500
+		vsnd_duration = 2.3065
 	}
 	tengu_kill_drifter_05_hero_3d = 
 	{
@@ -4138,7 +4138,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_frank_05.vsnd",
 		]
-		vsnd_duration = 2.837000
+		vsnd_duration = 2.837
 	}
 	tengu_kill_ghost_01_hero_3d = 
 	{
@@ -4218,7 +4218,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_gigawatt_03.vsnd",
 		]
-		vsnd_duration = 2.085750
+		vsnd_duration = 2.08575
 	}
 	tengu_kill_gigawatt_04_hero_3d = 
 	{
@@ -4438,7 +4438,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_kelvin_04.vsnd",
 		]
-		vsnd_duration = 1.681250
+		vsnd_duration = 1.68125
 	}
 	tengu_kill_kelvin_05_hero_3d = 
 	{
@@ -4588,7 +4588,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_mirage_04.vsnd",
 		]
-		vsnd_duration = 2.368000
+		vsnd_duration = 2.368
 	}
 	tengu_kill_mirage_05_hero_3d = 
 	{
@@ -4778,7 +4778,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_punkgoat_03.vsnd",
 		]
-		vsnd_duration = 1.748500
+		vsnd_duration = 1.7485
 	}
 	tengu_kill_punkgoat_04_hero_3d = 
 	{
@@ -4948,7 +4948,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_vampirebat_05.vsnd",
 		]
-		vsnd_duration = 4.344000
+		vsnd_duration = 4.344
 	}
 	tengu_kill_viper_01_hero_3d = 
 	{
@@ -4998,7 +4998,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_viper_05.vsnd",
 		]
-		vsnd_duration = 3.631750
+		vsnd_duration = 3.63175
 	}
 	tengu_kill_viscous_01_hero_3d = 
 	{
@@ -5108,7 +5108,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_wraith_01.vsnd",
 		]
-		vsnd_duration = 2.295250
+		vsnd_duration = 2.29525
 	}
 	tengu_kill_wraith_02_hero_3d = 
 	{
@@ -5138,7 +5138,7 @@
 		[
 			"sounds/vo/tengu/tengu_kill_wraith_04.vsnd",
 		]
-		vsnd_duration = 1.322500
+		vsnd_duration = 1.3225
 	}
 	tengu_kill_wraith_05_hero_3d = 
 	{
@@ -5818,7 +5818,7 @@
 		[
 			"sounds/vo/tengu/tengu_match_start_drifter_tengu_convo03_02.vsnd",
 		]
-		vsnd_duration = 4.467000
+		vsnd_duration = 4.467
 	}
 	tengu_match_start_drifter_tengu_convo03_04_hero_zipline_3d = 
 	{
@@ -5958,7 +5958,7 @@
 		[
 			"sounds/vo/tengu/tengu_match_start_frank_tengu_convo02_01.vsnd",
 		]
-		vsnd_duration = 1.757250
+		vsnd_duration = 1.75725
 	}
 	tengu_match_start_frank_tengu_convo02_03_hero_zipline_3d = 
 	{
@@ -5968,7 +5968,7 @@
 		[
 			"sounds/vo/tengu/tengu_match_start_frank_tengu_convo02_03.vsnd",
 		]
-		vsnd_duration = 1.760750
+		vsnd_duration = 1.76075
 	}
 	tengu_match_start_frank_tengu_convo03_01_hero_zipline_3d = 
 	{
@@ -6058,7 +6058,7 @@
 		[
 			"sounds/vo/tengu/tengu_match_start_haze_tengu_convo02_01.vsnd",
 		]
-		vsnd_duration = 3.736500
+		vsnd_duration = 3.7365
 	}
 	tengu_match_start_haze_tengu_convo02_03_hero_zipline_3d = 
 	{
@@ -6148,7 +6148,7 @@
 		[
 			"sounds/vo/tengu/tengu_match_start_punkgoat_tengu_convo03_03.vsnd",
 		]
-		vsnd_duration = 3.532250
+		vsnd_duration = 3.53225
 	}
 	tengu_match_start_tengu_forge_convo01_01_hero_zipline_3d = 
 	{
@@ -6308,7 +6308,7 @@
 		[
 			"sounds/vo/tengu/tengu_match_start_tengu_kelvin_convo03_04.vsnd",
 		]
-		vsnd_duration = 1.571750
+		vsnd_duration = 1.57175
 	}
 	tengu_match_start_tengu_kelvin_convo03_06_hero_zipline_3d = 
 	{
@@ -6448,7 +6448,7 @@
 		[
 			"sounds/vo/tengu/tengu_match_start_tengu_lash_convo02_05.vsnd",
 		]
-		vsnd_duration = 1.985000
+		vsnd_duration = 1.985
 	}
 	tengu_match_start_tengu_lash_convo03_01_hero_zipline_3d = 
 	{
@@ -6538,7 +6538,7 @@
 		[
 			"sounds/vo/tengu/tengu_match_start_tengu_wraith_convo03_04.vsnd",
 		]
-		vsnd_duration = 2.128750
+		vsnd_duration = 2.12875
 	}
 	tengu_match_start_viper_tengu_convo01_02_hero_zipline_3d = 
 	{
@@ -6568,7 +6568,7 @@
 		[
 			"sounds/vo/tengu/tengu_match_start_viper_tengu_convo02_03.vsnd",
 		]
-		vsnd_duration = 2.376500
+		vsnd_duration = 2.3765
 	}
 	tengu_match_start_viper_tengu_convo02_05_hero_zipline_3d = 
 	{
@@ -6658,7 +6658,7 @@
 		[
 			"sounds/vo/tengu/tengu_melee_kill_03.vsnd",
 		]
-		vsnd_duration = 3.517000
+		vsnd_duration = 3.517
 	}
 	tengu_melee_kill_04_hero_3d = 
 	{
@@ -6738,7 +6738,7 @@
 		[
 			"sounds/vo/tengu/tengu_outnumbered_01.vsnd",
 		]
-		vsnd_duration = 2.210000
+		vsnd_duration = 2.21
 	}
 	tengu_outnumbered_02_hero_3d = 
 	{
@@ -7018,7 +7018,7 @@
 		[
 			"sounds/vo/tengu/emote/tengu_pain_death_06.vsnd",
 		]
-		vsnd_duration = 0.830250
+		vsnd_duration = 0.83025
 	}
 	tengu_pain_death_06_emote_pain_3d = 
 	{
@@ -7028,7 +7028,7 @@
 		[
 			"sounds/vo/tengu/emote/tengu_pain_death_06.vsnd",
 		]
-		vsnd_duration = 0.830250
+		vsnd_duration = 0.83025
 	}
 	tengu_pain_death_07_emote_death_3d = 
 	{
@@ -7088,7 +7088,7 @@
 		[
 			"sounds/vo/tengu/emote/tengu_pain_low_health_warning_02.vsnd",
 		]
-		vsnd_duration = 0.978500
+		vsnd_duration = 0.9785
 	}
 	tengu_pain_low_health_warning_03_emote_pain_3d = 
 	{
@@ -7108,7 +7108,7 @@
 		[
 			"sounds/vo/tengu/emote/tengu_pain_small_01.vsnd",
 		]
-		vsnd_duration = 0.530500
+		vsnd_duration = 0.5305
 	}
 	tengu_pain_small_02_emote_pain_3d = 
 	{
@@ -7228,7 +7228,7 @@
 		[
 			"sounds/vo/tengu/tengu_pick_up_gold_03.vsnd",
 		]
-		vsnd_duration = 2.986500
+		vsnd_duration = 2.9865
 	}
 	tengu_pick_up_gold_04_hero_3d = 
 	{
@@ -7308,7 +7308,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_ability2_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.380000
+		vsnd_duration = 1.38
 	}
 	tengu_ping_ability2_not_ready_ping_2d = 
 	{
@@ -7448,7 +7448,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_astro_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.943000
+		vsnd_duration = 1.943
 	}
 	tengu_ping_astro_on_top_of_mid_ping_2d = 
 	{
@@ -7458,7 +7458,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_astro_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.602250
+		vsnd_duration = 1.60225
 	}
 	tengu_ping_astro_under_garage_ping_2d = 
 	{
@@ -7748,7 +7748,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_attack_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.601250
+		vsnd_duration = 1.60125
 	}
 	tengu_ping_attack_graf_ping_2d = 
 	{
@@ -7788,7 +7788,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_attack_incubus.vsnd",
 		]
-		vsnd_duration = 1.714250
+		vsnd_duration = 1.71425
 	}
 	tengu_ping_attack_inferno_ping_2d = 
 	{
@@ -7988,7 +7988,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_attack_viscous.vsnd",
 		]
-		vsnd_duration = 1.690500
+		vsnd_duration = 1.6905
 	}
 	tengu_ping_attack_warden_ping_2d = 
 	{
@@ -8228,7 +8228,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_bookworm_missing_01_alt.vsnd",
 		]
-		vsnd_duration = 1.118750
+		vsnd_duration = 1.11875
 	}
 	tengu_ping_bookworm_on_top_of_garage_alt_ping_2d = 
 	{
@@ -8268,7 +8268,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_bookworm_was_here_alt.vsnd",
 		]
-		vsnd_duration = 1.034000
+		vsnd_duration = 1.034
 	}
 	tengu_ping_cadence_in_mid_ping_2d = 
 	{
@@ -8298,7 +8298,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_cadence_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.917250
+		vsnd_duration = 1.91725
 	}
 	tengu_ping_cadence_on_top_of_mid_ping_2d = 
 	{
@@ -8368,7 +8368,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_can_heal_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.315750
+		vsnd_duration = 1.31575
 	}
 	tengu_ping_can_heal_cadence_ping_2d = 
 	{
@@ -8388,7 +8388,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_can_heal_chrono.vsnd",
 		]
-		vsnd_duration = 1.552250
+		vsnd_duration = 1.55225
 	}
 	tengu_ping_can_heal_doorman_ping_2d = 
 	{
@@ -8428,7 +8428,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_can_heal_forge.vsnd",
 		]
-		vsnd_duration = 1.559500
+		vsnd_duration = 1.5595
 	}
 	tengu_ping_can_heal_frank_ping_2d = 
 	{
@@ -8458,7 +8458,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_can_heal_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.560250
+		vsnd_duration = 1.56025
 	}
 	tengu_ping_can_heal_haze_ping_2d = 
 	{
@@ -8518,7 +8518,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_can_heal_lash.vsnd",
 		]
-		vsnd_duration = 1.435000
+		vsnd_duration = 1.435
 	}
 	tengu_ping_can_heal_mirage_ping_2d = 
 	{
@@ -8648,7 +8648,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_can_heal_wraith.vsnd",
 		]
-		vsnd_duration = 1.503250
+		vsnd_duration = 1.50325
 	}
 	tengu_ping_can_heal_wrecker_ping_2d = 
 	{
@@ -8668,7 +8668,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_can_heal_yamato.vsnd",
 		]
-		vsnd_duration = 1.698750
+		vsnd_duration = 1.69875
 	}
 	tengu_ping_careful_astro_01_ping_2d = 
 	{
@@ -8718,7 +8718,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_atlas_02.vsnd",
 		]
-		vsnd_duration = 1.184750
+		vsnd_duration = 1.18475
 	}
 	tengu_ping_careful_atlas_03_ping_2d = 
 	{
@@ -8758,7 +8758,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_bebop_03.vsnd",
 		]
-		vsnd_duration = 1.348000
+		vsnd_duration = 1.348
 	}
 	tengu_ping_careful_boho_01_ping_2d = 
 	{
@@ -8868,7 +8868,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_doorman_01.vsnd",
 		]
-		vsnd_duration = 1.232250
+		vsnd_duration = 1.23225
 	}
 	tengu_ping_careful_doorman_02_ping_2d = 
 	{
@@ -8978,7 +8978,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_forge_02.vsnd",
 		]
-		vsnd_duration = 1.316500
+		vsnd_duration = 1.3165
 	}
 	tengu_ping_careful_forge_03_ping_2d = 
 	{
@@ -9048,7 +9048,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_ghost_02.vsnd",
 		]
-		vsnd_duration = 1.128500
+		vsnd_duration = 1.1285
 	}
 	tengu_ping_careful_ghost_03_ping_2d = 
 	{
@@ -9058,7 +9058,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_ghost_03.vsnd",
 		]
-		vsnd_duration = 1.338750
+		vsnd_duration = 1.33875
 	}
 	tengu_ping_careful_gigawatt_01_ping_2d = 
 	{
@@ -9148,7 +9148,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_hornet_02.vsnd",
 		]
-		vsnd_duration = 1.319500
+		vsnd_duration = 1.3195
 	}
 	tengu_ping_careful_hornet_03_ping_2d = 
 	{
@@ -9188,7 +9188,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_inferno_02.vsnd",
 		]
-		vsnd_duration = 1.397750
+		vsnd_duration = 1.39775
 	}
 	tengu_ping_careful_inferno_03_ping_2d = 
 	{
@@ -9448,7 +9448,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_shiv_01.vsnd",
 		]
-		vsnd_duration = 1.171500
+		vsnd_duration = 1.1715
 	}
 	tengu_ping_careful_shiv_02_ping_2d = 
 	{
@@ -9598,7 +9598,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_vampirebat_03.vsnd",
 		]
-		vsnd_duration = 1.124250
+		vsnd_duration = 1.12425
 	}
 	tengu_ping_careful_viscous_01_ping_2d = 
 	{
@@ -9708,7 +9708,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_careful_wrecker_02.vsnd",
 		]
-		vsnd_duration = 1.135000
+		vsnd_duration = 1.135
 	}
 	tengu_ping_careful_wrecker_03_ping_2d = 
 	{
@@ -9848,7 +9848,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_clear_troopers.vsnd",
 		]
-		vsnd_duration = 1.602250
+		vsnd_duration = 1.60225
 	}
 	tengu_ping_danger_area_ping_2d = 
 	{
@@ -9968,7 +9968,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_doorman_in_mid.vsnd",
 		]
-		vsnd_duration = 1.231000
+		vsnd_duration = 1.231
 	}
 	tengu_ping_doorman_missing_01_ping_2d = 
 	{
@@ -10208,7 +10208,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_dynamo_was_here.vsnd",
 		]
-		vsnd_duration = 1.242250
+		vsnd_duration = 1.24225
 	}
 	tengu_ping_enemy_take_mid_ping_2d = 
 	{
@@ -10298,7 +10298,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_forge_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.702250
+		vsnd_duration = 1.70225
 	}
 	tengu_ping_forge_under_garage_ping_2d = 
 	{
@@ -10318,7 +10318,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_forge_was_here.vsnd",
 		]
-		vsnd_duration = 1.331500
+		vsnd_duration = 1.3315
 	}
 	tengu_ping_fortuna_missing_01_ping_2d = 
 	{
@@ -10668,7 +10668,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_good_game_01.vsnd",
 		]
-		vsnd_duration = 1.515250
+		vsnd_duration = 1.51525
 	}
 	tengu_ping_good_game_02_ping_2d = 
 	{
@@ -10858,7 +10858,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_headed_green_02.vsnd",
 		]
-		vsnd_duration = 1.258250
+		vsnd_duration = 1.25825
 	}
 	tengu_ping_headed_this_way_ping_2d = 
 	{
@@ -10888,7 +10888,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_headed_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.101563
+		vsnd_duration = 1.101562
 	}
 	tengu_ping_heal_ready_ping_2d = 
 	{
@@ -10928,7 +10928,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_help_with_idol_alt.vsnd",
 		]
-		vsnd_duration = 1.526000
+		vsnd_duration = 1.526
 	}
 	tengu_ping_hornet_almost_respawn_ping_2d = 
 	{
@@ -10938,7 +10938,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_hornet_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.649250
+		vsnd_duration = 1.64925
 	}
 	tengu_ping_hornet_check_items_ping_2d = 
 	{
@@ -11008,7 +11008,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_hornet_under_garage.vsnd",
 		]
-		vsnd_duration = 1.821500
+		vsnd_duration = 1.8215
 	}
 	tengu_ping_hornet_was_here_ping_2d = 
 	{
@@ -11048,7 +11048,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_ignore_atlas.vsnd",
 		]
-		vsnd_duration = 1.277000
+		vsnd_duration = 1.277
 	}
 	tengu_ping_ignore_bebop_ping_2d = 
 	{
@@ -11068,7 +11068,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_ignore_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.123750
+		vsnd_duration = 1.12375
 	}
 	tengu_ping_ignore_chrono_ping_2d = 
 	{
@@ -11118,7 +11118,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_ignore_forge.vsnd",
 		]
-		vsnd_duration = 1.363750
+		vsnd_duration = 1.36375
 	}
 	tengu_ping_ignore_frank_ping_2d = 
 	{
@@ -11148,7 +11148,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_ignore_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.231500
+		vsnd_duration = 1.2315
 	}
 	tengu_ping_ignore_haze_ping_2d = 
 	{
@@ -11258,7 +11258,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_ignore_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.155250
+		vsnd_duration = 1.15525
 	}
 	tengu_ping_ignore_shiv_ping_2d = 
 	{
@@ -11308,7 +11308,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_ignore_warden.vsnd",
 		]
-		vsnd_duration = 1.249250
+		vsnd_duration = 1.24925
 	}
 	tengu_ping_ignore_wraith_ping_2d = 
 	{
@@ -11318,7 +11318,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_ignore_wraith.vsnd",
 		]
-		vsnd_duration = 1.158000
+		vsnd_duration = 1.158
 	}
 	tengu_ping_ignore_wrecker_ping_2d = 
 	{
@@ -11398,7 +11398,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_inferno_missing_01.vsnd",
 		]
-		vsnd_duration = 1.466500
+		vsnd_duration = 1.4665
 	}
 	tengu_ping_inferno_on_top_of_garage_ping_2d = 
 	{
@@ -11498,7 +11498,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_kelvin_check_items.vsnd",
 		]
-		vsnd_duration = 1.611000
+		vsnd_duration = 1.611
 	}
 	tengu_ping_kelvin_dead_ping_2d = 
 	{
@@ -11578,7 +11578,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_kncokdown_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.640250
+		vsnd_duration = 1.64025
 	}
 	tengu_ping_kncokdown_not_ready_ping_2d = 
 	{
@@ -11708,7 +11708,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_lash_dead.vsnd",
 		]
-		vsnd_duration = 1.190750
+		vsnd_duration = 1.19075
 	}
 	tengu_ping_lash_in_mid_ping_2d = 
 	{
@@ -11898,7 +11898,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_mirage_check_items.vsnd",
 		]
-		vsnd_duration = 1.537250
+		vsnd_duration = 1.53725
 	}
 	tengu_ping_mirage_dead_ping_2d = 
 	{
@@ -12038,7 +12038,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_nano_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.529750
+		vsnd_duration = 1.52975
 	}
 	tengu_ping_nano_check_items_ping_2d = 
 	{
@@ -12048,7 +12048,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_nano_check_items.vsnd",
 		]
-		vsnd_duration = 1.541500
+		vsnd_duration = 1.5415
 	}
 	tengu_ping_nano_dead_ping_2d = 
 	{
@@ -12068,7 +12068,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_nano_in_mid.vsnd",
 		]
-		vsnd_duration = 1.266750
+		vsnd_duration = 1.26675
 	}
 	tengu_ping_nano_missing_01_ping_2d = 
 	{
@@ -12208,7 +12208,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_need_plan.vsnd",
 		]
-		vsnd_duration = 1.116250
+		vsnd_duration = 1.11625
 	}
 	tengu_ping_negative_01_ping_2d = 
 	{
@@ -12258,7 +12258,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_nevermind_02.vsnd",
 		]
-		vsnd_duration = 1.198500
+		vsnd_duration = 1.1985
 	}
 	tengu_ping_nevermind_03_ping_2d = 
 	{
@@ -12408,7 +12408,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_post_game_02.vsnd",
 		]
-		vsnd_duration = 1.499750
+		vsnd_duration = 1.49975
 	}
 	tengu_ping_post_game_03_ping_2d = 
 	{
@@ -12498,7 +12498,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_pre_game_05.vsnd",
 		]
-		vsnd_duration = 2.679000
+		vsnd_duration = 2.679
 	}
 	tengu_ping_pre_game_06_ping_2d = 
 	{
@@ -12848,7 +12848,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_rupture_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.501250
+		vsnd_duration = 1.50125
 	}
 	tengu_ping_rupture_not_ready_ping_2d = 
 	{
@@ -13458,7 +13458,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_see_drifter_01.vsnd",
 		]
-		vsnd_duration = 1.233750
+		vsnd_duration = 1.23375
 	}
 	tengu_ping_see_drifter_on_bridge_ping_2d = 
 	{
@@ -13538,7 +13538,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_see_enemy_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.475250
+		vsnd_duration = 1.47525
 	}
 	tengu_ping_see_enemy_on_roof_ping_2d = 
 	{
@@ -13738,7 +13738,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_see_haze_02.vsnd",
 		]
-		vsnd_duration = 1.519250
+		vsnd_duration = 1.51925
 	}
 	tengu_ping_see_haze_on_bridge_ping_2d = 
 	{
@@ -13818,7 +13818,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_see_inferno_02.vsnd",
 		]
-		vsnd_duration = 1.426000
+		vsnd_duration = 1.426
 	}
 	tengu_ping_see_inferno_on_bridge_ping_2d = 
 	{
@@ -13848,7 +13848,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_see_inferno.vsnd",
 		]
-		vsnd_duration = 1.318000
+		vsnd_duration = 1.318
 	}
 	tengu_ping_see_kelvin_01_ping_2d = 
 	{
@@ -14028,7 +14028,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_see_nano_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.457500
+		vsnd_duration = 1.4575
 	}
 	tengu_ping_see_nano_on_roof_ping_2d = 
 	{
@@ -14058,7 +14058,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_see_orion_01.vsnd",
 		]
-		vsnd_duration = 1.365500
+		vsnd_duration = 1.3655
 	}
 	tengu_ping_see_orion_02_ping_2d = 
 	{
@@ -14128,7 +14128,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_see_punkgoat_01.vsnd",
 		]
-		vsnd_duration = 0.993500
+		vsnd_duration = 0.9935
 	}
 	tengu_ping_see_punkgoat_on_bridge_ping_2d = 
 	{
@@ -14178,7 +14178,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_see_shiv_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.389250
+		vsnd_duration = 1.38925
 	}
 	tengu_ping_see_shiv_on_roof_ping_2d = 
 	{
@@ -14388,7 +14388,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_see_viscous_on_roof.vsnd",
 		]
-		vsnd_duration = 1.668250
+		vsnd_duration = 1.66825
 	}
 	tengu_ping_see_warden_01_ping_2d = 
 	{
@@ -14658,7 +14658,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_skyrunner_missing_01.vsnd",
 		]
-		vsnd_duration = 1.516000
+		vsnd_duration = 1.516
 	}
 	tengu_ping_slork_in_mid_ping_2d = 
 	{
@@ -14738,7 +14738,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_sorry_02.vsnd",
 		]
-		vsnd_duration = 1.159750
+		vsnd_duration = 1.15975
 	}
 	tengu_ping_sorry_03_ping_2d = 
 	{
@@ -15158,7 +15158,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_synth_dead.vsnd",
 		]
-		vsnd_duration = 1.101250
+		vsnd_duration = 1.10125
 	}
 	tengu_ping_synth_in_mid_ping_2d = 
 	{
@@ -15198,7 +15198,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_synth_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.537750
+		vsnd_duration = 1.53775
 	}
 	tengu_ping_synth_under_garage_ping_2d = 
 	{
@@ -15248,7 +15248,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_take_core.vsnd",
 		]
-		vsnd_duration = 1.646250
+		vsnd_duration = 1.64625
 	}
 	tengu_ping_take_mid_ping_2d = 
 	{
@@ -15258,7 +15258,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_take_mid.vsnd",
 		]
-		vsnd_duration = 1.164063
+		vsnd_duration = 1.164062
 	}
 	tengu_ping_take_shrine_ping_2d = 
 	{
@@ -15348,7 +15348,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_theyre_under_garage.vsnd",
 		]
-		vsnd_duration = 1.592000
+		vsnd_duration = 1.592
 	}
 	"tengu_ping_titan_under_attack-imported_ping_2d" = 
 	{
@@ -15508,7 +15508,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_use_glitch.vsnd",
 		]
-		vsnd_duration = 1.478500
+		vsnd_duration = 1.4785
 	}
 	tengu_ping_use_health_nova_ping_2d = 
 	{
@@ -15538,7 +15538,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_use_kncokdown.vsnd",
 		]
-		vsnd_duration = 1.580750
+		vsnd_duration = 1.58075
 	}
 	tengu_ping_use_refresher_ping_2d = 
 	{
@@ -15608,7 +15608,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_vampirebat_check_items.vsnd",
 		]
-		vsnd_duration = 1.366250
+		vsnd_duration = 1.36625
 	}
 	tengu_ping_vampirebat_dead_ping_2d = 
 	{
@@ -15648,7 +15648,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_vampirebat_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.596500
+		vsnd_duration = 1.5965
 	}
 	tengu_ping_vampirebat_on_top_of_mid_ping_2d = 
 	{
@@ -15828,7 +15828,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_warden_missing_01.vsnd",
 		]
-		vsnd_duration = 1.409750
+		vsnd_duration = 1.40975
 	}
 	tengu_ping_warden_on_top_of_garage_ping_2d = 
 	{
@@ -15998,7 +15998,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_with_dynamo.vsnd",
 		]
-		vsnd_duration = 1.381750
+		vsnd_duration = 1.38175
 	}
 	tengu_ping_with_forge_ping_2d = 
 	{
@@ -16018,7 +16018,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_with_frank.vsnd",
 		]
-		vsnd_duration = 1.136500
+		vsnd_duration = 1.1365
 	}
 	tengu_ping_with_ghost_ping_2d = 
 	{
@@ -16038,7 +16038,7 @@
 		[
 			"sounds/vo/tengu/ping/tengu_ping_with_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.354750
+		vsnd_duration = 1.35475
 	}
 	tengu_ping_with_haze_ping_2d = 
 	{
@@ -16738,7 +16738,7 @@
 		[
 			"sounds/vo/tengu/tengu_select_04.vsnd",
 		]
-		vsnd_duration = 3.754250
+		vsnd_duration = 3.75425
 	}
 	tengu_select_05_hero_3d = 
 	{
@@ -16818,7 +16818,7 @@
 		[
 			"sounds/vo/tengu/tengu_t1_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 2.149500
+		vsnd_duration = 2.1495
 	}
 	tengu_t1_shop_reminder_03_hero_3d = 
 	{
@@ -16898,7 +16898,7 @@
 		[
 			"sounds/vo/tengu/tengu_t4_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 2.623000
+		vsnd_duration = 2.623
 	}
 	tengu_t4_shop_reminder_02_hero_3d = 
 	{
@@ -17148,7 +17148,7 @@
 		[
 			"sounds/vo/tengu/tengu_upgrade_power1_07.vsnd",
 		]
-		vsnd_duration = 2.123750
+		vsnd_duration = 2.12375
 	}
 	tengu_upgrade_power1_08_hero_3d = 
 	{
@@ -17158,7 +17158,7 @@
 		[
 			"sounds/vo/tengu/tengu_upgrade_power1_08.vsnd",
 		]
-		vsnd_duration = 2.747000
+		vsnd_duration = 2.747
 	}
 	tengu_upgrade_power1_09_hero_3d = 
 	{
@@ -17578,7 +17578,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_colossus_02.vsnd",
 		]
-		vsnd_duration = 1.569750
+		vsnd_duration = 1.56975
 	}
 	tengu_use_colossus_03_ability_3d = 
 	{
@@ -17648,7 +17648,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_decay_03.vsnd",
 		]
-		vsnd_duration = 1.509000
+		vsnd_duration = 1.509
 	}
 	tengu_use_echo_shard_01_ability_3d = 
 	{
@@ -17708,7 +17708,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_ice_blast_03.vsnd",
 		]
-		vsnd_duration = 1.469500
+		vsnd_duration = 1.4695
 	}
 	tengu_use_knockdown_01_ability_3d = 
 	{
@@ -17848,7 +17848,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_power1_05.vsnd",
 		]
-		vsnd_duration = 1.639250
+		vsnd_duration = 1.63925
 	}
 	tengu_use_power1_06_ability_3d = 
 	{
@@ -17888,7 +17888,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_power1_09.vsnd",
 		]
-		vsnd_duration = 1.439000
+		vsnd_duration = 1.439
 	}
 	tengu_use_power1_10_ability_3d = 
 	{
@@ -17948,7 +17948,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_power2_05.vsnd",
 		]
-		vsnd_duration = 1.026750
+		vsnd_duration = 1.02675
 	}
 	tengu_use_power2_06_ability_3d = 
 	{
@@ -18138,7 +18138,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.261750
+		vsnd_duration = 1.26175
 	}
 	tengu_use_power4_02_hero_announcer = 
 	{
@@ -18148,7 +18148,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.261750
+		vsnd_duration = 1.26175
 	}
 	tengu_use_power4_02_ult_3d = 
 	{
@@ -18158,7 +18158,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.261750
+		vsnd_duration = 1.26175
 	}
 	tengu_use_power4_03_ability_3d = 
 	{
@@ -18718,7 +18718,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_power5_05.vsnd",
 		]
-		vsnd_duration = 1.687750
+		vsnd_duration = 1.68775
 	}
 	tengu_use_power5_05_ult_3d = 
 	{
@@ -18728,7 +18728,7 @@
 		[
 			"sounds/vo/tengu/tengu_use_power5_05.vsnd",
 		]
-		vsnd_duration = 1.687750
+		vsnd_duration = 1.68775
 	}
 	tengu_use_shadow_weave_01_ability_3d = 
 	{

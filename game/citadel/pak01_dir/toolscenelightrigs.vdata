@@ -6,77 +6,44 @@
 		m_nRigType = "MATERIAL_THUMBNAIL"
 		m_Suns = 
 		[
-			
 			{
-				m_vPosition = 
-				[
-					300.000000,
-					0.000000,
-					0.000000,
-				]
-				m_vDirection = 
-				[
-					1.000000,
-					0.200000,
-					1.000000,
-				]
+				m_vPosition = [ 300.0, 0.0, 0.0 ]
+				m_vDirection = [ 1.0, 0.2, 1.0 ]
 				m_bCastShadows = true
-				m_flAxisScale = 2.000000
-				m_flLightSourceRadius = 0.500000
-				m_flShadowCascadeDistance0 = 200.000000
-				m_flShadowCascadeDistance1 = 1000.000000
+				m_flAxisScale = 2.0
+				m_flLightSourceRadius = 0.5
+				m_flShadowCascadeDistance0 = 200.0
+				m_flShadowCascadeDistance1 = 1000.0
 			},
 		]
 		m_PointLights = 
 		[
-			
 			{
 				m_bRelativePositioning = true
-				m_flBrightness = 0.500000
-				m_vPosition = 
-				[
-					0.000000,
-					200.000000,
-					0.000000,
-				]
-				m_flDistance = 2.000000
+				m_flBrightness = 0.5
+				m_vPosition = [ 0.0, 200.0, 0.0 ]
+				m_flDistance = 2.0
 			},
-			
 			{
-				m_vPosition = 
-				[
-					0.000000,
-					0.000000,
-					200.000000,
-				]
-				m_flBrightness = 0.500000
-				m_flDistance = 2.000000
+				m_vPosition = [ 0.0, 0.0, 200.0 ]
+				m_flBrightness = 0.5
+				m_flDistance = 2.0
 				m_bRelativePositioning = true
 			},
 		]
 		m_Background = 
 		{
-			m_Color = 
-			[
-				60,
-				60,
-				60,
-			]
+			m_Color = [ 60, 60, 60 ]
 			m_bEnabled = true
 		}
 		m_Grid = 
 		{
-			m_Color = 
-			[
-				90,
-				90,
-				90,
-			]
+			m_Color = [ 90, 90, 90 ]
 		}
 		m_Exposure = 
 		{
-			m_flMinEV = -6.000000
-			m_flMaxEV = 6.000000
+			m_flMinEV = -6.0
+			m_flMaxEV = 6.0
 			m_bEnabled = true
 		}
 		m_PostProcessing = 
@@ -90,75 +57,42 @@
 		m_Background = 
 		{
 			m_bEnabled = true
-			m_Color = 
-			[
-				60,
-				60,
-				60,
-			]
+			m_Color = [ 60, 60, 60 ]
 		}
 		m_Grid = 
 		{
-			m_Color = 
-			[
-				90,
-				90,
-				90,
-			]
+			m_Color = [ 90, 90, 90 ]
 		}
 		m_Exposure = 
 		{
 			m_bEnabled = true
-			m_flMinEV = -6.000000
-			m_flMaxEV = 6.000000
+			m_flMinEV = -6.0
+			m_flMaxEV = 6.0
 		}
 		m_Suns = 
 		[
-			
 			{
-				m_vPosition = 
-				[
-					300.000000,
-					0.000000,
-					0.000000,
-				]
-				m_vDirection = 
-				[
-					1.000000,
-					0.200000,
-					1.000000,
-				]
+				m_vPosition = [ 300.0, 0.0, 0.0 ]
+				m_vDirection = [ 1.0, 0.2, 1.0 ]
 				m_bCastShadows = true
-				m_flAxisScale = 2.000000
-				m_flLightSourceRadius = 0.500000
-				m_flShadowCascadeDistance0 = 200.000000
-				m_flShadowCascadeDistance1 = 1000.000000
+				m_flAxisScale = 2.0
+				m_flLightSourceRadius = 0.5
+				m_flShadowCascadeDistance0 = 200.0
+				m_flShadowCascadeDistance1 = 1000.0
 			},
 		]
 		m_PointLights = 
 		[
-			
 			{
 				m_bRelativePositioning = true
-				m_vPosition = 
-				[
-					0.000000,
-					200.000000,
-					0.000000,
-				]
-				m_flBrightness = 0.500000
-				m_flDistance = 2.000000
+				m_vPosition = [ 0.0, 200.0, 0.0 ]
+				m_flBrightness = 0.5
+				m_flDistance = 2.0
 			},
-			
 			{
-				m_vPosition = 
-				[
-					0.000000,
-					0.000000,
-					200.000000,
-				]
-				m_flBrightness = 0.500000
-				m_flDistance = 2.000000
+				m_vPosition = [ 0.0, 0.0, 200.0 ]
+				m_flBrightness = 0.5
+				m_flDistance = 2.0
 				m_bRelativePositioning = true
 			},
 		]
@@ -172,15 +106,11 @@
 		m_Exposure = 
 		{
 			m_bEnabled = false
-			m_flMinEV = -2.000000
-			m_flMaxEV = 2.000000
+			m_flMinEV = -2.0
+			m_flMaxEV = 2.0
 		}
-		m_Suns = 
-		[
-		]
-		m_PointLights = 
-		[
-		]
+		m_Suns = [  ]
+		m_PointLights = [  ]
 		m_Sky = 
 		{
 			m_hSkyMaterial = resource:""
@@ -201,56 +131,33 @@
 		m_Exposure = 
 		{
 			m_bEnabled = true
-			m_flMinEV = -6.000000
-			m_flMaxEV = 6.000000
+			m_flMinEV = -6.0
+			m_flMaxEV = 6.0
 		}
 		m_Suns = 
 		[
-			
 			{
-				m_vPosition = 
-				[
-					300.000000,
-					0.000000,
-					0.000000,
-				]
-				m_vDirection = 
-				[
-					1.000000,
-					0.200000,
-					1.000000,
-				]
-				m_flAxisScale = 2.000000
+				m_vPosition = [ 300.0, 0.0, 0.0 ]
+				m_vDirection = [ 1.0, 0.2, 1.0 ]
+				m_flAxisScale = 2.0
 				m_bCastShadows = true
-				m_flLightSourceRadius = 0.500000
-				m_flShadowCascadeDistance0 = 200.000000
-				m_flShadowCascadeDistance1 = 1000.000000
+				m_flLightSourceRadius = 0.5
+				m_flShadowCascadeDistance0 = 200.0
+				m_flShadowCascadeDistance1 = 1000.0
 			},
 		]
 		m_PointLights = 
 		[
-			
 			{
 				m_bRelativePositioning = true
-				m_flDistance = 2.000000
-				m_vPosition = 
-				[
-					0.000000,
-					200.000000,
-					0.000000,
-				]
-				m_flBrightness = 0.500000
+				m_flDistance = 2.0
+				m_vPosition = [ 0.0, 200.0, 0.0 ]
+				m_flBrightness = 0.5
 			},
-			
 			{
-				m_vPosition = 
-				[
-					0.000000,
-					0.000000,
-					200.000000,
-				]
-				m_flDistance = 2.000000
-				m_flBrightness = 0.500000
+				m_vPosition = [ 0.0, 0.0, 200.0 ]
+				m_flDistance = 2.0
+				m_flBrightness = 0.5
 				m_bRelativePositioning = true
 			},
 		]
@@ -268,25 +175,19 @@
 		m_Exposure = 
 		{
 			m_bEnabled = true
-			m_flMinEV = -6.000000
-			m_flMaxEV = 6.000000
+			m_flMinEV = -6.0
+			m_flMaxEV = 6.0
 		}
 		m_Suns = 
 		[
-			
 			{
 				m_bParentToCamera = true
-				m_vDirection = 
-				[
-					-1.000000,
-					0.000000,
-					0.000000,
-				]
+				m_vDirection = [ -1.0, 0.0, 0.0 ]
 				m_bCastShadows = true
-				m_flAxisScale = 2.000000
-				m_flLightSourceRadius = 0.500000
-				m_flShadowCascadeDistance0 = 200.000000
-				m_flShadowCascadeDistance1 = 1000.000000
+				m_flAxisScale = 2.0
+				m_flLightSourceRadius = 0.5
+				m_flShadowCascadeDistance0 = 200.0
+				m_flShadowCascadeDistance1 = 1000.0
 			},
 		]
 		m_BackgroundMap = 
@@ -403,8 +304,8 @@
 		m_Exposure = 
 		{
 			m_bEnabled = true
-			m_flMinEV = -6.000000
-			m_flMaxEV = 6.000000
+			m_flMinEV = -6.0
+			m_flMaxEV = 6.0
 		}
 		m_BackgroundMap = 
 		{

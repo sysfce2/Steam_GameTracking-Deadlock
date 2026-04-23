@@ -58,7 +58,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_astro_lasso_victim_02.vsnd",
 		]
-		vsnd_duration = 1.722540
+		vsnd_duration = 1.72254
 	}
 	viscous_ally_astro_lasso_victim_03_hero_3d = 
 	{
@@ -108,7 +108,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_atlas_big_stun_03.vsnd",
 		]
-		vsnd_duration = 1.683560
+		vsnd_duration = 1.68356
 	}
 	viscous_ally_atlas_killed_in_lane_01_hero_3d = 
 	{
@@ -358,7 +358,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_dynamo_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 3.294580
+		vsnd_duration = 3.29458
 	}
 	viscous_ally_dynamo_killed_in_lane_01_hero_3d = 
 	{
@@ -398,7 +398,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_forge_clutch_heal_02.vsnd",
 		]
-		vsnd_duration = 2.526100
+		vsnd_duration = 2.5261
 	}
 	viscous_ally_forge_clutch_heal_03_hero_3d = 
 	{
@@ -408,7 +408,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_forge_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 3.861610
+		vsnd_duration = 3.86161
 	}
 	viscous_ally_forge_killed_in_lane_01_hero_3d = 
 	{
@@ -428,7 +428,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_forge_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.795760
+		vsnd_duration = 1.79576
 	}
 	viscous_ally_forge_wall_stun_kill_01_hero_3d = 
 	{
@@ -468,7 +468,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_ghost_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.440000
+		vsnd_duration = 1.44
 	}
 	viscous_ally_ghost_pass_on_zipline_01_hero_3d = 
 	{
@@ -548,7 +548,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_gigawatt_multi_kill_ult_03.vsnd",
 		]
-		vsnd_duration = 3.330340
+		vsnd_duration = 3.33034
 	}
 	viscous_ally_gigawatt_pass_on_zipline_01_hero_3d = 
 	{
@@ -738,7 +738,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_inferno_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.310340
+		vsnd_duration = 2.31034
 	}
 	viscous_ally_kelvin_clutch_heal_01_hero_3d = 
 	{
@@ -768,7 +768,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_kelvin_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 2.525510
+		vsnd_duration = 2.52551
 	}
 	viscous_ally_kelvin_killed_in_lane_01_hero_3d = 
 	{
@@ -878,7 +878,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_lash_see_massive_stomp_02.vsnd",
 		]
-		vsnd_duration = 1.978050
+		vsnd_duration = 1.97805
 	}
 	viscous_ally_lash_see_massive_stomp_03_hero_3d = 
 	{
@@ -918,7 +918,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_nano_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.003560
+		vsnd_duration = 2.00356
 	}
 	viscous_ally_nano_pass_on_zipline_01_hero_3d = 
 	{
@@ -928,7 +928,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_nano_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.430340
+		vsnd_duration = 2.43034
 	}
 	viscous_ally_orion_far_shot_01_hero_3d = 
 	{
@@ -958,7 +958,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_orion_far_shot_03.vsnd",
 		]
-		vsnd_duration = 2.120340
+		vsnd_duration = 2.12034
 	}
 	viscous_ally_orion_killed_in_lane_01_alt_01_hero_3d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_orion_missile_stops_ult_01.vsnd",
 		]
-		vsnd_duration = 1.839660
+		vsnd_duration = 1.83966
 	}
 	viscous_ally_orion_missile_stops_ult_02_hero_3d = 
 	{
@@ -1018,7 +1018,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_orion_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.900340
+		vsnd_duration = 1.90034
 	}
 	viscous_ally_shiv_killed_in_lane_01_hero_3d = 
 	{
@@ -1298,7 +1298,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_yamato_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.260930
+		vsnd_duration = 2.26093
 	}
 	viscous_ally_yamato_kills_with_hook_01_hero_3d = 
 	{
@@ -1318,7 +1318,7 @@
 		[
 			"sounds/vo/viscous/viscous_ally_yamato_kills_with_hook_02.vsnd",
 		]
-		vsnd_duration = 2.293900
+		vsnd_duration = 2.2939
 	}
 	viscous_ally_yamato_kills_with_hook_03_hero_3d = 
 	{
@@ -1558,7 +1558,7 @@
 		[
 			"sounds/vo/viscous/viscous_ap_reminder_02.vsnd",
 		]
-		vsnd_duration = 2.584580
+		vsnd_duration = 2.58458
 	}
 	viscous_ap_reminder_03_hero_3d = 
 	{
@@ -1918,7 +1918,7 @@
 		[
 			"sounds/vo/viscous/viscous_desperation_power1_02.vsnd",
 		]
-		vsnd_duration = 1.974830
+		vsnd_duration = 1.97483
 	}
 	viscous_desperation_power1_03_ability_3d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/viscous/viscous_desperation_power1_05.vsnd",
 		]
-		vsnd_duration = 1.784240
+		vsnd_duration = 1.78424
 	}
 	viscous_desperation_power2_01_ability_3d = 
 	{
@@ -1978,7 +1978,7 @@
 		[
 			"sounds/vo/viscous/viscous_desperation_power2_03.vsnd",
 		]
-		vsnd_duration = 1.870930
+		vsnd_duration = 1.87093
 	}
 	viscous_desperation_power2_04_ability_3d = 
 	{
@@ -1998,7 +1998,7 @@
 		[
 			"sounds/vo/viscous/viscous_desperation_power2_05.vsnd",
 		]
-		vsnd_duration = 1.899410
+		vsnd_duration = 1.89941
 	}
 	viscous_desperation_power3_01_ability_3d = 
 	{
@@ -2398,7 +2398,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_effort_dash_06.vsnd",
 		]
-		vsnd_duration = 1.092290
+		vsnd_duration = 1.09229
 	}
 	viscous_effort_dash_06_emote_effort_3d = 
 	{
@@ -2408,7 +2408,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_effort_dash_06.vsnd",
 		]
-		vsnd_duration = 1.092290
+		vsnd_duration = 1.09229
 	}
 	viscous_effort_dash_07_emote_dash_3d = 
 	{
@@ -2478,7 +2478,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_effort_general_03.vsnd",
 		]
-		vsnd_duration = 0.667120
+		vsnd_duration = 0.66712
 	}
 	viscous_effort_general_04_emote_effort_3d = 
 	{
@@ -2688,7 +2688,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_effort_melee_small_03.vsnd",
 		]
-		vsnd_duration = 0.846100
+		vsnd_duration = 0.8461
 	}
 	viscous_effort_melee_small_03_emote_melee_effort_3d = 
 	{
@@ -2698,7 +2698,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_effort_melee_small_03.vsnd",
 		]
-		vsnd_duration = 0.846100
+		vsnd_duration = 0.8461
 	}
 	viscous_effort_melee_small_04_emote_effort_3d = 
 	{
@@ -2708,7 +2708,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 0.640680
+		vsnd_duration = 0.64068
 	}
 	viscous_effort_melee_small_04_emote_melee_effort_3d = 
 	{
@@ -2718,7 +2718,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 0.640680
+		vsnd_duration = 0.64068
 	}
 	viscous_effort_melee_small_05_emote_effort_3d = 
 	{
@@ -2858,7 +2858,7 @@
 		[
 			"sounds/vo/viscous/viscous_enemy_atlas_unkillable_03.vsnd",
 		]
-		vsnd_duration = 2.411860
+		vsnd_duration = 2.41186
 	}
 	viscous_enemy_bebop_hooked_01_hero_3d = 
 	{
@@ -2918,7 +2918,7 @@
 		[
 			"sounds/vo/viscous/viscous_enemy_bebop_kill_mid_laser_03.vsnd",
 		]
-		vsnd_duration = 2.572200
+		vsnd_duration = 2.5722
 	}
 	viscous_enemy_chrono_kill_post_swap_01_hero_3d = 
 	{
@@ -2948,7 +2948,7 @@
 		[
 			"sounds/vo/viscous/viscous_enemy_chrono_kill_post_swap_03.vsnd",
 		]
-		vsnd_duration = 1.557370
+		vsnd_duration = 1.55737
 	}
 	viscous_enemy_dynamo_charges_01_hero_3d = 
 	{
@@ -3038,7 +3038,7 @@
 		[
 			"sounds/vo/viscous/viscous_enemy_gets_rejuv_03.vsnd",
 		]
-		vsnd_duration = 2.644240
+		vsnd_duration = 2.64424
 	}
 	viscous_enemy_ghost_ping_with_swap_01_hero_3d = 
 	{
@@ -3168,7 +3168,7 @@
 		[
 			"sounds/vo/viscous/viscous_enemy_hornet_damaged_by_snipe_01.vsnd",
 		]
-		vsnd_duration = 1.321950
+		vsnd_duration = 1.32195
 	}
 	viscous_enemy_hornet_damaged_by_snipe_02_hero_3d = 
 	{
@@ -3218,7 +3218,7 @@
 		[
 			"sounds/vo/viscous/viscous_enemy_hornet_killed_mid_air_03.vsnd",
 		]
-		vsnd_duration = 2.111270
+		vsnd_duration = 2.11127
 	}
 	viscous_enemy_inferno_killed_mid_ult_01_hero_3d = 
 	{
@@ -3308,7 +3308,7 @@
 		[
 			"sounds/vo/viscous/viscous_enemy_krill_grabbed_03.vsnd",
 		]
-		vsnd_duration = 2.616440
+		vsnd_duration = 2.61644
 	}
 	viscous_enemy_lash_mid_air_kill_01_hero_3d = 
 	{
@@ -3588,7 +3588,7 @@
 		[
 			"sounds/vo/viscous/viscous_happy_04.vsnd",
 		]
-		vsnd_duration = 2.300000
+		vsnd_duration = 2.3
 	}
 	viscous_happy_04_ult_3d = 
 	{
@@ -3598,7 +3598,7 @@
 		[
 			"sounds/vo/viscous/viscous_happy_04.vsnd",
 		]
-		vsnd_duration = 2.300000
+		vsnd_duration = 2.3
 	}
 	viscous_happy_05_hero_3d = 
 	{
@@ -3628,7 +3628,7 @@
 		[
 			"sounds/vo/viscous/viscous_happy_06.vsnd",
 		]
-		vsnd_duration = 3.130000
+		vsnd_duration = 3.13
 	}
 	viscous_happy_06_ult_3d = 
 	{
@@ -3638,7 +3638,7 @@
 		[
 			"sounds/vo/viscous/viscous_happy_06.vsnd",
 		]
-		vsnd_duration = 3.130000
+		vsnd_duration = 3.13
 	}
 	viscous_happy_07_hero_3d = 
 	{
@@ -3758,7 +3758,7 @@
 		[
 			"sounds/vo/viscous/viscous_interrupt_01.vsnd",
 		]
-		vsnd_duration = 1.589410
+		vsnd_duration = 1.58941
 	}
 	viscous_interrupt_02_hero_3d = 
 	{
@@ -3948,7 +3948,7 @@
 		[
 			"sounds/vo/viscous/viscous_kill_astro_05.vsnd",
 		]
-		vsnd_duration = 2.559320
+		vsnd_duration = 2.55932
 	}
 	viscous_kill_atlas_01_hero_3d = 
 	{
@@ -4008,7 +4008,7 @@
 		[
 			"sounds/vo/viscous/viscous_kill_bebop_01.vsnd",
 		]
-		vsnd_duration = 2.472880
+		vsnd_duration = 2.47288
 	}
 	viscous_kill_bebop_02_hero_3d = 
 	{
@@ -4228,7 +4228,7 @@
 		[
 			"sounds/vo/viscous/viscous_kill_forge_03.vsnd",
 		]
-		vsnd_duration = 3.330000
+		vsnd_duration = 3.33
 	}
 	viscous_kill_forge_04_hero_3d = 
 	{
@@ -4268,7 +4268,7 @@
 		[
 			"sounds/vo/viscous/viscous_kill_ghost_02.vsnd",
 		]
-		vsnd_duration = 2.389750
+		vsnd_duration = 2.38975
 	}
 	viscous_kill_ghost_03_hero_3d = 
 	{
@@ -4348,7 +4348,7 @@
 		[
 			"sounds/vo/viscous/viscous_kill_gigawatt_05.vsnd",
 		]
-		vsnd_duration = 1.435760
+		vsnd_duration = 1.43576
 	}
 	viscous_kill_haze_01_hero_3d = 
 	{
@@ -4488,7 +4488,7 @@
 		[
 			"sounds/vo/viscous/viscous_kill_inferno_03.vsnd",
 		]
-		vsnd_duration = 3.010930
+		vsnd_duration = 3.01093
 	}
 	viscous_kill_inferno_04_hero_3d = 
 	{
@@ -4538,7 +4538,7 @@
 		[
 			"sounds/vo/viscous/viscous_kill_kelvin_03.vsnd",
 		]
-		vsnd_duration = 2.280000
+		vsnd_duration = 2.28
 	}
 	viscous_kill_kelvin_04_hero_3d = 
 	{
@@ -4618,7 +4618,7 @@
 		[
 			"sounds/vo/viscous/viscous_kill_lash_01.vsnd",
 		]
-		vsnd_duration = 2.055170
+		vsnd_duration = 2.05517
 	}
 	viscous_kill_lash_02_hero_3d = 
 	{
@@ -4868,7 +4868,7 @@
 		[
 			"sounds/vo/viscous/viscous_kill_synth_01.vsnd",
 		]
-		vsnd_duration = 1.690590
+		vsnd_duration = 1.69059
 	}
 	viscous_kill_synth_02_hero_3d = 
 	{
@@ -4988,7 +4988,7 @@
 		[
 			"sounds/vo/viscous/viscous_kill_warden_03.vsnd",
 		]
-		vsnd_duration = 2.530340
+		vsnd_duration = 2.53034
 	}
 	viscous_kill_warden_04_hero_3d = 
 	{
@@ -5158,7 +5158,7 @@
 		[
 			"sounds/vo/viscous/viscous_killstreak_high_03.vsnd",
 		]
-		vsnd_duration = 2.260000
+		vsnd_duration = 2.26
 	}
 	viscous_killstreak_high_03_hero_announcer = 
 	{
@@ -5168,7 +5168,7 @@
 		[
 			"sounds/vo/viscous/viscous_killstreak_high_03.vsnd",
 		]
-		vsnd_duration = 2.260000
+		vsnd_duration = 2.26
 	}
 	viscous_killstreak_mid_01_hero_3d = 
 	{
@@ -5338,7 +5338,7 @@
 		[
 			"sounds/vo/viscous/viscous_last_one_standing_01.vsnd",
 		]
-		vsnd_duration = 2.867800
+		vsnd_duration = 2.8678
 	}
 	viscous_last_one_standing_02_hero_3d = 
 	{
@@ -5438,7 +5438,7 @@
 		[
 			"sounds/vo/viscous/viscous_leaving_area_03.vsnd",
 		]
-		vsnd_duration = 2.083900
+		vsnd_duration = 2.0839
 	}
 	viscous_low_health_warning_hero_3d = 
 	{
@@ -5508,7 +5508,7 @@
 		[
 			"sounds/vo/viscous/viscous_match_start_astro_viscous_convo02_06.vsnd",
 		]
-		vsnd_duration = 1.114240
+		vsnd_duration = 1.11424
 	}
 	viscous_match_start_astro_viscous_convo03_01_hero_zipline_3d = 
 	{
@@ -5758,7 +5758,7 @@
 		[
 			"sounds/vo/viscous/viscous_match_start_dynamo_viscous_convo03_02.vsnd",
 		]
-		vsnd_duration = 5.936780
+		vsnd_duration = 5.93678
 	}
 	viscous_match_start_ghost_viscous_convo01_01_hero_zipline_3d = 
 	{
@@ -5878,7 +5878,7 @@
 		[
 			"sounds/vo/viscous/viscous_match_start_gigawatt_viscous_convo02_01.vsnd",
 		]
-		vsnd_duration = 1.599660
+		vsnd_duration = 1.59966
 	}
 	viscous_match_start_gigawatt_viscous_convo02_03_hero_zipline_3d = 
 	{
@@ -5908,7 +5908,7 @@
 		[
 			"sounds/vo/viscous/viscous_match_start_gigawatt_viscous_convo03_02.vsnd",
 		]
-		vsnd_duration = 1.135170
+		vsnd_duration = 1.13517
 	}
 	viscous_match_start_gigawatt_viscous_convo03_04_hero_zipline_3d = 
 	{
@@ -6018,7 +6018,7 @@
 		[
 			"sounds/vo/viscous/viscous_match_start_inferno_viscous_convo02_02.vsnd",
 		]
-		vsnd_duration = 1.894830
+		vsnd_duration = 1.89483
 	}
 	viscous_match_start_inferno_viscous_convo02_04_hero_zipline_3d = 
 	{
@@ -6138,7 +6138,7 @@
 		[
 			"sounds/vo/viscous/viscous_match_start_orion_viscous_convo03_01.vsnd",
 		]
-		vsnd_duration = 4.055170
+		vsnd_duration = 4.05517
 	}
 	viscous_match_start_orion_viscous_convo03_03_hero_zipline_3d = 
 	{
@@ -6148,7 +6148,7 @@
 		[
 			"sounds/vo/viscous/viscous_match_start_orion_viscous_convo03_03.vsnd",
 		]
-		vsnd_duration = 4.004490
+		vsnd_duration = 4.00449
 	}
 	viscous_melee_kill_01_hero_3d = 
 	{
@@ -6218,7 +6218,7 @@
 		[
 			"sounds/vo/viscous/viscous_near_miss_02.vsnd",
 		]
-		vsnd_duration = 2.520000
+		vsnd_duration = 2.52
 	}
 	viscous_near_miss_03_hero_3d = 
 	{
@@ -6388,7 +6388,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_pain_big_11.vsnd",
 		]
-		vsnd_duration = 1.323810
+		vsnd_duration = 1.32381
 	}
 	viscous_pain_death_01_emote_death_3d = 
 	{
@@ -6478,7 +6478,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_pain_death_05.vsnd",
 		]
-		vsnd_duration = 0.572200
+		vsnd_duration = 0.5722
 	}
 	viscous_pain_death_05_emote_pain_3d = 
 	{
@@ -6488,7 +6488,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_pain_death_05.vsnd",
 		]
-		vsnd_duration = 0.572200
+		vsnd_duration = 0.5722
 	}
 	viscous_pain_death_06_emote_death_3d = 
 	{
@@ -6578,7 +6578,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_pain_death_10.vsnd",
 		]
-		vsnd_duration = 1.210930
+		vsnd_duration = 1.21093
 	}
 	viscous_pain_death_10_emote_pain_3d = 
 	{
@@ -6588,7 +6588,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_pain_death_10.vsnd",
 		]
-		vsnd_duration = 1.210930
+		vsnd_duration = 1.21093
 	}
 	viscous_pain_death_11_emote_death_3d = 
 	{
@@ -6618,7 +6618,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_pain_small_01.vsnd",
 		]
-		vsnd_duration = 0.840000
+		vsnd_duration = 0.84
 	}
 	viscous_pain_small_02_emote_pain_3d = 
 	{
@@ -6658,7 +6658,7 @@
 		[
 			"sounds/vo/viscous/emote/viscous_pain_small_05.vsnd",
 		]
-		vsnd_duration = 0.941610
+		vsnd_duration = 0.94161
 	}
 	viscous_pain_small_06_emote_pain_3d = 
 	{
@@ -6898,7 +6898,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_ability2_not_ready.vsnd",
 		]
-		vsnd_duration = 1.901610
+		vsnd_duration = 1.90161
 	}
 	viscous_ping_ability3_almost_ready_ping_2d = 
 	{
@@ -6988,7 +6988,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_astro_check_items.vsnd",
 		]
-		vsnd_duration = 1.895760
+		vsnd_duration = 1.89576
 	}
 	viscous_ping_astro_dead_ping_2d = 
 	{
@@ -6998,7 +6998,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_astro_dead.vsnd",
 		]
-		vsnd_duration = 1.620340
+		vsnd_duration = 1.62034
 	}
 	viscous_ping_astro_in_mid_ping_2d = 
 	{
@@ -7008,7 +7008,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_astro_in_mid.vsnd",
 		]
-		vsnd_duration = 1.612200
+		vsnd_duration = 1.6122
 	}
 	viscous_ping_astro_missing_01_ping_2d = 
 	{
@@ -7048,7 +7048,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_astro_under_garage.vsnd",
 		]
-		vsnd_duration = 2.272970
+		vsnd_duration = 2.27297
 	}
 	viscous_ping_astro_was_here_ping_2d = 
 	{
@@ -7538,7 +7538,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_cadence_missing_01.vsnd",
 		]
-		vsnd_duration = 1.539410
+		vsnd_duration = 1.53941
 	}
 	viscous_ping_cadence_on_top_of_garage_ping_2d = 
 	{
@@ -7568,7 +7568,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_cadence_under_garage.vsnd",
 		]
-		vsnd_duration = 2.084150
+		vsnd_duration = 2.08415
 	}
 	viscous_ping_cadence_was_here_ping_2d = 
 	{
@@ -7758,7 +7758,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_can_heal_orion.vsnd",
 		]
-		vsnd_duration = 2.025510
+		vsnd_duration = 2.02551
 	}
 	viscous_ping_can_heal_shiv_ping_2d = 
 	{
@@ -7898,7 +7898,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_careful_bebop_01.vsnd",
 		]
-		vsnd_duration = 1.322880
+		vsnd_duration = 1.32288
 	}
 	viscous_ping_careful_bebop_02_ping_2d = 
 	{
@@ -8148,7 +8148,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_careful_hornet_02.vsnd",
 		]
-		vsnd_duration = 1.394830
+		vsnd_duration = 1.39483
 	}
 	viscous_ping_careful_hornet_03_ping_2d = 
 	{
@@ -8178,7 +8178,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_careful_inferno_02.vsnd",
 		]
-		vsnd_duration = 1.685760
+		vsnd_duration = 1.68576
 	}
 	viscous_ping_careful_inferno_03_ping_2d = 
 	{
@@ -8218,7 +8218,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_careful_kelvin_03.vsnd",
 		]
-		vsnd_duration = 1.439320
+		vsnd_duration = 1.43932
 	}
 	viscous_ping_careful_krill_01_ping_2d = 
 	{
@@ -8448,7 +8448,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_careful_tengu_02.vsnd",
 		]
-		vsnd_duration = 1.215510
+		vsnd_duration = 1.21551
 	}
 	viscous_ping_careful_tengu_03_ping_2d = 
 	{
@@ -8638,7 +8638,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_chrono_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.319320
+		vsnd_duration = 2.31932
 	}
 	viscous_ping_chrono_on_top_of_mid_ping_2d = 
 	{
@@ -8698,7 +8698,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_defend_base_01.vsnd",
 		]
-		vsnd_duration = 1.381950
+		vsnd_duration = 1.38195
 	}
 	viscous_ping_defend_blue_01_ping_2d = 
 	{
@@ -8708,7 +8708,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_defend_blue_01.vsnd",
 		]
-		vsnd_duration = 1.345170
+		vsnd_duration = 1.34517
 	}
 	viscous_ping_defend_blue_02_ping_2d = 
 	{
@@ -8718,7 +8718,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_defend_blue_02.vsnd",
 		]
-		vsnd_duration = 1.695170
+		vsnd_duration = 1.69517
 	}
 	viscous_ping_defend_green_01_ping_2d = 
 	{
@@ -8978,7 +8978,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_ghost_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.789660
+		vsnd_duration = 1.78966
 	}
 	viscous_ping_ghost_check_items_ping_2d = 
 	{
@@ -9018,7 +9018,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_ghost_missing_01.vsnd",
 		]
-		vsnd_duration = 1.733220
+		vsnd_duration = 1.73322
 	}
 	viscous_ping_ghost_on_top_of_garage_ping_2d = 
 	{
@@ -9098,7 +9098,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_gigawatt_in_mid.vsnd",
 		]
-		vsnd_duration = 1.525850
+		vsnd_duration = 1.52585
 	}
 	viscous_ping_gigawatt_missing_01_ping_2d = 
 	{
@@ -9108,7 +9108,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_gigawatt_missing_01.vsnd",
 		]
-		vsnd_duration = 1.680340
+		vsnd_duration = 1.68034
 	}
 	viscous_ping_gigawatt_on_top_of_garage_ping_2d = 
 	{
@@ -9178,7 +9178,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_going_in_01.vsnd",
 		]
-		vsnd_duration = 1.428730
+		vsnd_duration = 1.42873
 	}
 	viscous_ping_going_in_ping_2d = 
 	{
@@ -9218,7 +9218,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_good_game_02.vsnd",
 		]
-		vsnd_duration = 3.695760
+		vsnd_duration = 3.69576
 	}
 	viscous_ping_good_game_03_ping_2d = 
 	{
@@ -9238,7 +9238,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_good_job_01.vsnd",
 		]
-		vsnd_duration = 1.210000
+		vsnd_duration = 1.21
 	}
 	viscous_ping_green_help_01_ping_2d = 
 	{
@@ -9248,7 +9248,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_green_help_01.vsnd",
 		]
-		vsnd_duration = 1.439660
+		vsnd_duration = 1.43966
 	}
 	viscous_ping_green_help_02_ping_2d = 
 	{
@@ -9358,7 +9358,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_headed_blue_01.vsnd",
 		]
-		vsnd_duration = 1.392290
+		vsnd_duration = 1.39229
 	}
 	viscous_ping_headed_blue_02_ping_2d = 
 	{
@@ -9418,7 +9418,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_headed_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.397800
+		vsnd_duration = 1.3978
 	}
 	viscous_ping_heal_ready_ping_2d = 
 	{
@@ -9488,7 +9488,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_hornet_dead.vsnd",
 		]
-		vsnd_duration = 1.809320
+		vsnd_duration = 1.80932
 	}
 	viscous_ping_hornet_in_mid_ping_2d = 
 	{
@@ -9508,7 +9508,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_hornet_missing_01.vsnd",
 		]
-		vsnd_duration = 1.680340
+		vsnd_duration = 1.68034
 	}
 	viscous_ping_hornet_on_top_of_garage_ping_2d = 
 	{
@@ -9678,7 +9678,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_ignore_krill.vsnd",
 		]
-		vsnd_duration = 1.634830
+		vsnd_duration = 1.63483
 	}
 	viscous_ping_ignore_lash_ping_2d = 
 	{
@@ -9698,7 +9698,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_ignore_mirage.vsnd",
 		]
-		vsnd_duration = 1.700340
+		vsnd_duration = 1.70034
 	}
 	viscous_ping_ignore_nano_ping_2d = 
 	{
@@ -9708,7 +9708,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_ignore_nano.vsnd",
 		]
-		vsnd_duration = 1.645510
+		vsnd_duration = 1.64551
 	}
 	viscous_ping_ignore_orion_ping_2d = 
 	{
@@ -9778,7 +9778,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_ignore_wrecker.vsnd",
 		]
-		vsnd_duration = 1.500680
+		vsnd_duration = 1.50068
 	}
 	viscous_ping_ignore_yamato_ping_2d = 
 	{
@@ -9898,7 +9898,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_item_not_ready.vsnd",
 		]
-		vsnd_duration = 1.820340
+		vsnd_duration = 1.82034
 	}
 	viscous_ping_jar_call_01_ping_2d = 
 	{
@@ -9908,7 +9908,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_jar_call_01.vsnd",
 		]
-		vsnd_duration = 1.980590
+		vsnd_duration = 1.98059
 	}
 	viscous_ping_jar_call_02_ping_2d = 
 	{
@@ -10048,7 +10048,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_krill_check_items.vsnd",
 		]
-		vsnd_duration = 1.804830
+		vsnd_duration = 1.80483
 	}
 	viscous_ping_krill_dead_ping_2d = 
 	{
@@ -10128,7 +10128,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_lash_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.944830
+		vsnd_duration = 1.94483
 	}
 	viscous_ping_lash_check_items_ping_2d = 
 	{
@@ -10238,7 +10238,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_leaving_area_03.vsnd",
 		]
-		vsnd_duration = 2.083900
+		vsnd_duration = 2.0839
 	}
 	viscous_ping_lets_go_blue_alt_ping_2d = 
 	{
@@ -10258,7 +10258,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_lets_go_blue.vsnd",
 		]
-		vsnd_duration = 1.633220
+		vsnd_duration = 1.63322
 	}
 	viscous_ping_lets_go_green_alt_ping_2d = 
 	{
@@ -10358,7 +10358,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_mirage_in_mid.vsnd",
 		]
-		vsnd_duration = 1.481950
+		vsnd_duration = 1.48195
 	}
 	viscous_ping_mirage_missing_01_ping_2d = 
 	{
@@ -10368,7 +10368,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_mirage_missing_01.vsnd",
 		]
-		vsnd_duration = 1.655170
+		vsnd_duration = 1.65517
 	}
 	viscous_ping_mirage_on_top_of_garage_ping_2d = 
 	{
@@ -10428,7 +10428,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_missing_blue_02.vsnd",
 		]
-		vsnd_duration = 1.465170
+		vsnd_duration = 1.46517
 	}
 	viscous_ping_missing_green_01_ping_2d = 
 	{
@@ -10508,7 +10508,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_nano_in_mid.vsnd",
 		]
-		vsnd_duration = 1.652540
+		vsnd_duration = 1.65254
 	}
 	viscous_ping_nano_missing_01_ping_2d = 
 	{
@@ -10608,7 +10608,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_need_help_green_alt.vsnd",
 		]
-		vsnd_duration = 1.635170
+		vsnd_duration = 1.63517
 	}
 	viscous_ping_need_help_green_ping_2d = 
 	{
@@ -10678,7 +10678,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_negative_03.vsnd",
 		]
-		vsnd_duration = 1.456100
+		vsnd_duration = 1.4561
 	}
 	viscous_ping_nice_work_01_ping_2d = 
 	{
@@ -10728,7 +10728,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_orion_check_items.vsnd",
 		]
-		vsnd_duration = 2.120000
+		vsnd_duration = 2.12
 	}
 	viscous_ping_orion_dead_ping_2d = 
 	{
@@ -10888,7 +10888,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_pre_game_03.vsnd",
 		]
-		vsnd_duration = 3.119660
+		vsnd_duration = 3.11966
 	}
 	viscous_ping_pre_game_04_ping_2d = 
 	{
@@ -10998,7 +10998,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_refresher_almost_ready.vsnd",
 		]
-		vsnd_duration = 2.114830
+		vsnd_duration = 2.11483
 	}
 	viscous_ping_refresher_not_ready_ping_2d = 
 	{
@@ -11228,7 +11228,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_saw_krill.vsnd",
 		]
-		vsnd_duration = 1.550340
+		vsnd_duration = 1.55034
 	}
 	viscous_ping_saw_lash_ping_2d = 
 	{
@@ -11248,7 +11248,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_saw_mirage.vsnd",
 		]
-		vsnd_duration = 1.545850
+		vsnd_duration = 1.54585
 	}
 	viscous_ping_saw_nano_ping_2d = 
 	{
@@ -11338,7 +11338,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_saw_wrecker.vsnd",
 		]
-		vsnd_duration = 1.415850
+		vsnd_duration = 1.41585
 	}
 	viscous_ping_saw_yamato_ping_2d = 
 	{
@@ -11498,7 +11498,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_see_cadence_on_roof.vsnd",
 		]
-		vsnd_duration = 1.724830
+		vsnd_duration = 1.72483
 	}
 	viscous_ping_see_chrono_on_bridge_ping_2d = 
 	{
@@ -11568,7 +11568,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_see_dynamo.vsnd",
 		]
-		vsnd_duration = 1.615170
+		vsnd_duration = 1.61517
 	}
 	viscous_ping_see_enemy_on_bridge_ping_2d = 
 	{
@@ -11658,7 +11658,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_see_ghost_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.855510
+		vsnd_duration = 1.85551
 	}
 	viscous_ping_see_ghost_on_roof_ping_2d = 
 	{
@@ -11688,7 +11688,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_see_gigawatt_02_02.vsnd",
 		]
-		vsnd_duration = 2.014240
+		vsnd_duration = 2.01424
 	}
 	viscous_ping_see_gigawatt_on_bridge_ping_2d = 
 	{
@@ -11928,7 +11928,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_see_lash.vsnd",
 		]
-		vsnd_duration = 1.430000
+		vsnd_duration = 1.43
 	}
 	viscous_ping_see_mirage_01_ping_2d = 
 	{
@@ -11998,7 +11998,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_see_nano.vsnd",
 		]
-		vsnd_duration = 1.679320
+		vsnd_duration = 1.67932
 	}
 	viscous_ping_see_orion_01_ping_2d = 
 	{
@@ -12128,7 +12128,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_see_tengu_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.540000
+		vsnd_duration = 1.54
 	}
 	viscous_ping_see_tengu_on_roof_ping_2d = 
 	{
@@ -12278,7 +12278,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_see_yamato_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.795760
+		vsnd_duration = 1.79576
 	}
 	viscous_ping_see_yamato_on_roof_ping_2d = 
 	{
@@ -12448,7 +12448,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_stim_pack_almost_ready.vsnd",
 		]
-		vsnd_duration = 2.204490
+		vsnd_duration = 2.20449
 	}
 	viscous_ping_stim_pack_not_ready_ping_2d = 
 	{
@@ -12538,7 +12538,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_stun_ghost_01.vsnd",
 		]
-		vsnd_duration = 1.375760
+		vsnd_duration = 1.37576
 	}
 	viscous_ping_stun_gigawatt_01_ping_2d = 
 	{
@@ -12898,7 +12898,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_tengu_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.065170
+		vsnd_duration = 2.06517
 	}
 	viscous_ping_tengu_on_top_of_mid_ping_2d = 
 	{
@@ -12968,7 +12968,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_they_were_here.vsnd",
 		]
-		vsnd_duration = 1.199320
+		vsnd_duration = 1.19932
 	}
 	viscous_ping_theyre_in_mid_ping_2d = 
 	{
@@ -13478,7 +13478,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_with_hornet.vsnd",
 		]
-		vsnd_duration = 1.579660
+		vsnd_duration = 1.57966
 	}
 	viscous_ping_with_inferno_ping_2d = 
 	{
@@ -13618,7 +13618,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_with_yamato.vsnd",
 		]
-		vsnd_duration = 1.685850
+		vsnd_duration = 1.68585
 	}
 	viscous_ping_wraith_almost_respawn_ping_2d = 
 	{
@@ -13738,7 +13738,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_wrecker_dead.vsnd",
 		]
-		vsnd_duration = 1.490000
+		vsnd_duration = 1.49
 	}
 	viscous_ping_wrecker_in_mid_ping_2d = 
 	{
@@ -13888,7 +13888,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_yamato_was_here.vsnd",
 		]
-		vsnd_duration = 1.526780
+		vsnd_duration = 1.52678
 	}
 	viscous_ping_yellow_help_01_ping_2d = 
 	{
@@ -13908,7 +13908,7 @@
 		[
 			"sounds/vo/viscous/ping/viscous_ping_yellow_help_02.vsnd",
 		]
-		vsnd_duration = 1.535170
+		vsnd_duration = 1.53517
 	}
 	viscous_sad_01_hero_3d = 
 	{
@@ -13918,7 +13918,7 @@
 		[
 			"sounds/vo/viscous/viscous_sad_01.vsnd",
 		]
-		vsnd_duration = 3.094830
+		vsnd_duration = 3.09483
 	}
 	viscous_sad_02_hero_3d = 
 	{
@@ -14008,7 +14008,7 @@
 		[
 			"sounds/vo/viscous/viscous_sad_10.vsnd",
 		]
-		vsnd_duration = 2.940000
+		vsnd_duration = 2.94
 	}
 	viscous_see_enemy_metal_skin_01_hero_3d = 
 	{
@@ -14048,7 +14048,7 @@
 		[
 			"sounds/vo/viscous/viscous_see_money_01.vsnd",
 		]
-		vsnd_duration = 1.978050
+		vsnd_duration = 1.97805
 	}
 	viscous_see_money_02_hero_3d = 
 	{
@@ -14118,7 +14118,7 @@
 		[
 			"sounds/vo/viscous/viscous_select_05.vsnd",
 		]
-		vsnd_duration = 4.610000
+		vsnd_duration = 4.61
 	}
 	viscous_select_06_hero_3d = 
 	{
@@ -14148,7 +14148,7 @@
 		[
 			"sounds/vo/viscous/viscous_select_08.vsnd",
 		]
-		vsnd_duration = 2.590340
+		vsnd_duration = 2.59034
 	}
 	viscous_select_09_hero_3d = 
 	{
@@ -14248,7 +14248,7 @@
 		[
 			"sounds/vo/viscous/viscous_t3_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 2.610000
+		vsnd_duration = 2.61
 	}
 	viscous_t3_shop_reminder_03_hero_3d = 
 	{
@@ -14328,7 +14328,7 @@
 		[
 			"sounds/vo/viscous/viscous_tower_got_denied_04.vsnd",
 		]
-		vsnd_duration = 3.092290
+		vsnd_duration = 3.09229
 	}
 	viscous_tower_got_denied_05_hero_3d = 
 	{
@@ -14368,7 +14368,7 @@
 		[
 			"sounds/vo/viscous/viscous_unselect_03.vsnd",
 		]
-		vsnd_duration = 1.428730
+		vsnd_duration = 1.42873
 	}
 	viscous_unselect_04_hero_3d = 
 	{
@@ -14418,7 +14418,7 @@
 		[
 			"sounds/vo/viscous/viscous_unselect_08.vsnd",
 		]
-		vsnd_duration = 3.604580
+		vsnd_duration = 3.60458
 	}
 	viscous_unselect_09_hero_3d = 
 	{
@@ -14528,7 +14528,7 @@
 		[
 			"sounds/vo/viscous/viscous_upgrade_power1_05.vsnd",
 		]
-		vsnd_duration = 1.584490
+		vsnd_duration = 1.58449
 	}
 	viscous_upgrade_power1_06_hero_3d = 
 	{
@@ -14878,7 +14878,7 @@
 		[
 			"sounds/vo/viscous/viscous_upgrade_power3_20.vsnd",
 		]
-		vsnd_duration = 2.384490
+		vsnd_duration = 2.38449
 	}
 	viscous_upgrade_power4_11_hero_3d = 
 	{
@@ -14948,7 +14948,7 @@
 		[
 			"sounds/vo/viscous/viscous_upgrade_power4_17.vsnd",
 		]
-		vsnd_duration = 2.755510
+		vsnd_duration = 2.75551
 	}
 	viscous_upgrade_power4_18_hero_3d = 
 	{
@@ -15108,7 +15108,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_echo_shard_01.vsnd",
 		]
-		vsnd_duration = 1.609320
+		vsnd_duration = 1.60932
 	}
 	viscous_use_echo_shard_02_ability_3d = 
 	{
@@ -15138,7 +15138,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_ice_blast_01.vsnd",
 		]
-		vsnd_duration = 1.564830
+		vsnd_duration = 1.56483
 	}
 	viscous_use_ice_blast_02_ability_3d = 
 	{
@@ -15168,7 +15168,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_knockdown_01.vsnd",
 		]
-		vsnd_duration = 2.290000
+		vsnd_duration = 2.29
 	}
 	viscous_use_knockdown_02_ability_3d = 
 	{
@@ -15288,7 +15288,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_power1_03.vsnd",
 		]
-		vsnd_duration = 1.680000
+		vsnd_duration = 1.68
 	}
 	viscous_use_power1_04_ability_3d = 
 	{
@@ -15458,7 +15458,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_power2_09.vsnd",
 		]
-		vsnd_duration = 2.157460
+		vsnd_duration = 2.15746
 	}
 	viscous_use_power2_10_ability_3d = 
 	{
@@ -15598,7 +15598,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_power3_02.vsnd",
 		]
-		vsnd_duration = 2.049660
+		vsnd_duration = 2.04966
 	}
 	viscous_use_power3_03_ability_3d = 
 	{
@@ -15658,7 +15658,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_power3_08.vsnd",
 		]
-		vsnd_duration = 1.614240
+		vsnd_duration = 1.61424
 	}
 	viscous_use_power3_09_ability_3d = 
 	{
@@ -15688,7 +15688,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_power4_11.vsnd",
 		]
-		vsnd_duration = 1.875510
+		vsnd_duration = 1.87551
 	}
 	viscous_use_power4_11_hero_announcer = 
 	{
@@ -15698,7 +15698,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_power4_11.vsnd",
 		]
-		vsnd_duration = 1.875510
+		vsnd_duration = 1.87551
 	}
 	viscous_use_power4_11_ult_3d = 
 	{
@@ -15708,7 +15708,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_power4_11.vsnd",
 		]
-		vsnd_duration = 1.875510
+		vsnd_duration = 1.87551
 	}
 	viscous_use_power4_12_ability_3d = 
 	{
@@ -16148,7 +16148,7 @@
 		[
 			"sounds/vo/viscous/viscous_use_vampiric_burst_02.vsnd",
 		]
-		vsnd_duration = 2.354490
+		vsnd_duration = 2.35449
 	}
 	viscous_use_vampiric_burst_03_ability_3d = 
 	{

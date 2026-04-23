@@ -4,18 +4,18 @@
 	{
 		base = "Base.UI"
 		mixer_mixgroup = "UI-Health"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = "sounds/gameplay/low_health/default_alert.vsnd"
-		vsnd_duration = 2.979000
+		vsnd_duration = 2.979
 	}
 	PlayerAlert.MajorDamage = 
 	{
 		base = "Base.UI"
 		mixer_mixgroup = "UI-Health"
-		volume = -6.000000
-		pitch = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = -6.0
+		pitch = 1.0
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_stop_oldest = true
 		vsnd_files = 
 		[
@@ -44,8 +44,8 @@
 	Player.Bullet.Impact.Trooper = 
 	{
 		base = "Player.Bullet.Impact.Default"
-		pitch = 3.200000
-		volume = -9.000000
+		pitch = 3.2
+		volume = -9.0
 	}
 	Player.Bullet.Impact.Hero = 
 	{
@@ -62,10 +62,10 @@
 	Player.Dash.Jump = 
 	{
 		base = "Base.Movement"
-		volume = -1.000000
-		play_from_listener_player = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = -1.0
+		play_from_listener_player = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/player/rolljump/player_rolljump_activate_01.vsnd",
@@ -82,17 +82,17 @@
 			"sounds/player/rolljump/player_rolljump_activate_12.vsnd",
 			"sounds/player/rolljump/player_rolljump_activate_13.vsnd",
 		]
-		vsnd_duration = 2.105510
+		vsnd_duration = 2.10551
 	}
 	Player.Dash.Ground = 
 	{
 		base = "Base.Movement"
-		pitch = 1.070000
-		play_from_listener_player = 1.000000
-		volume = 1.000000
-		volume_fade_out = 0.000800
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		pitch = 1.07
+		play_from_listener_player = 1.0
+		volume = 1.0
+		volume_fade_out = 0.0008
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/player/rolljump/whoosh_01.vsnd",
@@ -129,10 +129,10 @@
 	Player.Dash.Air = 
 	{
 		base = "Base.Movement"
-		volume = -1.000000
-		play_from_listener_player = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = -1.0
+		play_from_listener_player = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/player/rolljump/player_airjump_activate_01.vsnd",
@@ -149,15 +149,15 @@
 			"sounds/player/rolljump/player_airjump_activate_12.vsnd",
 			"sounds/player/rolljump/player_airjump_activate_13.vsnd",
 		]
-		vsnd_duration = 2.105510
+		vsnd_duration = 2.10551
 	}
 	Player.Jump.Air = 
 	{
 		base = "Base.Movement"
-		volume = -1.000000
-		play_from_listener_player = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = -1.0
+		play_from_listener_player = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/player/rolljump/player_airjump_activate_01.vsnd",
@@ -174,15 +174,15 @@
 			"sounds/player/rolljump/player_airjump_activate_12.vsnd",
 			"sounds/player/rolljump/player_airjump_activate_13.vsnd",
 		]
-		vsnd_duration = 2.105510
+		vsnd_duration = 2.10551
 	}
 	Player.WallJump = 
 	{
 		base = "Base.Movement"
-		play_from_listener_player = 1.000000
-		volume_offset_player = 2.000000
-		volume_offset_opponent = -4.000000
-		volume = 0.000000
+		play_from_listener_player = 1.0
+		volume_offset_player = 2.0
+		volume_offset_opponent = -4.0
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/player/wall_jump_01.vsnd",
@@ -197,20 +197,20 @@
 	Player.CornerBoostWallJump = 
 	{
 		base = "Base.Movement"
-		play_from_listener_player = 1.000000
-		volume_offset_player = 2.000000
-		volume_offset_opponent = -4.000000
-		volume = 0.000000
+		play_from_listener_player = 1.0
+		volume_offset_player = 2.0
+		volume_offset_opponent = -4.0
+		volume = 0.0
 		vsnd_files = "sounds/gameplay/jump_pad/jump_pad_wind_01.vsnd"
-		vsnd_duration = 3.460000
+		vsnd_duration = 3.46
 	}
 	Player.Melee.Dash = 
 	{
 		base = "Base.Movement"
-		pitch = 1.070000
-		pitch_rand_min = -0.050000
-		play_from_listener_player = 1.000000
-		pitch_rand_max = 0.050000
+		pitch = 1.07
+		pitch_rand_min = -0.05
+		play_from_listener_player = 1.0
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/player/rolljump/whoosh_01.vsnd",
@@ -247,10 +247,10 @@
 	Player.Jump = 
 	{
 		base = "Base.Movement"
-		volume = -9.000000
-		pitch = 1.100000
-		volume_offset_opponent = 4.000000
-		play_from_listener_player = 1.000000
+		volume = -9.0
+		pitch = 1.1
+		volume_offset_opponent = 4.0
+		play_from_listener_player = 1.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/generic/generic_jump_start_01.vsnd",
@@ -262,8 +262,8 @@
 	Player.Slide.Enter = 
 	{
 		base = "Base.Movement"
-		volume = -6.000000
-		play_from_listener_player = 1.000000
+		volume = -6.0
+		play_from_listener_player = 1.0
 		vsnd_files = 
 		[
 			"sounds/gameplay/slide/enter_01.vsnd",
@@ -282,8 +282,8 @@
 	Player.Slide.Exit = 
 	{
 		base = "Base.Movement"
-		play_from_listener_player = 1.000000
-		volume = -15.000000
+		play_from_listener_player = 1.0
+		volume = -15.0
 		vsnd_files = 
 		[
 			"sounds/gameplay/slide/exit_01.vsnd",
@@ -300,19 +300,19 @@
 	Player.Slide.Lp = 
 	{
 		base = "Base.Movement"
-		play_from_listener_player = 1.000000
-		volume = 0.000000
-		pitch = 1.100000
-		delay_rand_min = -1.000000
-		volume_fade_out = 0.500000
+		play_from_listener_player = 1.0
+		volume = 0.0
+		pitch = 1.1
+		delay_rand_min = -1.0
+		volume_fade_out = 0.5
 		vsnd_files = "sounds/gameplay/slide/lp2_texture.vsnd"
 		vsnd_duration = 10.925563
 	}
 	Player.Melee.Hit.Physics = 
 	{
 		base = "Base.Ability"
-		volume_fade_out = 0.000300
-		volume = 0.000000
+		volume_fade_out = 0.0003
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/default_impact_1.vsnd",
@@ -324,38 +324,38 @@
 	Player.Melee.Parry.Shared = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/player/melee/shared/melee_parry_cast.vsnd"
-		vsnd_duration = 2.242970
+		vsnd_duration = 2.24297
 	}
 	Player.Melee.Parry.Success.Shared = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/player/melee/shared/melee_parry_success.vsnd"
 		vsnd_duration = 3.531814
 	}
 	Player.Melee.Hold.Shared = 
 	{
 		base = "Base.Ability"
-		block_volume_min = 0.001000
-		pitch = 1.000000
-		pitch_rand_max = 0.010000
-		pitch_rand_min = -0.010000
-		volume = 0.000000
-		volume_offset_player = -2.500000
-		volume_offset_team = -3.000000
-		volume_enemy_targeting_boost = 5.000000
-		occlusion_min = 0.500000
+		block_volume_min = 0.001
+		pitch = 1.0
+		pitch_rand_max = 0.01
+		pitch_rand_min = -0.01
+		volume = 0.0
+		volume_offset_player = -2.5
+		volume_offset_team = -3.0
+		volume_enemy_targeting_boost = 5.0
+		occlusion_min = 0.5
 		vsnd_files = "sounds/player/melee/shared/charged_melee_full.vsnd"
 		vsnd_duration = 1.454966
 	}
 	Ability.Melee.Impact.Player = 
 	{
 		base = "Base.Ability.Hit"
-		pitch = 1.250000
-		volume = 0.000000
-		volume_offset_other_db = -6.000000
+		pitch = 1.25
+		volume = 0.0
+		volume_offset_other_db = -6.0
 		vsnd_files = 
 		[
 			"sounds/hit_indicators/damage_receive_melee_01.vsnd",
@@ -365,13 +365,13 @@
 			"sounds/hit_indicators/damage_receive_melee_05.vsnd",
 			"sounds/hit_indicators/damage_receive_melee_06.vsnd",
 		]
-		vsnd_duration = 1.372200
+		vsnd_duration = 1.3722
 	}
 	Ability.Melee.Impact.Heavy.Player = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
-		volume_offset_other_db = -6.000000
+		volume = 0.0
+		volume_offset_other_db = -6.0
 		vsnd_files = 
 		[
 			"sounds/hit_indicators/damage_receive_melee_01.vsnd",
@@ -381,13 +381,13 @@
 			"sounds/hit_indicators/damage_receive_melee_05.vsnd",
 			"sounds/hit_indicators/damage_receive_melee_06.vsnd",
 		]
-		vsnd_duration = 1.372200
+		vsnd_duration = 1.3722
 	}
 	Ability.Melee.Impact.NPC = 
 	{
 		base = "Base.Ability.Hit"
-		pitch = 2.000000
-		volume = -3.000000
+		pitch = 2.0
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/hit_indicators/damage_receive_melee_01.vsnd",
@@ -397,61 +397,40 @@
 			"sounds/hit_indicators/damage_receive_melee_05.vsnd",
 			"sounds/hit_indicators/damage_receive_melee_06.vsnd",
 		]
-		vsnd_duration = 1.372200
+		vsnd_duration = 1.3722
 	}
 	Player.Heal.OverTime.Lp = 
 	{
 		type = "citadel_health_effects"
 		base = 
 		[
-			
 			{
 				event_name = "Base.Mod"
 				field_name = "citadel_perspective_default"
 			},
 		]
-		volume = -2.000000
-		volume_fade_in = 0.400000
-		volume_fade_out = 0.300000
-		health_pitch_scale_min = 0.800000
-		health_pitch_scale_max = 1.250000
+		volume = -2.0
+		volume_fade_in = 0.4
+		volume_fade_out = 0.3
+		health_pitch_scale_min = 0.8
+		health_pitch_scale_max = 1.25
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.0, 1.0, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				3.000000,
-				1.000000,
-				-0.040350,
-				-0.040350,
-				3.000000,
-				1.000000,
+				3.0, 1.0, -0.04035, -0.04035,
+				3.0, 1.0,
 			],
-			
 			[
-				6.000000,
-				0.700000,
-				-0.023581,
-				-0.023581,
-				2.000000,
-				3.000000,
+				6.0, 0.7, -0.023581, -0.023581,
+				2.0, 3.0,
 			],
-			
 			[
-				10.000000,
-				0.400000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
+				10.0, 0.4, 0.0, 0.0,
+				2.0, 3.0,
 			],
 		]
 		vsnd_files = "sounds/player/healing_overtime_lp.vsnd"
@@ -460,16 +439,16 @@
 	Player.Heal.OverTime.Start = 
 	{
 		base = "Base.Mod"
-		volume = -5.000000
-		block_duration = 1.000000
+		volume = -5.0
+		block_duration = 1.0
 		vsnd_files = "sounds/player/healing_overtime_start.vsnd"
 		vsnd_duration = 3.949796
 	}
 	Player.Heal.OverTime.LowPriority.Start = 
 	{
 		base = "Player.Heal.OverTime.Start"
-		volume = 0.000000
-		volume_fade_out = 0.200000
+		volume = 0.0
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/player/healing_overtime_low_priority_start.vsnd"
 		vsnd_duration = 3.949796
 	}
@@ -478,38 +457,37 @@
 		type = "citadel_health_effects"
 		base = 
 		[
-			
 			{
 				event_name = "Base.Mod"
 				field_name = "citadel_perspective_default"
 			},
 		]
-		volume = -1.000000
-		block_duration = 1.000000
-		health_pitch_scale_min = 0.800000
-		health_pitch_scale_max = 1.250000
+		volume = -1.0
+		block_duration = 1.0
+		health_pitch_scale_min = 0.8
+		health_pitch_scale_max = 1.25
 		vsnd_files = "sounds/player/healing_overtime_stop.vsnd"
 		vsnd_duration = 3.517347
 	}
 	Player.Heal.OverTime.TopOff = 
 	{
 		base = "Base.Mod"
-		volume = -13.500000
-		block_duration = 1.500000
+		volume = -13.5
+		block_duration = 1.5
 		vsnd_files = "sounds/player/healing_overtime_topoff.vsnd"
 		vsnd_duration = 4.202268
 	}
 	Player.Heal.Burst.Small = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 4.000000
-		volume_offset_team = 8.000000
-		hrtf_on_player = 1.000000
-		hrtf_mix = 0.650000
-		block_duration = 0.100000
-		force_entity_perspective_assignment = 1.000000
-		solo_for_owner_and_emitter = 1.000000
-		block_npc_emitter = 1.000000
+		volume = 4.0
+		volume_offset_team = 8.0
+		hrtf_on_player = 1.0
+		hrtf_mix = 0.65
+		block_duration = 0.1
+		force_entity_perspective_assignment = 1.0
+		solo_for_owner_and_emitter = 1.0
+		block_npc_emitter = 1.0
 		vsnd_files = 
 		[
 			"sounds/player/healing_burst_small_01.vsnd",
@@ -521,13 +499,13 @@
 	Player.Heal.Burst.Medium = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 3.000000
-		volume_offset_team = 7.000000
-		hrtf_on_player = 1.000000
-		hrtf_mix = 0.650000
-		block_duration = 0.200000
-		force_entity_perspective_assignment = 1.000000
-		solo_for_owner_and_emitter = 1.000000
+		volume = 3.0
+		volume_offset_team = 7.0
+		hrtf_on_player = 1.0
+		hrtf_mix = 0.65
+		block_duration = 0.2
+		force_entity_perspective_assignment = 1.0
+		solo_for_owner_and_emitter = 1.0
 		vsnd_files = 
 		[
 			"sounds/player/healing_burst_medium_01.vsnd",
@@ -539,17 +517,17 @@
 	Player.Heal.SiphonTick = 
 	{
 		base = "Base.Mod"
-		volume = -6.000000
-		block_distance = 2.000000
-		block_duration = 0.500000
+		volume = -6.0
+		block_distance = 2.0
+		block_duration = 0.5
 		vsnd_files = "sounds/player/heal_siphon_tick.vsnd"
 		vsnd_duration = 0.488844
 	}
 	Player.Barrier.Activate = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
-		pitch_rand_max = 0.025000
+		volume = -1.0
+		pitch_rand_max = 0.025
 		vsnd_files = 
 		[
 			"sounds/player/barrier/barrier_activate_01.vsnd",
@@ -561,18 +539,18 @@
 	Player.Barrier.Refresh = 
 	{
 		base = "Base.Ability"
-		volume = 1.500000
-		pitch = 1.100000
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
+		volume = 1.5
+		pitch = 1.1
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
 		vsnd_files = "sounds/player/barrier/barrier_refresh.vsnd"
 		vsnd_duration = 3.756372
 	}
 	Ability.BulletEvade = 
 	{
 		base = "Base.Ability.Hit"
-		volume = -3.000000
-		limiter_max = 1.000000
+		volume = -3.0
+		limiter_max = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/shared/bullet_evade_01.vsnd",

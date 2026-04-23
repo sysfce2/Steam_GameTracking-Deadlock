@@ -8,7 +8,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_astro_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.539000
+		vsnd_duration = 1.539
 	}
 	drifter_ally_atlas_killed_in_lane_01_hero_3d = 
 	{
@@ -38,7 +38,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_boho_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.270000
+		vsnd_duration = 1.27
 	}
 	drifter_ally_bookworm_killed_in_lane_01_alt_hero_3d = 
 	{
@@ -78,7 +78,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_druid_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.628500
+		vsnd_duration = 1.6285
 	}
 	drifter_ally_dynamo_killed_in_lane_01_hero_3d = 
 	{
@@ -98,7 +98,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_forge_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.516000
+		vsnd_duration = 1.516
 	}
 	drifter_ally_fortuna_killed_in_lane_01_hero_3d = 
 	{
@@ -128,7 +128,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_ghost_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.340000
+		vsnd_duration = 1.34
 	}
 	drifter_ally_gigawatt_killed_in_lane_01_hero_3d = 
 	{
@@ -138,7 +138,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_gigawatt_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.420000
+		vsnd_duration = 1.42
 	}
 	drifter_ally_graf_killed_in_lane_01_hero_3d = 
 	{
@@ -168,7 +168,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_hornet_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.489500
+		vsnd_duration = 1.4895
 	}
 	drifter_ally_incubus_killed_in_lane_01_hero_3d = 
 	{
@@ -178,7 +178,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_incubus_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.597500
+		vsnd_duration = 1.5975
 	}
 	drifter_ally_inferno_killed_in_lane_01_hero_3d = 
 	{
@@ -208,7 +208,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_krill_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.325500
+		vsnd_duration = 1.3255
 	}
 	drifter_ally_lash_killed_in_lane_01_hero_3d = 
 	{
@@ -298,7 +298,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_skyrunner_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.391500
+		vsnd_duration = 1.3915
 	}
 	drifter_ally_slork_killed_in_lane_01_hero_3d = 
 	{
@@ -318,7 +318,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_succubus_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.548500
+		vsnd_duration = 1.5485
 	}
 	drifter_ally_swan_killed_in_lane_01_hero_3d = 
 	{
@@ -328,7 +328,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_swan_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.298000
+		vsnd_duration = 1.298
 	}
 	drifter_ally_synth_killed_in_lane_01_hero_3d = 
 	{
@@ -338,7 +338,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_synth_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.265000
+		vsnd_duration = 1.265
 	}
 	drifter_ally_tengu_killed_in_lane_01_hero_3d = 
 	{
@@ -348,7 +348,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_tengu_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.333250
+		vsnd_duration = 1.33325
 	}
 	drifter_ally_tvspirit_killed_in_lane_01_hero_3d = 
 	{
@@ -358,7 +358,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_tvspirit_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.586500
+		vsnd_duration = 1.5865
 	}
 	drifter_ally_vampirebat_killed_in_lane_01_hero_3d = 
 	{
@@ -388,7 +388,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_viscous_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.350000
+		vsnd_duration = 1.35
 	}
 	drifter_ally_warden_killed_in_lane_01_hero_3d = 
 	{
@@ -408,7 +408,7 @@
 		[
 			"sounds/vo/drifter/drifter_ally_wraith_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.215000
+		vsnd_duration = 1.215
 	}
 	drifter_ally_yamato_killed_in_lane_01_hero_3d = 
 	{
@@ -488,7 +488,7 @@
 		[
 			"sounds/vo/drifter/drifter_bespoke_ability_line_07.vsnd",
 		]
-		vsnd_duration = 5.983250
+		vsnd_duration = 5.98325
 	}
 	drifter_bespoke_ability_line_08_hero_3d = 
 	{
@@ -498,7 +498,7 @@
 		[
 			"sounds/vo/drifter/drifter_bespoke_ability_line_08.vsnd",
 		]
-		vsnd_duration = 4.104750
+		vsnd_duration = 4.10475
 	}
 	drifter_bespoke_ability_line_09_hero_3d = 
 	{
@@ -728,7 +728,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_effort_dash_01.vsnd",
 		]
-		vsnd_duration = 0.601000
+		vsnd_duration = 0.601
 	}
 	drifter_effort_dash_01_emote_effort_3d = 
 	{
@@ -738,7 +738,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_effort_dash_01.vsnd",
 		]
-		vsnd_duration = 0.601000
+		vsnd_duration = 0.601
 	}
 	drifter_effort_dash_02_emote_dash_3d = 
 	{
@@ -858,7 +858,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_effort_general_02.vsnd",
 		]
-		vsnd_duration = 0.532500
+		vsnd_duration = 0.5325
 	}
 	drifter_effort_general_03_emote_effort_3d = 
 	{
@@ -878,7 +878,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_effort_general_04.vsnd",
 		]
-		vsnd_duration = 0.541500
+		vsnd_duration = 0.5415
 	}
 	drifter_effort_general_05_emote_effort_3d = 
 	{
@@ -898,7 +898,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_effort_general_06.vsnd",
 		]
-		vsnd_duration = 0.486000
+		vsnd_duration = 0.486
 	}
 	drifter_effort_general_07_emote_effort_3d = 
 	{
@@ -1098,7 +1098,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_effort_melee_small_06.vsnd",
 		]
-		vsnd_duration = 0.598500
+		vsnd_duration = 0.5985
 	}
 	drifter_effort_melee_small_06_emote_melee_effort_3d = 
 	{
@@ -1108,7 +1108,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_effort_melee_small_06.vsnd",
 		]
-		vsnd_duration = 0.598500
+		vsnd_duration = 0.5985
 	}
 	drifter_kill_anyhero_01_hero_3d = 
 	{
@@ -1208,7 +1208,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_anyhero_10.vsnd",
 		]
-		vsnd_duration = 2.103250
+		vsnd_duration = 2.10325
 	}
 	drifter_kill_astro_01_hero_3d = 
 	{
@@ -1328,7 +1328,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_bebop_02.vsnd",
 		]
-		vsnd_duration = 2.002750
+		vsnd_duration = 2.00275
 	}
 	drifter_kill_bebop_03_hero_3d = 
 	{
@@ -1378,7 +1378,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_bookworm_02.vsnd",
 		]
-		vsnd_duration = 2.268000
+		vsnd_duration = 2.268
 	}
 	drifter_kill_bookworm_03_alt_hero_3d = 
 	{
@@ -1418,7 +1418,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_chrono_01.vsnd",
 		]
-		vsnd_duration = 2.472250
+		vsnd_duration = 2.47225
 	}
 	drifter_kill_chrono_02_hero_3d = 
 	{
@@ -1528,7 +1528,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_dynamo_02.vsnd",
 		]
-		vsnd_duration = 5.893500
+		vsnd_duration = 5.8935
 	}
 	drifter_kill_dynamo_03_hero_3d = 
 	{
@@ -1848,7 +1848,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_hornet_04.vsnd",
 		]
-		vsnd_duration = 4.110750
+		vsnd_duration = 4.11075
 	}
 	drifter_kill_hornet_05_hero_3d = 
 	{
@@ -1938,7 +1938,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_kelvin_03.vsnd",
 		]
-		vsnd_duration = 1.972750
+		vsnd_duration = 1.97275
 	}
 	drifter_kill_kelvin_04_hero_3d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_kelvin_04.vsnd",
 		]
-		vsnd_duration = 2.953250
+		vsnd_duration = 2.95325
 	}
 	drifter_kill_kelvin_05_hero_3d = 
 	{
@@ -2008,7 +2008,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_krill_05.vsnd",
 		]
-		vsnd_duration = 2.632813
+		vsnd_duration = 2.632812
 	}
 	drifter_kill_lash_01_hero_3d = 
 	{
@@ -2048,7 +2048,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_lash_04.vsnd",
 		]
-		vsnd_duration = 2.454750
+		vsnd_duration = 2.45475
 	}
 	drifter_kill_lash_05_hero_3d = 
 	{
@@ -2138,7 +2138,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_mirage_03.vsnd",
 		]
-		vsnd_duration = 2.270750
+		vsnd_duration = 2.27075
 	}
 	drifter_kill_mirage_04_hero_3d = 
 	{
@@ -2168,7 +2168,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_nano_01.vsnd",
 		]
-		vsnd_duration = 2.481500
+		vsnd_duration = 2.4815
 	}
 	drifter_kill_nano_02_hero_3d = 
 	{
@@ -2208,7 +2208,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_nano_05.vsnd",
 		]
-		vsnd_duration = 3.824750
+		vsnd_duration = 3.82475
 	}
 	drifter_kill_orion_01_hero_3d = 
 	{
@@ -2278,7 +2278,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_priest_02.vsnd",
 		]
-		vsnd_duration = 2.509750
+		vsnd_duration = 2.50975
 	}
 	drifter_kill_priest_03_hero_3d = 
 	{
@@ -2588,7 +2588,7 @@
 		[
 			"sounds/vo/drifter/drifter_kill_viper_03.vsnd",
 		]
-		vsnd_duration = 2.056750
+		vsnd_duration = 2.05675
 	}
 	drifter_kill_viper_04_hero_3d = 
 	{
@@ -2918,7 +2918,7 @@
 		[
 			"sounds/vo/drifter/drifter_match_start_drifter_atlas_convo01_01.vsnd",
 		]
-		vsnd_duration = 1.641000
+		vsnd_duration = 1.641
 	}
 	drifter_match_start_drifter_atlas_convo01_03_hero_zipline_3d = 
 	{
@@ -2948,7 +2948,7 @@
 		[
 			"sounds/vo/drifter/drifter_match_start_drifter_atlas_convo02_01.vsnd",
 		]
-		vsnd_duration = 3.403250
+		vsnd_duration = 3.40325
 	}
 	drifter_match_start_drifter_atlas_convo02_03_hero_zipline_3d = 
 	{
@@ -3118,7 +3118,7 @@
 		[
 			"sounds/vo/drifter/drifter_match_start_drifter_dynamo_convo02_02.vsnd",
 		]
-		vsnd_duration = 6.590750
+		vsnd_duration = 6.59075
 	}
 	drifter_match_start_drifter_dynamo_convo03_02_hero_zipline_3d = 
 	{
@@ -3398,7 +3398,7 @@
 		[
 			"sounds/vo/drifter/drifter_match_start_drifter_inferno_convo03_02.vsnd",
 		]
-		vsnd_duration = 2.135250
+		vsnd_duration = 2.13525
 	}
 	drifter_match_start_drifter_inferno_convo03_04_hero_zipline_3d = 
 	{
@@ -3858,7 +3858,7 @@
 		[
 			"sounds/vo/drifter/drifter_match_start_drifter_wraith_convo02_02.vsnd",
 		]
-		vsnd_duration = 2.585750
+		vsnd_duration = 2.58575
 	}
 	drifter_match_start_drifter_wraith_convo03_02_hero_zipline_3d = 
 	{
@@ -3878,7 +3878,7 @@
 		[
 			"sounds/vo/drifter/drifter_match_start_drifter_wraith_convo03_04.vsnd",
 		]
-		vsnd_duration = 2.571000
+		vsnd_duration = 2.571
 	}
 	drifter_pain_big_01_emote_pain_3d = 
 	{
@@ -3918,7 +3918,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_pain_big_04.vsnd",
 		]
-		vsnd_duration = 0.758000
+		vsnd_duration = 0.758
 	}
 	drifter_pain_big_05_emote_pain_3d = 
 	{
@@ -3968,7 +3968,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_pain_death_02.vsnd",
 		]
-		vsnd_duration = 0.708500
+		vsnd_duration = 0.7085
 	}
 	drifter_pain_death_02_emote_pain_3d = 
 	{
@@ -3978,7 +3978,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_pain_death_02.vsnd",
 		]
-		vsnd_duration = 0.708500
+		vsnd_duration = 0.7085
 	}
 	drifter_pain_death_03_emote_death_3d = 
 	{
@@ -4008,7 +4008,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_pain_death_04.vsnd",
 		]
-		vsnd_duration = 1.353000
+		vsnd_duration = 1.353
 	}
 	drifter_pain_death_04_emote_pain_3d = 
 	{
@@ -4018,7 +4018,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_pain_death_04.vsnd",
 		]
-		vsnd_duration = 1.353000
+		vsnd_duration = 1.353
 	}
 	drifter_pain_death_05_emote_death_3d = 
 	{
@@ -4028,7 +4028,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_pain_death_05.vsnd",
 		]
-		vsnd_duration = 0.657500
+		vsnd_duration = 0.6575
 	}
 	drifter_pain_death_05_emote_pain_3d = 
 	{
@@ -4038,7 +4038,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_pain_death_05.vsnd",
 		]
-		vsnd_duration = 0.657500
+		vsnd_duration = 0.6575
 	}
 	drifter_pain_death_06_emote_death_3d = 
 	{
@@ -4048,7 +4048,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_pain_death_06.vsnd",
 		]
-		vsnd_duration = 0.825750
+		vsnd_duration = 0.82575
 	}
 	drifter_pain_death_06_emote_pain_3d = 
 	{
@@ -4058,7 +4058,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_pain_death_06.vsnd",
 		]
-		vsnd_duration = 0.825750
+		vsnd_duration = 0.82575
 	}
 	drifter_pain_death_07_emote_death_3d = 
 	{
@@ -4128,7 +4128,7 @@
 		[
 			"sounds/vo/drifter/emote/drifter_pain_small_04.vsnd",
 		]
-		vsnd_duration = 0.677500
+		vsnd_duration = 0.6775
 	}
 	drifter_pain_small_05_emote_pain_3d = 
 	{
@@ -4198,7 +4198,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ability2_not_ready.vsnd",
 		]
-		vsnd_duration = 2.043500
+		vsnd_duration = 2.0435
 	}
 	drifter_ping_ability3_almost_ready_ping_2d = 
 	{
@@ -4208,7 +4208,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ability3_almost_ready.vsnd",
 		]
-		vsnd_duration = 2.205000
+		vsnd_duration = 2.205
 	}
 	drifter_ping_ability3_not_ready_ping_2d = 
 	{
@@ -4218,7 +4218,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ability3_not_ready.vsnd",
 		]
-		vsnd_duration = 1.589500
+		vsnd_duration = 1.5895
 	}
 	drifter_ping_ability4_almost_ready_ping_2d = 
 	{
@@ -4278,7 +4278,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_astro_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.660000
+		vsnd_duration = 1.66
 	}
 	drifter_ping_astro_check_items_ping_2d = 
 	{
@@ -4318,7 +4318,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_astro_missing_01.vsnd",
 		]
-		vsnd_duration = 1.642500
+		vsnd_duration = 1.6425
 	}
 	drifter_ping_astro_on_top_of_garage_ping_2d = 
 	{
@@ -4328,7 +4328,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_astro_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.741000
+		vsnd_duration = 1.741
 	}
 	drifter_ping_astro_on_top_of_mid_ping_2d = 
 	{
@@ -4378,7 +4378,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_atlas_check_items.vsnd",
 		]
-		vsnd_duration = 1.592000
+		vsnd_duration = 1.592
 	}
 	drifter_ping_atlas_dead_ping_2d = 
 	{
@@ -4448,7 +4448,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_atlas_was_here.vsnd",
 		]
-		vsnd_duration = 1.096500
+		vsnd_duration = 1.0965
 	}
 	drifter_ping_attack_astro_ping_2d = 
 	{
@@ -4458,7 +4458,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_astro.vsnd",
 		]
-		vsnd_duration = 1.639500
+		vsnd_duration = 1.6395
 	}
 	drifter_ping_attack_atlas_ping_2d = 
 	{
@@ -4548,7 +4548,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_dynamo.vsnd",
 		]
-		vsnd_duration = 1.597000
+		vsnd_duration = 1.597
 	}
 	drifter_ping_attack_enemy_avatar_ping_2d = 
 	{
@@ -4588,7 +4588,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_fortuna.vsnd",
 		]
-		vsnd_duration = 1.418000
+		vsnd_duration = 1.418
 	}
 	drifter_ping_attack_frank_ping_2d = 
 	{
@@ -4618,7 +4618,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.424500
+		vsnd_duration = 1.4245
 	}
 	drifter_ping_attack_graf_ping_2d = 
 	{
@@ -4628,7 +4628,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_graf.vsnd",
 		]
-		vsnd_duration = 1.285000
+		vsnd_duration = 1.285
 	}
 	drifter_ping_attack_haze_ping_2d = 
 	{
@@ -4678,7 +4678,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_kelvin.vsnd",
 		]
-		vsnd_duration = 1.613000
+		vsnd_duration = 1.613
 	}
 	drifter_ping_attack_krill_ping_2d = 
 	{
@@ -4688,7 +4688,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_krill.vsnd",
 		]
-		vsnd_duration = 1.300000
+		vsnd_duration = 1.3
 	}
 	drifter_ping_attack_lash_ping_2d = 
 	{
@@ -4708,7 +4708,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_magician.vsnd",
 		]
-		vsnd_duration = 1.468500
+		vsnd_duration = 1.4685
 	}
 	drifter_ping_attack_mirage_ping_2d = 
 	{
@@ -4728,7 +4728,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_nano.vsnd",
 		]
-		vsnd_duration = 1.411500
+		vsnd_duration = 1.4115
 	}
 	drifter_ping_attack_orion_ping_2d = 
 	{
@@ -4738,7 +4738,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_orion.vsnd",
 		]
-		vsnd_duration = 1.760000
+		vsnd_duration = 1.76
 	}
 	drifter_ping_attack_priest_ping_2d = 
 	{
@@ -4828,7 +4828,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_tengu.vsnd",
 		]
-		vsnd_duration = 1.505500
+		vsnd_duration = 1.5055
 	}
 	drifter_ping_attack_tvspirit_ping_2d = 
 	{
@@ -4838,7 +4838,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_attack_tvspirit.vsnd",
 		]
-		vsnd_duration = 1.686000
+		vsnd_duration = 1.686
 	}
 	drifter_ping_attack_vampirebat_ping_2d = 
 	{
@@ -4908,7 +4908,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_avatar_under_attack.vsnd",
 		]
-		vsnd_duration = 1.464500
+		vsnd_duration = 1.4645
 	}
 	drifter_ping_be_back_soon_ping_2d = 
 	{
@@ -4948,7 +4948,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_bebop_dead.vsnd",
 		]
-		vsnd_duration = 1.356000
+		vsnd_duration = 1.356
 	}
 	drifter_ping_bebop_in_mid_ping_2d = 
 	{
@@ -4958,7 +4958,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_bebop_in_mid.vsnd",
 		]
-		vsnd_duration = 1.250500
+		vsnd_duration = 1.2505
 	}
 	drifter_ping_bebop_missing_01_ping_2d = 
 	{
@@ -4968,7 +4968,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_bebop_missing_01.vsnd",
 		]
-		vsnd_duration = 1.391000
+		vsnd_duration = 1.391
 	}
 	drifter_ping_bebop_on_top_of_garage_ping_2d = 
 	{
@@ -5008,7 +5008,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_bebop_was_here.vsnd",
 		]
-		vsnd_duration = 0.949000
+		vsnd_duration = 0.949
 	}
 	drifter_ping_blue_help_01_ping_2d = 
 	{
@@ -5018,7 +5018,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_blue_help_01.vsnd",
 		]
-		vsnd_duration = 1.018000
+		vsnd_duration = 1.018
 	}
 	drifter_ping_blue_help_02_ping_2d = 
 	{
@@ -5148,7 +5148,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_atlas.vsnd",
 		]
-		vsnd_duration = 1.401000
+		vsnd_duration = 1.401
 	}
 	drifter_ping_can_heal_bebop_ping_2d = 
 	{
@@ -5168,7 +5168,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.393250
+		vsnd_duration = 1.39325
 	}
 	drifter_ping_can_heal_chrono_ping_2d = 
 	{
@@ -5208,7 +5208,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_forge.vsnd",
 		]
-		vsnd_duration = 1.526500
+		vsnd_duration = 1.5265
 	}
 	drifter_ping_can_heal_frank_ping_2d = 
 	{
@@ -5248,7 +5248,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_haze.vsnd",
 		]
-		vsnd_duration = 1.425500
+		vsnd_duration = 1.4255
 	}
 	drifter_ping_can_heal_hornet_ping_2d = 
 	{
@@ -5278,7 +5278,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_kelvin.vsnd",
 		]
-		vsnd_duration = 1.408500
+		vsnd_duration = 1.4085
 	}
 	drifter_ping_can_heal_krill_ping_2d = 
 	{
@@ -5288,7 +5288,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_krill.vsnd",
 		]
-		vsnd_duration = 1.310000
+		vsnd_duration = 1.31
 	}
 	drifter_ping_can_heal_lash_ping_2d = 
 	{
@@ -5308,7 +5308,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_magician.vsnd",
 		]
-		vsnd_duration = 1.625500
+		vsnd_duration = 1.6255
 	}
 	drifter_ping_can_heal_mirage_ping_2d = 
 	{
@@ -5318,7 +5318,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_mirage.vsnd",
 		]
-		vsnd_duration = 1.504000
+		vsnd_duration = 1.504
 	}
 	drifter_ping_can_heal_nano_ping_2d = 
 	{
@@ -5338,7 +5338,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_orion.vsnd",
 		]
-		vsnd_duration = 1.716000
+		vsnd_duration = 1.716
 	}
 	drifter_ping_can_heal_priest_ping_2d = 
 	{
@@ -5388,7 +5388,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_synth.vsnd",
 		]
-		vsnd_duration = 1.408500
+		vsnd_duration = 1.4085
 	}
 	drifter_ping_can_heal_tengu_ping_2d = 
 	{
@@ -5398,7 +5398,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_tengu.vsnd",
 		]
-		vsnd_duration = 1.558500
+		vsnd_duration = 1.5585
 	}
 	drifter_ping_can_heal_vampirebat_ping_2d = 
 	{
@@ -5428,7 +5428,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_viscous.vsnd",
 		]
-		vsnd_duration = 1.517000
+		vsnd_duration = 1.517
 	}
 	drifter_ping_can_heal_warden_ping_2d = 
 	{
@@ -5448,7 +5448,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_can_heal_wraith.vsnd",
 		]
-		vsnd_duration = 1.664000
+		vsnd_duration = 1.664
 	}
 	drifter_ping_can_heal_yamato_ping_2d = 
 	{
@@ -5488,7 +5488,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_astro_03.vsnd",
 		]
-		vsnd_duration = 1.246500
+		vsnd_duration = 1.2465
 	}
 	drifter_ping_careful_atlas_01_ping_2d = 
 	{
@@ -5518,7 +5518,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_atlas_03.vsnd",
 		]
-		vsnd_duration = 1.182000
+		vsnd_duration = 1.182
 	}
 	drifter_ping_careful_bebop_01_ping_2d = 
 	{
@@ -5528,7 +5528,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_bebop_01.vsnd",
 		]
-		vsnd_duration = 1.373000
+		vsnd_duration = 1.373
 	}
 	drifter_ping_careful_bebop_02_ping_2d = 
 	{
@@ -5558,7 +5558,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_boho_01.vsnd",
 		]
-		vsnd_duration = 1.613500
+		vsnd_duration = 1.6135
 	}
 	drifter_ping_careful_bookworm_01_alt_ping_2d = 
 	{
@@ -5578,7 +5578,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_bookworm_02_alt.vsnd",
 		]
-		vsnd_duration = 1.374250
+		vsnd_duration = 1.37425
 	}
 	drifter_ping_careful_bookworm_03_alt_ping_2d = 
 	{
@@ -5658,7 +5658,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_druid_01.vsnd",
 		]
-		vsnd_duration = 1.353500
+		vsnd_duration = 1.3535
 	}
 	drifter_ping_careful_dynamo_01_ping_2d = 
 	{
@@ -5688,7 +5688,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_dynamo_03.vsnd",
 		]
-		vsnd_duration = 1.360000
+		vsnd_duration = 1.36
 	}
 	drifter_ping_careful_forge_01_ping_2d = 
 	{
@@ -5868,7 +5868,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_hornet_01.vsnd",
 		]
-		vsnd_duration = 1.501500
+		vsnd_duration = 1.5015
 	}
 	drifter_ping_careful_hornet_02_ping_2d = 
 	{
@@ -5898,7 +5898,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_incubus_01.vsnd",
 		]
-		vsnd_duration = 1.776000
+		vsnd_duration = 1.776
 	}
 	drifter_ping_careful_inferno_01_ping_2d = 
 	{
@@ -5978,7 +5978,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_krill_02.vsnd",
 		]
-		vsnd_duration = 1.366500
+		vsnd_duration = 1.3665
 	}
 	drifter_ping_careful_krill_03_ping_2d = 
 	{
@@ -5988,7 +5988,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_krill_03.vsnd",
 		]
-		vsnd_duration = 1.105500
+		vsnd_duration = 1.1055
 	}
 	drifter_ping_careful_lash_01_ping_2d = 
 	{
@@ -6028,7 +6028,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_magician_01.vsnd",
 		]
-		vsnd_duration = 1.431500
+		vsnd_duration = 1.4315
 	}
 	drifter_ping_careful_magician_02_ping_2d = 
 	{
@@ -6118,7 +6118,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_orion_01.vsnd",
 		]
-		vsnd_duration = 1.662500
+		vsnd_duration = 1.6625
 	}
 	drifter_ping_careful_orion_02_ping_2d = 
 	{
@@ -6128,7 +6128,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_orion_02.vsnd",
 		]
-		vsnd_duration = 1.517000
+		vsnd_duration = 1.517
 	}
 	drifter_ping_careful_orion_03_ping_2d = 
 	{
@@ -6258,7 +6258,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_slork_02.vsnd",
 		]
-		vsnd_duration = 1.207000
+		vsnd_duration = 1.207
 	}
 	drifter_ping_careful_slork_03_ping_2d = 
 	{
@@ -6368,7 +6368,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_vampirebat_01.vsnd",
 		]
-		vsnd_duration = 2.015000
+		vsnd_duration = 2.015
 	}
 	drifter_ping_careful_vampirebat_02_ping_2d = 
 	{
@@ -6398,7 +6398,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_viper_01.vsnd",
 		]
-		vsnd_duration = 1.250000
+		vsnd_duration = 1.25
 	}
 	drifter_ping_careful_viper_02_ping_2d = 
 	{
@@ -6408,7 +6408,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_viper_02.vsnd",
 		]
-		vsnd_duration = 1.204000
+		vsnd_duration = 1.204
 	}
 	drifter_ping_careful_viper_03_ping_2d = 
 	{
@@ -6448,7 +6448,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_viscous_03.vsnd",
 		]
-		vsnd_duration = 1.238000
+		vsnd_duration = 1.238
 	}
 	drifter_ping_careful_warden_01_ping_2d = 
 	{
@@ -6488,7 +6488,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_wraith_01.vsnd",
 		]
-		vsnd_duration = 1.163000
+		vsnd_duration = 1.163
 	}
 	drifter_ping_careful_wraith_02_ping_2d = 
 	{
@@ -6498,7 +6498,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_wraith_02.vsnd",
 		]
-		vsnd_duration = 1.059500
+		vsnd_duration = 1.0595
 	}
 	drifter_ping_careful_wraith_03_ping_2d = 
 	{
@@ -6508,7 +6508,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_wraith_03.vsnd",
 		]
-		vsnd_duration = 1.125500
+		vsnd_duration = 1.1255
 	}
 	drifter_ping_careful_yamato_01_ping_2d = 
 	{
@@ -6518,7 +6518,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_yamato_01.vsnd",
 		]
-		vsnd_duration = 1.347500
+		vsnd_duration = 1.3475
 	}
 	drifter_ping_careful_yamato_02_ping_2d = 
 	{
@@ -6528,7 +6528,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_careful_yamato_02.vsnd",
 		]
-		vsnd_duration = 1.370000
+		vsnd_duration = 1.37
 	}
 	drifter_ping_careful_yamato_03_ping_2d = 
 	{
@@ -6588,7 +6588,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_chrono_missing_01.vsnd",
 		]
-		vsnd_duration = 1.534000
+		vsnd_duration = 1.534
 	}
 	drifter_ping_chrono_on_top_of_garage_ping_2d = 
 	{
@@ -6608,7 +6608,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_chrono_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.405000
+		vsnd_duration = 1.405
 	}
 	drifter_ping_chrono_under_garage_ping_2d = 
 	{
@@ -6618,7 +6618,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_chrono_under_garage.vsnd",
 		]
-		vsnd_duration = 1.719500
+		vsnd_duration = 1.7195
 	}
 	drifter_ping_chrono_was_here_ping_2d = 
 	{
@@ -6628,7 +6628,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_chrono_was_here.vsnd",
 		]
-		vsnd_duration = 1.151000
+		vsnd_duration = 1.151
 	}
 	drifter_ping_clear_troopers_ping_2d = 
 	{
@@ -6638,7 +6638,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_clear_troopers.vsnd",
 		]
-		vsnd_duration = 1.511500
+		vsnd_duration = 1.5115
 	}
 	drifter_ping_danger_area_ping_2d = 
 	{
@@ -6648,7 +6648,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_danger_area.vsnd",
 		]
-		vsnd_duration = 1.432000
+		vsnd_duration = 1.432
 	}
 	drifter_ping_defend_base_01_ping_2d = 
 	{
@@ -6708,7 +6708,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_defend_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.124750
+		vsnd_duration = 1.12475
 	}
 	drifter_ping_defend_yellow_02_ping_2d = 
 	{
@@ -6718,7 +6718,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_defend_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.041000
+		vsnd_duration = 1.041
 	}
 	drifter_ping_doorman_almost_respawn_ping_2d = 
 	{
@@ -6828,7 +6828,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_dynamo_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.688000
+		vsnd_duration = 1.688
 	}
 	drifter_ping_dynamo_check_items_ping_2d = 
 	{
@@ -6938,7 +6938,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_forge_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.991000
+		vsnd_duration = 1.991
 	}
 	drifter_ping_forge_check_items_ping_2d = 
 	{
@@ -6978,7 +6978,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_forge_missing_01.vsnd",
 		]
-		vsnd_duration = 1.726000
+		vsnd_duration = 1.726
 	}
 	drifter_ping_forge_on_top_of_garage_ping_2d = 
 	{
@@ -6988,7 +6988,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_forge_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.773500
+		vsnd_duration = 1.7735
 	}
 	drifter_ping_forge_on_top_of_mid_ping_2d = 
 	{
@@ -7008,7 +7008,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_forge_under_garage.vsnd",
 		]
-		vsnd_duration = 1.645500
+		vsnd_duration = 1.6455
 	}
 	drifter_ping_forge_was_here_ping_2d = 
 	{
@@ -7018,7 +7018,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_forge_was_here.vsnd",
 		]
-		vsnd_duration = 1.096500
+		vsnd_duration = 1.0965
 	}
 	drifter_ping_fortuna_missing_01_ping_2d = 
 	{
@@ -7178,7 +7178,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ghost_missing_01.vsnd",
 		]
-		vsnd_duration = 1.470000
+		vsnd_duration = 1.47
 	}
 	drifter_ping_ghost_on_top_of_garage_ping_2d = 
 	{
@@ -7188,7 +7188,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ghost_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.671500
+		vsnd_duration = 1.6715
 	}
 	drifter_ping_ghost_on_top_of_mid_ping_2d = 
 	{
@@ -7268,7 +7268,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_gigawatt_missing_01.vsnd",
 		]
-		vsnd_duration = 1.686000
+		vsnd_duration = 1.686
 	}
 	drifter_ping_gigawatt_on_top_of_garage_ping_2d = 
 	{
@@ -7328,7 +7328,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_glitch_not_ready.vsnd",
 		]
-		vsnd_duration = 1.769000
+		vsnd_duration = 1.769
 	}
 	drifter_ping_going_in_01_ping_2d = 
 	{
@@ -7338,7 +7338,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_going_in_01.vsnd",
 		]
-		vsnd_duration = 1.335500
+		vsnd_duration = 1.3355
 	}
 	drifter_ping_going_in_ping_2d = 
 	{
@@ -7358,7 +7358,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_going_shop_01.vsnd",
 		]
-		vsnd_duration = 1.308000
+		vsnd_duration = 1.308
 	}
 	drifter_ping_good_game_03_ping_2d = 
 	{
@@ -7418,7 +7418,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_haze_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.804500
+		vsnd_duration = 1.8045
 	}
 	drifter_ping_haze_check_items_ping_2d = 
 	{
@@ -7428,7 +7428,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_haze_check_items.vsnd",
 		]
-		vsnd_duration = 1.459250
+		vsnd_duration = 1.45925
 	}
 	drifter_ping_haze_dead_ping_2d = 
 	{
@@ -7438,7 +7438,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_haze_dead.vsnd",
 		]
-		vsnd_duration = 1.282500
+		vsnd_duration = 1.2825
 	}
 	drifter_ping_haze_in_mid_ping_2d = 
 	{
@@ -7448,7 +7448,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_haze_in_mid.vsnd",
 		]
-		vsnd_duration = 1.143500
+		vsnd_duration = 1.1435
 	}
 	drifter_ping_haze_missing_01_ping_2d = 
 	{
@@ -7458,7 +7458,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_haze_missing_01.vsnd",
 		]
-		vsnd_duration = 1.643500
+		vsnd_duration = 1.6435
 	}
 	drifter_ping_haze_on_top_of_garage_ping_2d = 
 	{
@@ -7468,7 +7468,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_haze_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.719000
+		vsnd_duration = 1.719
 	}
 	drifter_ping_haze_on_top_of_mid_ping_2d = 
 	{
@@ -7488,7 +7488,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_haze_under_garage.vsnd",
 		]
-		vsnd_duration = 1.544000
+		vsnd_duration = 1.544
 	}
 	drifter_ping_haze_was_here_ping_2d = 
 	{
@@ -7568,7 +7568,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_headed_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.231000
+		vsnd_duration = 1.231
 	}
 	drifter_ping_heal_ready_ping_2d = 
 	{
@@ -7608,7 +7608,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_help_with_idol.vsnd",
 		]
-		vsnd_duration = 1.602000
+		vsnd_duration = 1.602
 	}
 	drifter_ping_hornet_almost_respawn_ping_2d = 
 	{
@@ -7618,7 +7618,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_hornet_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.977500
+		vsnd_duration = 1.9775
 	}
 	drifter_ping_hornet_check_items_ping_2d = 
 	{
@@ -7648,7 +7648,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_hornet_in_mid.vsnd",
 		]
-		vsnd_duration = 1.461000
+		vsnd_duration = 1.461
 	}
 	drifter_ping_hornet_missing_01_ping_2d = 
 	{
@@ -7678,7 +7678,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_hornet_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.652500
+		vsnd_duration = 1.6525
 	}
 	drifter_ping_hornet_under_garage_ping_2d = 
 	{
@@ -7698,7 +7698,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_hornet_was_here.vsnd",
 		]
-		vsnd_duration = 1.372250
+		vsnd_duration = 1.37225
 	}
 	drifter_ping_ignore_astro_ping_2d = 
 	{
@@ -7718,7 +7718,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ignore_atlas.vsnd",
 		]
-		vsnd_duration = 1.444000
+		vsnd_duration = 1.444
 	}
 	drifter_ping_ignore_bebop_ping_2d = 
 	{
@@ -7868,7 +7868,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ignore_lash.vsnd",
 		]
-		vsnd_duration = 1.193000
+		vsnd_duration = 1.193
 	}
 	drifter_ping_ignore_magician_ping_2d = 
 	{
@@ -7898,7 +7898,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ignore_nano.vsnd",
 		]
-		vsnd_duration = 1.298500
+		vsnd_duration = 1.2985
 	}
 	drifter_ping_ignore_orion_ping_2d = 
 	{
@@ -7978,7 +7978,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ignore_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.063250
+		vsnd_duration = 1.06325
 	}
 	drifter_ping_ignore_viper_ping_2d = 
 	{
@@ -7998,7 +7998,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ignore_viscous.vsnd",
 		]
-		vsnd_duration = 1.428000
+		vsnd_duration = 1.428
 	}
 	drifter_ping_ignore_warden_ping_2d = 
 	{
@@ -8028,7 +8028,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_ignore_yamato.vsnd",
 		]
-		vsnd_duration = 1.434500
+		vsnd_duration = 1.4345
 	}
 	drifter_ping_incubus_missing_01_ping_2d = 
 	{
@@ -8048,7 +8048,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_inferno_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.029500
+		vsnd_duration = 2.0295
 	}
 	drifter_ping_inferno_check_items_ping_2d = 
 	{
@@ -8078,7 +8078,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_inferno_in_mid.vsnd",
 		]
-		vsnd_duration = 1.396250
+		vsnd_duration = 1.39625
 	}
 	drifter_ping_inferno_missing_01_ping_2d = 
 	{
@@ -8088,7 +8088,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_inferno_missing_01.vsnd",
 		]
-		vsnd_duration = 1.910000
+		vsnd_duration = 1.91
 	}
 	drifter_ping_inferno_on_top_of_garage_ping_2d = 
 	{
@@ -8098,7 +8098,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_inferno_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.880500
+		vsnd_duration = 1.8805
 	}
 	drifter_ping_inferno_on_top_of_mid_ping_2d = 
 	{
@@ -8108,7 +8108,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_inferno_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.635000
+		vsnd_duration = 1.635
 	}
 	drifter_ping_inferno_under_garage_ping_2d = 
 	{
@@ -8128,7 +8128,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_inferno_was_here.vsnd",
 		]
-		vsnd_duration = 1.288000
+		vsnd_duration = 1.288
 	}
 	drifter_ping_item_almost_ready_ping_2d = 
 	{
@@ -8158,7 +8158,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_jar_call_01.vsnd",
 		]
-		vsnd_duration = 1.503000
+		vsnd_duration = 1.503
 	}
 	drifter_ping_jar_call_02_ping_2d = 
 	{
@@ -8168,7 +8168,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_jar_call_02.vsnd",
 		]
-		vsnd_duration = 1.536000
+		vsnd_duration = 1.536
 	}
 	drifter_ping_kelvin_almost_respawn_ping_2d = 
 	{
@@ -8178,7 +8178,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_kelvin_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.773000
+		vsnd_duration = 1.773
 	}
 	drifter_ping_kelvin_check_items_ping_2d = 
 	{
@@ -8218,7 +8218,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_kelvin_missing_01.vsnd",
 		]
-		vsnd_duration = 1.571000
+		vsnd_duration = 1.571
 	}
 	drifter_ping_kelvin_on_top_of_garage_ping_2d = 
 	{
@@ -8238,7 +8238,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_kelvin_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.378500
+		vsnd_duration = 1.3785
 	}
 	drifter_ping_kelvin_under_garage_ping_2d = 
 	{
@@ -8258,7 +8258,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_kelvin_was_here.vsnd",
 		]
-		vsnd_duration = 1.226000
+		vsnd_duration = 1.226
 	}
 	drifter_ping_kncokdown_almost_ready_ping_2d = 
 	{
@@ -8308,7 +8308,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_krill_dead.vsnd",
 		]
-		vsnd_duration = 1.389500
+		vsnd_duration = 1.3895
 	}
 	drifter_ping_krill_in_mid_ping_2d = 
 	{
@@ -8348,7 +8348,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_krill_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.384750
+		vsnd_duration = 1.38475
 	}
 	drifter_ping_krill_under_garage_ping_2d = 
 	{
@@ -8358,7 +8358,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_krill_under_garage.vsnd",
 		]
-		vsnd_duration = 1.644000
+		vsnd_duration = 1.644
 	}
 	drifter_ping_krill_was_here_ping_2d = 
 	{
@@ -8368,7 +8368,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_krill_was_here.vsnd",
 		]
-		vsnd_duration = 1.256000
+		vsnd_duration = 1.256
 	}
 	drifter_ping_lash_almost_respawn_ping_2d = 
 	{
@@ -8388,7 +8388,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_lash_check_items.vsnd",
 		]
-		vsnd_duration = 1.670000
+		vsnd_duration = 1.67
 	}
 	drifter_ping_lash_dead_ping_2d = 
 	{
@@ -8438,7 +8438,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_lash_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.357000
+		vsnd_duration = 1.357
 	}
 	drifter_ping_lash_under_garage_ping_2d = 
 	{
@@ -8468,7 +8468,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_lets_go_blue_alt.vsnd",
 		]
-		vsnd_duration = 1.532000
+		vsnd_duration = 1.532
 	}
 	drifter_ping_lets_go_blue_ping_2d = 
 	{
@@ -8478,7 +8478,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_lets_go_blue.vsnd",
 		]
-		vsnd_duration = 1.092000
+		vsnd_duration = 1.092
 	}
 	drifter_ping_lets_go_green_alt_ping_2d = 
 	{
@@ -8498,7 +8498,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_lets_go_green.vsnd",
 		]
-		vsnd_duration = 1.280500
+		vsnd_duration = 1.2805
 	}
 	drifter_ping_lets_go_yellow_alt_ping_2d = 
 	{
@@ -8548,7 +8548,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_magician_check_items.vsnd",
 		]
-		vsnd_duration = 1.897000
+		vsnd_duration = 1.897
 	}
 	drifter_ping_magician_dead_ping_2d = 
 	{
@@ -8588,7 +8588,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_magician_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.829000
+		vsnd_duration = 1.829
 	}
 	drifter_ping_magician_on_top_of_mid_ping_2d = 
 	{
@@ -8628,7 +8628,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_meet_here.vsnd",
 		]
-		vsnd_duration = 1.244500
+		vsnd_duration = 1.2445
 	}
 	drifter_ping_mirage_almost_respawn_ping_2d = 
 	{
@@ -8658,7 +8658,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_mirage_dead.vsnd",
 		]
-		vsnd_duration = 1.602500
+		vsnd_duration = 1.6025
 	}
 	drifter_ping_mirage_in_mid_ping_2d = 
 	{
@@ -8708,7 +8708,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_mirage_under_garage.vsnd",
 		]
-		vsnd_duration = 1.902000
+		vsnd_duration = 1.902
 	}
 	drifter_ping_mirage_was_here_ping_2d = 
 	{
@@ -8718,7 +8718,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_mirage_was_here.vsnd",
 		]
-		vsnd_duration = 1.390500
+		vsnd_duration = 1.3905
 	}
 	drifter_ping_missing_blue_01_ping_2d = 
 	{
@@ -8768,7 +8768,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_missing_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.283000
+		vsnd_duration = 1.283
 	}
 	drifter_ping_missing_yellow_02_ping_2d = 
 	{
@@ -8778,7 +8778,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_missing_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.163000
+		vsnd_duration = 1.163
 	}
 	drifter_ping_nano_almost_respawn_ping_2d = 
 	{
@@ -8788,7 +8788,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_nano_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.723500
+		vsnd_duration = 1.7235
 	}
 	drifter_ping_nano_check_items_ping_2d = 
 	{
@@ -8798,7 +8798,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_nano_check_items.vsnd",
 		]
-		vsnd_duration = 1.920500
+		vsnd_duration = 1.9205
 	}
 	drifter_ping_nano_dead_ping_2d = 
 	{
@@ -8818,7 +8818,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_nano_in_mid.vsnd",
 		]
-		vsnd_duration = 1.174500
+		vsnd_duration = 1.1745
 	}
 	drifter_ping_nano_missing_01_ping_2d = 
 	{
@@ -8828,7 +8828,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_nano_missing_01.vsnd",
 		]
-		vsnd_duration = 1.720500
+		vsnd_duration = 1.7205
 	}
 	drifter_ping_nano_on_top_of_garage_ping_2d = 
 	{
@@ -8848,7 +8848,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_nano_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.464500
+		vsnd_duration = 1.4645
 	}
 	drifter_ping_nano_under_garage_ping_2d = 
 	{
@@ -8898,7 +8898,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_need_help_blue_alt.vsnd",
 		]
-		vsnd_duration = 1.615000
+		vsnd_duration = 1.615
 	}
 	drifter_ping_need_help_blue_ping_2d = 
 	{
@@ -8928,7 +8928,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_need_help_green.vsnd",
 		]
-		vsnd_duration = 1.341500
+		vsnd_duration = 1.3415
 	}
 	drifter_ping_need_help_yellow_alt_ping_2d = 
 	{
@@ -8948,7 +8948,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_need_help_yellow.vsnd",
 		]
-		vsnd_duration = 1.267000
+		vsnd_duration = 1.267
 	}
 	drifter_ping_need_plan_ping_2d = 
 	{
@@ -8968,7 +8968,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_negative_01.vsnd",
 		]
-		vsnd_duration = 0.689500
+		vsnd_duration = 0.6895
 	}
 	drifter_ping_negative_02_ping_2d = 
 	{
@@ -9008,7 +9008,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_no_teamfight.vsnd",
 		]
-		vsnd_duration = 1.880500
+		vsnd_duration = 1.8805
 	}
 	drifter_ping_on_way_ping_2d = 
 	{
@@ -9038,7 +9038,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_orion_check_items.vsnd",
 		]
-		vsnd_duration = 1.889500
+		vsnd_duration = 1.8895
 	}
 	drifter_ping_orion_dead_ping_2d = 
 	{
@@ -9098,7 +9098,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_orion_under_garage.vsnd",
 		]
-		vsnd_duration = 1.718000
+		vsnd_duration = 1.718
 	}
 	drifter_ping_orion_was_here_ping_2d = 
 	{
@@ -9248,7 +9248,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_priest_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.786000
+		vsnd_duration = 1.786
 	}
 	drifter_ping_priest_check_items_ping_2d = 
 	{
@@ -9258,7 +9258,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_priest_check_items.vsnd",
 		]
-		vsnd_duration = 1.706750
+		vsnd_duration = 1.70675
 	}
 	drifter_ping_priest_dead_ping_2d = 
 	{
@@ -9298,7 +9298,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_priest_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.707250
+		vsnd_duration = 1.70725
 	}
 	drifter_ping_priest_on_top_of_mid_ping_2d = 
 	{
@@ -9368,7 +9368,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_punkgoat_in_mid.vsnd",
 		]
-		vsnd_duration = 1.095000
+		vsnd_duration = 1.095
 	}
 	drifter_ping_punkgoat_missing_01_ping_2d = 
 	{
@@ -9378,7 +9378,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_punkgoat_missing_01.vsnd",
 		]
-		vsnd_duration = 1.957000
+		vsnd_duration = 1.957
 	}
 	drifter_ping_punkgoat_on_top_of_garage_ping_2d = 
 	{
@@ -9468,7 +9468,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_push_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.200000
+		vsnd_duration = 1.2
 	}
 	drifter_ping_push_yellow_02_ping_2d = 
 	{
@@ -9568,7 +9568,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_rupture_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.806000
+		vsnd_duration = 1.806
 	}
 	drifter_ping_rupture_not_ready_ping_2d = 
 	{
@@ -9578,7 +9578,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_rupture_not_ready.vsnd",
 		]
-		vsnd_duration = 1.627000
+		vsnd_duration = 1.627
 	}
 	drifter_ping_saw_astro_ping_2d = 
 	{
@@ -9638,7 +9638,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_saw_doorman.vsnd",
 		]
-		vsnd_duration = 1.206500
+		vsnd_duration = 1.2065
 	}
 	drifter_ping_saw_dynamo_ping_2d = 
 	{
@@ -9648,7 +9648,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_saw_dynamo.vsnd",
 		]
-		vsnd_duration = 1.580500
+		vsnd_duration = 1.5805
 	}
 	drifter_ping_saw_forge_ping_2d = 
 	{
@@ -9658,7 +9658,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_saw_forge.vsnd",
 		]
-		vsnd_duration = 1.334000
+		vsnd_duration = 1.334
 	}
 	drifter_ping_saw_frank_ping_2d = 
 	{
@@ -9718,7 +9718,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_saw_inferno.vsnd",
 		]
-		vsnd_duration = 1.390750
+		vsnd_duration = 1.39075
 	}
 	drifter_ping_saw_kelvin_ping_2d = 
 	{
@@ -9758,7 +9758,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_saw_magician.vsnd",
 		]
-		vsnd_duration = 1.333000
+		vsnd_duration = 1.333
 	}
 	drifter_ping_saw_mirage_ping_2d = 
 	{
@@ -9768,7 +9768,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_saw_mirage.vsnd",
 		]
-		vsnd_duration = 1.347000
+		vsnd_duration = 1.347
 	}
 	drifter_ping_saw_nano_ping_2d = 
 	{
@@ -9858,7 +9858,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_saw_them.vsnd",
 		]
-		vsnd_duration = 1.003500
+		vsnd_duration = 1.0035
 	}
 	drifter_ping_saw_vampirebat_ping_2d = 
 	{
@@ -9898,7 +9898,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_saw_warden.vsnd",
 		]
-		vsnd_duration = 1.249500
+		vsnd_duration = 1.2495
 	}
 	drifter_ping_saw_wraith_ping_2d = 
 	{
@@ -9918,7 +9918,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_saw_yamato.vsnd",
 		]
-		vsnd_duration = 1.370500
+		vsnd_duration = 1.3705
 	}
 	drifter_ping_see_astro_on_bridge_ping_2d = 
 	{
@@ -9958,7 +9958,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_atlas_01.vsnd",
 		]
-		vsnd_duration = 1.239000
+		vsnd_duration = 1.239
 	}
 	drifter_ping_see_atlas_on_bridge_ping_2d = 
 	{
@@ -9968,7 +9968,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_atlas_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.281500
+		vsnd_duration = 1.2815
 	}
 	drifter_ping_see_atlas_on_roof_ping_2d = 
 	{
@@ -10078,7 +10078,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_chrono.vsnd",
 		]
-		vsnd_duration = 1.396000
+		vsnd_duration = 1.396
 	}
 	drifter_ping_see_doorman_01_ping_2d = 
 	{
@@ -10128,7 +10128,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_dynamo_01.vsnd",
 		]
-		vsnd_duration = 1.733500
+		vsnd_duration = 1.7335
 	}
 	drifter_ping_see_dynamo_on_bridge_ping_2d = 
 	{
@@ -10138,7 +10138,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_dynamo_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.410250
+		vsnd_duration = 1.41025
 	}
 	drifter_ping_see_dynamo_on_roof_ping_2d = 
 	{
@@ -10148,7 +10148,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_dynamo_on_roof.vsnd",
 		]
-		vsnd_duration = 1.285000
+		vsnd_duration = 1.285
 	}
 	drifter_ping_see_enemy_on_bridge_ping_2d = 
 	{
@@ -10158,7 +10158,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_enemy_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.569500
+		vsnd_duration = 1.5695
 	}
 	drifter_ping_see_enemy_on_roof_ping_2d = 
 	{
@@ -10198,7 +10198,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_forge_on_roof.vsnd",
 		]
-		vsnd_duration = 1.357500
+		vsnd_duration = 1.3575
 	}
 	drifter_ping_see_forge_ping_2d = 
 	{
@@ -10208,7 +10208,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_forge.vsnd",
 		]
-		vsnd_duration = 1.567500
+		vsnd_duration = 1.5675
 	}
 	drifter_ping_see_fortuna_01_ping_2d = 
 	{
@@ -10258,7 +10258,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_ghost_01.vsnd",
 		]
-		vsnd_duration = 1.318500
+		vsnd_duration = 1.3185
 	}
 	drifter_ping_see_ghost_on_bridge_ping_2d = 
 	{
@@ -10268,7 +10268,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_ghost_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.423000
+		vsnd_duration = 1.423
 	}
 	drifter_ping_see_ghost_on_roof_ping_2d = 
 	{
@@ -10328,7 +10328,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_haze_01.vsnd",
 		]
-		vsnd_duration = 1.209000
+		vsnd_duration = 1.209
 	}
 	drifter_ping_see_haze_on_bridge_ping_2d = 
 	{
@@ -10348,7 +10348,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_haze_on_roof.vsnd",
 		]
-		vsnd_duration = 1.170500
+		vsnd_duration = 1.1705
 	}
 	drifter_ping_see_hornet_01_ping_2d = 
 	{
@@ -10388,7 +10388,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_incubus_01.vsnd",
 		]
-		vsnd_duration = 1.489000
+		vsnd_duration = 1.489
 	}
 	drifter_ping_see_inferno_on_bridge_ping_2d = 
 	{
@@ -10418,7 +10418,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_inferno.vsnd",
 		]
-		vsnd_duration = 1.633000
+		vsnd_duration = 1.633
 	}
 	drifter_ping_see_kelvin_01_ping_2d = 
 	{
@@ -10438,7 +10438,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_kelvin_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.361000
+		vsnd_duration = 1.361
 	}
 	drifter_ping_see_kelvin_on_roof_ping_2d = 
 	{
@@ -10458,7 +10458,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_krill_01.vsnd",
 		]
-		vsnd_duration = 1.263000
+		vsnd_duration = 1.263
 	}
 	drifter_ping_see_krill_on_bridge_ping_2d = 
 	{
@@ -10498,7 +10498,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_lash_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.282000
+		vsnd_duration = 1.282
 	}
 	drifter_ping_see_lash_on_roof_ping_2d = 
 	{
@@ -10558,7 +10558,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_mirage_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.329500
+		vsnd_duration = 1.3295
 	}
 	drifter_ping_see_mirage_on_roof_ping_2d = 
 	{
@@ -10568,7 +10568,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_mirage_on_roof.vsnd",
 		]
-		vsnd_duration = 1.313500
+		vsnd_duration = 1.3135
 	}
 	drifter_ping_see_nano_on_bridge_ping_2d = 
 	{
@@ -10598,7 +10598,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_nano.vsnd",
 		]
-		vsnd_duration = 1.536500
+		vsnd_duration = 1.5365
 	}
 	drifter_ping_see_orion_01_ping_2d = 
 	{
@@ -10608,7 +10608,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_orion_01.vsnd",
 		]
-		vsnd_duration = 1.681500
+		vsnd_duration = 1.6815
 	}
 	drifter_ping_see_orion_on_bridge_ping_2d = 
 	{
@@ -10618,7 +10618,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_orion_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.562000
+		vsnd_duration = 1.562
 	}
 	drifter_ping_see_orion_on_roof_ping_2d = 
 	{
@@ -10718,7 +10718,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_shiv_on_roof.vsnd",
 		]
-		vsnd_duration = 1.109000
+		vsnd_duration = 1.109
 	}
 	drifter_ping_see_skyrunner_01_ping_2d = 
 	{
@@ -10908,7 +10908,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_viper_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.230000
+		vsnd_duration = 1.23
 	}
 	drifter_ping_see_viper_on_roof_ping_2d = 
 	{
@@ -10918,7 +10918,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_viper_on_roof.vsnd",
 		]
-		vsnd_duration = 1.140500
+		vsnd_duration = 1.1405
 	}
 	drifter_ping_see_viscous_01_ping_2d = 
 	{
@@ -10948,7 +10948,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_viscous_on_roof.vsnd",
 		]
-		vsnd_duration = 1.340500
+		vsnd_duration = 1.3405
 	}
 	drifter_ping_see_warden_01_ping_2d = 
 	{
@@ -10958,7 +10958,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_warden_01.vsnd",
 		]
-		vsnd_duration = 1.627500
+		vsnd_duration = 1.6275
 	}
 	drifter_ping_see_warden_on_bridge_ping_2d = 
 	{
@@ -10968,7 +10968,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_warden_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.429500
+		vsnd_duration = 1.4295
 	}
 	drifter_ping_see_warden_on_roof_ping_2d = 
 	{
@@ -11018,7 +11018,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_yamato_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.375000
+		vsnd_duration = 1.375
 	}
 	drifter_ping_see_yamato_on_roof_ping_2d = 
 	{
@@ -11028,7 +11028,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_yamato_on_roof.vsnd",
 		]
-		vsnd_duration = 1.359500
+		vsnd_duration = 1.3595
 	}
 	drifter_ping_see_yamato_ping_2d = 
 	{
@@ -11038,7 +11038,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_see_yamato.vsnd",
 		]
-		vsnd_duration = 1.420000
+		vsnd_duration = 1.42
 	}
 	drifter_ping_shiv_almost_respawn_ping_2d = 
 	{
@@ -11048,7 +11048,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_shiv_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.677000
+		vsnd_duration = 1.677
 	}
 	drifter_ping_shiv_check_items_ping_2d = 
 	{
@@ -11118,7 +11118,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_shiv_under_garage.vsnd",
 		]
-		vsnd_duration = 1.570000
+		vsnd_duration = 1.57
 	}
 	drifter_ping_shiv_was_here_ping_2d = 
 	{
@@ -11218,7 +11218,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_slork_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.703000
+		vsnd_duration = 1.703
 	}
 	drifter_ping_slork_on_top_of_mid_ping_2d = 
 	{
@@ -11408,7 +11408,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_stun_ghost_01.vsnd",
 		]
-		vsnd_duration = 1.261000
+		vsnd_duration = 1.261
 	}
 	drifter_ping_stun_gigawatt_01_ping_2d = 
 	{
@@ -11428,7 +11428,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_stun_haze_01.vsnd",
 		]
-		vsnd_duration = 1.172000
+		vsnd_duration = 1.172
 	}
 	drifter_ping_stun_hornet_01_ping_2d = 
 	{
@@ -11438,7 +11438,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_stun_hornet_01.vsnd",
 		]
-		vsnd_duration = 1.317000
+		vsnd_duration = 1.317
 	}
 	drifter_ping_stun_inferno_01_ping_2d = 
 	{
@@ -11448,7 +11448,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_stun_inferno_01.vsnd",
 		]
-		vsnd_duration = 1.349000
+		vsnd_duration = 1.349
 	}
 	drifter_ping_stun_kelvin_01_ping_2d = 
 	{
@@ -11548,7 +11548,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_stun_shiv_01.vsnd",
 		]
-		vsnd_duration = 1.145250
+		vsnd_duration = 1.14525
 	}
 	drifter_ping_stun_slork_01_ping_2d = 
 	{
@@ -11658,7 +11658,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_swan_missing_01.vsnd",
 		]
-		vsnd_duration = 1.896000
+		vsnd_duration = 1.896
 	}
 	drifter_ping_synth_almost_respawn_ping_2d = 
 	{
@@ -11728,7 +11728,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_synth_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.301750
+		vsnd_duration = 1.30175
 	}
 	drifter_ping_synth_under_garage_ping_2d = 
 	{
@@ -11808,7 +11808,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_tengu_check_items.vsnd",
 		]
-		vsnd_duration = 1.697500
+		vsnd_duration = 1.6975
 	}
 	drifter_ping_tengu_dead_ping_2d = 
 	{
@@ -11818,7 +11818,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_tengu_dead.vsnd",
 		]
-		vsnd_duration = 1.363000
+		vsnd_duration = 1.363
 	}
 	drifter_ping_tengu_in_mid_ping_2d = 
 	{
@@ -11878,7 +11878,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_tengu_was_here.vsnd",
 		]
-		vsnd_duration = 1.122250
+		vsnd_duration = 1.12225
 	}
 	drifter_ping_thank_you_01_ping_2d = 
 	{
@@ -11888,7 +11888,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_thank_you_01.vsnd",
 		]
-		vsnd_duration = 1.318000
+		vsnd_duration = 1.318
 	}
 	drifter_ping_thank_you_02_ping_2d = 
 	{
@@ -11908,7 +11908,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_thanks.vsnd",
 		]
-		vsnd_duration = 1.082500
+		vsnd_duration = 1.0825
 	}
 	drifter_ping_they_were_here_ping_2d = 
 	{
@@ -11928,7 +11928,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_theyre_in_mid.vsnd",
 		]
-		vsnd_duration = 1.050000
+		vsnd_duration = 1.05
 	}
 	drifter_ping_theyre_on_top_of_garage_ping_2d = 
 	{
@@ -12008,7 +12008,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_use_ability4_01.vsnd",
 		]
-		vsnd_duration = 1.635000
+		vsnd_duration = 1.635
 	}
 	drifter_ping_use_ability4_02_ping_2d = 
 	{
@@ -12048,7 +12048,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_use_ability4_05.vsnd",
 		]
-		vsnd_duration = 1.694500
+		vsnd_duration = 1.6945
 	}
 	drifter_ping_use_ability4_06_ping_2d = 
 	{
@@ -12118,7 +12118,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_use_health_nova.vsnd",
 		]
-		vsnd_duration = 1.886000
+		vsnd_duration = 1.886
 	}
 	drifter_ping_use_item_ping_2d = 
 	{
@@ -12188,7 +12188,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_use_warp_stone.vsnd",
 		]
-		vsnd_duration = 1.693000
+		vsnd_duration = 1.693
 	}
 	drifter_ping_vampirebat_almost_respawn_ping_2d = 
 	{
@@ -12228,7 +12228,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_vampirebat_in_mid.vsnd",
 		]
-		vsnd_duration = 1.093500
+		vsnd_duration = 1.0935
 	}
 	drifter_ping_vampirebat_missing_01_ping_2d = 
 	{
@@ -12278,7 +12278,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_vampirebat_was_here.vsnd",
 		]
-		vsnd_duration = 1.121000
+		vsnd_duration = 1.121
 	}
 	drifter_ping_viper_almost_respawn_ping_2d = 
 	{
@@ -12288,7 +12288,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_viper_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.760500
+		vsnd_duration = 1.7605
 	}
 	drifter_ping_viper_check_items_ping_2d = 
 	{
@@ -12368,7 +12368,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_viper_was_here.vsnd",
 		]
-		vsnd_duration = 1.231000
+		vsnd_duration = 1.231
 	}
 	drifter_ping_viscous_almost_respawn_ping_2d = 
 	{
@@ -12378,7 +12378,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_viscous_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.831000
+		vsnd_duration = 1.831
 	}
 	drifter_ping_viscous_check_items_ping_2d = 
 	{
@@ -12398,7 +12398,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_viscous_dead.vsnd",
 		]
-		vsnd_duration = 1.638000
+		vsnd_duration = 1.638
 	}
 	drifter_ping_viscous_in_mid_ping_2d = 
 	{
@@ -12418,7 +12418,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_viscous_missing_01.vsnd",
 		]
-		vsnd_duration = 1.759000
+		vsnd_duration = 1.759
 	}
 	drifter_ping_viscous_on_top_of_garage_ping_2d = 
 	{
@@ -12428,7 +12428,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_viscous_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.835500
+		vsnd_duration = 1.8355
 	}
 	drifter_ping_viscous_on_top_of_mid_ping_2d = 
 	{
@@ -12448,7 +12448,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_viscous_under_garage.vsnd",
 		]
-		vsnd_duration = 1.688500
+		vsnd_duration = 1.6885
 	}
 	drifter_ping_viscous_was_here_ping_2d = 
 	{
@@ -12488,7 +12488,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_warden_check_items.vsnd",
 		]
-		vsnd_duration = 1.970000
+		vsnd_duration = 1.97
 	}
 	drifter_ping_warden_dead_ping_2d = 
 	{
@@ -12508,7 +12508,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_warden_in_mid.vsnd",
 		]
-		vsnd_duration = 1.164000
+		vsnd_duration = 1.164
 	}
 	drifter_ping_warden_missing_01_ping_2d = 
 	{
@@ -12568,7 +12568,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_warp_stone_almost_ready.vsnd",
 		]
-		vsnd_duration = 2.064000
+		vsnd_duration = 2.064
 	}
 	drifter_ping_warp_stone_not_ready_ping_2d = 
 	{
@@ -12608,7 +12608,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_with_astro.vsnd",
 		]
-		vsnd_duration = 1.565500
+		vsnd_duration = 1.5655
 	}
 	drifter_ping_with_atlas_ping_2d = 
 	{
@@ -12648,7 +12648,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_with_chrono.vsnd",
 		]
-		vsnd_duration = 1.457000
+		vsnd_duration = 1.457
 	}
 	drifter_ping_with_doorman_ping_2d = 
 	{
@@ -12678,7 +12678,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_with_forge.vsnd",
 		]
-		vsnd_duration = 1.531000
+		vsnd_duration = 1.531
 	}
 	drifter_ping_with_frank_ping_2d = 
 	{
@@ -12698,7 +12698,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_with_ghost.vsnd",
 		]
-		vsnd_duration = 1.484500
+		vsnd_duration = 1.4845
 	}
 	drifter_ping_with_gigawatt_ping_2d = 
 	{
@@ -12768,7 +12768,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_with_lash.vsnd",
 		]
-		vsnd_duration = 1.400000
+		vsnd_duration = 1.4
 	}
 	drifter_ping_with_magician_ping_2d = 
 	{
@@ -12778,7 +12778,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_with_magician.vsnd",
 		]
-		vsnd_duration = 1.503500
+		vsnd_duration = 1.5035
 	}
 	drifter_ping_with_mirage_ping_2d = 
 	{
@@ -12858,7 +12858,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_with_synth.vsnd",
 		]
-		vsnd_duration = 1.269250
+		vsnd_duration = 1.26925
 	}
 	drifter_ping_with_tengu_ping_2d = 
 	{
@@ -12868,7 +12868,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_with_tengu.vsnd",
 		]
-		vsnd_duration = 1.504000
+		vsnd_duration = 1.504
 	}
 	drifter_ping_with_vampirebat_ping_2d = 
 	{
@@ -12888,7 +12888,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_with_viper.vsnd",
 		]
-		vsnd_duration = 1.446000
+		vsnd_duration = 1.446
 	}
 	drifter_ping_with_viscous_ping_2d = 
 	{
@@ -12908,7 +12908,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_with_warden.vsnd",
 		]
-		vsnd_duration = 1.528000
+		vsnd_duration = 1.528
 	}
 	drifter_ping_with_wraith_ping_2d = 
 	{
@@ -12958,7 +12958,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_wraith_dead.vsnd",
 		]
-		vsnd_duration = 1.513500
+		vsnd_duration = 1.5135
 	}
 	drifter_ping_wraith_in_mid_ping_2d = 
 	{
@@ -12998,7 +12998,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_wraith_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.355000
+		vsnd_duration = 1.355
 	}
 	drifter_ping_wraith_under_garage_ping_2d = 
 	{
@@ -13018,7 +13018,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_wraith_was_here.vsnd",
 		]
-		vsnd_duration = 1.092500
+		vsnd_duration = 1.0925
 	}
 	drifter_ping_yamato_almost_respawn_ping_2d = 
 	{
@@ -13028,7 +13028,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_yamato_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.688500
+		vsnd_duration = 1.6885
 	}
 	drifter_ping_yamato_check_items_ping_2d = 
 	{
@@ -13068,7 +13068,7 @@
 		[
 			"sounds/vo/drifter/ping/drifter_ping_yamato_missing_01.vsnd",
 		]
-		vsnd_duration = 1.544000
+		vsnd_duration = 1.544
 	}
 	drifter_ping_yamato_on_top_of_garage_ping_2d = 
 	{
@@ -13148,7 +13148,7 @@
 		[
 			"sounds/vo/drifter/drifter_select_02.vsnd",
 		]
-		vsnd_duration = 2.598500
+		vsnd_duration = 2.5985
 	}
 	drifter_select_03_hero_3d = 
 	{
@@ -13198,7 +13198,7 @@
 		[
 			"sounds/vo/drifter/drifter_select_07.vsnd",
 		]
-		vsnd_duration = 3.474000
+		vsnd_duration = 3.474
 	}
 	drifter_select_08_hero_3d = 
 	{
@@ -13228,7 +13228,7 @@
 		[
 			"sounds/vo/drifter/drifter_select_10.vsnd",
 		]
-		vsnd_duration = 5.089000
+		vsnd_duration = 5.089
 	}
 	drifter_unselect_01_hero_3d = 
 	{
@@ -13258,7 +13258,7 @@
 		[
 			"sounds/vo/drifter/drifter_unselect_03.vsnd",
 		]
-		vsnd_duration = 3.049750
+		vsnd_duration = 3.04975
 	}
 	drifter_unselect_04_hero_3d = 
 	{
@@ -13268,7 +13268,7 @@
 		[
 			"sounds/vo/drifter/drifter_unselect_04.vsnd",
 		]
-		vsnd_duration = 3.639500
+		vsnd_duration = 3.6395
 	}
 	drifter_unselect_05_hero_3d = 
 	{
@@ -13278,7 +13278,7 @@
 		[
 			"sounds/vo/drifter/drifter_unselect_05.vsnd",
 		]
-		vsnd_duration = 3.826250
+		vsnd_duration = 3.82625
 	}
 	drifter_unselect_06_hero_3d = 
 	{
@@ -13328,7 +13328,7 @@
 		[
 			"sounds/vo/drifter/drifter_unselect_10.vsnd",
 		]
-		vsnd_duration = 7.243000
+		vsnd_duration = 7.243
 	}
 	drifter_upgrade_power1_01_hero_3d = 
 	{
@@ -13338,7 +13338,7 @@
 		[
 			"sounds/vo/drifter/drifter_upgrade_power1_01.vsnd",
 		]
-		vsnd_duration = 2.323500
+		vsnd_duration = 2.3235
 	}
 	drifter_upgrade_power1_02_hero_3d = 
 	{
@@ -13378,7 +13378,7 @@
 		[
 			"sounds/vo/drifter/drifter_upgrade_power1_05.vsnd",
 		]
-		vsnd_duration = 2.914500
+		vsnd_duration = 2.9145
 	}
 	drifter_upgrade_power1_06_hero_3d = 
 	{
@@ -13738,7 +13738,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power1_01.vsnd",
 		]
-		vsnd_duration = 1.737000
+		vsnd_duration = 1.737
 	}
 	drifter_use_power1_02_ability_3d = 
 	{
@@ -13758,7 +13758,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power1_02_alt_01.vsnd",
 		]
-		vsnd_duration = 0.958000
+		vsnd_duration = 0.958
 	}
 	drifter_use_power1_03_ability_3d = 
 	{
@@ -13778,7 +13778,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power1_04.vsnd",
 		]
-		vsnd_duration = 1.715500
+		vsnd_duration = 1.7155
 	}
 	drifter_use_power1_05_ability_3d = 
 	{
@@ -13818,7 +13818,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power1_08.vsnd",
 		]
-		vsnd_duration = 1.673500
+		vsnd_duration = 1.6735
 	}
 	drifter_use_power1_09_ability_3d = 
 	{
@@ -13838,7 +13838,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power1_10.vsnd",
 		]
-		vsnd_duration = 1.693000
+		vsnd_duration = 1.693
 	}
 	drifter_use_power2_01_ability_3d = 
 	{
@@ -13858,7 +13858,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power2_02.vsnd",
 		]
-		vsnd_duration = 1.589000
+		vsnd_duration = 1.589
 	}
 	drifter_use_power2_03_ability_3d = 
 	{
@@ -13868,7 +13868,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power2_03.vsnd",
 		]
-		vsnd_duration = 2.468500
+		vsnd_duration = 2.4685
 	}
 	drifter_use_power2_04_ability_3d = 
 	{
@@ -13878,7 +13878,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power2_04.vsnd",
 		]
-		vsnd_duration = 1.366500
+		vsnd_duration = 1.3665
 	}
 	drifter_use_power2_05_ability_3d = 
 	{
@@ -13918,7 +13918,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power2_08.vsnd",
 		]
-		vsnd_duration = 1.487500
+		vsnd_duration = 1.4875
 	}
 	drifter_use_power2_09_ability_3d = 
 	{
@@ -13928,7 +13928,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power2_09.vsnd",
 		]
-		vsnd_duration = 1.752000
+		vsnd_duration = 1.752
 	}
 	drifter_use_power2_10_ability_3d = 
 	{
@@ -13938,7 +13938,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power2_10.vsnd",
 		]
-		vsnd_duration = 1.902000
+		vsnd_duration = 1.902
 	}
 	drifter_use_power2_11_ability_3d = 
 	{
@@ -13958,7 +13958,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power2_12.vsnd",
 		]
-		vsnd_duration = 1.268500
+		vsnd_duration = 1.2685
 	}
 	drifter_use_power2_13_ability_3d = 
 	{
@@ -14058,7 +14058,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power3_08.vsnd",
 		]
-		vsnd_duration = 1.381750
+		vsnd_duration = 1.38175
 	}
 	drifter_use_power3_09_ability_3d = 
 	{
@@ -14278,7 +14278,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power4_07.vsnd",
 		]
-		vsnd_duration = 2.727000
+		vsnd_duration = 2.727
 	}
 	drifter_use_power4_07_hero_announcer = 
 	{
@@ -14288,7 +14288,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power4_07.vsnd",
 		]
-		vsnd_duration = 2.727000
+		vsnd_duration = 2.727
 	}
 	drifter_use_power4_07_ult_3d = 
 	{
@@ -14298,7 +14298,7 @@
 		[
 			"sounds/vo/drifter/drifter_use_power4_07.vsnd",
 		]
-		vsnd_duration = 2.727000
+		vsnd_duration = 2.727
 	}
 	drifter_use_power4_08_ability_3d = 
 	{

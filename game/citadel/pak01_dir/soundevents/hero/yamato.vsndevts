@@ -3,7 +3,7 @@
 	Yamato.Wpn.Fire = 
 	{
 		base = "Base.Weapon"
-		last_shot_vol_offset_db = 2.000000
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/yamato/fire/01.vsnd",
@@ -71,8 +71,8 @@
 	Yamato.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/yamato/reload/yamato_wpn_reload_start_01.vsnd",
@@ -84,8 +84,8 @@
 	Yamato.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/yamato/reload/yamato_wpn_reload_end_01.vsnd",
@@ -97,10 +97,10 @@
 	Yamato.Wpn.Whizby = 
 	{
 		base = "Base.Bullet.Whizby.Shotgun"
-		pitch_rand_min = -0.005000
-		pitch_rand_max = 0.401500
-		volume = -6.000000
-		volume_fade_out = 0.001000
+		pitch_rand_min = -0.005
+		pitch_rand_max = 0.4015
+		volume = -6.0
+		volume_fade_out = 0.001
 		vsnd_files = 
 		[
 			"sounds/weapons/yamato/whizby/01.vsnd",
@@ -126,8 +126,8 @@
 	Yamato.WpnAlt.Fire = 
 	{
 		base = "Base.Weapon"
-		volume = 0.000000
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		volume = 0.0
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -172,41 +172,41 @@
 	Yamato.WpnAlt.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -6.000000
-		pitch = 0.900000
-		volume_fade_in = 0.050000
-		volume_fade_out = 0.050000
-		delay_rand_min = -1.500000
-		delay_rand_max = 0.000000
+		volume = -6.0
+		pitch = 0.9
+		volume_fade_in = 0.05
+		volume_fade_out = 0.05
+		delay_rand_min = -1.5
+		delay_rand_max = 0.0
 		vsnd_files = "sounds/weapons/yamato/alt/yamato_wpn_alt_proj_lp.vsnd"
-		vsnd_duration = 2.724240
+		vsnd_duration = 2.72424
 	}
 	Yamato.WpnAlt.Explosion = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 3.000000
-		pitch = 1.300000
+		volume = 3.0
+		pitch = 1.3
 		vsnd_files = "sounds/mods/weapon/thermal_det/exp_base.vsnd"
 		vsnd_duration = 2.291361
 	}
 	Yamato.PowerSlash.HitConfirmation = 
 	{
 		base = "Base.Ability.Hit.AOE"
-		volume = 1.000000
-		pitch_rand_max = 0.400000
-		pitch_rand_min = -0.100000
-		volume_falloff_max_attacker = 2000.000000
-		volume_offset_attacker_db = 5.000000
+		volume = 1.0
+		pitch_rand_max = 0.4
+		pitch_rand_min = -0.1
+		volume_falloff_max_attacker = 2000.0
+		volume_offset_attacker_db = 5.0
 		vsnd_files = "sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_hitconfirm.vsnd"
 		vsnd_duration = 2.413031
 	}
 	Yamato.PowerSlash.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		pitch_rand_max = 0.100000
-		volume = -1.000000
-		volume_fade_out = 0.001000
-		whizby_time_to_peak = 0.200000
+		pitch_rand_max = 0.1
+		volume = -1.0
+		volume_fade_out = 0.001
+		whizby_time_to_peak = 0.2
 		vsnd_files = 
 		[
 			"sounds/abilities/yamato/a1_power_slash/whizby/01.vsnd",
@@ -244,9 +244,9 @@
 	Yamato.CrimsonSlash.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/yamato/yamato_crimson_slash_cast.vsnd"
-		vsnd_duration = 2.204150
+		vsnd_duration = 2.20415
 	}
 	Yamato.Decimate.Cast = 
 	{
@@ -257,18 +257,18 @@
 	Yamato.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -3.000000
+		volume = -3.0
 	}
 	Yamato.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -8.000000
+		volume = -8.0
 	}
 	Yamato.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand.Soft"
-		volume = 0.000000
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		volume = 0.0
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hero_self/06.vsnd",
@@ -298,12 +298,12 @@
 	Yamato.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -3.000000
+		volume = -3.0
 	}
 	Yamato.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -348,7 +348,7 @@
 	Yamato.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",
@@ -394,7 +394,7 @@
 	Yamato.Footstep = 
 	{
 		base = "Base.Footsteps.Soft"
-		track_1.vsnd_track_vol_offset_db = -7.000000
+		track_1.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hero_self/06.vsnd",
@@ -426,152 +426,152 @@
 	Yamato.A1.PowerSlash.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_cast.vsnd"
 		vsnd_duration = 2.314437
 	}
 	Yamato.A1.PowerSlash.Start = 
 	{
 		base = "Base.Ability"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = "sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_start.vsnd"
 		vsnd_duration = 3.271896
 	}
 	Yamato.A1.PowerSlash.Cast.Max = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_cast_max.vsnd"
 		vsnd_duration = 2.314437
 	}
 	Yamato.A1.PowerSlash.PowerupTick01 = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = "sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_powerup_tick01.vsnd"
 		vsnd_duration = 1.580125
 	}
 	Yamato.A1.PowerSlash.PowerupTick02 = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = "sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_powerup_tick02.vsnd"
 		vsnd_duration = 1.366042
 	}
 	Yamato.A1.PowerSlash.PowerupTick03 = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = "sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_powerup_tick03.vsnd"
 		vsnd_duration = 2.246375
 	}
 	Yamato.A2.FlyingStrike.Attack = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_attack.vsnd"
 		vsnd_duration = 2.958277
 	}
 	Yamato.A2.FlyingStrike.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_cast.vsnd"
-		vsnd_duration = 1.084150
+		vsnd_duration = 1.08415
 	}
 	Yamato.A2.FlyingStrike.Hook = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_hook.vsnd"
-		vsnd_duration = 1.410340
+		vsnd_duration = 1.41034
 	}
 	Yamato.A2.FlyingStrike.Jump = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		volume_mult = 0.850000
+		volume = 2.0
+		volume_mult = 0.85
 		vsnd_files = "sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_spin.vsnd"
 		vsnd_duration = 1.509932
 	}
 	Yamato.A4.ShadowForm.Delay = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/yamato/a4_shadow_form/yamato_shadow_form_delay.vsnd"
 		vsnd_duration = 5.466485
 	}
 	Yamato.A4.ShadowForm.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/yamato/a4_shadow_form/yamato_shadow_form_cast.vsnd"
 		vsnd_duration = 5.194445
 	}
 	Yamato.A1.PowerSlash.Select = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/yamato/a1_power_slash/new/yamato_power_slash_select.vsnd"
 		vsnd_duration = 2.623802
 	}
 	Yamato.A2.FlyingStrike.Projectile.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_projectile_lp.vsnd"
 		vsnd_duration = 0.670091
 	}
 	Yamato.A2.FlyingStrike.Flying.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = "sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_flying_lp.vsnd"
 		vsnd_duration = 1.255261
 	}
 	Yamato.A4.ShadowForm.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -12.000000
-		volume_fade_out = 1.000000
-		delay_rand_max = -10.000000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.950000
-		pitch_envelope_scale_max = 1.500000
+		volume = -12.0
+		volume_fade_out = 1.0
+		delay_rand_max = -10.0
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.95
+		pitch_envelope_scale_max = 1.5
 		vsnd_files = "sounds/abilities/yamato/a4_shadow_form/yamato_shadow_transformation_lp.vsnd"
 		vsnd_duration = 7.221587
 	}
 	Yamato.A4.ShadowForm.Expired = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/yamato/a4_shadow_form/yamato_shadow_form_expire.vsnd"
 		vsnd_duration = 4.191859
 	}
 	Yamato.A2.FlyingStrike.Select = 
 	{
 		base = "Base.Ability"
-		volume = -5.000000
-		pitch = 1.300000
+		volume = -5.0
+		pitch = 1.3
 		vsnd_files = "sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_select.vsnd"
 		vsnd_duration = 2.124717
 	}
 	Yamato.A2.FlyingStrike.Unselect = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		pitch = 1.000000
+		volume = -6.0
+		pitch = 1.0
 		vsnd_files = "sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_unselect.vsnd"
 		vsnd_duration = 1.342018
 	}
 	Yamato.A2.FlyingStrike.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		pitch = 1.000000
-		volume_fade_in = 0.380000
-		volume_fade_out = 0.200000
-		volume_enemy_targeting_boost = 4.000000
+		volume = -6.0
+		pitch = 1.0
+		volume_fade_in = 0.38
+		volume_fade_out = 0.2
+		volume_enemy_targeting_boost = 4.0
 		vsnd_files = "sounds/abilities/yamato/a2_flying_strike/yamato_flying_strike_select_lp.vsnd"
 		vsnd_duration = 5.599297
 	}
@@ -597,6 +597,6 @@
 		[
 			"sounds/vo/yamato/yamato_upgrade_power3_07.vsnd",
 		]
-		vsnd_duration = 3.379990
+		vsnd_duration = 3.37999
 	}
 }

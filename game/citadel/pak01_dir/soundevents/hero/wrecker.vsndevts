@@ -91,149 +91,149 @@
 	Wrecker.Zoom.In = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -27.000000
+		volume = -27.0
 		vsnd_files = "sounds/weapons/wrecker/zoom/in.vsnd"
 		vsnd_duration = 1.323604
 	}
 	Wrecker.Zoom.Out = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -27.000000
+		volume = -27.0
 		vsnd_files = "sounds/weapons/wrecker/zoom/out.vsnd"
 		vsnd_duration = 1.829146
 	}
 	Wrecker.Wrecking.Ball.Cast.Delay = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = "sounds/abilities/wrecker/a1_wrecking_ball/wrecker_a1_wreckingball_cast_01.vsnd"
 		vsnd_duration = 2.259547
 	}
 	Wrecker.Wrecking.Ball.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/wrecker/a1_wrecking_ball/wrecker_a1_wreckingball_throw_01.vsnd"
 		vsnd_duration = 2.182268
 	}
 	Wrecker.Wrecking.Ball.Cast.Impact = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/wrecker/a1_wrecking_ball/cast_impact.vsnd"
 		vsnd_duration = 1.982271
 	}
 	Wrecker.Wrecking.Ball.Hit.Confirm = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/wrecker/a1_wrecking_ball/cast_delay_glitch.vsnd"
-		vsnd_duration = 1.224750
+		vsnd_duration = 1.22475
 	}
 	Wrecker.Wrecking.Ball.Proj.Lp = 
 	{
 		base = "Base.Ability"
 		vsnd_files = "sounds/abilities/wrecker/a1_wrecking_ball/proj_lp.vsnd"
-		vsnd_duration = 7.994250
+		vsnd_duration = 7.99425
 	}
 	Wrecker.Salvage.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = "sounds/abilities/wrecker/a2_salvage/wrecker_a2_salvage_cast_01.vsnd"
 		vsnd_duration = 2.796735
 	}
 	Wrecker.Scrap.Blast.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/wrecker/a2_scrap_blast/wrecker_a2_scrap_blast_cast_01.vsnd"
 		vsnd_duration = 2.989138
 	}
 	Wrecker.Wrecking.Crew.Grab = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/wrecker/a4_wrecking_crew/grab.vsnd"
 		vsnd_duration = 0.876292
 	}
 	Wrecker.Wrecking.Crew.Throw = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/wrecker/a4_wrecking_crew/throw.vsnd"
 		vsnd_duration = 2.090354
 	}
 	Wrecker.Wrecking.Crew.End = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -9.000000
+		volume = -9.0
 		vsnd_files = "sounds/abilities/wrecker/a4_wrecking_crew/end.vsnd"
 		vsnd_duration = 1.254688
 	}
 	Wrecker.Teleport.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/wrecker/a4_teleport/cast.vsnd"
 		vsnd_duration = 8.121021
 	}
 	Wrecker.Teleport.Proj.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
-		delay_rand_min = 0.000000
+		volume = 0.0
+		delay_rand_min = 0.0
 		vsnd_files = "sounds/abilities/wrecker/a4_teleport/proj_lp.vsnd"
-		vsnd_duration = 14.233250
+		vsnd_duration = 14.23325
 	}
 	Butcher.TrapShot.Impact = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/wrecker/trap_shot_impact_lyr2.vsnd"
 		vsnd_duration = 1.693604
 	}
 	Wrecker.Reload.ClipIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -1.000000
-		pitch_rand_min = -0.110000
-		pitch_rand_max = 0.150000
+		volume = -1.0
+		pitch_rand_min = -0.11
+		pitch_rand_max = 0.15
 		vsnd_files = "sounds/weapons/chrono/reload/end.vsnd"
 		vsnd_duration = 0.514943
 	}
 	Wrecker.Reload.ClipOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -1.000000
-		pitch_rand_min = -0.110000
-		pitch_rand_max = 0.150000
+		volume = -1.0
+		pitch_rand_min = -0.11
+		pitch_rand_max = 0.15
 		vsnd_files = "sounds/weapons/chrono/reload/clipout.vsnd"
 		vsnd_duration = 0.320363
 	}
 	Wrecker.Reload.Twirl_01 = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		pitch_rand_min = -0.110000
-		pitch_rand_max = 0.000000
+		volume = -2.0
+		pitch_rand_min = -0.11
+		pitch_rand_max = 0.0
 		vsnd_files = "sounds/weapons/chrono/reload/twirl_01.vsnd"
 		vsnd_duration = 0.367166
 	}
 	Wrecker.Reload.Twirl_02 = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -1.000000
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.150000
+		volume = -1.0
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.15
 		vsnd_files = "sounds/weapons/chrono/reload/twirl_02.vsnd"
 		vsnd_duration = 0.296984
 	}
 	Wrecker.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -5.000000
-		track_2.vsnd_track_vol_offset_db = -18.000000
+		track_1.vsnd_track_vol_offset_db = -5.0
+		track_2.vsnd_track_vol_offset_db = -18.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hero_self/06.vsnd",
@@ -268,8 +268,8 @@
 	Wrecker.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 0.000000
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		volume = 0.0
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hero_self/06.vsnd",
@@ -299,22 +299,22 @@
 	Wrecker.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Wrecker.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -8.000000
+		volume = -8.0
 	}
 	Wrecker.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Wrecker.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -359,7 +359,7 @@
 	Wrecker.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",

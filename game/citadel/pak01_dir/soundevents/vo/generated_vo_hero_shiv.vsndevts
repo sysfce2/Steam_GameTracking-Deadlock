@@ -8,7 +8,7 @@
 		[
 			"sounds/vo/shiv/shiv_ally_astro_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.481020
+		vsnd_duration = 1.48102
 	}
 	shiv_ally_atlas_killed_in_lane_01_hero_3d = 
 	{
@@ -18,7 +18,7 @@
 		[
 			"sounds/vo/shiv/shiv_ally_atlas_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.655850
+		vsnd_duration = 1.65585
 	}
 	shiv_ally_bebop_killed_in_lane_01_hero_3d = 
 	{
@@ -48,7 +48,7 @@
 		[
 			"sounds/vo/shiv/shiv_ally_chrono_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.441270
+		vsnd_duration = 1.44127
 	}
 	shiv_ally_dynamo_killed_in_lane_01_hero_3d = 
 	{
@@ -238,7 +238,7 @@
 		[
 			"sounds/vo/shiv/shiv_ally_wraith_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.139070
+		vsnd_duration = 1.13907
 	}
 	shiv_ally_wrecker_killed_in_lane_01_hero_3d = 
 	{
@@ -278,7 +278,7 @@
 		[
 			"sounds/vo/shiv/shiv_angry_02.vsnd",
 		]
-		vsnd_duration = 1.897460
+		vsnd_duration = 1.89746
 	}
 	shiv_angry_02_ult_3d = 
 	{
@@ -288,7 +288,7 @@
 		[
 			"sounds/vo/shiv/shiv_angry_02.vsnd",
 		]
-		vsnd_duration = 1.897460
+		vsnd_duration = 1.89746
 	}
 	shiv_angry_03_hero_3d = 
 	{
@@ -338,7 +338,7 @@
 		[
 			"sounds/vo/shiv/shiv_angry_05.vsnd",
 		]
-		vsnd_duration = 1.621020
+		vsnd_duration = 1.62102
 	}
 	shiv_angry_05_ult_3d = 
 	{
@@ -348,7 +348,7 @@
 		[
 			"sounds/vo/shiv/shiv_angry_05.vsnd",
 		]
-		vsnd_duration = 1.621020
+		vsnd_duration = 1.62102
 	}
 	shiv_angry_06_hero_3d = 
 	{
@@ -538,7 +538,7 @@
 		[
 			"sounds/vo/shiv/shiv_close_call_03.vsnd",
 		]
-		vsnd_duration = 2.392540
+		vsnd_duration = 2.39254
 	}
 	shiv_close_call_04_hero_3d = 
 	{
@@ -688,7 +688,7 @@
 		[
 			"sounds/vo/shiv/shiv_concerned_07.vsnd",
 		]
-		vsnd_duration = 3.397460
+		vsnd_duration = 3.39746
 	}
 	shiv_concerned_07_ult_3d = 
 	{
@@ -698,7 +698,7 @@
 		[
 			"sounds/vo/shiv/shiv_concerned_07.vsnd",
 		]
-		vsnd_duration = 3.397460
+		vsnd_duration = 3.39746
 	}
 	shiv_concerned_08_hero_3d = 
 	{
@@ -908,7 +908,7 @@
 		[
 			"sounds/vo/shiv/shiv_desperation_power2_05.vsnd",
 		]
-		vsnd_duration = 1.423560
+		vsnd_duration = 1.42356
 	}
 	shiv_desperation_power3_01_ability_3d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/shiv/shiv_desperation_power4_02.vsnd",
 		]
-		vsnd_duration = 2.728730
+		vsnd_duration = 2.72873
 	}
 	shiv_desperation_power4_02_ult_3d = 
 	{
@@ -998,7 +998,7 @@
 		[
 			"sounds/vo/shiv/shiv_desperation_power4_02.vsnd",
 		]
-		vsnd_duration = 2.728730
+		vsnd_duration = 2.72873
 	}
 	shiv_desperation_power4_03_ability_3d = 
 	{
@@ -1548,7 +1548,7 @@
 		[
 			"sounds/vo/shiv/shiv_happy_03.vsnd",
 		]
-		vsnd_duration = 1.345850
+		vsnd_duration = 1.34585
 	}
 	shiv_happy_03_ult_3d = 
 	{
@@ -1558,7 +1558,7 @@
 		[
 			"sounds/vo/shiv/shiv_happy_03.vsnd",
 		]
-		vsnd_duration = 1.345850
+		vsnd_duration = 1.34585
 	}
 	shiv_happy_04_hero_3d = 
 	{
@@ -1588,7 +1588,7 @@
 		[
 			"sounds/vo/shiv/shiv_happy_05.vsnd",
 		]
-		vsnd_duration = 1.715850
+		vsnd_duration = 1.71585
 	}
 	shiv_happy_05_ult_3d = 
 	{
@@ -1598,7 +1598,7 @@
 		[
 			"sounds/vo/shiv/shiv_happy_05.vsnd",
 		]
-		vsnd_duration = 1.715850
+		vsnd_duration = 1.71585
 	}
 	shiv_happy_06_hero_3d = 
 	{
@@ -1708,7 +1708,7 @@
 		[
 			"sounds/vo/shiv/shiv_hunt_01.vsnd",
 		]
-		vsnd_duration = 1.975420
+		vsnd_duration = 1.97542
 	}
 	shiv_hunt_02_hero_3d = 
 	{
@@ -1718,7 +1718,7 @@
 		[
 			"sounds/vo/shiv/shiv_hunt_02.vsnd",
 		]
-		vsnd_duration = 1.777030
+		vsnd_duration = 1.77703
 	}
 	shiv_hunt_03_hero_3d = 
 	{
@@ -1748,7 +1748,7 @@
 		[
 			"sounds/vo/shiv/shiv_interrupt_02.vsnd",
 		]
-		vsnd_duration = 1.680340
+		vsnd_duration = 1.68034
 	}
 	shiv_interrupt_03_hero_3d = 
 	{
@@ -1868,7 +1868,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_anyhero_09.vsnd",
 		]
-		vsnd_duration = 1.850000
+		vsnd_duration = 1.85
 	}
 	shiv_kill_anyhero_10_hero_3d = 
 	{
@@ -1898,7 +1898,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_astro_02.vsnd",
 		]
-		vsnd_duration = 2.179070
+		vsnd_duration = 2.17907
 	}
 	shiv_kill_astro_03_hero_3d = 
 	{
@@ -1908,7 +1908,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_astro_03.vsnd",
 		]
-		vsnd_duration = 4.650340
+		vsnd_duration = 4.65034
 	}
 	shiv_kill_astro_04_hero_3d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_atlas_02.vsnd",
 		]
-		vsnd_duration = 2.938390
+		vsnd_duration = 2.93839
 	}
 	shiv_kill_atlas_03_hero_3d = 
 	{
@@ -2008,7 +2008,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_bebop_03.vsnd",
 		]
-		vsnd_duration = 1.469660
+		vsnd_duration = 1.46966
 	}
 	shiv_kill_bebop_04_hero_3d = 
 	{
@@ -2018,7 +2018,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_bebop_04.vsnd",
 		]
-		vsnd_duration = 1.427710
+		vsnd_duration = 1.42771
 	}
 	shiv_kill_bebop_05_hero_3d = 
 	{
@@ -2048,7 +2048,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_cadence_02.vsnd",
 		]
-		vsnd_duration = 2.522540
+		vsnd_duration = 2.52254
 	}
 	shiv_kill_cadence_03_hero_3d = 
 	{
@@ -2208,7 +2208,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_forge_03.vsnd",
 		]
-		vsnd_duration = 1.544580
+		vsnd_duration = 1.54458
 	}
 	shiv_kill_forge_04_hero_3d = 
 	{
@@ -2248,7 +2248,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_ghost_02.vsnd",
 		]
-		vsnd_duration = 2.191020
+		vsnd_duration = 2.19102
 	}
 	shiv_kill_ghost_03_hero_3d = 
 	{
@@ -2328,7 +2328,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_gigawatt_05.vsnd",
 		]
-		vsnd_duration = 2.490590
+		vsnd_duration = 2.49059
 	}
 	shiv_kill_haze_01_hero_3d = 
 	{
@@ -2398,7 +2398,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_hornet_01.vsnd",
 		]
-		vsnd_duration = 1.373810
+		vsnd_duration = 1.37381
 	}
 	shiv_kill_hornet_02_hero_3d = 
 	{
@@ -2508,7 +2508,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_kelvin_02.vsnd",
 		]
-		vsnd_duration = 1.526100
+		vsnd_duration = 1.5261
 	}
 	shiv_kill_kelvin_03_hero_3d = 
 	{
@@ -2518,7 +2518,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_kelvin_03.vsnd",
 		]
-		vsnd_duration = 1.373900
+		vsnd_duration = 1.3739
 	}
 	shiv_kill_kelvin_04_hero_3d = 
 	{
@@ -2668,7 +2668,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_mirage_03.vsnd",
 		]
-		vsnd_duration = 2.052290
+		vsnd_duration = 2.05229
 	}
 	shiv_kill_mirage_04_hero_3d = 
 	{
@@ -2708,7 +2708,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_nano_02.vsnd",
 		]
-		vsnd_duration = 1.420680
+		vsnd_duration = 1.42068
 	}
 	shiv_kill_nano_03_hero_3d = 
 	{
@@ -2738,7 +2738,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_nano_05.vsnd",
 		]
-		vsnd_duration = 3.901610
+		vsnd_duration = 3.90161
 	}
 	shiv_kill_orion_01_hero_3d = 
 	{
@@ -2788,7 +2788,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_synth_03.vsnd",
 		]
-		vsnd_duration = 5.333560
+		vsnd_duration = 5.33356
 	}
 	shiv_kill_synth_04_hero_3d = 
 	{
@@ -2818,7 +2818,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_tengu_01.vsnd",
 		]
-		vsnd_duration = 1.435510
+		vsnd_duration = 1.43551
 	}
 	shiv_kill_tengu_02_hero_3d = 
 	{
@@ -2978,7 +2978,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_wraith_02.vsnd",
 		]
-		vsnd_duration = 3.079410
+		vsnd_duration = 3.07941
 	}
 	shiv_kill_wraith_03_hero_3d = 
 	{
@@ -3098,7 +3098,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_yamato_04.vsnd",
 		]
-		vsnd_duration = 1.460000
+		vsnd_duration = 1.46
 	}
 	shiv_kill_yamato_05_hero_3d = 
 	{
@@ -3108,7 +3108,7 @@
 		[
 			"sounds/vo/shiv/shiv_kill_yamato_05.vsnd",
 		]
-		vsnd_duration = 2.842540
+		vsnd_duration = 2.84254
 	}
 	shiv_killstreak_high_01_hero_3d = 
 	{
@@ -3258,7 +3258,7 @@
 		[
 			"sounds/vo/shiv/shiv_killstreak_start_02.vsnd",
 		]
-		vsnd_duration = 1.239070
+		vsnd_duration = 1.23907
 	}
 	shiv_killstreak_start_02_hero_announcer = 
 	{
@@ -3268,7 +3268,7 @@
 		[
 			"sounds/vo/shiv/shiv_killstreak_start_02.vsnd",
 		]
-		vsnd_duration = 1.239070
+		vsnd_duration = 1.23907
 	}
 	shiv_killstreak_start_03_hero_3d = 
 	{
@@ -3368,7 +3368,7 @@
 		[
 			"sounds/vo/shiv/shiv_leave_base_01.vsnd",
 		]
-		vsnd_duration = 2.590590
+		vsnd_duration = 2.59059
 	}
 	shiv_leave_base_02_hero_3d = 
 	{
@@ -3398,7 +3398,7 @@
 		[
 			"sounds/vo/shiv/shiv_leave_base_04.vsnd",
 		]
-		vsnd_duration = 3.589070
+		vsnd_duration = 3.58907
 	}
 	shiv_leave_base_05_hero_3d = 
 	{
@@ -3548,7 +3548,7 @@
 		[
 			"sounds/vo/shiv/shiv_match_start_dynamo_shiv_convo02_03.vsnd",
 		]
-		vsnd_duration = 1.185420
+		vsnd_duration = 1.18542
 	}
 	shiv_match_start_dynamo_shiv_convo03_02_hero_zipline_3d = 
 	{
@@ -3588,7 +3588,7 @@
 		[
 			"sounds/vo/shiv/shiv_match_start_ghost_shiv_convo01_06.vsnd",
 		]
-		vsnd_duration = 1.182540
+		vsnd_duration = 1.18254
 	}
 	shiv_match_start_ghost_shiv_convo02_02_hero_zipline_3d = 
 	{
@@ -3648,7 +3648,7 @@
 		[
 			"sounds/vo/shiv/shiv_melee_kill_01.vsnd",
 		]
-		vsnd_duration = 2.071020
+		vsnd_duration = 2.07102
 	}
 	shiv_melee_kill_02_hero_3d = 
 	{
@@ -3678,7 +3678,7 @@
 		[
 			"sounds/vo/shiv/shiv_melee_kill_04.vsnd",
 		]
-		vsnd_duration = 1.831270
+		vsnd_duration = 1.83127
 	}
 	shiv_melee_kill_05_hero_3d = 
 	{
@@ -3848,7 +3848,7 @@
 		[
 			"sounds/vo/shiv/emote/shiv_pain_akira_laser_05.vsnd",
 		]
-		vsnd_duration = 0.890000
+		vsnd_duration = 0.89
 	}
 	shiv_pain_akira_laser_06_emote_pain_3d = 
 	{
@@ -3888,7 +3888,7 @@
 		[
 			"sounds/vo/shiv/emote/shiv_pain_big_03.vsnd",
 		]
-		vsnd_duration = 0.766780
+		vsnd_duration = 0.76678
 	}
 	shiv_pain_big_04_emote_pain_3d = 
 	{
@@ -4018,7 +4018,7 @@
 		[
 			"sounds/vo/shiv/emote/shiv_pain_death_04.vsnd",
 		]
-		vsnd_duration = 0.734830
+		vsnd_duration = 0.73483
 	}
 	shiv_pain_death_04_emote_pain_3d = 
 	{
@@ -4028,7 +4028,7 @@
 		[
 			"sounds/vo/shiv/emote/shiv_pain_death_04.vsnd",
 		]
-		vsnd_duration = 0.734830
+		vsnd_duration = 0.73483
 	}
 	shiv_pain_death_05_emote_death_3d = 
 	{
@@ -4418,7 +4418,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_affermative_02.vsnd",
 		]
-		vsnd_duration = 0.837120
+		vsnd_duration = 0.83712
 	}
 	shiv_ping_affermative_03_ping_2d = 
 	{
@@ -4518,7 +4518,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_astro_was_here.vsnd",
 		]
-		vsnd_duration = 1.124490
+		vsnd_duration = 1.12449
 	}
 	shiv_ping_atlas_almost_respawn_ping_2d = 
 	{
@@ -4568,7 +4568,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_atlas_missing_01.vsnd",
 		]
-		vsnd_duration = 1.333220
+		vsnd_duration = 1.33322
 	}
 	shiv_ping_atlas_on_top_of_garage_ping_2d = 
 	{
@@ -4728,7 +4728,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_attack_hornet.vsnd",
 		]
-		vsnd_duration = 1.597710
+		vsnd_duration = 1.59771
 	}
 	shiv_ping_attack_inferno_ping_2d = 
 	{
@@ -4898,7 +4898,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_attack_wrecker.vsnd",
 		]
-		vsnd_duration = 1.341020
+		vsnd_duration = 1.34102
 	}
 	shiv_ping_attack_yamato_ping_2d = 
 	{
@@ -4978,7 +4978,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_bebop_missing_01.vsnd",
 		]
-		vsnd_duration = 1.387370
+		vsnd_duration = 1.38737
 	}
 	shiv_ping_bebop_on_top_of_garage_ping_2d = 
 	{
@@ -5018,7 +5018,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_bebop_was_here.vsnd",
 		]
-		vsnd_duration = 1.138980
+		vsnd_duration = 1.13898
 	}
 	shiv_ping_blue_help_01_ping_2d = 
 	{
@@ -5038,7 +5038,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_blue_help_02.vsnd",
 		]
-		vsnd_duration = 1.279410
+		vsnd_duration = 1.27941
 	}
 	shiv_ping_cadence_in_mid_ping_2d = 
 	{
@@ -5118,7 +5118,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_can_heal_atlas.vsnd",
 		]
-		vsnd_duration = 1.507710
+		vsnd_duration = 1.50771
 	}
 	shiv_ping_can_heal_bebop_ping_2d = 
 	{
@@ -5128,7 +5128,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_can_heal_bebop.vsnd",
 		]
-		vsnd_duration = 1.436440
+		vsnd_duration = 1.43644
 	}
 	shiv_ping_can_heal_cadence_ping_2d = 
 	{
@@ -5188,7 +5188,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_can_heal_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.475760
+		vsnd_duration = 1.47576
 	}
 	shiv_ping_can_heal_haze_ping_2d = 
 	{
@@ -5498,7 +5498,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_careful_cadence_01.vsnd",
 		]
-		vsnd_duration = 1.173810
+		vsnd_duration = 1.17381
 	}
 	shiv_ping_careful_cadence_02_ping_2d = 
 	{
@@ -5548,7 +5548,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_careful_chrono_03.vsnd",
 		]
-		vsnd_duration = 1.429070
+		vsnd_duration = 1.42907
 	}
 	shiv_ping_careful_dynamo_01_ping_2d = 
 	{
@@ -5608,7 +5608,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_careful_forge_03.vsnd",
 		]
-		vsnd_duration = 1.304240
+		vsnd_duration = 1.30424
 	}
 	shiv_ping_careful_ghost_01_ping_2d = 
 	{
@@ -5688,7 +5688,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_careful_haze_02.vsnd",
 		]
-		vsnd_duration = 1.153560
+		vsnd_duration = 1.15356
 	}
 	shiv_ping_careful_haze_03_ping_2d = 
 	{
@@ -5718,7 +5718,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_careful_hornet_02.vsnd",
 		]
-		vsnd_duration = 1.318980
+		vsnd_duration = 1.31898
 	}
 	shiv_ping_careful_hornet_03_ping_2d = 
 	{
@@ -5798,7 +5798,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_careful_krill_01.vsnd",
 		]
-		vsnd_duration = 1.080590
+		vsnd_duration = 1.08059
 	}
 	shiv_ping_careful_krill_02_ping_2d = 
 	{
@@ -5828,7 +5828,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_careful_lash_01.vsnd",
 		]
-		vsnd_duration = 1.198980
+		vsnd_duration = 1.19898
 	}
 	shiv_ping_careful_lash_02_ping_2d = 
 	{
@@ -5908,7 +5908,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_careful_mirage_03.vsnd",
 		]
-		vsnd_duration = 1.275170
+		vsnd_duration = 1.27517
 	}
 	shiv_ping_careful_nano_01_ping_2d = 
 	{
@@ -6088,7 +6088,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_careful_tengu_03.vsnd",
 		]
-		vsnd_duration = 1.055760
+		vsnd_duration = 1.05576
 	}
 	shiv_ping_careful_trapper_01_ping_2d = 
 	{
@@ -6438,7 +6438,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_defend_blue_02.vsnd",
 		]
-		vsnd_duration = 1.352540
+		vsnd_duration = 1.35254
 	}
 	shiv_ping_defend_green_01_ping_2d = 
 	{
@@ -6488,7 +6488,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_dynamo_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.809410
+		vsnd_duration = 1.80941
 	}
 	shiv_ping_dynamo_check_items_ping_2d = 
 	{
@@ -6518,7 +6518,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_dynamo_in_mid.vsnd",
 		]
-		vsnd_duration = 1.193810
+		vsnd_duration = 1.19381
 	}
 	shiv_ping_dynamo_missing_01_ping_2d = 
 	{
@@ -6608,7 +6608,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_forge_check_items.vsnd",
 		]
-		vsnd_duration = 1.600930
+		vsnd_duration = 1.60093
 	}
 	shiv_ping_forge_dead_ping_2d = 
 	{
@@ -6638,7 +6638,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_forge_missing_01.vsnd",
 		]
-		vsnd_duration = 1.462290
+		vsnd_duration = 1.46229
 	}
 	shiv_ping_forge_on_top_of_garage_ping_2d = 
 	{
@@ -6758,7 +6758,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_ghost_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.453900
+		vsnd_duration = 1.4539
 	}
 	shiv_ping_ghost_under_garage_ping_2d = 
 	{
@@ -6808,7 +6808,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_gigawatt_dead.vsnd",
 		]
-		vsnd_duration = 1.348050
+		vsnd_duration = 1.34805
 	}
 	shiv_ping_gigawatt_in_mid_ping_2d = 
 	{
@@ -6918,7 +6918,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_going_shop_01.vsnd",
 		]
-		vsnd_duration = 1.007030
+		vsnd_duration = 1.00703
 	}
 	shiv_ping_good_game_01_ping_2d = 
 	{
@@ -6948,7 +6948,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_good_game_03.vsnd",
 		]
-		vsnd_duration = 1.504240
+		vsnd_duration = 1.50424
 	}
 	shiv_ping_good_job_01_ping_2d = 
 	{
@@ -7018,7 +7018,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_haze_in_mid.vsnd",
 		]
-		vsnd_duration = 1.175850
+		vsnd_duration = 1.17585
 	}
 	shiv_ping_haze_missing_01_ping_2d = 
 	{
@@ -7218,7 +7218,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_hornet_in_mid.vsnd",
 		]
-		vsnd_duration = 1.336780
+		vsnd_duration = 1.33678
 	}
 	shiv_ping_hornet_missing_01_ping_2d = 
 	{
@@ -7478,7 +7478,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_ignore_synth.vsnd",
 		]
-		vsnd_duration = 1.165510
+		vsnd_duration = 1.16551
 	}
 	shiv_ping_ignore_tengu_ping_2d = 
 	{
@@ -7518,7 +7518,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_ignore_viscous.vsnd",
 		]
-		vsnd_duration = 1.244490
+		vsnd_duration = 1.24449
 	}
 	shiv_ping_ignore_warden_ping_2d = 
 	{
@@ -7698,7 +7698,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_kelvin_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.564490
+		vsnd_duration = 1.56449
 	}
 	shiv_ping_kelvin_check_items_ping_2d = 
 	{
@@ -7738,7 +7738,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_kelvin_missing_01.vsnd",
 		]
-		vsnd_duration = 1.187710
+		vsnd_duration = 1.18771
 	}
 	shiv_ping_kelvin_on_top_of_garage_ping_2d = 
 	{
@@ -7858,7 +7858,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_krill_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.695510
+		vsnd_duration = 1.69551
 	}
 	shiv_ping_krill_on_top_of_mid_ping_2d = 
 	{
@@ -7958,7 +7958,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_lash_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.486190
+		vsnd_duration = 1.48619
 	}
 	shiv_ping_lash_under_garage_ping_2d = 
 	{
@@ -8018,7 +8018,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_lets_go_green.vsnd",
 		]
-		vsnd_duration = 1.154830
+		vsnd_duration = 1.15483
 	}
 	shiv_ping_lets_go_yellow_alt_ping_2d = 
 	{
@@ -8028,7 +8028,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_lets_go_yellow_alt.vsnd",
 		]
-		vsnd_duration = 1.129070
+		vsnd_duration = 1.12907
 	}
 	shiv_ping_lets_go_yellow_ping_2d = 
 	{
@@ -8198,7 +8198,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_mirage_missing_01.vsnd",
 		]
-		vsnd_duration = 1.420000
+		vsnd_duration = 1.42
 	}
 	shiv_ping_mirage_on_top_of_garage_ping_2d = 
 	{
@@ -8498,7 +8498,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_negative_02.vsnd",
 		]
-		vsnd_duration = 1.205510
+		vsnd_duration = 1.20551
 	}
 	shiv_ping_negative_03_ping_2d = 
 	{
@@ -8608,7 +8608,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_operative_in_mid.vsnd",
 		]
-		vsnd_duration = 1.250000
+		vsnd_duration = 1.25
 	}
 	shiv_ping_operative_missing_01_ping_2d = 
 	{
@@ -8618,7 +8618,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_operative_missing_01.vsnd",
 		]
-		vsnd_duration = 1.128390
+		vsnd_duration = 1.12839
 	}
 	shiv_ping_operative_on_top_of_garage_ping_2d = 
 	{
@@ -8668,7 +8668,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_orion_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.757710
+		vsnd_duration = 1.75771
 	}
 	shiv_ping_orion_check_items_ping_2d = 
 	{
@@ -8678,7 +8678,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_orion_check_items.vsnd",
 		]
-		vsnd_duration = 1.736440
+		vsnd_duration = 1.73644
 	}
 	shiv_ping_orion_dead_ping_2d = 
 	{
@@ -8788,7 +8788,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_post_game_04.vsnd",
 		]
-		vsnd_duration = 3.544240
+		vsnd_duration = 3.54424
 	}
 	shiv_ping_post_game_05_ping_2d = 
 	{
@@ -8888,7 +8888,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_push_blue_01.vsnd",
 		]
-		vsnd_duration = 1.109660
+		vsnd_duration = 1.10966
 	}
 	shiv_ping_push_blue_02_ping_2d = 
 	{
@@ -8898,7 +8898,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_push_blue_02.vsnd",
 		]
-		vsnd_duration = 1.391610
+		vsnd_duration = 1.39161
 	}
 	shiv_ping_push_green_01_ping_2d = 
 	{
@@ -9058,7 +9058,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_saw_atlas.vsnd",
 		]
-		vsnd_duration = 1.187120
+		vsnd_duration = 1.18712
 	}
 	shiv_ping_saw_bebop_ping_2d = 
 	{
@@ -9078,7 +9078,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_saw_cadence.vsnd",
 		]
-		vsnd_duration = 1.230930
+		vsnd_duration = 1.23093
 	}
 	shiv_ping_saw_chrono_ping_2d = 
 	{
@@ -9108,7 +9108,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_saw_forge.vsnd",
 		]
-		vsnd_duration = 1.237120
+		vsnd_duration = 1.23712
 	}
 	shiv_ping_saw_ghost_ping_2d = 
 	{
@@ -9218,7 +9218,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_saw_nano.vsnd",
 		]
-		vsnd_duration = 1.182630
+		vsnd_duration = 1.18263
 	}
 	shiv_ping_saw_operative_ping_2d = 
 	{
@@ -9528,7 +9528,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_see_dynamo.vsnd",
 		]
-		vsnd_duration = 1.190340
+		vsnd_duration = 1.19034
 	}
 	shiv_ping_see_enemy_on_bridge_ping_2d = 
 	{
@@ -9608,7 +9608,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_see_ghost_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.397370
+		vsnd_duration = 1.39737
 	}
 	shiv_ping_see_ghost_on_roof_ping_2d = 
 	{
@@ -9878,7 +9878,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_see_mirage_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.536100
+		vsnd_duration = 1.5361
 	}
 	shiv_ping_see_mirage_on_roof_ping_2d = 
 	{
@@ -9948,7 +9948,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_see_operative_on_roof.vsnd",
 		]
-		vsnd_duration = 1.257710
+		vsnd_duration = 1.25771
 	}
 	shiv_ping_see_orion_01_ping_2d = 
 	{
@@ -10138,7 +10138,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_see_viscous_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.582880
+		vsnd_duration = 1.58288
 	}
 	shiv_ping_see_viscous_on_roof_ping_2d = 
 	{
@@ -10248,7 +10248,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_see_wrecker_on_roof.vsnd",
 		]
-		vsnd_duration = 1.250000
+		vsnd_duration = 1.25
 	}
 	shiv_ping_see_yamato_on_bridge_ping_2d = 
 	{
@@ -10478,7 +10478,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_stun_bebop_01.vsnd",
 		]
-		vsnd_duration = 1.057800
+		vsnd_duration = 1.0578
 	}
 	shiv_ping_stun_cadence_01_ping_2d = 
 	{
@@ -10828,7 +10828,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_synth_under_garage.vsnd",
 		]
-		vsnd_duration = 1.586190
+		vsnd_duration = 1.58619
 	}
 	shiv_ping_synth_was_here_ping_2d = 
 	{
@@ -10928,7 +10928,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_tengu_missing_01.vsnd",
 		]
-		vsnd_duration = 1.195510
+		vsnd_duration = 1.19551
 	}
 	shiv_ping_tengu_on_top_of_garage_ping_2d = 
 	{
@@ -11138,7 +11138,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_trapper_was_here.vsnd",
 		]
-		vsnd_duration = 1.251610
+		vsnd_duration = 1.25161
 	}
 	shiv_ping_use_ability1_ping_2d = 
 	{
@@ -11208,7 +11208,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_use_ability4_05.vsnd",
 		]
-		vsnd_duration = 2.235170
+		vsnd_duration = 2.23517
 	}
 	shiv_ping_use_ability4_06_ping_2d = 
 	{
@@ -11268,7 +11268,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_use_glitch.vsnd",
 		]
-		vsnd_duration = 1.505510
+		vsnd_duration = 1.50551
 	}
 	shiv_ping_use_health_nova_ping_2d = 
 	{
@@ -11278,7 +11278,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_use_health_nova.vsnd",
 		]
-		vsnd_duration = 1.606100
+		vsnd_duration = 1.6061
 	}
 	shiv_ping_use_item_ping_2d = 
 	{
@@ -11298,7 +11298,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_use_kncokdown.vsnd",
 		]
-		vsnd_duration = 1.645760
+		vsnd_duration = 1.64576
 	}
 	shiv_ping_use_refresher_ping_2d = 
 	{
@@ -11418,7 +11418,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_viper_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.515850
+		vsnd_duration = 1.51585
 	}
 	shiv_ping_viper_under_garage_ping_2d = 
 	{
@@ -11478,7 +11478,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_viscous_in_mid.vsnd",
 		]
-		vsnd_duration = 1.439660
+		vsnd_duration = 1.43966
 	}
 	shiv_ping_viscous_missing_01_ping_2d = 
 	{
@@ -11598,7 +11598,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_warden_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.855850
+		vsnd_duration = 1.85585
 	}
 	shiv_ping_warden_on_top_of_mid_ping_2d = 
 	{
@@ -11918,7 +11918,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_with_viper.vsnd",
 		]
-		vsnd_duration = 1.458640
+		vsnd_duration = 1.45864
 	}
 	shiv_ping_with_viscous_ping_2d = 
 	{
@@ -11978,7 +11978,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_wraith_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.509410
+		vsnd_duration = 1.50941
 	}
 	shiv_ping_wraith_check_items_ping_2d = 
 	{
@@ -12018,7 +12018,7 @@
 		[
 			"sounds/vo/shiv/ping/shiv_ping_wraith_missing_01.vsnd",
 		]
-		vsnd_duration = 1.085760
+		vsnd_duration = 1.08576
 	}
 	shiv_ping_wraith_on_top_of_garage_ping_2d = 
 	{
@@ -12298,7 +12298,7 @@
 		[
 			"sounds/vo/shiv/shiv_sad_03.vsnd",
 		]
-		vsnd_duration = 2.036100
+		vsnd_duration = 2.0361
 	}
 	shiv_sad_04_hero_3d = 
 	{
@@ -12408,7 +12408,7 @@
 		[
 			"sounds/vo/shiv/shiv_select_01.vsnd",
 		]
-		vsnd_duration = 1.868980
+		vsnd_duration = 1.86898
 	}
 	shiv_select_02_hero_3d = 
 	{
@@ -12478,7 +12478,7 @@
 		[
 			"sounds/vo/shiv/shiv_select_08.vsnd",
 		]
-		vsnd_duration = 2.634830
+		vsnd_duration = 2.63483
 	}
 	shiv_select_09_hero_3d = 
 	{
@@ -12708,7 +12708,7 @@
 		[
 			"sounds/vo/shiv/shiv_unselect_04.vsnd",
 		]
-		vsnd_duration = 1.056100
+		vsnd_duration = 1.0561
 	}
 	shiv_unselect_05_hero_3d = 
 	{
@@ -12768,7 +12768,7 @@
 		[
 			"sounds/vo/shiv/shiv_unselect_10.vsnd",
 		]
-		vsnd_duration = 1.293560
+		vsnd_duration = 1.29356
 	}
 	shiv_upgrade_power1_01_hero_3d = 
 	{
@@ -12788,7 +12788,7 @@
 		[
 			"sounds/vo/shiv/shiv_upgrade_power1_02.vsnd",
 		]
-		vsnd_duration = 1.145510
+		vsnd_duration = 1.14551
 	}
 	shiv_upgrade_power1_03_hero_3d = 
 	{
@@ -12798,7 +12798,7 @@
 		[
 			"sounds/vo/shiv/shiv_upgrade_power1_03.vsnd",
 		]
-		vsnd_duration = 2.014490
+		vsnd_duration = 2.01449
 	}
 	shiv_upgrade_power1_04_hero_3d = 
 	{
@@ -12818,7 +12818,7 @@
 		[
 			"sounds/vo/shiv/shiv_upgrade_power1_05.vsnd",
 		]
-		vsnd_duration = 2.797710
+		vsnd_duration = 2.79771
 	}
 	shiv_upgrade_power1_06_hero_3d = 
 	{
@@ -12938,7 +12938,7 @@
 		[
 			"sounds/vo/shiv/shiv_upgrade_power2_07.vsnd",
 		]
-		vsnd_duration = 2.304150
+		vsnd_duration = 2.30415
 	}
 	shiv_upgrade_power2_08_hero_3d = 
 	{
@@ -13128,7 +13128,7 @@
 		[
 			"sounds/vo/shiv/shiv_upgrade_power4_10.vsnd",
 		]
-		vsnd_duration = 2.814580
+		vsnd_duration = 2.81458
 	}
 	shiv_use_ability_refresher_01_ability_3d = 
 	{
@@ -13168,7 +13168,7 @@
 		[
 			"sounds/vo/shiv/shiv_use_echo_shard_01.vsnd",
 		]
-		vsnd_duration = 1.309660
+		vsnd_duration = 1.30966
 	}
 	shiv_use_echo_shard_02_ability_3d = 
 	{
@@ -13238,7 +13238,7 @@
 		[
 			"sounds/vo/shiv/shiv_use_metal_skin_02.vsnd",
 		]
-		vsnd_duration = 0.819660
+		vsnd_duration = 0.81966
 	}
 	shiv_use_metal_skin_03_ability_3d = 
 	{
@@ -13248,7 +13248,7 @@
 		[
 			"sounds/vo/shiv/shiv_use_metal_skin_03.vsnd",
 		]
-		vsnd_duration = 1.557800
+		vsnd_duration = 1.5578
 	}
 	shiv_use_phantom_strike_01_ability_3d = 
 	{
@@ -13388,7 +13388,7 @@
 		[
 			"sounds/vo/shiv/shiv_use_power1_11.vsnd",
 		]
-		vsnd_duration = 1.363900
+		vsnd_duration = 1.3639
 	}
 	shiv_use_power2_01_ability_3d = 
 	{
@@ -13538,7 +13538,7 @@
 		[
 			"sounds/vo/shiv/shiv_use_power3_09.vsnd",
 		]
-		vsnd_duration = 1.382290
+		vsnd_duration = 1.38229
 	}
 	shiv_use_power3_10_ability_3d = 
 	{
@@ -13718,7 +13718,7 @@
 		[
 			"sounds/vo/shiv/shiv_use_power4_05.vsnd",
 		]
-		vsnd_duration = 1.880340
+		vsnd_duration = 1.88034
 	}
 	shiv_use_power4_05_hero_announcer = 
 	{
@@ -13728,7 +13728,7 @@
 		[
 			"sounds/vo/shiv/shiv_use_power4_05.vsnd",
 		]
-		vsnd_duration = 1.880340
+		vsnd_duration = 1.88034
 	}
 	shiv_use_power4_05_ult_3d = 
 	{
@@ -13738,7 +13738,7 @@
 		[
 			"sounds/vo/shiv/shiv_use_power4_05.vsnd",
 		]
-		vsnd_duration = 1.880340
+		vsnd_duration = 1.88034
 	}
 	shiv_use_power4_06_ability_3d = 
 	{
@@ -14008,7 +14008,7 @@
 		[
 			"sounds/vo/shiv/shiv_use_tech_purge_03.vsnd",
 		]
-		vsnd_duration = 2.434240
+		vsnd_duration = 2.43424
 	}
 	shiv_use_unstoppable_01_ability_3d = 
 	{

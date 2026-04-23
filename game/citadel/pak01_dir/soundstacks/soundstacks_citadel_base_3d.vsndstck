@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -724,7 +723,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"
@@ -742,25 +740,21 @@
 					}
 				}
 			},
-			
 			{
 				name = "source_info"
 				operator = "game_get_source_info"
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_execute = "1"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "set_layer"
 				operator = "soundevent_control"
 				voice_layer = "@public.event_voice_layer"
 			},
-			
 			{
 				name = "test_from_player_index"
 				operator = "ctrl_switch_float"
@@ -768,7 +762,6 @@
 				input2 = "-1"
 				input1 = "@source_info.output_entity_index"
 			},
-			
 			{
 				name = "get_entity_info"
 				input_execute = "1"
@@ -780,7 +773,6 @@
 				use_world_position = "@public.position_force_from_input"
 				attachment = "@public.attachment"
 			},
-			
 			{
 				name = "add_position_offset"
 				operator = "math_float3"
@@ -788,7 +780,6 @@
 				input1 = "@get_entity_info.output_position"
 				input2 = "@public.position_offset"
 			},
-			
 			{
 				name = "delay_random"
 				operator = "math_randomize_float"
@@ -797,13 +788,11 @@
 				input_rand_min = "@public.delay_rand_min"
 				input_rand_max = "@public.delay_rand_max"
 			},
-			
 			{
 				name = "get_event_info"
 				operator = "soundevent_get_info"
 				input_stack_delay = "@delay_random.output"
 			},
-			
 			{
 				name = "math_not_in_predelay"
 				operator = "math_float"
@@ -811,21 +800,18 @@
 				input1 = "@get_event_info.output_elapsed_time"
 				input2 = "@get_event_info.output_final_delay"
 			},
-			
 			{
 				name = "distance_to_source"
 				operator = "calc_distance"
 				input_position1 = "@add_position_offset.output"
 				input_position2 = "@globals.output_listener_position"
 			},
-			
 			{
 				name = "distance_filter"
 				operator = "math_filter_float"
 				input = "@distance_to_source.output"
 				input_max_velocity = "@public.distance_max_velocity"
 			},
-			
 			{
 				name = "import_block_stack"
 				operator = "sos_import_stack"
@@ -840,7 +826,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "facing_submix_send"
 				operator = "vmix_mixgraph_send"
@@ -848,7 +833,6 @@
 				input = "0"
 				send_type = "facing"
 			},
-			
 			{
 				name = "greater_than_cull_distance"
 				operator = "math_float"
@@ -857,7 +841,6 @@
 				input1 = "@distance_to_source.output"
 				input2 = "@public.cull_at_distance"
 			},
-			
 			{
 				name = "culling_and_unstopped"
 				operator = "math_float"
@@ -866,7 +849,6 @@
 				input1 = "@greater_than_cull_distance.output"
 				input2 = "@get_event_info.output_unstopped"
 			},
-			
 			{
 				name = "calc_max_think_time_distance"
 				operator = "math_float"
@@ -876,7 +858,6 @@
 				input1 = "@public.cull_at_distance"
 				input2 = "2.000000"
 			},
-			
 			{
 				name = "calc_think_time_max_rand_val"
 				operator = "math_float"
@@ -886,7 +867,6 @@
 				input1 = "1.0"
 				input2 = "0.600000"
 			},
-			
 			{
 				name = "calc_random_max_think_time"
 				operator = "math_random_float"
@@ -895,7 +875,6 @@
 				input_max = "1.0"
 				round_to_int = "0"
 			},
-			
 			{
 				name = "calc_culling_think_time"
 				operator = "math_remap_float"
@@ -906,7 +885,6 @@
 				input_map_min = "0.050000"
 				input_map_max = "@calc_random_max_think_time.output"
 			},
-			
 			{
 				name = "culling_think_time_switch"
 				operator = "ctrl_switch_float"
@@ -914,21 +892,18 @@
 				input1 = "-1.000000"
 				input2 = "@calc_culling_think_time.output"
 			},
-			
 			{
 				name = "set_culling_dependency"
 				input_execute = "@culling_and_unstopped.output"
 				operator = "soundevent_control"
 				input_add_dependent = "@culling_and_unstopped.output"
 			},
-			
 			{
 				name = "set_culling_wait_time"
 				input_execute = "@culling_and_unstopped.output"
 				operator = "soundevent_control"
 				input_wait_time = "@culling_think_time_switch.output"
 			},
-			
 			{
 				name = "culling_goto_end"
 				operator = "sos_goto"
@@ -936,7 +911,6 @@
 				execute_once = "false"
 				input_goto_operator = "citadel_base_3d::set_output_opvar_distance"
 			},
-			
 			{
 				name = "soundevent_limit"
 				execute_once = "true"
@@ -949,7 +923,6 @@
 				match_event_duration = "-1.0"
 				match_this_event = "true"
 			},
-			
 			{
 				name = "join_group_limiter_global_event_distance"
 				input_execute = "@public.limiter_global_event_distance_on"
@@ -959,7 +932,6 @@
 				input_limit_max_events = "@public.limiter_global_event_distance_max"
 				input_match_float = "@distance_filter.output"
 			},
-			
 			{
 				name = "join_group_limiter_category_volume"
 				input_execute = "@public.limiter_global_category_distance_on"
@@ -970,13 +942,11 @@
 				input_match_string = "@public.limiter_global_category_name"
 				input_match_float = "@distance_filter.output"
 			},
-			
 			{
 				name = "volume_to_gain"
 				operator = "math_db_to_gain"
 				input = "@public.volume"
 			},
-			
 			{
 				name = "block_pitch_from_code_switch"
 				operator = "ctrl_switch_float"
@@ -984,7 +954,6 @@
 				input2 = "@public.pitch_force_input_to_value"
 				input_switch = "@public.pitch_force_input_to_value"
 			},
-			
 			{
 				name = "pitch_random"
 				operator = "math_randomize_float"
@@ -993,7 +962,6 @@
 				input_rand_min = "@public.pitch_rand_min"
 				input_rand_max = "@public.pitch_rand_max"
 			},
-			
 			{
 				name = "pitch_mod"
 				operator = "math_parameter_accumulator"
@@ -1004,7 +972,6 @@
 				namespace = "@public.pitch_modulation_namespace"
 				baseline = "1.0"
 			},
-			
 			{
 				name = "pitch_mult"
 				operator = "math_float"
@@ -1013,7 +980,6 @@
 				input1 = "@pitch_mod.output"
 				input2 = "@pitch_random.output"
 			},
-			
 			{
 				name = "calc_doppler"
 				input_execute = "@public.doppler_on"
@@ -1024,14 +990,12 @@
 				input_doppler_factor_receding = "@public.doppler_factor_receding"
 				input_doppler_observer_scale = "0.050000"
 			},
-			
 			{
 				name = "doppler_filter"
 				operator = "math_filter_float"
 				input = "@calc_doppler.output"
 				input_max_velocity = "1.000000"
 			},
-			
 			{
 				name = "mult_pitch_doppler"
 				operator = "math_float"
@@ -1039,7 +1003,6 @@
 				input1 = "@pitch_mult.output"
 				input2 = "@doppler_filter.output"
 			},
-			
 			{
 				name = "pitch_adjustment"
 				operator = "math_float"
@@ -1047,7 +1010,6 @@
 				input1 = "@public.pitch_adjust"
 				input2 = "@mult_pitch_doppler.output"
 			},
-			
 			{
 				name = "mixer"
 				operator = "soundmixer_get_mixgroup"
@@ -1057,7 +1019,6 @@
 				input_soundlevel = "60"
 				input_event_type = "0"
 			},
-			
 			{
 				name = "citadel_distance_falloff"
 				operator = "sos_import_stack"
@@ -1077,7 +1038,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "volume_fade_in"
 				operator = "math_remap_float"
@@ -1088,14 +1048,12 @@
 				input_map_max = "1.000000"
 				default_to_max = "true"
 			},
-			
 			{
 				name = "remap_fade_over_time"
 				operator = "math_curve_2d"
 				input = "@get_event_info.output_elapsed_time"
 				public_field_name = "public.volume_fade_over_time_curve"
 			},
-			
 			{
 				name = "volume_atten_override_switch"
 				operator = "ctrl_switch_float"
@@ -1103,7 +1061,6 @@
 				input2 = "@public.volume_atten_override"
 				input_switch = "@public.volume_atten_override"
 			},
-			
 			{
 				name = "citadel_facing_atten"
 				input_execute = "@public.facing_vol_attenuation_on"
@@ -1129,7 +1086,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "citadel_reverb_send"
 				operator = "sos_import_stack"
@@ -1154,15 +1110,13 @@
 					}
 				}
 			},
-			
 			{
 				name = "volume_convar_switch"
 				operator = "ctrl_switch_float"
-				input1 = 1.000000
+				input1 = 1.0
 				input2 = "@globals.output_snd_musicvolume_convar"
 				input_switch = "@public.event_use_music_convar"
 			},
-			
 			{
 				name = "check_recency_bias_invalid"
 				input_execute = "1.0"
@@ -1171,7 +1125,6 @@
 				input1 = "@public.recency_bias"
 				input2 = "-1.0"
 			},
-			
 			{
 				name = "recency_bias_ease"
 				input_execute = "1.0"
@@ -1179,7 +1132,6 @@
 				function = "ease_sin_out"
 				input1 = "@public.recency_bias"
 			},
-			
 			{
 				name = "remap_recency_bias_linear_vol"
 				operator = "math_remap_float"
@@ -1191,7 +1143,6 @@
 				input_map_max = "@public.recency_bias_max_scale"
 				default_to_max = "false"
 			},
-			
 			{
 				name = "opvar_get_is_in_hideout"
 				operator = "opvar_get_float"
@@ -1200,7 +1151,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "citadel_in_hideout"
 			},
-			
 			{
 				name = "max_opvar_get_is_in_hideout"
 				operator = "math_float"
@@ -1208,7 +1158,6 @@
 				input1 = "@opvar_get_is_in_hideout.output"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "math_mult_hideout_offset"
 				operator = "math_float"
@@ -1216,13 +1165,11 @@
 				input1 = "@max_opvar_get_is_in_hideout.output"
 				input2 = "@public.volume_hideout_offset_db"
 			},
-			
 			{
 				name = "volume_hideout_offset_to_gain"
 				operator = "math_db_to_gain"
 				input = "@math_mult_hideout_offset.output"
 			},
-			
 			{
 				name = "volume_accumulate_pre_reverb"
 				operator = "math_accumulate12_float"
@@ -1237,7 +1184,6 @@
 				input10 = "@remap_recency_bias_linear_vol.output"
 				input12 = "@remap_fade_over_time.output"
 			},
-			
 			{
 				name = "citadel_instance_attenuator"
 				operator = "sos_import_stack"
@@ -1252,7 +1198,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "math_volume_scale_mixer"
 				input_execute = "1.0"
@@ -1262,13 +1207,11 @@
 				input2 = "@volume_accumulate_pre_reverb.output"
 				input3 = "@citadel_instance_attenuator::output.result_vol_offset_linear"
 			},
-			
 			{
 				name = "voice_volume_protection_level"
 				operator = "convar_get"
 				convar = "audio_voice_volume_protection"
 			},
-			
 			{
 				name = "math_limit_voice_volume_convar"
 				input_execute = "1.0"
@@ -1277,7 +1220,6 @@
 				input1 = "@voice_volume_protection_level.output"
 				input2 = "@math_volume_scale_mixer.output"
 			},
-			
 			{
 				name = "math_vol_protection_exceeded"
 				input_execute = "1.0"
@@ -1286,7 +1228,6 @@
 				input1 = "@math_volume_scale_mixer.output"
 				input2 = "@voice_volume_protection_level.output"
 			},
-			
 			{
 				name = "vol_protection_message"
 				operator = "math_string"
@@ -1299,7 +1240,6 @@
 
 """
 			},
-			
 			{
 				name = "print_volume_limit_exceeded"
 				operator = "util_print_string"
@@ -1307,14 +1247,12 @@
 				input_execute = "@math_vol_protection_exceeded.output"
 				input = "@vol_protection_message.output_string"
 			},
-			
 			{
 				name = "volume_filter"
 				operator = "math_filter_float"
 				input = "@math_limit_voice_volume_convar.output"
 				input_max_velocity = "@public.volume_filter_amount"
 			},
-			
 			{
 				name = "join_group_limiter_global_volume"
 				input_execute = "@public.limiter_global_volume_on"
@@ -1324,19 +1262,16 @@
 				input_limit_max_events = "@public.limiter_global_volume_max"
 				input_match_float = "@volume_filter.output"
 			},
-			
 			{
 				name = "get_vsnd_info"
 				operator = "vmix_vsnd_info"
 				input_vsnd = "@public.vsnd_files_for_envelope"
 			},
-			
 			{
 				name = "get_voice_elapsed_time"
 				operator = "vmix_voice_time"
 				input_execute = "@get_vsnd_info.output_has_envelope"
 			},
-			
 			{
 				name = "sample_env_curve"
 				operator = "container_sample_curve"
@@ -1344,7 +1279,6 @@
 				input_time = "@get_voice_elapsed_time.output_voice_seek_time"
 				input_container = "@public.vsnd_files_for_envelope"
 			},
-			
 			{
 				name = "math_seek_time_is_zero"
 				operator = "math_float"
@@ -1352,7 +1286,6 @@
 				input1 = "@get_voice_elapsed_time.output_voice_seek_time"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "ctrl_switch_env_seek_time_zero"
 				operator = "ctrl_switch_float"
@@ -1360,7 +1293,6 @@
 				input1 = "@sample_env_curve.output"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "select_envelope_check"
 				operator = "ctrl_switch_float"
@@ -1368,7 +1300,6 @@
 				input1 = "0.0"
 				input2 = "@ctrl_switch_env_seek_time_zero.output"
 			},
-			
 			{
 				name = "mixer_trigger_select_input"
 				operator = "ctrl_switch3_float"
@@ -1377,7 +1308,6 @@
 				input1 = "@select_envelope_check.output"
 				input2 = "@public.mixer_trigger_amount_manual"
 			},
-			
 			{
 				name = "citadel_occlusion"
 				operator = "sos_import_stack"
@@ -1407,7 +1337,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "math_calc_mixlayer_volume_value"
 				operator = "math_float"
@@ -1415,7 +1344,6 @@
 				input1 = "@citadel_distance_falloff::output.result_vol_linear"
 				input2 = "@citadel_occlusion::output.result"
 			},
-			
 			{
 				name = "mixerlayer_volume_is_above_gate"
 				operator = "math_float"
@@ -1423,7 +1351,6 @@
 				input1 = "@math_calc_mixlayer_volume_value.output"
 				input2 = "@public.mixer_mixlayer_volume_gate"
 			},
-			
 			{
 				name = "mixer_trigger_amount"
 				operator = "ctrl_switch_float"
@@ -1431,14 +1358,12 @@
 				input1 = "0.0"
 				input2 = "@mixer_trigger_select_input.output"
 			},
-			
 			{
 				name = "mixer_trigger"
 				operator = "soundmixer_set_trigger"
 				input_trigger = "@mixer_trigger_amount.output"
 				input_mixgroups = "@mixer.output_mixgroups"
 			},
-			
 			{
 				name = "submix_send"
 				operator = "vmix_mixgraph_send"
@@ -1447,12 +1372,11 @@
 				submix_name = "@public.send_name"
 				send_type = "named"
 			},
-			
 			{
 				name = "speakers_spatialize"
 				operator = "calc_spatialize_speakers_hrtf"
 				execute_once = "@public.position_force_static"
-				input_360_listener = 0.000000
+				input_360_listener = 0.0
 				input_listener_angles = "@globals.output_listener_angles"
 				input_hrtf_on = "@public.hrtf_on"
 				input_hrtf_mix = "@public.hrtf_mix"
@@ -1467,7 +1391,6 @@
 				input_spread_max_value = "@public.spread_max_value"
 				input_spread_min_value = "@public.spread_min_value"
 			},
-			
 			{
 				name = "set_output_opvar_distance"
 				operator = "opvar_set_float"
@@ -1477,7 +1400,6 @@
 				input_field_name = "distance_for_limiter"
 				input_use_namespace = "true"
 			},
-			
 			{
 				name = "set_output_opvar_volume"
 				operator = "opvar_set_float"
@@ -1487,13 +1409,11 @@
 				input_field_name = "volume_for_limiter"
 				input_use_namespace = "true"
 			},
-			
 			{
 				name = "convar_get_debug_enabled"
 				operator = "convar_get"
 				convar = "audio_display_soundstack_debug_base_3d"
 			},
-			
 			{
 				name = "util_draw_debug_sphere"
 				operator = "util_draw_debug_sphere"

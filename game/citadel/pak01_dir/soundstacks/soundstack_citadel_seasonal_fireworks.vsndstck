@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -73,15 +71,13 @@
 					}
 				}
 			},
-			
 			{
 				name = "block_rand_float"
 				operator = "math_random_float"
 				execute_once = "true"
-				input_min = 0.000000
-				input_max = 1.000000
+				input_min = 0.0
+				input_max = 1.0
 			},
-			
 			{
 				name = "block_rand_compare"
 				operator = "math_float"
@@ -90,7 +86,6 @@
 				input1 = "@block_rand_float.output"
 				input2 = "@public.probability_block"
 			},
-			
 			{
 				name = "block_rand"
 				operator = "sos_goto"
@@ -98,15 +93,13 @@
 				execute_once = "1.000000"
 				input_execute = "@block_rand_compare.output"
 			},
-			
 			{
 				name = "rand_size"
 				operator = "math_random_float"
 				execute_once = "true"
-				input_min = 0.000000
-				input_max = 1.000000
+				input_min = 0.0
+				input_max = 1.0
 			},
-			
 			{
 				name = "is_big"
 				operator = "math_float"
@@ -115,7 +108,6 @@
 				input1 = "@rand_size.output"
 				input2 = "@public.probability_big"
 			},
-			
 			{
 				name = "is_med"
 				operator = "math_float"
@@ -124,7 +116,6 @@
 				input1 = "@rand_size.output"
 				input2 = "@public.probability_block"
 			},
-			
 			{
 				name = "select_pitch"
 				operator = "ctrl_switch_float"
@@ -133,7 +124,6 @@
 				input1 = "@public.pitch_med"
 				input2 = "@public.pitch_big"
 			},
-			
 			{
 				name = "select_pitch_min"
 				operator = "ctrl_switch_float"
@@ -142,7 +132,6 @@
 				input1 = "@public.pitch_rand_min_med"
 				input2 = "@public.pitch_rand_min_big"
 			},
-			
 			{
 				name = "select_pitch_max"
 				operator = "ctrl_switch_float"
@@ -151,7 +140,6 @@
 				input1 = "@public.pitch_rand_max_med"
 				input2 = "@public.pitch_rand_max_big"
 			},
-			
 			{
 				name = "select_vol"
 				operator = "ctrl_switch_float"
@@ -160,7 +148,6 @@
 				input1 = "@public.vol_med_db"
 				input2 = "@public.vol_big_db"
 			},
-			
 			{
 				name = "citadel_default_3d_import"
 				operator = "sos_import_stack"

@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "music.end_game"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -23,7 +21,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "opvar_get_can_damage_t3"
 				operator = "opvar_get_float"
@@ -32,7 +29,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "local_player_can_damage_t3"
 			},
-			
 			{
 				name = "opvar_get_amber_base_proximity"
 				operator = "opvar_get_float"
@@ -41,7 +37,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "base_amber_proximity_fraction"
 			},
-			
 			{
 				name = "opvar_get_sapphire_base_proximity"
 				operator = "opvar_get_float"
@@ -50,7 +45,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "base_sapphire_proximity_fraction"
 			},
-			
 			{
 				name = "max_base_proximity"
 				operator = "math_float"
@@ -58,13 +52,11 @@
 				input1 = "@opvar_get_amber_base_proximity.output"
 				input2 = "@opvar_get_sapphire_base_proximity.output"
 			},
-			
 			{
 				name = "volume_to_gain"
 				operator = "math_db_to_gain"
 				input = "@public.volume"
 			},
-			
 			{
 				name = "math_mult_final_volume"
 				operator = "math_float"
@@ -72,13 +64,11 @@
 				input1 = "@volume_to_gain.output"
 				input2 = "@max_base_proximity.output"
 			},
-			
 			{
 				name = "final_volume"
 				operator = "math_gain_to_db"
 				input = "@math_mult_final_volume.output"
 			},
-			
 			{
 				name = "citadel_music"
 				operator = "sos_import_stack"

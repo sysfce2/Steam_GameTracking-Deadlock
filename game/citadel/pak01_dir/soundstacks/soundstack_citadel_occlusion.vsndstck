@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -155,34 +154,30 @@
 					}
 				}
 			},
-			
 			{
 				name = "math_volume_above_falloff_threshold"
 				operator = "math_float"
-				input_execute = 1.000000
+				input_execute = 1.0
 				apply = "greater_than"
 				input1 = "@public.input_occlusion_volume_falloff_ls"
 				input2 = "0.001"
 			},
-			
 			{
 				name = "occlusion_scale_above_zero"
 				operator = "math_float"
-				input_execute = 1.000000
+				input_execute = 1.0
 				apply = "greater_than"
 				input1 = "@public.occlusion_scale"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "occlusion_calc_enabled"
 				operator = "math_float"
-				input_execute = 1.000000
+				input_execute = 1.0
 				apply = "and"
 				input1 = "@math_volume_above_falloff_threshold.output"
 				input2 = "@occlusion_scale_above_zero.output"
 			},
-			
 			{
 				name = "math_not_using_group_calc"
 				operator = "math_float"
@@ -191,7 +186,6 @@
 				input1 = "1.0"
 				input2 = "@public.occlusion_use_group_calculation"
 			},
-			
 			{
 				name = "math_invalid_entity_index"
 				operator = "math_float"
@@ -200,7 +194,6 @@
 				input1 = "@public.input_occlusion_entity_index"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "math_not_using_group_calc_or_invalid_entity"
 				operator = "math_float"
@@ -209,16 +202,14 @@
 				input1 = "@math_invalid_entity_index.output"
 				input2 = "@math_not_using_group_calc.output"
 			},
-			
 			{
 				name = "math_enable_emitter_calc"
 				operator = "math_float"
-				input_execute = 1.000000
+				input_execute = 1.0
 				apply = "mult"
 				input1 = "@math_not_using_group_calc_or_invalid_entity.output"
 				input2 = "@occlusion_calc_enabled.output"
 			},
-			
 			{
 				name = "occlusion_emitter_calc"
 				operator = "calc_occlusion_src2"
@@ -231,16 +222,14 @@
 				input_listener_position = "@public.input_occlusion_listener_position"
 				input_trace_interval = "@public.occlusion_interval"
 			},
-			
 			{
 				name = "math_enable_group_calc"
 				operator = "math_float"
-				input_execute = 1.000000
+				input_execute = 1.0
 				apply = "mult"
 				input1 = "@public.occlusion_use_group_calculation"
 				input2 = "@occlusion_calc_enabled.output"
 			},
-			
 			{
 				name = "join_occlusion_group"
 				input_execute = "@math_enable_group_calc.output"
@@ -250,7 +239,6 @@
 				input_match_string = "@public.occlusion_subgroup_name"
 				input_entity_index = "@public.input_occlusion_entity_index"
 			},
-			
 			{
 				name = "get_group_occlusion_value"
 				execute_once = "false"
@@ -259,7 +247,6 @@
 				input_group_result = "@join_occlusion_group.output_result"
 				input_name = "occlusion"
 			},
-			
 			{
 				name = "math_invert_attenuation_result"
 				operator = "math_float"
@@ -268,7 +255,6 @@
 				input1 = "1.0"
 				input2 = "@get_group_occlusion_value.output"
 			},
-			
 			{
 				name = "math_mult_inverted_occlusion_result"
 				operator = "math_float"
@@ -277,7 +263,6 @@
 				input1 = "@math_invert_attenuation_result.output"
 				input2 = "@public.occlusion_scale"
 			},
-			
 			{
 				name = "math_occlusion_scaled"
 				operator = "math_float"
@@ -286,7 +271,6 @@
 				input1 = "1.0"
 				input2 = "@math_mult_inverted_occlusion_result.output"
 			},
-			
 			{
 				name = "math_occlusion_min"
 				operator = "math_float"
@@ -295,7 +279,6 @@
 				input1 = "@public.occlusion_min"
 				input2 = "@math_occlusion_scaled.output"
 			},
-			
 			{
 				name = "math_occlusion_max"
 				operator = "math_float"
@@ -304,7 +287,6 @@
 				input1 = "@public.occlusion_max"
 				input2 = "@math_occlusion_min.output"
 			},
-			
 			{
 				name = "switch_occlusion_output"
 				operator = "ctrl_switch_float"
@@ -313,7 +295,6 @@
 				input1 = "@math_occlusion_max.output"
 				input2 = "@occlusion_emitter_calc.output"
 			},
-			
 			{
 				name = "occlusion_max_distance_switch"
 				operator = "ctrl_switch_float"
@@ -321,7 +302,6 @@
 				input1 = "@public.occlusion_min"
 				input2 = "@switch_occlusion_output.output"
 			},
-			
 			{
 				name = "occlusion_filter"
 				operator = "math_filter_float"
@@ -329,7 +309,6 @@
 				input = "@occlusion_max_distance_switch.output"
 				input_max_velocity = "@public.occlusion_max_velocity"
 			},
-			
 			{
 				name = "distance_to_source"
 				operator = "calc_distance"
@@ -337,7 +316,6 @@
 				input_position1 = "@public.input_occlusion_listener_position"
 				input_position2 = "@public.input_occlusion_source_position"
 			},
-			
 			{
 				name = "remap_distance_normalized"
 				operator = "math_remap_float"
@@ -348,7 +326,6 @@
 				input_map_min = "0.0"
 				input_map_max = "1.0"
 			},
-			
 			{
 				name = "occlusion_value_distance_scale"
 				operator = "math_remap_float"
@@ -359,16 +336,14 @@
 				input_map_min = "1.0"
 				input_map_max = "@occlusion_filter.output"
 			},
-			
 			{
 				name = "math_one_if_disabled"
 				operator = "ctrl_switch_float"
-				input_execute = 1.000000
+				input_execute = 1.0
 				input_switch = "@occlusion_calc_enabled.output"
 				input1 = "1.0"
 				input2 = "@occlusion_value_distance_scale.output"
 			},
-			
 			{
 				name = "occlusion_vmix_send_occlusion_distance_scaled"
 				operator = "vmix_voicegraph_input"
@@ -376,23 +351,20 @@
 				input_name = "occlusion_distance_scaled"
 				input = "@math_one_if_disabled.output"
 			},
-			
 			{
 				name = "math_one_if_disabled_lpf"
 				operator = "ctrl_switch_float"
-				input_execute = 1.000000
+				input_execute = 1.0
 				input_switch = "@occlusion_calc_enabled.output"
 				input1 = "1.0"
 				input2 = "@occlusion_filter.output"
 			},
-			
 			{
 				name = "occlusion_lpf_filter"
 				operator = "math_filter_float"
 				input = "@math_one_if_disabled_lpf.output"
 				input_max_velocity = "10.0"
 			},
-			
 			{
 				name = "occlusion_vmix_send_occlusion"
 				input_execute = "1"
@@ -400,7 +372,6 @@
 				input_name = "occlusion"
 				input = "@occlusion_lpf_filter.output"
 			},
-			
 			{
 				name = "occlusion_min_vmix_send"
 				input_execute = "1"
@@ -408,7 +379,6 @@
 				input_name = "occlusion_min"
 				input = "@public.occlusion_min"
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"

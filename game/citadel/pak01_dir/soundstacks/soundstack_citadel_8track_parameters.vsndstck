@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -124,7 +123,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "track1_parameters"
 				operator = "sos_import_stack"
@@ -145,7 +143,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "track2_parameters"
 				operator = "sos_import_stack"
@@ -153,7 +150,6 @@
 				auto_connect_public_fields = "true"
 				auto_connect_field_scope = "track_2"
 			},
-			
 			{
 				name = "track3_parameters"
 				operator = "sos_import_stack"
@@ -161,7 +157,6 @@
 				auto_connect_public_fields = "true"
 				auto_connect_field_scope = "track_3"
 			},
-			
 			{
 				name = "track4_parameters"
 				operator = "sos_import_stack"
@@ -169,7 +164,6 @@
 				auto_connect_public_fields = "true"
 				auto_connect_field_scope = "track_4"
 			},
-			
 			{
 				name = "track5_parameters"
 				operator = "sos_import_stack"
@@ -177,7 +171,6 @@
 				auto_connect_public_fields = "true"
 				auto_connect_field_scope = "track_5"
 			},
-			
 			{
 				name = "track6_parameters"
 				operator = "sos_import_stack"
@@ -185,7 +178,6 @@
 				auto_connect_public_fields = "true"
 				auto_connect_field_scope = "track_6"
 			},
-			
 			{
 				name = "track7_parameters"
 				operator = "sos_import_stack"
@@ -193,7 +185,6 @@
 				auto_connect_public_fields = "true"
 				auto_connect_field_scope = "track_7"
 			},
-			
 			{
 				name = "track8_parameters"
 				operator = "sos_import_stack"

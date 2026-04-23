@@ -89,7 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
+ (08@HPX`j@
  (08@HPXb
+ (08@HPZ@
  (08@HR
  (0X`hpz
  (Dirty Animation)
@@ -1294,6 +1296,7 @@
 #MyRosterExitRosterConfirm
 #MyRosterRosterDesc:f
 #MyRosterRosterDesc_NeedsMoreNonNew:f
+#MyRosterRosterDesc_PartyInvalid
 #MyRosterSelectHero
 #NameSuggestions
 #NewRecordAllTime_desc
@@ -2634,7 +2637,7 @@ $hRh
 (\v2%.CMsgGCHAppCheersReceived.CheerTarget
 (\v2%.CMsgMatchMetaDataContents.BookReward
 (\v2%.CMsgMatchMetaDataContents.GoldSource
-(\v2%.CMsgPostGameProgressData.PlayerAward*
+(\v2%.CMsgPostGameProgressData.PlayerAward"h\n&CMsgClientToGCSetAccountPrivacySetting
 (\v2%.CMsgSOCacheSubscribed.SubscribedType
 (\v2%.CMsgServerCrashSentinelFile.GameInfo
 (\v2%.CMsgSource1LegacyGameEventList.key_t:
@@ -3015,6 +3018,7 @@ $hRh
 *BaseEntity::CBodyComponent
 *BaseModelEntity::CBodyComponentBaseModelEntity
 *Gets the last-played times for the account
+*Pds
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -3246,6 +3250,7 @@ $hRh
 -\n(k_EMsgClientToGCModeratorRequestResponse
 -\n(k_EMsgClientToGCPartyJoinViaCodeResponse
 -\n(k_EMsgClientToGCPartySendChatMsgResponse
+-\n(k_EMsgClientToGCSetAccountPrivacySetting
 -\n(k_EMsgClientToGCSetItemInventoryCategory
 -\n(k_EMsgClientToGCStartMatchmakingResponse
 -\n(k_EMsgClientToGCTarotGetUserDataResponse
@@ -13722,6 +13727,8 @@ $hRh
 .?AVCMsgClientToGCRequestCheatReportsResponse@@
 .?AVCMsgClientToGCRequestCheatReportsResponse_RecentCheatReport@@
 .?AVCMsgClientToGCRequestHeroReleaseVoteTally@@
+.?AVCMsgClientToGCSetAccountPrivacySetting@@
+.?AVCMsgClientToGCSetAccountPrivacySettingResponse@@
 .?AVCMsgClientToGCSetItemInventoryCategory@@
 .?AVCMsgClientToGCSetItemStyle@@
 .?AVCMsgClientToGCSetItemStyleResponse@@
@@ -16700,7 +16707,9 @@ $hRh
 0123456789
 02V8[
 05=k
+08@HR@
 08@J
+08B@
 08bX
 09,h
 0:00
@@ -16743,7 +16752,6 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vT0
 0x%4.4x 
 0x%X
 0x%X 
@@ -16834,6 +16842,7 @@ $hRh
 2%.CMsgExtractGemsResponse.EExtractGems"
 2%.CMsgMatchPlayerPathsData.ECombatTypeB
 2%.CSOAccountChallenge.EChallengeStatus
+2%.CSOGameAccountClient.EPrivacySetting"
 2%.ESteammLearnRegisterDataSourceResult
 2&.CMsgClientToGCGetBookResponse.EResult
 2&.CMsgMatchMetaDataContents.EGoldSource
@@ -16923,6 +16932,7 @@ $hRh
 2:.CMsgClientToGCUpdateHeroBuildPreferenceResponse.EResponse"1\n\tEResponse
 2:3maJ
 2:pS
+2;.CMsgClientToGCSetAccountPrivacySettingResponse.EResultCode"3\n\vEResultCode
 2?.CMsgClientToGCGetLimitedItemPurchaseQuantityResponse.EResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2Array of text tags to apply to the published file.
@@ -16963,7 +16973,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpL
+2\vpT>
 2^pV
 2a"l
 2bT~
@@ -17064,6 +17074,7 @@ $hRh
 5N{j
 5Retrieves information about a set of published files.
 5\f%54
+5\n0k_EMsgClientToGCSetAccountPrivacySettingResponse
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -17269,6 +17280,7 @@ $hRh
 :LBN
 :NAy
 :NPCAttachmentSpawnKV_t
+:Pds
 :QYJ
 :Vlq
 :\n5k_EMsgClientToGCCancelUnfinalizedTransactionsResponse
@@ -17340,7 +17352,6 @@ $hRh
 <\n\vdiagnostics
 <a class="PersonaName"%s%s%s>%s</a>
 <a href="\1\3">\1\3</a>
-<array element>
 <classptr>
 <custom>
 <embedded>
@@ -17428,6 +17439,7 @@ $hRh
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
 ?333?
+?<array element>
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
 ??0Utf8Value@String@v8@@QEAA@PEAVIsolate@2@V?$Local@VValue@v8@@@2@@Z
@@ -17437,7 +17449,6 @@ $hRh
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?CCitadel_Modifier_Priest_KnockbackBuff
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelPartyCode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?EncodeBC7Blocks
@@ -17460,6 +17471,7 @@ $hRh
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?LatchVariables
 ?TabButton
+?TeamObjectiveHealthPanel
 ?The most recent last-played time the client already knows about"
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
@@ -17474,13 +17486,11 @@ $hRh
 ?gwL
 ?jOb
 ?srJO
-?trigger_portal
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NT0
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
@@ -17502,13 +17512,11 @@ $hRh
 @\tV_iswcntrl
 @absorigin_follow
 @dKb]
-@fT0
 @fff>fff>fff>fff>
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @n2w
-@nT0
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -18378,8 +18386,8 @@ B64_READ_PKCS7
 B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
-B>CitadelHudStreetBrawlRoundScoringDisplay
 B>J7I
+B>MapPingPanel
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -18836,7 +18844,6 @@ BookImagePage
 BookImageSequence
 BookInfo
 BookItemUnlock
-BookItemUnlockControl
 BookLogo
 BookNavButton
 BookNavButtonBase
@@ -19194,8 +19201,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:723
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4270
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4444
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4274
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4448
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
@@ -22469,6 +22476,7 @@ CitadelHudScreenEffects_Stunned
 CitadelHudShieldsContainer
 CitadelHudSoulAPContainer
 CitadelHudSpectateBar
+CitadelHudStreetBrawlRoundScoringDisplay
 CitadelHudSubtitles
 CitadelHudTeamMsg
 CitadelHudTopBar
@@ -22513,6 +22521,7 @@ CitadelLobbyID_t""\n CMsgClientToGCLeaveLobbyResponse"
 CitadelLobbyID_t"8\n%CMsgClientToGCSetServerConVarResponse
 CitadelLobbyID_t"S\n*CMsgClientToGCReplacementSDRTicketResponse
 CitadelLobbyPlayerSlot_t"
+CitadelManageFriendsClicked
 CitadelMatchDetailsDeleteReplay
 CitadelMatchDetailsGraphClickPlayer
 CitadelMatchDetailsGraphHoverPlayer
@@ -22592,6 +22601,7 @@ CitadelPartyAcceptInvite
 CitadelPartyAcceptInvite( %llu )
 CitadelPartyCancelInviteAccountID
 CitadelPartyClearReady
+CitadelPartyCode
 CitadelPartyCodeHiddenUpdated
 CitadelPartyCodeTooltip
 CitadelPartyCreatePrivateLobby
@@ -23640,7 +23650,6 @@ D2I_X509_CINF
 D2Lb!
 D4tp
 D514p
-D8Cb
 D@D/lcO+hcK
 DAE!
 DAL\fL@
@@ -24789,6 +24798,7 @@ ENUMERATED
 ENotificationSetting
 EOF on memory BIO
 EPenaltyReason
+EPrivacySetting
 EProtoExecutionSite
 EQuM}
 ERROR: CCitadelAccoladesSchema reload failed\n
@@ -28061,7 +28071,7 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MCitadelManageFriendsClicked
+MBookItemUnlockControl
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -28232,7 +28242,6 @@ Map "%s" is using the obsolete HoldAnimation key on a prop_dynamic with model %s
 Map Name
 Map transition...\n
 MapMappingsEntry
-MapPingPanel
 MapUnitName
 MapValuesEntry
 MarkDuration
@@ -28703,7 +28712,6 @@ MuzzleFlash
 MuzzleFlash_global_client
 MyBuild
 MyMaterialCloaksMe
-MyRosterRosterDesc_PartyInvalid
 M}8vhJ
 N!vh
 N#ih
@@ -29355,12 +29363,11 @@ P-256
 P-384
 P-521
 P08@J
-P08J
-P08NT0
+P08J`
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6`n
+P6@X
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -29932,6 +29939,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+Pf@U
 Phrase
 Phrase%d
 PhraseContainer
@@ -30079,7 +30087,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-PnT0
+Pn@V
 Point entity.
 Point under crosshair
 PointType
@@ -30108,6 +30116,7 @@ PopupBuildTagPicker
 PopupButton
 PopupCommendPlayer
 PopupCustomLayout
+PopupCustomMatch
 PopupDiscordInvite
 PopupEnableButtons
 PopupEventDisconnectFromGame
@@ -30657,11 +30666,12 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
+R\fpT>
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpL
+R\vpP/
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -33445,7 +33455,6 @@ TeamHeroes
 TeamInfo
 TeamMsg
 TeamMsgPanel
-TeamObjectiveHealthPanel
 TeamOpenMicCheckbox
 TeamPlayer
 TeamPlayers
@@ -33869,7 +33878,6 @@ Tried to UTIL_Remove a networked entity (%d/%s) on the client, the server contro
 Tried to UTIL_RemoveImmediate a networked entity (%d/%s) on the client, the server controls lifespan, ignoring\n
 Tried to add game system %s twice!\n
 Tried to add unknown game system %s!\n
-Tried to load a polymorphic pointer with no '%s' key
 Tried to load resource reference '%s' from a value without a resource reference specific type.
 Trigger
 Trigger Activated\n
@@ -34525,11 +34533,9 @@ WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WD%g"0Q-)
-WDPopupCustomMatch
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
-WForce third person camera angles
 WIDE_HUMAN_HULL
 WIN32_BIND_FUNC
 WIN32_BIND_VAR
@@ -34968,6 +34974,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr@
 Xd3h
 XfJ7
 XjfR
@@ -35172,6 +35179,7 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
+\f@Tried to load a polymorphic pointer with no '%s' key
 \fAccoladeID_t
 \fCitadelMMR_t
 \fKS1
@@ -35182,6 +35190,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -35374,6 +35383,7 @@ Z~wl
 \n-CPlayer_GetNewSteamAnnouncementState_Response
 \n-steammessages_helprequest.steamworkssdk.proto
 \n.CCitadelUserMsg_ParticipantSetSoundEventParams
+\n.CMsgClientToGCSetAccountPrivacySettingResponse
 \n.steammessages_unified_base.steamworkssdk.proto
 \n/CMsgClientToGCUpdateHeroBuildPreferenceResponse
 \n/steammessages_publishedfile.steamworkssdk.proto
@@ -35392,6 +35402,7 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
+\nPds
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -35592,6 +35603,7 @@ Z~wl
 \n\nGetDetails
 \n\nGoldSource
 \n\nOAuthToken
+\n\nPds
 \n\nPerfSample
 \n\nPlayerData
 \n\nPlayerItem
@@ -36518,7 +36530,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60U
 `:zQF
 `D$daM-l
 `DZG
@@ -36528,9 +36539,7 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
-`fT0
 `h9T~
-`nT0
 `o_je
 `yNT
 a null shared library handle was used
@@ -36548,7 +36557,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvT0
 aD/x
 aDSS
 aECDH
@@ -43253,6 +43261,9 @@ k_ePlayerPermanentBanned
 k_ePlayerType_Player
 k_ePlayerType_Spectator
 k_ePlayersNotReady
+k_ePrivacy_FriendsOnly
+k_ePrivacy_Hidden
+k_ePrivacy_Public
 k_eRankedMMNotOpen
 k_eRankedNotunlocked
 k_eRateLimited
@@ -44670,6 +44681,7 @@ modifier_citadel_knockback
 modifier_citadel_knockdown
 modifier_citadel_lightning_bullet
 modifier_citadel_lightningball
+modifier_citadel_link
 modifier_citadel_magic_shield_spirit_buff
 modifier_citadel_metal
 modifier_citadel_metal_skin
@@ -45381,7 +45393,7 @@ n1Z
 n5cM
 n6j/
 n:2C[
-n<}\v<}\v<}\v<}\v
+n<}\v<}\v<}\v<}\vh
 n@PK
 nCRD
 nChangeOffset < INT16_MAX
@@ -46116,8 +46128,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^T0
-p0j /
+p0jp:
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46127,15 +46138,14 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6pE
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>T0
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
+pFP;
 pField
 pFilter
 pG_*h
@@ -46806,7 +46816,6 @@ playrandom
 playtime_2weeks
 playtime_forever
 plum
-pnT0
 pngsize
 point
 point arithmetic failure
@@ -47030,6 +47039,7 @@ priv [ %d ]
 priv:
 priv_key
 privacy
+privacy_setting
 private
 private key decode error
 private key does not match certificate
@@ -47233,8 +47243,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpP/
 r\n\vstart_index
 r\vDi
+r\vpT>
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -49574,6 +49586,7 @@ trigger_mins
 trigger_neutral_shield
 trigger_passthrough_fake_wall
 trigger_physics
+trigger_portal
 trigger_tier3phase2_shield
 trigger_transition
 tripmine
@@ -50648,7 +50661,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDmodifier_citadel_link
+zDWhen you sell an item.
 zF):O4
 zFar
 zG2m8

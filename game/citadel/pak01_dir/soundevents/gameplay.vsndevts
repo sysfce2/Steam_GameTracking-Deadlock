@@ -4,16 +4,16 @@
 	{
 		base = "Base.UI"
 		mixer_mixgroup = "Currency"
-		volume = -3.000000
-		delay = 0.150000
-		spread_min_value = 1.000000
-		spread_max_value = 1.000000
-		limiter_max = 0.000000
-		hrtf_on = 0.000000
-		pitch = 1.000000
-		pitch_modulation_max = 1.250000
-		pitch_modulation_attack = 4.000000
-		pitch_modulation_release = 0.500000
+		volume = -3.0
+		delay = 0.15
+		spread_min_value = 1.0
+		spread_max_value = 1.0
+		limiter_max = 0.0
+		hrtf_on = 0.0
+		pitch = 1.0
+		pitch_modulation_max = 1.25
+		pitch_modulation_attack = 4.0
+		pitch_modulation_release = 0.5
 		pitch_modulation_namespace = "CurrencyChanged"
 		vsnd_files = 
 		[
@@ -35,14 +35,14 @@
 	{
 		base = "Base.UI"
 		mixer_mixgroup = "Currency"
-		volume = -8.000000
-		block_duration = 1.000000
-		delay = 0.300000
-		spread_min_value = 1.000000
-		spread_max_value = 1.000000
-		limiter_max = 0.000000
-		hrtf_on = 0.000000
-		pitch = 1.000000
+		volume = -8.0
+		block_duration = 1.0
+		delay = 0.3
+		spread_min_value = 1.0
+		spread_max_value = 1.0
+		limiter_max = 0.0
+		hrtf_on = 0.0
+		pitch = 1.0
 		vsnd_files = 
 		[
 			"sounds/ui/ui_get_gold_large_01.vsnd",
@@ -55,11 +55,11 @@
 	Player.GetGold = 
 	{
 		base = "Base.XP"
-		volume = -12.000000
-		pitch = 1.000000
-		pitch_modulation_max = 1.950000
-		pitch_modulation_attack = 4.000000
-		pitch_modulation_release = 0.500000
+		volume = -12.0
+		pitch = 1.0
+		pitch_modulation_max = 1.95
+		pitch_modulation_attack = 4.0
+		pitch_modulation_release = 0.5
 		pitch_modulation_namespace = "gold"
 		vsnd_files = 
 		[
@@ -80,7 +80,7 @@
 	Player.ClaimOrb = 
 	{
 		base = "Player.GetGold"
-		volume = -6.000000
+		volume = -6.0
 		pitch_modulation_namespace = "orbs"
 		vsnd_files = 
 		[
@@ -92,26 +92,16 @@
 			"sounds/gameplay/orbs/xp_orbs_acquire_06.vsnd",
 			"sounds/gameplay/orbs/xp_orbs_acquire_07.vsnd",
 		]
-		instance_attenuator_enabled = 1.000000
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.018276,
-				0.000000,
-				0.000000,
-				-3.480865,
-				0.000000,
-				0.000000,
+				1.018276, 0.0, 0.0, -3.480865,
+				0.0, 0.0,
 			],
-			
 			[
-				7.913113,
-				-24.000000,
-				-3.480865,
-				0.000000,
-				0.000000,
-				0.000000,
+				7.913113, -24.0, -3.480865, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 1.867302
@@ -119,7 +109,7 @@
 	Player.ClaimOrb.Hit = 
 	{
 		base = "Base.XP"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = 
 		[
 			"sounds/gameplay/orbs/xp_orb_hit_01.vsnd",
@@ -134,14 +124,14 @@
 	Player.Deny = 
 	{
 		base = "Player.GetGold"
-		volume = -1.000000
-		pitch = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		volume_fade_out = 0.100000
-		pitch_modulation_max = 1.950000
-		pitch_modulation_attack = 1.000000
-		pitch_modulation_release = 3.000000
+		volume = -1.0
+		pitch = 1.0
+		limiter_on = 1.0
+		limiter_max = 1.0
+		volume_fade_out = 0.1
+		pitch_modulation_max = 1.95
+		pitch_modulation_attack = 1.0
+		pitch_modulation_release = 3.0
 		pitch_modulation_namespace = "deny"
 		vsnd_files = 
 		[
@@ -159,12 +149,12 @@
 	{
 		base = "Player.GetGold"
 		pitch_modulation_namespace = "deny"
-		volume = 0.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		volume_fade_out = 0.100000
-		block_distance_max = 2500.000000
-		max_distance_recipient_filter = 2500.000000
+		volume = 0.0
+		limiter_on = 1.0
+		limiter_max = 1.0
+		volume_fade_out = 0.1
+		block_distance_max = 2500.0
+		max_distance_recipient_filter = 2500.0
 		vsnd_files = 
 		[
 			"sounds/gameplay/orbs/xp_orbs_deny_01.vsnd",
@@ -179,9 +169,9 @@
 	Player.AcquireAp = 
 	{
 		base = "Base.UI"
-		block_duration = 1.000000
-		volume = -3.000000
-		pitch = 1.250000
+		block_duration = 1.0
+		volume = -3.0
+		pitch = 1.25
 		vsnd_files = 
 		[
 			"sounds/ui/ui_hud_acquire_ap_01.vsnd",
@@ -194,9 +184,9 @@
 	LastHit.Default = 
 	{
 		base = "Base.XP"
-		limiter_max = 0.000000
-		limiter_on = 1.000000
-		volume = 1.000000
+		limiter_max = 0.0
+		limiter_on = 1.0
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/hit_indicators/damage_send_lethal_01.vsnd",
@@ -211,30 +201,30 @@
 	Teammate.ClaimOrb = 
 	{
 		base = "Player.GetGold"
-		volume = -15.000000
+		volume = -15.0
 		vsnd_files = "sounds/common/null.vsnd"
 		vsnd_duration = 0.050023
 	}
 	Neutral.Bounty.Pickup = 
 	{
 		base = "Base.UI"
-		volume = -1.000000
-		limiter_max = 0.000000
-		limiter_on = 1.000000
+		volume = -1.0
+		limiter_max = 0.0
+		limiter_on = 1.0
 		vsnd_files = "sounds/common/null.vsnd"
 		vsnd_duration = 0.050023
 	}
 	Player.Negative.Interact = 
 	{
 		base = "Base.UI"
-		volume = -4.000000
-		pitch = 1.000000
-		volume_fade_out = 0.050000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = -4.0
+		pitch = 1.0
+		volume_fade_out = 0.05
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_stop_oldest = true
-		recency_bias_max_scale = 1.000000
-		recency_bias_min_scale = 0.350000
+		recency_bias_max_scale = 1.0
+		recency_bias_min_scale = 0.35
 		vsnd_files = 
 		[
 			"sounds/ui/ui_meepmop_01.vsnd",
@@ -244,15 +234,15 @@
 			"sounds/ui/ui_meepmop_05.vsnd",
 			"sounds/ui/ui_meepmop_06.vsnd",
 		]
-		vsnd_duration = 0.967460
+		vsnd_duration = 0.96746
 	}
 	Player.Negative.Interact.Silenced = 
 	{
 		base = "Base.UI"
-		volume = 6.000000
-		volume_fade_out = 0.390000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = 6.0
+		volume_fade_out = 0.39
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_stop_oldest = true
 		vsnd_files = "sounds/gameplay/silence_emp.vsnd"
 		vsnd_duration = 1.810952
@@ -272,7 +262,7 @@
 	Rejuv.Pickup = 
 	{
 		base = "Base.MapObjective"
-		volume = -3.000000
+		volume = -3.0
 		mixer_trigger_input = "Envelope"
 		vsnd_files = "sounds/gameplay/rejuv_shatter.vsnd"
 		vsnd_duration = 9.389569
@@ -280,21 +270,21 @@
 	Rejuv.Rebirth.Start = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/gameplay/rejuv/rejuv_respawn_start_01.vsnd"
 		vsnd_duration = 3.037801
 	}
 	Rejuv.Rebirth.Revive = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/gameplay/rejuv/rejuv_respawn_explosion_01.vsnd"
 		vsnd_duration = 4.236077
 	}
 	MidBoss.Arrive = 
 	{
 		base = "Base.MapObjective"
-		volume = -7.000000
+		volume = -7.0
 		mixer_trigger_input = "Envelope"
 		vsnd_files = "sounds/gameplay/midboss_arrive.vsnd"
 		vsnd_duration = 10.468957
@@ -302,7 +292,7 @@
 	MidBoss.LowHealth = 
 	{
 		base = "Base.MapObjective"
-		volume = -5.000000
+		volume = -5.0
 		mixer_trigger_input = "Envelope"
 		vsnd_files = "sounds/gameplay/midboss_lowhealth.vsnd"
 		vsnd_duration = 9.539365
@@ -310,7 +300,7 @@
 	MidBoss.Death = 
 	{
 		base = "Base.MapObjective"
-		volume = -9.000000
+		volume = -9.0
 		mixer_trigger_input = "Envelope"
 		vsnd_files = "sounds/gameplay/midboss_death.vsnd"
 		vsnd_duration = 16.475079
@@ -318,16 +308,16 @@
 	Rope.Climb.Lp = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		pitch = 0.900000
-		play_from_listener_player = 0.000000
-		delay_rand_max = -15.000000
-		volume_fade_out = 0.100000
-		volume_fade_in = 0.100000
+		volume = 0.0
+		pitch = 0.9
+		play_from_listener_player = 0.0
+		delay_rand_max = -15.0
+		volume_fade_out = 0.1
+		volume_fade_in = 0.1
 		position_force_from_input = true
-		cull_at_distance = 2000.000000
-		volume_filter_amount = 0.500000
-		hrtf_on_player = 1.000000
+		cull_at_distance = 2000.0
+		volume_filter_amount = 0.5
+		hrtf_on_player = 1.0
 		vsnd_files = "sounds/gameplay/rope_climb_lp.vsnd"
 		vsnd_duration = 17.041634
 	}
@@ -335,12 +325,12 @@
 	{
 		base = "Base.Weapon.Foley"
 		preload_vsnds = 10
-		volume = -3.000000
-		block_duration = 0.000000
-		play_from_listener_player = 1.000000
-		mono_downmix_max_distance = 300.000000
-		mono_downmix_min_distance = 250.000000
-		volume_offset_opponent = 3.000000
+		volume = -3.0
+		block_duration = 0.0
+		play_from_listener_player = 1.0
+		mono_downmix_max_distance = 300.0
+		mono_downmix_min_distance = 250.0
+		volume_offset_opponent = 3.0
 		vsnd_files = 
 		[
 			"sounds/gameplay/low_ammo_indicator_01.vsnd",
@@ -358,8 +348,8 @@
 	Modifier.Prevent = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
-		block_duration = 0.500000
+		volume = 2.0
+		block_duration = 0.5
 		filter_include_others = true
 		vsnd_files = 
 		[
@@ -374,10 +364,10 @@
 	HideoutBall.Kick = 
 	{
 		base = "Base.Hideout.Toy"
-		volume = -3.000000
-		block_duration = 0.500000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = -3.0
+		block_duration = 0.5
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/gameplay/hideout_ball/hideout_ball_kick_01.vsnd",
@@ -393,18 +383,18 @@
 	HideoutBall.Arc = 
 	{
 		base = "Base.Hideout.Toy"
-		volume = -3.000000
-		pitch = 1.000000
-		block_duration = 0.300000
-		pitch_increment_count_max = 35.000000
-		incremental_pitch_offset = 0.020000
+		volume = -3.0
+		pitch = 1.0
+		block_duration = 0.3
+		pitch_increment_count_max = 35.0
+		incremental_pitch_offset = 0.02
 		vsnd_files = "sounds/gameplay/hideout_ball/hideout_ball_apex.vsnd"
 		vsnd_duration = 3.774104
 	}
 	Snowball.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/seasonal/winter/snowball/snowball_cast_01.vsnd",
@@ -420,36 +410,21 @@
 	Snowball.Projectile.Impact = 
 	{
 		base = "Base.Bullet.Impact"
-		volume = 3.000000
+		volume = 3.0
 		filter_include_others = true
 		volume_falloff_curve_db = 
 		[
-			
 			[
-				0.000000,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.0, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				500.000000,
-				0.300000,
-				0.000000,
-				-0.030150,
-				0.000000,
-				0.000000,
+				500.0, 0.3, 0.0, -0.03015,
+				0.0, 0.0,
 			],
-			
 			[
-				2500.000000,
-				-60.000000,
-				-0.030150,
-				0.000000,
-				0.000000,
-				0.000000,
+				2500.0, -60.0, -0.03015, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -466,12 +441,12 @@
 			"sounds/seasonal/winter/snowball/snowball_impact_10.vsnd",
 			"sounds/seasonal/winter/snowball/snowball_impact_11.vsnd",
 		]
-		vsnd_duration = 1.939410
+		vsnd_duration = 1.93941
 	}
 	Snowball.Projectile.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/seasonal/winter/snowball/snowball_whizby_01.vsnd",
@@ -492,13 +467,13 @@
 	{
 		base = "Base.MapObjective"
 		limiter_global_event_distance_on = true
-		limiter_global_event_distance_max = 1.000000
-		volume = 4.000000
-		distance_hpf_on = 0.000000
-		occlusion_scale = 0.000000
-		volume_fade_out = 3.000000
-		spread_max_value = 0.000000
-		spread_min_value = 0.000000
+		limiter_global_event_distance_max = 1.0
+		volume = 4.0
+		distance_hpf_on = 0.0
+		occlusion_scale = 0.0
+		volume_fade_out = 3.0
+		spread_max_value = 0.0
+		spread_min_value = 0.0
 		vsnd_files = 
 		[
 			"sounds/seasonal/new_year/fireworks/seasonal_fireworks_bed.vsnd",
@@ -508,15 +483,15 @@
 	Seasonal.NyeCelebrate.Fireworks.BoomBig = 
 	{
 		base = "Base.MapObjective"
-		volume = -9.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.300000
-		distance_hpf_on = 0.000000
-		occlusion_scale = 0.200000
-		spread_max_value = 0.000000
-		spread_min_value = 0.000000
-		limiter_max = 5.000000
-		volume_fade_out = 0.250000
+		volume = -9.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.3
+		distance_hpf_on = 0.0
+		occlusion_scale = 0.2
+		spread_max_value = 0.0
+		spread_min_value = 0.0
+		limiter_max = 5.0
+		volume_fade_out = 0.25
 		vsnd_files = 
 		[
 			"sounds/seasonal/new_year/fireworks/seasonal_fireworks_boom_01.vsnd",
@@ -528,22 +503,22 @@
 			"sounds/seasonal/new_year/fireworks/seasonal_fireworks_boom_07.vsnd",
 			"sounds/seasonal/new_year/fireworks/seasonal_fireworks_boom_08.vsnd",
 		]
-		vsnd_duration = 5.306190
+		vsnd_duration = 5.30619
 	}
 	Seasonal.NyeCelebrate.Fireworks.BoomMed = 
 	{
 		base = "Base.MapObjective"
-		volume = -9.000000
-		pitch = 1.500000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		distance_hpf_on = 0.000000
-		occlusion_scale = 0.200000
-		spread_max_value = 0.000000
-		spread_min_value = 0.000000
-		hrtf_on = 1.000000
-		limiter_max = 5.000000
-		volume_fade_out = 0.250000
+		volume = -9.0
+		pitch = 1.5
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		distance_hpf_on = 0.0
+		occlusion_scale = 0.2
+		spread_max_value = 0.0
+		spread_min_value = 0.0
+		hrtf_on = 1.0
+		limiter_max = 5.0
+		volume_fade_out = 0.25
 		vsnd_files = 
 		[
 			"sounds/seasonal/new_year/fireworks/seasonal_fireworks_boom_01.vsnd",
@@ -555,35 +530,34 @@
 			"sounds/seasonal/new_year/fireworks/seasonal_fireworks_boom_07.vsnd",
 			"sounds/seasonal/new_year/fireworks/seasonal_fireworks_boom_08.vsnd",
 		]
-		vsnd_duration = 5.306190
+		vsnd_duration = 5.30619
 	}
 	Seasonal.NyeCelebrate.Fireworks.Rand = 
 	{
 		type = "citadel_seasonal_fireworks"
 		base = 
 		[
-			
 			{
 				event_name = "Base.MapObjective"
 				field_name = "citadel_default_3d"
 			},
 		]
-		distance_hpf_on = 0.000000
-		occlusion_scale = 0.200000
-		spread_max_value = 0.000000
-		spread_min_value = 0.000000
-		limiter_max = 10.000000
-		volume_fade_out = 0.250000
-		probability_block = 0.400000
-		probability_big = 0.250000
-		vol_big_db = -9.000000
-		vol_med_db = -9.000000
-		pitch_big = 1.000000
-		pitch_rand_max_big = 0.300000
-		pitch_rand_min_big = -0.100000
-		pitch_med = 1.500000
-		pitch_rand_max_med = 0.100000
-		pitch_rand_min_med = -0.100000
+		distance_hpf_on = 0.0
+		occlusion_scale = 0.2
+		spread_max_value = 0.0
+		spread_min_value = 0.0
+		limiter_max = 10.0
+		volume_fade_out = 0.25
+		probability_block = 0.4
+		probability_big = 0.25
+		vol_big_db = -9.0
+		vol_med_db = -9.0
+		pitch_big = 1.0
+		pitch_rand_max_big = 0.3
+		pitch_rand_min_big = -0.1
+		pitch_med = 1.5
+		pitch_rand_max_med = 0.1
+		pitch_rand_min_med = -0.1
 		vsnd_files = 
 		[
 			"sounds/seasonal/new_year/fireworks/seasonal_fireworks_boom_01.vsnd",
@@ -595,6 +569,6 @@
 			"sounds/seasonal/new_year/fireworks/seasonal_fireworks_boom_07.vsnd",
 			"sounds/seasonal/new_year/fireworks/seasonal_fireworks_boom_08.vsnd",
 		]
-		vsnd_duration = 5.306190
+		vsnd_duration = 5.30619
 	}
 }

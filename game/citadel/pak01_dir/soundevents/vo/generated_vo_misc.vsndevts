@@ -18,7 +18,7 @@
 		[
 			"sounds/vo/newscaster/guide_controls_abilities.vsnd",
 		]
-		vsnd_duration = 3.645850
+		vsnd_duration = 3.64585
 	}
 	guide_controls_abilities_shopkeeper = 
 	{
@@ -268,7 +268,7 @@
 		[
 			"sounds/vo/newscaster/guide_power_secure.vsnd",
 		]
-		vsnd_duration = 6.786100
+		vsnd_duration = 6.7861
 	}
 	guide_power_secure_shopkeeper = 
 	{
@@ -328,7 +328,7 @@
 		[
 			"sounds/vo/shopkeeper/guide_special_airdash_alt.vsnd",
 		]
-		vsnd_duration = 5.608140
+		vsnd_duration = 5.60814
 	}
 	guide_special_airdash_newscaster = 
 	{
@@ -408,7 +408,7 @@
 		[
 			"sounds/vo/shopkeeper/guide_special_dodge.vsnd",
 		]
-		vsnd_duration = 3.313560
+		vsnd_duration = 3.31356
 	}
 	guide_special_double_jump_alt_shopkeeper = 
 	{
@@ -478,7 +478,7 @@
 		[
 			"sounds/vo/shopkeeper/guide_special_slide.vsnd",
 		]
-		vsnd_duration = 4.935170
+		vsnd_duration = 4.93517
 	}
 	guide_the_base_alt_newscaster = 
 	{
@@ -548,7 +548,7 @@
 		[
 			"sounds/vo/shopkeeper/guide_the_map_lanes.vsnd",
 		]
-		vsnd_duration = 5.168730
+		vsnd_duration = 5.16873
 	}
 	guide_the_map_troopers_newscaster = 
 	{
@@ -758,7 +758,7 @@
 		[
 			"sounds/vo/neutral_gremlin/neutral_gremlin_attack_03.vsnd",
 		]
-		vsnd_duration = 1.050680
+		vsnd_duration = 1.05068
 	}
 	neutral_gremlin_attack_04_gremlin = 
 	{
@@ -768,7 +768,7 @@
 		[
 			"sounds/vo/neutral_gremlin/neutral_gremlin_attack_04.vsnd",
 		]
-		vsnd_duration = 1.193560
+		vsnd_duration = 1.19356
 	}
 	neutral_gremlin_attack_05_gremlin = 
 	{
@@ -948,7 +948,7 @@
 		[
 			"sounds/vo/neutral_gremlin/neutral_gremlin_attack_22.vsnd",
 		]
-		vsnd_duration = 1.023560
+		vsnd_duration = 1.02356
 	}
 	neutral_gremlin_dies_01_gremlin = 
 	{
@@ -958,7 +958,7 @@
 		[
 			"sounds/vo/neutral_gremlin/neutral_gremlin_dies_01.vsnd",
 		]
-		vsnd_duration = 0.670420
+		vsnd_duration = 0.67042
 	}
 	neutral_gremlin_dies_02_gremlin = 
 	{
@@ -1088,7 +1088,7 @@
 		[
 			"sounds/vo/neutral_gremlin/neutral_gremlin_dies_14.vsnd",
 		]
-		vsnd_duration = 0.610340
+		vsnd_duration = 0.61034
 	}
 	neutral_gremlin_dies_15_gremlin = 
 	{
@@ -1138,7 +1138,7 @@
 		[
 			"sounds/vo/neutral_gremlin/neutral_gremlin_idle_03.vsnd",
 		]
-		vsnd_duration = 2.190000
+		vsnd_duration = 2.19
 	}
 	neutral_gremlin_idle_04_gremlin = 
 	{
@@ -1198,7 +1198,7 @@
 		[
 			"sounds/vo/neutral_gremlin/neutral_gremlin_idle_09.vsnd",
 		]
-		vsnd_duration = 1.265510
+		vsnd_duration = 1.26551
 	}
 	neutral_gremlin_idle_10_gremlin = 
 	{
@@ -1498,7 +1498,7 @@
 		[
 			"sounds/vo/neutral_gremlin/neutral_gremlin_surprise_22.vsnd",
 		]
-		vsnd_duration = 0.798730
+		vsnd_duration = 0.79873
 	}
 	neutral_gremlin_surprise_23_gremlin = 
 	{
@@ -1618,7 +1618,7 @@
 		[
 			"sounds/vo/newscaster/newscaster_headline_01.vsnd",
 		]
-		vsnd_duration = 4.967030
+		vsnd_duration = 4.96703
 	}
 	newscaster_headline_02_newscaster = 
 	{
@@ -1838,7 +1838,7 @@
 		[
 			"sounds/vo/newscaster/newscaster_headline_23.vsnd",
 		]
-		vsnd_duration = 9.690000
+		vsnd_duration = 9.69
 	}
 	newscaster_headline_24_newscaster = 
 	{
@@ -1898,7 +1898,7 @@
 		[
 			"sounds/vo/newscaster/newscaster_headline_29.vsnd",
 		]
-		vsnd_duration = 8.092540
+		vsnd_duration = 8.09254
 	}
 	newscaster_headline_30_newscaster = 
 	{
@@ -1938,7 +1938,7 @@
 		[
 			"sounds/vo/newscaster/newscaster_headline_33.vsnd",
 		]
-		vsnd_duration = 4.359320
+		vsnd_duration = 4.35932
 	}
 	newscaster_headline_34_newscaster = 
 	{
@@ -1958,7 +1958,7 @@
 		[
 			"sounds/vo/newscaster/newscaster_headline_35.vsnd",
 		]
-		vsnd_duration = 5.614150
+		vsnd_duration = 5.61415
 	}
 	newscaster_headline_36_newscaster = 
 	{
@@ -2018,7 +2018,7 @@
 		[
 			"sounds/vo/newscaster/newscaster_headline_41.vsnd",
 		]
-		vsnd_duration = 10.341610
+		vsnd_duration = 10.34161
 	}
 	newscaster_headline_42_newscaster = 
 	{
@@ -2418,7 +2418,7 @@
 		[
 			"sounds/vo/newscaster/newscaster_headline_80.vsnd",
 		]
-		vsnd_duration = 17.899160
+		vsnd_duration = 17.89916
 	}
 	newscaster_headline_81_newscaster = 
 	{
@@ -2698,7 +2698,7 @@
 		[
 			"sounds/vo/newscaster/newscaster_seasonal_headline_15.vsnd",
 		]
-		vsnd_duration = 5.019660
+		vsnd_duration = 5.01966
 	}
 	newscaster_seasonal_headline_16_newscaster = 
 	{
@@ -2778,7 +2778,7 @@
 		[
 			"sounds/vo/newscaster/newscaster_seasonal_headline_23.vsnd",
 		]
-		vsnd_duration = 7.425170
+		vsnd_duration = 7.42517
 	}
 	newscaster_seasonal_headline_24_newscaster = 
 	{
@@ -2828,7 +2828,7 @@
 		[
 			"sounds/vo/seasonal/newscaster_seasonal_inferno_unlock_01.vsnd",
 		]
-		vsnd_duration = 4.670340
+		vsnd_duration = 4.67034
 	}
 	newscaster_seasonal_kelvin_unlock_01_seasonal_unlock = 
 	{
@@ -2918,7 +2918,7 @@
 		[
 			"sounds/vo/seasonal/newscaster_seasonal_viscous_unlock_01.vsnd",
 		]
-		vsnd_duration = 4.434830
+		vsnd_duration = 4.43483
 	}
 	newscaster_seasonal_warden_unlock_01_alt_01_seasonal_unlock = 
 	{
@@ -2938,7 +2938,7 @@
 		[
 			"sounds/vo/seasonal/newscaster_seasonal_wraith_unlock_01.vsnd",
 		]
-		vsnd_duration = 5.029660
+		vsnd_duration = 5.02966
 	}
 	newscaster_seasonal_yamato_unlock_01_seasonal_unlock = 
 	{
@@ -2978,7 +2978,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_astro_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 4.368000
+		vsnd_duration = 4.368
 	}
 	patron_female_ally_astro_start_01_announcer = 
 	{
@@ -2998,7 +2998,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_astro_start_02.vsnd",
 		]
-		vsnd_duration = 6.112000
+		vsnd_duration = 6.112
 	}
 	patron_female_ally_astro_start_03_announcer = 
 	{
@@ -3058,7 +3058,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_atlas_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 3.668000
+		vsnd_duration = 3.668
 	}
 	patron_female_ally_atlas_start_01_announcer = 
 	{
@@ -3078,7 +3078,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_atlas_start_02.vsnd",
 		]
-		vsnd_duration = 8.963750
+		vsnd_duration = 8.96375
 	}
 	patron_female_ally_atlas_start_03_announcer = 
 	{
@@ -3158,7 +3158,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_bebop_start_02.vsnd",
 		]
-		vsnd_duration = 8.296000
+		vsnd_duration = 8.296
 	}
 	patron_female_ally_bebop_start_03_announcer = 
 	{
@@ -3178,7 +3178,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_bebop_start_04.vsnd",
 		]
-		vsnd_duration = 11.788000
+		vsnd_duration = 11.788
 	}
 	patron_female_ally_bebop_start_05_announcer = 
 	{
@@ -3218,7 +3218,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_blue_guardian_destroyed_02.vsnd",
 		]
-		vsnd_duration = 4.603000
+		vsnd_duration = 4.603
 	}
 	patron_female_ally_blue_walker_attack_01_announcer = 
 	{
@@ -3228,7 +3228,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_blue_walker_attack_01.vsnd",
 		]
-		vsnd_duration = 4.268000
+		vsnd_duration = 4.268
 	}
 	patron_female_ally_blue_walker_destroyed_01_announcer = 
 	{
@@ -3338,7 +3338,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_bookworm_start_05.vsnd",
 		]
-		vsnd_duration = 17.859730
+		vsnd_duration = 17.85973
 	}
 	patron_female_ally_chrono_killing_streak_01_announcer = 
 	{
@@ -3358,7 +3358,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_chrono_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 4.214000
+		vsnd_duration = 4.214
 	}
 	patron_female_ally_chrono_killing_streak_03_announcer = 
 	{
@@ -3518,7 +3518,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_doorman_start_03.vsnd",
 		]
-		vsnd_duration = 6.593500
+		vsnd_duration = 6.5935
 	}
 	patron_female_ally_doorman_start_04_announcer = 
 	{
@@ -3538,7 +3538,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_doorman_start_05.vsnd",
 		]
-		vsnd_duration = 8.648000
+		vsnd_duration = 8.648
 	}
 	patron_female_ally_drifter_killing_streak_01_announcer = 
 	{
@@ -3568,7 +3568,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_drifter_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 7.068000
+		vsnd_duration = 7.068
 	}
 	patron_female_ally_drifter_start_01_announcer = 
 	{
@@ -3658,7 +3658,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_dynamo_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 4.766500
+		vsnd_duration = 4.7665
 	}
 	patron_female_ally_dynamo_start_01_announcer = 
 	{
@@ -3838,7 +3838,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_fencer_start_02.vsnd",
 		]
-		vsnd_duration = 7.828000
+		vsnd_duration = 7.828
 	}
 	patron_female_ally_fencer_start_03_announcer = 
 	{
@@ -3858,7 +3858,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_fencer_start_04.vsnd",
 		]
-		vsnd_duration = 13.756000
+		vsnd_duration = 13.756
 	}
 	patron_female_ally_fencer_start_05_announcer = 
 	{
@@ -3898,7 +3898,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_forge_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 4.540000
+		vsnd_duration = 4.54
 	}
 	patron_female_ally_forge_killing_streak_03_announcer = 
 	{
@@ -3928,7 +3928,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_forge_start_02.vsnd",
 		]
-		vsnd_duration = 4.892000
+		vsnd_duration = 4.892
 	}
 	patron_female_ally_forge_start_03_announcer = 
 	{
@@ -3998,7 +3998,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_frank_start_01.vsnd",
 		]
-		vsnd_duration = 7.608000
+		vsnd_duration = 7.608
 	}
 	patron_female_ally_frank_start_02_announcer = 
 	{
@@ -4068,7 +4068,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_ghost_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 4.932000
+		vsnd_duration = 4.932
 	}
 	patron_female_ally_ghost_killing_streak_03_announcer = 
 	{
@@ -4078,7 +4078,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_ghost_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 8.131000
+		vsnd_duration = 8.131
 	}
 	patron_female_ally_ghost_start_01_announcer = 
 	{
@@ -4088,7 +4088,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_ghost_start_01.vsnd",
 		]
-		vsnd_duration = 7.512000
+		vsnd_duration = 7.512
 	}
 	patron_female_ally_ghost_start_02_announcer = 
 	{
@@ -4248,7 +4248,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_green_walker_attack_01.vsnd",
 		]
-		vsnd_duration = 4.428000
+		vsnd_duration = 4.428
 	}
 	patron_female_ally_green_walker_destroyed_01_announcer = 
 	{
@@ -4258,7 +4258,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_green_walker_destroyed_01.vsnd",
 		]
-		vsnd_duration = 5.096000
+		vsnd_duration = 5.096
 	}
 	patron_female_ally_green_walker_destroyed_02_announcer = 
 	{
@@ -4298,7 +4298,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_haze_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 4.072000
+		vsnd_duration = 4.072
 	}
 	patron_female_ally_haze_killing_streak_03_announcer = 
 	{
@@ -4328,7 +4328,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_haze_start_02.vsnd",
 		]
-		vsnd_duration = 8.620000
+		vsnd_duration = 8.62
 	}
 	patron_female_ally_haze_start_03_announcer = 
 	{
@@ -4348,7 +4348,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_haze_start_04.vsnd",
 		]
-		vsnd_duration = 10.066000
+		vsnd_duration = 10.066
 	}
 	patron_female_ally_haze_start_05_announcer = 
 	{
@@ -4438,7 +4438,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_hornet_start_04.vsnd",
 		]
-		vsnd_duration = 6.928000
+		vsnd_duration = 6.928
 	}
 	patron_female_ally_hornet_start_05_announcer = 
 	{
@@ -4458,7 +4458,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_inferno_killing_streak_01.vsnd",
 		]
-		vsnd_duration = 3.316000
+		vsnd_duration = 3.316
 	}
 	patron_female_ally_inferno_killing_streak_02_announcer = 
 	{
@@ -4478,7 +4478,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_inferno_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 7.578000
+		vsnd_duration = 7.578
 	}
 	patron_female_ally_inferno_start_01_announcer = 
 	{
@@ -4578,7 +4578,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_kelvin_start_02.vsnd",
 		]
-		vsnd_duration = 8.684000
+		vsnd_duration = 8.684
 	}
 	patron_female_ally_kelvin_start_03_announcer = 
 	{
@@ -4658,7 +4658,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_krill_start_02.vsnd",
 		]
-		vsnd_duration = 7.192000
+		vsnd_duration = 7.192
 	}
 	patron_female_ally_krill_start_03_announcer = 
 	{
@@ -4668,7 +4668,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_krill_start_03.vsnd",
 		]
-		vsnd_duration = 10.344000
+		vsnd_duration = 10.344
 	}
 	patron_female_ally_krill_start_04_announcer = 
 	{
@@ -4698,7 +4698,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_lash_killing_streak_01.vsnd",
 		]
-		vsnd_duration = 4.311500
+		vsnd_duration = 4.3115
 	}
 	patron_female_ally_lash_killing_streak_02_announcer = 
 	{
@@ -4728,7 +4728,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_lash_start_01.vsnd",
 		]
-		vsnd_duration = 14.358230
+		vsnd_duration = 14.35823
 	}
 	patron_female_ally_lash_start_02_announcer = 
 	{
@@ -4738,7 +4738,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_lash_start_02.vsnd",
 		]
-		vsnd_duration = 13.276000
+		vsnd_duration = 13.276
 	}
 	patron_female_ally_lash_start_03_announcer = 
 	{
@@ -4748,7 +4748,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_lash_start_03.vsnd",
 		]
-		vsnd_duration = 8.956000
+		vsnd_duration = 8.956
 	}
 	patron_female_ally_lash_start_04_announcer = 
 	{
@@ -4768,7 +4768,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_lash_start_05.vsnd",
 		]
-		vsnd_duration = 12.200000
+		vsnd_duration = 12.2
 	}
 	patron_female_ally_magician_killing_streak_01_announcer = 
 	{
@@ -4958,7 +4958,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_nano_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 3.862000
+		vsnd_duration = 3.862
 	}
 	patron_female_ally_nano_start_01_announcer = 
 	{
@@ -4998,7 +4998,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_nano_start_04.vsnd",
 		]
-		vsnd_duration = 12.240000
+		vsnd_duration = 12.24
 	}
 	patron_female_ally_nano_start_05_announcer = 
 	{
@@ -5058,7 +5058,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_necro_start_02.vsnd",
 		]
-		vsnd_duration = 14.692000
+		vsnd_duration = 14.692
 	}
 	patron_female_ally_necro_start_03_announcer = 
 	{
@@ -5088,7 +5088,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_necro_start_05.vsnd",
 		]
-		vsnd_duration = 11.450480
+		vsnd_duration = 11.45048
 	}
 	patron_female_ally_orange_walker_destroyed_01_announcer = 
 	{
@@ -5148,7 +5148,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_orion_start_02.vsnd",
 		]
-		vsnd_duration = 13.296000
+		vsnd_duration = 13.296
 	}
 	patron_female_ally_orion_start_03_announcer = 
 	{
@@ -5268,7 +5268,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_punkgoat_killing_streak_01.vsnd",
 		]
-		vsnd_duration = 4.940000
+		vsnd_duration = 4.94
 	}
 	patron_female_ally_punkgoat_killing_streak_02_announcer = 
 	{
@@ -5288,7 +5288,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_punkgoat_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 5.394250
+		vsnd_duration = 5.39425
 	}
 	patron_female_ally_punkgoat_start_01_announcer = 
 	{
@@ -5308,7 +5308,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_punkgoat_start_02.vsnd",
 		]
-		vsnd_duration = 9.323500
+		vsnd_duration = 9.3235
 	}
 	patron_female_ally_punkgoat_start_03_announcer = 
 	{
@@ -5368,7 +5368,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_rejuvinator_almost_expired_03.vsnd",
 		]
-		vsnd_duration = 4.256000
+		vsnd_duration = 4.256
 	}
 	patron_female_ally_shiv_killing_streak_01_announcer = 
 	{
@@ -5448,7 +5448,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_shiv_start_05.vsnd",
 		]
-		vsnd_duration = 11.490000
+		vsnd_duration = 11.49
 	}
 	patron_female_ally_synth_killing_streak_01_announcer = 
 	{
@@ -5608,7 +5608,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_tengu_start_04.vsnd",
 		]
-		vsnd_duration = 9.004230
+		vsnd_duration = 9.00423
 	}
 	patron_female_ally_tengu_start_05_announcer = 
 	{
@@ -5638,7 +5638,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_titan_exposed_01.vsnd",
 		]
-		vsnd_duration = 4.050000
+		vsnd_duration = 4.05
 	}
 	patron_female_ally_unicorn_killing_streak_01_announcer = 
 	{
@@ -5738,7 +5738,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_urn_delivered_01.vsnd",
 		]
-		vsnd_duration = 3.124000
+		vsnd_duration = 3.124
 	}
 	patron_female_ally_urn_runner_01_announcer = 
 	{
@@ -5768,7 +5768,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_vampirebat_killing_streak_01.vsnd",
 		]
-		vsnd_duration = 7.678000
+		vsnd_duration = 7.678
 	}
 	patron_female_ally_vampirebat_killing_streak_02_announcer = 
 	{
@@ -5818,7 +5818,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_vampirebat_start_03.vsnd",
 		]
-		vsnd_duration = 20.482000
+		vsnd_duration = 20.482
 	}
 	patron_female_ally_vampirebat_start_04_announcer = 
 	{
@@ -5838,7 +5838,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_vampirebat_start_05.vsnd",
 		]
-		vsnd_duration = 10.874000
+		vsnd_duration = 10.874
 	}
 	patron_female_ally_viper_killing_streak_01_announcer = 
 	{
@@ -5878,7 +5878,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_viper_start_01.vsnd",
 		]
-		vsnd_duration = 13.996000
+		vsnd_duration = 13.996
 	}
 	patron_female_ally_viper_start_02_announcer = 
 	{
@@ -5948,7 +5948,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_viscous_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 6.104000
+		vsnd_duration = 6.104
 	}
 	patron_female_ally_viscous_start_01_announcer = 
 	{
@@ -5998,7 +5998,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_viscous_start_05.vsnd",
 		]
-		vsnd_duration = 8.240000
+		vsnd_duration = 8.24
 	}
 	patron_female_ally_warden_killing_streak_01_announcer = 
 	{
@@ -6008,7 +6008,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_warden_killing_streak_01.vsnd",
 		]
-		vsnd_duration = 3.803500
+		vsnd_duration = 3.8035
 	}
 	patron_female_ally_warden_killing_streak_02_announcer = 
 	{
@@ -6028,7 +6028,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_warden_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 4.239250
+		vsnd_duration = 4.23925
 	}
 	patron_female_ally_warden_start_01_announcer = 
 	{
@@ -6138,7 +6138,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_werewolf_start_03.vsnd",
 		]
-		vsnd_duration = 15.732000
+		vsnd_duration = 15.732
 	}
 	patron_female_ally_werewolf_start_04_announcer = 
 	{
@@ -6178,7 +6178,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_wraith_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 4.032000
+		vsnd_duration = 4.032
 	}
 	patron_female_ally_wraith_killing_streak_03_announcer = 
 	{
@@ -6188,7 +6188,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_wraith_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 5.179750
+		vsnd_duration = 5.17975
 	}
 	patron_female_ally_wraith_start_01_announcer = 
 	{
@@ -6218,7 +6218,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_wraith_start_03.vsnd",
 		]
-		vsnd_duration = 16.476000
+		vsnd_duration = 16.476
 	}
 	patron_female_ally_wraith_start_04_announcer = 
 	{
@@ -6238,7 +6238,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_wraith_start_05.vsnd",
 		]
-		vsnd_duration = 6.728000
+		vsnd_duration = 6.728
 	}
 	patron_female_ally_yamato_killing_streak_01_announcer = 
 	{
@@ -6348,7 +6348,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_yellow_guardian_destroyed_02.vsnd",
 		]
-		vsnd_duration = 4.836000
+		vsnd_duration = 4.836
 	}
 	patron_female_ally_yellow_walker_attack_01_announcer = 
 	{
@@ -6358,7 +6358,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_yellow_walker_attack_01.vsnd",
 		]
-		vsnd_duration = 4.404000
+		vsnd_duration = 4.404
 	}
 	patron_female_ally_yellow_walker_destroyed_01_announcer = 
 	{
@@ -6478,7 +6478,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_healing_by_chrono.vsnd",
 		]
-		vsnd_duration = 6.388000
+		vsnd_duration = 6.388
 	}
 	patron_female_big_healing_by_doorman_announcer = 
 	{
@@ -6508,7 +6508,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_healing_by_dynamo_alt_01.vsnd",
 		]
-		vsnd_duration = 5.944000
+		vsnd_duration = 5.944
 	}
 	patron_female_big_healing_by_dynamo_alt_02_announcer = 
 	{
@@ -6608,7 +6608,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_healing_by_frank.vsnd",
 		]
-		vsnd_duration = 8.823000
+		vsnd_duration = 8.823
 	}
 	patron_female_big_healing_by_ghost_announcer = 
 	{
@@ -6688,7 +6688,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_healing_by_kelvin_alt_02.vsnd",
 		]
-		vsnd_duration = 5.928000
+		vsnd_duration = 5.928
 	}
 	patron_female_big_healing_by_kelvin_announcer = 
 	{
@@ -6718,7 +6718,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_healing_by_lash.vsnd",
 		]
-		vsnd_duration = 6.620000
+		vsnd_duration = 6.62
 	}
 	patron_female_big_healing_by_magician_announcer = 
 	{
@@ -6728,7 +6728,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_healing_by_magician.vsnd",
 		]
-		vsnd_duration = 5.138000
+		vsnd_duration = 5.138
 	}
 	patron_female_big_healing_by_mirage_announcer = 
 	{
@@ -6768,7 +6768,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_healing_by_orion.vsnd",
 		]
-		vsnd_duration = 5.736000
+		vsnd_duration = 5.736
 	}
 	patron_female_big_healing_by_priest_announcer = 
 	{
@@ -6818,7 +6818,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_healing_by_tengu.vsnd",
 		]
-		vsnd_duration = 6.097750
+		vsnd_duration = 6.09775
 	}
 	patron_female_big_healing_by_unicorn_announcer = 
 	{
@@ -6848,7 +6848,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_healing_by_viper.vsnd",
 		]
-		vsnd_duration = 4.344000
+		vsnd_duration = 4.344
 	}
 	patron_female_big_healing_by_viscous_alt_01_announcer = 
 	{
@@ -6878,7 +6878,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_healing_by_viscous.vsnd",
 		]
-		vsnd_duration = 6.344000
+		vsnd_duration = 6.344
 	}
 	patron_female_big_healing_by_warden_announcer = 
 	{
@@ -6978,7 +6978,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_big_kelvin_by_forge_alt_02.vsnd",
 		]
-		vsnd_duration = 5.928000
+		vsnd_duration = 5.928
 	}
 	patron_female_big_kelvin_by_viscous_alt_01_announcer = 
 	{
@@ -7028,7 +7028,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_choose_item_02.vsnd",
 		]
-		vsnd_duration = 2.400000
+		vsnd_duration = 2.4
 	}
 	patron_female_choose_item_03_announcer = 
 	{
@@ -7058,7 +7058,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_choose_item_05.vsnd",
 		]
-		vsnd_duration = 4.088000
+		vsnd_duration = 4.088
 	}
 	patron_female_choose_item_06_announcer = 
 	{
@@ -7148,7 +7148,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_choose_item_14.vsnd",
 		]
-		vsnd_duration = 4.096000
+		vsnd_duration = 4.096
 	}
 	patron_female_choose_item_15_announcer = 
 	{
@@ -7228,7 +7228,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_choose_item_22.vsnd",
 		]
-		vsnd_duration = 5.492000
+		vsnd_duration = 5.492
 	}
 	patron_female_choose_item_23_announcer = 
 	{
@@ -7248,7 +7248,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_choose_item_24.vsnd",
 		]
-		vsnd_duration = 7.980000
+		vsnd_duration = 7.98
 	}
 	patron_female_choose_item_25_announcer = 
 	{
@@ -7258,7 +7258,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_choose_item_25.vsnd",
 		]
-		vsnd_duration = 6.296000
+		vsnd_duration = 6.296
 	}
 	patron_female_choose_item_26_announcer = 
 	{
@@ -7348,7 +7348,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_atlas_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 5.396000
+		vsnd_duration = 5.396
 	}
 	patron_female_enemy_atlas_killing_streak_low_01_announcer = 
 	{
@@ -7358,7 +7358,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_atlas_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 3.940000
+		vsnd_duration = 3.94
 	}
 	patron_female_enemy_atlas_killing_streak_medium_01_announcer = 
 	{
@@ -7378,7 +7378,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_bebop_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 4.395750
+		vsnd_duration = 4.39575
 	}
 	patron_female_enemy_bebop_killing_streak_low_01_announcer = 
 	{
@@ -7418,7 +7418,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_bookworm_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 4.680000
+		vsnd_duration = 4.68
 	}
 	patron_female_enemy_bookworm_killing_streak_medium_01_announcer = 
 	{
@@ -7528,7 +7528,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_drifter_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 3.553250
+		vsnd_duration = 3.55325
 	}
 	patron_female_enemy_drifter_killing_streak_low_01_announcer = 
 	{
@@ -7538,7 +7538,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_drifter_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 7.018250
+		vsnd_duration = 7.01825
 	}
 	patron_female_enemy_drifter_killing_streak_medium_01_announcer = 
 	{
@@ -7548,7 +7548,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_drifter_killing_streak_medium_01.vsnd",
 		]
-		vsnd_duration = 5.699500
+		vsnd_duration = 5.6995
 	}
 	patron_female_enemy_dynamo_killing_streak_high_01_announcer = 
 	{
@@ -7588,7 +7588,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_familiar_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 5.377500
+		vsnd_duration = 5.3775
 	}
 	patron_female_enemy_familiar_killing_streak_low_01_announcer = 
 	{
@@ -7738,7 +7738,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_ghost_killing_streak_medium_01.vsnd",
 		]
-		vsnd_duration = 3.754000
+		vsnd_duration = 3.754
 	}
 	patron_female_enemy_gigawatt_killing_streak_high_01_announcer = 
 	{
@@ -7748,7 +7748,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_gigawatt_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 4.268000
+		vsnd_duration = 4.268
 	}
 	patron_female_enemy_gigawatt_killing_streak_low_01_announcer = 
 	{
@@ -7808,7 +7808,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_hornet_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 3.468000
+		vsnd_duration = 3.468
 	}
 	patron_female_enemy_hornet_killing_streak_low_01_announcer = 
 	{
@@ -7878,7 +7878,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_kelvin_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 4.673000
+		vsnd_duration = 4.673
 	}
 	patron_female_enemy_kelvin_killing_streak_medium_01_announcer = 
 	{
@@ -7928,7 +7928,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_lash_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 5.236000
+		vsnd_duration = 5.236
 	}
 	patron_female_enemy_lash_killing_streak_low_01_announcer = 
 	{
@@ -7978,7 +7978,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_magician_killing_streak_medium_01.vsnd",
 		]
-		vsnd_duration = 5.024000
+		vsnd_duration = 5.024
 	}
 	patron_female_enemy_mirage_killing_streak_high_01_announcer = 
 	{
@@ -8078,7 +8078,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_orion_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 9.456500
+		vsnd_duration = 9.4565
 	}
 	patron_female_enemy_orion_killing_streak_low_01_announcer = 
 	{
@@ -8108,7 +8108,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_priest_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 4.164000
+		vsnd_duration = 4.164
 	}
 	patron_female_enemy_priest_killing_streak_low_01_announcer = 
 	{
@@ -8258,7 +8258,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_team_wipe_03.vsnd",
 		]
-		vsnd_duration = 5.024000
+		vsnd_duration = 5.024
 	}
 	patron_female_enemy_team_wipe_04_announcer = 
 	{
@@ -8318,7 +8318,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_titan_exposed_01.vsnd",
 		]
-		vsnd_duration = 3.711000
+		vsnd_duration = 3.711
 	}
 	patron_female_enemy_unicorn_killing_streak_high_01_announcer = 
 	{
@@ -8478,7 +8478,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_viscous_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 4.228000
+		vsnd_duration = 4.228
 	}
 	patron_female_enemy_viscous_killing_streak_medium_01_announcer = 
 	{
@@ -8498,7 +8498,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_warden_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 5.029500
+		vsnd_duration = 5.0295
 	}
 	patron_female_enemy_warden_killing_streak_low_01_announcer = 
 	{
@@ -8568,7 +8568,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_wraith_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 4.472250
+		vsnd_duration = 4.47225
 	}
 	patron_female_enemy_wraith_killing_streak_medium_01_announcer = 
 	{
@@ -8578,7 +8578,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_enemy_wraith_killing_streak_medium_01.vsnd",
 		]
-		vsnd_duration = 3.932000
+		vsnd_duration = 3.932
 	}
 	patron_female_enemy_yamato_killing_streak_high_01_announcer = 
 	{
@@ -8678,7 +8678,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_grant_boon_armor_07.vsnd",
 		]
-		vsnd_duration = 6.188250
+		vsnd_duration = 6.18825
 	}
 	patron_female_grant_boon_armor_08_announcer = 
 	{
@@ -8698,7 +8698,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_grant_boon_armor_09.vsnd",
 		]
-		vsnd_duration = 7.188000
+		vsnd_duration = 7.188
 	}
 	patron_female_grant_boon_armor_10_announcer = 
 	{
@@ -8748,7 +8748,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_grant_boon_general_04.vsnd",
 		]
-		vsnd_duration = 4.882500
+		vsnd_duration = 4.8825
 	}
 	patron_female_grant_boon_general_05_announcer = 
 	{
@@ -8828,7 +8828,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_grant_boon_magic_01.vsnd",
 		]
-		vsnd_duration = 5.246000
+		vsnd_duration = 5.246
 	}
 	patron_female_grant_boon_magic_02_announcer = 
 	{
@@ -8918,7 +8918,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_grant_boon_magic_10.vsnd",
 		]
-		vsnd_duration = 6.004000
+		vsnd_duration = 6.004
 	}
 	patron_female_grant_boon_weapon_01_announcer = 
 	{
@@ -8988,7 +8988,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_grant_boon_weapon_07.vsnd",
 		]
-		vsnd_duration = 4.100000
+		vsnd_duration = 4.1
 	}
 	patron_female_grant_boon_weapon_08_announcer = 
 	{
@@ -9058,7 +9058,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_killing_streak_generic_high_02.vsnd",
 		]
-		vsnd_duration = 4.307250
+		vsnd_duration = 4.30725
 	}
 	patron_female_killing_streak_generic_high_03_announcer = 
 	{
@@ -9118,7 +9118,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_killing_streak_generic_low_01.vsnd",
 		]
-		vsnd_duration = 2.964000
+		vsnd_duration = 2.964
 	}
 	patron_female_killing_streak_generic_low_02_announcer = 
 	{
@@ -9128,7 +9128,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_killing_streak_generic_low_02.vsnd",
 		]
-		vsnd_duration = 3.053750
+		vsnd_duration = 3.05375
 	}
 	patron_female_killing_streak_generic_low_03_announcer = 
 	{
@@ -9138,7 +9138,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_killing_streak_generic_low_03.vsnd",
 		]
-		vsnd_duration = 3.772000
+		vsnd_duration = 3.772
 	}
 	patron_female_killing_streak_generic_low_04_announcer = 
 	{
@@ -9168,7 +9168,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_killing_streak_generic_medium_01.vsnd",
 		]
-		vsnd_duration = 3.928750
+		vsnd_duration = 3.92875
 	}
 	patron_female_killing_streak_generic_medium_02_announcer = 
 	{
@@ -9188,7 +9188,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_killing_streak_generic_medium_03.vsnd",
 		]
-		vsnd_duration = 6.658750
+		vsnd_duration = 6.65875
 	}
 	patron_female_killing_streak_generic_medium_04_announcer = 
 	{
@@ -9228,7 +9228,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_many_assists_by_atlas.vsnd",
 		]
-		vsnd_duration = 5.244000
+		vsnd_duration = 5.244
 	}
 	patron_female_many_assists_by_bebop_announcer = 
 	{
@@ -9258,7 +9258,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_many_assists_by_chrono.vsnd",
 		]
-		vsnd_duration = 5.276000
+		vsnd_duration = 5.276
 	}
 	patron_female_many_assists_by_doorman_announcer = 
 	{
@@ -9278,7 +9278,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_many_assists_by_drifter.vsnd",
 		]
-		vsnd_duration = 5.700590
+		vsnd_duration = 5.70059
 	}
 	patron_female_many_assists_by_dynamo_announcer = 
 	{
@@ -9348,7 +9348,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_many_assists_by_gigawatt_alt_01.vsnd",
 		]
-		vsnd_duration = 5.760000
+		vsnd_duration = 5.76
 	}
 	patron_female_many_assists_by_gigawatt_announcer = 
 	{
@@ -9398,7 +9398,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_many_assists_by_kelvin.vsnd",
 		]
-		vsnd_duration = 5.195500
+		vsnd_duration = 5.1955
 	}
 	patron_female_many_assists_by_krill_announcer = 
 	{
@@ -9408,7 +9408,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_many_assists_by_krill.vsnd",
 		]
-		vsnd_duration = 9.040000
+		vsnd_duration = 9.04
 	}
 	patron_female_many_assists_by_lash_announcer = 
 	{
@@ -9478,7 +9478,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_many_assists_by_priest.vsnd",
 		]
-		vsnd_duration = 5.300500
+		vsnd_duration = 5.3005
 	}
 	patron_female_many_assists_by_punkgoat_announcer = 
 	{
@@ -9508,7 +9508,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_many_assists_by_synth.vsnd",
 		]
-		vsnd_duration = 6.987500
+		vsnd_duration = 6.9875
 	}
 	patron_female_many_assists_by_tengu_announcer = 
 	{
@@ -9588,7 +9588,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_many_assists_by_wraith.vsnd",
 		]
-		vsnd_duration = 5.356000
+		vsnd_duration = 5.356
 	}
 	patron_female_many_assists_by_yamato_announcer = 
 	{
@@ -9598,7 +9598,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_many_assists_by_yamato.vsnd",
 		]
-		vsnd_duration = 5.940000
+		vsnd_duration = 5.94
 	}
 	patron_female_match_start_01_announcer = 
 	{
@@ -9608,7 +9608,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_match_start_01.vsnd",
 		]
-		vsnd_duration = 3.645500
+		vsnd_duration = 3.6455
 	}
 	patron_female_match_start_02_announcer = 
 	{
@@ -9618,7 +9618,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_match_start_02.vsnd",
 		]
-		vsnd_duration = 6.435250
+		vsnd_duration = 6.43525
 	}
 	patron_female_match_start_03_announcer = 
 	{
@@ -9728,7 +9728,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_praise_atlas.vsnd",
 		]
-		vsnd_duration = 3.869250
+		vsnd_duration = 3.86925
 	}
 	patron_female_praise_bebop_announcer = 
 	{
@@ -9848,7 +9848,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_praise_gigawatt.vsnd",
 		]
-		vsnd_duration = 3.726000
+		vsnd_duration = 3.726
 	}
 	patron_female_praise_haze_announcer = 
 	{
@@ -9958,7 +9958,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_praise_necro.vsnd",
 		]
-		vsnd_duration = 3.412000
+		vsnd_duration = 3.412
 	}
 	patron_female_praise_priest_announcer = 
 	{
@@ -10008,7 +10008,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_praise_tengu.vsnd",
 		]
-		vsnd_duration = 4.045000
+		vsnd_duration = 4.045
 	}
 	patron_female_praise_unicorn_announcer = 
 	{
@@ -10158,7 +10158,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_draw_04.vsnd",
 		]
-		vsnd_duration = 3.812000
+		vsnd_duration = 3.812
 	}
 	patron_female_street_brawl_draw_05_announcer = 
 	{
@@ -10168,7 +10168,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_draw_05.vsnd",
 		]
-		vsnd_duration = 4.920000
+		vsnd_duration = 4.92
 	}
 	patron_female_street_brawl_loss_01_announcer = 
 	{
@@ -10208,7 +10208,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_loss_04.vsnd",
 		]
-		vsnd_duration = 8.056000
+		vsnd_duration = 8.056
 	}
 	patron_female_street_brawl_loss_05_announcer = 
 	{
@@ -10218,7 +10218,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_loss_05.vsnd",
 		]
-		vsnd_duration = 4.180000
+		vsnd_duration = 4.18
 	}
 	patron_female_street_brawl_loss_06_announcer = 
 	{
@@ -10268,7 +10268,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_loss_10.vsnd",
 		]
-		vsnd_duration = 7.365250
+		vsnd_duration = 7.36525
 	}
 	patron_female_street_brawl_round_complete_01_announcer = 
 	{
@@ -10308,7 +10308,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_round_complete_04.vsnd",
 		]
-		vsnd_duration = 2.888000
+		vsnd_duration = 2.888
 	}
 	patron_female_street_brawl_round_complete_05_announcer = 
 	{
@@ -10348,7 +10348,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_round_complete_08.vsnd",
 		]
-		vsnd_duration = 3.748000
+		vsnd_duration = 3.748
 	}
 	patron_female_street_brawl_round_complete_09_announcer = 
 	{
@@ -10358,7 +10358,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_round_complete_09.vsnd",
 		]
-		vsnd_duration = 4.468000
+		vsnd_duration = 4.468
 	}
 	patron_female_street_brawl_round_complete_10_announcer = 
 	{
@@ -10498,7 +10498,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_round_win_03.vsnd",
 		]
-		vsnd_duration = 2.812000
+		vsnd_duration = 2.812
 	}
 	patron_female_street_brawl_round_win_04_announcer = 
 	{
@@ -10548,7 +10548,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_round_win_08.vsnd",
 		]
-		vsnd_duration = 3.010500
+		vsnd_duration = 3.0105
 	}
 	patron_female_street_brawl_round_win_09_announcer = 
 	{
@@ -10588,7 +10588,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_victory_02.vsnd",
 		]
-		vsnd_duration = 7.008000
+		vsnd_duration = 7.008
 	}
 	patron_female_street_brawl_victory_03_alt_01_announcer = 
 	{
@@ -10598,7 +10598,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_victory_03_alt_01.vsnd",
 		]
-		vsnd_duration = 2.924000
+		vsnd_duration = 2.924
 	}
 	patron_female_street_brawl_victory_03_announcer = 
 	{
@@ -10618,7 +10618,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_street_brawl_victory_04.vsnd",
 		]
-		vsnd_duration = 4.074250
+		vsnd_duration = 4.07425
 	}
 	patron_female_street_brawl_victory_05_announcer = 
 	{
@@ -10688,7 +10688,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_1_tasks_left.vsnd",
 		]
-		vsnd_duration = 4.672000
+		vsnd_duration = 4.672
 	}
 	patron_female_tutorial_1_tasks_left_announcer_tutorial = 
 	{
@@ -10698,7 +10698,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_1_tasks_left.vsnd",
 		]
-		vsnd_duration = 4.672000
+		vsnd_duration = 4.672
 	}
 	patron_female_tutorial_2_tasks_left_announcer = 
 	{
@@ -11048,7 +11048,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_combat_companion_need_help_01.vsnd",
 		]
-		vsnd_duration = 3.303250
+		vsnd_duration = 3.30325
 	}
 	patron_female_tutorial_combat_companion_need_help_01_announcer_tutorial = 
 	{
@@ -11058,7 +11058,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_combat_companion_need_help_01.vsnd",
 		]
-		vsnd_duration = 3.303250
+		vsnd_duration = 3.30325
 	}
 	patron_female_tutorial_combat_companion_need_help_02_announcer = 
 	{
@@ -11828,7 +11828,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_push_lane_04.vsnd",
 		]
-		vsnd_duration = 5.112250
+		vsnd_duration = 5.11225
 	}
 	patron_female_tutorial_push_lane_04_announcer_tutorial = 
 	{
@@ -11838,7 +11838,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_push_lane_04.vsnd",
 		]
-		vsnd_duration = 5.112250
+		vsnd_duration = 5.11225
 	}
 	patron_female_tutorial_push_lane_05_announcer = 
 	{
@@ -11868,7 +11868,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_push_lane.vsnd",
 		]
-		vsnd_duration = 7.011250
+		vsnd_duration = 7.01125
 	}
 	patron_female_tutorial_push_lane_announcer_tutorial = 
 	{
@@ -11878,7 +11878,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_push_lane.vsnd",
 		]
-		vsnd_duration = 7.011250
+		vsnd_duration = 7.01125
 	}
 	patron_female_tutorial_red_orb_reminder_announcer = 
 	{
@@ -11908,7 +11908,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_shop_info.vsnd",
 		]
-		vsnd_duration = 11.419750
+		vsnd_duration = 11.41975
 	}
 	patron_female_tutorial_shop_info_announcer_tutorial = 
 	{
@@ -11918,7 +11918,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_shop_info.vsnd",
 		]
-		vsnd_duration = 11.419750
+		vsnd_duration = 11.41975
 	}
 	patron_female_tutorial_shop_reminder_alt_announcer = 
 	{
@@ -11928,7 +11928,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_shop_reminder_alt.vsnd",
 		]
-		vsnd_duration = 5.960750
+		vsnd_duration = 5.96075
 	}
 	patron_female_tutorial_shop_reminder_alt_announcer_tutorial = 
 	{
@@ -11938,7 +11938,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_shop_reminder_alt.vsnd",
 		]
-		vsnd_duration = 5.960750
+		vsnd_duration = 5.96075
 	}
 	patron_female_tutorial_stamina_reminder_announcer = 
 	{
@@ -12028,7 +12028,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_tasks_complete.vsnd",
 		]
-		vsnd_duration = 14.895250
+		vsnd_duration = 14.89525
 	}
 	patron_female_tutorial_tasks_complete_announcer_tutorial = 
 	{
@@ -12038,7 +12038,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_tutorial_tasks_complete.vsnd",
 		]
-		vsnd_duration = 14.895250
+		vsnd_duration = 14.89525
 	}
 	patron_female_tutorial_total_cred_reminder_announcer = 
 	{
@@ -12178,7 +12178,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_urn_moving_01.vsnd",
 		]
-		vsnd_duration = 3.286000
+		vsnd_duration = 3.286
 	}
 	patron_female_urn_waiting_01_announcer = 
 	{
@@ -12198,7 +12198,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_york_attacked_01.vsnd",
 		]
-		vsnd_duration = 3.152000
+		vsnd_duration = 3.152
 	}
 	patron_male_ally_astro_killing_streak_01_announcer = 
 	{
@@ -12218,7 +12218,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_astro_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 5.624250
+		vsnd_duration = 5.62425
 	}
 	patron_male_ally_astro_killing_streak_03_announcer = 
 	{
@@ -12238,7 +12238,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_astro_start_01.vsnd",
 		]
-		vsnd_duration = 9.580000
+		vsnd_duration = 9.58
 	}
 	patron_male_ally_astro_start_02_announcer = 
 	{
@@ -12248,7 +12248,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_astro_start_02.vsnd",
 		]
-		vsnd_duration = 12.040000
+		vsnd_duration = 12.04
 	}
 	patron_male_ally_astro_start_03_announcer = 
 	{
@@ -12268,7 +12268,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_astro_start_04.vsnd",
 		]
-		vsnd_duration = 10.324000
+		vsnd_duration = 10.324
 	}
 	patron_male_ally_astro_start_05_announcer = 
 	{
@@ -12288,7 +12288,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_atlas_killing_streak_01.vsnd",
 		]
-		vsnd_duration = 4.982000
+		vsnd_duration = 4.982
 	}
 	patron_male_ally_atlas_killing_streak_02_announcer = 
 	{
@@ -12378,7 +12378,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_bebop_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 5.484000
+		vsnd_duration = 5.484
 	}
 	patron_male_ally_bebop_killing_streak_03_announcer = 
 	{
@@ -12588,7 +12588,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_bookworm_start_04_alt.vsnd",
 		]
-		vsnd_duration = 13.143000
+		vsnd_duration = 13.143
 	}
 	patron_male_ally_bookworm_start_05_alt_announcer = 
 	{
@@ -12608,7 +12608,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_chrono_killing_streak_01.vsnd",
 		]
-		vsnd_duration = 4.250750
+		vsnd_duration = 4.25075
 	}
 	patron_male_ally_chrono_killing_streak_02_announcer = 
 	{
@@ -12738,7 +12738,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_doorman_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 7.539000
+		vsnd_duration = 7.539
 	}
 	patron_male_ally_doorman_killing_streak_03_announcer = 
 	{
@@ -12778,7 +12778,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_doorman_start_03.vsnd",
 		]
-		vsnd_duration = 6.600000
+		vsnd_duration = 6.6
 	}
 	patron_male_ally_doorman_start_04_announcer = 
 	{
@@ -12788,7 +12788,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_doorman_start_04.vsnd",
 		]
-		vsnd_duration = 6.077000
+		vsnd_duration = 6.077
 	}
 	patron_male_ally_doorman_start_05_announcer = 
 	{
@@ -12868,7 +12868,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_drifter_start_04.vsnd",
 		]
-		vsnd_duration = 8.011000
+		vsnd_duration = 8.011
 	}
 	patron_male_ally_drifter_start_05_announcer = 
 	{
@@ -12888,7 +12888,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_dynamo_killing_streak_01.vsnd",
 		]
-		vsnd_duration = 4.660250
+		vsnd_duration = 4.66025
 	}
 	patron_male_ally_dynamo_killing_streak_02_announcer = 
 	{
@@ -12898,7 +12898,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_dynamo_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 4.588500
+		vsnd_duration = 4.5885
 	}
 	patron_male_ally_dynamo_killing_streak_03_announcer = 
 	{
@@ -13128,7 +13128,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_fencer_start_05.vsnd",
 		]
-		vsnd_duration = 18.890730
+		vsnd_duration = 18.89073
 	}
 	patron_male_ally_first_generator_destroyed_01_announcer = 
 	{
@@ -13138,7 +13138,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_first_generator_destroyed_01.vsnd",
 		]
-		vsnd_duration = 3.968750
+		vsnd_duration = 3.96875
 	}
 	patron_male_ally_forge_killing_streak_01_announcer = 
 	{
@@ -13248,7 +13248,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_frank_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 5.096000
+		vsnd_duration = 5.096
 	}
 	patron_male_ally_frank_start_01_announcer = 
 	{
@@ -13328,7 +13328,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_ghost_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 5.984000
+		vsnd_duration = 5.984
 	}
 	patron_male_ally_ghost_killing_streak_03_announcer = 
 	{
@@ -13338,7 +13338,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_ghost_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 5.424000
+		vsnd_duration = 5.424
 	}
 	patron_male_ally_ghost_start_01_announcer = 
 	{
@@ -13598,7 +13598,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_haze_start_02.vsnd",
 		]
-		vsnd_duration = 7.251750
+		vsnd_duration = 7.25175
 	}
 	patron_male_ally_haze_start_03_announcer = 
 	{
@@ -13638,7 +13638,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_hornet_killing_streak_01.vsnd",
 		]
-		vsnd_duration = 7.763500
+		vsnd_duration = 7.7635
 	}
 	patron_male_ally_hornet_killing_streak_02_announcer = 
 	{
@@ -13748,7 +13748,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_inferno_start_01.vsnd",
 		]
-		vsnd_duration = 7.409250
+		vsnd_duration = 7.40925
 	}
 	patron_male_ally_inferno_start_02_announcer = 
 	{
@@ -13758,7 +13758,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_inferno_start_02.vsnd",
 		]
-		vsnd_duration = 8.039270
+		vsnd_duration = 8.03927
 	}
 	patron_male_ally_inferno_start_03_announcer = 
 	{
@@ -13778,7 +13778,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_inferno_start_04.vsnd",
 		]
-		vsnd_duration = 8.125730
+		vsnd_duration = 8.12573
 	}
 	patron_male_ally_inferno_start_05_announcer = 
 	{
@@ -13868,7 +13868,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_kelvin_start_04.vsnd",
 		]
-		vsnd_duration = 8.150250
+		vsnd_duration = 8.15025
 	}
 	patron_male_ally_kelvin_start_05_announcer = 
 	{
@@ -13908,7 +13908,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_krill_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 4.694000
+		vsnd_duration = 4.694
 	}
 	patron_male_ally_krill_start_01_announcer = 
 	{
@@ -13998,7 +13998,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_lash_start_01.vsnd",
 		]
-		vsnd_duration = 8.101500
+		vsnd_duration = 8.1015
 	}
 	patron_male_ally_lash_start_02_announcer = 
 	{
@@ -14018,7 +14018,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_lash_start_03.vsnd",
 		]
-		vsnd_duration = 8.474500
+		vsnd_duration = 8.4745
 	}
 	patron_male_ally_lash_start_04_announcer = 
 	{
@@ -14088,7 +14088,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_magician_start_02.vsnd",
 		]
-		vsnd_duration = 9.489000
+		vsnd_duration = 9.489
 	}
 	patron_male_ally_magician_start_03_announcer = 
 	{
@@ -14148,7 +14148,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_mirage_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 5.816750
+		vsnd_duration = 5.81675
 	}
 	patron_male_ally_mirage_start_01_announcer = 
 	{
@@ -14178,7 +14178,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_mirage_start_03.vsnd",
 		]
-		vsnd_duration = 7.719500
+		vsnd_duration = 7.7195
 	}
 	patron_male_ally_mirage_start_04_announcer = 
 	{
@@ -14188,7 +14188,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_mirage_start_04.vsnd",
 		]
-		vsnd_duration = 7.037000
+		vsnd_duration = 7.037
 	}
 	patron_male_ally_mirage_start_05_announcer = 
 	{
@@ -14288,7 +14288,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_necro_killing_streak_01.vsnd",
 		]
-		vsnd_duration = 3.953000
+		vsnd_duration = 3.953
 	}
 	patron_male_ally_necro_killing_streak_02_announcer = 
 	{
@@ -14388,7 +14388,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_orion_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 7.483500
+		vsnd_duration = 7.4835
 	}
 	patron_male_ally_orion_start_01_announcer = 
 	{
@@ -14468,7 +14468,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_priest_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 6.852000
+		vsnd_duration = 6.852
 	}
 	patron_male_ally_priest_start_01_announcer = 
 	{
@@ -14518,7 +14518,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_priest_start_05.vsnd",
 		]
-		vsnd_duration = 13.802500
+		vsnd_duration = 13.8025
 	}
 	patron_male_ally_punkgoat_killing_streak_01_announcer = 
 	{
@@ -14548,7 +14548,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_punkgoat_killing_streak_03.vsnd",
 		]
-		vsnd_duration = 5.892000
+		vsnd_duration = 5.892
 	}
 	patron_male_ally_punkgoat_start_01_announcer = 
 	{
@@ -14558,7 +14558,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_punkgoat_start_01.vsnd",
 		]
-		vsnd_duration = 13.840000
+		vsnd_duration = 13.84
 	}
 	patron_male_ally_punkgoat_start_02_announcer = 
 	{
@@ -14568,7 +14568,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_punkgoat_start_02.vsnd",
 		]
-		vsnd_duration = 9.741250
+		vsnd_duration = 9.74125
 	}
 	patron_male_ally_punkgoat_start_03_announcer = 
 	{
@@ -14628,7 +14628,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_rejuvinator_almost_expired_03.vsnd",
 		]
-		vsnd_duration = 4.906250
+		vsnd_duration = 4.90625
 	}
 	patron_male_ally_shiv_killing_streak_01_announcer = 
 	{
@@ -14678,7 +14678,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_shiv_start_02.vsnd",
 		]
-		vsnd_duration = 11.386000
+		vsnd_duration = 11.386
 	}
 	patron_male_ally_shiv_start_03_announcer = 
 	{
@@ -14818,7 +14818,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_tengu_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 5.377250
+		vsnd_duration = 5.37725
 	}
 	patron_male_ally_tengu_killing_streak_03_announcer = 
 	{
@@ -14858,7 +14858,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_tengu_start_03.vsnd",
 		]
-		vsnd_duration = 9.390000
+		vsnd_duration = 9.39
 	}
 	patron_male_ally_tengu_start_04_announcer = 
 	{
@@ -14998,7 +14998,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_urn_delivered_02.vsnd",
 		]
-		vsnd_duration = 3.930000
+		vsnd_duration = 3.93
 	}
 	patron_male_ally_urn_runner_01_announcer = 
 	{
@@ -15168,7 +15168,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_viper_start_05.vsnd",
 		]
-		vsnd_duration = 8.595000
+		vsnd_duration = 8.595
 	}
 	patron_male_ally_viscous_killing_streak_01_announcer = 
 	{
@@ -15348,7 +15348,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_werewolf_killing_streak_02.vsnd",
 		]
-		vsnd_duration = 4.854250
+		vsnd_duration = 4.85425
 	}
 	patron_male_ally_werewolf_killing_streak_03_announcer = 
 	{
@@ -15368,7 +15368,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_werewolf_start_01.vsnd",
 		]
-		vsnd_duration = 12.222000
+		vsnd_duration = 12.222
 	}
 	patron_male_ally_werewolf_start_02_announcer = 
 	{
@@ -15388,7 +15388,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_werewolf_start_03.vsnd",
 		]
-		vsnd_duration = 15.206000
+		vsnd_duration = 15.206
 	}
 	patron_male_ally_werewolf_start_04_announcer = 
 	{
@@ -15458,7 +15458,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_wraith_start_02.vsnd",
 		]
-		vsnd_duration = 6.645000
+		vsnd_duration = 6.645
 	}
 	patron_male_ally_wraith_start_03_announcer = 
 	{
@@ -15598,7 +15598,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_ally_yellow_guardian_destroyed_03.vsnd",
 		]
-		vsnd_duration = 4.314250
+		vsnd_duration = 4.31425
 	}
 	patron_male_ally_yellow_walker_attack_01_announcer = 
 	{
@@ -15668,7 +15668,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_base_defended_01.vsnd",
 		]
-		vsnd_duration = 5.813000
+		vsnd_duration = 5.813
 	}
 	patron_male_big_healing_by_astro_announcer = 
 	{
@@ -15788,7 +15788,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_big_healing_by_dynamo.vsnd",
 		]
-		vsnd_duration = 7.562000
+		vsnd_duration = 7.562
 	}
 	patron_male_big_healing_by_familiar_alt_01_announcer = 
 	{
@@ -15828,7 +15828,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_big_healing_by_fencer_alt.vsnd",
 		]
-		vsnd_duration = 4.719000
+		vsnd_duration = 4.719
 	}
 	patron_male_big_healing_by_fencer_announcer = 
 	{
@@ -15938,7 +15938,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_big_healing_by_hornet.vsnd",
 		]
-		vsnd_duration = 4.772250
+		vsnd_duration = 4.77225
 	}
 	patron_male_big_healing_by_inferno_announcer = 
 	{
@@ -16078,7 +16078,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_big_healing_by_shiv.vsnd",
 		]
-		vsnd_duration = 6.218000
+		vsnd_duration = 6.218
 	}
 	patron_male_big_healing_by_synth_announcer = 
 	{
@@ -16388,7 +16388,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_choose_item_18.vsnd",
 		]
-		vsnd_duration = 4.184000
+		vsnd_duration = 4.184
 	}
 	patron_male_choose_item_19_announcer = 
 	{
@@ -16398,7 +16398,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_choose_item_19.vsnd",
 		]
-		vsnd_duration = 4.970500
+		vsnd_duration = 4.9705
 	}
 	patron_male_choose_item_20_announcer = 
 	{
@@ -16508,7 +16508,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_choose_item_30.vsnd",
 		]
-		vsnd_duration = 6.292500
+		vsnd_duration = 6.2925
 	}
 	patron_male_enemy_astro_killing_streak_high_01_announcer = 
 	{
@@ -16618,7 +16618,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_bookworm_killing_streak_low_01_alt.vsnd",
 		]
-		vsnd_duration = 5.504000
+		vsnd_duration = 5.504
 	}
 	patron_male_enemy_bookworm_killing_streak_medium_01_alt_announcer = 
 	{
@@ -16638,7 +16638,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_chrono_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 4.038750
+		vsnd_duration = 4.03875
 	}
 	patron_male_enemy_chrono_killing_streak_high_02_announcer = 
 	{
@@ -16648,7 +16648,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_chrono_killing_streak_high_02.vsnd",
 		]
-		vsnd_duration = 3.657750
+		vsnd_duration = 3.65775
 	}
 	patron_male_enemy_chrono_killing_streak_low_01_announcer = 
 	{
@@ -16658,7 +16658,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_chrono_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 3.980000
+		vsnd_duration = 3.98
 	}
 	patron_male_enemy_chrono_killing_streak_medium_01_announcer = 
 	{
@@ -16698,7 +16698,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_core_exposed_03.vsnd",
 		]
-		vsnd_duration = 4.974500
+		vsnd_duration = 4.9745
 	}
 	patron_male_enemy_core_healing_01_announcer = 
 	{
@@ -16718,7 +16718,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_doorman_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 3.648000
+		vsnd_duration = 3.648
 	}
 	patron_male_enemy_doorman_killing_streak_low_01_announcer = 
 	{
@@ -16728,7 +16728,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_doorman_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 4.644000
+		vsnd_duration = 4.644
 	}
 	patron_male_enemy_doorman_killing_streak_medium_01_announcer = 
 	{
@@ -16738,7 +16738,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_doorman_killing_streak_medium_01.vsnd",
 		]
-		vsnd_duration = 3.972000
+		vsnd_duration = 3.972
 	}
 	patron_male_enemy_drifter_killing_streak_high_01_announcer = 
 	{
@@ -16758,7 +16758,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_drifter_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 6.484000
+		vsnd_duration = 6.484
 	}
 	patron_male_enemy_drifter_killing_streak_medium_01_announcer = 
 	{
@@ -16928,7 +16928,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_frank_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 3.854000
+		vsnd_duration = 3.854
 	}
 	patron_male_enemy_frank_killing_streak_medium_01_announcer = 
 	{
@@ -16938,7 +16938,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_frank_killing_streak_medium_01.vsnd",
 		]
-		vsnd_duration = 4.214000
+		vsnd_duration = 4.214
 	}
 	patron_male_enemy_ghost_killing_streak_high_01_announcer = 
 	{
@@ -17008,7 +17008,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_haze_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 4.742500
+		vsnd_duration = 4.7425
 	}
 	patron_male_enemy_haze_killing_streak_low_01_announcer = 
 	{
@@ -17058,7 +17058,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_hornet_killing_streak_medium_01.vsnd",
 		]
-		vsnd_duration = 4.058000
+		vsnd_duration = 4.058
 	}
 	patron_male_enemy_inferno_killing_streak_high_01_announcer = 
 	{
@@ -17158,7 +17158,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_lash_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 3.376000
+		vsnd_duration = 3.376
 	}
 	patron_male_enemy_lash_killing_streak_low_01_announcer = 
 	{
@@ -17298,7 +17298,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_necro_killing_streak_medium_01.vsnd",
 		]
-		vsnd_duration = 4.398000
+		vsnd_duration = 4.398
 	}
 	patron_male_enemy_orion_killing_streak_high_01_announcer = 
 	{
@@ -17348,7 +17348,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_priest_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 3.875000
+		vsnd_duration = 3.875
 	}
 	patron_male_enemy_priest_killing_streak_medium_01_announcer = 
 	{
@@ -17478,7 +17478,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_team_wipe_02.vsnd",
 		]
-		vsnd_duration = 2.848000
+		vsnd_duration = 2.848
 	}
 	patron_male_enemy_team_wipe_03_announcer = 
 	{
@@ -17608,7 +17608,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_urn_runner_01.vsnd",
 		]
-		vsnd_duration = 3.630000
+		vsnd_duration = 3.63
 	}
 	patron_male_enemy_urn_runner_02_announcer = 
 	{
@@ -17668,7 +17668,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_viper_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 3.957000
+		vsnd_duration = 3.957
 	}
 	patron_male_enemy_viper_killing_streak_low_01_announcer = 
 	{
@@ -17698,7 +17698,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_viscous_killing_streak_high_01.vsnd",
 		]
-		vsnd_duration = 4.637000
+		vsnd_duration = 4.637
 	}
 	patron_male_enemy_viscous_killing_streak_low_01_announcer = 
 	{
@@ -17768,7 +17768,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_enemy_werewolf_killing_streak_low_01.vsnd",
 		]
-		vsnd_duration = 3.908000
+		vsnd_duration = 3.908
 	}
 	patron_male_enemy_werewolf_killing_streak_medium_01_announcer = 
 	{
@@ -17868,7 +17868,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_grant_boon_general_03.vsnd",
 		]
-		vsnd_duration = 3.524000
+		vsnd_duration = 3.524
 	}
 	patron_male_grant_boon_general_04_announcer = 
 	{
@@ -17928,7 +17928,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_grant_boon_general_09.vsnd",
 		]
-		vsnd_duration = 3.826500
+		vsnd_duration = 3.8265
 	}
 	patron_male_grant_boon_general_10_announcer = 
 	{
@@ -18128,7 +18128,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_grant_boon_weapon_08.vsnd",
 		]
-		vsnd_duration = 7.013500
+		vsnd_duration = 7.0135
 	}
 	patron_male_grant_boon_weapon_09_announcer = 
 	{
@@ -18178,7 +18178,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_help_out_astro.vsnd",
 		]
-		vsnd_duration = 3.580250
+		vsnd_duration = 3.58025
 	}
 	patron_male_help_out_atlas_announcer = 
 	{
@@ -18188,7 +18188,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_help_out_atlas.vsnd",
 		]
-		vsnd_duration = 4.480000
+		vsnd_duration = 4.48
 	}
 	patron_male_help_out_bebop_announcer = 
 	{
@@ -18338,7 +18338,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_help_out_hornet.vsnd",
 		]
-		vsnd_duration = 4.560000
+		vsnd_duration = 4.56
 	}
 	patron_male_help_out_inferno_announcer = 
 	{
@@ -18388,7 +18388,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_help_out_magician.vsnd",
 		]
-		vsnd_duration = 3.814500
+		vsnd_duration = 3.8145
 	}
 	patron_male_help_out_mirage_announcer = 
 	{
@@ -18468,7 +18468,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_help_out_synth.vsnd",
 		]
-		vsnd_duration = 3.789000
+		vsnd_duration = 3.789
 	}
 	patron_male_help_out_tengu_announcer = 
 	{
@@ -18508,7 +18508,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_help_out_viper.vsnd",
 		]
-		vsnd_duration = 3.974000
+		vsnd_duration = 3.974
 	}
 	patron_male_help_out_viscous_announcer = 
 	{
@@ -18568,7 +18568,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_killing_streak_generic_high_07.vsnd",
 		]
-		vsnd_duration = 5.163250
+		vsnd_duration = 5.16325
 	}
 	patron_male_many_assists_by_astro_announcer = 
 	{
@@ -18728,7 +18728,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_many_assists_by_gigawatt.vsnd",
 		]
-		vsnd_duration = 6.110000
+		vsnd_duration = 6.11
 	}
 	patron_male_many_assists_by_haze_announcer = 
 	{
@@ -18908,7 +18908,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_many_assists_by_vampirebat.vsnd",
 		]
-		vsnd_duration = 6.494000
+		vsnd_duration = 6.494
 	}
 	patron_male_many_assists_by_viper_announcer = 
 	{
@@ -18998,7 +18998,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_networth_update_ahead.vsnd",
 		]
-		vsnd_duration = 7.769000
+		vsnd_duration = 7.769
 	}
 	patron_male_networth_update_behind_announcer = 
 	{
@@ -19028,7 +19028,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_praise_atlas.vsnd",
 		]
-		vsnd_duration = 4.515750
+		vsnd_duration = 4.51575
 	}
 	patron_male_praise_bebop_announcer = 
 	{
@@ -19108,7 +19108,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_praise_fencer_alt.vsnd",
 		]
-		vsnd_duration = 4.406750
+		vsnd_duration = 4.40675
 	}
 	patron_male_praise_fencer_announcer = 
 	{
@@ -19168,7 +19168,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_praise_haze.vsnd",
 		]
-		vsnd_duration = 5.002000
+		vsnd_duration = 5.002
 	}
 	patron_male_praise_hornet_announcer = 
 	{
@@ -19238,7 +19238,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_praise_mirage.vsnd",
 		]
-		vsnd_duration = 5.110250
+		vsnd_duration = 5.11025
 	}
 	patron_male_praise_nano_announcer = 
 	{
@@ -19288,7 +19288,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_praise_punkgoat.vsnd",
 		]
-		vsnd_duration = 5.111500
+		vsnd_duration = 5.1115
 	}
 	patron_male_praise_shiv_announcer = 
 	{
@@ -19348,7 +19348,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_praise_viper.vsnd",
 		]
-		vsnd_duration = 4.510000
+		vsnd_duration = 4.51
 	}
 	patron_male_praise_viscous_announcer = 
 	{
@@ -19438,7 +19438,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_street_brawl_draw_01.vsnd",
 		]
-		vsnd_duration = 5.391000
+		vsnd_duration = 5.391
 	}
 	patron_male_street_brawl_draw_02_announcer = 
 	{
@@ -19728,7 +19728,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_street_brawl_round_lose_04.vsnd",
 		]
-		vsnd_duration = 4.745000
+		vsnd_duration = 4.745
 	}
 	patron_male_street_brawl_round_lose_05_announcer = 
 	{
@@ -19738,7 +19738,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_street_brawl_round_lose_05.vsnd",
 		]
-		vsnd_duration = 8.172000
+		vsnd_duration = 8.172
 	}
 	patron_male_street_brawl_round_lose_06_announcer = 
 	{
@@ -19778,7 +19778,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_street_brawl_round_lose_09.vsnd",
 		]
-		vsnd_duration = 6.775500
+		vsnd_duration = 6.7755
 	}
 	patron_male_street_brawl_round_lose_10_announcer = 
 	{
@@ -19828,7 +19828,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_street_brawl_round_win_04.vsnd",
 		]
-		vsnd_duration = 5.260000
+		vsnd_duration = 5.26
 	}
 	patron_male_street_brawl_round_win_05_announcer = 
 	{
@@ -19888,7 +19888,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_street_brawl_round_win_10.vsnd",
 		]
-		vsnd_duration = 6.199500
+		vsnd_duration = 6.1995
 	}
 	patron_male_street_brawl_victory_01_alt_01_announcer = 
 	{
@@ -19938,7 +19938,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_street_brawl_victory_04.vsnd",
 		]
-		vsnd_duration = 4.665500
+		vsnd_duration = 4.6655
 	}
 	patron_male_street_brawl_victory_05_announcer = 
 	{
@@ -20038,7 +20038,7 @@
 		[
 			"sounds/vo/announcer/male_patron/patron_male_urn_waiting_01.vsnd",
 		]
-		vsnd_duration = 5.041750
+		vsnd_duration = 5.04175
 	}
 	patron_male_york_attacked_01_announcer = 
 	{
@@ -20198,7 +20198,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_buy_armor_15.vsnd",
 		]
-		vsnd_duration = 2.451950
+		vsnd_duration = 2.45195
 	}
 	shopkeeper_hotdog_buy_armor_16_shopkeeper = 
 	{
@@ -20348,7 +20348,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_buy_early_06.vsnd",
 		]
-		vsnd_duration = 2.647120
+		vsnd_duration = 2.64712
 	}
 	shopkeeper_hotdog_buy_early_07_shopkeeper = 
 	{
@@ -20468,7 +20468,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_buy_echo_shard_01.vsnd",
 		]
-		vsnd_duration = 5.850590
+		vsnd_duration = 5.85059
 	}
 	shopkeeper_hotdog_buy_escalating_exposure_01_shopkeeper = 
 	{
@@ -20678,7 +20678,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_buy_leech_01.vsnd",
 		]
-		vsnd_duration = 5.975420
+		vsnd_duration = 5.97542
 	}
 	shopkeeper_hotdog_buy_lucky_shot_01_shopkeeper = 
 	{
@@ -20738,7 +20738,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_buy_refresher_01.vsnd",
 		]
-		vsnd_duration = 4.699070
+		vsnd_duration = 4.69907
 	}
 	shopkeeper_hotdog_buy_richochet_01_shopkeeper = 
 	{
@@ -20758,7 +20758,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_buy_shadow_weave_01.vsnd",
 		]
-		vsnd_duration = 4.850930
+		vsnd_duration = 4.85093
 	}
 	shopkeeper_hotdog_buy_silencer_01_shopkeeper = 
 	{
@@ -20768,7 +20768,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_buy_silencer_01.vsnd",
 		]
-		vsnd_duration = 4.419410
+		vsnd_duration = 4.41941
 	}
 	shopkeeper_hotdog_buy_siphon_bullets_01_shopkeeper = 
 	{
@@ -20828,7 +20828,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_buy_t1_upgradeable_03.vsnd",
 		]
-		vsnd_duration = 2.014490
+		vsnd_duration = 2.01449
 	}
 	shopkeeper_hotdog_buy_t1_upgradeable_04_shopkeeper = 
 	{
@@ -20998,7 +20998,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_buy_tech_10.vsnd",
 		]
-		vsnd_duration = 2.128390
+		vsnd_duration = 2.12839
 	}
 	shopkeeper_hotdog_buy_tech_11_shopkeeper = 
 	{
@@ -21128,7 +21128,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_call_out_05.vsnd",
 		]
-		vsnd_duration = 4.854490
+		vsnd_duration = 4.85449
 	}
 	shopkeeper_hotdog_call_out_06_shopkeeper = 
 	{
@@ -21198,7 +21198,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_close_shop_01.vsnd",
 		]
-		vsnd_duration = 2.531270
+		vsnd_duration = 2.53127
 	}
 	shopkeeper_hotdog_close_shop_02_shopkeeper = 
 	{
@@ -21258,7 +21258,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_open_gun_01.vsnd",
 		]
-		vsnd_duration = 2.954240
+		vsnd_duration = 2.95424
 	}
 	shopkeeper_hotdog_open_gun_02_shopkeeper = 
 	{
@@ -21288,7 +21288,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_open_gun_04.vsnd",
 		]
-		vsnd_duration = 5.574490
+		vsnd_duration = 5.57449
 	}
 	shopkeeper_hotdog_open_gun_05_shopkeeper = 
 	{
@@ -21358,7 +21358,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_buy_armor_01.vsnd",
 		]
-		vsnd_duration = 2.786440
+		vsnd_duration = 2.78644
 	}
 	shopkeeper_hotdog_seasonal_buy_armor_02_shopkeeper = 
 	{
@@ -21588,7 +21588,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_buy_gun_09.vsnd",
 		]
-		vsnd_duration = 0.954580
+		vsnd_duration = 0.95458
 	}
 	shopkeeper_hotdog_seasonal_buy_gun_10_shopkeeper = 
 	{
@@ -21748,7 +21748,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_buy_tech_10.vsnd",
 		]
-		vsnd_duration = 2.464240
+		vsnd_duration = 2.46424
 	}
 	shopkeeper_hotdog_seasonal_buy_tech_11_shopkeeper = 
 	{
@@ -21968,7 +21968,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_t4_doorman_02.vsnd",
 		]
-		vsnd_duration = 2.265510
+		vsnd_duration = 2.26551
 	}
 	shopkeeper_hotdog_seasonal_t4_doorman_03_shopkeeper = 
 	{
@@ -22098,7 +22098,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_t4_frank_03.vsnd",
 		]
-		vsnd_duration = 2.036100
+		vsnd_duration = 2.0361
 	}
 	shopkeeper_hotdog_seasonal_t4_ghost_01_shopkeeper = 
 	{
@@ -22118,7 +22118,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_t4_ghost_02.vsnd",
 		]
-		vsnd_duration = 1.844240
+		vsnd_duration = 1.84424
 	}
 	shopkeeper_hotdog_seasonal_t4_ghost_03_shopkeeper = 
 	{
@@ -22198,7 +22198,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_t4_hornet_01.vsnd",
 		]
-		vsnd_duration = 5.907030
+		vsnd_duration = 5.90703
 	}
 	shopkeeper_hotdog_seasonal_t4_hornet_02_shopkeeper = 
 	{
@@ -22278,7 +22278,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_t4_kelvin_03.vsnd",
 		]
-		vsnd_duration = 3.009410
+		vsnd_duration = 3.00941
 	}
 	shopkeeper_hotdog_seasonal_t4_krill_01_shopkeeper = 
 	{
@@ -22448,7 +22448,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_t4_mirage_02.vsnd",
 		]
-		vsnd_duration = 2.429320
+		vsnd_duration = 2.42932
 	}
 	shopkeeper_hotdog_seasonal_t4_mirage_03_shopkeeper = 
 	{
@@ -22538,7 +22538,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_t4_punkgoat_02.vsnd",
 		]
-		vsnd_duration = 3.038390
+		vsnd_duration = 3.03839
 	}
 	shopkeeper_hotdog_seasonal_t4_punkgoat_03_shopkeeper = 
 	{
@@ -22568,7 +22568,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_t4_shiv_02.vsnd",
 		]
-		vsnd_duration = 3.590250
+		vsnd_duration = 3.59025
 	}
 	shopkeeper_hotdog_seasonal_t4_shiv_03_shopkeeper = 
 	{
@@ -22688,7 +22688,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_t4_viper_02.vsnd",
 		]
-		vsnd_duration = 4.457120
+		vsnd_duration = 4.45712
 	}
 	shopkeeper_hotdog_seasonal_t4_viper_03_shopkeeper = 
 	{
@@ -22748,7 +22748,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_seasonal_t4_warden_02.vsnd",
 		]
-		vsnd_duration = 3.075850
+		vsnd_duration = 3.07585
 	}
 	shopkeeper_hotdog_seasonal_t4_warden_03_shopkeeper = 
 	{
@@ -22837,7 +22837,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_alt_slork_02.vsnd",
 		]
-		vsnd_duration = 1.673220
+		vsnd_duration = 1.67322
 	}
 	shopkeeper_hotdog_t4_alt_slork_03_shopkeeper = 
 	{
@@ -22874,7 +22874,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_astro_01.vsnd",
 		]
-		vsnd_duration = 4.723810
+		vsnd_duration = 4.72381
 	}
 	shopkeeper_hotdog_t4_astro_02_shopkeeper = 
 	{
@@ -22894,7 +22894,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_astro_03.vsnd",
 		]
-		vsnd_duration = 3.440340
+		vsnd_duration = 3.44034
 	}
 	shopkeeper_hotdog_t4_atlas_01_shopkeeper = 
 	{
@@ -22904,7 +22904,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_atlas_01.vsnd",
 		]
-		vsnd_duration = 2.493560
+		vsnd_duration = 2.49356
 	}
 	shopkeeper_hotdog_t4_atlas_02_shopkeeper = 
 	{
@@ -22924,7 +22924,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_atlas_03.vsnd",
 		]
-		vsnd_duration = 4.595170
+		vsnd_duration = 4.59517
 	}
 	shopkeeper_hotdog_t4_bebop_01_shopkeeper = 
 	{
@@ -22964,7 +22964,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_bookworm_01.vsnd",
 		]
-		vsnd_duration = 2.389320
+		vsnd_duration = 2.38932
 	}
 	shopkeeper_hotdog_t4_bookworm_02_shopkeeper = 
 	{
@@ -23024,7 +23024,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_chrono_02.vsnd",
 		]
-		vsnd_duration = 2.583560
+		vsnd_duration = 2.58356
 	}
 	shopkeeper_hotdog_t4_chrono_03_shopkeeper = 
 	{
@@ -23214,7 +23214,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_familiar_05.vsnd",
 		]
-		vsnd_duration = 1.707370
+		vsnd_duration = 1.70737
 	}
 	shopkeeper_hotdog_t4_fencer_01_shopkeeper = 
 	{
@@ -23344,7 +23344,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_frank_04.vsnd",
 		]
-		vsnd_duration = 2.593560
+		vsnd_duration = 2.59356
 	}
 	shopkeeper_hotdog_t4_frank_05_shopkeeper = 
 	{
@@ -23584,7 +23584,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_krill_03.vsnd",
 		]
-		vsnd_duration = 4.389660
+		vsnd_duration = 4.38966
 	}
 	shopkeeper_hotdog_t4_lash_01_shopkeeper = 
 	{
@@ -23604,7 +23604,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_lash_02.vsnd",
 		]
-		vsnd_duration = 3.664830
+		vsnd_duration = 3.66483
 	}
 	shopkeeper_hotdog_t4_lash_03_shopkeeper = 
 	{
@@ -23714,7 +23714,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_mirage_buys_carpet.vsnd",
 		]
-		vsnd_duration = 2.470340
+		vsnd_duration = 2.47034
 	}
 	shopkeeper_hotdog_t4_nano_01_shopkeeper = 
 	{
@@ -23724,7 +23724,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_nano_01.vsnd",
 		]
-		vsnd_duration = 2.288640
+		vsnd_duration = 2.28864
 	}
 	shopkeeper_hotdog_t4_nano_02_shopkeeper = 
 	{
@@ -23878,7 +23878,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_operative_03.vsnd",
 		]
-		vsnd_duration = 1.284830
+		vsnd_duration = 1.28483
 	}
 	shopkeeper_hotdog_t4_operative_04_shopkeeper = 
 	{
@@ -24148,7 +24148,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_shiv_02.vsnd",
 		]
-		vsnd_duration = 4.009660
+		vsnd_duration = 4.00966
 	}
 	shopkeeper_hotdog_t4_shiv_03_shopkeeper = 
 	{
@@ -24288,7 +24288,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_tengu_02.vsnd",
 		]
-		vsnd_duration = 4.213470
+		vsnd_duration = 4.21347
 	}
 	shopkeeper_hotdog_t4_tengu_03_shopkeeper = 
 	{
@@ -24428,7 +24428,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_vampirebat_05.vsnd",
 		]
-		vsnd_duration = 4.125170
+		vsnd_duration = 4.12517
 	}
 	shopkeeper_hotdog_t4_viper_01_shopkeeper = 
 	{
@@ -24488,7 +24488,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_viscous_01.vsnd",
 		]
-		vsnd_duration = 2.918050
+		vsnd_duration = 2.91805
 	}
 	shopkeeper_hotdog_t4_viscous_02_shopkeeper = 
 	{
@@ -24648,7 +24648,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_wrecker_02.vsnd",
 		]
-		vsnd_duration = 2.489320
+		vsnd_duration = 2.48932
 	}
 	shopkeeper_hotdog_t4_wrecker_03_shopkeeper = 
 	{
@@ -24718,7 +24718,7 @@
 		[
 			"sounds/vo/shopkeeper/shopkeeper_hotdog_t4_yamato_01_07.vsnd",
 		]
-		vsnd_duration = 3.405420
+		vsnd_duration = 3.40542
 	}
 	shopkeeper_hotdog_t4_yamato_01_shopkeeper = 
 	{
@@ -24858,7 +24858,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_dropped_01.vsnd",
 		]
-		vsnd_duration = 1.932290
+		vsnd_duration = 1.93229
 	}
 	spirit_jar_idol_dropped_02_idol = 
 	{
@@ -24958,7 +24958,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_dropping_01.vsnd",
 		]
-		vsnd_duration = 2.353560
+		vsnd_duration = 2.35356
 	}
 	spirit_jar_idol_dropping_02_idol = 
 	{
@@ -25078,7 +25078,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_holder_gets_stunned_03.vsnd",
 		]
-		vsnd_duration = 2.019410
+		vsnd_duration = 2.01941
 	}
 	spirit_jar_idol_holder_gets_stunned_04_idol = 
 	{
@@ -25358,7 +25358,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_picked_up_on_street_05.vsnd",
 		]
-		vsnd_duration = 3.774580
+		vsnd_duration = 3.77458
 	}
 	spirit_jar_idol_picked_up_on_street_06_idol = 
 	{
@@ -25388,7 +25388,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_picked_up_on_street_08.vsnd",
 		]
-		vsnd_duration = 0.978390
+		vsnd_duration = 0.97839
 	}
 	spirit_jar_idol_picked_up_on_street_09_idol = 
 	{
@@ -25528,7 +25528,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_waiting_in_street_11.vsnd",
 		]
-		vsnd_duration = 2.746780
+		vsnd_duration = 2.74678
 	}
 	spirit_jar_idol_waiting_on_bridge_01_idol = 
 	{
@@ -25538,7 +25538,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_waiting_on_bridge_01.vsnd",
 		]
-		vsnd_duration = 1.669320
+		vsnd_duration = 1.66932
 	}
 	spirit_jar_idol_waiting_on_bridge_02_idol = 
 	{
@@ -25568,7 +25568,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_waiting_on_bridge_04.vsnd",
 		]
-		vsnd_duration = 3.691020
+		vsnd_duration = 3.69102
 	}
 	spirit_jar_idol_waiting_on_bridge_05_idol = 
 	{
@@ -25618,7 +25618,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_waiting_on_bridge_09.vsnd",
 		]
-		vsnd_duration = 2.935170
+		vsnd_duration = 2.93517
 	}
 	spirit_jar_idol_waiting_on_bridge_10_idol = 
 	{
@@ -25628,7 +25628,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_waiting_on_bridge_10.vsnd",
 		]
-		vsnd_duration = 4.099320
+		vsnd_duration = 4.09932
 	}
 	spirit_jar_idol_waiting_on_bridge_11_idol = 
 	{
@@ -25648,7 +25648,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_waiting_on_bridge_12.vsnd",
 		]
-		vsnd_duration = 4.017460
+		vsnd_duration = 4.01746
 	}
 	spirit_jar_idol_waiting_on_bridge_13_idol = 
 	{
@@ -25688,7 +25688,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_waiting_on_bridge_16.vsnd",
 		]
-		vsnd_duration = 3.044240
+		vsnd_duration = 3.04424
 	}
 	spirit_jar_idol_waiting_on_bridge_17_idol = 
 	{
@@ -25698,7 +25698,7 @@
 		[
 			"sounds/vo/spirit_jar/spirit_jar_idol_waiting_on_bridge_17.vsnd",
 		]
-		vsnd_duration = 15.070930
+		vsnd_duration = 15.07093
 	}
 	spirit_jar_idol_waiting_on_bridge_18_idol = 
 	{
@@ -25778,7 +25778,7 @@
 		[
 			"sounds/vo/book/hero_intros/mina/vn_book_mina_intro_05.vsnd",
 		]
-		vsnd_duration = 1.443560
+		vsnd_duration = 1.44356
 	}
 	vn_book_mina_intro_06_book = 
 	{
@@ -25858,7 +25858,7 @@
 		[
 			"sounds/vo/book/hero_intros/mina/vn_book_mina_intro_13.vsnd",
 		]
-		vsnd_duration = 1.816190
+		vsnd_duration = 1.81619
 	}
 	vn_book_mina_intro_14_book = 
 	{
@@ -25868,7 +25868,7 @@
 		[
 			"sounds/vo/book/hero_intros/mina/vn_book_mina_intro_14.vsnd",
 		]
-		vsnd_duration = 2.115850
+		vsnd_duration = 2.11585
 	}
 	vn_book_mina_intro_15_book = 
 	{
@@ -25948,7 +25948,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene01_04.vsnd",
 		]
-		vsnd_duration = 1.044150
+		vsnd_duration = 1.04415
 	}
 	vn_geist_scene01_05_book = 
 	{
@@ -26008,7 +26008,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene01_10.vsnd",
 		]
-		vsnd_duration = 10.836780
+		vsnd_duration = 10.83678
 	}
 	vn_geist_scene01_11_book = 
 	{
@@ -26028,7 +26028,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene01_12.vsnd",
 		]
-		vsnd_duration = 2.880000
+		vsnd_duration = 2.88
 	}
 	vn_geist_scene01_13_book = 
 	{
@@ -26048,7 +26048,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene01_14.vsnd",
 		]
-		vsnd_duration = 1.688980
+		vsnd_duration = 1.68898
 	}
 	vn_geist_scene01_15_book = 
 	{
@@ -26108,7 +26108,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene01_20.vsnd",
 		]
-		vsnd_duration = 2.017030
+		vsnd_duration = 2.01703
 	}
 	vn_geist_scene01_21_book = 
 	{
@@ -26148,7 +26148,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene01_24.vsnd",
 		]
-		vsnd_duration = 3.910930
+		vsnd_duration = 3.91093
 	}
 	vn_geist_scene01_25_book = 
 	{
@@ -26228,7 +26228,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene01_32.vsnd",
 		]
-		vsnd_duration = 1.873560
+		vsnd_duration = 1.87356
 	}
 	vn_geist_scene01_33_book = 
 	{
@@ -26268,7 +26268,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene02a_01.vsnd",
 		]
-		vsnd_duration = 8.850000
+		vsnd_duration = 8.85
 	}
 	vn_geist_scene02a_02_book = 
 	{
@@ -26318,7 +26318,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene02a_06.vsnd",
 		]
-		vsnd_duration = 0.525760
+		vsnd_duration = 0.52576
 	}
 	vn_geist_scene02a_07_book = 
 	{
@@ -26338,7 +26338,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene02a_08.vsnd",
 		]
-		vsnd_duration = 0.915510
+		vsnd_duration = 0.91551
 	}
 	vn_geist_scene02a_09_book = 
 	{
@@ -26388,7 +26388,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene02a_13.vsnd",
 		]
-		vsnd_duration = 1.768730
+		vsnd_duration = 1.76873
 	}
 	vn_geist_scene02a_14_book = 
 	{
@@ -26448,7 +26448,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene02a_19.vsnd",
 		]
-		vsnd_duration = 1.081270
+		vsnd_duration = 1.08127
 	}
 	vn_geist_scene02a_20_book = 
 	{
@@ -26458,7 +26458,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene02a_20.vsnd",
 		]
-		vsnd_duration = 6.816780
+		vsnd_duration = 6.81678
 	}
 	vn_geist_scene02a_21_book = 
 	{
@@ -26498,7 +26498,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene02a_24.vsnd",
 		]
-		vsnd_duration = 1.120590
+		vsnd_duration = 1.12059
 	}
 	vn_geist_scene02b_01_book = 
 	{
@@ -26518,7 +26518,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene02b_02.vsnd",
 		]
-		vsnd_duration = 2.747370
+		vsnd_duration = 2.74737
 	}
 	vn_geist_scene02b_03_book = 
 	{
@@ -26708,7 +26708,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene02b_20.vsnd",
 		]
-		vsnd_duration = 0.550590
+		vsnd_duration = 0.55059
 	}
 	vn_geist_scene02b_21_book = 
 	{
@@ -26868,7 +26868,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene03a_06.vsnd",
 		]
-		vsnd_duration = 1.918980
+		vsnd_duration = 1.91898
 	}
 	vn_geist_scene03a_07_book = 
 	{
@@ -26888,7 +26888,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene03a_08.vsnd",
 		]
-		vsnd_duration = 3.134830
+		vsnd_duration = 3.13483
 	}
 	vn_geist_scene03a_09_book = 
 	{
@@ -27018,7 +27018,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene03a_21.vsnd",
 		]
-		vsnd_duration = 0.836190
+		vsnd_duration = 0.83619
 	}
 	vn_geist_scene03a_22_book = 
 	{
@@ -27058,7 +27058,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene03b_04.vsnd",
 		]
-		vsnd_duration = 0.849660
+		vsnd_duration = 0.84966
 	}
 	vn_geist_scene03b_05_book = 
 	{
@@ -27088,7 +27088,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene03b_09.vsnd",
 		]
-		vsnd_duration = 2.241020
+		vsnd_duration = 2.24102
 	}
 	vn_geist_scene03b_10_book = 
 	{
@@ -27108,7 +27108,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene03b_11.vsnd",
 		]
-		vsnd_duration = 6.080340
+		vsnd_duration = 6.08034
 	}
 	vn_geist_scene03b_12_book = 
 	{
@@ -27298,7 +27298,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene03b_30.vsnd",
 		]
-		vsnd_duration = 9.896530
+		vsnd_duration = 9.89653
 	}
 	vn_geist_scene03b_31_book = 
 	{
@@ -27368,7 +27368,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene03c_04.vsnd",
 		]
-		vsnd_duration = 1.340000
+		vsnd_duration = 1.34
 	}
 	vn_geist_scene03c_05_book = 
 	{
@@ -27558,7 +27558,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene03c_19c.vsnd",
 		]
-		vsnd_duration = 0.831950
+		vsnd_duration = 0.83195
 	}
 	vn_geist_scene03c_20_b4_19_book = 
 	{
@@ -27588,7 +27588,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene03c_22.vsnd",
 		]
-		vsnd_duration = 2.520930
+		vsnd_duration = 2.52093
 	}
 	vn_geist_scene03c_23_book = 
 	{
@@ -27618,7 +27618,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04a_02.vsnd",
 		]
-		vsnd_duration = 0.940590
+		vsnd_duration = 0.94059
 	}
 	vn_geist_scene04a_03_book = 
 	{
@@ -27698,7 +27698,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04a_10.vsnd",
 		]
-		vsnd_duration = 7.318050
+		vsnd_duration = 7.31805
 	}
 	vn_geist_scene04a_10a_book = 
 	{
@@ -27768,7 +27768,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04a_16.vsnd",
 		]
-		vsnd_duration = 1.196190
+		vsnd_duration = 1.19619
 	}
 	vn_geist_scene04a_17_book = 
 	{
@@ -27778,7 +27778,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04a_17.vsnd",
 		]
-		vsnd_duration = 1.196190
+		vsnd_duration = 1.19619
 	}
 	vn_geist_scene04a_18_book = 
 	{
@@ -27788,7 +27788,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04a_18.vsnd",
 		]
-		vsnd_duration = 3.354150
+		vsnd_duration = 3.35415
 	}
 	vn_geist_scene04a_19_book = 
 	{
@@ -27848,7 +27848,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04a_24.vsnd",
 		]
-		vsnd_duration = 4.983560
+		vsnd_duration = 4.98356
 	}
 	vn_geist_scene04a_25_book = 
 	{
@@ -27928,7 +27928,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04b_03b.vsnd",
 		]
-		vsnd_duration = 1.458390
+		vsnd_duration = 1.45839
 	}
 	vn_geist_scene04b_04_book = 
 	{
@@ -28138,7 +28138,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04b_24.vsnd",
 		]
-		vsnd_duration = 5.439660
+		vsnd_duration = 5.43966
 	}
 	vn_geist_scene04b_25_book = 
 	{
@@ -28228,7 +28228,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04b_33.vsnd",
 		]
-		vsnd_duration = 1.531020
+		vsnd_duration = 1.53102
 	}
 	vn_geist_scene04b_34_book = 
 	{
@@ -28278,7 +28278,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04b_38.vsnd",
 		]
-		vsnd_duration = 1.240000
+		vsnd_duration = 1.24
 	}
 	vn_geist_scene04c_01_book = 
 	{
@@ -28348,7 +28348,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04c_07.vsnd",
 		]
-		vsnd_duration = 5.930930
+		vsnd_duration = 5.93093
 	}
 	vn_geist_scene04c_08_book = 
 	{
@@ -28408,7 +28408,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04c_13.vsnd",
 		]
-		vsnd_duration = 0.913560
+		vsnd_duration = 0.91356
 	}
 	vn_geist_scene04c_14_book = 
 	{
@@ -28468,7 +28468,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04c_19.vsnd",
 		]
-		vsnd_duration = 1.527120
+		vsnd_duration = 1.52712
 	}
 	vn_geist_scene04c_20_book = 
 	{
@@ -28778,7 +28778,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04d_18.vsnd",
 		]
-		vsnd_duration = 4.123560
+		vsnd_duration = 4.12356
 	}
 	vn_geist_scene04d_19_book = 
 	{
@@ -28948,7 +28948,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04e_13.vsnd",
 		]
-		vsnd_duration = 2.681360
+		vsnd_duration = 2.68136
 	}
 	vn_geist_scene04e_14_book = 
 	{
@@ -29008,7 +29008,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene04e_18.vsnd",
 		]
-		vsnd_duration = 0.852540
+		vsnd_duration = 0.85254
 	}
 	vn_geist_scene05a_01_book = 
 	{
@@ -29058,7 +29058,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05a_05.vsnd",
 		]
-		vsnd_duration = 1.194830
+		vsnd_duration = 1.19483
 	}
 	vn_geist_scene05a_06_book = 
 	{
@@ -29098,7 +29098,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05a_09.vsnd",
 		]
-		vsnd_duration = 2.736100
+		vsnd_duration = 2.7361
 	}
 	vn_geist_scene05a_10_book = 
 	{
@@ -29228,7 +29228,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05b_06.vsnd",
 		]
-		vsnd_duration = 2.464490
+		vsnd_duration = 2.46449
 	}
 	vn_geist_scene05b_07_book = 
 	{
@@ -29348,7 +29348,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05b_18.vsnd",
 		]
-		vsnd_duration = 2.353220
+		vsnd_duration = 2.35322
 	}
 	vn_geist_scene05b_19_book = 
 	{
@@ -29358,7 +29358,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05b_19.vsnd",
 		]
-		vsnd_duration = 2.759410
+		vsnd_duration = 2.75941
 	}
 	vn_geist_scene05b_20_book = 
 	{
@@ -29488,7 +29488,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05b_32.vsnd",
 		]
-		vsnd_duration = 5.612630
+		vsnd_duration = 5.61263
 	}
 	vn_geist_scene05c_01_book = 
 	{
@@ -29548,7 +29548,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05c_06.vsnd",
 		]
-		vsnd_duration = 3.815760
+		vsnd_duration = 3.81576
 	}
 	vn_geist_scene05c_07_book = 
 	{
@@ -29648,7 +29648,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05c_16.vsnd",
 		]
-		vsnd_duration = 3.425510
+		vsnd_duration = 3.42551
 	}
 	vn_geist_scene05c_17_book = 
 	{
@@ -29668,7 +29668,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05c_18.vsnd",
 		]
-		vsnd_duration = 2.593900
+		vsnd_duration = 2.5939
 	}
 	vn_geist_scene05c_19_book = 
 	{
@@ -29688,7 +29688,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05c_20.vsnd",
 		]
-		vsnd_duration = 4.272290
+		vsnd_duration = 4.27229
 	}
 	vn_geist_scene05c_21_book = 
 	{
@@ -29848,7 +29848,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05c_36.vsnd",
 		]
-		vsnd_duration = 2.333810
+		vsnd_duration = 2.33381
 	}
 	vn_geist_scene05c_37_book = 
 	{
@@ -29888,7 +29888,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05c_40.vsnd",
 		]
-		vsnd_duration = 5.455080
+		vsnd_duration = 5.45508
 	}
 	vn_geist_scene05c_41_book = 
 	{
@@ -30168,7 +30168,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05d_22.vsnd",
 		]
-		vsnd_duration = 2.865760
+		vsnd_duration = 2.86576
 	}
 	vn_geist_scene05d_23_book = 
 	{
@@ -30188,7 +30188,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05d_24.vsnd",
 		]
-		vsnd_duration = 1.330680
+		vsnd_duration = 1.33068
 	}
 	vn_geist_scene05d_25_book = 
 	{
@@ -30218,7 +30218,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05d_27.vsnd",
 		]
-		vsnd_duration = 2.340680
+		vsnd_duration = 2.34068
 	}
 	vn_geist_scene05d_29_book = 
 	{
@@ -30268,7 +30268,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05d_32.vsnd",
 		]
-		vsnd_duration = 4.617710
+		vsnd_duration = 4.61771
 	}
 	vn_geist_scene05e_01_book = 
 	{
@@ -30348,7 +30348,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05e_08.vsnd",
 		]
-		vsnd_duration = 7.222970
+		vsnd_duration = 7.22297
 	}
 	vn_geist_scene05e_09_book = 
 	{
@@ -30508,7 +30508,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05f_10.vsnd",
 		]
-		vsnd_duration = 5.924150
+		vsnd_duration = 5.92415
 	}
 	vn_geist_scene05f_11_book = 
 	{
@@ -30528,7 +30528,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05f_12.vsnd",
 		]
-		vsnd_duration = 9.510340
+		vsnd_duration = 9.51034
 	}
 	vn_geist_scene05f_13_book = 
 	{
@@ -30578,7 +30578,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05g_02.vsnd",
 		]
-		vsnd_duration = 3.891020
+		vsnd_duration = 3.89102
 	}
 	vn_geist_scene05g_03_book = 
 	{
@@ -30598,7 +30598,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05g_04.vsnd",
 		]
-		vsnd_duration = 2.392880
+		vsnd_duration = 2.39288
 	}
 	vn_geist_scene05g_05_book = 
 	{
@@ -30638,7 +30638,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05g_08.vsnd",
 		]
-		vsnd_duration = 1.194830
+		vsnd_duration = 1.19483
 	}
 	vn_geist_scene05g_09_book = 
 	{
@@ -30668,7 +30668,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05g_12.vsnd",
 		]
-		vsnd_duration = 2.320590
+		vsnd_duration = 2.32059
 	}
 	vn_geist_scene05g_13_book = 
 	{
@@ -30918,7 +30918,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_geist_scene05i_08.vsnd",
 		]
-		vsnd_duration = 1.420000
+		vsnd_duration = 1.42
 	}
 	vn_geist_scene05i_09_book = 
 	{
@@ -31118,7 +31118,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene01_01.vsnd",
 		]
-		vsnd_duration = 2.660000
+		vsnd_duration = 2.66
 	}
 	vn_ivy_scene01_02_book = 
 	{
@@ -31158,7 +31158,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene01_05.vsnd",
 		]
-		vsnd_duration = 4.840000
+		vsnd_duration = 4.84
 	}
 	vn_ivy_scene01_06_book = 
 	{
@@ -31198,7 +31198,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene01_09.vsnd",
 		]
-		vsnd_duration = 2.682290
+		vsnd_duration = 2.68229
 	}
 	vn_ivy_scene01_10_book = 
 	{
@@ -31238,7 +31238,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene01_13.vsnd",
 		]
-		vsnd_duration = 10.402880
+		vsnd_duration = 10.40288
 	}
 	vn_ivy_scene01_14_book = 
 	{
@@ -31248,7 +31248,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene01_14.vsnd",
 		]
-		vsnd_duration = 0.840000
+		vsnd_duration = 0.84
 	}
 	vn_ivy_scene01_15_book = 
 	{
@@ -31278,7 +31278,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene01_17.vsnd",
 		]
-		vsnd_duration = 2.499410
+		vsnd_duration = 2.49941
 	}
 	vn_ivy_scene01_18_book = 
 	{
@@ -31348,7 +31348,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene01_24.vsnd",
 		]
-		vsnd_duration = 3.013900
+		vsnd_duration = 3.0139
 	}
 	vn_ivy_scene01_25_book = 
 	{
@@ -31508,7 +31508,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene02a_24.vsnd",
 		]
-		vsnd_duration = 0.954150
+		vsnd_duration = 0.95415
 	}
 	vn_ivy_scene02b_01_book = 
 	{
@@ -31528,7 +31528,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene02b_02.vsnd",
 		]
-		vsnd_duration = 1.721270
+		vsnd_duration = 1.72127
 	}
 	vn_ivy_scene02b_03_book = 
 	{
@@ -31538,7 +31538,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene02b_03.vsnd",
 		]
-		vsnd_duration = 2.771950
+		vsnd_duration = 2.77195
 	}
 	vn_ivy_scene02b_04_book = 
 	{
@@ -31648,7 +31648,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene02b_14.vsnd",
 		]
-		vsnd_duration = 4.699750
+		vsnd_duration = 4.69975
 	}
 	vn_ivy_scene02b_15_book = 
 	{
@@ -31738,7 +31738,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene02c_02.vsnd",
 		]
-		vsnd_duration = 0.870000
+		vsnd_duration = 0.87
 	}
 	vn_ivy_scene02c_04_book = 
 	{
@@ -31778,7 +31778,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03a_02.vsnd",
 		]
-		vsnd_duration = 1.620000
+		vsnd_duration = 1.62
 	}
 	vn_ivy_scene03a_03_book = 
 	{
@@ -31818,7 +31818,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03a_08.vsnd",
 		]
-		vsnd_duration = 1.592290
+		vsnd_duration = 1.59229
 	}
 	vn_ivy_scene03a_10_book = 
 	{
@@ -31958,7 +31958,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03b_13.vsnd",
 		]
-		vsnd_duration = 1.936780
+		vsnd_duration = 1.93678
 	}
 	vn_ivy_scene03b_15_book = 
 	{
@@ -32098,7 +32098,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03c_12.vsnd",
 		]
-		vsnd_duration = 2.624490
+		vsnd_duration = 2.62449
 	}
 	vn_ivy_scene03c_13_book = 
 	{
@@ -32118,7 +32118,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03c_15.vsnd",
 		]
-		vsnd_duration = 4.698730
+		vsnd_duration = 4.69873
 	}
 	vn_ivy_scene03c_16_book = 
 	{
@@ -32128,7 +32128,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03c_16.vsnd",
 		]
-		vsnd_duration = 2.290000
+		vsnd_duration = 2.29
 	}
 	vn_ivy_scene03c_17_book = 
 	{
@@ -32418,7 +32418,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03d_25.vsnd",
 		]
-		vsnd_duration = 1.316780
+		vsnd_duration = 1.31678
 	}
 	vn_ivy_scene03d_26_book = 
 	{
@@ -32428,7 +32428,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03d_26.vsnd",
 		]
-		vsnd_duration = 1.701270
+		vsnd_duration = 1.70127
 	}
 	vn_ivy_scene03d_27_book = 
 	{
@@ -32478,7 +32478,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03d_31.vsnd",
 		]
-		vsnd_duration = 6.430000
+		vsnd_duration = 6.43
 	}
 	vn_ivy_scene03e_01_book = 
 	{
@@ -32488,7 +32488,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03e_01.vsnd",
 		]
-		vsnd_duration = 1.830000
+		vsnd_duration = 1.83
 	}
 	vn_ivy_scene03e_03_book = 
 	{
@@ -32508,7 +32508,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03e_05.vsnd",
 		]
-		vsnd_duration = 3.070000
+		vsnd_duration = 3.07
 	}
 	vn_ivy_scene03e_07_book = 
 	{
@@ -32588,7 +32588,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene03e_21.vsnd",
 		]
-		vsnd_duration = 1.515850
+		vsnd_duration = 1.51585
 	}
 	vn_ivy_scene03e_30_book = 
 	{
@@ -32738,7 +32738,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene04a_30.vsnd",
 		]
-		vsnd_duration = 3.760340
+		vsnd_duration = 3.76034
 	}
 	vn_ivy_scene04e_01_book = 
 	{
@@ -32788,7 +32788,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene04e_08.vsnd",
 		]
-		vsnd_duration = 1.679410
+		vsnd_duration = 1.67941
 	}
 	vn_ivy_scene04e_09_book = 
 	{
@@ -32868,7 +32868,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene04e_17.vsnd",
 		]
-		vsnd_duration = 1.393560
+		vsnd_duration = 1.39356
 	}
 	vn_ivy_scene04e_18_book = 
 	{
@@ -32888,7 +32888,7 @@
 		[
 			"sounds/vo/book/ivy_arroyo/vn_ivy_scene04e_21.vsnd",
 		]
-		vsnd_duration = 2.927710
+		vsnd_duration = 2.92771
 	}
 	vn_ivy_scene04e_22_book = 
 	{
@@ -32958,7 +32958,7 @@
 		[
 			"sounds/vo/book/oathkeeper/vn_sfx_geist_scene01_dooropen.vsnd",
 		]
-		vsnd_duration = 1.166780
+		vsnd_duration = 1.16678
 	}
 	vn_sfx_geist_scene01_rugmove_book = 
 	{
@@ -33018,7 +33018,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene01_03.vsnd",
 		]
-		vsnd_duration = 2.950000
+		vsnd_duration = 2.95
 	}
 	vn_troubadour_scene01_04_book = 
 	{
@@ -33098,7 +33098,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene01_11.vsnd",
 		]
-		vsnd_duration = 0.984240
+		vsnd_duration = 0.98424
 	}
 	vn_troubadour_scene01_12_book = 
 	{
@@ -33118,7 +33118,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene01_13.vsnd",
 		]
-		vsnd_duration = 0.935760
+		vsnd_duration = 0.93576
 	}
 	vn_troubadour_scene01_14_book = 
 	{
@@ -33158,7 +33158,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene01_21.vsnd",
 		]
-		vsnd_duration = 1.193560
+		vsnd_duration = 1.19356
 	}
 	vn_troubadour_scene01_23_book = 
 	{
@@ -33168,7 +33168,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene01_23.vsnd",
 		]
-		vsnd_duration = 2.212540
+		vsnd_duration = 2.21254
 	}
 	vn_troubadour_scene01_24_book = 
 	{
@@ -33248,7 +33248,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02a_06.vsnd",
 		]
-		vsnd_duration = 0.772880
+		vsnd_duration = 0.77288
 	}
 	vn_troubadour_scene02a_07_book = 
 	{
@@ -33288,7 +33288,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02a_10.vsnd",
 		]
-		vsnd_duration = 0.674150
+		vsnd_duration = 0.67415
 	}
 	vn_troubadour_scene02a_11_book = 
 	{
@@ -33368,7 +33368,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02a_25.vsnd",
 		]
-		vsnd_duration = 1.480000
+		vsnd_duration = 1.48
 	}
 	vn_troubadour_scene02a_26_book = 
 	{
@@ -33458,7 +33458,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02a_38.vsnd",
 		]
-		vsnd_duration = 2.040680
+		vsnd_duration = 2.04068
 	}
 	vn_troubadour_scene02b_01_book = 
 	{
@@ -33488,7 +33488,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02b_03.vsnd",
 		]
-		vsnd_duration = 1.235170
+		vsnd_duration = 1.23517
 	}
 	vn_troubadour_scene02b_04_book = 
 	{
@@ -33578,7 +33578,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02b_12.vsnd",
 		]
-		vsnd_duration = 1.150930
+		vsnd_duration = 1.15093
 	}
 	vn_troubadour_scene02b_13_book = 
 	{
@@ -33608,7 +33608,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02b_15.vsnd",
 		]
-		vsnd_duration = 2.850000
+		vsnd_duration = 2.85
 	}
 	vn_troubadour_scene02b_16_book = 
 	{
@@ -33618,7 +33618,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02b_16.vsnd",
 		]
-		vsnd_duration = 1.690000
+		vsnd_duration = 1.69
 	}
 	vn_troubadour_scene02b_17_book = 
 	{
@@ -33628,7 +33628,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02b_17.vsnd",
 		]
-		vsnd_duration = 1.240000
+		vsnd_duration = 1.24
 	}
 	vn_troubadour_scene02b_18_book = 
 	{
@@ -33638,7 +33638,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02b_18.vsnd",
 		]
-		vsnd_duration = 3.320000
+		vsnd_duration = 3.32
 	}
 	vn_troubadour_scene02b_19_book = 
 	{
@@ -33658,7 +33658,7 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02b_20.vsnd",
 		]
-		vsnd_duration = 2.490000
+		vsnd_duration = 2.49
 	}
 	vn_troubadour_scene02b_21_book = 
 	{
@@ -33668,6 +33668,6 @@
 		[
 			"sounds/vo/book/troubadour/vn_troubadour_scene02b_21.vsnd",
 		]
-		vsnd_duration = 9.280000
+		vsnd_duration = 9.28
 	}
 }

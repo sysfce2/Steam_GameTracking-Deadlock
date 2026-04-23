@@ -48,7 +48,7 @@
 		[
 			"sounds/vo/krill/krill_ally_astro_lasso_victim_01.vsnd",
 		]
-		vsnd_duration = 1.541950
+		vsnd_duration = 1.54195
 	}
 	krill_ally_astro_lasso_victim_02_hero_3d = 
 	{
@@ -68,7 +68,7 @@
 		[
 			"sounds/vo/krill/krill_ally_astro_lasso_victim_03.vsnd",
 		]
-		vsnd_duration = 1.610590
+		vsnd_duration = 1.61059
 	}
 	krill_ally_astro_pass_on_zipline_01_hero_3d = 
 	{
@@ -218,7 +218,7 @@
 		[
 			"sounds/vo/krill/krill_ally_bebop_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.692540
+		vsnd_duration = 1.69254
 	}
 	krill_ally_bebop_uppercut_towards_boss_01_hero_3d = 
 	{
@@ -248,7 +248,7 @@
 		[
 			"sounds/vo/krill/krill_ally_bebop_uppercut_towards_boss_03.vsnd",
 		]
-		vsnd_duration = 2.404490
+		vsnd_duration = 2.40449
 	}
 	krill_ally_bookworm_killed_in_lane_01_hero_3d = 
 	{
@@ -268,7 +268,7 @@
 		[
 			"sounds/vo/krill/krill_ally_cadence_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.956190
+		vsnd_duration = 1.95619
 	}
 	krill_ally_chrono_killed_in_lane_01_hero_3d = 
 	{
@@ -428,7 +428,7 @@
 		[
 			"sounds/vo/krill/krill_ally_dynamo_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.050930
+		vsnd_duration = 2.05093
 	}
 	krill_ally_familiar_killed_in_lane_01_hero_3d = 
 	{
@@ -748,7 +748,7 @@
 		[
 			"sounds/vo/krill/krill_ally_hornet_far_snipe_01.vsnd",
 		]
-		vsnd_duration = 2.780680
+		vsnd_duration = 2.78068
 	}
 	krill_ally_hornet_far_snipe_02_hero_3d = 
 	{
@@ -878,7 +878,7 @@
 		[
 			"sounds/vo/krill/krill_ally_kelvin_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 2.147710
+		vsnd_duration = 2.14771
 	}
 	krill_ally_kelvin_killed_in_lane_01_hero_3d = 
 	{
@@ -1228,7 +1228,7 @@
 		[
 			"sounds/vo/krill/krill_ally_tengu_take_objective_with_teather_02.vsnd",
 		]
-		vsnd_duration = 1.500590
+		vsnd_duration = 1.50059
 	}
 	krill_ally_tengu_take_objective_with_teather_03_hero_3d = 
 	{
@@ -1248,7 +1248,7 @@
 		[
 			"sounds/vo/krill/krill_ally_unicorn_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.444490
+		vsnd_duration = 1.44449
 	}
 	krill_ally_vampirebat_killed_in_lane_01_hero_3d = 
 	{
@@ -1258,7 +1258,7 @@
 		[
 			"sounds/vo/krill/krill_ally_vampirebat_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.103510
+		vsnd_duration = 1.10351
 	}
 	krill_ally_viper_killed_in_lane_01_hero_3d = 
 	{
@@ -1378,7 +1378,7 @@
 		[
 			"sounds/vo/krill/krill_ally_werewolf_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.278490
+		vsnd_duration = 1.27849
 	}
 	krill_ally_wraith_kill_in_lift_01_hero_3d = 
 	{
@@ -1418,7 +1418,7 @@
 		[
 			"sounds/vo/krill/krill_ally_wraith_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.414150
+		vsnd_duration = 1.41415
 	}
 	krill_ally_wraith_pass_on_zipline_01_hero_3d = 
 	{
@@ -1608,7 +1608,7 @@
 		[
 			"sounds/vo/krill/krill_angry_06.vsnd",
 		]
-		vsnd_duration = 2.688390
+		vsnd_duration = 2.68839
 	}
 	krill_angry_06_ult_3d = 
 	{
@@ -1618,7 +1618,7 @@
 		[
 			"sounds/vo/krill/krill_angry_06.vsnd",
 		]
-		vsnd_duration = 2.688390
+		vsnd_duration = 2.68839
 	}
 	krill_angry_07_hero_3d = 
 	{
@@ -1738,7 +1738,7 @@
 		[
 			"sounds/vo/krill/krill_be_careful_01.vsnd",
 		]
-		vsnd_duration = 3.147800
+		vsnd_duration = 3.1478
 	}
 	krill_be_careful_02_hero_3d = 
 	{
@@ -1778,7 +1778,7 @@
 		[
 			"sounds/vo/krill/krill_close_call_02.vsnd",
 		]
-		vsnd_duration = 1.343560
+		vsnd_duration = 1.34356
 	}
 	krill_close_call_03_hero_3d = 
 	{
@@ -1858,7 +1858,7 @@
 		[
 			"sounds/vo/krill/krill_concerned_03.vsnd",
 		]
-		vsnd_duration = 3.015510
+		vsnd_duration = 3.01551
 	}
 	krill_concerned_03_ult_3d = 
 	{
@@ -1868,7 +1868,7 @@
 		[
 			"sounds/vo/krill/krill_concerned_03.vsnd",
 		]
-		vsnd_duration = 3.015510
+		vsnd_duration = 3.01551
 	}
 	krill_concerned_04_hero_3d = 
 	{
@@ -1898,7 +1898,7 @@
 		[
 			"sounds/vo/krill/krill_concerned_05.vsnd",
 		]
-		vsnd_duration = 2.221610
+		vsnd_duration = 2.22161
 	}
 	krill_concerned_05_ult_3d = 
 	{
@@ -1908,7 +1908,7 @@
 		[
 			"sounds/vo/krill/krill_concerned_05.vsnd",
 		]
-		vsnd_duration = 2.221610
+		vsnd_duration = 2.22161
 	}
 	krill_concerned_06_hero_3d = 
 	{
@@ -2108,7 +2108,7 @@
 		[
 			"sounds/vo/krill/krill_desperation_power1_05.vsnd",
 		]
-		vsnd_duration = 2.258390
+		vsnd_duration = 2.25839
 	}
 	krill_desperation_power2_01_ability_3d = 
 	{
@@ -2238,7 +2238,7 @@
 		[
 			"sounds/vo/krill/krill_desperation_power4_02.vsnd",
 		]
-		vsnd_duration = 1.370590
+		vsnd_duration = 1.37059
 	}
 	krill_desperation_power4_02_ult_3d = 
 	{
@@ -2248,7 +2248,7 @@
 		[
 			"sounds/vo/krill/krill_desperation_power4_02.vsnd",
 		]
-		vsnd_duration = 1.370590
+		vsnd_duration = 1.37059
 	}
 	krill_desperation_power4_03_ability_3d = 
 	{
@@ -2458,7 +2458,7 @@
 		[
 			"sounds/vo/krill/emote/krill_effort_dash_08.vsnd",
 		]
-		vsnd_duration = 0.704580
+		vsnd_duration = 0.70458
 	}
 	krill_effort_dash_08_emote_effort_3d = 
 	{
@@ -2468,7 +2468,7 @@
 		[
 			"sounds/vo/krill/emote/krill_effort_dash_08.vsnd",
 		]
-		vsnd_duration = 0.704580
+		vsnd_duration = 0.70458
 	}
 	krill_effort_general_01_emote_effort_3d = 
 	{
@@ -2658,7 +2658,7 @@
 		[
 			"sounds/vo/krill/emote/krill_effort_melee_small_06.vsnd",
 		]
-		vsnd_duration = 0.814240
+		vsnd_duration = 0.81424
 	}
 	krill_effort_melee_small_06_emote_melee_effort_3d = 
 	{
@@ -2668,7 +2668,7 @@
 		[
 			"sounds/vo/krill/emote/krill_effort_melee_small_06.vsnd",
 		]
-		vsnd_duration = 0.814240
+		vsnd_duration = 0.81424
 	}
 	krill_effort_melee_small_07_emote_effort_3d = 
 	{
@@ -2718,7 +2718,7 @@
 		[
 			"sounds/vo/krill/emote/krill_effort_melee_small_09.vsnd",
 		]
-		vsnd_duration = 0.833220
+		vsnd_duration = 0.83322
 	}
 	krill_effort_melee_small_09_emote_melee_effort_3d = 
 	{
@@ -2728,7 +2728,7 @@
 		[
 			"sounds/vo/krill/emote/krill_effort_melee_small_09.vsnd",
 		]
-		vsnd_duration = 0.833220
+		vsnd_duration = 0.83322
 	}
 	krill_end_streak_hero_3d = 
 	{
@@ -2828,7 +2828,7 @@
 		[
 			"sounds/vo/krill/krill_enemy_atlas_unkillable_03.vsnd",
 		]
-		vsnd_duration = 2.047120
+		vsnd_duration = 2.04712
 	}
 	krill_enemy_bebop_hooked_01_hero_3d = 
 	{
@@ -2938,7 +2938,7 @@
 		[
 			"sounds/vo/krill/krill_enemy_dynamo_charges_02.vsnd",
 		]
-		vsnd_duration = 1.775170
+		vsnd_duration = 1.77517
 	}
 	krill_enemy_dynamo_charges_03_hero_3d = 
 	{
@@ -3118,7 +3118,7 @@
 		[
 			"sounds/vo/krill/krill_enemy_hornet_damaged_by_snipe_02.vsnd",
 		]
-		vsnd_duration = 1.863220
+		vsnd_duration = 1.86322
 	}
 	krill_enemy_hornet_damaged_by_snipe_03_hero_3d = 
 	{
@@ -3188,7 +3188,7 @@
 		[
 			"sounds/vo/krill/krill_enemy_inferno_killed_mid_ult_03.vsnd",
 		]
-		vsnd_duration = 2.190930
+		vsnd_duration = 2.19093
 	}
 	krill_enemy_kelvin_kill_on_ice_path_01_hero_3d = 
 	{
@@ -3348,7 +3348,7 @@
 		[
 			"sounds/vo/krill/krill_enemy_warden_see_ult_01.vsnd",
 		]
-		vsnd_duration = 1.180010
+		vsnd_duration = 1.18001
 	}
 	krill_enemy_warden_see_ult_02_hero_3d = 
 	{
@@ -3658,7 +3658,7 @@
 		[
 			"sounds/vo/krill/krill_hunt_03.vsnd",
 		]
-		vsnd_duration = 2.314580
+		vsnd_duration = 2.31458
 	}
 	krill_idol_drop_01_hero_3d = 
 	{
@@ -3668,7 +3668,7 @@
 		[
 			"sounds/vo/krill/krill_idol_drop_01.vsnd",
 		]
-		vsnd_duration = 2.545510
+		vsnd_duration = 2.54551
 	}
 	krill_idol_drop_02_hero_3d = 
 	{
@@ -3738,7 +3738,7 @@
 		[
 			"sounds/vo/krill/krill_idol_drop_08.vsnd",
 		]
-		vsnd_duration = 2.773900
+		vsnd_duration = 2.7739
 	}
 	krill_idol_drop_09_hero_3d = 
 	{
@@ -3788,7 +3788,7 @@
 		[
 			"sounds/vo/krill/krill_interrupt_03.vsnd",
 		]
-		vsnd_duration = 1.756440
+		vsnd_duration = 1.75644
 	}
 	krill_interrupt_04_hero_3d = 
 	{
@@ -3858,7 +3858,7 @@
 		[
 			"sounds/vo/krill/krill_kill_anyhero_05.vsnd",
 		]
-		vsnd_duration = 1.772290
+		vsnd_duration = 1.77229
 	}
 	krill_kill_anyhero_06_hero_3d = 
 	{
@@ -4158,7 +4158,7 @@
 		[
 			"sounds/vo/krill/krill_kill_cadence_05.vsnd",
 		]
-		vsnd_duration = 3.367460
+		vsnd_duration = 3.36746
 	}
 	krill_kill_cadence_06_hero_3d = 
 	{
@@ -4208,7 +4208,7 @@
 		[
 			"sounds/vo/krill/krill_kill_chrono_04.vsnd",
 		]
-		vsnd_duration = 3.248390
+		vsnd_duration = 3.24839
 	}
 	krill_kill_chrono_05_hero_3d = 
 	{
@@ -4318,7 +4318,7 @@
 		[
 			"sounds/vo/krill/krill_kill_drifter_05.vsnd",
 		]
-		vsnd_duration = 3.546750
+		vsnd_duration = 3.54675
 	}
 	krill_kill_dynamo_01_hero_3d = 
 	{
@@ -4438,7 +4438,7 @@
 		[
 			"sounds/vo/krill/krill_kill_fencer_02.vsnd",
 		]
-		vsnd_duration = 3.606010
+		vsnd_duration = 3.60601
 	}
 	krill_kill_fencer_03_hero_3d = 
 	{
@@ -4548,7 +4548,7 @@
 		[
 			"sounds/vo/krill/krill_kill_frank_03.vsnd",
 		]
-		vsnd_duration = 4.124260
+		vsnd_duration = 4.12426
 	}
 	krill_kill_frank_04_hero_3d = 
 	{
@@ -4578,7 +4578,7 @@
 		[
 			"sounds/vo/krill/krill_kill_ghost_01.vsnd",
 		]
-		vsnd_duration = 2.988730
+		vsnd_duration = 2.98873
 	}
 	krill_kill_ghost_02_hero_3d = 
 	{
@@ -4598,7 +4598,7 @@
 		[
 			"sounds/vo/krill/krill_kill_ghost_03.vsnd",
 		]
-		vsnd_duration = 3.977370
+		vsnd_duration = 3.97737
 	}
 	krill_kill_ghost_04_hero_3d = 
 	{
@@ -4608,7 +4608,7 @@
 		[
 			"sounds/vo/krill/krill_kill_ghost_04.vsnd",
 		]
-		vsnd_duration = 2.480930
+		vsnd_duration = 2.48093
 	}
 	krill_kill_ghost_05_hero_3d = 
 	{
@@ -4628,7 +4628,7 @@
 		[
 			"sounds/vo/krill/krill_kill_gigawatt_01.vsnd",
 		]
-		vsnd_duration = 3.054150
+		vsnd_duration = 3.05415
 	}
 	krill_kill_gigawatt_02_hero_3d = 
 	{
@@ -4678,7 +4678,7 @@
 		[
 			"sounds/vo/krill/krill_kill_haze_01.vsnd",
 		]
-		vsnd_duration = 1.510680
+		vsnd_duration = 1.51068
 	}
 	krill_kill_haze_02_hero_3d = 
 	{
@@ -4708,7 +4708,7 @@
 		[
 			"sounds/vo/krill/krill_kill_haze_04.vsnd",
 		]
-		vsnd_duration = 2.637710
+		vsnd_duration = 2.63771
 	}
 	krill_kill_haze_05_hero_3d = 
 	{
@@ -4938,7 +4938,7 @@
 		[
 			"sounds/vo/krill/krill_kill_magician_01.vsnd",
 		]
-		vsnd_duration = 1.566240
+		vsnd_duration = 1.56624
 	}
 	krill_kill_magician_02_hero_3d = 
 	{
@@ -5008,7 +5008,7 @@
 		[
 			"sounds/vo/krill/krill_kill_mirage_03.vsnd",
 		]
-		vsnd_duration = 2.538640
+		vsnd_duration = 2.53864
 	}
 	krill_kill_mirage_04_hero_3d = 
 	{
@@ -5018,7 +5018,7 @@
 		[
 			"sounds/vo/krill/krill_kill_mirage_04.vsnd",
 		]
-		vsnd_duration = 1.857460
+		vsnd_duration = 1.85746
 	}
 	krill_kill_mirage_05_hero_3d = 
 	{
@@ -5098,7 +5098,7 @@
 		[
 			"sounds/vo/krill/krill_kill_necro_01.vsnd",
 		]
-		vsnd_duration = 2.858490
+		vsnd_duration = 2.85849
 	}
 	krill_kill_necro_02_hero_3d = 
 	{
@@ -5168,7 +5168,7 @@
 		[
 			"sounds/vo/krill/krill_kill_orion_03.vsnd",
 		]
-		vsnd_duration = 3.413810
+		vsnd_duration = 3.41381
 	}
 	krill_kill_orion_04_hero_3d = 
 	{
@@ -5388,7 +5388,7 @@
 		[
 			"sounds/vo/krill/krill_kill_synth_04.vsnd",
 		]
-		vsnd_duration = 2.249070
+		vsnd_duration = 2.24907
 	}
 	krill_kill_synth_05_hero_3d = 
 	{
@@ -5478,7 +5478,7 @@
 		[
 			"sounds/vo/krill/krill_kill_tengu_03.vsnd",
 		]
-		vsnd_duration = 1.854830
+		vsnd_duration = 1.85483
 	}
 	krill_kill_tengu_04_hero_3d = 
 	{
@@ -5558,7 +5558,7 @@
 		[
 			"sounds/vo/krill/krill_kill_vampirebat_01.vsnd",
 		]
-		vsnd_duration = 1.405760
+		vsnd_duration = 1.40576
 	}
 	krill_kill_vampirebat_02_hero_3d = 
 	{
@@ -5738,7 +5738,7 @@
 		[
 			"sounds/vo/krill/krill_kill_warden_04.vsnd",
 		]
-		vsnd_duration = 1.484240
+		vsnd_duration = 1.48424
 	}
 	krill_kill_warden_05_hero_3d = 
 	{
@@ -5758,7 +5758,7 @@
 		[
 			"sounds/vo/krill/krill_kill_werewolf_01.vsnd",
 		]
-		vsnd_duration = 1.462260
+		vsnd_duration = 1.46226
 	}
 	krill_kill_werewolf_02_hero_3d = 
 	{
@@ -5898,7 +5898,7 @@
 		[
 			"sounds/vo/krill/krill_kill_wrecker_05.vsnd",
 		]
-		vsnd_duration = 1.818390
+		vsnd_duration = 1.81839
 	}
 	krill_kill_yamato_01_hero_3d = 
 	{
@@ -6558,7 +6558,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_dynamo_krill_convo03_08.vsnd",
 		]
-		vsnd_duration = 6.061610
+		vsnd_duration = 6.06161
 	}
 	krill_match_start_familiar_krill_convo01_02_hero_zipline_3d = 
 	{
@@ -6648,7 +6648,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_ghost_krill_convo01_02.vsnd",
 		]
-		vsnd_duration = 1.537030
+		vsnd_duration = 1.53703
 	}
 	krill_match_start_ghost_krill_convo01_04_hero_zipline_3d = 
 	{
@@ -6708,7 +6708,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_ghost_krill_convo03_05.vsnd",
 		]
-		vsnd_duration = 2.899070
+		vsnd_duration = 2.89907
 	}
 	krill_match_start_gigawatt_krill_convo01_01_hero_zipline_3d = 
 	{
@@ -6798,7 +6798,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_haze_krill_convo01_05.vsnd",
 		]
-		vsnd_duration = 2.126440
+		vsnd_duration = 2.12644
 	}
 	krill_match_start_haze_krill_convo02_01_hero_zipline_3d = 
 	{
@@ -6818,7 +6818,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_haze_krill_convo02_03.vsnd",
 		]
-		vsnd_duration = 3.744830
+		vsnd_duration = 3.74483
 	}
 	krill_match_start_haze_krill_convo03_01_hero_zipline_3d = 
 	{
@@ -6928,7 +6928,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_kelvin_krill_convo01_03.vsnd",
 		]
-		vsnd_duration = 5.610590
+		vsnd_duration = 5.61059
 	}
 	krill_match_start_kelvin_krill_convo01_05_hero_zipline_3d = 
 	{
@@ -6958,7 +6958,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_kelvin_krill_convo03_01.vsnd",
 		]
-		vsnd_duration = 4.110250
+		vsnd_duration = 4.11025
 	}
 	krill_match_start_kelvin_krill_convo03_03_hero_zipline_3d = 
 	{
@@ -7248,7 +7248,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_krill_synth_convo01_04.vsnd",
 		]
-		vsnd_duration = 3.497500
+		vsnd_duration = 3.4975
 	}
 	krill_match_start_krill_synth_convo02_02_hero_zipline_3d = 
 	{
@@ -7258,7 +7258,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_krill_synth_convo02_02.vsnd",
 		]
-		vsnd_duration = 3.330000
+		vsnd_duration = 3.33
 	}
 	krill_match_start_krill_synth_convo02_04_hero_zipline_3d = 
 	{
@@ -7318,7 +7318,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_krill_wraith_convo03_03.vsnd",
 		]
-		vsnd_duration = 7.303220
+		vsnd_duration = 7.30322
 	}
 	krill_match_start_nano_krill_convo01_02_hero_zipline_3d = 
 	{
@@ -7378,7 +7378,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_nano_krill_convo02_06.vsnd",
 		]
-		vsnd_duration = 1.462260
+		vsnd_duration = 1.46226
 	}
 	krill_match_start_nano_krill_convo03_01_hero_zipline_3d = 
 	{
@@ -7508,7 +7508,7 @@
 		[
 			"sounds/vo/krill/krill_match_start_unicorn_krill_convo01_03.vsnd",
 		]
-		vsnd_duration = 1.344260
+		vsnd_duration = 1.34426
 	}
 	krill_match_start_yamato_krill_convo01_02_hero_zipline_3d = 
 	{
@@ -7578,7 +7578,7 @@
 		[
 			"sounds/vo/krill/krill_melee_kill_04.vsnd",
 		]
-		vsnd_duration = 2.803900
+		vsnd_duration = 2.8039
 	}
 	krill_melee_kill_05_hero_3d = 
 	{
@@ -7668,7 +7668,7 @@
 		[
 			"sounds/vo/krill/krill_outnumbered_03.vsnd",
 		]
-		vsnd_duration = 3.205510
+		vsnd_duration = 3.20551
 	}
 	krill_pain_big_01_emote_pain_3d = 
 	{
@@ -7678,7 +7678,7 @@
 		[
 			"sounds/vo/krill/emote/krill_pain_big_01.vsnd",
 		]
-		vsnd_duration = 0.842630
+		vsnd_duration = 0.84263
 	}
 	krill_pain_big_02_emote_pain_3d = 
 	{
@@ -7698,7 +7698,7 @@
 		[
 			"sounds/vo/krill/emote/krill_pain_big_03.vsnd",
 		]
-		vsnd_duration = 0.960590
+		vsnd_duration = 0.96059
 	}
 	krill_pain_big_04_emote_pain_3d = 
 	{
@@ -7748,7 +7748,7 @@
 		[
 			"sounds/vo/krill/emote/krill_pain_big_08.vsnd",
 		]
-		vsnd_duration = 1.067370
+		vsnd_duration = 1.06737
 	}
 	krill_pain_death_01_emote_death_3d = 
 	{
@@ -7838,7 +7838,7 @@
 		[
 			"sounds/vo/krill/emote/krill_pain_death_05.vsnd",
 		]
-		vsnd_duration = 1.265510
+		vsnd_duration = 1.26551
 	}
 	krill_pain_death_05_emote_pain_3d = 
 	{
@@ -7848,7 +7848,7 @@
 		[
 			"sounds/vo/krill/emote/krill_pain_death_05.vsnd",
 		]
-		vsnd_duration = 1.265510
+		vsnd_duration = 1.26551
 	}
 	krill_pain_death_06_emote_death_3d = 
 	{
@@ -7988,7 +7988,7 @@
 		[
 			"sounds/vo/krill/emote/krill_pain_small_06.vsnd",
 		]
-		vsnd_duration = 1.132540
+		vsnd_duration = 1.13254
 	}
 	krill_pain_small_07_emote_pain_3d = 
 	{
@@ -8008,7 +8008,7 @@
 		[
 			"sounds/vo/krill/emote/krill_pain_small_08.vsnd",
 		]
-		vsnd_duration = 0.714150
+		vsnd_duration = 0.71415
 	}
 	krill_pain_small_09_emote_pain_3d = 
 	{
@@ -8108,7 +8108,7 @@
 		[
 			"sounds/vo/krill/krill_pick_up_gold_05.vsnd",
 		]
-		vsnd_duration = 2.931950
+		vsnd_duration = 2.93195
 	}
 	krill_pick_up_rejuv_01_hero_3d = 
 	{
@@ -8168,7 +8168,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_ability2_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.747460
+		vsnd_duration = 1.74746
 	}
 	krill_ping_ability2_not_ready_ping_2d = 
 	{
@@ -8288,7 +8288,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_astro_in_mid.vsnd",
 		]
-		vsnd_duration = 1.536100
+		vsnd_duration = 1.5361
 	}
 	krill_ping_astro_missing_01_ping_2d = 
 	{
@@ -8328,7 +8328,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_astro_under_garage.vsnd",
 		]
-		vsnd_duration = 1.964240
+		vsnd_duration = 1.96424
 	}
 	krill_ping_astro_was_here_ping_2d = 
 	{
@@ -8358,7 +8358,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_atlas_check_items.vsnd",
 		]
-		vsnd_duration = 1.936190
+		vsnd_duration = 1.93619
 	}
 	krill_ping_atlas_dead_ping_2d = 
 	{
@@ -8398,7 +8398,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_atlas_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.318050
+		vsnd_duration = 2.31805
 	}
 	krill_ping_atlas_on_top_of_mid_ping_2d = 
 	{
@@ -8698,7 +8698,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_attack_orion.vsnd",
 		]
-		vsnd_duration = 2.008730
+		vsnd_duration = 2.00873
 	}
 	krill_ping_attack_priest_ping_2d = 
 	{
@@ -8718,7 +8718,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_attack_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.377010
+		vsnd_duration = 1.37701
 	}
 	krill_ping_attack_shiv_ping_2d = 
 	{
@@ -8858,7 +8858,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_be_back_soon.vsnd",
 		]
-		vsnd_duration = 1.216100
+		vsnd_duration = 1.2161
 	}
 	krill_ping_bebop_almost_respawn_ping_2d = 
 	{
@@ -8878,7 +8878,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_bebop_check_items.vsnd",
 		]
-		vsnd_duration = 1.889410
+		vsnd_duration = 1.88941
 	}
 	krill_ping_bebop_dead_ping_2d = 
 	{
@@ -8978,7 +8978,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_bookworm_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.328250
+		vsnd_duration = 1.32825
 	}
 	krill_ping_bookworm_check_items_ping_2d = 
 	{
@@ -9288,7 +9288,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_can_heal_kelvin.vsnd",
 		]
-		vsnd_duration = 1.878050
+		vsnd_duration = 1.87805
 	}
 	krill_ping_can_heal_lash_ping_2d = 
 	{
@@ -9438,7 +9438,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_can_heal_warden.vsnd",
 		]
-		vsnd_duration = 1.808980
+		vsnd_duration = 1.80898
 	}
 	krill_ping_can_heal_werewolf_ping_2d = 
 	{
@@ -9488,7 +9488,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_astro_01.vsnd",
 		]
-		vsnd_duration = 1.506190
+		vsnd_duration = 1.50619
 	}
 	krill_ping_careful_astro_02_ping_2d = 
 	{
@@ -9508,7 +9508,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_astro_03.vsnd",
 		]
-		vsnd_duration = 1.524150
+		vsnd_duration = 1.52415
 	}
 	krill_ping_careful_atlas_01_ping_2d = 
 	{
@@ -9648,7 +9648,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_chrono_02.vsnd",
 		]
-		vsnd_duration = 1.589410
+		vsnd_duration = 1.58941
 	}
 	krill_ping_careful_chrono_03_ping_2d = 
 	{
@@ -9718,7 +9718,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_drifter_03.vsnd",
 		]
-		vsnd_duration = 1.076990
+		vsnd_duration = 1.07699
 	}
 	krill_ping_careful_dynamo_01_ping_2d = 
 	{
@@ -9778,7 +9778,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_forge_01.vsnd",
 		]
-		vsnd_duration = 1.627460
+		vsnd_duration = 1.62746
 	}
 	krill_ping_careful_forge_02_ping_2d = 
 	{
@@ -9838,7 +9838,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_ghost_01.vsnd",
 		]
-		vsnd_duration = 1.555510
+		vsnd_duration = 1.55551
 	}
 	krill_ping_careful_ghost_02_ping_2d = 
 	{
@@ -9898,7 +9898,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_haze_01.vsnd",
 		]
-		vsnd_duration = 1.554240
+		vsnd_duration = 1.55424
 	}
 	krill_ping_careful_haze_02_ping_2d = 
 	{
@@ -10018,7 +10018,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_lash_01.vsnd",
 		]
-		vsnd_duration = 1.474150
+		vsnd_duration = 1.47415
 	}
 	krill_ping_careful_lash_02_ping_2d = 
 	{
@@ -10058,7 +10058,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_magician_02.vsnd",
 		]
-		vsnd_duration = 1.157250
+		vsnd_duration = 1.15725
 	}
 	krill_ping_careful_magician_03_ping_2d = 
 	{
@@ -10068,7 +10068,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_magician_03.vsnd",
 		]
-		vsnd_duration = 1.158000
+		vsnd_duration = 1.158
 	}
 	krill_ping_careful_mirage_01_ping_2d = 
 	{
@@ -10098,7 +10098,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_mirage_03.vsnd",
 		]
-		vsnd_duration = 1.520000
+		vsnd_duration = 1.52
 	}
 	krill_ping_careful_nano_01_ping_2d = 
 	{
@@ -10108,7 +10108,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_nano_01.vsnd",
 		]
-		vsnd_duration = 1.900590
+		vsnd_duration = 1.90059
 	}
 	krill_ping_careful_nano_02_ping_2d = 
 	{
@@ -10138,7 +10138,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_necro_01.vsnd",
 		]
-		vsnd_duration = 1.029750
+		vsnd_duration = 1.02975
 	}
 	krill_ping_careful_necro_02_ping_2d = 
 	{
@@ -10258,7 +10258,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_shiv_01.vsnd",
 		]
-		vsnd_duration = 1.502290
+		vsnd_duration = 1.50229
 	}
 	krill_ping_careful_shiv_02_ping_2d = 
 	{
@@ -10548,7 +10548,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_careful_wrecker_03.vsnd",
 		]
-		vsnd_duration = 1.361950
+		vsnd_duration = 1.36195
 	}
 	krill_ping_careful_yamato_01_ping_2d = 
 	{
@@ -10608,7 +10608,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_chrono_dead.vsnd",
 		]
-		vsnd_duration = 1.807460
+		vsnd_duration = 1.80746
 	}
 	krill_ping_chrono_in_mid_ping_2d = 
 	{
@@ -10728,7 +10728,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_defend_green_01.vsnd",
 		]
-		vsnd_duration = 1.454150
+		vsnd_duration = 1.45415
 	}
 	krill_ping_defend_green_02_ping_2d = 
 	{
@@ -10758,7 +10758,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_defend_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.304580
+		vsnd_duration = 1.30458
 	}
 	krill_ping_doorman_almost_respawn_ping_2d = 
 	{
@@ -10768,7 +10768,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_doorman_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.648240
+		vsnd_duration = 1.64824
 	}
 	krill_ping_doorman_check_items_ping_2d = 
 	{
@@ -10798,7 +10798,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_doorman_in_mid.vsnd",
 		]
-		vsnd_duration = 1.065240
+		vsnd_duration = 1.06524
 	}
 	krill_ping_doorman_missing_01_ping_2d = 
 	{
@@ -10878,7 +10878,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_drifter_dead.vsnd",
 		]
-		vsnd_duration = 1.166740
+		vsnd_duration = 1.16674
 	}
 	krill_ping_drifter_in_mid_ping_2d = 
 	{
@@ -10908,7 +10908,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_drifter_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.614750
+		vsnd_duration = 1.61475
 	}
 	krill_ping_drifter_on_top_of_mid_ping_2d = 
 	{
@@ -11088,7 +11088,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_forge_check_items.vsnd",
 		]
-		vsnd_duration = 1.967710
+		vsnd_duration = 1.96771
 	}
 	krill_ping_forge_dead_ping_2d = 
 	{
@@ -11188,7 +11188,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_frank_dead.vsnd",
 		]
-		vsnd_duration = 1.190240
+		vsnd_duration = 1.19024
 	}
 	krill_ping_frank_in_mid_ping_2d = 
 	{
@@ -11218,7 +11218,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_frank_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.541260
+		vsnd_duration = 1.54126
 	}
 	krill_ping_frank_on_top_of_mid_ping_2d = 
 	{
@@ -11248,7 +11248,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_frank_was_here.vsnd",
 		]
-		vsnd_duration = 1.070313
+		vsnd_duration = 1.070312
 	}
 	krill_ping_gank_ping_2d = 
 	{
@@ -11318,7 +11318,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_ghost_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.095170
+		vsnd_duration = 2.09517
 	}
 	krill_ping_ghost_on_top_of_mid_ping_2d = 
 	{
@@ -11458,7 +11458,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_glitch_not_ready.vsnd",
 		]
-		vsnd_duration = 1.822880
+		vsnd_duration = 1.82288
 	}
 	krill_ping_going_in_01_ping_2d = 
 	{
@@ -11548,7 +11548,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_green_help_02.vsnd",
 		]
-		vsnd_duration = 1.570340
+		vsnd_duration = 1.57034
 	}
 	krill_ping_haze_almost_respawn_ping_2d = 
 	{
@@ -11568,7 +11568,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_haze_check_items.vsnd",
 		]
-		vsnd_duration = 1.932200
+		vsnd_duration = 1.9322
 	}
 	krill_ping_haze_dead_ping_2d = 
 	{
@@ -11668,7 +11668,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_headed_green_01.vsnd",
 		]
-		vsnd_duration = 1.375760
+		vsnd_duration = 1.37576
 	}
 	krill_ping_headed_green_02_ping_2d = 
 	{
@@ -11688,7 +11688,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_headed_this_way.vsnd",
 		]
-		vsnd_duration = 1.258730
+		vsnd_duration = 1.25873
 	}
 	krill_ping_headed_yellow_01_ping_2d = 
 	{
@@ -11798,7 +11798,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_hornet_missing_01.vsnd",
 		]
-		vsnd_duration = 1.887710
+		vsnd_duration = 1.88771
 	}
 	krill_ping_hornet_on_top_of_garage_ping_2d = 
 	{
@@ -11998,7 +11998,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_ignore_kelvin.vsnd",
 		]
-		vsnd_duration = 1.670680
+		vsnd_duration = 1.67068
 	}
 	krill_ping_ignore_lash_ping_2d = 
 	{
@@ -12138,7 +12138,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_ignore_viscous.vsnd",
 		]
-		vsnd_duration = 1.867800
+		vsnd_duration = 1.8678
 	}
 	krill_ping_ignore_warden_ping_2d = 
 	{
@@ -12198,7 +12198,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_inferno_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.020340
+		vsnd_duration = 2.02034
 	}
 	krill_ping_inferno_check_items_ping_2d = 
 	{
@@ -12238,7 +12238,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_inferno_missing_01.vsnd",
 		]
-		vsnd_duration = 1.827120
+		vsnd_duration = 1.82712
 	}
 	krill_ping_inferno_on_top_of_garage_ping_2d = 
 	{
@@ -12388,7 +12388,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_kelvin_under_garage.vsnd",
 		]
-		vsnd_duration = 2.053810
+		vsnd_duration = 2.05381
 	}
 	krill_ping_kelvin_was_here_ping_2d = 
 	{
@@ -12418,7 +12418,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_kncokdown_not_ready.vsnd",
 		]
-		vsnd_duration = 2.051020
+		vsnd_duration = 2.05102
 	}
 	krill_ping_lash_almost_respawn_ping_2d = 
 	{
@@ -12658,7 +12658,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_magician_in_mid.vsnd",
 		]
-		vsnd_duration = 1.282250
+		vsnd_duration = 1.28225
 	}
 	krill_ping_magician_missing_01_ping_2d = 
 	{
@@ -12898,7 +12898,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_nano_dead.vsnd",
 		]
-		vsnd_duration = 1.554490
+		vsnd_duration = 1.55449
 	}
 	krill_ping_nano_in_mid_ping_2d = 
 	{
@@ -13138,7 +13138,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_need_plan.vsnd",
 		]
-		vsnd_duration = 1.306100
+		vsnd_duration = 1.3061
 	}
 	krill_ping_negative_01_ping_2d = 
 	{
@@ -13458,7 +13458,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_priest_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.553250
+		vsnd_duration = 1.55325
 	}
 	krill_ping_priest_check_items_ping_2d = 
 	{
@@ -13528,7 +13528,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_priest_under_garage.vsnd",
 		]
-		vsnd_duration = 1.546260
+		vsnd_duration = 1.54626
 	}
 	krill_ping_priest_was_here_ping_2d = 
 	{
@@ -13608,7 +13608,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_punkgoat_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.239760
+		vsnd_duration = 1.23976
 	}
 	krill_ping_punkgoat_under_garage_ping_2d = 
 	{
@@ -13628,7 +13628,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_punkgoat_was_here.vsnd",
 		]
-		vsnd_duration = 0.982000
+		vsnd_duration = 0.982
 	}
 	krill_ping_push_blue_01_ping_2d = 
 	{
@@ -13688,7 +13688,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_push_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.633900
+		vsnd_duration = 1.6339
 	}
 	krill_ping_refresher_almost_ready_ping_2d = 
 	{
@@ -13738,7 +13738,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_retreat_02.vsnd",
 		]
-		vsnd_duration = 1.834150
+		vsnd_duration = 1.83415
 	}
 	krill_ping_retreat_ping_2d = 
 	{
@@ -13828,7 +13828,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_saw_bookworm.vsnd",
 		]
-		vsnd_duration = 1.108510
+		vsnd_duration = 1.10851
 	}
 	krill_ping_saw_cadence_ping_2d = 
 	{
@@ -13988,7 +13988,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_saw_mirage.vsnd",
 		]
-		vsnd_duration = 1.657370
+		vsnd_duration = 1.65737
 	}
 	krill_ping_saw_nano_ping_2d = 
 	{
@@ -14008,7 +14008,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_saw_necro.vsnd",
 		]
-		vsnd_duration = 1.176510
+		vsnd_duration = 1.17651
 	}
 	krill_ping_saw_orion_ping_2d = 
 	{
@@ -14168,7 +14168,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_see_astro_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.773810
+		vsnd_duration = 1.77381
 	}
 	krill_ping_see_astro_on_roof_ping_2d = 
 	{
@@ -14438,7 +14438,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_see_dynamo_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.617800
+		vsnd_duration = 1.6178
 	}
 	krill_ping_see_dynamo_on_roof_ping_2d = 
 	{
@@ -14488,7 +14488,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_see_enemy.vsnd",
 		]
-		vsnd_duration = 1.336440
+		vsnd_duration = 1.33644
 	}
 	krill_ping_see_familiar_01_ping_2d = 
 	{
@@ -14538,7 +14538,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_see_forge.vsnd",
 		]
-		vsnd_duration = 1.773560
+		vsnd_duration = 1.77356
 	}
 	krill_ping_see_frank_01_ping_2d = 
 	{
@@ -14558,7 +14558,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_see_frank_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.232490
+		vsnd_duration = 1.23249
 	}
 	krill_ping_see_frank_on_roof_ping_2d = 
 	{
@@ -14568,7 +14568,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_see_frank_on_roof.vsnd",
 		]
-		vsnd_duration = 1.140740
+		vsnd_duration = 1.14074
 	}
 	krill_ping_see_ghost_01_ping_2d = 
 	{
@@ -14818,7 +14818,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_see_magician_01.vsnd",
 		]
-		vsnd_duration = 1.253760
+		vsnd_duration = 1.25376
 	}
 	krill_ping_see_magician_on_bridge_ping_2d = 
 	{
@@ -14878,7 +14878,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_see_nano_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.740680
+		vsnd_duration = 1.74068
 	}
 	krill_ping_see_nano_on_roof_ping_2d = 
 	{
@@ -15418,7 +15418,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_shiv_dead.vsnd",
 		]
-		vsnd_duration = 1.735510
+		vsnd_duration = 1.73551
 	}
 	krill_ping_shiv_in_mid_ping_2d = 
 	{
@@ -15438,7 +15438,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_shiv_missing_01.vsnd",
 		]
-		vsnd_duration = 1.417460
+		vsnd_duration = 1.41746
 	}
 	krill_ping_shiv_on_top_of_garage_ping_2d = 
 	{
@@ -15888,7 +15888,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_stun_werewolf_01.vsnd",
 		]
-		vsnd_duration = 1.119510
+		vsnd_duration = 1.11951
 	}
 	krill_ping_stun_wraith_01_ping_2d = 
 	{
@@ -16018,7 +16018,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_t1_under_attack.vsnd",
 		]
-		vsnd_duration = 1.745510
+		vsnd_duration = 1.74551
 	}
 	krill_ping_t2_under_attack_ping_2d = 
 	{
@@ -16108,7 +16108,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_tengu_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.048730
+		vsnd_duration = 2.04873
 	}
 	krill_ping_tengu_on_top_of_mid_ping_2d = 
 	{
@@ -16238,7 +16238,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_use_ability2.vsnd",
 		]
-		vsnd_duration = 1.453560
+		vsnd_duration = 1.45356
 	}
 	krill_ping_use_ability3_ping_2d = 
 	{
@@ -16418,7 +16418,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_use_silence.vsnd",
 		]
-		vsnd_duration = 2.160930
+		vsnd_duration = 2.16093
 	}
 	krill_ping_use_stim_pack_ping_2d = 
 	{
@@ -16438,7 +16438,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_use_warp_stone.vsnd",
 		]
-		vsnd_duration = 2.180000
+		vsnd_duration = 2.18
 	}
 	krill_ping_vampirebat_almost_respawn_ping_2d = 
 	{
@@ -16458,7 +16458,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_vampirebat_check_items.vsnd",
 		]
-		vsnd_duration = 1.336500
+		vsnd_duration = 1.3365
 	}
 	krill_ping_vampirebat_dead_ping_2d = 
 	{
@@ -16488,7 +16488,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_vampirebat_missing_01.vsnd",
 		]
-		vsnd_duration = 1.190740
+		vsnd_duration = 1.19074
 	}
 	krill_ping_vampirebat_on_top_of_garage_ping_2d = 
 	{
@@ -16638,7 +16638,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_viscous_check_items.vsnd",
 		]
-		vsnd_duration = 2.100250
+		vsnd_duration = 2.10025
 	}
 	krill_ping_viscous_dead_ping_2d = 
 	{
@@ -16748,7 +16748,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_warden_dead.vsnd",
 		]
-		vsnd_duration = 1.658980
+		vsnd_duration = 1.65898
 	}
 	krill_ping_warden_in_mid_ping_2d = 
 	{
@@ -16828,7 +16828,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_warp_stone_not_ready.vsnd",
 		]
-		vsnd_duration = 1.992540
+		vsnd_duration = 1.99254
 	}
 	krill_ping_welcome_ping_2d = 
 	{
@@ -16918,7 +16918,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_werewolf_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.401260
+		vsnd_duration = 1.40126
 	}
 	krill_ping_werewolf_under_garage_ping_2d = 
 	{
@@ -16988,7 +16988,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_with_cadence.vsnd",
 		]
-		vsnd_duration = 1.630000
+		vsnd_duration = 1.63
 	}
 	krill_ping_with_chrono_ping_2d = 
 	{
@@ -17038,7 +17038,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_with_forge.vsnd",
 		]
-		vsnd_duration = 1.742970
+		vsnd_duration = 1.74297
 	}
 	krill_ping_with_frank_ping_2d = 
 	{
@@ -17088,7 +17088,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_with_hornet.vsnd",
 		]
-		vsnd_duration = 1.584490
+		vsnd_duration = 1.58449
 	}
 	krill_ping_with_inferno_ping_2d = 
 	{
@@ -17168,7 +17168,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_with_orion.vsnd",
 		]
-		vsnd_duration = 1.638730
+		vsnd_duration = 1.63873
 	}
 	krill_ping_with_priest_ping_2d = 
 	{
@@ -17328,7 +17328,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_wraith_dead.vsnd",
 		]
-		vsnd_duration = 1.580680
+		vsnd_duration = 1.58068
 	}
 	krill_ping_wraith_in_mid_ping_2d = 
 	{
@@ -17418,7 +17418,7 @@
 		[
 			"sounds/vo/krill/ping/krill_ping_wrecker_dead.vsnd",
 		]
-		vsnd_duration = 1.724240
+		vsnd_duration = 1.72424
 	}
 	krill_ping_wrecker_in_mid_ping_2d = 
 	{
@@ -17968,7 +17968,7 @@
 		[
 			"sounds/vo/krill/krill_t3_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 2.537120
+		vsnd_duration = 2.53712
 	}
 	krill_t3_shop_reminder_03_hero_3d = 
 	{
@@ -18038,7 +18038,7 @@
 		[
 			"sounds/vo/krill/krill_tower_got_denied_03.vsnd",
 		]
-		vsnd_duration = 3.143250
+		vsnd_duration = 3.14325
 	}
 	krill_tower_got_denied_04_hero_3d = 
 	{
@@ -18188,7 +18188,7 @@
 		[
 			"sounds/vo/krill/krill_upgrade_power1_03.vsnd",
 		]
-		vsnd_duration = 2.390930
+		vsnd_duration = 2.39093
 	}
 	krill_upgrade_power1_04_hero_3d = 
 	{
@@ -18398,7 +18398,7 @@
 		[
 			"sounds/vo/krill/krill_upgrade_power3_04.vsnd",
 		]
-		vsnd_duration = 3.263560
+		vsnd_duration = 3.26356
 	}
 	krill_upgrade_power3_05_hero_3d = 
 	{
@@ -18458,7 +18458,7 @@
 		[
 			"sounds/vo/krill/krill_upgrade_power3_10.vsnd",
 		]
-		vsnd_duration = 2.699070
+		vsnd_duration = 2.69907
 	}
 	krill_upgrade_power4_01_hero_3d = 
 	{
@@ -18598,7 +18598,7 @@
 		[
 			"sounds/vo/krill/krill_use_colossus_01.vsnd",
 		]
-		vsnd_duration = 1.680590
+		vsnd_duration = 1.68059
 	}
 	krill_use_colossus_02_ability_3d = 
 	{
@@ -18618,7 +18618,7 @@
 		[
 			"sounds/vo/krill/krill_use_colossus_03.vsnd",
 		]
-		vsnd_duration = 2.327370
+		vsnd_duration = 2.32737
 	}
 	krill_use_curse_01_ability_3d = 
 	{
@@ -18648,7 +18648,7 @@
 		[
 			"sounds/vo/krill/krill_use_curse_03.vsnd",
 		]
-		vsnd_duration = 3.082540
+		vsnd_duration = 3.08254
 	}
 	krill_use_decay_01_ability_3d = 
 	{
@@ -18678,7 +18678,7 @@
 		[
 			"sounds/vo/krill/krill_use_decay_03.vsnd",
 		]
-		vsnd_duration = 2.649750
+		vsnd_duration = 2.64975
 	}
 	krill_use_echo_shard_01_ability_3d = 
 	{
@@ -18718,7 +18718,7 @@
 		[
 			"sounds/vo/krill/krill_use_ice_blast_01.vsnd",
 		]
-		vsnd_duration = 1.429660
+		vsnd_duration = 1.42966
 	}
 	krill_use_ice_blast_02_ability_3d = 
 	{
@@ -18808,7 +18808,7 @@
 		[
 			"sounds/vo/krill/krill_use_power1_01.vsnd",
 		]
-		vsnd_duration = 1.608390
+		vsnd_duration = 1.60839
 	}
 	krill_use_power1_02_ability_3d = 
 	{
@@ -19038,7 +19038,7 @@
 		[
 			"sounds/vo/krill/krill_use_power3_04.vsnd",
 		]
-		vsnd_duration = 1.646100
+		vsnd_duration = 1.6461
 	}
 	krill_use_power3_05_ability_3d = 
 	{
@@ -19048,7 +19048,7 @@
 		[
 			"sounds/vo/krill/krill_use_power3_05.vsnd",
 		]
-		vsnd_duration = 1.796100
+		vsnd_duration = 1.7961
 	}
 	krill_use_power3_06_ability_3d = 
 	{
@@ -19078,7 +19078,7 @@
 		[
 			"sounds/vo/krill/krill_use_power3_08.vsnd",
 		]
-		vsnd_duration = 2.034490
+		vsnd_duration = 2.03449
 	}
 	krill_use_power3_09_ability_3d = 
 	{
@@ -19408,7 +19408,7 @@
 		[
 			"sounds/vo/krill/krill_use_shadow_weave_01.vsnd",
 		]
-		vsnd_duration = 1.815170
+		vsnd_duration = 1.81517
 	}
 	krill_use_shadow_weave_02_ability_3d = 
 	{

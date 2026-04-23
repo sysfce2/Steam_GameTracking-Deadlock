@@ -3,9 +3,9 @@
 	Slork.Wpn.Fire = 
 	{
 		base = "Base.Weapon"
-		volume = 3.000000
-		limiter_max = 0.000000
-		volume_fade_out = 0.100000
+		volume = 3.0
+		limiter_max = 0.0
+		volume_fade_out = 0.1
 		vsnd_files = 
 		[
 			"sounds/weapons/pocket/pocket_weapon_fire_01.vsnd",
@@ -15,13 +15,13 @@
 			"sounds/weapons/pocket/pocket_weapon_fire_05.vsnd",
 			"sounds/weapons/pocket/pocket_weapon_fire_06.vsnd",
 		]
-		vsnd_duration = 2.632290
+		vsnd_duration = 2.63229
 	}
 	Slork.Wpn.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		limiter_max = 1.000000
-		volume = -6.000000
+		limiter_max = 1.0
+		volume = -6.0
 		limiter_stop_oldest = false
 		vsnd_files = 
 		[
@@ -57,27 +57,27 @@
 	Slork.Wpn.Reload.Clip.Out = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -10.000000
+		volume = -10.0
 		vsnd_files = "sounds/weapons/abrams/reload/clip_out.vsnd"
 		vsnd_duration = 0.608813
 	}
 	Slork.Wpn.Reload.Clip.In = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = "sounds/weapons/abrams/reload/clip_in.vsnd"
 		vsnd_duration = 1.039146
 	}
 	Slork.Reload.ClipOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/weapons/slork/reload/clip_in.vsnd"
 	}
 	Slork.Reload.ClipIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/weapons/slork/reload/clip_in.vsnd"
 	}
 	Slork.Wpn.Zoom.In = 
@@ -89,45 +89,45 @@
 	Slork.Wpn.Zoom.Out = 
 	{
 		base = "Base.Weapon.Foley"
-		pitch = 1.200000
+		pitch = 1.2
 		vsnd_files = "sounds/weapons/orion/zoom/out.vsnd"
 		vsnd_duration = 0.494687
 	}
 	Slork.A1.Scald.PreCast = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		pitch = 1.200000
+		volume = -6.0
+		pitch = 1.2
 		vsnd_files = "sounds/abilities/slork/a1_scald/pre_cast.vsnd"
 	}
 	Slork.A1.Scald.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
-		pitch = 0.900000
+		volume = -3.0
+		pitch = 0.9
 		vsnd_files = "sounds/abilities/fathom/a1/fathom_a1_cast.vsnd"
 		vsnd_duration = 2.337982
 	}
 	Slork.Invis.Modifier.Start = 
 	{
 		base = "Base.Ability"
-		volume = -15.000000
+		volume = -15.0
 		vsnd_files = "sounds/abilities/haze/a2_smoke_bomb/mod_start_lyr2.vsnd"
 		vsnd_duration = 1.827479
 	}
 	Slork.Invis.Modifier.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -17.000000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.200000
+		volume = -17.0
+		volume_fade_in = 0.5
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/haze/a2_smoke_bomb/mod_dur_lp_1.vsnd"
 		vsnd_duration = 9.840208
 	}
 	Fathom.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -3.000000
+		track_1.vsnd_track_vol_offset_db = -3.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/fathom/fathom_footstep_wet_01.vsnd",
@@ -158,8 +158,8 @@
 	Fathom.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 0.000000
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		volume = 0.0
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/fathom/fathom_footstep_wet_01.vsnd",
@@ -202,22 +202,22 @@
 	Fathom.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Fathom.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -8.000000
+		volume = -8.0
 	}
 	Fathom.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Fathom.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -262,7 +262,7 @@
 	Fathom.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",
@@ -308,120 +308,120 @@
 	Slork.A1.Scald.Ambient.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -12.000000
-		pitch = 1.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.300000
+		volume = -12.0
+		pitch = 1.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.3
 		vsnd_files = "sounds/abilities/fathom/a1/fathom_a1_ambient_lp.vsnd"
 		vsnd_duration = 2.983923
 	}
 	Slork.A1.Scald.Target.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 4.000000
-		volume_offset_opponent = 2.000000
-		pitch = 1.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.170000
-		limiter_on = 1.000000
-		limiter_max = 2.000000
+		volume = 4.0
+		volume_offset_opponent = 2.0
+		pitch = 1.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.17
+		limiter_on = 1.0
+		limiter_max = 2.0
 		limiter_stop_oldest = false
-		delay_rand_min = -2.000000
-		delay_rand_max = 0.000000
+		delay_rand_min = -2.0
+		delay_rand_max = 0.0
 		vsnd_files = "sounds/abilities/fathom/a1/fathom_a1_target_lp.vsnd"
-		vsnd_duration = 4.405760
+		vsnd_duration = 4.40576
 	}
 	Slork.A1.Scald.Target.End = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		limiter_on = 1.000000
+		volume = 0.0
+		limiter_on = 1.0
 		vsnd_files = "sounds/abilities/fathom/a1/fathom_a1_target_end.vsnd"
 		vsnd_duration = 2.289614
 	}
 	Slork.A1.Scald.Ambient.End = 
 	{
 		base = "Base.Ability"
-		volume = -14.000000
-		pitch = 1.100000
+		volume = -14.0
+		pitch = 1.1
 		vsnd_files = "sounds/abilities/fathom/a1/fathom_a1_ambient_end.vsnd"
 		vsnd_duration = 2.785352
 	}
 	Slork.A2.Breach.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
-		volume_offset_opponent = 3.000000
-		volume_enemy_targeting_boost = 1.000000
+		volume = 1.0
+		volume_offset_opponent = 3.0
+		volume_enemy_targeting_boost = 1.0
 		vsnd_files = "sounds/abilities/fathom/a2/fathom_a2_cast.vsnd"
 		vsnd_duration = 2.276485
 	}
 	Slork.A2.Breach.Impact = 
 	{
 		base = "Base.Ability"
-		volume = 1.500000
+		volume = 1.5
 		vsnd_files = "sounds/abilities/fathom/a2/fathom_a2_impact.vsnd"
 		vsnd_duration = 2.091224
 	}
 	Slork.A3.Harpoon.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = "sounds/abilities/fathom/a3/fathom_a3_harpoon_cast.vsnd"
 		vsnd_duration = 1.974376
 	}
 	Slork.A3.Harpoon.Impact = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/fathom/a3/fathom_a3_harpoon_impact.vsnd"
 		vsnd_duration = 1.301157
 	}
 	Slork.A3.Harpoon.Projectile.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 0.000000
-		volume_fade_in = 0.050000
-		volume_fade_out = 0.500000
-		delay_rand_min = -0.700000
-		delay_rand_max = 0.000000
+		volume = 0.0
+		volume_fade_in = 0.05
+		volume_fade_out = 0.5
+		delay_rand_min = -0.7
+		delay_rand_max = 0.0
 		vsnd_files = "sounds/abilities/fathom/a3/fathom_a3_harpoon_projectile_lp.vsnd"
 		vsnd_duration = 1.563673
 	}
 	Slork.A3.Harpoon.Swap = 
 	{
 		base = "Base.Ability"
-		volume = -3.500000
-		pitch = 0.900000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = -3.5
+		pitch = 0.9
+		limiter_on = 1.0
+		limiter_max = 0.0
 		vsnd_files = "sounds/abilities/fathom/a3/fathom_a3_harpoon_swap.vsnd"
 		vsnd_duration = 1.837619
 	}
 	Slork.A4.Ambush.Channel = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/fathom/a4/fathom_a4_ambush_channel_start.vsnd"
-		vsnd_duration = 3.951610
+		vsnd_duration = 3.95161
 	}
 	Slork.A4.Ambush.Channel.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -4.000000
-		volume_fade_in = 0.050000
-		volume_fade_out = 0.200000
+		volume = -4.0
+		volume_fade_in = 0.05
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/fathom/a4/fathom_a4_ambush_channel_lp.vsnd"
-		vsnd_duration = 4.423470
+		vsnd_duration = 4.42347
 	}
 	Slork.A4.Ambush.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -3.000000
-		pitch_rand_max = 0.200000
-		pitch_rand_min = -0.200000
-		limiter_on = 1.000000
-		limiter_max = 2.000000
+		volume = -3.0
+		pitch_rand_max = 0.2
+		pitch_rand_min = -0.2
+		limiter_on = 1.0
+		limiter_max = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/fathom/a4/fathom_a4_ambush_impact_01.vsnd",
@@ -433,8 +433,8 @@
 	Slork.A4.Ambush.Fire = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
-		limiter_max = 0.000000
+		volume = -2.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/fathom/a4/fathom_a4_ambush_fire_01.vsnd",

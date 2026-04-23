@@ -3,11 +3,11 @@
 	Doorman.Wpn.Fire.Main = 
 	{
 		base = "Base.Weapon.Pistol"
-		volume = 4.000000
-		volume_fade_out = 0.250000
-		tail_vol_offset_db = -2.000000
-		last_shot_vol_offset_db = 2.000000
-		low_ammo_threshold = 4.000000
+		volume = 4.0
+		volume_fade_out = 0.25
+		tail_vol_offset_db = -2.0
+		last_shot_vol_offset_db = 2.0
+		low_ammo_threshold = 4.0
 		vsnd_files = 
 		[
 			"sounds/weapons/doorman/doorman_wpn_fire_01.vsnd",
@@ -46,8 +46,8 @@
 	Doorman.Wpn.Fire.First = 
 	{
 		base = "Doorman.Wpn.Fire.Main"
-		transient_offset_db = 4.000000
-		limiter_max = 0.000000
+		transient_offset_db = 4.0
+		limiter_max = 0.0
 	}
 	Doorman.Wpn.Whizby = 
 	{
@@ -60,22 +60,22 @@
 	Doorman.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -19.000000
+		volume = -19.0
 		vsnd_files = "sounds/weapons/astro/zoom/in.vsnd"
 		vsnd_duration = 1.323604
 	}
 	Doorman.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -21.000000
+		volume = -21.0
 		vsnd_files = "sounds/weapons/astro/zoom/out.vsnd"
 		vsnd_duration = 1.829146
 	}
 	Doorman.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/doorman/reload/doorman_wpn_reload_start_01.vsnd",
@@ -87,9 +87,9 @@
 	Doorman.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
-		block_duration = 1.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
+		block_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/doorman/reload/doorman_wpn_reload_mid_01.vsnd",
@@ -101,8 +101,8 @@
 	Doorman.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/doorman/reload/doorman_wpn_reload_end_01.vsnd",
@@ -114,7 +114,7 @@
 	Doorman.CallBell.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_callbell_cast_01.vsnd",
@@ -126,40 +126,25 @@
 	Doorman.CallBell.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -2.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.100000
-		delay_rand_min = -5.000000
-		doppler_on = 0.000000
+		volume = -2.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.1
+		delay_rand_min = -5.0
+		doppler_on = 0.0
 		vsnd_files = "sounds/abilities/doorman/doorman_callbell_proj_lp_01.vsnd"
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				1.000000,
-				1.000000,
-				-0.080557,
-				-0.080557,
-				2.000000,
-				3.000000,
+				1.0, 1.0, -0.080557, -0.080557,
+				2.0, 3.0,
 			],
-			
 			[
-				4.000000,
-				0.750000,
-				-0.065433,
-				-0.065433,
-				2.000000,
-				3.000000,
+				4.0, 0.75, -0.065433, -0.065433,
+				2.0, 3.0,
 			],
-			
 			[
-				10.000000,
-				0.300000,
-				-0.023581,
-				-0.023581,
-				2.000000,
-				3.000000,
+				10.0, 0.3, -0.023581, -0.023581,
+				2.0, 3.0,
 			],
 		]
 		vsnd_duration = 6.610499
@@ -167,7 +152,7 @@
 	Doorman.CallBell.Detonate = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_callbell_detonate_01.vsnd",
@@ -179,19 +164,19 @@
 	Doorman.CallBell.Impact = 
 	{
 		base = "Base.Ability.detached"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_callbell_impact_01.vsnd",
 			"sounds/abilities/doorman/doorman_callbell_impact_02.vsnd",
 			"sounds/abilities/doorman/doorman_callbell_impact_03.vsnd",
 		]
-		vsnd_duration = 0.888980
+		vsnd_duration = 0.88898
 	}
 	Doorman.Callbell.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_callbell_hit_01.vsnd",
@@ -203,7 +188,7 @@
 	Doorman.CallBell.Debuff = 
 	{
 		base = "Base.Mod.StatusEffect"
-		volume = -10.000000
+		volume = -10.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_callbell_debuff_01.vsnd",
@@ -215,7 +200,7 @@
 	Doorman.LuggageCart.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_luggagecart_cast_01.vsnd",
@@ -227,18 +212,18 @@
 	Doorman.LuggageCart.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -8.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		delay_rand_min = -5.000000
-		doppler_on = 0.000000
+		volume = -8.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay_rand_min = -5.0
+		doppler_on = 0.0
 		vsnd_files = "sounds/abilities/doorman/doorman_luggagecart_proj_lp_01.vsnd"
 		vsnd_duration = 7.961723
 	}
 	Doorman.LuggageCart.Expire = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_luggagecart_expire_01.vsnd",
@@ -249,7 +234,7 @@
 	Doorman.LuggageCart.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_luggagecart_hit_01.vsnd",
@@ -262,7 +247,7 @@
 	Doorman.LuggageCart.Hit.Ally = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_luggagecart_hit_ally_01.vsnd",
@@ -275,7 +260,7 @@
 	Doorman.LuggageCart.Wall.Slam = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 3.000000
+		volume = 3.0
 		filter_include_others = true
 		vsnd_files = 
 		[
@@ -289,7 +274,7 @@
 	Doorman.Doorway.Select = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_doorway_select_01.vsnd",
@@ -302,17 +287,17 @@
 	Doorman.Doorway.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -5.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		delay_rand_min = -4.000000
+		volume = -5.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay_rand_min = -4.0
 		vsnd_files = "sounds/abilities/doorman/doorman_doorway_select_lp_01.vsnd"
 		vsnd_duration = 6.603583
 	}
 	Doorman.Doorway.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = -8.000000
+		volume = -8.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_doorway_deselect_01.vsnd",
@@ -324,19 +309,19 @@
 	Doorman.Doorway.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_doorway_red_cast_01.vsnd",
 			"sounds/abilities/doorman/doorman_doorway_red_cast_02.vsnd",
 			"sounds/abilities/doorman/doorman_doorway_red_cast_03.vsnd",
 		]
-		vsnd_duration = 3.826100
+		vsnd_duration = 3.8261
 	}
 	Doorman.Doorway.Place.Door = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_doorway_place_door_01.vsnd",
@@ -348,7 +333,7 @@
 	Doorman.Doorway.Clear.Door = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_doorway_clear_01.vsnd",
@@ -360,7 +345,7 @@
 	Doorman.Doorway.Open.Door.Red = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_doorway_red_open.vsnd",
@@ -370,8 +355,8 @@
 	Doorman.Doorway.Open.Door.Blue = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
-		delay = 0.100000
+		volume = 0.0
+		delay = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_doorway_blue_open.vsnd",
@@ -381,8 +366,8 @@
 	Doorman.Doorway.Door.Expire = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -3.000000
-		delay_rand_max = 0.100000
+		volume = -3.0
+		delay_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_doorway_door_expire_01.vsnd",
@@ -395,10 +380,10 @@
 	Doorman.Doorway.Door.Open.Lp = 
 	{
 		base = "Base.Ability.Detached.Close"
-		volume = -4.000000
-		delay_rand_min = -10.000000
-		volume_fade_in = 0.300000
-		volume_fade_out = 0.300000
+		volume = -4.0
+		delay_rand_min = -10.0
+		volume_fade_in = 0.3
+		volume_fade_out = 0.3
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_doorway_open_idle_lp_01.vsnd",
@@ -408,7 +393,7 @@
 	Doorman.Doorway.Barrier.Start = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_doorway_barrier_start_01.vsnd",
@@ -419,7 +404,7 @@
 	Doorman.Hotel.Select = 
 	{
 		base = "Base.Ability"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_hotel_select_01.vsnd",
@@ -429,16 +414,16 @@
 	Doorman.Hotel.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -5.000000
-		volume_fade_out = 0.300000
-		volume_fade_in = 0.200000
+		volume = -5.0
+		volume_fade_out = 0.3
+		volume_fade_in = 0.2
 		vsnd_files = "sounds/abilities/doorman/doorman_hotel_select_lp_01.vsnd"
 		vsnd_duration = 8.663446
 	}
 	Doorman.Hotel.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_hotel_deselect_01.vsnd",
@@ -448,7 +433,7 @@
 	Doorman.Hotel.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_hotel_cast_01.vsnd",
@@ -458,8 +443,8 @@
 	Doorman.Hotel.Key.Start = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = 3.000000
-		delay = 1.000000
+		volume = 3.0
+		delay = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_hotel_key_start_01.vsnd",
@@ -469,19 +454,19 @@
 	Doorman.Hotel.Key.Turn = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = 3.000000
-		force_entity_perspective_assignment = 1.000000
+		volume = 3.0
+		force_entity_perspective_assignment = 1.0
 		block_player = true
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_hotel_key_turn_01.vsnd",
 		]
-		vsnd_duration = 1.699320
+		vsnd_duration = 1.69932
 	}
 	Doorman.Hotel.Key.Expire = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/doorman/doorman_hotel_elevator_expire_01.vsnd",
@@ -491,18 +476,18 @@
 	Doorman.Hotel.Key.Lp = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = -1.000000
-		volume_fade_out = 0.200000
-		volume_fade_in = 0.200000
-		delay = 1.000000
+		volume = -1.0
+		volume_fade_out = 0.2
+		volume_fade_in = 0.2
+		delay = 1.0
 		vsnd_files = "sounds/abilities/doorman/doorman_hotel_key_lp_01.vsnd"
 		vsnd_duration = 8.945488
 	}
 	Doorman.Hotel.Victim.Start = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
-		force_entity_perspective_assignment = 1.000000
+		volume = 3.0
+		force_entity_perspective_assignment = 1.0
 		block_opponent = true
 		block_team = true
 		vsnd_files = 
@@ -514,7 +499,7 @@
 	Doorman.Hotel.Victim.Expire = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 2.000000
+		volume = 2.0
 		block_opponent = true
 		block_team = true
 		vsnd_files = 
@@ -527,29 +512,29 @@
 	Doorman.Hotel.Victim.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 0.000000
-		delay = 0.200000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
+		volume = 0.0
+		delay = 0.2
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
 		block_opponent = true
 		block_team = true
 		vsnd_files = "sounds/abilities/doorman/doorman_hotel_victim_lp_01.vsnd"
-		vsnd_duration = 15.960930
+		vsnd_duration = 15.96093
 	}
 	Doorman.Hotel.Late.Checkout.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 1.000000
-		spread_value_victim = 1.000000
-		spread_value_attacker = 1.000000
+		volume = 1.0
+		spread_value_victim = 1.0
+		spread_value_attacker = 1.0
 		vsnd_files = "sounds/abilities/doorman/doorman_hotel_late_checkout_01.vsnd"
 		vsnd_duration = 3.870113
 	}
 	Doorman.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = -1.000000
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		volume = -1.0
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/mirage/mirage_footstep_01.vsnd",
@@ -585,7 +570,7 @@
 	Doorman.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -10.000000
+		volume = -10.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/mirage/mirage_movement_foley_short_01.vsnd",
@@ -613,7 +598,7 @@
 	Doorman.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -12.000000
+		track_2.vsnd_track_vol_offset_db = -12.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -664,7 +649,7 @@
 	Doorman.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -12.000000
+		track_2.vsnd_track_vol_offset_db = -12.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",
@@ -716,8 +701,8 @@
 	Doorman.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -8.000000
-		track_2.vsnd_track_vol_offset_db = -28.000000
+		track_1.vsnd_track_vol_offset_db = -8.0
+		track_2.vsnd_track_vol_offset_db = -28.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/mirage/mirage_footstep_01.vsnd",
@@ -759,7 +744,7 @@
 	Doorman.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -3.000000
+		volume = -3.0
 	}
 	Doorman.Progession.Page.Win.VO = 
 	{

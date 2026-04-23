@@ -3,8 +3,8 @@
 	MoKrill.Wpn.Fire = 
 	{
 		base = "Base.Weapon.MachineGun"
-		volume = 3.500000
-		last_shot_vol_offset_db = 1.000000
+		volume = 3.5
+		last_shot_vol_offset_db = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/krill/fire/digger_weapon_fire_01.vsnd",
@@ -20,53 +20,28 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.0, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-1.001785,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -1.001785,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-2.000000,
-				-1.001785,
-				-1.001785,
-				0.000000,
-				1.000000,
+				3.0, -2.0, -1.001785, -1.001785,
+				0.0, 1.0,
 			],
 		]
 		vsnd_duration = 2.377823
@@ -78,22 +53,22 @@
 	MoKrill.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -20.000000
+		volume = -20.0
 		vsnd_files = "sounds/weapons/wraith/zoom/in.vsnd"
 		vsnd_duration = 1.323604
 	}
 	MoKrill.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -20.000000
+		volume = -20.0
 		vsnd_files = "sounds/weapons/wraith/zoom/out.vsnd"
 		vsnd_duration = 1.829146
 	}
 	MoKrill.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/krill/reload/mokrill_wpn_reload_start_01.vsnd",
@@ -105,21 +80,21 @@
 	MoKrill.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/krill/reload/mokrill_wpn_reload_mid_01.vsnd",
 			"sounds/weapons/krill/reload/mokrill_wpn_reload_mid_02.vsnd",
 			"sounds/weapons/krill/reload/mokrill_wpn_reload_mid_03.vsnd",
 		]
-		vsnd_duration = 0.454580
+		vsnd_duration = 0.45458
 	}
 	MoKrill.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/krill/reload/mokrill_wpn_reload_end_01.vsnd",
@@ -131,145 +106,145 @@
 	MoKrill.Scorn.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		volume_offset_player = -3.000000
+		volume = 0.0
+		volume_offset_player = -3.0
 		vsnd_files = "sounds/abilities/mokrill/digger_scorn_cast.vsnd"
 		vsnd_duration = 4.229909
 	}
 	MoKrill.Scorn.Cast.Dive = 
 	{
 		base = "Base.Ability"
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.030000
-		volume = 0.000000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.03
+		volume = 0.0
 		vsnd_files = "sounds/abilities/mokrill/a1_scorn/cast_dive.vsnd"
 		vsnd_duration = 2.682125
 	}
 	MoKrill.Scorn.Cast.Flutter = 
 	{
 		base = "Base.Ability"
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.040000
-		volume = -9.000000
-		pitch = 0.700000
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.04
+		volume = -9.0
+		pitch = 0.7
 		vsnd_files = "sounds/abilities/mokrill/a1_scorn/cast_flutter.vsnd"
 		vsnd_duration = 2.717417
 	}
 	MoKrill.Scorn.Cast.Liquid = 
 	{
 		base = "Base.Ability"
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.040000
-		volume = -9.000000
-		pitch = 1.100000
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.04
+		volume = -9.0
+		pitch = 1.1
 		vsnd_files = "sounds/abilities/mokrill/a1_scorn/cast_liquid.vsnd"
 		vsnd_duration = 3.151687
 	}
 	MoKrill.Scorn.Heal.Modifier.End = 
 	{
 		base = "Base.Ability.StatusEffect"
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.040000
-		volume = 0.000000
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.04
+		volume = 0.0
 		vsnd_files = "sounds/abilities/mokrill/a1_scorn/mod_heal_end.vsnd"
-		vsnd_duration = 1.913000
+		vsnd_duration = 1.913
 	}
 	MoKrill.Scorn.Enemy.Modifier.End = 
 	{
 		base = "Base.Ability"
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.040000
-		volume = -1.000000
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.04
+		volume = -1.0
 		vsnd_files = "sounds/abilities/mokrill/a1_scorn/mod_victim_end.vsnd"
 		vsnd_duration = 3.139313
 	}
 	MoKrill.Burrow.Cast.Delay = 
 	{
 		base = "Base.Ability"
-		volume = 6.000000
-		pitch = 1.000000
-		pitch_rand_max = 0.150000
-		pitch_rand_min = -0.100000
+		volume = 6.0
+		pitch = 1.0
+		pitch_rand_max = 0.15
+		pitch_rand_min = -0.1
 		vsnd_files = "sounds/abilities/mokrill/a2_burrow/new/mokrill_a2_burrow_delay.vsnd"
 		vsnd_duration = 1.577823
 	}
 	MoKrill.Burrow.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/mokrill/a2_burrow/new/mokrill_a2_burrow_emerge.vsnd"
 		vsnd_duration = 5.049796
 	}
 	MoKrill.Burrow.Modifier.Start = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/mokrill/a2_burrow/new/mokrill_a2_burrow_impact.vsnd"
 		vsnd_duration = 4.469569
 	}
 	MoKrill.Burrow.Travel.Lp = 
 	{
 		base = "Base.Ability"
-		volume_fade_out = 0.300000
-		volume = -1.000000
-		volume_offset_team = 0.000000
-		volume_offset_opponent = 2.000000
+		volume_fade_out = 0.3
+		volume = -1.0
+		volume_offset_team = 0.0
+		volume_offset_opponent = 2.0
 		vsnd_files = "sounds/abilities/mokrill/a2_burrow/travel_earthy_lp.vsnd"
 		vsnd_duration = 8.851587
 	}
 	MoKrill.Burrow.Spin.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -4.000000
-		volume_fade_out = 0.100000
-		volume_fade_in = 0.400000
-		pitch = 1.100000
+		volume = -4.0
+		volume_fade_out = 0.1
+		volume_fade_in = 0.4
+		pitch = 1.1
 		vsnd_files = "sounds/abilities/mokrill/a2_burrow/mokrill_a2_burrow_spin_lp.vsnd"
 		vsnd_duration = 1.360476
 	}
 	MoKrill.Burrow.Spin = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
-		volume_fade_out = 0.200000
+		volume = 1.0
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/mokrill/a2_burrow/new/mokrill_a2_burrow_emerge.vsnd"
 		vsnd_duration = 5.049796
 	}
 	MoKrill.Burrow.Spin.End = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
-		volume_fade_out = 0.200000
+		volume = -3.0
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/mokrill/a2_burrow/mokrill_a2_burrow_spin_end.vsnd"
 		vsnd_duration = 1.740862
 	}
 	MoKrill.Sandblast.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 5.000000
+		volume = 5.0
 		vsnd_files = "sounds/abilities/mokrill/a3_sandblast/mokrill_a3_sandblast_cast_delay.vsnd"
 		vsnd_duration = 3.341565
 	}
 	MoKrill.Sandblast.Impact = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 1.000000
-		pitch_rand_max = 0.200000
-		pitch_rand_min = -0.200000
+		volume = 1.0
+		pitch_rand_max = 0.2
+		pitch_rand_min = -0.2
 		vsnd_files = "sounds/abilities/mokrill/a3_sandblast/mokrill_a3_sandblast_hit.vsnd"
 		vsnd_duration = 1.628549
 	}
 	MoKrill.Combo.Channel.Start = 
 	{
 		base = "Base.Ability.Ult.CC"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/mokrill/a4_combo/mokrill_a4_combo_cast_01.vsnd"
 		vsnd_duration = 2.398367
 	}
 	MoKrill.Combo.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/mokrill/a4_combo/impacts_01.vsnd",
@@ -285,39 +260,39 @@
 			"sounds/abilities/mokrill/a4_combo/impacts_11.vsnd",
 			"sounds/abilities/mokrill/a4_combo/impacts_12.vsnd",
 		]
-		vsnd_duration = 0.500000
+		vsnd_duration = 0.5
 	}
 	MoKrill.Combo.Duration.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		delay_rand_min = -2.000000
-		volume = 2.000000
+		delay_rand_min = -2.0
+		volume = 2.0
 		vsnd_files = "sounds/abilities/mokrill/a4_combo/mokrill_a4_combo_duration_lp_01.vsnd"
 		vsnd_duration = 12.705465
 	}
 	MoKrill.Combo.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/mokrill/a4_combo/mokrill_a4_combo_end_01.vsnd"
-		vsnd_duration = 1.800000
+		vsnd_duration = 1.8
 	}
 	MoKrill.Combo.Duration.Foley.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/mokrill/a4_combo/mokrill_a4_combo_foley.vsnd"
 		vsnd_duration = 3.274626
 	}
 	MoKrill.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = 0.000000
+		volume = 0.0
 	}
 	MoKrill.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/mokrill/mokrill_movement_foley_short_01.vsnd",
@@ -339,8 +314,8 @@
 	MoKrill.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 4.000000
-		track_2.vsnd_track_vol_offset_db = -9.000000
+		volume = 4.0
+		track_2.vsnd_track_vol_offset_db = -9.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/krill/mokrill_footstep_01.vsnd",
@@ -376,7 +351,7 @@
 	MoKrill.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -3.000000
+		volume = -3.0
 	}
 	MoKrill.Melee.Swing = 
 	{
@@ -478,7 +453,7 @@
 	MoKrill.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_2.vsnd_track_vol_offset_db = -14.000000
+		track_2.vsnd_track_vol_offset_db = -14.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/krill/mokrill_footstep_01.vsnd",

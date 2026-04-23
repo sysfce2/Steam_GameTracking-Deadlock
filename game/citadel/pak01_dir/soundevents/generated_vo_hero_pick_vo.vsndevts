@@ -17,7 +17,7 @@
 			"sounds/vo/astro/astro_select_09.vsnd",
 			"sounds/vo/astro/astro_select_10.vsnd",
 		]
-		vsnd_duration = 4.584240
+		vsnd_duration = 4.58424
 	}
 	Generated.Astro.Hero.Remove.VO = 
 	{
@@ -189,7 +189,7 @@
 			"sounds/vo/chrono/chrono_select_09.vsnd",
 			"sounds/vo/chrono/chrono_select_10.vsnd",
 		]
-		vsnd_duration = 7.269320
+		vsnd_duration = 7.26932
 	}
 	Generated.Chrono.Hero.Remove.VO = 
 	{
@@ -284,7 +284,7 @@
 			"sounds/vo/drifter/drifter_unselect_09.vsnd",
 			"sounds/vo/drifter/drifter_unselect_10.vsnd",
 		]
-		vsnd_duration = 7.243000
+		vsnd_duration = 7.243
 	}
 	Generated.Dynamo.Hero.Pick.VO = 
 	{
@@ -322,7 +322,7 @@
 			"sounds/vo/dynamo/dynamo_unselect_09.vsnd",
 			"sounds/vo/dynamo/dynamo_unselect_10.vsnd",
 		]
-		vsnd_duration = 2.286100
+		vsnd_duration = 2.2861
 	}
 	Generated.Familiar.Hero.Pick.VO = 
 	{
@@ -647,7 +647,7 @@
 			"sounds/vo/inferno/inferno_select_09.vsnd",
 			"sounds/vo/inferno/inferno_select_10.vsnd",
 		]
-		vsnd_duration = 5.664150
+		vsnd_duration = 5.66415
 	}
 	Generated.Inferno.Hero.Remove.VO = 
 	{
@@ -685,7 +685,7 @@
 			"sounds/vo/kelvin/kelvin_select_09.vsnd",
 			"sounds/vo/kelvin/kelvin_select_10.vsnd",
 		]
-		vsnd_duration = 6.231020
+		vsnd_duration = 6.23102
 	}
 	Generated.Kelvin.Hero.Remove.VO = 
 	{
@@ -763,7 +763,7 @@
 			"sounds/vo/lash/lash_select_12.vsnd",
 			"sounds/vo/lash/lash_select_13.vsnd",
 		]
-		vsnd_duration = 11.621180
+		vsnd_duration = 11.62118
 	}
 	Generated.Lash.Hero.Remove.VO = 
 	{
@@ -894,7 +894,7 @@
 			"sounds/vo/necro/necro_select_09.vsnd",
 			"sounds/vo/necro/necro_select_10.vsnd",
 		]
-		vsnd_duration = 3.812000
+		vsnd_duration = 3.812
 	}
 	Generated.Necro.Hero.Remove.VO = 
 	{
@@ -1026,7 +1026,7 @@
 			"sounds/vo/punkgoat/punkgoat_unselect_09.vsnd",
 			"sounds/vo/punkgoat/punkgoat_unselect_10.vsnd",
 		]
-		vsnd_duration = 4.217000
+		vsnd_duration = 4.217
 	}
 	Generated.Shiv.Hero.Pick.VO = 
 	{
@@ -1179,7 +1179,7 @@
 			"sounds/vo/unicorn/unicorn_unselect_09.vsnd",
 			"sounds/vo/unicorn/unicorn_unselect_10.vsnd",
 		]
-		vsnd_duration = 11.122000
+		vsnd_duration = 11.122
 	}
 	Generated.Vampirebat.Hero.Pick.VO = 
 	{
@@ -1199,7 +1199,7 @@
 			"sounds/vo/vampirebat/vampirebat_select_09.vsnd",
 			"sounds/vo/vampirebat/vampirebat_select_10.vsnd",
 		]
-		vsnd_duration = 6.512500
+		vsnd_duration = 6.5125
 	}
 	Generated.Vampirebat.Hero.Remove.VO = 
 	{
@@ -1218,7 +1218,7 @@
 			"sounds/vo/vampirebat/vampirebat_unselect_09.vsnd",
 			"sounds/vo/vampirebat/vampirebat_unselect_10.vsnd",
 		]
-		vsnd_duration = 5.665000
+		vsnd_duration = 5.665
 	}
 	Generated.Viper.Hero.Pick.VO = 
 	{
@@ -1372,7 +1372,7 @@
 			"sounds/vo/werewolf/werewolf_unselect_09.vsnd",
 			"sounds/vo/werewolf/werewolf_unselect_10.vsnd",
 		]
-		vsnd_duration = 6.544000
+		vsnd_duration = 6.544
 	}
 	Generated.Wraith.Hero.Pick.VO = 
 	{
@@ -1468,7 +1468,7 @@
 			"sounds/vo/yamato/yamato_select_09.vsnd",
 			"sounds/vo/yamato/yamato_select_10.vsnd",
 		]
-		vsnd_duration = 5.692750
+		vsnd_duration = 5.69275
 	}
 	Generated.Yamato.Hero.Remove.VO = 
 	{

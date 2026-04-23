@@ -128,7 +128,7 @@
 		[
 			"sounds/vo/synth/synth_ally_ghost_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.091610
+		vsnd_duration = 1.09161
 	}
 	synth_ally_ghost_pass_on_zipline_01_hero_3d = 
 	{
@@ -448,7 +448,7 @@
 		[
 			"sounds/vo/synth/synth_ally_tengu_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.118050
+		vsnd_duration = 1.11805
 	}
 	synth_ally_tengu_pass_on_zipline_01_hero_3d = 
 	{
@@ -508,7 +508,7 @@
 		[
 			"sounds/vo/synth/synth_ally_viscous_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.168980
+		vsnd_duration = 1.16898
 	}
 	synth_ally_viscous_pass_on_zipline_01_hero_3d = 
 	{
@@ -578,7 +578,7 @@
 		[
 			"sounds/vo/synth/synth_ally_wrecker_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.170930
+		vsnd_duration = 2.17093
 	}
 	synth_ally_yamato_killed_in_lane_01_hero_3d = 
 	{
@@ -648,7 +648,7 @@
 		[
 			"sounds/vo/synth/synth_be_careful_02.vsnd",
 		]
-		vsnd_duration = 1.742200
+		vsnd_duration = 1.7422
 	}
 	synth_be_careful_03_hero_3d = 
 	{
@@ -738,7 +738,7 @@
 		[
 			"sounds/vo/synth/synth_congrats_03.vsnd",
 		]
-		vsnd_duration = 0.889410
+		vsnd_duration = 0.88941
 	}
 	synth_congrats_04_hero_3d = 
 	{
@@ -768,7 +768,7 @@
 		[
 			"sounds/vo/synth/synth_desperation_power1_01.vsnd",
 		]
-		vsnd_duration = 1.557800
+		vsnd_duration = 1.5578
 	}
 	synth_desperation_power1_02_ability_3d = 
 	{
@@ -808,7 +808,7 @@
 		[
 			"sounds/vo/synth/synth_desperation_power1_05.vsnd",
 		]
-		vsnd_duration = 1.325760
+		vsnd_duration = 1.32576
 	}
 	synth_desperation_power2_01_ability_3d = 
 	{
@@ -848,7 +848,7 @@
 		[
 			"sounds/vo/synth/synth_desperation_power2_04.vsnd",
 		]
-		vsnd_duration = 1.597710
+		vsnd_duration = 1.59771
 	}
 	synth_desperation_power2_05_ability_3d = 
 	{
@@ -868,7 +868,7 @@
 		[
 			"sounds/vo/synth/synth_desperation_power3_01.vsnd",
 		]
-		vsnd_duration = 0.947370
+		vsnd_duration = 0.94737
 	}
 	synth_desperation_power3_02_ability_3d = 
 	{
@@ -978,7 +978,7 @@
 		[
 			"sounds/vo/synth/synth_desperation_power4_04.vsnd",
 		]
-		vsnd_duration = 1.247800
+		vsnd_duration = 1.2478
 	}
 	synth_desperation_power4_04_ult_3d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/synth/synth_desperation_power4_04.vsnd",
 		]
-		vsnd_duration = 1.247800
+		vsnd_duration = 1.2478
 	}
 	synth_desperation_power4_05_ability_3d = 
 	{
@@ -1168,7 +1168,7 @@
 		[
 			"sounds/vo/synth/emote/synth_effort_general_02.vsnd",
 		]
-		vsnd_duration = 0.959070
+		vsnd_duration = 0.95907
 	}
 	synth_effort_general_03_emote_effort_3d = 
 	{
@@ -1338,7 +1338,7 @@
 		[
 			"sounds/vo/synth/emote/synth_effort_melee_big_06.vsnd",
 		]
-		vsnd_duration = 1.104240
+		vsnd_duration = 1.10424
 	}
 	synth_effort_melee_big_06_emote_melee_effort_3d = 
 	{
@@ -1348,7 +1348,7 @@
 		[
 			"sounds/vo/synth/emote/synth_effort_melee_big_06.vsnd",
 		]
-		vsnd_duration = 1.104240
+		vsnd_duration = 1.10424
 	}
 	synth_effort_melee_big_07_emote_effort_3d = 
 	{
@@ -1598,7 +1598,7 @@
 		[
 			"sounds/vo/synth/synth_hunt_01.vsnd",
 		]
-		vsnd_duration = 0.951950
+		vsnd_duration = 0.95195
 	}
 	synth_hunt_02_hero_3d = 
 	{
@@ -1638,7 +1638,7 @@
 		[
 			"sounds/vo/synth/synth_interrupt_02.vsnd",
 		]
-		vsnd_duration = 0.907800
+		vsnd_duration = 0.9078
 	}
 	synth_interrupt_03_hero_3d = 
 	{
@@ -1678,7 +1678,7 @@
 		[
 			"sounds/vo/synth/synth_kill_anyhero_01.vsnd",
 		]
-		vsnd_duration = 1.044150
+		vsnd_duration = 1.04415
 	}
 	synth_kill_anyhero_02_hero_3d = 
 	{
@@ -2108,7 +2108,7 @@
 		[
 			"sounds/vo/synth/synth_kill_ghost_02.vsnd",
 		]
-		vsnd_duration = 1.582290
+		vsnd_duration = 1.58229
 	}
 	synth_kill_ghost_03_hero_3d = 
 	{
@@ -2168,7 +2168,7 @@
 		[
 			"sounds/vo/synth/synth_kill_gigawatt_03.vsnd",
 		]
-		vsnd_duration = 2.727460
+		vsnd_duration = 2.72746
 	}
 	synth_kill_gigawatt_04_hero_3d = 
 	{
@@ -2608,7 +2608,7 @@
 		[
 			"sounds/vo/synth/synth_kill_nano_01.vsnd",
 		]
-		vsnd_duration = 1.927460
+		vsnd_duration = 1.92746
 	}
 	synth_kill_nano_02_hero_3d = 
 	{
@@ -2988,7 +2988,7 @@
 		[
 			"sounds/vo/synth/synth_kill_viper_04.vsnd",
 		]
-		vsnd_duration = 1.813560
+		vsnd_duration = 1.81356
 	}
 	synth_kill_viper_05_hero_3d = 
 	{
@@ -3238,7 +3238,7 @@
 		[
 			"sounds/vo/synth/synth_kill_yamato_04.vsnd",
 		]
-		vsnd_duration = 1.355170
+		vsnd_duration = 1.35517
 	}
 	synth_kill_yamato_05_hero_3d = 
 	{
@@ -3358,7 +3358,7 @@
 		[
 			"sounds/vo/synth/synth_killstreak_mid_03.vsnd",
 		]
-		vsnd_duration = 4.077120
+		vsnd_duration = 4.07712
 	}
 	synth_killstreak_mid_03_hero_announcer = 
 	{
@@ -3368,7 +3368,7 @@
 		[
 			"sounds/vo/synth/synth_killstreak_mid_03.vsnd",
 		]
-		vsnd_duration = 4.077120
+		vsnd_duration = 4.07712
 	}
 	synth_killstreak_start_01_hero_3d = 
 	{
@@ -3568,7 +3568,7 @@
 		[
 			"sounds/vo/synth/synth_match_start_astro_synth_convo01_04.vsnd",
 		]
-		vsnd_duration = 3.197030
+		vsnd_duration = 3.19703
 	}
 	synth_match_start_astro_synth_convo02_02_hero_zipline_3d = 
 	{
@@ -3668,7 +3668,7 @@
 		[
 			"sounds/vo/synth/synth_match_start_bebop_synth_convo02_02.vsnd",
 		]
-		vsnd_duration = 2.715850
+		vsnd_duration = 2.71585
 	}
 	synth_match_start_bebop_synth_convo03_01_hero_zipline_3d = 
 	{
@@ -3778,7 +3778,7 @@
 		[
 			"sounds/vo/synth/synth_match_start_ghost_synth_convo03_02.vsnd",
 		]
-		vsnd_duration = 0.995170
+		vsnd_duration = 0.99517
 	}
 	synth_match_start_ghost_synth_convo03_04_hero_zipline_3d = 
 	{
@@ -4048,7 +4048,7 @@
 		[
 			"sounds/vo/synth/emote/synth_pain_akira_laser_03.vsnd",
 		]
-		vsnd_duration = 2.312290
+		vsnd_duration = 2.31229
 	}
 	synth_pain_big_01_emote_pain_3d = 
 	{
@@ -4068,7 +4068,7 @@
 		[
 			"sounds/vo/synth/emote/synth_pain_big_02.vsnd",
 		]
-		vsnd_duration = 0.641020
+		vsnd_duration = 0.64102
 	}
 	synth_pain_big_03_emote_pain_3d = 
 	{
@@ -4088,7 +4088,7 @@
 		[
 			"sounds/vo/synth/emote/synth_pain_big_04.vsnd",
 		]
-		vsnd_duration = 0.520680
+		vsnd_duration = 0.52068
 	}
 	synth_pain_big_05_emote_pain_3d = 
 	{
@@ -4388,7 +4388,7 @@
 		[
 			"sounds/vo/synth/emote/synth_pain_small_06.vsnd",
 		]
-		vsnd_duration = 0.624490
+		vsnd_duration = 0.62449
 	}
 	synth_pain_small_07_emote_pain_3d = 
 	{
@@ -4458,7 +4458,7 @@
 		[
 			"sounds/vo/synth/synth_parry_02.vsnd",
 		]
-		vsnd_duration = 0.841020
+		vsnd_duration = 0.84102
 	}
 	synth_parry_03_hero_3d = 
 	{
@@ -4558,7 +4558,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_ability1_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.294150
+		vsnd_duration = 1.29415
 	}
 	synth_ping_ability1_not_ready_ping_2d = 
 	{
@@ -4628,7 +4628,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_ability4_not_ready.vsnd",
 		]
-		vsnd_duration = 1.340930
+		vsnd_duration = 1.34093
 	}
 	synth_ping_affermative_01_ping_2d = 
 	{
@@ -4808,7 +4808,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_atlas_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.744490
+		vsnd_duration = 1.74449
 	}
 	synth_ping_atlas_on_top_of_mid_ping_2d = 
 	{
@@ -5048,7 +5048,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_attack_orion-imported.vsnd",
 		]
-		vsnd_duration = 1.388730
+		vsnd_duration = 1.38873
 	}
 	synth_ping_attack_orion_02_ping_2d = 
 	{
@@ -5358,7 +5358,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_can_heal_forge.vsnd",
 		]
-		vsnd_duration = 1.372290
+		vsnd_duration = 1.37229
 	}
 	synth_ping_can_heal_ghost_ping_2d = 
 	{
@@ -5428,7 +5428,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_can_heal_krill.vsnd",
 		]
-		vsnd_duration = 1.123900
+		vsnd_duration = 1.1239
 	}
 	synth_ping_can_heal_lash_ping_2d = 
 	{
@@ -5488,7 +5488,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_can_heal_orion.vsnd",
 		]
-		vsnd_duration = 1.184490
+		vsnd_duration = 1.18449
 	}
 	synth_ping_can_heal_shiv_ping_2d = 
 	{
@@ -5508,7 +5508,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_can_heal_slork.vsnd",
 		]
-		vsnd_duration = 1.278050
+		vsnd_duration = 1.27805
 	}
 	synth_ping_can_heal_tengu_ping_2d = 
 	{
@@ -5588,7 +5588,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_can_heal_yamato.vsnd",
 		]
-		vsnd_duration = 1.257710
+		vsnd_duration = 1.25771
 	}
 	synth_ping_careful_astro_01_ping_2d = 
 	{
@@ -5698,7 +5698,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_careful_chrono_02.vsnd",
 		]
-		vsnd_duration = 1.192290
+		vsnd_duration = 1.19229
 	}
 	synth_ping_careful_chrono_03_ping_2d = 
 	{
@@ -5778,7 +5778,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_careful_ghost_01.vsnd",
 		]
-		vsnd_duration = 0.925170
+		vsnd_duration = 0.92517
 	}
 	synth_ping_careful_ghost_02_ping_2d = 
 	{
@@ -5838,7 +5838,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_careful_haze_01.vsnd",
 		]
-		vsnd_duration = 0.925510
+		vsnd_duration = 0.92551
 	}
 	synth_ping_careful_haze_02_ping_2d = 
 	{
@@ -5868,7 +5868,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_careful_hornet_01.vsnd",
 		]
-		vsnd_duration = 1.198730
+		vsnd_duration = 1.19873
 	}
 	synth_ping_careful_hornet_02_ping_2d = 
 	{
@@ -5998,7 +5998,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_careful_lash_02.vsnd",
 		]
-		vsnd_duration = 0.934490
+		vsnd_duration = 0.93449
 	}
 	synth_ping_careful_lash_03_ping_2d = 
 	{
@@ -6238,7 +6238,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_careful_tengu_02.vsnd",
 		]
-		vsnd_duration = 0.907460
+		vsnd_duration = 0.90746
 	}
 	synth_ping_careful_tengu_03_ping_2d = 
 	{
@@ -6248,7 +6248,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_careful_tengu_03.vsnd",
 		]
-		vsnd_duration = 0.945510
+		vsnd_duration = 0.94551
 	}
 	synth_ping_careful_trapper_01_ping_2d = 
 	{
@@ -6328,7 +6328,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_careful_viscous_02.vsnd",
 		]
-		vsnd_duration = 1.059410
+		vsnd_duration = 1.05941
 	}
 	synth_ping_careful_viscous_03_ping_2d = 
 	{
@@ -6338,7 +6338,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_careful_viscous_03.vsnd",
 		]
-		vsnd_duration = 1.062290
+		vsnd_duration = 1.06229
 	}
 	synth_ping_careful_warden_01_ping_2d = 
 	{
@@ -6448,7 +6448,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_careful_yamato_02.vsnd",
 		]
-		vsnd_duration = 1.119660
+		vsnd_duration = 1.11966
 	}
 	synth_ping_careful_yamato_03_ping_2d = 
 	{
@@ -6518,7 +6518,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_chrono_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.730680
+		vsnd_duration = 1.73068
 	}
 	synth_ping_chrono_on_top_of_mid_ping_2d = 
 	{
@@ -6598,7 +6598,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_defend_blue_02.vsnd",
 		]
-		vsnd_duration = 1.044830
+		vsnd_duration = 1.04483
 	}
 	synth_ping_defend_green_01_ping_2d = 
 	{
@@ -6628,7 +6628,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_defend_yellow_01.vsnd",
 		]
-		vsnd_duration = 0.888980
+		vsnd_duration = 0.88898
 	}
 	synth_ping_defend_yellow_02_ping_2d = 
 	{
@@ -6718,7 +6718,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_dynamo_under_garage.vsnd",
 		]
-		vsnd_duration = 1.420930
+		vsnd_duration = 1.42093
 	}
 	synth_ping_dynamo_was_here_ping_2d = 
 	{
@@ -6738,7 +6738,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_enemy_take_mid.vsnd",
 		]
-		vsnd_duration = 0.915760
+		vsnd_duration = 0.91576
 	}
 	synth_ping_flank_ping_2d = 
 	{
@@ -6808,7 +6808,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_forge_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.674240
+		vsnd_duration = 1.67424
 	}
 	synth_ping_forge_on_top_of_mid_ping_2d = 
 	{
@@ -6878,7 +6878,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_ghost_dead.vsnd",
 		]
-		vsnd_duration = 1.016780
+		vsnd_duration = 1.01678
 	}
 	synth_ping_ghost_in_mid_ping_2d = 
 	{
@@ -6888,7 +6888,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_ghost_in_mid.vsnd",
 		]
-		vsnd_duration = 0.968980
+		vsnd_duration = 0.96898
 	}
 	synth_ping_ghost_missing_01_ping_2d = 
 	{
@@ -6918,7 +6918,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_ghost_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.263560
+		vsnd_duration = 1.26356
 	}
 	synth_ping_ghost_under_garage_ping_2d = 
 	{
@@ -6998,7 +6998,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_gigawatt_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.509660
+		vsnd_duration = 1.50966
 	}
 	synth_ping_gigawatt_on_top_of_mid_ping_2d = 
 	{
@@ -7038,7 +7038,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_glitch_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.270590
+		vsnd_duration = 1.27059
 	}
 	synth_ping_glitch_not_ready_ping_2d = 
 	{
@@ -7208,7 +7208,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_haze_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.246190
+		vsnd_duration = 1.24619
 	}
 	synth_ping_haze_under_garage_ping_2d = 
 	{
@@ -7438,7 +7438,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_ignore_astro.vsnd",
 		]
-		vsnd_duration = 1.075760
+		vsnd_duration = 1.07576
 	}
 	synth_ping_ignore_atlas_ping_2d = 
 	{
@@ -7618,7 +7618,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_ignore_orion.vsnd",
 		]
-		vsnd_duration = 1.260340
+		vsnd_duration = 1.26034
 	}
 	synth_ping_ignore_shiv_ping_2d = 
 	{
@@ -7868,7 +7868,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_kelvin_check_items.vsnd",
 		]
-		vsnd_duration = 1.204240
+		vsnd_duration = 1.20424
 	}
 	synth_ping_kelvin_dead_ping_2d = 
 	{
@@ -7938,7 +7938,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_kelvin_was_here.vsnd",
 		]
-		vsnd_duration = 0.929070
+		vsnd_duration = 0.92907
 	}
 	synth_ping_kncokdown_almost_ready_ping_2d = 
 	{
@@ -8088,7 +8088,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_lash_in_mid.vsnd",
 		]
-		vsnd_duration = 1.011020
+		vsnd_duration = 1.01102
 	}
 	synth_ping_lash_missing_01_ping_2d = 
 	{
@@ -8128,7 +8128,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_lash_under_garage.vsnd",
 		]
-		vsnd_duration = 1.380340
+		vsnd_duration = 1.38034
 	}
 	synth_ping_lash_was_here_ping_2d = 
 	{
@@ -8228,7 +8228,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_magician_check_items.vsnd",
 		]
-		vsnd_duration = 1.381270
+		vsnd_duration = 1.38127
 	}
 	synth_ping_magician_dead_ping_2d = 
 	{
@@ -8258,7 +8258,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_magician_missing_01.vsnd",
 		]
-		vsnd_duration = 1.276780
+		vsnd_duration = 1.27678
 	}
 	synth_ping_magician_on_top_of_garage_ping_2d = 
 	{
@@ -8278,7 +8278,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_magician_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.434150
+		vsnd_duration = 1.43415
 	}
 	synth_ping_magician_under_garage_ping_2d = 
 	{
@@ -8328,7 +8328,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_mirage_check_items.vsnd",
 		]
-		vsnd_duration = 1.379320
+		vsnd_duration = 1.37932
 	}
 	synth_ping_mirage_dead_ping_2d = 
 	{
@@ -8408,7 +8408,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_missing_blue_01.vsnd",
 		]
-		vsnd_duration = 0.810590
+		vsnd_duration = 0.81059
 	}
 	synth_ping_missing_blue_02_ping_2d = 
 	{
@@ -8898,7 +8898,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_post_game_01.vsnd",
 		]
-		vsnd_duration = 0.841020
+		vsnd_duration = 0.84102
 	}
 	synth_ping_post_game_02_ping_2d = 
 	{
@@ -9008,7 +9008,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_pre_game_06_02.vsnd",
 		]
-		vsnd_duration = 2.485850
+		vsnd_duration = 2.48585
 	}
 	synth_ping_pre_game_06_ping_2d = 
 	{
@@ -9058,7 +9058,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_push_green_01.vsnd",
 		]
-		vsnd_duration = 1.020340
+		vsnd_duration = 1.02034
 	}
 	synth_ping_push_green_02_ping_2d = 
 	{
@@ -9228,7 +9228,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_saw_chrono.vsnd",
 		]
-		vsnd_duration = 1.044240
+		vsnd_duration = 1.04424
 	}
 	synth_ping_saw_dynamo_ping_2d = 
 	{
@@ -9238,7 +9238,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_saw_dynamo.vsnd",
 		]
-		vsnd_duration = 0.911270
+		vsnd_duration = 0.91127
 	}
 	synth_ping_saw_forge_ping_2d = 
 	{
@@ -9288,7 +9288,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_saw_hornet.vsnd",
 		]
-		vsnd_duration = 0.948390
+		vsnd_duration = 0.94839
 	}
 	synth_ping_saw_inferno_ping_2d = 
 	{
@@ -9458,7 +9458,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_saw_warden.vsnd",
 		]
-		vsnd_duration = 0.893220
+		vsnd_duration = 0.89322
 	}
 	synth_ping_saw_wraith_ping_2d = 
 	{
@@ -9478,7 +9478,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_saw_wrecker.vsnd",
 		]
-		vsnd_duration = 0.872540
+		vsnd_duration = 0.87254
 	}
 	synth_ping_saw_yamato_ping_2d = 
 	{
@@ -9558,7 +9558,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_see_bebop_01.vsnd",
 		]
-		vsnd_duration = 0.962200
+		vsnd_duration = 0.9622
 	}
 	synth_ping_see_bebop_on_bridge_ping_2d = 
 	{
@@ -9728,7 +9728,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_see_ghost_on_roof.vsnd",
 		]
-		vsnd_duration = 1.040930
+		vsnd_duration = 1.04093
 	}
 	synth_ping_see_gigawatt_01_ping_2d = 
 	{
@@ -9778,7 +9778,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_see_haze_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.167120
+		vsnd_duration = 1.16712
 	}
 	synth_ping_see_haze_on_roof_ping_2d = 
 	{
@@ -9908,7 +9908,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_see_krill_on_roof.vsnd",
 		]
-		vsnd_duration = 0.956780
+		vsnd_duration = 0.95678
 	}
 	synth_ping_see_lash_01_ping_2d = 
 	{
@@ -9918,7 +9918,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_see_lash_01.vsnd",
 		]
-		vsnd_duration = 0.927460
+		vsnd_duration = 0.92746
 	}
 	synth_ping_see_lash_on_bridge_ping_2d = 
 	{
@@ -9978,7 +9978,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_see_mirage_01.vsnd",
 		]
-		vsnd_duration = 1.076440
+		vsnd_duration = 1.07644
 	}
 	synth_ping_see_mirage_on_bridge_ping_2d = 
 	{
@@ -10038,7 +10038,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_see_operative_01.vsnd",
 		]
-		vsnd_duration = 1.041270
+		vsnd_duration = 1.04127
 	}
 	synth_ping_see_operative_on_bridge_ping_2d = 
 	{
@@ -10088,7 +10088,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_see_orion_on_roof.vsnd",
 		]
-		vsnd_duration = 1.265510
+		vsnd_duration = 1.26551
 	}
 	synth_ping_see_shiv_01_ping_2d = 
 	{
@@ -10388,7 +10388,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_see_yamato_on_roof.vsnd",
 		]
-		vsnd_duration = 1.137030
+		vsnd_duration = 1.13703
 	}
 	synth_ping_see_yamato_ping_2d = 
 	{
@@ -10398,7 +10398,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_see_yamato.vsnd",
 		]
-		vsnd_duration = 1.019320
+		vsnd_duration = 1.01932
 	}
 	synth_ping_shiv_almost_respawn_ping_2d = 
 	{
@@ -10438,7 +10438,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_shiv_in_mid.vsnd",
 		]
-		vsnd_duration = 0.858050
+		vsnd_duration = 0.85805
 	}
 	synth_ping_shiv_missing_01_ping_2d = 
 	{
@@ -10498,7 +10498,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_silence_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.682880
+		vsnd_duration = 1.68288
 	}
 	synth_ping_silence_not_ready_ping_2d = 
 	{
@@ -10528,7 +10528,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_slork_check_items.vsnd",
 		]
-		vsnd_duration = 1.238730
+		vsnd_duration = 1.23873
 	}
 	synth_ping_slork_dead_ping_2d = 
 	{
@@ -10598,7 +10598,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_slork_was_here.vsnd",
 		]
-		vsnd_duration = 0.989070
+		vsnd_duration = 0.98907
 	}
 	synth_ping_sorry_01_ping_2d = 
 	{
@@ -11198,7 +11198,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_trapper_in_mid.vsnd",
 		]
-		vsnd_duration = 1.095510
+		vsnd_duration = 1.09551
 	}
 	synth_ping_trapper_missing_01_ping_2d = 
 	{
@@ -11288,7 +11288,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_use_ability4_01.vsnd",
 		]
-		vsnd_duration = 1.815850
+		vsnd_duration = 1.81585
 	}
 	synth_ping_use_ability4_02_ping_2d = 
 	{
@@ -11518,7 +11518,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_viper_missing_01.vsnd",
 		]
-		vsnd_duration = 1.109320
+		vsnd_duration = 1.10932
 	}
 	synth_ping_viper_on_top_of_garage_ping_2d = 
 	{
@@ -11608,7 +11608,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_viscous_missing_01.vsnd",
 		]
-		vsnd_duration = 1.222200
+		vsnd_duration = 1.2222
 	}
 	synth_ping_viscous_on_top_of_garage_ping_2d = 
 	{
@@ -11788,7 +11788,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_well_played.vsnd",
 		]
-		vsnd_duration = 0.791950
+		vsnd_duration = 0.79195
 	}
 	synth_ping_with_astro_ping_2d = 
 	{
@@ -11828,7 +11828,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_with_chrono.vsnd",
 		]
-		vsnd_duration = 1.202880
+		vsnd_duration = 1.20288
 	}
 	synth_ping_with_dynamo_ping_2d = 
 	{
@@ -11858,7 +11858,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_with_ghost.vsnd",
 		]
-		vsnd_duration = 1.043560
+		vsnd_duration = 1.04356
 	}
 	synth_ping_with_gigawatt_ping_2d = 
 	{
@@ -11978,7 +11978,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_with_orion.vsnd",
 		]
-		vsnd_duration = 1.022540
+		vsnd_duration = 1.02254
 	}
 	synth_ping_with_shiv_ping_2d = 
 	{
@@ -11998,7 +11998,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_with_slork.vsnd",
 		]
-		vsnd_duration = 1.105170
+		vsnd_duration = 1.10517
 	}
 	synth_ping_with_tengu_ping_2d = 
 	{
@@ -12288,7 +12288,7 @@
 		[
 			"sounds/vo/synth/ping/synth_ping_yamato_dead.vsnd",
 		]
-		vsnd_duration = 0.996190
+		vsnd_duration = 0.99619
 	}
 	synth_ping_yamato_in_mid_ping_2d = 
 	{
@@ -12418,7 +12418,7 @@
 		[
 			"sounds/vo/synth/synth_select_05.vsnd",
 		]
-		vsnd_duration = 1.807460
+		vsnd_duration = 1.80746
 	}
 	synth_select_06_hero_3d = 
 	{
@@ -12538,7 +12538,7 @@
 		[
 			"sounds/vo/synth/synth_unselect_06.vsnd",
 		]
-		vsnd_duration = 2.017120
+		vsnd_duration = 2.01712
 	}
 	synth_unselect_07_hero_3d = 
 	{
@@ -12578,7 +12578,7 @@
 		[
 			"sounds/vo/synth/synth_unselect_10.vsnd",
 		]
-		vsnd_duration = 1.775760
+		vsnd_duration = 1.77576
 	}
 	synth_upgrade_power1_01_hero_3d = 
 	{
@@ -12598,7 +12598,7 @@
 		[
 			"sounds/vo/synth/synth_upgrade_power1_02.vsnd",
 		]
-		vsnd_duration = 1.890590
+		vsnd_duration = 1.89059
 	}
 	synth_upgrade_power1_03_hero_3d = 
 	{
@@ -12688,7 +12688,7 @@
 		[
 			"sounds/vo/synth/synth_upgrade_power2_01.vsnd",
 		]
-		vsnd_duration = 1.594150
+		vsnd_duration = 1.59415
 	}
 	synth_upgrade_power2_02_hero_3d = 
 	{
@@ -12738,7 +12738,7 @@
 		[
 			"sounds/vo/synth/synth_upgrade_power2_06.vsnd",
 		]
-		vsnd_duration = 1.193220
+		vsnd_duration = 1.19322
 	}
 	synth_upgrade_power2_07_hero_3d = 
 	{
@@ -13118,7 +13118,7 @@
 		[
 			"sounds/vo/synth/synth_use_power2_04.vsnd",
 		]
-		vsnd_duration = 1.293900
+		vsnd_duration = 1.2939
 	}
 	synth_use_power2_05_ability_3d = 
 	{
@@ -13168,7 +13168,7 @@
 		[
 			"sounds/vo/synth/synth_use_power2_09.vsnd",
 		]
-		vsnd_duration = 1.154580
+		vsnd_duration = 1.15458
 	}
 	synth_use_power2_10_ability_3d = 
 	{
@@ -13278,7 +13278,7 @@
 		[
 			"sounds/vo/synth/synth_use_power3_10.vsnd",
 		]
-		vsnd_duration = 1.731610
+		vsnd_duration = 1.73161
 	}
 	synth_use_power4_01_ability_3d = 
 	{
@@ -13528,7 +13528,7 @@
 		[
 			"sounds/vo/synth/synth_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.067800
+		vsnd_duration = 1.0678
 	}
 	synth_use_power4_09_hero_announcer = 
 	{
@@ -13538,7 +13538,7 @@
 		[
 			"sounds/vo/synth/synth_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.067800
+		vsnd_duration = 1.0678
 	}
 	synth_use_power4_09_ult_3d = 
 	{
@@ -13548,7 +13548,7 @@
 		[
 			"sounds/vo/synth/synth_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.067800
+		vsnd_duration = 1.0678
 	}
 	synth_use_power4_10_ability_3d = 
 	{
@@ -13558,7 +13558,7 @@
 		[
 			"sounds/vo/synth/synth_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.049070
+		vsnd_duration = 1.04907
 	}
 	synth_use_power4_10_hero_announcer = 
 	{
@@ -13568,7 +13568,7 @@
 		[
 			"sounds/vo/synth/synth_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.049070
+		vsnd_duration = 1.04907
 	}
 	synth_use_power4_10_ult_3d = 
 	{
@@ -13578,6 +13578,6 @@
 		[
 			"sounds/vo/synth/synth_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.049070
+		vsnd_duration = 1.04907
 	}
 }

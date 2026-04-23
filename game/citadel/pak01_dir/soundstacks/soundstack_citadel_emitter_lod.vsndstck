@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -143,19 +141,16 @@
 					}
 				}
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_execute = "1"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "source_info"
 				operator = "game_get_source_info"
 			},
-			
 			{
 				name = "get_entity_info"
 				input_execute = "1"
@@ -167,7 +162,6 @@
 				use_world_position = "@public.position_force_from_input"
 				attachment = "@public.attachment"
 			},
-			
 			{
 				name = "opvar_get_viewing_pawn_position"
 				operator = "opvar_get_float3"
@@ -176,7 +170,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "viewing_entity_position"
 			},
-			
 			{
 				name = "ctrl_distance_position"
 				operator = "ctrl_switch_float3"
@@ -184,14 +177,12 @@
 				input1 = "@globals.output_listener_position"
 				input2 = "@opvar_get_viewing_pawn_position.output"
 			},
-			
 			{
 				name = "distance_to_source"
 				operator = "calc_distance"
 				input_position1 = "@get_entity_info.output_position"
 				input_position2 = "@ctrl_distance_position.output"
 			},
-			
 			{
 				name = "math_inv_force_min_distance"
 				operator = "math_float"
@@ -199,7 +190,6 @@
 				input1 = "1"
 				input2 = "@public.force_layer_distance_to_min"
 			},
-			
 			{
 				name = "math_float_distance_to_min"
 				operator = "math_float"
@@ -207,21 +197,18 @@
 				input1 = "@distance_to_source.output"
 				input2 = "@math_inv_force_min_distance.output"
 			},
-			
 			{
 				name = "layer_distance_filter"
 				operator = "math_filter_float"
 				input = "@math_float_distance_to_min.output"
 				input_max_velocity = "@public.layer_distance_filter_speed"
 			},
-			
 			{
 				name = "remap_distance_close"
 				operator = "math_curve_2d"
 				input = "@layer_distance_filter.output"
 				public_field_name = "public.layer_close_range_vol_ls"
 			},
-			
 			{
 				name = "vol_offset_close"
 				operator = "math_float"
@@ -229,14 +216,12 @@
 				input1 = "@remap_distance_close.output"
 				input2 = "@public.layer_close_vol_offset_db"
 			},
-			
 			{
 				name = "remap_distance_med"
 				operator = "math_curve_2d"
 				input = "@layer_distance_filter.output"
 				public_field_name = "public.layer_med_range_vol_ls"
 			},
-			
 			{
 				name = "vol_offset_mid"
 				operator = "math_float"
@@ -244,14 +229,12 @@
 				input1 = "@remap_distance_med.output"
 				input2 = "@public.layer_mid_vol_offset_db"
 			},
-			
 			{
 				name = "remap_distance_far"
 				operator = "math_curve_2d"
 				input = "@layer_distance_filter.output"
 				public_field_name = "public.layer_far_range_vol_ls"
 			},
-			
 			{
 				name = "vol_offset_far"
 				operator = "math_float"
@@ -259,7 +242,6 @@
 				input1 = "@remap_distance_far.output"
 				input2 = "@public.layer_far_vol_offset_db"
 			},
-			
 			{
 				name = "citadel_default_3d"
 				operator = "sos_import_stack"

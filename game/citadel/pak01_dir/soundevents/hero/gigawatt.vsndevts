@@ -3,10 +3,10 @@
 	Seven.Wpn.Fire = 
 	{
 		base = "Base.Weapon.Pistol"
-		volume = 1.000000
-		low_ammo_threshold = 8.000000
-		low_ammo_vol_offset_db = 2.000000
-		last_shot_vol_offset_db = 0.000000
+		volume = 1.0
+		low_ammo_threshold = 8.0
+		low_ammo_vol_offset_db = 2.0
+		last_shot_vol_offset_db = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/gigawatt/gigawatt_weapon_fire_01.vsnd",
@@ -26,12 +26,12 @@
 	Gigawatt.Wpn.Fire.PowerSurge = 
 	{
 		base = "Base.Weapon.Rifle"
-		volume = 0.000000
-		low_ammo_threshold = 8.000000
-		last_shot_vol_offset_db = 0.000000
-		low_ammo_vol_offset_db = 4.000000
-		tail_vol_offset_db = -6.000000
-		tail_interior_vol_offset_db = -9.000000
+		volume = 0.0
+		low_ammo_threshold = 8.0
+		last_shot_vol_offset_db = 0.0
+		low_ammo_vol_offset_db = 4.0
+		tail_vol_offset_db = -6.0
+		tail_interior_vol_offset_db = -9.0
 		vsnd_files = 
 		[
 			"sounds/abilities/gigawatt/gigawatt_power_surge_fire_01.vsnd",
@@ -51,7 +51,7 @@
 	Seven.Wpn.Impact = 
 	{
 		base = "Base.Bullet.Impact"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/weapons/gigawatt/impacts/surfacelayer/gigawatt_wpn_impact_01.vsnd",
@@ -64,7 +64,7 @@
 			"sounds/weapons/gigawatt/impacts/surfacelayer/gigawatt_wpn_impact_08.vsnd",
 			"sounds/weapons/gigawatt/impacts/surfacelayer/gigawatt_wpn_impact_09.vsnd",
 		]
-		vsnd_duration = 1.425250
+		vsnd_duration = 1.42525
 	}
 	Gigawatt.Wpn.Impact.PowerSurge = 
 	{
@@ -81,12 +81,12 @@
 			"sounds/weapons/gigawatt/impacts/gigawatt_wpn_impact_08.vsnd",
 			"sounds/weapons/gigawatt/impacts/gigawatt_wpn_impact_09.vsnd",
 		]
-		vsnd_duration = 1.425250
+		vsnd_duration = 1.42525
 	}
 	Seven.BulletWhizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/weapons/gigawatt/whizby/seven_weapon_whizby_groupA-001.vsnd",
@@ -115,8 +115,8 @@
 	Seven.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/gigawatt/reload/seven_wpn_reload_start_01.vsnd",
@@ -128,8 +128,8 @@
 	Seven.Wpn.Reload.mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/gigawatt/reload/seven_wpn_reload_mid_01.vsnd",
@@ -141,8 +141,8 @@
 	Seven.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/gigawatt/reload/seven_wpn_reload_end_01.vsnd",
@@ -154,22 +154,22 @@
 	Seven.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -28.000000
+		volume = -28.0
 		vsnd_files = "sounds/weapons/gigawatt/zoom/gigawatt_zoom_in.vsnd"
 		vsnd_duration = 0.626712
 	}
 	Seven.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -26.000000
-		pitch = 0.900000
+		volume = -26.0
+		pitch = 0.9
 		vsnd_files = "sounds/weapons/gigawatt/zoom/gigawatt_zoom_out.vsnd"
 		vsnd_duration = 0.359524
 	}
 	Gigawatt.BulletWhizby.PowerSurge = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/weapons/gigawatt/whizby/seven_weapon_whizby_groupA-001.vsnd",
@@ -198,11 +198,11 @@
 	Gigawatt.BulletWhizby.PowerSurge.R2L = 
 	{
 		base = "Base.Bullet.Whizby"
-		pitch = 1.100000
-		pitch_rand_min = -0.005000
-		pitch_rand_max = 0.600000
-		volume = -18.000000
-		volume_fade_out = 0.001000
+		pitch = 1.1
+		pitch_rand_min = -0.005
+		pitch_rand_max = 0.6
+		volume = -18.0
+		volume_fade_out = 0.001
 		vsnd_files = 
 		[
 			"sounds/weapons/gigawatt/whizby/r2l_01.vsnd",
@@ -233,11 +233,11 @@
 	Gigawatt.BulletWhizby.PowerSurge.L2R = 
 	{
 		base = "Base.Bullet.Whizby"
-		pitch = 1.100000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.600000
-		volume = -18.000000
-		volume_fade_out = 0.001000
+		pitch = 1.1
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.6
+		volume = -18.0
+		volume_fade_out = 0.001
 		vsnd_files = 
 		[
 			"sounds/weapons/gigawatt/whizby/l2r_01.vsnd",
@@ -280,36 +280,36 @@
 	Gigawatt.LightningBall.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_lightning_ball_cast.vsnd"
 		vsnd_duration = 2.924898
 	}
 	Gigawatt.LightningBall.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -3.000000
-		doppler_on = 1.000000
-		doppler_factor = 5.000000
-		volume_fade_out = 0.100000
-		volume_fade_in = 0.500000
-		delay_rand_max = -10.000000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.950000
-		pitch_envelope_scale_max = 1.250000
+		volume = -3.0
+		doppler_on = 1.0
+		doppler_factor = 5.0
+		volume_fade_out = 0.1
+		volume_fade_in = 0.5
+		delay_rand_max = -10.0
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.95
+		pitch_envelope_scale_max = 1.25
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_lightning_ball_projectile_lp.vsnd"
 		vsnd_duration = 19.825397
 	}
 	Gigawatt.LightningBall.Proj.Explo = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_lightning_ball_explode.vsnd"
 		vsnd_duration = 3.814422
 	}
 	Gigawatt.LightningBall.Damage = 
 	{
 		base = "Base.Ability.Projectile"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_max = 0
 		vsnd_files = 
 		[
@@ -327,32 +327,32 @@
 	Gigawatt.StaticCharge.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_static_charge_cast.vsnd"
 		vsnd_duration = 3.372789
 	}
 	Gigawatt.StaticCharge.Start = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 2.000000
-		pitch = 1.200000
+		volume = 2.0
+		pitch = 1.2
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_static_charge_cast.vsnd"
 		vsnd_duration = 3.372789
 	}
 	Gigawatt.StaticCharge.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 2.000000
-		volume_offset_team = 3.000000
-		delay_rand_max = -30.000000
-		param_envelope_enabled = 1.000000
+		volume = 2.0
+		volume_offset_team = 3.0
+		delay_rand_max = -30.0
+		param_envelope_enabled = 1.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_static_charge_lp.vsnd"
 		vsnd_duration = 35.434284
 	}
 	Gigawatt.StaticCharge.Proc = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
+		volume = 0.0
 		filter_include_others = true
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_static_charge_proc.vsnd"
 		vsnd_duration = 3.327029
@@ -361,7 +361,7 @@
 	{
 		base = "Base.Ability.Hit"
 		filter_include_others = true
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/gigawatt/gigawatt_static_charge_proc_other_01.vsnd",
@@ -373,44 +373,44 @@
 	Gigawatt.StaticCharge.Select.Lp = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = -12.000000
-		delay_rand_max = -30.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		pitch = 1.250000
+		volume = -12.0
+		delay_rand_max = -30.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		pitch = 1.25
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_static_charge_lp.vsnd"
 		vsnd_duration = 35.434284
 	}
 	Gigawatt.PowerSurge.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_power_surge_start.vsnd"
 		vsnd_duration = 1.840295
 	}
 	Gigawatt.PowerSurge.End = 
 	{
 		base = "Base.Ability"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_power_surge_stop.vsnd"
 		vsnd_duration = 2.083832
 	}
 	Gigawatt.PowerSurge.Lp = 
 	{
 		base = "Base.Ability"
-		param_envelope_enabled = 1.000000
-		volume = 6.000000
-		delay_rand_max = -30.000000
+		param_envelope_enabled = 1.0
+		volume = 6.0
+		delay_rand_max = -30.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_power_surge_activate_lp.vsnd"
 		vsnd_duration = 62.117371
 	}
 	Gigawatt.PowerSurge.ChainMod.Proc = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -12.000000
-		pitch_rand_min = -0.021000
-		pitch_rand_max = 0.200000
-		pitch = 1.120000
+		volume = -12.0
+		pitch_rand_min = -0.021
+		pitch_rand_max = 0.2
+		pitch = 1.12
 		vsnd_files = 
 		[
 			"sounds/abilities/gigawatt/a3_voltage_drain/proc_1.vsnd",
@@ -424,12 +424,12 @@
 	Gigawatt.PowerSurge.ChainMod.Victim.Impact = 
 	{
 		base = "Base.Ability"
-		volume = -9.000000
-		pitch_rand_min = -0.021000
-		pitch_rand_max = 0.200000
-		pitch = 1.120000
-		limiter_on = 1.000000
-		limiter_max = 2.000000
+		volume = -9.0
+		pitch_rand_min = -0.021
+		pitch_rand_max = 0.2
+		pitch = 1.12
+		limiter_on = 1.0
+		limiter_max = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/gigawatt/a3_voltage_drain/impact_1.vsnd",
@@ -443,46 +443,46 @@
 	Gigawatt.StormCloud.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_storm_cloud_cast.vsnd"
 		vsnd_duration = 5.533968
 	}
 	Gigawatt.StormCloud.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
-		volume_fade_out = 1.000000
-		delay_rand_max = -10.000000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.950000
-		pitch_envelope_scale_max = 1.500000
+		volume = 3.0
+		volume_fade_out = 1.0
+		delay_rand_max = -10.0
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.95
+		pitch_envelope_scale_max = 1.5
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_storm_cloud_lp.vsnd"
 		vsnd_duration = 17.977936
 	}
 	Gigawatt.StormCloud.Bolt.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
-		pitch = 2.000000
+		volume = 0.0
+		pitch = 2.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_storm_cloud_bolt_cast.vsnd"
 		vsnd_duration = 5.386326
 	}
 	Gigawatt.StormCloud.Bolt.Aoe.Lp = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = -4.000000
-		volume_fade_out = 0.200000
-		delay_rand_max = -30.000000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 1.000000
-		pitch_envelope_scale_max = 2.000000
+		volume = -4.0
+		volume_fade_out = 0.2
+		delay_rand_max = -30.0
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 1.0
+		pitch_envelope_scale_max = 2.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_storm_cloud_aoe_lp.vsnd"
 		vsnd_duration = 80.399429
 	}
 	Gigawatt.StormCloud.Bolt.Detonate = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/gigawatt/gigawatt_storm_cloud_bolt_explo_01.vsnd",
@@ -492,12 +492,12 @@
 			"sounds/abilities/gigawatt/gigawatt_storm_cloud_bolt_explo_05.vsnd",
 			"sounds/abilities/gigawatt/gigawatt_storm_cloud_bolt_explo_06.vsnd",
 		]
-		vsnd_duration = 6.000000
+		vsnd_duration = 6.0
 	}
 	Gigawatt.StormCloud.End = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/gigawatt/gigawatt_storm_cloud_end.vsnd"
 		vsnd_duration = 4.723991
 	}
@@ -519,7 +519,7 @@
 	Seven.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/seven/gigawatt_foley_heavy_01.vsnd",
@@ -536,7 +536,7 @@
 	Seven.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/seven/seven_movement_foley_short_01.vsnd",
@@ -552,8 +552,8 @@
 	Seven.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 0.000000
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		volume = 0.0
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/seven/seven_footstep_01.vsnd",
@@ -590,12 +590,12 @@
 	Seven.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -2.000000
+		volume = -2.0
 	}
 	Seven.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -638,7 +638,7 @@
 	Seven.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -4.000000
+		track_2.vsnd_track_vol_offset_db = -4.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",
@@ -683,10 +683,10 @@
 	Seven.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -9.000000
-		track_2.vsnd_track_vol_offset_db = -19.000000
-		track_3.vsnd_track_vol_offset_db = -26.000000
-		track_3.track_percent_chance_to_play = 0.200000
+		track_1.vsnd_track_vol_offset_db = -9.0
+		track_2.vsnd_track_vol_offset_db = -19.0
+		track_3.vsnd_track_vol_offset_db = -26.0
+		track_3.track_percent_chance_to_play = 0.2
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/seven/seven_footstep_01.vsnd",

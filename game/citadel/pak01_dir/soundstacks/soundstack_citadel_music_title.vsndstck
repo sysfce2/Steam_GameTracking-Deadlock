@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.2d"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -46,7 +44,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "opvar_get_hideout_in_intro"
 				operator = "opvar_get_float"
@@ -55,21 +52,18 @@
 				input_operator_name = "opvars"
 				input_field_name = "hideout_in_intro"
 			},
-			
 			{
 				name = "volume_crossfade"
 				operator = "math_filter_float"
 				input = "@opvar_get_hideout_in_intro.output"
 				input_max_velocity = "@public.wet_dry_crossfade_velocity"
 			},
-			
 			{
 				name = "math_volume_dry"
 				input_execute = "1.0"
 				operator = "math_gain_to_db"
 				input = "@volume_crossfade.output"
 			},
-			
 			{
 				name = "math_crossfade_inverse"
 				operator = "math_float"
@@ -77,14 +71,12 @@
 				input1 = "1.0"
 				input2 = "@volume_crossfade.output"
 			},
-			
 			{
 				name = "math_volume_wet"
 				input_execute = "1.0"
 				operator = "math_gain_to_db"
 				input = "@math_crossfade_inverse.output"
 			},
-			
 			{
 				name = "citadel_default_2d"
 				operator = "sos_import_stack"

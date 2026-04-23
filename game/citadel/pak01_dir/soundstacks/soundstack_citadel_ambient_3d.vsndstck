@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -191,7 +189,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "get_opvar_val_min_shop_distance"
 				operator = "opvar_get_float"
@@ -201,7 +198,6 @@
 				input_field_name = "min_shop_distance"
 				input_use_namespace = "false"
 			},
-			
 			{
 				name = "remap_min_shop_distance"
 				input_execute = "@public.enable_shop_music_crossfade"
@@ -209,14 +205,12 @@
 				input = "@get_opvar_val_min_shop_distance.output"
 				public_field_name = "public.crossfade_distance_to_shop"
 			},
-			
 			{
 				name = "volume_to_gain"
 				input_execute = "@public.enable_shop_music_crossfade"
 				operator = "math_db_to_gain"
 				input = "@public.volume"
 			},
-			
 			{
 				name = "math_volume_shop_distance_mult"
 				input_execute = "@public.enable_shop_music_crossfade"
@@ -225,14 +219,12 @@
 				input1 = "@volume_to_gain.output"
 				input2 = "@remap_min_shop_distance.output"
 			},
-			
 			{
 				name = "scaled_volume_db"
 				input_execute = "@public.enable_shop_music_crossfade"
 				operator = "math_gain_to_db"
 				input = "@math_volume_shop_distance_mult.output"
 			},
-			
 			{
 				name = "switch_scale_shop_volume"
 				operator = "ctrl_switch_float"
@@ -240,7 +232,6 @@
 				input1 = "@public.volume"
 				input2 = "@scaled_volume_db.output"
 			},
-			
 			{
 				name = "randomize_position_input"
 				input_execute = "1"
@@ -250,7 +241,6 @@
 				input_radius_min = "@public.randomize_position_min_radius"
 				input_radius_max = "@public.randomize_position_max_radius"
 			},
-			
 			{
 				name = "randomize_position"
 				operator = "math_float3"
@@ -258,7 +248,6 @@
 				input1 = "@public.position_offset"
 				input2 = "@randomize_position_input.output"
 			},
-			
 			{
 				name = "execute_calc_delay"
 				operator = "math_float"
@@ -267,7 +256,6 @@
 				input1 = "@public.first_trigger_use_delay"
 				input2 = "@public.enable_retrigger"
 			},
-			
 			{
 				name = "calc_delay"
 				operator = "math_randomize_float"
@@ -277,7 +265,6 @@
 				input_rand_min = "0"
 				input_rand_max = "@public.retrigger_interval_min"
 			},
-			
 			{
 				name = "citadel_default_3d"
 				operator = "sos_import_stack"
@@ -302,7 +289,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "is_retrigger_enabled"
 				operator = "math_float"
@@ -310,7 +296,6 @@
 				input1 = "@public.enable_retrigger"
 				input2 = "0.500000"
 			},
-			
 			{
 				name = "in_retrigger_radius"
 				input_execute = "@public.enable_retrigger"
@@ -319,7 +304,6 @@
 				input1 = "@citadel_default_3d::citadel_base_3d::distance_to_source.output"
 				input2 = "@public.retrigger_radius"
 			},
-			
 			{
 				name = "retrigger_finite"
 				operator = "math_float"
@@ -328,7 +312,6 @@
 				input1 = "@public.retrigger_count"
 				input2 = "0"
 			},
-			
 			{
 				name = "retrigger_count_reached"
 				operator = "math_float"
@@ -336,7 +319,6 @@
 				input1 = "@retrigger_count.output"
 				input2 = "@public.retrigger_count"
 			},
-			
 			{
 				name = "retrigger_count_stop"
 				operator = "math_float"
@@ -344,7 +326,6 @@
 				input1 = "@retrigger_count_reached.output"
 				input2 = "@retrigger_finite.output"
 			},
-			
 			{
 				name = "out_of_retrigger_radius"
 				input_execute = "@public.enable_retrigger"
@@ -353,7 +334,6 @@
 				input1 = "@public.retrigger_radius"
 				input2 = "0.000000"
 			},
-			
 			{
 				name = "does_not_retrigger_sound"
 				input_execute = "@public.enable_retrigger"
@@ -362,7 +342,6 @@
 				input1 = "@out_of_retrigger_radius.output"
 				input2 = "@retrigger_count_stop.output"
 			},
-			
 			{
 				name = "time_since_last_trigger"
 				input_execute = "@public.enable_retrigger"
@@ -371,7 +350,6 @@
 				input1 = "@citadel_default_3d::citadel_base_3d::get_event_info.output_elapsed_time"
 				input2 = "@last_trigger_time_with_delay.output"
 			},
-			
 			{
 				name = "retrigger_interval_execute"
 				input_execute = "@public.enable_retrigger"
@@ -380,7 +358,6 @@
 				input1 = "@retrigger_interval_is_zero.output"
 				input2 = "@retrigger_sound.output"
 			},
-			
 			{
 				name = "retrigger_interval_random"
 				operator = "math_random_float"
@@ -388,7 +365,6 @@
 				input_min = "@public.retrigger_interval_min"
 				input_max = "@public.retrigger_interval_max"
 			},
-			
 			{
 				name = "retrigger_interval_calc"
 				input_execute = "@public.enable_retrigger"
@@ -397,7 +373,6 @@
 				input1 = "@retrigger_interval_random.output"
 				input2 = "1.000000"
 			},
-			
 			{
 				name = "retrigger_interval_is_zero"
 				input_execute = "@public.enable_retrigger"
@@ -407,7 +382,6 @@
 				input2 = "0.000000"
 				output = "1.000000"
 			},
-			
 			{
 				name = "retrigger_sound"
 				input_execute = "@public.enable_retrigger"
@@ -416,7 +390,6 @@
 				input1 = "@time_since_last_trigger.output"
 				input2 = "@retrigger_interval_calc.output"
 			},
-			
 			{
 				name = "retrigger_count"
 				input_execute = "@retrigger_sound.output"
@@ -426,7 +399,6 @@
 				input2 = "1"
 				output = "0"
 			},
-			
 			{
 				name = "last_trigger_time"
 				operator = "math_float"
@@ -435,7 +407,6 @@
 				input2 = "0.000000"
 				input_execute = "@retrigger_sound.output"
 			},
-			
 			{
 				name = "last_trigger_time_with_delay"
 				operator = "math_float"
@@ -443,7 +414,6 @@
 				input1 = "@last_trigger_time.output"
 				input2 = "@calc_delay.output"
 			},
-			
 			{
 				name = "start_retrigger"
 				operator = "soundevent_start"
@@ -477,7 +447,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "calc_event_finished"
 				input_execute = "@public.enable_retrigger"
@@ -486,7 +455,6 @@
 				input1 = "@does_not_retrigger_sound.output"
 				input2 = "@start_retrigger.output_event_finished"
 			},
-			
 			{
 				name = "calc_event_finished_or_stopped"
 				input_execute = "@public.enable_retrigger"
@@ -495,7 +463,6 @@
 				input1 = "@calc_event_finished.output"
 				input2 = "@citadel_default_3d::citadel_base_3d::get_event_info.output_stopped"
 			},
-			
 			{
 				name = "event_terminator"
 				input_execute = "@public.enable_retrigger"
@@ -503,7 +470,6 @@
 				input_add_dependent = "1.000000"
 				input_clear_dependencies = "@calc_event_finished_or_stopped.output"
 			},
-			
 			{
 				name = "set_occlusion_blend"
 				operator = "container_set_param_number"
@@ -511,7 +477,6 @@
 				input_value = "@citadel_default_3d::citadel_base_3d::citadel_occlusion::output.result"
 				input_name = "Occlusion"
 			},
-			
 			{
 				name = "set_distance_blend"
 				operator = "container_set_param_number"

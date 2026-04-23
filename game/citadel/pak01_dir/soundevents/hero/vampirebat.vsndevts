@@ -3,11 +3,11 @@
 	Vampirebat.Wpn.Fire.Main = 
 	{
 		base = "Base.Weapon.Pistol"
-		volume = 4.000000
-		volume_fade_out = 0.150000
-		tail_vol_offset_db = -6.000000
-		tail_interior_vol_offset_db = -9.000000
-		last_shot_vol_offset_db = 1.000000
+		volume = 4.0
+		volume_fade_out = 0.15
+		tail_vol_offset_db = -6.0
+		tail_interior_vol_offset_db = -9.0
+		last_shot_vol_offset_db = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/vampirebat/vampirebat_weapon_fire_main_01.vsnd",
@@ -41,98 +41,58 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.999681,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.999681, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				0.602586,
-				0.000000,
-				0.000000,
-				-1.653568,
-				0.000000,
-				0.000000,
+				0.602586, 0.0, 0.0, -1.653568,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-3.964286,
-				-0.276190,
-				-0.276190,
-				2.000000,
-				3.000000,
+				3.0, -3.964286, -0.27619, -0.27619,
+				2.0, 3.0,
 			],
 		]
 		low_ammo_progress_offset_db = 
 		[
-			
 			[
-				0.000000,
-				-13.689413,
-				0.000000,
-				58.216866,
-				0.000000,
-				0.000000,
+				0.0, -13.689413, 0.0, 58.216866,
+				0.0, 0.0,
 			],
-			
 			[
-				0.171651,
-				-3.696429,
-				13.689413,
-				13.689413,
-				1.000000,
-				1.000000,
+				0.171651, -3.696429, 13.689413, 13.689413,
+				1.0, 1.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				4.462405,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 4.462405, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files_last_shot = 
 		[
 			"sounds/weapons/geist/geist_wpn_last_shot_01.vsnd",
 		]
-		vsnd_duration = 2.000000
+		vsnd_duration = 2.0
 	}
 	Vampirebat.Wpn.Fire.First = 
 	{
 		base = "Base.Weapon.Pistol"
-		volume = 5.000000
-		tail_vol_offset_db = -6.000000
-		tail_interior_vol_offset_db = -9.000000
-		limiter_max = 0.000000
+		volume = 5.0
+		tail_vol_offset_db = -6.0
+		tail_interior_vol_offset_db = -9.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/vampirebat/vampirebat_weapon_fire_first_01.vsnd",
@@ -166,47 +126,27 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.030522,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.030522,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-3.052233,
-				-0.030522,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -3.052233, -0.030522, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
-		vsnd_duration = 2.000000
+		vsnd_duration = 2.0
 	}
 	Vampirebat.Wpn.Whizby = 
 	{
@@ -219,8 +159,8 @@
 	Vampirebat.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/vampirebat/reload/vampirebat_wpn_reload_start_01.vsnd",
@@ -232,8 +172,8 @@
 	Vampirebat.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/vampirebat/reload/vampirebat_wpn_reload_mid_01.vsnd",
@@ -245,8 +185,8 @@
 	Vampirebat.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/vampirebat/reload/vampirebat_wpn_reload_end_01.vsnd",
@@ -258,7 +198,7 @@
 	VampireBat.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -7.000000
+		track_1.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/nano/nano_r_01.vsnd",
@@ -285,17 +225,17 @@
 	VampireBat.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
+		volume = -4.0
 	}
 	VampireBat.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -2.000000
+		volume = -2.0
 	}
 	VampireBat.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/nano/nano_r_01.vsnd",
@@ -334,12 +274,12 @@
 	VampireBat.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
+		volume = -4.0
 	}
 	VampireBat.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -384,7 +324,7 @@
 	VampireBat.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",
@@ -430,7 +370,7 @@
 	VampireBat.Rake.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/vampirebat/a1_rake/vampirebat_rake_cast_01.vsnd",
@@ -442,62 +382,42 @@
 	VampireBat.Rake.Hit.Confirm = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 3.000000
-		volume_offset_attacker_db = 3.000000
+		volume = 3.0
+		volume_offset_attacker_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/vampirebat/a1_rake/vampirebat_rake_hit_confirm_01.vsnd",
 			"sounds/abilities/vampirebat/a1_rake/vampirebat_rake_hit_confirm_02.vsnd",
 			"sounds/abilities/vampirebat/a1_rake/vampirebat_rake_hit_confirm_03.vsnd",
 		]
-		vsnd_duration = 0.693810
+		vsnd_duration = 0.69381
 	}
 	VampireBat.Rake.Kill.Confirm.Heal = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_offset_player = 5.000000
-		instance_attenuator_enabled = 1.000000
+		volume = 0.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_offset_player = 5.0
+		instance_attenuator_enabled = 1.0
 		vsnd_files = "sounds/abilities/vampirebat/a1_rake/vampirebat_rake_kill_confirm_heal.vsnd"
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-4.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, -4.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				6.000000,
-				-10.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				6.0, -10.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 3.058821
@@ -505,7 +425,7 @@
 	VampireBat.Blink.Begin = 
 	{
 		base = "Base.Ability"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/vampirebat/a2_batblink/vampirebat_blink_start_01.vsnd",
@@ -517,19 +437,19 @@
 	VampireBat.Blink.End = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/vampirebat/a2_batblink/vampirebat_blink_end_01.vsnd",
 			"sounds/abilities/vampirebat/a2_batblink/vampirebat_blink_end_02.vsnd",
 			"sounds/abilities/vampirebat/a2_batblink/vampirebat_blink_end_03.vsnd",
 		]
-		vsnd_duration = 3.637710
+		vsnd_duration = 3.63771
 	}
 	VampireBat.Blink.End.Final = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/vampirebat/a2_batblink/vampirebat_blink_end_final_01.vsnd",
@@ -541,27 +461,27 @@
 	VampireBat.Blink.Travel.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume_fade_in = 0.050000
-		volume_fade_out = 0.150000
-		volume = 3.000000
-		delay_rand_min = -4.000000
-		delay_rand_max = -0.200000
+		volume_fade_in = 0.05
+		volume_fade_out = 0.15
+		volume = 3.0
+		delay_rand_min = -4.0
+		delay_rand_max = -0.2
 		vsnd_files = "sounds/abilities/vampirebat/a2_batblink/vampirebat_blink_travel_lp.vsnd"
-		vsnd_duration = 7.090000
+		vsnd_duration = 7.09
 	}
 	VampireBat.Blink.Mod.End = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/vampirebat/a2_batblink/vampirebat_blink_mod_end.vsnd"
 		vsnd_duration = 2.539864
 	}
 	VampireBat.Blink.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = 2.000000
-		delay = 0.100000
-		whizby_time_to_peak = 0.700000
+		volume = 2.0
+		delay = 0.1
+		whizby_time_to_peak = 0.7
 		vsnd_files = 
 		[
 			"sounds/abilities/vampirebat/a2_batblink/vampirebat_blink_whizby_01.vsnd",
@@ -570,18 +490,18 @@
 			"sounds/abilities/vampirebat/a2_batblink/vampirebat_blink_whizby_04.vsnd",
 			"sounds/abilities/vampirebat/a2_batblink/vampirebat_blink_whizby_05.vsnd",
 		]
-		vsnd_duration = 2.437120
+		vsnd_duration = 2.43712
 	}
 	VampireBat.LoveBites.Buildup = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 5.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.100000
-		limiter_on = 1.000000
-		limiter_max = 4.000000
-		limiter_match_entity = 0.000000
-		volume_offset_attacker_db = 3.000000
+		volume = 5.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.1
+		limiter_on = 1.0
+		limiter_max = 4.0
+		limiter_match_entity = 0.0
+		volume_offset_attacker_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/vampirebat/a3_lovebites/love_bites_buildup_01.vsnd",
@@ -595,75 +515,45 @@
 		]
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				5.000000,
-				-4.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				5.0, -4.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
 		]
-		vsnd_duration = 1.000000
+		vsnd_duration = 1.0
 	}
 	VampireBat.LoveBites.Modifier.Proc = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 3.000000
-		volume_offset_attacker_db = 4.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		limiter_on = 1.000000
-		limiter_max = 3.000000
-		limiter_match_entity = 0.000000
-		instance_attenuator_enabled = 1.000000
+		volume = 3.0
+		volume_offset_attacker_db = 4.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		limiter_on = 1.0
+		limiter_max = 3.0
+		limiter_match_entity = 0.0
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				4.000000,
-				-7.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				4.0, -7.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -679,42 +569,27 @@
 	VampireBat.LoveBites.Bats.Gained = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -2.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		delay = 0.150000
-		limiter_on = 1.000000
-		limiter_max = 3.000000
-		limiter_match_entity = 0.000000
-		instance_attenuator_enabled = 1.000000
+		volume = -2.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		delay = 0.15
+		limiter_on = 1.0
+		limiter_max = 3.0
+		limiter_match_entity = 0.0
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				4.000000,
-				-7.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				4.0, -7.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -725,21 +600,21 @@
 			"sounds/abilities/vampirebat/a3_lovebites/love_bites_bats_gained_04.vsnd",
 			"sounds/abilities/vampirebat/a3_lovebites/love_bites_bats_gained_05.vsnd",
 		]
-		vsnd_duration = 3.625170
+		vsnd_duration = 3.62517
 	}
 	VampireBat.Nox.Nostra.Cast.Delay = 
 	{
 		base = "Base.Ability.Ult"
-		pitch = 1.000000
-		volume = 5.000000
+		pitch = 1.0
+		volume = 5.0
 		vsnd_files = "sounds/abilities/vampirebat/a4_nox_nostra/vampirebat_nox_nostra_cast_delay.vsnd"
 		vsnd_duration = 5.945873
 	}
 	VampireBat.Nox.Nostra.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = 2.000000
-		limiter_max = 8.000000
+		volume = 2.0
+		limiter_max = 8.0
 		vsnd_files = 
 		[
 			"sounds/abilities/vampirebat/a4_nox_nostra/vampirebat_nox_nostra_whizby_01.vsnd",
@@ -759,13 +634,13 @@
 	VampireBat.Nox.Nostra.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -3.000000
-		pitch = 1.500000
-		block_duration = 0.055000
-		limiter_on = 1.000000
-		limiter_max = 3.000000
-		pitch_rand_max = 0.070000
-		pitch_rand_min = -0.070000
+		volume = -3.0
+		pitch = 1.5
+		block_duration = 0.055
+		limiter_on = 1.0
+		limiter_max = 3.0
+		pitch_rand_max = 0.07
+		pitch_rand_min = -0.07
 		vsnd_files = 
 		[
 			"sounds/abilities/vampirebat/a4_nox_nostra/vampirebat_nox_nostra_impact_01.vsnd",
@@ -782,20 +657,20 @@
 	VampireBat.Nox.Nostra.Channel.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		pitch = 1.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.400000
-		volume = -4.000000
-		volume_offset_team = -10.000000
-		delay_rand_min = -5.000000
-		delay_rand_max = -0.200000
+		pitch = 1.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.4
+		volume = -4.0
+		volume_offset_team = -10.0
+		delay_rand_min = -5.0
+		delay_rand_max = -0.2
 		vsnd_files = "sounds/abilities/vampirebat/a4_nox_nostra/vampirebat_nox_nostra_channel_lp.vsnd"
 		vsnd_duration = 4.710295
 	}
 	VampireBat.Nox.Nostra.Channel.End = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/vampirebat/a4_nox_nostra/vampirebat_nox_nostra_channel_end.vsnd"
 		vsnd_duration = 2.929433
 	}

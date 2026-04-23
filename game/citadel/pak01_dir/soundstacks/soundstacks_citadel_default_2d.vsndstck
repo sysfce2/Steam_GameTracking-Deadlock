@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -98,14 +97,12 @@
 					}
 				}
 			},
-			
 			{
 				name = "citadel_8track_parameters"
 				operator = "sos_import_stack"
 				import_stack = "citadel_8track_parameters"
 				auto_connect_public_fields = "true"
 			},
-			
 			{
 				name = "citadel_base_3d"
 				operator = "sos_import_stack"
@@ -126,7 +123,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "pitch_mult"
 				input_execute = "1.000000"
@@ -135,14 +131,12 @@
 				input1 = "@public.pitch_external"
 				input2 = "@citadel_base_3d::pitch_adjustment.output"
 			},
-			
 			{
 				name = "pitch_filter"
 				operator = "math_filter_float"
 				input = "@pitch_mult.output"
 				input_max_velocity = "@public.pitch_filter_rate"
 			},
-			
 			{
 				name = "culling_invert"
 				operator = "math_float"
@@ -151,7 +145,6 @@
 				input1 = "1.000000"
 				input2 = "@citadel_base_3d::greater_than_cull_distance.output"
 			},
-			
 			{
 				name = "not_culling_and_unstopped"
 				operator = "math_float"
@@ -160,7 +153,6 @@
 				input1 = "@culling_invert.output"
 				input2 = "@citadel_base_3d::get_event_info.output_unstopped"
 			},
-			
 			{
 				name = "switch_start_mode"
 				operator = "ctrl_switch_float"
@@ -168,14 +160,12 @@
 				input1 = "@citadel_base_3d::get_event_info.output_unstopped"
 				input2 = "@not_culling_and_unstopped.output"
 			},
-			
 			{
 				name = "set_builtins"
 				operator = "sos_set_builtins"
 				input_execute = "@public.hrtf_on"
 				input_voicegraph = "@public.voicegraph"
 			},
-			
 			{
 				name = "start_vmix"
 				operator = "vmix_voice_start"

@@ -68,7 +68,7 @@
 		[
 			"sounds/vo/bebop/bebop_ally_doorman_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.435000
+		vsnd_duration = 1.435
 	}
 	bebop_ally_drifter_killed_in_lane_01_hero_3d = 
 	{
@@ -298,7 +298,7 @@
 		[
 			"sounds/vo/bebop/bebop_ally_punkgoat_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.443500
+		vsnd_duration = 1.4435
 	}
 	bebop_ally_shiv_killed_in_lane_01_hero_3d = 
 	{
@@ -338,7 +338,7 @@
 		[
 			"sounds/vo/bebop/bebop_ally_swan_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.351563
+		vsnd_duration = 1.351562
 	}
 	bebop_ally_synth_killed_in_lane_01_hero_3d = 
 	{
@@ -348,7 +348,7 @@
 		[
 			"sounds/vo/bebop/bebop_ally_synth_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.274490
+		vsnd_duration = 1.27449
 	}
 	bebop_ally_tengu_killed_in_lane_01_hero_3d = 
 	{
@@ -448,7 +448,7 @@
 		[
 			"sounds/vo/bebop/bebop_ally_yamato_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.525850
+		vsnd_duration = 1.52585
 	}
 	bebop_angry_01_hero_3d = 
 	{
@@ -538,7 +538,7 @@
 		[
 			"sounds/vo/bebop/bebop_angry_05.vsnd",
 		]
-		vsnd_duration = 1.760000
+		vsnd_duration = 1.76
 	}
 	bebop_angry_05_ult_3d = 
 	{
@@ -548,7 +548,7 @@
 		[
 			"sounds/vo/bebop/bebop_angry_05.vsnd",
 		]
-		vsnd_duration = 1.760000
+		vsnd_duration = 1.76
 	}
 	bebop_angry_06_hero_3d = 
 	{
@@ -848,7 +848,7 @@
 		[
 			"sounds/vo/bebop/bebop_concerned_05.vsnd",
 		]
-		vsnd_duration = 1.549320
+		vsnd_duration = 1.54932
 	}
 	bebop_concerned_05_ult_3d = 
 	{
@@ -858,7 +858,7 @@
 		[
 			"sounds/vo/bebop/bebop_concerned_05.vsnd",
 		]
-		vsnd_duration = 1.549320
+		vsnd_duration = 1.54932
 	}
 	bebop_concerned_06_hero_3d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/bebop/bebop_congrats_03.vsnd",
 		]
-		vsnd_duration = 1.591610
+		vsnd_duration = 1.59161
 	}
 	bebop_congrats_04_hero_3d = 
 	{
@@ -1668,7 +1668,7 @@
 		[
 			"sounds/vo/bebop/emote/bebop_effort_melee_small_10.vsnd",
 		]
-		vsnd_duration = 0.745170
+		vsnd_duration = 0.74517
 	}
 	bebop_effort_melee_small_10_emote_melee_effort_3d = 
 	{
@@ -1678,7 +1678,7 @@
 		[
 			"sounds/vo/bebop/emote/bebop_effort_melee_small_10.vsnd",
 		]
-		vsnd_duration = 0.745170
+		vsnd_duration = 0.74517
 	}
 	bebop_end_streak_hero_3d = 
 	{
@@ -1688,7 +1688,7 @@
 		[
 			"sounds/vo/bebop/bebop_end_streak.vsnd",
 		]
-		vsnd_duration = 1.964490
+		vsnd_duration = 1.96449
 	}
 	bebop_enemy_gets_rejuv_01_hero_3d = 
 	{
@@ -1768,7 +1768,7 @@
 		[
 			"sounds/vo/bebop/bebop_happy_03.vsnd",
 		]
-		vsnd_duration = 1.439070
+		vsnd_duration = 1.43907
 	}
 	bebop_happy_03_ult_3d = 
 	{
@@ -1778,7 +1778,7 @@
 		[
 			"sounds/vo/bebop/bebop_happy_03.vsnd",
 		]
-		vsnd_duration = 1.439070
+		vsnd_duration = 1.43907
 	}
 	bebop_happy_04_hero_3d = 
 	{
@@ -2018,7 +2018,7 @@
 		[
 			"sounds/vo/bebop/bebop_hook_lands_10.vsnd",
 		]
-		vsnd_duration = 1.433220
+		vsnd_duration = 1.43322
 	}
 	bebop_hunt_01_hero_3d = 
 	{
@@ -2128,7 +2128,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_anyhero_03.vsnd",
 		]
-		vsnd_duration = 1.849410
+		vsnd_duration = 1.84941
 	}
 	bebop_kill_anyhero_04_hero_3d = 
 	{
@@ -2208,7 +2208,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_astro_01.vsnd",
 		]
-		vsnd_duration = 1.893000
+		vsnd_duration = 1.893
 	}
 	bebop_kill_astro_02_hero_3d = 
 	{
@@ -2288,7 +2288,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_atlas_04.vsnd",
 		]
-		vsnd_duration = 1.690000
+		vsnd_duration = 1.69
 	}
 	bebop_kill_atlas_05_hero_3d = 
 	{
@@ -2358,7 +2358,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_chrono_01.vsnd",
 		]
-		vsnd_duration = 1.565750
+		vsnd_duration = 1.56575
 	}
 	bebop_kill_chrono_02_hero_3d = 
 	{
@@ -2468,7 +2468,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_drifter_02.vsnd",
 		]
-		vsnd_duration = 2.161250
+		vsnd_duration = 2.16125
 	}
 	bebop_kill_drifter_03_hero_3d = 
 	{
@@ -2478,7 +2478,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_drifter_03.vsnd",
 		]
-		vsnd_duration = 2.714000
+		vsnd_duration = 2.714
 	}
 	bebop_kill_drifter_04_hero_3d = 
 	{
@@ -2568,7 +2568,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_forge_02.vsnd",
 		]
-		vsnd_duration = 3.345000
+		vsnd_duration = 3.345
 	}
 	bebop_kill_forge_03_hero_3d = 
 	{
@@ -2638,7 +2638,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_frank_04.vsnd",
 		]
-		vsnd_duration = 1.401000
+		vsnd_duration = 1.401
 	}
 	bebop_kill_frank_05_hero_3d = 
 	{
@@ -2698,7 +2698,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_kelvin_01.vsnd",
 		]
-		vsnd_duration = 1.258050
+		vsnd_duration = 1.25805
 	}
 	bebop_kill_kelvin_02_hero_3d = 
 	{
@@ -2758,7 +2758,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_krill_02.vsnd",
 		]
-		vsnd_duration = 1.275760
+		vsnd_duration = 1.27576
 	}
 	bebop_kill_krill_03_hero_3d = 
 	{
@@ -2938,7 +2938,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_priest_04.vsnd",
 		]
-		vsnd_duration = 1.766000
+		vsnd_duration = 1.766
 	}
 	bebop_kill_priest_05_hero_3d = 
 	{
@@ -2988,7 +2988,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_punkgoat_04.vsnd",
 		]
-		vsnd_duration = 1.866250
+		vsnd_duration = 1.86625
 	}
 	bebop_kill_punkgoat_05_hero_3d = 
 	{
@@ -3268,7 +3268,7 @@
 		[
 			"sounds/vo/bebop/bebop_kill_wraith_05.vsnd",
 		]
-		vsnd_duration = 1.060590
+		vsnd_duration = 1.06059
 	}
 	bebop_kill_yamato_02_hero_3d = 
 	{
@@ -3498,7 +3498,7 @@
 		[
 			"sounds/vo/bebop/bebop_killstreak_start_04.vsnd",
 		]
-		vsnd_duration = 1.712970
+		vsnd_duration = 1.71297
 	}
 	bebop_killstreak_start_04_hero_announcer = 
 	{
@@ -3508,7 +3508,7 @@
 		[
 			"sounds/vo/bebop/bebop_killstreak_start_04.vsnd",
 		]
-		vsnd_duration = 1.712970
+		vsnd_duration = 1.71297
 	}
 	bebop_killstreak_start_05_hero_3d = 
 	{
@@ -3828,7 +3828,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_bebop_dynamo_convo03_04.vsnd",
 		]
-		vsnd_duration = 3.076440
+		vsnd_duration = 3.07644
 	}
 	bebop_match_start_bebop_dynamo_convo03_06_hero_zipline_3d = 
 	{
@@ -4108,7 +4108,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_bebop_hornet_convo03_03.vsnd",
 		]
-		vsnd_duration = 4.424000
+		vsnd_duration = 4.424
 	}
 	bebop_match_start_bebop_inferno_convo01_02_hero_zipline_3d = 
 	{
@@ -4118,7 +4118,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_bebop_inferno_convo01_02.vsnd",
 		]
-		vsnd_duration = 1.283750
+		vsnd_duration = 1.28375
 	}
 	bebop_match_start_bebop_inferno_convo01_04_hero_zipline_3d = 
 	{
@@ -4128,7 +4128,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_bebop_inferno_convo01_04.vsnd",
 		]
-		vsnd_duration = 2.657750
+		vsnd_duration = 2.65775
 	}
 	bebop_match_start_bebop_inferno_convo01_06_hero_zipline_3d = 
 	{
@@ -4278,7 +4278,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_bebop_mirage_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.446750
+		vsnd_duration = 2.44675
 	}
 	bebop_match_start_bebop_mirage_convo01_03_hero_zipline_3d = 
 	{
@@ -4288,7 +4288,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_bebop_mirage_convo01_03.vsnd",
 		]
-		vsnd_duration = 2.468000
+		vsnd_duration = 2.468
 	}
 	bebop_match_start_bebop_mirage_convo02_02_hero_zipline_3d = 
 	{
@@ -4388,7 +4388,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_bebop_orion_convo02_03.vsnd",
 		]
-		vsnd_duration = 2.957800
+		vsnd_duration = 2.9578
 	}
 	bebop_match_start_bebop_orion_convo03_01_hero_zipline_3d = 
 	{
@@ -4428,7 +4428,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_bebop_synth_convo02_01.vsnd",
 		]
-		vsnd_duration = 6.099250
+		vsnd_duration = 6.09925
 	}
 	bebop_match_start_bebop_synth_convo03_02_hero_zipline_3d = 
 	{
@@ -4608,7 +4608,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_doorman_bebop_convo02_01.vsnd",
 		]
-		vsnd_duration = 3.205000
+		vsnd_duration = 3.205
 	}
 	bebop_match_start_doorman_bebop_convo02_03_hero_zipline_3d = 
 	{
@@ -4848,7 +4848,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_viper_bebop_convo03_01.vsnd",
 		]
-		vsnd_duration = 2.092000
+		vsnd_duration = 2.092
 	}
 	bebop_match_start_viper_bebop_convo03_03_hero_zipline_3d = 
 	{
@@ -4858,7 +4858,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_viper_bebop_convo03_03.vsnd",
 		]
-		vsnd_duration = 1.954250
+		vsnd_duration = 1.95425
 	}
 	bebop_match_start_yamato_bebop_convo01_02_hero_zipline_3d = 
 	{
@@ -4898,7 +4898,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_yamato_bebop_convo02_04.vsnd",
 		]
-		vsnd_duration = 2.167250
+		vsnd_duration = 2.16725
 	}
 	bebop_match_start_yamato_bebop_convo03_02_hero_zipline_3d = 
 	{
@@ -4918,7 +4918,7 @@
 		[
 			"sounds/vo/bebop/bebop_match_start_yamato_bebop_convo03_04.vsnd",
 		]
-		vsnd_duration = 7.135250
+		vsnd_duration = 7.13525
 	}
 	bebop_melee_kill_01_hero_3d = 
 	{
@@ -4928,7 +4928,7 @@
 		[
 			"sounds/vo/bebop/bebop_melee_kill_01.vsnd",
 		]
-		vsnd_duration = 1.015760
+		vsnd_duration = 1.01576
 	}
 	bebop_melee_kill_02_hero_3d = 
 	{
@@ -4998,7 +4998,7 @@
 		[
 			"sounds/vo/bebop/bebop_near_miss_03.vsnd",
 		]
-		vsnd_duration = 1.395170
+		vsnd_duration = 1.39517
 	}
 	bebop_near_miss_04_hero_3d = 
 	{
@@ -5128,7 +5128,7 @@
 		[
 			"sounds/vo/bebop/emote/bebop_pain_big_05.vsnd",
 		]
-		vsnd_duration = 1.033810
+		vsnd_duration = 1.03381
 	}
 	bebop_pain_big_06_emote_pain_3d = 
 	{
@@ -5358,7 +5358,7 @@
 		[
 			"sounds/vo/bebop/bebop_parry_01.vsnd",
 		]
-		vsnd_duration = 1.226440
+		vsnd_duration = 1.22644
 	}
 	bebop_parry_02_hero_3d = 
 	{
@@ -5738,7 +5738,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_atlas_under_garage.vsnd",
 		]
-		vsnd_duration = 1.589070
+		vsnd_duration = 1.58907
 	}
 	bebop_ping_atlas_was_here_ping_2d = 
 	{
@@ -5788,7 +5788,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_attack_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.608500
+		vsnd_duration = 1.6085
 	}
 	bebop_ping_attack_cadence_ping_2d = 
 	{
@@ -5808,7 +5808,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_attack_chrono.vsnd",
 		]
-		vsnd_duration = 1.546440
+		vsnd_duration = 1.54644
 	}
 	bebop_ping_attack_doorman_ping_2d = 
 	{
@@ -5878,7 +5878,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_attack_forge.vsnd",
 		]
-		vsnd_duration = 1.440000
+		vsnd_duration = 1.44
 	}
 	bebop_ping_attack_fortuna_ping_2d = 
 	{
@@ -5988,7 +5988,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_attack_krill.vsnd",
 		]
-		vsnd_duration = 1.403560
+		vsnd_duration = 1.40356
 	}
 	bebop_ping_attack_lash_ping_2d = 
 	{
@@ -6298,7 +6298,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_bookworm_missing_01_alt.vsnd",
 		]
-		vsnd_duration = 1.246250
+		vsnd_duration = 1.24625
 	}
 	bebop_ping_bookworm_on_top_of_garage_alt_ping_2d = 
 	{
@@ -6508,7 +6508,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_can_heal_ghost.vsnd",
 		]
-		vsnd_duration = 1.299070
+		vsnd_duration = 1.29907
 	}
 	bebop_ping_can_heal_gigawatt_ping_2d = 
 	{
@@ -6598,7 +6598,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_can_heal_nano.vsnd",
 		]
-		vsnd_duration = 1.490930
+		vsnd_duration = 1.49093
 	}
 	bebop_ping_can_heal_orion_ping_2d = 
 	{
@@ -6648,7 +6648,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_can_heal_synth.vsnd",
 		]
-		vsnd_duration = 1.427800
+		vsnd_duration = 1.4278
 	}
 	bebop_ping_can_heal_tengu_ping_2d = 
 	{
@@ -6818,7 +6818,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_bookworm_03_alt.vsnd",
 		]
-		vsnd_duration = 1.273000
+		vsnd_duration = 1.273
 	}
 	bebop_ping_careful_cadence_01_ping_2d = 
 	{
@@ -6848,7 +6848,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_cadence_03.vsnd",
 		]
-		vsnd_duration = 1.332200
+		vsnd_duration = 1.3322
 	}
 	bebop_ping_careful_chrono_01_ping_2d = 
 	{
@@ -6898,7 +6898,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_doorman_02.vsnd",
 		]
-		vsnd_duration = 1.240000
+		vsnd_duration = 1.24
 	}
 	bebop_ping_careful_doorman_03_ping_2d = 
 	{
@@ -6988,7 +6988,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_forge_01.vsnd",
 		]
-		vsnd_duration = 1.345170
+		vsnd_duration = 1.34517
 	}
 	bebop_ping_careful_forge_02_ping_2d = 
 	{
@@ -7088,7 +7088,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_gigawatt_01.vsnd",
 		]
-		vsnd_duration = 1.194240
+		vsnd_duration = 1.19424
 	}
 	bebop_ping_careful_gigawatt_02_ping_2d = 
 	{
@@ -7228,7 +7228,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_kelvin_02.vsnd",
 		]
-		vsnd_duration = 1.321950
+		vsnd_duration = 1.32195
 	}
 	bebop_ping_careful_kelvin_03_ping_2d = 
 	{
@@ -7248,7 +7248,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_krill_01.vsnd",
 		]
-		vsnd_duration = 1.204830
+		vsnd_duration = 1.20483
 	}
 	bebop_ping_careful_krill_02_ping_2d = 
 	{
@@ -7378,7 +7378,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_orion_02.vsnd",
 		]
-		vsnd_duration = 1.298730
+		vsnd_duration = 1.29873
 	}
 	bebop_ping_careful_orion_03_ping_2d = 
 	{
@@ -7468,7 +7468,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_shiv_02.vsnd",
 		]
-		vsnd_duration = 1.064150
+		vsnd_duration = 1.06415
 	}
 	bebop_ping_careful_shiv_03_ping_2d = 
 	{
@@ -7608,7 +7608,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_vampirebat_03.vsnd",
 		]
-		vsnd_duration = 1.276250
+		vsnd_duration = 1.27625
 	}
 	bebop_ping_careful_viscous_01_ping_2d = 
 	{
@@ -7618,7 +7618,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_viscous_01.vsnd",
 		]
-		vsnd_duration = 1.303560
+		vsnd_duration = 1.30356
 	}
 	bebop_ping_careful_viscous_02_ping_2d = 
 	{
@@ -7698,7 +7698,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_careful_wraith_03.vsnd",
 		]
-		vsnd_duration = 1.060930
+		vsnd_duration = 1.06093
 	}
 	bebop_ping_careful_wrecker_01_ping_2d = 
 	{
@@ -7848,7 +7848,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_chrono_was_here.vsnd",
 		]
-		vsnd_duration = 1.225420
+		vsnd_duration = 1.22542
 	}
 	bebop_ping_clear_troopers_ping_2d = 
 	{
@@ -8078,7 +8078,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_drifter_missing_01.vsnd",
 		]
-		vsnd_duration = 1.456000
+		vsnd_duration = 1.456
 	}
 	bebop_ping_drifter_on_top_of_garage_ping_2d = 
 	{
@@ -8288,7 +8288,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_forge_missing_01.vsnd",
 		]
-		vsnd_duration = 1.618730
+		vsnd_duration = 1.61873
 	}
 	bebop_ping_forge_on_top_of_garage_ping_2d = 
 	{
@@ -8298,7 +8298,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_forge_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.783900
+		vsnd_duration = 1.7839
 	}
 	bebop_ping_forge_on_top_of_mid_ping_2d = 
 	{
@@ -8368,7 +8368,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_frank_dead.vsnd",
 		]
-		vsnd_duration = 1.461000
+		vsnd_duration = 1.461
 	}
 	bebop_ping_frank_in_mid_ping_2d = 
 	{
@@ -8538,7 +8538,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_gigawatt_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.454490
+		vsnd_duration = 1.45449
 	}
 	bebop_ping_gigawatt_check_items_ping_2d = 
 	{
@@ -8558,7 +8558,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_gigawatt_dead.vsnd",
 		]
-		vsnd_duration = 1.289660
+		vsnd_duration = 1.28966
 	}
 	bebop_ping_gigawatt_in_mid_ping_2d = 
 	{
@@ -8598,7 +8598,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_gigawatt_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.432630
+		vsnd_duration = 1.43263
 	}
 	bebop_ping_gigawatt_under_garage_ping_2d = 
 	{
@@ -8818,7 +8818,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_haze_under_garage.vsnd",
 		]
-		vsnd_duration = 1.479070
+		vsnd_duration = 1.47907
 	}
 	bebop_ping_haze_was_here_ping_2d = 
 	{
@@ -9068,7 +9068,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_ignore_chrono.vsnd",
 		]
-		vsnd_duration = 1.417800
+		vsnd_duration = 1.4178
 	}
 	bebop_ping_ignore_doorman_ping_2d = 
 	{
@@ -9078,7 +9078,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_ignore_doorman.vsnd",
 		]
-		vsnd_duration = 1.511500
+		vsnd_duration = 1.5115
 	}
 	bebop_ping_ignore_drifter_ping_2d = 
 	{
@@ -9178,7 +9178,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_ignore_inferno.vsnd",
 		]
-		vsnd_duration = 1.369320
+		vsnd_duration = 1.36932
 	}
 	bebop_ping_ignore_kelvin_ping_2d = 
 	{
@@ -9198,7 +9198,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_ignore_krill.vsnd",
 		]
-		vsnd_duration = 1.114490
+		vsnd_duration = 1.11449
 	}
 	bebop_ping_ignore_lash_ping_2d = 
 	{
@@ -9208,7 +9208,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_ignore_lash.vsnd",
 		]
-		vsnd_duration = 1.098730
+		vsnd_duration = 1.09873
 	}
 	bebop_ping_ignore_mirage_ping_2d = 
 	{
@@ -9228,7 +9228,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_ignore_nano.vsnd",
 		]
-		vsnd_duration = 1.325510
+		vsnd_duration = 1.32551
 	}
 	bebop_ping_ignore_orion_ping_2d = 
 	{
@@ -9288,7 +9288,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_ignore_tengu.vsnd",
 		]
-		vsnd_duration = 1.098980
+		vsnd_duration = 1.09898
 	}
 	bebop_ping_ignore_vampirebat_ping_2d = 
 	{
@@ -9308,7 +9308,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_ignore_viscous.vsnd",
 		]
-		vsnd_duration = 1.297120
+		vsnd_duration = 1.29712
 	}
 	bebop_ping_ignore_warden_ping_2d = 
 	{
@@ -9578,7 +9578,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_kelvin_under_garage.vsnd",
 		]
-		vsnd_duration = 1.489660
+		vsnd_duration = 1.48966
 	}
 	bebop_ping_kelvin_was_here_ping_2d = 
 	{
@@ -9718,7 +9718,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_lash_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.473900
+		vsnd_duration = 1.4739
 	}
 	bebop_ping_lash_check_items_ping_2d = 
 	{
@@ -9728,7 +9728,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_lash_check_items.vsnd",
 		]
-		vsnd_duration = 1.328730
+		vsnd_duration = 1.32873
 	}
 	bebop_ping_lash_dead_ping_2d = 
 	{
@@ -9798,7 +9798,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_lash_was_here.vsnd",
 		]
-		vsnd_duration = 0.989410
+		vsnd_duration = 0.98941
 	}
 	bebop_ping_lets_go_blue_alt_01_ping_2d = 
 	{
@@ -9948,7 +9948,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_mirage_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.664490
+		vsnd_duration = 1.66449
 	}
 	bebop_ping_mirage_on_top_of_mid_ping_2d = 
 	{
@@ -10008,7 +10008,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_missing_green_01.vsnd",
 		]
-		vsnd_duration = 1.095420
+		vsnd_duration = 1.09542
 	}
 	bebop_ping_missing_green_02_ping_2d = 
 	{
@@ -10018,7 +10018,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_missing_green_02.vsnd",
 		]
-		vsnd_duration = 1.184150
+		vsnd_duration = 1.18415
 	}
 	bebop_ping_missing_yellow_01_ping_2d = 
 	{
@@ -10228,7 +10228,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_negative_01.vsnd",
 		]
-		vsnd_duration = 1.066440
+		vsnd_duration = 1.06644
 	}
 	bebop_ping_negative_02_ping_2d = 
 	{
@@ -10338,7 +10338,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_orion_dead.vsnd",
 		]
-		vsnd_duration = 1.454490
+		vsnd_duration = 1.45449
 	}
 	bebop_ping_orion_in_mid_ping_2d = 
 	{
@@ -10358,7 +10358,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_orion_missing_01.vsnd",
 		]
-		vsnd_duration = 1.389660
+		vsnd_duration = 1.38966
 	}
 	bebop_ping_orion_on_top_of_garage_ping_2d = 
 	{
@@ -10478,7 +10478,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_pre_game_02.vsnd",
 		]
-		vsnd_duration = 2.971020
+		vsnd_duration = 2.97102
 	}
 	bebop_ping_pre_game_03_ping_2d = 
 	{
@@ -10488,7 +10488,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_pre_game_03.vsnd",
 		]
-		vsnd_duration = 2.995420
+		vsnd_duration = 2.99542
 	}
 	bebop_ping_pre_game_04_ping_2d = 
 	{
@@ -10568,7 +10568,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_priest_in_mid.vsnd",
 		]
-		vsnd_duration = 1.440250
+		vsnd_duration = 1.44025
 	}
 	bebop_ping_priest_missing_01_ping_2d = 
 	{
@@ -10578,7 +10578,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_priest_missing_01.vsnd",
 		]
-		vsnd_duration = 1.468000
+		vsnd_duration = 1.468
 	}
 	bebop_ping_priest_on_top_of_garage_ping_2d = 
 	{
@@ -10948,7 +10948,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_saw_dynamo.vsnd",
 		]
-		vsnd_duration = 1.289070
+		vsnd_duration = 1.28907
 	}
 	bebop_ping_saw_forge_ping_2d = 
 	{
@@ -10988,7 +10988,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_saw_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.115760
+		vsnd_duration = 1.11576
 	}
 	bebop_ping_saw_haze_ping_2d = 
 	{
@@ -11178,7 +11178,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_saw_wraith.vsnd",
 		]
-		vsnd_duration = 1.019410
+		vsnd_duration = 1.01941
 	}
 	bebop_ping_saw_wrecker_ping_2d = 
 	{
@@ -11268,7 +11268,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_see_boho_01.vsnd",
 		]
-		vsnd_duration = 1.251750
+		vsnd_duration = 1.25175
 	}
 	bebop_ping_see_bookworm_01_alt_ping_2d = 
 	{
@@ -11338,7 +11338,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_see_chrono_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.424240
+		vsnd_duration = 1.42424
 	}
 	bebop_ping_see_chrono_on_roof_ping_2d = 
 	{
@@ -11438,7 +11438,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_see_dynamo_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.469320
+		vsnd_duration = 1.46932
 	}
 	bebop_ping_see_dynamo_on_roof_ping_2d = 
 	{
@@ -11578,7 +11578,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_see_ghost_01.vsnd",
 		]
-		vsnd_duration = 1.285170
+		vsnd_duration = 1.28517
 	}
 	bebop_ping_see_ghost_on_bridge_ping_2d = 
 	{
@@ -11638,7 +11638,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_see_graf_01.vsnd",
 		]
-		vsnd_duration = 1.086000
+		vsnd_duration = 1.086
 	}
 	bebop_ping_see_haze_on_bridge_ping_2d = 
 	{
@@ -11838,7 +11838,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_see_mirage_01.vsnd",
 		]
-		vsnd_duration = 1.209070
+		vsnd_duration = 1.20907
 	}
 	bebop_ping_see_mirage_on_bridge_ping_2d = 
 	{
@@ -11968,7 +11968,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_see_punkgoat_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.279250
+		vsnd_duration = 1.27925
 	}
 	bebop_ping_see_punkgoat_on_roof_ping_2d = 
 	{
@@ -12038,7 +12038,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_see_swan_01.vsnd",
 		]
-		vsnd_duration = 1.177000
+		vsnd_duration = 1.177
 	}
 	bebop_ping_see_synth_01_ping_2d = 
 	{
@@ -12268,7 +12268,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_see_yamato_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.463220
+		vsnd_duration = 1.46322
 	}
 	bebop_ping_see_yamato_on_roof_ping_2d = 
 	{
@@ -12328,7 +12328,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_shiv_in_mid.vsnd",
 		]
-		vsnd_duration = 1.211610
+		vsnd_duration = 1.21161
 	}
 	bebop_ping_shiv_missing_01_ping_2d = 
 	{
@@ -12358,7 +12358,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_shiv_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.355850
+		vsnd_duration = 1.35585
 	}
 	bebop_ping_shiv_under_garage_ping_2d = 
 	{
@@ -12368,7 +12368,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_shiv_under_garage.vsnd",
 		]
-		vsnd_duration = 1.449410
+		vsnd_duration = 1.44941
 	}
 	bebop_ping_shiv_was_here_ping_2d = 
 	{
@@ -12388,7 +12388,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_silence_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.877710
+		vsnd_duration = 1.87771
 	}
 	bebop_ping_silence_not_ready_ping_2d = 
 	{
@@ -12488,7 +12488,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_stun_atlas_01.vsnd",
 		]
-		vsnd_duration = 1.241270
+		vsnd_duration = 1.24127
 	}
 	bebop_ping_stun_bookworm_01_alt_ping_2d = 
 	{
@@ -12548,7 +12548,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_stun_dynamo_01.vsnd",
 		]
-		vsnd_duration = 1.395850
+		vsnd_duration = 1.39585
 	}
 	bebop_ping_stun_forge_01_ping_2d = 
 	{
@@ -12618,7 +12618,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_stun_inferno_01.vsnd",
 		]
-		vsnd_duration = 1.298730
+		vsnd_duration = 1.29873
 	}
 	bebop_ping_stun_kelvin_01_ping_2d = 
 	{
@@ -12648,7 +12648,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_stun_lash_01.vsnd",
 		]
-		vsnd_duration = 1.545850
+		vsnd_duration = 1.54585
 	}
 	bebop_ping_stun_mirage_01_ping_2d = 
 	{
@@ -12838,7 +12838,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_synth_dead.vsnd",
 		]
-		vsnd_duration = 1.171360
+		vsnd_duration = 1.17136
 	}
 	bebop_ping_synth_in_mid_ping_2d = 
 	{
@@ -12908,7 +12908,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_t1_under_attack.vsnd",
 		]
-		vsnd_duration = 1.531020
+		vsnd_duration = 1.53102
 	}
 	bebop_ping_t2_under_attack_ping_2d = 
 	{
@@ -12978,7 +12978,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_tengu_in_mid.vsnd",
 		]
-		vsnd_duration = 1.130590
+		vsnd_duration = 1.13059
 	}
 	bebop_ping_tengu_missing_01_ping_2d = 
 	{
@@ -13018,7 +13018,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_tengu_under_garage.vsnd",
 		]
-		vsnd_duration = 1.383220
+		vsnd_duration = 1.38322
 	}
 	bebop_ping_tengu_was_here_ping_2d = 
 	{
@@ -13078,7 +13078,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_theyre_in_mid.vsnd",
 		]
-		vsnd_duration = 0.984150
+		vsnd_duration = 0.98415
 	}
 	bebop_ping_theyre_on_top_of_garage_ping_2d = 
 	{
@@ -13098,7 +13098,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_theyre_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.210000
+		vsnd_duration = 1.21
 	}
 	bebop_ping_theyre_under_garage_ping_2d = 
 	{
@@ -13198,7 +13198,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_use_ability4_06.vsnd",
 		]
-		vsnd_duration = 1.074150
+		vsnd_duration = 1.07415
 	}
 	bebop_ping_use_ability4_07_ping_2d = 
 	{
@@ -13228,7 +13228,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_use_ability4_09.vsnd",
 		]
-		vsnd_duration = 1.612540
+		vsnd_duration = 1.61254
 	}
 	bebop_ping_use_ability4_10_ping_2d = 
 	{
@@ -13258,7 +13258,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_use_glitch.vsnd",
 		]
-		vsnd_duration = 1.420340
+		vsnd_duration = 1.42034
 	}
 	bebop_ping_use_health_nova_ping_2d = 
 	{
@@ -13298,7 +13298,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_use_refresher.vsnd",
 		]
-		vsnd_duration = 1.519410
+		vsnd_duration = 1.51941
 	}
 	bebop_ping_use_rupture_ping_2d = 
 	{
@@ -13378,7 +13378,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_vampirebat_in_mid.vsnd",
 		]
-		vsnd_duration = 1.239750
+		vsnd_duration = 1.23975
 	}
 	bebop_ping_vampirebat_missing_01_ping_2d = 
 	{
@@ -13588,7 +13588,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_warden_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.541360
+		vsnd_duration = 1.54136
 	}
 	bebop_ping_warden_on_top_of_mid_ping_2d = 
 	{
@@ -13688,7 +13688,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_with_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.308750
+		vsnd_duration = 1.30875
 	}
 	bebop_ping_with_cadence_ping_2d = 
 	{
@@ -13718,7 +13718,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_with_doorman.vsnd",
 		]
-		vsnd_duration = 1.273250
+		vsnd_duration = 1.27325
 	}
 	bebop_ping_with_drifter_ping_2d = 
 	{
@@ -13818,7 +13818,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_with_kelvin.vsnd",
 		]
-		vsnd_duration = 1.145850
+		vsnd_duration = 1.14585
 	}
 	bebop_ping_with_krill_ping_2d = 
 	{
@@ -13858,7 +13858,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_with_nano.vsnd",
 		]
-		vsnd_duration = 1.301950
+		vsnd_duration = 1.30195
 	}
 	bebop_ping_with_orion_ping_2d = 
 	{
@@ -14098,7 +14098,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_wrecker_dead.vsnd",
 		]
-		vsnd_duration = 1.283810
+		vsnd_duration = 1.28381
 	}
 	bebop_ping_wrecker_in_mid_ping_2d = 
 	{
@@ -14158,7 +14158,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_wrecker_was_here.vsnd",
 		]
-		vsnd_duration = 1.171360
+		vsnd_duration = 1.17136
 	}
 	bebop_ping_yamato_almost_respawn_ping_2d = 
 	{
@@ -14198,7 +14198,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_yamato_in_mid.vsnd",
 		]
-		vsnd_duration = 1.355850
+		vsnd_duration = 1.35585
 	}
 	bebop_ping_yamato_missing_01_ping_2d = 
 	{
@@ -14268,7 +14268,7 @@
 		[
 			"sounds/vo/bebop/ping/bebop_ping_yellow_help_02.vsnd",
 		]
-		vsnd_duration = 1.212970
+		vsnd_duration = 1.21297
 	}
 	bebop_revenge_kill_hero_3d = 
 	{
@@ -14558,7 +14558,7 @@
 		[
 			"sounds/vo/bebop/bebop_t2_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 1.396780
+		vsnd_duration = 1.39678
 	}
 	bebop_t2_shop_reminder_03_hero_3d = 
 	{
@@ -14688,7 +14688,7 @@
 		[
 			"sounds/vo/bebop/bebop_unselect_01.vsnd",
 		]
-		vsnd_duration = 1.940680
+		vsnd_duration = 1.94068
 	}
 	bebop_unselect_02_hero_3d = 
 	{
@@ -14728,7 +14728,7 @@
 		[
 			"sounds/vo/bebop/bebop_unselect_05.vsnd",
 		]
-		vsnd_duration = 2.303560
+		vsnd_duration = 2.30356
 	}
 	bebop_unselect_06_hero_3d = 
 	{
@@ -14808,7 +14808,7 @@
 		[
 			"sounds/vo/bebop/bebop_upgrade_power1_03.vsnd",
 		]
-		vsnd_duration = 1.896780
+		vsnd_duration = 1.89678
 	}
 	bebop_upgrade_power1_04_hero_3d = 
 	{
@@ -14918,7 +14918,7 @@
 		[
 			"sounds/vo/bebop/bebop_upgrade_power2_05.vsnd",
 		]
-		vsnd_duration = 2.175170
+		vsnd_duration = 2.17517
 	}
 	bebop_upgrade_power2_06_hero_3d = 
 	{
@@ -14928,7 +14928,7 @@
 		[
 			"sounds/vo/bebop/bebop_upgrade_power2_06.vsnd",
 		]
-		vsnd_duration = 1.811610
+		vsnd_duration = 1.81161
 	}
 	bebop_upgrade_power2_07_hero_3d = 
 	{
@@ -15078,7 +15078,7 @@
 		[
 			"sounds/vo/bebop/bebop_upgrade_power4_01.vsnd",
 		]
-		vsnd_duration = 6.716100
+		vsnd_duration = 6.7161
 	}
 	bebop_upgrade_power4_02_hero_3d = 
 	{
@@ -15128,7 +15128,7 @@
 		[
 			"sounds/vo/bebop/bebop_upgrade_power4_06.vsnd",
 		]
-		vsnd_duration = 2.554240
+		vsnd_duration = 2.55424
 	}
 	bebop_upgrade_power4_07_hero_3d = 
 	{
@@ -15138,7 +15138,7 @@
 		[
 			"sounds/vo/bebop/bebop_upgrade_power4_07.vsnd",
 		]
-		vsnd_duration = 2.710340
+		vsnd_duration = 2.71034
 	}
 	bebop_upgrade_power4_08_hero_3d = 
 	{
@@ -15188,7 +15188,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_ability_refresher_02.vsnd",
 		]
-		vsnd_duration = 1.233500
+		vsnd_duration = 1.2335
 	}
 	bebop_use_ability_refresher_03_ability_3d = 
 	{
@@ -15208,7 +15208,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_colossus_01.vsnd",
 		]
-		vsnd_duration = 1.132000
+		vsnd_duration = 1.132
 	}
 	bebop_use_colossus_02_ability_3d = 
 	{
@@ -15648,7 +15648,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_power3_03.vsnd",
 		]
-		vsnd_duration = 1.150340
+		vsnd_duration = 1.15034
 	}
 	bebop_use_power3_04_ability_3d = 
 	{
@@ -15728,7 +15728,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_power4_01.vsnd",
 		]
-		vsnd_duration = 1.564490
+		vsnd_duration = 1.56449
 	}
 	bebop_use_power4_01_hero_announcer = 
 	{
@@ -15738,7 +15738,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_power4_01.vsnd",
 		]
-		vsnd_duration = 1.564490
+		vsnd_duration = 1.56449
 	}
 	bebop_use_power4_01_ult_3d = 
 	{
@@ -15748,7 +15748,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_power4_01.vsnd",
 		]
-		vsnd_duration = 1.564490
+		vsnd_duration = 1.56449
 	}
 	bebop_use_power4_02_ability_3d = 
 	{
@@ -15878,7 +15878,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_power4_06.vsnd",
 		]
-		vsnd_duration = 1.349070
+		vsnd_duration = 1.34907
 	}
 	bebop_use_power4_06_hero_announcer = 
 	{
@@ -15888,7 +15888,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_power4_06.vsnd",
 		]
-		vsnd_duration = 1.349070
+		vsnd_duration = 1.34907
 	}
 	bebop_use_power4_06_ult_3d = 
 	{
@@ -15898,7 +15898,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_power4_06.vsnd",
 		]
-		vsnd_duration = 1.349070
+		vsnd_duration = 1.34907
 	}
 	bebop_use_power4_07_ability_3d = 
 	{
@@ -15938,7 +15938,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_power4_08.vsnd",
 		]
-		vsnd_duration = 1.219410
+		vsnd_duration = 1.21941
 	}
 	bebop_use_power4_08_hero_announcer = 
 	{
@@ -15948,7 +15948,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_power4_08.vsnd",
 		]
-		vsnd_duration = 1.219410
+		vsnd_duration = 1.21941
 	}
 	bebop_use_power4_08_ult_3d = 
 	{
@@ -15958,7 +15958,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_power4_08.vsnd",
 		]
-		vsnd_duration = 1.219410
+		vsnd_duration = 1.21941
 	}
 	bebop_use_power4_09_ability_3d = 
 	{
@@ -16048,7 +16048,7 @@
 		[
 			"sounds/vo/bebop/bebop_use_shadow_weave_03.vsnd",
 		]
-		vsnd_duration = 1.600590
+		vsnd_duration = 1.60059
 	}
 	bebop_use_silencer_01_ability_3d = 
 	{

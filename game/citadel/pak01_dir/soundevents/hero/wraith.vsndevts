@@ -3,11 +3,11 @@
 	Wraith.Wpn.Fire.Main = 
 	{
 		base = "Base.Weapon.MachineGun"
-		volume = 0.000000
-		volume_fade_out = 0.250000
-		tail_vol_offset_db = -5.000000
-		low_ammo_threshold = 8.000000
-		last_shot_vol_offset_db = 3.000000
+		volume = 0.0
+		volume_fade_out = 0.25
+		tail_vol_offset_db = -5.0
+		low_ammo_threshold = 8.0
+		last_shot_vol_offset_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/weapons/wraith/wraith_weapon_fire_main_01.vsnd",
@@ -28,69 +28,44 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.999681,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.999681, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.440422,
-				0.000000,
-				0.000000,
-				-0.646341,
-				0.000000,
-				0.000000,
+				1.440422, 0.0, 0.0, -0.646341,
+				0.0, 0.0,
 			],
-			
 			[
-				5.000000,
-				-2.300702,
-				-0.276190,
-				-0.276190,
-				2.000000,
-				3.000000,
+				5.0, -2.300702, -0.27619, -0.27619,
+				2.0, 3.0,
 			],
 		]
 		vsnd_files_last_shot = 
 		[
 			"sounds/weapons/wraith/wraith_wpn_last_shot_01.vsnd",
 		]
-		vsnd_duration = 1.000000
+		vsnd_duration = 1.0
 	}
 	Wraith.Wpn.Fire.First = 
 	{
 		base = "Base.Weapon.MachineGun"
-		volume = 6.000000
-		volume_fade_out = 0.250000
-		low_ammo_vol_offset_db = -2.000000
-		tail_vol_offset_db = -5.000000
-		limiter_max = 0.000000
+		volume = 6.0
+		volume_fade_out = 0.25
+		low_ammo_vol_offset_db = -2.0
+		tail_vol_offset_db = -5.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/wraith/wraith_weapon_fire_first_01.vsnd",
@@ -102,44 +77,24 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.030522,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.030522,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-3.052233,
-				-0.030522,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -3.052233, -0.030522, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 0.351043
@@ -147,7 +102,7 @@
 	Wraith.Wpn.Fire.Release = 
 	{
 		base = "Base.Weapon.Tail"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files_tail = 
 		[
 			"sounds/weapons/wraith/wraith_weapon_fire_tail_01.vsnd",
@@ -159,23 +114,13 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.999681,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.999681, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 1.884762
@@ -183,7 +128,7 @@
 	Wraith.Wpn.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/wraith/wraith_weapon_whizby_groupA-001.vsnd",
@@ -226,22 +171,22 @@
 	Wraith.Wpn.Zoom.In = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -20.000000
+		volume = -20.0
 		vsnd_files = "sounds/weapons/wraith/zoom/in.vsnd"
 		vsnd_duration = 1.323604
 	}
 	Wraith.Wpn.Zoom.Out = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -20.000000
+		volume = -20.0
 		vsnd_files = "sounds/weapons/wraith/zoom/out.vsnd"
 		vsnd_duration = 1.829146
 	}
 	Wraith.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -4.000000
-		mono_downmix_enabled = 0.000000
+		volume = -4.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/wraith/reload/wraith_wpn_reload_start_01.vsnd",
@@ -253,8 +198,8 @@
 	Wraith.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/wraith/reload/wraith_wpn_reload_end_01.vsnd",
@@ -278,7 +223,7 @@
 	Wraith.CardTrick.Proc = 
 	{
 		base = "Base.Ability"
-		volume = 4.500000
+		volume = 4.5
 		track_1.vsnd_selection_type = "index"
 		vsnd_files = 
 		[
@@ -294,9 +239,9 @@
 	Wraith.CardTrick.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
+		volume = 0.0
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
 		track_1.vsnd_selection_type = "index"
 		vsnd_files = 
 		[
@@ -312,18 +257,18 @@
 	Wraith.CardTrick.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		pitch = 0.900000
-		volume = 8.000000
-		delay_rand_min = -3.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
+		pitch = 0.9
+		volume = 8.0
+		delay_rand_min = -3.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
 		vsnd_files = "sounds/abilities/wraith/royalflush_proj.vsnd"
 		vsnd_duration = 2.793991
 	}
 	Wraith.CardTrick.Proj.Impact = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/wraith/wraith_card_trick_proj_impact_01.vsnd",
@@ -335,7 +280,7 @@
 	Wraith.CardTrick.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/wraith/wraith_card_trick_hit_01.vsnd",
@@ -347,8 +292,8 @@
 	Wraith.ProjectMind.Select = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		pitch = 0.960000
+		volume = 0.0
+		pitch = 0.96
 		vsnd_files = 
 		[
 			"sounds/abilities/wraith/projectmind_select_01.vsnd",
@@ -363,7 +308,7 @@
 	Wraith.ProjectMind.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/wraith/projectmind_deselect_01.vsnd",
@@ -379,14 +324,14 @@
 	Wraith.ProjectMind.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/wraith/projectmind_travel.vsnd"
 		vsnd_duration = 1.880612
 	}
 	Wraith.ProjectMind.Arrive = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/wraith/projectmind_arrive_01.vsnd",
@@ -396,40 +341,40 @@
 			"sounds/abilities/wraith/projectmind_arrive_05.vsnd",
 			"sounds/abilities/wraith/projectmind_arrive_06.vsnd",
 		]
-		vsnd_duration = 1.390000
+		vsnd_duration = 1.39
 	}
 	Wraith.RapidFire.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 5.000000
-		pitch = 0.950000
+		volume = 5.0
+		pitch = 0.95
 		vsnd_files = "sounds/abilities/wraith/wraith_psychicpulse_cast.vsnd"
 		vsnd_duration = 4.690249
 	}
 	Wraith.Telekinesis.Victim.Alert = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 2.000000
-		pitch = 1.100000
+		volume = 2.0
+		pitch = 1.1
 		vsnd_files = "sounds/abilities/wraith/psychic_lift_victim.vsnd"
 		vsnd_duration = 2.740917
 	}
 	Wraith.Telekenisis.Proj.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		play_from_listener_player = 0.000000
-		delay_rand_min = -2.000000
-		volume_fade_out = 0.100000
-		volume_fade_in = 0.100000
-		pitch = 1.020000
-		volume = 4.000000
+		play_from_listener_player = 0.0
+		delay_rand_min = -2.0
+		volume_fade_out = 0.1
+		volume_fade_in = 0.1
+		pitch = 1.02
+		volume = 4.0
 		vsnd_files = "sounds/abilities/wraith/telekinesis_travel_lp.vsnd"
 		vsnd_duration = 1.772109
 	}
 	Wraith.Telekinesis.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
+		volume = 2.0
 		filter_include_others = true
 		vsnd_files = "sounds/abilities/wraith/psychic_lift_impact.vsnd"
 		vsnd_duration = 2.714208
@@ -437,42 +382,42 @@
 	Wraith.Telekenisis.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
-		delay_rand_min = -2.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
+		volume = -3.0
+		delay_rand_min = -2.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/wraith/telekinesis_select_lp.vsnd"
 		vsnd_duration = 6.273197
 	}
 	Wraith.Telekenisis.Select = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = "sounds/abilities/wraith/telekinesis_select.vsnd"
 		vsnd_duration = 1.571429
 	}
 	Wraith.Telekenisis.Cast.Delay = 
 	{
 		base = "Base.Ability.Ult.CC"
-		volume = 4.000000
-		volume_offset_opponent = 3.000000
+		volume = 4.0
+		volume_offset_opponent = 3.0
 		vsnd_files = "sounds/abilities/wraith/telekinesis_cast_start.vsnd"
 		vsnd_duration = 2.635533
 	}
 	Wraith.Telekenisis.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = "sounds/abilities/wraith/telekinesis_travel_start.vsnd"
 		vsnd_duration = 1.039932
 	}
 	Wraith.Telekenisis.Slam = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
+		volume = 0.0
 		filter_include_others = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.100000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/lash/a4_death_slam/lash_death_slam_impact_01.vsnd",
@@ -488,8 +433,8 @@
 	Wraith.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
-		track_1.vsnd_track_vol_offset_db = -5.000000
+		volume = -5.0
+		track_1.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/wraith/wraith_movement_foley_short_01.vsnd",
@@ -533,8 +478,8 @@
 	Wraith.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = -1.000000
-		track_2.vsnd_track_vol_offset_db = -3.000000
+		volume = -1.0
+		track_2.vsnd_track_vol_offset_db = -3.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/wraith/wraith_jump_land_01.vsnd",
@@ -561,7 +506,7 @@
 			"sounds/player/footsteps/wraith/wraith_footstep_13.vsnd",
 			"sounds/player/footsteps/wraith/wraith_footstep_14.vsnd",
 		]
-		vsnd_duration = 0.729500
+		vsnd_duration = 0.7295
 	}
 	Wraith.Mantle = 
 	{
@@ -570,7 +515,7 @@
 	Wraith.Melee.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		delay = 0.000000
+		delay = 0.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_charged_01.vsnd",
@@ -616,10 +561,10 @@
 	Wraith.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -5.000000
-		track_2.vsnd_track_vol_offset_db = -19.000000
-		track_3.vsnd_track_vol_offset_db = -7.000000
-		track_3.track_percent_chance_to_play = 0.600000
+		track_1.vsnd_track_vol_offset_db = -5.0
+		track_2.vsnd_track_vol_offset_db = -19.0
+		track_3.vsnd_track_vol_offset_db = -7.0
+		track_3.track_percent_chance_to_play = 0.6
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/wraith/wraith_footstep_01.vsnd",

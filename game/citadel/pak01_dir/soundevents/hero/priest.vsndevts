@@ -3,11 +3,11 @@
 	Priest.Wpn.Fire.Main = 
 	{
 		base = "Base.Weapon.MachineGun"
-		volume = 1.000000
-		volume_fade_out = 0.200000
-		low_ammo_vol_offset_db = 2.000000
-		tail_vol_offset_db = -7.000000
-		last_shot_vol_offset_db = 2.000000
+		volume = 1.0
+		volume_fade_out = 0.2
+		low_ammo_vol_offset_db = 2.0
+		tail_vol_offset_db = -7.0
+		last_shot_vol_offset_db = 2.0
 		vsnd_files_low_ammo = 
 		[
 			"sounds/weapons/nano/calico_weapon_fire_mech_01.vsnd",
@@ -43,23 +43,13 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-6.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -6.0, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files_last_shot = 
@@ -71,8 +61,8 @@
 	Priest.Wpn.Fire.First = 
 	{
 		base = "Priest.Wpn.Fire.Main"
-		transient_offset_db = 4.000000
-		limiter_max = 0.000000
+		transient_offset_db = 4.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/priest/priest_wpn_fire_first_01.vsnd",
@@ -88,7 +78,7 @@
 	Priest.Wpn.Fire.Release = 
 	{
 		base = "Base.Weapon.Tail"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files_tail = 
 		[
 			"sounds/weapons/priest/priest_wpn_fire_release_01.vsnd",
@@ -101,44 +91,24 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.999681,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.999681, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 2.711429
@@ -150,14 +120,14 @@
 	Priest.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = "sounds/weapons/nano/zoomin.vsnd"
 		vsnd_duration = 0.247166
 	}
 	Priest.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = "sounds/weapons/nano/zoomout.vsnd"
 		vsnd_duration = 0.418118
 	}
@@ -168,8 +138,8 @@
 	Priest.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/priest/reload/priest_wpn_reload_start_01.vsnd",
@@ -181,8 +151,8 @@
 	Priest.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/priest/reload/priest_wpn_reload_mid_01.vsnd",
@@ -194,8 +164,8 @@
 	Priest.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/priest/reload/priest_wpn_reload_end_01.vsnd",
@@ -207,7 +177,7 @@
 	Priest.Grenade.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_shredding_flames_cast_01.vsnd",
@@ -219,17 +189,17 @@
 	Priest.Grenade.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 0.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
-		delay_rand_min = -6.000000
+		volume = 0.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		delay_rand_min = -6.0
 		vsnd_files = "sounds/abilities/priest/priest_shredding_flames_proj_lp_01.vsnd"
 		vsnd_duration = 6.375261
 	}
 	Priest.Grenade.Explode = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_shredding_flames_explode_01.vsnd",
@@ -241,8 +211,8 @@
 	Priest.Grenade.Bounce = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -3.000000
-		block_duration = 0.100000
+		volume = -3.0
+		block_duration = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_shredding_flames_bounce_01.vsnd",
@@ -255,59 +225,39 @@
 	Priest.Grenade.Modifier.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -9.000000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.500000
-		delay_rand_min = -6.000000
+		volume = -9.0
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
+		delay_rand_min = -6.0
 		vsnd_files = "sounds/abilities/priest/priest_shredding_flames_mod_lp_01.vsnd"
-		instance_attenuator_enabled = 1.000000
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-4.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, -4.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				4.000000,
-				-8.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				4.0, -8.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
-		vsnd_duration = 6.540680
+		vsnd_duration = 6.54068
 	}
 	Priest.Grenade.Modifier.Start = 
 	{
 		base = "Base.Ability.Hit"
-		volume = -4.000000
-		limiter_on = 1.000000
-		limiter_max = 2.000000
+		volume = -4.0
+		limiter_on = 1.0
+		limiter_max = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_shredding_flames_hit_01.vsnd",
@@ -321,7 +271,7 @@
 	Priest.Slugshot.Cast.Delay = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_a2_gutshot_cock_01.vsnd",
@@ -333,7 +283,7 @@
 	Priest.Slugshot.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_a2_gutshot_fire_01.vsnd",
@@ -345,7 +295,7 @@
 	Priest.Slugshot.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
+		volume = 0.0
 		filter_include_others = true
 		vsnd_files = 
 		[
@@ -358,7 +308,7 @@
 	Priest.Trap.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_trap_cast_01.vsnd",
@@ -371,7 +321,7 @@
 	{
 		base = "Base.Ability.Hit"
 		filter_include_others = true
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_trap_trip_01.vsnd",
@@ -383,7 +333,7 @@
 	Priest.Trap.Expire = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_trap_expire_01.vsnd",
@@ -395,30 +345,30 @@
 	Priest.Trap.Proj.Thrown.Lp = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -9.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		delay_rand_min = -2.000000
-		volume_offset_opponent = 4.000000
+		volume = -9.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay_rand_min = -2.0
+		volume_offset_opponent = 4.0
 		vsnd_files = "sounds/abilities/priest/priest_trap_thrown_lp_01.vsnd"
 		vsnd_duration = 5.756123
 	}
 	Priest.Trap.Proj.Armed.Lp = 
 	{
 		base = "Base.Ability.Detached.Close"
-		volume = -10.000000
-		delay_rand_min = -4.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
-		volume_offset_opponent = 3.000000
+		volume = -10.0
+		delay_rand_min = -4.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		volume_offset_opponent = 3.0
 		vsnd_files = "sounds/abilities/priest/priest_trap_armed_lp_01.vsnd"
 		vsnd_duration = 9.444445
 	}
 	Priest.Trap.Arm = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -3.000000
-		volume_offset_opponent = 3.000000
+		volume = -3.0
+		volume_offset_opponent = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_trap_arm_01.vsnd",
@@ -430,8 +380,8 @@
 	Priest.Trap.Bounce = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -8.000000
-		limiter_max = 0.000000
+		volume = -8.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_trap_bounce_01.vsnd",
@@ -444,7 +394,7 @@
 	Priest.Trap.Destroy = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_trap_destroy_01.vsnd",
@@ -456,51 +406,51 @@
 	Priest.Trap.Debuff.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -8.000000
+		volume = -8.0
 		vsnd_files = "sounds/abilities/priest/priest_trap_status_immobilize_01.vsnd"
 		vsnd_duration = 5.457619
 	}
 	Priest.Trap.Debuff.End = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -9.000000
+		volume = -9.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_trap_status_immobilize_end_01.vsnd",
 			"sounds/abilities/priest/priest_trap_status_immobilize_end_02.vsnd",
 			"sounds/abilities/priest/priest_trap_status_immobilize_end_03.vsnd",
 		]
-		vsnd_duration = 1.705510
+		vsnd_duration = 1.70551
 	}
 	Priest.Witching.Hour.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/priest/priest_witching_hour_cast_01.vsnd"
 		vsnd_duration = 3.641927
 	}
 	Priest.Witching.Hour.Expire = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/priest/priest_witching_hour_expire_01.vsnd"
 		vsnd_duration = 2.273107
 	}
 	Priest.Witching.Hour.Aim.Lp = 
 	{
 		base = "Base.Ability.Target"
-		volume = 6.000000
+		volume = 6.0
 		vsnd_files = "sounds/abilities/priest/priest_witching_hour_aim_lp_01.vsnd"
 		vsnd_duration = 14.111542
 	}
 	Priest.Witching.Hour.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -14.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		delay = 1.000000
-		delay_rand_min = -3.000000
+		volume = -14.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay = 1.0
+		delay_rand_min = -3.0
 		vsnd_files = "sounds/abilities/priest/priest_witching_hour_active_lp_01.vsnd"
 		vsnd_duration = 10.817641
 	}
@@ -509,18 +459,16 @@
 		type = "citadel_weapons"
 		base = 
 		[
-			
 			{
 				event_name = "Base.Weapon"
 			},
-			
 			{
 				event_name = "Base.Ability.Ult"
 				field_name = "citadel_perspective_default"
 			},
 		]
-		volume = 2.000000
-		last_shot_vol_offset_db = 3.000000
+		volume = 2.0
+		last_shot_vol_offset_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_witching_hour_shoot_01.vsnd",
@@ -539,9 +487,9 @@
 	Priest.Witching.Hour.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
-		delay = 0.020000
-		instance_attenuator_enabled = 0.000000
+		volume = 0.0
+		delay = 0.02
+		instance_attenuator_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_witching_hour_hit_01.vsnd",
@@ -553,10 +501,10 @@
 	Priest.Witching.Hour.Hit.Headshot = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 1.000000
-		volume_offset_attacker_db = 1.000000
-		delay = 0.020000
-		instance_attenuator_enabled = 0.000000
+		volume = 1.0
+		volume_offset_attacker_db = 1.0
+		delay = 0.02
+		instance_attenuator_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_witching_hour_hit_headshot_01.vsnd",
@@ -568,17 +516,17 @@
 	Priest.Witching.Hour.Cycle.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -10.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		delay_rand_min = -6.000000
+		volume = -10.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay_rand_min = -6.0
 		vsnd_files = "sounds/abilities/priest/priest_witching_hour_cycle_lp_01.vsnd"
 		vsnd_duration = 2.850612
 	}
 	Priest.Witching.Hour.Cycle.Stop = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_witching_hour_cycle_stop_01.vsnd",
@@ -591,8 +539,8 @@
 	Priest.Witching.Hour.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = 0.000000
-		whizby_time_to_peak = 0.040000
+		volume = 0.0
+		whizby_time_to_peak = 0.04
 		vsnd_files = 
 		[
 			"sounds/weapons/orion/whizbys/talon_weapon_whizby_groupc-001.vsnd",
@@ -611,7 +559,7 @@
 	Priest.Crossbow.Reload.Start = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_crossbow_reload_start_01.vsnd",
@@ -623,7 +571,7 @@
 	Priest.Crossbow.Reload.Mid = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_crossbow_reload_mid_01.vsnd",
@@ -635,7 +583,7 @@
 	Priest.Crossbow.Reload.End = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/priest/priest_crossbow_reload_end_01.vsnd",
@@ -647,16 +595,16 @@
 	Priest.Witching.Hour.Blessed.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -3.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.500000
+		volume = -3.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.5
 		vsnd_files = "sounds/abilities/priest/priest_witching_hour_blessed_lp_01.vsnd"
 		vsnd_duration = 15.927505
 	}
 	Priest.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -9.000000
+		track_1.vsnd_track_vol_offset_db = -9.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/seven/seven_footstep_01.vsnd",
@@ -682,17 +630,17 @@
 	Priest.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
+		volume = -4.0
 	}
 	Priest.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Priest.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/seven/seven_footstep_01.vsnd",
@@ -730,7 +678,7 @@
 	Priest.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
+		volume = -4.0
 	}
 	Priest.Melee.Swing = 
 	{
@@ -808,6 +756,6 @@
 			"sounds/vo/priest/ping/priest_ping_post_game_04.vsnd",
 			"sounds/vo/priest/ping/priest_ping_post_game_05.vsnd",
 		]
-		vsnd_duration = 1.975000
+		vsnd_duration = 1.975
 	}
 }

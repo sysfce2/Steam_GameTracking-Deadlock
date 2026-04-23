@@ -118,7 +118,7 @@
 		[
 			"sounds/vo/viper/viper_ally_drifter_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.383750
+		vsnd_duration = 1.38375
 	}
 	viper_ally_druid_killed_in_lane_01_hero_3d = 
 	{
@@ -458,7 +458,7 @@
 		[
 			"sounds/vo/viper/viper_ally_operative_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.275170
+		vsnd_duration = 1.27517
 	}
 	viper_ally_operative_pass_on_zipline_01_hero_3d = 
 	{
@@ -538,7 +538,7 @@
 		[
 			"sounds/vo/viper/viper_ally_skyrunner_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.659250
+		vsnd_duration = 1.65925
 	}
 	viper_ally_slork_killed_in_lane_01_hero_3d = 
 	{
@@ -568,7 +568,7 @@
 		[
 			"sounds/vo/viper/viper_ally_succubus_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.768750
+		vsnd_duration = 1.76875
 	}
 	viper_ally_swan_killed_in_lane_01_hero_3d = 
 	{
@@ -678,7 +678,7 @@
 		[
 			"sounds/vo/viper/viper_ally_viscous_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.649660
+		vsnd_duration = 1.64966
 	}
 	viper_ally_warden_killed_in_lane_01_hero_3d = 
 	{
@@ -758,7 +758,7 @@
 		[
 			"sounds/vo/viper/viper_ally_yamato_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.839660
+		vsnd_duration = 1.83966
 	}
 	viper_ap_reminder_01_hero_3d = 
 	{
@@ -798,7 +798,7 @@
 		[
 			"sounds/vo/viper/viper_be_careful_01.vsnd",
 		]
-		vsnd_duration = 7.380340
+		vsnd_duration = 7.38034
 	}
 	viper_be_careful_02_hero_3d = 
 	{
@@ -888,7 +888,7 @@
 		[
 			"sounds/vo/viper/viper_congrats_02.vsnd",
 		]
-		vsnd_duration = 1.283560
+		vsnd_duration = 1.28356
 	}
 	viper_congrats_03_hero_3d = 
 	{
@@ -998,7 +998,7 @@
 		[
 			"sounds/vo/viper/viper_desperation_power2_03.vsnd",
 		]
-		vsnd_duration = 2.193810
+		vsnd_duration = 2.19381
 	}
 	viper_desperation_power2_04_ability_3d = 
 	{
@@ -1108,7 +1108,7 @@
 		[
 			"sounds/vo/viper/viper_desperation_power4_05.vsnd",
 		]
-		vsnd_duration = 1.348050
+		vsnd_duration = 1.34805
 	}
 	viper_desperation_power4_05_ult_3d = 
 	{
@@ -1118,7 +1118,7 @@
 		[
 			"sounds/vo/viper/viper_desperation_power4_05.vsnd",
 		]
-		vsnd_duration = 1.348050
+		vsnd_duration = 1.34805
 	}
 	viper_end_streak_hero_3d = 
 	{
@@ -1268,7 +1268,7 @@
 		[
 			"sounds/vo/viper/viper_happy_06.vsnd",
 		]
-		vsnd_duration = 1.674830
+		vsnd_duration = 1.67483
 	}
 	viper_happy_06_ult_3d = 
 	{
@@ -1278,7 +1278,7 @@
 		[
 			"sounds/vo/viper/viper_happy_06.vsnd",
 		]
-		vsnd_duration = 1.674830
+		vsnd_duration = 1.67483
 	}
 	viper_happy_07_hero_3d = 
 	{
@@ -1328,7 +1328,7 @@
 		[
 			"sounds/vo/viper/viper_happy_09.vsnd",
 		]
-		vsnd_duration = 2.629320
+		vsnd_duration = 2.62932
 	}
 	viper_happy_09_ult_3d = 
 	{
@@ -1338,7 +1338,7 @@
 		[
 			"sounds/vo/viper/viper_happy_09.vsnd",
 		]
-		vsnd_duration = 2.629320
+		vsnd_duration = 2.62932
 	}
 	viper_happy_10_hero_3d = 
 	{
@@ -1568,7 +1568,7 @@
 		[
 			"sounds/vo/viper/viper_kill_astro_03.vsnd",
 		]
-		vsnd_duration = 2.260000
+		vsnd_duration = 2.26
 	}
 	viper_kill_astro_04_hero_3d = 
 	{
@@ -1768,7 +1768,7 @@
 		[
 			"sounds/vo/viper/viper_kill_chrono_03.vsnd",
 		]
-		vsnd_duration = 2.213470
+		vsnd_duration = 2.21347
 	}
 	viper_kill_chrono_04_hero_3d = 
 	{
@@ -1928,7 +1928,7 @@
 		[
 			"sounds/vo/viper/viper_kill_dynamo_04.vsnd",
 		]
-		vsnd_duration = 3.089070
+		vsnd_duration = 3.08907
 	}
 	viper_kill_dynamo_05_hero_3d = 
 	{
@@ -2028,7 +2028,7 @@
 		[
 			"sounds/vo/viper/viper_kill_frank_04.vsnd",
 		]
-		vsnd_duration = 2.544500
+		vsnd_duration = 2.5445
 	}
 	viper_kill_frank_05_hero_3d = 
 	{
@@ -2248,7 +2248,7 @@
 		[
 			"sounds/vo/viper/viper_kill_hornet_05.vsnd",
 		]
-		vsnd_duration = 1.345170
+		vsnd_duration = 1.34517
 	}
 	viper_kill_inferno_01_hero_3d = 
 	{
@@ -2308,7 +2308,7 @@
 		[
 			"sounds/vo/viper/viper_kill_kelvin_01.vsnd",
 		]
-		vsnd_duration = 2.034240
+		vsnd_duration = 2.03424
 	}
 	viper_kill_kelvin_02_hero_3d = 
 	{
@@ -2338,7 +2338,7 @@
 		[
 			"sounds/vo/viper/viper_kill_kelvin_04.vsnd",
 		]
-		vsnd_duration = 1.555510
+		vsnd_duration = 1.55551
 	}
 	viper_kill_kelvin_05_hero_3d = 
 	{
@@ -2428,7 +2428,7 @@
 		[
 			"sounds/vo/viper/viper_kill_lash_03.vsnd",
 		]
-		vsnd_duration = 2.260000
+		vsnd_duration = 2.26
 	}
 	viper_kill_lash_04_hero_3d = 
 	{
@@ -2478,7 +2478,7 @@
 		[
 			"sounds/vo/viper/viper_kill_magician_03.vsnd",
 		]
-		vsnd_duration = 1.601020
+		vsnd_duration = 1.60102
 	}
 	viper_kill_magician_04_hero_3d = 
 	{
@@ -2558,7 +2558,7 @@
 		[
 			"sounds/vo/viper/viper_kill_nano_01.vsnd",
 		]
-		vsnd_duration = 1.522290
+		vsnd_duration = 1.52229
 	}
 	viper_kill_nano_02_hero_3d = 
 	{
@@ -2598,7 +2598,7 @@
 		[
 			"sounds/vo/viper/viper_kill_nano_05.vsnd",
 		]
-		vsnd_duration = 3.211950
+		vsnd_duration = 3.21195
 	}
 	viper_kill_operative_01_hero_3d = 
 	{
@@ -2608,7 +2608,7 @@
 		[
 			"sounds/vo/viper/viper_kill_operative_01.vsnd",
 		]
-		vsnd_duration = 1.119660
+		vsnd_duration = 1.11966
 	}
 	viper_kill_operative_02_hero_3d = 
 	{
@@ -2698,7 +2698,7 @@
 		[
 			"sounds/vo/viper/viper_kill_orion_05.vsnd",
 		]
-		vsnd_duration = 2.265170
+		vsnd_duration = 2.26517
 	}
 	viper_kill_priest_01_hero_3d = 
 	{
@@ -2708,7 +2708,7 @@
 		[
 			"sounds/vo/viper/viper_kill_priest_01.vsnd",
 		]
-		vsnd_duration = 1.294500
+		vsnd_duration = 1.2945
 	}
 	viper_kill_priest_02_hero_3d = 
 	{
@@ -2908,7 +2908,7 @@
 		[
 			"sounds/vo/viper/viper_kill_tengu_02.vsnd",
 		]
-		vsnd_duration = 8.653500
+		vsnd_duration = 8.6535
 	}
 	viper_kill_tengu_03_hero_3d = 
 	{
@@ -3048,7 +3048,7 @@
 		[
 			"sounds/vo/viper/viper_kill_warden_01.vsnd",
 		]
-		vsnd_duration = 1.245000
+		vsnd_duration = 1.245
 	}
 	viper_kill_warden_02_hero_3d = 
 	{
@@ -3158,7 +3158,7 @@
 		[
 			"sounds/vo/viper/viper_kill_yamato_02.vsnd",
 		]
-		vsnd_duration = 2.403500
+		vsnd_duration = 2.4035
 	}
 	viper_kill_yamato_03_hero_3d = 
 	{
@@ -3418,7 +3418,7 @@
 		[
 			"sounds/vo/viper/viper_last_one_standing_01.vsnd",
 		]
-		vsnd_duration = 2.605170
+		vsnd_duration = 2.60517
 	}
 	viper_last_one_standing_02_hero_3d = 
 	{
@@ -3538,7 +3538,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_bookworm_viper_convo02_05.vsnd",
 		]
-		vsnd_duration = 3.028250
+		vsnd_duration = 3.02825
 	}
 	viper_match_start_bookworm_viper_convo02_07_hero_zipline_3d = 
 	{
@@ -3588,7 +3588,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_bookworm_viper_convo03_05.vsnd",
 		]
-		vsnd_duration = 3.136000
+		vsnd_duration = 3.136
 	}
 	viper_match_start_bookworm_viper_convo03_07_hero_zipline_3d = 
 	{
@@ -3718,7 +3718,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_viper_astro_convo01_05.vsnd",
 		]
-		vsnd_duration = 2.400340
+		vsnd_duration = 2.40034
 	}
 	viper_match_start_viper_astro_convo01_07_hero_zipline_3d = 
 	{
@@ -3908,7 +3908,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_viper_bebop_convo02_02.vsnd",
 		]
-		vsnd_duration = 2.731020
+		vsnd_duration = 2.73102
 	}
 	viper_match_start_viper_bebop_convo03_02_hero_zipline_3d = 
 	{
@@ -3948,7 +3948,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_viper_dynamo_convo01_03.vsnd",
 		]
-		vsnd_duration = 3.094580
+		vsnd_duration = 3.09458
 	}
 	viper_match_start_viper_dynamo_convo01_05_hero_zipline_3d = 
 	{
@@ -3998,7 +3998,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_viper_ghost_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.164240
+		vsnd_duration = 2.16424
 	}
 	viper_match_start_viper_ghost_convo01_03_hero_zipline_3d = 
 	{
@@ -4088,7 +4088,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_viper_haze_convo02_04.vsnd",
 		]
-		vsnd_duration = 2.296250
+		vsnd_duration = 2.29625
 	}
 	viper_match_start_viper_haze_convo03_01_hero_zipline_3d = 
 	{
@@ -4378,7 +4378,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_viper_mirage_convo02_05.vsnd",
 		]
-		vsnd_duration = 1.618500
+		vsnd_duration = 1.6185
 	}
 	viper_match_start_viper_mirage_convo03_01_hero_zipline_3d = 
 	{
@@ -4538,7 +4538,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_viper_orion_convo01_05.vsnd",
 		]
-		vsnd_duration = 1.440000
+		vsnd_duration = 1.44
 	}
 	viper_match_start_viper_orion_convo02_02_hero_zipline_3d = 
 	{
@@ -4658,7 +4658,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_viper_tengu_convo03_05.vsnd",
 		]
-		vsnd_duration = 3.129250
+		vsnd_duration = 3.12925
 	}
 	viper_match_start_viper_tengu_convo03_07_hero_zipline_3d = 
 	{
@@ -4688,7 +4688,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_viper_wraith_convo01_02.vsnd",
 		]
-		vsnd_duration = 4.470000
+		vsnd_duration = 4.47
 	}
 	viper_match_start_viper_wraith_convo01_04_hero_zipline_3d = 
 	{
@@ -4718,7 +4718,7 @@
 		[
 			"sounds/vo/viper/viper_match_start_viper_wraith_convo02_03.vsnd",
 		]
-		vsnd_duration = 4.075170
+		vsnd_duration = 4.07517
 	}
 	viper_match_start_viper_wraith_convo02_05_hero_zipline_3d = 
 	{
@@ -4868,7 +4868,7 @@
 		[
 			"sounds/vo/viper/viper_outnumbered_02.vsnd",
 		]
-		vsnd_duration = 1.449660
+		vsnd_duration = 1.44966
 	}
 	viper_outnumbered_03_hero_3d = 
 	{
@@ -4938,7 +4938,7 @@
 		[
 			"sounds/vo/viper/viper_pick_up_gold_03.vsnd",
 		]
-		vsnd_duration = 1.472970
+		vsnd_duration = 1.47297
 	}
 	viper_pick_up_gold_04_hero_3d = 
 	{
@@ -5108,7 +5108,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_astro_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.695510
+		vsnd_duration = 1.69551
 	}
 	viper_ping_astro_check_items_ping_2d = 
 	{
@@ -5158,7 +5158,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_astro_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.639660
+		vsnd_duration = 1.63966
 	}
 	viper_ping_astro_on_top_of_mid_ping_2d = 
 	{
@@ -5178,7 +5178,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_astro_under_garage.vsnd",
 		]
-		vsnd_duration = 1.675170
+		vsnd_duration = 1.67517
 	}
 	viper_ping_astro_was_here_ping_2d = 
 	{
@@ -5218,7 +5218,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_atlas_dead.vsnd",
 		]
-		vsnd_duration = 1.080340
+		vsnd_duration = 1.08034
 	}
 	viper_ping_atlas_in_mid_ping_2d = 
 	{
@@ -5278,7 +5278,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_atlas_was_here.vsnd",
 		]
-		vsnd_duration = 1.055170
+		vsnd_duration = 1.05517
 	}
 	viper_ping_attack_astro_ping_2d = 
 	{
@@ -5468,7 +5468,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_attack_graf.vsnd",
 		]
-		vsnd_duration = 1.314750
+		vsnd_duration = 1.31475
 	}
 	viper_ping_attack_haze_ping_2d = 
 	{
@@ -5578,7 +5578,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_attack_operative.vsnd",
 		]
-		vsnd_duration = 1.424830
+		vsnd_duration = 1.42483
 	}
 	viper_ping_attack_orion_ping_2d = 
 	{
@@ -5598,7 +5598,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_attack_priest.vsnd",
 		]
-		vsnd_duration = 1.485750
+		vsnd_duration = 1.48575
 	}
 	viper_ping_attack_punkgoat_ping_2d = 
 	{
@@ -5638,7 +5638,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_attack_succubus.vsnd",
 		]
-		vsnd_duration = 1.800250
+		vsnd_duration = 1.80025
 	}
 	viper_ping_attack_swan_ping_2d = 
 	{
@@ -5708,7 +5708,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_attack_viper.vsnd",
 		]
-		vsnd_duration = 1.429660
+		vsnd_duration = 1.42966
 	}
 	viper_ping_attack_viscous_ping_2d = 
 	{
@@ -5718,7 +5718,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_attack_viscous.vsnd",
 		]
-		vsnd_duration = 1.485420
+		vsnd_duration = 1.48542
 	}
 	viper_ping_attack_warden_ping_2d = 
 	{
@@ -5848,7 +5848,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_bebop_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.519660
+		vsnd_duration = 1.51966
 	}
 	viper_ping_bebop_under_garage_ping_2d = 
 	{
@@ -5858,7 +5858,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_bebop_under_garage.vsnd",
 		]
-		vsnd_duration = 1.464830
+		vsnd_duration = 1.46483
 	}
 	viper_ping_bebop_was_here_ping_2d = 
 	{
@@ -6168,7 +6168,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_can_heal_lash.vsnd",
 		]
-		vsnd_duration = 1.295170
+		vsnd_duration = 1.29517
 	}
 	viper_ping_can_heal_magician_ping_2d = 
 	{
@@ -6228,7 +6228,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_can_heal_priest.vsnd",
 		]
-		vsnd_duration = 1.951750
+		vsnd_duration = 1.95175
 	}
 	viper_ping_can_heal_punkgoat_ping_2d = 
 	{
@@ -6248,7 +6248,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_can_heal_shiv.vsnd",
 		]
-		vsnd_duration = 1.400340
+		vsnd_duration = 1.40034
 	}
 	viper_ping_can_heal_slork_ping_2d = 
 	{
@@ -6328,7 +6328,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_can_heal_wraith.vsnd",
 		]
-		vsnd_duration = 1.430000
+		vsnd_duration = 1.43
 	}
 	viper_ping_can_heal_wrecker_ping_2d = 
 	{
@@ -6338,7 +6338,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_can_heal_wrecker.vsnd",
 		]
-		vsnd_duration = 1.530000
+		vsnd_duration = 1.53
 	}
 	viper_ping_can_heal_yamato_ping_2d = 
 	{
@@ -6358,7 +6358,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_astro_01.vsnd",
 		]
-		vsnd_duration = 1.351950
+		vsnd_duration = 1.35195
 	}
 	viper_ping_careful_astro_02_ping_2d = 
 	{
@@ -6388,7 +6388,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_atlas_01.vsnd",
 		]
-		vsnd_duration = 1.304830
+		vsnd_duration = 1.30483
 	}
 	viper_ping_careful_atlas_02_ping_2d = 
 	{
@@ -6398,7 +6398,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_atlas_02.vsnd",
 		]
-		vsnd_duration = 1.224490
+		vsnd_duration = 1.22449
 	}
 	viper_ping_careful_atlas_03_ping_2d = 
 	{
@@ -6418,7 +6418,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_bebop_01.vsnd",
 		]
-		vsnd_duration = 1.280340
+		vsnd_duration = 1.28034
 	}
 	viper_ping_careful_bebop_02_ping_2d = 
 	{
@@ -6458,7 +6458,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_bookworm_01_alt.vsnd",
 		]
-		vsnd_duration = 1.201000
+		vsnd_duration = 1.201
 	}
 	viper_ping_careful_bookworm_02_alt_ping_2d = 
 	{
@@ -6598,7 +6598,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_dynamo_02.vsnd",
 		]
-		vsnd_duration = 1.275170
+		vsnd_duration = 1.27517
 	}
 	viper_ping_careful_dynamo_03_ping_2d = 
 	{
@@ -6638,7 +6638,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_forge_03.vsnd",
 		]
-		vsnd_duration = 1.894830
+		vsnd_duration = 1.89483
 	}
 	viper_ping_careful_fortuna_01_ping_2d = 
 	{
@@ -6778,7 +6778,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_haze_03.vsnd",
 		]
-		vsnd_duration = 1.374830
+		vsnd_duration = 1.37483
 	}
 	viper_ping_careful_hornet_01_ping_2d = 
 	{
@@ -6988,7 +6988,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_mirage_02.vsnd",
 		]
-		vsnd_duration = 1.379660
+		vsnd_duration = 1.37966
 	}
 	viper_ping_careful_mirage_03_ping_2d = 
 	{
@@ -7078,7 +7078,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_orion_02.vsnd",
 		]
-		vsnd_duration = 1.499660
+		vsnd_duration = 1.49966
 	}
 	viper_ping_careful_orion_03_ping_2d = 
 	{
@@ -7088,7 +7088,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_orion_03.vsnd",
 		]
-		vsnd_duration = 1.799660
+		vsnd_duration = 1.79966
 	}
 	viper_ping_careful_priest_01_ping_2d = 
 	{
@@ -7278,7 +7278,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_tengu_01.vsnd",
 		]
-		vsnd_duration = 1.079660
+		vsnd_duration = 1.07966
 	}
 	viper_ping_careful_tengu_02_ping_2d = 
 	{
@@ -7408,7 +7408,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_warden_01.vsnd",
 		]
-		vsnd_duration = 1.139660
+		vsnd_duration = 1.13966
 	}
 	viper_ping_careful_warden_02_ping_2d = 
 	{
@@ -7418,7 +7418,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_warden_02.vsnd",
 		]
-		vsnd_duration = 1.209660
+		vsnd_duration = 1.20966
 	}
 	viper_ping_careful_warden_03_ping_2d = 
 	{
@@ -7438,7 +7438,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_wraith_01.vsnd",
 		]
-		vsnd_duration = 1.064490
+		vsnd_duration = 1.06449
 	}
 	viper_ping_careful_wraith_02_ping_2d = 
 	{
@@ -7478,7 +7478,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_wrecker_02.vsnd",
 		]
-		vsnd_duration = 1.345510
+		vsnd_duration = 1.34551
 	}
 	viper_ping_careful_wrecker_03_ping_2d = 
 	{
@@ -7488,7 +7488,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_careful_wrecker_03.vsnd",
 		]
-		vsnd_duration = 1.635510
+		vsnd_duration = 1.63551
 	}
 	viper_ping_careful_yamato_01_ping_2d = 
 	{
@@ -7538,7 +7538,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_chrono_check_items.vsnd",
 		]
-		vsnd_duration = 2.025170
+		vsnd_duration = 2.02517
 	}
 	viper_ping_chrono_dead_ping_2d = 
 	{
@@ -7578,7 +7578,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_chrono_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.845170
+		vsnd_duration = 1.84517
 	}
 	viper_ping_chrono_on_top_of_mid_ping_2d = 
 	{
@@ -7588,7 +7588,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_chrono_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.654490
+		vsnd_duration = 1.65449
 	}
 	viper_ping_chrono_under_garage_ping_2d = 
 	{
@@ -7788,7 +7788,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_doorman_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.551750
+		vsnd_duration = 1.55175
 	}
 	viper_ping_doorman_under_garage_ping_2d = 
 	{
@@ -7848,7 +7848,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_drifter_in_mid.vsnd",
 		]
-		vsnd_duration = 1.243000
+		vsnd_duration = 1.243
 	}
 	viper_ping_drifter_missing_01_ping_2d = 
 	{
@@ -7968,7 +7968,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_dynamo_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.690340
+		vsnd_duration = 1.69034
 	}
 	viper_ping_dynamo_on_top_of_mid_ping_2d = 
 	{
@@ -7988,7 +7988,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_dynamo_under_garage.vsnd",
 		]
-		vsnd_duration = 1.695170
+		vsnd_duration = 1.69517
 	}
 	viper_ping_dynamo_was_here_ping_2d = 
 	{
@@ -8058,7 +8058,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_forge_in_mid.vsnd",
 		]
-		vsnd_duration = 1.132880
+		vsnd_duration = 1.13288
 	}
 	viper_ping_forge_missing_01_ping_2d = 
 	{
@@ -8278,7 +8278,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_ghost_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.535170
+		vsnd_duration = 1.53517
 	}
 	viper_ping_ghost_on_top_of_mid_ping_2d = 
 	{
@@ -8458,7 +8458,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_good_game_01.vsnd",
 		]
-		vsnd_duration = 1.005510
+		vsnd_duration = 1.00551
 	}
 	viper_ping_good_game_02_ping_2d = 
 	{
@@ -8528,7 +8528,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_haze_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.390340
+		vsnd_duration = 1.39034
 	}
 	viper_ping_haze_check_items_ping_2d = 
 	{
@@ -8658,7 +8658,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_headed_orange_01.vsnd",
 		]
-		vsnd_duration = 1.090000
+		vsnd_duration = 1.09
 	}
 	viper_ping_headed_orange_02_ping_2d = 
 	{
@@ -8878,7 +8878,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_ignore_chrono.vsnd",
 		]
-		vsnd_duration = 1.570000
+		vsnd_duration = 1.57
 	}
 	viper_ping_ignore_doorman_ping_2d = 
 	{
@@ -9118,7 +9118,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_ignore_tengu.vsnd",
 		]
-		vsnd_duration = 1.438730
+		vsnd_duration = 1.43873
 	}
 	viper_ping_ignore_trapper_ping_2d = 
 	{
@@ -9268,7 +9268,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_inferno_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.669660
+		vsnd_duration = 1.66966
 	}
 	viper_ping_inferno_under_garage_ping_2d = 
 	{
@@ -9318,7 +9318,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_jar_call_01.vsnd",
 		]
-		vsnd_duration = 1.425170
+		vsnd_duration = 1.42517
 	}
 	viper_ping_jar_call_02_ping_2d = 
 	{
@@ -9378,7 +9378,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_kelvin_missing_01.vsnd",
 		]
-		vsnd_duration = 1.259070
+		vsnd_duration = 1.25907
 	}
 	viper_ping_kelvin_on_top_of_garage_ping_2d = 
 	{
@@ -9388,7 +9388,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_kelvin_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.624830
+		vsnd_duration = 1.62483
 	}
 	viper_ping_kelvin_on_top_of_mid_ping_2d = 
 	{
@@ -9468,7 +9468,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_krill_dead.vsnd",
 		]
-		vsnd_duration = 0.940340
+		vsnd_duration = 0.94034
 	}
 	viper_ping_krill_in_mid_ping_2d = 
 	{
@@ -9898,7 +9898,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_mirage_was_here.vsnd",
 		]
-		vsnd_duration = 1.004830
+		vsnd_duration = 1.00483
 	}
 	viper_ping_missing_blue_01_ping_2d = 
 	{
@@ -9918,7 +9918,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_missing_blue_02.vsnd",
 		]
-		vsnd_duration = 1.204490
+		vsnd_duration = 1.20449
 	}
 	viper_ping_missing_green_01_ping_2d = 
 	{
@@ -9938,7 +9938,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_missing_green_02.vsnd",
 		]
-		vsnd_duration = 1.114240
+		vsnd_duration = 1.11424
 	}
 	viper_ping_missing_orange_01_ping_2d = 
 	{
@@ -9968,7 +9968,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_missing_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.009660
+		vsnd_duration = 1.00966
 	}
 	viper_ping_missing_yellow_02_ping_2d = 
 	{
@@ -10078,7 +10078,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_need_cover.vsnd",
 		]
-		vsnd_duration = 1.094830
+		vsnd_duration = 1.09483
 	}
 	viper_ping_need_heal_ping_2d = 
 	{
@@ -10458,7 +10458,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_post_game_02.vsnd",
 		]
-		vsnd_duration = 2.180000
+		vsnd_duration = 2.18
 	}
 	viper_ping_post_game_03_ping_2d = 
 	{
@@ -10558,7 +10558,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_pre_game_06.vsnd",
 		]
-		vsnd_duration = 1.530000
+		vsnd_duration = 1.53
 	}
 	viper_ping_press_advantage_ping_2d = 
 	{
@@ -10578,7 +10578,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_priest_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.545500
+		vsnd_duration = 1.5455
 	}
 	viper_ping_priest_check_items_ping_2d = 
 	{
@@ -10668,7 +10668,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_punkgoat_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.308250
+		vsnd_duration = 1.30825
 	}
 	viper_ping_punkgoat_check_items_ping_2d = 
 	{
@@ -10778,7 +10778,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_push_green_01.vsnd",
 		]
-		vsnd_duration = 1.055170
+		vsnd_duration = 1.05517
 	}
 	viper_ping_push_green_02_ping_2d = 
 	{
@@ -10798,7 +10798,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_push_orange_01.vsnd",
 		]
-		vsnd_duration = 1.330000
+		vsnd_duration = 1.33
 	}
 	viper_ping_push_orange_02_ping_2d = 
 	{
@@ -10818,7 +10818,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_push_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.165170
+		vsnd_duration = 1.16517
 	}
 	viper_ping_push_yellow_02_ping_2d = 
 	{
@@ -10938,7 +10938,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_saw_astro.vsnd",
 		]
-		vsnd_duration = 1.131950
+		vsnd_duration = 1.13195
 	}
 	viper_ping_saw_atlas_ping_2d = 
 	{
@@ -11048,7 +11048,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_saw_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.047800
+		vsnd_duration = 1.0478
 	}
 	viper_ping_saw_haze_ping_2d = 
 	{
@@ -11098,7 +11098,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_saw_krill.vsnd",
 		]
-		vsnd_duration = 0.917120
+		vsnd_duration = 0.91712
 	}
 	viper_ping_saw_lash_ping_2d = 
 	{
@@ -11238,7 +11238,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_saw_trapper.vsnd",
 		]
-		vsnd_duration = 1.104490
+		vsnd_duration = 1.10449
 	}
 	viper_ping_saw_vampirebat_ping_2d = 
 	{
@@ -11248,7 +11248,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_saw_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.057250
+		vsnd_duration = 1.05725
 	}
 	viper_ping_saw_viscous_ping_2d = 
 	{
@@ -11358,7 +11358,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_atlas_on_roof.vsnd",
 		]
-		vsnd_duration = 1.294830
+		vsnd_duration = 1.29483
 	}
 	viper_ping_see_bebop_01_ping_2d = 
 	{
@@ -11378,7 +11378,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_bebop_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.245510
+		vsnd_duration = 1.24551
 	}
 	viper_ping_see_bebop_on_roof_ping_2d = 
 	{
@@ -11398,7 +11398,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_boho_01.vsnd",
 		]
-		vsnd_duration = 1.068500
+		vsnd_duration = 1.0685
 	}
 	viper_ping_see_bookworm_01_alt_ping_2d = 
 	{
@@ -11458,7 +11458,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_chrono.vsnd",
 		]
-		vsnd_duration = 1.355170
+		vsnd_duration = 1.35517
 	}
 	viper_ping_see_doorman_01_ping_2d = 
 	{
@@ -11618,7 +11618,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_forge.vsnd",
 		]
-		vsnd_duration = 1.175170
+		vsnd_duration = 1.17517
 	}
 	viper_ping_see_fortuna_01_ping_2d = 
 	{
@@ -11758,7 +11758,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_haze_on_roof.vsnd",
 		]
-		vsnd_duration = 1.300930
+		vsnd_duration = 1.30093
 	}
 	viper_ping_see_hornet_01_ping_2d = 
 	{
@@ -11778,7 +11778,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_hornet_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.395510
+		vsnd_duration = 1.39551
 	}
 	viper_ping_see_hornet_on_roof_ping_2d = 
 	{
@@ -11988,7 +11988,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_nano_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.370000
+		vsnd_duration = 1.37
 	}
 	viper_ping_see_nano_on_roof_ping_2d = 
 	{
@@ -12118,7 +12118,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_punkgoat_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.229500
+		vsnd_duration = 1.2295
 	}
 	viper_ping_see_punkgoat_on_roof_ping_2d = 
 	{
@@ -12148,7 +12148,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_shiv_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.194490
+		vsnd_duration = 1.19449
 	}
 	viper_ping_see_shiv_on_roof_ping_2d = 
 	{
@@ -12348,7 +12348,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_vampirebat_on_roof.vsnd",
 		]
-		vsnd_duration = 1.318250
+		vsnd_duration = 1.31825
 	}
 	viper_ping_see_viscous_01_ping_2d = 
 	{
@@ -12438,7 +12438,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_wraith_on_roof.vsnd",
 		]
-		vsnd_duration = 1.149410
+		vsnd_duration = 1.14941
 	}
 	viper_ping_see_wrecker_01_ping_2d = 
 	{
@@ -12448,7 +12448,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_see_wrecker_01.vsnd",
 		]
-		vsnd_duration = 1.005510
+		vsnd_duration = 1.00551
 	}
 	viper_ping_see_wrecker_on_bridge_ping_2d = 
 	{
@@ -12628,7 +12628,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_slork_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.295170
+		vsnd_duration = 1.29517
 	}
 	viper_ping_slork_check_items_ping_2d = 
 	{
@@ -12668,7 +12668,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_slork_missing_01.vsnd",
 		]
-		vsnd_duration = 1.300000
+		vsnd_duration = 1.3
 	}
 	viper_ping_slork_on_top_of_garage_ping_2d = 
 	{
@@ -12688,7 +12688,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_slork_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.354830
+		vsnd_duration = 1.35483
 	}
 	viper_ping_slork_under_garage_ping_2d = 
 	{
@@ -12758,7 +12758,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_stim_pack_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.800000
+		vsnd_duration = 1.8
 	}
 	viper_ping_stim_pack_not_ready_ping_2d = 
 	{
@@ -12798,7 +12798,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_stun_bebop_01.vsnd",
 		]
-		vsnd_duration = 1.228980
+		vsnd_duration = 1.22898
 	}
 	viper_ping_stun_bookworm_01_alt_ping_2d = 
 	{
@@ -12808,7 +12808,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_stun_bookworm_01_alt.vsnd",
 		]
-		vsnd_duration = 1.154250
+		vsnd_duration = 1.15425
 	}
 	viper_ping_stun_chrono_01_ping_2d = 
 	{
@@ -12858,7 +12858,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_stun_forge_01.vsnd",
 		]
-		vsnd_duration = 1.280000
+		vsnd_duration = 1.28
 	}
 	viper_ping_stun_frank_01_ping_2d = 
 	{
@@ -12998,7 +12998,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_stun_orion_01.vsnd",
 		]
-		vsnd_duration = 1.402630
+		vsnd_duration = 1.40263
 	}
 	viper_ping_stun_priest_01_ping_2d = 
 	{
@@ -13068,7 +13068,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_stun_trapper_01.vsnd",
 		]
-		vsnd_duration = 1.284830
+		vsnd_duration = 1.28483
 	}
 	viper_ping_stun_vampirebat_01_ping_2d = 
 	{
@@ -13108,7 +13108,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_stun_wraith_01.vsnd",
 		]
-		vsnd_duration = 1.165510
+		vsnd_duration = 1.16551
 	}
 	viper_ping_stun_wrecker_01_ping_2d = 
 	{
@@ -13318,7 +13318,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_tengu_in_mid.vsnd",
 		]
-		vsnd_duration = 1.105510
+		vsnd_duration = 1.10551
 	}
 	viper_ping_tengu_missing_01_ping_2d = 
 	{
@@ -13468,7 +13468,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_trapper_check_items.vsnd",
 		]
-		vsnd_duration = 1.615760
+		vsnd_duration = 1.61576
 	}
 	viper_ping_trapper_dead_ping_2d = 
 	{
@@ -13478,7 +13478,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_trapper_dead.vsnd",
 		]
-		vsnd_duration = 1.135510
+		vsnd_duration = 1.13551
 	}
 	viper_ping_trapper_in_mid_ping_2d = 
 	{
@@ -13598,7 +13598,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_use_ability4_02.vsnd",
 		]
-		vsnd_duration = 1.691020
+		vsnd_duration = 1.69102
 	}
 	viper_ping_use_ability4_03_ping_2d = 
 	{
@@ -13658,7 +13658,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_use_ability4_08.vsnd",
 		]
-		vsnd_duration = 1.761950
+		vsnd_duration = 1.76195
 	}
 	viper_ping_use_ability4_09_ping_2d = 
 	{
@@ -13748,7 +13748,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_use_silence.vsnd",
 		]
-		vsnd_duration = 1.873810
+		vsnd_duration = 1.87381
 	}
 	viper_ping_use_stim_pack_ping_2d = 
 	{
@@ -13848,7 +13848,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_vampirebat_under_garage.vsnd",
 		]
-		vsnd_duration = 1.523750
+		vsnd_duration = 1.52375
 	}
 	viper_ping_vampirebat_was_here_ping_2d = 
 	{
@@ -13908,7 +13908,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_viscous_missing_01.vsnd",
 		]
-		vsnd_duration = 1.349410
+		vsnd_duration = 1.34941
 	}
 	viper_ping_viscous_on_top_of_garage_ping_2d = 
 	{
@@ -13938,7 +13938,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_viscous_under_garage.vsnd",
 		]
-		vsnd_duration = 1.720340
+		vsnd_duration = 1.72034
 	}
 	viper_ping_viscous_was_here_ping_2d = 
 	{
@@ -14098,7 +14098,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_with_astro.vsnd",
 		]
-		vsnd_duration = 1.590000
+		vsnd_duration = 1.59
 	}
 	viper_ping_with_atlas_ping_2d = 
 	{
@@ -14128,7 +14128,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_with_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.420500
+		vsnd_duration = 1.4205
 	}
 	viper_ping_with_chrono_ping_2d = 
 	{
@@ -14168,7 +14168,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_with_dynamo.vsnd",
 		]
-		vsnd_duration = 1.625510
+		vsnd_duration = 1.62551
 	}
 	viper_ping_with_forge_ping_2d = 
 	{
@@ -14308,7 +14308,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_with_operative.vsnd",
 		]
-		vsnd_duration = 1.529660
+		vsnd_duration = 1.52966
 	}
 	viper_ping_with_orion_ping_2d = 
 	{
@@ -14358,7 +14358,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_with_slork.vsnd",
 		]
-		vsnd_duration = 1.330340
+		vsnd_duration = 1.33034
 	}
 	viper_ping_with_synth_ping_2d = 
 	{
@@ -14418,7 +14418,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_with_warden.vsnd",
 		]
-		vsnd_duration = 1.379660
+		vsnd_duration = 1.37966
 	}
 	viper_ping_with_wraith_ping_2d = 
 	{
@@ -14468,7 +14468,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_wraith_check_items.vsnd",
 		]
-		vsnd_duration = 1.699660
+		vsnd_duration = 1.69966
 	}
 	viper_ping_wraith_dead_ping_2d = 
 	{
@@ -14598,7 +14598,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_wrecker_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.720000
+		vsnd_duration = 1.72
 	}
 	viper_ping_wrecker_on_top_of_mid_ping_2d = 
 	{
@@ -14638,7 +14638,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_yamato_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.529660
+		vsnd_duration = 1.52966
 	}
 	viper_ping_yamato_check_items_ping_2d = 
 	{
@@ -14668,7 +14668,7 @@
 		[
 			"sounds/vo/viper/ping/viper_ping_yamato_in_mid.vsnd",
 		]
-		vsnd_duration = 1.290930
+		vsnd_duration = 1.29093
 	}
 	viper_ping_yamato_missing_01_ping_2d = 
 	{
@@ -14968,7 +14968,7 @@
 		[
 			"sounds/vo/viper/viper_t3_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 2.807710
+		vsnd_duration = 2.80771
 	}
 	viper_t4_shop_reminder_01_hero_3d = 
 	{
@@ -15008,7 +15008,7 @@
 		[
 			"sounds/vo/viper/viper_tower_got_denied_01.vsnd",
 		]
-		vsnd_duration = 2.189660
+		vsnd_duration = 2.18966
 	}
 	viper_tower_got_denied_02_hero_3d = 
 	{
@@ -15048,7 +15048,7 @@
 		[
 			"sounds/vo/viper/viper_tower_got_denied_05.vsnd",
 		]
-		vsnd_duration = 1.660340
+		vsnd_duration = 1.66034
 	}
 	viper_unselect_01_hero_3d = 
 	{
@@ -15218,7 +15218,7 @@
 		[
 			"sounds/vo/viper/viper_upgrade_power1_07.vsnd",
 		]
-		vsnd_duration = 2.125510
+		vsnd_duration = 2.12551
 	}
 	viper_upgrade_power1_08_hero_3d = 
 	{
@@ -15228,7 +15228,7 @@
 		[
 			"sounds/vo/viper/viper_upgrade_power1_08.vsnd",
 		]
-		vsnd_duration = 2.318390
+		vsnd_duration = 2.31839
 	}
 	viper_upgrade_power1_09_hero_3d = 
 	{
@@ -15278,7 +15278,7 @@
 		[
 			"sounds/vo/viper/viper_upgrade_power2_03.vsnd",
 		]
-		vsnd_duration = 6.117370
+		vsnd_duration = 6.11737
 	}
 	viper_upgrade_power2_04_hero_3d = 
 	{
@@ -15368,7 +15368,7 @@
 		[
 			"sounds/vo/viper/viper_upgrade_power3_02.vsnd",
 		]
-		vsnd_duration = 2.495170
+		vsnd_duration = 2.49517
 	}
 	viper_upgrade_power3_03_hero_3d = 
 	{
@@ -15468,7 +15468,7 @@
 		[
 			"sounds/vo/viper/viper_upgrade_power4_02.vsnd",
 		]
-		vsnd_duration = 3.125510
+		vsnd_duration = 3.12551
 	}
 	viper_upgrade_power4_03_hero_3d = 
 	{
@@ -15628,7 +15628,7 @@
 		[
 			"sounds/vo/viper/viper_use_curse_02.vsnd",
 		]
-		vsnd_duration = 1.135510
+		vsnd_duration = 1.13551
 	}
 	viper_use_curse_03_ability_3d = 
 	{
@@ -15638,7 +15638,7 @@
 		[
 			"sounds/vo/viper/viper_use_curse_03.vsnd",
 		]
-		vsnd_duration = 1.055170
+		vsnd_duration = 1.05517
 	}
 	viper_use_decay_01_ability_3d = 
 	{
@@ -15738,7 +15738,7 @@
 		[
 			"sounds/vo/viper/viper_use_metal_skin_01.vsnd",
 		]
-		vsnd_duration = 1.535510
+		vsnd_duration = 1.53551
 	}
 	viper_use_metal_skin_02_ability_3d = 
 	{
@@ -15778,7 +15778,7 @@
 		[
 			"sounds/vo/viper/viper_use_phantom_strike_02.vsnd",
 		]
-		vsnd_duration = 0.929660
+		vsnd_duration = 0.92966
 	}
 	viper_use_phantom_strike_03_ability_3d = 
 	{
@@ -15868,7 +15868,7 @@
 		[
 			"sounds/vo/viper/viper_use_power1_08.vsnd",
 		]
-		vsnd_duration = 1.304830
+		vsnd_duration = 1.30483
 	}
 	viper_use_power1_09_ability_3d = 
 	{
@@ -15968,7 +15968,7 @@
 		[
 			"sounds/vo/viper/viper_use_power2_08.vsnd",
 		]
-		vsnd_duration = 1.665170
+		vsnd_duration = 1.66517
 	}
 	viper_use_power2_09_ability_3d = 
 	{
@@ -16088,7 +16088,7 @@
 		[
 			"sounds/vo/viper/viper_use_power4_04.vsnd",
 		]
-		vsnd_duration = 1.268730
+		vsnd_duration = 1.26873
 	}
 	viper_use_power4_04_hero_announcer = 
 	{
@@ -16098,7 +16098,7 @@
 		[
 			"sounds/vo/viper/viper_use_power4_04.vsnd",
 		]
-		vsnd_duration = 1.268730
+		vsnd_duration = 1.26873
 	}
 	viper_use_power4_04_ult_3d = 
 	{
@@ -16108,7 +16108,7 @@
 		[
 			"sounds/vo/viper/viper_use_power4_04.vsnd",
 		]
-		vsnd_duration = 1.268730
+		vsnd_duration = 1.26873
 	}
 	viper_use_power4_05_ability_3d = 
 	{
@@ -16178,7 +16178,7 @@
 		[
 			"sounds/vo/viper/viper_use_power4_07.vsnd",
 		]
-		vsnd_duration = 2.200000
+		vsnd_duration = 2.2
 	}
 	viper_use_power4_07_hero_announcer = 
 	{
@@ -16188,7 +16188,7 @@
 		[
 			"sounds/vo/viper/viper_use_power4_07.vsnd",
 		]
-		vsnd_duration = 2.200000
+		vsnd_duration = 2.2
 	}
 	viper_use_power4_07_ult_3d = 
 	{
@@ -16198,7 +16198,7 @@
 		[
 			"sounds/vo/viper/viper_use_power4_07.vsnd",
 		]
-		vsnd_duration = 2.200000
+		vsnd_duration = 2.2
 	}
 	viper_use_power4_08_ability_3d = 
 	{
@@ -16408,7 +16408,7 @@
 		[
 			"sounds/vo/viper/viper_use_unstoppable_03.vsnd",
 		]
-		vsnd_duration = 2.405510
+		vsnd_duration = 2.40551
 	}
 	viper_use_vampiric_burst_01_ability_3d = 
 	{

@@ -4,56 +4,36 @@
 	{
 		type = "citadel_default_2d"
 		mixer_mixgroup = "World"
-		volume = -1.000000
-		volume_fade_out = 0.060000
-		block_volume_min = -1.000000
-		occlusion_scale = 0.000000
+		volume = -1.0
+		volume_fade_out = 0.06
+		block_volume_min = -1.0
+		occlusion_scale = 0.0
 	}
 	Base.Ambience.3d = 
 	{
 		type = "citadel_ambient_3d"
 		mixer_mixgroup = "World"
-		volume = -12.000000
-		volume_fade_out = 0.060000
-		occlusion_scale = 0.000000
-		block_volume_min = -1.000000
+		volume = -12.0
+		volume_fade_out = 0.06
+		occlusion_scale = 0.0
+		block_volume_min = -1.0
 		crossfade_distance_to_shop = 
 		[
-			
 			[
-				-1.000000,
-				1.000000,
-				0.000000,
-				-1.000000,
-				0.000000,
-				0.000000,
+				-1.0, 1.0, 0.0, -1.0,
+				0.0, 0.0,
 			],
-			
 			[
-				0.000000,
-				0.000000,
-				-1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, -1.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				800.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				800.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1200.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				1.000000,
+				1200.0, 1.0, 0.0, 0.0,
+				0.0, 1.0,
 			],
 		]
 	}

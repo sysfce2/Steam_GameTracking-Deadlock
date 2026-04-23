@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -63,7 +61,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "opvar_get_viewing_pawn_position"
 				operator = "opvar_get_float3"
@@ -72,7 +69,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "viewing_entity_position"
 			},
-			
 			{
 				name = "obb_info"
 				operator = "obb_info"
@@ -82,20 +78,17 @@
 				input_obb_bounds_max = "@public.obb_maxs"
 				input_position = "@opvar_get_viewing_pawn_position.output"
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "position_filter"
 				operator = "math_filter_float"
 				input = "@obb_info.output_point_in_obb"
 				input_max_velocity = "5.0"
 			},
-			
 			{
 				name = "listener_position"
 				operator = "math_float3"
@@ -103,7 +96,6 @@
 				input1 = "@globals.output_listener_position"
 				input2 = "@globals.output_listener_forward"
 			},
-			
 			{
 				name = "lerp_position"
 				operator = "math_lerp_float3"
@@ -111,7 +103,6 @@
 				input_position_a = "@obb_info.output_closest_point"
 				input_position_b = "@listener_position.output"
 			},
-			
 			{
 				name = "citadel_emitter_lod"
 				operator = "sos_import_stack"

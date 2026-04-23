@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -234,7 +232,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "citadel_material_response"
 				operator = "sos_import_stack"
@@ -249,7 +246,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "math_add_material_layer_offset"
 				operator = "math_float"
@@ -257,7 +253,6 @@
 				input1 = "@citadel_material_response::output.vol_offset"
 				input2 = "@public.material_layer_vol_offset_db"
 			},
-			
 			{
 				name = "citadel_perspective_default"
 				operator = "sos_import_stack"

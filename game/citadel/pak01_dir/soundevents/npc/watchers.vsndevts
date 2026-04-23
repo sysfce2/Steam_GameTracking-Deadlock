@@ -3,9 +3,9 @@
 	Watcher.Amber.Melee.Swing = 
 	{
 		base = "Base.NPC.Guardian.Close"
-		volume = 1.000000
-		spread_max_value_opponent = 0.100000
-		hrtf_on_opponent = 0.000000
+		volume = 1.0
+		spread_max_value_opponent = 0.1
+		hrtf_on_opponent = 0.0
 		vsnd_files = 
 		[
 			"sounds/npc/watcher/watcher_amber_melee_swing_01.vsnd",
@@ -17,9 +17,9 @@
 	Watcher.Sapphire.Melee.Swing = 
 	{
 		base = "Base.NPC.Guardian.Close"
-		volume = 1.000000
-		spread_max_value_opponent = 0.100000
-		hrtf_on_opponent = 0.000000
+		volume = 1.0
+		spread_max_value_opponent = 0.1
+		hrtf_on_opponent = 0.0
 		vsnd_files = 
 		[
 			"sounds/npc/watcher/watcher_sapphire_melee_swing_01.vsnd",
@@ -31,7 +31,7 @@
 	Watcher.Melee.Hit = 
 	{
 		base = "Base.NPC.Guardian.Close"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/guardian_t1_melee_hit_02.vsnd",

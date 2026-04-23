@@ -3,31 +3,21 @@
 	mid.Tone = 
 	{
 		base = "Base.Ambience.2d"
-		volume = -15.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.000000
+		volume = -15.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.0
 		vsnd_files = "sounds/ambient/soundscapes/loops/mid_drone.vsnd"
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.0, 1.0, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
-		vsnd_duration = 51.714310
+		vsnd_duration = 51.71431
 	}
 }

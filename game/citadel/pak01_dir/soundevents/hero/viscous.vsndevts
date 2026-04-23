@@ -3,11 +3,11 @@
 	Viscous.Fire = 
 	{
 		base = "Base.Weapon.MachineGun"
-		limiter_max = 0.000000
-		volume = 3.000000
-		pitch = 1.000000
-		tail_vol_offset_db = -6.000000
-		last_shot_vol_offset_db = 2.000000
+		limiter_max = 0.0
+		volume = 3.0
+		pitch = 1.0
+		tail_vol_offset_db = -6.0
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/viscous/viscous_wpn_fire_main_01.vsnd",
@@ -23,53 +23,28 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.0, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-1.001785,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -1.001785,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-3.003571,
-				-1.001785,
-				-1.001785,
-				0.000000,
-				1.000000,
+				3.0, -3.003571, -1.001785, -1.001785,
+				0.0, 1.0,
 			],
 		]
 		vsnd_duration = 2.478798
@@ -77,9 +52,9 @@
 	Viscous.Wpn.Fire.First = 
 	{
 		base = "Base.Weapon.MachineGun"
-		volume = 7.000000
-		tail_vol_offset_db = -6.000000
-		limiter_max = 0.000000
+		volume = 7.0
+		tail_vol_offset_db = -6.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/viscous/viscous_wpn_fire_first_01.vsnd",
@@ -91,44 +66,24 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.030522,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.030522,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-3.052233,
-				-0.030522,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -3.052233, -0.030522, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 2.478798
@@ -136,7 +91,7 @@
 	Viscous.Wpn.BulletWhizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -8.000000
+		volume = -8.0
 		vsnd_files = 
 		[
 			"sounds/weapons/viscous/viscous_whizby_01.vsnd",
@@ -155,8 +110,8 @@
 	Viscous.Fire.Alt = 
 	{
 		base = "Base.Weapon.Shotgun"
-		volume = 3.000000
-		tail_vol_offset_db = -6.000000
+		volume = 3.0
+		tail_vol_offset_db = -6.0
 		vsnd_files = 
 		[
 			"sounds/weapons/viscous/viscous_weapon_fire_01.vsnd",
@@ -171,8 +126,8 @@
 	Viscous.Fire.Alt.Explode = 
 	{
 		base = "Base.Ability.Projectile"
-		limiter_max = 0.000000
-		volume = -2.000000
+		limiter_max = 0.0
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/viscous/viscous_weapon_alt_fire_01.vsnd",
@@ -187,38 +142,23 @@
 	Viscous.Fire.Alt.Projectile.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 2.000000
-		delay_rand_max = -12.000000
-		delay_rand_min = -0.500000
-		instance_attenuator_enabled = 1.000000
+		volume = 2.0
+		delay_rand_max = -12.0
+		delay_rand_min = -0.5
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				5.000000,
-				-12.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				5.0, -12.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = "sounds/weapons/viscous/viscous_weapon_alt_proj_lp.vsnd"
@@ -227,7 +167,7 @@
 	Viscous.Wpn.Impact = 
 	{
 		base = "Base.Bullet.Impact"
-		volume = -9.000000
+		volume = -9.0
 		vsnd_files = 
 		[
 			"sounds/weapons/viscous/impacts/visc_wpn_impact_01.vsnd",
@@ -245,8 +185,8 @@
 	Viscous.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/viscous/reload/viscous_wpn_reload_start_01.vsnd",
@@ -258,9 +198,9 @@
 	Viscous.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
-		block_duration = 1.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
+		block_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/viscous/reload/viscous_wpn_reload_mid_01.vsnd",
@@ -272,8 +212,8 @@
 	Viscous.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/viscous/reload/viscous_wpn_reload_end_01.vsnd",
@@ -285,7 +225,7 @@
 	Viscous.GooBall.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/viscous/a1_goo_ball/viscous_a1_goo_ball_cast_01.vsnd",
@@ -300,19 +240,19 @@
 	Viscous.GooBall.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -2.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		delay_rand_min = -2.000000
+		volume = -2.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay_rand_min = -2.0
 		vsnd_files = "sounds/abilities/viscous/viscous_a1_goo_ball_proj_lp_01.vsnd"
 		vsnd_duration = 9.302653
 	}
 	Viscous.GooBall.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -4.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
+		volume = -4.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
 		vsnd_files = 
 		[
 			"sounds/abilities/viscous/viscous_a1_gooball_impact_01.vsnd",
@@ -326,9 +266,9 @@
 	Viscous.GooBall.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 3.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
+		volume = 3.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
 		vsnd_files = 
 		[
 			"sounds/abilities/viscous/viscous_gooball_hit_confirm_01.vsnd",
@@ -340,97 +280,97 @@
 	Viscous.Cube.Cast = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 8.000000
-		pitch = 0.900000
+		volume = 8.0
+		pitch = 0.9
 		vsnd_files = "sounds/abilities/viscous/viscous_a2_cube_cast.vsnd"
 		vsnd_duration = 1.207324
 	}
 	Viscous.Cube.Dur.End = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 3.000000
-		pitch = 0.700000
+		volume = 3.0
+		pitch = 0.7
 		vsnd_files = "sounds/abilities/viscous/viscous_a2_cube_end.vsnd"
 		vsnd_duration = 1.207324
 	}
 	Viscous.Cube.Dur.Target.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -8.000000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.850000
-		pitch_envelope_scale_max = 1.300000
-		param_envelope_duration = 6.000000
+		volume = -8.0
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.85
+		pitch_envelope_scale_max = 1.3
+		param_envelope_duration = 6.0
 		vsnd_files = "sounds/abilities/viscous/viscous_a2_cube_lp.vsnd"
 		vsnd_duration = 5.825306
 	}
 	Viscous.Telepunch.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/abilities/viscous/viscous_a3_telepunch_delay.vsnd"
 		vsnd_duration = 0.778639
 	}
 	Viscous.Telepunch.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/viscous/viscous_a3_telepunch_hit_01.vsnd",
 			"sounds/abilities/viscous/viscous_a3_telepunch_hit_02.vsnd",
 			"sounds/abilities/viscous/viscous_a3_telepunch_hit_03.vsnd",
 		]
-		vsnd_duration = 1.875850
+		vsnd_duration = 1.87585
 	}
 	Viscous.Telepunch.Hit.Self = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/viscous/viscous_a3_telepunch_hit_01.vsnd",
 			"sounds/abilities/viscous/viscous_a3_telepunch_hit_02.vsnd",
 			"sounds/abilities/viscous/viscous_a3_telepunch_hit_03.vsnd",
 		]
-		vsnd_duration = 1.875850
+		vsnd_duration = 1.87585
 	}
 	Viscous.Telepunch.Portal = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 1.000000
-		volume_offset_opponent = 4.000000
+		volume = 1.0
+		volume_offset_opponent = 4.0
 		hrtf_on_opponent = 0
-		spread_max_value_opponent = 0.200000
+		spread_max_value_opponent = 0.2
 		vsnd_files = "sounds/abilities/viscous/viscous_a3_telepunch_portal_01.vsnd"
 		vsnd_duration = 1.857302
 	}
 	Viscous.Telepunch.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		volume_fade_in = 0.400000
+		volume = 0.0
+		volume_fade_in = 0.4
 		vsnd_files = "sounds/abilities/viscous/viscous_a3_telepunch_select_lp.vsnd"
 		vsnd_duration = 3.328254
 	}
 	Viscous.GooBowlingBall.Movement_Lp = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
-		doppler_on = 1.000000
-		doppler_factor = 5.000000
-		volume_offset_opponent = 9.000000
+		volume = 1.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		doppler_on = 1.0
+		doppler_factor = 5.0
+		volume_offset_opponent = 9.0
 		vsnd_files = "sounds/abilities/viscous/viscous_a4_ball_lp_01.vsnd"
 		vsnd_duration = 22.471724
 	}
 	Viscous.GooBowlingBall.Impact_Wall = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 2.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = 2.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/viscous/viscous_a4_ball_impact_wall_01.vsnd",
@@ -444,7 +384,7 @@
 	Viscous.GooBowlingBall.Impact_Hero = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/viscous/viscous_a4_ball_impact_hero_01.vsnd",
@@ -457,16 +397,16 @@
 	Viscous.GooBowlingBall.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/abilities/viscous/viscous_a4_ball_cast.vsnd"
 		vsnd_duration = 2.814399
 	}
 	Viscous.GooBowlingBall.End = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/abilities/viscous/viscous_a4_ball_end.vsnd"
-		vsnd_duration = 1.787460
+		vsnd_duration = 1.78746
 	}
 	Viscous.Melee.Swing = 
 	{
@@ -536,18 +476,18 @@
 	Viscous.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Viscous.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = 0.000000
+		volume = 0.0
 	}
 	Viscous.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 2.000000
-		track_2.vsnd_track_vol_offset_db = -8.000000
+		volume = 2.0
+		track_2.vsnd_track_vol_offset_db = -8.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/viscous/viscous_footstep_01.vsnd",
@@ -596,7 +536,7 @@
 	Viscous.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = 1.000000
+		track_1.vsnd_track_vol_offset_db = 1.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/viscous/viscous_footstep_01.vsnd",

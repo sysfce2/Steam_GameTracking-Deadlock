@@ -3,10 +3,10 @@
 	Familiar.Wpn.Fire = 
 	{
 		base = "Base.Weapon.Pistol"
-		volume = 2.000000
-		last_shot_vol_offset_db = 0.000000
-		tail_vol_offset_db = -9.000000
-		tail_interior_vol_offset_db = -11.000000
+		volume = 2.0
+		last_shot_vol_offset_db = 0.0
+		tail_vol_offset_db = -9.0
+		tail_interior_vol_offset_db = -11.0
 		vsnd_files = 
 		[
 			"sounds/weapons/familiar/familiar_wpn_fire_01.vsnd",
@@ -25,8 +25,8 @@
 	Familiar.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 0.000000
-		mono_downmix_enabled = 0.000000
+		volume = 0.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/familiar/familiar_wpn_reload_start_01.vsnd",
@@ -38,9 +38,9 @@
 	Familiar.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 0.000000
-		mono_downmix_enabled = 0.000000
-		block_duration = 1.000000
+		volume = 0.0
+		mono_downmix_enabled = 0.0
+		block_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/familiar/familiar_wpn_reload_mid_01.vsnd",
@@ -52,9 +52,9 @@
 	Familiar.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 0.000000
-		mono_downmix_enabled = 0.000000
-		block_duration = 1.000000
+		volume = 0.0
+		mono_downmix_enabled = 0.0
+		block_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/familiar/familiar_wpn_reload_end_01.vsnd",
@@ -70,7 +70,7 @@
 	Familiar.Pillow.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_pillow_cast_01.vsnd",
@@ -82,7 +82,7 @@
 	Familiar.Pillow.Projectile.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_pillow_projectile_impact_01.vsnd",
@@ -94,17 +94,17 @@
 	Familiar.Pillow.Projectile.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 1.000000
-		delay_rand_max = -6.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
+		volume = 1.0
+		delay_rand_max = -6.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
 		vsnd_files = "sounds/abilities/familiar/familiar_pillow_projectile_lp_01.vsnd"
 		vsnd_duration = 9.160272
 	}
 	Familiar.Pillow.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_pillow_hit_01.vsnd",
@@ -116,50 +116,50 @@
 	Familiar.TagAlong.Travel.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -5.000000
-		delay_rand_min = -5.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		param_envelope_enabled = 1.000000
-		param_envelope_duration = 2.000000
-		pitch_envelope_scale_min = 1.000000
-		pitch_envelope_scale_max = 1.600000
+		volume = -5.0
+		delay_rand_min = -5.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		param_envelope_enabled = 1.0
+		param_envelope_duration = 2.0
+		pitch_envelope_scale_min = 1.0
+		pitch_envelope_scale_max = 1.6
 		vsnd_files = "sounds/abilities/familiar/familiar_tagalong_travel_lp_01.vsnd"
 		vsnd_duration = 5.565397
 	}
 	Familiar.TagAlong.Travel.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 0.000000
-		volume_offset_team = 2.000000
+		volume = 0.0
+		volume_offset_team = 2.0
 		block_player = true
-		delay_rand_min = -5.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		param_envelope_enabled = 1.000000
-		param_envelope_duration = 2.000000
-		pitch_envelope_scale_min = 1.000000
-		pitch_envelope_scale_max = 1.600000
+		delay_rand_min = -5.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		param_envelope_enabled = 1.0
+		param_envelope_duration = 2.0
+		pitch_envelope_scale_min = 1.0
+		pitch_envelope_scale_max = 1.6
 		vsnd_files = "sounds/abilities/familiar/familiar_tagalong_travel_lp_01.vsnd"
 		vsnd_duration = 5.565397
 	}
 	Familiar.TagAlong.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_tagalong_cast_01.vsnd",
 			"sounds/abilities/familiar/familiar_tagalong_cast_02.vsnd",
 			"sounds/abilities/familiar/familiar_tagalong_cast_03.vsnd",
 		]
-		vsnd_duration = 0.944490
+		vsnd_duration = 0.94449
 	}
 	Familiar.TagAlong.Cast.Delay = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
-		volume_fade_out = 0.100000
+		volume = -2.0
+		volume_fade_out = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_tagalong_cast_delay_01.vsnd",
@@ -169,8 +169,8 @@
 	Familiar.TagAlong.Attach = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
-		pitch_rand_max = 0.100000
+		volume = -3.0
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_tagalong_attach_host_01.vsnd",
@@ -182,9 +182,9 @@
 	Familiar.TagAlong.Attach.Rampup = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		DELAY = 1.000000
-		volume_fade_out = 0.200000
+		volume = 0.0
+		DELAY = 1.0
+		volume_fade_out = 0.2
 		block_team = true
 		block_opponent = true
 		vsnd_files = "sounds/abilities/familiar/familiar_tagalong_attach_rampup_01.vsnd"
@@ -193,8 +193,8 @@
 	Familiar.TagAlong.Detach = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
-		pitch_rand_max = 0.100000
+		volume = -3.0
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_tagalong_detach_host_01.vsnd",
@@ -206,19 +206,19 @@
 	Familiar.TagAlong.Force.Detach = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_tagalong_timeout_01.vsnd",
 			"sounds/abilities/familiar/familiar_tagalong_timeout_02.vsnd",
 			"sounds/abilities/familiar/familiar_tagalong_timeout_03.vsnd",
 		]
-		vsnd_duration = 1.731610
+		vsnd_duration = 1.73161
 	}
 	Familiar.TagAlong.Attach.Host = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -3.000000
+		volume = -3.0
 		block_team = true
 		block_opponent = true
 		vsnd_files = 
@@ -232,7 +232,7 @@
 	Familiar.TagAlong.Detach.Host = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -3.000000
+		volume = -3.0
 		block_team = true
 		block_opponent = true
 		vsnd_files = 
@@ -246,9 +246,9 @@
 	Familiar.HelpingHands.Select = 
 	{
 		base = "Base.Ability"
-		volume = -4.000000
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
+		volume = -4.0
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_helping_hands_select_01.vsnd",
@@ -260,9 +260,9 @@
 	Familiar.HelpingHands.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
+		volume = -6.0
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_helping_hands_deselect_01.vsnd",
@@ -274,17 +274,17 @@
 	Familiar.HelpingHands.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		delay_rand_min = -9.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.400000
+		volume = -6.0
+		delay_rand_min = -9.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.4
 		vsnd_files = "sounds/abilities/familiar/familiar_helping_hands_select_lp_01.vsnd"
 		vsnd_duration = 7.789115
 	}
 	Familiar.HelpingHands.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_helping_hands_cast_01.vsnd",
@@ -296,7 +296,7 @@
 	Familiar.HelpingHands.Buff.Start = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
+		volume = 0.0
 		filter_include_others = true
 		vsnd_files = 
 		[
@@ -309,7 +309,7 @@
 	Familiar.HelpingHands.Heal.Troop = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/player/healing_burst_small_01.vsnd",
@@ -321,39 +321,24 @@
 	Familiar.HelpingHands.Buff.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -4.000000
-		delay_rand_min = -9.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.400000
+		volume = -4.0
+		delay_rand_min = -9.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.4
 		vsnd_files = "sounds/abilities/familiar/familiar_helping_hands_buff_lp_01.vsnd"
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.0, 1.0, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				5.000000,
-				1.000000,
-				-0.040350,
-				-0.040350,
-				3.000000,
-				1.000000,
+				5.0, 1.0, -0.04035, -0.04035,
+				3.0, 1.0,
 			],
-			
 			[
-				18.000000,
-				0.200000,
-				-0.023581,
-				-0.023581,
-				2.000000,
-				3.000000,
+				18.0, 0.2, -0.023581, -0.023581,
+				2.0, 3.0,
 			],
 		]
 		vsnd_duration = 13.991474
@@ -361,10 +346,10 @@
 	Familiar.HelpingHands.Emote = 
 	{
 		base = "Base.Ability.Detached.Close"
-		volume = -4.000000
-		delay_rand_max = 0.100000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
+		volume = -4.0
+		delay_rand_max = 0.1
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_helper_emote_01.vsnd",
@@ -384,35 +369,20 @@
 			"sounds/abilities/familiar/familiar_helper_emote_15.vsnd",
 			"sounds/abilities/familiar/familiar_helper_emote_16.vsnd",
 		]
-		instance_attenuator_enabled = 1.000000
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -2.087491,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-2.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, -2.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				4.000000,
-				-3.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				4.0, -3.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 0.592268
@@ -420,9 +390,9 @@
 	Familiar.HelpingHands.Emote.Attack = 
 	{
 		base = "Base.Ability.Detached.Close"
-		volume = -3.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
+		volume = -3.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_helper_emote_attack_01.vsnd",
@@ -440,9 +410,9 @@
 	Familiar.HelpingHands.Emote.Scared = 
 	{
 		base = "Base.Ability.Detached.Close"
-		volume = 0.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
+		volume = 0.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_helper_emote_scared_01.vsnd",
@@ -461,9 +431,9 @@
 	Familiar.HelpingHands.Shoot = 
 	{
 		base = "Base.Ability.Detached.Close"
-		volume = -3.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
+		volume = -3.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_helper_shoot_01.vsnd",
@@ -478,41 +448,41 @@
 	Familiar.HelpingHands.Projectile.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -7.000000
-		volume_fade_out = 0.300000
-		volume_fade_in = 0.100000
-		delay_rand_min = -3.000000
+		volume = -7.0
+		volume_fade_out = 0.3
+		volume_fade_in = 0.1
+		delay_rand_min = -3.0
 		vsnd_files = "sounds/abilities/familiar/familiar_helping_hands_proj_lp_01.vsnd"
 		vsnd_duration = 12.182902
 	}
 	Familiar.Naptime.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/familiar/familiar_naptime_cast_01.vsnd"
 		vsnd_duration = 2.983129
 	}
 	Familiar.Naptime.Cast.Delay = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/familiar/familiar_naptime_cast_delay_01.vsnd"
 		vsnd_duration = 1.949751
 	}
 	Familiar.Naptime.Warning.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 2.000000
-		delay_rand_min = -3.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
+		volume = 2.0
+		delay_rand_min = -3.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/familiar/familiar_naptime_slow_lp_01.vsnd"
-		vsnd_duration = 4.215760
+		vsnd_duration = 4.21576
 	}
 	Familiar.Naptime.Select = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_naptime_select_01.vsnd",
@@ -524,9 +494,9 @@
 	Familiar.Naptime.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
+		volume = -6.0
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
 		vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_helping_hands_deselect_01.vsnd",
@@ -538,47 +508,47 @@
 	Familiar.Naptime.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
-		delay_rand_min = -3.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
+		volume = -7.0
+		delay_rand_min = -3.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/familiar/familiar_naptime_select_lp_01.vsnd"
 		vsnd_duration = 6.711814
 	}
 	Familiar.Naptime.Channel = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
-		spread_min = 450.000000
-		spread_max = 650.000000
+		volume = 2.0
+		spread_min = 450.0
+		spread_max = 650.0
 		vsnd_files = "sounds/abilities/familiar/familiar_naptime_channel_01.vsnd"
 		vsnd_duration = 2.646984
 	}
 	Familiar.Naptime.Sleep.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/abilities/familiar/familiar_naptime_aoe_explode_01.vsnd"
 		vsnd_duration = 2.492789
 	}
 	Familiar.Naptime.Status.Sleep = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 0.000000
-		volume_fade_in = 0.400000
-		volume_fade_out = 0.400000
-		block_match_entity = 0.000000
-		block_duration = 0.050000
+		volume = 0.0
+		volume_fade_in = 0.4
+		volume_fade_out = 0.4
+		block_match_entity = 0.0
+		block_duration = 0.05
 		vsnd_files = "sounds/gameplay/status_effects/sleep.vsnd"
 		vsnd_duration = 7.629932
 	}
 	Familiar.Naptime.Status.Wake = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/gameplay/status_effects/sleep_end.vsnd"
-		block_match_entity = 0.000000
-		block_duration = 0.050000
+		block_match_entity = 0.0
+		block_duration = 0.05
 		track_2.track_vsnd_files = 
 		[
 			"sounds/abilities/familiar/familiar_naptime_wakeup_01.vsnd",
@@ -591,7 +561,7 @@
 	Familiar.Footstep = 
 	{
 		base = "Base.Footsteps.Soft"
-		track_1.vsnd_track_vol_offset_db = -7.000000
+		track_1.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hornet/vindicta_footstep_01.vsnd",
@@ -608,8 +578,8 @@
 	Familiar.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand.Soft"
-		volume = -4.000000
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		volume = -4.0
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hornet/vindicta_footstep_01.vsnd",
@@ -638,7 +608,7 @@
 	Familiar.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = 2.000000
+		track_2.vsnd_track_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -711,7 +681,7 @@
 	Familiar.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/kali/kali_mantle_01.vsnd",
@@ -729,12 +699,12 @@
 	Familiar.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -7.000000
+		volume = -7.0
 	}
 	Familiar.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -2.000000
+		volume = -2.0
 	}
 	Familiar.Progession.Page.Win.VO = 
 	{

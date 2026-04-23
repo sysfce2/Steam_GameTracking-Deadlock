@@ -88,7 +88,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_astro_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.155510
+		vsnd_duration = 1.15551
 	}
 	ghost_ally_astro_lasso_victim_01_hero_3d = 
 	{
@@ -108,7 +108,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_astro_lasso_victim_02.vsnd",
 		]
-		vsnd_duration = 1.383000
+		vsnd_duration = 1.383
 	}
 	ghost_ally_astro_lasso_victim_03_hero_3d = 
 	{
@@ -118,7 +118,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_astro_lasso_victim_03.vsnd",
 		]
-		vsnd_duration = 3.251000
+		vsnd_duration = 3.251
 	}
 	ghost_ally_astro_pass_on_zipline_01_hero_3d = 
 	{
@@ -128,7 +128,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_astro_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.473000
+		vsnd_duration = 1.473
 	}
 	ghost_ally_atlas_big_stun_01_hero_3d = 
 	{
@@ -158,7 +158,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_atlas_big_stun_03.vsnd",
 		]
-		vsnd_duration = 1.715850
+		vsnd_duration = 1.71585
 	}
 	ghost_ally_atlas_killed_in_lane_01_hero_3d = 
 	{
@@ -208,7 +208,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_atlas_unkillable_03.vsnd",
 		]
-		vsnd_duration = 1.959410
+		vsnd_duration = 1.95941
 	}
 	ghost_ally_bebop_far_hook_01_hero_3d = 
 	{
@@ -288,7 +288,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_bebop_uppercut_towards_boss_03.vsnd",
 		]
-		vsnd_duration = 1.959410
+		vsnd_duration = 1.95941
 	}
 	ghost_ally_boho_killed_in_lane_01_hero_3d = 
 	{
@@ -348,7 +348,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_chrono_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.421000
+		vsnd_duration = 2.421
 	}
 	ghost_ally_chrono_swap_to_boss_01_hero_3d = 
 	{
@@ -358,7 +358,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_chrono_swap_to_boss_01.vsnd",
 		]
-		vsnd_duration = 1.100340
+		vsnd_duration = 1.10034
 	}
 	ghost_ally_chrono_swap_to_boss_02_hero_3d = 
 	{
@@ -468,7 +468,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_dynamo_clutch_heal_01.vsnd",
 		]
-		vsnd_duration = 1.300000
+		vsnd_duration = 1.3
 	}
 	ghost_ally_dynamo_clutch_heal_02_hero_3d = 
 	{
@@ -588,7 +588,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_forge_wall_stun_kill_03.vsnd",
 		]
-		vsnd_duration = 1.501000
+		vsnd_duration = 1.501
 	}
 	ghost_ally_fortuna_killed_in_lane_01_hero_3d = 
 	{
@@ -628,7 +628,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_gigawatt_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.257800
+		vsnd_duration = 1.2578
 	}
 	ghost_ally_gigawatt_multi_kill_ult_02_hero_3d = 
 	{
@@ -688,7 +688,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_haze_big_ult_02.vsnd",
 		]
-		vsnd_duration = 1.428050
+		vsnd_duration = 1.42805
 	}
 	ghost_ally_haze_big_ult_03_hero_3d = 
 	{
@@ -728,7 +728,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_haze_interrupt_with_finesse_03.vsnd",
 		]
-		vsnd_duration = 1.563560
+		vsnd_duration = 1.56356
 	}
 	ghost_ally_haze_killed_in_lane_01_hero_3d = 
 	{
@@ -948,7 +948,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_krill_grab_mid_enemy_ult_03.vsnd",
 		]
-		vsnd_duration = 1.134580
+		vsnd_duration = 1.13458
 	}
 	ghost_ally_krill_killed_in_lane_01_hero_3d = 
 	{
@@ -1038,7 +1038,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_mirage_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.851000
+		vsnd_duration = 1.851
 	}
 	ghost_ally_nano_killed_in_lane_01_hero_3d = 
 	{
@@ -1098,7 +1098,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_orion_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.344490
+		vsnd_duration = 1.34449
 	}
 	ghost_ally_orion_missile_stops_ult_01_hero_3d = 
 	{
@@ -1118,7 +1118,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_orion_missile_stops_ult_02.vsnd",
 		]
-		vsnd_duration = 2.799000
+		vsnd_duration = 2.799
 	}
 	ghost_ally_orion_missile_stops_ult_03_hero_3d = 
 	{
@@ -1128,7 +1128,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_orion_missile_stops_ult_03.vsnd",
 		]
-		vsnd_duration = 2.933000
+		vsnd_duration = 2.933
 	}
 	ghost_ally_orion_pass_on_zipline_01_hero_3d = 
 	{
@@ -1148,7 +1148,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_priest_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.459000
+		vsnd_duration = 1.459
 	}
 	ghost_ally_priest_pass_on_zipline_01_hero_3d = 
 	{
@@ -1228,7 +1228,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_shiv_multikill_03.vsnd",
 		]
-		vsnd_duration = 1.630590
+		vsnd_duration = 1.63059
 	}
 	ghost_ally_shiv_pass_on_zipline_01_hero_3d = 
 	{
@@ -1268,7 +1268,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_shiv_unkillable_03.vsnd",
 		]
-		vsnd_duration = 3.646780
+		vsnd_duration = 3.64678
 	}
 	ghost_ally_skyrunner_killed_in_lane_01_hero_3d = 
 	{
@@ -1278,7 +1278,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_skyrunner_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.526000
+		vsnd_duration = 1.526
 	}
 	ghost_ally_slork_killed_in_lane_01_hero_3d = 
 	{
@@ -1318,7 +1318,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_synth_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.102630
+		vsnd_duration = 1.10263
 	}
 	ghost_ally_synth_pass_on_zipline_01_hero_3d = 
 	{
@@ -1338,7 +1338,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_tengu_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.089410
+		vsnd_duration = 1.08941
 	}
 	ghost_ally_tengu_pass_on_zipline_01_hero_3d = 
 	{
@@ -1348,7 +1348,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_tengu_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.033000
+		vsnd_duration = 2.033
 	}
 	ghost_ally_tengu_take_objective_with_teather_01_hero_3d = 
 	{
@@ -1398,7 +1398,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_vampirebat_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.271000
+		vsnd_duration = 1.271
 	}
 	ghost_ally_vampirebat_pass_on_zipline_01_hero_3d = 
 	{
@@ -1628,7 +1628,7 @@
 		[
 			"sounds/vo/ghost/ghost_ally_yamato_kills_with_hook_03.vsnd",
 		]
-		vsnd_duration = 1.866440
+		vsnd_duration = 1.86644
 	}
 	ghost_ally_yamato_pass_on_zipline_01_hero_3d = 
 	{
@@ -1668,7 +1668,7 @@
 		[
 			"sounds/vo/ghost/ghost_angry_02.vsnd",
 		]
-		vsnd_duration = 1.240680
+		vsnd_duration = 1.24068
 	}
 	ghost_angry_02_ult_3d = 
 	{
@@ -1678,7 +1678,7 @@
 		[
 			"sounds/vo/ghost/ghost_angry_02.vsnd",
 		]
-		vsnd_duration = 1.240680
+		vsnd_duration = 1.24068
 	}
 	ghost_angry_03_hero_3d = 
 	{
@@ -1888,7 +1888,7 @@
 		[
 			"sounds/vo/ghost/ghost_ap_reminder_03.vsnd",
 		]
-		vsnd_duration = 2.361020
+		vsnd_duration = 2.36102
 	}
 	ghost_be_careful_01_hero_3d = 
 	{
@@ -1898,7 +1898,7 @@
 		[
 			"sounds/vo/ghost/ghost_be_careful_01.vsnd",
 		]
-		vsnd_duration = 1.265760
+		vsnd_duration = 1.26576
 	}
 	ghost_be_careful_02_hero_3d = 
 	{
@@ -2448,7 +2448,7 @@
 		[
 			"sounds/vo/ghost/ghost_desperation_power4_04.vsnd",
 		]
-		vsnd_duration = 1.955420
+		vsnd_duration = 1.95542
 	}
 	ghost_desperation_power4_04_ult_3d = 
 	{
@@ -2458,7 +2458,7 @@
 		[
 			"sounds/vo/ghost/ghost_desperation_power4_04.vsnd",
 		]
-		vsnd_duration = 1.955420
+		vsnd_duration = 1.95542
 	}
 	ghost_desperation_power4_05_ability_3d = 
 	{
@@ -3338,7 +3338,7 @@
 		[
 			"sounds/vo/ghost/ghost_enemy_chrono_steals_rejuv_03.vsnd",
 		]
-		vsnd_duration = 1.775760
+		vsnd_duration = 1.77576
 	}
 	ghost_enemy_dynamo_charges_01_hero_3d = 
 	{
@@ -3408,7 +3408,7 @@
 		[
 			"sounds/vo/ghost/ghost_enemy_forge_destroy_turrets_01.vsnd",
 		]
-		vsnd_duration = 1.085510
+		vsnd_duration = 1.08551
 	}
 	ghost_enemy_forge_destroy_turrets_02_hero_3d = 
 	{
@@ -3458,7 +3458,7 @@
 		[
 			"sounds/vo/ghost/ghost_enemy_gets_rejuv_03.vsnd",
 		]
-		vsnd_duration = 2.812290
+		vsnd_duration = 2.81229
 	}
 	ghost_enemy_gigawatt_hide_from_ult_01_hero_3d = 
 	{
@@ -3468,7 +3468,7 @@
 		[
 			"sounds/vo/ghost/ghost_enemy_gigawatt_hide_from_ult_01.vsnd",
 		]
-		vsnd_duration = 1.561270
+		vsnd_duration = 1.56127
 	}
 	ghost_enemy_gigawatt_hide_from_ult_02_hero_3d = 
 	{
@@ -3538,7 +3538,7 @@
 		[
 			"sounds/vo/ghost/ghost_enemy_hornet_damaged_by_snipe_01.vsnd",
 		]
-		vsnd_duration = 0.852200
+		vsnd_duration = 0.8522
 	}
 	ghost_enemy_hornet_damaged_by_snipe_02_hero_3d = 
 	{
@@ -3588,7 +3588,7 @@
 		[
 			"sounds/vo/ghost/ghost_enemy_hornet_killed_mid_air_03.vsnd",
 		]
-		vsnd_duration = 1.867710
+		vsnd_duration = 1.86771
 	}
 	ghost_enemy_inferno_killed_mid_ult_01_hero_3d = 
 	{
@@ -3738,7 +3738,7 @@
 		[
 			"sounds/vo/ghost/ghost_enemy_orion_see_missile_03.vsnd",
 		]
-		vsnd_duration = 1.293000
+		vsnd_duration = 1.293
 	}
 	ghost_enemy_shiv_unkillable_01_hero_3d = 
 	{
@@ -3808,7 +3808,7 @@
 		[
 			"sounds/vo/ghost/ghost_enemy_warden_see_ult_01.vsnd",
 		]
-		vsnd_duration = 1.667370
+		vsnd_duration = 1.66737
 	}
 	ghost_enemy_warden_see_ult_02_hero_3d = 
 	{
@@ -4118,7 +4118,7 @@
 		[
 			"sounds/vo/ghost/ghost_hunt_03.vsnd",
 		]
-		vsnd_duration = 2.235510
+		vsnd_duration = 2.23551
 	}
 	ghost_interrupt_01_hero_3d = 
 	{
@@ -4388,7 +4388,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_bebop_02.vsnd",
 		]
-		vsnd_duration = 1.861750
+		vsnd_duration = 1.86175
 	}
 	ghost_kill_bebop_03_hero_3d = 
 	{
@@ -4398,7 +4398,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_bebop_03.vsnd",
 		]
-		vsnd_duration = 1.751000
+		vsnd_duration = 1.751
 	}
 	ghost_kill_bebop_04_hero_3d = 
 	{
@@ -4448,7 +4448,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_bookworm_03.vsnd",
 		]
-		vsnd_duration = 3.107000
+		vsnd_duration = 3.107
 	}
 	ghost_kill_bookworm_04_hero_3d = 
 	{
@@ -4458,7 +4458,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_bookworm_04.vsnd",
 		]
-		vsnd_duration = 2.747000
+		vsnd_duration = 2.747
 	}
 	ghost_kill_bookworm_05_hero_3d = 
 	{
@@ -4468,7 +4468,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_bookworm_05.vsnd",
 		]
-		vsnd_duration = 2.885000
+		vsnd_duration = 2.885
 	}
 	ghost_kill_chrono_01_hero_3d = 
 	{
@@ -4528,7 +4528,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_doorman_01.vsnd",
 		]
-		vsnd_duration = 3.979000
+		vsnd_duration = 3.979
 	}
 	ghost_kill_doorman_02_hero_3d = 
 	{
@@ -4548,7 +4548,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_doorman_03.vsnd",
 		]
-		vsnd_duration = 3.057000
+		vsnd_duration = 3.057
 	}
 	ghost_kill_doorman_04_hero_3d = 
 	{
@@ -4688,7 +4688,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_forge_02.vsnd",
 		]
-		vsnd_duration = 4.974830
+		vsnd_duration = 4.97483
 	}
 	ghost_kill_forge_03_hero_3d = 
 	{
@@ -4708,7 +4708,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_forge_04.vsnd",
 		]
-		vsnd_duration = 3.126440
+		vsnd_duration = 3.12644
 	}
 	ghost_kill_forge_05_hero_3d = 
 	{
@@ -4728,7 +4728,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_frank_01.vsnd",
 		]
-		vsnd_duration = 3.147000
+		vsnd_duration = 3.147
 	}
 	ghost_kill_frank_02_hero_3d = 
 	{
@@ -4788,7 +4788,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_gigawatt_02.vsnd",
 		]
-		vsnd_duration = 3.245760
+		vsnd_duration = 3.24576
 	}
 	ghost_kill_gigawatt_03_hero_3d = 
 	{
@@ -4808,7 +4808,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_gigawatt_04.vsnd",
 		]
-		vsnd_duration = 1.698730
+		vsnd_duration = 1.69873
 	}
 	ghost_kill_gigawatt_05_hero_3d = 
 	{
@@ -4868,7 +4868,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_haze_04.vsnd",
 		]
-		vsnd_duration = 1.725000
+		vsnd_duration = 1.725
 	}
 	ghost_kill_haze_05_hero_3d = 
 	{
@@ -4878,7 +4878,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_haze_05.vsnd",
 		]
-		vsnd_duration = 2.467000
+		vsnd_duration = 2.467
 	}
 	ghost_kill_high_networth_hero_3d = 
 	{
@@ -4928,7 +4928,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_hornet_04.vsnd",
 		]
-		vsnd_duration = 1.172540
+		vsnd_duration = 1.17254
 	}
 	ghost_kill_hornet_05_hero_3d = 
 	{
@@ -4998,7 +4998,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_kelvin_01.vsnd",
 		]
-		vsnd_duration = 2.731500
+		vsnd_duration = 2.7315
 	}
 	ghost_kill_kelvin_02_hero_3d = 
 	{
@@ -5058,7 +5058,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_krill_02.vsnd",
 		]
-		vsnd_duration = 2.408000
+		vsnd_duration = 2.408
 	}
 	ghost_kill_krill_03_hero_3d = 
 	{
@@ -5118,7 +5118,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_lash_03.vsnd",
 		]
-		vsnd_duration = 3.263000
+		vsnd_duration = 3.263
 	}
 	ghost_kill_lash_04_hero_3d = 
 	{
@@ -5238,7 +5238,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_nano_05.vsnd",
 		]
-		vsnd_duration = 2.102540
+		vsnd_duration = 2.10254
 	}
 	ghost_kill_orion_01_hero_3d = 
 	{
@@ -5258,7 +5258,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_orion_02.vsnd",
 		]
-		vsnd_duration = 3.528500
+		vsnd_duration = 3.5285
 	}
 	ghost_kill_orion_03_hero_3d = 
 	{
@@ -5298,7 +5298,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_priest_01.vsnd",
 		]
-		vsnd_duration = 2.953000
+		vsnd_duration = 2.953
 	}
 	ghost_kill_priest_02_hero_3d = 
 	{
@@ -5308,7 +5308,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_priest_02.vsnd",
 		]
-		vsnd_duration = 3.377000
+		vsnd_duration = 3.377
 	}
 	ghost_kill_priest_03_hero_3d = 
 	{
@@ -5348,7 +5348,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_punkgoat_01.vsnd",
 		]
-		vsnd_duration = 1.917000
+		vsnd_duration = 1.917
 	}
 	ghost_kill_punkgoat_02_hero_3d = 
 	{
@@ -5358,7 +5358,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_punkgoat_02.vsnd",
 		]
-		vsnd_duration = 1.119000
+		vsnd_duration = 1.119
 	}
 	ghost_kill_punkgoat_03_hero_3d = 
 	{
@@ -5368,7 +5368,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_punkgoat_03.vsnd",
 		]
-		vsnd_duration = 3.010500
+		vsnd_duration = 3.0105
 	}
 	ghost_kill_punkgoat_04_hero_3d = 
 	{
@@ -5378,7 +5378,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_punkgoat_04.vsnd",
 		]
-		vsnd_duration = 2.755000
+		vsnd_duration = 2.755
 	}
 	ghost_kill_punkgoat_05_hero_3d = 
 	{
@@ -5388,7 +5388,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_punkgoat_05.vsnd",
 		]
-		vsnd_duration = 2.745000
+		vsnd_duration = 2.745
 	}
 	ghost_kill_shiv_01_hero_3d = 
 	{
@@ -5468,7 +5468,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_synth_03.vsnd",
 		]
-		vsnd_duration = 1.767000
+		vsnd_duration = 1.767
 	}
 	ghost_kill_synth_04_hero_3d = 
 	{
@@ -5538,7 +5538,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_tengu_05.vsnd",
 		]
-		vsnd_duration = 4.063220
+		vsnd_duration = 4.06322
 	}
 	ghost_kill_vampirebat_01_hero_3d = 
 	{
@@ -5578,7 +5578,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_vampirebat_04.vsnd",
 		]
-		vsnd_duration = 4.175000
+		vsnd_duration = 4.175
 	}
 	ghost_kill_vampirebat_05_hero_3d = 
 	{
@@ -5588,7 +5588,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_vampirebat_05.vsnd",
 		]
-		vsnd_duration = 2.015000
+		vsnd_duration = 2.015
 	}
 	ghost_kill_viper_01_hero_3d = 
 	{
@@ -5858,7 +5858,7 @@
 		[
 			"sounds/vo/ghost/ghost_kill_yamato_02.vsnd",
 		]
-		vsnd_duration = 2.383000
+		vsnd_duration = 2.383
 	}
 	ghost_kill_yamato_03_hero_3d = 
 	{
@@ -6098,7 +6098,7 @@
 		[
 			"sounds/vo/ghost/ghost_killstreak_start_05.vsnd",
 		]
-		vsnd_duration = 2.235510
+		vsnd_duration = 2.23551
 	}
 	ghost_killstreak_start_05_hero_announcer = 
 	{
@@ -6108,7 +6108,7 @@
 		[
 			"sounds/vo/ghost/ghost_killstreak_start_05.vsnd",
 		]
-		vsnd_duration = 2.235510
+		vsnd_duration = 2.23551
 	}
 	ghost_last_one_standing_01_hero_3d = 
 	{
@@ -6378,7 +6378,7 @@
 		[
 			"sounds/vo/ghost/ghost_low_health_warning.vsnd",
 		]
-		vsnd_duration = 1.454490
+		vsnd_duration = 1.45449
 	}
 	ghost_match_start_astro_ghost_convo01_02_hero_zipline_3d = 
 	{
@@ -6418,7 +6418,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_astro_ghost_convo02_03.vsnd",
 		]
-		vsnd_duration = 1.115510
+		vsnd_duration = 1.11551
 	}
 	ghost_match_start_astro_ghost_convo02_05_hero_zipline_3d = 
 	{
@@ -6468,7 +6468,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_atlas_ghost_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.661610
+		vsnd_duration = 2.66161
 	}
 	ghost_match_start_atlas_ghost_convo01_03_hero_zipline_3d = 
 	{
@@ -6618,7 +6618,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_doorman_ghost_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.451000
+		vsnd_duration = 2.451
 	}
 	ghost_match_start_doorman_ghost_convo01_03_hero_zipline_3d = 
 	{
@@ -6638,7 +6638,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_doorman_ghost_convo01_05.vsnd",
 		]
-		vsnd_duration = 1.527000
+		vsnd_duration = 1.527
 	}
 	ghost_match_start_doorman_ghost_convo02_01_hero_zipline_3d = 
 	{
@@ -6688,7 +6688,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_drifter_ghost_convo01_04.vsnd",
 		]
-		vsnd_duration = 1.679000
+		vsnd_duration = 1.679
 	}
 	ghost_match_start_drifter_ghost_convo02_01_hero_zipline_3d = 
 	{
@@ -6698,7 +6698,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_drifter_ghost_convo02_01.vsnd",
 		]
-		vsnd_duration = 2.815000
+		vsnd_duration = 2.815
 	}
 	ghost_match_start_drifter_ghost_convo02_03_hero_zipline_3d = 
 	{
@@ -6848,7 +6848,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_frank_ghost_convo01_03.vsnd",
 		]
-		vsnd_duration = 1.963000
+		vsnd_duration = 1.963
 	}
 	ghost_match_start_frank_ghost_convo02_02_hero_zipline_3d = 
 	{
@@ -6898,7 +6898,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_ghost_chrono_convo01_01.vsnd",
 		]
-		vsnd_duration = 3.404150
+		vsnd_duration = 3.40415
 	}
 	ghost_match_start_ghost_chrono_convo01_03_hero_zipline_3d = 
 	{
@@ -6958,7 +6958,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_ghost_chrono_convo02_07.vsnd",
 		]
-		vsnd_duration = 2.527030
+		vsnd_duration = 2.52703
 	}
 	ghost_match_start_ghost_chrono_convo03_01_hero_zipline_3d = 
 	{
@@ -7008,7 +7008,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_ghost_forge_convo01_06.vsnd",
 		]
-		vsnd_duration = 0.765510
+		vsnd_duration = 0.76551
 	}
 	ghost_match_start_ghost_forge_convo02_01_hero_zipline_3d = 
 	{
@@ -7018,7 +7018,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_ghost_forge_convo02_01.vsnd",
 		]
-		vsnd_duration = 3.181020
+		vsnd_duration = 3.18102
 	}
 	ghost_match_start_ghost_forge_convo02_03_hero_zipline_3d = 
 	{
@@ -7228,7 +7228,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_ghost_kelvin_convo03_03.vsnd",
 		]
-		vsnd_duration = 1.655510
+		vsnd_duration = 1.65551
 	}
 	ghost_match_start_ghost_kelvin_convo03_05_hero_zipline_3d = 
 	{
@@ -7458,7 +7458,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_ghost_orion_convo02_02.vsnd",
 		]
-		vsnd_duration = 1.990680
+		vsnd_duration = 1.99068
 	}
 	ghost_match_start_ghost_orion_convo03_02_hero_zipline_3d = 
 	{
@@ -7888,7 +7888,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_haze_ghost_convo02_04.vsnd",
 		]
-		vsnd_duration = 3.490930
+		vsnd_duration = 3.49093
 	}
 	ghost_match_start_haze_ghost_convo03_02_hero_zipline_3d = 
 	{
@@ -7918,7 +7918,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_punkgoat_ghost_convo01_03.vsnd",
 		]
-		vsnd_duration = 3.839000
+		vsnd_duration = 3.839
 	}
 	ghost_match_start_punkgoat_ghost_convo01_05_hero_zipline_3d = 
 	{
@@ -7948,7 +7948,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_punkgoat_ghost_convo02_04.vsnd",
 		]
-		vsnd_duration = 3.679000
+		vsnd_duration = 3.679
 	}
 	ghost_match_start_viper_ghost_convo01_02_hero_zipline_3d = 
 	{
@@ -7958,7 +7958,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_viper_ghost_convo01_02.vsnd",
 		]
-		vsnd_duration = 4.067000
+		vsnd_duration = 4.067
 	}
 	ghost_match_start_viper_ghost_convo01_04_hero_zipline_3d = 
 	{
@@ -8028,7 +8028,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_yamato_ghost_convo01_03.vsnd",
 		]
-		vsnd_duration = 1.661750
+		vsnd_duration = 1.66175
 	}
 	ghost_match_start_yamato_ghost_convo02_02_hero_zipline_3d = 
 	{
@@ -8048,7 +8048,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_yamato_ghost_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.813000
+		vsnd_duration = 1.813
 	}
 	ghost_match_start_yamato_ghost_convo03_02_hero_zipline_3d = 
 	{
@@ -8058,7 +8058,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_yamato_ghost_convo03_02.vsnd",
 		]
-		vsnd_duration = 0.879000
+		vsnd_duration = 0.879
 	}
 	ghost_match_start_yamato_ghost_convo03_04_hero_zipline_3d = 
 	{
@@ -8068,7 +8068,7 @@
 		[
 			"sounds/vo/ghost/ghost_match_start_yamato_ghost_convo03_04.vsnd",
 		]
-		vsnd_duration = 1.507000
+		vsnd_duration = 1.507
 	}
 	ghost_melee_kill_01_hero_3d = 
 	{
@@ -8208,7 +8208,7 @@
 		[
 			"sounds/vo/ghost/emote/ghost_pain_akira_laser_01.vsnd",
 		]
-		vsnd_duration = 4.925760
+		vsnd_duration = 4.92576
 	}
 	ghost_pain_akira_laser_02_emote_pain_3d = 
 	{
@@ -8218,7 +8218,7 @@
 		[
 			"sounds/vo/ghost/emote/ghost_pain_akira_laser_02.vsnd",
 		]
-		vsnd_duration = 2.914830
+		vsnd_duration = 2.91483
 	}
 	ghost_pain_akira_laser_03_emote_pain_3d = 
 	{
@@ -8738,7 +8738,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_ability1_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.781000
+		vsnd_duration = 1.781
 	}
 	ghost_ping_ability1_not_ready_ping_2d = 
 	{
@@ -8888,7 +8888,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_astro_missing_01.vsnd",
 		]
-		vsnd_duration = 1.036780
+		vsnd_duration = 1.03678
 	}
 	ghost_ping_astro_on_top_of_garage_ping_2d = 
 	{
@@ -8928,7 +8928,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_astro_was_here.vsnd",
 		]
-		vsnd_duration = 1.087370
+		vsnd_duration = 1.08737
 	}
 	ghost_ping_atlas_almost_respawn_ping_2d = 
 	{
@@ -8938,7 +8938,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_atlas_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.393560
+		vsnd_duration = 1.39356
 	}
 	ghost_ping_atlas_check_items_ping_2d = 
 	{
@@ -9058,7 +9058,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_attack_boho.vsnd",
 		]
-		vsnd_duration = 1.503000
+		vsnd_duration = 1.503
 	}
 	ghost_ping_attack_bookworm_alt_ping_2d = 
 	{
@@ -9068,7 +9068,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_attack_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.535000
+		vsnd_duration = 1.535
 	}
 	ghost_ping_attack_cadence_ping_2d = 
 	{
@@ -9078,7 +9078,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_attack_cadence.vsnd",
 		]
-		vsnd_duration = 1.285170
+		vsnd_duration = 1.28517
 	}
 	ghost_ping_attack_calico_ping_2d = 
 	{
@@ -9098,7 +9098,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_attack_chrono.vsnd",
 		]
-		vsnd_duration = 1.622540
+		vsnd_duration = 1.62254
 	}
 	ghost_ping_attack_doorman_ping_2d = 
 	{
@@ -9248,7 +9248,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_attack_inferno.vsnd",
 		]
-		vsnd_duration = 1.554490
+		vsnd_duration = 1.55449
 	}
 	ghost_ping_attack_kelvin_ping_2d = 
 	{
@@ -9298,7 +9298,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_attack_mirage.vsnd",
 		]
-		vsnd_duration = 1.420930
+		vsnd_duration = 1.42093
 	}
 	ghost_ping_attack_nano_ping_2d = 
 	{
@@ -9418,7 +9418,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_attack_synth.vsnd",
 		]
-		vsnd_duration = 1.330680
+		vsnd_duration = 1.33068
 	}
 	ghost_ping_attack_tengu_ping_2d = 
 	{
@@ -9508,7 +9508,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_attack_yamato.vsnd",
 		]
-		vsnd_duration = 1.392290
+		vsnd_duration = 1.39229
 	}
 	ghost_ping_be_back_soon_ping_2d = 
 	{
@@ -9588,7 +9588,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_bebop_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.250930
+		vsnd_duration = 1.25093
 	}
 	ghost_ping_bebop_under_garage_ping_2d = 
 	{
@@ -9648,7 +9648,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_bookworm_almost_respawn_alt.vsnd",
 		]
-		vsnd_duration = 1.481000
+		vsnd_duration = 1.481
 	}
 	ghost_ping_bookworm_check_items_alt_ping_2d = 
 	{
@@ -9678,7 +9678,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_bookworm_in_mid_alt.vsnd",
 		]
-		vsnd_duration = 1.239000
+		vsnd_duration = 1.239
 	}
 	ghost_ping_bookworm_missing_01_alt_ping_2d = 
 	{
@@ -9698,7 +9698,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_bookworm_on_top_of_garage_alt.vsnd",
 		]
-		vsnd_duration = 1.671000
+		vsnd_duration = 1.671
 	}
 	ghost_ping_bookworm_on_top_of_mid_alt_ping_2d = 
 	{
@@ -9848,7 +9848,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_can_heal_chrono.vsnd",
 		]
-		vsnd_duration = 1.522200
+		vsnd_duration = 1.5222
 	}
 	ghost_ping_can_heal_doorman_ping_2d = 
 	{
@@ -9938,7 +9938,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_can_heal_inferno.vsnd",
 		]
-		vsnd_duration = 1.447800
+		vsnd_duration = 1.4478
 	}
 	ghost_ping_can_heal_kelvin_ping_2d = 
 	{
@@ -10018,7 +10018,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_can_heal_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.811750
+		vsnd_duration = 1.81175
 	}
 	ghost_ping_can_heal_shiv_ping_2d = 
 	{
@@ -10058,7 +10058,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_can_heal_tengu.vsnd",
 		]
-		vsnd_duration = 1.472540
+		vsnd_duration = 1.47254
 	}
 	ghost_ping_can_heal_vampirebat_ping_2d = 
 	{
@@ -10078,7 +10078,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_can_heal_viscous.vsnd",
 		]
-		vsnd_duration = 1.369320
+		vsnd_duration = 1.36932
 	}
 	ghost_ping_can_heal_warden_ping_2d = 
 	{
@@ -10168,7 +10168,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_atlas_02.vsnd",
 		]
-		vsnd_duration = 0.947460
+		vsnd_duration = 0.94746
 	}
 	ghost_ping_careful_atlas_03_ping_2d = 
 	{
@@ -10188,7 +10188,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_bebop_01.vsnd",
 		]
-		vsnd_duration = 0.903560
+		vsnd_duration = 0.90356
 	}
 	ghost_ping_careful_bebop_02_ping_2d = 
 	{
@@ -10218,7 +10218,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_boho_01.vsnd",
 		]
-		vsnd_duration = 1.063000
+		vsnd_duration = 1.063
 	}
 	ghost_ping_careful_bookworm_01_alt_ping_2d = 
 	{
@@ -10328,7 +10328,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_doorman_02.vsnd",
 		]
-		vsnd_duration = 1.444250
+		vsnd_duration = 1.44425
 	}
 	ghost_ping_careful_doorman_03_ping_2d = 
 	{
@@ -10528,7 +10528,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_gigawatt_03.vsnd",
 		]
-		vsnd_duration = 1.033900
+		vsnd_duration = 1.0339
 	}
 	ghost_ping_careful_graf_01_ping_2d = 
 	{
@@ -10668,7 +10668,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_kelvin_03.vsnd",
 		]
-		vsnd_duration = 1.044150
+		vsnd_duration = 1.04415
 	}
 	ghost_ping_careful_krill_01_ping_2d = 
 	{
@@ -10768,7 +10768,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_nano_01.vsnd",
 		]
-		vsnd_duration = 1.116100
+		vsnd_duration = 1.1161
 	}
 	ghost_ping_careful_nano_02_ping_2d = 
 	{
@@ -10828,7 +10828,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_priest_01.vsnd",
 		]
-		vsnd_duration = 1.421000
+		vsnd_duration = 1.421
 	}
 	ghost_ping_careful_priest_02_ping_2d = 
 	{
@@ -10918,7 +10918,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_skyrunner_01.vsnd",
 		]
-		vsnd_duration = 1.707000
+		vsnd_duration = 1.707
 	}
 	ghost_ping_careful_slork_01_ping_2d = 
 	{
@@ -10958,7 +10958,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_succubus_01.vsnd",
 		]
-		vsnd_duration = 1.495000
+		vsnd_duration = 1.495
 	}
 	ghost_ping_careful_swan_01_ping_2d = 
 	{
@@ -11138,7 +11138,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_wraith_01.vsnd",
 		]
-		vsnd_duration = 0.947710
+		vsnd_duration = 0.94771
 	}
 	ghost_ping_careful_wraith_02_ping_2d = 
 	{
@@ -11198,7 +11198,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_careful_yamato_01.vsnd",
 		]
-		vsnd_duration = 1.449000
+		vsnd_duration = 1.449
 	}
 	ghost_ping_careful_yamato_02_ping_2d = 
 	{
@@ -11258,7 +11258,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_chrono_in_mid.vsnd",
 		]
-		vsnd_duration = 1.176780
+		vsnd_duration = 1.17678
 	}
 	ghost_ping_chrono_missing_01_ping_2d = 
 	{
@@ -11288,7 +11288,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_chrono_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.421020
+		vsnd_duration = 1.42102
 	}
 	ghost_ping_chrono_under_garage_ping_2d = 
 	{
@@ -11328,7 +11328,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_danger_area.vsnd",
 		]
-		vsnd_duration = 1.391270
+		vsnd_duration = 1.39127
 	}
 	ghost_ping_defend_base_01_ping_2d = 
 	{
@@ -11368,7 +11368,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_defend_green_01.vsnd",
 		]
-		vsnd_duration = 1.206190
+		vsnd_duration = 1.20619
 	}
 	ghost_ping_defend_green_02_ping_2d = 
 	{
@@ -11408,7 +11408,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_doorman_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.769000
+		vsnd_duration = 1.769
 	}
 	ghost_ping_doorman_check_items_ping_2d = 
 	{
@@ -11418,7 +11418,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_doorman_check_items.vsnd",
 		]
-		vsnd_duration = 1.841000
+		vsnd_duration = 1.841
 	}
 	ghost_ping_doorman_dead_ping_2d = 
 	{
@@ -11448,7 +11448,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_doorman_missing_01.vsnd",
 		]
-		vsnd_duration = 1.619750
+		vsnd_duration = 1.61975
 	}
 	ghost_ping_doorman_on_top_of_garage_ping_2d = 
 	{
@@ -11518,7 +11518,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_drifter_dead.vsnd",
 		]
-		vsnd_duration = 1.369000
+		vsnd_duration = 1.369
 	}
 	ghost_ping_drifter_in_mid_ping_2d = 
 	{
@@ -11638,7 +11638,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_dynamo_missing_01.vsnd",
 		]
-		vsnd_duration = 1.064240
+		vsnd_duration = 1.06424
 	}
 	ghost_ping_dynamo_on_top_of_garage_ping_2d = 
 	{
@@ -11698,7 +11698,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_flank.vsnd",
 		]
-		vsnd_duration = 1.055850
+		vsnd_duration = 1.05585
 	}
 	ghost_ping_forge_almost_respawn_ping_2d = 
 	{
@@ -11718,7 +11718,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_forge_check_items.vsnd",
 		]
-		vsnd_duration = 1.514490
+		vsnd_duration = 1.51449
 	}
 	ghost_ping_forge_dead_ping_2d = 
 	{
@@ -11838,7 +11838,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_frank_in_mid.vsnd",
 		]
-		vsnd_duration = 1.251250
+		vsnd_duration = 1.25125
 	}
 	ghost_ping_frank_missing_01_ping_2d = 
 	{
@@ -12058,7 +12058,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_good_job_01.vsnd",
 		]
-		vsnd_duration = 0.747710
+		vsnd_duration = 0.74771
 	}
 	ghost_ping_graf_missing_01_ping_2d = 
 	{
@@ -12198,7 +12198,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_headed_blue_02.vsnd",
 		]
-		vsnd_duration = 1.289410
+		vsnd_duration = 1.28941
 	}
 	ghost_ping_headed_green_01_ping_2d = 
 	{
@@ -12228,7 +12228,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_headed_this_way.vsnd",
 		]
-		vsnd_duration = 0.969410
+		vsnd_duration = 0.96941
 	}
 	ghost_ping_headed_yellow_01_ping_2d = 
 	{
@@ -12258,7 +12258,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_heal_ready.vsnd",
 		]
-		vsnd_duration = 0.974240
+		vsnd_duration = 0.97424
 	}
 	ghost_ping_health_nova_almost_ready_ping_2d = 
 	{
@@ -12278,7 +12278,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_health_nova_not_ready.vsnd",
 		]
-		vsnd_duration = 1.991500
+		vsnd_duration = 1.9915
 	}
 	ghost_ping_help_with_idol_ping_2d = 
 	{
@@ -12388,7 +12388,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_ignore_astro.vsnd",
 		]
-		vsnd_duration = 1.208730
+		vsnd_duration = 1.20873
 	}
 	ghost_ping_ignore_atlas_ping_2d = 
 	{
@@ -12408,7 +12408,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_ignore_bebop.vsnd",
 		]
-		vsnd_duration = 1.102630
+		vsnd_duration = 1.10263
 	}
 	ghost_ping_ignore_bookworm_alt_ping_2d = 
 	{
@@ -12448,7 +12448,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_ignore_drifter.vsnd",
 		]
-		vsnd_duration = 1.473000
+		vsnd_duration = 1.473
 	}
 	ghost_ping_ignore_dynamo_ping_2d = 
 	{
@@ -12578,7 +12578,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_ignore_orion.vsnd",
 		]
-		vsnd_duration = 1.327370
+		vsnd_duration = 1.32737
 	}
 	ghost_ping_ignore_priest_ping_2d = 
 	{
@@ -12678,7 +12678,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_ignore_wrecker.vsnd",
 		]
-		vsnd_duration = 1.179070
+		vsnd_duration = 1.17907
 	}
 	ghost_ping_ignore_yamato_ping_2d = 
 	{
@@ -12708,7 +12708,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_inferno_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.512200
+		vsnd_duration = 1.5122
 	}
 	ghost_ping_inferno_check_items_ping_2d = 
 	{
@@ -13238,7 +13238,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_lets_not_02.vsnd",
 		]
-		vsnd_duration = 1.130000
+		vsnd_duration = 1.13
 	}
 	ghost_ping_meet_here_ping_2d = 
 	{
@@ -13278,7 +13278,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_mirage_dead.vsnd",
 		]
-		vsnd_duration = 1.068390
+		vsnd_duration = 1.06839
 	}
 	ghost_ping_mirage_in_mid_ping_2d = 
 	{
@@ -13348,7 +13348,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_missing_blue_01.vsnd",
 		]
-		vsnd_duration = 0.810340
+		vsnd_duration = 0.81034
 	}
 	ghost_ping_missing_blue_02_ping_2d = 
 	{
@@ -13418,7 +13418,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_nano_check_items.vsnd",
 		]
-		vsnd_duration = 1.512200
+		vsnd_duration = 1.5122
 	}
 	ghost_ping_nano_dead_ping_2d = 
 	{
@@ -13498,7 +13498,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_need_cover.vsnd",
 		]
-		vsnd_duration = 0.703900
+		vsnd_duration = 0.7039
 	}
 	ghost_ping_need_heal_ping_2d = 
 	{
@@ -13718,7 +13718,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_orion_missing_01.vsnd",
 		]
-		vsnd_duration = 1.359320
+		vsnd_duration = 1.35932
 	}
 	ghost_ping_orion_on_top_of_garage_ping_2d = 
 	{
@@ -13768,7 +13768,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_post_game_01.vsnd",
 		]
-		vsnd_duration = 4.179000
+		vsnd_duration = 4.179
 	}
 	ghost_ping_post_game_02_ping_2d = 
 	{
@@ -13788,7 +13788,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_post_game_03.vsnd",
 		]
-		vsnd_duration = 1.999000
+		vsnd_duration = 1.999
 	}
 	ghost_ping_post_game_04_ping_2d = 
 	{
@@ -13848,7 +13848,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_pre_game_03.vsnd",
 		]
-		vsnd_duration = 5.667000
+		vsnd_duration = 5.667
 	}
 	ghost_ping_pre_game_04_ping_2d = 
 	{
@@ -13898,7 +13898,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_priest_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.691000
+		vsnd_duration = 1.691
 	}
 	ghost_ping_priest_check_items_ping_2d = 
 	{
@@ -13908,7 +13908,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_priest_check_items.vsnd",
 		]
-		vsnd_duration = 1.791000
+		vsnd_duration = 1.791
 	}
 	ghost_ping_priest_dead_ping_2d = 
 	{
@@ -14048,7 +14048,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_punkgoat_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.347000
+		vsnd_duration = 1.347
 	}
 	ghost_ping_punkgoat_under_garage_ping_2d = 
 	{
@@ -14078,7 +14078,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_push_blue_01.vsnd",
 		]
-		vsnd_duration = 1.041020
+		vsnd_duration = 1.04102
 	}
 	ghost_ping_push_blue_02_ping_2d = 
 	{
@@ -14148,7 +14148,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_refresher_not_ready.vsnd",
 		]
-		vsnd_duration = 1.838750
+		vsnd_duration = 1.83875
 	}
 	ghost_ping_rejuv_drop_ping_2d = 
 	{
@@ -14238,7 +14238,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_saw_astro.vsnd",
 		]
-		vsnd_duration = 1.091950
+		vsnd_duration = 1.09195
 	}
 	ghost_ping_saw_atlas_ping_2d = 
 	{
@@ -14268,7 +14268,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_saw_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.111000
+		vsnd_duration = 1.111
 	}
 	ghost_ping_saw_cadence_ping_2d = 
 	{
@@ -14368,7 +14368,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_saw_hornet.vsnd",
 		]
-		vsnd_duration = 1.435760
+		vsnd_duration = 1.43576
 	}
 	ghost_ping_saw_inferno_ping_2d = 
 	{
@@ -14408,7 +14408,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_saw_lash.vsnd",
 		]
-		vsnd_duration = 1.046440
+		vsnd_duration = 1.04644
 	}
 	ghost_ping_saw_mirage_ping_2d = 
 	{
@@ -14438,7 +14438,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_saw_orion.vsnd",
 		]
-		vsnd_duration = 1.361610
+		vsnd_duration = 1.36161
 	}
 	ghost_ping_saw_priest_ping_2d = 
 	{
@@ -14468,7 +14468,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_saw_shiv.vsnd",
 		]
-		vsnd_duration = 0.928730
+		vsnd_duration = 0.92873
 	}
 	ghost_ping_saw_slork_ping_2d = 
 	{
@@ -14478,7 +14478,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_saw_slork.vsnd",
 		]
-		vsnd_duration = 0.960000
+		vsnd_duration = 0.96
 	}
 	ghost_ping_saw_synth_ping_2d = 
 	{
@@ -14598,7 +14598,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_astro.vsnd",
 		]
-		vsnd_duration = 1.052290
+		vsnd_duration = 1.05229
 	}
 	ghost_ping_see_atlas_01_ping_2d = 
 	{
@@ -14638,7 +14638,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_atlas_on_roof.vsnd",
 		]
-		vsnd_duration = 1.134580
+		vsnd_duration = 1.13458
 	}
 	ghost_ping_see_bebop_01_ping_2d = 
 	{
@@ -14658,7 +14658,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_bebop_02.vsnd",
 		]
-		vsnd_duration = 1.651950
+		vsnd_duration = 1.65195
 	}
 	ghost_ping_see_bebop_on_bridge_ping_2d = 
 	{
@@ -14668,7 +14668,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_bebop_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.132290
+		vsnd_duration = 1.13229
 	}
 	ghost_ping_see_bebop_on_roof_ping_2d = 
 	{
@@ -14678,7 +14678,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_bebop_on_roof.vsnd",
 		]
-		vsnd_duration = 1.238980
+		vsnd_duration = 1.23898
 	}
 	ghost_ping_see_boho_01_ping_2d = 
 	{
@@ -14708,7 +14708,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_bookworm_on_bridge_alt.vsnd",
 		]
-		vsnd_duration = 1.205000
+		vsnd_duration = 1.205
 	}
 	ghost_ping_see_bookworm_on_roof_alt_ping_2d = 
 	{
@@ -14718,7 +14718,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_bookworm_on_roof_alt.vsnd",
 		]
-		vsnd_duration = 1.199000
+		vsnd_duration = 1.199
 	}
 	ghost_ping_see_cadence_01_ping_2d = 
 	{
@@ -14838,7 +14838,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_drifter_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.247000
+		vsnd_duration = 1.247
 	}
 	ghost_ping_see_drifter_on_roof_ping_2d = 
 	{
@@ -15128,7 +15128,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_incubus_01.vsnd",
 		]
-		vsnd_duration = 1.483000
+		vsnd_duration = 1.483
 	}
 	ghost_ping_see_inferno_on_bridge_ping_2d = 
 	{
@@ -15198,7 +15198,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_kelvin_on_roof.vsnd",
 		]
-		vsnd_duration = 1.104490
+		vsnd_duration = 1.10449
 	}
 	ghost_ping_see_krill_01_ping_2d = 
 	{
@@ -15458,7 +15458,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_shiv_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.108050
+		vsnd_duration = 1.10805
 	}
 	ghost_ping_see_shiv_on_roof_ping_2d = 
 	{
@@ -15498,7 +15498,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_slork_02.vsnd",
 		]
-		vsnd_duration = 1.879410
+		vsnd_duration = 1.87941
 	}
 	ghost_ping_see_slork_on_bridge_ping_2d = 
 	{
@@ -15518,7 +15518,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_see_slork_on_roof.vsnd",
 		]
-		vsnd_duration = 1.108980
+		vsnd_duration = 1.10898
 	}
 	ghost_ping_see_succubus_01_ping_2d = 
 	{
@@ -15958,7 +15958,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_slork_missing_01.vsnd",
 		]
-		vsnd_duration = 1.099070
+		vsnd_duration = 1.09907
 	}
 	ghost_ping_slork_on_top_of_garage_ping_2d = 
 	{
@@ -16038,7 +16038,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_stay_together.vsnd",
 		]
-		vsnd_duration = 0.955170
+		vsnd_duration = 0.95517
 	}
 	ghost_ping_stun_astro_01_ping_2d = 
 	{
@@ -16108,7 +16108,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_stun_chrono_01.vsnd",
 		]
-		vsnd_duration = 1.160930
+		vsnd_duration = 1.16093
 	}
 	ghost_ping_stun_doorman_01_ping_2d = 
 	{
@@ -16148,7 +16148,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_stun_forge_01.vsnd",
 		]
-		vsnd_duration = 1.048390
+		vsnd_duration = 1.04839
 	}
 	ghost_ping_stun_fortuna_01_ping_2d = 
 	{
@@ -16158,7 +16158,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_stun_fortuna_01.vsnd",
 		]
-		vsnd_duration = 1.475000
+		vsnd_duration = 1.475
 	}
 	ghost_ping_stun_frank_01_ping_2d = 
 	{
@@ -16268,7 +16268,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_stun_orion_01.vsnd",
 		]
-		vsnd_duration = 1.149410
+		vsnd_duration = 1.14941
 	}
 	ghost_ping_stun_priest_01_ping_2d = 
 	{
@@ -16308,7 +16308,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_stun_slork_01.vsnd",
 		]
-		vsnd_duration = 1.044240
+		vsnd_duration = 1.04424
 	}
 	ghost_ping_stun_synth_01_ping_2d = 
 	{
@@ -16448,7 +16448,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_synth_in_mid.vsnd",
 		]
-		vsnd_duration = 0.947370
+		vsnd_duration = 0.94737
 	}
 	ghost_ping_synth_missing_01_ping_2d = 
 	{
@@ -16538,7 +16538,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_take_mid.vsnd",
 		]
-		vsnd_duration = 0.829660
+		vsnd_duration = 0.82966
 	}
 	ghost_ping_take_shrine_ping_2d = 
 	{
@@ -16608,7 +16608,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_tengu_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.527800
+		vsnd_duration = 1.5278
 	}
 	ghost_ping_tengu_on_top_of_mid_ping_2d = 
 	{
@@ -16618,7 +16618,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_tengu_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.238980
+		vsnd_duration = 1.23898
 	}
 	ghost_ping_tengu_under_garage_ping_2d = 
 	{
@@ -16628,7 +16628,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_tengu_under_garage.vsnd",
 		]
-		vsnd_duration = 1.466780
+		vsnd_duration = 1.46678
 	}
 	ghost_ping_tengu_was_here_ping_2d = 
 	{
@@ -16878,7 +16878,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_use_glitch.vsnd",
 		]
-		vsnd_duration = 1.446000
+		vsnd_duration = 1.446
 	}
 	ghost_ping_use_health_nova_ping_2d = 
 	{
@@ -16968,7 +16968,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_vampirebat_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.503000
+		vsnd_duration = 1.503
 	}
 	ghost_ping_vampirebat_check_items_ping_2d = 
 	{
@@ -16978,7 +16978,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_vampirebat_check_items.vsnd",
 		]
-		vsnd_duration = 1.541000
+		vsnd_duration = 1.541
 	}
 	ghost_ping_vampirebat_dead_ping_2d = 
 	{
@@ -17048,7 +17048,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_vampirebat_was_here.vsnd",
 		]
-		vsnd_duration = 1.234250
+		vsnd_duration = 1.23425
 	}
 	ghost_ping_viscous_almost_respawn_ping_2d = 
 	{
@@ -17158,7 +17158,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_warden_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.378730
+		vsnd_duration = 1.37873
 	}
 	ghost_ping_warden_check_items_ping_2d = 
 	{
@@ -17308,7 +17308,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_with_bebop.vsnd",
 		]
-		vsnd_duration = 1.130000
+		vsnd_duration = 1.13
 	}
 	ghost_ping_with_bookworm_alt_ping_2d = 
 	{
@@ -17468,7 +17468,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_with_mirage.vsnd",
 		]
-		vsnd_duration = 1.179070
+		vsnd_duration = 1.17907
 	}
 	ghost_ping_with_nano_ping_2d = 
 	{
@@ -17588,7 +17588,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_with_wraith.vsnd",
 		]
-		vsnd_duration = 1.081270
+		vsnd_duration = 1.08127
 	}
 	ghost_ping_with_wrecker_ping_2d = 
 	{
@@ -17718,7 +17718,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_wrecker_check_items.vsnd",
 		]
-		vsnd_duration = 1.329660
+		vsnd_duration = 1.32966
 	}
 	ghost_ping_wrecker_dead_ping_2d = 
 	{
@@ -17798,7 +17798,7 @@
 		[
 			"sounds/vo/ghost/ping/ghost_ping_yamato_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.522250
+		vsnd_duration = 1.52225
 	}
 	ghost_ping_yamato_check_items_ping_2d = 
 	{
@@ -18018,7 +18018,7 @@
 		[
 			"sounds/vo/ghost/ghost_see_enemy_metal_skin_01.vsnd",
 		]
-		vsnd_duration = 1.317120
+		vsnd_duration = 1.31712
 	}
 	ghost_see_enemy_metal_skin_02_hero_3d = 
 	{
@@ -18408,7 +18408,7 @@
 		[
 			"sounds/vo/ghost/ghost_unselect_07.vsnd",
 		]
-		vsnd_duration = 2.021020
+		vsnd_duration = 2.02102
 	}
 	ghost_unselect_08_hero_3d = 
 	{
@@ -18518,7 +18518,7 @@
 		[
 			"sounds/vo/ghost/ghost_upgrade_power1_06.vsnd",
 		]
-		vsnd_duration = 4.831020
+		vsnd_duration = 4.83102
 	}
 	ghost_upgrade_power1_07_hero_3d = 
 	{
@@ -18788,7 +18788,7 @@
 		[
 			"sounds/vo/ghost/ghost_upgrade_power4_03.vsnd",
 		]
-		vsnd_duration = 2.233220
+		vsnd_duration = 2.23322
 	}
 	ghost_upgrade_power4_04_hero_3d = 
 	{
@@ -18878,7 +18878,7 @@
 		[
 			"sounds/vo/ghost/ghost_use_ability_refresher_02.vsnd",
 		]
-		vsnd_duration = 2.159070
+		vsnd_duration = 2.15907
 	}
 	ghost_use_ability_refresher_03_ability_3d = 
 	{
@@ -18908,7 +18908,7 @@
 		[
 			"sounds/vo/ghost/ghost_use_colossus_02.vsnd",
 		]
-		vsnd_duration = 2.751000
+		vsnd_duration = 2.751
 	}
 	ghost_use_colossus_03_ability_3d = 
 	{
@@ -18928,7 +18928,7 @@
 		[
 			"sounds/vo/ghost/ghost_use_curse_01.vsnd",
 		]
-		vsnd_duration = 0.757000
+		vsnd_duration = 0.757
 	}
 	ghost_use_curse_02_ability_3d = 
 	{
@@ -18948,7 +18948,7 @@
 		[
 			"sounds/vo/ghost/ghost_use_curse_03.vsnd",
 		]
-		vsnd_duration = 1.359000
+		vsnd_duration = 1.359
 	}
 	ghost_use_decay_01_ability_3d = 
 	{
@@ -19108,7 +19108,7 @@
 		[
 			"sounds/vo/ghost/ghost_use_phantom_strike_01.vsnd",
 		]
-		vsnd_duration = 1.334240
+		vsnd_duration = 1.33424
 	}
 	ghost_use_phantom_strike_02_ability_3d = 
 	{
@@ -19228,7 +19228,7 @@
 		[
 			"sounds/vo/ghost/ghost_use_power1_10_alt_01.vsnd",
 		]
-		vsnd_duration = 1.349070
+		vsnd_duration = 1.34907
 	}
 	ghost_use_power2_01_ability_3d = 
 	{
@@ -19888,7 +19888,7 @@
 		[
 			"sounds/vo/ghost/ghost_use_tech_purge_01.vsnd",
 		]
-		vsnd_duration = 0.868730
+		vsnd_duration = 0.86873
 	}
 	ghost_use_tech_purge_02_ability_3d = 
 	{
@@ -19998,7 +19998,7 @@
 		[
 			"sounds/vo/ghost/ghost_win_03.vsnd",
 		]
-		vsnd_duration = 1.951270
+		vsnd_duration = 1.95127
 	}
 	ghost_win_04_hero_3d = 
 	{
@@ -20058,7 +20058,7 @@
 		[
 			"sounds/vo/ghost/ghost_win_early_03.vsnd",
 		]
-		vsnd_duration = 1.490590
+		vsnd_duration = 1.49059
 	}
 	ghost_win_early_04_hero_3d = 
 	{

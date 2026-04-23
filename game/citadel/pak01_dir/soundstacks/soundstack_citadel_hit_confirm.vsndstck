@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -242,14 +240,12 @@
 					}
 				}
 			},
-			
 			{
 				name = "citadel_find_perspective"
 				operator = "sos_import_stack"
 				import_stack = "citadel_find_perspective"
 				auto_connect_public_fields = "true"
 			},
-			
 			{
 				name = "block_team_owned_hit_test"
 				operator = "math_float"
@@ -257,7 +253,6 @@
 				input1 = "@citadel_find_perspective::output.perspective_is_team"
 				input2 = "@public.hit_world"
 			},
-			
 			{
 				name = "exec_block_team_owned"
 				operator = "sos_goto"
@@ -265,7 +260,6 @@
 				input_execute = "@block_team_owned_hit_test.output"
 				input_goto_end = "true"
 			},
-			
 			{
 				name = "block_hit_world_test"
 				operator = "math_float"
@@ -273,7 +267,6 @@
 				input1 = "@public.block_on_hit_world"
 				input2 = "@public.hit_world"
 			},
-			
 			{
 				name = "block_hit_world"
 				operator = "sos_goto"
@@ -281,14 +274,12 @@
 				input_execute = "@block_hit_world_test.output"
 				input_goto_end = "true"
 			},
-			
 			{
 				name = "citadel_damage_info"
 				operator = "sos_import_stack"
 				import_stack = "citadel_damage_info"
 				auto_connect_public_fields = "true"
 			},
-			
 			{
 				name = "switch_position"
 				execute_once = "true"
@@ -298,7 +289,6 @@
 				input1 = "@citadel_damage_info::get_attacker_info.output_position"
 				input2 = "@public.position"
 			},
-			
 			{
 				name = "switch_mixgroup"
 				execute_once = "true"
@@ -308,7 +298,6 @@
 				input2 = "@public.mixer_mixgroup_victim"
 				input3 = "@public.mixer_mixgroup_other"
 			},
-			
 			{
 				name = "switch_vmix_send"
 				execute_once = "true"
@@ -318,7 +307,6 @@
 				input2 = "hit-victim-bus"
 				input3 = "main"
 			},
-			
 			{
 				name = "switch_volume_falloff_max"
 				execute_once = "true"
@@ -328,7 +316,6 @@
 				input1 = "@public.volume_falloff_max_victim"
 				input2 = "@public.volume_falloff_max_other"
 			},
-			
 			{
 				name = "switch_occlusion_scale"
 				execute_once = "true"
@@ -338,7 +325,6 @@
 				input1 = "@public.occlusion_scale_victim"
 				input2 = "@public.occlusion_scale_other"
 			},
-			
 			{
 				name = "switch_spread"
 				execute_once = "true"
@@ -348,7 +334,6 @@
 				input1 = "@public.spread_value_victim"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "logic_is_viewing_victim_or_attacker_and_not_hit_world"
 				operator = "math_float"
@@ -356,7 +341,6 @@
 				input1 = "@citadel_damage_info::output.is_viewing_attacker_or_vicitim"
 				input2 = "@public.hit_world"
 			},
-			
 			{
 				name = "accumulate_npc_offset"
 				operator = "math_accumulate12_float"
@@ -374,7 +358,6 @@
 				input11 = "1.0"
 				input12 = "1.0"
 			},
-			
 			{
 				name = "accumulate_force_position_input"
 				operator = "math_accumulate12_float"
@@ -392,7 +375,6 @@
 				input11 = "0.0"
 				input12 = "0.0"
 			},
-			
 			{
 				name = "check_force_position_input"
 				operator = "math_float"
@@ -400,7 +382,6 @@
 				input1 = "@accumulate_force_position_input.output"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "switch_volume_offset"
 				execute_once = "true"
@@ -410,7 +391,6 @@
 				input1 = "@public.volume_offset_victim_db"
 				input2 = "@public.volume_offset_other_db"
 			},
-			
 			{
 				name = "math_volume_npc_offset"
 				operator = "math_float"
@@ -418,7 +398,6 @@
 				input1 = "@accumulate_npc_offset.output"
 				input2 = "@switch_volume_offset.output"
 			},
-			
 			{
 				name = "math_volume_offset"
 				operator = "math_float"
@@ -426,7 +405,6 @@
 				input1 = "@public.volume"
 				input2 = "@math_volume_npc_offset.output"
 			},
-			
 			{
 				name = "citadel_default_3d"
 				operator = "sos_import_stack"

@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "core.default"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -73,19 +71,17 @@
 					}
 				}
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_execute = "1"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "speakers_spatialize"
 				operator = "calc_spatialize_speakers_hrtf"
 				execute_once = "1.0"
-				input_360_listener = 0.000000
+				input_360_listener = 0.0
 				input_listener_angles = "@globals.output_listener_angles"
 				input_hrtf_on = "0.0"
 				input_hrtf_mix = "0.0"
@@ -96,7 +92,6 @@
 				input_listener_forward = "@globals.output_listener_forward"
 				input_listener_up = "@globals.output_listener_up"
 			},
-			
 			{
 				name = "math_mult_volume"
 				operator = "math_float"
@@ -104,7 +99,6 @@
 				input1 = "@public.volume"
 				input2 = "@public.volume_atten"
 			},
-			
 			{
 				name = "submix_send"
 				operator = "vmix_mixgraph_send"
@@ -113,7 +107,6 @@
 				submix_name = "@public.send_name"
 				send_type = "named"
 			},
-			
 			{
 				name = "start_vmix"
 				operator = "vmix_voice_start"

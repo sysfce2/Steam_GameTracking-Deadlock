@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -45,18 +43,15 @@
 					}
 				}
 			},
-			
 			{
 				name = "source_info"
 				operator = "game_get_source_info"
 			},
-			
 			{
 				name = "get_effect_health_amount"
 				operator = "game_entity_get_health"
 				input_entity = "@source_info.output_entity_index"
 			},
-			
 			{
 				name = "remap_health_level_to_pitch_scale"
 				operator = "math_remap_float"
@@ -67,7 +62,6 @@
 				input_map_max = "@public.health_pitch_scale_max"
 				default_to_max = "false"
 			},
-			
 			{
 				name = "citadel_perspective_default"
 				operator = "sos_import_stack"

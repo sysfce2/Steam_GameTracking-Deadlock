@@ -68,7 +68,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_dash_04.vsnd",
 		]
-		vsnd_duration = 0.251000
+		vsnd_duration = 0.251
 	}
 	magician_henry_effort_dash_04_emote_effort_3d = 
 	{
@@ -78,7 +78,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_dash_04.vsnd",
 		]
-		vsnd_duration = 0.251000
+		vsnd_duration = 0.251
 	}
 	magician_henry_effort_dash_05_emote_dash_3d = 
 	{
@@ -188,7 +188,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_big_03.vsnd",
 		]
-		vsnd_duration = 0.419000
+		vsnd_duration = 0.419
 	}
 	magician_henry_effort_melee_big_03_emote_melee_effort_3d = 
 	{
@@ -198,7 +198,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_big_03.vsnd",
 		]
-		vsnd_duration = 0.419000
+		vsnd_duration = 0.419
 	}
 	magician_henry_effort_melee_big_04_emote_effort_3d = 
 	{
@@ -208,7 +208,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_big_04.vsnd",
 		]
-		vsnd_duration = 0.647000
+		vsnd_duration = 0.647
 	}
 	magician_henry_effort_melee_big_04_emote_melee_effort_3d = 
 	{
@@ -218,7 +218,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_big_04.vsnd",
 		]
-		vsnd_duration = 0.647000
+		vsnd_duration = 0.647
 	}
 	magician_henry_effort_melee_big_05_emote_effort_3d = 
 	{
@@ -268,7 +268,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_small_01.vsnd",
 		]
-		vsnd_duration = 0.320000
+		vsnd_duration = 0.32
 	}
 	magician_henry_effort_melee_small_01_emote_melee_effort_3d = 
 	{
@@ -278,7 +278,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_small_01.vsnd",
 		]
-		vsnd_duration = 0.320000
+		vsnd_duration = 0.32
 	}
 	magician_henry_effort_melee_small_02_emote_effort_3d = 
 	{
@@ -288,7 +288,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_small_02.vsnd",
 		]
-		vsnd_duration = 0.300000
+		vsnd_duration = 0.3
 	}
 	magician_henry_effort_melee_small_02_emote_melee_effort_3d = 
 	{
@@ -298,7 +298,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_small_02.vsnd",
 		]
-		vsnd_duration = 0.300000
+		vsnd_duration = 0.3
 	}
 	magician_henry_effort_melee_small_03_emote_effort_3d = 
 	{
@@ -328,7 +328,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 0.321500
+		vsnd_duration = 0.3215
 	}
 	magician_henry_effort_melee_small_04_emote_melee_effort_3d = 
 	{
@@ -338,7 +338,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 0.321500
+		vsnd_duration = 0.3215
 	}
 	magician_henry_effort_melee_small_05_emote_effort_3d = 
 	{
@@ -348,7 +348,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.417500
+		vsnd_duration = 0.4175
 	}
 	magician_henry_effort_melee_small_05_emote_melee_effort_3d = 
 	{
@@ -358,7 +358,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.417500
+		vsnd_duration = 0.4175
 	}
 	magician_henry_pain_akira_laser_01_emote_pain_3d = 
 	{
@@ -388,7 +388,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_big_01.vsnd",
 		]
-		vsnd_duration = 0.604250
+		vsnd_duration = 0.60425
 	}
 	magician_henry_pain_big_02_emote_pain_3d = 
 	{
@@ -428,7 +428,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_big_05.vsnd",
 		]
-		vsnd_duration = 0.748500
+		vsnd_duration = 0.7485
 	}
 	magician_henry_pain_big_06_emote_pain_3d = 
 	{
@@ -548,7 +548,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_death_06.vsnd",
 		]
-		vsnd_duration = 0.738750
+		vsnd_duration = 0.73875
 	}
 	magician_henry_pain_death_06_emote_pain_3d = 
 	{
@@ -558,7 +558,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_death_06.vsnd",
 		]
-		vsnd_duration = 0.738750
+		vsnd_duration = 0.73875
 	}
 	magician_henry_pain_death_07_emote_death_3d = 
 	{
@@ -628,7 +628,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_low_health_warning_01.vsnd",
 		]
-		vsnd_duration = 1.278990
+		vsnd_duration = 1.27899
 	}
 	magician_henry_pain_low_health_warning_02_emote_pain_3d = 
 	{
@@ -638,7 +638,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_low_health_warning_02.vsnd",
 		]
-		vsnd_duration = 1.023250
+		vsnd_duration = 1.02325
 	}
 	magician_henry_pain_low_health_warning_03_emote_pain_3d = 
 	{
@@ -668,7 +668,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_small_01.vsnd",
 		]
-		vsnd_duration = 0.475000
+		vsnd_duration = 0.475
 	}
 	magician_henry_pain_small_02_emote_pain_3d = 
 	{
@@ -678,7 +678,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_small_02.vsnd",
 		]
-		vsnd_duration = 0.444760
+		vsnd_duration = 0.44476
 	}
 	magician_henry_pain_small_03_emote_pain_3d = 
 	{
@@ -718,7 +718,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_small_06.vsnd",
 		]
-		vsnd_duration = 0.437000
+		vsnd_duration = 0.437
 	}
 	magician_henry_pain_small_07_emote_pain_3d = 
 	{
@@ -728,7 +728,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_small_07.vsnd",
 		]
-		vsnd_duration = 0.503000
+		vsnd_duration = 0.503
 	}
 	magician_henry_pain_small_08_emote_pain_3d = 
 	{
@@ -738,7 +738,7 @@
 		[
 			"sounds/vo/magician/emote/magician_henry_pain_small_08.vsnd",
 		]
-		vsnd_duration = 0.309000
+		vsnd_duration = 0.309
 	}
 	magician_henry_ping_affermative_01_ping_2d = 
 	{
@@ -758,7 +758,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_affermative_02.vsnd",
 		]
-		vsnd_duration = 0.586010
+		vsnd_duration = 0.58601
 	}
 	magician_henry_ping_affermative_03_ping_2d = 
 	{
@@ -778,7 +778,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_astro_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.213740
+		vsnd_duration = 1.21374
 	}
 	magician_henry_ping_astro_check_items_ping_2d = 
 	{
@@ -788,7 +788,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_astro_check_items.vsnd",
 		]
-		vsnd_duration = 1.238000
+		vsnd_duration = 1.238
 	}
 	magician_henry_ping_astro_dead_ping_2d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_attack_chrono.vsnd",
 		]
-		vsnd_duration = 1.132000
+		vsnd_duration = 1.132
 	}
 	magician_henry_ping_attack_dynamo_ping_2d = 
 	{
@@ -1018,7 +1018,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_attack_enemy.vsnd",
 		]
-		vsnd_duration = 1.054490
+		vsnd_duration = 1.05449
 	}
 	magician_henry_ping_attack_fathom_ping_2d = 
 	{
@@ -1068,7 +1068,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_attack_haze.vsnd",
 		]
-		vsnd_duration = 0.897500
+		vsnd_duration = 0.8975
 	}
 	magician_henry_ping_attack_hornet_ping_2d = 
 	{
@@ -1108,7 +1108,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_attack_krill.vsnd",
 		]
-		vsnd_duration = 0.918760
+		vsnd_duration = 0.91876
 	}
 	magician_henry_ping_attack_lash_ping_2d = 
 	{
@@ -1128,7 +1128,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_attack_magician.vsnd",
 		]
-		vsnd_duration = 0.966500
+		vsnd_duration = 0.9665
 	}
 	magician_henry_ping_attack_mirage_ping_2d = 
 	{
@@ -1148,7 +1148,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_attack_nano.vsnd",
 		]
-		vsnd_duration = 1.048240
+		vsnd_duration = 1.04824
 	}
 	magician_henry_ping_attack_orion_ping_2d = 
 	{
@@ -1218,7 +1218,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_attack_viscous.vsnd",
 		]
-		vsnd_duration = 1.015000
+		vsnd_duration = 1.015
 	}
 	magician_henry_ping_attack_warden_ping_2d = 
 	{
@@ -1228,7 +1228,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_attack_warden.vsnd",
 		]
-		vsnd_duration = 0.955490
+		vsnd_duration = 0.95549
 	}
 	magician_henry_ping_attack_wraith_ping_2d = 
 	{
@@ -1278,7 +1278,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_be_back_soon.vsnd",
 		]
-		vsnd_duration = 0.668500
+		vsnd_duration = 0.6685
 	}
 	magician_henry_ping_bebop_almost_respawn_ping_2d = 
 	{
@@ -1288,7 +1288,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_bebop_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.158760
+		vsnd_duration = 1.15876
 	}
 	magician_henry_ping_bebop_check_items_ping_2d = 
 	{
@@ -1318,7 +1318,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_bebop_in_mid.vsnd",
 		]
-		vsnd_duration = 0.961500
+		vsnd_duration = 0.9615
 	}
 	magician_henry_ping_bebop_missing_01_ping_2d = 
 	{
@@ -1338,7 +1338,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_bebop_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.303010
+		vsnd_duration = 1.30301
 	}
 	magician_henry_ping_bebop_on_top_of_mid_ping_2d = 
 	{
@@ -1388,7 +1388,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_blue_help_02.vsnd",
 		]
-		vsnd_duration = 1.052760
+		vsnd_duration = 1.05276
 	}
 	magician_henry_ping_can_heal_astro_ping_2d = 
 	{
@@ -1458,7 +1458,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_can_heal_ghost.vsnd",
 		]
-		vsnd_duration = 1.227490
+		vsnd_duration = 1.22749
 	}
 	magician_henry_ping_can_heal_gigawatt_ping_2d = 
 	{
@@ -1478,7 +1478,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_can_heal_haze.vsnd",
 		]
-		vsnd_duration = 1.172000
+		vsnd_duration = 1.172
 	}
 	magician_henry_ping_can_heal_hornet_ping_2d = 
 	{
@@ -1488,7 +1488,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_can_heal_hornet.vsnd",
 		]
-		vsnd_duration = 1.468750
+		vsnd_duration = 1.46875
 	}
 	magician_henry_ping_can_heal_inferno_ping_2d = 
 	{
@@ -1498,7 +1498,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_can_heal_inferno.vsnd",
 		]
-		vsnd_duration = 1.668760
+		vsnd_duration = 1.66876
 	}
 	magician_henry_ping_can_heal_kelvin_ping_2d = 
 	{
@@ -1508,7 +1508,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_can_heal_kelvin.vsnd",
 		]
-		vsnd_duration = 1.329750
+		vsnd_duration = 1.32975
 	}
 	magician_henry_ping_can_heal_krill_ping_2d = 
 	{
@@ -1648,7 +1648,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_can_heal_wraith.vsnd",
 		]
-		vsnd_duration = 1.378500
+		vsnd_duration = 1.3785
 	}
 	magician_henry_ping_can_heal_wrecker_ping_2d = 
 	{
@@ -1678,7 +1678,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_astro_01.vsnd",
 		]
-		vsnd_duration = 1.061240
+		vsnd_duration = 1.06124
 	}
 	magician_henry_ping_careful_astro_02_ping_2d = 
 	{
@@ -1848,7 +1848,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_forge_03.vsnd",
 		]
-		vsnd_duration = 1.034000
+		vsnd_duration = 1.034
 	}
 	magician_henry_ping_careful_ghost_01_ping_2d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_hornet_01.vsnd",
 		]
-		vsnd_duration = 1.057500
+		vsnd_duration = 1.0575
 	}
 	magician_henry_ping_careful_hornet_02_ping_2d = 
 	{
@@ -1958,7 +1958,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_hornet_02.vsnd",
 		]
-		vsnd_duration = 1.171000
+		vsnd_duration = 1.171
 	}
 	magician_henry_ping_careful_hornet_03_ping_2d = 
 	{
@@ -1998,7 +1998,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_inferno_03.vsnd",
 		]
-		vsnd_duration = 1.114500
+		vsnd_duration = 1.1145
 	}
 	magician_henry_ping_careful_kelvin_01_ping_2d = 
 	{
@@ -2038,7 +2038,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_krill_01.vsnd",
 		]
-		vsnd_duration = 0.875740
+		vsnd_duration = 0.87574
 	}
 	magician_henry_ping_careful_krill_02_ping_2d = 
 	{
@@ -2068,7 +2068,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_lash_01.vsnd",
 		]
-		vsnd_duration = 0.897000
+		vsnd_duration = 0.897
 	}
 	magician_henry_ping_careful_lash_02_ping_2d = 
 	{
@@ -2158,7 +2158,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_orion_01.vsnd",
 		]
-		vsnd_duration = 1.075000
+		vsnd_duration = 1.075
 	}
 	magician_henry_ping_careful_orion_02_ping_2d = 
 	{
@@ -2208,7 +2208,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_shiv_03.vsnd",
 		]
-		vsnd_duration = 0.918500
+		vsnd_duration = 0.9185
 	}
 	magician_henry_ping_careful_slork_01_ping_2d = 
 	{
@@ -2258,7 +2258,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_synth_02.vsnd",
 		]
-		vsnd_duration = 0.980000
+		vsnd_duration = 0.98
 	}
 	magician_henry_ping_careful_synth_03_ping_2d = 
 	{
@@ -2298,7 +2298,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_tengu_03.vsnd",
 		]
-		vsnd_duration = 1.052000
+		vsnd_duration = 1.052
 	}
 	magician_henry_ping_careful_trapper_01_ping_2d = 
 	{
@@ -2348,7 +2348,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_viper_02.vsnd",
 		]
-		vsnd_duration = 1.097500
+		vsnd_duration = 1.0975
 	}
 	magician_henry_ping_careful_viper_03_ping_2d = 
 	{
@@ -2438,7 +2438,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_wraith_02.vsnd",
 		]
-		vsnd_duration = 0.932500
+		vsnd_duration = 0.9325
 	}
 	magician_henry_ping_careful_wraith_03_ping_2d = 
 	{
@@ -2448,7 +2448,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_wraith_03.vsnd",
 		]
-		vsnd_duration = 0.813000
+		vsnd_duration = 0.813
 	}
 	magician_henry_ping_careful_wrecker_01_ping_2d = 
 	{
@@ -2508,7 +2508,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_careful_yamato_03.vsnd",
 		]
-		vsnd_duration = 1.047500
+		vsnd_duration = 1.0475
 	}
 	magician_henry_ping_chrono_almost_respawn_ping_2d = 
 	{
@@ -2538,7 +2538,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_chrono_dead.vsnd",
 		]
-		vsnd_duration = 1.134760
+		vsnd_duration = 1.13476
 	}
 	magician_henry_ping_chrono_in_mid_ping_2d = 
 	{
@@ -2738,7 +2738,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_dynamo_dead.vsnd",
 		]
-		vsnd_duration = 1.127010
+		vsnd_duration = 1.12701
 	}
 	magician_henry_ping_dynamo_in_mid_ping_2d = 
 	{
@@ -2748,7 +2748,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_dynamo_in_mid.vsnd",
 		]
-		vsnd_duration = 0.952510
+		vsnd_duration = 0.95251
 	}
 	magician_henry_ping_dynamo_missing_01_ping_2d = 
 	{
@@ -2758,7 +2758,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_dynamo_missing_01.vsnd",
 		]
-		vsnd_duration = 1.137990
+		vsnd_duration = 1.13799
 	}
 	magician_henry_ping_dynamo_on_top_of_garage_ping_2d = 
 	{
@@ -2768,7 +2768,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_dynamo_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.492240
+		vsnd_duration = 1.49224
 	}
 	magician_henry_ping_dynamo_on_top_of_mid_ping_2d = 
 	{
@@ -2808,7 +2808,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_enemy_take_mid.vsnd",
 		]
-		vsnd_duration = 0.886500
+		vsnd_duration = 0.8865
 	}
 	magician_henry_ping_flank_ping_2d = 
 	{
@@ -2828,7 +2828,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_forge_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.356500
+		vsnd_duration = 1.3565
 	}
 	magician_henry_ping_forge_check_items_ping_2d = 
 	{
@@ -2838,7 +2838,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_forge_check_items.vsnd",
 		]
-		vsnd_duration = 1.258490
+		vsnd_duration = 1.25849
 	}
 	magician_henry_ping_forge_dead_ping_2d = 
 	{
@@ -2878,7 +2878,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_forge_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.644000
+		vsnd_duration = 1.644
 	}
 	magician_henry_ping_forge_on_top_of_mid_ping_2d = 
 	{
@@ -2908,7 +2908,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_forge_was_here.vsnd",
 		]
-		vsnd_duration = 1.043000
+		vsnd_duration = 1.043
 	}
 	magician_henry_ping_gank_ping_2d = 
 	{
@@ -2968,7 +2968,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_ghost_missing_01.vsnd",
 		]
-		vsnd_duration = 1.031760
+		vsnd_duration = 1.03176
 	}
 	magician_henry_ping_ghost_on_top_of_garage_ping_2d = 
 	{
@@ -3048,7 +3048,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_gigawatt_in_mid.vsnd",
 		]
-		vsnd_duration = 1.239000
+		vsnd_duration = 1.239
 	}
 	magician_henry_ping_gigawatt_missing_01_ping_2d = 
 	{
@@ -3158,7 +3158,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_good_game_01.vsnd",
 		]
-		vsnd_duration = 1.580000
+		vsnd_duration = 1.58
 	}
 	magician_henry_ping_good_game_02_ping_2d = 
 	{
@@ -3228,7 +3228,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_haze_check_items.vsnd",
 		]
-		vsnd_duration = 1.083500
+		vsnd_duration = 1.0835
 	}
 	magician_henry_ping_haze_dead_ping_2d = 
 	{
@@ -3348,7 +3348,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_headed_orange_01.vsnd",
 		]
-		vsnd_duration = 0.863000
+		vsnd_duration = 0.863
 	}
 	magician_henry_ping_headed_orange_02_ping_2d = 
 	{
@@ -3448,7 +3448,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_hornet_check_items.vsnd",
 		]
-		vsnd_duration = 1.257500
+		vsnd_duration = 1.2575
 	}
 	magician_henry_ping_hornet_dead_ping_2d = 
 	{
@@ -3508,7 +3508,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_hornet_under_garage.vsnd",
 		]
-		vsnd_duration = 1.576000
+		vsnd_duration = 1.576
 	}
 	magician_henry_ping_hornet_was_here_ping_2d = 
 	{
@@ -3598,7 +3598,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_ignore_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.042250
+		vsnd_duration = 1.04225
 	}
 	magician_henry_ping_ignore_haze_ping_2d = 
 	{
@@ -3718,7 +3718,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_ignore_synth.vsnd",
 		]
-		vsnd_duration = 0.887510
+		vsnd_duration = 0.88751
 	}
 	magician_henry_ping_ignore_tengu_ping_2d = 
 	{
@@ -3758,7 +3758,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_ignore_viscous.vsnd",
 		]
-		vsnd_duration = 1.180000
+		vsnd_duration = 1.18
 	}
 	magician_henry_ping_ignore_warden_ping_2d = 
 	{
@@ -3778,7 +3778,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_ignore_wraith.vsnd",
 		]
-		vsnd_duration = 0.955000
+		vsnd_duration = 0.955
 	}
 	magician_henry_ping_ignore_wrecker_ping_2d = 
 	{
@@ -3948,7 +3948,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_kelvin_check_items.vsnd",
 		]
-		vsnd_duration = 1.175510
+		vsnd_duration = 1.17551
 	}
 	magician_henry_ping_kelvin_dead_ping_2d = 
 	{
@@ -4018,7 +4018,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_kelvin_was_here.vsnd",
 		]
-		vsnd_duration = 1.002750
+		vsnd_duration = 1.00275
 	}
 	magician_henry_ping_kncokdown_almost_ready_ping_2d = 
 	{
@@ -4048,7 +4048,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_krill_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.046000
+		vsnd_duration = 1.046
 	}
 	magician_henry_ping_krill_check_items_ping_2d = 
 	{
@@ -4068,7 +4068,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_krill_dead.vsnd",
 		]
-		vsnd_duration = 0.927500
+		vsnd_duration = 0.9275
 	}
 	magician_henry_ping_krill_in_mid_ping_2d = 
 	{
@@ -4078,7 +4078,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_krill_in_mid.vsnd",
 		]
-		vsnd_duration = 0.830500
+		vsnd_duration = 0.8305
 	}
 	magician_henry_ping_krill_missing_01_ping_2d = 
 	{
@@ -4088,7 +4088,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_krill_missing_01.vsnd",
 		]
-		vsnd_duration = 1.023250
+		vsnd_duration = 1.02325
 	}
 	magician_henry_ping_krill_on_top_of_garage_ping_2d = 
 	{
@@ -4108,7 +4108,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_krill_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.109000
+		vsnd_duration = 1.109
 	}
 	magician_henry_ping_krill_under_garage_ping_2d = 
 	{
@@ -4128,7 +4128,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_krill_was_here.vsnd",
 		]
-		vsnd_duration = 0.989500
+		vsnd_duration = 0.9895
 	}
 	magician_henry_ping_lash_almost_respawn_ping_2d = 
 	{
@@ -4198,7 +4198,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_lash_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.285240
+		vsnd_duration = 1.28524
 	}
 	magician_henry_ping_lash_under_garage_ping_2d = 
 	{
@@ -4208,7 +4208,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_lash_under_garage.vsnd",
 		]
-		vsnd_duration = 1.442000
+		vsnd_duration = 1.442
 	}
 	magician_henry_ping_lash_was_here_ping_2d = 
 	{
@@ -4258,7 +4258,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_lets_go_green.vsnd",
 		]
-		vsnd_duration = 0.977750
+		vsnd_duration = 0.97775
 	}
 	magician_henry_ping_lets_go_orange_alt_ping_2d = 
 	{
@@ -4268,7 +4268,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_lets_go_orange_alt.vsnd",
 		]
-		vsnd_duration = 0.930750
+		vsnd_duration = 0.93075
 	}
 	magician_henry_ping_lets_go_orange_ping_2d = 
 	{
@@ -4318,7 +4318,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_meet_here.vsnd",
 		]
-		vsnd_duration = 0.698500
+		vsnd_duration = 0.6985
 	}
 	magician_henry_ping_mirage_almost_respawn_ping_2d = 
 	{
@@ -4368,7 +4368,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_mirage_missing_01.vsnd",
 		]
-		vsnd_duration = 1.092250
+		vsnd_duration = 1.09225
 	}
 	magician_henry_ping_mirage_on_top_of_garage_ping_2d = 
 	{
@@ -4378,7 +4378,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_mirage_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.500000
+		vsnd_duration = 1.5
 	}
 	magician_henry_ping_mirage_on_top_of_mid_ping_2d = 
 	{
@@ -4408,7 +4408,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_mirage_was_here.vsnd",
 		]
-		vsnd_duration = 0.967000
+		vsnd_duration = 0.967
 	}
 	magician_henry_ping_missing_blue_01_ping_2d = 
 	{
@@ -4428,7 +4428,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_missing_blue_02.vsnd",
 		]
-		vsnd_duration = 0.937000
+		vsnd_duration = 0.937
 	}
 	magician_henry_ping_missing_green_01_ping_2d = 
 	{
@@ -4448,7 +4448,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_missing_green_02.vsnd",
 		]
-		vsnd_duration = 0.822750
+		vsnd_duration = 0.82275
 	}
 	magician_henry_ping_missing_orange_01_ping_2d = 
 	{
@@ -4478,7 +4478,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_missing_yellow_01.vsnd",
 		]
-		vsnd_duration = 0.779240
+		vsnd_duration = 0.77924
 	}
 	magician_henry_ping_missing_yellow_02_ping_2d = 
 	{
@@ -4498,7 +4498,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_nano_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.248500
+		vsnd_duration = 1.2485
 	}
 	magician_henry_ping_nano_check_items_ping_2d = 
 	{
@@ -4508,7 +4508,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_nano_check_items.vsnd",
 		]
-		vsnd_duration = 1.210240
+		vsnd_duration = 1.21024
 	}
 	magician_henry_ping_nano_dead_ping_2d = 
 	{
@@ -4618,7 +4618,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_need_help_blue.vsnd",
 		]
-		vsnd_duration = 1.076500
+		vsnd_duration = 1.0765
 	}
 	magician_henry_ping_need_help_green_alt_ping_2d = 
 	{
@@ -4628,7 +4628,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_need_help_green_alt.vsnd",
 		]
-		vsnd_duration = 1.079000
+		vsnd_duration = 1.079
 	}
 	magician_henry_ping_need_help_green_ping_2d = 
 	{
@@ -4698,7 +4698,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_negative_01.vsnd",
 		]
-		vsnd_duration = 0.361500
+		vsnd_duration = 0.3615
 	}
 	magician_henry_ping_negative_02_ping_2d = 
 	{
@@ -4768,7 +4768,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_orange_help_02.vsnd",
 		]
-		vsnd_duration = 1.034500
+		vsnd_duration = 1.0345
 	}
 	magician_henry_ping_orion_almost_respawn_ping_2d = 
 	{
@@ -4778,7 +4778,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_orion_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.351500
+		vsnd_duration = 1.3515
 	}
 	magician_henry_ping_orion_check_items_ping_2d = 
 	{
@@ -4858,7 +4858,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_orion_was_here.vsnd",
 		]
-		vsnd_duration = 1.015990
+		vsnd_duration = 1.01599
 	}
 	magician_henry_ping_press_advantage_ping_2d = 
 	{
@@ -4878,7 +4878,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_push_blue_01.vsnd",
 		]
-		vsnd_duration = 0.929240
+		vsnd_duration = 0.92924
 	}
 	magician_henry_ping_push_blue_02_ping_2d = 
 	{
@@ -4898,7 +4898,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_push_green_01.vsnd",
 		]
-		vsnd_duration = 0.928240
+		vsnd_duration = 0.92824
 	}
 	magician_henry_ping_push_green_02_ping_2d = 
 	{
@@ -4958,7 +4958,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_refresher_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.250240
+		vsnd_duration = 1.25024
 	}
 	magician_henry_ping_refresher_not_ready_ping_2d = 
 	{
@@ -4978,7 +4978,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_rejuv_drop.vsnd",
 		]
-		vsnd_duration = 0.956000
+		vsnd_duration = 0.956
 	}
 	magician_henry_ping_request_follow_ping_2d = 
 	{
@@ -4988,7 +4988,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_request_follow.vsnd",
 		]
-		vsnd_duration = 0.540760
+		vsnd_duration = 0.54076
 	}
 	magician_henry_ping_retreat_01_ping_2d = 
 	{
@@ -5008,7 +5008,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_retreat_02.vsnd",
 		]
-		vsnd_duration = 1.200000
+		vsnd_duration = 1.2
 	}
 	magician_henry_ping_returning_to_base_ping_2d = 
 	{
@@ -5028,7 +5028,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_right_back_01.vsnd",
 		]
-		vsnd_duration = 0.849510
+		vsnd_duration = 0.84951
 	}
 	magician_henry_ping_rupture_almost_ready_ping_2d = 
 	{
@@ -5088,7 +5088,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_saw_chrono.vsnd",
 		]
-		vsnd_duration = 1.154500
+		vsnd_duration = 1.1545
 	}
 	magician_henry_ping_saw_dynamo_ping_2d = 
 	{
@@ -5148,7 +5148,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_saw_hornet.vsnd",
 		]
-		vsnd_duration = 1.114510
+		vsnd_duration = 1.11451
 	}
 	magician_henry_ping_saw_inferno_ping_2d = 
 	{
@@ -5178,7 +5178,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_saw_krill.vsnd",
 		]
-		vsnd_duration = 0.805750
+		vsnd_duration = 0.80575
 	}
 	magician_henry_ping_saw_lash_ping_2d = 
 	{
@@ -5228,7 +5228,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_saw_shiv.vsnd",
 		]
-		vsnd_duration = 0.820500
+		vsnd_duration = 0.8205
 	}
 	magician_henry_ping_saw_slork_ping_2d = 
 	{
@@ -5288,7 +5288,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_saw_viper.vsnd",
 		]
-		vsnd_duration = 0.901000
+		vsnd_duration = 0.901
 	}
 	magician_henry_ping_saw_viscous_ping_2d = 
 	{
@@ -5458,7 +5458,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_chrono.vsnd",
 		]
-		vsnd_duration = 1.262000
+		vsnd_duration = 1.262
 	}
 	magician_henry_ping_see_dynamo_01_ping_2d = 
 	{
@@ -5558,7 +5558,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_ghost_01.vsnd",
 		]
-		vsnd_duration = 0.808010
+		vsnd_duration = 0.80801
 	}
 	magician_henry_ping_see_ghost_on_bridge_ping_2d = 
 	{
@@ -5568,7 +5568,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_ghost_on_bridge.vsnd",
 		]
-		vsnd_duration = 0.956250
+		vsnd_duration = 0.95625
 	}
 	magician_henry_ping_see_ghost_on_roof_ping_2d = 
 	{
@@ -5608,7 +5608,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_gigawatt_on_roof.vsnd",
 		]
-		vsnd_duration = 0.941000
+		vsnd_duration = 0.941
 	}
 	magician_henry_ping_see_haze_01_ping_2d = 
 	{
@@ -5768,7 +5768,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_lash_01.vsnd",
 		]
-		vsnd_duration = 0.900500
+		vsnd_duration = 0.9005
 	}
 	magician_henry_ping_see_lash_on_bridge_ping_2d = 
 	{
@@ -5798,7 +5798,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_mirage_01.vsnd",
 		]
-		vsnd_duration = 1.046490
+		vsnd_duration = 1.04649
 	}
 	magician_henry_ping_see_mirage_on_bridge_ping_2d = 
 	{
@@ -5828,7 +5828,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_nano_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.115500
+		vsnd_duration = 1.1155
 	}
 	magician_henry_ping_see_nano_on_roof_ping_2d = 
 	{
@@ -5898,7 +5898,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_shiv_on_bridge.vsnd",
 		]
-		vsnd_duration = 0.957490
+		vsnd_duration = 0.95749
 	}
 	magician_henry_ping_see_shiv_on_roof_ping_2d = 
 	{
@@ -5908,7 +5908,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_shiv_on_roof.vsnd",
 		]
-		vsnd_duration = 0.914000
+		vsnd_duration = 0.914
 	}
 	magician_henry_ping_see_slork_01_ping_2d = 
 	{
@@ -5928,7 +5928,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_slork_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.029250
+		vsnd_duration = 1.02925
 	}
 	magician_henry_ping_see_slork_on_roof_ping_2d = 
 	{
@@ -6138,7 +6138,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_wraith_on_bridge.vsnd",
 		]
-		vsnd_duration = 0.975500
+		vsnd_duration = 0.9755
 	}
 	magician_henry_ping_see_wraith_on_roof_ping_2d = 
 	{
@@ -6148,7 +6148,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_wraith_on_roof.vsnd",
 		]
-		vsnd_duration = 0.986010
+		vsnd_duration = 0.98601
 	}
 	magician_henry_ping_see_wrecker_01_ping_2d = 
 	{
@@ -6158,7 +6158,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_see_wrecker_01.vsnd",
 		]
-		vsnd_duration = 0.819250
+		vsnd_duration = 0.81925
 	}
 	magician_henry_ping_see_wrecker_on_bridge_ping_2d = 
 	{
@@ -6258,7 +6258,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_shiv_missing_01.vsnd",
 		]
-		vsnd_duration = 1.007000
+		vsnd_duration = 1.007
 	}
 	magician_henry_ping_shiv_on_top_of_garage_ping_2d = 
 	{
@@ -6278,7 +6278,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_shiv_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.070000
+		vsnd_duration = 1.07
 	}
 	magician_henry_ping_shiv_under_garage_ping_2d = 
 	{
@@ -6298,7 +6298,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_shiv_was_here.vsnd",
 		]
-		vsnd_duration = 0.795000
+		vsnd_duration = 0.795
 	}
 	magician_henry_ping_silence_almost_ready_ping_2d = 
 	{
@@ -6338,7 +6338,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_slork_check_items.vsnd",
 		]
-		vsnd_duration = 1.139250
+		vsnd_duration = 1.13925
 	}
 	magician_henry_ping_slork_dead_ping_2d = 
 	{
@@ -6388,7 +6388,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_slork_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.214750
+		vsnd_duration = 1.21475
 	}
 	magician_henry_ping_slork_under_garage_ping_2d = 
 	{
@@ -6398,7 +6398,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_slork_under_garage.vsnd",
 		]
-		vsnd_duration = 1.482000
+		vsnd_duration = 1.482
 	}
 	magician_henry_ping_slork_was_here_ping_2d = 
 	{
@@ -6418,7 +6418,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_sorry_01.vsnd",
 		]
-		vsnd_duration = 1.403500
+		vsnd_duration = 1.4035
 	}
 	magician_henry_ping_sorry_02_ping_2d = 
 	{
@@ -6548,7 +6548,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_stun_gigawatt_01.vsnd",
 		]
-		vsnd_duration = 0.812000
+		vsnd_duration = 0.812
 	}
 	magician_henry_ping_stun_haze_01_ping_2d = 
 	{
@@ -6568,7 +6568,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_stun_hornet_01.vsnd",
 		]
-		vsnd_duration = 0.928250
+		vsnd_duration = 0.92825
 	}
 	magician_henry_ping_stun_inferno_01_ping_2d = 
 	{
@@ -6588,7 +6588,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_stun_kelvin_01.vsnd",
 		]
-		vsnd_duration = 0.856760
+		vsnd_duration = 0.85676
 	}
 	magician_henry_ping_stun_krill_01_ping_2d = 
 	{
@@ -6638,7 +6638,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_stun_orion_01.vsnd",
 		]
-		vsnd_duration = 1.029500
+		vsnd_duration = 1.0295
 	}
 	magician_henry_ping_stun_shiv_01_ping_2d = 
 	{
@@ -6668,7 +6668,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_stun_synth_01.vsnd",
 		]
-		vsnd_duration = 0.820000
+		vsnd_duration = 0.82
 	}
 	magician_henry_ping_stun_tengu_01_ping_2d = 
 	{
@@ -6688,7 +6688,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_stun_trapper_01.vsnd",
 		]
-		vsnd_duration = 0.818500
+		vsnd_duration = 0.8185
 	}
 	magician_henry_ping_stun_viper_01_ping_2d = 
 	{
@@ -6758,7 +6758,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_synth_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.171500
+		vsnd_duration = 1.1715
 	}
 	magician_henry_ping_synth_check_items_ping_2d = 
 	{
@@ -6798,7 +6798,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_synth_missing_01.vsnd",
 		]
-		vsnd_duration = 0.908000
+		vsnd_duration = 0.908
 	}
 	magician_henry_ping_synth_on_top_of_garage_ping_2d = 
 	{
@@ -6808,7 +6808,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_synth_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.356240
+		vsnd_duration = 1.35624
 	}
 	magician_henry_ping_synth_on_top_of_mid_ping_2d = 
 	{
@@ -6848,7 +6848,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_t1_under_attack.vsnd",
 		]
-		vsnd_duration = 1.216260
+		vsnd_duration = 1.21626
 	}
 	magician_henry_ping_t2_under_attack_ping_2d = 
 	{
@@ -6888,7 +6888,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_tengu_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.147500
+		vsnd_duration = 1.1475
 	}
 	magician_henry_ping_tengu_check_items_ping_2d = 
 	{
@@ -6908,7 +6908,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_tengu_dead.vsnd",
 		]
-		vsnd_duration = 1.096010
+		vsnd_duration = 1.09601
 	}
 	magician_henry_ping_tengu_in_mid_ping_2d = 
 	{
@@ -6938,7 +6938,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_tengu_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.367500
+		vsnd_duration = 1.3675
 	}
 	magician_henry_ping_tengu_on_top_of_mid_ping_2d = 
 	{
@@ -6968,7 +6968,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_tengu_was_here.vsnd",
 		]
-		vsnd_duration = 0.876000
+		vsnd_duration = 0.876
 	}
 	magician_henry_ping_thank_you_01_ping_2d = 
 	{
@@ -6998,7 +6998,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_thanks.vsnd",
 		]
-		vsnd_duration = 0.495500
+		vsnd_duration = 0.4955
 	}
 	magician_henry_ping_they_were_here_ping_2d = 
 	{
@@ -7028,7 +7028,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_theyre_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.267000
+		vsnd_duration = 1.267
 	}
 	magician_henry_ping_theyre_on_top_of_mid_ping_2d = 
 	{
@@ -7038,7 +7038,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_theyre_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.016000
+		vsnd_duration = 1.016
 	}
 	magician_henry_ping_theyre_under_garage_ping_2d = 
 	{
@@ -7048,7 +7048,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_theyre_under_garage.vsnd",
 		]
-		vsnd_duration = 1.158000
+		vsnd_duration = 1.158
 	}
 	magician_henry_ping_trapper_almost_respawn_ping_2d = 
 	{
@@ -7068,7 +7068,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_trapper_check_items.vsnd",
 		]
-		vsnd_duration = 1.120000
+		vsnd_duration = 1.12
 	}
 	magician_henry_ping_trapper_dead_ping_2d = 
 	{
@@ -7078,7 +7078,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_trapper_dead.vsnd",
 		]
-		vsnd_duration = 0.916500
+		vsnd_duration = 0.9165
 	}
 	magician_henry_ping_trapper_in_mid_ping_2d = 
 	{
@@ -7128,7 +7128,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_trapper_under_garage.vsnd",
 		]
-		vsnd_duration = 1.548750
+		vsnd_duration = 1.54875
 	}
 	magician_henry_ping_trapper_was_here_ping_2d = 
 	{
@@ -7138,7 +7138,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_trapper_was_here.vsnd",
 		]
-		vsnd_duration = 0.804500
+		vsnd_duration = 0.8045
 	}
 	magician_henry_ping_use_glitch_ping_2d = 
 	{
@@ -7148,7 +7148,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_use_glitch.vsnd",
 		]
-		vsnd_duration = 0.995000
+		vsnd_duration = 0.995
 	}
 	magician_henry_ping_use_health_nova_ping_2d = 
 	{
@@ -7208,7 +7208,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_use_silence.vsnd",
 		]
-		vsnd_duration = 1.319000
+		vsnd_duration = 1.319
 	}
 	magician_henry_ping_use_stim_pack_ping_2d = 
 	{
@@ -7318,7 +7318,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_viper_was_here.vsnd",
 		]
-		vsnd_duration = 1.010000
+		vsnd_duration = 1.01
 	}
 	magician_henry_ping_viscous_almost_respawn_ping_2d = 
 	{
@@ -7338,7 +7338,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_viscous_check_items.vsnd",
 		]
-		vsnd_duration = 1.229000
+		vsnd_duration = 1.229
 	}
 	magician_henry_ping_viscous_dead_ping_2d = 
 	{
@@ -7348,7 +7348,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_viscous_dead.vsnd",
 		]
-		vsnd_duration = 1.064000
+		vsnd_duration = 1.064
 	}
 	magician_henry_ping_viscous_in_mid_ping_2d = 
 	{
@@ -7408,7 +7408,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_viscous_was_here.vsnd",
 		]
-		vsnd_duration = 1.050000
+		vsnd_duration = 1.05
 	}
 	magician_henry_ping_wait_ping_2d = 
 	{
@@ -7508,7 +7508,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_warden_was_here.vsnd",
 		]
-		vsnd_duration = 1.069500
+		vsnd_duration = 1.0695
 	}
 	magician_henry_ping_warp_stone_almost_ready_ping_2d = 
 	{
@@ -7538,7 +7538,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_welcome.vsnd",
 		]
-		vsnd_duration = 0.631510
+		vsnd_duration = 0.63151
 	}
 	magician_henry_ping_well_played_ping_2d = 
 	{
@@ -7588,7 +7588,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_with_chrono.vsnd",
 		]
-		vsnd_duration = 1.131000
+		vsnd_duration = 1.131
 	}
 	magician_henry_ping_with_dynamo_ping_2d = 
 	{
@@ -7648,7 +7648,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_with_hornet.vsnd",
 		]
-		vsnd_duration = 1.150490
+		vsnd_duration = 1.15049
 	}
 	magician_henry_ping_with_inferno_ping_2d = 
 	{
@@ -7668,7 +7668,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_with_kelvin.vsnd",
 		]
-		vsnd_duration = 1.027000
+		vsnd_duration = 1.027
 	}
 	magician_henry_ping_with_krill_ping_2d = 
 	{
@@ -7688,7 +7688,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_with_lash.vsnd",
 		]
-		vsnd_duration = 1.023500
+		vsnd_duration = 1.0235
 	}
 	magician_henry_ping_with_mirage_ping_2d = 
 	{
@@ -7698,7 +7698,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_with_mirage.vsnd",
 		]
-		vsnd_duration = 1.123500
+		vsnd_duration = 1.1235
 	}
 	magician_henry_ping_with_nano_ping_2d = 
 	{
@@ -7708,7 +7708,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_with_nano.vsnd",
 		]
-		vsnd_duration = 1.076500
+		vsnd_duration = 1.0765
 	}
 	magician_henry_ping_with_orion_ping_2d = 
 	{
@@ -7758,7 +7758,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_with_tengu.vsnd",
 		]
-		vsnd_duration = 0.977990
+		vsnd_duration = 0.97799
 	}
 	magician_henry_ping_with_trapper_ping_2d = 
 	{
@@ -7828,7 +7828,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_with_yamato.vsnd",
 		]
-		vsnd_duration = 1.082500
+		vsnd_duration = 1.0825
 	}
 	magician_henry_ping_wraith_almost_respawn_ping_2d = 
 	{
@@ -7868,7 +7868,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_wraith_in_mid.vsnd",
 		]
-		vsnd_duration = 1.257500
+		vsnd_duration = 1.2575
 	}
 	magician_henry_ping_wraith_missing_01_ping_2d = 
 	{
@@ -7908,7 +7908,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_wraith_under_garage.vsnd",
 		]
-		vsnd_duration = 1.323500
+		vsnd_duration = 1.3235
 	}
 	magician_henry_ping_wraith_was_here_ping_2d = 
 	{
@@ -7938,7 +7938,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_wrecker_check_items.vsnd",
 		]
-		vsnd_duration = 1.182500
+		vsnd_duration = 1.1825
 	}
 	magician_henry_ping_wrecker_dead_ping_2d = 
 	{
@@ -7978,7 +7978,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_wrecker_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.574500
+		vsnd_duration = 1.5745
 	}
 	magician_henry_ping_wrecker_on_top_of_mid_ping_2d = 
 	{
@@ -7998,7 +7998,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_wrecker_under_garage.vsnd",
 		]
-		vsnd_duration = 1.216000
+		vsnd_duration = 1.216
 	}
 	magician_henry_ping_wrecker_was_here_ping_2d = 
 	{
@@ -8018,7 +8018,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_yamato_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.223500
+		vsnd_duration = 1.2235
 	}
 	magician_henry_ping_yamato_check_items_ping_2d = 
 	{
@@ -8068,7 +8068,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_yamato_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.599010
+		vsnd_duration = 1.59901
 	}
 	magician_henry_ping_yamato_on_top_of_mid_ping_2d = 
 	{
@@ -8098,7 +8098,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_yamato_was_here.vsnd",
 		]
-		vsnd_duration = 1.072000
+		vsnd_duration = 1.072
 	}
 	magician_henry_ping_yellow_help_01_ping_2d = 
 	{
@@ -8108,7 +8108,7 @@
 		[
 			"sounds/vo/magician/ping/magician_henry_ping_yellow_help_01.vsnd",
 		]
-		vsnd_duration = 1.035750
+		vsnd_duration = 1.03575
 	}
 	magician_henry_ping_yellow_help_02_ping_2d = 
 	{
@@ -8138,7 +8138,7 @@
 		[
 			"sounds/vo/magician/magician_henry_respawn_02.vsnd",
 		]
-		vsnd_duration = 1.080010
+		vsnd_duration = 1.08001
 	}
 	magician_henry_respawn_03_hero_3d = 
 	{
@@ -8148,7 +8148,7 @@
 		[
 			"sounds/vo/magician/magician_henry_respawn_03.vsnd",
 		]
-		vsnd_duration = 2.087240
+		vsnd_duration = 2.08724
 	}
 	magician_henry_respawn_04_hero_3d = 
 	{
@@ -8268,7 +8268,7 @@
 		[
 			"sounds/vo/magician/magician_henry_select_04_a.vsnd",
 		]
-		vsnd_duration = 0.566250
+		vsnd_duration = 0.56625
 	}
 	magician_henry_select_04_hero_3d = 
 	{
@@ -8298,7 +8298,7 @@
 		[
 			"sounds/vo/magician/magician_henry_select_06_a.vsnd",
 		]
-		vsnd_duration = 1.012000
+		vsnd_duration = 1.012
 	}
 	magician_henry_select_06_hero_3d = 
 	{
@@ -8318,7 +8318,7 @@
 		[
 			"sounds/vo/magician/magician_henry_select_07.vsnd",
 		]
-		vsnd_duration = 2.211000
+		vsnd_duration = 2.211
 	}
 	magician_henry_select_08_a_hero_3d = 
 	{
@@ -8328,7 +8328,7 @@
 		[
 			"sounds/vo/magician/magician_henry_select_08_a.vsnd",
 		]
-		vsnd_duration = 1.906760
+		vsnd_duration = 1.90676
 	}
 	magician_henry_select_08_hero_3d = 
 	{
@@ -8388,7 +8388,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power1_02.vsnd",
 		]
-		vsnd_duration = 1.125500
+		vsnd_duration = 1.1255
 	}
 	magician_henry_use_power1_03_ability_3d = 
 	{
@@ -8398,7 +8398,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power1_03.vsnd",
 		]
-		vsnd_duration = 1.764500
+		vsnd_duration = 1.7645
 	}
 	magician_henry_use_power1_04_ability_3d = 
 	{
@@ -8498,7 +8498,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power2_03.vsnd",
 		]
-		vsnd_duration = 2.765500
+		vsnd_duration = 2.7655
 	}
 	magician_henry_use_power2_04_ability_3d = 
 	{
@@ -8538,7 +8538,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power2_07.vsnd",
 		]
-		vsnd_duration = 1.349500
+		vsnd_duration = 1.3495
 	}
 	magician_henry_use_power2_08_ability_3d = 
 	{
@@ -8548,7 +8548,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power2_08.vsnd",
 		]
-		vsnd_duration = 1.321000
+		vsnd_duration = 1.321
 	}
 	magician_henry_use_power2_09_ability_3d = 
 	{
@@ -8568,7 +8568,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power2_10.vsnd",
 		]
-		vsnd_duration = 0.747990
+		vsnd_duration = 0.74799
 	}
 	magician_henry_use_power3_01_ability_3d = 
 	{
@@ -8588,7 +8588,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power3_02.vsnd",
 		]
-		vsnd_duration = 0.709250
+		vsnd_duration = 0.70925
 	}
 	magician_henry_use_power3_03_ability_3d = 
 	{
@@ -8608,7 +8608,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power3_04.vsnd",
 		]
-		vsnd_duration = 1.281000
+		vsnd_duration = 1.281
 	}
 	magician_henry_use_power3_05_ability_3d = 
 	{
@@ -8648,7 +8648,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power3_08.vsnd",
 		]
-		vsnd_duration = 1.447240
+		vsnd_duration = 1.44724
 	}
 	magician_henry_use_power3_09_ability_3d = 
 	{
@@ -8738,7 +8738,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.572500
+		vsnd_duration = 1.5725
 	}
 	magician_henry_use_power4_03_hero_announcer = 
 	{
@@ -8748,7 +8748,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.572500
+		vsnd_duration = 1.5725
 	}
 	magician_henry_use_power4_03_ult_3d = 
 	{
@@ -8758,7 +8758,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.572500
+		vsnd_duration = 1.5725
 	}
 	magician_henry_use_power4_04_ability_3d = 
 	{
@@ -8768,7 +8768,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power4_04.vsnd",
 		]
-		vsnd_duration = 1.744500
+		vsnd_duration = 1.7445
 	}
 	magician_henry_use_power4_04_hero_announcer = 
 	{
@@ -8778,7 +8778,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power4_04.vsnd",
 		]
-		vsnd_duration = 1.744500
+		vsnd_duration = 1.7445
 	}
 	magician_henry_use_power4_04_ult_3d = 
 	{
@@ -8788,7 +8788,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power4_04.vsnd",
 		]
-		vsnd_duration = 1.744500
+		vsnd_duration = 1.7445
 	}
 	magician_henry_use_power4_05_ability_3d = 
 	{
@@ -8798,7 +8798,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power4_05.vsnd",
 		]
-		vsnd_duration = 1.731000
+		vsnd_duration = 1.731
 	}
 	magician_henry_use_power4_05_hero_announcer = 
 	{
@@ -8808,7 +8808,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power4_05.vsnd",
 		]
-		vsnd_duration = 1.731000
+		vsnd_duration = 1.731
 	}
 	magician_henry_use_power4_05_ult_3d = 
 	{
@@ -8818,7 +8818,7 @@
 		[
 			"sounds/vo/magician/magician_henry_use_power4_05.vsnd",
 		]
-		vsnd_duration = 1.731000
+		vsnd_duration = 1.731
 	}
 	magician_henry_use_power4_06_ability_3d = 
 	{
@@ -9068,7 +9068,7 @@
 		[
 			"sounds/vo/magician/magician_hs_select_10.vsnd",
 		]
-		vsnd_duration = 5.178010
+		vsnd_duration = 5.17801
 	}
 	magician_savannah_effort_dash_01_emote_dash_3d = 
 	{
@@ -9078,7 +9078,7 @@
 		[
 			"sounds/vo/magician/emote/magician_savannah_effort_dash_01.vsnd",
 		]
-		vsnd_duration = 0.486000
+		vsnd_duration = 0.486
 	}
 	magician_savannah_effort_dash_01_emote_effort_3d = 
 	{
@@ -9088,7 +9088,7 @@
 		[
 			"sounds/vo/magician/emote/magician_savannah_effort_dash_01.vsnd",
 		]
-		vsnd_duration = 0.486000
+		vsnd_duration = 0.486
 	}
 	magician_savannah_effort_dash_02_emote_dash_3d = 
 	{
@@ -9198,7 +9198,7 @@
 		[
 			"sounds/vo/magician/emote/magician_savannah_effort_dash_07.vsnd",
 		]
-		vsnd_duration = 0.515000
+		vsnd_duration = 0.515
 	}
 	magician_savannah_effort_dash_07_emote_effort_3d = 
 	{
@@ -9208,7 +9208,7 @@
 		[
 			"sounds/vo/magician/emote/magician_savannah_effort_dash_07.vsnd",
 		]
-		vsnd_duration = 0.515000
+		vsnd_duration = 0.515
 	}
 	magician_savannah_effort_dash_08_emote_dash_3d = 
 	{
@@ -9268,7 +9268,7 @@
 		[
 			"sounds/vo/magician/emote/magician_savannah_effort_general_04.vsnd",
 		]
-		vsnd_duration = 0.838000
+		vsnd_duration = 0.838
 	}
 	magician_savannah_effort_general_05_emote_effort_3d = 
 	{
@@ -9348,7 +9348,7 @@
 		[
 			"sounds/vo/magician/emote/magician_savannah_effort_melee_big_03.vsnd",
 		]
-		vsnd_duration = 1.218750
+		vsnd_duration = 1.21875
 	}
 	magician_savannah_effort_melee_big_03_emote_melee_effort_3d = 
 	{
@@ -9358,7 +9358,7 @@
 		[
 			"sounds/vo/magician/emote/magician_savannah_effort_melee_big_03.vsnd",
 		]
-		vsnd_duration = 1.218750
+		vsnd_duration = 1.21875
 	}
 	magician_savannah_effort_melee_big_04_emote_effort_3d = 
 	{
@@ -9508,7 +9508,7 @@
 		[
 			"sounds/vo/magician/emote/magician_savannah_pain_akira_laser_01.vsnd",
 		]
-		vsnd_duration = 2.060000
+		vsnd_duration = 2.06
 	}
 	magician_savannah_pain_akira_laser_02_emote_pain_3d = 
 	{
@@ -9588,7 +9588,7 @@
 		[
 			"sounds/vo/magician/emote/magician_savannah_pain_big_07.vsnd",
 		]
-		vsnd_duration = 0.886000
+		vsnd_duration = 0.886
 	}
 	magician_savannah_pain_big_08_emote_pain_3d = 
 	{
@@ -9708,7 +9708,7 @@
 		[
 			"sounds/vo/magician/emote/magician_savannah_pain_low_health_warning_01.vsnd",
 		]
-		vsnd_duration = 0.880000
+		vsnd_duration = 0.88
 	}
 	magician_savannah_pain_low_health_warning_02_emote_pain_3d = 
 	{
@@ -9888,7 +9888,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_astro_check_items.vsnd",
 		]
-		vsnd_duration = 1.159740
+		vsnd_duration = 1.15974
 	}
 	magician_savannah_ping_astro_dead_ping_2d = 
 	{
@@ -9928,7 +9928,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_astro_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.497240
+		vsnd_duration = 1.49724
 	}
 	magician_savannah_ping_astro_on_top_of_mid_ping_2d = 
 	{
@@ -9968,7 +9968,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_atlas_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.251490
+		vsnd_duration = 1.25149
 	}
 	magician_savannah_ping_atlas_check_items_ping_2d = 
 	{
@@ -10098,7 +10098,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_attack_dynamo.vsnd",
 		]
-		vsnd_duration = 1.145740
+		vsnd_duration = 1.14574
 	}
 	magician_savannah_ping_attack_enemy_avatar_ping_2d = 
 	{
@@ -10168,7 +10168,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_attack_haze.vsnd",
 		]
-		vsnd_duration = 1.039510
+		vsnd_duration = 1.03951
 	}
 	magician_savannah_ping_attack_hornet_ping_2d = 
 	{
@@ -10328,7 +10328,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_attack_warden.vsnd",
 		]
-		vsnd_duration = 0.994250
+		vsnd_duration = 0.99425
 	}
 	magician_savannah_ping_attack_wraith_ping_2d = 
 	{
@@ -10368,7 +10368,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_avatar_under_attack.vsnd",
 		]
-		vsnd_duration = 1.021010
+		vsnd_duration = 1.02101
 	}
 	magician_savannah_ping_be_back_soon_ping_2d = 
 	{
@@ -10428,7 +10428,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_bebop_missing_01.vsnd",
 		]
-		vsnd_duration = 0.986490
+		vsnd_duration = 0.98649
 	}
 	magician_savannah_ping_bebop_on_top_of_garage_ping_2d = 
 	{
@@ -10508,7 +10508,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_can_heal_atlas.vsnd",
 		]
-		vsnd_duration = 1.288010
+		vsnd_duration = 1.28801
 	}
 	magician_savannah_ping_can_heal_bebop_ping_2d = 
 	{
@@ -10528,7 +10528,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_can_heal_chrono.vsnd",
 		]
-		vsnd_duration = 1.491240
+		vsnd_duration = 1.49124
 	}
 	magician_savannah_ping_can_heal_dynamo_ping_2d = 
 	{
@@ -10648,7 +10648,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_can_heal_nano.vsnd",
 		]
-		vsnd_duration = 1.283250
+		vsnd_duration = 1.28325
 	}
 	magician_savannah_ping_can_heal_orion_ping_2d = 
 	{
@@ -10708,7 +10708,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_can_heal_trapper.vsnd",
 		]
-		vsnd_duration = 1.271260
+		vsnd_duration = 1.27126
 	}
 	magician_savannah_ping_can_heal_viper_ping_2d = 
 	{
@@ -10758,7 +10758,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_can_heal_wrecker.vsnd",
 		]
-		vsnd_duration = 1.270010
+		vsnd_duration = 1.27001
 	}
 	magician_savannah_ping_can_heal_yamato_ping_2d = 
 	{
@@ -11008,7 +11008,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_careful_gigawatt_02.vsnd",
 		]
-		vsnd_duration = 1.212500
+		vsnd_duration = 1.2125
 	}
 	magician_savannah_ping_careful_gigawatt_03_ping_2d = 
 	{
@@ -11048,7 +11048,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_careful_haze_03.vsnd",
 		]
-		vsnd_duration = 0.819010
+		vsnd_duration = 0.81901
 	}
 	magician_savannah_ping_careful_hornet_01_ping_2d = 
 	{
@@ -11158,7 +11158,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_careful_krill_02.vsnd",
 		]
-		vsnd_duration = 0.783990
+		vsnd_duration = 0.78399
 	}
 	magician_savannah_ping_careful_krill_03_ping_2d = 
 	{
@@ -11378,7 +11378,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_careful_synth_03.vsnd",
 		]
-		vsnd_duration = 0.795490
+		vsnd_duration = 0.79549
 	}
 	magician_savannah_ping_careful_tengu_01_ping_2d = 
 	{
@@ -11418,7 +11418,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_careful_trapper_01.vsnd",
 		]
-		vsnd_duration = 0.859010
+		vsnd_duration = 0.85901
 	}
 	magician_savannah_ping_careful_trapper_02_ping_2d = 
 	{
@@ -11428,7 +11428,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_careful_trapper_02.vsnd",
 		]
-		vsnd_duration = 1.070000
+		vsnd_duration = 1.07
 	}
 	magician_savannah_ping_careful_trapper_03_ping_2d = 
 	{
@@ -11738,7 +11738,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_defend_base_01.vsnd",
 		]
-		vsnd_duration = 0.929240
+		vsnd_duration = 0.92924
 	}
 	magician_savannah_ping_defend_blue_01_ping_2d = 
 	{
@@ -11768,7 +11768,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_defend_green_01.vsnd",
 		]
-		vsnd_duration = 0.826500
+		vsnd_duration = 0.8265
 	}
 	magician_savannah_ping_defend_green_02_ping_2d = 
 	{
@@ -11838,7 +11838,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_dynamo_check_items.vsnd",
 		]
-		vsnd_duration = 1.198010
+		vsnd_duration = 1.19801
 	}
 	magician_savannah_ping_dynamo_dead_ping_2d = 
 	{
@@ -11868,7 +11868,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_dynamo_missing_01.vsnd",
 		]
-		vsnd_duration = 1.071750
+		vsnd_duration = 1.07175
 	}
 	magician_savannah_ping_dynamo_on_top_of_garage_ping_2d = 
 	{
@@ -11908,7 +11908,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_dynamo_was_here.vsnd",
 		]
-		vsnd_duration = 1.095740
+		vsnd_duration = 1.09574
 	}
 	magician_savannah_ping_enemy_take_mid_ping_2d = 
 	{
@@ -11918,7 +11918,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_enemy_take_mid.vsnd",
 		]
-		vsnd_duration = 0.886750
+		vsnd_duration = 0.88675
 	}
 	magician_savannah_ping_flank_ping_2d = 
 	{
@@ -12028,7 +12028,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_gank.vsnd",
 		]
-		vsnd_duration = 0.740510
+		vsnd_duration = 0.74051
 	}
 	magician_savannah_ping_ghost_almost_respawn_ping_2d = 
 	{
@@ -12038,7 +12038,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_ghost_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.082010
+		vsnd_duration = 1.08201
 	}
 	magician_savannah_ping_ghost_check_items_ping_2d = 
 	{
@@ -12588,7 +12588,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_hornet_missing_01.vsnd",
 		]
-		vsnd_duration = 1.182490
+		vsnd_duration = 1.18249
 	}
 	magician_savannah_ping_hornet_on_top_of_garage_ping_2d = 
 	{
@@ -12698,7 +12698,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_ignore_ghost.vsnd",
 		]
-		vsnd_duration = 1.182990
+		vsnd_duration = 1.18299
 	}
 	magician_savannah_ping_ignore_gigawatt_ping_2d = 
 	{
@@ -12718,7 +12718,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_ignore_haze.vsnd",
 		]
-		vsnd_duration = 1.132490
+		vsnd_duration = 1.13249
 	}
 	magician_savannah_ping_ignore_hornet_ping_2d = 
 	{
@@ -12868,7 +12868,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_ignore_viscous.vsnd",
 		]
-		vsnd_duration = 0.925240
+		vsnd_duration = 0.92524
 	}
 	magician_savannah_ping_ignore_warden_ping_2d = 
 	{
@@ -12908,7 +12908,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_ignore_yamato.vsnd",
 		]
-		vsnd_duration = 1.155750
+		vsnd_duration = 1.15575
 	}
 	magician_savannah_ping_inferno_almost_respawn_ping_2d = 
 	{
@@ -12988,7 +12988,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_inferno_under_garage.vsnd",
 		]
-		vsnd_duration = 1.563750
+		vsnd_duration = 1.56375
 	}
 	magician_savannah_ping_inferno_was_here_ping_2d = 
 	{
@@ -13018,7 +13018,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_item_not_ready.vsnd",
 		]
-		vsnd_duration = 1.135000
+		vsnd_duration = 1.135
 	}
 	magician_savannah_ping_jar_call_01_ping_2d = 
 	{
@@ -13028,7 +13028,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_jar_call_01.vsnd",
 		]
-		vsnd_duration = 0.971490
+		vsnd_duration = 0.97149
 	}
 	magician_savannah_ping_jar_call_02_ping_2d = 
 	{
@@ -13098,7 +13098,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_kelvin_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.368750
+		vsnd_duration = 1.36875
 	}
 	magician_savannah_ping_kelvin_on_top_of_mid_ping_2d = 
 	{
@@ -13228,7 +13228,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_krill_under_garage.vsnd",
 		]
-		vsnd_duration = 1.262750
+		vsnd_duration = 1.26275
 	}
 	magician_savannah_ping_krill_was_here_ping_2d = 
 	{
@@ -13338,7 +13338,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_lets_go_blue_alt.vsnd",
 		]
-		vsnd_duration = 0.920000
+		vsnd_duration = 0.92
 	}
 	magician_savannah_ping_lets_go_blue_ping_2d = 
 	{
@@ -13348,7 +13348,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_lets_go_blue.vsnd",
 		]
-		vsnd_duration = 0.768010
+		vsnd_duration = 0.76801
 	}
 	magician_savannah_ping_lets_go_green_alt_ping_2d = 
 	{
@@ -13368,7 +13368,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_lets_go_green.vsnd",
 		]
-		vsnd_duration = 0.861000
+		vsnd_duration = 0.861
 	}
 	magician_savannah_ping_lets_go_orange_alt_ping_2d = 
 	{
@@ -13388,7 +13388,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_lets_go_orange.vsnd",
 		]
-		vsnd_duration = 0.867000
+		vsnd_duration = 0.867
 	}
 	magician_savannah_ping_lets_go_yellow_alt_ping_2d = 
 	{
@@ -13398,7 +13398,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_lets_go_yellow_alt.vsnd",
 		]
-		vsnd_duration = 0.762500
+		vsnd_duration = 0.7625
 	}
 	magician_savannah_ping_lets_go_yellow_ping_2d = 
 	{
@@ -13408,7 +13408,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_lets_go_yellow.vsnd",
 		]
-		vsnd_duration = 0.820260
+		vsnd_duration = 0.82026
 	}
 	magician_savannah_ping_lets_hide_ping_2d = 
 	{
@@ -13498,7 +13498,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_mirage_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.311510
+		vsnd_duration = 1.31151
 	}
 	magician_savannah_ping_mirage_under_garage_ping_2d = 
 	{
@@ -13708,7 +13708,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_need_heal.vsnd",
 		]
-		vsnd_duration = 0.777010
+		vsnd_duration = 0.77701
 	}
 	magician_savannah_ping_need_help_blue_alt_ping_2d = 
 	{
@@ -13748,7 +13748,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_need_help_green.vsnd",
 		]
-		vsnd_duration = 1.042490
+		vsnd_duration = 1.04249
 	}
 	magician_savannah_ping_need_help_orange_alt_ping_2d = 
 	{
@@ -13888,7 +13888,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_orion_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.373010
+		vsnd_duration = 1.37301
 	}
 	magician_savannah_ping_orion_check_items_ping_2d = 
 	{
@@ -14178,7 +14178,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_saw_atlas.vsnd",
 		]
-		vsnd_duration = 0.915990
+		vsnd_duration = 0.91599
 	}
 	magician_savannah_ping_saw_bebop_ping_2d = 
 	{
@@ -14198,7 +14198,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_saw_chrono.vsnd",
 		]
-		vsnd_duration = 0.921010
+		vsnd_duration = 0.92101
 	}
 	magician_savannah_ping_saw_dynamo_ping_2d = 
 	{
@@ -14208,7 +14208,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_saw_dynamo.vsnd",
 		]
-		vsnd_duration = 0.965740
+		vsnd_duration = 0.96574
 	}
 	magician_savannah_ping_saw_forge_ping_2d = 
 	{
@@ -14228,7 +14228,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_saw_ghost.vsnd",
 		]
-		vsnd_duration = 0.779510
+		vsnd_duration = 0.77951
 	}
 	magician_savannah_ping_saw_gigawatt_ping_2d = 
 	{
@@ -14238,7 +14238,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_saw_gigawatt.vsnd",
 		]
-		vsnd_duration = 0.858240
+		vsnd_duration = 0.85824
 	}
 	magician_savannah_ping_saw_haze_ping_2d = 
 	{
@@ -14278,7 +14278,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_saw_kelvin.vsnd",
 		]
-		vsnd_duration = 0.852240
+		vsnd_duration = 0.85224
 	}
 	magician_savannah_ping_saw_krill_ping_2d = 
 	{
@@ -14408,7 +14408,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_saw_viscous.vsnd",
 		]
-		vsnd_duration = 0.847990
+		vsnd_duration = 0.84799
 	}
 	magician_savannah_ping_saw_warden_ping_2d = 
 	{
@@ -14638,7 +14638,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_see_forge_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.159490
+		vsnd_duration = 1.15949
 	}
 	magician_savannah_ping_see_forge_on_roof_ping_2d = 
 	{
@@ -14868,7 +14868,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_see_krill_on_roof.vsnd",
 		]
-		vsnd_duration = 0.795740
+		vsnd_duration = 0.79574
 	}
 	magician_savannah_ping_see_lash_01_ping_2d = 
 	{
@@ -14878,7 +14878,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_see_lash_01.vsnd",
 		]
-		vsnd_duration = 0.823500
+		vsnd_duration = 0.8235
 	}
 	magician_savannah_ping_see_lash_on_bridge_ping_2d = 
 	{
@@ -14888,7 +14888,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_see_lash_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.045260
+		vsnd_duration = 1.04526
 	}
 	magician_savannah_ping_see_lash_on_roof_ping_2d = 
 	{
@@ -15058,7 +15058,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_see_synth_01.vsnd",
 		]
-		vsnd_duration = 0.743250
+		vsnd_duration = 0.74325
 	}
 	magician_savannah_ping_see_synth_on_bridge_ping_2d = 
 	{
@@ -15188,7 +15188,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_see_viscous_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.132500
+		vsnd_duration = 1.1325
 	}
 	magician_savannah_ping_see_viscous_on_roof_ping_2d = 
 	{
@@ -15288,7 +15288,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_see_wrecker_on_roof.vsnd",
 		]
-		vsnd_duration = 0.891990
+		vsnd_duration = 0.89199
 	}
 	magician_savannah_ping_see_yamato_on_bridge_ping_2d = 
 	{
@@ -15438,7 +15438,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_slork_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.178760
+		vsnd_duration = 1.17876
 	}
 	magician_savannah_ping_slork_check_items_ping_2d = 
 	{
@@ -15478,7 +15478,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_slork_missing_01.vsnd",
 		]
-		vsnd_duration = 1.032010
+		vsnd_duration = 1.03201
 	}
 	magician_savannah_ping_slork_on_top_of_garage_ping_2d = 
 	{
@@ -15518,7 +15518,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_slork_was_here.vsnd",
 		]
-		vsnd_duration = 1.155490
+		vsnd_duration = 1.15549
 	}
 	magician_savannah_ping_sorry_01_ping_2d = 
 	{
@@ -15648,7 +15648,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_stun_ghost_01.vsnd",
 		]
-		vsnd_duration = 0.965760
+		vsnd_duration = 0.96576
 	}
 	magician_savannah_ping_stun_gigawatt_01_ping_2d = 
 	{
@@ -15658,7 +15658,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_stun_gigawatt_01.vsnd",
 		]
-		vsnd_duration = 0.907010
+		vsnd_duration = 0.90701
 	}
 	magician_savannah_ping_stun_haze_01_ping_2d = 
 	{
@@ -15688,7 +15688,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_stun_inferno_01.vsnd",
 		]
-		vsnd_duration = 1.026250
+		vsnd_duration = 1.02625
 	}
 	magician_savannah_ping_stun_kelvin_01_ping_2d = 
 	{
@@ -16008,7 +16008,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_tengu_check_items.vsnd",
 		]
-		vsnd_duration = 1.121500
+		vsnd_duration = 1.1215
 	}
 	magician_savannah_ping_tengu_dead_ping_2d = 
 	{
@@ -16018,7 +16018,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_tengu_dead.vsnd",
 		]
-		vsnd_duration = 0.901240
+		vsnd_duration = 0.90124
 	}
 	magician_savannah_ping_tengu_in_mid_ping_2d = 
 	{
@@ -16038,7 +16038,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_tengu_missing_01.vsnd",
 		]
-		vsnd_duration = 1.008510
+		vsnd_duration = 1.00851
 	}
 	magician_savannah_ping_tengu_on_top_of_garage_ping_2d = 
 	{
@@ -16108,7 +16108,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_thanks.vsnd",
 		]
-		vsnd_duration = 0.479260
+		vsnd_duration = 0.47926
 	}
 	magician_savannah_ping_they_were_here_ping_2d = 
 	{
@@ -16118,7 +16118,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_they_were_here.vsnd",
 		]
-		vsnd_duration = 0.801990
+		vsnd_duration = 0.80199
 	}
 	magician_savannah_ping_theyre_in_mid_ping_2d = 
 	{
@@ -16218,7 +16218,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_trapper_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.330510
+		vsnd_duration = 1.33051
 	}
 	magician_savannah_ping_trapper_on_top_of_mid_ping_2d = 
 	{
@@ -16278,7 +16278,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_use_item.vsnd",
 		]
-		vsnd_duration = 0.992990
+		vsnd_duration = 0.99299
 	}
 	magician_savannah_ping_use_kncokdown_ping_2d = 
 	{
@@ -16318,7 +16318,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_use_silence.vsnd",
 		]
-		vsnd_duration = 1.336260
+		vsnd_duration = 1.33626
 	}
 	magician_savannah_ping_use_stim_pack_ping_2d = 
 	{
@@ -16558,7 +16558,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_warden_dead.vsnd",
 		]
-		vsnd_duration = 0.944250
+		vsnd_duration = 0.94425
 	}
 	magician_savannah_ping_warden_in_mid_ping_2d = 
 	{
@@ -16628,7 +16628,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_warp_stone_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.277490
+		vsnd_duration = 1.27749
 	}
 	magician_savannah_ping_warp_stone_not_ready_ping_2d = 
 	{
@@ -16658,7 +16658,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_well_played.vsnd",
 		]
-		vsnd_duration = 0.741740
+		vsnd_duration = 0.74174
 	}
 	magician_savannah_ping_with_astro_ping_2d = 
 	{
@@ -16708,7 +16708,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_with_dynamo.vsnd",
 		]
-		vsnd_duration = 1.264240
+		vsnd_duration = 1.26424
 	}
 	magician_savannah_ping_with_forge_ping_2d = 
 	{
@@ -16758,7 +16758,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_with_hornet.vsnd",
 		]
-		vsnd_duration = 1.304250
+		vsnd_duration = 1.30425
 	}
 	magician_savannah_ping_with_inferno_ping_2d = 
 	{
@@ -16828,7 +16828,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_with_orion.vsnd",
 		]
-		vsnd_duration = 1.296250
+		vsnd_duration = 1.29625
 	}
 	magician_savannah_ping_with_shiv_ping_2d = 
 	{
@@ -16858,7 +16858,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_with_synth.vsnd",
 		]
-		vsnd_duration = 1.082740
+		vsnd_duration = 1.08274
 	}
 	magician_savannah_ping_with_tengu_ping_2d = 
 	{
@@ -16988,7 +16988,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_wraith_missing_01.vsnd",
 		]
-		vsnd_duration = 0.913010
+		vsnd_duration = 0.91301
 	}
 	magician_savannah_ping_wraith_on_top_of_garage_ping_2d = 
 	{
@@ -17028,7 +17028,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_wraith_was_here.vsnd",
 		]
-		vsnd_duration = 0.811500
+		vsnd_duration = 0.8115
 	}
 	magician_savannah_ping_wrecker_almost_respawn_ping_2d = 
 	{
@@ -17088,7 +17088,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_wrecker_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.356000
+		vsnd_duration = 1.356
 	}
 	magician_savannah_ping_wrecker_on_top_of_mid_ping_2d = 
 	{
@@ -17138,7 +17138,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_yamato_check_items.vsnd",
 		]
-		vsnd_duration = 1.261760
+		vsnd_duration = 1.26176
 	}
 	magician_savannah_ping_yamato_dead_ping_2d = 
 	{
@@ -17208,7 +17208,7 @@
 		[
 			"sounds/vo/magician/ping/magician_savannah_ping_yamato_was_here.vsnd",
 		]
-		vsnd_duration = 0.908490
+		vsnd_duration = 0.90849
 	}
 	magician_savannah_ping_yellow_help_01_ping_2d = 
 	{
@@ -17278,7 +17278,7 @@
 		[
 			"sounds/vo/magician/magician_savannah_respawn_05.vsnd",
 		]
-		vsnd_duration = 3.209250
+		vsnd_duration = 3.20925
 	}
 	magician_savannah_respawn_06_hero_3d = 
 	{
@@ -17688,7 +17688,7 @@
 		[
 			"sounds/vo/magician/magician_savannah_use_power3_02.vsnd",
 		]
-		vsnd_duration = 0.752990
+		vsnd_duration = 0.75299
 	}
 	magician_savannah_use_power3_03_ability_3d = 
 	{
@@ -17698,7 +17698,7 @@
 		[
 			"sounds/vo/magician/magician_savannah_use_power3_03.vsnd",
 		]
-		vsnd_duration = 1.304250
+		vsnd_duration = 1.30425
 	}
 	magician_savannah_use_power3_04_ability_3d = 
 	{
@@ -17808,7 +17808,7 @@
 		[
 			"sounds/vo/magician/magician_savannah_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.781010
+		vsnd_duration = 1.78101
 	}
 	magician_savannah_use_power4_02_hero_announcer = 
 	{
@@ -17818,7 +17818,7 @@
 		[
 			"sounds/vo/magician/magician_savannah_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.781010
+		vsnd_duration = 1.78101
 	}
 	magician_savannah_use_power4_02_ult_3d = 
 	{
@@ -17828,7 +17828,7 @@
 		[
 			"sounds/vo/magician/magician_savannah_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.781010
+		vsnd_duration = 1.78101
 	}
 	magician_savannah_use_power4_03_ability_3d = 
 	{

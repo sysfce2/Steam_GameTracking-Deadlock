@@ -3,10 +3,10 @@
 	Infernus.Wpn.Fire = 
 	{
 		base = "Base.Weapon"
-		volume_fade_out = 0.250000
-		volume = -1.000000
-		limiter_max_offset_player = 2.000000
-		last_shot_vol_offset_db = 3.000000
+		volume_fade_out = 0.25
+		volume = -1.0
+		limiter_max_offset_player = 2.0
+		last_shot_vol_offset_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/weapons/inferno/fire/inferno_weapon_fire_01.vsnd",
@@ -28,14 +28,14 @@
 	Infernus.Wpn.Fire.First = 
 	{
 		base = "Infernus.Wpn.Fire"
-		limiter_max = 0.000000
-		transient_offset_db = 4.000000
+		limiter_max = 0.0
+		transient_offset_db = 4.0
 	}
 	Infernus.Wpn.Impact = 
 	{
 		base = "Base.Bullet.Impact"
-		pitch = 1.100000
-		volume = -3.000000
+		pitch = 1.1
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/weapons/inferno/impacts/inferno_wpn_impact_01.vsnd",
@@ -54,7 +54,7 @@
 	Infernus.Wpn.BulletWhizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/weapons/inferno/whizby/inferno_weapon_flyby_01.vsnd",
@@ -76,7 +76,7 @@
 	Infernus.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = 
 		[
 			"sounds/weapons/dynamo/zoom/in_1.vsnd",
@@ -90,7 +90,7 @@
 	Infernus.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = 
 		[
 			"sounds/weapons/dynamo/zoom/out_1.vsnd",
@@ -104,8 +104,8 @@
 	Infernus.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/inferno/reload/infernus_wpn_reload_start_01.vsnd",
@@ -117,9 +117,9 @@
 	Infernus.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
-		block_duration = 1.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
+		block_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/inferno/reload/infernus_wpn_reload_mid_01.vsnd",
@@ -131,9 +131,9 @@
 	Infernus.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
-		block_duration = 1.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
+		block_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/inferno/reload/infernus_wpn_reload_end_01.vsnd",
@@ -145,14 +145,14 @@
 	Inferno.Incend.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/inferno/a1_incendiary_grenade/inferno_grenade_cast_01.vsnd"
 		vsnd_duration = 2.368413
 	}
 	Inferno.Incend.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/inferno/infernus_napalm_hit_01.vsnd",
@@ -164,73 +164,73 @@
 	Inferno.Incend.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		delay_rand_min = -3.000000
-		volume = -2.000000
-		volume_fade_out = 0.100000
-		volume_fade_in = 0.100000
+		delay_rand_min = -3.0
+		volume = -2.0
+		volume_fade_out = 0.1
+		volume_fade_in = 0.1
 		vsnd_files = "sounds/abilities/inferno/a1_incendiary_grenade/inferno_grenade_proj_lp.vsnd"
 		vsnd_duration = 18.514467
 	}
 	Inferno.Incend.Modifier.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		delay_rand_min = -5.000000
-		volume = -12.000000
-		volume_fade_out = 1.000000
-		volume_fade_in = 0.100000
+		delay_rand_min = -5.0
+		volume = -12.0
+		volume_fade_out = 1.0
+		volume_fade_in = 0.1
 		vsnd_files = "sounds/abilities/inferno/a1_incendiary_grenade/inferno_grenade_modifier_lp.vsnd"
 		vsnd_duration = 28.614626
 	}
 	Inferno.FlameDash.Modifier.Start = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = "sounds/abilities/inferno/a2_flame_dash/inferno_flame_dash_start.vsnd"
 		vsnd_duration = 4.004603
 	}
 	Inferno.FlameDash.Modifier.Stop = 
 	{
 		base = "Base.Ability"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = "sounds/abilities/inferno/a2_flame_dash/inferno_flame_dash_stop.vsnd"
 		vsnd_duration = 2.652857
 	}
 	Inferno.FlameDash.Modifier.Lp = 
 	{
 		base = "Base.Ability"
-		delay_rand_min = -9.000000
-		volume_fade_in = 2.500000
-		volume_fade_out = 1.000000
-		volume = -2.000000
+		delay_rand_min = -9.0
+		volume_fade_in = 2.5
+		volume_fade_out = 1.0
+		volume = -2.0
 		vsnd_files = "sounds/abilities/inferno/a2_flame_dash/inferno_flame_dash_modifer_lp.vsnd"
 		vsnd_duration = 36.272179
 	}
 	Inferno.FlameDash.Modifier.Aura.Lp = 
 	{
 		type = "citadel_default_3d_group_volume_mute"
-		volume = -3.000000
-		spread_min = 100.000000
-		spread_max_value = 0.800000
-		spread_max = 200.000000
-		spread_min_value = 0.000000
-		delay = 0.000000
-		delay_rand_min = -20.000000
-		delay_rand_max = 0.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 350.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 1.500000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
+		volume = -3.0
+		spread_min = 100.0
+		spread_max_value = 0.8
+		spread_max = 200.0
+		spread_min_value = 0.0
+		delay = 0.0
+		delay_rand_min = -20.0
+		delay_rand_max = 0.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 350.0
+		volume_fade_in = 0.1
+		volume_fade_out = 1.5
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
 		vsnd_files = "sounds/abilities/inferno/a2_flame_dash/inferno_flame_dash_modifier_aura_lp.vsnd"
 		vsnd_duration = 27.279228
 	}
 	Inferno.FlameDash.Step = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/abilities/abrams/a2_charge/step_01.vsnd",
@@ -243,18 +243,18 @@
 	Inferno.Afterburn.Modifier.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -13.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		volume_fade_out = 1.000000
-		delay_rand_min = -15.000000
+		volume = -13.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		volume_fade_out = 1.0
+		delay_rand_min = -15.0
 		vsnd_files = "sounds/abilities/inferno/a3_ignite/inferno_afternburn_modifier_lp.vsnd"
 		vsnd_duration = 23.176666
 	}
 	Inferno.Afterburn.Modifier.Start = 
 	{
 		base = "Base.Ability.Hit"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/inferno/inferno_afterburn_proc_01.vsnd",
@@ -268,22 +268,22 @@
 	Inferno.FireBomb.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/inferno/a4_stun_bomb/inferno_firebomb_cast.vsnd"
 		vsnd_duration = 3.338254
 	}
 	Inferno.FireBomb.Explode = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/inferno/a4_stun_bomb/inferno_firebomb_explo.vsnd"
 		vsnd_duration = 7.929365
 	}
 	Infernus.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 0.000000
-		track_2.vsnd_track_vol_offset_db = -8.000000
+		volume = 0.0
+		track_2.vsnd_track_vol_offset_db = -8.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/inferno/inferno_footstep_01.vsnd",
@@ -323,7 +323,7 @@
 	Infernus.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -371,7 +371,7 @@
 	Infernus.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",
@@ -438,9 +438,9 @@
 	Infernus.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -5.000000
-		track_2.vsnd_track_vol_offset_db = -13.000000
-		track_3.vsnd_track_vol_offset_db = -17.000000
+		track_1.vsnd_track_vol_offset_db = -5.0
+		track_2.vsnd_track_vol_offset_db = -13.0
+		track_3.vsnd_track_vol_offset_db = -17.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/inferno/inferno_footstep_01.vsnd",
@@ -498,8 +498,8 @@
 	Infernus.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -8.000000
-		pitch = 0.950000
+		volume = -8.0
+		pitch = 0.95
 		vsnd_files = 
 		[
 			"sounds/player/movement/inferno/inferno_foley_01.vsnd",
@@ -523,8 +523,8 @@
 	Infernus.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -16.000000
-		pitch = 0.950000
+		volume = -16.0
+		pitch = 0.95
 		vsnd_files = 
 		[
 			"sounds/player/movement/inferno/inferno_foley_01.vsnd",

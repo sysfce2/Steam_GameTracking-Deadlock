@@ -3,13 +3,13 @@
 	Frank.Wpn.Fire.Main = 
 	{
 		base = "Base.Weapon.MachineGun"
-		volume = 1.000000
-		volume_fade_out = 0.250000
-		tail_vol_offset_db = -5.000000
-		tail_interior_vol_offset_db = -6.000000
-		last_shot_vol_offset_db = 4.000000
-		transient_offset_db = 1.000000
-		low_ammo_vol_offset_db = 3.000000
+		volume = 1.0
+		volume_fade_out = 0.25
+		tail_vol_offset_db = -5.0
+		tail_interior_vol_offset_db = -6.0
+		last_shot_vol_offset_db = 4.0
+		transient_offset_db = 1.0
+		low_ammo_vol_offset_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/weapons/frank/frank_weapon_fire_main_01.vsnd",
@@ -43,8 +43,8 @@
 	Frank.Wpn.Fire.First = 
 	{
 		base = "Frank.Wpn.Fire.Main"
-		transient_offset_db = 3.000000
-		limiter_max = 0.000000
+		transient_offset_db = 3.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/frank/frank_weapon_fire_first_01.vsnd",
@@ -58,11 +58,11 @@
 	Frank.Wpn.Charge = 
 	{
 		base = "Base.Ability"
-		limiter_max = 0.000000
-		volume_fade_out = 0.100000
-		volume = -6.000000
-		track_1.vsnd_track_vol_offset_db = -6.000000
-		track_2.vsnd_track_vol_offset_db = 0.000000
+		limiter_max = 0.0
+		volume_fade_out = 0.1
+		volume = -6.0
+		track_1.vsnd_track_vol_offset_db = -6.0
+		track_2.vsnd_track_vol_offset_db = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/frank/frank_weapon_fire_mech_01.vsnd",
@@ -80,7 +80,7 @@
 			"sounds/weapons/frank/frank_weapon_fire_windup_05.vsnd",
 			"sounds/weapons/frank/frank_weapon_fire_windup_06.vsnd",
 		]
-		vsnd_duration = 0.448980
+		vsnd_duration = 0.44898
 	}
 	Frank.Wpn.BulletWhizby = 
 	{
@@ -93,8 +93,8 @@
 	Frank.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/frank/reload/frank_wpn_reload_start_01.vsnd",
@@ -106,9 +106,9 @@
 	Frank.Wpn.Reload.Mid.01 = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
-		block_duration = 1.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
+		block_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/frank/reload/frank_wpn_reload_mid1_01.vsnd",
@@ -120,9 +120,9 @@
 	Frank.Wpn.Reload.Mid.02 = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
-		block_duration = 1.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
+		block_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/frank/reload/frank_wpn_reload_mid2_01.vsnd",
@@ -134,8 +134,8 @@
 	Frank.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/frank/reload/frank_wpn_reload_end_01.vsnd",
@@ -147,21 +147,21 @@
 	Frank.Wpn.Zoom.In = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -20.000000
+		volume = -20.0
 		vsnd_files = "sounds/weapons/wraith/zoom/in.vsnd"
 		vsnd_duration = 1.323604
 	}
 	Frank.Wpn.Zoom.Out = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -20.000000
+		volume = -20.0
 		vsnd_files = "sounds/weapons/wraith/zoom/out.vsnd"
 		vsnd_duration = 1.829146
 	}
 	Frank.Pain.Battery.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/frank/frank_pain_battery_cast_01.vsnd",
@@ -173,7 +173,7 @@
 	Frank.Pain.Battery.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/frank/frank_pain_battery_hit_01.vsnd",
@@ -185,7 +185,7 @@
 	Frank.Jumpstart.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/frank/frank_jumpstart_cast_01.vsnd",
@@ -197,34 +197,34 @@
 	Frank.Jumpstart.Buff.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
-		volume_fade_out = 0.300000
+		volume = -1.0
+		volume_fade_out = 0.3
 		vsnd_files = "sounds/abilities/frank/frank_jumpstart_buff_active_01.vsnd"
 		vsnd_duration = 5.176508
 	}
 	Frank.Jumpstart.Buff.Expire = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/frank/frank_jumpstart_buff_expire_01.vsnd"
 		vsnd_duration = 1.224807
 	}
 	Frank.Pain.Aura.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/frank/frank_pain_aura_cast_01.vsnd"
 		vsnd_duration = 2.059614
 	}
 	Frank.Pain.Aura.Lp = 
 	{
 		base = "Base.Ability"
-		volume = 3.000000
-		track_2.vsnd_track_vol_offset_db = -3.000000
-		volume_fade_in = 0.300000
-		track_2.volume_fade_in_track = 10.000000
-		volume_fade_out = 0.300000
-		delay_rand_min = -5.000000
+		volume = 3.0
+		track_2.vsnd_track_vol_offset_db = -3.0
+		volume_fade_in = 0.3
+		track_2.volume_fade_in_track = 10.0
+		volume_fade_out = 0.3
+		delay_rand_min = -5.0
 		vsnd_files = "sounds/abilities/frank/frank_pain_aura_lp_01.vsnd"
 		track_2.track_vsnd_files = "sounds/abilities/frank/frank_pain_aura_rampup_lp_01.vsnd"
 		vsnd_duration = 5.732222
@@ -232,28 +232,28 @@
 	Frank.Pain.Aura.Deactivate = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/frank/frank_pain_aura_deactivate_01.vsnd"
 		vsnd_duration = 1.036939
 	}
 	Frank.Reanimation.Start = 
 	{
 		base = "Base.Ability.Ult.CC"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/frank/frank_reanimation_start_01.vsnd"
 		vsnd_duration = 3.037801
 	}
 	Frank.Reanimation.Explosion = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/abilities/frank/frank_reanimation_explosion_01.vsnd"
 		vsnd_duration = 4.236077
 	}
 	Frank.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -5.000000
+		track_1.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/lash/lash_footstep_01.vsnd",
@@ -277,17 +277,17 @@
 	Frank.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
+		volume = -4.0
 	}
 	Frank.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
+		volume = -4.0
 	}
 	Frank.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		track_2.vsnd_track_vol_offset_db = -4.000000
+		track_2.vsnd_track_vol_offset_db = -4.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/lash/lash_footstep_01.vsnd",
@@ -323,7 +323,7 @@
 	Frank.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
+		volume = -4.0
 	}
 	Frank.Melee.Swing = 
 	{

@@ -68,7 +68,7 @@
 		[
 			"sounds/vo/frank/frank_ally_astro_lasso_victim_03.vsnd",
 		]
-		vsnd_duration = 1.508000
+		vsnd_duration = 1.508
 	}
 	frank_ally_astro_pass_on_zipline_01_hero_3d = 
 	{
@@ -208,7 +208,7 @@
 		[
 			"sounds/vo/frank/frank_ally_bebop_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 0.872000
+		vsnd_duration = 0.872
 	}
 	frank_ally_bebop_uppercut_towards_boss_01_hero_3d = 
 	{
@@ -218,7 +218,7 @@
 		[
 			"sounds/vo/frank/frank_ally_bebop_uppercut_towards_boss_01.vsnd",
 		]
-		vsnd_duration = 1.390000
+		vsnd_duration = 1.39
 	}
 	frank_ally_bebop_uppercut_towards_boss_02_hero_3d = 
 	{
@@ -268,7 +268,7 @@
 		[
 			"sounds/vo/frank/frank_ally_bookworm_pass_on_zipline_01_alt.vsnd",
 		]
-		vsnd_duration = 0.810000
+		vsnd_duration = 0.81
 	}
 	frank_ally_chrono_killed_in_lane_01_hero_3d = 
 	{
@@ -278,7 +278,7 @@
 		[
 			"sounds/vo/frank/frank_ally_chrono_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.614000
+		vsnd_duration = 1.614
 	}
 	frank_ally_chrono_pass_on_zipline_01_hero_3d = 
 	{
@@ -288,7 +288,7 @@
 		[
 			"sounds/vo/frank/frank_ally_chrono_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 0.982000
+		vsnd_duration = 0.982
 	}
 	frank_ally_chrono_swap_to_boss_01_hero_3d = 
 	{
@@ -318,7 +318,7 @@
 		[
 			"sounds/vo/frank/frank_ally_chrono_swap_to_boss_03.vsnd",
 		]
-		vsnd_duration = 1.468000
+		vsnd_duration = 1.468
 	}
 	"frank_ally_doorman_killed_in_lane_01-imported_hero_3d" = 
 	{
@@ -328,7 +328,7 @@
 		[
 			"sounds/vo/frank/frank_ally_doorman_killed_in_lane_01-imported.vsnd",
 		]
-		vsnd_duration = 1.319000
+		vsnd_duration = 1.319
 	}
 	frank_ally_doorman_killed_in_lane_01_hero_3d = 
 	{
@@ -338,7 +338,7 @@
 		[
 			"sounds/vo/frank/frank_ally_doorman_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.319000
+		vsnd_duration = 1.319
 	}
 	frank_ally_doorman_pass_on_zipline_01_hero_3d = 
 	{
@@ -388,7 +388,7 @@
 		[
 			"sounds/vo/frank/frank_ally_druid_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.552000
+		vsnd_duration = 1.552
 	}
 	frank_ally_dynamo_big_blackhole_01_hero_3d = 
 	{
@@ -408,7 +408,7 @@
 		[
 			"sounds/vo/frank/frank_ally_dynamo_big_blackhole_02.vsnd",
 		]
-		vsnd_duration = 1.267000
+		vsnd_duration = 1.267
 	}
 	frank_ally_dynamo_big_blackhole_03_hero_3d = 
 	{
@@ -438,7 +438,7 @@
 		[
 			"sounds/vo/frank/frank_ally_dynamo_clutch_heal_02.vsnd",
 		]
-		vsnd_duration = 1.580000
+		vsnd_duration = 1.58
 	}
 	frank_ally_dynamo_clutch_heal_03_hero_3d = 
 	{
@@ -458,7 +458,7 @@
 		[
 			"sounds/vo/frank/frank_ally_dynamo_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.418000
+		vsnd_duration = 1.418
 	}
 	frank_ally_dynamo_pass_on_zipline_01_hero_3d = 
 	{
@@ -518,7 +518,7 @@
 		[
 			"sounds/vo/frank/frank_ally_forge_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 0.803250
+		vsnd_duration = 0.80325
 	}
 	frank_ally_forge_wall_stun_kill_01_hero_3d = 
 	{
@@ -528,7 +528,7 @@
 		[
 			"sounds/vo/frank/frank_ally_forge_wall_stun_kill_01.vsnd",
 		]
-		vsnd_duration = 1.148000
+		vsnd_duration = 1.148
 	}
 	frank_ally_forge_wall_stun_kill_02_hero_3d = 
 	{
@@ -538,7 +538,7 @@
 		[
 			"sounds/vo/frank/frank_ally_forge_wall_stun_kill_02.vsnd",
 		]
-		vsnd_duration = 2.019000
+		vsnd_duration = 2.019
 	}
 	frank_ally_forge_wall_stun_kill_03_hero_3d = 
 	{
@@ -648,7 +648,7 @@
 		[
 			"sounds/vo/frank/frank_ally_gigawatt_multi_kill_ult_03.vsnd",
 		]
-		vsnd_duration = 2.963000
+		vsnd_duration = 2.963
 	}
 	frank_ally_gigawatt_pass_on_zipline_01_hero_3d = 
 	{
@@ -668,7 +668,7 @@
 		[
 			"sounds/vo/frank/frank_ally_graf_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.460000
+		vsnd_duration = 1.46
 	}
 	frank_ally_haze_big_ult_01_hero_3d = 
 	{
@@ -678,7 +678,7 @@
 		[
 			"sounds/vo/frank/frank_ally_haze_big_ult_01.vsnd",
 		]
-		vsnd_duration = 1.662000
+		vsnd_duration = 1.662
 	}
 	frank_ally_haze_big_ult_02_hero_3d = 
 	{
@@ -728,7 +728,7 @@
 		[
 			"sounds/vo/frank/frank_ally_haze_interrupt_with_finesse_03.vsnd",
 		]
-		vsnd_duration = 1.367000
+		vsnd_duration = 1.367
 	}
 	frank_ally_haze_killed_in_lane_01_hero_3d = 
 	{
@@ -738,7 +738,7 @@
 		[
 			"sounds/vo/frank/frank_ally_haze_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.242000
+		vsnd_duration = 1.242
 	}
 	frank_ally_haze_pass_on_zipline_01_hero_3d = 
 	{
@@ -778,7 +778,7 @@
 		[
 			"sounds/vo/frank/frank_ally_hornet_far_snipe_03.vsnd",
 		]
-		vsnd_duration = 1.989000
+		vsnd_duration = 1.989
 	}
 	frank_ally_hornet_killed_in_lane_01_hero_3d = 
 	{
@@ -788,7 +788,7 @@
 		[
 			"sounds/vo/frank/frank_ally_hornet_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.466000
+		vsnd_duration = 1.466
 	}
 	frank_ally_hornet_pass_on_zipline_01_hero_3d = 
 	{
@@ -808,7 +808,7 @@
 		[
 			"sounds/vo/frank/frank_ally_incubus_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.574000
+		vsnd_duration = 1.574
 	}
 	frank_ally_inferno_burns_down_objective_01_hero_3d = 
 	{
@@ -828,7 +828,7 @@
 		[
 			"sounds/vo/frank/frank_ally_inferno_burns_down_objective_02.vsnd",
 		]
-		vsnd_duration = 1.277000
+		vsnd_duration = 1.277
 	}
 	frank_ally_inferno_burns_down_objective_03_hero_3d = 
 	{
@@ -838,7 +838,7 @@
 		[
 			"sounds/vo/frank/frank_ally_inferno_burns_down_objective_03.vsnd",
 		]
-		vsnd_duration = 1.802500
+		vsnd_duration = 1.8025
 	}
 	frank_ally_inferno_killed_in_lane_01_hero_3d = 
 	{
@@ -878,7 +878,7 @@
 		[
 			"sounds/vo/frank/frank_ally_kelvin_clutch_heal_02.vsnd",
 		]
-		vsnd_duration = 1.648000
+		vsnd_duration = 1.648
 	}
 	frank_ally_kelvin_clutch_heal_03_hero_3d = 
 	{
@@ -948,7 +948,7 @@
 		[
 			"sounds/vo/frank/frank_ally_krill_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.284000
+		vsnd_duration = 1.284
 	}
 	frank_ally_krill_pass_on_zipline_01_hero_3d = 
 	{
@@ -968,7 +968,7 @@
 		[
 			"sounds/vo/frank/frank_ally_lash_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.260000
+		vsnd_duration = 1.26
 	}
 	frank_ally_lash_pass_on_zipline_01_hero_3d = 
 	{
@@ -978,7 +978,7 @@
 		[
 			"sounds/vo/frank/frank_ally_lash_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 0.748000
+		vsnd_duration = 0.748
 	}
 	frank_ally_lash_see_massive_stomp_01_hero_3d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/frank/frank_ally_lash_see_massive_stomp_01.vsnd",
 		]
-		vsnd_duration = 1.833000
+		vsnd_duration = 1.833
 	}
 	frank_ally_lash_see_massive_stomp_02_hero_3d = 
 	{
@@ -1008,7 +1008,7 @@
 		[
 			"sounds/vo/frank/frank_ally_lash_see_massive_stomp_03.vsnd",
 		]
-		vsnd_duration = 1.469000
+		vsnd_duration = 1.469
 	}
 	frank_ally_magician_killed_in_lane_01_hero_3d = 
 	{
@@ -1028,7 +1028,7 @@
 		[
 			"sounds/vo/frank/frank_ally_magician_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.063250
+		vsnd_duration = 1.06325
 	}
 	frank_ally_mirage_killed_in_lane_01_hero_3d = 
 	{
@@ -1038,7 +1038,7 @@
 		[
 			"sounds/vo/frank/frank_ally_mirage_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.480000
+		vsnd_duration = 1.48
 	}
 	frank_ally_mirage_pass_on_zipline_01_hero_3d = 
 	{
@@ -1088,7 +1088,7 @@
 		[
 			"sounds/vo/frank/frank_ally_orion_far_shot_02.vsnd",
 		]
-		vsnd_duration = 1.747000
+		vsnd_duration = 1.747
 	}
 	frank_ally_orion_far_shot_03_hero_3d = 
 	{
@@ -1138,7 +1138,7 @@
 		[
 			"sounds/vo/frank/frank_ally_orion_missile_stops_ult_03.vsnd",
 		]
-		vsnd_duration = 1.786000
+		vsnd_duration = 1.786
 	}
 	frank_ally_orion_pass_on_zipline_01_hero_3d = 
 	{
@@ -1208,7 +1208,7 @@
 		[
 			"sounds/vo/frank/frank_ally_punkgoat_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 0.735000
+		vsnd_duration = 0.735
 	}
 	frank_ally_shiv_killed_in_lane_01_hero_3d = 
 	{
@@ -1228,7 +1228,7 @@
 		[
 			"sounds/vo/frank/frank_ally_shiv_multikill_01.vsnd",
 		]
-		vsnd_duration = 1.808000
+		vsnd_duration = 1.808
 	}
 	frank_ally_shiv_multikill_02_hero_3d = 
 	{
@@ -1288,7 +1288,7 @@
 		[
 			"sounds/vo/frank/frank_ally_shiv_unkillable_03.vsnd",
 		]
-		vsnd_duration = 1.363000
+		vsnd_duration = 1.363
 	}
 	frank_ally_skyrunner_killed_in_lane_01_hero_3d = 
 	{
@@ -1328,7 +1328,7 @@
 		[
 			"sounds/vo/frank/frank_ally_swan_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.474000
+		vsnd_duration = 1.474
 	}
 	frank_ally_synth_killed_in_lane_01_hero_3d = 
 	{
@@ -1338,7 +1338,7 @@
 		[
 			"sounds/vo/frank/frank_ally_synth_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.442000
+		vsnd_duration = 1.442
 	}
 	frank_ally_synth_pass_on_zipline_01_hero_3d = 
 	{
@@ -1398,7 +1398,7 @@
 		[
 			"sounds/vo/frank/frank_ally_tengu_take_objective_with_teather_03.vsnd",
 		]
-		vsnd_duration = 1.803000
+		vsnd_duration = 1.803
 	}
 	frank_ally_tvspirit_killed_in_lane_01_hero_3d = 
 	{
@@ -1408,7 +1408,7 @@
 		[
 			"sounds/vo/frank/frank_ally_tvspirit_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.642000
+		vsnd_duration = 1.642
 	}
 	"frank_ally_vampirebat_killed_in_lane_01-imported_hero_3d" = 
 	{
@@ -1548,7 +1548,7 @@
 		[
 			"sounds/vo/frank/frank_ally_warden_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.388000
+		vsnd_duration = 1.388
 	}
 	frank_ally_warden_pass_on_zipline_01_hero_3d = 
 	{
@@ -1568,7 +1568,7 @@
 		[
 			"sounds/vo/frank/frank_ally_wraith_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.264000
+		vsnd_duration = 1.264
 	}
 	frank_ally_wraith_pass_on_zipline_01_hero_3d = 
 	{
@@ -1608,7 +1608,7 @@
 		[
 			"sounds/vo/frank/frank_ally_yamato_kills_with_hook_02.vsnd",
 		]
-		vsnd_duration = 1.278000
+		vsnd_duration = 1.278
 	}
 	frank_ally_yamato_kills_with_hook_03_hero_3d = 
 	{
@@ -1718,7 +1718,7 @@
 		[
 			"sounds/vo/frank/frank_angry_05.vsnd",
 		]
-		vsnd_duration = 3.013500
+		vsnd_duration = 3.0135
 	}
 	frank_angry_05_ult_3d = 
 	{
@@ -1728,7 +1728,7 @@
 		[
 			"sounds/vo/frank/frank_angry_05.vsnd",
 		]
-		vsnd_duration = 3.013500
+		vsnd_duration = 3.0135
 	}
 	frank_angry_06_hero_3d = 
 	{
@@ -1738,7 +1738,7 @@
 		[
 			"sounds/vo/frank/frank_angry_06.vsnd",
 		]
-		vsnd_duration = 1.925000
+		vsnd_duration = 1.925
 	}
 	frank_angry_06_ult_3d = 
 	{
@@ -1748,7 +1748,7 @@
 		[
 			"sounds/vo/frank/frank_angry_06.vsnd",
 		]
-		vsnd_duration = 1.925000
+		vsnd_duration = 1.925
 	}
 	frank_angry_07_hero_3d = 
 	{
@@ -1798,7 +1798,7 @@
 		[
 			"sounds/vo/frank/frank_angry_09.vsnd",
 		]
-		vsnd_duration = 2.532000
+		vsnd_duration = 2.532
 	}
 	frank_angry_09_ult_3d = 
 	{
@@ -1808,7 +1808,7 @@
 		[
 			"sounds/vo/frank/frank_angry_09.vsnd",
 		]
-		vsnd_duration = 2.532000
+		vsnd_duration = 2.532
 	}
 	frank_angry_10_hero_3d = 
 	{
@@ -1848,7 +1848,7 @@
 		[
 			"sounds/vo/frank/frank_ap_reminder_02.vsnd",
 		]
-		vsnd_duration = 2.035000
+		vsnd_duration = 2.035
 	}
 	frank_ap_reminder_03_hero_3d = 
 	{
@@ -1878,7 +1878,7 @@
 		[
 			"sounds/vo/frank/frank_be_careful_02.vsnd",
 		]
-		vsnd_duration = 1.789000
+		vsnd_duration = 1.789
 	}
 	frank_be_careful_03_hero_3d = 
 	{
@@ -1898,7 +1898,7 @@
 		[
 			"sounds/vo/frank/frank_close_call_01.vsnd",
 		]
-		vsnd_duration = 1.468500
+		vsnd_duration = 1.4685
 	}
 	frank_close_call_02_hero_3d = 
 	{
@@ -1938,7 +1938,7 @@
 		[
 			"sounds/vo/frank/frank_close_call_05.vsnd",
 		]
-		vsnd_duration = 2.684750
+		vsnd_duration = 2.68475
 	}
 	frank_concerned_01_hero_3d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/frank/frank_concerned_01.vsnd",
 		]
-		vsnd_duration = 1.686000
+		vsnd_duration = 1.686
 	}
 	frank_concerned_01_ult_3d = 
 	{
@@ -1958,7 +1958,7 @@
 		[
 			"sounds/vo/frank/frank_concerned_01.vsnd",
 		]
-		vsnd_duration = 1.686000
+		vsnd_duration = 1.686
 	}
 	frank_concerned_02_hero_3d = 
 	{
@@ -2048,7 +2048,7 @@
 		[
 			"sounds/vo/frank/frank_concerned_06.vsnd",
 		]
-		vsnd_duration = 1.677000
+		vsnd_duration = 1.677
 	}
 	frank_concerned_06_ult_3d = 
 	{
@@ -2058,7 +2058,7 @@
 		[
 			"sounds/vo/frank/frank_concerned_06.vsnd",
 		]
-		vsnd_duration = 1.677000
+		vsnd_duration = 1.677
 	}
 	frank_concerned_07_hero_3d = 
 	{
@@ -2068,7 +2068,7 @@
 		[
 			"sounds/vo/frank/frank_concerned_07.vsnd",
 		]
-		vsnd_duration = 1.384500
+		vsnd_duration = 1.3845
 	}
 	frank_concerned_07_ult_3d = 
 	{
@@ -2078,7 +2078,7 @@
 		[
 			"sounds/vo/frank/frank_concerned_07.vsnd",
 		]
-		vsnd_duration = 1.384500
+		vsnd_duration = 1.3845
 	}
 	frank_concerned_08_hero_3d = 
 	{
@@ -2088,7 +2088,7 @@
 		[
 			"sounds/vo/frank/frank_concerned_08.vsnd",
 		]
-		vsnd_duration = 1.880000
+		vsnd_duration = 1.88
 	}
 	frank_concerned_08_ult_3d = 
 	{
@@ -2098,7 +2098,7 @@
 		[
 			"sounds/vo/frank/frank_concerned_08.vsnd",
 		]
-		vsnd_duration = 1.880000
+		vsnd_duration = 1.88
 	}
 	frank_concerned_09_hero_3d = 
 	{
@@ -2108,7 +2108,7 @@
 		[
 			"sounds/vo/frank/frank_concerned_09.vsnd",
 		]
-		vsnd_duration = 2.334000
+		vsnd_duration = 2.334
 	}
 	frank_concerned_09_ult_3d = 
 	{
@@ -2118,7 +2118,7 @@
 		[
 			"sounds/vo/frank/frank_concerned_09.vsnd",
 		]
-		vsnd_duration = 2.334000
+		vsnd_duration = 2.334
 	}
 	frank_concerned_10_hero_3d = 
 	{
@@ -2158,7 +2158,7 @@
 		[
 			"sounds/vo/frank/frank_congrats_02.vsnd",
 		]
-		vsnd_duration = 0.956000
+		vsnd_duration = 0.956
 	}
 	frank_congrats_03_hero_3d = 
 	{
@@ -2238,7 +2238,7 @@
 		[
 			"sounds/vo/frank/frank_desperation_power1_05.vsnd",
 		]
-		vsnd_duration = 1.747000
+		vsnd_duration = 1.747
 	}
 	frank_desperation_power2_01_ability_3d = 
 	{
@@ -2248,7 +2248,7 @@
 		[
 			"sounds/vo/frank/frank_desperation_power2_01.vsnd",
 		]
-		vsnd_duration = 1.319500
+		vsnd_duration = 1.3195
 	}
 	frank_desperation_power2_02_ability_3d = 
 	{
@@ -2348,7 +2348,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_dash_01.vsnd",
 		]
-		vsnd_duration = 0.490000
+		vsnd_duration = 0.49
 	}
 	frank_effort_dash_01_emote_effort_3d = 
 	{
@@ -2358,7 +2358,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_dash_01.vsnd",
 		]
-		vsnd_duration = 0.490000
+		vsnd_duration = 0.49
 	}
 	frank_effort_dash_02_emote_dash_3d = 
 	{
@@ -2368,7 +2368,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_dash_02.vsnd",
 		]
-		vsnd_duration = 0.466000
+		vsnd_duration = 0.466
 	}
 	frank_effort_dash_02_emote_effort_3d = 
 	{
@@ -2378,7 +2378,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_dash_02.vsnd",
 		]
-		vsnd_duration = 0.466000
+		vsnd_duration = 0.466
 	}
 	frank_effort_dash_03_emote_dash_3d = 
 	{
@@ -2388,7 +2388,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_dash_03.vsnd",
 		]
-		vsnd_duration = 0.562750
+		vsnd_duration = 0.56275
 	}
 	frank_effort_dash_03_emote_effort_3d = 
 	{
@@ -2398,7 +2398,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_dash_03.vsnd",
 		]
-		vsnd_duration = 0.562750
+		vsnd_duration = 0.56275
 	}
 	frank_effort_dash_04_emote_dash_3d = 
 	{
@@ -2408,7 +2408,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_dash_04.vsnd",
 		]
-		vsnd_duration = 0.482000
+		vsnd_duration = 0.482
 	}
 	frank_effort_dash_04_emote_effort_3d = 
 	{
@@ -2418,7 +2418,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_dash_04.vsnd",
 		]
-		vsnd_duration = 0.482000
+		vsnd_duration = 0.482
 	}
 	frank_effort_dash_05_alt_01_emote_dash_3d = 
 	{
@@ -2468,7 +2468,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_general_01.vsnd",
 		]
-		vsnd_duration = 0.598000
+		vsnd_duration = 0.598
 	}
 	frank_effort_general_02_emote_effort_3d = 
 	{
@@ -2618,7 +2618,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_big_05_alt_02.vsnd",
 		]
-		vsnd_duration = 0.850000
+		vsnd_duration = 0.85
 	}
 	frank_effort_melee_big_05_alt_02_emote_melee_effort_3d = 
 	{
@@ -2628,7 +2628,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_big_05_alt_02.vsnd",
 		]
-		vsnd_duration = 0.850000
+		vsnd_duration = 0.85
 	}
 	frank_effort_melee_big_05_emote_effort_3d = 
 	{
@@ -2638,7 +2638,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_big_05.vsnd",
 		]
-		vsnd_duration = 1.146000
+		vsnd_duration = 1.146
 	}
 	frank_effort_melee_big_05_emote_melee_effort_3d = 
 	{
@@ -2648,7 +2648,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_big_05.vsnd",
 		]
-		vsnd_duration = 1.146000
+		vsnd_duration = 1.146
 	}
 	frank_effort_melee_small_01_emote_effort_3d = 
 	{
@@ -2658,7 +2658,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_small_01.vsnd",
 		]
-		vsnd_duration = 0.414000
+		vsnd_duration = 0.414
 	}
 	frank_effort_melee_small_01_emote_melee_effort_3d = 
 	{
@@ -2668,7 +2668,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_small_01.vsnd",
 		]
-		vsnd_duration = 0.414000
+		vsnd_duration = 0.414
 	}
 	frank_effort_melee_small_02_emote_effort_3d = 
 	{
@@ -2738,7 +2738,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.474000
+		vsnd_duration = 0.474
 	}
 	frank_effort_melee_small_05_emote_melee_effort_3d = 
 	{
@@ -2748,7 +2748,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.474000
+		vsnd_duration = 0.474
 	}
 	frank_effort_melee_small_06_emote_effort_3d = 
 	{
@@ -2758,7 +2758,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_small_06.vsnd",
 		]
-		vsnd_duration = 0.548000
+		vsnd_duration = 0.548
 	}
 	frank_effort_melee_small_06_emote_melee_effort_3d = 
 	{
@@ -2768,7 +2768,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_small_06.vsnd",
 		]
-		vsnd_duration = 0.548000
+		vsnd_duration = 0.548
 	}
 	frank_effort_melee_small_07_emote_effort_3d = 
 	{
@@ -2798,7 +2798,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_small_08.vsnd",
 		]
-		vsnd_duration = 0.474000
+		vsnd_duration = 0.474
 	}
 	frank_effort_melee_small_08_emote_melee_effort_3d = 
 	{
@@ -2808,7 +2808,7 @@
 		[
 			"sounds/vo/frank/emote/frank_effort_melee_small_08.vsnd",
 		]
-		vsnd_duration = 0.474000
+		vsnd_duration = 0.474
 	}
 	frank_effort_melee_small_09_emote_effort_3d = 
 	{
@@ -2848,7 +2848,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_astro_bounce_escape_01.vsnd",
 		]
-		vsnd_duration = 1.721000
+		vsnd_duration = 1.721
 	}
 	frank_enemy_astro_bounce_escape_02_hero_3d = 
 	{
@@ -2858,7 +2858,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_astro_bounce_escape_02.vsnd",
 		]
-		vsnd_duration = 1.874500
+		vsnd_duration = 1.8745
 	}
 	frank_enemy_astro_bounce_escape_03_hero_3d = 
 	{
@@ -2908,7 +2908,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_atlas_unkillable_01.vsnd",
 		]
-		vsnd_duration = 2.844000
+		vsnd_duration = 2.844
 	}
 	frank_enemy_atlas_unkillable_02_hero_3d = 
 	{
@@ -2928,7 +2928,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_atlas_unkillable_03.vsnd",
 		]
-		vsnd_duration = 1.627500
+		vsnd_duration = 1.6275
 	}
 	frank_enemy_bebop_hooked_01_hero_3d = 
 	{
@@ -3038,7 +3038,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_dynamo_charges_02.vsnd",
 		]
-		vsnd_duration = 1.718000
+		vsnd_duration = 1.718
 	}
 	frank_enemy_dynamo_charges_03_hero_3d = 
 	{
@@ -3098,7 +3098,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_gets_rejuv_02.vsnd",
 		]
-		vsnd_duration = 1.181000
+		vsnd_duration = 1.181
 	}
 	frank_enemy_gets_rejuv_03_hero_3d = 
 	{
@@ -3118,7 +3118,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_ghost_ping_with_swap_01.vsnd",
 		]
-		vsnd_duration = 1.752000
+		vsnd_duration = 1.752
 	}
 	frank_enemy_ghost_ping_with_swap_02_hero_3d = 
 	{
@@ -3138,7 +3138,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_ghost_ping_with_swap_03.vsnd",
 		]
-		vsnd_duration = 1.741000
+		vsnd_duration = 1.741
 	}
 	frank_enemy_gigawatt_hide_from_ult_01_hero_3d = 
 	{
@@ -3148,7 +3148,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_gigawatt_hide_from_ult_01.vsnd",
 		]
-		vsnd_duration = 0.927500
+		vsnd_duration = 0.9275
 	}
 	frank_enemy_gigawatt_hide_from_ult_02_hero_3d = 
 	{
@@ -3208,7 +3208,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_hornet_damaged_by_snipe_01.vsnd",
 		]
-		vsnd_duration = 0.882500
+		vsnd_duration = 0.8825
 	}
 	frank_enemy_hornet_damaged_by_snipe_02_hero_3d = 
 	{
@@ -3288,7 +3288,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_inferno_killed_mid_ult_03.vsnd",
 		]
-		vsnd_duration = 1.950000
+		vsnd_duration = 1.95
 	}
 	frank_enemy_kelvin_kill_on_ice_path_01_hero_3d = 
 	{
@@ -3298,7 +3298,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_kelvin_kill_on_ice_path_01.vsnd",
 		]
-		vsnd_duration = 1.904000
+		vsnd_duration = 1.904
 	}
 	frank_enemy_kelvin_kill_on_ice_path_02_hero_3d = 
 	{
@@ -3308,7 +3308,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_kelvin_kill_on_ice_path_02.vsnd",
 		]
-		vsnd_duration = 2.446000
+		vsnd_duration = 2.446
 	}
 	frank_enemy_kelvin_kill_on_ice_path_03_hero_3d = 
 	{
@@ -3318,7 +3318,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_kelvin_kill_on_ice_path_03.vsnd",
 		]
-		vsnd_duration = 1.956000
+		vsnd_duration = 1.956
 	}
 	frank_enemy_krill_grabbed_01_hero_3d = 
 	{
@@ -3328,7 +3328,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_krill_grabbed_01.vsnd",
 		]
-		vsnd_duration = 1.130000
+		vsnd_duration = 1.13
 	}
 	frank_enemy_krill_grabbed_02_hero_3d = 
 	{
@@ -3358,7 +3358,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_lash_mid_air_kill_01.vsnd",
 		]
-		vsnd_duration = 1.368000
+		vsnd_duration = 1.368
 	}
 	frank_enemy_lash_mid_air_kill_02_hero_3d = 
 	{
@@ -3368,7 +3368,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_lash_mid_air_kill_02.vsnd",
 		]
-		vsnd_duration = 1.083000
+		vsnd_duration = 1.083
 	}
 	frank_enemy_lash_mid_air_kill_03_hero_3d = 
 	{
@@ -3418,7 +3418,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_shiv_unkillable_01.vsnd",
 		]
-		vsnd_duration = 1.866000
+		vsnd_duration = 1.866
 	}
 	frank_enemy_shiv_unkillable_02_hero_3d = 
 	{
@@ -3518,7 +3518,7 @@
 		[
 			"sounds/vo/frank/frank_enemy_yamato_starts_ult_02.vsnd",
 		]
-		vsnd_duration = 1.619000
+		vsnd_duration = 1.619
 	}
 	frank_enemy_yamato_starts_ult_03_hero_3d = 
 	{
@@ -3538,7 +3538,7 @@
 		[
 			"sounds/vo/frank/frank_happy_01.vsnd",
 		]
-		vsnd_duration = 2.177500
+		vsnd_duration = 2.1775
 	}
 	frank_happy_01_ult_3d = 
 	{
@@ -3548,7 +3548,7 @@
 		[
 			"sounds/vo/frank/frank_happy_01.vsnd",
 		]
-		vsnd_duration = 2.177500
+		vsnd_duration = 2.1775
 	}
 	frank_happy_02_hero_3d = 
 	{
@@ -3618,7 +3618,7 @@
 		[
 			"sounds/vo/frank/frank_happy_05.vsnd",
 		]
-		vsnd_duration = 3.284000
+		vsnd_duration = 3.284
 	}
 	frank_happy_05_ult_3d = 
 	{
@@ -3628,7 +3628,7 @@
 		[
 			"sounds/vo/frank/frank_happy_05.vsnd",
 		]
-		vsnd_duration = 3.284000
+		vsnd_duration = 3.284
 	}
 	frank_happy_06_hero_3d = 
 	{
@@ -3638,7 +3638,7 @@
 		[
 			"sounds/vo/frank/frank_happy_06.vsnd",
 		]
-		vsnd_duration = 3.072000
+		vsnd_duration = 3.072
 	}
 	frank_happy_06_ult_3d = 
 	{
@@ -3648,7 +3648,7 @@
 		[
 			"sounds/vo/frank/frank_happy_06.vsnd",
 		]
-		vsnd_duration = 3.072000
+		vsnd_duration = 3.072
 	}
 	frank_happy_07_hero_3d = 
 	{
@@ -3658,7 +3658,7 @@
 		[
 			"sounds/vo/frank/frank_happy_07.vsnd",
 		]
-		vsnd_duration = 1.909000
+		vsnd_duration = 1.909
 	}
 	frank_happy_07_ult_3d = 
 	{
@@ -3668,7 +3668,7 @@
 		[
 			"sounds/vo/frank/frank_happy_07.vsnd",
 		]
-		vsnd_duration = 1.909000
+		vsnd_duration = 1.909
 	}
 	frank_happy_08_hero_3d = 
 	{
@@ -3678,7 +3678,7 @@
 		[
 			"sounds/vo/frank/frank_happy_08.vsnd",
 		]
-		vsnd_duration = 1.698000
+		vsnd_duration = 1.698
 	}
 	frank_happy_08_ult_3d = 
 	{
@@ -3688,7 +3688,7 @@
 		[
 			"sounds/vo/frank/frank_happy_08.vsnd",
 		]
-		vsnd_duration = 1.698000
+		vsnd_duration = 1.698
 	}
 	frank_happy_09_hero_3d = 
 	{
@@ -3718,7 +3718,7 @@
 		[
 			"sounds/vo/frank/frank_happy_10.vsnd",
 		]
-		vsnd_duration = 1.479000
+		vsnd_duration = 1.479
 	}
 	frank_happy_10_ult_3d = 
 	{
@@ -3728,7 +3728,7 @@
 		[
 			"sounds/vo/frank/frank_happy_10.vsnd",
 		]
-		vsnd_duration = 1.479000
+		vsnd_duration = 1.479
 	}
 	frank_hunt_01_hero_3d = 
 	{
@@ -3748,7 +3748,7 @@
 		[
 			"sounds/vo/frank/frank_hunt_02.vsnd",
 		]
-		vsnd_duration = 1.295000
+		vsnd_duration = 1.295
 	}
 	frank_hunt_03_hero_3d = 
 	{
@@ -3778,7 +3778,7 @@
 		[
 			"sounds/vo/frank/frank_interrupt_02.vsnd",
 		]
-		vsnd_duration = 1.672000
+		vsnd_duration = 1.672
 	}
 	frank_interrupt_03_hero_3d = 
 	{
@@ -3788,7 +3788,7 @@
 		[
 			"sounds/vo/frank/frank_interrupt_03.vsnd",
 		]
-		vsnd_duration = 1.490000
+		vsnd_duration = 1.49
 	}
 	frank_interrupt_04_hero_3d = 
 	{
@@ -3798,7 +3798,7 @@
 		[
 			"sounds/vo/frank/frank_interrupt_04.vsnd",
 		]
-		vsnd_duration = 2.164000
+		vsnd_duration = 2.164
 	}
 	frank_interrupt_05_hero_3d = 
 	{
@@ -3838,7 +3838,7 @@
 		[
 			"sounds/vo/frank/frank_kill_anyhero_03.vsnd",
 		]
-		vsnd_duration = 1.709000
+		vsnd_duration = 1.709
 	}
 	frank_kill_anyhero_04_hero_3d = 
 	{
@@ -3878,7 +3878,7 @@
 		[
 			"sounds/vo/frank/frank_kill_anyhero_07.vsnd",
 		]
-		vsnd_duration = 1.706000
+		vsnd_duration = 1.706
 	}
 	frank_kill_anyhero_08_hero_3d = 
 	{
@@ -3898,7 +3898,7 @@
 		[
 			"sounds/vo/frank/frank_kill_anyhero_09.vsnd",
 		]
-		vsnd_duration = 1.732500
+		vsnd_duration = 1.7325
 	}
 	frank_kill_anyhero_10_hero_3d = 
 	{
@@ -3968,7 +3968,7 @@
 		[
 			"sounds/vo/frank/frank_kill_atlas_01.vsnd",
 		]
-		vsnd_duration = 1.358000
+		vsnd_duration = 1.358
 	}
 	frank_kill_atlas_02_hero_3d = 
 	{
@@ -3988,7 +3988,7 @@
 		[
 			"sounds/vo/frank/frank_kill_atlas_03.vsnd",
 		]
-		vsnd_duration = 1.487000
+		vsnd_duration = 1.487
 	}
 	frank_kill_atlas_04_hero_3d = 
 	{
@@ -3998,7 +3998,7 @@
 		[
 			"sounds/vo/frank/frank_kill_atlas_04.vsnd",
 		]
-		vsnd_duration = 1.572000
+		vsnd_duration = 1.572
 	}
 	frank_kill_atlas_05_hero_3d = 
 	{
@@ -4048,7 +4048,7 @@
 		[
 			"sounds/vo/frank/frank_kill_bebop_04.vsnd",
 		]
-		vsnd_duration = 2.850750
+		vsnd_duration = 2.85075
 	}
 	frank_kill_bebop_05_hero_3d = 
 	{
@@ -4058,7 +4058,7 @@
 		[
 			"sounds/vo/frank/frank_kill_bebop_05.vsnd",
 		]
-		vsnd_duration = 2.685000
+		vsnd_duration = 2.685
 	}
 	frank_kill_bookworm_01_hero_3d = 
 	{
@@ -4068,7 +4068,7 @@
 		[
 			"sounds/vo/frank/frank_kill_bookworm_01.vsnd",
 		]
-		vsnd_duration = 2.644500
+		vsnd_duration = 2.6445
 	}
 	frank_kill_bookworm_02_hero_3d = 
 	{
@@ -4248,7 +4248,7 @@
 		[
 			"sounds/vo/frank/frank_kill_drifter_04.vsnd",
 		]
-		vsnd_duration = 1.967500
+		vsnd_duration = 1.9675
 	}
 	frank_kill_drifter_05_hero_3d = 
 	{
@@ -4258,7 +4258,7 @@
 		[
 			"sounds/vo/frank/frank_kill_drifter_05.vsnd",
 		]
-		vsnd_duration = 2.291000
+		vsnd_duration = 2.291
 	}
 	frank_kill_dynamo_01_hero_3d = 
 	{
@@ -4288,7 +4288,7 @@
 		[
 			"sounds/vo/frank/frank_kill_dynamo_03.vsnd",
 		]
-		vsnd_duration = 1.696500
+		vsnd_duration = 1.6965
 	}
 	frank_kill_dynamo_04_hero_3d = 
 	{
@@ -4298,7 +4298,7 @@
 		[
 			"sounds/vo/frank/frank_kill_dynamo_04.vsnd",
 		]
-		vsnd_duration = 1.893000
+		vsnd_duration = 1.893
 	}
 	frank_kill_dynamo_05_hero_3d = 
 	{
@@ -4318,7 +4318,7 @@
 		[
 			"sounds/vo/frank/frank_kill_forge_01.vsnd",
 		]
-		vsnd_duration = 1.263000
+		vsnd_duration = 1.263
 	}
 	frank_kill_forge_02_hero_3d = 
 	{
@@ -4348,7 +4348,7 @@
 		[
 			"sounds/vo/frank/frank_kill_forge_04.vsnd",
 		]
-		vsnd_duration = 1.866000
+		vsnd_duration = 1.866
 	}
 	frank_kill_forge_05_hero_3d = 
 	{
@@ -4368,7 +4368,7 @@
 		[
 			"sounds/vo/frank/frank_kill_ghost_01.vsnd",
 		]
-		vsnd_duration = 1.291000
+		vsnd_duration = 1.291
 	}
 	frank_kill_ghost_02_hero_3d = 
 	{
@@ -4438,7 +4438,7 @@
 		[
 			"sounds/vo/frank/frank_kill_gigawatt_03.vsnd",
 		]
-		vsnd_duration = 2.957000
+		vsnd_duration = 2.957
 	}
 	frank_kill_gigawatt_04_hero_3d = 
 	{
@@ -4468,7 +4468,7 @@
 		[
 			"sounds/vo/frank/frank_kill_haze_01.vsnd",
 		]
-		vsnd_duration = 1.647500
+		vsnd_duration = 1.6475
 	}
 	frank_kill_haze_02_hero_3d = 
 	{
@@ -4498,7 +4498,7 @@
 		[
 			"sounds/vo/frank/frank_kill_haze_04.vsnd",
 		]
-		vsnd_duration = 2.827000
+		vsnd_duration = 2.827
 	}
 	frank_kill_haze_05_hero_3d = 
 	{
@@ -4508,7 +4508,7 @@
 		[
 			"sounds/vo/frank/frank_kill_haze_05.vsnd",
 		]
-		vsnd_duration = 2.776000
+		vsnd_duration = 2.776
 	}
 	frank_kill_high_networth_hero_3d = 
 	{
@@ -4518,7 +4518,7 @@
 		[
 			"sounds/vo/frank/frank_kill_high_networth.vsnd",
 		]
-		vsnd_duration = 2.156500
+		vsnd_duration = 2.1565
 	}
 	frank_kill_hornet_01_hero_3d = 
 	{
@@ -4528,7 +4528,7 @@
 		[
 			"sounds/vo/frank/frank_kill_hornet_01.vsnd",
 		]
-		vsnd_duration = 1.394500
+		vsnd_duration = 1.3945
 	}
 	frank_kill_hornet_02_hero_3d = 
 	{
@@ -4548,7 +4548,7 @@
 		[
 			"sounds/vo/frank/frank_kill_hornet_03.vsnd",
 		]
-		vsnd_duration = 1.582500
+		vsnd_duration = 1.5825
 	}
 	frank_kill_hornet_04_hero_3d = 
 	{
@@ -4578,7 +4578,7 @@
 		[
 			"sounds/vo/frank/frank_kill_inferno_01.vsnd",
 		]
-		vsnd_duration = 1.457500
+		vsnd_duration = 1.4575
 	}
 	frank_kill_inferno_02_hero_3d = 
 	{
@@ -4668,7 +4668,7 @@
 		[
 			"sounds/vo/frank/frank_kill_kelvin_05.vsnd",
 		]
-		vsnd_duration = 2.410000
+		vsnd_duration = 2.41
 	}
 	frank_kill_krill_01_hero_3d = 
 	{
@@ -4678,7 +4678,7 @@
 		[
 			"sounds/vo/frank/frank_kill_krill_01.vsnd",
 		]
-		vsnd_duration = 1.285500
+		vsnd_duration = 1.2855
 	}
 	frank_kill_krill_02_hero_3d = 
 	{
@@ -4718,7 +4718,7 @@
 		[
 			"sounds/vo/frank/frank_kill_krill_05.vsnd",
 		]
-		vsnd_duration = 2.470250
+		vsnd_duration = 2.47025
 	}
 	frank_kill_lash_01_hero_3d = 
 	{
@@ -4738,7 +4738,7 @@
 		[
 			"sounds/vo/frank/frank_kill_lash_02.vsnd",
 		]
-		vsnd_duration = 1.620500
+		vsnd_duration = 1.6205
 	}
 	frank_kill_lash_03_hero_3d = 
 	{
@@ -4748,7 +4748,7 @@
 		[
 			"sounds/vo/frank/frank_kill_lash_03.vsnd",
 		]
-		vsnd_duration = 1.421000
+		vsnd_duration = 1.421
 	}
 	frank_kill_lash_04_hero_3d = 
 	{
@@ -4758,7 +4758,7 @@
 		[
 			"sounds/vo/frank/frank_kill_lash_04.vsnd",
 		]
-		vsnd_duration = 2.245500
+		vsnd_duration = 2.2455
 	}
 	frank_kill_lash_05_hero_3d = 
 	{
@@ -4788,7 +4788,7 @@
 		[
 			"sounds/vo/frank/frank_kill_magician_02.vsnd",
 		]
-		vsnd_duration = 1.315000
+		vsnd_duration = 1.315
 	}
 	frank_kill_magician_03_hero_3d = 
 	{
@@ -4808,7 +4808,7 @@
 		[
 			"sounds/vo/frank/frank_kill_magician_04.vsnd",
 		]
-		vsnd_duration = 2.524000
+		vsnd_duration = 2.524
 	}
 	frank_kill_magician_05_hero_3d = 
 	{
@@ -4848,7 +4848,7 @@
 		[
 			"sounds/vo/frank/frank_kill_mirage_03.vsnd",
 		]
-		vsnd_duration = 3.040000
+		vsnd_duration = 3.04
 	}
 	frank_kill_mirage_04_hero_3d = 
 	{
@@ -4878,7 +4878,7 @@
 		[
 			"sounds/vo/frank/frank_kill_nano_01.vsnd",
 		]
-		vsnd_duration = 1.276000
+		vsnd_duration = 1.276
 	}
 	frank_kill_nano_02_hero_3d = 
 	{
@@ -4888,7 +4888,7 @@
 		[
 			"sounds/vo/frank/frank_kill_nano_02.vsnd",
 		]
-		vsnd_duration = 1.425000
+		vsnd_duration = 1.425
 	}
 	frank_kill_nano_03_hero_3d = 
 	{
@@ -4898,7 +4898,7 @@
 		[
 			"sounds/vo/frank/frank_kill_nano_03.vsnd",
 		]
-		vsnd_duration = 2.629000
+		vsnd_duration = 2.629
 	}
 	frank_kill_nano_04_hero_3d = 
 	{
@@ -4948,7 +4948,7 @@
 		[
 			"sounds/vo/frank/frank_kill_orion_03.vsnd",
 		]
-		vsnd_duration = 1.653000
+		vsnd_duration = 1.653
 	}
 	frank_kill_orion_04_hero_3d = 
 	{
@@ -4998,7 +4998,7 @@
 		[
 			"sounds/vo/frank/frank_kill_priest_03.vsnd",
 		]
-		vsnd_duration = 1.324000
+		vsnd_duration = 1.324
 	}
 	frank_kill_priest_04_hero_3d = 
 	{
@@ -5008,7 +5008,7 @@
 		[
 			"sounds/vo/frank/frank_kill_priest_04.vsnd",
 		]
-		vsnd_duration = 1.700000
+		vsnd_duration = 1.7
 	}
 	frank_kill_priest_05_hero_3d = 
 	{
@@ -5028,7 +5028,7 @@
 		[
 			"sounds/vo/frank/frank_kill_punkgoat_01.vsnd",
 		]
-		vsnd_duration = 1.650000
+		vsnd_duration = 1.65
 	}
 	frank_kill_punkgoat_02_hero_3d = 
 	{
@@ -5038,7 +5038,7 @@
 		[
 			"sounds/vo/frank/frank_kill_punkgoat_02.vsnd",
 		]
-		vsnd_duration = 2.633000
+		vsnd_duration = 2.633
 	}
 	frank_kill_punkgoat_03_hero_3d = 
 	{
@@ -5058,7 +5058,7 @@
 		[
 			"sounds/vo/frank/frank_kill_punkgoat_04.vsnd",
 		]
-		vsnd_duration = 1.494500
+		vsnd_duration = 1.4945
 	}
 	frank_kill_punkgoat_05_hero_3d = 
 	{
@@ -5088,7 +5088,7 @@
 		[
 			"sounds/vo/frank/frank_kill_shiv_02.vsnd",
 		]
-		vsnd_duration = 3.650500
+		vsnd_duration = 3.6505
 	}
 	frank_kill_shiv_03_hero_3d = 
 	{
@@ -5138,7 +5138,7 @@
 		[
 			"sounds/vo/frank/frank_kill_synth_02.vsnd",
 		]
-		vsnd_duration = 2.101750
+		vsnd_duration = 2.10175
 	}
 	frank_kill_synth_03_hero_3d = 
 	{
@@ -5158,7 +5158,7 @@
 		[
 			"sounds/vo/frank/frank_kill_synth_04.vsnd",
 		]
-		vsnd_duration = 1.713000
+		vsnd_duration = 1.713
 	}
 	frank_kill_synth_05_hero_3d = 
 	{
@@ -5288,7 +5288,7 @@
 		[
 			"sounds/vo/frank/frank_kill_viper_02.vsnd",
 		]
-		vsnd_duration = 1.278500
+		vsnd_duration = 1.2785
 	}
 	frank_kill_viper_03_hero_3d = 
 	{
@@ -5348,7 +5348,7 @@
 		[
 			"sounds/vo/frank/frank_kill_viscous_03.vsnd",
 		]
-		vsnd_duration = 2.185000
+		vsnd_duration = 2.185
 	}
 	frank_kill_viscous_04_hero_3d = 
 	{
@@ -5388,7 +5388,7 @@
 		[
 			"sounds/vo/frank/frank_kill_warden_02.vsnd",
 		]
-		vsnd_duration = 2.548500
+		vsnd_duration = 2.5485
 	}
 	frank_kill_warden_03_hero_3d = 
 	{
@@ -5398,7 +5398,7 @@
 		[
 			"sounds/vo/frank/frank_kill_warden_03.vsnd",
 		]
-		vsnd_duration = 1.939250
+		vsnd_duration = 1.93925
 	}
 	frank_kill_warden_04_hero_3d = 
 	{
@@ -5408,7 +5408,7 @@
 		[
 			"sounds/vo/frank/frank_kill_warden_04.vsnd",
 		]
-		vsnd_duration = 1.931000
+		vsnd_duration = 1.931
 	}
 	frank_kill_warden_05_hero_3d = 
 	{
@@ -5458,7 +5458,7 @@
 		[
 			"sounds/vo/frank/frank_kill_wraith_04.vsnd",
 		]
-		vsnd_duration = 2.135750
+		vsnd_duration = 2.13575
 	}
 	frank_kill_wraith_05_hero_3d = 
 	{
@@ -5478,7 +5478,7 @@
 		[
 			"sounds/vo/frank/frank_kill_yamato_01.vsnd",
 		]
-		vsnd_duration = 1.775000
+		vsnd_duration = 1.775
 	}
 	frank_kill_yamato_02_hero_3d = 
 	{
@@ -5498,7 +5498,7 @@
 		[
 			"sounds/vo/frank/frank_kill_yamato_03.vsnd",
 		]
-		vsnd_duration = 1.390000
+		vsnd_duration = 1.39
 	}
 	frank_kill_yamato_04_hero_3d = 
 	{
@@ -5528,7 +5528,7 @@
 		[
 			"sounds/vo/frank/frank_killstreak_high_01.vsnd",
 		]
-		vsnd_duration = 2.500000
+		vsnd_duration = 2.5
 	}
 	frank_killstreak_high_01_hero_announcer = 
 	{
@@ -5538,7 +5538,7 @@
 		[
 			"sounds/vo/frank/frank_killstreak_high_01.vsnd",
 		]
-		vsnd_duration = 2.500000
+		vsnd_duration = 2.5
 	}
 	frank_killstreak_high_02_hero_3d = 
 	{
@@ -5628,7 +5628,7 @@
 		[
 			"sounds/vo/frank/frank_killstreak_mid_03.vsnd",
 		]
-		vsnd_duration = 2.439500
+		vsnd_duration = 2.4395
 	}
 	frank_killstreak_mid_03_hero_announcer = 
 	{
@@ -5638,7 +5638,7 @@
 		[
 			"sounds/vo/frank/frank_killstreak_mid_03.vsnd",
 		]
-		vsnd_duration = 2.439500
+		vsnd_duration = 2.4395
 	}
 	frank_killstreak_start_01_hero_3d = 
 	{
@@ -5668,7 +5668,7 @@
 		[
 			"sounds/vo/frank/frank_killstreak_start_02.vsnd",
 		]
-		vsnd_duration = 1.592000
+		vsnd_duration = 1.592
 	}
 	frank_killstreak_start_02_hero_announcer = 
 	{
@@ -5678,7 +5678,7 @@
 		[
 			"sounds/vo/frank/frank_killstreak_start_02.vsnd",
 		]
-		vsnd_duration = 1.592000
+		vsnd_duration = 1.592
 	}
 	frank_killstreak_start_03_hero_3d = 
 	{
@@ -5728,7 +5728,7 @@
 		[
 			"sounds/vo/frank/frank_killstreak_start_05.vsnd",
 		]
-		vsnd_duration = 1.757000
+		vsnd_duration = 1.757
 	}
 	frank_killstreak_start_05_hero_announcer = 
 	{
@@ -5738,7 +5738,7 @@
 		[
 			"sounds/vo/frank/frank_killstreak_start_05.vsnd",
 		]
-		vsnd_duration = 1.757000
+		vsnd_duration = 1.757
 	}
 	frank_last_one_standing_01_hero_3d = 
 	{
@@ -5778,7 +5778,7 @@
 		[
 			"sounds/vo/frank/frank_leave_base_01.vsnd",
 		]
-		vsnd_duration = 1.548750
+		vsnd_duration = 1.54875
 	}
 	frank_leave_base_02_hero_3d = 
 	{
@@ -5788,7 +5788,7 @@
 		[
 			"sounds/vo/frank/frank_leave_base_02.vsnd",
 		]
-		vsnd_duration = 1.814750
+		vsnd_duration = 1.81475
 	}
 	frank_leave_base_03_hero_3d = 
 	{
@@ -5808,7 +5808,7 @@
 		[
 			"sounds/vo/frank/frank_leave_base_04.vsnd",
 		]
-		vsnd_duration = 1.992000
+		vsnd_duration = 1.992
 	}
 	frank_leave_base_05_hero_3d = 
 	{
@@ -5898,7 +5898,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_bookworm_frank_convo03_06.vsnd",
 		]
-		vsnd_duration = 2.614000
+		vsnd_duration = 2.614
 	}
 	frank_match_start_frank_astro_convo01_02_hero_zipline_3d = 
 	{
@@ -5958,7 +5958,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_atlas_convo01_03.vsnd",
 		]
-		vsnd_duration = 1.497000
+		vsnd_duration = 1.497
 	}
 	frank_match_start_frank_atlas_convo02_02_hero_zipline_3d = 
 	{
@@ -5968,7 +5968,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_atlas_convo02_02.vsnd",
 		]
-		vsnd_duration = 1.242750
+		vsnd_duration = 1.24275
 	}
 	frank_match_start_frank_atlas_convo02_04_hero_zipline_3d = 
 	{
@@ -5978,7 +5978,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_atlas_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.364500
+		vsnd_duration = 1.3645
 	}
 	frank_match_start_frank_atlas_convo03_01_hero_zipline_3d = 
 	{
@@ -6038,7 +6038,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_bebop_convo01_07.vsnd",
 		]
-		vsnd_duration = 0.733000
+		vsnd_duration = 0.733
 	}
 	frank_match_start_frank_bebop_convo02_02_hero_zipline_3d = 
 	{
@@ -6068,7 +6068,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_bebop_convo03_04.vsnd",
 		]
-		vsnd_duration = 0.827000
+		vsnd_duration = 0.827
 	}
 	frank_match_start_frank_doorman_convo01_02_hero_zipline_3d = 
 	{
@@ -6108,7 +6108,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_doorman_convo03_01.vsnd",
 		]
-		vsnd_duration = 1.786000
+		vsnd_duration = 1.786
 	}
 	frank_match_start_frank_doorman_convo03_03_hero_zipline_3d = 
 	{
@@ -6118,7 +6118,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_doorman_convo03_03.vsnd",
 		]
-		vsnd_duration = 2.201000
+		vsnd_duration = 2.201
 	}
 	frank_match_start_frank_dynamo_convo01_01_hero_zipline_3d = 
 	{
@@ -6158,7 +6158,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_dynamo_convo02_03.vsnd",
 		]
-		vsnd_duration = 1.617000
+		vsnd_duration = 1.617
 	}
 	frank_match_start_frank_dynamo_convo02_05_hero_zipline_3d = 
 	{
@@ -6168,7 +6168,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_dynamo_convo02_05.vsnd",
 		]
-		vsnd_duration = 1.596000
+		vsnd_duration = 1.596
 	}
 	frank_match_start_frank_dynamo_convo02_07_hero_zipline_3d = 
 	{
@@ -6178,7 +6178,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_dynamo_convo02_07.vsnd",
 		]
-		vsnd_duration = 0.779000
+		vsnd_duration = 0.779
 	}
 	frank_match_start_frank_dynamo_convo03_02_hero_zipline_3d = 
 	{
@@ -6318,7 +6318,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_haze_convo03_02.vsnd",
 		]
-		vsnd_duration = 1.189000
+		vsnd_duration = 1.189
 	}
 	frank_match_start_frank_haze_convo03_04_hero_zipline_3d = 
 	{
@@ -6328,7 +6328,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_haze_convo03_04.vsnd",
 		]
-		vsnd_duration = 2.651000
+		vsnd_duration = 2.651
 	}
 	frank_match_start_frank_haze_convo03_06_hero_zipline_3d = 
 	{
@@ -6338,7 +6338,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_haze_convo03_06.vsnd",
 		]
-		vsnd_duration = 1.809000
+		vsnd_duration = 1.809
 	}
 	frank_match_start_frank_inferno_convo01_02_hero_zipline_3d = 
 	{
@@ -6428,7 +6428,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_kelvin_convo01_06.vsnd",
 		]
-		vsnd_duration = 3.070000
+		vsnd_duration = 3.07
 	}
 	frank_match_start_frank_kelvin_convo02_02_hero_zipline_3d = 
 	{
@@ -6478,7 +6478,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_krill_convo01_03.vsnd",
 		]
-		vsnd_duration = 4.936000
+		vsnd_duration = 4.936
 	}
 	frank_match_start_frank_krill_convo01_05_hero_zipline_3d = 
 	{
@@ -6588,7 +6588,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_nano_convo01_01.vsnd",
 		]
-		vsnd_duration = 1.805000
+		vsnd_duration = 1.805
 	}
 	frank_match_start_frank_nano_convo01_03_hero_zipline_3d = 
 	{
@@ -6598,7 +6598,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_nano_convo01_03.vsnd",
 		]
-		vsnd_duration = 4.374000
+		vsnd_duration = 4.374
 	}
 	frank_match_start_frank_nano_convo01_05_hero_zipline_3d = 
 	{
@@ -6608,7 +6608,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_nano_convo01_05.vsnd",
 		]
-		vsnd_duration = 0.882000
+		vsnd_duration = 0.882
 	}
 	frank_match_start_frank_nano_convo02_02_hero_zipline_3d = 
 	{
@@ -6618,7 +6618,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_nano_convo02_02.vsnd",
 		]
-		vsnd_duration = 0.916000
+		vsnd_duration = 0.916
 	}
 	frank_match_start_frank_nano_convo02_04_hero_zipline_3d = 
 	{
@@ -6638,7 +6638,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_nano_convo02_06.vsnd",
 		]
-		vsnd_duration = 1.590500
+		vsnd_duration = 1.5905
 	}
 	frank_match_start_frank_nano_convo03_02_hero_zipline_3d = 
 	{
@@ -6668,7 +6668,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_orion_convo01_01.vsnd",
 		]
-		vsnd_duration = 1.112500
+		vsnd_duration = 1.1125
 	}
 	frank_match_start_frank_orion_convo01_03_hero_zipline_3d = 
 	{
@@ -6678,7 +6678,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_orion_convo01_03.vsnd",
 		]
-		vsnd_duration = 1.801000
+		vsnd_duration = 1.801
 	}
 	frank_match_start_frank_orion_convo02_02_hero_zipline_3d = 
 	{
@@ -6708,7 +6708,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_orion_convo02_06.vsnd",
 		]
-		vsnd_duration = 0.560000
+		vsnd_duration = 0.56
 	}
 	frank_match_start_frank_orion_convo03_01_hero_zipline_3d = 
 	{
@@ -6748,7 +6748,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_orion_convo03_07.vsnd",
 		]
-		vsnd_duration = 0.687000
+		vsnd_duration = 0.687
 	}
 	frank_match_start_frank_tengu_convo01_01_hero_zipline_3d = 
 	{
@@ -6828,7 +6828,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_vampirebat_convo01_02.vsnd",
 		]
-		vsnd_duration = 0.746000
+		vsnd_duration = 0.746
 	}
 	frank_match_start_frank_vampirebat_convo02_02_hero_zipline_3d = 
 	{
@@ -6888,7 +6888,7 @@
 		[
 			"sounds/vo/frank/frank_match_start_frank_vampirebat_convo03_02.vsnd",
 		]
-		vsnd_duration = 1.543000
+		vsnd_duration = 1.543
 	}
 	frank_melee_kill_01_hero_3d = 
 	{
@@ -6958,7 +6958,7 @@
 		[
 			"sounds/vo/frank/frank_near_miss_02.vsnd",
 		]
-		vsnd_duration = 1.420500
+		vsnd_duration = 1.4205
 	}
 	frank_near_miss_03_hero_3d = 
 	{
@@ -6998,7 +6998,7 @@
 		[
 			"sounds/vo/frank/frank_outnumbered_01.vsnd",
 		]
-		vsnd_duration = 1.484000
+		vsnd_duration = 1.484
 	}
 	frank_outnumbered_02_hero_3d = 
 	{
@@ -7008,7 +7008,7 @@
 		[
 			"sounds/vo/frank/frank_outnumbered_02.vsnd",
 		]
-		vsnd_duration = 1.682500
+		vsnd_duration = 1.6825
 	}
 	frank_outnumbered_03_hero_3d = 
 	{
@@ -7038,7 +7038,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_big_02.vsnd",
 		]
-		vsnd_duration = 0.618000
+		vsnd_duration = 0.618
 	}
 	frank_pain_big_03_emote_pain_3d = 
 	{
@@ -7048,7 +7048,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_big_03.vsnd",
 		]
-		vsnd_duration = 0.688000
+		vsnd_duration = 0.688
 	}
 	frank_pain_big_04_emote_pain_3d = 
 	{
@@ -7068,7 +7068,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_big_05.vsnd",
 		]
-		vsnd_duration = 0.568000
+		vsnd_duration = 0.568
 	}
 	frank_pain_big_06_emote_pain_3d = 
 	{
@@ -7078,7 +7078,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_big_06.vsnd",
 		]
-		vsnd_duration = 0.536000
+		vsnd_duration = 0.536
 	}
 	frank_pain_big_07_emote_pain_3d = 
 	{
@@ -7128,7 +7128,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_death_02.vsnd",
 		]
-		vsnd_duration = 0.898000
+		vsnd_duration = 0.898
 	}
 	frank_pain_death_02_emote_pain_3d = 
 	{
@@ -7138,7 +7138,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_death_02.vsnd",
 		]
-		vsnd_duration = 0.898000
+		vsnd_duration = 0.898
 	}
 	frank_pain_death_03_emote_death_3d = 
 	{
@@ -7168,7 +7168,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_death_04.vsnd",
 		]
-		vsnd_duration = 0.994000
+		vsnd_duration = 0.994
 	}
 	frank_pain_death_04_emote_pain_3d = 
 	{
@@ -7178,7 +7178,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_death_04.vsnd",
 		]
-		vsnd_duration = 0.994000
+		vsnd_duration = 0.994
 	}
 	frank_pain_low_health_warning_alt_01_emote_pain_3d = 
 	{
@@ -7248,7 +7248,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_low_health_warning.vsnd",
 		]
-		vsnd_duration = 0.862000
+		vsnd_duration = 0.862
 	}
 	frank_pain_small_01_emote_pain_3d = 
 	{
@@ -7268,7 +7268,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_small_02.vsnd",
 		]
-		vsnd_duration = 0.468000
+		vsnd_duration = 0.468
 	}
 	frank_pain_small_03_emote_pain_3d = 
 	{
@@ -7288,7 +7288,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_small_04.vsnd",
 		]
-		vsnd_duration = 0.572000
+		vsnd_duration = 0.572
 	}
 	frank_pain_small_05_emote_pain_3d = 
 	{
@@ -7308,7 +7308,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_small_06.vsnd",
 		]
-		vsnd_duration = 0.342000
+		vsnd_duration = 0.342
 	}
 	frank_pain_small_07_emote_pain_3d = 
 	{
@@ -7348,7 +7348,7 @@
 		[
 			"sounds/vo/frank/emote/frank_pain_small_10.vsnd",
 		]
-		vsnd_duration = 0.490000
+		vsnd_duration = 0.49
 	}
 	frank_parry_01_hero_3d = 
 	{
@@ -7418,7 +7418,7 @@
 		[
 			"sounds/vo/frank/frank_pick_up_gold_04.vsnd",
 		]
-		vsnd_duration = 1.965500
+		vsnd_duration = 1.9655
 	}
 	frank_pick_up_gold_05_hero_3d = 
 	{
@@ -7428,7 +7428,7 @@
 		[
 			"sounds/vo/frank/frank_pick_up_gold_05.vsnd",
 		]
-		vsnd_duration = 1.383500
+		vsnd_duration = 1.3835
 	}
 	frank_pick_up_rejuv_01_hero_3d = 
 	{
@@ -7498,7 +7498,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ability2_not_ready.vsnd",
 		]
-		vsnd_duration = 1.723000
+		vsnd_duration = 1.723
 	}
 	frank_ping_ability3_almost_ready_ping_2d = 
 	{
@@ -7518,7 +7518,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ability3_not_ready.vsnd",
 		]
-		vsnd_duration = 1.763000
+		vsnd_duration = 1.763
 	}
 	frank_ping_ability4_almost_ready_ping_2d = 
 	{
@@ -7538,7 +7538,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ability4_not_ready.vsnd",
 		]
-		vsnd_duration = 1.895000
+		vsnd_duration = 1.895
 	}
 	frank_ping_affermative_01_ping_2d = 
 	{
@@ -7548,7 +7548,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_affermative_01.vsnd",
 		]
-		vsnd_duration = 1.114000
+		vsnd_duration = 1.114
 	}
 	frank_ping_affermative_02_ping_2d = 
 	{
@@ -7638,7 +7638,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_astro_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.578000
+		vsnd_duration = 1.578
 	}
 	frank_ping_astro_under_garage_ping_2d = 
 	{
@@ -7658,7 +7658,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_astro_was_here.vsnd",
 		]
-		vsnd_duration = 1.254000
+		vsnd_duration = 1.254
 	}
 	frank_ping_atlas_almost_respawn_ping_2d = 
 	{
@@ -7718,7 +7718,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_atlas_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.662000
+		vsnd_duration = 1.662
 	}
 	frank_ping_atlas_on_top_of_mid_ping_2d = 
 	{
@@ -7728,7 +7728,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_atlas_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.390000
+		vsnd_duration = 1.39
 	}
 	frank_ping_atlas_under_garage_ping_2d = 
 	{
@@ -7798,7 +7798,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.308000
+		vsnd_duration = 1.308
 	}
 	frank_ping_attack_chrono_ping_2d = 
 	{
@@ -7808,7 +7808,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_chrono.vsnd",
 		]
-		vsnd_duration = 1.318000
+		vsnd_duration = 1.318
 	}
 	frank_ping_attack_doorman_ping_2d = 
 	{
@@ -7828,7 +7828,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_drifter.vsnd",
 		]
-		vsnd_duration = 1.538000
+		vsnd_duration = 1.538
 	}
 	frank_ping_attack_druid_ping_2d = 
 	{
@@ -7848,7 +7848,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_dynamo.vsnd",
 		]
-		vsnd_duration = 1.510000
+		vsnd_duration = 1.51
 	}
 	frank_ping_attack_enemy_avatar_ping_2d = 
 	{
@@ -7878,7 +7878,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_forge.vsnd",
 		]
-		vsnd_duration = 1.182000
+		vsnd_duration = 1.182
 	}
 	frank_ping_attack_fortuna_ping_2d = 
 	{
@@ -7898,7 +7898,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_ghost.vsnd",
 		]
-		vsnd_duration = 1.202000
+		vsnd_duration = 1.202
 	}
 	frank_ping_attack_gigawatt_ping_2d = 
 	{
@@ -7918,7 +7918,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_graf.vsnd",
 		]
-		vsnd_duration = 1.306000
+		vsnd_duration = 1.306
 	}
 	frank_ping_attack_haze_ping_2d = 
 	{
@@ -8028,7 +8028,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_orion.vsnd",
 		]
-		vsnd_duration = 1.538000
+		vsnd_duration = 1.538
 	}
 	frank_ping_attack_priest_ping_2d = 
 	{
@@ -8088,7 +8088,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_slork.vsnd",
 		]
-		vsnd_duration = 1.382000
+		vsnd_duration = 1.382
 	}
 	frank_ping_attack_succubus_ping_2d = 
 	{
@@ -8098,7 +8098,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_succubus.vsnd",
 		]
-		vsnd_duration = 1.454000
+		vsnd_duration = 1.454
 	}
 	frank_ping_attack_swan_ping_2d = 
 	{
@@ -8108,7 +8108,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_swan.vsnd",
 		]
-		vsnd_duration = 1.322000
+		vsnd_duration = 1.322
 	}
 	frank_ping_attack_synth_ping_2d = 
 	{
@@ -8138,7 +8138,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_tvspirit.vsnd",
 		]
-		vsnd_duration = 1.650000
+		vsnd_duration = 1.65
 	}
 	frank_ping_attack_vampirebat_ping_2d = 
 	{
@@ -8148,7 +8148,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.298000
+		vsnd_duration = 1.298
 	}
 	frank_ping_attack_viper_ping_2d = 
 	{
@@ -8198,7 +8198,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_attack_yamato.vsnd",
 		]
-		vsnd_duration = 1.410000
+		vsnd_duration = 1.41
 	}
 	frank_ping_avatar_under_attack_ping_2d = 
 	{
@@ -8228,7 +8228,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_bebop_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.354000
+		vsnd_duration = 1.354
 	}
 	frank_ping_bebop_check_items_ping_2d = 
 	{
@@ -8248,7 +8248,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_bebop_dead.vsnd",
 		]
-		vsnd_duration = 1.440000
+		vsnd_duration = 1.44
 	}
 	frank_ping_bebop_in_mid_ping_2d = 
 	{
@@ -8258,7 +8258,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_bebop_in_mid.vsnd",
 		]
-		vsnd_duration = 1.234000
+		vsnd_duration = 1.234
 	}
 	frank_ping_bebop_missing_01_ping_2d = 
 	{
@@ -8268,7 +8268,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_bebop_missing_01.vsnd",
 		]
-		vsnd_duration = 1.366000
+		vsnd_duration = 1.366
 	}
 	frank_ping_bebop_on_top_of_garage_ping_2d = 
 	{
@@ -8288,7 +8288,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_bebop_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.438000
+		vsnd_duration = 1.438
 	}
 	frank_ping_bebop_under_garage_ping_2d = 
 	{
@@ -8308,7 +8308,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_bebop_was_here.vsnd",
 		]
-		vsnd_duration = 1.130000
+		vsnd_duration = 1.13
 	}
 	frank_ping_blue_help_01_ping_2d = 
 	{
@@ -8348,7 +8348,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_bookworm_almost_respawn_alt.vsnd",
 		]
-		vsnd_duration = 1.355000
+		vsnd_duration = 1.355
 	}
 	frank_ping_bookworm_check_items_alt_ping_2d = 
 	{
@@ -8388,7 +8388,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_bookworm_missing_01_alt.vsnd",
 		]
-		vsnd_duration = 1.070000
+		vsnd_duration = 1.07
 	}
 	frank_ping_bookworm_on_top_of_garage_alt_ping_2d = 
 	{
@@ -8428,7 +8428,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_bookworm_was_here_alt.vsnd",
 		]
-		vsnd_duration = 0.998000
+		vsnd_duration = 0.998
 	}
 	frank_ping_can_heal_astro_ping_2d = 
 	{
@@ -8458,7 +8458,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_bebop.vsnd",
 		]
-		vsnd_duration = 1.530000
+		vsnd_duration = 1.53
 	}
 	frank_ping_can_heal_bookworm_alt_ping_2d = 
 	{
@@ -8468,7 +8468,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.494000
+		vsnd_duration = 1.494
 	}
 	frank_ping_can_heal_chrono_ping_2d = 
 	{
@@ -8488,7 +8488,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_doorman.vsnd",
 		]
-		vsnd_duration = 1.761000
+		vsnd_duration = 1.761
 	}
 	frank_ping_can_heal_drifter_ping_2d = 
 	{
@@ -8508,7 +8508,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_dynamo.vsnd",
 		]
-		vsnd_duration = 1.606000
+		vsnd_duration = 1.606
 	}
 	frank_ping_can_heal_forge_ping_2d = 
 	{
@@ -8518,7 +8518,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_forge.vsnd",
 		]
-		vsnd_duration = 1.566000
+		vsnd_duration = 1.566
 	}
 	frank_ping_can_heal_ghost_ping_2d = 
 	{
@@ -8528,7 +8528,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_ghost.vsnd",
 		]
-		vsnd_duration = 1.601000
+		vsnd_duration = 1.601
 	}
 	frank_ping_can_heal_gigawatt_ping_2d = 
 	{
@@ -8548,7 +8548,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_haze.vsnd",
 		]
-		vsnd_duration = 1.648000
+		vsnd_duration = 1.648
 	}
 	frank_ping_can_heal_hornet_ping_2d = 
 	{
@@ -8568,7 +8568,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_inferno.vsnd",
 		]
-		vsnd_duration = 1.798000
+		vsnd_duration = 1.798
 	}
 	frank_ping_can_heal_kelvin_ping_2d = 
 	{
@@ -8588,7 +8588,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_krill.vsnd",
 		]
-		vsnd_duration = 1.662000
+		vsnd_duration = 1.662
 	}
 	frank_ping_can_heal_lash_ping_2d = 
 	{
@@ -8608,7 +8608,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_magician.vsnd",
 		]
-		vsnd_duration = 1.834000
+		vsnd_duration = 1.834
 	}
 	frank_ping_can_heal_mirage_ping_2d = 
 	{
@@ -8618,7 +8618,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_mirage.vsnd",
 		]
-		vsnd_duration = 2.078000
+		vsnd_duration = 2.078
 	}
 	frank_ping_can_heal_nano_ping_2d = 
 	{
@@ -8628,7 +8628,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_nano.vsnd",
 		]
-		vsnd_duration = 1.968000
+		vsnd_duration = 1.968
 	}
 	frank_ping_can_heal_orion_ping_2d = 
 	{
@@ -8638,7 +8638,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_can_heal_orion.vsnd",
 		]
-		vsnd_duration = 1.640000
+		vsnd_duration = 1.64
 	}
 	frank_ping_can_heal_priest_ping_2d = 
 	{
@@ -8788,7 +8788,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_astro_03.vsnd",
 		]
-		vsnd_duration = 1.218000
+		vsnd_duration = 1.218
 	}
 	frank_ping_careful_atlas_01_ping_2d = 
 	{
@@ -8808,7 +8808,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_atlas_02.vsnd",
 		]
-		vsnd_duration = 1.258000
+		vsnd_duration = 1.258
 	}
 	frank_ping_careful_atlas_03_ping_2d = 
 	{
@@ -8818,7 +8818,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_atlas_03.vsnd",
 		]
-		vsnd_duration = 1.134000
+		vsnd_duration = 1.134
 	}
 	frank_ping_careful_bebop_01_ping_2d = 
 	{
@@ -8828,7 +8828,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_bebop_01.vsnd",
 		]
-		vsnd_duration = 1.198000
+		vsnd_duration = 1.198
 	}
 	frank_ping_careful_bebop_02_ping_2d = 
 	{
@@ -8848,7 +8848,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_bebop_03.vsnd",
 		]
-		vsnd_duration = 1.090000
+		vsnd_duration = 1.09
 	}
 	frank_ping_careful_boho_01_ping_2d = 
 	{
@@ -8868,7 +8868,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_bookworm_01_alt.vsnd",
 		]
-		vsnd_duration = 1.028000
+		vsnd_duration = 1.028
 	}
 	frank_ping_careful_bookworm_02_alt_ping_2d = 
 	{
@@ -8908,7 +8908,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_chrono_02.vsnd",
 		]
-		vsnd_duration = 1.230000
+		vsnd_duration = 1.23
 	}
 	frank_ping_careful_chrono_03_ping_2d = 
 	{
@@ -8978,7 +8978,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_drifter_03.vsnd",
 		]
-		vsnd_duration = 1.210500
+		vsnd_duration = 1.2105
 	}
 	frank_ping_careful_druid_01_ping_2d = 
 	{
@@ -9008,7 +9008,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_dynamo_02.vsnd",
 		]
-		vsnd_duration = 1.142000
+		vsnd_duration = 1.142
 	}
 	frank_ping_careful_dynamo_03_ping_2d = 
 	{
@@ -9018,7 +9018,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_dynamo_03.vsnd",
 		]
-		vsnd_duration = 1.133000
+		vsnd_duration = 1.133
 	}
 	frank_ping_careful_forge_01_ping_2d = 
 	{
@@ -9038,7 +9038,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_forge_02.vsnd",
 		]
-		vsnd_duration = 1.038000
+		vsnd_duration = 1.038
 	}
 	frank_ping_careful_forge_03_ping_2d = 
 	{
@@ -9058,7 +9058,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_fortuna_01.vsnd",
 		]
-		vsnd_duration = 1.302000
+		vsnd_duration = 1.302
 	}
 	frank_ping_careful_ghost_01_ping_2d = 
 	{
@@ -9088,7 +9088,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_ghost_03.vsnd",
 		]
-		vsnd_duration = 1.028000
+		vsnd_duration = 1.028
 	}
 	frank_ping_careful_gigawatt_01_ping_2d = 
 	{
@@ -9098,7 +9098,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_gigawatt_01.vsnd",
 		]
-		vsnd_duration = 1.194000
+		vsnd_duration = 1.194
 	}
 	frank_ping_careful_gigawatt_02_ping_2d = 
 	{
@@ -9108,7 +9108,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_gigawatt_02.vsnd",
 		]
-		vsnd_duration = 1.146000
+		vsnd_duration = 1.146
 	}
 	frank_ping_careful_gigawatt_03_ping_2d = 
 	{
@@ -9118,7 +9118,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_gigawatt_03.vsnd",
 		]
-		vsnd_duration = 1.062000
+		vsnd_duration = 1.062
 	}
 	frank_ping_careful_graf_01_ping_2d = 
 	{
@@ -9138,7 +9138,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_haze_01.vsnd",
 		]
-		vsnd_duration = 0.954000
+		vsnd_duration = 0.954
 	}
 	frank_ping_careful_haze_02_ping_2d = 
 	{
@@ -9148,7 +9148,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_haze_02.vsnd",
 		]
-		vsnd_duration = 0.980000
+		vsnd_duration = 0.98
 	}
 	frank_ping_careful_haze_03_ping_2d = 
 	{
@@ -9158,7 +9158,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_haze_03.vsnd",
 		]
-		vsnd_duration = 0.975000
+		vsnd_duration = 0.975
 	}
 	frank_ping_careful_hornet_01_ping_2d = 
 	{
@@ -9188,7 +9188,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_hornet_03.vsnd",
 		]
-		vsnd_duration = 1.182000
+		vsnd_duration = 1.182
 	}
 	frank_ping_careful_incubus_01_ping_2d = 
 	{
@@ -9258,7 +9258,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_kelvin_03.vsnd",
 		]
-		vsnd_duration = 0.995000
+		vsnd_duration = 0.995
 	}
 	frank_ping_careful_krill_01_ping_2d = 
 	{
@@ -9288,7 +9288,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_krill_03.vsnd",
 		]
-		vsnd_duration = 1.030000
+		vsnd_duration = 1.03
 	}
 	frank_ping_careful_lash_01_ping_2d = 
 	{
@@ -9318,7 +9318,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_lash_03.vsnd",
 		]
-		vsnd_duration = 1.114000
+		vsnd_duration = 1.114
 	}
 	frank_ping_careful_magician_01_ping_2d = 
 	{
@@ -9338,7 +9338,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_magician_02.vsnd",
 		]
-		vsnd_duration = 1.114000
+		vsnd_duration = 1.114
 	}
 	frank_ping_careful_magician_03_ping_2d = 
 	{
@@ -9348,7 +9348,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_magician_03.vsnd",
 		]
-		vsnd_duration = 1.126000
+		vsnd_duration = 1.126
 	}
 	frank_ping_careful_mirage_01_ping_2d = 
 	{
@@ -9368,7 +9368,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_mirage_02.vsnd",
 		]
-		vsnd_duration = 1.086000
+		vsnd_duration = 1.086
 	}
 	frank_ping_careful_mirage_03_ping_2d = 
 	{
@@ -9398,7 +9398,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_nano_02.vsnd",
 		]
-		vsnd_duration = 1.170000
+		vsnd_duration = 1.17
 	}
 	frank_ping_careful_nano_03_ping_2d = 
 	{
@@ -9448,7 +9448,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_priest_01.vsnd",
 		]
-		vsnd_duration = 1.097000
+		vsnd_duration = 1.097
 	}
 	frank_ping_careful_priest_02_ping_2d = 
 	{
@@ -9458,7 +9458,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_priest_02.vsnd",
 		]
-		vsnd_duration = 1.111000
+		vsnd_duration = 1.111
 	}
 	frank_ping_careful_priest_03_ping_2d = 
 	{
@@ -9468,7 +9468,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_priest_03.vsnd",
 		]
-		vsnd_duration = 1.071000
+		vsnd_duration = 1.071
 	}
 	frank_ping_careful_punkgoat_01_ping_2d = 
 	{
@@ -9508,7 +9508,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_shiv_01.vsnd",
 		]
-		vsnd_duration = 1.062000
+		vsnd_duration = 1.062
 	}
 	frank_ping_careful_shiv_02_ping_2d = 
 	{
@@ -9558,7 +9558,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_slork_02.vsnd",
 		]
-		vsnd_duration = 0.940000
+		vsnd_duration = 0.94
 	}
 	frank_ping_careful_slork_03_ping_2d = 
 	{
@@ -9598,7 +9598,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_synth_01.vsnd",
 		]
-		vsnd_duration = 0.912000
+		vsnd_duration = 0.912
 	}
 	frank_ping_careful_synth_02_ping_2d = 
 	{
@@ -9608,7 +9608,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_synth_02.vsnd",
 		]
-		vsnd_duration = 1.108000
+		vsnd_duration = 1.108
 	}
 	frank_ping_careful_synth_03_ping_2d = 
 	{
@@ -9638,7 +9638,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_tengu_02.vsnd",
 		]
-		vsnd_duration = 1.064000
+		vsnd_duration = 1.064
 	}
 	frank_ping_careful_tengu_03_ping_2d = 
 	{
@@ -9648,7 +9648,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_tengu_03.vsnd",
 		]
-		vsnd_duration = 1.044000
+		vsnd_duration = 1.044
 	}
 	frank_ping_careful_tvspirit_01_ping_2d = 
 	{
@@ -9768,7 +9768,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_warden_02.vsnd",
 		]
-		vsnd_duration = 1.106000
+		vsnd_duration = 1.106
 	}
 	frank_ping_careful_warden_03_ping_2d = 
 	{
@@ -9778,7 +9778,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_warden_03.vsnd",
 		]
-		vsnd_duration = 1.062000
+		vsnd_duration = 1.062
 	}
 	frank_ping_careful_wraith_01_ping_2d = 
 	{
@@ -9788,7 +9788,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_wraith_01.vsnd",
 		]
-		vsnd_duration = 1.038000
+		vsnd_duration = 1.038
 	}
 	frank_ping_careful_wraith_02_ping_2d = 
 	{
@@ -9798,7 +9798,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_careful_wraith_02.vsnd",
 		]
-		vsnd_duration = 0.972000
+		vsnd_duration = 0.972
 	}
 	frank_ping_careful_wraith_03_ping_2d = 
 	{
@@ -9908,7 +9908,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_chrono_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.472000
+		vsnd_duration = 1.472
 	}
 	frank_ping_chrono_under_garage_ping_2d = 
 	{
@@ -9958,7 +9958,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_defend_base_01.vsnd",
 		]
-		vsnd_duration = 1.118000
+		vsnd_duration = 1.118
 	}
 	frank_ping_defend_blue_01_ping_2d = 
 	{
@@ -9978,7 +9978,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_defend_blue_02.vsnd",
 		]
-		vsnd_duration = 1.062000
+		vsnd_duration = 1.062
 	}
 	frank_ping_defend_green_01_ping_2d = 
 	{
@@ -9998,7 +9998,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_defend_green_02.vsnd",
 		]
-		vsnd_duration = 0.962000
+		vsnd_duration = 0.962
 	}
 	frank_ping_defend_yellow_01_ping_2d = 
 	{
@@ -10028,7 +10028,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_doorman_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.345000
+		vsnd_duration = 1.345
 	}
 	frank_ping_doorman_check_items_ping_2d = 
 	{
@@ -10058,7 +10058,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_doorman_in_mid.vsnd",
 		]
-		vsnd_duration = 1.146000
+		vsnd_duration = 1.146
 	}
 	frank_ping_doorman_missing_01_ping_2d = 
 	{
@@ -10088,7 +10088,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_doorman_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.448000
+		vsnd_duration = 1.448
 	}
 	frank_ping_doorman_under_garage_ping_2d = 
 	{
@@ -10108,7 +10108,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_doorman_was_here.vsnd",
 		]
-		vsnd_duration = 1.121000
+		vsnd_duration = 1.121
 	}
 	frank_ping_drifter_almost_respawn_ping_2d = 
 	{
@@ -10118,7 +10118,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_drifter_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.496000
+		vsnd_duration = 1.496
 	}
 	frank_ping_drifter_check_items_ping_2d = 
 	{
@@ -10178,7 +10178,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_drifter_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.477000
+		vsnd_duration = 1.477
 	}
 	frank_ping_drifter_under_garage_ping_2d = 
 	{
@@ -10188,7 +10188,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_drifter_under_garage.vsnd",
 		]
-		vsnd_duration = 1.422000
+		vsnd_duration = 1.422
 	}
 	frank_ping_drifter_was_here_ping_2d = 
 	{
@@ -10308,7 +10308,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_enemy_take_mid.vsnd",
 		]
-		vsnd_duration = 1.054000
+		vsnd_duration = 1.054
 	}
 	frank_ping_flank_ping_2d = 
 	{
@@ -10318,7 +10318,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_flank.vsnd",
 		]
-		vsnd_duration = 0.962000
+		vsnd_duration = 0.962
 	}
 	frank_ping_forge_almost_respawn_ping_2d = 
 	{
@@ -10368,7 +10368,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_forge_missing_01.vsnd",
 		]
-		vsnd_duration = 1.260000
+		vsnd_duration = 1.26
 	}
 	frank_ping_forge_on_top_of_garage_ping_2d = 
 	{
@@ -10388,7 +10388,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_forge_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.314000
+		vsnd_duration = 1.314
 	}
 	frank_ping_forge_under_garage_ping_2d = 
 	{
@@ -10398,7 +10398,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_forge_under_garage.vsnd",
 		]
-		vsnd_duration = 1.392000
+		vsnd_duration = 1.392
 	}
 	frank_ping_forge_was_here_ping_2d = 
 	{
@@ -10418,7 +10418,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_fortuna_missing_01.vsnd",
 		]
-		vsnd_duration = 1.457500
+		vsnd_duration = 1.4575
 	}
 	frank_ping_gank_ping_2d = 
 	{
@@ -10428,7 +10428,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_gank.vsnd",
 		]
-		vsnd_duration = 1.050000
+		vsnd_duration = 1.05
 	}
 	frank_ping_ghost_almost_respawn_ping_2d = 
 	{
@@ -10518,7 +10518,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ghost_was_here.vsnd",
 		]
-		vsnd_duration = 0.930000
+		vsnd_duration = 0.93
 	}
 	frank_ping_gigawatt_almost_respawn_ping_2d = 
 	{
@@ -10528,7 +10528,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_gigawatt_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.702000
+		vsnd_duration = 1.702
 	}
 	frank_ping_gigawatt_check_items_ping_2d = 
 	{
@@ -10548,7 +10548,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_gigawatt_dead.vsnd",
 		]
-		vsnd_duration = 1.130000
+		vsnd_duration = 1.13
 	}
 	frank_ping_gigawatt_in_mid_ping_2d = 
 	{
@@ -10578,7 +10578,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_gigawatt_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.498000
+		vsnd_duration = 1.498
 	}
 	frank_ping_gigawatt_on_top_of_mid_ping_2d = 
 	{
@@ -10618,7 +10618,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_glitch_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.314000
+		vsnd_duration = 1.314
 	}
 	frank_ping_glitch_not_ready_ping_2d = 
 	{
@@ -10628,7 +10628,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_glitch_not_ready.vsnd",
 		]
-		vsnd_duration = 1.282000
+		vsnd_duration = 1.282
 	}
 	frank_ping_going_in_01_ping_2d = 
 	{
@@ -10698,7 +10698,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_good_job_01.vsnd",
 		]
-		vsnd_duration = 1.122000
+		vsnd_duration = 1.122
 	}
 	frank_ping_graf_missing_01_ping_2d = 
 	{
@@ -10718,7 +10718,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_green_help_01.vsnd",
 		]
-		vsnd_duration = 0.978000
+		vsnd_duration = 0.978
 	}
 	frank_ping_green_help_02_ping_2d = 
 	{
@@ -10728,7 +10728,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_green_help_02.vsnd",
 		]
-		vsnd_duration = 1.114000
+		vsnd_duration = 1.114
 	}
 	frank_ping_haze_almost_respawn_ping_2d = 
 	{
@@ -10768,7 +10768,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_haze_in_mid.vsnd",
 		]
-		vsnd_duration = 1.020000
+		vsnd_duration = 1.02
 	}
 	frank_ping_haze_missing_01_ping_2d = 
 	{
@@ -10778,7 +10778,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_haze_missing_01.vsnd",
 		]
-		vsnd_duration = 1.118000
+		vsnd_duration = 1.118
 	}
 	frank_ping_haze_on_top_of_garage_ping_2d = 
 	{
@@ -10838,7 +10838,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_headed_blue_02.vsnd",
 		]
-		vsnd_duration = 1.266000
+		vsnd_duration = 1.266
 	}
 	frank_ping_headed_green_01_ping_2d = 
 	{
@@ -10918,7 +10918,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_health_nova_not_ready.vsnd",
 		]
-		vsnd_duration = 1.758000
+		vsnd_duration = 1.758
 	}
 	frank_ping_help_with_idol_ping_2d = 
 	{
@@ -11038,7 +11038,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_atlas.vsnd",
 		]
-		vsnd_duration = 1.174000
+		vsnd_duration = 1.174
 	}
 	frank_ping_ignore_bebop_ping_2d = 
 	{
@@ -11048,7 +11048,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_bebop.vsnd",
 		]
-		vsnd_duration = 1.098000
+		vsnd_duration = 1.098
 	}
 	frank_ping_ignore_bookworm_alt_ping_2d = 
 	{
@@ -11088,7 +11088,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_drifter.vsnd",
 		]
-		vsnd_duration = 1.202000
+		vsnd_duration = 1.202
 	}
 	frank_ping_ignore_dynamo_ping_2d = 
 	{
@@ -11108,7 +11108,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_forge.vsnd",
 		]
-		vsnd_duration = 1.054000
+		vsnd_duration = 1.054
 	}
 	frank_ping_ignore_ghost_ping_2d = 
 	{
@@ -11158,7 +11158,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_inferno.vsnd",
 		]
-		vsnd_duration = 1.134000
+		vsnd_duration = 1.134
 	}
 	frank_ping_ignore_kelvin_ping_2d = 
 	{
@@ -11168,7 +11168,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_kelvin.vsnd",
 		]
-		vsnd_duration = 1.074750
+		vsnd_duration = 1.07475
 	}
 	frank_ping_ignore_krill_ping_2d = 
 	{
@@ -11178,7 +11178,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_krill.vsnd",
 		]
-		vsnd_duration = 1.154000
+		vsnd_duration = 1.154
 	}
 	frank_ping_ignore_lash_ping_2d = 
 	{
@@ -11208,7 +11208,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_mirage.vsnd",
 		]
-		vsnd_duration = 1.094000
+		vsnd_duration = 1.094
 	}
 	frank_ping_ignore_nano_ping_2d = 
 	{
@@ -11298,7 +11298,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.074000
+		vsnd_duration = 1.074
 	}
 	frank_ping_ignore_viper_ping_2d = 
 	{
@@ -11338,7 +11338,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_wraith.vsnd",
 		]
-		vsnd_duration = 0.954000
+		vsnd_duration = 0.954
 	}
 	frank_ping_ignore_yamato_ping_2d = 
 	{
@@ -11348,7 +11348,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_ignore_yamato.vsnd",
 		]
-		vsnd_duration = 1.162000
+		vsnd_duration = 1.162
 	}
 	frank_ping_incubus_missing_01_ping_2d = 
 	{
@@ -11378,7 +11378,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_inferno_check_items.vsnd",
 		]
-		vsnd_duration = 1.873000
+		vsnd_duration = 1.873
 	}
 	frank_ping_inferno_dead_ping_2d = 
 	{
@@ -11398,7 +11398,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_inferno_in_mid.vsnd",
 		]
-		vsnd_duration = 1.335000
+		vsnd_duration = 1.335
 	}
 	frank_ping_inferno_missing_01_ping_2d = 
 	{
@@ -11448,7 +11448,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_inferno_was_here.vsnd",
 		]
-		vsnd_duration = 1.150000
+		vsnd_duration = 1.15
 	}
 	frank_ping_item_almost_ready_ping_2d = 
 	{
@@ -11458,7 +11458,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_item_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.382000
+		vsnd_duration = 1.382
 	}
 	frank_ping_item_not_ready_ping_2d = 
 	{
@@ -11508,7 +11508,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_kelvin_check_items.vsnd",
 		]
-		vsnd_duration = 1.894000
+		vsnd_duration = 1.894
 	}
 	frank_ping_kelvin_dead_ping_2d = 
 	{
@@ -11538,7 +11538,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_kelvin_missing_01.vsnd",
 		]
-		vsnd_duration = 1.190000
+		vsnd_duration = 1.19
 	}
 	frank_ping_kelvin_on_top_of_garage_ping_2d = 
 	{
@@ -11578,7 +11578,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_kelvin_was_here.vsnd",
 		]
-		vsnd_duration = 0.978000
+		vsnd_duration = 0.978
 	}
 	frank_ping_kncokdown_almost_ready_ping_2d = 
 	{
@@ -11608,7 +11608,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_krill_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.538000
+		vsnd_duration = 1.538
 	}
 	frank_ping_krill_check_items_ping_2d = 
 	{
@@ -11628,7 +11628,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_krill_dead.vsnd",
 		]
-		vsnd_duration = 1.230000
+		vsnd_duration = 1.23
 	}
 	frank_ping_krill_in_mid_ping_2d = 
 	{
@@ -11658,7 +11658,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_krill_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.446000
+		vsnd_duration = 1.446
 	}
 	frank_ping_krill_on_top_of_mid_ping_2d = 
 	{
@@ -11708,7 +11708,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_lash_check_items.vsnd",
 		]
-		vsnd_duration = 1.820000
+		vsnd_duration = 1.82
 	}
 	frank_ping_lash_dead_ping_2d = 
 	{
@@ -11738,7 +11738,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_lash_missing_01.vsnd",
 		]
-		vsnd_duration = 1.386000
+		vsnd_duration = 1.386
 	}
 	frank_ping_lash_on_top_of_garage_ping_2d = 
 	{
@@ -11758,7 +11758,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_lash_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.470000
+		vsnd_duration = 1.47
 	}
 	frank_ping_lash_under_garage_ping_2d = 
 	{
@@ -11808,7 +11808,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_leaving_area_03.vsnd",
 		]
-		vsnd_duration = 1.271000
+		vsnd_duration = 1.271
 	}
 	frank_ping_lets_go_blue_alt_ping_2d = 
 	{
@@ -11848,7 +11848,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_lets_go_green.vsnd",
 		]
-		vsnd_duration = 0.990000
+		vsnd_duration = 0.99
 	}
 	frank_ping_lets_go_yellow_alt_ping_2d = 
 	{
@@ -11928,7 +11928,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_magician_missing_01.vsnd",
 		]
-		vsnd_duration = 1.632000
+		vsnd_duration = 1.632
 	}
 	frank_ping_magician_on_top_of_garage_ping_2d = 
 	{
@@ -11938,7 +11938,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_magician_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.582000
+		vsnd_duration = 1.582
 	}
 	frank_ping_magician_on_top_of_mid_ping_2d = 
 	{
@@ -11998,7 +11998,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_mirage_dead.vsnd",
 		]
-		vsnd_duration = 1.338000
+		vsnd_duration = 1.338
 	}
 	frank_ping_mirage_in_mid_ping_2d = 
 	{
@@ -12008,7 +12008,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_mirage_in_mid.vsnd",
 		]
-		vsnd_duration = 1.138000
+		vsnd_duration = 1.138
 	}
 	frank_ping_mirage_missing_01_ping_2d = 
 	{
@@ -12028,7 +12028,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_mirage_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.594000
+		vsnd_duration = 1.594
 	}
 	frank_ping_mirage_on_top_of_mid_ping_2d = 
 	{
@@ -12068,7 +12068,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_missing_blue_01.vsnd",
 		]
-		vsnd_duration = 0.962000
+		vsnd_duration = 0.962
 	}
 	frank_ping_missing_blue_02_ping_2d = 
 	{
@@ -12168,7 +12168,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_nano_missing_01.vsnd",
 		]
-		vsnd_duration = 1.330000
+		vsnd_duration = 1.33
 	}
 	frank_ping_nano_on_top_of_garage_ping_2d = 
 	{
@@ -12228,7 +12228,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_need_heal.vsnd",
 		]
-		vsnd_duration = 1.074000
+		vsnd_duration = 1.074
 	}
 	frank_ping_need_help_blue_alt_ping_2d = 
 	{
@@ -12318,7 +12318,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_negative_02.vsnd",
 		]
-		vsnd_duration = 1.017000
+		vsnd_duration = 1.017
 	}
 	frank_ping_negative_03_ping_2d = 
 	{
@@ -12418,7 +12418,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_orion_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.412000
+		vsnd_duration = 1.412
 	}
 	frank_ping_orion_on_top_of_mid_ping_2d = 
 	{
@@ -12428,7 +12428,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_orion_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.486000
+		vsnd_duration = 1.486
 	}
 	frank_ping_orion_under_garage_ping_2d = 
 	{
@@ -12438,7 +12438,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_orion_under_garage.vsnd",
 		]
-		vsnd_duration = 1.432000
+		vsnd_duration = 1.432
 	}
 	frank_ping_orion_was_here_ping_2d = 
 	{
@@ -12448,7 +12448,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_orion_was_here.vsnd",
 		]
-		vsnd_duration = 1.400000
+		vsnd_duration = 1.4
 	}
 	frank_ping_post_game_01_ping_2d = 
 	{
@@ -12588,7 +12588,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_priest_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.515000
+		vsnd_duration = 1.515
 	}
 	frank_ping_priest_check_items_ping_2d = 
 	{
@@ -12628,7 +12628,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_priest_missing_01.vsnd",
 		]
-		vsnd_duration = 1.092000
+		vsnd_duration = 1.092
 	}
 	frank_ping_priest_on_top_of_garage_ping_2d = 
 	{
@@ -12658,7 +12658,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_priest_under_garage.vsnd",
 		]
-		vsnd_duration = 1.306500
+		vsnd_duration = 1.3065
 	}
 	frank_ping_priest_was_here_ping_2d = 
 	{
@@ -12688,7 +12688,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_punkgoat_check_items.vsnd",
 		]
-		vsnd_duration = 1.524000
+		vsnd_duration = 1.524
 	}
 	frank_ping_punkgoat_dead_ping_2d = 
 	{
@@ -12858,7 +12858,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_request_follow.vsnd",
 		]
-		vsnd_duration = 0.970000
+		vsnd_duration = 0.97
 	}
 	frank_ping_retreat_01_ping_2d = 
 	{
@@ -12918,7 +12918,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_rupture_not_ready.vsnd",
 		]
-		vsnd_duration = 1.430000
+		vsnd_duration = 1.43
 	}
 	frank_ping_saw_astro_ping_2d = 
 	{
@@ -12938,7 +12938,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_saw_atlas.vsnd",
 		]
-		vsnd_duration = 1.230000
+		vsnd_duration = 1.23
 	}
 	frank_ping_saw_bebop_ping_2d = 
 	{
@@ -12958,7 +12958,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_saw_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.017000
+		vsnd_duration = 1.017
 	}
 	frank_ping_saw_chrono_ping_2d = 
 	{
@@ -12978,7 +12978,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_saw_doorman.vsnd",
 		]
-		vsnd_duration = 1.203000
+		vsnd_duration = 1.203
 	}
 	frank_ping_saw_drifter_ping_2d = 
 	{
@@ -13118,7 +13118,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_saw_nano.vsnd",
 		]
-		vsnd_duration = 1.171000
+		vsnd_duration = 1.171
 	}
 	frank_ping_saw_orion_ping_2d = 
 	{
@@ -13148,7 +13148,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_saw_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.027000
+		vsnd_duration = 1.027
 	}
 	frank_ping_saw_shiv_ping_2d = 
 	{
@@ -13198,7 +13198,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_saw_them.vsnd",
 		]
-		vsnd_duration = 0.934750
+		vsnd_duration = 0.93475
 	}
 	frank_ping_saw_vampirebat_ping_2d = 
 	{
@@ -13208,7 +13208,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_saw_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.021000
+		vsnd_duration = 1.021
 	}
 	frank_ping_saw_viper_ping_2d = 
 	{
@@ -13228,7 +13228,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_saw_viscous.vsnd",
 		]
-		vsnd_duration = 1.138000
+		vsnd_duration = 1.138
 	}
 	frank_ping_saw_warden_ping_2d = 
 	{
@@ -13238,7 +13238,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_saw_warden.vsnd",
 		]
-		vsnd_duration = 1.098000
+		vsnd_duration = 1.098
 	}
 	frank_ping_saw_wraith_ping_2d = 
 	{
@@ -13258,7 +13258,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_saw_yamato.vsnd",
 		]
-		vsnd_duration = 1.118000
+		vsnd_duration = 1.118
 	}
 	frank_ping_see_astro_on_bridge_ping_2d = 
 	{
@@ -13278,7 +13278,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_astro_on_roof.vsnd",
 		]
-		vsnd_duration = 1.374000
+		vsnd_duration = 1.374
 	}
 	frank_ping_see_astro_ping_2d = 
 	{
@@ -13308,7 +13308,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_atlas_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.286000
+		vsnd_duration = 1.286
 	}
 	frank_ping_see_atlas_on_roof_ping_2d = 
 	{
@@ -13328,7 +13328,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_bebop_01.vsnd",
 		]
-		vsnd_duration = 1.334000
+		vsnd_duration = 1.334
 	}
 	frank_ping_see_bebop_on_bridge_ping_2d = 
 	{
@@ -13348,7 +13348,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_bebop_on_roof.vsnd",
 		]
-		vsnd_duration = 1.227000
+		vsnd_duration = 1.227
 	}
 	frank_ping_see_boho_01_ping_2d = 
 	{
@@ -13408,7 +13408,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_chrono_on_roof.vsnd",
 		]
-		vsnd_duration = 1.311000
+		vsnd_duration = 1.311
 	}
 	frank_ping_see_chrono_ping_2d = 
 	{
@@ -13438,7 +13438,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_doorman_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.235250
+		vsnd_duration = 1.23525
 	}
 	frank_ping_see_doorman_on_roof_ping_2d = 
 	{
@@ -13478,7 +13478,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_drifter_on_roof.vsnd",
 		]
-		vsnd_duration = 1.233000
+		vsnd_duration = 1.233
 	}
 	frank_ping_see_druid_01_ping_2d = 
 	{
@@ -13508,7 +13508,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_dynamo_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.329000
+		vsnd_duration = 1.329
 	}
 	frank_ping_see_dynamo_on_roof_ping_2d = 
 	{
@@ -13518,7 +13518,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_dynamo_on_roof.vsnd",
 		]
-		vsnd_duration = 1.190000
+		vsnd_duration = 1.19
 	}
 	frank_ping_see_enemy_on_bridge_ping_2d = 
 	{
@@ -13538,7 +13538,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_enemy_on_roof.vsnd",
 		]
-		vsnd_duration = 1.222000
+		vsnd_duration = 1.222
 	}
 	frank_ping_see_enemy_ping_2d = 
 	{
@@ -13568,7 +13568,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_forge_on_roof.vsnd",
 		]
-		vsnd_duration = 1.280000
+		vsnd_duration = 1.28
 	}
 	frank_ping_see_forge_ping_2d = 
 	{
@@ -13578,7 +13578,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_forge.vsnd",
 		]
-		vsnd_duration = 1.342000
+		vsnd_duration = 1.342
 	}
 	frank_ping_see_fortuna_01_ping_2d = 
 	{
@@ -13638,7 +13638,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_gigawatt_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.274000
+		vsnd_duration = 1.274
 	}
 	frank_ping_see_gigawatt_on_roof_ping_2d = 
 	{
@@ -13708,7 +13708,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_hornet_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.526000
+		vsnd_duration = 1.526
 	}
 	frank_ping_see_hornet_on_roof_ping_2d = 
 	{
@@ -13738,7 +13738,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_inferno_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.433000
+		vsnd_duration = 1.433
 	}
 	frank_ping_see_inferno_on_roof_ping_2d = 
 	{
@@ -13768,7 +13768,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_kelvin_01.vsnd",
 		]
-		vsnd_duration = 1.347000
+		vsnd_duration = 1.347
 	}
 	frank_ping_see_kelvin_on_bridge_ping_2d = 
 	{
@@ -13798,7 +13798,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_krill_01.vsnd",
 		]
-		vsnd_duration = 1.116750
+		vsnd_duration = 1.11675
 	}
 	frank_ping_see_krill_on_bridge_ping_2d = 
 	{
@@ -13848,7 +13848,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_lash_on_roof.vsnd",
 		]
-		vsnd_duration = 1.206000
+		vsnd_duration = 1.206
 	}
 	frank_ping_see_magician_01_ping_2d = 
 	{
@@ -13908,7 +13908,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_mirage_on_roof.vsnd",
 		]
-		vsnd_duration = 1.190000
+		vsnd_duration = 1.19
 	}
 	frank_ping_see_nano_on_bridge_ping_2d = 
 	{
@@ -13958,7 +13958,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_orion_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.372000
+		vsnd_duration = 1.372
 	}
 	frank_ping_see_orion_on_roof_ping_2d = 
 	{
@@ -14008,7 +14008,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_punkgoat_01.vsnd",
 		]
-		vsnd_duration = 1.010000
+		vsnd_duration = 1.01
 	}
 	frank_ping_see_punkgoat_on_bridge_ping_2d = 
 	{
@@ -14048,7 +14048,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_shiv_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.230000
+		vsnd_duration = 1.23
 	}
 	frank_ping_see_shiv_on_roof_ping_2d = 
 	{
@@ -14108,7 +14108,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_slork_on_roof.vsnd",
 		]
-		vsnd_duration = 1.152000
+		vsnd_duration = 1.152
 	}
 	frank_ping_see_succubus_01_ping_2d = 
 	{
@@ -14148,7 +14148,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_synth_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.206000
+		vsnd_duration = 1.206
 	}
 	frank_ping_see_synth_on_roof_ping_2d = 
 	{
@@ -14158,7 +14158,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_synth_on_roof.vsnd",
 		]
-		vsnd_duration = 1.196000
+		vsnd_duration = 1.196
 	}
 	frank_ping_see_tengu_on_bridge_ping_2d = 
 	{
@@ -14188,7 +14188,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_tengu.vsnd",
 		]
-		vsnd_duration = 1.128000
+		vsnd_duration = 1.128
 	}
 	frank_ping_see_tvspirit_01_ping_2d = 
 	{
@@ -14208,7 +14208,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_vampirebat_01.vsnd",
 		]
-		vsnd_duration = 1.091500
+		vsnd_duration = 1.0915
 	}
 	frank_ping_see_vampirebat_on_bridge_ping_2d = 
 	{
@@ -14218,7 +14218,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_vampirebat_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.339000
+		vsnd_duration = 1.339
 	}
 	frank_ping_see_vampirebat_on_roof_ping_2d = 
 	{
@@ -14238,7 +14238,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_viper_01.vsnd",
 		]
-		vsnd_duration = 1.118000
+		vsnd_duration = 1.118
 	}
 	frank_ping_see_viper_on_bridge_ping_2d = 
 	{
@@ -14278,7 +14278,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_viscous_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.266000
+		vsnd_duration = 1.266
 	}
 	frank_ping_see_viscous_on_roof_ping_2d = 
 	{
@@ -14338,7 +14338,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_see_wraith_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.160000
+		vsnd_duration = 1.16
 	}
 	frank_ping_see_wraith_on_roof_ping_2d = 
 	{
@@ -14428,7 +14428,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_shiv_missing_01.vsnd",
 		]
-		vsnd_duration = 1.128000
+		vsnd_duration = 1.128
 	}
 	frank_ping_shiv_on_top_of_garage_ping_2d = 
 	{
@@ -14448,7 +14448,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_shiv_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.286000
+		vsnd_duration = 1.286
 	}
 	frank_ping_shiv_under_garage_ping_2d = 
 	{
@@ -14458,7 +14458,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_shiv_under_garage.vsnd",
 		]
-		vsnd_duration = 1.242000
+		vsnd_duration = 1.242
 	}
 	frank_ping_shiv_was_here_ping_2d = 
 	{
@@ -14548,7 +14548,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_slork_missing_01.vsnd",
 		]
-		vsnd_duration = 1.238000
+		vsnd_duration = 1.238
 	}
 	frank_ping_slork_on_top_of_garage_ping_2d = 
 	{
@@ -14588,7 +14588,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_slork_was_here.vsnd",
 		]
-		vsnd_duration = 1.212000
+		vsnd_duration = 1.212
 	}
 	frank_ping_sorry_01_ping_2d = 
 	{
@@ -14608,7 +14608,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_sorry_02.vsnd",
 		]
-		vsnd_duration = 1.122000
+		vsnd_duration = 1.122
 	}
 	frank_ping_sorry_03_ping_2d = 
 	{
@@ -14628,7 +14628,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stay_together.vsnd",
 		]
-		vsnd_duration = 1.082000
+		vsnd_duration = 1.082
 	}
 	frank_ping_stim_pack_almost_ready_ping_2d = 
 	{
@@ -14678,7 +14678,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_bebop_01.vsnd",
 		]
-		vsnd_duration = 1.078000
+		vsnd_duration = 1.078
 	}
 	frank_ping_stun_bookworm_01_alt_ping_2d = 
 	{
@@ -14708,7 +14708,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_doorman_01.vsnd",
 		]
-		vsnd_duration = 1.100500
+		vsnd_duration = 1.1005
 	}
 	frank_ping_stun_drifter_01_ping_2d = 
 	{
@@ -14758,7 +14758,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_gigawatt_01.vsnd",
 		]
-		vsnd_duration = 0.982000
+		vsnd_duration = 0.982
 	}
 	frank_ping_stun_haze_01_ping_2d = 
 	{
@@ -14768,7 +14768,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_haze_01.vsnd",
 		]
-		vsnd_duration = 0.918000
+		vsnd_duration = 0.918
 	}
 	frank_ping_stun_hornet_01_ping_2d = 
 	{
@@ -14828,7 +14828,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_magician_01.vsnd",
 		]
-		vsnd_duration = 1.138000
+		vsnd_duration = 1.138
 	}
 	frank_ping_stun_mirage_01_ping_2d = 
 	{
@@ -14848,7 +14848,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_nano_01.vsnd",
 		]
-		vsnd_duration = 1.134000
+		vsnd_duration = 1.134
 	}
 	frank_ping_stun_orion_01_ping_2d = 
 	{
@@ -14898,7 +14898,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_slork_01.vsnd",
 		]
-		vsnd_duration = 1.026000
+		vsnd_duration = 1.026
 	}
 	frank_ping_stun_synth_01_ping_2d = 
 	{
@@ -14908,7 +14908,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_synth_01.vsnd",
 		]
-		vsnd_duration = 0.990000
+		vsnd_duration = 0.99
 	}
 	frank_ping_stun_tengu_01_ping_2d = 
 	{
@@ -14938,7 +14938,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_viper_01.vsnd",
 		]
-		vsnd_duration = 0.966000
+		vsnd_duration = 0.966
 	}
 	frank_ping_stun_viscous_01_ping_2d = 
 	{
@@ -14958,7 +14958,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_warden_01.vsnd",
 		]
-		vsnd_duration = 1.010000
+		vsnd_duration = 1.01
 	}
 	frank_ping_stun_wraith_01_ping_2d = 
 	{
@@ -14968,7 +14968,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_stun_wraith_01.vsnd",
 		]
-		vsnd_duration = 0.932000
+		vsnd_duration = 0.932
 	}
 	frank_ping_stun_yamato_01_ping_2d = 
 	{
@@ -15038,7 +15038,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_synth_in_mid.vsnd",
 		]
-		vsnd_duration = 1.006000
+		vsnd_duration = 1.006
 	}
 	frank_ping_synth_missing_01_ping_2d = 
 	{
@@ -15048,7 +15048,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_synth_missing_01.vsnd",
 		]
-		vsnd_duration = 1.022000
+		vsnd_duration = 1.022
 	}
 	frank_ping_synth_on_top_of_garage_ping_2d = 
 	{
@@ -15148,7 +15148,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_tengu_check_items.vsnd",
 		]
-		vsnd_duration = 1.542000
+		vsnd_duration = 1.542
 	}
 	frank_ping_tengu_dead_ping_2d = 
 	{
@@ -15158,7 +15158,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_tengu_dead.vsnd",
 		]
-		vsnd_duration = 1.182000
+		vsnd_duration = 1.182
 	}
 	frank_ping_tengu_in_mid_ping_2d = 
 	{
@@ -15168,7 +15168,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_tengu_in_mid.vsnd",
 		]
-		vsnd_duration = 1.040000
+		vsnd_duration = 1.04
 	}
 	frank_ping_tengu_missing_01_ping_2d = 
 	{
@@ -15178,7 +15178,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_tengu_missing_01.vsnd",
 		]
-		vsnd_duration = 1.318000
+		vsnd_duration = 1.318
 	}
 	frank_ping_tengu_on_top_of_garage_ping_2d = 
 	{
@@ -15188,7 +15188,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_tengu_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.470000
+		vsnd_duration = 1.47
 	}
 	frank_ping_tengu_on_top_of_mid_ping_2d = 
 	{
@@ -15268,7 +15268,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_theyre_in_mid.vsnd",
 		]
-		vsnd_duration = 0.906000
+		vsnd_duration = 0.906
 	}
 	frank_ping_theyre_on_top_of_garage_ping_2d = 
 	{
@@ -15288,7 +15288,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_theyre_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.190000
+		vsnd_duration = 1.19
 	}
 	frank_ping_theyre_under_garage_ping_2d = 
 	{
@@ -15298,7 +15298,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_theyre_under_garage.vsnd",
 		]
-		vsnd_duration = 1.326000
+		vsnd_duration = 1.326
 	}
 	frank_ping_tvspirit_missing_01_ping_2d = 
 	{
@@ -15318,7 +15318,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_use_ability1.vsnd",
 		]
-		vsnd_duration = 1.703000
+		vsnd_duration = 1.703
 	}
 	frank_ping_use_ability2_ping_2d = 
 	{
@@ -15328,7 +15328,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_use_ability2.vsnd",
 		]
-		vsnd_duration = 1.437000
+		vsnd_duration = 1.437
 	}
 	frank_ping_use_ability3_ping_2d = 
 	{
@@ -15348,7 +15348,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_use_ability4_01.vsnd",
 		]
-		vsnd_duration = 1.689500
+		vsnd_duration = 1.6895
 	}
 	frank_ping_use_ability4_02_ping_2d = 
 	{
@@ -15358,7 +15358,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_use_ability4_02.vsnd",
 		]
-		vsnd_duration = 1.593000
+		vsnd_duration = 1.593
 	}
 	frank_ping_use_ability4_03_ping_2d = 
 	{
@@ -15408,7 +15408,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_use_ability4_07.vsnd",
 		]
-		vsnd_duration = 2.269000
+		vsnd_duration = 2.269
 	}
 	frank_ping_use_ability4_08_ping_2d = 
 	{
@@ -15428,7 +15428,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_use_ability4_09.vsnd",
 		]
-		vsnd_duration = 1.656250
+		vsnd_duration = 1.65625
 	}
 	frank_ping_use_ability4_10_ping_2d = 
 	{
@@ -15438,7 +15438,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_use_ability4_10.vsnd",
 		]
-		vsnd_duration = 1.792000
+		vsnd_duration = 1.792
 	}
 	frank_ping_use_glitch_ping_2d = 
 	{
@@ -15478,7 +15478,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_use_kncokdown.vsnd",
 		]
-		vsnd_duration = 1.398000
+		vsnd_duration = 1.398
 	}
 	frank_ping_use_refresher_ping_2d = 
 	{
@@ -15518,7 +15518,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_use_stim_pack.vsnd",
 		]
-		vsnd_duration = 1.479750
+		vsnd_duration = 1.47975
 	}
 	frank_ping_use_warp_stone_ping_2d = 
 	{
@@ -15528,7 +15528,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_use_warp_stone.vsnd",
 		]
-		vsnd_duration = 1.618000
+		vsnd_duration = 1.618
 	}
 	frank_ping_vampirebat_almost_respawn_ping_2d = 
 	{
@@ -15578,7 +15578,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_vampirebat_missing_01.vsnd",
 		]
-		vsnd_duration = 1.045000
+		vsnd_duration = 1.045
 	}
 	frank_ping_vampirebat_on_top_of_garage_ping_2d = 
 	{
@@ -15678,7 +15678,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_viper_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.482000
+		vsnd_duration = 1.482
 	}
 	frank_ping_viper_on_top_of_mid_ping_2d = 
 	{
@@ -15698,7 +15698,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_viper_under_garage.vsnd",
 		]
-		vsnd_duration = 1.354000
+		vsnd_duration = 1.354
 	}
 	frank_ping_viper_was_here_ping_2d = 
 	{
@@ -15828,7 +15828,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_warden_check_items.vsnd",
 		]
-		vsnd_duration = 1.760000
+		vsnd_duration = 1.76
 	}
 	frank_ping_warden_dead_ping_2d = 
 	{
@@ -15858,7 +15858,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_warden_missing_01.vsnd",
 		]
-		vsnd_duration = 1.520000
+		vsnd_duration = 1.52
 	}
 	frank_ping_warden_on_top_of_garage_ping_2d = 
 	{
@@ -15878,7 +15878,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_warden_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.442000
+		vsnd_duration = 1.442
 	}
 	frank_ping_warden_under_garage_ping_2d = 
 	{
@@ -15898,7 +15898,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_warden_was_here.vsnd",
 		]
-		vsnd_duration = 1.290000
+		vsnd_duration = 1.29
 	}
 	frank_ping_warp_stone_almost_ready_ping_2d = 
 	{
@@ -15938,7 +15938,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_well_played.vsnd",
 		]
-		vsnd_duration = 1.318000
+		vsnd_duration = 1.318
 	}
 	frank_ping_with_astro_ping_2d = 
 	{
@@ -15988,7 +15988,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_with_chrono.vsnd",
 		]
-		vsnd_duration = 1.382000
+		vsnd_duration = 1.382
 	}
 	frank_ping_with_doorman_ping_2d = 
 	{
@@ -16018,7 +16018,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_with_dynamo.vsnd",
 		]
-		vsnd_duration = 1.238000
+		vsnd_duration = 1.238
 	}
 	frank_ping_with_forge_ping_2d = 
 	{
@@ -16028,7 +16028,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_with_forge.vsnd",
 		]
-		vsnd_duration = 1.296000
+		vsnd_duration = 1.296
 	}
 	frank_ping_with_ghost_ping_2d = 
 	{
@@ -16058,7 +16058,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_with_haze.vsnd",
 		]
-		vsnd_duration = 1.070000
+		vsnd_duration = 1.07
 	}
 	frank_ping_with_hornet_ping_2d = 
 	{
@@ -16138,7 +16138,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_with_nano.vsnd",
 		]
-		vsnd_duration = 1.370000
+		vsnd_duration = 1.37
 	}
 	frank_ping_with_orion_ping_2d = 
 	{
@@ -16178,7 +16178,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_with_shiv.vsnd",
 		]
-		vsnd_duration = 1.058000
+		vsnd_duration = 1.058
 	}
 	frank_ping_with_slork_ping_2d = 
 	{
@@ -16218,7 +16218,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_with_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.181000
+		vsnd_duration = 1.181
 	}
 	frank_ping_with_viper_ping_2d = 
 	{
@@ -16238,7 +16238,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_with_viscous.vsnd",
 		]
-		vsnd_duration = 1.168500
+		vsnd_duration = 1.1685
 	}
 	frank_ping_with_warden_ping_2d = 
 	{
@@ -16278,7 +16278,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_wraith_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.700000
+		vsnd_duration = 1.7
 	}
 	frank_ping_wraith_check_items_ping_2d = 
 	{
@@ -16298,7 +16298,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_wraith_dead.vsnd",
 		]
-		vsnd_duration = 1.130000
+		vsnd_duration = 1.13
 	}
 	frank_ping_wraith_in_mid_ping_2d = 
 	{
@@ -16308,7 +16308,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_wraith_in_mid.vsnd",
 		]
-		vsnd_duration = 1.018000
+		vsnd_duration = 1.018
 	}
 	frank_ping_wraith_missing_01_ping_2d = 
 	{
@@ -16358,7 +16358,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_wraith_was_here.vsnd",
 		]
-		vsnd_duration = 1.060000
+		vsnd_duration = 1.06
 	}
 	frank_ping_yamato_almost_respawn_ping_2d = 
 	{
@@ -16368,7 +16368,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_yamato_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.850000
+		vsnd_duration = 1.85
 	}
 	frank_ping_yamato_check_items_ping_2d = 
 	{
@@ -16398,7 +16398,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_yamato_in_mid.vsnd",
 		]
-		vsnd_duration = 1.074000
+		vsnd_duration = 1.074
 	}
 	frank_ping_yamato_missing_01_ping_2d = 
 	{
@@ -16418,7 +16418,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_yamato_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.586000
+		vsnd_duration = 1.586
 	}
 	frank_ping_yamato_on_top_of_mid_ping_2d = 
 	{
@@ -16428,7 +16428,7 @@
 		[
 			"sounds/vo/frank/ping/frank_ping_yamato_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.458000
+		vsnd_duration = 1.458
 	}
 	frank_ping_yamato_under_garage_ping_2d = 
 	{
@@ -16518,7 +16518,7 @@
 		[
 			"sounds/vo/frank/frank_sad_04.vsnd",
 		]
-		vsnd_duration = 2.164500
+		vsnd_duration = 2.1645
 	}
 	frank_sad_05_hero_3d = 
 	{
@@ -16558,7 +16558,7 @@
 		[
 			"sounds/vo/frank/frank_sad_08.vsnd",
 		]
-		vsnd_duration = 2.242000
+		vsnd_duration = 2.242
 	}
 	frank_sad_09_hero_3d = 
 	{
@@ -16598,7 +16598,7 @@
 		[
 			"sounds/vo/frank/frank_see_enemy_metal_skin_02.vsnd",
 		]
-		vsnd_duration = 1.532000
+		vsnd_duration = 1.532
 	}
 	frank_see_enemy_metal_skin_03_hero_3d = 
 	{
@@ -16608,7 +16608,7 @@
 		[
 			"sounds/vo/frank/frank_see_enemy_metal_skin_03.vsnd",
 		]
-		vsnd_duration = 1.746000
+		vsnd_duration = 1.746
 	}
 	frank_see_money_01_hero_3d = 
 	{
@@ -16628,7 +16628,7 @@
 		[
 			"sounds/vo/frank/frank_see_money_02.vsnd",
 		]
-		vsnd_duration = 1.663000
+		vsnd_duration = 1.663
 	}
 	frank_see_money_03_hero_3d = 
 	{
@@ -16658,7 +16658,7 @@
 		[
 			"sounds/vo/frank/frank_select_02.vsnd",
 		]
-		vsnd_duration = 3.044000
+		vsnd_duration = 3.044
 	}
 	frank_select_03_hero_3d = 
 	{
@@ -16718,7 +16718,7 @@
 		[
 			"sounds/vo/frank/frank_select_08.vsnd",
 		]
-		vsnd_duration = 6.420000
+		vsnd_duration = 6.42
 	}
 	frank_select_09_hero_3d = 
 	{
@@ -16768,7 +16768,7 @@
 		[
 			"sounds/vo/frank/frank_t1_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 1.862000
+		vsnd_duration = 1.862
 	}
 	frank_t2_shop_reminder_01_hero_3d = 
 	{
@@ -16818,7 +16818,7 @@
 		[
 			"sounds/vo/frank/frank_t3_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 2.794500
+		vsnd_duration = 2.7945
 	}
 	frank_t3_shop_reminder_03_hero_3d = 
 	{
@@ -16838,7 +16838,7 @@
 		[
 			"sounds/vo/frank/frank_t4_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 2.323000
+		vsnd_duration = 2.323
 	}
 	frank_t4_shop_reminder_02_hero_3d = 
 	{
@@ -16848,7 +16848,7 @@
 		[
 			"sounds/vo/frank/frank_t4_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 1.829750
+		vsnd_duration = 1.82975
 	}
 	frank_t4_shop_reminder_03_hero_3d = 
 	{
@@ -16868,7 +16868,7 @@
 		[
 			"sounds/vo/frank/frank_tower_got_denied_01.vsnd",
 		]
-		vsnd_duration = 1.473000
+		vsnd_duration = 1.473
 	}
 	frank_tower_got_denied_02_hero_3d = 
 	{
@@ -16908,7 +16908,7 @@
 		[
 			"sounds/vo/frank/frank_tower_got_denied_05.vsnd",
 		]
-		vsnd_duration = 2.367750
+		vsnd_duration = 2.36775
 	}
 	frank_unselect_01_hero_3d = 
 	{
@@ -17018,7 +17018,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power1_01.vsnd",
 		]
-		vsnd_duration = 2.821000
+		vsnd_duration = 2.821
 	}
 	frank_upgrade_power1_02_hero_3d = 
 	{
@@ -17048,7 +17048,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power1_04.vsnd",
 		]
-		vsnd_duration = 2.170500
+		vsnd_duration = 2.1705
 	}
 	frank_upgrade_power1_05_hero_3d = 
 	{
@@ -17058,7 +17058,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power1_05.vsnd",
 		]
-		vsnd_duration = 2.266000
+		vsnd_duration = 2.266
 	}
 	frank_upgrade_power1_06_hero_3d = 
 	{
@@ -17078,7 +17078,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power1_07.vsnd",
 		]
-		vsnd_duration = 1.448000
+		vsnd_duration = 1.448
 	}
 	frank_upgrade_power1_08_hero_3d = 
 	{
@@ -17128,7 +17128,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power2_02.vsnd",
 		]
-		vsnd_duration = 2.602000
+		vsnd_duration = 2.602
 	}
 	frank_upgrade_power2_03_hero_3d = 
 	{
@@ -17158,7 +17158,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power2_05.vsnd",
 		]
-		vsnd_duration = 2.474500
+		vsnd_duration = 2.4745
 	}
 	frank_upgrade_power2_06_hero_3d = 
 	{
@@ -17168,7 +17168,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power2_06.vsnd",
 		]
-		vsnd_duration = 3.764500
+		vsnd_duration = 3.7645
 	}
 	frank_upgrade_power2_07_hero_3d = 
 	{
@@ -17178,7 +17178,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power2_07.vsnd",
 		]
-		vsnd_duration = 1.717500
+		vsnd_duration = 1.7175
 	}
 	frank_upgrade_power2_08_hero_3d = 
 	{
@@ -17188,7 +17188,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power2_08.vsnd",
 		]
-		vsnd_duration = 1.505500
+		vsnd_duration = 1.5055
 	}
 	frank_upgrade_power2_09_hero_3d = 
 	{
@@ -17218,7 +17218,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power3_01.vsnd",
 		]
-		vsnd_duration = 2.086000
+		vsnd_duration = 2.086
 	}
 	frank_upgrade_power3_02_hero_3d = 
 	{
@@ -17278,7 +17278,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power3_07.vsnd",
 		]
-		vsnd_duration = 3.018000
+		vsnd_duration = 3.018
 	}
 	frank_upgrade_power3_08_hero_3d = 
 	{
@@ -17288,7 +17288,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power3_08.vsnd",
 		]
-		vsnd_duration = 2.105000
+		vsnd_duration = 2.105
 	}
 	frank_upgrade_power3_09_hero_3d = 
 	{
@@ -17318,7 +17318,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power4_01.vsnd",
 		]
-		vsnd_duration = 2.126500
+		vsnd_duration = 2.1265
 	}
 	frank_upgrade_power4_02_hero_3d = 
 	{
@@ -17328,7 +17328,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power4_02.vsnd",
 		]
-		vsnd_duration = 1.635000
+		vsnd_duration = 1.635
 	}
 	frank_upgrade_power4_03_hero_3d = 
 	{
@@ -17368,7 +17368,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power4_06.vsnd",
 		]
-		vsnd_duration = 2.182500
+		vsnd_duration = 2.1825
 	}
 	frank_upgrade_power4_07_hero_3d = 
 	{
@@ -17408,7 +17408,7 @@
 		[
 			"sounds/vo/frank/frank_upgrade_power4_10.vsnd",
 		]
-		vsnd_duration = 2.603500
+		vsnd_duration = 2.6035
 	}
 	frank_use_ability_refresher_01_ability_3d = 
 	{
@@ -17418,7 +17418,7 @@
 		[
 			"sounds/vo/frank/frank_use_ability_refresher_01.vsnd",
 		]
-		vsnd_duration = 1.507000
+		vsnd_duration = 1.507
 	}
 	frank_use_ability_refresher_02_ability_3d = 
 	{
@@ -17448,7 +17448,7 @@
 		[
 			"sounds/vo/frank/frank_use_colossus_01.vsnd",
 		]
-		vsnd_duration = 1.282000
+		vsnd_duration = 1.282
 	}
 	frank_use_colossus_02_ability_3d = 
 	{
@@ -17468,7 +17468,7 @@
 		[
 			"sounds/vo/frank/frank_use_colossus_03.vsnd",
 		]
-		vsnd_duration = 1.367000
+		vsnd_duration = 1.367
 	}
 	frank_use_curse_01_ability_3d = 
 	{
@@ -17488,7 +17488,7 @@
 		[
 			"sounds/vo/frank/frank_use_curse_02.vsnd",
 		]
-		vsnd_duration = 1.105000
+		vsnd_duration = 1.105
 	}
 	frank_use_curse_03_ability_3d = 
 	{
@@ -17498,7 +17498,7 @@
 		[
 			"sounds/vo/frank/frank_use_curse_03.vsnd",
 		]
-		vsnd_duration = 1.495000
+		vsnd_duration = 1.495
 	}
 	frank_use_decay_01_ability_3d = 
 	{
@@ -17508,7 +17508,7 @@
 		[
 			"sounds/vo/frank/frank_use_decay_01.vsnd",
 		]
-		vsnd_duration = 1.036000
+		vsnd_duration = 1.036
 	}
 	frank_use_decay_02_ability_3d = 
 	{
@@ -17548,7 +17548,7 @@
 		[
 			"sounds/vo/frank/frank_use_echo_shard_02.vsnd",
 		]
-		vsnd_duration = 1.395000
+		vsnd_duration = 1.395
 	}
 	frank_use_echo_shard_03_ability_3d = 
 	{
@@ -17558,7 +17558,7 @@
 		[
 			"sounds/vo/frank/frank_use_echo_shard_03.vsnd",
 		]
-		vsnd_duration = 2.113000
+		vsnd_duration = 2.113
 	}
 	frank_use_ice_blast_01_ability_3d = 
 	{
@@ -17568,7 +17568,7 @@
 		[
 			"sounds/vo/frank/frank_use_ice_blast_01.vsnd",
 		]
-		vsnd_duration = 1.340000
+		vsnd_duration = 1.34
 	}
 	frank_use_ice_blast_02_ability_3d = 
 	{
@@ -17588,7 +17588,7 @@
 		[
 			"sounds/vo/frank/frank_use_ice_blast_03.vsnd",
 		]
-		vsnd_duration = 1.300000
+		vsnd_duration = 1.3
 	}
 	frank_use_metal_skin_01_ability_3d = 
 	{
@@ -17598,7 +17598,7 @@
 		[
 			"sounds/vo/frank/frank_use_metal_skin_01.vsnd",
 		]
-		vsnd_duration = 1.378000
+		vsnd_duration = 1.378
 	}
 	frank_use_metal_skin_02_ability_3d = 
 	{
@@ -17618,7 +17618,7 @@
 		[
 			"sounds/vo/frank/frank_use_metal_skin_03.vsnd",
 		]
-		vsnd_duration = 2.299000
+		vsnd_duration = 2.299
 	}
 	frank_use_phantom_strike_01_ability_3d = 
 	{
@@ -17628,7 +17628,7 @@
 		[
 			"sounds/vo/frank/frank_use_phantom_strike_01.vsnd",
 		]
-		vsnd_duration = 1.513000
+		vsnd_duration = 1.513
 	}
 	frank_use_phantom_strike_02_ability_3d = 
 	{
@@ -17638,7 +17638,7 @@
 		[
 			"sounds/vo/frank/frank_use_phantom_strike_02.vsnd",
 		]
-		vsnd_duration = 1.071000
+		vsnd_duration = 1.071
 	}
 	frank_use_phantom_strike_03_ability_3d = 
 	{
@@ -17658,7 +17658,7 @@
 		[
 			"sounds/vo/frank/frank_use_power1_01.vsnd",
 		]
-		vsnd_duration = 1.422000
+		vsnd_duration = 1.422
 	}
 	frank_use_power1_02_ability_3d = 
 	{
@@ -17668,7 +17668,7 @@
 		[
 			"sounds/vo/frank/frank_use_power1_02.vsnd",
 		]
-		vsnd_duration = 1.174000
+		vsnd_duration = 1.174
 	}
 	frank_use_power1_03_ability_3d = 
 	{
@@ -17708,7 +17708,7 @@
 		[
 			"sounds/vo/frank/frank_use_power1_06.vsnd",
 		]
-		vsnd_duration = 1.150000
+		vsnd_duration = 1.15
 	}
 	frank_use_power1_07_ability_3d = 
 	{
@@ -17748,7 +17748,7 @@
 		[
 			"sounds/vo/frank/frank_use_power1_10.vsnd",
 		]
-		vsnd_duration = 1.456000
+		vsnd_duration = 1.456
 	}
 	frank_use_power2_01_ability_3d = 
 	{
@@ -17858,7 +17858,7 @@
 		[
 			"sounds/vo/frank/frank_use_power3_01.vsnd",
 		]
-		vsnd_duration = 1.706000
+		vsnd_duration = 1.706
 	}
 	frank_use_power3_02_ability_3d = 
 	{
@@ -17868,7 +17868,7 @@
 		[
 			"sounds/vo/frank/frank_use_power3_02.vsnd",
 		]
-		vsnd_duration = 0.978000
+		vsnd_duration = 0.978
 	}
 	frank_use_power3_03_ability_3d = 
 	{
@@ -17898,7 +17898,7 @@
 		[
 			"sounds/vo/frank/frank_use_power3_05.vsnd",
 		]
-		vsnd_duration = 1.978000
+		vsnd_duration = 1.978
 	}
 	frank_use_power3_06_ability_3d = 
 	{
@@ -17908,7 +17908,7 @@
 		[
 			"sounds/vo/frank/frank_use_power3_06.vsnd",
 		]
-		vsnd_duration = 2.026000
+		vsnd_duration = 2.026
 	}
 	frank_use_power3_07_ability_3d = 
 	{
@@ -17918,7 +17918,7 @@
 		[
 			"sounds/vo/frank/frank_use_power3_07.vsnd",
 		]
-		vsnd_duration = 1.566000
+		vsnd_duration = 1.566
 	}
 	frank_use_power3_08_ability_3d = 
 	{
@@ -17988,7 +17988,7 @@
 		[
 			"sounds/vo/frank/frank_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.762000
+		vsnd_duration = 1.762
 	}
 	frank_use_power4_02_hero_announcer = 
 	{
@@ -17998,7 +17998,7 @@
 		[
 			"sounds/vo/frank/frank_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.762000
+		vsnd_duration = 1.762
 	}
 	frank_use_power4_02_ult_3d = 
 	{
@@ -18008,7 +18008,7 @@
 		[
 			"sounds/vo/frank/frank_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.762000
+		vsnd_duration = 1.762
 	}
 	frank_use_power4_03_ability_3d = 
 	{
@@ -18018,7 +18018,7 @@
 		[
 			"sounds/vo/frank/frank_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.306000
+		vsnd_duration = 1.306
 	}
 	frank_use_power4_03_hero_announcer = 
 	{
@@ -18028,7 +18028,7 @@
 		[
 			"sounds/vo/frank/frank_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.306000
+		vsnd_duration = 1.306
 	}
 	frank_use_power4_03_ult_3d = 
 	{
@@ -18038,7 +18038,7 @@
 		[
 			"sounds/vo/frank/frank_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.306000
+		vsnd_duration = 1.306
 	}
 	frank_use_power4_04_ability_3d = 
 	{
@@ -18198,7 +18198,7 @@
 		[
 			"sounds/vo/frank/frank_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.922000
+		vsnd_duration = 1.922
 	}
 	frank_use_power4_09_hero_announcer = 
 	{
@@ -18208,7 +18208,7 @@
 		[
 			"sounds/vo/frank/frank_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.922000
+		vsnd_duration = 1.922
 	}
 	frank_use_power4_09_ult_3d = 
 	{
@@ -18218,7 +18218,7 @@
 		[
 			"sounds/vo/frank/frank_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.922000
+		vsnd_duration = 1.922
 	}
 	frank_use_power4_10_ability_3d = 
 	{
@@ -18288,7 +18288,7 @@
 		[
 			"sounds/vo/frank/frank_use_silencer_01.vsnd",
 		]
-		vsnd_duration = 1.683000
+		vsnd_duration = 1.683
 	}
 	frank_use_silencer_02_ability_3d = 
 	{
@@ -18318,7 +18318,7 @@
 		[
 			"sounds/vo/frank/frank_use_tech_purge_01.vsnd",
 		]
-		vsnd_duration = 1.104000
+		vsnd_duration = 1.104
 	}
 	frank_use_tech_purge_02_ability_3d = 
 	{
@@ -18328,7 +18328,7 @@
 		[
 			"sounds/vo/frank/frank_use_tech_purge_02.vsnd",
 		]
-		vsnd_duration = 1.656000
+		vsnd_duration = 1.656
 	}
 	frank_use_tech_purge_03_ability_3d = 
 	{
@@ -18358,7 +18358,7 @@
 		[
 			"sounds/vo/frank/frank_use_unstoppable_02.vsnd",
 		]
-		vsnd_duration = 1.516000
+		vsnd_duration = 1.516
 	}
 	frank_use_unstoppable_03_ability_3d = 
 	{
@@ -18378,7 +18378,7 @@
 		[
 			"sounds/vo/frank/frank_use_vampiric_burst_01.vsnd",
 		]
-		vsnd_duration = 1.619000
+		vsnd_duration = 1.619
 	}
 	frank_use_vampiric_burst_02_ability_3d = 
 	{
@@ -18398,6 +18398,6 @@
 		[
 			"sounds/vo/frank/frank_use_vampiric_burst_03.vsnd",
 		]
-		vsnd_duration = 1.791000
+		vsnd_duration = 1.791
 	}
 }

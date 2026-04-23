@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -55,14 +53,12 @@
 					}
 				}
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_execute = "1"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "closest_point_on_line"
 				operator = "calc_closest_point_on_line"
@@ -70,7 +66,6 @@
 				input_line_start = "@public.start_point"
 				input_line_end = "@public.end_point"
 			},
-			
 			{
 				name = "citadel_perspective_default"
 				operator = "sos_import_stack"
@@ -90,7 +85,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "draw_sound_position"
 				input_execute = "@public.draw_debug"
@@ -99,7 +93,6 @@
 				input_radius_min = "20.f"
 				input_radius_max = "20.f"
 			},
-			
 			{
 				name = "draw_sound_start"
 				input_execute = "@public.draw_debug"
@@ -108,7 +101,6 @@
 				input_radius_min = "20.f"
 				input_radius_max = "20.f"
 			},
-			
 			{
 				name = "draw_sound_end"
 				input_execute = "@public.draw_debug"

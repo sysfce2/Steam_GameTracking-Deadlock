@@ -5,53 +5,30 @@
 	{
 		m_Models = 
 		[
-			
 			{
 				m_ModelName = resource_name:"models/editor/playerstart.vmdl"
-				m_flWeight = 0.100000
-				m_flOrientToSurface = 1.000000
-				m_flMaxSurfaceSlope = 90.000000
-				m_flRandomScaleMax = 2.000000
-				m_vRandomRotationMax = 
-				[
-					0.000000,
-					0.000000,
-					0.000000,
-				]
-				m_vRandomRotationMin = 
-				[
-					0.000000,
-					0.000000,
-					0.000000,
-				]
-				m_flRandomScaleMin = 0.500000
+				m_flWeight = 0.1
+				m_flOrientToSurface = 1.0
+				m_flMaxSurfaceSlope = 90.0
+				m_flRandomScaleMax = 2.0
+				m_vRandomRotationMax = [ 0.0, 0.0, 0.0 ]
+				m_vRandomRotationMin = [ 0.0, 0.0, 0.0 ]
+				m_flRandomScaleMin = 0.5
 				m_bCastStaticShadows = true
-				m_flStartFadeSize = 0.020000
-				m_flEndFadeSize = 0.012500
+				m_flStartFadeSize = 0.02
+				m_flEndFadeSize = 0.0125
 			},
-			
 			{
 				m_ModelName = resource_name:"models/editor/proxy_helper.vmdl"
-				m_flRandomScaleMin = 4.000000
-				m_flRandomScaleMax = 4.000000
-				m_flMinSurfaceSlope = 90.000000
-				m_vRandomRotationMin = 
-				[
-					-15.000000,
-					0.000000,
-					0.000000,
-				]
-				m_vRandomRotationMax = 
-				[
-					15.000000,
-					360.000000,
-					0.000000,
-				]
+				m_flRandomScaleMin = 4.0
+				m_flRandomScaleMax = 4.0
+				m_flMinSurfaceSlope = 90.0
+				m_vRandomRotationMin = [ -15.0, 0.0, 0.0 ]
+				m_vRandomRotationMax = [ 15.0, 360.0, 0.0 ]
 			},
-			
 			{
 				m_ModelName = resource_name:"models/editor/cordon_helper.vmdl"
-				m_flWeight = 0.010000
+				m_flWeight = 0.01
 			},
 		]
 	}

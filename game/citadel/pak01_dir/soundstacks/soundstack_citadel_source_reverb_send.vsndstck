@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -132,7 +131,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "math_should_update"
 				execute_once = "1.0"
@@ -141,20 +139,17 @@
 				input1 = "1.0"
 				input2 = "@public.source_reverb_update"
 			},
-			
 			{
 				name = "source_info"
 				execute_once = "1.0"
 				operator = "game_get_source_info"
 			},
-			
 			{
 				name = "citadel_entity_info"
 				execute_once = "@math_should_update.output"
 				operator = "citadel_entity_info"
 				input_entity_index = "@source_info.output_entity_index"
 			},
-			
 			{
 				name = "remap_exterior_reverb_level"
 				execute_once = "@math_should_update.output"
@@ -162,7 +157,6 @@
 				input = "@citadel_entity_info.output_enclosure"
 				public_field_name = "public.source_reverb_enclosure_exterior_level"
 			},
-			
 			{
 				name = "math_invert_exterior"
 				execute_once = "@math_should_update.output"
@@ -171,7 +165,6 @@
 				input1 = "1.0"
 				input2 = "@remap_exterior_reverb_level.output"
 			},
-			
 			{
 				name = "math_reverb_exterior_amount_max"
 				execute_once = "@math_should_update.output"
@@ -180,16 +173,14 @@
 				input1 = "@remap_exterior_reverb_level.output"
 				input2 = "@public.source_reverb_sky_exposed_exterior_floor"
 			},
-			
 			{
 				name = "ctrl_switch_exterior_amount"
-				execute_once = 1.000000
+				execute_once = 1.0
 				operator = "ctrl_switch_float"
 				input_switch = "@citadel_entity_info.output_has_sky_exposure"
 				input1 = "@remap_exterior_reverb_level.output"
 				input2 = "@math_reverb_exterior_amount_max.output"
 			},
-			
 			{
 				name = "remap_distance_mult"
 				execute_once = "@math_should_update.output"
@@ -197,7 +188,6 @@
 				input = "@public.source_reverb_distance"
 				public_field_name = "public.source_reverb_distance_level_mult"
 			},
-			
 			{
 				name = "math_source_reverb_level"
 				operator = "math_accumulate12_float"
@@ -207,7 +197,6 @@
 				input3 = "@public.source_reverb_voice_volume"
 				input4 = "@public.source_reverb_mixer_dsp"
 			},
-			
 			{
 				name = "send_reverb_level"
 				execute_once = "@math_should_update.output"
@@ -215,7 +204,6 @@
 				input_name = "source_reverb_level"
 				input = "@math_source_reverb_level.output"
 			},
-			
 			{
 				name = "send_exterior_amount"
 				execute_once = "@math_should_update.output"
@@ -223,7 +211,6 @@
 				input_name = "source_reverb_exterior_amount"
 				input = "@ctrl_switch_exterior_amount.output"
 			},
-			
 			{
 				name = "send_interior_amount"
 				execute_once = "@math_should_update.output"
@@ -231,7 +218,6 @@
 				input_name = "source_reverb_interior_amount"
 				input = "@math_invert_exterior.output"
 			},
-			
 			{
 				name = "globals"
 				execute_once = "@math_should_update.output"
@@ -239,7 +225,6 @@
 				input_execute = "1.0"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "math_dot_product_listener_right"
 				execute_once = "@math_should_update.output"
@@ -248,7 +233,6 @@
 				input_listener_position = "@globals.output_listener_position"
 				input_source_position = "@public.source_reverb_emitter_location"
 			},
-			
 			{
 				name = "math_invert_dot"
 				execute_once = "@math_should_update.output"
@@ -257,7 +241,6 @@
 				input1 = "@math_dot_product_listener_right.output_dot_product"
 				input2 = "-1.0"
 			},
-			
 			{
 				name = "remap_pan_spread"
 				operator = "math_remap_float"
@@ -269,7 +252,6 @@
 				input_map_max = "@math_invert_dot.output"
 				default_to_max = "false"
 			},
-			
 			{
 				name = "send_panner_value"
 				input_execute = "1.0"
@@ -278,7 +260,6 @@
 				input_name = "source_reverb_pan_amount"
 				input = "@remap_pan_spread.output"
 			},
-			
 			{
 				name = "send_enclosure_param"
 				input_execute = "1"

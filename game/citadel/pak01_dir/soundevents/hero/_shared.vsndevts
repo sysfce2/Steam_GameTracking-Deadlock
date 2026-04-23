@@ -3,7 +3,7 @@
 	Hero.Default.Footstep = 
 	{
 		base = "Base.Footsteps"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hero_self/06.vsnd",
@@ -21,7 +21,7 @@
 	Hero.Default.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -13.000000
+		volume = -13.0
 		vsnd_files = 
 		[
 			"sounds/weapons/dynamo/zoom/in_1.vsnd",
@@ -35,7 +35,7 @@
 	Hero.Default.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = 
 		[
 			"sounds/weapons/dynamo/zoom/out_1.vsnd",
@@ -49,7 +49,7 @@
 	Hero.Default.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/generic/foley_light/default_foley_01.vsnd",
@@ -62,12 +62,12 @@
 			"sounds/player/movement/generic/foley_light/default_foley_08.vsnd",
 			"sounds/player/movement/generic/foley_light/default_foley_09.vsnd",
 		]
-		vsnd_duration = 0.730000
+		vsnd_duration = 0.73
 	}
 	Hero.Default.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/generic/foley_light/default_foley_light_01.vsnd",
@@ -85,7 +85,7 @@
 	Hero.Default.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/generic/foley_light/default_mantle_01.vsnd",
@@ -103,7 +103,7 @@
 	Hero.Default.Melee.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_charged_01.vsnd",
@@ -129,7 +129,7 @@
 	Hero.Default.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -174,8 +174,8 @@
 	Hero.Default.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 0.000000
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		volume = 0.0
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hero_self/06.vsnd",
@@ -205,8 +205,8 @@
 	Footstep.Urn.Sweetener = 
 	{
 		base = "Base.Footsteps"
-		pitch = 0.800000
-		volume = -1.500000
+		pitch = 0.8
+		volume = -1.5
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_01.vsnd",
@@ -223,7 +223,7 @@
 	Footstep.MetalSkin.Sweetener = 
 	{
 		base = "Base.Footsteps"
-		volume = 3.500000
+		volume = 3.5
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/shared/surface_sweeteners/footstep_metalskin_sweetener_01.vsnd",

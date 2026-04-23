@@ -3,13 +3,13 @@
 	Haze.Wpn.Fire.Main = 
 	{
 		base = "Base.Weapon.Pistol"
-		volume = 2.000000
-		volume_fade_out = 0.300000
+		volume = 2.0
+		volume_fade_out = 0.3
 		fade_type = "equal_power"
-		low_ammo_threshold = 8.000000
-		tail_vol_offset_db = -2.000000
-		tail_interior_vol_offset_db = -12.000000
-		last_shot_vol_offset_db = 0.000000
+		low_ammo_threshold = 8.0
+		tail_vol_offset_db = -2.0
+		tail_interior_vol_offset_db = -12.0
+		last_shot_vol_offset_db = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/haze/haze_weapon_fire_01.vsnd",
@@ -30,53 +30,28 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.999681,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.999681, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-1.001785,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -1.001785,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-2.003571,
-				-1.001785,
-				-1.001785,
-				0.000000,
-				1.000000,
+				3.0, -2.003571, -1.001785, -1.001785,
+				0.0, 1.0,
 			],
 		]
 		vsnd_files_last_shot = 
@@ -88,8 +63,8 @@
 	Haze.Wpn.Fire.First = 
 	{
 		base = "Haze.Wpn.Fire.Main"
-		transient_offset_db = 3.000000
-		limiter_max = 0.000000
+		transient_offset_db = 3.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/haze/haze_weapon_fire_first_01.vsnd",
@@ -104,7 +79,7 @@
 	Haze.Wpn.Fire.Release = 
 	{
 		base = "Base.Weapon.Tail"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files_tail = 
 		[
 			"sounds/weapons/haze/haze_weapon_fire_release_01.vsnd",
@@ -116,44 +91,24 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.999681,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.999681, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 1.698753
@@ -167,7 +122,7 @@
 	Haze.Wpn.BulletWhizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/weapons/haze/haze_weapon_whizby_groupA-001.vsnd",
@@ -196,9 +151,9 @@
 	Haze.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -26.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = -26.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/weapons/haze/zoom/in_1.vsnd",
@@ -208,17 +163,17 @@
 	Haze.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume = -30.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume = -30.0
 		vsnd_files = "sounds/weapons/haze/zoom/out_1.vsnd"
-		vsnd_duration = 1.033500
+		vsnd_duration = 1.0335
 	}
 	Haze.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/haze/reload/haze_wpn_reload_start_01.vsnd",
@@ -230,8 +185,8 @@
 	Haze.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/haze/reload/haze_wpn_reload_mid_01.vsnd",
@@ -243,8 +198,8 @@
 	Haze.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/haze/reload/haze_wpn_reload_end_01.vsnd",
@@ -256,25 +211,25 @@
 	Haze.Finesse.Dagger.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/haze/haze_sleep_dagger_cast.vsnd"
-		vsnd_duration = 1.674830
+		vsnd_duration = 1.67483
 	}
 	Haze.Finesse.Dagger.Projectile.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 2.000000
-		pitch = 1.200000
-		delay_rand_max = -6.000000
-		param_envelope_enabled = 1.000000
+		volume = 2.0
+		pitch = 1.2
+		delay_rand_max = -6.0
+		param_envelope_enabled = 1.0
 		vsnd_files = "sounds/abilities/haze/haze_sleep_dagger_lp.vsnd"
 		vsnd_duration = 7.494376
 	}
 	Haze.Finesse.Dagger.Projectile.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		whizby_time_to_peak = 0.150000
-		volume = 5.000000
+		whizby_time_to_peak = 0.15
+		volume = 5.0
 		vsnd_files = 
 		[
 			"sounds/abilities/haze/haze_sleep_dagger_whizby_01.vsnd",
@@ -290,44 +245,44 @@
 	{
 		base = "Base.Ability.Hit"
 		filter_include_others = true
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/haze/haze_sleep_dagger_hit.vsnd"
 		vsnd_duration = 3.344989
 	}
 	Haze.Finesse.Dagger.Detonate = 
 	{
 		base = "Base.Ability"
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = "sounds/abilities/haze/a1_finesse_dagger/tier3_explosion.vsnd"
 		vsnd_duration = 3.595419
 	}
 	Haze.Smoke.Bomb.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = "sounds/abilities/haze/haze_smoke_bomb_cast.vsnd"
 		vsnd_duration = 4.089683
 	}
 	Haze.Smoke.Bomb.End = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = "sounds/abilities/haze/haze_smoke_bomb_end.vsnd"
 		vsnd_duration = 3.855918
 	}
 	Haze.Smoke.Bomb.Modifier.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -12.000000
-		param_envelope_enabled = 1.000000
+		volume = -12.0
+		param_envelope_enabled = 1.0
 		vsnd_files = "sounds/abilities/haze/haze_smoke_bomb_lp.vsnd"
 		vsnd_duration = 27.567755
 	}
 	Haze.Smoke.Bomb.Invis = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/haze/haze_sleep_dagger_whizby_01.vsnd",
@@ -342,52 +297,52 @@
 	Haze.Foley.Invis.Holster = 
 	{
 		base = "Base.Movement"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/haze/a2_smoke_bomb/holster.vsnd"
-		vsnd_duration = 0.339500
+		vsnd_duration = 0.3395
 	}
 	Haze.Foley.Invis.Draw = 
 	{
 		base = "Base.Movement"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/haze/a2_smoke_bomb/draw.vsnd"
 		vsnd_duration = 0.415458
 	}
 	Haze.BulletFlurry.Modifier.Start = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = "sounds/abilities/haze/haze_bullet_flurry_cast_start.vsnd"
 		vsnd_duration = 2.921565
 	}
 	Haze.BulletFlurry.Cast.Delay = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/haze/haze_bullet_flurry_cast_delay.vsnd"
 		vsnd_duration = 1.852698
 	}
 	Haze.BulletFlurry.Modifier.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
-		delay_rand_max = -10.000000
-		volume_fade_out = 0.250000
+		volume = 2.0
+		delay_rand_max = -10.0
+		volume_fade_out = 0.25
 		vsnd_files = "sounds/abilities/haze/haze_bullet_flurry_cast_lp.vsnd"
-		vsnd_duration = 12.049070
+		vsnd_duration = 12.04907
 	}
 	Haze.BulletFlurry.Modifier.End = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = "sounds/abilities/haze/haze_bullet_flurry_cast_end.vsnd"
 		vsnd_duration = 1.595193
 	}
 	Haze.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -3.000000
-		track_2.vsnd_track_vol_offset_db = -9.000000
+		track_1.vsnd_track_vol_offset_db = -3.0
+		track_2.vsnd_track_vol_offset_db = -9.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/haze/haze_step_01.vsnd",
@@ -431,12 +386,12 @@
 	Haze.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Haze.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/haze/haze_movement_foley_short_01.vsnd",
@@ -461,7 +416,7 @@
 	Haze.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/haze/haze_step_01.vsnd",
@@ -567,58 +522,58 @@
 	Haze.Reload.Twirl = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -8.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.030000
-		pitch = 1.000000
+		volume = -8.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.03
+		pitch = 1.0
 		vsnd_files = "sounds/weapons/haze/reload/twirl.vsnd"
-		vsnd_duration = 0.364490
+		vsnd_duration = 0.36449
 	}
 	Haze.Reload.End_01 = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -7.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.030000
-		pitch = 1.000000
+		volume = -7.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.03
+		pitch = 1.0
 		vsnd_files = "sounds/weapons/haze/reload/end_01.vsnd"
 		vsnd_duration = 0.125147
 	}
 	Haze.Reload.End_02 = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -7.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.030000
-		pitch = 1.000000
+		volume = -7.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.03
+		pitch = 1.0
 		vsnd_files = "sounds/weapons/haze/reload/end_02.vsnd"
 		vsnd_duration = 0.251315
 	}
 	Haze.Reload.Full = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -5.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.030000
-		pitch = 1.000000
-		delay = 0.600000
+		volume = -5.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.03
+		pitch = 1.0
+		delay = 0.6
 		vsnd_files = "sounds/weapons/haze/reload/full.vsnd"
 	}
 	Haze.Finesse.Dagger.Sleep = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 0.000000
-		delay = 0.100000
-		volume_fade_in = 0.400000
-		volume_fade_out = 0.400000
+		volume = 0.0
+		delay = 0.1
+		volume_fade_in = 0.4
+		volume_fade_out = 0.4
 		vsnd_files = "sounds/gameplay/status_effects/sleep.vsnd"
 		vsnd_duration = 7.629932
 	}
 	Haze.Finesse.Dagger.Wake = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 0.000000
-		pitch = 1.000000
+		volume = 0.0
+		pitch = 1.0
 		vsnd_files = "sounds/gameplay/status_effects/sleep_end.vsnd"
 		vsnd_duration = 0.530408
 	}

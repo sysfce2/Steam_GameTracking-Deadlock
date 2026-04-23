@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -110,7 +109,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "reverb_send_distance_curve"
 				operator = "math_curve_2d"
@@ -119,7 +117,6 @@
 				input_scale_x = "@public.reverb_curve_max_distance"
 				input_scale_y = "@public.reverb_curve_scale_y"
 			},
-			
 			{
 				name = "reverb_control_switch"
 				operator = "ctrl_switch_float"
@@ -127,7 +124,6 @@
 				input2 = "@reverb_send_distance_curve.output"
 				input_switch = "@public.reverb_use_curve"
 			},
-			
 			{
 				name = "reverb_mixer_mult"
 				operator = "math_float"
@@ -135,7 +131,6 @@
 				input1 = "@public.reverb_mixer_dsp"
 				input2 = "@reverb_control_switch.output"
 			},
-			
 			{
 				name = "reverb_mult_wet_mix"
 				operator = "math_accumulate12_float"
@@ -144,7 +139,6 @@
 				input2 = "@reverb_mixer_mult.output"
 				input3 = "@public.reverb_level"
 			},
-			
 			{
 				name = "reverb_submix_send"
 				operator = "vmix_mixgraph_send"

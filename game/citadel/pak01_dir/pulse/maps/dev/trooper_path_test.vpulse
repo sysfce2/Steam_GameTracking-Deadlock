@@ -2,7 +2,6 @@
 {
 	m_Cells = 
 	[
-		
 		{
 			_class = "CPulseCell_Inflow_EntOutputHandler"
 			m_nEditorNodeID = 90305796
@@ -16,7 +15,6 @@
 			m_SourceOutput = "OnDamaged"
 			m_ExpectedParamType = "PVAL_VOID"
 		},
-		
 		{
 			_class = "CPulseCell_Inflow_Method"
 			m_nEditorNodeID = 372291322
@@ -36,13 +34,11 @@
 			m_ReturnType = "PVAL_VOID"
 			m_Args = 
 			[
-				
 				{
 					m_Name = "button"
 					m_Description = ""
 					m_Type = "PVAL_EHANDLE:func_button"
 				},
-				
 				{
 					m_Name = "spawner"
 					m_Description = ""
@@ -50,7 +46,6 @@
 				},
 			]
 		},
-		
 		{
 			_class = "CPulseCell_Inflow_EntOutputHandler"
 			m_nEditorNodeID = 653127102
@@ -64,7 +59,6 @@
 			m_SourceOutput = "OnDamaged"
 			m_ExpectedParamType = "PVAL_VOID"
 		},
-		
 		{
 			_class = "CPulseCell_Inflow_GraphHook"
 			m_nEditorNodeID = 836535068
@@ -76,7 +70,6 @@
 			}
 			m_HookName = "CPulseGraphInstance_ServerEntity::BeforeGraphStart"
 		},
-		
 		{
 			_class = "CPulseCell_Inflow_EntOutputHandler"
 			m_nEditorNodeID = 909387449
@@ -90,7 +83,6 @@
 			m_SourceOutput = "OnDamaged"
 			m_ExpectedParamType = "PVAL_VOID"
 		},
-		
 		{
 			_class = "CPulseCell_Inflow_EntOutputHandler"
 			m_nEditorNodeID = 936017305
@@ -109,32 +101,17 @@
 	m_DomainSubType = "PVAL_EHANDLE:point_pulse"
 	m_ParentMapName = "maps/dev/trooper_path_test.vmap"
 	m_ParentXmlName = ""
-	m_Vars = 
-	[
-	]
+	m_Vars = [  ]
 	m_Constants = 
 	[
-		
 		{
 			m_Type = "PVAL_COLOR_RGB"
-			m_Value = 
-			[
-				255,
-				0,
-				0,
-			]
+			m_Value = [ 255, 0, 0 ]
 		},
-		
 		{
 			m_Type = "PVAL_COLOR_RGB"
-			m_Value = 
-			[
-				21,
-				255,
-				0,
-			]
+			m_Value = [ 21, 255, 0 ]
 		},
-		
 		{
 			m_Type = "PVAL_BOOL"
 			m_Value = false
@@ -142,64 +119,51 @@
 	]
 	m_DomainValues = 
 	[
-		
 		{
 			m_nType = "ENTITY_NAME"
 			m_Value = "toggle_d"
 			m_RequiredRuntimeType = "PVAL_EHANDLE:func_button"
 		},
-		
 		{
 			m_nType = "ENTITY_NAME"
 			m_Value = "spawn_d"
 			m_RequiredRuntimeType = "PVAL_EHANDLE:info_trooper_spawn"
 		},
-		
 		{
 			m_nType = "ENTITY_NAME"
 			m_Value = "toggle_a"
 			m_RequiredRuntimeType = "PVAL_EHANDLE:func_button"
 		},
-		
 		{
 			m_nType = "ENTITY_NAME"
 			m_Value = "spawn_a"
 			m_RequiredRuntimeType = "PVAL_EHANDLE:info_trooper_spawn"
 		},
-		
 		{
 			m_nType = "ENTITY_NAME"
 			m_Value = "spawn_b"
 			m_RequiredRuntimeType = "PVAL_EHANDLE:info_trooper_spawn"
 		},
-		
 		{
 			m_nType = "ENTITY_NAME"
 			m_Value = "spawn_c"
 			m_RequiredRuntimeType = "PVAL_EHANDLE:info_trooper_spawn"
 		},
-		
 		{
 			m_nType = "ENTITY_NAME"
 			m_Value = "toggle_b"
 			m_RequiredRuntimeType = "PVAL_EHANDLE:func_button"
 		},
-		
 		{
 			m_nType = "ENTITY_NAME"
 			m_Value = "toggle_c"
 			m_RequiredRuntimeType = "PVAL_EHANDLE:func_button"
 		},
 	]
-	m_BlackboardReferences = 
-	[
-	]
-	m_PublicOutputs = 
-	[
-	]
+	m_BlackboardReferences = [  ]
+	m_PublicOutputs = [  ]
 	m_InvokeBindings = 
 	[
-		
 		{
 			m_RegisterMap = 
 			{
@@ -217,7 +181,6 @@
 			m_nSrcChunk = -1
 			m_nSrcInstruction = -1
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -233,7 +196,6 @@
 			m_nSrcChunk = -1
 			m_nSrcInstruction = -1
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -251,7 +213,6 @@
 			m_nSrcChunk = -1
 			m_nSrcInstruction = -1
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -267,7 +228,6 @@
 			m_nSrcChunk = -1
 			m_nSrcInstruction = -1
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -283,7 +243,6 @@
 			m_nSrcChunk = -1
 			m_nSrcInstruction = -1
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -299,7 +258,6 @@
 			m_nSrcChunk = -1
 			m_nSrcInstruction = -1
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -315,7 +273,6 @@
 			m_nSrcChunk = -1
 			m_nSrcInstruction = -1
 		},
-		
 		{
 			m_RegisterMap = 
 			{
@@ -334,7 +291,6 @@
 	]
 	m_CallInfos = 
 	[
-		
 		{
 			m_PortName = "Call"
 			m_nEditorNodeID = 550759
@@ -351,7 +307,6 @@
 			m_nSrcChunk = 0
 			m_nSrcInstruction = 3
 		},
-		
 		{
 			m_PortName = "Call"
 			m_nEditorNodeID = 387626984
@@ -368,7 +323,6 @@
 			m_nSrcChunk = 2
 			m_nSrcInstruction = 3
 		},
-		
 		{
 			m_PortName = "Call"
 			m_nEditorNodeID = 304269678
@@ -385,7 +339,6 @@
 			m_nSrcChunk = 4
 			m_nSrcInstruction = 3
 		},
-		
 		{
 			m_PortName = "Call"
 			m_nEditorNodeID = 486438664
@@ -403,16 +356,12 @@
 			m_nSrcInstruction = 3
 		},
 	]
-	m_OutputConnections = 
-	[
-	]
+	m_OutputConnections = [  ]
 	m_Chunks = 
 	[
-		
 		{
 			m_Instructions = 
 			[
-				
 				{
 					m_nCode = "NOP"
 					m_nVar = -1
@@ -427,7 +376,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -442,7 +390,6 @@
 					m_nDomainValueIdx = 0
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -457,7 +404,6 @@
 					m_nDomainValueIdx = 1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "PULSE_CALL_SYNC"
 					m_nVar = -1
@@ -472,7 +418,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "RETURN_VOID"
 					m_nVar = -1
@@ -490,7 +435,6 @@
 			]
 			m_Registers = 
 			[
-				
 				{
 					m_nReg = 0
 					m_Type = "PVAL_EHANDLE:func_button"
@@ -498,7 +442,6 @@
 					m_nWrittenByInstruction = 1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 1
 					m_Type = "PVAL_EHANDLE:info_trooper_spawn"
@@ -509,31 +452,26 @@
 			]
 			m_InstructionDebugInfos = 
 			[
-				
 				{
 					m_nFlowNodeID = 90305796
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_PrimaryPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 550759
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 550759
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 550759
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 550759
 					m_nValueNodeID = -1
@@ -541,11 +479,9 @@
 				},
 			]
 		},
-		
 		{
 			m_Instructions = 
 			[
-				
 				{
 					m_nCode = "NOP"
 					m_nVar = -1
@@ -560,7 +496,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "LIBRARY_INVOKE"
 					m_nVar = -1
@@ -575,7 +510,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "NOT"
 					m_nVar = -1
@@ -590,7 +524,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "LIBRARY_INVOKE"
 					m_nVar = -1
@@ -605,7 +538,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "CONVERT_VALUE"
 					m_nVar = -1
@@ -620,7 +552,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "LIBRARY_INVOKE"
 					m_nVar = -1
@@ -635,7 +566,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "JUMP_COND"
 					m_nVar = -1
@@ -650,7 +580,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_CONST"
 					m_nVar = -1
@@ -665,7 +594,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "COPY"
 					m_nVar = -1
@@ -680,7 +608,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "JUMP"
 					m_nVar = -1
@@ -695,7 +622,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_CONST"
 					m_nVar = -1
@@ -710,7 +636,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "COPY"
 					m_nVar = -1
@@ -725,7 +650,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "NOP"
 					m_nVar = -1
@@ -740,7 +664,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "LIBRARY_INVOKE"
 					m_nVar = -1
@@ -755,7 +678,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "RETURN_VOID"
 					m_nVar = -1
@@ -773,7 +695,6 @@
 			]
 			m_Registers = 
 			[
-				
 				{
 					m_nReg = 0
 					m_Type = "PVAL_EHANDLE:func_button"
@@ -781,7 +702,6 @@
 					m_nWrittenByInstruction = -1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 1
 					m_Type = "PVAL_EHANDLE:info_trooper_spawn"
@@ -789,7 +709,6 @@
 					m_nWrittenByInstruction = -1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 2
 					m_Type = "PVAL_BOOL"
@@ -797,7 +716,6 @@
 					m_nWrittenByInstruction = 1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 3
 					m_Type = "PVAL_BOOL"
@@ -805,7 +723,6 @@
 					m_nWrittenByInstruction = 2
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 4
 					m_Type = "PVAL_EHANDLE:basemodelentity"
@@ -813,7 +730,6 @@
 					m_nWrittenByInstruction = 4
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 5
 					m_Type = "PVAL_COLOR_RGB"
@@ -821,7 +737,6 @@
 					m_nWrittenByInstruction = 12
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 6
 					m_Type = "PVAL_COLOR_RGB"
@@ -829,7 +744,6 @@
 					m_nWrittenByInstruction = 7
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 7
 					m_Type = "PVAL_COLOR_RGB"
@@ -840,91 +754,76 @@
 			]
 			m_InstructionDebugInfos = 
 			[
-				
 				{
 					m_nFlowNodeID = 372291322
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_PrimaryPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 934989119
 					m_nValueNodeID = 957644539
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 934989119
 					m_nValueNodeID = 509975030
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 934989119
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = 957644539
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = 956597083
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = 956597083
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = 956597083
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = 956597083
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = 956597083
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = 956597083
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = 956597083
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 256469400
 					m_nValueNodeID = -1
@@ -932,11 +831,9 @@
 				},
 			]
 		},
-		
 		{
 			m_Instructions = 
 			[
-				
 				{
 					m_nCode = "NOP"
 					m_nVar = -1
@@ -951,7 +848,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -966,7 +862,6 @@
 					m_nDomainValueIdx = 2
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -981,7 +876,6 @@
 					m_nDomainValueIdx = 3
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "PULSE_CALL_SYNC"
 					m_nVar = -1
@@ -996,7 +890,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "RETURN_VOID"
 					m_nVar = -1
@@ -1014,7 +907,6 @@
 			]
 			m_Registers = 
 			[
-				
 				{
 					m_nReg = 0
 					m_Type = "PVAL_EHANDLE:func_button"
@@ -1022,7 +914,6 @@
 					m_nWrittenByInstruction = 1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 1
 					m_Type = "PVAL_EHANDLE:info_trooper_spawn"
@@ -1033,31 +924,26 @@
 			]
 			m_InstructionDebugInfos = 
 			[
-				
 				{
 					m_nFlowNodeID = 653127102
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_PrimaryPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 387626984
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 387626984
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 387626984
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 387626984
 					m_nValueNodeID = -1
@@ -1065,11 +951,9 @@
 				},
 			]
 		},
-		
 		{
 			m_Instructions = 
 			[
-				
 				{
 					m_nCode = "NOP"
 					m_nVar = -1
@@ -1084,7 +968,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -1099,7 +982,6 @@
 					m_nDomainValueIdx = 3
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_CONST"
 					m_nVar = -1
@@ -1114,7 +996,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "LIBRARY_INVOKE"
 					m_nVar = -1
@@ -1129,7 +1010,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -1144,7 +1024,6 @@
 					m_nDomainValueIdx = 4
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_CONST"
 					m_nVar = -1
@@ -1159,7 +1038,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "LIBRARY_INVOKE"
 					m_nVar = -1
@@ -1174,7 +1052,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -1189,7 +1066,6 @@
 					m_nDomainValueIdx = 5
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_CONST"
 					m_nVar = -1
@@ -1204,7 +1080,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "LIBRARY_INVOKE"
 					m_nVar = -1
@@ -1219,7 +1094,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -1234,7 +1108,6 @@
 					m_nDomainValueIdx = 1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_CONST"
 					m_nVar = -1
@@ -1249,7 +1122,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "LIBRARY_INVOKE"
 					m_nVar = -1
@@ -1264,7 +1136,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "RETURN_VOID"
 					m_nVar = -1
@@ -1282,7 +1153,6 @@
 			]
 			m_Registers = 
 			[
-				
 				{
 					m_nReg = 0
 					m_Type = "PVAL_EHANDLE:info_trooper_spawn"
@@ -1290,7 +1160,6 @@
 					m_nWrittenByInstruction = 1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 1
 					m_Type = "PVAL_BOOL"
@@ -1298,7 +1167,6 @@
 					m_nWrittenByInstruction = 2
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 2
 					m_Type = "PVAL_EHANDLE:info_trooper_spawn"
@@ -1306,7 +1174,6 @@
 					m_nWrittenByInstruction = 4
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 3
 					m_Type = "PVAL_BOOL"
@@ -1314,7 +1181,6 @@
 					m_nWrittenByInstruction = 5
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 4
 					m_Type = "PVAL_EHANDLE:info_trooper_spawn"
@@ -1322,7 +1188,6 @@
 					m_nWrittenByInstruction = 7
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 5
 					m_Type = "PVAL_BOOL"
@@ -1330,7 +1195,6 @@
 					m_nWrittenByInstruction = 8
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 6
 					m_Type = "PVAL_EHANDLE:info_trooper_spawn"
@@ -1338,7 +1202,6 @@
 					m_nWrittenByInstruction = 10
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 7
 					m_Type = "PVAL_BOOL"
@@ -1349,85 +1212,71 @@
 			]
 			m_InstructionDebugInfos = 
 			[
-				
 				{
 					m_nFlowNodeID = 836535068
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_OptionalSpontaneousPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 433503721
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 433503721
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 433503721
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 636714967
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 636714967
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 636714967
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 831931787
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 831931787
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 831931787
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 517209263
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 517209263
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 517209263
 					m_nValueNodeID = -1
 					m_SequencePointName = "InDefault"
 				},
-				
 				{
 					m_nFlowNodeID = 517209263
 					m_nValueNodeID = -1
@@ -1435,11 +1284,9 @@
 				},
 			]
 		},
-		
 		{
 			m_Instructions = 
 			[
-				
 				{
 					m_nCode = "NOP"
 					m_nVar = -1
@@ -1454,7 +1301,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -1469,7 +1315,6 @@
 					m_nDomainValueIdx = 6
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -1484,7 +1329,6 @@
 					m_nDomainValueIdx = 4
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "PULSE_CALL_SYNC"
 					m_nVar = -1
@@ -1499,7 +1343,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "RETURN_VOID"
 					m_nVar = -1
@@ -1517,7 +1360,6 @@
 			]
 			m_Registers = 
 			[
-				
 				{
 					m_nReg = 0
 					m_Type = "PVAL_EHANDLE:func_button"
@@ -1525,7 +1367,6 @@
 					m_nWrittenByInstruction = 1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 1
 					m_Type = "PVAL_EHANDLE:info_trooper_spawn"
@@ -1536,31 +1377,26 @@
 			]
 			m_InstructionDebugInfos = 
 			[
-				
 				{
 					m_nFlowNodeID = 909387449
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_PrimaryPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 304269678
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 304269678
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 304269678
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 304269678
 					m_nValueNodeID = -1
@@ -1568,11 +1404,9 @@
 				},
 			]
 		},
-		
 		{
 			m_Instructions = 
 			[
-				
 				{
 					m_nCode = "NOP"
 					m_nVar = -1
@@ -1587,7 +1421,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -1602,7 +1435,6 @@
 					m_nDomainValueIdx = 7
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "GET_DOMAIN_VALUE"
 					m_nVar = -1
@@ -1617,7 +1449,6 @@
 					m_nDomainValueIdx = 5
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "PULSE_CALL_SYNC"
 					m_nVar = -1
@@ -1632,7 +1463,6 @@
 					m_nDomainValueIdx = -1
 					m_nBlackboardReferenceIdx = -1
 				},
-				
 				{
 					m_nCode = "RETURN_VOID"
 					m_nVar = -1
@@ -1650,7 +1480,6 @@
 			]
 			m_Registers = 
 			[
-				
 				{
 					m_nReg = 0
 					m_Type = "PVAL_EHANDLE:func_button"
@@ -1658,7 +1487,6 @@
 					m_nWrittenByInstruction = 1
 					m_nLastReadByInstruction = -1
 				},
-				
 				{
 					m_nReg = 1
 					m_Type = "PVAL_EHANDLE:info_trooper_spawn"
@@ -1669,31 +1497,26 @@
 			]
 			m_InstructionDebugInfos = 
 			[
-				
 				{
 					m_nFlowNodeID = 936017305
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_PrimaryPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 486438664
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 486438664
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 486438664
 					m_nValueNodeID = -1
 					m_SequencePointName = "m_StepPoint"
 				},
-				
 				{
 					m_nFlowNodeID = 486438664
 					m_nValueNodeID = -1

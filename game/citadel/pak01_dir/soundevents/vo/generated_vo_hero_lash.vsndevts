@@ -58,7 +58,7 @@
 		[
 			"sounds/vo/lash/lash_ally_atlas_pass_on_zipline_01_02.vsnd",
 		]
-		vsnd_duration = 1.206440
+		vsnd_duration = 1.20644
 	}
 	lash_ally_atlas_pass_on_zipline_01_hero_3d = 
 	{
@@ -68,7 +68,7 @@
 		[
 			"sounds/vo/lash/lash_ally_atlas_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.648730
+		vsnd_duration = 1.64873
 	}
 	lash_ally_bebop_killed_in_lane_01_hero_3d = 
 	{
@@ -158,7 +158,7 @@
 		[
 			"sounds/vo/lash/lash_ally_chrono_killed_in_lane_02.vsnd",
 		]
-		vsnd_duration = 1.470930
+		vsnd_duration = 1.47093
 	}
 	lash_ally_chrono_pass_on_zipline_01_hero_3d = 
 	{
@@ -178,7 +178,7 @@
 		[
 			"sounds/vo/lash/lash_ally_doorman_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.670590
+		vsnd_duration = 1.67059
 	}
 	lash_ally_drifter_killed_in_lane_01_hero_3d = 
 	{
@@ -298,7 +298,7 @@
 		[
 			"sounds/vo/lash/lash_ally_ghost_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.951270
+		vsnd_duration = 1.95127
 	}
 	lash_ally_gigawatt_killed_in_lane_01_hero_3d = 
 	{
@@ -398,7 +398,7 @@
 		[
 			"sounds/vo/lash/lash_ally_inferno_killed_in_lane_02.vsnd",
 		]
-		vsnd_duration = 1.486780
+		vsnd_duration = 1.48678
 	}
 	lash_ally_inferno_pass_on_zipline_01_hero_3d = 
 	{
@@ -438,7 +438,7 @@
 		[
 			"sounds/vo/lash/lash_ally_krill_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.466190
+		vsnd_duration = 1.46619
 	}
 	lash_ally_krill_pass_on_zipline_01_hero_3d = 
 	{
@@ -448,7 +448,7 @@
 		[
 			"sounds/vo/lash/lash_ally_krill_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.791360
+		vsnd_duration = 1.79136
 	}
 	lash_ally_magician_killed_in_lane_01_hero_3d = 
 	{
@@ -458,7 +458,7 @@
 		[
 			"sounds/vo/lash/lash_ally_magician_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.624240
+		vsnd_duration = 1.62424
 	}
 	lash_ally_mirage_killed_in_lane_01_hero_3d = 
 	{
@@ -608,7 +608,7 @@
 		[
 			"sounds/vo/lash/lash_ally_synth_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.475510
+		vsnd_duration = 1.47551
 	}
 	lash_ally_tengu_killed_in_lane_01_hero_3d = 
 	{
@@ -628,7 +628,7 @@
 		[
 			"sounds/vo/lash/lash_ally_tengu_killed_in_lane_02.vsnd",
 		]
-		vsnd_duration = 1.463560
+		vsnd_duration = 1.46356
 	}
 	lash_ally_tengu_pass_on_zipline_01_hero_3d = 
 	{
@@ -668,7 +668,7 @@
 		[
 			"sounds/vo/lash/lash_ally_vampirebat_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.599070
+		vsnd_duration = 1.59907
 	}
 	lash_ally_viper_killed_in_lane_01_hero_3d = 
 	{
@@ -718,7 +718,7 @@
 		[
 			"sounds/vo/lash/lash_ally_viscous_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.780340
+		vsnd_duration = 2.78034
 	}
 	lash_ally_warden_killed_in_lane_01_hero_3d = 
 	{
@@ -848,7 +848,7 @@
 		[
 			"sounds/vo/lash/lash_angry_03.vsnd",
 		]
-		vsnd_duration = 2.094830
+		vsnd_duration = 2.09483
 	}
 	lash_angry_03_ult_3d = 
 	{
@@ -858,7 +858,7 @@
 		[
 			"sounds/vo/lash/lash_angry_03.vsnd",
 		]
-		vsnd_duration = 2.094830
+		vsnd_duration = 2.09483
 	}
 	lash_angry_04_hero_3d = 
 	{
@@ -1068,7 +1068,7 @@
 		[
 			"sounds/vo/lash/lash_close_call_01.vsnd",
 		]
-		vsnd_duration = 7.242970
+		vsnd_duration = 7.24297
 	}
 	lash_close_call_02_hero_3d = 
 	{
@@ -1128,7 +1128,7 @@
 		[
 			"sounds/vo/lash/lash_concerned_01.vsnd",
 		]
-		vsnd_duration = 2.850000
+		vsnd_duration = 2.85
 	}
 	lash_concerned_01_ult_3d = 
 	{
@@ -1138,7 +1138,7 @@
 		[
 			"sounds/vo/lash/lash_concerned_01.vsnd",
 		]
-		vsnd_duration = 2.850000
+		vsnd_duration = 2.85
 	}
 	lash_concerned_02_hero_3d = 
 	{
@@ -1308,7 +1308,7 @@
 		[
 			"sounds/vo/lash/lash_concerned_10.vsnd",
 		]
-		vsnd_duration = 2.674490
+		vsnd_duration = 2.67449
 	}
 	lash_concerned_10_ult_3d = 
 	{
@@ -1318,7 +1318,7 @@
 		[
 			"sounds/vo/lash/lash_concerned_10.vsnd",
 		]
-		vsnd_duration = 2.674490
+		vsnd_duration = 2.67449
 	}
 	lash_congrats_01_hero_3d = 
 	{
@@ -1328,7 +1328,7 @@
 		[
 			"sounds/vo/lash/lash_congrats_01.vsnd",
 		]
-		vsnd_duration = 1.099660
+		vsnd_duration = 1.09966
 	}
 	lash_congrats_02_hero_3d = 
 	{
@@ -1648,7 +1648,7 @@
 		[
 			"sounds/vo/lash/lash_desperation_power4_05.vsnd",
 		]
-		vsnd_duration = 0.989070
+		vsnd_duration = 0.98907
 	}
 	lash_desperation_power4_05_ult_3d = 
 	{
@@ -1658,7 +1658,7 @@
 		[
 			"sounds/vo/lash/lash_desperation_power4_05.vsnd",
 		]
-		vsnd_duration = 0.989070
+		vsnd_duration = 0.98907
 	}
 	lash_effort_dash_01_emote_dash_3d = 
 	{
@@ -1888,7 +1888,7 @@
 		[
 			"sounds/vo/lash/lash_happy_03.vsnd",
 		]
-		vsnd_duration = 1.815170
+		vsnd_duration = 1.81517
 	}
 	lash_happy_03_ult_3d = 
 	{
@@ -1898,7 +1898,7 @@
 		[
 			"sounds/vo/lash/lash_happy_03.vsnd",
 		]
-		vsnd_duration = 1.815170
+		vsnd_duration = 1.81517
 	}
 	lash_happy_04_hero_3d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/lash/lash_happy_06.vsnd",
 		]
-		vsnd_duration = 1.710340
+		vsnd_duration = 1.71034
 	}
 	lash_happy_06_ult_3d = 
 	{
@@ -1958,7 +1958,7 @@
 		[
 			"sounds/vo/lash/lash_happy_06.vsnd",
 		]
-		vsnd_duration = 1.710340
+		vsnd_duration = 1.71034
 	}
 	lash_happy_07_hero_3d = 
 	{
@@ -2538,7 +2538,7 @@
 		[
 			"sounds/vo/lash/lash_kill_dynamo_02.vsnd",
 		]
-		vsnd_duration = 2.740590
+		vsnd_duration = 2.74059
 	}
 	lash_kill_dynamo_03_hero_3d = 
 	{
@@ -2568,7 +2568,7 @@
 		[
 			"sounds/vo/lash/lash_kill_dynamo_05.vsnd",
 		]
-		vsnd_duration = 3.720000
+		vsnd_duration = 3.72
 	}
 	lash_kill_forge_01_hero_3d = 
 	{
@@ -2628,7 +2628,7 @@
 		[
 			"sounds/vo/lash/lash_kill_frank_01.vsnd",
 		]
-		vsnd_duration = 1.408050
+		vsnd_duration = 1.40805
 	}
 	lash_kill_frank_02_hero_3d = 
 	{
@@ -2638,7 +2638,7 @@
 		[
 			"sounds/vo/lash/lash_kill_frank_02.vsnd",
 		]
-		vsnd_duration = 1.750000
+		vsnd_duration = 1.75
 	}
 	lash_kill_frank_03_hero_3d = 
 	{
@@ -2948,7 +2948,7 @@
 		[
 			"sounds/vo/lash/lash_kill_inferno_06.vsnd",
 		]
-		vsnd_duration = 2.148980
+		vsnd_duration = 2.14898
 	}
 	lash_kill_kelvin_01_hero_3d = 
 	{
@@ -3068,7 +3068,7 @@
 		[
 			"sounds/vo/lash/lash_kill_mirage_02.vsnd",
 		]
-		vsnd_duration = 3.895170
+		vsnd_duration = 3.89517
 	}
 	lash_kill_mirage_03_hero_3d = 
 	{
@@ -3098,7 +3098,7 @@
 		[
 			"sounds/vo/lash/lash_kill_mirage_05.vsnd",
 		]
-		vsnd_duration = 2.193900
+		vsnd_duration = 2.1939
 	}
 	lash_kill_nano_01_hero_3d = 
 	{
@@ -3188,7 +3188,7 @@
 		[
 			"sounds/vo/lash/lash_kill_orion_04.vsnd",
 		]
-		vsnd_duration = 3.098140
+		vsnd_duration = 3.09814
 	}
 	lash_kill_orion_05_hero_3d = 
 	{
@@ -3348,7 +3348,7 @@
 		[
 			"sounds/vo/lash/lash_kill_tengu_04.vsnd",
 		]
-		vsnd_duration = 1.670590
+		vsnd_duration = 1.67059
 	}
 	lash_kill_tengu_05_hero_3d = 
 	{
@@ -3368,7 +3368,7 @@
 		[
 			"sounds/vo/lash/lash_kill_viper_01.vsnd",
 		]
-		vsnd_duration = 1.752290
+		vsnd_duration = 1.75229
 	}
 	lash_kill_viper_02_hero_3d = 
 	{
@@ -3608,7 +3608,7 @@
 		[
 			"sounds/vo/lash/lash_kill_wrecker_05.vsnd",
 		]
-		vsnd_duration = 3.308390
+		vsnd_duration = 3.30839
 	}
 	lash_kill_yamato_01_hero_3d = 
 	{
@@ -3978,7 +3978,7 @@
 		[
 			"sounds/vo/lash/lash_leave_base_02.vsnd",
 		]
-		vsnd_duration = 2.921860
+		vsnd_duration = 2.92186
 	}
 	lash_leave_base_03_hero_3d = 
 	{
@@ -4008,7 +4008,7 @@
 		[
 			"sounds/vo/lash/lash_leave_base_05.vsnd",
 		]
-		vsnd_duration = 2.711270
+		vsnd_duration = 2.71127
 	}
 	lash_low_health_warning_hero_3d = 
 	{
@@ -4138,7 +4138,7 @@
 		[
 			"sounds/vo/lash/lash_match_start_atlas_lash_convo03_01.vsnd",
 		]
-		vsnd_duration = 2.996440
+		vsnd_duration = 2.99644
 	}
 	lash_match_start_atlas_lash_convo03_03_hero_zipline_3d = 
 	{
@@ -4288,7 +4288,7 @@
 		[
 			"sounds/vo/lash/lash_match_start_frank_lash_convo02_01.vsnd",
 		]
-		vsnd_duration = 2.100590
+		vsnd_duration = 2.10059
 	}
 	lash_match_start_frank_lash_convo02_03_hero_zipline_3d = 
 	{
@@ -4438,7 +4438,7 @@
 		[
 			"sounds/vo/lash/lash_match_start_gigawatt_lash_convo01_05.vsnd",
 		]
-		vsnd_duration = 2.027030
+		vsnd_duration = 2.02703
 	}
 	lash_match_start_gigawatt_lash_convo02_02_hero_zipline_3d = 
 	{
@@ -4558,7 +4558,7 @@
 		[
 			"sounds/vo/lash/lash_match_start_lash_forge_convo01_01.vsnd",
 		]
-		vsnd_duration = 3.944240
+		vsnd_duration = 3.94424
 	}
 	lash_match_start_lash_forge_convo01_03_hero_zipline_3d = 
 	{
@@ -4728,7 +4728,7 @@
 		[
 			"sounds/vo/lash/lash_match_start_lash_orion_convo02_05.vsnd",
 		]
-		vsnd_duration = 1.137030
+		vsnd_duration = 1.13703
 	}
 	lash_match_start_lash_orion_convo03_02_hero_zipline_3d = 
 	{
@@ -4798,7 +4798,7 @@
 		[
 			"sounds/vo/lash/lash_match_start_lash_wraith_convo03_01.vsnd",
 		]
-		vsnd_duration = 7.240250
+		vsnd_duration = 7.24025
 	}
 	lash_match_start_lash_wraith_convo03_03_hero_zipline_3d = 
 	{
@@ -4828,7 +4828,7 @@
 		[
 			"sounds/vo/lash/lash_match_start_tengu_lash_convo01_03.vsnd",
 		]
-		vsnd_duration = 6.245420
+		vsnd_duration = 6.24542
 	}
 	lash_match_start_tengu_lash_convo01_05_hero_zipline_3d = 
 	{
@@ -5028,7 +5028,7 @@
 		[
 			"sounds/vo/lash/lash_near_miss_01.vsnd",
 		]
-		vsnd_duration = 1.155510
+		vsnd_duration = 1.15551
 	}
 	lash_near_miss_02_hero_3d = 
 	{
@@ -5108,7 +5108,7 @@
 		[
 			"sounds/vo/lash/emote/lash_pain_big_01.vsnd",
 		]
-		vsnd_duration = 0.980590
+		vsnd_duration = 0.98059
 	}
 	lash_pain_big_02_emote_pain_3d = 
 	{
@@ -5148,7 +5148,7 @@
 		[
 			"sounds/vo/lash/emote/lash_pain_big_05.vsnd",
 		]
-		vsnd_duration = 1.280340
+		vsnd_duration = 1.28034
 	}
 	lash_pain_big_06_emote_pain_3d = 
 	{
@@ -5808,7 +5808,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_attack_doorman.vsnd",
 		]
-		vsnd_duration = 1.989660
+		vsnd_duration = 1.98966
 	}
 	lash_ping_attack_drifter_ping_2d = 
 	{
@@ -5828,7 +5828,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_attack_druid.vsnd",
 		]
-		vsnd_duration = 1.633810
+		vsnd_duration = 1.63381
 	}
 	lash_ping_attack_dynamo_ping_2d = 
 	{
@@ -5898,7 +5898,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_attack_frank.vsnd",
 		]
-		vsnd_duration = 1.569660
+		vsnd_duration = 1.56966
 	}
 	lash_ping_attack_ghost_ping_2d = 
 	{
@@ -5908,7 +5908,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_attack_ghost.vsnd",
 		]
-		vsnd_duration = 1.865420
+		vsnd_duration = 1.86542
 	}
 	lash_ping_attack_gigawatt_ping_2d = 
 	{
@@ -5948,7 +5948,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_attack_hornet.vsnd",
 		]
-		vsnd_duration = 1.461020
+		vsnd_duration = 1.46102
 	}
 	lash_ping_attack_incubus_ping_2d = 
 	{
@@ -5998,7 +5998,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_attack_magician.vsnd",
 		]
-		vsnd_duration = 1.804490
+		vsnd_duration = 1.80449
 	}
 	lash_ping_attack_mirage_ping_2d = 
 	{
@@ -6098,7 +6098,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_attack_synth.vsnd",
 		]
-		vsnd_duration = 1.147030
+		vsnd_duration = 1.14703
 	}
 	lash_ping_attack_tengu_ping_2d = 
 	{
@@ -6138,7 +6138,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_attack_viper_alt_01.vsnd",
 		]
-		vsnd_duration = 1.981020
+		vsnd_duration = 1.98102
 	}
 	lash_ping_attack_viper_ping_2d = 
 	{
@@ -6238,7 +6238,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_bebop_check_items.vsnd",
 		]
-		vsnd_duration = 3.576440
+		vsnd_duration = 3.57644
 	}
 	lash_ping_bebop_dead_ping_2d = 
 	{
@@ -6388,7 +6388,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_bookworm_missing_01_alt_01.vsnd",
 		]
-		vsnd_duration = 1.074240
+		vsnd_duration = 1.07424
 	}
 	lash_ping_bookworm_missing_01_alt_ping_2d = 
 	{
@@ -6398,7 +6398,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_bookworm_missing_01_alt.vsnd",
 		]
-		vsnd_duration = 1.159320
+		vsnd_duration = 1.15932
 	}
 	lash_ping_bookworm_on_top_of_garage_alt_ping_2d = 
 	{
@@ -6468,7 +6468,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_cadence_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.593560
+		vsnd_duration = 1.59356
 	}
 	lash_ping_cadence_on_top_of_mid_ping_2d = 
 	{
@@ -6478,7 +6478,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_cadence_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.459320
+		vsnd_duration = 1.45932
 	}
 	lash_ping_cadence_under_garage_ping_2d = 
 	{
@@ -6488,7 +6488,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_cadence_under_garage.vsnd",
 		]
-		vsnd_duration = 1.320930
+		vsnd_duration = 1.32093
 	}
 	lash_ping_cadence_was_here_ping_2d = 
 	{
@@ -6518,7 +6518,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_can_heal_atlas.vsnd",
 		]
-		vsnd_duration = 1.480340
+		vsnd_duration = 1.48034
 	}
 	lash_ping_can_heal_bebop_ping_2d = 
 	{
@@ -6728,7 +6728,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_can_heal_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.699320
+		vsnd_duration = 1.69932
 	}
 	lash_ping_can_heal_shiv_ping_2d = 
 	{
@@ -6968,7 +6968,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_cadence_01.vsnd",
 		]
-		vsnd_duration = 1.220000
+		vsnd_duration = 1.22
 	}
 	lash_ping_careful_cadence_02_ping_2d = 
 	{
@@ -7008,7 +7008,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_chrono_02.vsnd",
 		]
-		vsnd_duration = 1.637800
+		vsnd_duration = 1.6378
 	}
 	lash_ping_careful_chrono_03_ping_2d = 
 	{
@@ -7178,7 +7178,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_frank_02.vsnd",
 		]
-		vsnd_duration = 1.287120
+		vsnd_duration = 1.28712
 	}
 	lash_ping_careful_frank_03_ping_2d = 
 	{
@@ -7368,7 +7368,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_kelvin_01.vsnd",
 		]
-		vsnd_duration = 1.451270
+		vsnd_duration = 1.45127
 	}
 	lash_ping_careful_kelvin_02_ping_2d = 
 	{
@@ -7378,7 +7378,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_kelvin_02.vsnd",
 		]
-		vsnd_duration = 1.609320
+		vsnd_duration = 1.60932
 	}
 	lash_ping_careful_kelvin_03_ping_2d = 
 	{
@@ -7508,7 +7508,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_orion_03.vsnd",
 		]
-		vsnd_duration = 2.094240
+		vsnd_duration = 2.09424
 	}
 	lash_ping_careful_priest_01_ping_2d = 
 	{
@@ -7528,7 +7528,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_priest_02.vsnd",
 		]
-		vsnd_duration = 1.300000
+		vsnd_duration = 1.3
 	}
 	lash_ping_careful_priest_03_ping_2d = 
 	{
@@ -7538,7 +7538,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_priest_03.vsnd",
 		]
-		vsnd_duration = 1.144490
+		vsnd_duration = 1.14449
 	}
 	lash_ping_careful_punkgoat_01_ping_2d = 
 	{
@@ -7688,7 +7688,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_tengu_03.vsnd",
 		]
-		vsnd_duration = 1.125760
+		vsnd_duration = 1.12576
 	}
 	lash_ping_careful_tvspirit_01_ping_2d = 
 	{
@@ -7698,7 +7698,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_tvspirit_01.vsnd",
 		]
-		vsnd_duration = 1.620000
+		vsnd_duration = 1.62
 	}
 	lash_ping_careful_vampirebat_01_ping_2d = 
 	{
@@ -7708,7 +7708,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_vampirebat_01.vsnd",
 		]
-		vsnd_duration = 1.193900
+		vsnd_duration = 1.1939
 	}
 	lash_ping_careful_vampirebat_02_ping_2d = 
 	{
@@ -7788,7 +7788,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_viscous_03.vsnd",
 		]
-		vsnd_duration = 1.331020
+		vsnd_duration = 1.33102
 	}
 	lash_ping_careful_warden_01_ping_2d = 
 	{
@@ -7858,7 +7858,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_careful_wrecker_01.vsnd",
 		]
-		vsnd_duration = 1.051360
+		vsnd_duration = 1.05136
 	}
 	lash_ping_careful_wrecker_02_ping_2d = 
 	{
@@ -8098,7 +8098,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_doorman_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.879070
+		vsnd_duration = 1.87907
 	}
 	lash_ping_doorman_check_items_ping_2d = 
 	{
@@ -8118,7 +8118,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_doorman_dead.vsnd",
 		]
-		vsnd_duration = 2.304490
+		vsnd_duration = 2.30449
 	}
 	lash_ping_doorman_in_mid_ping_2d = 
 	{
@@ -8198,7 +8198,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_drifter_check_items.vsnd",
 		]
-		vsnd_duration = 2.164830
+		vsnd_duration = 2.16483
 	}
 	lash_ping_drifter_dead_ping_2d = 
 	{
@@ -8338,7 +8338,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_dynamo_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.674490
+		vsnd_duration = 1.67449
 	}
 	lash_ping_dynamo_on_top_of_mid_ping_2d = 
 	{
@@ -8398,7 +8398,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_forge_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.771020
+		vsnd_duration = 1.77102
 	}
 	lash_ping_forge_check_items_ping_2d = 
 	{
@@ -8428,7 +8428,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_forge_in_mid.vsnd",
 		]
-		vsnd_duration = 1.295760
+		vsnd_duration = 1.29576
 	}
 	lash_ping_forge_missing_01_ping_2d = 
 	{
@@ -8628,7 +8628,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_ghost_in_mid.vsnd",
 		]
-		vsnd_duration = 0.978980
+		vsnd_duration = 0.97898
 	}
 	lash_ping_ghost_missing_01_ping_2d = 
 	{
@@ -8768,7 +8768,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_gigawatt_was_here.vsnd",
 		]
-		vsnd_duration = 1.050000
+		vsnd_duration = 1.05
 	}
 	lash_ping_going_in_01_ping_2d = 
 	{
@@ -8918,7 +8918,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_haze_missing_01.vsnd",
 		]
-		vsnd_duration = 1.456100
+		vsnd_duration = 1.4561
 	}
 	lash_ping_haze_on_top_of_garage_ping_2d = 
 	{
@@ -9008,7 +9008,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_headed_this_way.vsnd",
 		]
-		vsnd_duration = 1.420340
+		vsnd_duration = 1.42034
 	}
 	lash_ping_headed_yellow_01_ping_2d = 
 	{
@@ -9018,7 +9018,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_headed_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.954830
+		vsnd_duration = 1.95483
 	}
 	lash_ping_headed_yellow_02_ping_2d = 
 	{
@@ -9028,7 +9028,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_headed_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.245510
+		vsnd_duration = 1.24551
 	}
 	lash_ping_heal_ready_ping_2d = 
 	{
@@ -9088,7 +9088,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_hornet_check_items.vsnd",
 		]
-		vsnd_duration = 1.975170
+		vsnd_duration = 1.97517
 	}
 	lash_ping_hornet_dead_ping_2d = 
 	{
@@ -9188,7 +9188,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_ignore_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.432200
+		vsnd_duration = 1.4322
 	}
 	lash_ping_ignore_chrono_ping_2d = 
 	{
@@ -9228,7 +9228,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_ignore_dynamo.vsnd",
 		]
-		vsnd_duration = 1.254830
+		vsnd_duration = 1.25483
 	}
 	lash_ping_ignore_forge_ping_2d = 
 	{
@@ -9248,7 +9248,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_ignore_frank.vsnd",
 		]
-		vsnd_duration = 1.777460
+		vsnd_duration = 1.77746
 	}
 	lash_ping_ignore_ghost_ping_2d = 
 	{
@@ -9368,7 +9368,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_ignore_punkgoat.vsnd",
 		]
-		vsnd_duration = 2.057710
+		vsnd_duration = 2.05771
 	}
 	lash_ping_ignore_shiv_ping_2d = 
 	{
@@ -9488,7 +9488,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_inferno_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.775170
+		vsnd_duration = 1.77517
 	}
 	lash_ping_inferno_check_items_ping_2d = 
 	{
@@ -9568,7 +9568,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_inferno_was_here.vsnd",
 		]
-		vsnd_duration = 1.144830
+		vsnd_duration = 1.14483
 	}
 	lash_ping_item_almost_ready_ping_2d = 
 	{
@@ -9658,7 +9658,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_kelvin_missing_01.vsnd",
 		]
-		vsnd_duration = 1.620000
+		vsnd_duration = 1.62
 	}
 	lash_ping_kelvin_on_top_of_garage_ping_2d = 
 	{
@@ -9688,7 +9688,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_kelvin_under_garage.vsnd",
 		]
-		vsnd_duration = 1.685510
+		vsnd_duration = 1.68551
 	}
 	lash_ping_kelvin_was_here_ping_2d = 
 	{
@@ -9708,7 +9708,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_kncokdown_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.833560
+		vsnd_duration = 1.83356
 	}
 	lash_ping_kncokdown_not_ready_ping_2d = 
 	{
@@ -9808,7 +9808,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_krill_was_here.vsnd",
 		]
-		vsnd_duration = 1.064240
+		vsnd_duration = 1.06424
 	}
 	lash_ping_lets_go_blue_alt_ping_2d = 
 	{
@@ -9838,7 +9838,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_lets_go_green_alt.vsnd",
 		]
-		vsnd_duration = 1.297710
+		vsnd_duration = 1.29771
 	}
 	lash_ping_lets_go_green_ping_2d = 
 	{
@@ -9868,7 +9868,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_lets_go_yellow.vsnd",
 		]
-		vsnd_duration = 1.539660
+		vsnd_duration = 1.53966
 	}
 	lash_ping_lets_hide_ping_2d = 
 	{
@@ -9918,7 +9918,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_mirage_dead.vsnd",
 		]
-		vsnd_duration = 2.470000
+		vsnd_duration = 2.47
 	}
 	lash_ping_mirage_in_mid_ping_2d = 
 	{
@@ -9998,7 +9998,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_missing_blue_02.vsnd",
 		]
-		vsnd_duration = 1.396780
+		vsnd_duration = 1.39678
 	}
 	lash_ping_missing_green_01_ping_2d = 
 	{
@@ -10228,7 +10228,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_negative_01.vsnd",
 		]
-		vsnd_duration = 0.610000
+		vsnd_duration = 0.61
 	}
 	lash_ping_negative_02_ping_2d = 
 	{
@@ -10358,7 +10358,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_orion_missing_01.vsnd",
 		]
-		vsnd_duration = 1.599320
+		vsnd_duration = 1.59932
 	}
 	lash_ping_orion_on_top_of_garage_ping_2d = 
 	{
@@ -10418,7 +10418,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_post_game_02.vsnd",
 		]
-		vsnd_duration = 2.792200
+		vsnd_duration = 2.7922
 	}
 	lash_ping_post_game_03_ping_2d = 
 	{
@@ -10558,7 +10558,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_priest_dead.vsnd",
 		]
-		vsnd_duration = 1.391270
+		vsnd_duration = 1.39127
 	}
 	lash_ping_priest_in_mid_ping_2d = 
 	{
@@ -10598,7 +10598,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_priest_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.823220
+		vsnd_duration = 1.82322
 	}
 	lash_ping_priest_under_garage_ping_2d = 
 	{
@@ -10758,7 +10758,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_push_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.603560
+		vsnd_duration = 1.60356
 	}
 	lash_ping_push_yellow_02_ping_2d = 
 	{
@@ -10798,7 +10798,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_rejuv_drop.vsnd",
 		]
-		vsnd_duration = 1.366440
+		vsnd_duration = 1.36644
 	}
 	lash_ping_request_follow_ping_2d = 
 	{
@@ -10828,7 +10828,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_retreat.vsnd",
 		]
-		vsnd_duration = 1.054490
+		vsnd_duration = 1.05449
 	}
 	lash_ping_returning_to_base_ping_2d = 
 	{
@@ -10898,7 +10898,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_saw_bebop.vsnd",
 		]
-		vsnd_duration = 1.377370
+		vsnd_duration = 1.37737
 	}
 	lash_ping_saw_bookworm_alt_ping_2d = 
 	{
@@ -10908,7 +10908,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_saw_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.267710
+		vsnd_duration = 1.26771
 	}
 	lash_ping_saw_cadence_ping_2d = 
 	{
@@ -10978,7 +10978,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_saw_frank.vsnd",
 		]
-		vsnd_duration = 1.168390
+		vsnd_duration = 1.16839
 	}
 	lash_ping_saw_ghost_ping_2d = 
 	{
@@ -10988,7 +10988,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_saw_ghost.vsnd",
 		]
-		vsnd_duration = 1.136100
+		vsnd_duration = 1.1361
 	}
 	lash_ping_saw_gigawatt_ping_2d = 
 	{
@@ -11008,7 +11008,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_saw_haze.vsnd",
 		]
-		vsnd_duration = 0.901950
+		vsnd_duration = 0.90195
 	}
 	lash_ping_saw_hornet_ping_2d = 
 	{
@@ -11028,7 +11028,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_saw_inferno.vsnd",
 		]
-		vsnd_duration = 1.385760
+		vsnd_duration = 1.38576
 	}
 	lash_ping_saw_kelvin_ping_2d = 
 	{
@@ -11698,7 +11698,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_see_haze_on_roof.vsnd",
 		]
-		vsnd_duration = 1.500340
+		vsnd_duration = 1.50034
 	}
 	lash_ping_see_haze_ping_2d = 
 	{
@@ -11818,7 +11818,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_see_krill_02.vsnd",
 		]
-		vsnd_duration = 2.281610
+		vsnd_duration = 2.28161
 	}
 	lash_ping_see_krill_on_bridge_ping_2d = 
 	{
@@ -11888,7 +11888,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_see_nano_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.301270
+		vsnd_duration = 1.30127
 	}
 	lash_ping_see_nano_on_roof_ping_2d = 
 	{
@@ -11898,7 +11898,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_see_nano_on_roof.vsnd",
 		]
-		vsnd_duration = 1.214240
+		vsnd_duration = 1.21424
 	}
 	lash_ping_see_nano_ping_2d = 
 	{
@@ -11958,7 +11958,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_see_priest_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.590000
+		vsnd_duration = 1.59
 	}
 	lash_ping_see_priest_on_roof_ping_2d = 
 	{
@@ -12008,7 +12008,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_see_shiv_on_bridge.vsnd",
 		]
-		vsnd_duration = 2.779320
+		vsnd_duration = 2.77932
 	}
 	lash_ping_see_shiv_on_roof_ping_2d = 
 	{
@@ -12018,7 +12018,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_see_shiv_on_roof.vsnd",
 		]
-		vsnd_duration = 1.474490
+		vsnd_duration = 1.47449
 	}
 	lash_ping_see_shiv_ping_2d = 
 	{
@@ -12378,7 +12378,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_shiv_dead.vsnd",
 		]
-		vsnd_duration = 0.912200
+		vsnd_duration = 0.9122
 	}
 	lash_ping_shiv_in_mid_ping_2d = 
 	{
@@ -12398,7 +12398,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_shiv_missing_01.vsnd",
 		]
-		vsnd_duration = 1.735170
+		vsnd_duration = 1.73517
 	}
 	lash_ping_shiv_on_top_of_garage_ping_2d = 
 	{
@@ -12478,7 +12478,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_sorry_01.vsnd",
 		]
-		vsnd_duration = 0.982630
+		vsnd_duration = 0.98263
 	}
 	lash_ping_sorry_02_ping_2d = 
 	{
@@ -12508,7 +12508,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_stay_together.vsnd",
 		]
-		vsnd_duration = 1.388390
+		vsnd_duration = 1.38839
 	}
 	lash_ping_stim_pack_almost_ready_ping_2d = 
 	{
@@ -12538,7 +12538,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_stun_astro_01.vsnd",
 		]
-		vsnd_duration = 1.455420
+		vsnd_duration = 1.45542
 	}
 	lash_ping_stun_atlas_01_ping_2d = 
 	{
@@ -12828,7 +12828,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_stun_viscous_01.vsnd",
 		]
-		vsnd_duration = 1.199320
+		vsnd_duration = 1.19932
 	}
 	lash_ping_stun_warden_01_ping_2d = 
 	{
@@ -12848,7 +12848,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_stun_wraith_01.vsnd",
 		]
-		vsnd_duration = 1.565170
+		vsnd_duration = 1.56517
 	}
 	lash_ping_stun_wrecker_01_ping_2d = 
 	{
@@ -12858,7 +12858,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_stun_wrecker_01.vsnd",
 		]
-		vsnd_duration = 1.326190
+		vsnd_duration = 1.32619
 	}
 	lash_ping_stun_yamato_01_ping_2d = 
 	{
@@ -12908,7 +12908,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_synth_check_items.vsnd",
 		]
-		vsnd_duration = 2.870250
+		vsnd_duration = 2.87025
 	}
 	lash_ping_synth_dead_ping_2d = 
 	{
@@ -12948,7 +12948,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_synth_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.491270
+		vsnd_duration = 1.49127
 	}
 	lash_ping_synth_on_top_of_mid_ping_2d = 
 	{
@@ -12968,7 +12968,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_synth_under_garage.vsnd",
 		]
-		vsnd_duration = 1.671270
+		vsnd_duration = 1.67127
 	}
 	lash_ping_synth_was_here_ping_2d = 
 	{
@@ -13338,7 +13338,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_use_ability4_11.vsnd",
 		]
-		vsnd_duration = 2.998980
+		vsnd_duration = 2.99898
 	}
 	lash_ping_use_ability4_12_ping_2d = 
 	{
@@ -13508,7 +13508,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_vampirebat_check_items.vsnd",
 		]
-		vsnd_duration = 1.918050
+		vsnd_duration = 1.91805
 	}
 	lash_ping_vampirebat_dead_ping_2d = 
 	{
@@ -13608,7 +13608,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_viper_dead.vsnd",
 		]
-		vsnd_duration = 1.700000
+		vsnd_duration = 1.7
 	}
 	lash_ping_viper_in_mid_ping_2d = 
 	{
@@ -13688,7 +13688,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_viscous_check_items.vsnd",
 		]
-		vsnd_duration = 1.795170
+		vsnd_duration = 1.79517
 	}
 	lash_ping_viscous_dead_ping_2d = 
 	{
@@ -13728,7 +13728,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_viscous_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.639410
+		vsnd_duration = 1.63941
 	}
 	lash_ping_viscous_on_top_of_mid_ping_2d = 
 	{
@@ -13748,7 +13748,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_viscous_under_garage.vsnd",
 		]
-		vsnd_duration = 1.683560
+		vsnd_duration = 1.68356
 	}
 	lash_ping_viscous_was_here_ping_2d = 
 	{
@@ -13778,7 +13778,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_warden_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.732290
+		vsnd_duration = 1.73229
 	}
 	lash_ping_warden_check_items_ping_2d = 
 	{
@@ -13858,7 +13858,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_warden_was_here.vsnd",
 		]
-		vsnd_duration = 1.088050
+		vsnd_duration = 1.08805
 	}
 	lash_ping_warp_stone_almost_ready_ping_2d = 
 	{
@@ -14028,7 +14028,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_with_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.142630
+		vsnd_duration = 1.14263
 	}
 	lash_ping_with_haze_ping_2d = 
 	{
@@ -14048,7 +14048,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_with_hornet.vsnd",
 		]
-		vsnd_duration = 1.215420
+		vsnd_duration = 1.21542
 	}
 	lash_ping_with_inferno_ping_2d = 
 	{
@@ -14148,7 +14148,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_with_synth.vsnd",
 		]
-		vsnd_duration = 1.164150
+		vsnd_duration = 1.16415
 	}
 	lash_ping_with_tengu_ping_2d = 
 	{
@@ -14238,7 +14238,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_wraith_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.905170
+		vsnd_duration = 1.90517
 	}
 	lash_ping_wraith_check_items_ping_2d = 
 	{
@@ -14268,7 +14268,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_wraith_in_mid.vsnd",
 		]
-		vsnd_duration = 1.161270
+		vsnd_duration = 1.16127
 	}
 	lash_ping_wraith_missing_01_ping_2d = 
 	{
@@ -14288,7 +14288,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_wraith_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.774240
+		vsnd_duration = 1.77424
 	}
 	lash_ping_wraith_on_top_of_mid_ping_2d = 
 	{
@@ -14388,7 +14388,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_wrecker_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.321020
+		vsnd_duration = 1.32102
 	}
 	lash_ping_wrecker_under_garage_ping_2d = 
 	{
@@ -14468,7 +14468,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_yamato_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.644240
+		vsnd_duration = 1.64424
 	}
 	lash_ping_yamato_on_top_of_mid_ping_2d = 
 	{
@@ -14488,7 +14488,7 @@
 		[
 			"sounds/vo/lash/ping/lash_ping_yamato_under_garage.vsnd",
 		]
-		vsnd_duration = 1.640000
+		vsnd_duration = 1.64
 	}
 	lash_ping_yamato_was_here_ping_2d = 
 	{
@@ -14528,7 +14528,7 @@
 		[
 			"sounds/vo/lash/lash_revenge_kill.vsnd",
 		]
-		vsnd_duration = 1.855170
+		vsnd_duration = 1.85517
 	}
 	lash_sad_01_hero_3d = 
 	{
@@ -14588,7 +14588,7 @@
 		[
 			"sounds/vo/lash/lash_sad_06.vsnd",
 		]
-		vsnd_duration = 3.100930
+		vsnd_duration = 3.10093
 	}
 	lash_sad_07_hero_3d = 
 	{
@@ -14598,7 +14598,7 @@
 		[
 			"sounds/vo/lash/lash_sad_07.vsnd",
 		]
-		vsnd_duration = 1.540340
+		vsnd_duration = 1.54034
 	}
 	lash_sad_08_hero_3d = 
 	{
@@ -14738,7 +14738,7 @@
 		[
 			"sounds/vo/lash/lash_select_08.vsnd",
 		]
-		vsnd_duration = 3.450680
+		vsnd_duration = 3.45068
 	}
 	lash_select_09_hero_3d = 
 	{
@@ -14758,7 +14758,7 @@
 		[
 			"sounds/vo/lash/lash_select_10.vsnd",
 		]
-		vsnd_duration = 11.621180
+		vsnd_duration = 11.62118
 	}
 	lash_select_12_02_hero_3d = 
 	{
@@ -14808,7 +14808,7 @@
 		[
 			"sounds/vo/lash/lash_t1_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 1.982540
+		vsnd_duration = 1.98254
 	}
 	lash_t1_shop_reminder_03_hero_3d = 
 	{
@@ -14878,7 +14878,7 @@
 		[
 			"sounds/vo/lash/lash_t3_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 1.769070
+		vsnd_duration = 1.76907
 	}
 	lash_t4_shop_reminder_01_hero_3d = 
 	{
@@ -14908,7 +14908,7 @@
 		[
 			"sounds/vo/lash/lash_t4_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 2.897800
+		vsnd_duration = 2.8978
 	}
 	lash_tower_got_denied_01_hero_3d = 
 	{
@@ -15058,7 +15058,7 @@
 		[
 			"sounds/vo/lash/lash_unselect_10.vsnd",
 		]
-		vsnd_duration = 6.212630
+		vsnd_duration = 6.21263
 	}
 	lash_upgrade_power1_01_hero_3d = 
 	{
@@ -15208,7 +15208,7 @@
 		[
 			"sounds/vo/lash/lash_upgrade_power2_06.vsnd",
 		]
-		vsnd_duration = 5.895510
+		vsnd_duration = 5.89551
 	}
 	lash_upgrade_power2_07_hero_3d = 
 	{
@@ -15288,7 +15288,7 @@
 		[
 			"sounds/vo/lash/lash_upgrade_power3_05.vsnd",
 		]
-		vsnd_duration = 3.348730
+		vsnd_duration = 3.34873
 	}
 	lash_upgrade_power3_06_hero_3d = 
 	{
@@ -15478,7 +15478,7 @@
 		[
 			"sounds/vo/lash/lash_upgrade_power5_04.vsnd",
 		]
-		vsnd_duration = 1.874830
+		vsnd_duration = 1.87483
 	}
 	lash_upgrade_power5_05_hero_3d = 
 	{
@@ -15658,7 +15658,7 @@
 		[
 			"sounds/vo/lash/lash_use_decay_03.vsnd",
 		]
-		vsnd_duration = 2.414490
+		vsnd_duration = 2.41449
 	}
 	lash_use_echo_shard_01_ability_3d = 
 	{
@@ -15688,7 +15688,7 @@
 		[
 			"sounds/vo/lash/lash_use_echo_shard_03.vsnd",
 		]
-		vsnd_duration = 1.579410
+		vsnd_duration = 1.57941
 	}
 	lash_use_ice_blast_01_ability_3d = 
 	{
@@ -15788,7 +15788,7 @@
 		[
 			"sounds/vo/lash/lash_use_phantom_strike_02.vsnd",
 		]
-		vsnd_duration = 1.248390
+		vsnd_duration = 1.24839
 	}
 	lash_use_phantom_strike_03_ability_3d = 
 	{
@@ -15808,7 +15808,7 @@
 		[
 			"sounds/vo/lash/lash_use_power1_01.vsnd",
 		]
-		vsnd_duration = 1.214490
+		vsnd_duration = 1.21449
 	}
 	lash_use_power1_02_ability_3d = 
 	{
@@ -15898,7 +15898,7 @@
 		[
 			"sounds/vo/lash/lash_use_power1_09.vsnd",
 		]
-		vsnd_duration = 1.229660
+		vsnd_duration = 1.22966
 	}
 	lash_use_power1_10_ability_3d = 
 	{
@@ -16008,7 +16008,7 @@
 		[
 			"sounds/vo/lash/lash_use_power2_11.vsnd",
 		]
-		vsnd_duration = 1.331270
+		vsnd_duration = 1.33127
 	}
 	lash_use_power3_01_ability_3d = 
 	{
@@ -16178,7 +16178,7 @@
 		[
 			"sounds/vo/lash/lash_use_power4_03.vsnd",
 		]
-		vsnd_duration = 2.244490
+		vsnd_duration = 2.24449
 	}
 	lash_use_power4_03_hero_announcer = 
 	{
@@ -16188,7 +16188,7 @@
 		[
 			"sounds/vo/lash/lash_use_power4_03.vsnd",
 		]
-		vsnd_duration = 2.244490
+		vsnd_duration = 2.24449
 	}
 	lash_use_power4_03_ult_3d = 
 	{
@@ -16198,7 +16198,7 @@
 		[
 			"sounds/vo/lash/lash_use_power4_03.vsnd",
 		]
-		vsnd_duration = 2.244490
+		vsnd_duration = 2.24449
 	}
 	lash_use_power4_04_ability_3d = 
 	{
@@ -16358,7 +16358,7 @@
 		[
 			"sounds/vo/lash/lash_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.750000
+		vsnd_duration = 1.75
 	}
 	lash_use_power4_09_hero_announcer = 
 	{
@@ -16368,7 +16368,7 @@
 		[
 			"sounds/vo/lash/lash_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.750000
+		vsnd_duration = 1.75
 	}
 	lash_use_power4_09_ult_3d = 
 	{
@@ -16378,7 +16378,7 @@
 		[
 			"sounds/vo/lash/lash_use_power4_09.vsnd",
 		]
-		vsnd_duration = 1.750000
+		vsnd_duration = 1.75
 	}
 	lash_use_power4_10_alt_01_ability_3d = 
 	{
@@ -16418,7 +16418,7 @@
 		[
 			"sounds/vo/lash/lash_use_power5_01.vsnd",
 		]
-		vsnd_duration = 2.094830
+		vsnd_duration = 2.09483
 	}
 	lash_use_power5_01_ult_3d = 
 	{
@@ -16428,7 +16428,7 @@
 		[
 			"sounds/vo/lash/lash_use_power5_01.vsnd",
 		]
-		vsnd_duration = 2.094830
+		vsnd_duration = 2.09483
 	}
 	lash_use_power5_02_ability_3d = 
 	{
@@ -16538,7 +16538,7 @@
 		[
 			"sounds/vo/lash/lash_use_power5_07.vsnd",
 		]
-		vsnd_duration = 0.960000
+		vsnd_duration = 0.96
 	}
 	lash_use_power5_07_ult_3d = 
 	{
@@ -16548,7 +16548,7 @@
 		[
 			"sounds/vo/lash/lash_use_power5_07.vsnd",
 		]
-		vsnd_duration = 0.960000
+		vsnd_duration = 0.96
 	}
 	lash_use_shadow_weave_01_ability_3d = 
 	{

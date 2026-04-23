@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.weapons"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -373,18 +371,15 @@
 					}
 				}
 			},
-			
 			{
 				name = "source_info"
 				operator = "game_get_source_info"
 			},
-			
 			{
 				name = "citadel_entity_info"
 				operator = "citadel_entity_info"
 				input_entity_index = "@source_info.output_entity_index"
 			},
-			
 			{
 				name = "voicegraph_send"
 				input_execute = "1.0"
@@ -392,21 +387,18 @@
 				input_name = "clip_fraction"
 				input = "@public.clip_fraction"
 			},
-			
 			{
 				name = "remap_fire_rate_percent"
 				operator = "math_curve_2d"
 				input = "@public.fire_rate_percent"
 				public_field_name = "public.fire_rate_percent_curve_db_offset"
 			},
-			
 			{
 				name = "remap_continuous_fire_time"
 				operator = "math_curve_2d"
 				input = "@public.continuous_fire_elapsed_time"
 				public_field_name = "public.continuous_fire_time_curve_db_offset"
 			},
-			
 			{
 				name = "volume_accumulate"
 				operator = "math_accumulate12_float"
@@ -424,182 +416,160 @@
 				input11 = "0.0"
 				input12 = "0.0"
 			},
-			
 			{
 				name = "remap_enclosure_tail_volume_offset"
 				operator = "math_curve_2d"
-				execute_once = 1.000000
+				execute_once = 1.0
 				input = "@citadel_entity_info.output_enclosure"
 				public_field_name = "public.tail_enclosure_vol_offset_db"
 			},
-			
 			{
 				name = "math_add_tail_volume"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "add"
 				input1 = "@remap_enclosure_tail_volume_offset.output"
 				input2 = "@public.tail_vol_offset_db"
 			},
-			
 			{
 				name = "math_floor_tail_exterior_volume"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "max"
 				input1 = "@public.tail_exterior_sky_exposure_floor_db"
 				input2 = "@math_add_tail_volume.output"
 			},
-			
 			{
 				name = "ctrl_switch_tail_min_volume"
-				execute_once = 1.000000
+				execute_once = 1.0
 				operator = "ctrl_switch_float"
 				input_switch = "@citadel_entity_info.output_has_sky_exposure"
 				input1 = "@math_add_tail_volume.output"
 				input2 = "@math_floor_tail_exterior_volume.output"
 			},
-			
 			{
 				name = "volume_exterior_remap_db_to_gain"
 				operator = "math_db_to_gain"
 				input = "@remap_enclosure_tail_volume_offset.output"
 			},
-			
 			{
 				name = "math_crossfade_interior_tail_vol"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "sub"
 				input1 = "1.0"
 				input2 = "@volume_exterior_remap_db_to_gain.output"
 			},
-			
 			{
 				name = "volume_interior_tail_public_offset_to_gain"
 				operator = "math_db_to_gain"
 				input = "@public.tail_interior_vol_offset_db"
 			},
-			
 			{
 				name = "math_mult_interior_tail"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "mult"
 				input1 = "@math_crossfade_interior_tail_vol.output"
 				input2 = "@volume_interior_tail_public_offset_to_gain.output"
 			},
-			
 			{
 				name = "volume_interior_tail_crossfade"
 				operator = "math_gain_to_db"
 				input = "@math_mult_interior_tail.output"
 			},
-			
 			{
 				name = "remap_enclosure_tail_interior_volume_offset"
 				operator = "math_curve_2d"
-				execute_once = 1.000000
+				execute_once = 1.0
 				input = "@citadel_entity_info.output_enclosure"
 				public_field_name = "public.tail_interior_enclosure_vol_offset_db"
 			},
-			
 			{
 				name = "math_tail_interior_volume"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "add"
 				input1 = "@volume_interior_tail_crossfade.output"
 				input2 = "@remap_enclosure_tail_interior_volume_offset.output"
 			},
-			
 			{
 				name = "math_clip_amount_min"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "min"
 				input1 = "@public.clip_amount"
 				input2 = "@public.low_ammo_threshold"
 			},
-			
 			{
 				name = "math_low_ammo_progress"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "div"
 				input1 = "@math_clip_amount_min.output"
 				input2 = "@public.low_ammo_threshold"
 			},
-			
 			{
 				name = "math_invert_low_ammo_progress"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "sub"
 				input1 = "1.0"
 				input2 = "@math_low_ammo_progress.output"
 			},
-			
 			{
 				name = "math_invert_is_sliding"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "sub"
 				input1 = "1.0"
 				input2 = "@public.is_sliding"
 			},
-			
 			{
 				name = "math_disable_low_ammo_for_sliding"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "mult"
 				input1 = "@math_invert_low_ammo_progress.output"
 				input2 = "@math_invert_is_sliding.output"
 			},
-			
 			{
 				name = "remap_low_ammo_offset"
 				operator = "math_curve_2d"
-				execute_once = 1.000000
+				execute_once = 1.0
 				input = "@math_disable_low_ammo_for_sliding.output"
 				public_field_name = "public.low_ammo_progress_offset_db"
 			},
-			
 			{
 				name = "math_low_ammo_volume"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "add"
 				input1 = "@remap_low_ammo_offset.output"
 				input2 = "@public.low_ammo_vol_offset_db"
 			},
-			
 			{
 				name = "math_play_last_shot"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "equal"
 				input1 = "@public.clip_amount"
 				input2 = "@public.last_shot_clip_value"
 			},
-			
 			{
 				name = "math_disable_last_shot_for_sliding"
 				operator = "math_float"
-				execute_once = 1.000000
+				execute_once = 1.0
 				apply = "mult"
 				input1 = "@math_invert_is_sliding.output"
 				input2 = "@math_play_last_shot.output"
 			},
-			
 			{
 				name = "citadel_find_perspective"
 				operator = "sos_import_stack"
 				import_stack = "citadel_find_perspective"
 				auto_connect_public_fields = "true"
 			},
-			
 			{
 				name = "switch_fade_out_time"
 				operator = "ctrl_switch_float"
@@ -607,7 +577,6 @@
 				input1 = ".03"
 				input2 = "@public.volume_fade_out"
 			},
-			
 			{
 				name = "citadel_perspective_default"
 				operator = "sos_import_stack"
@@ -722,7 +691,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "send_enclosure_param"
 				input_execute = "1"
@@ -731,7 +699,6 @@
 				input_name = "enclosure"
 				input = "@citadel_entity_info.output_enclosure"
 			},
-			
 			{
 				name = "math_mult_targeting_offset"
 				operator = "math_float"
@@ -740,13 +707,11 @@
 				input1 = "@citadel_entity_info.output_enemy_is_targeting_local_player"
 				input2 = "@public.transient_target_offset_db"
 			},
-			
 			{
 				name = "enemy_targeting_offset_to_gain"
 				operator = "math_db_to_gain"
 				input = "@math_mult_targeting_offset.output"
 			},
-			
 			{
 				name = "send_targeting_param"
 				input_execute = "1"
@@ -754,14 +719,12 @@
 				input_name = "enemy_target_gain"
 				input = "@enemy_targeting_offset_to_gain.output"
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_execute = "1.0"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "math_dot_product_listener_right"
 				operator = "vector_facing_point"
@@ -769,7 +732,6 @@
 				input_listener_position = "@globals.output_listener_position"
 				input_source_position = "@citadel_perspective_default::citadel_default_3d::citadel_base_3d::add_position_offset.output"
 			},
-			
 			{
 				name = "math_invert_dot"
 				operator = "math_float"
@@ -777,7 +739,6 @@
 				input1 = "@math_dot_product_listener_right.output_dot_product"
 				input2 = "-1.0"
 			},
-			
 			{
 				name = "send_tail_stereo_pan"
 				input_execute = "1"

@@ -8,14 +8,12 @@
 		m_nBoardHeight = 3
 		m_vecBoardTiles = 
 		[
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 1
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 3
 						m_eStatType = "k_eTarotTileStat_Kills"
@@ -32,14 +30,12 @@
 		m_nBoardHeight = 3
 		m_vecBoardTiles = 
 		[
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 1
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 2
 						m_eStatType = "k_eTarotTileStat_ObjectiveDamage"
@@ -47,14 +43,12 @@
 					},
 				]
 			},
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 2
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 2
 						m_eStatType = "k_eTarotTileStat_PlayerDamage"
@@ -71,14 +65,12 @@
 		m_nBoardHeight = 3
 		m_vecBoardTiles = 
 		[
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 1
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 0
 						m_eStatType = "k_eTarotTileStat_ObjectiveDamage"
@@ -86,14 +78,12 @@
 					},
 				]
 			},
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 2
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 2
 						m_eStatType = "k_eTarotTileStat_Healing"
@@ -101,14 +91,12 @@
 					},
 				]
 			},
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 3
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 0
 						m_eStatType = "k_eTarotTileStat_LastHits"
@@ -125,14 +113,12 @@
 		m_nBoardHeight = 3
 		m_vecBoardTiles = 
 		[
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 1
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 1
 						m_eStatType = "k_eTarotTileStat_Assists"
@@ -140,14 +126,12 @@
 					},
 				]
 			},
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 3
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 3
 						m_eStatType = "k_eTarotTileStat_Kills"
@@ -164,20 +148,17 @@
 		m_nBoardHeight = 4
 		m_vecBoardTiles = 
 		[
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 1
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 1
 						m_eStatType = "k_eTarotTileStat_LastHits"
 						m_unStatValue = 85
 					},
-					
 					{
 						m_nStatIndex = 2
 						m_eStatType = "k_eTarotTileStat_Denies"
@@ -185,20 +166,17 @@
 					},
 				]
 			},
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 2
 				m_nBoardPositionY = 2
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 0
 						m_eStatType = "k_eTarotTileStat_Kills"
 						m_unStatValue = 2
 					},
-					
 					{
 						m_nStatIndex = 3
 						m_eStatType = "k_eTarotTileStat_Assists"
@@ -215,20 +193,17 @@
 		m_nBoardHeight = 4
 		m_vecBoardTiles = 
 		[
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 1
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 1
 						m_eStatType = "k_eTarotTileStat_LastHits"
 						m_unStatValue = 85
 					},
-					
 					{
 						m_nStatIndex = 2
 						m_eStatType = "k_eTarotTileStat_Denies"
@@ -236,26 +211,22 @@
 					},
 				]
 			},
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 2
 				m_nBoardPositionY = 2
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 0
 						m_eStatType = "k_eTarotTileStat_Kills"
 						m_unStatValue = 2
 					},
-					
 					{
 						m_nStatIndex = 1
 						m_eStatType = "k_eTarotTileStat_Denies"
 						m_unStatValue = 12
 					},
-					
 					{
 						m_nStatIndex = 3
 						m_eStatType = "k_eTarotTileStat_Assists"
@@ -263,26 +234,22 @@
 					},
 				]
 			},
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 3
 				m_nBoardPositionY = 1
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 1
 						m_eStatType = "k_eTarotTileStat_TotalSouls"
 						m_unStatValue = 25123
 					},
-					
 					{
 						m_nStatIndex = 2
 						m_eStatType = "k_eTarotTileStat_Healing"
 						m_unStatValue = 5231
 					},
-					
 					{
 						m_nStatIndex = 3
 						m_eStatType = "k_eTarotTileStat_ObjectiveDamage"
@@ -290,20 +257,17 @@
 					},
 				]
 			},
-			
 			{
 				m_unTileDefID = 2
 				m_nBoardPositionX = 4
 				m_nBoardPositionY = 2
 				m_vecTileStats = 
 				[
-					
 					{
 						m_nStatIndex = 0
 						m_eStatType = "k_eTarotTileStat_ObjectiveDamage"
 						m_unStatValue = 7532
 					},
-					
 					{
 						m_nStatIndex = 3
 						m_eStatType = "k_eTarotTileStat_PlayerDamage"

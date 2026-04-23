@@ -152,10 +152,7 @@
 		m_sFlavorName = "#Citadel_VData_accolades_first_blood_FlavorName"
 		m_sDescription = "#Citadel_VData_accolades_first_blood_Description:f"
 		m_eThresholdType = "Manual"
-		m_vecThresholds = 
-		[
-			1,
-		]
+		m_vecThresholds = [ 1 ]
 	}
 	killstreak_kills = 
 	{

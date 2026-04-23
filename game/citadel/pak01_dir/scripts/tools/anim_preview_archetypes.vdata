@@ -5,49 +5,37 @@
 	{
 		m_primarySkeleton = "models/npc_units/troopers/amber_trooper_01/amber_trooper_01.vnmskel"
 		m_previewModel = "models/npc_units/troopers/amber_trooper_01/amber_trooper_01.vmdl"
-		m_secondarySkeletonSettings = 
-		[
-		]
+		m_secondarySkeletonSettings = [  ]
 	}
 	npc_trooper_sapphire = 
 	{
 		m_primarySkeleton = "models/npc_units/troopers/amber_trooper_01/amber_trooper_01.vnmskel"
 		m_previewModel = "models/npc_units/troopers/sapphire_trooper_01/sapphire_trooper_01.vmdl"
-		m_secondarySkeletonSettings = 
-		[
-		]
+		m_secondarySkeletonSettings = [  ]
 	}
 	npc_trooper_melee_amber = 
 	{
 		m_primarySkeleton = "models/npc_units/troopers/amber_trooper_01_melee/amber_trooper_01_melee.vnmskel"
 		m_previewModel = "models/npc_units/troopers/amber_trooper_01_melee/amber_trooper_01_melee.vmdl"
-		m_secondarySkeletonSettings = 
-		[
-		]
+		m_secondarySkeletonSettings = [  ]
 	}
 	npc_trooper_melee_sapphire = 
 	{
 		m_primarySkeleton = "models/npc_units/troopers/amber_trooper_01_melee/amber_trooper_01_melee.vnmskel"
 		m_previewModel = "models/npc_units/troopers/sapphire_trooper_01_melee/sapphire_trooper_01_melee.vmdl"
-		m_secondarySkeletonSettings = 
-		[
-		]
+		m_secondarySkeletonSettings = [  ]
 	}
 	npc_trooper_medic_sapphire = 
 	{
 		m_primarySkeleton = "models/npc_units/troopers/amber_medic_01/amber_medic_01.vnmskel"
 		m_previewModel = "models/npc_units/troopers/sapphire_medic_01/sapphire_medic_01.vmdl"
-		m_secondarySkeletonSettings = 
-		[
-		]
+		m_secondarySkeletonSettings = [  ]
 	}
 	npc_trooper_medic_amber = 
 	{
 		m_primarySkeleton = "models/npc_units/troopers/amber_medic_01/amber_medic_01.vnmskel"
 		m_previewModel = "models/npc_units/troopers/amber_medic_01/amber_medic_01.vmdl"
-		m_secondarySkeletonSettings = 
-		[
-		]
+		m_secondarySkeletonSettings = [  ]
 	}
 	Viscous = 
 	{

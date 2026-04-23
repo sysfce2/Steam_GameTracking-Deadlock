@@ -219,7 +219,7 @@
 		[
 			"sounds/vo/newscaster/guide_controls_abilities.vsnd",
 		]
-		vsnd_duration = 3.645850
+		vsnd_duration = 3.64585
 	}
 	NPC.Reporter.NewPlayer.VO.Guide.Combat.Aim = 
 	{

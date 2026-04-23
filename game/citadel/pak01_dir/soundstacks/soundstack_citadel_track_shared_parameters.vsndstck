@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -129,7 +128,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "get_vsnd"
 				operator = "opvar_get_vsnd"
@@ -141,15 +139,13 @@
 				array_selection_type = "@public.vsnd_selection_type"
 				input_index = "@public.vsnd_selection_index"
 			},
-			
 			{
 				name = "track_percent_chance_to_play_rand_float"
 				operator = "math_random_float"
 				execute_once = "true"
-				input_min = 0.000000
-				input_max = 1.000000
+				input_min = 0.0
+				input_max = 1.0
 			},
-			
 			{
 				name = "track_percent_chance_to_play_rand_compare"
 				operator = "math_float"
@@ -158,7 +154,6 @@
 				input1 = "@track_percent_chance_to_play_rand_float.output"
 				input2 = "@public.track_percent_chance_to_play"
 			},
-			
 			{
 				name = "opvar_get_vsnd_is_valid"
 				input_execute = "1.000000"
@@ -166,7 +161,6 @@
 				operator = "opvar_get_vsnd_is_valid"
 				input = "@get_vsnd.output"
 			},
-			
 			{
 				name = "opvar_math_is_stopped"
 				input_execute = "1.0"
@@ -176,7 +170,6 @@
 				input1 = "@track_percent_chance_to_play_rand_compare.output"
 				input2 = "@public.vsnd_start_track"
 			},
-			
 			{
 				name = "opvar_math_vsnd_is_valid"
 				input_execute = "1.0"
@@ -186,18 +179,15 @@
 				input1 = "@opvar_get_vsnd_is_valid.output"
 				input2 = "@opvar_math_is_stopped.output"
 			},
-			
 			{
 				name = "get_event_info"
 				operator = "soundevent_get_info"
 			},
-			
 			{
 				name = "volume_db_to_gain_track"
 				operator = "math_db_to_gain"
 				input = "@public.vsnd_track_vol_offset_db"
 			},
-			
 			{
 				name = "volume_fade_in"
 				operator = "math_remap_float"
@@ -208,7 +198,6 @@
 				input_map_max = "1.000000"
 				default_to_max = "true"
 			},
-			
 			{
 				name = "volume_accumulate"
 				operator = "math_accumulate12_float"
@@ -216,7 +205,6 @@
 				input1 = "@volume_fade_in.output"
 				input2 = "@volume_db_to_gain_track.output"
 			},
-			
 			{
 				name = "pitch_random"
 				operator = "math_randomize_float"
@@ -225,7 +213,6 @@
 				input_rand_min = "@public.vsnd_track_pitch_rand_min"
 				input_rand_max = "@public.vsnd_track_pitch_rand_max"
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"

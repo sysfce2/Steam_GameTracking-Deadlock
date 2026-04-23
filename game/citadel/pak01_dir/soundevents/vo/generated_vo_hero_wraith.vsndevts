@@ -138,7 +138,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_atlas_unkillable_01.vsnd",
 		]
-		vsnd_duration = 2.290000
+		vsnd_duration = 2.29
 	}
 	wraith_ally_atlas_unkillable_02_hero_3d = 
 	{
@@ -318,7 +318,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_chrono_swap_to_boss_03.vsnd",
 		]
-		vsnd_duration = 1.202540
+		vsnd_duration = 1.20254
 	}
 	wraith_ally_doorman_killed_in_lane_01_hero_3d = 
 	{
@@ -358,7 +358,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_dynamo_big_blackhole_01.vsnd",
 		]
-		vsnd_duration = 1.135510
+		vsnd_duration = 1.13551
 	}
 	wraith_ally_dynamo_big_blackhole_02_hero_3d = 
 	{
@@ -408,7 +408,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_dynamo_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 0.911610
+		vsnd_duration = 0.91161
 	}
 	wraith_ally_dynamo_killed_in_lane_01_hero_3d = 
 	{
@@ -588,7 +588,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_gigawatt_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.069410
+		vsnd_duration = 1.06941
 	}
 	wraith_ally_gigawatt_multi_kill_ult_01_hero_3d = 
 	{
@@ -598,7 +598,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_gigawatt_multi_kill_ult_01.vsnd",
 		]
-		vsnd_duration = 1.171020
+		vsnd_duration = 1.17102
 	}
 	wraith_ally_gigawatt_multi_kill_ult_02_hero_3d = 
 	{
@@ -718,7 +718,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_haze_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.358980
+		vsnd_duration = 1.35898
 	}
 	wraith_ally_hornet_far_snipe_01_hero_3d = 
 	{
@@ -728,7 +728,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_hornet_far_snipe_01.vsnd",
 		]
-		vsnd_duration = 1.343900
+		vsnd_duration = 1.3439
 	}
 	wraith_ally_hornet_far_snipe_02_hero_3d = 
 	{
@@ -748,7 +748,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_hornet_far_snipe_03.vsnd",
 		]
-		vsnd_duration = 1.857370
+		vsnd_duration = 1.85737
 	}
 	wraith_ally_hornet_killed_in_lane_01_hero_3d = 
 	{
@@ -798,7 +798,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_inferno_burns_down_objective_02.vsnd",
 		]
-		vsnd_duration = 1.939320
+		vsnd_duration = 1.93932
 	}
 	wraith_ally_inferno_burns_down_objective_03_hero_3d = 
 	{
@@ -838,7 +838,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_kelvin_clutch_heal_01.vsnd",
 		]
-		vsnd_duration = 0.831950
+		vsnd_duration = 0.83195
 	}
 	wraith_ally_kelvin_clutch_heal_02_hero_3d = 
 	{
@@ -878,7 +878,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_kelvin_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.908980
+		vsnd_duration = 1.90898
 	}
 	wraith_ally_krill_grab_mid_enemy_ult_01_hero_3d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_magician_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.265750
+		vsnd_duration = 1.26575
 	}
 	wraith_ally_mirage_killed_in_lane_01_hero_3d = 
 	{
@@ -1038,7 +1038,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_orion_far_shot_01.vsnd",
 		]
-		vsnd_duration = 2.437710
+		vsnd_duration = 2.43771
 	}
 	wraith_ally_orion_far_shot_02_hero_3d = 
 	{
@@ -1088,7 +1088,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_orion_missile_stops_ult_02.vsnd",
 		]
-		vsnd_duration = 1.717370
+		vsnd_duration = 1.71737
 	}
 	wraith_ally_orion_missile_stops_ult_03_hero_3d = 
 	{
@@ -1308,7 +1308,7 @@
 		[
 			"sounds/vo/wraith/wraith_ally_tengu_take_objective_with_teather_03.vsnd",
 		]
-		vsnd_duration = 1.806190
+		vsnd_duration = 1.80619
 	}
 	wraith_ally_tvspirit_killed_in_lane_01_hero_3d = 
 	{
@@ -1578,7 +1578,7 @@
 		[
 			"sounds/vo/wraith/wraith_angry_04.vsnd",
 		]
-		vsnd_duration = 1.855510
+		vsnd_duration = 1.85551
 	}
 	wraith_angry_04_ult_3d = 
 	{
@@ -1588,7 +1588,7 @@
 		[
 			"sounds/vo/wraith/wraith_angry_04.vsnd",
 		]
-		vsnd_duration = 1.855510
+		vsnd_duration = 1.85551
 	}
 	wraith_angry_05_hero_3d = 
 	{
@@ -1678,7 +1678,7 @@
 		[
 			"sounds/vo/wraith/wraith_angry_08.vsnd",
 		]
-		vsnd_duration = 1.073220
+		vsnd_duration = 1.07322
 	}
 	wraith_angry_08_ult_3d = 
 	{
@@ -1688,7 +1688,7 @@
 		[
 			"sounds/vo/wraith/wraith_angry_08.vsnd",
 		]
-		vsnd_duration = 1.073220
+		vsnd_duration = 1.07322
 	}
 	wraith_angry_09_02_hero_3d = 
 	{
@@ -1778,7 +1778,7 @@
 		[
 			"sounds/vo/wraith/wraith_ap_reminder_03.vsnd",
 		]
-		vsnd_duration = 1.734150
+		vsnd_duration = 1.73415
 	}
 	wraith_be_careful_01_hero_3d = 
 	{
@@ -1818,7 +1818,7 @@
 		[
 			"sounds/vo/wraith/wraith_close_call_01.vsnd",
 		]
-		vsnd_duration = 1.008980
+		vsnd_duration = 1.00898
 	}
 	wraith_close_call_02_hero_3d = 
 	{
@@ -1908,7 +1908,7 @@
 		[
 			"sounds/vo/wraith/wraith_concerned_03.vsnd",
 		]
-		vsnd_duration = 1.184830
+		vsnd_duration = 1.18483
 	}
 	wraith_concerned_03_ult_3d = 
 	{
@@ -1918,7 +1918,7 @@
 		[
 			"sounds/vo/wraith/wraith_concerned_03.vsnd",
 		]
-		vsnd_duration = 1.184830
+		vsnd_duration = 1.18483
 	}
 	wraith_concerned_04_hero_3d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/wraith/wraith_concerned_05.vsnd",
 		]
-		vsnd_duration = 2.817710
+		vsnd_duration = 2.81771
 	}
 	wraith_concerned_05_ult_3d = 
 	{
@@ -1958,7 +1958,7 @@
 		[
 			"sounds/vo/wraith/wraith_concerned_05.vsnd",
 		]
-		vsnd_duration = 2.817710
+		vsnd_duration = 2.81771
 	}
 	wraith_concerned_06_hero_3d = 
 	{
@@ -2188,7 +2188,7 @@
 		[
 			"sounds/vo/wraith/wraith_desperation_power2_03.vsnd",
 		]
-		vsnd_duration = 1.159410
+		vsnd_duration = 1.15941
 	}
 	wraith_desperation_power2_04_ability_3d = 
 	{
@@ -2258,7 +2258,7 @@
 		[
 			"sounds/vo/wraith/wraith_desperation_power3_05.vsnd",
 		]
-		vsnd_duration = 1.079070
+		vsnd_duration = 1.07907
 	}
 	wraith_desperation_power4_01_ability_3d = 
 	{
@@ -2288,7 +2288,7 @@
 		[
 			"sounds/vo/wraith/wraith_desperation_power4_02.vsnd",
 		]
-		vsnd_duration = 1.719660
+		vsnd_duration = 1.71966
 	}
 	wraith_desperation_power4_02_ult_3d = 
 	{
@@ -2298,7 +2298,7 @@
 		[
 			"sounds/vo/wraith/wraith_desperation_power4_02.vsnd",
 		]
-		vsnd_duration = 1.719660
+		vsnd_duration = 1.71966
 	}
 	wraith_desperation_power4_03_ability_3d = 
 	{
@@ -2648,7 +2648,7 @@
 		[
 			"sounds/vo/wraith/emote/wraith_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.487120
+		vsnd_duration = 0.48712
 	}
 	wraith_effort_melee_small_05_emote_melee_effort_3d = 
 	{
@@ -2658,7 +2658,7 @@
 		[
 			"sounds/vo/wraith/emote/wraith_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.487120
+		vsnd_duration = 0.48712
 	}
 	wraith_effort_melee_small_06_emote_effort_3d = 
 	{
@@ -2868,7 +2868,7 @@
 		[
 			"sounds/vo/wraith/wraith_enemy_chrono_kill_post_swap_03.vsnd",
 		]
-		vsnd_duration = 2.986440
+		vsnd_duration = 2.98644
 	}
 	wraith_enemy_dynamo_charges_01_hero_3d = 
 	{
@@ -2908,7 +2908,7 @@
 		[
 			"sounds/vo/wraith/wraith_enemy_forge_destroy_turrets_01.vsnd",
 		]
-		vsnd_duration = 2.229660
+		vsnd_duration = 2.22966
 	}
 	wraith_enemy_forge_destroy_turrets_02_hero_3d = 
 	{
@@ -3128,7 +3128,7 @@
 		[
 			"sounds/vo/wraith/wraith_enemy_inferno_killed_mid_ult_02.vsnd",
 		]
-		vsnd_duration = 1.840680
+		vsnd_duration = 1.84068
 	}
 	wraith_enemy_inferno_killed_mid_ult_03_hero_3d = 
 	{
@@ -3148,7 +3148,7 @@
 		[
 			"sounds/vo/wraith/wraith_enemy_kelvin_kill_on_ice_path_01.vsnd",
 		]
-		vsnd_duration = 1.954830
+		vsnd_duration = 1.95483
 	}
 	wraith_enemy_kelvin_kill_on_ice_path_02_hero_3d = 
 	{
@@ -3238,7 +3238,7 @@
 		[
 			"sounds/vo/wraith/wraith_enemy_orion_see_missile_01.vsnd",
 		]
-		vsnd_duration = 1.444490
+		vsnd_duration = 1.44449
 	}
 	wraith_enemy_orion_see_missile_02_hero_3d = 
 	{
@@ -3248,7 +3248,7 @@
 		[
 			"sounds/vo/wraith/wraith_enemy_orion_see_missile_02.vsnd",
 		]
-		vsnd_duration = 0.820000
+		vsnd_duration = 0.82
 	}
 	wraith_enemy_orion_see_missile_03_hero_3d = 
 	{
@@ -3258,7 +3258,7 @@
 		[
 			"sounds/vo/wraith/wraith_enemy_orion_see_missile_03.vsnd",
 		]
-		vsnd_duration = 0.650930
+		vsnd_duration = 0.65093
 	}
 	wraith_enemy_shiv_unkillable_01_hero_3d = 
 	{
@@ -3288,7 +3288,7 @@
 		[
 			"sounds/vo/wraith/wraith_enemy_shiv_unkillable_03.vsnd",
 		]
-		vsnd_duration = 0.828050
+		vsnd_duration = 0.82805
 	}
 	wraith_enemy_tengu_flies_away_01_hero_3d = 
 	{
@@ -3348,7 +3348,7 @@
 		[
 			"sounds/vo/wraith/wraith_enemy_warden_see_ult_03.vsnd",
 		]
-		vsnd_duration = 1.240000
+		vsnd_duration = 1.24
 	}
 	wraith_enemy_yamato_starts_ult_01_hero_3d = 
 	{
@@ -3698,7 +3698,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_anyhero_02.vsnd",
 		]
-		vsnd_duration = 0.805510
+		vsnd_duration = 0.80551
 	}
 	wraith_kill_anyhero_03_hero_3d = 
 	{
@@ -3818,7 +3818,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_astro_04.vsnd",
 		]
-		vsnd_duration = 2.028980
+		vsnd_duration = 2.02898
 	}
 	wraith_kill_astro_05_hero_3d = 
 	{
@@ -4048,7 +4048,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_forge_02.vsnd",
 		]
-		vsnd_duration = 1.464150
+		vsnd_duration = 1.46415
 	}
 	wraith_kill_forge_03_hero_3d = 
 	{
@@ -4068,7 +4068,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_forge_04.vsnd",
 		]
-		vsnd_duration = 1.985850
+		vsnd_duration = 1.98585
 	}
 	wraith_kill_forge_05_hero_3d = 
 	{
@@ -4128,7 +4128,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_ghost_05.vsnd",
 		]
-		vsnd_duration = 2.247030
+		vsnd_duration = 2.24703
 	}
 	wraith_kill_gigawatt_01_hero_3d = 
 	{
@@ -4228,7 +4228,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_haze_05.vsnd",
 		]
-		vsnd_duration = 1.820000
+		vsnd_duration = 1.82
 	}
 	wraith_kill_high_networth_hero_3d = 
 	{
@@ -4268,7 +4268,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_hornet_03.vsnd",
 		]
-		vsnd_duration = 1.625760
+		vsnd_duration = 1.62576
 	}
 	wraith_kill_hornet_04_hero_3d = 
 	{
@@ -4358,7 +4358,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_kelvin_01.vsnd",
 		]
-		vsnd_duration = 1.038980
+		vsnd_duration = 1.03898
 	}
 	wraith_kill_kelvin_02_hero_3d = 
 	{
@@ -4428,7 +4428,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_krill_03.vsnd",
 		]
-		vsnd_duration = 3.998050
+		vsnd_duration = 3.99805
 	}
 	wraith_kill_krill_04_hero_3d = 
 	{
@@ -4498,7 +4498,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_lash_05.vsnd",
 		]
-		vsnd_duration = 2.898980
+		vsnd_duration = 2.89898
 	}
 	wraith_kill_nano_01_hero_3d = 
 	{
@@ -4598,7 +4598,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_orion_05.vsnd",
 		]
-		vsnd_duration = 2.809070
+		vsnd_duration = 2.80907
 	}
 	wraith_kill_shiv_01_hero_3d = 
 	{
@@ -4658,7 +4658,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_synth_01.vsnd",
 		]
-		vsnd_duration = 2.840590
+		vsnd_duration = 2.84059
 	}
 	wraith_kill_synth_02_hero_3d = 
 	{
@@ -4668,7 +4668,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_synth_02.vsnd",
 		]
-		vsnd_duration = 3.451360
+		vsnd_duration = 3.45136
 	}
 	wraith_kill_synth_03_hero_3d = 
 	{
@@ -4718,7 +4718,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_tengu_02.vsnd",
 		]
-		vsnd_duration = 1.524240
+		vsnd_duration = 1.52424
 	}
 	wraith_kill_tengu_03_hero_3d = 
 	{
@@ -4938,7 +4938,7 @@
 		[
 			"sounds/vo/wraith/wraith_kill_yamato_04.vsnd",
 		]
-		vsnd_duration = 1.657370
+		vsnd_duration = 1.65737
 	}
 	wraith_kill_yamato_05_hero_3d = 
 	{
@@ -4998,7 +4998,7 @@
 		[
 			"sounds/vo/wraith/wraith_killstreak_high_03.vsnd",
 		]
-		vsnd_duration = 1.666440
+		vsnd_duration = 1.66644
 	}
 	wraith_killstreak_high_03_hero_announcer = 
 	{
@@ -5008,7 +5008,7 @@
 		[
 			"sounds/vo/wraith/wraith_killstreak_high_03.vsnd",
 		]
-		vsnd_duration = 1.666440
+		vsnd_duration = 1.66644
 	}
 	wraith_killstreak_mid_01_hero_3d = 
 	{
@@ -5188,7 +5188,7 @@
 		[
 			"sounds/vo/wraith/wraith_last_one_standing_02.vsnd",
 		]
-		vsnd_duration = 1.694150
+		vsnd_duration = 1.69415
 	}
 	wraith_last_one_standing_03_02_hero_3d = 
 	{
@@ -5248,7 +5248,7 @@
 		[
 			"sounds/vo/wraith/wraith_leave_base_04.vsnd",
 		]
-		vsnd_duration = 1.244240
+		vsnd_duration = 1.24424
 	}
 	wraith_leave_base_05_hero_3d = 
 	{
@@ -5428,7 +5428,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_atlas_wraith_convo02_03.vsnd",
 		]
-		vsnd_duration = 4.263310
+		vsnd_duration = 4.26331
 	}
 	wraith_match_start_atlas_wraith_convo02_05_hero_zipline_3d = 
 	{
@@ -5578,7 +5578,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_chrono_wraith_convo03_05.vsnd",
 		]
-		vsnd_duration = 1.250590
+		vsnd_duration = 1.25059
 	}
 	wraith_match_start_drifter_wraith_convo01_02_hero_zipline_3d = 
 	{
@@ -5588,7 +5588,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_drifter_wraith_convo01_02.vsnd",
 		]
-		vsnd_duration = 13.049500
+		vsnd_duration = 13.0495
 	}
 	wraith_match_start_drifter_wraith_convo01_04_hero_zipline_3d = 
 	{
@@ -5698,7 +5698,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_dynamo_wraith_convo03_06.vsnd",
 		]
-		vsnd_duration = 0.665850
+		vsnd_duration = 0.66585
 	}
 	wraith_match_start_dynamo_wraith_convo03_08_hero_zipline_3d = 
 	{
@@ -5738,7 +5738,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_forge_wraith_convo01_03.vsnd",
 		]
-		vsnd_duration = 1.245170
+		vsnd_duration = 1.24517
 	}
 	wraith_match_start_forge_wraith_convo01_05_hero_zipline_3d = 
 	{
@@ -5838,7 +5838,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_ghost_wraith_convo03_01.vsnd",
 		]
-		vsnd_duration = 3.502540
+		vsnd_duration = 3.50254
 	}
 	wraith_match_start_ghost_wraith_convo03_03_hero_zipline_3d = 
 	{
@@ -5868,7 +5868,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_haze_wraith_convo01_03.vsnd",
 		]
-		vsnd_duration = 3.263560
+		vsnd_duration = 3.26356
 	}
 	wraith_match_start_haze_wraith_convo02_02_hero_zipline_3d = 
 	{
@@ -6138,7 +6138,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_krill_wraith_convo02_03.vsnd",
 		]
-		vsnd_duration = 2.026780
+		vsnd_duration = 2.02678
 	}
 	wraith_match_start_krill_wraith_convo03_02_hero_zipline_3d = 
 	{
@@ -6178,7 +6178,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_lash_wraith_convo01_03.vsnd",
 		]
-		vsnd_duration = 2.261020
+		vsnd_duration = 2.26102
 	}
 	wraith_match_start_lash_wraith_convo02_02_hero_zipline_3d = 
 	{
@@ -6188,7 +6188,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_lash_wraith_convo02_02.vsnd",
 		]
-		vsnd_duration = 2.448390
+		vsnd_duration = 2.44839
 	}
 	wraith_match_start_lash_wraith_convo02_04_02_hero_zipline_3d = 
 	{
@@ -6298,7 +6298,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_punkgoat_wraith_convo01_06.vsnd",
 		]
-		vsnd_duration = 1.032750
+		vsnd_duration = 1.03275
 	}
 	wraith_match_start_punkgoat_wraith_convo02_01_hero_zipline_3d = 
 	{
@@ -6458,7 +6458,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_tengu_wraith_convo03_05.vsnd",
 		]
-		vsnd_duration = 2.304580
+		vsnd_duration = 2.30458
 	}
 	wraith_match_start_viper_wraith_convo01_01_hero_zipline_3d = 
 	{
@@ -6478,7 +6478,7 @@
 		[
 			"sounds/vo/wraith/wraith_match_start_viper_wraith_convo01_03.vsnd",
 		]
-		vsnd_duration = 0.894500
+		vsnd_duration = 0.8945
 	}
 	wraith_match_start_viper_wraith_convo02_02_hero_zipline_3d = 
 	{
@@ -6598,7 +6598,7 @@
 		[
 			"sounds/vo/wraith/wraith_near_miss_03.vsnd",
 		]
-		vsnd_duration = 1.695420
+		vsnd_duration = 1.69542
 	}
 	wraith_near_miss_04_hero_3d = 
 	{
@@ -6998,7 +6998,7 @@
 		[
 			"sounds/vo/wraith/emote/wraith_pain_small_11.vsnd",
 		]
-		vsnd_duration = 0.528980
+		vsnd_duration = 0.52898
 	}
 	wraith_pain_small_12_emote_pain_3d = 
 	{
@@ -7028,7 +7028,7 @@
 		[
 			"sounds/vo/wraith/wraith_parry_02.vsnd",
 		]
-		vsnd_duration = 1.378980
+		vsnd_duration = 1.37898
 	}
 	wraith_parry_03_hero_3d = 
 	{
@@ -7048,7 +7048,7 @@
 		[
 			"sounds/vo/wraith/wraith_pick_up_gold_01.vsnd",
 		]
-		vsnd_duration = 1.634150
+		vsnd_duration = 1.63415
 	}
 	wraith_pick_up_gold_02_hero_3d = 
 	{
@@ -7098,7 +7098,7 @@
 		[
 			"sounds/vo/wraith/wraith_pick_up_rejuv_01.vsnd",
 		]
-		vsnd_duration = 1.585850
+		vsnd_duration = 1.58585
 	}
 	wraith_pick_up_rejuv_02_hero_3d = 
 	{
@@ -7198,7 +7198,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_ability4_not_ready.vsnd",
 		]
-		vsnd_duration = 1.373220
+		vsnd_duration = 1.37322
 	}
 	wraith_ping_affermative_01_ping_2d = 
 	{
@@ -7218,7 +7218,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_affermative_02.vsnd",
 		]
-		vsnd_duration = 0.686190
+		vsnd_duration = 0.68619
 	}
 	wraith_ping_affermative_03_ping_2d = 
 	{
@@ -7388,7 +7388,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_atlas_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.300590
+		vsnd_duration = 1.30059
 	}
 	wraith_ping_atlas_under_garage_ping_2d = 
 	{
@@ -7398,7 +7398,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_atlas_under_garage.vsnd",
 		]
-		vsnd_duration = 1.673810
+		vsnd_duration = 1.67381
 	}
 	wraith_ping_atlas_was_here_ping_2d = 
 	{
@@ -7418,7 +7418,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_attack_astro_02.vsnd",
 		]
-		vsnd_duration = 1.347710
+		vsnd_duration = 1.34771
 	}
 	wraith_ping_attack_astro_ping_2d = 
 	{
@@ -7468,7 +7468,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_attack_boho.vsnd",
 		]
-		vsnd_duration = 1.385500
+		vsnd_duration = 1.3855
 	}
 	wraith_ping_attack_bookworm_alt_ping_2d = 
 	{
@@ -7688,7 +7688,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_attack_incubus.vsnd",
 		]
-		vsnd_duration = 1.571750
+		vsnd_duration = 1.57175
 	}
 	wraith_ping_attack_inferno_ping_2d = 
 	{
@@ -7708,7 +7708,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_attack_kelvin.vsnd",
 		]
-		vsnd_duration = 1.270000
+		vsnd_duration = 1.27
 	}
 	wraith_ping_attack_krill_ping_2d = 
 	{
@@ -7778,7 +7778,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_attack_priest.vsnd",
 		]
-		vsnd_duration = 1.391000
+		vsnd_duration = 1.391
 	}
 	wraith_ping_attack_punkgoat_ping_2d = 
 	{
@@ -7818,7 +7818,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_attack_succubus.vsnd",
 		]
-		vsnd_duration = 1.623750
+		vsnd_duration = 1.62375
 	}
 	wraith_ping_attack_swan_ping_2d = 
 	{
@@ -7938,7 +7938,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_avatar_under_attack.vsnd",
 		]
-		vsnd_duration = 1.320000
+		vsnd_duration = 1.32
 	}
 	wraith_ping_be_back_soon_ping_2d = 
 	{
@@ -8058,7 +8058,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_blue_help_02.vsnd",
 		]
-		vsnd_duration = 1.083900
+		vsnd_duration = 1.0839
 	}
 	wraith_ping_boho_missing_01_ping_2d = 
 	{
@@ -8168,7 +8168,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_cadence_in_mid.vsnd",
 		]
-		vsnd_duration = 1.475510
+		vsnd_duration = 1.47551
 	}
 	wraith_ping_cadence_missing_01_ping_2d = 
 	{
@@ -8318,7 +8318,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_can_heal_forge.vsnd",
 		]
-		vsnd_duration = 1.380000
+		vsnd_duration = 1.38
 	}
 	wraith_ping_can_heal_frank_ping_2d = 
 	{
@@ -8698,7 +8698,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_careful_cadence_03.vsnd",
 		]
-		vsnd_duration = 1.174240
+		vsnd_duration = 1.17424
 	}
 	wraith_ping_careful_chrono_01_ping_2d = 
 	{
@@ -8878,7 +8878,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_careful_frank_01.vsnd",
 		]
-		vsnd_duration = 1.210250
+		vsnd_duration = 1.21025
 	}
 	wraith_ping_careful_frank_02_ping_2d = 
 	{
@@ -9538,7 +9538,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_careful_wrecker_01.vsnd",
 		]
-		vsnd_duration = 1.003560
+		vsnd_duration = 1.00356
 	}
 	wraith_ping_careful_wrecker_02_ping_2d = 
 	{
@@ -9578,7 +9578,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_careful_yamato_02.vsnd",
 		]
-		vsnd_duration = 1.367710
+		vsnd_duration = 1.36771
 	}
 	wraith_ping_careful_yamato_03_ping_2d = 
 	{
@@ -9658,7 +9658,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_chrono_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.551360
+		vsnd_duration = 1.55136
 	}
 	wraith_ping_chrono_under_garage_ping_2d = 
 	{
@@ -9738,7 +9738,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_defend_green_01.vsnd",
 		]
-		vsnd_duration = 1.100590
+		vsnd_duration = 1.10059
 	}
 	wraith_ping_defend_green_02_ping_2d = 
 	{
@@ -9768,7 +9768,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_defend_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.058730
+		vsnd_duration = 1.05873
 	}
 	wraith_ping_doorman_almost_respawn_ping_2d = 
 	{
@@ -9818,7 +9818,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_doorman_missing_01.vsnd",
 		]
-		vsnd_duration = 1.242500
+		vsnd_duration = 1.2425
 	}
 	wraith_ping_doorman_on_top_of_garage_ping_2d = 
 	{
@@ -9868,7 +9868,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_drifter_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.485000
+		vsnd_duration = 1.485
 	}
 	wraith_ping_drifter_check_items_ping_2d = 
 	{
@@ -10018,7 +10018,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_dynamo_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.570680
+		vsnd_duration = 1.57068
 	}
 	wraith_ping_dynamo_on_top_of_mid_ping_2d = 
 	{
@@ -10228,7 +10228,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_frank_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.654750
+		vsnd_duration = 1.65475
 	}
 	wraith_ping_frank_on_top_of_mid_ping_2d = 
 	{
@@ -10348,7 +10348,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_ghost_under_garage.vsnd",
 		]
-		vsnd_duration = 1.622290
+		vsnd_duration = 1.62229
 	}
 	wraith_ping_ghost_was_here_ping_2d = 
 	{
@@ -10448,7 +10448,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_gigawatt_was_here.vsnd",
 		]
-		vsnd_duration = 1.110680
+		vsnd_duration = 1.11068
 	}
 	wraith_ping_glitch_almost_ready_ping_2d = 
 	{
@@ -10488,7 +10488,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_going_in.vsnd",
 		]
-		vsnd_duration = 0.793900
+		vsnd_duration = 0.7939
 	}
 	wraith_ping_going_shop_01_ping_2d = 
 	{
@@ -10588,7 +10588,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_haze_check_items.vsnd",
 		]
-		vsnd_duration = 1.435000
+		vsnd_duration = 1.435
 	}
 	wraith_ping_haze_dead_ping_2d = 
 	{
@@ -10628,7 +10628,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_haze_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.507800
+		vsnd_duration = 1.5078
 	}
 	wraith_ping_haze_on_top_of_mid_ping_2d = 
 	{
@@ -10668,7 +10668,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_headed_blue_01.vsnd",
 		]
-		vsnd_duration = 0.921020
+		vsnd_duration = 0.92102
 	}
 	wraith_ping_headed_blue_02_ping_2d = 
 	{
@@ -11178,7 +11178,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_incubus_missing_01.vsnd",
 		]
-		vsnd_duration = 1.366750
+		vsnd_duration = 1.36675
 	}
 	wraith_ping_inferno_almost_respawn_ping_2d = 
 	{
@@ -11228,7 +11228,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_inferno_missing_01.vsnd",
 		]
-		vsnd_duration = 1.220680
+		vsnd_duration = 1.22068
 	}
 	wraith_ping_inferno_on_top_of_garage_ping_2d = 
 	{
@@ -11258,7 +11258,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_inferno_under_garage.vsnd",
 		]
-		vsnd_duration = 1.648050
+		vsnd_duration = 1.64805
 	}
 	wraith_ping_inferno_was_here_ping_2d = 
 	{
@@ -11338,7 +11338,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_kelvin_dead.vsnd",
 		]
-		vsnd_duration = 1.022630
+		vsnd_duration = 1.02263
 	}
 	wraith_ping_kelvin_in_mid_ping_2d = 
 	{
@@ -11368,7 +11368,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_kelvin_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.629070
+		vsnd_duration = 1.62907
 	}
 	wraith_ping_kelvin_on_top_of_mid_ping_2d = 
 	{
@@ -11398,7 +11398,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_kelvin_was_here.vsnd",
 		]
-		vsnd_duration = 0.975170
+		vsnd_duration = 0.97517
 	}
 	wraith_ping_kncokdown_almost_ready_ping_2d = 
 	{
@@ -11488,7 +11488,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_krill_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.283810
+		vsnd_duration = 1.28381
 	}
 	wraith_ping_krill_under_garage_ping_2d = 
 	{
@@ -11518,7 +11518,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_lash_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.312630
+		vsnd_duration = 1.31263
 	}
 	wraith_ping_lash_check_items_ping_2d = 
 	{
@@ -11648,7 +11648,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_lets_go_yellow_alt.vsnd",
 		]
-		vsnd_duration = 1.028050
+		vsnd_duration = 1.02805
 	}
 	wraith_ping_lets_go_yellow_ping_2d = 
 	{
@@ -11678,7 +11678,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_meet_here.vsnd",
 		]
-		vsnd_duration = 0.864240
+		vsnd_duration = 0.86424
 	}
 	wraith_ping_mirage_almost_respawn_ping_2d = 
 	{
@@ -11768,7 +11768,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_mirage_was_here.vsnd",
 		]
-		vsnd_duration = 1.035510
+		vsnd_duration = 1.03551
 	}
 	wraith_ping_missing_blue_01_ping_2d = 
 	{
@@ -11878,7 +11878,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_nano_missing_01.vsnd",
 		]
-		vsnd_duration = 1.020930
+		vsnd_duration = 1.02093
 	}
 	wraith_ping_nano_on_top_of_garage_ping_2d = 
 	{
@@ -12038,7 +12038,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_negative_03.vsnd",
 		]
-		vsnd_duration = 0.842290
+		vsnd_duration = 0.84229
 	}
 	wraith_ping_nevermind_01_ping_2d = 
 	{
@@ -12098,7 +12098,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_on_way.vsnd",
 		]
-		vsnd_duration = 0.812200
+		vsnd_duration = 0.8122
 	}
 	wraith_ping_orion_almost_respawn_ping_2d = 
 	{
@@ -12218,7 +12218,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_post_game_03.vsnd",
 		]
-		vsnd_duration = 1.484490
+		vsnd_duration = 1.48449
 	}
 	wraith_ping_post_game_04_ping_2d = 
 	{
@@ -12248,7 +12248,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_post_game_06.vsnd",
 		]
-		vsnd_duration = 1.612200
+		vsnd_duration = 1.6122
 	}
 	wraith_ping_pre_game_01_ping_2d = 
 	{
@@ -12308,7 +12308,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_pre_game_06.vsnd",
 		]
-		vsnd_duration = 4.267120
+		vsnd_duration = 4.26712
 	}
 	wraith_ping_press_advantage_ping_2d = 
 	{
@@ -12358,7 +12358,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_priest_in_mid.vsnd",
 		]
-		vsnd_duration = 1.302500
+		vsnd_duration = 1.3025
 	}
 	wraith_ping_priest_missing_01_ping_2d = 
 	{
@@ -12398,7 +12398,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_priest_under_garage.vsnd",
 		]
-		vsnd_duration = 1.590500
+		vsnd_duration = 1.5905
 	}
 	wraith_ping_priest_was_here_ping_2d = 
 	{
@@ -12598,7 +12598,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_request_follow.vsnd",
 		]
-		vsnd_duration = 0.790680
+		vsnd_duration = 0.79068
 	}
 	wraith_ping_retreat_01_ping_2d = 
 	{
@@ -12818,7 +12818,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_saw_haze.vsnd",
 		]
-		vsnd_duration = 1.014240
+		vsnd_duration = 1.01424
 	}
 	wraith_ping_saw_hornet_ping_2d = 
 	{
@@ -12838,7 +12838,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_saw_inferno.vsnd",
 		]
-		vsnd_duration = 1.206190
+		vsnd_duration = 1.20619
 	}
 	wraith_ping_saw_kelvin_ping_2d = 
 	{
@@ -12978,7 +12978,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_saw_viscous.vsnd",
 		]
-		vsnd_duration = 1.092200
+		vsnd_duration = 1.0922
 	}
 	wraith_ping_saw_warden_ping_2d = 
 	{
@@ -13038,7 +13038,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_astro.vsnd",
 		]
-		vsnd_duration = 1.184240
+		vsnd_duration = 1.18424
 	}
 	wraith_ping_see_atlas_01_ping_2d = 
 	{
@@ -13158,7 +13158,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_cadence_01.vsnd",
 		]
-		vsnd_duration = 1.084240
+		vsnd_duration = 1.08424
 	}
 	wraith_ping_see_cadence_02_ping_2d = 
 	{
@@ -13168,7 +13168,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_cadence_02.vsnd",
 		]
-		vsnd_duration = 1.668980
+		vsnd_duration = 1.66898
 	}
 	wraith_ping_see_cadence_on_bridge_ping_2d = 
 	{
@@ -13198,7 +13198,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_chrono_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.417460
+		vsnd_duration = 1.41746
 	}
 	wraith_ping_see_chrono_on_roof_ping_2d = 
 	{
@@ -13298,7 +13298,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_druid_01.vsnd",
 		]
-		vsnd_duration = 1.113250
+		vsnd_duration = 1.11325
 	}
 	wraith_ping_see_dynamo_01_ping_2d = 
 	{
@@ -13458,7 +13458,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_ghost_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.190000
+		vsnd_duration = 1.19
 	}
 	wraith_ping_see_ghost_on_roof_ping_2d = 
 	{
@@ -13468,7 +13468,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_ghost_on_roof.vsnd",
 		]
-		vsnd_duration = 1.118980
+		vsnd_duration = 1.11898
 	}
 	wraith_ping_see_gigawatt_01_ping_2d = 
 	{
@@ -13478,7 +13478,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_gigawatt_01.vsnd",
 		]
-		vsnd_duration = 1.135760
+		vsnd_duration = 1.13576
 	}
 	wraith_ping_see_gigawatt_on_bridge_ping_2d = 
 	{
@@ -13498,7 +13498,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_gigawatt_on_roof.vsnd",
 		]
-		vsnd_duration = 1.265760
+		vsnd_duration = 1.26576
 	}
 	wraith_ping_see_graf_01_ping_2d = 
 	{
@@ -13568,7 +13568,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_hornet_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.355510
+		vsnd_duration = 1.35551
 	}
 	wraith_ping_see_hornet_on_roof_ping_2d = 
 	{
@@ -14058,7 +14058,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_warden_01.vsnd",
 		]
-		vsnd_duration = 1.070000
+		vsnd_duration = 1.07
 	}
 	wraith_ping_see_warden_on_bridge_ping_2d = 
 	{
@@ -14098,7 +14098,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_wrecker_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.333560
+		vsnd_duration = 1.33356
 	}
 	wraith_ping_see_wrecker_on_roof_ping_2d = 
 	{
@@ -14138,7 +14138,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_see_yamato.vsnd",
 		]
-		vsnd_duration = 1.318980
+		vsnd_duration = 1.31898
 	}
 	wraith_ping_shiv_almost_respawn_ping_2d = 
 	{
@@ -14198,7 +14198,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_shiv_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.748050
+		vsnd_duration = 1.74805
 	}
 	wraith_ping_shiv_on_top_of_mid_ping_2d = 
 	{
@@ -14268,7 +14268,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_sorry_01.vsnd",
 		]
-		vsnd_duration = 0.897800
+		vsnd_duration = 0.8978
 	}
 	wraith_ping_sorry_02_ping_2d = 
 	{
@@ -14358,7 +14358,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_stun_bookworm_01_alt.vsnd",
 		]
-		vsnd_duration = 0.941500
+		vsnd_duration = 0.9415
 	}
 	wraith_ping_stun_cadence_01_ping_2d = 
 	{
@@ -14458,7 +14458,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_stun_haze_01.vsnd",
 		]
-		vsnd_duration = 1.069320
+		vsnd_duration = 1.06932
 	}
 	wraith_ping_stun_hornet_01_ping_2d = 
 	{
@@ -14498,7 +14498,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_stun_krill_01.vsnd",
 		]
-		vsnd_duration = 0.949410
+		vsnd_duration = 0.94941
 	}
 	wraith_ping_stun_lash_01_ping_2d = 
 	{
@@ -14518,7 +14518,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_stun_mirage_01.vsnd",
 		]
-		vsnd_duration = 1.038730
+		vsnd_duration = 1.03873
 	}
 	wraith_ping_stun_nano_01_ping_2d = 
 	{
@@ -14628,7 +14628,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_stun_wrecker_01.vsnd",
 		]
-		vsnd_duration = 0.979320
+		vsnd_duration = 0.97932
 	}
 	wraith_ping_stun_yamato_01_ping_2d = 
 	{
@@ -14878,7 +14878,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_tengu_was_here.vsnd",
 		]
-		vsnd_duration = 0.984490
+		vsnd_duration = 0.98449
 	}
 	wraith_ping_thank_you_01_ping_2d = 
 	{
@@ -14918,7 +14918,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_they_were_here.vsnd",
 		]
-		vsnd_duration = 0.778390
+		vsnd_duration = 0.77839
 	}
 	wraith_ping_theyre_in_mid_ping_2d = 
 	{
@@ -14958,7 +14958,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_theyre_under_garage.vsnd",
 		]
-		vsnd_duration = 1.451950
+		vsnd_duration = 1.45195
 	}
 	wraith_ping_tvspirit_missing_01_ping_2d = 
 	{
@@ -14968,7 +14968,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_tvspirit_missing_01.vsnd",
 		]
-		vsnd_duration = 1.444750
+		vsnd_duration = 1.44475
 	}
 	wraith_ping_use_ability1_ping_2d = 
 	{
@@ -14998,7 +14998,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_use_ability3.vsnd",
 		]
-		vsnd_duration = 1.199070
+		vsnd_duration = 1.19907
 	}
 	wraith_ping_use_ability4_01_ping_2d = 
 	{
@@ -15038,7 +15038,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_use_ability4_04.vsnd",
 		]
-		vsnd_duration = 1.805500
+		vsnd_duration = 1.8055
 	}
 	wraith_ping_use_ability4_05_ping_2d = 
 	{
@@ -15058,7 +15058,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_use_ability4_06.vsnd",
 		]
-		vsnd_duration = 1.237710
+		vsnd_duration = 1.23771
 	}
 	wraith_ping_use_ability4_07_ping_2d = 
 	{
@@ -15128,7 +15128,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_use_item.vsnd",
 		]
-		vsnd_duration = 1.386750
+		vsnd_duration = 1.38675
 	}
 	wraith_ping_use_kncokdown_ping_2d = 
 	{
@@ -15258,7 +15258,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_vampirebat_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.253750
+		vsnd_duration = 1.25375
 	}
 	wraith_ping_vampirebat_under_garage_ping_2d = 
 	{
@@ -15538,7 +15538,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_with_bebop.vsnd",
 		]
-		vsnd_duration = 1.078640
+		vsnd_duration = 1.07864
 	}
 	wraith_ping_with_bookworm_alt_ping_2d = 
 	{
@@ -15588,7 +15588,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_with_drifter.vsnd",
 		]
-		vsnd_duration = 1.046250
+		vsnd_duration = 1.04625
 	}
 	wraith_ping_with_dynamo_ping_2d = 
 	{
@@ -15618,7 +15618,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_with_frank.vsnd",
 		]
-		vsnd_duration = 1.117750
+		vsnd_duration = 1.11775
 	}
 	wraith_ping_with_ghost_ping_2d = 
 	{
@@ -15688,7 +15688,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_with_krill.vsnd",
 		]
-		vsnd_duration = 1.057800
+		vsnd_duration = 1.0578
 	}
 	wraith_ping_with_lash_ping_2d = 
 	{
@@ -15698,7 +15698,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_with_lash.vsnd",
 		]
-		vsnd_duration = 1.071950
+		vsnd_duration = 1.07195
 	}
 	wraith_ping_with_mirage_ping_2d = 
 	{
@@ -15798,7 +15798,7 @@
 		[
 			"sounds/vo/wraith/ping/wraith_ping_with_viscous.vsnd",
 		]
-		vsnd_duration = 1.210000
+		vsnd_duration = 1.21
 	}
 	wraith_ping_with_warden_ping_2d = 
 	{
@@ -16328,7 +16328,7 @@
 		[
 			"sounds/vo/wraith/wraith_t1_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 1.454240
+		vsnd_duration = 1.45424
 	}
 	wraith_t2_shop_reminder_01_hero_3d = 
 	{
@@ -16418,7 +16418,7 @@
 		[
 			"sounds/vo/wraith/wraith_t4_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 2.095170
+		vsnd_duration = 2.09517
 	}
 	wraith_tower_got_denied_01_hero_3d = 
 	{
@@ -16468,7 +16468,7 @@
 		[
 			"sounds/vo/wraith/wraith_tower_got_denied_05.vsnd",
 		]
-		vsnd_duration = 2.129750
+		vsnd_duration = 2.12975
 	}
 	wraith_unselect_01_hero_3d = 
 	{
@@ -16508,7 +16508,7 @@
 		[
 			"sounds/vo/wraith/wraith_unselect_04.vsnd",
 		]
-		vsnd_duration = 3.634490
+		vsnd_duration = 3.63449
 	}
 	wraith_unselect_05_hero_3d = 
 	{
@@ -16518,7 +16518,7 @@
 		[
 			"sounds/vo/wraith/wraith_unselect_05.vsnd",
 		]
-		vsnd_duration = 1.931270
+		vsnd_duration = 1.93127
 	}
 	wraith_unselect_06_hero_3d = 
 	{
@@ -16698,7 +16698,7 @@
 		[
 			"sounds/vo/wraith/wraith_upgrade_power2_03.vsnd",
 		]
-		vsnd_duration = 1.855510
+		vsnd_duration = 1.85551
 	}
 	wraith_upgrade_power2_04_hero_3d = 
 	{
@@ -16848,7 +16848,7 @@
 		[
 			"sounds/vo/wraith/wraith_upgrade_power3_08.vsnd",
 		]
-		vsnd_duration = 2.710000
+		vsnd_duration = 2.71
 	}
 	wraith_upgrade_power3_09_hero_3d = 
 	{
@@ -16858,7 +16858,7 @@
 		[
 			"sounds/vo/wraith/wraith_upgrade_power3_09.vsnd",
 		]
-		vsnd_duration = 2.691020
+		vsnd_duration = 2.69102
 	}
 	wraith_upgrade_power3_10_hero_3d = 
 	{
@@ -16948,7 +16948,7 @@
 		[
 			"sounds/vo/wraith/wraith_upgrade_power4_08.vsnd",
 		]
-		vsnd_duration = 2.329070
+		vsnd_duration = 2.32907
 	}
 	wraith_upgrade_power4_09_hero_3d = 
 	{
@@ -17088,7 +17088,7 @@
 		[
 			"sounds/vo/wraith/wraith_use_decay_03.vsnd",
 		]
-		vsnd_duration = 1.948980
+		vsnd_duration = 1.94898
 	}
 	wraith_use_echo_shard_01_ability_3d = 
 	{
@@ -17098,7 +17098,7 @@
 		[
 			"sounds/vo/wraith/wraith_use_echo_shard_01.vsnd",
 		]
-		vsnd_duration = 1.153810
+		vsnd_duration = 1.15381
 	}
 	wraith_use_echo_shard_02_ability_3d = 
 	{
@@ -17168,7 +17168,7 @@
 		[
 			"sounds/vo/wraith/wraith_use_metal_skin_02.vsnd",
 		]
-		vsnd_duration = 1.885760
+		vsnd_duration = 1.88576
 	}
 	wraith_use_metal_skin_03_ability_3d = 
 	{
@@ -17178,7 +17178,7 @@
 		[
 			"sounds/vo/wraith/wraith_use_metal_skin_03.vsnd",
 		]
-		vsnd_duration = 1.549410
+		vsnd_duration = 1.54941
 	}
 	wraith_use_phantom_strike_01_ability_3d = 
 	{
@@ -17268,7 +17268,7 @@
 		[
 			"sounds/vo/wraith/wraith_use_power1_06.vsnd",
 		]
-		vsnd_duration = 1.624490
+		vsnd_duration = 1.62449
 	}
 	wraith_use_power1_07_ability_3d = 
 	{
@@ -17348,7 +17348,7 @@
 		[
 			"sounds/vo/wraith/wraith_use_power2_04.vsnd",
 		]
-		vsnd_duration = 0.780680
+		vsnd_duration = 0.78068
 	}
 	wraith_use_power2_05_ability_3d = 
 	{
@@ -17868,7 +17868,7 @@
 		[
 			"sounds/vo/wraith/wraith_use_silencer_03.vsnd",
 		]
-		vsnd_duration = 1.565850
+		vsnd_duration = 1.56585
 	}
 	wraith_use_tech_purge_01_ability_3d = 
 	{

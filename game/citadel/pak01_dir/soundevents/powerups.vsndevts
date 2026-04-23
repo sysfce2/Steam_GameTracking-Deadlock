@@ -3,7 +3,7 @@
 	Powerup.Pickup.Health = 
 	{
 		base = "Base.Pickup"
-		pitch = 1.000000
+		pitch = 1.0
 		vsnd_files = 
 		[
 			"sounds/gameplay/health_pack/health_pack_pickup_01.vsnd",
@@ -15,76 +15,76 @@
 	Powerup.Pickup.Speed = 
 	{
 		base = "Base.Pickup"
-		pitch = 1.000000
+		pitch = 1.0
 		vsnd_files = "sounds/gameplay/powerups/speed.vsnd"
 		vsnd_duration = 1.645083
 	}
 	Powerup.Pickup.Spirit = 
 	{
 		base = "Base.Pickup"
-		volume = 2.000000
-		pitch = 1.000000
-		delay = 0.030000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.100000
+		volume = 2.0
+		pitch = 1.0
+		delay = 0.03
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.1
 		vsnd_files = "sounds/gameplay/powerups/spirit.vsnd"
 		vsnd_duration = 3.363152
 	}
 	Powerup.Pickup.Ammo = 
 	{
 		base = "Base.Pickup"
-		pitch = 1.000000
-		volume = 4.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.100000
-		delay = 0.040000
+		pitch = 1.0
+		volume = 4.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.1
+		delay = 0.04
 		vsnd_files = "sounds/gameplay/powerups/ammo.vsnd"
 		vsnd_duration = 1.875601
 	}
 	Powerup.Pickup.Weapon = 
 	{
 		base = "Base.Pickup"
-		pitch = 1.100000
-		volume = -2.000000
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.100000
-		delay = 0.000000
+		pitch = 1.1
+		volume = -2.0
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.1
+		delay = 0.0
 		vsnd_files = "sounds/gameplay/powerups/weapon.vsnd"
 		vsnd_duration = 1.875601
 	}
 	Powerup.Pickup.Generic = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.100000
-		delay = 0.040000
-		spread_min = 0.000000
-		spread_max_value = 1.000000
-		spread_max = 500.000000
-		spread_min_value = 1.000000
+		volume = -1.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.1
+		delay = 0.04
+		spread_min = 0.0
+		spread_max_value = 1.0
+		spread_max = 500.0
+		spread_min_value = 1.0
 		vsnd_files = "sounds/gameplay/powerups/powerup_punch.vsnd"
 		vsnd_duration = 3.391655
 	}
 	Powerup.Pickup.Punch = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.100000
-		delay = 0.040000
-		spread_min = 0.000000
-		spread_max_value = 1.000000
-		spread_max = 500.000000
-		spread_min_value = 1.000000
+		volume = -1.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.1
+		delay = 0.04
+		spread_min = 0.0
+		spread_max_value = 1.0
+		spread_max = 500.0
+		spread_min_value = 1.0
 		vsnd_files = "sounds/gameplay/powerups/generic.vsnd"
 		vsnd_duration = 2.553197
 	}
 	Pickup.XpOrb = 
 	{
 		base = "Base.Pickup.HighFrequency"
-		volume = -1.000000
-		pitch = 1.000000
+		volume = -1.0
+		pitch = 1.0
 		vsnd_files = 
 		[
 			"sounds/gameplay/orbs/xp_orb_vaccum_collect_01.vsnd",
@@ -101,11 +101,11 @@
 	Powerup.Punchable.Souls = 
 	{
 		base = "Base.Ability"
-		volume = 9.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 9.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = "sounds/gameplay/powerups/generic.vsnd"
-		track_2.vsnd_track_vol_offset_db = -9.000000
+		track_2.vsnd_track_vol_offset_db = -9.0
 		track_2.track_vsnd_files = 
 		[
 			"sounds/gameplay/orbs/xp_orb_vaccum_collect_01.vsnd",
@@ -122,7 +122,7 @@
 	Powerup.Pickup.Souls = 
 	{
 		base = "Base.Pickup"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/gameplay/orbs/xp_orb_vaccum_collect_01.vsnd",
@@ -139,8 +139,8 @@
 	Powerup.Spawn.Generic = 
 	{
 		base = "Base.Pickup"
-		volume = -7.000000
-		pitch = 0.900000
+		volume = -7.0
+		pitch = 0.9
 		vsnd_files = 
 		[
 			"sounds/world/powerup/idol_powerup_spawn_01.vsnd",
@@ -157,21 +157,21 @@
 	Powerup.BridgeBuff.Spawn = 
 	{
 		base = "Base.MapObjective.LoPri"
-		volume = -5.000000
-		hrtf_on = 1.000000
-		occlusion_max = 0.900000
+		volume = -5.0
+		hrtf_on = 1.0
+		occlusion_max = 0.9
 		spread_min = 426.106171
 		spread_max_value = 0.053708
-		spread_max = 1200.000000
-		spread_min_value = 0.000000
-		hrtf_mix = 0.700000
+		spread_max = 1200.0
+		spread_min_value = 0.0
+		hrtf_mix = 0.7
 		vsnd_files = "sounds/world/powerup/powerup_spawn.vsnd"
 		vsnd_duration = 7.180272
 	}
 	Powerup.HealthPack.Pickup = 
 	{
 		base = "Base.Pickup.HighFrequency"
-		volume = -1.000000
+		volume = -1.0
 		block_team = false
 		vsnd_files = 
 		[
@@ -184,8 +184,8 @@
 	Powerup.HealthPack.Vacuum = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 6.000000
-		pitch = 0.900000
+		volume = 6.0
+		pitch = 0.9
 		vsnd_files = 
 		[
 			"sounds/gameplay/health_pack/health_pack_vacuum_01.vsnd",
@@ -198,16 +198,16 @@
 	{
 		type = "citadel_default_3d"
 		mixer_mixgroup = "Ambience-Bed"
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 2000.000000
-		volume_fade_out = 0.100000
+		volume_falloff_min = 500.0
+		volume_falloff_max = 2000.0
+		volume_fade_out = 0.1
 		limiter_stop_oldest = true
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		hrtf_on = 0.000000
-		spread_max_value = 0.000000
-		spread_min_value = 0.000000
-		volume = -3.000000
+		limiter_on = 1.0
+		limiter_max = 0.0
+		hrtf_on = 0.0
+		spread_max_value = 0.0
+		spread_min_value = 0.0
+		volume = -3.0
 		vsnd_files = "sounds/gameplay/hideout_cooldown_toggle/hideout_cooldown_toggle_on.vsnd"
 		vsnd_duration = 1.737324
 	}

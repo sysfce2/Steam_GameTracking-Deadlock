@@ -148,7 +148,7 @@
 		[
 			"sounds/vo/haze/haze_ally_atlas_unkillable_02.vsnd",
 		]
-		vsnd_duration = 2.660000
+		vsnd_duration = 2.66
 	}
 	haze_ally_atlas_unkillable_03_hero_3d = 
 	{
@@ -308,7 +308,7 @@
 		[
 			"sounds/vo/haze/haze_ally_chrono_swap_to_boss_02.vsnd",
 		]
-		vsnd_duration = 2.610340
+		vsnd_duration = 2.61034
 	}
 	haze_ally_chrono_swap_to_boss_03_hero_3d = 
 	{
@@ -568,7 +568,7 @@
 		[
 			"sounds/vo/haze/haze_ally_ghost_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.829660
+		vsnd_duration = 2.82966
 	}
 	haze_ally_ghost_see_big_swap_01_hero_3d = 
 	{
@@ -758,7 +758,7 @@
 		[
 			"sounds/vo/haze/haze_ally_inferno_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.568730
+		vsnd_duration = 2.56873
 	}
 	haze_ally_inferno_pass_on_zipline_01_hero_3d = 
 	{
@@ -778,7 +778,7 @@
 		[
 			"sounds/vo/haze/haze_ally_jake_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.159320
+		vsnd_duration = 2.15932
 	}
 	haze_ally_kelvin_clutch_heal_01_hero_3d = 
 	{
@@ -828,7 +828,7 @@
 		[
 			"sounds/vo/haze/haze_ally_kelvin_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.649660
+		vsnd_duration = 2.64966
 	}
 	haze_ally_krill_grab_mid_enemy_ult_01_hero_3d = 
 	{
@@ -878,7 +878,7 @@
 		[
 			"sounds/vo/haze/haze_ally_krill_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 3.090340
+		vsnd_duration = 3.09034
 	}
 	haze_ally_lash_killed_in_lane_01_hero_3d = 
 	{
@@ -908,7 +908,7 @@
 		[
 			"sounds/vo/haze/haze_ally_lash_see_massive_stomp_01.vsnd",
 		]
-		vsnd_duration = 1.740000
+		vsnd_duration = 1.74
 	}
 	haze_ally_lash_see_massive_stomp_02_hero_3d = 
 	{
@@ -928,7 +928,7 @@
 		[
 			"sounds/vo/haze/haze_ally_lash_see_massive_stomp_03.vsnd",
 		]
-		vsnd_duration = 3.258390
+		vsnd_duration = 3.25839
 	}
 	haze_ally_magician_killed_in_lane_01_hero_3d = 
 	{
@@ -948,7 +948,7 @@
 		[
 			"sounds/vo/haze/haze_ally_magician_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 3.799660
+		vsnd_duration = 3.79966
 	}
 	haze_ally_mirage_killed_in_lane_01_hero_3d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/haze/haze_ally_nano_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.899660
+		vsnd_duration = 2.89966
 	}
 	haze_ally_necro_killed_in_lane_01_hero_3d = 
 	{
@@ -1058,7 +1058,7 @@
 		[
 			"sounds/vo/haze/haze_ally_orion_missile_stops_ult_02.vsnd",
 		]
-		vsnd_duration = 2.435510
+		vsnd_duration = 2.43551
 	}
 	haze_ally_orion_missile_stops_ult_03_hero_3d = 
 	{
@@ -1088,7 +1088,7 @@
 		[
 			"sounds/vo/haze/haze_ally_priest_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.539660
+		vsnd_duration = 2.53966
 	}
 	haze_ally_punkgoat_killed_in_lane_01_hero_3d = 
 	{
@@ -1138,7 +1138,7 @@
 		[
 			"sounds/vo/haze/haze_ally_shiv_multikill_03.vsnd",
 		]
-		vsnd_duration = 2.231950
+		vsnd_duration = 2.23195
 	}
 	haze_ally_shiv_pass_on_zipline_01_hero_3d = 
 	{
@@ -1178,7 +1178,7 @@
 		[
 			"sounds/vo/haze/haze_ally_shiv_unkillable_03.vsnd",
 		]
-		vsnd_duration = 2.260590
+		vsnd_duration = 2.26059
 	}
 	haze_ally_skyrunner_killed_in_lane_01_hero_3d = 
 	{
@@ -1208,7 +1208,7 @@
 		[
 			"sounds/vo/haze/haze_ally_succubus_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.570340
+		vsnd_duration = 2.57034
 	}
 	haze_ally_swan_killed_in_lane_01_hero_3d = 
 	{
@@ -1218,7 +1218,7 @@
 		[
 			"sounds/vo/haze/haze_ally_swan_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.455170
+		vsnd_duration = 2.45517
 	}
 	haze_ally_synth_killed_in_lane_01_hero_3d = 
 	{
@@ -1288,7 +1288,7 @@
 		[
 			"sounds/vo/haze/haze_ally_tengu_take_objective_with_teather_03.vsnd",
 		]
-		vsnd_duration = 4.316190
+		vsnd_duration = 4.31619
 	}
 	haze_ally_tvspirit_killed_in_lane_01_hero_3d = 
 	{
@@ -1318,7 +1318,7 @@
 		[
 			"sounds/vo/haze/haze_ally_vampirebat_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.610340
+		vsnd_duration = 2.61034
 	}
 	haze_ally_viper_killed_in_lane_01_hero_3d = 
 	{
@@ -1368,7 +1368,7 @@
 		[
 			"sounds/vo/haze/haze_ally_viscous_clutch_cube_03.vsnd",
 		]
-		vsnd_duration = 2.185510
+		vsnd_duration = 2.18551
 	}
 	haze_ally_viscous_killed_in_lane_01_hero_3d = 
 	{
@@ -1398,7 +1398,7 @@
 		[
 			"sounds/vo/haze/haze_ally_warden_big_ult_01.vsnd",
 		]
-		vsnd_duration = 2.740340
+		vsnd_duration = 2.74034
 	}
 	haze_ally_warden_big_ult_02_hero_3d = 
 	{
@@ -1528,7 +1528,7 @@
 		[
 			"sounds/vo/haze/haze_ally_yamato_kills_with_hook_01.vsnd",
 		]
-		vsnd_duration = 2.837460
+		vsnd_duration = 2.83746
 	}
 	haze_ally_yamato_kills_with_hook_02_hero_3d = 
 	{
@@ -1568,7 +1568,7 @@
 		[
 			"sounds/vo/haze/haze_angry_01.vsnd",
 		]
-		vsnd_duration = 2.901860
+		vsnd_duration = 2.90186
 	}
 	haze_angry_01_ult_3d = 
 	{
@@ -1578,7 +1578,7 @@
 		[
 			"sounds/vo/haze/haze_angry_01.vsnd",
 		]
-		vsnd_duration = 2.901860
+		vsnd_duration = 2.90186
 	}
 	haze_angry_02_hero_3d = 
 	{
@@ -1608,7 +1608,7 @@
 		[
 			"sounds/vo/haze/haze_angry_03.vsnd",
 		]
-		vsnd_duration = 3.204830
+		vsnd_duration = 3.20483
 	}
 	haze_angry_03_ult_3d = 
 	{
@@ -1618,7 +1618,7 @@
 		[
 			"sounds/vo/haze/haze_angry_03.vsnd",
 		]
-		vsnd_duration = 3.204830
+		vsnd_duration = 3.20483
 	}
 	haze_angry_04_hero_3d = 
 	{
@@ -1828,7 +1828,7 @@
 		[
 			"sounds/vo/haze/haze_close_call_01.vsnd",
 		]
-		vsnd_duration = 3.392540
+		vsnd_duration = 3.39254
 	}
 	haze_close_call_02_hero_3d = 
 	{
@@ -1838,7 +1838,7 @@
 		[
 			"sounds/vo/haze/haze_close_call_02.vsnd",
 		]
-		vsnd_duration = 3.163560
+		vsnd_duration = 3.16356
 	}
 	haze_close_call_03_hero_3d = 
 	{
@@ -1938,7 +1938,7 @@
 		[
 			"sounds/vo/haze/haze_concerned_04.vsnd",
 		]
-		vsnd_duration = 3.022880
+		vsnd_duration = 3.02288
 	}
 	haze_concerned_04_ult_3d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/haze/haze_concerned_04.vsnd",
 		]
-		vsnd_duration = 3.022880
+		vsnd_duration = 3.02288
 	}
 	haze_concerned_05_hero_3d = 
 	{
@@ -2138,7 +2138,7 @@
 		[
 			"sounds/vo/haze/haze_desperation_power1_02.vsnd",
 		]
-		vsnd_duration = 2.535510
+		vsnd_duration = 2.53551
 	}
 	haze_desperation_power1_03_ability_3d = 
 	{
@@ -2148,7 +2148,7 @@
 		[
 			"sounds/vo/haze/haze_desperation_power1_03.vsnd",
 		]
-		vsnd_duration = 1.911950
+		vsnd_duration = 1.91195
 	}
 	haze_desperation_power1_04_ability_3d = 
 	{
@@ -2158,7 +2158,7 @@
 		[
 			"sounds/vo/haze/haze_desperation_power1_04.vsnd",
 		]
-		vsnd_duration = 2.202630
+		vsnd_duration = 2.20263
 	}
 	haze_desperation_power1_05_ability_3d = 
 	{
@@ -2198,7 +2198,7 @@
 		[
 			"sounds/vo/haze/haze_desperation_power2_03.vsnd",
 		]
-		vsnd_duration = 2.225850
+		vsnd_duration = 2.22585
 	}
 	haze_desperation_power2_04_ability_3d = 
 	{
@@ -2538,7 +2538,7 @@
 		[
 			"sounds/vo/haze/emote/haze_effort_melee_big_02.vsnd",
 		]
-		vsnd_duration = 1.584830
+		vsnd_duration = 1.58483
 	}
 	haze_effort_melee_big_02_emote_melee_effort_3d = 
 	{
@@ -2548,7 +2548,7 @@
 		[
 			"sounds/vo/haze/emote/haze_effort_melee_big_02.vsnd",
 		]
-		vsnd_duration = 1.584830
+		vsnd_duration = 1.58483
 	}
 	haze_effort_melee_big_03_emote_effort_3d = 
 	{
@@ -2578,7 +2578,7 @@
 		[
 			"sounds/vo/haze/emote/haze_effort_melee_big_04.vsnd",
 		]
-		vsnd_duration = 1.304240
+		vsnd_duration = 1.30424
 	}
 	haze_effort_melee_big_04_emote_melee_effort_3d = 
 	{
@@ -2588,7 +2588,7 @@
 		[
 			"sounds/vo/haze/emote/haze_effort_melee_big_04.vsnd",
 		]
-		vsnd_duration = 1.304240
+		vsnd_duration = 1.30424
 	}
 	haze_effort_melee_big_05_emote_effort_3d = 
 	{
@@ -2818,7 +2818,7 @@
 		[
 			"sounds/vo/haze/haze_enemy_astro_bounce_escape_02.vsnd",
 		]
-		vsnd_duration = 3.563810
+		vsnd_duration = 3.56381
 	}
 	haze_enemy_astro_bounce_escape_03_hero_3d = 
 	{
@@ -2878,7 +2878,7 @@
 		[
 			"sounds/vo/haze/haze_enemy_atlas_unkillable_02.vsnd",
 		]
-		vsnd_duration = 2.411610
+		vsnd_duration = 2.41161
 	}
 	haze_enemy_atlas_unkillable_03_hero_3d = 
 	{
@@ -3098,7 +3098,7 @@
 		[
 			"sounds/vo/haze/haze_enemy_ghost_kill_fat_ghost_03.vsnd",
 		]
-		vsnd_duration = 4.140000
+		vsnd_duration = 4.14
 	}
 	haze_enemy_ghost_ping_with_swap_01_hero_3d = 
 	{
@@ -3318,7 +3318,7 @@
 		[
 			"sounds/vo/haze/haze_enemy_orion_see_missile_01.vsnd",
 		]
-		vsnd_duration = 1.700000
+		vsnd_duration = 1.7
 	}
 	haze_enemy_orion_see_missile_02_hero_3d = 
 	{
@@ -3448,7 +3448,7 @@
 		[
 			"sounds/vo/haze/haze_enemy_wraith_lifts_02.vsnd",
 		]
-		vsnd_duration = 2.852630
+		vsnd_duration = 2.85263
 	}
 	haze_enemy_wraith_lifts_03_hero_3d = 
 	{
@@ -3458,7 +3458,7 @@
 		[
 			"sounds/vo/haze/haze_enemy_wraith_lifts_03.vsnd",
 		]
-		vsnd_duration = 2.811950
+		vsnd_duration = 2.81195
 	}
 	haze_enemy_yamato_starts_ult_01_hero_3d = 
 	{
@@ -3558,7 +3558,7 @@
 		[
 			"sounds/vo/haze/haze_happy_04.vsnd",
 		]
-		vsnd_duration = 2.660930
+		vsnd_duration = 2.66093
 	}
 	haze_happy_04_ult_3d = 
 	{
@@ -3568,7 +3568,7 @@
 		[
 			"sounds/vo/haze/haze_happy_04.vsnd",
 		]
-		vsnd_duration = 2.660930
+		vsnd_duration = 2.66093
 	}
 	haze_happy_05_hero_3d = 
 	{
@@ -3838,7 +3838,7 @@
 		[
 			"sounds/vo/haze/haze_kill_anyhero_07.vsnd",
 		]
-		vsnd_duration = 2.299070
+		vsnd_duration = 2.29907
 	}
 	haze_kill_anyhero_08_hero_3d = 
 	{
@@ -3868,7 +3868,7 @@
 		[
 			"sounds/vo/haze/haze_kill_anyhero_10.vsnd",
 		]
-		vsnd_duration = 2.220340
+		vsnd_duration = 2.22034
 	}
 	haze_kill_astro_01_hero_3d = 
 	{
@@ -3928,7 +3928,7 @@
 		[
 			"sounds/vo/haze/haze_kill_atlas_01.vsnd",
 		]
-		vsnd_duration = 2.391950
+		vsnd_duration = 2.39195
 	}
 	haze_kill_atlas_02_hero_3d = 
 	{
@@ -3988,7 +3988,7 @@
 		[
 			"sounds/vo/haze/haze_kill_bebop_02.vsnd",
 		]
-		vsnd_duration = 2.576440
+		vsnd_duration = 2.57644
 	}
 	haze_kill_bebop_03_hero_3d = 
 	{
@@ -4148,7 +4148,7 @@
 		[
 			"sounds/vo/haze/haze_kill_chrono_03.vsnd",
 		]
-		vsnd_duration = 3.301950
+		vsnd_duration = 3.30195
 	}
 	haze_kill_chrono_04_hero_3d = 
 	{
@@ -4178,7 +4178,7 @@
 		[
 			"sounds/vo/haze/haze_kill_doorman_01.vsnd",
 		]
-		vsnd_duration = 3.385850
+		vsnd_duration = 3.38585
 	}
 	haze_kill_doorman_02_hero_3d = 
 	{
@@ -4298,7 +4298,7 @@
 		[
 			"sounds/vo/haze/haze_kill_dynamo_03.vsnd",
 		]
-		vsnd_duration = 4.396100
+		vsnd_duration = 4.3961
 	}
 	haze_kill_dynamo_04_hero_3d = 
 	{
@@ -4448,7 +4448,7 @@
 		[
 			"sounds/vo/haze/haze_kill_forge_03.vsnd",
 		]
-		vsnd_duration = 4.142880
+		vsnd_duration = 4.14288
 	}
 	haze_kill_forge_04_hero_3d = 
 	{
@@ -4468,7 +4468,7 @@
 		[
 			"sounds/vo/haze/haze_kill_forge_05.vsnd",
 		]
-		vsnd_duration = 3.978730
+		vsnd_duration = 3.97873
 	}
 	haze_kill_frank_01_hero_3d = 
 	{
@@ -4518,7 +4518,7 @@
 		[
 			"sounds/vo/haze/haze_kill_frank_05.vsnd",
 		]
-		vsnd_duration = 2.428050
+		vsnd_duration = 2.42805
 	}
 	haze_kill_ghost_01_hero_3d = 
 	{
@@ -4608,7 +4608,7 @@
 		[
 			"sounds/vo/haze/haze_kill_gigawatt_04.vsnd",
 		]
-		vsnd_duration = 4.346530
+		vsnd_duration = 4.34653
 	}
 	haze_kill_gigawatt_05_hero_3d = 
 	{
@@ -4718,7 +4718,7 @@
 		[
 			"sounds/vo/haze/haze_kill_inferno_04.vsnd",
 		]
-		vsnd_duration = 4.742290
+		vsnd_duration = 4.74229
 	}
 	haze_kill_inferno_05_hero_3d = 
 	{
@@ -4778,7 +4778,7 @@
 		[
 			"sounds/vo/haze/haze_kill_kelvin_05.vsnd",
 		]
-		vsnd_duration = 3.374490
+		vsnd_duration = 3.37449
 	}
 	haze_kill_krill_01_hero_3d = 
 	{
@@ -5108,7 +5108,7 @@
 		[
 			"sounds/vo/haze/haze_kill_orion_03.vsnd",
 		]
-		vsnd_duration = 2.965510
+		vsnd_duration = 2.96551
 	}
 	haze_kill_orion_04_hero_3d = 
 	{
@@ -5438,7 +5438,7 @@
 		[
 			"sounds/vo/haze/haze_kill_vampirebat_01.vsnd",
 		]
-		vsnd_duration = 2.618730
+		vsnd_duration = 2.61873
 	}
 	haze_kill_vampirebat_02_hero_3d = 
 	{
@@ -5528,7 +5528,7 @@
 		[
 			"sounds/vo/haze/haze_kill_viper_05.vsnd",
 		]
-		vsnd_duration = 3.048730
+		vsnd_duration = 3.04873
 	}
 	haze_kill_viscous_01_hero_3d = 
 	{
@@ -5568,7 +5568,7 @@
 		[
 			"sounds/vo/haze/haze_kill_viscous_04.vsnd",
 		]
-		vsnd_duration = 4.338730
+		vsnd_duration = 4.33873
 	}
 	haze_kill_viscous_05_hero_3d = 
 	{
@@ -5588,7 +5588,7 @@
 		[
 			"sounds/vo/haze/haze_kill_warden_01.vsnd",
 		]
-		vsnd_duration = 5.772540
+		vsnd_duration = 5.77254
 	}
 	haze_kill_warden_02_hero_3d = 
 	{
@@ -5868,7 +5868,7 @@
 		[
 			"sounds/vo/haze/haze_killstreak_mid_02.vsnd",
 		]
-		vsnd_duration = 3.947030
+		vsnd_duration = 3.94703
 	}
 	haze_killstreak_mid_02_hero_announcer = 
 	{
@@ -5878,7 +5878,7 @@
 		[
 			"sounds/vo/haze/haze_killstreak_mid_02.vsnd",
 		]
-		vsnd_duration = 3.947030
+		vsnd_duration = 3.94703
 	}
 	haze_killstreak_mid_03_hero_3d = 
 	{
@@ -5928,7 +5928,7 @@
 		[
 			"sounds/vo/haze/haze_killstreak_start_02.vsnd",
 		]
-		vsnd_duration = 3.116780
+		vsnd_duration = 3.11678
 	}
 	haze_killstreak_start_02_hero_announcer = 
 	{
@@ -5938,7 +5938,7 @@
 		[
 			"sounds/vo/haze/haze_killstreak_start_02.vsnd",
 		]
-		vsnd_duration = 3.116780
+		vsnd_duration = 3.11678
 	}
 	haze_killstreak_start_03_hero_3d = 
 	{
@@ -5988,7 +5988,7 @@
 		[
 			"sounds/vo/haze/haze_killstreak_start_05.vsnd",
 		]
-		vsnd_duration = 3.302290
+		vsnd_duration = 3.30229
 	}
 	haze_killstreak_start_05_hero_announcer = 
 	{
@@ -5998,7 +5998,7 @@
 		[
 			"sounds/vo/haze/haze_killstreak_start_05.vsnd",
 		]
-		vsnd_duration = 3.302290
+		vsnd_duration = 3.30229
 	}
 	haze_last_one_standing_01_hero_3d = 
 	{
@@ -6048,7 +6048,7 @@
 		[
 			"sounds/vo/haze/haze_leave_base_02.vsnd",
 		]
-		vsnd_duration = 4.033900
+		vsnd_duration = 4.0339
 	}
 	haze_leave_base_03_hero_3d = 
 	{
@@ -6078,7 +6078,7 @@
 		[
 			"sounds/vo/haze/haze_leave_base_05.vsnd",
 		]
-		vsnd_duration = 3.097460
+		vsnd_duration = 3.09746
 	}
 	haze_leaving_area_01_hero_3d = 
 	{
@@ -6178,7 +6178,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_bebop_haze_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.530590
+		vsnd_duration = 2.53059
 	}
 	haze_match_start_bebop_haze_convo02_01_hero_zipline_3d = 
 	{
@@ -6198,7 +6198,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_bebop_haze_convo03_02.vsnd",
 		]
-		vsnd_duration = 4.505510
+		vsnd_duration = 4.50551
 	}
 	haze_match_start_bebop_haze_convo03_04_hero_zipline_3d = 
 	{
@@ -6248,7 +6248,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_drifter_haze_convo03_02.vsnd",
 		]
-		vsnd_duration = 4.629660
+		vsnd_duration = 4.62966
 	}
 	haze_match_start_drifter_haze_convo03_04_hero_zipline_3d = 
 	{
@@ -6258,7 +6258,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_drifter_haze_convo03_04.vsnd",
 		]
-		vsnd_duration = 2.270680
+		vsnd_duration = 2.27068
 	}
 	haze_match_start_dynamo_haze_convo01_01_hero_zipline_3d = 
 	{
@@ -6338,7 +6338,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_dynamo_haze_convo03_04.vsnd",
 		]
-		vsnd_duration = 5.519660
+		vsnd_duration = 5.51966
 	}
 	haze_match_start_familiar_haze_convo01_01_hero_zipline_3d = 
 	{
@@ -6398,7 +6398,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_familiar_haze_convo03_04.vsnd",
 		]
-		vsnd_duration = 2.016100
+		vsnd_duration = 2.0161
 	}
 	haze_match_start_fencer_haze_convo01_01_hero_zipline_3d = 
 	{
@@ -6608,7 +6608,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_gigawatt_haze_convo03_03.vsnd",
 		]
-		vsnd_duration = 1.800340
+		vsnd_duration = 1.80034
 	}
 	haze_match_start_gigawatt_haze_convo03_05_hero_zipline_3d = 
 	{
@@ -6618,7 +6618,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_gigawatt_haze_convo03_05.vsnd",
 		]
-		vsnd_duration = 1.650340
+		vsnd_duration = 1.65034
 	}
 	haze_match_start_haze_astro_convo01_01_hero_zipline_3d = 
 	{
@@ -6818,7 +6818,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_forge_convo02_03.vsnd",
 		]
-		vsnd_duration = 3.099660
+		vsnd_duration = 3.09966
 	}
 	haze_match_start_haze_forge_convo02_05_hero_zipline_3d = 
 	{
@@ -6858,7 +6858,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_ghost_convo01_03.vsnd",
 		]
-		vsnd_duration = 5.144830
+		vsnd_duration = 5.14483
 	}
 	haze_match_start_haze_ghost_convo02_01_hero_zipline_3d = 
 	{
@@ -6878,7 +6878,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_ghost_convo02_03.vsnd",
 		]
-		vsnd_duration = 5.650340
+		vsnd_duration = 5.65034
 	}
 	haze_match_start_haze_ghost_convo02_05_hero_zipline_3d = 
 	{
@@ -6918,7 +6918,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_hornet_convo01_01.vsnd",
 		]
-		vsnd_duration = 3.197370
+		vsnd_duration = 3.19737
 	}
 	haze_match_start_haze_hornet_convo01_03_hero_zipline_3d = 
 	{
@@ -6938,7 +6938,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_hornet_convo02_02.vsnd",
 		]
-		vsnd_duration = 1.990000
+		vsnd_duration = 1.99
 	}
 	haze_match_start_haze_hornet_convo02_04_hero_zipline_3d = 
 	{
@@ -6988,7 +6988,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_hornet_convo03_07.vsnd",
 		]
-		vsnd_duration = 3.738980
+		vsnd_duration = 3.73898
 	}
 	haze_match_start_haze_inferno_convo01_01_hero_zipline_3d = 
 	{
@@ -6998,7 +6998,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_inferno_convo01_01.vsnd",
 		]
-		vsnd_duration = 3.750340
+		vsnd_duration = 3.75034
 	}
 	haze_match_start_haze_inferno_convo02_01_hero_zipline_3d = 
 	{
@@ -7118,7 +7118,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_kelvin_convo03_02.vsnd",
 		]
-		vsnd_duration = 6.054150
+		vsnd_duration = 6.05415
 	}
 	haze_match_start_haze_krill_convo01_02_hero_zipline_3d = 
 	{
@@ -7318,7 +7318,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_orion_convo03_01.vsnd",
 		]
-		vsnd_duration = 3.299660
+		vsnd_duration = 3.29966
 	}
 	haze_match_start_haze_orion_convo03_03_hero_zipline_3d = 
 	{
@@ -7328,7 +7328,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_orion_convo03_03.vsnd",
 		]
-		vsnd_duration = 2.724830
+		vsnd_duration = 2.72483
 	}
 	haze_match_start_haze_shiv_convo01_01_hero_zipline_3d = 
 	{
@@ -7388,7 +7388,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_shiv_convo03_03.vsnd",
 		]
-		vsnd_duration = 3.614580
+		vsnd_duration = 3.61458
 	}
 	haze_match_start_haze_synth_convo01_02_hero_zipline_3d = 
 	{
@@ -7508,7 +7508,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_tengu_convo03_02.vsnd",
 		]
-		vsnd_duration = 3.299660
+		vsnd_duration = 3.29966
 	}
 	haze_match_start_haze_viscous_convo01_01_hero_zipline_3d = 
 	{
@@ -7548,7 +7548,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_viscous_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.570340
+		vsnd_duration = 1.57034
 	}
 	haze_match_start_haze_viscous_convo02_06_hero_zipline_3d = 
 	{
@@ -7608,7 +7608,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_haze_warden_convo02_04.vsnd",
 		]
-		vsnd_duration = 2.940000
+		vsnd_duration = 2.94
 	}
 	haze_match_start_haze_warden_convo03_02_hero_zipline_3d = 
 	{
@@ -7848,7 +7848,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_priest_haze_convo03_02.vsnd",
 		]
-		vsnd_duration = 2.484490
+		vsnd_duration = 2.48449
 	}
 	haze_match_start_unicorn_haze_convo01_02_hero_zipline_3d = 
 	{
@@ -7858,7 +7858,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_unicorn_haze_convo01_02.vsnd",
 		]
-		vsnd_duration = 1.889070
+		vsnd_duration = 1.88907
 	}
 	haze_match_start_unicorn_haze_convo01_04_hero_zipline_3d = 
 	{
@@ -7998,7 +7998,7 @@
 		[
 			"sounds/vo/haze/haze_match_start_werewolf_haze_convo03_04.vsnd",
 		]
-		vsnd_duration = 3.044830
+		vsnd_duration = 3.04483
 	}
 	haze_match_start_werewolf_haze_convo03_06_hero_zipline_3d = 
 	{
@@ -8068,7 +8068,7 @@
 		[
 			"sounds/vo/haze/haze_melee_kill_01.vsnd",
 		]
-		vsnd_duration = 3.572630
+		vsnd_duration = 3.57263
 	}
 	haze_melee_kill_02_hero_3d = 
 	{
@@ -8248,7 +8248,7 @@
 		[
 			"sounds/vo/haze/emote/haze_pain_big_06.vsnd",
 		]
-		vsnd_duration = 1.210340
+		vsnd_duration = 1.21034
 	}
 	haze_pain_big_07_emote_pain_3d = 
 	{
@@ -8278,7 +8278,7 @@
 		[
 			"sounds/vo/haze/emote/haze_pain_big_09.vsnd",
 		]
-		vsnd_duration = 1.592880
+		vsnd_duration = 1.59288
 	}
 	haze_pain_death_01_emote_death_3d = 
 	{
@@ -8308,7 +8308,7 @@
 		[
 			"sounds/vo/haze/emote/haze_pain_death_02.vsnd",
 		]
-		vsnd_duration = 1.535510
+		vsnd_duration = 1.53551
 	}
 	haze_pain_death_02_emote_pain_3d = 
 	{
@@ -8318,7 +8318,7 @@
 		[
 			"sounds/vo/haze/emote/haze_pain_death_02.vsnd",
 		]
-		vsnd_duration = 1.535510
+		vsnd_duration = 1.53551
 	}
 	haze_pain_death_03_emote_death_3d = 
 	{
@@ -8428,7 +8428,7 @@
 		[
 			"sounds/vo/haze/emote/haze_pain_small_03.vsnd",
 		]
-		vsnd_duration = 1.189070
+		vsnd_duration = 1.18907
 	}
 	haze_pain_small_04_emote_pain_3d = 
 	{
@@ -8448,7 +8448,7 @@
 		[
 			"sounds/vo/haze/emote/haze_pain_small_05.vsnd",
 		]
-		vsnd_duration = 1.168980
+		vsnd_duration = 1.16898
 	}
 	haze_pain_small_06_emote_pain_3d = 
 	{
@@ -8568,7 +8568,7 @@
 		[
 			"sounds/vo/haze/haze_pick_up_rejuv_01.vsnd",
 		]
-		vsnd_duration = 2.739320
+		vsnd_duration = 2.73932
 	}
 	haze_pick_up_rejuv_02_hero_3d = 
 	{
@@ -8818,7 +8818,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_atlas_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.692880
+		vsnd_duration = 2.69288
 	}
 	haze_ping_atlas_on_top_of_mid_ping_2d = 
 	{
@@ -8898,7 +8898,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_attack_bookworm.vsnd",
 		]
-		vsnd_duration = 2.560340
+		vsnd_duration = 2.56034
 	}
 	haze_ping_attack_cadence_ping_2d = 
 	{
@@ -8978,7 +8978,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_attack_enemy.vsnd",
 		]
-		vsnd_duration = 2.221360
+		vsnd_duration = 2.22136
 	}
 	haze_ping_attack_familiar_ping_2d = 
 	{
@@ -9088,7 +9088,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_attack_inferno.vsnd",
 		]
-		vsnd_duration = 2.659660
+		vsnd_duration = 2.65966
 	}
 	haze_ping_attack_kelvin_ping_2d = 
 	{
@@ -9178,7 +9178,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_attack_priest.vsnd",
 		]
-		vsnd_duration = 2.257460
+		vsnd_duration = 2.25746
 	}
 	haze_ping_attack_punkgoat_ping_2d = 
 	{
@@ -9228,7 +9228,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_attack_swan.vsnd",
 		]
-		vsnd_duration = 2.560340
+		vsnd_duration = 2.56034
 	}
 	haze_ping_attack_synth_ping_2d = 
 	{
@@ -9238,7 +9238,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_attack_synth.vsnd",
 		]
-		vsnd_duration = 2.534490
+		vsnd_duration = 2.53449
 	}
 	haze_ping_attack_tengu_ping_2d = 
 	{
@@ -9258,7 +9258,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_attack_tvspirit.vsnd",
 		]
-		vsnd_duration = 2.830340
+		vsnd_duration = 2.83034
 	}
 	haze_ping_attack_unicorn_ping_2d = 
 	{
@@ -9358,7 +9358,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_avatar_under_attack.vsnd",
 		]
-		vsnd_duration = 2.625510
+		vsnd_duration = 2.62551
 	}
 	haze_ping_be_back_soon_ping_2d = 
 	{
@@ -9548,7 +9548,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_bookworm_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 2.318640
+		vsnd_duration = 2.31864
 	}
 	haze_ping_bookworm_under_garage_ping_2d = 
 	{
@@ -9568,7 +9568,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_bookworm_was_here.vsnd",
 		]
-		vsnd_duration = 1.891020
+		vsnd_duration = 1.89102
 	}
 	haze_ping_cadence_in_mid_ping_2d = 
 	{
@@ -9788,7 +9788,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_can_heal_hornet.vsnd",
 		]
-		vsnd_duration = 2.855510
+		vsnd_duration = 2.85551
 	}
 	haze_ping_can_heal_inferno_ping_2d = 
 	{
@@ -9808,7 +9808,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_can_heal_kelvin.vsnd",
 		]
-		vsnd_duration = 2.816190
+		vsnd_duration = 2.81619
 	}
 	haze_ping_can_heal_krill_ping_2d = 
 	{
@@ -9898,7 +9898,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_can_heal_punkgoat.vsnd",
 		]
-		vsnd_duration = 2.620000
+		vsnd_duration = 2.62
 	}
 	haze_ping_can_heal_shiv_ping_2d = 
 	{
@@ -10088,7 +10088,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_bebop_01.vsnd",
 		]
-		vsnd_duration = 1.866100
+		vsnd_duration = 1.8661
 	}
 	haze_ping_careful_bebop_02_ping_2d = 
 	{
@@ -10168,7 +10168,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_cadence_02.vsnd",
 		]
-		vsnd_duration = 1.929660
+		vsnd_duration = 1.92966
 	}
 	haze_ping_careful_cadence_03_ping_2d = 
 	{
@@ -10198,7 +10198,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_chrono_02.vsnd",
 		]
-		vsnd_duration = 2.098140
+		vsnd_duration = 2.09814
 	}
 	haze_ping_careful_chrono_03_ping_2d = 
 	{
@@ -10218,7 +10218,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_doorman_01.vsnd",
 		]
-		vsnd_duration = 1.951020
+		vsnd_duration = 1.95102
 	}
 	haze_ping_careful_doorman_02_ping_2d = 
 	{
@@ -10258,7 +10258,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_drifter_02.vsnd",
 		]
-		vsnd_duration = 1.955760
+		vsnd_duration = 1.95576
 	}
 	haze_ping_careful_drifter_03_ping_2d = 
 	{
@@ -10418,7 +10418,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_frank_01.vsnd",
 		]
-		vsnd_duration = 1.880000
+		vsnd_duration = 1.88
 	}
 	haze_ping_careful_frank_02_ping_2d = 
 	{
@@ -10468,7 +10468,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_ghost_03.vsnd",
 		]
-		vsnd_duration = 1.832290
+		vsnd_duration = 1.83229
 	}
 	haze_ping_careful_gigawatt_01_ping_2d = 
 	{
@@ -10578,7 +10578,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_inferno_03.vsnd",
 		]
-		vsnd_duration = 1.922880
+		vsnd_duration = 1.92288
 	}
 	haze_ping_careful_kelvin_01_ping_2d = 
 	{
@@ -10648,7 +10648,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_lash_01.vsnd",
 		]
-		vsnd_duration = 1.893900
+		vsnd_duration = 1.8939
 	}
 	haze_ping_careful_lash_02_ping_2d = 
 	{
@@ -10678,7 +10678,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_magician_01.vsnd",
 		]
-		vsnd_duration = 2.062540
+		vsnd_duration = 2.06254
 	}
 	haze_ping_careful_magician_02_ping_2d = 
 	{
@@ -10718,7 +10718,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_mirage_02.vsnd",
 		]
-		vsnd_duration = 2.045510
+		vsnd_duration = 2.04551
 	}
 	haze_ping_careful_mirage_03_ping_2d = 
 	{
@@ -10778,7 +10778,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_necro_02.vsnd",
 		]
-		vsnd_duration = 1.865170
+		vsnd_duration = 1.86517
 	}
 	haze_ping_careful_necro_03_ping_2d = 
 	{
@@ -10798,7 +10798,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_orion_01.vsnd",
 		]
-		vsnd_duration = 2.260340
+		vsnd_duration = 2.26034
 	}
 	haze_ping_careful_orion_02_ping_2d = 
 	{
@@ -11248,7 +11248,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_careful_wrecker_03.vsnd",
 		]
-		vsnd_duration = 1.696780
+		vsnd_duration = 1.69678
 	}
 	haze_ping_careful_yamato_01_ping_2d = 
 	{
@@ -11578,7 +11578,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_drifter_dead.vsnd",
 		]
-		vsnd_duration = 2.066100
+		vsnd_duration = 2.0661
 	}
 	haze_ping_drifter_in_mid_ping_2d = 
 	{
@@ -11748,7 +11748,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_familiar_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.258390
+		vsnd_duration = 2.25839
 	}
 	haze_ping_familiar_check_items_ping_2d = 
 	{
@@ -11918,7 +11918,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_fencer_was_here.vsnd",
 		]
-		vsnd_duration = 2.167800
+		vsnd_duration = 2.1678
 	}
 	haze_ping_flank_ping_2d = 
 	{
@@ -11938,7 +11938,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_forge_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.780590
+		vsnd_duration = 2.78059
 	}
 	haze_ping_forge_check_items_ping_2d = 
 	{
@@ -11968,7 +11968,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_forge_in_mid.vsnd",
 		]
-		vsnd_duration = 2.360340
+		vsnd_duration = 2.36034
 	}
 	haze_ping_forge_missing_01_ping_2d = 
 	{
@@ -11978,7 +11978,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_forge_missing_01.vsnd",
 		]
-		vsnd_duration = 2.325170
+		vsnd_duration = 2.32517
 	}
 	haze_ping_forge_on_top_of_garage_ping_2d = 
 	{
@@ -12258,7 +12258,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_gigawatt_missing_01.vsnd",
 		]
-		vsnd_duration = 2.199320
+		vsnd_duration = 2.19932
 	}
 	haze_ping_gigawatt_on_top_of_garage_ping_2d = 
 	{
@@ -12318,7 +12318,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_glitch_not_ready.vsnd",
 		]
-		vsnd_duration = 2.740340
+		vsnd_duration = 2.74034
 	}
 	haze_ping_going_in_01_ping_2d = 
 	{
@@ -12478,7 +12478,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_headed_yellow_02.vsnd",
 		]
-		vsnd_duration = 2.125170
+		vsnd_duration = 2.12517
 	}
 	haze_ping_heal_ready_ping_2d = 
 	{
@@ -12488,7 +12488,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_heal_ready.vsnd",
 		]
-		vsnd_duration = 1.836780
+		vsnd_duration = 1.83678
 	}
 	haze_ping_health_nova_almost_ready_ping_2d = 
 	{
@@ -12498,7 +12498,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_health_nova_almost_ready.vsnd",
 		]
-		vsnd_duration = 2.790340
+		vsnd_duration = 2.79034
 	}
 	haze_ping_health_nova_not_ready_ping_2d = 
 	{
@@ -12568,7 +12568,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_hornet_missing_01.vsnd",
 		]
-		vsnd_duration = 2.570340
+		vsnd_duration = 2.57034
 	}
 	haze_ping_hornet_on_top_of_garage_ping_2d = 
 	{
@@ -12598,7 +12598,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_hornet_under_garage.vsnd",
 		]
-		vsnd_duration = 2.914490
+		vsnd_duration = 2.91449
 	}
 	haze_ping_hornet_was_here_ping_2d = 
 	{
@@ -12668,7 +12668,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_ignore_doorman.vsnd",
 		]
-		vsnd_duration = 2.330000
+		vsnd_duration = 2.33
 	}
 	haze_ping_ignore_drifter_ping_2d = 
 	{
@@ -12778,7 +12778,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_ignore_kelvin.vsnd",
 		]
-		vsnd_duration = 2.515170
+		vsnd_duration = 2.51517
 	}
 	haze_ping_ignore_krill_ping_2d = 
 	{
@@ -12858,7 +12858,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_ignore_priest.vsnd",
 		]
-		vsnd_duration = 1.949410
+		vsnd_duration = 1.94941
 	}
 	haze_ping_ignore_punkgoat_ping_2d = 
 	{
@@ -13078,7 +13078,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_item_almost_ready.vsnd",
 		]
-		vsnd_duration = 2.430340
+		vsnd_duration = 2.43034
 	}
 	haze_ping_item_not_ready_ping_2d = 
 	{
@@ -13118,7 +13118,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_kelvin_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.762970
+		vsnd_duration = 2.76297
 	}
 	haze_ping_kelvin_check_items_ping_2d = 
 	{
@@ -13308,7 +13308,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_krill_was_here.vsnd",
 		]
-		vsnd_duration = 2.019660
+		vsnd_duration = 2.01966
 	}
 	haze_ping_lash_almost_respawn_ping_2d = 
 	{
@@ -13638,7 +13638,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_missing_green_02.vsnd",
 		]
-		vsnd_duration = 2.254830
+		vsnd_duration = 2.25483
 	}
 	haze_ping_missing_yellow_01_ping_2d = 
 	{
@@ -13658,7 +13658,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_missing_yellow_02.vsnd",
 		]
-		vsnd_duration = 2.150340
+		vsnd_duration = 2.15034
 	}
 	haze_ping_nano_almost_respawn_ping_2d = 
 	{
@@ -13718,7 +13718,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_nano_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.570340
+		vsnd_duration = 2.57034
 	}
 	haze_ping_nano_on_top_of_mid_ping_2d = 
 	{
@@ -13748,7 +13748,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_nano_was_here.vsnd",
 		]
-		vsnd_duration = 1.949410
+		vsnd_duration = 1.94941
 	}
 	haze_ping_need_cover_ping_2d = 
 	{
@@ -13998,7 +13998,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_post_game_01.vsnd",
 		]
-		vsnd_duration = 3.565170
+		vsnd_duration = 3.56517
 	}
 	haze_ping_post_game_02_ping_2d = 
 	{
@@ -14018,7 +14018,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_post_game_03.vsnd",
 		]
-		vsnd_duration = 3.345510
+		vsnd_duration = 3.34551
 	}
 	haze_ping_post_game_04_ping_2d = 
 	{
@@ -14058,7 +14058,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_pre_game_01.vsnd",
 		]
-		vsnd_duration = 3.168980
+		vsnd_duration = 3.16898
 	}
 	haze_ping_pre_game_02_ping_2d = 
 	{
@@ -14108,7 +14108,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_pre_game_06.vsnd",
 		]
-		vsnd_duration = 3.409660
+		vsnd_duration = 3.40966
 	}
 	haze_ping_press_advantage_ping_2d = 
 	{
@@ -14118,7 +14118,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_press_advantage.vsnd",
 		]
-		vsnd_duration = 2.989660
+		vsnd_duration = 2.98966
 	}
 	haze_ping_push_blue_01_ping_2d = 
 	{
@@ -14298,7 +14298,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_saw_atlas.vsnd",
 		]
-		vsnd_duration = 2.071610
+		vsnd_duration = 2.07161
 	}
 	haze_ping_saw_bebop_ping_2d = 
 	{
@@ -14408,7 +14408,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_saw_krill.vsnd",
 		]
-		vsnd_duration = 2.215420
+		vsnd_duration = 2.21542
 	}
 	haze_ping_saw_lash_ping_2d = 
 	{
@@ -14508,7 +14508,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_saw_warden.vsnd",
 		]
-		vsnd_duration = 2.067710
+		vsnd_duration = 2.06771
 	}
 	haze_ping_saw_wraith_ping_2d = 
 	{
@@ -14708,7 +14708,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_see_cadence_on_roof.vsnd",
 		]
-		vsnd_duration = 2.154150
+		vsnd_duration = 2.15415
 	}
 	haze_ping_see_chrono_on_bridge_ping_2d = 
 	{
@@ -14748,7 +14748,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_see_doorman_01.vsnd",
 		]
-		vsnd_duration = 2.419660
+		vsnd_duration = 2.41966
 	}
 	haze_ping_see_drifter_01_ping_2d = 
 	{
@@ -14778,7 +14778,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_see_dynamo_01.vsnd",
 		]
-		vsnd_duration = 2.463900
+		vsnd_duration = 2.4639
 	}
 	haze_ping_see_dynamo_02_ping_2d = 
 	{
@@ -15348,7 +15348,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_see_skyrunner_01.vsnd",
 		]
-		vsnd_duration = 2.449660
+		vsnd_duration = 2.44966
 	}
 	haze_ping_see_succubus_01_ping_2d = 
 	{
@@ -15518,7 +15518,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_see_warden_02.vsnd",
 		]
-		vsnd_duration = 2.631610
+		vsnd_duration = 2.63161
 	}
 	haze_ping_see_warden_on_bridge_ping_2d = 
 	{
@@ -15608,7 +15608,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_see_wrecker_on_bridge.vsnd",
 		]
-		vsnd_duration = 2.255510
+		vsnd_duration = 2.25551
 	}
 	haze_ping_see_wrecker_on_roof_ping_2d = 
 	{
@@ -15718,7 +15718,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_shiv_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 2.240680
+		vsnd_duration = 2.24068
 	}
 	haze_ping_shiv_under_garage_ping_2d = 
 	{
@@ -15808,7 +15808,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_stim_pack_almost_ready.vsnd",
 		]
-		vsnd_duration = 3.060000
+		vsnd_duration = 3.06
 	}
 	haze_ping_stim_pack_not_ready_ping_2d = 
 	{
@@ -15818,7 +15818,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_stim_pack_not_ready.vsnd",
 		]
-		vsnd_duration = 2.940340
+		vsnd_duration = 2.94034
 	}
 	haze_ping_stun_astro_01_ping_2d = 
 	{
@@ -15838,7 +15838,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_stun_atlas_01.vsnd",
 		]
-		vsnd_duration = 2.158390
+		vsnd_duration = 2.15839
 	}
 	haze_ping_stun_bebop_01_ping_2d = 
 	{
@@ -15898,7 +15898,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_stun_ghost_01.vsnd",
 		]
-		vsnd_duration = 1.955760
+		vsnd_duration = 1.95576
 	}
 	haze_ping_stun_gigawatt_01_ping_2d = 
 	{
@@ -15928,7 +15928,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_stun_inferno_01.vsnd",
 		]
-		vsnd_duration = 2.186440
+		vsnd_duration = 2.18644
 	}
 	haze_ping_stun_kelvin_01_ping_2d = 
 	{
@@ -15968,7 +15968,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_stun_mirage_01.vsnd",
 		]
-		vsnd_duration = 2.223560
+		vsnd_duration = 2.22356
 	}
 	haze_ping_stun_nano_01_ping_2d = 
 	{
@@ -15998,7 +15998,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_stun_shiv_01.vsnd",
 		]
-		vsnd_duration = 2.290590
+		vsnd_duration = 2.29059
 	}
 	haze_ping_stun_synth_01_ping_2d = 
 	{
@@ -16018,7 +16018,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_stun_tengu_01.vsnd",
 		]
-		vsnd_duration = 2.270340
+		vsnd_duration = 2.27034
 	}
 	haze_ping_stun_viscous_01_ping_2d = 
 	{
@@ -16178,7 +16178,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_t2_under_attack.vsnd",
 		]
-		vsnd_duration = 2.640930
+		vsnd_duration = 2.64093
 	}
 	haze_ping_take_mid_ping_2d = 
 	{
@@ -16278,7 +16278,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_tengu_under_garage.vsnd",
 		]
-		vsnd_duration = 2.535170
+		vsnd_duration = 2.53517
 	}
 	haze_ping_tengu_was_here_ping_2d = 
 	{
@@ -16358,7 +16358,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_theyre_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 2.262540
+		vsnd_duration = 2.26254
 	}
 	haze_ping_theyre_under_garage_ping_2d = 
 	{
@@ -16388,7 +16388,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_use_ability2.vsnd",
 		]
-		vsnd_duration = 2.877460
+		vsnd_duration = 2.87746
 	}
 	haze_ping_use_ability3_ping_2d = 
 	{
@@ -16528,7 +16528,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_use_kncokdown.vsnd",
 		]
-		vsnd_duration = 2.844830
+		vsnd_duration = 2.84483
 	}
 	haze_ping_use_refresher_ping_2d = 
 	{
@@ -16558,7 +16558,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_use_silence.vsnd",
 		]
-		vsnd_duration = 3.090340
+		vsnd_duration = 3.09034
 	}
 	haze_ping_use_stim_pack_ping_2d = 
 	{
@@ -16698,7 +16698,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_warden_check_items.vsnd",
 		]
-		vsnd_duration = 2.615170
+		vsnd_duration = 2.61517
 	}
 	haze_ping_warden_dead_ping_2d = 
 	{
@@ -16718,7 +16718,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_warden_in_mid.vsnd",
 		]
-		vsnd_duration = 2.050680
+		vsnd_duration = 2.05068
 	}
 	haze_ping_warden_missing_01_ping_2d = 
 	{
@@ -16828,7 +16828,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_with_atlas.vsnd",
 		]
-		vsnd_duration = 2.378730
+		vsnd_duration = 2.37873
 	}
 	haze_ping_with_bebop_ping_2d = 
 	{
@@ -16858,7 +16858,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_with_chrono.vsnd",
 		]
-		vsnd_duration = 2.591950
+		vsnd_duration = 2.59195
 	}
 	haze_ping_with_dynamo_ping_2d = 
 	{
@@ -16878,7 +16878,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_with_forge.vsnd",
 		]
-		vsnd_duration = 2.307120
+		vsnd_duration = 2.30712
 	}
 	haze_ping_with_ghost_ping_2d = 
 	{
@@ -16888,7 +16888,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_with_ghost.vsnd",
 		]
-		vsnd_duration = 2.115760
+		vsnd_duration = 2.11576
 	}
 	haze_ping_with_gigawatt_ping_2d = 
 	{
@@ -17018,7 +17018,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_with_viscous.vsnd",
 		]
-		vsnd_duration = 2.288390
+		vsnd_duration = 2.28839
 	}
 	haze_ping_with_warden_ping_2d = 
 	{
@@ -17038,7 +17038,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_with_wraith.vsnd",
 		]
-		vsnd_duration = 1.994830
+		vsnd_duration = 1.99483
 	}
 	haze_ping_with_wrecker_ping_2d = 
 	{
@@ -17108,7 +17108,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_wraith_missing_01.vsnd",
 		]
-		vsnd_duration = 2.292200
+		vsnd_duration = 2.2922
 	}
 	haze_ping_wraith_on_top_of_garage_ping_2d = 
 	{
@@ -17238,7 +17238,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_wrecker_was_here.vsnd",
 		]
-		vsnd_duration = 2.005510
+		vsnd_duration = 2.00551
 	}
 	haze_ping_yamato_almost_respawn_ping_2d = 
 	{
@@ -17308,7 +17308,7 @@
 		[
 			"sounds/vo/haze/ping/haze_ping_yamato_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 2.480590
+		vsnd_duration = 2.48059
 	}
 	haze_ping_yamato_under_garage_ping_2d = 
 	{
@@ -17598,7 +17598,7 @@
 		[
 			"sounds/vo/haze/haze_select_08.vsnd",
 		]
-		vsnd_duration = 3.642290
+		vsnd_duration = 3.64229
 	}
 	haze_select_09_hero_3d = 
 	{
@@ -17648,7 +17648,7 @@
 		[
 			"sounds/vo/haze/haze_t1_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 2.578730
+		vsnd_duration = 2.57873
 	}
 	haze_t2_shop_reminder_01_hero_3d = 
 	{
@@ -17708,7 +17708,7 @@
 		[
 			"sounds/vo/haze/haze_t3_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 3.844580
+		vsnd_duration = 3.84458
 	}
 	haze_t4_shop_reminder_01_hero_3d = 
 	{
@@ -17808,7 +17808,7 @@
 		[
 			"sounds/vo/haze/haze_unselect_02.vsnd",
 		]
-		vsnd_duration = 2.319070
+		vsnd_duration = 2.31907
 	}
 	haze_unselect_03_hero_3d = 
 	{
@@ -17828,7 +17828,7 @@
 		[
 			"sounds/vo/haze/haze_unselect_04.vsnd",
 		]
-		vsnd_duration = 2.291950
+		vsnd_duration = 2.29195
 	}
 	haze_unselect_05_hero_3d = 
 	{
@@ -18008,7 +18008,7 @@
 		[
 			"sounds/vo/haze/haze_upgrade_power2_02.vsnd",
 		]
-		vsnd_duration = 3.180340
+		vsnd_duration = 3.18034
 	}
 	haze_upgrade_power2_03_hero_3d = 
 	{
@@ -18118,7 +18118,7 @@
 		[
 			"sounds/vo/haze/haze_upgrade_power3_03.vsnd",
 		]
-		vsnd_duration = 2.358730
+		vsnd_duration = 2.35873
 	}
 	haze_upgrade_power3_04_hero_3d = 
 	{
@@ -18428,7 +18428,7 @@
 		[
 			"sounds/vo/haze/haze_use_echo_shard_02.vsnd",
 		]
-		vsnd_duration = 2.797710
+		vsnd_duration = 2.79771
 	}
 	haze_use_echo_shard_03_ability_3d = 
 	{
@@ -18518,7 +18518,7 @@
 		[
 			"sounds/vo/haze/haze_use_phantom_strike_02.vsnd",
 		]
-		vsnd_duration = 1.832880
+		vsnd_duration = 1.83288
 	}
 	haze_use_phantom_strike_03_ability_3d = 
 	{
@@ -18688,7 +18688,7 @@
 		[
 			"sounds/vo/haze/haze_use_power2_06.vsnd",
 		]
-		vsnd_duration = 2.169660
+		vsnd_duration = 2.16966
 	}
 	haze_use_power2_07_ability_3d = 
 	{
@@ -18698,7 +18698,7 @@
 		[
 			"sounds/vo/haze/haze_use_power2_07.vsnd",
 		]
-		vsnd_duration = 3.044240
+		vsnd_duration = 3.04424
 	}
 	haze_use_power2_08_ability_3d = 
 	{
@@ -18738,7 +18738,7 @@
 		[
 			"sounds/vo/haze/haze_use_power4_01.vsnd",
 		]
-		vsnd_duration = 1.828050
+		vsnd_duration = 1.82805
 	}
 	haze_use_power4_01_hero_announcer = 
 	{
@@ -18748,7 +18748,7 @@
 		[
 			"sounds/vo/haze/haze_use_power4_01.vsnd",
 		]
-		vsnd_duration = 1.828050
+		vsnd_duration = 1.82805
 	}
 	haze_use_power4_01_ult_3d = 
 	{
@@ -18758,7 +18758,7 @@
 		[
 			"sounds/vo/haze/haze_use_power4_01.vsnd",
 		]
-		vsnd_duration = 1.828050
+		vsnd_duration = 1.82805
 	}
 	haze_use_power4_02_ability_3d = 
 	{
@@ -18828,7 +18828,7 @@
 		[
 			"sounds/vo/haze/haze_use_power4_04.vsnd",
 		]
-		vsnd_duration = 2.154240
+		vsnd_duration = 2.15424
 	}
 	haze_use_power4_04_hero_announcer = 
 	{
@@ -18838,7 +18838,7 @@
 		[
 			"sounds/vo/haze/haze_use_power4_04.vsnd",
 		]
-		vsnd_duration = 2.154240
+		vsnd_duration = 2.15424
 	}
 	haze_use_power4_04_ult_3d = 
 	{
@@ -18848,7 +18848,7 @@
 		[
 			"sounds/vo/haze/haze_use_power4_04.vsnd",
 		]
-		vsnd_duration = 2.154240
+		vsnd_duration = 2.15424
 	}
 	haze_use_power4_05_ability_3d = 
 	{
@@ -19068,7 +19068,7 @@
 		[
 			"sounds/vo/haze/haze_use_silencer_01.vsnd",
 		]
-		vsnd_duration = 3.043900
+		vsnd_duration = 3.0439
 	}
 	haze_use_silencer_02_ability_3d = 
 	{

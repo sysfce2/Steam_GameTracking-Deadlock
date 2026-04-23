@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -79,7 +77,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "math_vol_above_threshold"
 				operator = "math_float"
@@ -88,7 +85,6 @@
 				input2 = "@public.instance_attenuator_vol_threshold_ls"
 				apply = "greater_than_or_equal"
 			},
-			
 			{
 				name = "math_attenuator_enabled"
 				operator = "math_float"
@@ -97,7 +93,6 @@
 				input2 = "@math_vol_above_threshold.output"
 				apply = "mult"
 			},
-			
 			{
 				name = "instance_attenuator_name_not_empty"
 				operator = "math_string"
@@ -106,7 +101,6 @@
 				input2 = ""
 				apply = "not_equal"
 			},
-			
 			{
 				name = "switch_instance_attenuator_group_mode"
 				execute_once = "true"
@@ -116,7 +110,6 @@
 				input1 = "instance_attenuator_mode_soundevent"
 				input2 = "instance_attenuator_mode_name"
 			},
-			
 			{
 				name = "join_instance_attenuator_group"
 				input_execute = "@math_attenuator_enabled.output"
@@ -125,7 +118,6 @@
 				input_group_name = "@switch_instance_attenuator_group_mode.output"
 				input_match_string = "@public.instance_attenuator_name"
 			},
-			
 			{
 				name = "get_instance_attenuator_kv3"
 				execute_once = "false"
@@ -134,7 +126,6 @@
 				input_group_result = "@join_instance_attenuator_group.output_result"
 				input_name = "current_count"
 			},
-			
 			{
 				name = "get_group_result_info"
 				input_execute = "@math_attenuator_enabled.output"
@@ -142,7 +133,6 @@
 				operator = "soundevent_group_info"
 				input_group_result = "@join_instance_attenuator_group.output_result"
 			},
-			
 			{
 				name = "evaluate_opvar_instance_atten"
 				operator = "math_curve_2d"
@@ -152,7 +142,6 @@
 				input_scale_x = "1.0"
 				input_scale_y = "1.0"
 			},
-			
 			{
 				name = "volume_offset_instance_mult"
 				input_execute = "1"
@@ -161,14 +150,12 @@
 				input1 = "@math_attenuator_enabled.output"
 				input2 = "@evaluate_opvar_instance_atten.output"
 			},
-			
 			{
 				name = "volume_to_gain"
 				operator = "math_db_to_gain"
 				input_execute = "@math_attenuator_enabled.output"
 				input = "@volume_offset_instance_mult.output"
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"

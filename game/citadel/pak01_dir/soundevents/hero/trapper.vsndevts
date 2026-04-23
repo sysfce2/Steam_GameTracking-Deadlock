@@ -3,159 +3,134 @@
 	Trapper.A1.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.500000
-		volume_enemy_targeting_boost = 4.000000
-		pitch = 1.000000
+		volume = 1.5
+		volume_enemy_targeting_boost = 4.0
+		pitch = 1.0
 		vsnd_files = "sounds/abilities/trapper/a1/trapper_a1_cast.vsnd"
 		vsnd_duration = 2.169388
 	}
 	Trapper.A1.Impact = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		volume_offset_opponent = 2.000000
-		volume_offset_player = -2.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = 0.0
+		volume_offset_opponent = 2.0
+		volume_offset_player = -2.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = "sounds/abilities/trapper/a1/trapper_a1_impact.vsnd"
 		vsnd_duration = 3.528413
 	}
 	Trapper.A1.Select = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
-		pitch = 1.000000
+		volume = -3.0
+		pitch = 1.0
 		vsnd_files = "sounds/abilities/trapper/a1/trapper_a1_select.vsnd"
 		vsnd_duration = 1.080159
 	}
 	Trapper.A1.Unselect = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
-		pitch = 1.000000
+		volume = -3.0
+		pitch = 1.0
 		vsnd_files = "sounds/abilities/trapper/a1/trapper_a1_unselect.vsnd"
 		vsnd_duration = 1.790975
 	}
 	Trapper.A1.Select.Lp = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = -11.000000
-		delay_rand_min = -1.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
+		volume = -11.0
+		delay_rand_min = -1.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/trapper/a1/trapper_a1_select_lp.vsnd"
 		vsnd_duration = 4.056689
 	}
 	Trapper.A1.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 0.000000
-		param_envelope_enabled = 1.000000
-		param_envelope_duration = -1.000000
-		pitch_envelope_scale_min = 1.000000
-		pitch_envelope_scale_max = 1.200000
-		delay_rand_min = -3.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.400000
+		volume = 0.0
+		param_envelope_enabled = 1.0
+		param_envelope_duration = -1.0
+		pitch_envelope_scale_min = 1.0
+		pitch_envelope_scale_max = 1.2
+		delay_rand_min = -3.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.4
 		vsnd_files = "sounds/abilities/trapper/a1/trapper_a1_proj_lp.vsnd"
 		vsnd_duration = 5.304513
 	}
 	Trapper.A1.AOE.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -9.000000
-		param_envelope_enabled = 1.000000
-		param_envelope_duration = 8.000000
-		pitch_envelope_scale_min = 0.850000
-		pitch_envelope_scale_max = 1.100000
-		volume_offset_opponent = 7.000000
-		delay_rand_min = -8.000000
-		volume_fade_in = 0.250000
-		volume_fade_out = 0.500000
+		volume = -9.0
+		param_envelope_enabled = 1.0
+		param_envelope_duration = 8.0
+		pitch_envelope_scale_min = 0.85
+		pitch_envelope_scale_max = 1.1
+		volume_offset_opponent = 7.0
+		delay_rand_min = -8.0
+		volume_fade_in = 0.25
+		volume_fade_out = 0.5
 		vsnd_files = "sounds/abilities/trapper/a1/trapper_a1_aoe_lp.vsnd"
 		vsnd_duration = 7.439909
 	}
 	Trapper.A1.AOE.End = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		volume_offset_opponent = 6.000000
-		pitch = 1.100000
+		volume = -6.0
+		volume_offset_opponent = 6.0
+		pitch = 1.1
 		vsnd_files = "sounds/abilities/trapper/a1/trapper_a1_aoe_end.vsnd"
 		vsnd_duration = 3.804013
 	}
 	Trapper.A2.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		pitch = 1.000000
+		volume = 0.0
+		pitch = 1.0
 		vsnd_files = "sounds/abilities/trapper/a2/trapper_a2_cast.vsnd"
 		vsnd_duration = 2.231043
 	}
 	Trapper.A2.Impact = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/trapper/a2/trapper_a2_impact.vsnd"
 		vsnd_duration = 2.060771
 	}
 	Trapper.A2.Detonate = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		limiter_on = 1.000000
-		limiter_max = 3.000000
-		instance_attenuator_enabled = 1.000000
-		volume_offset_opponent = 4.000000
+		volume = -1.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		limiter_on = 1.0
+		limiter_max = 3.0
+		instance_attenuator_enabled = 1.0
+		volume_offset_opponent = 4.0
 		vsnd_files = "sounds/abilities/trapper/a2/trapper_a2_detonate.vsnd"
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.0, 0.0, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.311869,
-				-0.311869,
-				2.000000,
-				3.000000,
+				1.0, 0.0, -0.311869, -0.311869,
+				2.0, 3.0,
 			],
-			
 			[
-				2.000000,
-				-5.000000,
-				-2.499061,
-				-2.499061,
-				3.000000,
-				1.000000,
+				2.0, -5.0, -2.499061, -2.499061,
+				3.0, 1.0,
 			],
-			
 			[
-				3.000000,
-				-7.500000,
-				-0.485228,
-				-0.485228,
-				1.000000,
-				1.000000,
+				3.0, -7.5, -0.485228, -0.485228,
+				1.0, 1.0,
 			],
-			
 			[
-				5.000000,
-				-10.000000,
-				-0.127606,
-				-0.127606,
-				2.000000,
-				3.000000,
+				5.0, -10.0, -0.127606, -0.127606,
+				2.0, 3.0,
 			],
 		]
 		vsnd_duration = 2.408889
@@ -163,44 +138,29 @@
 	Trapper.A2.Ambient.Lp = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -3.000000
-		pitch = 1.300000
-		cull_at_distance = 2000.000000
-		volume_fade_out = 0.500000
-		volume_fade_in = 0.200000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		instance_attenuator_enabled = 1.000000
-		delay_rand_min = -1.200000
+		volume = -3.0
+		pitch = 1.3
+		cull_at_distance = 2000.0
+		volume_fade_out = 0.5
+		volume_fade_in = 0.2
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		instance_attenuator_enabled = 1.0
+		delay_rand_min = -1.2
 		vsnd_files = "sounds/abilities/trapper/a2/trapper_a2_ambient_lp.vsnd"
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				2.000000,
-				-1.500000,
-				-0.367853,
-				-0.367853,
-				2.000000,
-				3.000000,
+				2.0, -1.5, -0.367853, -0.367853,
+				2.0, 3.0,
 			],
-			
 			[
-				17.077585,
-				-9.000000,
-				-0.127606,
-				-0.127606,
-				2.000000,
-				3.000000,
+				17.077585, -9.0, -0.127606, -0.127606,
+				2.0, 3.0,
 			],
 		]
 		vsnd_duration = 9.080522
@@ -208,68 +168,68 @@
 	Trapper.A3.Shield.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		volume_offset_team = 6.000000
+		volume = 0.0
+		volume_offset_team = 6.0
 		vsnd_files = "sounds/abilities/trapper/a3/trapper_a3_cast.vsnd"
 		vsnd_duration = 3.627029
 	}
 	Trapper.A3.Shield.Mod.Start = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -1.000000
-		spread_min_value = 0.250000
+		volume = -1.0
+		spread_min_value = 0.25
 		vsnd_files = "sounds/abilities/trapper/a3/trapper_a3_mod_start.vsnd"
 		vsnd_duration = 4.436599
 	}
 	Trapper.A3.Shield.Mod.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -7.000000
-		volume_fade_in = 0.450000
-		volume_fade_out = 0.400000
-		delay = 0.475000
-		spread_min_value = 0.250000
+		volume = -7.0
+		volume_fade_in = 0.45
+		volume_fade_out = 0.4
+		delay = 0.475
+		spread_min_value = 0.25
 		vsnd_files = "sounds/abilities/trapper/a3/trapper_a3_mod_lp.vsnd"
 		vsnd_duration = 6.010386
 	}
 	Trapper.A3.Shield.Mod.End = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = "sounds/abilities/trapper/a3/trapper_a3_mod_end.vsnd"
 		vsnd_duration = 3.441882
 	}
 	Trapper.A4.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = "sounds/abilities/trapper/a4/trapper_a4_cast.vsnd"
 		vsnd_duration = 6.505556
 	}
 	Trapper.A4.Spider.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -10.000000
-		pitch = 1.000000
-		delay_rand_min = -4.000000
-		delay_rand_max = 0.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.900000
-		pitch_envelope_scale_max = 1.100000
-		volume_offset_player = -10.000000
+		volume = -10.0
+		pitch = 1.0
+		delay_rand_min = -4.0
+		delay_rand_max = 0.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.9
+		pitch_envelope_scale_max = 1.1
+		volume_offset_player = -10.0
 		vsnd_files = "sounds/abilities/trapper/a4/trapper_a4_spider_lp.vsnd"
 		vsnd_duration = 6.935828
 	}
 	Trapper.A4.Spider.Detonate = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		limiter_on = 1.000000
-		limiter_max = 4.000000
-		pitch_rand_max = 0.100000
-		pitch_rand_min = -0.100000
+		volume = -6.0
+		limiter_on = 1.0
+		limiter_max = 4.0
+		pitch_rand_max = 0.1
+		pitch_rand_min = -0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/trapper/a4/trapper_a4_spider_detonate_01.vsnd",
@@ -282,8 +242,8 @@
 	Trapper.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -5.000000
-		track_2.vsnd_track_vol_offset_db = -18.000000
+		track_1.vsnd_track_vol_offset_db = -5.0
+		track_2.vsnd_track_vol_offset_db = -18.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hero_self/06.vsnd",
@@ -318,8 +278,8 @@
 	Trapper.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 0.000000
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		volume = 0.0
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hero_self/06.vsnd",
@@ -349,22 +309,22 @@
 	Trapper.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Trapper.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -8.000000
+		volume = -8.0
 	}
 	Trapper.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Trapper.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -409,7 +369,7 @@
 	Trapper.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",

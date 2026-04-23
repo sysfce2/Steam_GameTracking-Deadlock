@@ -29,12 +29,12 @@
 								"EMidiNotePitch_1B",
 								"EMidiNotePitch_2E",
 							]
-							m_flStartTime = 6.193000
+							m_flStartTime = 6.193
 							m_nNumOctaves = 3
 						}
 						"4_E_q_i" = 
 						{
-							m_flStartTime = 18.580000
+							m_flStartTime = 18.58
 							m_ChordVoicing = 
 							[
 								"EMidiNotePitch_1E",
@@ -47,7 +47,7 @@
 						}
 						"3_Bb_q" = 
 						{
-							m_flStartTime = 12.387000
+							m_flStartTime = 12.387
 							m_ChordVoicing = 
 							[
 								"EMidiNotePitch_1Bb",
@@ -60,7 +60,7 @@
 						}
 						"5_Bb_q" = 
 						{
-							m_flStartTime = 24.774000
+							m_flStartTime = 24.774
 							m_ChordVoicing = 
 							[
 								"EMidiNotePitch_1Bb",
@@ -73,7 +73,7 @@
 						}
 						"6_E_q_ii" = 
 						{
-							m_flStartTime = 31.000000
+							m_flStartTime = 31.0
 							m_ChordVoicing = 
 							[
 								"EMidiNotePitch_2E",
@@ -89,7 +89,7 @@
 					[
 						"hideout_play",
 					]
-					m_flBpm = 155.000000
+					m_flBpm = 155.0
 				}
 			}
 			EMusicState_HideoutSearch = 
@@ -105,7 +105,7 @@
 				m_MusicStateDefault = 
 				{
 					m_strSoundEvent = soundevent:"Music.Hideout.Wait"
-					m_flBpm = -1.000000
+					m_flBpm = -1.0
 					m_nSyncMode = "ESyncMode_Resume"
 				}
 			}
@@ -514,17 +514,11 @@
 				{
 					m_strSoundEvent = soundevent:"Music.MatchIntro.Connecting"
 					m_nSyncMode = "ESyncMode_RandomMarker"
-					m_flSyncOffset = -1.000000
+					m_flSyncOffset = -1.0
 					m_SyncTimes = 
 					[
-						1.000000,
-						33.000000,
-						65.000000,
-						101.000000,
-						129.000000,
-						161.000000,
-						193.000000,
-						237.000000,
+						1.0, 33.0, 65.0, 101.0,
+						129.0, 161.0, 193.0, 237.0,
 					]
 				}
 			}
@@ -558,7 +552,7 @@
 					m_strSoundEvent = soundevent:"Music.Brawl.Titles"
 					m_bInterruptStop = false
 					m_nDeferState = "EMusicState_Brawl_RoundWait"
-					m_flBpm = 117.000000
+					m_flBpm = 117.0
 					m_Arpeggiators = 
 					[
 						"street_brawl_draft",
@@ -578,7 +572,7 @@
 						}
 						"2_Bb-" = 
 						{
-							m_flStartTime = 8.205000
+							m_flStartTime = 8.205
 							m_ArpeggiatorMode = "EArpMode_UpDown"
 							m_ChordVoicing = 
 							[
@@ -648,7 +642,7 @@
 					{
 						"1a_Bb-" = 
 						{
-							m_flStartTime = 0.000000
+							m_flStartTime = 0.0
 							m_ArpeggiatorMode = "EArpMode_UpDown"
 							m_nNumOctaves = 2
 							m_ChordVoicing = 
@@ -662,7 +656,7 @@
 						}
 						"2a_C-" = 
 						{
-							m_flStartTime = 12.632000
+							m_flStartTime = 12.632
 							m_nNumOctaves = 2
 							m_ArpeggiatorMode = "EArpMode_UpDown"
 							m_ChordVoicing = 
@@ -675,7 +669,7 @@
 						}
 						"3_Emaj7(b5)" = 
 						{
-							m_flStartTime = 25.263000
+							m_flStartTime = 25.263
 							m_ArpeggiatorMode = "EArpMode_UpDown"
 							m_nNumOctaves = 2
 							m_ChordVoicing = 
@@ -689,7 +683,7 @@
 						}
 						"4_Gbdim7/A" = 
 						{
-							m_flStartTime = 31.579000
+							m_flStartTime = 31.579
 							m_ChordVoicing = 
 							[
 								"EMidiNotePitch_4Gb",
@@ -702,7 +696,7 @@
 						}
 						"5_Ab(b6)" = 
 						{
-							m_flStartTime = 37.895000
+							m_flStartTime = 37.895
 							m_nNumOctaves = 2
 							m_ChordVoicing = 
 							[
@@ -714,7 +708,7 @@
 						}
 						"6_Dm9/A" = 
 						{
-							m_flStartTime = 45.474000
+							m_flStartTime = 45.474
 							m_nNumOctaves = 2
 							m_ChordVoicing = 
 							[
@@ -726,7 +720,7 @@
 						}
 						"7_Bb-(#6)" = 
 						{
-							m_flStartTime = 53.053000
+							m_flStartTime = 53.053
 							m_ChordVoicing = 
 							[
 								"EMidiNotePitch_3Bb",
@@ -738,7 +732,7 @@
 						}
 						"8_Gdim" = 
 						{
-							m_flStartTime = 58.105000
+							m_flStartTime = 58.105
 							m_nNumOctaves = 2
 							m_ChordVoicing = 
 							[
@@ -760,11 +754,11 @@
 								"EMidiNotePitch_4E",
 								"EMidiNotePitch_4Ab",
 							]
-							m_flStartTime = 11.368000
+							m_flStartTime = 11.368
 						}
 						"2b_G" = 
 						{
-							m_flStartTime = 24.000000
+							m_flStartTime = 24.0
 							m_nNumOctaves = 2
 							m_ChordVoicing = 
 							[
@@ -774,7 +768,7 @@
 							]
 						}
 					}
-					m_flBpm = 95.000000
+					m_flBpm = 95.0
 				}
 			}
 			EMusicState_Brawl_RoundWon = 

@@ -3,7 +3,7 @@
 	Neutral.Gargoyle.Shoot = 
 	{
 		base = "Base.NPC.Neutral"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/npc/neutrals/gargoyle/gargoyle_fire1.vsnd",
@@ -13,18 +13,18 @@
 			"sounds/npc/neutrals/gargoyle/gargoyle_fire5.vsnd",
 			"sounds/npc/neutrals/gargoyle/gargoyle_fire6.vsnd",
 		]
-		vsnd_duration = 1.600000
+		vsnd_duration = 1.6
 	}
 	Neutral.Gargoyle.Whizby.Base = 
 	{
 		base = "Base.NPC.Neutral"
-		volume = -26.000000
-		limiter_on = 1.000000
-		limiter_max = 3.000000
+		volume = -26.0
+		limiter_on = 1.0
+		limiter_max = 3.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.040000
-		volume_fade_out = 0.030000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.04
+		volume_fade_out = 0.03
 		vsnd_files = 
 		[
 			"sounds/npc/neutrals/gargoyle/gargoyle_whizby_base_1.vsnd",

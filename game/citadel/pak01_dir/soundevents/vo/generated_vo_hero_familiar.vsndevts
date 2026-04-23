@@ -98,7 +98,7 @@
 		[
 			"sounds/vo/familiar/familiar_ally_forge_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.171500
+		vsnd_duration = 2.1715
 	}
 	familiar_ally_frank_killed_in_lane_01_hero_3d = 
 	{
@@ -228,7 +228,7 @@
 		[
 			"sounds/vo/familiar/familiar_ally_necro_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.208500
+		vsnd_duration = 2.2085
 	}
 	familiar_ally_orion_killed_in_lane_01_hero_3d = 
 	{
@@ -308,7 +308,7 @@
 		[
 			"sounds/vo/familiar/familiar_ally_viper_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.138500
+		vsnd_duration = 2.1385
 	}
 	familiar_ally_viscous_killed_in_lane_01_hero_3d = 
 	{
@@ -318,7 +318,7 @@
 		[
 			"sounds/vo/familiar/familiar_ally_viscous_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.275250
+		vsnd_duration = 2.27525
 	}
 	familiar_ally_warden_killed_in_lane_01_hero_3d = 
 	{
@@ -358,7 +358,7 @@
 		[
 			"sounds/vo/familiar/familiar_ally_yamato_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 2.186000
+		vsnd_duration = 2.186
 	}
 	familiar_ap_reminder_01_hero_3d = 
 	{
@@ -498,7 +498,7 @@
 		[
 			"sounds/vo/familiar/familiar_asleep_kill_anyhereo_05.vsnd",
 		]
-		vsnd_duration = 3.069250
+		vsnd_duration = 3.06925
 	}
 	familiar_asleep_kill_anyhereo_06_hero_3d = 
 	{
@@ -528,7 +528,7 @@
 		[
 			"sounds/vo/familiar/familiar_asleep_kill_anyhereo_08.vsnd",
 		]
-		vsnd_duration = 4.599500
+		vsnd_duration = 4.5995
 	}
 	familiar_asleep_kill_anyhereo_09_hero_3d = 
 	{
@@ -538,7 +538,7 @@
 		[
 			"sounds/vo/familiar/familiar_asleep_kill_anyhereo_09.vsnd",
 		]
-		vsnd_duration = 2.157500
+		vsnd_duration = 2.1575
 	}
 	familiar_asleep_kill_anyhereo_10_hero_3d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_asleep_ping_defend_green_02.vsnd",
 		]
-		vsnd_duration = 2.258500
+		vsnd_duration = 2.2585
 	}
 	familiar_asleep_ping_defend_yellow_01_ping_2d = 
 	{
@@ -1088,7 +1088,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_asleep_ping_going_in_01.vsnd",
 		]
-		vsnd_duration = 2.065000
+		vsnd_duration = 2.065
 	}
 	familiar_asleep_ping_going_in_ping_2d = 
 	{
@@ -1458,7 +1458,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_asleep_ping_missing_green_01.vsnd",
 		]
-		vsnd_duration = 1.956500
+		vsnd_duration = 1.9565
 	}
 	familiar_asleep_ping_missing_green_02_ping_2d = 
 	{
@@ -1618,7 +1618,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_asleep_ping_negative_03.vsnd",
 		]
-		vsnd_duration = 1.709250
+		vsnd_duration = 1.70925
 	}
 	familiar_asleep_ping_nice_work_01_ping_2d = 
 	{
@@ -1738,7 +1738,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_asleep_ping_refresher_not_ready.vsnd",
 		]
-		vsnd_duration = 2.908500
+		vsnd_duration = 2.9085
 	}
 	familiar_asleep_ping_rejuv_drop_ping_2d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_asleep_ping_stim_pack_not_ready.vsnd",
 		]
-		vsnd_duration = 2.820313
+		vsnd_duration = 2.820312
 	}
 	familiar_asleep_ping_t1_under_attack_ping_2d = 
 	{
@@ -1998,7 +1998,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_asleep_ping_thank_you_01.vsnd",
 		]
-		vsnd_duration = 1.873000
+		vsnd_duration = 1.873
 	}
 	familiar_asleep_ping_thank_you_02_ping_2d = 
 	{
@@ -2128,7 +2128,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_asleep_ping_use_ability4_04.vsnd",
 		]
-		vsnd_duration = 2.639750
+		vsnd_duration = 2.63975
 	}
 	familiar_asleep_ping_use_ability4_05_ping_2d = 
 	{
@@ -2148,7 +2148,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_asleep_ping_use_glitch.vsnd",
 		]
-		vsnd_duration = 2.624250
+		vsnd_duration = 2.62425
 	}
 	familiar_asleep_ping_use_health_nova_ping_2d = 
 	{
@@ -2358,7 +2358,7 @@
 		[
 			"sounds/vo/familiar/familiar_asleep_upgrade_power1_04.vsnd",
 		]
-		vsnd_duration = 3.382500
+		vsnd_duration = 3.3825
 	}
 	familiar_asleep_upgrade_power1_05_hero_3d = 
 	{
@@ -2528,7 +2528,7 @@
 		[
 			"sounds/vo/familiar/familiar_asleep_use_power1_01.vsnd",
 		]
-		vsnd_duration = 2.379000
+		vsnd_duration = 2.379
 	}
 	familiar_asleep_use_power1_01_alt_01_ability_3d = 
 	{
@@ -2578,7 +2578,7 @@
 		[
 			"sounds/vo/familiar/familiar_asleep_use_power1_05.vsnd",
 		]
-		vsnd_duration = 2.047500
+		vsnd_duration = 2.0475
 	}
 	familiar_asleep_use_power1_06_ability_3d = 
 	{
@@ -2818,7 +2818,7 @@
 		[
 			"sounds/vo/familiar/familiar_be_careful_03.vsnd",
 		]
-		vsnd_duration = 2.734750
+		vsnd_duration = 2.73475
 	}
 	familiar_close_call_01_hero_3d = 
 	{
@@ -2898,7 +2898,7 @@
 		[
 			"sounds/vo/familiar/familiar_congrats_03.vsnd",
 		]
-		vsnd_duration = 1.559000
+		vsnd_duration = 1.559
 	}
 	familiar_congrats_04_hero_3d = 
 	{
@@ -3398,7 +3398,7 @@
 		[
 			"sounds/vo/familiar/emote/familiar_effort_melee_big_03.vsnd",
 		]
-		vsnd_duration = 1.989750
+		vsnd_duration = 1.98975
 	}
 	familiar_effort_melee_big_03_emote_melee_effort_3d = 
 	{
@@ -3408,7 +3408,7 @@
 		[
 			"sounds/vo/familiar/emote/familiar_effort_melee_big_03.vsnd",
 		]
-		vsnd_duration = 1.989750
+		vsnd_duration = 1.98975
 	}
 	familiar_effort_melee_big_04_emote_effort_3d = 
 	{
@@ -3628,7 +3628,7 @@
 		[
 			"sounds/vo/familiar/familiar_enemy_gets_rejuv_01.vsnd",
 		]
-		vsnd_duration = 2.469250
+		vsnd_duration = 2.46925
 	}
 	familiar_enemy_gets_rejuv_02_hero_3d = 
 	{
@@ -3698,7 +3698,7 @@
 		[
 			"sounds/vo/familiar/familiar_interrupt_02.vsnd",
 		]
-		vsnd_duration = 1.835000
+		vsnd_duration = 1.835
 	}
 	familiar_interrupt_03_hero_3d = 
 	{
@@ -3738,7 +3738,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_anyhero_01_alt_01.vsnd",
 		]
-		vsnd_duration = 1.218750
+		vsnd_duration = 1.21875
 	}
 	familiar_kill_anyhero_01_hero_3d = 
 	{
@@ -3758,7 +3758,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_anyhero_02_alt_01.vsnd",
 		]
-		vsnd_duration = 2.030000
+		vsnd_duration = 2.03
 	}
 	familiar_kill_anyhero_02_hero_3d = 
 	{
@@ -3848,7 +3848,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_anyhero_05_alt_04.vsnd",
 		]
-		vsnd_duration = 1.196250
+		vsnd_duration = 1.19625
 	}
 	familiar_kill_anyhero_05_alt_05_hero_3d = 
 	{
@@ -4108,7 +4108,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_doorman_03.vsnd",
 		]
-		vsnd_duration = 2.725500
+		vsnd_duration = 2.7255
 	}
 	familiar_kill_drifter_01_hero_3d = 
 	{
@@ -4278,7 +4278,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_ghost_02.vsnd",
 		]
-		vsnd_duration = 2.379750
+		vsnd_duration = 2.37975
 	}
 	familiar_kill_ghost_03_hero_3d = 
 	{
@@ -4298,7 +4298,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_gigawatt_01.vsnd",
 		]
-		vsnd_duration = 2.535750
+		vsnd_duration = 2.53575
 	}
 	familiar_kill_gigawatt_02_hero_3d = 
 	{
@@ -4398,7 +4398,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_inferno_01.vsnd",
 		]
-		vsnd_duration = 1.858750
+		vsnd_duration = 1.85875
 	}
 	familiar_kill_inferno_02_alt_01_hero_3d = 
 	{
@@ -4558,7 +4558,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_mirage_01.vsnd",
 		]
-		vsnd_duration = 2.166750
+		vsnd_duration = 2.16675
 	}
 	familiar_kill_mirage_02_hero_3d = 
 	{
@@ -4618,7 +4618,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_necro_01.vsnd",
 		]
-		vsnd_duration = 2.684500
+		vsnd_duration = 2.6845
 	}
 	familiar_kill_necro_02_hero_3d = 
 	{
@@ -4668,7 +4668,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_orion_03.vsnd",
 		]
-		vsnd_duration = 2.439250
+		vsnd_duration = 2.43925
 	}
 	familiar_kill_priest_01_hero_3d = 
 	{
@@ -4678,7 +4678,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_priest_01.vsnd",
 		]
-		vsnd_duration = 4.936500
+		vsnd_duration = 4.9365
 	}
 	familiar_kill_priest_02_hero_3d = 
 	{
@@ -4838,7 +4838,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_unicorn_02.vsnd",
 		]
-		vsnd_duration = 2.683000
+		vsnd_duration = 2.683
 	}
 	familiar_kill_unicorn_03_hero_3d = 
 	{
@@ -4958,7 +4958,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_warden_03.vsnd",
 		]
-		vsnd_duration = 2.400500
+		vsnd_duration = 2.4005
 	}
 	familiar_kill_werewolf_01_hero_3d = 
 	{
@@ -4998,7 +4998,7 @@
 		[
 			"sounds/vo/familiar/familiar_kill_wraith_01.vsnd",
 		]
-		vsnd_duration = 3.330000
+		vsnd_duration = 3.33
 	}
 	familiar_kill_wraith_02_hero_3d = 
 	{
@@ -5298,7 +5298,7 @@
 		[
 			"sounds/vo/familiar/familiar_last_one_standing_03.vsnd",
 		]
-		vsnd_duration = 2.807500
+		vsnd_duration = 2.8075
 	}
 	familiar_leave_base_01_hero_3d = 
 	{
@@ -5488,7 +5488,7 @@
 		[
 			"sounds/vo/familiar/familiar_match_start_familiar_fencer_convo02_06.vsnd",
 		]
-		vsnd_duration = 2.850500
+		vsnd_duration = 2.8505
 	}
 	familiar_match_start_familiar_fencer_convo03_01_hero_zipline_3d = 
 	{
@@ -5528,7 +5528,7 @@
 		[
 			"sounds/vo/familiar/familiar_match_start_familiar_gigawatt_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.271500
+		vsnd_duration = 2.2715
 	}
 	familiar_match_start_familiar_gigawatt_convo01_03_hero_zipline_3d = 
 	{
@@ -5578,7 +5578,7 @@
 		[
 			"sounds/vo/familiar/familiar_match_start_familiar_haze_convo01_02.vsnd",
 		]
-		vsnd_duration = 2.251000
+		vsnd_duration = 2.251
 	}
 	familiar_match_start_familiar_haze_convo01_04_hero_zipline_3d = 
 	{
@@ -5648,7 +5648,7 @@
 		[
 			"sounds/vo/familiar/familiar_match_start_familiar_inferno_convo01_03.vsnd",
 		]
-		vsnd_duration = 2.735500
+		vsnd_duration = 2.7355
 	}
 	familiar_match_start_familiar_inferno_convo02_01_hero_zipline_3d = 
 	{
@@ -5678,7 +5678,7 @@
 		[
 			"sounds/vo/familiar/familiar_match_start_familiar_inferno_convo02_05.vsnd",
 		]
-		vsnd_duration = 2.799500
+		vsnd_duration = 2.7995
 	}
 	familiar_match_start_familiar_inferno_convo03_01_hero_zipline_3d = 
 	{
@@ -5768,7 +5768,7 @@
 		[
 			"sounds/vo/familiar/familiar_match_start_familiar_necro_convo03_03.vsnd",
 		]
-		vsnd_duration = 3.157000
+		vsnd_duration = 3.157
 	}
 	familiar_match_start_familiar_necro_convo03_05_hero_zipline_3d = 
 	{
@@ -5928,7 +5928,7 @@
 		[
 			"sounds/vo/familiar/familiar_match_start_familiar_unicorn_convo03_04.vsnd",
 		]
-		vsnd_duration = 1.582750
+		vsnd_duration = 1.58275
 	}
 	familiar_match_start_familiar_werewolf_convo01_01_hero_zipline_3d = 
 	{
@@ -5988,7 +5988,7 @@
 		[
 			"sounds/vo/familiar/familiar_match_start_familiar_werewolf_convo02_01.vsnd",
 		]
-		vsnd_duration = 2.142750
+		vsnd_duration = 2.14275
 	}
 	familiar_match_start_familiar_werewolf_convo02_03_hero_zipline_3d = 
 	{
@@ -5998,7 +5998,7 @@
 		[
 			"sounds/vo/familiar/familiar_match_start_familiar_werewolf_convo02_03.vsnd",
 		]
-		vsnd_duration = 2.109500
+		vsnd_duration = 2.1095
 	}
 	familiar_match_start_familiar_werewolf_convo02_05_hero_zipline_3d = 
 	{
@@ -6418,7 +6418,7 @@
 		[
 			"sounds/vo/familiar/emote/familiar_pain_small_04.vsnd",
 		]
-		vsnd_duration = 1.233250
+		vsnd_duration = 1.23325
 	}
 	familiar_pain_small_05_emote_pain_3d = 
 	{
@@ -6558,7 +6558,7 @@
 		[
 			"sounds/vo/familiar/familiar_pick_up_rejuv_01.vsnd",
 		]
-		vsnd_duration = 2.458750
+		vsnd_duration = 2.45875
 	}
 	familiar_pick_up_rejuv_02_hero_3d = 
 	{
@@ -6658,7 +6658,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_ability4_not_ready.vsnd",
 		]
-		vsnd_duration = 2.097750
+		vsnd_duration = 2.09775
 	}
 	familiar_ping_affermative_01_ping_2d = 
 	{
@@ -6928,7 +6928,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_attack_doorman.vsnd",
 		]
-		vsnd_duration = 2.260750
+		vsnd_duration = 2.26075
 	}
 	familiar_ping_attack_drifter_ping_2d = 
 	{
@@ -7038,7 +7038,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_attack_haze.vsnd",
 		]
-		vsnd_duration = 2.275250
+		vsnd_duration = 2.27525
 	}
 	familiar_ping_attack_hornet_ping_2d = 
 	{
@@ -7178,7 +7178,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_attack_synth.vsnd",
 		]
-		vsnd_duration = 2.141750
+		vsnd_duration = 2.14175
 	}
 	familiar_ping_attack_tengu_ping_2d = 
 	{
@@ -7268,7 +7268,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_attack_yamato.vsnd",
 		]
-		vsnd_duration = 2.334750
+		vsnd_duration = 2.33475
 	}
 	familiar_ping_avatar_under_attack_ping_2d = 
 	{
@@ -7318,7 +7318,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_bebop_dead.vsnd",
 		]
-		vsnd_duration = 1.799250
+		vsnd_duration = 1.79925
 	}
 	familiar_ping_bebop_in_mid_ping_2d = 
 	{
@@ -7378,7 +7378,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_bebop_was_here.vsnd",
 		]
-		vsnd_duration = 1.881250
+		vsnd_duration = 1.88125
 	}
 	familiar_ping_blue_help_01_ping_2d = 
 	{
@@ -7448,7 +7448,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_bookworm_missing_01.vsnd",
 		]
-		vsnd_duration = 1.960000
+		vsnd_duration = 1.96
 	}
 	familiar_ping_bookworm_on_top_of_garage_ping_2d = 
 	{
@@ -7498,7 +7498,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_can_heal_astro.vsnd",
 		]
-		vsnd_duration = 2.436750
+		vsnd_duration = 2.43675
 	}
 	familiar_ping_can_heal_atlas_ping_2d = 
 	{
@@ -7508,7 +7508,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_can_heal_atlas.vsnd",
 		]
-		vsnd_duration = 2.327500
+		vsnd_duration = 2.3275
 	}
 	familiar_ping_can_heal_bebop_ping_2d = 
 	{
@@ -7638,7 +7638,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_can_heal_hornet.vsnd",
 		]
-		vsnd_duration = 2.446500
+		vsnd_duration = 2.4465
 	}
 	familiar_ping_can_heal_inferno_ping_2d = 
 	{
@@ -7788,7 +7788,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_can_heal_unicorn.vsnd",
 		]
-		vsnd_duration = 2.915250
+		vsnd_duration = 2.91525
 	}
 	familiar_ping_can_heal_vampirebat_ping_2d = 
 	{
@@ -7808,7 +7808,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_can_heal_viper.vsnd",
 		]
-		vsnd_duration = 2.402250
+		vsnd_duration = 2.40225
 	}
 	familiar_ping_can_heal_viscous_ping_2d = 
 	{
@@ -7838,7 +7838,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_can_heal_werewolf.vsnd",
 		]
-		vsnd_duration = 2.483500
+		vsnd_duration = 2.4835
 	}
 	familiar_ping_can_heal_wraith_ping_2d = 
 	{
@@ -7868,7 +7868,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_careful_astro_01.vsnd",
 		]
-		vsnd_duration = 1.397250
+		vsnd_duration = 1.39725
 	}
 	familiar_ping_careful_astro_02_ping_2d = 
 	{
@@ -7878,7 +7878,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_careful_astro_02.vsnd",
 		]
-		vsnd_duration = 1.449500
+		vsnd_duration = 1.4495
 	}
 	familiar_ping_careful_astro_03_ping_2d = 
 	{
@@ -7898,7 +7898,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_careful_atlas_01.vsnd",
 		]
-		vsnd_duration = 1.449500
+		vsnd_duration = 1.4495
 	}
 	familiar_ping_careful_atlas_02_ping_2d = 
 	{
@@ -7978,7 +7978,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_careful_bookworm_03.vsnd",
 		]
-		vsnd_duration = 1.486500
+		vsnd_duration = 1.4865
 	}
 	familiar_ping_careful_chrono_01_ping_2d = 
 	{
@@ -8108,7 +8108,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_careful_fencer_01_alt.vsnd",
 		]
-		vsnd_duration = 1.396750
+		vsnd_duration = 1.39675
 	}
 	familiar_ping_careful_fencer_02_alt_ping_2d = 
 	{
@@ -8138,7 +8138,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_careful_forge_01.vsnd",
 		]
-		vsnd_duration = 1.635250
+		vsnd_duration = 1.63525
 	}
 	familiar_ping_careful_forge_02_ping_2d = 
 	{
@@ -8418,7 +8418,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_careful_lash_02.vsnd",
 		]
-		vsnd_duration = 1.538750
+		vsnd_duration = 1.53875
 	}
 	familiar_ping_careful_lash_03_ping_2d = 
 	{
@@ -8598,7 +8598,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_careful_priest_02.vsnd",
 		]
-		vsnd_duration = 1.390000
+		vsnd_duration = 1.39
 	}
 	familiar_ping_careful_priest_03_ping_2d = 
 	{
@@ -8688,7 +8688,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_careful_synth_02.vsnd",
 		]
-		vsnd_duration = 1.308000
+		vsnd_duration = 1.308
 	}
 	familiar_ping_careful_synth_03_ping_2d = 
 	{
@@ -8998,7 +8998,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_chrono_dead.vsnd",
 		]
-		vsnd_duration = 1.895750
+		vsnd_duration = 1.89575
 	}
 	familiar_ping_chrono_in_mid_ping_2d = 
 	{
@@ -9158,7 +9158,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_doorman_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.290500
+		vsnd_duration = 2.2905
 	}
 	familiar_ping_doorman_check_items_ping_2d = 
 	{
@@ -9438,7 +9438,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_fencer_almost_respawn_alt.vsnd",
 		]
-		vsnd_duration = 2.346000
+		vsnd_duration = 2.346
 	}
 	familiar_ping_fencer_check_items_alt_ping_2d = 
 	{
@@ -9618,7 +9618,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_forge_was_here.vsnd",
 		]
-		vsnd_duration = 2.007813
+		vsnd_duration = 2.007812
 	}
 	familiar_ping_frank_almost_respawn_ping_2d = 
 	{
@@ -9628,7 +9628,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_frank_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.245500
+		vsnd_duration = 2.2455
 	}
 	familiar_ping_frank_check_items_ping_2d = 
 	{
@@ -9748,7 +9748,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_ghost_dead.vsnd",
 		]
-		vsnd_duration = 1.895750
+		vsnd_duration = 1.89575
 	}
 	familiar_ping_ghost_in_mid_ping_2d = 
 	{
@@ -9828,7 +9828,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_gigawatt_check_items.vsnd",
 		]
-		vsnd_duration = 2.350000
+		vsnd_duration = 2.35
 	}
 	familiar_ping_gigawatt_dead_ping_2d = 
 	{
@@ -9938,7 +9938,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_going_in.vsnd",
 		]
-		vsnd_duration = 1.523500
+		vsnd_duration = 1.5235
 	}
 	familiar_ping_going_shop_01_ping_2d = 
 	{
@@ -10018,7 +10018,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_haze_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.163500
+		vsnd_duration = 2.1635
 	}
 	familiar_ping_haze_check_items_ping_2d = 
 	{
@@ -10198,7 +10198,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_health_nova_almost_ready.vsnd",
 		]
-		vsnd_duration = 2.571000
+		vsnd_duration = 2.571
 	}
 	familiar_ping_health_nova_not_ready_ping_2d = 
 	{
@@ -10208,7 +10208,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_health_nova_not_ready.vsnd",
 		]
-		vsnd_duration = 2.538500
+		vsnd_duration = 2.5385
 	}
 	familiar_ping_help_with_idol_ping_2d = 
 	{
@@ -10218,7 +10218,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_help_with_idol.vsnd",
 		]
-		vsnd_duration = 2.617750
+		vsnd_duration = 2.61775
 	}
 	familiar_ping_hornet_almost_respawn_ping_2d = 
 	{
@@ -10268,7 +10268,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_hornet_missing_01.vsnd",
 		]
-		vsnd_duration = 2.034750
+		vsnd_duration = 2.03475
 	}
 	familiar_ping_hornet_on_top_of_garage_ping_2d = 
 	{
@@ -10378,7 +10378,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_ignore_drifter.vsnd",
 		]
-		vsnd_duration = 2.005000
+		vsnd_duration = 2.005
 	}
 	familiar_ping_ignore_dynamo_ping_2d = 
 	{
@@ -10428,7 +10428,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_ignore_ghost.vsnd",
 		]
-		vsnd_duration = 2.044500
+		vsnd_duration = 2.0445
 	}
 	familiar_ping_ignore_gigawatt_ping_2d = 
 	{
@@ -10618,7 +10618,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_ignore_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.799250
+		vsnd_duration = 1.79925
 	}
 	familiar_ping_ignore_viper_ping_2d = 
 	{
@@ -10848,7 +10848,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_kelvin_in_mid.vsnd",
 		]
-		vsnd_duration = 1.911000
+		vsnd_duration = 1.911
 	}
 	familiar_ping_kelvin_missing_01_ping_2d = 
 	{
@@ -10888,7 +10888,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_kelvin_under_garage.vsnd",
 		]
-		vsnd_duration = 2.402250
+		vsnd_duration = 2.40225
 	}
 	familiar_ping_kelvin_was_here_ping_2d = 
 	{
@@ -10918,7 +10918,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_kncokdown_not_ready.vsnd",
 		]
-		vsnd_duration = 2.430000
+		vsnd_duration = 2.43
 	}
 	familiar_ping_krill_almost_respawn_ping_2d = 
 	{
@@ -10958,7 +10958,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_krill_in_mid.vsnd",
 		]
-		vsnd_duration = 1.784000
+		vsnd_duration = 1.784
 	}
 	familiar_ping_krill_missing_01_ping_2d = 
 	{
@@ -10978,7 +10978,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_krill_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.387000
+		vsnd_duration = 2.387
 	}
 	familiar_ping_krill_on_top_of_mid_ping_2d = 
 	{
@@ -11088,7 +11088,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_lash_under_garage.vsnd",
 		]
-		vsnd_duration = 2.357250
+		vsnd_duration = 2.35725
 	}
 	familiar_ping_lash_was_here_ping_2d = 
 	{
@@ -11188,7 +11188,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_magician_check_items.vsnd",
 		]
-		vsnd_duration = 2.357250
+		vsnd_duration = 2.35725
 	}
 	familiar_ping_magician_dead_ping_2d = 
 	{
@@ -11328,7 +11328,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_mirage_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.439250
+		vsnd_duration = 2.43925
 	}
 	familiar_ping_mirage_on_top_of_mid_ping_2d = 
 	{
@@ -11458,7 +11458,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_nano_in_mid.vsnd",
 		]
-		vsnd_duration = 2.067000
+		vsnd_duration = 2.067
 	}
 	familiar_ping_nano_missing_01_ping_2d = 
 	{
@@ -11478,7 +11478,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_nano_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.491500
+		vsnd_duration = 2.4915
 	}
 	familiar_ping_nano_on_top_of_mid_ping_2d = 
 	{
@@ -11638,7 +11638,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_need_help_blue.vsnd",
 		]
-		vsnd_duration = 1.985000
+		vsnd_duration = 1.985
 	}
 	familiar_ping_need_help_green_alt_ping_2d = 
 	{
@@ -11888,7 +11888,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_pre_game_05.vsnd",
 		]
-		vsnd_duration = 10.472980
+		vsnd_duration = 10.47298
 	}
 	familiar_ping_pre_game_06_ping_2d = 
 	{
@@ -11988,7 +11988,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_priest_under_garage.vsnd",
 		]
-		vsnd_duration = 2.565500
+		vsnd_duration = 2.5655
 	}
 	familiar_ping_priest_was_here_ping_2d = 
 	{
@@ -12078,7 +12078,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_punkgoat_under_garage.vsnd",
 		]
-		vsnd_duration = 2.268000
+		vsnd_duration = 2.268
 	}
 	familiar_ping_punkgoat_was_here_ping_2d = 
 	{
@@ -12138,7 +12138,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_push_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.966500
+		vsnd_duration = 1.9665
 	}
 	familiar_ping_push_yellow_02_ping_2d = 
 	{
@@ -12198,7 +12198,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_retreat_01.vsnd",
 		]
-		vsnd_duration = 1.464000
+		vsnd_duration = 1.464
 	}
 	familiar_ping_retreat_02_ping_2d = 
 	{
@@ -12298,7 +12298,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_saw_bookworm.vsnd",
 		]
-		vsnd_duration = 1.769500
+		vsnd_duration = 1.7695
 	}
 	familiar_ping_saw_chrono_ping_2d = 
 	{
@@ -12308,7 +12308,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_saw_chrono.vsnd",
 		]
-		vsnd_duration = 2.044500
+		vsnd_duration = 2.0445
 	}
 	familiar_ping_saw_doorman_ping_2d = 
 	{
@@ -12318,7 +12318,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_saw_doorman.vsnd",
 		]
-		vsnd_duration = 1.813750
+		vsnd_duration = 1.81375
 	}
 	familiar_ping_saw_drifter_ping_2d = 
 	{
@@ -12928,7 +12928,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_see_fencer_on_bridge_alt.vsnd",
 		]
-		vsnd_duration = 2.282000
+		vsnd_duration = 2.282
 	}
 	familiar_ping_see_fencer_on_roof_alt_ping_2d = 
 	{
@@ -12958,7 +12958,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_see_forge_on_roof.vsnd",
 		]
-		vsnd_duration = 2.171500
+		vsnd_duration = 2.1715
 	}
 	familiar_ping_see_forge_ping_2d = 
 	{
@@ -13178,7 +13178,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_see_kelvin_on_roof.vsnd",
 		]
-		vsnd_duration = 2.037250
+		vsnd_duration = 2.03725
 	}
 	familiar_ping_see_krill_01_ping_2d = 
 	{
@@ -13568,7 +13568,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_see_unicorn_on_bridge.vsnd",
 		]
-		vsnd_duration = 2.267500
+		vsnd_duration = 2.2675
 	}
 	familiar_ping_see_unicorn_on_roof_ping_2d = 
 	{
@@ -13758,7 +13758,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_see_wraith_on_roof.vsnd",
 		]
-		vsnd_duration = 1.925500
+		vsnd_duration = 1.9255
 	}
 	familiar_ping_see_yamato_on_bridge_ping_2d = 
 	{
@@ -13928,7 +13928,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_sorry_03.vsnd",
 		]
-		vsnd_duration = 1.378750
+		vsnd_duration = 1.37875
 	}
 	familiar_ping_stay_together_ping_2d = 
 	{
@@ -13978,7 +13978,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_stun_atlas_01.vsnd",
 		]
-		vsnd_duration = 2.193250
+		vsnd_duration = 2.19325
 	}
 	familiar_ping_stun_bebop_01_ping_2d = 
 	{
@@ -14058,7 +14058,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_stun_forge_01.vsnd",
 		]
-		vsnd_duration = 2.089500
+		vsnd_duration = 2.0895
 	}
 	familiar_ping_stun_frank_01_ping_2d = 
 	{
@@ -14138,7 +14138,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_stun_krill_01.vsnd",
 		]
-		vsnd_duration = 2.007500
+		vsnd_duration = 2.0075
 	}
 	familiar_ping_stun_lash_01_ping_2d = 
 	{
@@ -14258,7 +14258,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_stun_unicorn_01.vsnd",
 		]
-		vsnd_duration = 1.979500
+		vsnd_duration = 1.9795
 	}
 	familiar_ping_stun_vampirebat_01_ping_2d = 
 	{
@@ -14468,7 +14468,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_tengu_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.082250
+		vsnd_duration = 2.08225
 	}
 	familiar_ping_tengu_check_items_ping_2d = 
 	{
@@ -14478,7 +14478,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_tengu_check_items.vsnd",
 		]
-		vsnd_duration = 2.133750
+		vsnd_duration = 2.13375
 	}
 	familiar_ping_tengu_dead_ping_2d = 
 	{
@@ -14488,7 +14488,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_tengu_dead.vsnd",
 		]
-		vsnd_duration = 1.680250
+		vsnd_duration = 1.68025
 	}
 	familiar_ping_tengu_in_mid_ping_2d = 
 	{
@@ -14498,7 +14498,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_tengu_in_mid.vsnd",
 		]
-		vsnd_duration = 1.821750
+		vsnd_duration = 1.82175
 	}
 	familiar_ping_tengu_missing_01_ping_2d = 
 	{
@@ -14558,7 +14558,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_thank_you_01.vsnd",
 		]
-		vsnd_duration = 1.493750
+		vsnd_duration = 1.49375
 	}
 	familiar_ping_thank_you_02_ping_2d = 
 	{
@@ -14578,7 +14578,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_thanks.vsnd",
 		]
-		vsnd_duration = 1.337750
+		vsnd_duration = 1.33775
 	}
 	familiar_ping_they_were_here_ping_2d = 
 	{
@@ -14608,7 +14608,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_theyre_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.201250
+		vsnd_duration = 2.20125
 	}
 	familiar_ping_theyre_on_top_of_mid_ping_2d = 
 	{
@@ -14708,7 +14708,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_unicorn_under_garage.vsnd",
 		]
-		vsnd_duration = 2.658500
+		vsnd_duration = 2.6585
 	}
 	familiar_ping_unicorn_was_here_ping_2d = 
 	{
@@ -14758,7 +14758,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_use_ability4_01.vsnd",
 		]
-		vsnd_duration = 2.333750
+		vsnd_duration = 2.33375
 	}
 	familiar_ping_use_ability4_02_ping_2d = 
 	{
@@ -14818,7 +14818,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_use_ability4_07.vsnd",
 		]
-		vsnd_duration = 3.049750
+		vsnd_duration = 3.04975
 	}
 	familiar_ping_use_ability4_08_ping_2d = 
 	{
@@ -14888,7 +14888,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_use_kncokdown.vsnd",
 		]
-		vsnd_duration = 2.398500
+		vsnd_duration = 2.3985
 	}
 	familiar_ping_use_refresher_ping_2d = 
 	{
@@ -14908,7 +14908,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_use_rupture.vsnd",
 		]
-		vsnd_duration = 2.385250
+		vsnd_duration = 2.38525
 	}
 	familiar_ping_use_silence_ping_2d = 
 	{
@@ -15098,7 +15098,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_viper_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 2.156250
+		vsnd_duration = 2.15625
 	}
 	familiar_ping_viper_under_garage_ping_2d = 
 	{
@@ -15148,7 +15148,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_viscous_dead.vsnd",
 		]
-		vsnd_duration = 1.881250
+		vsnd_duration = 1.88125
 	}
 	familiar_ping_viscous_in_mid_ping_2d = 
 	{
@@ -15358,7 +15358,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_werewolf_almost_respawn.vsnd",
 		]
-		vsnd_duration = 2.133750
+		vsnd_duration = 2.13375
 	}
 	familiar_ping_werewolf_check_items_ping_2d = 
 	{
@@ -15408,7 +15408,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_werewolf_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.506000
+		vsnd_duration = 2.506
 	}
 	familiar_ping_werewolf_on_top_of_mid_ping_2d = 
 	{
@@ -15588,7 +15588,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_with_hornet.vsnd",
 		]
-		vsnd_duration = 2.163500
+		vsnd_duration = 2.1635
 	}
 	familiar_ping_with_inferno_ping_2d = 
 	{
@@ -15878,7 +15878,7 @@
 		[
 			"sounds/vo/familiar/ping/familiar_ping_wraith_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 2.104000
+		vsnd_duration = 2.104
 	}
 	familiar_ping_wraith_under_garage_ping_2d = 
 	{
@@ -16048,7 +16048,7 @@
 		[
 			"sounds/vo/familiar/familiar_see_enemy_metal_skin_03.vsnd",
 		]
-		vsnd_duration = 2.215750
+		vsnd_duration = 2.21575
 	}
 	familiar_see_money_01_hero_3d = 
 	{
@@ -16068,7 +16068,7 @@
 		[
 			"sounds/vo/familiar/familiar_see_money_02.vsnd",
 		]
-		vsnd_duration = 2.238250
+		vsnd_duration = 2.23825
 	}
 	familiar_see_money_03_hero_3d = 
 	{
@@ -16078,7 +16078,7 @@
 		[
 			"sounds/vo/familiar/familiar_see_money_03.vsnd",
 		]
-		vsnd_duration = 2.541250
+		vsnd_duration = 2.54125
 	}
 	familiar_select_01_hero_3d = 
 	{
@@ -16218,7 +16218,7 @@
 		[
 			"sounds/vo/familiar/familiar_sleepy_use_power_atlas.vsnd",
 		]
-		vsnd_duration = 3.557500
+		vsnd_duration = 3.5575
 	}
 	familiar_sleepy_use_power_bebop_ability_3d = 
 	{
@@ -16258,7 +16258,7 @@
 		[
 			"sounds/vo/familiar/familiar_sleepy_use_power_bookworm_alt_01.vsnd",
 		]
-		vsnd_duration = 4.826000
+		vsnd_duration = 4.826
 	}
 	familiar_sleepy_use_power_bookworm_alt_02_ability_3d = 
 	{
@@ -16288,7 +16288,7 @@
 		[
 			"sounds/vo/familiar/familiar_sleepy_use_power_doorman.vsnd",
 		]
-		vsnd_duration = 2.779000
+		vsnd_duration = 2.779
 	}
 	familiar_sleepy_use_power_drifter_ability_3d = 
 	{
@@ -16308,7 +16308,7 @@
 		[
 			"sounds/vo/familiar/familiar_sleepy_use_power_dynamo.vsnd",
 		]
-		vsnd_duration = 4.499000
+		vsnd_duration = 4.499
 	}
 	familiar_sleepy_use_power_fencer_ability_3d = 
 	{
@@ -16318,7 +16318,7 @@
 		[
 			"sounds/vo/familiar/familiar_sleepy_use_power_fencer.vsnd",
 		]
-		vsnd_duration = 3.586000
+		vsnd_duration = 3.586
 	}
 	familiar_sleepy_use_power_forge_ability_3d = 
 	{
@@ -16368,7 +16368,7 @@
 		[
 			"sounds/vo/familiar/familiar_sleepy_use_power_gigawatt.vsnd",
 		]
-		vsnd_duration = 6.225500
+		vsnd_duration = 6.2255
 	}
 	familiar_sleepy_use_power_haze_ability_3d = 
 	{
@@ -16478,7 +16478,7 @@
 		[
 			"sounds/vo/familiar/familiar_sleepy_use_power_necro.vsnd",
 		]
-		vsnd_duration = 3.171500
+		vsnd_duration = 3.1715
 	}
 	familiar_sleepy_use_power_orion_ability_3d = 
 	{
@@ -16638,7 +16638,7 @@
 		[
 			"sounds/vo/familiar/familiar_sleepy_use_power_yamato.vsnd",
 		]
-		vsnd_duration = 3.604750
+		vsnd_duration = 3.60475
 	}
 	familiar_t1_shop_reminder_01_hero_3d = 
 	{
@@ -16678,7 +16678,7 @@
 		[
 			"sounds/vo/familiar/familiar_t2_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 2.322500
+		vsnd_duration = 2.3225
 	}
 	familiar_t2_shop_reminder_02_hero_3d = 
 	{
@@ -16718,7 +16718,7 @@
 		[
 			"sounds/vo/familiar/familiar_t3_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 2.983000
+		vsnd_duration = 2.983
 	}
 	familiar_t3_shop_reminder_03_hero_3d = 
 	{
@@ -16808,7 +16808,7 @@
 		[
 			"sounds/vo/familiar/familiar_tower_got_denied_05.vsnd",
 		]
-		vsnd_duration = 2.423250
+		vsnd_duration = 2.42325
 	}
 	familiar_unselect_01_hero_3d = 
 	{
@@ -16868,7 +16868,7 @@
 		[
 			"sounds/vo/familiar/familiar_unselect_04_alt_03.vsnd",
 		]
-		vsnd_duration = 3.589500
+		vsnd_duration = 3.5895
 	}
 	familiar_unselect_04_alt_04_hero_3d = 
 	{
@@ -16918,7 +16918,7 @@
 		[
 			"sounds/vo/familiar/familiar_unselect_07.vsnd",
 		]
-		vsnd_duration = 2.230750
+		vsnd_duration = 2.23075
 	}
 	familiar_unselect_08_alt_01_hero_3d = 
 	{
@@ -17008,7 +17008,7 @@
 		[
 			"sounds/vo/familiar/familiar_upgrade_power1_05.vsnd",
 		]
-		vsnd_duration = 3.828250
+		vsnd_duration = 3.82825
 	}
 	familiar_upgrade_power1_06_hero_3d = 
 	{
@@ -17068,7 +17068,7 @@
 		[
 			"sounds/vo/familiar/familiar_upgrade_power2_01.vsnd",
 		]
-		vsnd_duration = 1.553250
+		vsnd_duration = 1.55325
 	}
 	familiar_upgrade_power2_02_hero_3d = 
 	{
@@ -17238,7 +17238,7 @@
 		[
 			"sounds/vo/familiar/familiar_upgrade_power3_08.vsnd",
 		]
-		vsnd_duration = 4.033250
+		vsnd_duration = 4.03325
 	}
 	familiar_upgrade_power3_09_hero_3d = 
 	{
@@ -17258,7 +17258,7 @@
 		[
 			"sounds/vo/familiar/familiar_upgrade_power3_10.vsnd",
 		]
-		vsnd_duration = 3.016750
+		vsnd_duration = 3.01675
 	}
 	familiar_upgrade_power4_01_hero_3d = 
 	{
@@ -17308,7 +17308,7 @@
 		[
 			"sounds/vo/familiar/familiar_upgrade_power4_04.vsnd",
 		]
-		vsnd_duration = 3.018000
+		vsnd_duration = 3.018
 	}
 	familiar_upgrade_power4_05_hero_3d = 
 	{
@@ -17438,7 +17438,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_curse_01.vsnd",
 		]
-		vsnd_duration = 1.820313
+		vsnd_duration = 1.820312
 	}
 	familiar_use_curse_02_ability_3d = 
 	{
@@ -17598,7 +17598,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_phantom_strike_02.vsnd",
 		]
-		vsnd_duration = 1.834500
+		vsnd_duration = 1.8345
 	}
 	familiar_use_phantom_strike_03_ability_3d = 
 	{
@@ -17638,7 +17638,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power1_01_alt_02.vsnd",
 		]
-		vsnd_duration = 1.449500
+		vsnd_duration = 1.4495
 	}
 	familiar_use_power1_01_alt_03_ability_3d = 
 	{
@@ -17748,7 +17748,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power1_08.vsnd",
 		]
-		vsnd_duration = 1.922250
+		vsnd_duration = 1.92225
 	}
 	familiar_use_power1_09_ability_3d = 
 	{
@@ -17768,7 +17768,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power1_10.vsnd",
 		]
-		vsnd_duration = 2.190000
+		vsnd_duration = 2.19
 	}
 	familiar_use_power2_01_ability_3d = 
 	{
@@ -17878,7 +17878,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power2_10.vsnd",
 		]
-		vsnd_duration = 2.342750
+		vsnd_duration = 2.34275
 	}
 	familiar_use_power3_01_ability_3d = 
 	{
@@ -17978,7 +17978,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power3_10.vsnd",
 		]
-		vsnd_duration = 2.126250
+		vsnd_duration = 2.12625
 	}
 	familiar_use_power4_01_ability_3d = 
 	{
@@ -18018,7 +18018,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power4_02.vsnd",
 		]
-		vsnd_duration = 3.362250
+		vsnd_duration = 3.36225
 	}
 	familiar_use_power4_02_hero_announcer = 
 	{
@@ -18028,7 +18028,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power4_02.vsnd",
 		]
-		vsnd_duration = 3.362250
+		vsnd_duration = 3.36225
 	}
 	familiar_use_power4_02_ult_3d = 
 	{
@@ -18038,7 +18038,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power4_02.vsnd",
 		]
-		vsnd_duration = 3.362250
+		vsnd_duration = 3.36225
 	}
 	familiar_use_power4_03_ability_3d = 
 	{
@@ -18378,7 +18378,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.745250
+		vsnd_duration = 1.74525
 	}
 	familiar_use_power4_10_hero_announcer = 
 	{
@@ -18388,7 +18388,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.745250
+		vsnd_duration = 1.74525
 	}
 	familiar_use_power4_10_ult_3d = 
 	{
@@ -18398,7 +18398,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.745250
+		vsnd_duration = 1.74525
 	}
 	familiar_use_shadow_weave_01_ability_3d = 
 	{
@@ -18428,7 +18428,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_shadow_weave_03.vsnd",
 		]
-		vsnd_duration = 2.906500
+		vsnd_duration = 2.9065
 	}
 	familiar_use_silencer_01_ability_3d = 
 	{
@@ -18438,7 +18438,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_silencer_01.vsnd",
 		]
-		vsnd_duration = 1.840000
+		vsnd_duration = 1.84
 	}
 	familiar_use_silencer_02_ability_3d = 
 	{
@@ -18498,7 +18498,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_unstoppable_01.vsnd",
 		]
-		vsnd_duration = 2.436000
+		vsnd_duration = 2.436
 	}
 	familiar_use_unstoppable_02_ability_3d = 
 	{
@@ -18538,7 +18538,7 @@
 		[
 			"sounds/vo/familiar/familiar_use_vampiric_burst_02.vsnd",
 		]
-		vsnd_duration = 2.363250
+		vsnd_duration = 2.36325
 	}
 	familiar_use_vampiric_burst_03_ability_3d = 
 	{

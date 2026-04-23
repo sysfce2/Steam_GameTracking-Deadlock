@@ -3,74 +3,39 @@
 	Base.SourceReverb = 
 	{
 		type = "citadel_source_reverb_send"
-		source_reverb_level = 3.000000
+		source_reverb_level = 3.0
 		source_reverb_enclosure_exterior_level = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				55.000000,
-				0.000000,
-				0.000000,
-				0.005000,
-				0.000000,
-				1.000000,
+				55.0, 0.0, 0.0, 0.005,
+				0.0, 1.0,
 			],
-			
 			[
-				100.000000,
-				0.500000,
-				0.011111,
-				0.009500,
-				0.000000,
-				1.000000,
+				100.0, 0.5, 0.011111, 0.0095,
+				0.0, 1.0,
 			],
-			
 			[
-				160.259628,
-				1.000000,
-				0.008297,
-				0.000000,
-				0.000000,
-				0.000000,
+				160.259628, 1.0, 0.008297, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				255.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				255.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		source_reverb_distance_level_mult = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				2000.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				2000.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 	}
@@ -79,12 +44,10 @@
 		type = "citadel_weapons"
 		base = 
 		[
-			
 			{
 				event_name = "Base.SourceReverb"
 				field_name = "citadel_source_reverb_send"
 			},
-			
 			{
 				event_name = "Volume.Falloff.Hero"
 				field_name = "citadel_perspective_default"
@@ -93,88 +56,53 @@
 		fade_type = "linear"
 		mix_group_prefix = "Weapons"
 		occlusion_subgroup_name = "weapons"
-		recency_bias_max_scale = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		recency_bias_max_scale = 1.0
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_stop_oldest = true
-		volume_fade_out = 0.100000
-		volume = 0.000000
-		volume_offset_player = 0.000000
-		volume_offset_team = -6.000000
-		volume_offset_opponent = -1.000000
-		volume_offset_neutral = -4.000000
-		volume_enemy_targeting_boost = 2.000000
+		volume_fade_out = 0.1
+		volume = 0.0
+		volume_offset_player = 0.0
+		volume_offset_team = -6.0
+		volume_offset_opponent = -1.0
+		volume_offset_neutral = -4.0
+		volume_enemy_targeting_boost = 2.0
 		vsnd_files_last_shot = 
 		[
 			"sounds/weapons/geist/geist_wpn_last_shot_01.vsnd",
 		]
 		low_ammo_progress_offset_db = 
 		[
-			
 			[
-				0.000000,
-				-17.035713,
-				0.000000,
-				77.711655,
-				0.000000,
-				0.000000,
+				0.0, -17.035713, 0.0, 77.711655,
+				0.0, 0.0,
 			],
-			
 			[
-				0.171651,
-				-3.696429,
-				17.035713,
-				17.035713,
-				1.000000,
-				1.000000,
+				0.171651, -3.696429, 17.035713, 17.035713,
+				1.0, 1.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				4.462405,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 4.462405, 0.0,
+				0.0, 0.0,
 			],
 		]
 		tail_interior_enclosure_vol_offset_db = 
 		[
-			
 			[
-				0.000000,
-				-12.321428,
-				0.000000,
-				-0.019337,
-				0.000000,
-				0.000000,
+				0.0, -12.321428, 0.0, -0.019337,
+				0.0, 0.0,
 			],
-			
 			[
-				27.704439,
-				-12.857142,
-				-0.019337,
-				0.249165,
-				0.000000,
-				1.000000,
+				27.704439, -12.857142, -0.019337, 0.249165,
+				0.0, 1.0,
 			],
-			
 			[
-				49.450935,
-				0.000000,
-				0.056566,
-				0.056566,
-				1.000000,
-				1.000000,
+				49.450935, 0.0, 0.056566, 0.056566,
+				1.0, 1.0,
 			],
-			
 			[
-				255.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				255.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files_low_ammo = 
@@ -191,101 +119,51 @@
 		]
 		tail_enclosure_vol_offset_db = 
 		[
-			
 			[
-				0.000000,
-				-60.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, -60.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				55.706776,
-				-60.000000,
-				0.000000,
-				0.459030,
-				0.000000,
-				1.000000,
+				55.706776, -60.0, 0.0, 0.45903,
+				0.0, 1.0,
 			],
-			
 			[
-				99.199760,
-				-14.464285,
-				1.046967,
-				0.414428,
-				0.000000,
-				1.000000,
+				99.19976, -14.464285, 1.046967, 0.414428,
+				0.0, 1.0,
 			],
-			
 			[
-				200.484802,
-				0.000000,
-				0.142808,
-				0.000000,
-				0.000000,
-				0.000000,
+				200.484802, 0.0, 0.142808, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				255.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				255.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-2.500000,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -2.5, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-1.001785,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -1.001785,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-1.500000,
-				-1.001785,
-				-1.001785,
-				0.000000,
-				1.000000,
+				3.0, -1.5, -1.001785, -1.001785,
+				0.0, 1.0,
 			],
 		]
 		vsnd_duration = 0.565102
@@ -293,13 +171,13 @@
 	Base.Weapon.Tail = 
 	{
 		base = "Base.Weapon"
-		hrtf_on_player = 0.000000
-		hrtf_on_team = 0.000000
-		hrtf_on_opponent = 0.000000
-		hrtf_on_neutral = 0.000000
-		limiter_max = 0.000000
-		mono_downmix_enabled = 0.000000
-		occlusion_scale_non_player = 0.750000
+		hrtf_on_player = 0.0
+		hrtf_on_team = 0.0
+		hrtf_on_opponent = 0.0
+		hrtf_on_neutral = 0.0
+		limiter_max = 0.0
+		mono_downmix_enabled = 0.0
+		occlusion_scale_non_player = 0.75
 		low_ammo_enabled = false
 	}
 	Base.Weapon.Beam.ClosestPoint = 
@@ -307,139 +185,128 @@
 		type = "citadel_closest_point_on_segment"
 		base = 
 		[
-			
 			{
 				event_name = "Base.SourceReverb"
 				field_name = "citadel_source_reverb_send"
 			},
-			
 			{
 				event_name = "Volume.Falloff.Wpn.Closest.Point"
 				field_name = "citadel_perspective_default"
 			},
 		]
 		mix_group_prefix = "Weapons"
-		volume_fade_out = 0.100000
-		volume = 0.000000
-		volume_offset_player = 0.000000
-		volume_offset_team = -6.000000
-		volume_offset_opponent = -1.000000
-		volume_offset_neutral = -4.000000
-		volume_enemy_targeting_boost = 3.000000
-		doppler_on = 1.000000
-		doppler_factor = 5.000000
+		volume_fade_out = 0.1
+		volume = 0.0
+		volume_offset_player = 0.0
+		volume_offset_team = -6.0
+		volume_offset_opponent = -1.0
+		volume_offset_neutral = -4.0
+		volume_enemy_targeting_boost = 3.0
+		doppler_on = 1.0
+		doppler_factor = 5.0
 	}
 	Base.Weapon.Beam.EndPoint = 
 	{
 		base = "Base.Weapon.Beam.ClosestPoint"
-		volume = 0.000000
-		doppler_on = 0.000000
+		volume = 0.0
+		doppler_on = 0.0
 	}
 	Base.NPC.Neutral = 
 	{
 		type = "citadel_default_3d"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.NPC.Neutral"
 			},
 		]
 		mixer_mixgroup = "NPC-Neutral"
-		max_distance_recipient_filter = 1200.000000
+		max_distance_recipient_filter = 1200.0
 	}
 	Base.NPC.Trooper = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.NPC.Trooper"
 			},
 		]
 		mix_group_prefix = "NPC-Troop"
-		volume_enemy_targeting_boost = 3.000000
-		volume = -12.000000
-		max_distance_recipient_filter = 1000.000000
+		volume_enemy_targeting_boost = 3.0
+		volume = -12.0
+		max_distance_recipient_filter = 1000.0
 	}
 	Base.NPC.Trooper.Close = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Base.NPC.Trooper"
 			},
-			
 			{
 				event_name = "Volume.Falloff.NPC.Trooper.Close"
 			},
 		]
-		max_distance_recipient_filter = 600.000000
+		max_distance_recipient_filter = 600.0
 	}
 	Base.NPC.Guardian = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.NPC.Guardian"
 			},
 		]
 		mix_group_prefix = "NPC-Boss"
-		volume_enemy_targeting_boost = 4.000000
-		volume = -6.000000
-		volume_fade_out = 0.030000
+		volume_enemy_targeting_boost = 4.0
+		volume = -6.0
+		volume_fade_out = 0.03
 	}
 	Base.NPC.Guardian.Close = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Base.NPC.Guardian"
 			},
-			
 			{
 				event_name = "Volume.Falloff.NPC.Guardian.Close"
 			},
 		]
-		hpf_non_player_enabled = 0.000000
-		lpf_non_player_enabled = 0.000000
+		hpf_non_player_enabled = 0.0
+		lpf_non_player_enabled = 0.0
 	}
 	Base.NPC.Walker = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.NPC.Walker"
 			},
 		]
 		mix_group_prefix = "NPC-Boss"
-		volume = -1.000000
-		spread_max_value_opponent = 0.200000
-		spread_max_value_team = 0.000000
-		spread_min = 250.000000
-		spread_max = 1500.000000
-		hrtf_on_team = 0.000000
-		hrtf_on_opponent = 0.000000
-		hrtf_on_player = 0.000000
-		hrtf_on_neutral = 0.000000
-		mono_downmix_max_distance = 1500.000000
-		mono_downmix_min_distance = 200.000000
+		volume = -1.0
+		spread_max_value_opponent = 0.2
+		spread_max_value_team = 0.0
+		spread_min = 250.0
+		spread_max = 1500.0
+		hrtf_on_team = 0.0
+		hrtf_on_opponent = 0.0
+		hrtf_on_player = 0.0
+		hrtf_on_neutral = 0.0
+		mono_downmix_max_distance = 1500.0
+		mono_downmix_min_distance = 200.0
 	}
 	Base.NPC.Walker.Close = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.NPC.Walker.Close"
 			},
@@ -449,7 +316,7 @@
 	Base.NPC.Walker.Telegraph = 
 	{
 		base = "Base.NPC.Walker"
-		volume_enemy_targeting_boost = 2.000000
+		volume_enemy_targeting_boost = 2.0
 		block_team = true
 	}
 	Base.NPC.Shrine = 
@@ -457,333 +324,294 @@
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.NPC.Patron"
 			},
 		]
 		mix_group_prefix = "NPC-Boss"
-		volume = 0.000000
-		spread_max_value_opponent = 0.800000
-		spread_max_value_team = 0.500000
-		spread_min = 500.000000
-		spread_max = 1200.000000
-		hrtf_on_team = 0.000000
-		hrtf_on_opponent = 0.000000
-		hrtf_on_player = 0.000000
-		hrtf_on_neutral = 0.000000
-		occlusion_scale = 0.500000
-		occlusion_radius = 800.000000
-		mono_downmix_max_distance = 1200.000000
-		mono_downmix_min_distance = 500.000000
+		volume = 0.0
+		spread_max_value_opponent = 0.8
+		spread_max_value_team = 0.5
+		spread_min = 500.0
+		spread_max = 1200.0
+		hrtf_on_team = 0.0
+		hrtf_on_opponent = 0.0
+		hrtf_on_player = 0.0
+		hrtf_on_neutral = 0.0
+		occlusion_scale = 0.5
+		occlusion_radius = 800.0
+		mono_downmix_max_distance = 1200.0
+		mono_downmix_min_distance = 500.0
 	}
 	Base.NPC.Patron = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.NPC.Patron"
 			},
 		]
 		mix_group_prefix = "NPC-Patron"
-		volume = 0.000000
-		spread_max_value_opponent = 0.800000
-		spread_max_value_team = 0.500000
-		spread_min = 1000.000000
-		spread_max = 1800.000000
-		volume_fade_out = 0.010000
-		hrtf_on_team = 0.000000
-		hrtf_on_opponent = 0.000000
-		hrtf_on_player = 0.000000
-		mono_downmix_max_distance = 1800.000000
-		mono_downmix_min_distance = 1000.000000
-		occlusion_scale = 0.500000
-		occlusion_radius = 800.000000
+		volume = 0.0
+		spread_max_value_opponent = 0.8
+		spread_max_value_team = 0.5
+		spread_min = 1000.0
+		spread_max = 1800.0
+		volume_fade_out = 0.01
+		hrtf_on_team = 0.0
+		hrtf_on_opponent = 0.0
+		hrtf_on_player = 0.0
+		mono_downmix_max_distance = 1800.0
+		mono_downmix_min_distance = 1000.0
+		occlusion_scale = 0.5
+		occlusion_radius = 800.0
 	}
 	Base.NPC.Patron.AOE = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Base.NPC.Patron"
 			},
-			
 			{
 				event_name = "Volume.Falloff.NPC.Patron"
 			},
 		]
-		spread_min = 500.000000
-		spread_max = 1200.000000
-		mono_downmix_max_distance = 1200.000000
-		mono_downmix_min_distance = 500.000000
+		spread_min = 500.0
+		spread_max = 1200.0
+		mono_downmix_max_distance = 1200.0
+		mono_downmix_min_distance = 500.0
 	}
 	Base.NPC.Patron.Close = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Base.NPC.Patron"
 			},
-			
 			{
 				event_name = "Volume.Falloff.NPC.Patron.Close"
 			},
 		]
-		volume = -9.000000
-		volume_enemy_targeting_boost = 2.000000
+		volume = -9.0
+		volume_enemy_targeting_boost = 2.0
 	}
 	Base.NPC.Beam.ClosestPoint = 
 	{
 		type = "citadel_closest_point_on_segment"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.Wpn.Closest.Point"
 				field_name = "citadel_perspective_default"
 			},
 		]
-		volume = -9.000000
-		doppler_on = 1.000000
-		doppler_factor = 5.000000
-		hpf_non_player_enabled = 0.000000
-		lpf_non_player_enabled = 0.000000
-		spread_max_value_opponent = 0.500000
+		volume = -9.0
+		doppler_on = 1.0
+		doppler_factor = 5.0
+		hpf_non_player_enabled = 0.0
+		lpf_non_player_enabled = 0.0
+		spread_max_value_opponent = 0.5
 	}
 	Base.Ability = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Base.SourceReverb"
 				field_name = "citadel_source_reverb_send"
 			},
-			
 			{
 				event_name = "Volume.Falloff.Hero"
 			},
 		]
 		mix_group_prefix = "Ability"
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
-		block_volume_min = -1.000000
-		volume_fade_out = 0.100000
-		volume = -9.000000
-		volume_offset_player = 0.000000
-		volume_offset_opponent = 0.000000
-		volume_offset_neutral = 0.000000
-		volume_enemy_targeting_boost = 2.000000
-		play_from_listener_player = 1.000000
-		spread_max_value_player = 0.000000
-		spread_min_value = 0.000000
-		spread_min = 0.000000
-		spread_max = 250.000000
-		param_envelope_enabled = 0.000000
-		param_envelope_duration = -1.000000
-		pitch_envelope_scale_min = 0.850000
-		pitch_envelope_scale_max = 1.500000
+		position_offset = [ 0.0, 0.0, 50.0 ]
+		block_volume_min = -1.0
+		volume_fade_out = 0.1
+		volume = -9.0
+		volume_offset_player = 0.0
+		volume_offset_opponent = 0.0
+		volume_offset_neutral = 0.0
+		volume_enemy_targeting_boost = 2.0
+		play_from_listener_player = 1.0
+		spread_max_value_player = 0.0
+		spread_min_value = 0.0
+		spread_min = 0.0
+		spread_max = 250.0
+		param_envelope_enabled = 0.0
+		param_envelope_duration = -1.0
+		pitch_envelope_scale_min = 0.85
+		pitch_envelope_scale_max = 1.5
 	}
 	Base.Ability.Detached = 
 	{
 		base = "Base.Ability"
-		play_from_listener_player = 0.000000
-		spread_max_value_player = 0.100000
+		play_from_listener_player = 0.0
+		spread_max_value_player = 0.1
 	}
 	Base.Ability.Detached.Close = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Base.Ability"
 			},
-			
 			{
 				event_name = "Volume.Falloff.Hero.Detached.Close"
 			},
 		]
-		occlusion_volume_blend_distance_min = 250.000000
-		occlusion_volume_blend_distance_max = 500.000000
-		play_from_listener_player = 0.000000
-		occlusion_min = 0.000000
-		occlusion_scale_player = 1.000000
-		hrtf_on_player = 1.000000
-		lpf_player_enabled = 1.000000
-		hpf_player_enabled = 1.000000
+		occlusion_volume_blend_distance_min = 250.0
+		occlusion_volume_blend_distance_max = 500.0
+		play_from_listener_player = 0.0
+		occlusion_min = 0.0
+		occlusion_scale_player = 1.0
+		hrtf_on_player = 1.0
+		lpf_player_enabled = 1.0
+		hpf_player_enabled = 1.0
 	}
 	Base.Ability.Beam.ClosestPoint = 
 	{
 		type = "citadel_closest_point_on_segment"
 		base = 
 		[
-			
 			{
 				event_name = "Base.Ability.Detached"
 				field_name = "citadel_perspective_default"
 			},
 		]
-		volume_enemy_targeting_boost = 3.000000
-		doppler_on = 1.000000
-		doppler_factor = 5.000000
+		volume_enemy_targeting_boost = 3.0
+		doppler_on = 1.0
+		doppler_factor = 5.0
 	}
 	Base.Ability.Telegraph = 
 	{
 		base = "Base.Ability"
-		volume_enemy_targeting_boost = 4.000000
-		volume_falloff_floor_enemy_targeting = 1.000000
-		volume_falloff_floor_enemy_relevance = 1.000000
-		hpf_non_player_enabled = 0.000000
+		volume_enemy_targeting_boost = 4.0
+		volume_falloff_floor_enemy_targeting = 1.0
+		volume_falloff_floor_enemy_relevance = 1.0
+		hpf_non_player_enabled = 0.0
 	}
 	Base.Ability.Target = 
 	{
 		base = "Base.Ability"
-		volume_falloff_floor_enemy_targeting = 1.000000
-		volume_falloff_floor_enemy_relevance = 1.000000
-		hpf_non_player_enabled = 0.000000
-		lpf_non_player_enabled = 0.000000
+		volume_falloff_floor_enemy_targeting = 1.0
+		volume_falloff_floor_enemy_relevance = 1.0
+		hpf_non_player_enabled = 0.0
+		lpf_non_player_enabled = 0.0
 		block_player = true
 		block_team = true
 		block_neutral = true
-		volume_offset_opponent = -16.000000
-		volume_enemy_targeting_boost = 16.000000
+		volume_offset_opponent = -16.0
+		volume_enemy_targeting_boost = 16.0
 	}
 	Base.Ability.Projectile = 
 	{
 		base = "Base.Ability.Detached"
-		doppler_on = 1.000000
-		doppler_factor = 4.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			0.000000,
-		]
-		spread_max_value_player = 0.000000
-		volume_enemy_targeting_boost = 0.000000
-		volume_offset_team = -6.000000
-		volume_offset_player = -3.000000
-		max_distance_recipient_filter = -1.000000
+		doppler_on = 1.0
+		doppler_factor = 4.0
+		position_offset = [ 0.0, 0.0, 0.0 ]
+		spread_max_value_player = 0.0
+		volume_enemy_targeting_boost = 0.0
+		volume_offset_team = -6.0
+		volume_offset_player = -3.0
+		max_distance_recipient_filter = -1.0
 	}
 	Base.Ability.StatusEffect = 
 	{
 		base = "Base.Ability"
-		force_entity_perspective_assignment = 1.000000
-		volume_fade_out = 0.100000
-		volume = -9.000000
-		volume_offset_player = 0.000000
-		volume_offset_neutral = 0.000000
-		volume_enemy_targeting_boost = 0.000000
-		spread_max_value_player = 0.000000
-		spread_min_value = 0.000000
-		spread_min = 0.000000
-		spread_max = 250.000000
-		param_envelope_enabled = 0.000000
-		param_envelope_duration = -1.000000
-		pitch_envelope_scale_min = 0.850000
-		pitch_envelope_scale_max = 1.500000
-		volume_offset_opponent = 0.000000
+		force_entity_perspective_assignment = 1.0
+		volume_fade_out = 0.1
+		volume = -9.0
+		volume_offset_player = 0.0
+		volume_offset_neutral = 0.0
+		volume_enemy_targeting_boost = 0.0
+		spread_max_value_player = 0.0
+		spread_min_value = 0.0
+		spread_min = 0.0
+		spread_max = 250.0
+		param_envelope_enabled = 0.0
+		param_envelope_duration = -1.0
+		pitch_envelope_scale_min = 0.85
+		pitch_envelope_scale_max = 1.5
+		volume_offset_opponent = 0.0
 	}
 	Base.Ability.Ult = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Base.Ability"
 			},
-			
 			{
 				event_name = "Volume.Falloff.Hero.Ult"
 			},
 		]
 		mix_group_prefix = "Ult"
-		occlusion_min = 0.300000
-		occlusion_scale_non_player = 0.300000
-		occlusion_volume_blend_distance_min = 1200.000000
-		occlusion_volume_blend_distance_max = 2200.000000
-		max_distance_recipient_filter = 4000.000000
+		occlusion_min = 0.3
+		occlusion_scale_non_player = 0.3
+		occlusion_volume_blend_distance_min = 1200.0
+		occlusion_volume_blend_distance_max = 2200.0
+		max_distance_recipient_filter = 4000.0
 	}
 	Base.Ability.Ult.CC = 
 	{
 		base = "Base.Ability.Ult"
 		mix_group_prefix = "UltCC"
-		hrtf_on_player = 0.000000
-		hrtf_on_team = 0.000000
-		hrtf_on_opponent = 0.000000
-		hrtf_on_neutral = 0.000000
-		mono_downmix_enabled = 1.000000
-		mono_downmix_max_distance = 800.000000
-		mono_downmix_min_distance = 600.000000
+		hrtf_on_player = 0.0
+		hrtf_on_team = 0.0
+		hrtf_on_opponent = 0.0
+		hrtf_on_neutral = 0.0
+		mono_downmix_enabled = 1.0
+		mono_downmix_max_distance = 800.0
+		mono_downmix_min_distance = 600.0
 	}
 	Base.Ability.Ult.Detached = 
 	{
 		base = "Base.Ability.Ult"
-		play_from_listener_player = 0.000000
-		spread_max_value_player = 0.100000
+		play_from_listener_player = 0.0
+		spread_max_value_player = 0.1
 	}
 	Base.Ability.Ult.Global = 
 	{
 		base = "Base.Ability.Ult"
-		volume_falloff_floor = 0.750000
-		max_distance_recipient_filter = 20000.000000
+		volume_falloff_floor = 0.75
+		max_distance_recipient_filter = 20000.0
 	}
 	Base.Ability.Hit = 
 	{
 		type = "citadel_hit_confirm"
-		max_distance_recipient_filter = 3500.000000
+		max_distance_recipient_filter = 3500.0
 		filter_include_others = false
 		block_on_hit_world = true
-		volume_offset_attacker_db = 0.000000
-		volume_offset_victim_db = 0.000000
-		volume_offset_other_db = 0.000000
-		volume = 0.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
+		volume_offset_attacker_db = 0.0
+		volume_offset_victim_db = 0.0
+		volume_offset_other_db = 0.0
+		volume = 0.0
+		limiter_on = 1.0
+		limiter_max = 1.0
 		limiter_stop_oldest = true
-		instance_attenuator_enabled = 1.000000
-		volume_falloff_max_other = 2200.000000
+		instance_attenuator_enabled = 1.0
+		volume_falloff_max_other = 2200.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				10.000000,
-				-30.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				10.0, -30.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 	}
@@ -793,32 +621,17 @@
 		block_on_hit_world = false
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-3.333333,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -3.333333,
+				0.0, 0.0,
 			],
-			
 			[
-				10.000000,
-				-30.000000,
-				-3.333333,
-				0.000000,
-				0.000000,
-				0.000000,
+				10.0, -30.0, -3.333333, 0.0,
+				0.0, 0.0,
 			],
 		]
 	}
@@ -827,69 +640,61 @@
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.Hero.Zipline"
 			},
 		]
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
+		position_offset = [ 0.0, 0.0, 50.0 ]
 		mix_group_prefix = "Zipline"
-		block_volume_min = -1.000000
-		volume_fade_out = 0.100000
-		volume = -9.000000
-		play_from_listener_player = 0.000000
-		spread_max_value_player = 0.000000
-		spread_min = 0.000000
-		spread_max = 250.000000
-		occlusion_scale_non_player = 0.500000
-		distance_lpf_on = 0.000000
+		block_volume_min = -1.0
+		volume_fade_out = 0.1
+		volume = -9.0
+		play_from_listener_player = 0.0
+		spread_max_value_player = 0.0
+		spread_min = 0.0
+		spread_max = 250.0
+		occlusion_scale_non_player = 0.5
+		distance_lpf_on = 0.0
 	}
 	Base.Footsteps = 
 	{
 		type = "citadel_footsteps"
 		base = 
 		[
-			
 			{
 				event_name = "Base.SourceReverb"
 				field_name = "citadel_source_reverb_send"
 			},
-			
 			{
 				event_name = "Volume.Falloff.Hero.Movement"
 				field_name = "citadel_perspective_default"
 			},
 		]
-		max_distance_recipient_filter = 2200.000000
-		enable_velocity_volume_scaling = 1.000000
+		max_distance_recipient_filter = 2200.0
+		enable_velocity_volume_scaling = 1.0
 		mix_group_prefix = "Movement"
-		occlusion_volume_blend_distance_min = 250.000000
-		occlusion_volume_blend_distance_max = 500.000000
-		occlusion_min = 0.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
+		occlusion_volume_blend_distance_min = 250.0
+		occlusion_volume_blend_distance_max = 500.0
+		occlusion_min = 0.0
+		limiter_on = 1.0
+		limiter_max = 1.0
 		limiter_stop_oldest = true
-		volume_fade_out = 0.030000
-		block_volume_min = 0.001000
-		volume = 0.000000
-		volume_offset_player = 0.000000
-		volume_offset_team = 0.000000
-		volume_offset_opponent = 0.000000
-		volume_offset_neutral = 0.000000
-		volume_offset_crouched_player = -6.000000
-		volume_offset_crouched_neutral = -15.000000
-		volume_offset_crouched_opponent = -15.000000
-		volume_offset_crouched_team = -15.000000
-		volume_enemy_targeting_boost = 3.000000
-		spread_max_value_team = 0.000000
-		spread_max_value_opponent = 0.000000
-		spread_max_value_neutral = 0.000000
-		spread_min_value = 0.000000
+		volume_fade_out = 0.03
+		block_volume_min = 0.001
+		volume = 0.0
+		volume_offset_player = 0.0
+		volume_offset_team = 0.0
+		volume_offset_opponent = 0.0
+		volume_offset_neutral = 0.0
+		volume_offset_crouched_player = -6.0
+		volume_offset_crouched_neutral = -15.0
+		volume_offset_crouched_opponent = -15.0
+		volume_offset_crouched_team = -15.0
+		volume_enemy_targeting_boost = 3.0
+		spread_max_value_team = 0.0
+		spread_max_value_opponent = 0.0
+		spread_max_value_neutral = 0.0
+		spread_min_value = 0.0
 		vsnd_files_footstep_dirt = 
 		[
 			"sounds/player/footsteps/shared/surface_sweeteners/hard_impact/footstep_hard_dirt_01.vsnd",
@@ -1099,17 +904,17 @@
 			"sounds/player/footsteps/shared/surface_sweeteners/hard_impact/footstep_hard_wood_plank_15.vsnd",
 			"sounds/player/footsteps/shared/surface_sweeteners/hard_impact/footstep_hard_wood_plank_16.vsnd",
 		]
-		vsnd_duration = 1.000000
+		vsnd_duration = 1.0
 	}
 	Base.Footsteps.Soft = 
 	{
 		base = "Base.Footsteps"
-		footstep_default_vol_offset_db = -12.000000
-		footstep_concrete_vol_offset_db = -12.000000
-		footstep_metal_vol_offset_db = -15.000000
-		footstep_metal_sheet_vol_offset_db = -10.000000
-		footstep_metal_grate_vol_offset_db = -9.000000
-		footstep_wood_vol_offset_db = -5.000000
+		footstep_default_vol_offset_db = -12.0
+		footstep_concrete_vol_offset_db = -12.0
+		footstep_metal_vol_offset_db = -15.0
+		footstep_metal_sheet_vol_offset_db = -10.0
+		footstep_metal_grate_vol_offset_db = -9.0
+		footstep_wood_vol_offset_db = -5.0
 		vsnd_files_footstep_metal_sheet = 
 		[
 			"sounds/player/footsteps/shared/surface_sweeteners/soft_impact/footstep_soft_metal_sheet_01.vsnd",
@@ -1319,13 +1124,13 @@
 			"sounds/player/footsteps/shared/surface_sweeteners/soft_impact/tile_15.vsnd",
 			"sounds/player/footsteps/shared/surface_sweeteners/soft_impact/tile_16.vsnd",
 		]
-		vsnd_duration = 1.000000
+		vsnd_duration = 1.0
 	}
 	Base.Footsteps.JumpLand = 
 	{
 		base = "Base.Footsteps"
-		volume = 0.000000
-		enable_velocity_volume_scaling = 0.000000
+		volume = 0.0
+		enable_velocity_volume_scaling = 0.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/generic/foley_heavy/default_jump_land_01.vsnd",
@@ -1335,8 +1140,8 @@
 	Base.Footsteps.JumpLand.Soft = 
 	{
 		base = "Base.Footsteps.Soft"
-		volume = 0.000000
-		enable_velocity_volume_scaling = 0.000000
+		volume = 0.0
+		enable_velocity_volume_scaling = 0.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/generic/foley_heavy/default_jump_land_01.vsnd",
@@ -1348,38 +1153,36 @@
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Base.SourceReverb"
 				field_name = "citadel_source_reverb_send"
 			},
-			
 			{
 				event_name = "Volume.Falloff.Hero.Movement"
 			},
 		]
 		mix_group_prefix = "Movement"
-		max_distance_recipient_filter = 2200.000000
-		occlusion_volume_blend_distance_min = 250.000000
-		occlusion_volume_blend_distance_max = 500.000000
-		occlusion_min = 0.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
+		max_distance_recipient_filter = 2200.0
+		occlusion_volume_blend_distance_min = 250.0
+		occlusion_volume_blend_distance_max = 500.0
+		occlusion_min = 0.0
+		limiter_on = 1.0
+		limiter_max = 1.0
 		limiter_stop_oldest = true
-		volume_fade_out = 0.100000
-		volume_enemy_targeting_boost = 3.000000
-		spread_max_value_team = 0.000000
-		spread_max_value_opponent = 0.000000
-		spread_max_value_neutral = 0.000000
-		spread_min_value = 0.000000
-		mono_downmix_enabled = 1.000000
-		mono_downmix_max_distance = 500.000000
-		mono_downmix_min_distance = 250.000000
-		block_volume_min = 0.001000
-		block_duration = 0.020000
-		volume_offset_team = -6.000000
-		volume_offset_opponent = 3.000000
-		volume = -8.000000
+		volume_fade_out = 0.1
+		volume_enemy_targeting_boost = 3.0
+		spread_max_value_team = 0.0
+		spread_max_value_opponent = 0.0
+		spread_max_value_neutral = 0.0
+		spread_min_value = 0.0
+		mono_downmix_enabled = 1.0
+		mono_downmix_max_distance = 500.0
+		mono_downmix_min_distance = 250.0
+		block_volume_min = 0.001
+		block_duration = 0.02
+		volume_offset_team = -6.0
+		volume_offset_opponent = 3.0
+		volume = -8.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/generic/foley_light/default_foley_01.vsnd",
@@ -1407,52 +1210,42 @@
 	{
 		base = "Base.Movement"
 		mix_group_prefix = "Wpn-Foley"
-		volume_enemy_targeting_boost = 0.000000
-		volume_offset_player = -1.000000
-		mono_downmix_enabled = 1.000000
-		mono_downmix_max_distance = 0.000000
-		mono_downmix_min_distance = 0.000000
-		block_duration = 0.200000
-		volume_fade_out = 0.050000
+		volume_enemy_targeting_boost = 0.0
+		volume_offset_player = -1.0
+		mono_downmix_enabled = 1.0
+		mono_downmix_max_distance = 0.0
+		mono_downmix_min_distance = 0.0
+		block_duration = 0.2
+		volume_fade_out = 0.05
 	}
 	Base.Damage.Send = 
 	{
 		type = "citadel_default_3d"
 		mixer_mixgroup = "Dmg-Send"
-		spread_max_value = 0.000000
-		spread_min_value = 0.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
+		spread_max_value = 0.0
+		spread_min_value = 0.0
+		limiter_on = 1.0
+		limiter_max = 1.0
 		limiter_stop_oldest = true
-		volume_fade_out = 0.050000
-		volume_falloff_floor = 1.000000
-		distance_hpf_on = 0.000000
-		distance_lpf_on = 0.000000
-		hrtf_on = 0.000000
-		volume = 2.000000
-		mono_downmix_enabled = 0.000000
-		occlusion_scale = 0.000000
-		instance_attenuator_enabled = 1.000000
+		volume_fade_out = 0.05
+		volume_falloff_floor = 1.0
+		distance_hpf_on = 0.0
+		distance_lpf_on = 0.0
+		hrtf_on = 0.0
+		volume = 2.0
+		mono_downmix_enabled = 0.0
+		occlusion_scale = 0.0
+		instance_attenuator_enabled = 1.0
 		instance_attenuator_name = "damage_send"
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.147959,
-				0.000000,
-				0.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
+				1.147959, 0.0, 0.0, -2.087491,
+				0.0, 0.0,
 			],
-			
 			[
-				8.000000,
-				-14.303572,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				8.0, -14.303572, -2.087491, 0.0,
+				0.0, 0.0,
 			],
 		]
 	}
@@ -1460,188 +1253,122 @@
 	{
 		type = "citadel_damage"
 		limiter_global_event_distance_on = true
-		limiter_global_event_distance_max = 5.000000
+		limiter_global_event_distance_max = 5.0
 		limiter_global_category_distance_on = true
 		limiter_global_category_name = "damage"
-		limiter_global_category_distance_max = 5.000000
-		volume_victim_npc_offset_db = -3.000000
-		max_distance_recipient_filter = 2000.000000
-		block_volume_min = 0.010000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		limiter_global_category_distance_max = 5.0
+		volume_victim_npc_offset_db = -3.0
+		max_distance_recipient_filter = 2000.0
+		block_volume_min = 0.01
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_stop_oldest = true
-		spread_value_victim = 0.000000
-		block_duration = 0.010000
-		volume = 0.000000
-		volume_fade_out = 0.050000
-		pitch_rand_max = 0.050000
-		pitch_rand_min = 0.000000
-		recency_bias_max_scale = 1.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
-		health_fraction_curve_enabled = 1.000000
-		triggers_damage_sidechain = 1.000000
-		chip_damage_offset_db = -9.000000
-		instance_attenuator_enabled = 1.000000
+		spread_value_victim = 0.0
+		block_duration = 0.01
+		volume = 0.0
+		volume_fade_out = 0.05
+		pitch_rand_max = 0.05
+		pitch_rand_min = 0.0
+		recency_bias_max_scale = 1.0
+		position_offset = [ 0.0, 0.0, 50.0 ]
+		health_fraction_curve_enabled = 1.0
+		triggers_damage_sidechain = 1.0
+		chip_damage_offset_db = -9.0
+		instance_attenuator_enabled = 1.0
 		instance_attenuator_name = "damage-"
 		damage_effectiveness_enabled = true
 		damage_effectiveness_curve_db = 
 		[
-			
 			[
-				0.252040,
-				-12.000000,
-				0.000000,
-				21.575827,
-				0.000000,
-				1.000000,
+				0.25204, -12.0, 0.0, 21.575827,
+				0.0, 1.0,
 			],
-			
 			[
-				0.808218,
-				0.000000,
-				21.575827,
-				16.043644,
-				0.000000,
-				1.000000,
+				0.808218, 0.0, 21.575827, 16.043644,
+				0.0, 1.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.018276,
-				0.000000,
-				0.000000,
-				-3.480865,
-				0.000000,
-				0.000000,
+				1.018276, 0.0, 0.0, -3.480865,
+				0.0, 0.0,
 			],
-			
 			[
-				7.913113,
-				-24.000000,
-				-3.480865,
-				0.000000,
-				0.000000,
-				0.000000,
+				7.913113, -24.0, -3.480865, 0.0,
+				0.0, 0.0,
 			],
 		]
 		health_fraction_curve = 
 		[
-			
 			[
-				0.000000,
-				4.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 4.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				0.242857,
-				4.000000,
-				-0.000000,
-				-0.000000,
-				2.000000,
-				3.000000,
+				0.242857, 4.0, -0.0, -0.0,
+				2.0, 3.0,
 			],
-			
 			[
-				0.540000,
-				0.000000,
-				-0.000000,
-				-0.000000,
-				2.000000,
-				3.000000,
+				0.54, 0.0, -0.0, -0.0,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				1.000000,
+				1.0, 0.0, 0.0, 0.0,
+				0.0, 1.0,
 			],
 		]
 	}
 	Base.Damage.Receive.Lethal = 
 	{
 		type = "citadel_perspective_default"
-		volume = 0.000000
-		volume_fade_out = 0.050000
-		pitch_rand_max = 0.050000
-		pitch_rand_min = 0.000000
+		volume = 0.0
+		volume_fade_out = 0.05
+		pitch_rand_max = 0.05
+		pitch_rand_min = 0.0
 	}
 	Base.Bullet.Impact = 
 	{
 		type = "citadel_bullet_impact"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.Bullet.Impact"
 				field_name = "citadel_distance_falloff"
 			},
 		]
-		max_distance_recipient_filter = 600.000000
+		max_distance_recipient_filter = 600.0
 		mix_group_prefix = "Proj-Impact"
-		volume = 0.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 0.000000
+		volume = 0.0
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 0.0
 		limiter_stop_oldest = true
-		instance_attenuator_enabled = 1.000000
-		block_volume_min = 0.050000
-		block_duration = 0.020000
-		unique_layer_vol_offset_db = 0.000000
-		material_layer_vol_offset_db = 0.000000
+		instance_attenuator_enabled = 1.0
+		block_volume_min = 0.05
+		block_duration = 0.02
+		unique_layer_vol_offset_db = 0.0
+		material_layer_vol_offset_db = 0.0
 		limiter_global_category_distance_on = true
 		limiter_global_category_name = "bullets"
-		limiter_global_category_distance_max = 3.000000
+		limiter_global_category_distance_max = 3.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-2.296429,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -2.296429,
+				0.0, 0.0,
 			],
-			
 			[
-				10.000000,
-				-20.667858,
-				-2.296429,
-				0.000000,
-				0.000000,
-				0.000000,
+				10.0, -20.667858, -2.296429, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files_impact_wood_plank = 
@@ -1843,22 +1570,22 @@
 	{
 		type = "citadel_bullet_whizby"
 		mixer_mixgroup = "Proj-Whizby"
-		distance_hpf_on = 0.000000
-		distance_lpf_on = 0.000000
-		spread_min_value = 0.000000
-		spread_max_value = 0.000000
-		occlusion_scale = 0.000000
-		volume_fade_out = 0.100000
-		volume = 2.000000
-		volume_falloff_floor = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 2.000000
+		distance_hpf_on = 0.0
+		distance_lpf_on = 0.0
+		spread_min_value = 0.0
+		spread_max_value = 0.0
+		occlusion_scale = 0.0
+		volume_fade_out = 0.1
+		volume = 2.0
+		volume_falloff_floor = 1.0
+		limiter_on = 1.0
+		limiter_max = 2.0
 		limiter_global_category_distance_on = true
 		limiter_global_category_name = "whizby"
-		limiter_global_category_distance_max = 3.000000
+		limiter_global_category_distance_max = 3.0
 		limiter_stop_oldest = true
-		limiter_match_entity = 0.000000
-		whizby_time_to_peak = 0.140000
+		limiter_match_entity = 0.0
+		whizby_time_to_peak = 0.14
 		vsnd_files = 
 		[
 			"sounds/weapons/shared/whizby/default_weapon_whizby_groupA-001.vsnd",
@@ -1888,197 +1615,165 @@
 		type = "citadel_default_3d"
 		mixer_mixgroup = "UI"
 		event_voice_layer = "ui"
-		volume_falloff_floor = 1.000000
-		hrtf_on = 1.000000
+		volume_falloff_floor = 1.0
+		hrtf_on = 1.0
 	}
 	Base.XP = 
 	{
 		type = "citadel_default_3d"
 		mixer_mixgroup = "Currency"
 		event_voice_layer = "ui"
-		hrtf_on = 0.000000
-		distance_hpf_on = 0.000000
-		distance_lpf_on = 0.000000
-		volume_falloff_floor = 1.000000
-		mono_downmix_enabled = 0.000000
+		hrtf_on = 0.0
+		distance_hpf_on = 0.0
+		distance_lpf_on = 0.0
+		volume_falloff_floor = 1.0
+		mono_downmix_enabled = 0.0
 		position_force_from_input = true
-		occlusion_scale = 0.250000
+		occlusion_scale = 0.25
 	}
 	Base.Movement.Melee = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Base.Movement"
 			},
-			
 			{
 				event_name = "Volume.Falloff.Movement.Melee"
 			},
 		]
-		block_volume_min = 0.001000
+		block_volume_min = 0.001
 	}
 	Base.Mod = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Base.Ability"
 			},
-			
 			{
 				event_name = "Volume.Falloff.Hero.Mod"
 			},
 		]
-		max_distance_recipient_filter = 2500.000000
+		max_distance_recipient_filter = 2500.0
 		mix_group_prefix = "Mods"
-		play_from_listener_player = 1.000000
-		instance_attenuator_enabled = 1.000000
+		play_from_listener_player = 1.0
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				4.000000,
-				-6.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				4.0, -6.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				7.000000,
-				-12.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				7.0, -12.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 	}
 	Base.Mod.Detached = 
 	{
 		base = "Base.Mod"
-		play_from_listener_player = 0.000000
+		play_from_listener_player = 0.0
 	}
 	Base.Mod.StatusEffect = 
 	{
 		base = "Base.Mod"
-		force_entity_perspective_assignment = 1.000000
-		volume = -9.000000
+		force_entity_perspective_assignment = 1.0
+		volume = -9.0
 		limiter_global_event_distance_on = true
-		limiter_global_event_distance_max = 3.000000
+		limiter_global_event_distance_max = 3.0
 		limiter_global_category_distance_on = true
 		limiter_global_category_name = "mods"
-		limiter_global_category_distance_max = 32.000000
+		limiter_global_category_distance_max = 32.0
 	}
 	Base.MapObjective = 
 	{
 		type = "citadel_default_3d"
 		mixer_mixgroup = "MapObjective"
-		limiter_on = 1.000000
-		limiter_max = 1.000000
+		limiter_on = 1.0
+		limiter_max = 1.0
 		limiter_stop_oldest = true
-		hrtf_on = 0.000000
-		spread_min = 250.000000
-		spread_max = 1200.000000
-		spread_max_value = 0.150000
-		spread_min_value = 0.150000
-		volume_falloff_floor = 1.000000
-		occlusion_scale = 0.500000
-		occlusion_radius = 500.000000
-		distance_hpf_on = 0.000000
-		distance_lpf_on = 1.000000
-		volume = 0.000000
-		volume_fade_out = 1.000000
-		mono_downmix_enabled = 0.000000
+		hrtf_on = 0.0
+		spread_min = 250.0
+		spread_max = 1200.0
+		spread_max_value = 0.15
+		spread_min_value = 0.15
+		volume_falloff_floor = 1.0
+		occlusion_scale = 0.5
+		occlusion_radius = 500.0
+		distance_hpf_on = 0.0
+		distance_lpf_on = 1.0
+		volume = 0.0
+		volume_fade_out = 1.0
+		mono_downmix_enabled = 0.0
 	}
 	Base.MapObjective.LoPri = 
 	{
 		base = "Base.MapObjective"
 		mixer_mixgroup = "MapObjective-LoPri"
-		mono_downmix_enabled = 1.000000
-		mono_downmix_max_distance = 2500.000000
-		mono_downmix_min_distance = 1250.000000
-		spread_min = 500.000000
-		spread_max = 1200.000000
-		spread_max_value = 0.150000
-		spread_min_value = 0.000000
+		mono_downmix_enabled = 1.0
+		mono_downmix_max_distance = 2500.0
+		mono_downmix_min_distance = 1250.0
+		spread_min = 500.0
+		spread_max = 1200.0
+		spread_max_value = 0.15
+		spread_min_value = 0.0
 	}
 	Base.World = 
 	{
 		type = "citadel_default_3d"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.World"
 			},
 		]
 		mixer_mixgroup = "World"
-		max_distance_recipient_filter = 2000.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
-		volume = -6.000000
-		limiter_on = 1.000000
-		limiter_max = 4.000000
+		max_distance_recipient_filter = 2000.0
+		position_offset = [ 0.0, 0.0, 50.0 ]
+		volume = -6.0
+		limiter_on = 1.0
+		limiter_max = 4.0
 	}
 	Base.Breakable = 
 	{
 		type = "citadel_default_3d"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.Breakable"
 			},
 		]
 		mixer_mixgroup = "World"
-		max_distance_recipient_filter = 1200.000000
-		volume = -6.000000
-		limiter_on = 1.000000
-		limiter_max = 4.000000
+		max_distance_recipient_filter = 1200.0
+		volume = -6.0
+		limiter_on = 1.0
+		limiter_max = 4.0
 	}
 	Base.Pickup = 
 	{
 		type = "citadel_perspective_default"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.Hero.Movement"
 			},
 		]
-		max_distance_recipient_filter = 2200.000000
-		play_from_listener_player = 1.000000
-		volume_fade_out = 0.100000
-		volume = -9.000000
+		max_distance_recipient_filter = 2200.0
+		play_from_listener_player = 1.0
+		volume_fade_out = 0.1
+		volume = -9.0
 		mix_group_prefix = "Pickup"
 	}
 	Base.Pickup.HighFrequency = 
@@ -2088,28 +1783,18 @@
 		block_team = true
 		block_neutral = true
 		limiter_global_event_distance_on = true
-		limiter_global_event_distance_max = 3.000000
-		instance_attenuator_enabled = 1.000000
+		limiter_global_event_distance_max = 3.0
+		instance_attenuator_enabled = 1.0
 		mix_group_prefix = "Pickup-HF"
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.018276,
-				0.000000,
-				0.000000,
-				-3.480865,
-				0.000000,
-				0.000000,
+				1.018276, 0.0, 0.0, -3.480865,
+				0.0, 0.0,
 			],
-			
 			[
-				7.913113,
-				-24.000000,
-				-3.480865,
-				0.000000,
-				0.000000,
-				0.000000,
+				7.913113, -24.0, -3.480865, 0.0,
+				0.0, 0.0,
 			],
 		]
 	}
@@ -2118,67 +1803,65 @@
 		type = "citadel_emitter_obb"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.Ambience.Emitter"
 				field_name = "citadel_distance_falloff"
 			},
 		]
 		mixer_mixgroup = "Ambience-Details"
-		occlusion_volume_blend_distance_min = 0.000000
-		occlusion_volume_blend_distance_max = 0.000000
+		occlusion_volume_blend_distance_min = 0.0
+		occlusion_volume_blend_distance_max = 0.0
 		use_pawn_as_listener_distance = true
-		mono_downmix_enabled = 0.000000
-		spread_max_value = 0.050000
-		spread_min_value = 0.050000
-		hrtf_on = 0.000000
-		distance_lpf_on = 1.000000
-		distance_hpf_on = 0.000000
-		occlusion_scale = 0.000000
+		mono_downmix_enabled = 0.0
+		spread_max_value = 0.05
+		spread_min_value = 0.05
+		hrtf_on = 0.0
+		distance_lpf_on = 1.0
+		distance_hpf_on = 0.0
+		occlusion_scale = 0.0
 	}
 	Base.Ambience.Hideout.Emitter = 
 	{
 		type = "citadel_emitter_lod"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.Ambience.Emitter"
 				field_name = "citadel_distance_falloff"
 			},
 		]
 		use_pawn_as_listener_distance = true
-		occlusion_volume_blend_distance_min = 0.000000
-		occlusion_volume_blend_distance_max = 0.000000
+		occlusion_volume_blend_distance_min = 0.0
+		occlusion_volume_blend_distance_max = 0.0
 		mixer_mixgroup = "Ambience-Details"
-		mono_downmix_enabled = 0.000000
-		spread_max_value = 0.050000
-		spread_min_value = 0.050000
-		hrtf_on = 0.000000
-		distance_lpf_on = 1.000000
-		distance_hpf_on = 0.000000
-		occlusion_scale = 1.000000
-		occlusion_min = 0.000000
+		mono_downmix_enabled = 0.0
+		spread_max_value = 0.05
+		spread_min_value = 0.05
+		hrtf_on = 0.0
+		distance_lpf_on = 1.0
+		distance_hpf_on = 0.0
+		occlusion_scale = 1.0
+		occlusion_min = 0.0
 	}
 	Base.Hideout.Toy = 
 	{
 		type = "citadel_default_3d"
 		mixer_mixgroup = "Ambience-Bed"
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 2000.000000
-		volume_fade_out = 0.100000
+		volume_falloff_min = 500.0
+		volume_falloff_max = 2000.0
+		volume_fade_out = 0.1
 		limiter_stop_oldest = true
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		hrtf_on = 1.000000
-		spread_max_value = 0.000000
-		spread_min_value = 0.000000
-		occlusion_scale = 0.100000
-		occlusion_min = 0.000000
-		occlusion_volume_blend_distance_min = 500.000000
-		occlusion_volume_blend_distance_max = 800.000000
-		volume = -3.000000
-		block_volume_min = 0.010000
+		limiter_on = 1.0
+		limiter_max = 0.0
+		hrtf_on = 1.0
+		spread_max_value = 0.0
+		spread_min_value = 0.0
+		occlusion_scale = 0.1
+		occlusion_min = 0.0
+		occlusion_volume_blend_distance_min = 500.0
+		occlusion_volume_blend_distance_max = 800.0
+		volume = -3.0
+		block_volume_min = 0.01
 	}
 	_auto_calc_vnsd_duration_ = true
 }

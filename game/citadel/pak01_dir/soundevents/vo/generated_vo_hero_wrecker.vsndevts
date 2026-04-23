@@ -47,7 +47,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_headed_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.763390
+		vsnd_duration = 1.76339
 	}
 	wrecker_ping_abrams_missing_01_ping_2d = 
 	{
@@ -57,7 +57,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_abrams_missing_01.vsnd",
 		]
-		vsnd_duration = 2.279240
+		vsnd_duration = 2.27924
 	}
 	wrecker_ping_bebop_missing_01_ping_2d = 
 	{
@@ -117,7 +117,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_geist_missing_01.vsnd",
 		]
-		vsnd_duration = 1.636100
+		vsnd_duration = 1.6361
 	}
 	wrecker_ping_gigawatt_missing_01_ping_2d = 
 	{
@@ -306,7 +306,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_seven_missing_01.vsnd",
 		]
-		vsnd_duration = 1.380000
+		vsnd_duration = 1.38
 	}
 	wrecker_ping_shiv_missing_01_ping_2d = 
 	{
@@ -316,7 +316,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_shiv_missing_01.vsnd",
 		]
-		vsnd_duration = 1.533810
+		vsnd_duration = 1.53381
 	}
 	wrecker_ping_viscous_missing_01_ping_2d = 
 	{
@@ -444,7 +444,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_push_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.801020
+		vsnd_duration = 1.80102
 	}
 	wrecker_ping_careful_abrams_01_ping_2d = 
 	{
@@ -494,7 +494,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_careful_bebop_02.vsnd",
 		]
-		vsnd_duration = 1.206780
+		vsnd_duration = 1.20678
 	}
 	wrecker_ping_careful_bebop_03_ping_2d = 
 	{
@@ -534,7 +534,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_careful_cadence_03.vsnd",
 		]
-		vsnd_duration = 1.707970
+		vsnd_duration = 1.70797
 	}
 	wrecker_ping_careful_calico_01_ping_2d = 
 	{
@@ -564,7 +564,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_careful_calico_03.vsnd",
 		]
-		vsnd_duration = 1.618390
+		vsnd_duration = 1.61839
 	}
 	wrecker_ping_careful_dynamo_01_ping_2d = 
 	{
@@ -624,7 +624,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_careful_fairfax_03.vsnd",
 		]
-		vsnd_duration = 1.581440
+		vsnd_duration = 1.58144
 	}
 	wrecker_ping_careful_geist_01_ping_2d = 
 	{
@@ -914,7 +914,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_careful_mirage_02.vsnd",
 		]
-		vsnd_duration = 1.110930
+		vsnd_duration = 1.11093
 	}
 	wrecker_ping_careful_mirage_03_ping_2d = 
 	{
@@ -1074,7 +1074,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_careful_sandeep_03.vsnd",
 		]
-		vsnd_duration = 1.710510
+		vsnd_duration = 1.71051
 	}
 	wrecker_ping_careful_seven_01_ping_2d = 
 	{
@@ -1154,7 +1154,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_careful_viscous_02.vsnd",
 		]
-		vsnd_duration = 1.136780
+		vsnd_duration = 1.13678
 	}
 	wrecker_ping_careful_viscous_03_ping_2d = 
 	{
@@ -1214,7 +1214,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_careful_wraith_02.vsnd",
 		]
-		vsnd_duration = 1.058730
+		vsnd_duration = 1.05873
 	}
 	wrecker_ping_careful_wraith_03_ping_2d = 
 	{
@@ -1432,7 +1432,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_abrams_on_bridge.vsnd",
 		]
-		vsnd_duration = 2.437540
+		vsnd_duration = 2.43754
 	}
 	wrecker_ping_see_abrams_on_roof_ping_2d = 
 	{
@@ -1512,7 +1512,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_cadence_on_roof.vsnd",
 		]
-		vsnd_duration = 1.768390
+		vsnd_duration = 1.76839
 	}
 	wrecker_ping_see_calico_ping_2d = 
 	{
@@ -1522,7 +1522,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_calico.vsnd",
 		]
-		vsnd_duration = 2.280930
+		vsnd_duration = 2.28093
 	}
 	wrecker_ping_see_calico_alt_ping_2d = 
 	{
@@ -1612,7 +1612,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_enemy_on_roof.vsnd",
 		]
-		vsnd_duration = 1.482970
+		vsnd_duration = 1.48297
 	}
 	wrecker_ping_see_fairfax_ping_2d = 
 	{
@@ -1992,7 +1992,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_murphy.vsnd",
 		]
-		vsnd_duration = 1.929070
+		vsnd_duration = 1.92907
 	}
 	wrecker_ping_see_murphy_on_bridge_ping_2d = 
 	{
@@ -2032,7 +2032,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_orion_on_bridge.vsnd",
 		]
-		vsnd_duration = 2.070850
+		vsnd_duration = 2.07085
 	}
 	wrecker_ping_see_orion_on_roof_ping_2d = 
 	{
@@ -2052,7 +2052,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_paradox.vsnd",
 		]
-		vsnd_duration = 2.178980
+		vsnd_duration = 2.17898
 	}
 	wrecker_ping_see_paradox_on_bridge_ping_2d = 
 	{
@@ -2092,7 +2092,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_pocket_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.578980
+		vsnd_duration = 1.57898
 	}
 	wrecker_ping_see_pocket_on_roof_ping_2d = 
 	{
@@ -2162,7 +2162,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_seven_on_roof.vsnd",
 		]
-		vsnd_duration = 1.539490
+		vsnd_duration = 1.53949
 	}
 	wrecker_ping_see_shiv_01_ping_2d = 
 	{
@@ -2192,7 +2192,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_shiv_on_roof.vsnd",
 		]
-		vsnd_duration = 1.580170
+		vsnd_duration = 1.58017
 	}
 	wrecker_ping_see_viscous_01_ping_2d = 
 	{
@@ -2312,7 +2312,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_yamato_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.910170
+		vsnd_duration = 1.91017
 	}
 	wrecker_ping_see_yamato_on_roof_ping_2d = 
 	{
@@ -2322,7 +2322,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_see_yamato_on_roof.vsnd",
 		]
-		vsnd_duration = 1.767630
+		vsnd_duration = 1.76763
 	}
 	wrecker_ping_lets_go_blue_ping_2d = 
 	{
@@ -2581,7 +2581,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_use_ability4_07.vsnd",
 		]
-		vsnd_duration = 2.487200
+		vsnd_duration = 2.4872
 	}
 	wrecker_ping_use_ability4_08_ping_2d = 
 	{
@@ -2601,7 +2601,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_use_ability4_09.vsnd",
 		]
-		vsnd_duration = 1.831270
+		vsnd_duration = 1.83127
 	}
 	wrecker_ping_use_ability4_10_ping_2d = 
 	{
@@ -2611,7 +2611,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_use_ability4_10.vsnd",
 		]
-		vsnd_duration = 2.689580
+		vsnd_duration = 2.68958
 	}
 	wrecker_ping_ability1_not_ready_ping_2d = 
 	{
@@ -2711,7 +2711,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_negative_02.vsnd",
 		]
-		vsnd_duration = 1.494410
+		vsnd_duration = 1.49441
 	}
 	wrecker_ping_negative_03_ping_2d = 
 	{
@@ -2841,7 +2841,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_attack_fairfax.vsnd",
 		]
-		vsnd_duration = 2.086780
+		vsnd_duration = 2.08678
 	}
 	wrecker_ping_attack_forge_ping_2d = 
 	{
@@ -2951,7 +2951,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_attack_lash.vsnd",
 		]
-		vsnd_duration = 1.452540
+		vsnd_duration = 1.45254
 	}
 	wrecker_ping_attack_mcginnis_ping_2d = 
 	{
@@ -3121,7 +3121,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_stun_cadence_01.vsnd",
 		]
-		vsnd_duration = 1.910000
+		vsnd_duration = 1.91
 	}
 	wrecker_ping_stun_calico_01_ping_2d = 
 	{
@@ -3131,7 +3131,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_stun_calico_01.vsnd",
 		]
-		vsnd_duration = 1.954240
+		vsnd_duration = 1.95424
 	}
 	wrecker_ping_stun_dynamo_01_ping_2d = 
 	{
@@ -3221,7 +3221,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_stun_krill_01.vsnd",
 		]
-		vsnd_duration = 1.547290
+		vsnd_duration = 1.54729
 	}
 	wrecker_ping_stun_lash_01_ping_2d = 
 	{
@@ -3231,7 +3231,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_stun_lash_01.vsnd",
 		]
-		vsnd_duration = 1.831020
+		vsnd_duration = 1.83102
 	}
 	wrecker_ping_stun_mcginnis_01_ping_2d = 
 	{
@@ -3281,7 +3281,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_stun_paradox_01.vsnd",
 		]
-		vsnd_duration = 1.759660
+		vsnd_duration = 1.75966
 	}
 	wrecker_ping_stun_pocket_01_ping_2d = 
 	{
@@ -3431,7 +3431,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_sorry_01.vsnd",
 		]
-		vsnd_duration = 1.918560
+		vsnd_duration = 1.91856
 	}
 	wrecker_ping_sorry_02_ping_2d = 
 	{
@@ -3561,7 +3561,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_with_haze.vsnd",
 		]
-		vsnd_duration = 1.414240
+		vsnd_duration = 1.41424
 	}
 	wrecker_ping_with_holliday_ping_2d = 
 	{
@@ -3761,7 +3761,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_heal_ready.vsnd",
 		]
-		vsnd_duration = 1.863980
+		vsnd_duration = 1.86398
 	}
 	wrecker_ping_can_heal_abrams_ping_2d = 
 	{
@@ -3821,7 +3821,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_can_heal_fairfax.vsnd",
 		]
-		vsnd_duration = 2.244490
+		vsnd_duration = 2.24449
 	}
 	wrecker_ping_can_heal_geist_ping_2d = 
 	{
@@ -3931,7 +3931,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_can_heal_murphy.vsnd",
 		]
-		vsnd_duration = 2.372120
+		vsnd_duration = 2.37212
 	}
 	wrecker_ping_can_heal_orion_ping_2d = 
 	{
@@ -3961,7 +3961,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_can_heal_pocket.vsnd",
 		]
-		vsnd_duration = 1.637880
+		vsnd_duration = 1.63788
 	}
 	wrecker_ping_can_heal_sandeep_ping_2d = 
 	{
@@ -4131,7 +4131,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_saw_holliday.vsnd",
 		]
-		vsnd_duration = 1.496100
+		vsnd_duration = 1.4961
 	}
 	wrecker_ping_saw_infernus_ping_2d = 
 	{
@@ -4141,7 +4141,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_saw_infernus.vsnd",
 		]
-		vsnd_duration = 1.997290
+		vsnd_duration = 1.99729
 	}
 	wrecker_ping_saw_kelvin_ping_2d = 
 	{
@@ -4441,7 +4441,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_krill_was_here.vsnd",
 		]
-		vsnd_duration = 1.095680
+		vsnd_duration = 1.09568
 	}
 	wrecker_ping_lash_was_here_ping_2d = 
 	{
@@ -4501,7 +4501,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_paradox_was_here.vsnd",
 		]
-		vsnd_duration = 1.559070
+		vsnd_duration = 1.55907
 	}
 	wrecker_ping_pocket_was_here_ping_2d = 
 	{
@@ -4551,7 +4551,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_viscous_was_here.vsnd",
 		]
-		vsnd_duration = 1.494240
+		vsnd_duration = 1.49424
 	}
 	wrecker_ping_warden_was_here_ping_2d = 
 	{
@@ -4721,7 +4721,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_geist_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.842200
+		vsnd_duration = 1.8422
 	}
 	wrecker_ping_gigawatt_on_top_of_garage_ping_2d = 
 	{
@@ -4901,7 +4901,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_mirage_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 2.000680
+		vsnd_duration = 2.00068
 	}
 	wrecker_ping_murphy_on_top_of_garage_ping_2d = 
 	{
@@ -5101,7 +5101,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_warden_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 2.187370
+		vsnd_duration = 2.18737
 	}
 	wrecker_ping_wraith_on_top_of_garage_ping_2d = 
 	{
@@ -5131,7 +5131,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_yamato_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 2.649150
+		vsnd_duration = 2.64915
 	}
 	wrecker_ping_yamato_on_top_of_mid_ping_2d = 
 	{
@@ -5161,7 +5161,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_bebop_in_mid.vsnd",
 		]
-		vsnd_duration = 1.708220
+		vsnd_duration = 1.70822
 	}
 	wrecker_ping_cadence_in_mid_ping_2d = 
 	{
@@ -5241,7 +5241,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_holliday_in_mid.vsnd",
 		]
-		vsnd_duration = 1.422120
+		vsnd_duration = 1.42212
 	}
 	wrecker_ping_infernus_in_mid_ping_2d = 
 	{
@@ -5281,7 +5281,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_lash_in_mid.vsnd",
 		]
-		vsnd_duration = 1.668220
+		vsnd_duration = 1.66822
 	}
 	wrecker_ping_mcginnis_in_mid_ping_2d = 
 	{
@@ -5371,7 +5371,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_shiv_in_mid.vsnd",
 		]
-		vsnd_duration = 1.278900
+		vsnd_duration = 1.2789
 	}
 	wrecker_ping_theyre_in_mid_ping_2d = 
 	{
@@ -5411,7 +5411,7 @@
 		[
 			"sounds/vo/wrecker/ping/wrecker_ping_wraith_in_mid.vsnd",
 		]
-		vsnd_duration = 1.696190
+		vsnd_duration = 1.69619
 	}
 	wrecker_ping_yamato_in_mid_ping_2d = 
 	{
@@ -5771,7 +5771,7 @@
 		[
 			"sounds/vo/wrecker/wrecker_select_01.vsnd",
 		]
-		vsnd_duration = 1.476780
+		vsnd_duration = 1.47678
 	}
 	wrecker_select_02_hero_3d = 
 	{
@@ -5891,7 +5891,7 @@
 		[
 			"sounds/vo/wrecker/wrecker_unselect_03.vsnd",
 		]
-		vsnd_duration = 3.062370
+		vsnd_duration = 3.06237
 	}
 	wrecker_unselect_04_hero_3d = 
 	{
@@ -5971,7 +5971,7 @@
 		[
 			"sounds/vo/wrecker/wrecker_unselect_10.vsnd",
 		]
-		vsnd_duration = 1.901780
+		vsnd_duration = 1.90178
 	}
 	wrecker_kill_anyhero_01_hero_3d = 
 	{
@@ -6021,7 +6021,7 @@
 		[
 			"sounds/vo/wrecker/wrecker_kill_anyhero_05.vsnd",
 		]
-		vsnd_duration = 1.107200
+		vsnd_duration = 1.1072
 	}
 	wrecker_kill_anyhero_05_02_hero_3d = 
 	{
@@ -6051,7 +6051,7 @@
 		[
 			"sounds/vo/wrecker/wrecker_kill_anyhero_07.vsnd",
 		]
-		vsnd_duration = 2.184070
+		vsnd_duration = 2.18407
 	}
 	wrecker_kill_anyhero_08_hero_3d = 
 	{
@@ -6201,7 +6201,7 @@
 		[
 			"sounds/vo/wrecker/wrecker_upgrade_power3_02.vsnd",
 		]
-		vsnd_duration = 1.765340
+		vsnd_duration = 1.76534
 	}
 	wrecker_upgrade_power3_03_hero_3d = 
 	{
@@ -6231,7 +6231,7 @@
 		[
 			"sounds/vo/wrecker/wrecker_upgrade_power3_05.vsnd",
 		]
-		vsnd_duration = 3.637800
+		vsnd_duration = 3.6378
 	}
 	wrecker_upgrade_power4_01_hero_3d = 
 	{
@@ -6381,7 +6381,7 @@
 		[
 			"sounds/vo/wrecker/wrecker_idol_drop_09.vsnd",
 		]
-		vsnd_duration = 1.695000
+		vsnd_duration = 1.695
 	}
 	wrecker_idol_drop_10_hero_3d = 
 	{
@@ -6421,7 +6421,7 @@
 		[
 			"sounds/vo/wrecker/wrecker_use_power1_03.vsnd",
 		]
-		vsnd_duration = 1.057800
+		vsnd_duration = 1.0578
 	}
 	wrecker_use_power1_04_ability_3d = 
 	{
@@ -7201,7 +7201,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_effort_general_09.vsnd",
 		]
-		vsnd_duration = 0.680850
+		vsnd_duration = 0.68085
 	}
 	wrecker_effort_general_10_emote_effort_3d = 
 	{
@@ -7231,7 +7231,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_effort_melee_big_02.vsnd",
 		]
-		vsnd_duration = 1.161100
+		vsnd_duration = 1.1611
 	}
 	wrecker_effort_melee_big_03_emote_effort_3d = 
 	{
@@ -7301,7 +7301,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_effort_melee_small_01.vsnd",
 		]
-		vsnd_duration = 0.697880
+		vsnd_duration = 0.69788
 	}
 	wrecker_effort_melee_small_02_emote_effort_3d = 
 	{
@@ -7361,7 +7361,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_effort_melee_small_07.vsnd",
 		]
-		vsnd_duration = 0.644410
+		vsnd_duration = 0.64441
 	}
 	wrecker_effort_melee_small_08_emote_effort_3d = 
 	{
@@ -7441,7 +7441,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_pain_big_03.vsnd",
 		]
-		vsnd_duration = 0.934070
+		vsnd_duration = 0.93407
 	}
 	wrecker_pain_big_04_emote_pain_3d = 
 	{
@@ -7471,7 +7471,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_pain_big_06.vsnd",
 		]
-		vsnd_duration = 0.512800
+		vsnd_duration = 0.5128
 	}
 	wrecker_pain_big_07_emote_pain_3d = 
 	{
@@ -7571,7 +7571,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_pain_death_08.vsnd",
 		]
-		vsnd_duration = 0.580930
+		vsnd_duration = 0.58093
 	}
 	wrecker_pain_death_09_emote_pain_3d = 
 	{
@@ -7601,7 +7601,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_pain_low_health_warning_02.vsnd",
 		]
-		vsnd_duration = 2.400510
+		vsnd_duration = 2.40051
 	}
 	wrecker_pain_low_health_warning_03_emote_pain_3d = 
 	{
@@ -7621,7 +7621,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_pain_low_health_warning_04.vsnd",
 		]
-		vsnd_duration = 2.564320
+		vsnd_duration = 2.56432
 	}
 	wrecker_pain_low_health_warning_05_emote_pain_3d = 
 	{
@@ -7641,7 +7641,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_pain_small_01.vsnd",
 		]
-		vsnd_duration = 0.424150
+		vsnd_duration = 0.42415
 	}
 	wrecker_pain_small_02_emote_pain_3d = 
 	{
@@ -7741,7 +7741,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_effort_melee_big_02.vsnd",
 		]
-		vsnd_duration = 1.161100
+		vsnd_duration = 1.1611
 	}
 	wrecker_effort_melee_big_03_emote_melee_effort_3d = 
 	{
@@ -7811,7 +7811,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_effort_melee_small_01.vsnd",
 		]
-		vsnd_duration = 0.697880
+		vsnd_duration = 0.69788
 	}
 	wrecker_effort_melee_small_02_emote_melee_effort_3d = 
 	{
@@ -7871,7 +7871,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_effort_melee_small_07.vsnd",
 		]
-		vsnd_duration = 0.644410
+		vsnd_duration = 0.64441
 	}
 	wrecker_effort_melee_small_08_emote_melee_effort_3d = 
 	{
@@ -7981,7 +7981,7 @@
 		[
 			"sounds/vo/wrecker/emote/wrecker_pain_death_08.vsnd",
 		]
-		vsnd_duration = 0.580930
+		vsnd_duration = 0.58093
 	}
 	wrecker_pain_death_09_emote_death_3d = 
 	{

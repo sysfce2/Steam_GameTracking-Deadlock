@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "opvar_get_player_health_fraction"
 				operator = "opvar_get_float"
@@ -13,7 +12,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "player_health_fraction"
 			},
-			
 			{
 				name = "opvar_get_player_health_fraction_buffer_change"
 				operator = "opvar_get_float"
@@ -22,7 +20,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "player_health_fraction_buffer_change"
 			},
-			
 			{
 				name = "opvar_get_player_health_delta_effect"
 				operator = "opvar_get_float"
@@ -31,7 +28,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "citadel_health_delta_effect"
 			},
-			
 			{
 				name = "set_vmix_param_health_fraction"
 				operator = "vmix_mixgraph_input"
@@ -40,7 +36,6 @@
 				input_name = "viewing_player_health_fraction"
 				input = "@opvar_get_player_health_fraction.output"
 			},
-			
 			{
 				name = "set_vmix_param_health_fraction_buffer_change"
 				operator = "vmix_mixgraph_input"
@@ -49,7 +44,6 @@
 				input_name = "viewing_player_health_fraction_change"
 				input = "@opvar_get_player_health_fraction_buffer_change.output"
 			},
-			
 			{
 				name = "set_vmix_param_health_delta_effect"
 				operator = "vmix_mixgraph_input"
@@ -68,7 +62,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "opvars"
 				operator = "util_null"
@@ -126,7 +119,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "opvars"
 				operator = "util_null"
@@ -174,7 +166,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -258,15 +249,13 @@
 					}
 				}
 			},
-			
 			{
 				name = "block_rand_float"
 				operator = "math_random_float"
 				execute_once = "true"
-				input_min = 0.000000
-				input_max = 1.000000
+				input_min = 0.0
+				input_max = 1.0
 			},
-			
 			{
 				name = "block_rand_compare"
 				operator = "math_float"
@@ -275,7 +264,6 @@
 				input1 = "@block_rand_float.output"
 				input2 = "@public.block_rand"
 			},
-			
 			{
 				name = "block_rand"
 				operator = "sos_goto"
@@ -283,12 +271,10 @@
 				execute_once = "1.000000"
 				input_execute = "@block_rand_compare.output"
 			},
-			
 			{
 				name = "source_info"
 				operator = "game_get_source_info"
 			},
-			
 			{
 				name = "use_entity_for_block"
 				operator = "ctrl_switch_float"
@@ -296,7 +282,6 @@
 				input1 = "-1"
 				input2 = "@source_info.output_entity_index"
 			},
-			
 			{
 				name = "test_soundevent_block"
 				operator = "soundevent_block_test"
@@ -306,7 +291,6 @@
 				match_this_event = "true"
 				input_position = "@public.block_position"
 			},
-			
 			{
 				name = "set_soundevent_block"
 				operator = "soundevent_block"
@@ -330,7 +314,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -418,7 +401,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"
@@ -431,7 +413,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "vector_facing_point"
 				operator = "vector_facing_point"
@@ -440,14 +421,12 @@
 				input_listener_position = "@public.listener_position"
 				input_source_position = "@public.source_position"
 			},
-			
 			{
 				name = "facing_filter"
 				operator = "math_filter_float"
 				input = "@vector_facing_point.output"
 				input_max_velocity = "1.000000"
 			},
-			
 			{
 				name = "remap_facing"
 				operator = "math_remap_float"
@@ -458,7 +437,6 @@
 				input_map_max = "@public.facing_scale_max"
 				default_to_max = "false"
 			},
-			
 			{
 				name = "atten_mult"
 				input_execute = "1.000000"
@@ -467,7 +445,6 @@
 				input1 = "@remap_facing.output"
 				input2 = "@public.facing_mult"
 			},
-			
 			{
 				name = "set_output_opvar_min"
 				operator = "opvar_set_float"
@@ -489,7 +466,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -517,7 +493,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "submix_send"
 				operator = "vmix_mixgraph_send"
@@ -526,7 +501,6 @@
 				submix_name = "@public.send_name"
 				send_type = "named"
 			},
-			
 			{
 				name = "level_string"
 				operator = "math_string"
@@ -534,19 +508,16 @@
 				input2 = "_level"
 				apply = "add"
 			},
-			
 			{
 				name = "get_submix_level"
 				operator = "vmix_mixgraph_input_get_float"
 				input_name = "@level_string.output_string"
 			},
-			
 			{
 				name = "submix_level"
 				operator = "math_db_to_gain"
 				input = "@get_submix_level.output"
 			},
-			
 			{
 				name = "facing_submix_send"
 				operator = "vmix_mixgraph_send"
@@ -565,7 +536,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -603,7 +573,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "dry_curve"
 				operator = "math_curve_2d_4knot"
@@ -619,7 +588,6 @@
 				input_X4 = "1.000000"
 				input_Y4 = "0.000000"
 			},
-			
 			{
 				name = "wet_curve"
 				operator = "math_curve_2d_4knot"
@@ -635,7 +603,6 @@
 				input_X4 = "1.000000"
 				input_Y4 = "1.000000"
 			},
-			
 			{
 				name = "set_dry"
 				operator = "opvar_set_float"
@@ -646,7 +613,6 @@
 				input_field_name = "dry"
 				input_use_namespace = "true"
 			},
-			
 			{
 				name = "set_wet"
 				operator = "opvar_set_float"
@@ -657,7 +623,6 @@
 				input_field_name = "wet"
 				input_use_namespace = "true"
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"
@@ -686,7 +651,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "opvars"
 				operator = "util_null"
@@ -774,7 +738,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "opvars"
 				operator = "util_null"
@@ -822,7 +785,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "opvars"
 				operator = "util_null"

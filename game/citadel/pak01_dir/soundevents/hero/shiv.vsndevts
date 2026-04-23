@@ -3,8 +3,8 @@
 	Shiv.Wpn.Fire = 
 	{
 		base = "Base.Weapon.Shotgun"
-		volume = 2.000000
-		last_shot_vol_offset_db = 2.000000
+		volume = 2.0
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shiv/shiv_weapon_fire_01.vsnd",
@@ -23,8 +23,8 @@
 	Shiv.Wpn.Alt.Fire = 
 	{
 		base = "Base.Weapon.Shotgun"
-		volume = 2.000000
-		last_shot_vol_offset_db = 2.000000
+		volume = 2.0
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shiv/shiv_weapon_fire_alt_01.vsnd",
@@ -43,27 +43,27 @@
 	Shiv.Wpn.Zoom.In = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -32.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = -32.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = "sounds/weapons/shiv/zoom/in.vsnd"
 		vsnd_duration = 1.309833
 	}
 	Shiv.Wpn.Zoom.Out = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -32.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.100000
+		volume = -32.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.1
 		vsnd_files = "sounds/weapons/shiv/zoom/out.vsnd"
 		vsnd_duration = 1.358688
 	}
 	Shiv.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shiv/reload/shiv_wpn_reload_start_01.vsnd",
@@ -75,8 +75,8 @@
 	Shiv.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shiv/reload/shiv_wpn_reload_mid_01.vsnd",
@@ -88,15 +88,15 @@
 	Shiv.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shiv/reload/shiv_wpn_reload_end_01.vsnd",
 			"sounds/weapons/shiv/reload/shiv_wpn_reload_end_02.vsnd",
 			"sounds/weapons/shiv/reload/shiv_wpn_reload_end_03.vsnd",
 		]
-		vsnd_duration = 0.474580
+		vsnd_duration = 0.47458
 	}
 	Shiv.Wpn.Impact = 
 	{
@@ -131,7 +131,7 @@
 	Shiv.Dagger.Surface.Impact = 
 	{
 		base = "Base.Ability"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/shiv/a1_thrown_shiv/surf_imp_pop_01.vsnd",
@@ -143,7 +143,7 @@
 	Shiv.Dagger.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/abilities/shiv/a1_thrown_shiv/whizby_01.vsnd",
@@ -178,10 +178,10 @@
 	Shiv.Dagger.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 6.000000
-		pitch = 1.100000
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
+		volume = 6.0
+		pitch = 1.1
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
 		vsnd_files = 
 		[
 			"sounds/abilities/shiv/shiv_dagger_hit_01.vsnd",
@@ -193,16 +193,16 @@
 	Shiv.Dagger.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		pitch = 0.950000
+		volume = 2.0
+		pitch = 0.95
 		vsnd_files = "sounds/abilities/shiv/shiv_a1_dagger_cast.vsnd"
 		vsnd_duration = 1.421746
 	}
 	Shiv.Dash.HitEnemy = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
-		volume_offset_attacker_db = 3.000000
+		volume = 2.0
+		volume_offset_attacker_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/shiv/shiv_dash_hit_01.vsnd",
@@ -214,50 +214,50 @@
 	Shiv.Dash.Start = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		volume_offset_opponent = 3.000000
+		volume = 2.0
+		volume_offset_opponent = 3.0
 		vsnd_files = "sounds/abilities/shiv/shiv_a1_dash_cast.vsnd"
-		vsnd_duration = 1.587120
+		vsnd_duration = 1.58712
 	}
 	Shiv.Dash.Start.Clone = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 2.000000
-		volume_offset_opponent = 2.000000
-		pitch = 1.150000
+		volume = 2.0
+		volume_offset_opponent = 2.0
+		pitch = 1.15
 		vsnd_files = "sounds/abilities/shiv/shiv_dash_start_clone.vsnd"
 		vsnd_duration = 2.147438
 	}
 	Shiv.Bloodletting.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
+		volume = 0.0
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
 		vsnd_files = "sounds/abilities/shiv/shiv_a3_bloodletting_cast.vsnd"
 		vsnd_duration = 2.956304
 	}
 	Shiv.Rage.Full_Start = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/shiv/shiv_rage_full.vsnd"
 		vsnd_duration = 2.168911
 	}
 	Shiv.Rage.Full_End = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
-		pitch = 0.800000
+		volume = 1.0
+		pitch = 0.8
 		vsnd_files = "sounds/abilities/shiv/shiv_rage_end.vsnd"
 		vsnd_duration = 1.880952
 	}
 	Shiv.Flash.Impact = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
-		volume_offset_attacker_db = 3.000000
-		pitch = 0.800000
+		volume = 2.0
+		volume_offset_attacker_db = 3.0
+		pitch = 0.8
 		vsnd_files = 
 		[
 			"sounds/abilities/shiv/shiv_dash_hit_01.vsnd",
@@ -269,42 +269,42 @@
 	Shiv.Flash.Impact_Kill = 
 	{
 		base = "Base.Ability.Hit"
-		pitch = 0.900000
-		volume = 6.000000
-		volume_offset_attacker_db = 6.000000
+		pitch = 0.9
+		volume = 6.0
+		volume_offset_attacker_db = 6.0
 		vsnd_files = "sounds/abilities/shiv/shiv_a4_killingblow_hit_kill.vsnd"
 		vsnd_duration = 2.285986
 	}
 	Shiv.Flash.Leap = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/abilities/shiv/shiv_a4_killingblow_cast.vsnd"
 		vsnd_duration = 2.527052
 	}
 	Shiv.Flash.Slash = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = "sounds/abilities/shiv/shiv_a4_killingblow_hit.vsnd"
 		vsnd_duration = 1.794603
 	}
 	Shiv.BloodVision.Target.Lp = 
 	{
 		base = "Base.Ability.Detached"
-		spread_max_value_player = 0.000000
-		volume = -9.000000
-		volume_fade_in = 0.300000
-		volume_fade_out = 0.300000
-		volume_offset_team = -99.000000
-		volume_offset_opponent = -99.000000
+		spread_max_value_player = 0.0
+		volume = -9.0
+		volume_fade_in = 0.3
+		volume_fade_out = 0.3
+		volume_offset_team = -99.0
+		volume_offset_opponent = -99.0
 		vsnd_files = "sounds/abilities/shiv/blood_vision_lp2.vsnd"
 		vsnd_duration = 8.005667
 	}
 	Shiv.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_2.vsnd_track_vol_offset_db = -6.000000
+		track_2.vsnd_track_vol_offset_db = -6.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/shiv/shiv_footstep_01.vsnd",
@@ -346,7 +346,7 @@
 	Shiv.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/shiv/shiv_movement_foley_short_01.vsnd",
@@ -374,8 +374,8 @@
 	Shiv.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 3.000000
-		track_2.vsnd_track_vol_offset_db = -7.000000
+		volume = 3.0
+		track_2.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/shiv/shiv_footstep_01.vsnd",
@@ -411,7 +411,7 @@
 	Shiv.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -2.000000
+		volume = -2.0
 	}
 	Shiv.Melee.Swing = 
 	{
@@ -466,7 +466,7 @@
 	Shiv.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = 0.000000
+		track_2.vsnd_track_vol_offset_db = 0.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",

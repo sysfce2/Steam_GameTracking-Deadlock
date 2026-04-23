@@ -3,10 +3,10 @@
 	Bookworm.Wpn.Fire = 
 	{
 		base = "Base.Weapon.Pistol"
-		volume = 2.000000
-		tail_vol_offset_db = -5.000000
-		tail_interior_vol_offset_db = -7.000000
-		last_shot_vol_offset_db = -1.000000
+		volume = 2.0
+		tail_vol_offset_db = -5.0
+		tail_interior_vol_offset_db = -7.0
+		last_shot_vol_offset_db = -1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/bookworm/bookworm_wpn_fire_01.vsnd",
@@ -25,8 +25,8 @@
 	Bookworm.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/bookworm/bookworm_wpn_reload_start_01.vsnd",
@@ -38,8 +38,8 @@
 	Bookworm.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/bookworm/bookworm_wpn_reload_end_01.vsnd",
@@ -51,8 +51,8 @@
 	Bookworm.Wpn.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -3.000000
-		whizby_time_to_peak = 0.150000
+		volume = -3.0
+		whizby_time_to_peak = 0.15
 		vsnd_files = 
 		[
 			"sounds/weapons/bookworm/whizbys/bookworm_weapon_whizby_01.vsnd",
@@ -71,7 +71,7 @@
 	Bookworm.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -5.000000
+		track_1.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/wraith/wraith_footstep_01.vsnd",
@@ -91,17 +91,17 @@
 	Bookworm.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
+		volume = -4.0
 	}
 	Bookworm.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -2.000000
+		volume = -2.0
 	}
 	Bookworm.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/wraith/wraith_footstep_01.vsnd",
@@ -133,12 +133,12 @@
 	Bookworm.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
+		volume = -4.0
 	}
 	Bookworm.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -183,7 +183,7 @@
 	Bookworm.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",
@@ -229,9 +229,9 @@
 	Bookworm.Dash.Sweetener = 
 	{
 		base = "Base.Movement"
-		volume = 2.500000
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
+		volume = 2.5
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
 		vsnd_files = 
 		[
 			"sounds/player/movement/bookworm/bookworm_dash_sweetener_01.vsnd",
@@ -246,10 +246,10 @@
 	Bookworm.Melee.Sweetener = 
 	{
 		base = "Base.Movement.Melee"
-		volume = 0.000000
-		volume_offset_opponent = -3.000000
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
+		volume = 0.0
+		volume_offset_opponent = -3.0
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
 		vsnd_files = 
 		[
 			"sounds/player/movement/bookworm/bookworm_melee_sweetener_01.vsnd",
@@ -261,39 +261,39 @@
 	Bookworm.Conjure.Dragon.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 1.000000
-		volume_offset_team = -7.000000
-		delay_rand_min = -3.000000
-		delay_rand_max = -0.200000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.500000
+		volume = 1.0
+		volume_offset_team = -7.0
+		delay_rand_min = -3.0
+		delay_rand_max = -0.2
+		volume_fade_in = 0.2
+		volume_fade_out = 0.5
 		vsnd_files = "sounds/abilities/bookworm/a1_conjure_dragon/bookworm_conjure_dragon_lp.vsnd"
 		vsnd_duration = 4.774875
 	}
 	Bookworm.Conjure.Dragon.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -2.000000
-		volume_offset_team = -7.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.200000
+		volume = -2.0
+		volume_offset_team = -7.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/bookworm/a1_conjure_dragon/bookworm_conjure_dragon_proj_lp.vsnd"
 		vsnd_duration = 2.438027
 	}
 	Bookworm.Conjure.Dragon.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
-		volume_offset_team = -6.000000
+		volume = 1.0
+		volume_offset_team = -6.0
 		vsnd_files = "sounds/abilities/bookworm/a1_conjure_dragon/bookworm_conjure_dragon_cast.vsnd"
 		vsnd_duration = 2.430975
 	}
 	Bookworm.Conjure.Dragon.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 1.000000
-		block_duration = 2.000000
-		volume_offset_team = -4.000000
+		volume = 1.0
+		block_duration = 2.0
+		volume_offset_team = -4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/bookworm/a1_conjure_dragon/bookworm_conjure_dragon_impact_01.vsnd",
@@ -305,16 +305,16 @@
 	Bookworm.Conjure.Dragon.Expire = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
-		volume_offset_team = -4.000000
+		volume = 0.0
+		volume_offset_team = -4.0
 		vsnd_files = "sounds/abilities/bookworm/a1_conjure_dragon/bookworm_conjure_dragon_expire.vsnd"
 		vsnd_duration = 3.343991
 	}
 	Bookworm.Conjure.Dragon.Burn.Start = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
-		instance_attenuator_enabled = 1.000000
+		volume = 0.0
+		instance_attenuator_enabled = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/bookworm/a1_conjure_dragon/bookworm_conjure_dragon_burn_start_01.vsnd",
@@ -323,41 +323,21 @@
 		]
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-3.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, -3.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				6.000000,
-				-6.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				6.0, -6.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 2.785465
@@ -365,86 +345,86 @@
 	Bookworm.Conjure.Dragon.Burn.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -6.000000
-		volume_fade_in = 0.150000
-		volume_fade_out = 0.500000
+		volume = -6.0
+		volume_fade_in = 0.15
+		volume_fade_out = 0.5
 		vsnd_files = "sounds/abilities/bookworm/a1_conjure_dragon/bookworm_conjure_dragon_burn_lp.vsnd"
 		vsnd_duration = 3.138209
 	}
 	Bookworm.Conjure.Dragon.Burn.Expire = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -7.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = -7.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = "sounds/abilities/bookworm/a1_conjure_dragon/bookworm_conjure_dragon_burn_expire.vsnd"
 		vsnd_duration = 3.272245
 	}
 	Bookworm.Barrier.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/abilities/bookworm/a2_barrier/bookworm_barrier_cast.vsnd"
 		vsnd_duration = 2.895011
 	}
 	Bookworm.Barrier.Shield.Start = 
 	{
 		base = "Base.Ability.Hit"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = "sounds/abilities/bookworm/a2_barrier/bookworm_barrier_shield_start.vsnd"
 		vsnd_duration = 3.367868
 	}
 	Bookworm.Barrier.Shield.Expire = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -3.000000
-		block_team = 1.000000
-		block_opponent = 1.000000
+		volume = -3.0
+		block_team = 1.0
+		block_opponent = 1.0
 		vsnd_files = "sounds/abilities/bookworm/a2_barrier/bookworm_barrier_shield_expire.vsnd"
 		vsnd_duration = 2.759161
 	}
 	Bookworm.Barrier.Select = 
 	{
 		base = "Base.Ability"
-		volume = -8.000000
+		volume = -8.0
 		vsnd_files = "sounds/abilities/bookworm/a2_barrier/bookworm_barrier_select.vsnd"
 		vsnd_duration = 2.808571
 	}
 	Bookworm.Barrier.Unselect = 
 	{
 		base = "Base.Ability"
-		volume = -8.000000
+		volume = -8.0
 		vsnd_files = "sounds/abilities/bookworm/a2_barrier/bookworm_barrier_unselect.vsnd"
 		vsnd_duration = 2.808571
 	}
 	Bookworm.Barrier.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -9.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.400000
+		volume = -9.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.4
 		vsnd_files = "sounds/abilities/bookworm/a2_barrier/bookworm_barrier_mod_lp.vsnd"
 		vsnd_duration = 11.993833
 	}
 	Bookworm.AOEMagic.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = "sounds/abilities/bookworm/a3_aoe/bookworm_aoe_cast.vsnd"
 		vsnd_duration = 3.049093
 	}
 	Bookworm.AOEMagic.Buildup = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -3.000000
-		volume_offset_opponent = 4.000000
+		volume = -3.0
+		volume_offset_opponent = 4.0
 		vsnd_files = "sounds/abilities/bookworm/a3_aoe/bookworm_aoe_buildup.vsnd"
 		vsnd_duration = 2.750726
 	}
 	Bookworm.AOEMagic.End = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/bookworm/a3_aoe/bookworm_aoe_end.vsnd"
 		vsnd_duration = 2.853719
 	}
@@ -452,13 +432,13 @@
 	{
 		base = "Base.Ability.Hit"
 		filter_include_others = true
-		volume = 4.000000
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.050000
-		limiter_on = 1.000000
-		limiter_max = 5.000000
-		limiter_match_entity = 0.000000
-		instance_attenuator_enabled = 1.000000
+		volume = 4.0
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.05
+		limiter_on = 1.0
+		limiter_max = 5.0
+		limiter_match_entity = 0.0
+		instance_attenuator_enabled = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/bookworm/a3_aoe/bookworm_aoe_root_01.vsnd",
@@ -467,41 +447,21 @@
 		]
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-3.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, -3.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				6.000000,
-				-6.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				6.0, -6.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 1.594989
@@ -509,32 +469,32 @@
 	Bookworm.Rallying.Charge.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.500000
+		volume = 2.5
 		vsnd_files = "sounds/abilities/bookworm/a4_rallying_charge/bookworm_rallying_charge_cast.vsnd"
 		vsnd_duration = 5.242086
 	}
 	Bookworm.Rallying.Charge.Cast.Global = 
 	{
 		base = "Base.Ability.Ult.Global"
-		volume = 4.000000
+		volume = 4.0
 		send_distance_to_blend_container = true
 		vsnd_files = "sounds/abilities/bookworm/a4_rallying_charge/bookworm_rallying_charge_global_blend.vsnd"
 	}
 	Bookworm.Rallying.Charge.Horse.Lp = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = 3.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 1.000000
-		volume_falloff_floor = 0.750000
-		volume_offset_opponent = 3.000000
+		volume = 3.0
+		volume_fade_in = 0.2
+		volume_fade_out = 1.0
+		volume_falloff_floor = 0.75
+		volume_offset_opponent = 3.0
 		send_distance_to_blend_container = true
 		vsnd_files = "sounds/abilities/bookworm/a4_rallying_charge/bookworm_rallying_charge_lp_blend.vsnd"
 	}
 	Bookworm.Rallying.Charge.Impact = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 4.000000
+		volume = 4.0
 		filter_include_others = true
 		vsnd_files = "sounds/mods/tech/immobilize/slowinghex_hit.vsnd"
 		vsnd_duration = 2.681814
@@ -542,8 +502,8 @@
 	Bookworm.Rallying.Charge.Horse.Expire = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = -6.000000
-		block_duration = 0.500000
+		volume = -6.0
+		block_duration = 0.5
 		vsnd_files = "sounds/abilities/bookworm/a4_rallying_charge/bookworm_rallying_charge_expire.vsnd"
 		vsnd_duration = 4.193878
 	}

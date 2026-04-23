@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -73,7 +72,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "evaluate_opvar_send_amount"
 				operator = "math_curve_2d"
@@ -83,14 +81,12 @@
 				input_scale_x = "1.0"
 				input_scale_y = "1.0"
 			},
-			
 			{
 				name = "evaluate_opvar_send_amount_to_linear"
 				operator = "math_db_to_gain"
 				input = "@evaluate_opvar_send_amount.output"
 				input_execute = "@public.enable_initial_reflection_send"
 			},
-			
 			{
 				name = "math_mult_post_fader_post_distance_curve_volume"
 				input_execute = "1.0"
@@ -99,7 +95,6 @@
 				input1 = "@public.post_fader_volume"
 				input2 = "@evaluate_opvar_send_amount_to_linear.output"
 			},
-			
 			{
 				name = "math_enable_delay_send"
 				input_execute = "1.0"
@@ -108,7 +103,6 @@
 				input1 = "@public.enable_initial_reflection_send"
 				input2 = "@math_mult_post_fader_post_distance_curve_volume.output"
 			},
-			
 			{
 				name = "voicegraph_send"
 				input_execute = "1.0"

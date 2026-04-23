@@ -68,7 +68,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_astro_lasso_victim_02.vsnd",
 		]
-		vsnd_duration = 2.081260
+		vsnd_duration = 2.08126
 	}
 	yamato_ally_astro_lasso_victim_03_hero_3d = 
 	{
@@ -198,7 +198,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_bebop_uppercut_towards_boss_01.vsnd",
 		]
-		vsnd_duration = 2.149000
+		vsnd_duration = 2.149
 	}
 	yamato_ally_bebop_uppercut_towards_boss_02_hero_3d = 
 	{
@@ -228,7 +228,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_bookworm_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.427000
+		vsnd_duration = 1.427
 	}
 	yamato_ally_chrono_killed_in_lane_01_hero_3d = 
 	{
@@ -278,7 +278,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_doorman_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.562990
+		vsnd_duration = 1.56299
 	}
 	yamato_ally_drifter_killed_in_lane_01_hero_3d = 
 	{
@@ -348,7 +348,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_dynamo_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 1.727000
+		vsnd_duration = 1.727
 	}
 	yamato_ally_dynamo_killed_in_lane_01_hero_3d = 
 	{
@@ -398,7 +398,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_forge_clutch_heal_02.vsnd",
 		]
-		vsnd_duration = 1.654260
+		vsnd_duration = 1.65426
 	}
 	yamato_ally_forge_clutch_heal_03_hero_3d = 
 	{
@@ -408,7 +408,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_forge_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 1.650000
+		vsnd_duration = 1.65
 	}
 	yamato_ally_forge_killed_in_lane_01_hero_3d = 
 	{
@@ -458,7 +458,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_frank_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.385000
+		vsnd_duration = 1.385
 	}
 	yamato_ally_ghost_killed_in_lane_01_hero_3d = 
 	{
@@ -548,7 +548,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_haze_big_ult_01.vsnd",
 		]
-		vsnd_duration = 0.914750
+		vsnd_duration = 0.91475
 	}
 	yamato_ally_haze_interrupt_with_finesse_01_hero_3d = 
 	{
@@ -578,7 +578,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_haze_interrupt_with_finesse_03.vsnd",
 		]
-		vsnd_duration = 2.113510
+		vsnd_duration = 2.11351
 	}
 	yamato_ally_haze_killed_in_lane_01_hero_3d = 
 	{
@@ -588,7 +588,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_haze_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.555750
+		vsnd_duration = 1.55575
 	}
 	yamato_ally_hornet_killed_in_lane_01_hero_3d = 
 	{
@@ -618,7 +618,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_kelvin_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.532500
+		vsnd_duration = 1.5325
 	}
 	yamato_ally_krill_killed_in_lane_01_hero_3d = 
 	{
@@ -678,7 +678,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_necro_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.471260
+		vsnd_duration = 1.47126
 	}
 	yamato_ally_orion_killed_in_lane_01_hero_3d = 
 	{
@@ -788,7 +788,7 @@
 		[
 			"sounds/vo/yamato/yamato_ally_werewolf_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.396500
+		vsnd_duration = 1.3965
 	}
 	yamato_ally_wraith_killed_in_lane_01_hero_3d = 
 	{
@@ -838,7 +838,7 @@
 		[
 			"sounds/vo/yamato/yamato_be_careful_01.vsnd",
 		]
-		vsnd_duration = 1.382750
+		vsnd_duration = 1.38275
 	}
 	yamato_be_careful_02_hero_3d = 
 	{
@@ -848,7 +848,7 @@
 		[
 			"sounds/vo/yamato/yamato_be_careful_02.vsnd",
 		]
-		vsnd_duration = 1.773000
+		vsnd_duration = 1.773
 	}
 	yamato_be_careful_03_hero_3d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/yamato/yamato_desperation_power1_03.vsnd",
 		]
-		vsnd_duration = 1.865990
+		vsnd_duration = 1.86599
 	}
 	yamato_desperation_power1_04_ability_3d = 
 	{
@@ -1088,7 +1088,7 @@
 		[
 			"sounds/vo/yamato/yamato_desperation_power3_03.vsnd",
 		]
-		vsnd_duration = 1.518750
+		vsnd_duration = 1.51875
 	}
 	yamato_desperation_power3_04_ability_3d = 
 	{
@@ -1278,7 +1278,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_dash_04.vsnd",
 		]
-		vsnd_duration = 0.510260
+		vsnd_duration = 0.51026
 	}
 	yamato_effort_dash_04_emote_effort_3d = 
 	{
@@ -1288,7 +1288,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_dash_04.vsnd",
 		]
-		vsnd_duration = 0.510260
+		vsnd_duration = 0.51026
 	}
 	yamato_effort_dash_05_emote_dash_3d = 
 	{
@@ -1298,7 +1298,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_dash_05.vsnd",
 		]
-		vsnd_duration = 0.479000
+		vsnd_duration = 0.479
 	}
 	yamato_effort_dash_05_emote_effort_3d = 
 	{
@@ -1308,7 +1308,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_dash_05.vsnd",
 		]
-		vsnd_duration = 0.479000
+		vsnd_duration = 0.479
 	}
 	yamato_effort_dash_06_emote_dash_3d = 
 	{
@@ -1338,7 +1338,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_dash_07.vsnd",
 		]
-		vsnd_duration = 0.518000
+		vsnd_duration = 0.518
 	}
 	yamato_effort_dash_07_emote_effort_3d = 
 	{
@@ -1348,7 +1348,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_dash_07.vsnd",
 		]
-		vsnd_duration = 0.518000
+		vsnd_duration = 0.518
 	}
 	yamato_effort_dash_08_emote_dash_3d = 
 	{
@@ -1378,7 +1378,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_general_01.vsnd",
 		]
-		vsnd_duration = 0.550500
+		vsnd_duration = 0.5505
 	}
 	yamato_effort_general_02_emote_effort_3d = 
 	{
@@ -1438,7 +1438,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_general_07.vsnd",
 		]
-		vsnd_duration = 0.567000
+		vsnd_duration = 0.567
 	}
 	yamato_effort_melee_big_01_emote_effort_3d = 
 	{
@@ -1448,7 +1448,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_melee_big_01.vsnd",
 		]
-		vsnd_duration = 0.472000
+		vsnd_duration = 0.472
 	}
 	yamato_effort_melee_big_01_emote_melee_effort_3d = 
 	{
@@ -1458,7 +1458,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_melee_big_01.vsnd",
 		]
-		vsnd_duration = 0.472000
+		vsnd_duration = 0.472
 	}
 	yamato_effort_melee_big_02_emote_effort_3d = 
 	{
@@ -1528,7 +1528,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_melee_big_05.vsnd",
 		]
-		vsnd_duration = 0.640500
+		vsnd_duration = 0.6405
 	}
 	yamato_effort_melee_big_05_emote_melee_effort_3d = 
 	{
@@ -1538,7 +1538,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_melee_big_05.vsnd",
 		]
-		vsnd_duration = 0.640500
+		vsnd_duration = 0.6405
 	}
 	yamato_effort_melee_big_06_emote_effort_3d = 
 	{
@@ -1648,7 +1648,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_melee_small_03.vsnd",
 		]
-		vsnd_duration = 0.433000
+		vsnd_duration = 0.433
 	}
 	yamato_effort_melee_small_03_emote_melee_effort_3d = 
 	{
@@ -1658,7 +1658,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_melee_small_03.vsnd",
 		]
-		vsnd_duration = 0.433000
+		vsnd_duration = 0.433
 	}
 	yamato_effort_melee_small_04_emote_effort_3d = 
 	{
@@ -1668,7 +1668,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 0.557240
+		vsnd_duration = 0.55724
 	}
 	yamato_effort_melee_small_04_emote_melee_effort_3d = 
 	{
@@ -1678,7 +1678,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 0.557240
+		vsnd_duration = 0.55724
 	}
 	yamato_effort_melee_small_05_emote_effort_3d = 
 	{
@@ -1738,7 +1738,7 @@
 		[
 			"sounds/vo/yamato/yamato_enemy_astro_bounce_escape_03.vsnd",
 		]
-		vsnd_duration = 1.905490
+		vsnd_duration = 1.90549
 	}
 	yamato_enemy_astro_lassoed_01_hero_3d = 
 	{
@@ -1808,7 +1808,7 @@
 		[
 			"sounds/vo/yamato/yamato_enemy_bebop_hooked_01.vsnd",
 		]
-		vsnd_duration = 0.842500
+		vsnd_duration = 0.8425
 	}
 	yamato_enemy_bebop_hooked_02_hero_3d = 
 	{
@@ -1858,7 +1858,7 @@
 		[
 			"sounds/vo/yamato/yamato_enemy_bebop_kill_mid_laser_03.vsnd",
 		]
-		vsnd_duration = 2.410750
+		vsnd_duration = 2.41075
 	}
 	yamato_enemy_chrono_kill_post_swap_01_hero_3d = 
 	{
@@ -1958,7 +1958,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_enemy_ghost_ping_with_swap_01.vsnd",
 		]
-		vsnd_duration = 1.737260
+		vsnd_duration = 1.73726
 	}
 	yamato_enemy_ghost_ping_with_swap_02_ping_2d = 
 	{
@@ -2028,7 +2028,7 @@
 		[
 			"sounds/vo/yamato/yamato_hunt_02.vsnd",
 		]
-		vsnd_duration = 2.017000
+		vsnd_duration = 2.017
 	}
 	yamato_hunt_03_hero_3d = 
 	{
@@ -2118,7 +2118,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_anyhero_03.vsnd",
 		]
-		vsnd_duration = 1.196510
+		vsnd_duration = 1.19651
 	}
 	yamato_kill_anyhero_04_hero_3d = 
 	{
@@ -2208,7 +2208,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_astro_02.vsnd",
 		]
-		vsnd_duration = 2.617510
+		vsnd_duration = 2.61751
 	}
 	yamato_kill_astro_03_hero_3d = 
 	{
@@ -2228,7 +2228,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_astro_04.vsnd",
 		]
-		vsnd_duration = 2.137000
+		vsnd_duration = 2.137
 	}
 	yamato_kill_astro_05_hero_3d = 
 	{
@@ -2358,7 +2358,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_bookworm_01.vsnd",
 		]
-		vsnd_duration = 3.019500
+		vsnd_duration = 3.0195
 	}
 	yamato_kill_bookworm_02_hero_3d = 
 	{
@@ -2488,7 +2488,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_doorman_04.vsnd",
 		]
-		vsnd_duration = 1.565740
+		vsnd_duration = 1.56574
 	}
 	yamato_kill_doorman_05_hero_3d = 
 	{
@@ -2548,7 +2548,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_drifter_05.vsnd",
 		]
-		vsnd_duration = 3.615000
+		vsnd_duration = 3.615
 	}
 	yamato_kill_dynamo_01_hero_3d = 
 	{
@@ -2578,7 +2578,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_dynamo_03.vsnd",
 		]
-		vsnd_duration = 3.617990
+		vsnd_duration = 3.61799
 	}
 	yamato_kill_dynamo_04_hero_3d = 
 	{
@@ -2918,7 +2918,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_haze_02.vsnd",
 		]
-		vsnd_duration = 2.992990
+		vsnd_duration = 2.99299
 	}
 	yamato_kill_haze_03_hero_3d = 
 	{
@@ -3108,7 +3108,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_kelvin_05.vsnd",
 		]
-		vsnd_duration = 3.145510
+		vsnd_duration = 3.14551
 	}
 	yamato_kill_krill_01_hero_3d = 
 	{
@@ -3128,7 +3128,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_krill_02.vsnd",
 		]
-		vsnd_duration = 2.066510
+		vsnd_duration = 2.06651
 	}
 	yamato_kill_krill_03_hero_3d = 
 	{
@@ -3298,7 +3298,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_nano_03.vsnd",
 		]
-		vsnd_duration = 1.738260
+		vsnd_duration = 1.73826
 	}
 	yamato_kill_nano_04_hero_3d = 
 	{
@@ -3308,7 +3308,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_nano_04.vsnd",
 		]
-		vsnd_duration = 3.329250
+		vsnd_duration = 3.32925
 	}
 	yamato_kill_nano_05_hero_3d = 
 	{
@@ -3398,7 +3398,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_orion_03.vsnd",
 		]
-		vsnd_duration = 2.693740
+		vsnd_duration = 2.69374
 	}
 	yamato_kill_orion_04_hero_3d = 
 	{
@@ -3428,7 +3428,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_priest_01.vsnd",
 		]
-		vsnd_duration = 2.203010
+		vsnd_duration = 2.20301
 	}
 	yamato_kill_priest_02_hero_3d = 
 	{
@@ -3448,7 +3448,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_priest_03.vsnd",
 		]
-		vsnd_duration = 2.280000
+		vsnd_duration = 2.28
 	}
 	yamato_kill_priest_04_hero_3d = 
 	{
@@ -3608,7 +3608,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_synth_04.vsnd",
 		]
-		vsnd_duration = 2.003250
+		vsnd_duration = 2.00325
 	}
 	yamato_kill_synth_05_hero_3d = 
 	{
@@ -3618,7 +3618,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_synth_05.vsnd",
 		]
-		vsnd_duration = 2.762250
+		vsnd_duration = 2.76225
 	}
 	yamato_kill_tengu_01_hero_3d = 
 	{
@@ -3718,7 +3718,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_unicorn_05.vsnd",
 		]
-		vsnd_duration = 1.876750
+		vsnd_duration = 1.87675
 	}
 	yamato_kill_vampirebat_01_hero_3d = 
 	{
@@ -3738,7 +3738,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_vampirebat_02.vsnd",
 		]
-		vsnd_duration = 1.975260
+		vsnd_duration = 1.97526
 	}
 	yamato_kill_vampirebat_03_hero_3d = 
 	{
@@ -3768,7 +3768,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_vampirebat_05.vsnd",
 		]
-		vsnd_duration = 2.368250
+		vsnd_duration = 2.36825
 	}
 	yamato_kill_viper_01_hero_3d = 
 	{
@@ -3898,7 +3898,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_warden_03.vsnd",
 		]
-		vsnd_duration = 2.539760
+		vsnd_duration = 2.53976
 	}
 	yamato_kill_warden_04_hero_3d = 
 	{
@@ -3968,7 +3968,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_werewolf_05.vsnd",
 		]
-		vsnd_duration = 1.567500
+		vsnd_duration = 1.5675
 	}
 	yamato_kill_wraith_01_hero_3d = 
 	{
@@ -4008,7 +4008,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_wraith_04.vsnd",
 		]
-		vsnd_duration = 4.188000
+		vsnd_duration = 4.188
 	}
 	yamato_kill_wraith_05_hero_3d = 
 	{
@@ -4018,7 +4018,7 @@
 		[
 			"sounds/vo/yamato/yamato_kill_wraith_05.vsnd",
 		]
-		vsnd_duration = 3.375990
+		vsnd_duration = 3.37599
 	}
 	yamato_kill_wrecker_01_hero_3d = 
 	{
@@ -4138,7 +4138,7 @@
 		[
 			"sounds/vo/yamato/yamato_killstreak_mid_01.vsnd",
 		]
-		vsnd_duration = 3.110010
+		vsnd_duration = 3.11001
 	}
 	yamato_killstreak_mid_01_hero_announcer = 
 	{
@@ -4148,7 +4148,7 @@
 		[
 			"sounds/vo/yamato/yamato_killstreak_mid_01.vsnd",
 		]
-		vsnd_duration = 3.110010
+		vsnd_duration = 3.11001
 	}
 	yamato_killstreak_mid_02_hero_3d = 
 	{
@@ -4178,7 +4178,7 @@
 		[
 			"sounds/vo/yamato/yamato_killstreak_mid_03.vsnd",
 		]
-		vsnd_duration = 1.894500
+		vsnd_duration = 1.8945
 	}
 	yamato_killstreak_mid_03_hero_announcer = 
 	{
@@ -4188,7 +4188,7 @@
 		[
 			"sounds/vo/yamato/yamato_killstreak_mid_03.vsnd",
 		]
-		vsnd_duration = 1.894500
+		vsnd_duration = 1.8945
 	}
 	yamato_killstreak_start_01_hero_3d = 
 	{
@@ -4258,7 +4258,7 @@
 		[
 			"sounds/vo/yamato/yamato_killstreak_start_04.vsnd",
 		]
-		vsnd_duration = 2.236500
+		vsnd_duration = 2.2365
 	}
 	yamato_killstreak_start_04_hero_announcer = 
 	{
@@ -4268,7 +4268,7 @@
 		[
 			"sounds/vo/yamato/yamato_killstreak_start_04.vsnd",
 		]
-		vsnd_duration = 2.236500
+		vsnd_duration = 2.2365
 	}
 	yamato_killstreak_start_05_hero_3d = 
 	{
@@ -4278,7 +4278,7 @@
 		[
 			"sounds/vo/yamato/yamato_killstreak_start_05.vsnd",
 		]
-		vsnd_duration = 1.854490
+		vsnd_duration = 1.85449
 	}
 	yamato_killstreak_start_05_hero_announcer = 
 	{
@@ -4288,7 +4288,7 @@
 		[
 			"sounds/vo/yamato/yamato_killstreak_start_05.vsnd",
 		]
-		vsnd_duration = 1.854490
+		vsnd_duration = 1.85449
 	}
 	yamato_last_one_standing_01_hero_3d = 
 	{
@@ -4318,7 +4318,7 @@
 		[
 			"sounds/vo/yamato/yamato_last_one_standing_03.vsnd",
 		]
-		vsnd_duration = 2.025990
+		vsnd_duration = 2.02599
 	}
 	yamato_leave_base_01_hero_3d = 
 	{
@@ -4508,7 +4508,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_bebop_convo02_01.vsnd",
 		]
-		vsnd_duration = 2.501250
+		vsnd_duration = 2.50125
 	}
 	yamato_match_start_yamato_bebop_convo02_03_hero_zipline_3d = 
 	{
@@ -4558,7 +4558,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_bookworm_convo01_03.vsnd",
 		]
-		vsnd_duration = 1.378750
+		vsnd_duration = 1.37875
 	}
 	yamato_match_start_yamato_bookworm_convo02_01_hero_zipline_3d = 
 	{
@@ -4568,7 +4568,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_bookworm_convo02_01.vsnd",
 		]
-		vsnd_duration = 3.668010
+		vsnd_duration = 3.66801
 	}
 	yamato_match_start_yamato_bookworm_convo02_03_hero_zipline_3d = 
 	{
@@ -4608,7 +4608,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_bookworm_convo03_06.vsnd",
 		]
-		vsnd_duration = 7.782500
+		vsnd_duration = 7.7825
 	}
 	yamato_match_start_yamato_dynamo_convo01_01_hero_zipline_3d = 
 	{
@@ -4648,7 +4648,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_dynamo_convo02_01.vsnd",
 		]
-		vsnd_duration = 2.280260
+		vsnd_duration = 2.28026
 	}
 	yamato_match_start_yamato_dynamo_convo02_03_hero_zipline_3d = 
 	{
@@ -4668,7 +4668,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_dynamo_convo03_02.vsnd",
 		]
-		vsnd_duration = 0.799250
+		vsnd_duration = 0.79925
 	}
 	yamato_match_start_yamato_dynamo_convo03_04_hero_zipline_3d = 
 	{
@@ -4818,7 +4818,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_ghost_convo02_01.vsnd",
 		]
-		vsnd_duration = 1.353750
+		vsnd_duration = 1.35375
 	}
 	yamato_match_start_yamato_ghost_convo02_03_hero_zipline_3d = 
 	{
@@ -4938,7 +4938,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_inferno_convo03_02.vsnd",
 		]
-		vsnd_duration = 3.370500
+		vsnd_duration = 3.3705
 	}
 	yamato_match_start_yamato_inferno_convo03_04_hero_zipline_3d = 
 	{
@@ -4978,7 +4978,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_kelvin_convo02_02.vsnd",
 		]
-		vsnd_duration = 1.002490
+		vsnd_duration = 1.00249
 	}
 	yamato_match_start_yamato_kelvin_convo02_04_hero_zipline_3d = 
 	{
@@ -5018,7 +5018,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_krill_convo01_01.vsnd",
 		]
-		vsnd_duration = 1.696250
+		vsnd_duration = 1.69625
 	}
 	yamato_match_start_yamato_krill_convo01_03_hero_zipline_3d = 
 	{
@@ -5058,7 +5058,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_krill_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.586490
+		vsnd_duration = 1.58649
 	}
 	yamato_match_start_yamato_krill_convo03_02_hero_zipline_3d = 
 	{
@@ -5228,7 +5228,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_orion_convo01_02.vsnd",
 		]
-		vsnd_duration = 1.086010
+		vsnd_duration = 1.08601
 	}
 	yamato_match_start_yamato_orion_convo02_01_hero_zipline_3d = 
 	{
@@ -5238,7 +5238,7 @@
 		[
 			"sounds/vo/yamato/yamato_match_start_yamato_orion_convo02_01.vsnd",
 		]
-		vsnd_duration = 1.138260
+		vsnd_duration = 1.13826
 	}
 	yamato_match_start_yamato_orion_convo02_03_hero_zipline_3d = 
 	{
@@ -5558,7 +5558,7 @@
 		[
 			"sounds/vo/yamato/yamato_near_miss_01.vsnd",
 		]
-		vsnd_duration = 1.654010
+		vsnd_duration = 1.65401
 	}
 	yamato_near_miss_02_hero_3d = 
 	{
@@ -5628,7 +5628,7 @@
 		[
 			"sounds/vo/yamato/yamato_outnumbered_03.vsnd",
 		]
-		vsnd_duration = 1.403250
+		vsnd_duration = 1.40325
 	}
 	yamato_pain_big_01_emote_pain_3d = 
 	{
@@ -5718,7 +5718,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_pain_death_01.vsnd",
 		]
-		vsnd_duration = 0.734000
+		vsnd_duration = 0.734
 	}
 	yamato_pain_death_01_emote_pain_3d = 
 	{
@@ -5728,7 +5728,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_pain_death_01.vsnd",
 		]
-		vsnd_duration = 0.734000
+		vsnd_duration = 0.734
 	}
 	yamato_pain_death_02_emote_death_3d = 
 	{
@@ -5858,7 +5858,7 @@
 		[
 			"sounds/vo/yamato/emote/yamato_pain_small_05.vsnd",
 		]
-		vsnd_duration = 0.543500
+		vsnd_duration = 0.5435
 	}
 	yamato_parry_01_alt_01_hero_3d = 
 	{
@@ -5948,7 +5948,7 @@
 		[
 			"sounds/vo/yamato/yamato_pick_up_gold_05.vsnd",
 		]
-		vsnd_duration = 2.557500
+		vsnd_duration = 2.5575
 	}
 	yamato_pick_up_rejuv_01_hero_3d = 
 	{
@@ -6038,7 +6038,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ability3_not_ready.vsnd",
 		]
-		vsnd_duration = 1.881490
+		vsnd_duration = 1.88149
 	}
 	yamato_ping_ability4_almost_ready_ping_2d = 
 	{
@@ -6128,7 +6128,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_astro_in_mid.vsnd",
 		]
-		vsnd_duration = 1.184240
+		vsnd_duration = 1.18424
 	}
 	yamato_ping_astro_missing_01_ping_2d = 
 	{
@@ -6148,7 +6148,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_astro_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.790010
+		vsnd_duration = 1.79001
 	}
 	yamato_ping_astro_on_top_of_mid_ping_2d = 
 	{
@@ -6188,7 +6188,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_atlas_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.583000
+		vsnd_duration = 1.583
 	}
 	yamato_ping_atlas_check_items_ping_2d = 
 	{
@@ -6198,7 +6198,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_atlas_check_items.vsnd",
 		]
-		vsnd_duration = 1.675490
+		vsnd_duration = 1.67549
 	}
 	yamato_ping_atlas_dead_ping_2d = 
 	{
@@ -6288,7 +6288,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_atlas.vsnd",
 		]
-		vsnd_duration = 1.530760
+		vsnd_duration = 1.53076
 	}
 	yamato_ping_attack_bebop_ping_2d = 
 	{
@@ -6398,7 +6398,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_forge.vsnd",
 		]
-		vsnd_duration = 1.519740
+		vsnd_duration = 1.51974
 	}
 	yamato_ping_attack_frank_ping_2d = 
 	{
@@ -6438,7 +6438,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_haze.vsnd",
 		]
-		vsnd_duration = 1.323760
+		vsnd_duration = 1.32376
 	}
 	yamato_ping_attack_hornet_ping_2d = 
 	{
@@ -6478,7 +6478,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_krill.vsnd",
 		]
-		vsnd_duration = 1.216000
+		vsnd_duration = 1.216
 	}
 	yamato_ping_attack_lash_ping_2d = 
 	{
@@ -6488,7 +6488,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_lash.vsnd",
 		]
-		vsnd_duration = 1.335740
+		vsnd_duration = 1.33574
 	}
 	yamato_ping_attack_magician_ping_2d = 
 	{
@@ -6538,7 +6538,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_orion.vsnd",
 		]
-		vsnd_duration = 1.462010
+		vsnd_duration = 1.46201
 	}
 	yamato_ping_attack_priest_ping_2d = 
 	{
@@ -6578,7 +6578,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_synth.vsnd",
 		]
-		vsnd_duration = 1.320000
+		vsnd_duration = 1.32
 	}
 	yamato_ping_attack_tengu_ping_2d = 
 	{
@@ -6598,7 +6598,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.243000
+		vsnd_duration = 1.243
 	}
 	yamato_ping_attack_viper_ping_2d = 
 	{
@@ -6618,7 +6618,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_viscous.vsnd",
 		]
-		vsnd_duration = 1.429240
+		vsnd_duration = 1.42924
 	}
 	yamato_ping_attack_warden_ping_2d = 
 	{
@@ -6628,7 +6628,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_warden.vsnd",
 		]
-		vsnd_duration = 1.355250
+		vsnd_duration = 1.35525
 	}
 	yamato_ping_attack_werewolf_ping_2d = 
 	{
@@ -6658,7 +6658,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_attack_wrecker.vsnd",
 		]
-		vsnd_duration = 1.401490
+		vsnd_duration = 1.40149
 	}
 	yamato_ping_avatar_under_attack_ping_2d = 
 	{
@@ -6698,7 +6698,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_bebop_check_items.vsnd",
 		]
-		vsnd_duration = 1.702510
+		vsnd_duration = 1.70251
 	}
 	yamato_ping_bebop_dead_ping_2d = 
 	{
@@ -6818,7 +6818,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_bookworm_dead.vsnd",
 		]
-		vsnd_duration = 1.084510
+		vsnd_duration = 1.08451
 	}
 	yamato_ping_bookworm_in_mid_ping_2d = 
 	{
@@ -6908,7 +6908,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_can_heal_bebop.vsnd",
 		]
-		vsnd_duration = 1.474490
+		vsnd_duration = 1.47449
 	}
 	yamato_ping_can_heal_bookworm_ping_2d = 
 	{
@@ -6948,7 +6948,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_can_heal_drifter.vsnd",
 		]
-		vsnd_duration = 1.610000
+		vsnd_duration = 1.61
 	}
 	yamato_ping_can_heal_dynamo_ping_2d = 
 	{
@@ -7008,7 +7008,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_can_heal_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.482490
+		vsnd_duration = 1.48249
 	}
 	yamato_ping_can_heal_haze_ping_2d = 
 	{
@@ -7078,7 +7078,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_can_heal_magician.vsnd",
 		]
-		vsnd_duration = 1.593760
+		vsnd_duration = 1.59376
 	}
 	yamato_ping_can_heal_mirage_ping_2d = 
 	{
@@ -7148,7 +7148,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_can_heal_shiv.vsnd",
 		]
-		vsnd_duration = 1.604010
+		vsnd_duration = 1.60401
 	}
 	yamato_ping_can_heal_synth_ping_2d = 
 	{
@@ -7158,7 +7158,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_can_heal_synth.vsnd",
 		]
-		vsnd_duration = 1.466010
+		vsnd_duration = 1.46601
 	}
 	yamato_ping_can_heal_tengu_ping_2d = 
 	{
@@ -7188,7 +7188,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_can_heal_viper.vsnd",
 		]
-		vsnd_duration = 1.471490
+		vsnd_duration = 1.47149
 	}
 	yamato_ping_can_heal_viscous_ping_2d = 
 	{
@@ -7228,7 +7228,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_can_heal_wraith.vsnd",
 		]
-		vsnd_duration = 1.494990
+		vsnd_duration = 1.49499
 	}
 	yamato_ping_can_heal_wrecker_ping_2d = 
 	{
@@ -7428,7 +7428,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_careful_drifter_01.vsnd",
 		]
-		vsnd_duration = 1.100490
+		vsnd_duration = 1.10049
 	}
 	yamato_ping_careful_drifter_02_ping_2d = 
 	{
@@ -7528,7 +7528,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_careful_forge_01.vsnd",
 		]
-		vsnd_duration = 1.245240
+		vsnd_duration = 1.24524
 	}
 	yamato_ping_careful_forge_02_ping_2d = 
 	{
@@ -7698,7 +7698,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_careful_hornet_03.vsnd",
 		]
-		vsnd_duration = 1.311750
+		vsnd_duration = 1.31175
 	}
 	yamato_ping_careful_inferno_01_ping_2d = 
 	{
@@ -7738,7 +7738,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_careful_kelvin_01.vsnd",
 		]
-		vsnd_duration = 1.012010
+		vsnd_duration = 1.01201
 	}
 	yamato_ping_careful_kelvin_02_ping_2d = 
 	{
@@ -7838,7 +7838,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_careful_magician_02.vsnd",
 		]
-		vsnd_duration = 1.184010
+		vsnd_duration = 1.18401
 	}
 	yamato_ping_careful_magician_03_ping_2d = 
 	{
@@ -8058,7 +8058,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_careful_shiv_03.vsnd",
 		]
-		vsnd_duration = 1.112250
+		vsnd_duration = 1.11225
 	}
 	yamato_ping_careful_synth_01_ping_2d = 
 	{
@@ -8258,7 +8258,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_careful_werewolf_02.vsnd",
 		]
-		vsnd_duration = 1.183000
+		vsnd_duration = 1.183
 	}
 	yamato_ping_careful_werewolf_03_ping_2d = 
 	{
@@ -8348,7 +8348,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_chrono_check_items.vsnd",
 		]
-		vsnd_duration = 1.710760
+		vsnd_duration = 1.71076
 	}
 	yamato_ping_chrono_dead_ping_2d = 
 	{
@@ -8408,7 +8408,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_chrono_under_garage.vsnd",
 		]
-		vsnd_duration = 1.546510
+		vsnd_duration = 1.54651
 	}
 	yamato_ping_chrono_was_here_ping_2d = 
 	{
@@ -8488,7 +8488,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_defend_green_02.vsnd",
 		]
-		vsnd_duration = 1.156000
+		vsnd_duration = 1.156
 	}
 	yamato_ping_defend_yellow_01_ping_2d = 
 	{
@@ -8588,7 +8588,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_doorman_under_garage.vsnd",
 		]
-		vsnd_duration = 1.599760
+		vsnd_duration = 1.59976
 	}
 	yamato_ping_doorman_was_here_ping_2d = 
 	{
@@ -8888,7 +8888,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_fencer_missing_01.vsnd",
 		]
-		vsnd_duration = 1.480240
+		vsnd_duration = 1.48024
 	}
 	yamato_ping_flank_ping_2d = 
 	{
@@ -8928,7 +8928,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_forge_dead.vsnd",
 		]
-		vsnd_duration = 1.290990
+		vsnd_duration = 1.29099
 	}
 	yamato_ping_forge_in_mid_ping_2d = 
 	{
@@ -9058,7 +9058,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_frank_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.639750
+		vsnd_duration = 1.63975
 	}
 	yamato_ping_frank_under_garage_ping_2d = 
 	{
@@ -9098,7 +9098,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ghost_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.576240
+		vsnd_duration = 1.57624
 	}
 	yamato_ping_ghost_check_items_ping_2d = 
 	{
@@ -9158,7 +9158,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ghost_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.461750
+		vsnd_duration = 1.46175
 	}
 	yamato_ping_ghost_under_garage_ping_2d = 
 	{
@@ -9168,7 +9168,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ghost_under_garage.vsnd",
 		]
-		vsnd_duration = 1.472750
+		vsnd_duration = 1.47275
 	}
 	yamato_ping_ghost_was_here_ping_2d = 
 	{
@@ -9208,7 +9208,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_gigawatt_dead.vsnd",
 		]
-		vsnd_duration = 1.262740
+		vsnd_duration = 1.26274
 	}
 	yamato_ping_gigawatt_in_mid_ping_2d = 
 	{
@@ -9218,7 +9218,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_gigawatt_in_mid.vsnd",
 		]
-		vsnd_duration = 1.263740
+		vsnd_duration = 1.26374
 	}
 	yamato_ping_gigawatt_missing_01_ping_2d = 
 	{
@@ -9338,7 +9338,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_good_game_02.vsnd",
 		]
-		vsnd_duration = 1.242250
+		vsnd_duration = 1.24225
 	}
 	yamato_ping_good_game_03_ping_2d = 
 	{
@@ -9358,7 +9358,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_good_job_01.vsnd",
 		]
-		vsnd_duration = 0.882740
+		vsnd_duration = 0.88274
 	}
 	yamato_ping_green_help_01_ping_2d = 
 	{
@@ -9388,7 +9388,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_haze_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.463250
+		vsnd_duration = 1.46325
 	}
 	yamato_ping_haze_check_items_ping_2d = 
 	{
@@ -9468,7 +9468,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_haze_was_here.vsnd",
 		]
-		vsnd_duration = 1.098510
+		vsnd_duration = 1.09851
 	}
 	yamato_ping_headed_blue_01_ping_2d = 
 	{
@@ -9488,7 +9488,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_headed_blue_02.vsnd",
 		]
-		vsnd_duration = 1.295000
+		vsnd_duration = 1.295
 	}
 	yamato_ping_headed_green_01_ping_2d = 
 	{
@@ -9628,7 +9628,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_hornet_missing_01.vsnd",
 		]
-		vsnd_duration = 1.280000
+		vsnd_duration = 1.28
 	}
 	yamato_ping_hornet_on_top_of_garage_ping_2d = 
 	{
@@ -9708,7 +9708,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ignore_bookworm.vsnd",
 		]
-		vsnd_duration = 1.114750
+		vsnd_duration = 1.11475
 	}
 	yamato_ping_ignore_chrono_ping_2d = 
 	{
@@ -9778,7 +9778,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ignore_frank.vsnd",
 		]
-		vsnd_duration = 1.123490
+		vsnd_duration = 1.12349
 	}
 	yamato_ping_ignore_ghost_ping_2d = 
 	{
@@ -9808,7 +9808,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ignore_haze.vsnd",
 		]
-		vsnd_duration = 1.041760
+		vsnd_duration = 1.04176
 	}
 	yamato_ping_ignore_hornet_ping_2d = 
 	{
@@ -9858,7 +9858,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ignore_lash.vsnd",
 		]
-		vsnd_duration = 1.025250
+		vsnd_duration = 1.02525
 	}
 	yamato_ping_ignore_magician_ping_2d = 
 	{
@@ -9928,7 +9928,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ignore_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.049000
+		vsnd_duration = 1.049
 	}
 	yamato_ping_ignore_shiv_ping_2d = 
 	{
@@ -9988,7 +9988,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ignore_viscous.vsnd",
 		]
-		vsnd_duration = 1.169000
+		vsnd_duration = 1.169
 	}
 	yamato_ping_ignore_warden_ping_2d = 
 	{
@@ -10008,7 +10008,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_ignore_werewolf.vsnd",
 		]
-		vsnd_duration = 1.125010
+		vsnd_duration = 1.12501
 	}
 	yamato_ping_ignore_wraith_ping_2d = 
 	{
@@ -10128,7 +10128,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_item_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.410990
+		vsnd_duration = 1.41099
 	}
 	yamato_ping_item_not_ready_ping_2d = 
 	{
@@ -10168,7 +10168,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_jar_call_03.vsnd",
 		]
-		vsnd_duration = 1.408500
+		vsnd_duration = 1.4085
 	}
 	yamato_ping_kelvin_almost_respawn_ping_2d = 
 	{
@@ -10308,7 +10308,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_krill_dead.vsnd",
 		]
-		vsnd_duration = 1.090990
+		vsnd_duration = 1.09099
 	}
 	yamato_ping_krill_in_mid_ping_2d = 
 	{
@@ -10338,7 +10338,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_krill_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.730000
+		vsnd_duration = 1.73
 	}
 	yamato_ping_krill_on_top_of_mid_ping_2d = 
 	{
@@ -10358,7 +10358,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_krill_under_garage.vsnd",
 		]
-		vsnd_duration = 1.448760
+		vsnd_duration = 1.44876
 	}
 	yamato_ping_krill_was_here_ping_2d = 
 	{
@@ -10388,7 +10388,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_lash_check_items.vsnd",
 		]
-		vsnd_duration = 1.571260
+		vsnd_duration = 1.57126
 	}
 	yamato_ping_lash_dead_ping_2d = 
 	{
@@ -10398,7 +10398,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_lash_dead.vsnd",
 		]
-		vsnd_duration = 1.042010
+		vsnd_duration = 1.04201
 	}
 	yamato_ping_lash_in_mid_ping_2d = 
 	{
@@ -10418,7 +10418,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_lash_missing_01.vsnd",
 		]
-		vsnd_duration = 1.091260
+		vsnd_duration = 1.09126
 	}
 	yamato_ping_lash_on_top_of_garage_ping_2d = 
 	{
@@ -10498,7 +10498,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_lets_go_green.vsnd",
 		]
-		vsnd_duration = 1.021510
+		vsnd_duration = 1.02151
 	}
 	yamato_ping_lets_go_yellow_alt_ping_2d = 
 	{
@@ -10568,7 +10568,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_magician_in_mid.vsnd",
 		]
-		vsnd_duration = 1.165260
+		vsnd_duration = 1.16526
 	}
 	yamato_ping_magician_missing_01_ping_2d = 
 	{
@@ -10598,7 +10598,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_magician_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.681250
+		vsnd_duration = 1.68125
 	}
 	yamato_ping_magician_under_garage_ping_2d = 
 	{
@@ -10628,7 +10628,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_meet_here.vsnd",
 		]
-		vsnd_duration = 1.070313
+		vsnd_duration = 1.070312
 	}
 	yamato_ping_mirage_almost_respawn_ping_2d = 
 	{
@@ -10698,7 +10698,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_mirage_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.531240
+		vsnd_duration = 1.53124
 	}
 	yamato_ping_mirage_under_garage_ping_2d = 
 	{
@@ -10828,7 +10828,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_nano_missing_01.vsnd",
 		]
-		vsnd_duration = 1.148250
+		vsnd_duration = 1.14825
 	}
 	yamato_ping_nano_on_top_of_garage_ping_2d = 
 	{
@@ -10838,7 +10838,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_nano_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.793250
+		vsnd_duration = 1.79325
 	}
 	yamato_ping_nano_on_top_of_mid_ping_2d = 
 	{
@@ -10938,7 +10938,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_necro_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.435490
+		vsnd_duration = 1.43549
 	}
 	yamato_ping_necro_under_garage_ping_2d = 
 	{
@@ -10958,7 +10958,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_necro_was_here.vsnd",
 		]
-		vsnd_duration = 1.191510
+		vsnd_duration = 1.19151
 	}
 	yamato_ping_need_cover_ping_2d = 
 	{
@@ -11028,7 +11028,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_need_help_yellow_alt.vsnd",
 		]
-		vsnd_duration = 1.388250
+		vsnd_duration = 1.38825
 	}
 	yamato_ping_need_help_yellow_ping_2d = 
 	{
@@ -11218,7 +11218,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_post_game_02.vsnd",
 		]
-		vsnd_duration = 1.711260
+		vsnd_duration = 1.71126
 	}
 	yamato_ping_post_game_03_ping_2d = 
 	{
@@ -11268,7 +11268,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_pre_game_01.vsnd",
 		]
-		vsnd_duration = 3.027260
+		vsnd_duration = 3.02726
 	}
 	yamato_ping_pre_game_02_ping_2d = 
 	{
@@ -11418,7 +11418,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_priest_was_here.vsnd",
 		]
-		vsnd_duration = 1.221260
+		vsnd_duration = 1.22126
 	}
 	yamato_ping_punkgoat_almost_respawn_ping_2d = 
 	{
@@ -11468,7 +11468,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_punkgoat_missing_01.vsnd",
 		]
-		vsnd_duration = 1.116750
+		vsnd_duration = 1.11675
 	}
 	yamato_ping_punkgoat_on_top_of_garage_ping_2d = 
 	{
@@ -11628,7 +11628,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_retreat_02.vsnd",
 		]
-		vsnd_duration = 1.285500
+		vsnd_duration = 1.2855
 	}
 	yamato_ping_returning_to_base_ping_2d = 
 	{
@@ -11648,7 +11648,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_right_back_01.vsnd",
 		]
-		vsnd_duration = 1.213990
+		vsnd_duration = 1.21399
 	}
 	yamato_ping_rupture_almost_ready_ping_2d = 
 	{
@@ -11668,7 +11668,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_rupture_not_ready.vsnd",
 		]
-		vsnd_duration = 1.541750
+		vsnd_duration = 1.54175
 	}
 	yamato_ping_saw_astro_ping_2d = 
 	{
@@ -11738,7 +11738,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_saw_drifter.vsnd",
 		]
-		vsnd_duration = 1.114760
+		vsnd_duration = 1.11476
 	}
 	yamato_ping_saw_dynamo_ping_2d = 
 	{
@@ -11788,7 +11788,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_saw_ghost.vsnd",
 		]
-		vsnd_duration = 0.980750
+		vsnd_duration = 0.98075
 	}
 	yamato_ping_saw_gigawatt_ping_2d = 
 	{
@@ -11798,7 +11798,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_saw_gigawatt.vsnd",
 		]
-		vsnd_duration = 0.956250
+		vsnd_duration = 0.95625
 	}
 	yamato_ping_saw_haze_ping_2d = 
 	{
@@ -11968,7 +11968,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_saw_them.vsnd",
 		]
-		vsnd_duration = 0.948490
+		vsnd_duration = 0.94849
 	}
 	yamato_ping_saw_vampirebat_ping_2d = 
 	{
@@ -12008,7 +12008,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_saw_warden.vsnd",
 		]
-		vsnd_duration = 1.047010
+		vsnd_duration = 1.04701
 	}
 	yamato_ping_saw_werewolf_ping_2d = 
 	{
@@ -12288,7 +12288,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_enemy_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.307490
+		vsnd_duration = 1.30749
 	}
 	yamato_ping_see_enemy_on_roof_ping_2d = 
 	{
@@ -12328,7 +12328,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_familiar_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.283490
+		vsnd_duration = 1.28349
 	}
 	yamato_ping_see_familiar_on_roof_ping_2d = 
 	{
@@ -12338,7 +12338,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_familiar_on_roof.vsnd",
 		]
-		vsnd_duration = 1.214760
+		vsnd_duration = 1.21476
 	}
 	yamato_ping_see_fencer_01_ping_2d = 
 	{
@@ -12348,7 +12348,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_fencer_01.vsnd",
 		]
-		vsnd_duration = 1.135500
+		vsnd_duration = 1.1355
 	}
 	yamato_ping_see_forge_on_bridge_ping_2d = 
 	{
@@ -12448,7 +12448,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_gigawatt_01.vsnd",
 		]
-		vsnd_duration = 0.940000
+		vsnd_duration = 0.94
 	}
 	yamato_ping_see_gigawatt_on_bridge_ping_2d = 
 	{
@@ -12708,7 +12708,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_mirage_on_roof.vsnd",
 		]
-		vsnd_duration = 1.283500
+		vsnd_duration = 1.2835
 	}
 	yamato_ping_see_nano_on_bridge_ping_2d = 
 	{
@@ -12728,7 +12728,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_nano_on_roof.vsnd",
 		]
-		vsnd_duration = 1.277990
+		vsnd_duration = 1.27799
 	}
 	yamato_ping_see_nano_ping_2d = 
 	{
@@ -12748,7 +12748,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_necro_01.vsnd",
 		]
-		vsnd_duration = 1.059760
+		vsnd_duration = 1.05976
 	}
 	yamato_ping_see_necro_on_bridge_ping_2d = 
 	{
@@ -12788,7 +12788,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_orion_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.500750
+		vsnd_duration = 1.50075
 	}
 	yamato_ping_see_orion_on_roof_ping_2d = 
 	{
@@ -12858,7 +12858,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_punkgoat_on_roof.vsnd",
 		]
-		vsnd_duration = 1.262500
+		vsnd_duration = 1.2625
 	}
 	yamato_ping_see_shiv_01_ping_2d = 
 	{
@@ -12908,7 +12908,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_synth_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.240240
+		vsnd_duration = 1.24024
 	}
 	yamato_ping_see_synth_on_roof_ping_2d = 
 	{
@@ -12918,7 +12918,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_synth_on_roof.vsnd",
 		]
-		vsnd_duration = 1.231510
+		vsnd_duration = 1.23151
 	}
 	yamato_ping_see_tengu_on_bridge_ping_2d = 
 	{
@@ -12998,7 +12998,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_viper_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.313500
+		vsnd_duration = 1.3135
 	}
 	yamato_ping_see_viper_on_roof_ping_2d = 
 	{
@@ -13028,7 +13028,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_viscous_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.329260
+		vsnd_duration = 1.32926
 	}
 	yamato_ping_see_viscous_on_roof_ping_2d = 
 	{
@@ -13068,7 +13068,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_warden_on_roof.vsnd",
 		]
-		vsnd_duration = 1.236240
+		vsnd_duration = 1.23624
 	}
 	yamato_ping_see_werewolf_01_ping_2d = 
 	{
@@ -13088,7 +13088,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_werewolf_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.460490
+		vsnd_duration = 1.46049
 	}
 	yamato_ping_see_werewolf_on_roof_ping_2d = 
 	{
@@ -13108,7 +13108,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_see_wraith_01.vsnd",
 		]
-		vsnd_duration = 1.067250
+		vsnd_duration = 1.06725
 	}
 	yamato_ping_see_wraith_on_bridge_ping_2d = 
 	{
@@ -13178,7 +13178,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_shiv_check_items.vsnd",
 		]
-		vsnd_duration = 1.616000
+		vsnd_duration = 1.616
 	}
 	yamato_ping_shiv_dead_ping_2d = 
 	{
@@ -13328,7 +13328,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_stim_pack_not_ready.vsnd",
 		]
-		vsnd_duration = 1.722000
+		vsnd_duration = 1.722
 	}
 	yamato_ping_stun_astro_01_ping_2d = 
 	{
@@ -13438,7 +13438,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_stun_frank_01.vsnd",
 		]
-		vsnd_duration = 1.079000
+		vsnd_duration = 1.079
 	}
 	yamato_ping_stun_ghost_01_ping_2d = 
 	{
@@ -13528,7 +13528,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_stun_magician_01.vsnd",
 		]
-		vsnd_duration = 1.119760
+		vsnd_duration = 1.11976
 	}
 	yamato_ping_stun_mirage_01_ping_2d = 
 	{
@@ -13738,7 +13738,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_synth_missing_01.vsnd",
 		]
-		vsnd_duration = 1.081010
+		vsnd_duration = 1.08101
 	}
 	yamato_ping_synth_on_top_of_garage_ping_2d = 
 	{
@@ -13848,7 +13848,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_tengu_dead.vsnd",
 		]
-		vsnd_duration = 1.096740
+		vsnd_duration = 1.09674
 	}
 	yamato_ping_tengu_in_mid_ping_2d = 
 	{
@@ -13938,7 +13938,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_thanks.vsnd",
 		]
-		vsnd_duration = 0.707010
+		vsnd_duration = 0.70701
 	}
 	yamato_ping_they_were_here_ping_2d = 
 	{
@@ -13948,7 +13948,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_they_were_here.vsnd",
 		]
-		vsnd_duration = 1.126510
+		vsnd_duration = 1.12651
 	}
 	yamato_ping_theyre_in_mid_ping_2d = 
 	{
@@ -14078,7 +14078,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_use_ability4_06.vsnd",
 		]
-		vsnd_duration = 1.257813
+		vsnd_duration = 1.257812
 	}
 	yamato_ping_use_ability4_07_ping_2d = 
 	{
@@ -14128,7 +14128,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_use_glitch.vsnd",
 		]
-		vsnd_duration = 1.386760
+		vsnd_duration = 1.38676
 	}
 	yamato_ping_use_health_nova_ping_2d = 
 	{
@@ -14248,7 +14248,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_vampirebat_in_mid.vsnd",
 		]
-		vsnd_duration = 1.098000
+		vsnd_duration = 1.098
 	}
 	yamato_ping_vampirebat_missing_01_ping_2d = 
 	{
@@ -14468,7 +14468,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_viscous_under_garage.vsnd",
 		]
-		vsnd_duration = 1.529750
+		vsnd_duration = 1.52975
 	}
 	yamato_ping_viscous_was_here_ping_2d = 
 	{
@@ -14728,7 +14728,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_with_atlas.vsnd",
 		]
-		vsnd_duration = 1.351260
+		vsnd_duration = 1.35126
 	}
 	yamato_ping_with_bebop_ping_2d = 
 	{
@@ -14768,7 +14768,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_with_doorman.vsnd",
 		]
-		vsnd_duration = 1.334240
+		vsnd_duration = 1.33424
 	}
 	yamato_ping_with_drifter_ping_2d = 
 	{
@@ -14778,7 +14778,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_with_drifter.vsnd",
 		]
-		vsnd_duration = 1.378000
+		vsnd_duration = 1.378
 	}
 	yamato_ping_with_dynamo_ping_2d = 
 	{
@@ -14978,7 +14978,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_with_shiv.vsnd",
 		]
-		vsnd_duration = 1.211760
+		vsnd_duration = 1.21176
 	}
 	yamato_ping_with_synth_ping_2d = 
 	{
@@ -14988,7 +14988,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_with_synth.vsnd",
 		]
-		vsnd_duration = 1.198990
+		vsnd_duration = 1.19899
 	}
 	yamato_ping_with_tengu_ping_2d = 
 	{
@@ -14998,7 +14998,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_with_tengu.vsnd",
 		]
-		vsnd_duration = 1.209510
+		vsnd_duration = 1.20951
 	}
 	yamato_ping_with_vampirebat_ping_2d = 
 	{
@@ -15008,7 +15008,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_with_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.210240
+		vsnd_duration = 1.21024
 	}
 	yamato_ping_with_viper_ping_2d = 
 	{
@@ -15088,7 +15088,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_wraith_check_items.vsnd",
 		]
-		vsnd_duration = 1.514260
+		vsnd_duration = 1.51426
 	}
 	yamato_ping_wraith_dead_ping_2d = 
 	{
@@ -15128,7 +15128,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_wraith_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.781500
+		vsnd_duration = 1.7815
 	}
 	yamato_ping_wraith_on_top_of_mid_ping_2d = 
 	{
@@ -15138,7 +15138,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_wraith_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.503760
+		vsnd_duration = 1.50376
 	}
 	yamato_ping_wraith_under_garage_ping_2d = 
 	{
@@ -15228,7 +15228,7 @@
 		[
 			"sounds/vo/yamato/ping/yamato_ping_wrecker_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.551490
+		vsnd_duration = 1.55149
 	}
 	yamato_ping_wrecker_under_garage_ping_2d = 
 	{
@@ -15318,7 +15318,7 @@
 		[
 			"sounds/vo/yamato/yamato_select_01.vsnd",
 		]
-		vsnd_duration = 1.253500
+		vsnd_duration = 1.2535
 	}
 	yamato_select_02_hero_3d = 
 	{
@@ -15358,7 +15358,7 @@
 		[
 			"sounds/vo/yamato/yamato_select_04.vsnd",
 		]
-		vsnd_duration = 5.692750
+		vsnd_duration = 5.69275
 	}
 	yamato_select_05_hero_3d = 
 	{
@@ -15368,7 +15368,7 @@
 		[
 			"sounds/vo/yamato/yamato_select_05.vsnd",
 		]
-		vsnd_duration = 2.662000
+		vsnd_duration = 2.662
 	}
 	yamato_select_06_hero_3d = 
 	{
@@ -15418,7 +15418,7 @@
 		[
 			"sounds/vo/yamato/yamato_select_10.vsnd",
 		]
-		vsnd_duration = 4.701760
+		vsnd_duration = 4.70176
 	}
 	yamato_t1_shop_reminder_01_hero_3d = 
 	{
@@ -15498,7 +15498,7 @@
 		[
 			"sounds/vo/yamato/yamato_t3_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 1.567000
+		vsnd_duration = 1.567
 	}
 	yamato_t3_shop_reminder_03_hero_3d = 
 	{
@@ -15538,7 +15538,7 @@
 		[
 			"sounds/vo/yamato/yamato_t4_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 1.937740
+		vsnd_duration = 1.93774
 	}
 	yamato_tower_got_denied_01_hero_3d = 
 	{
@@ -15548,7 +15548,7 @@
 		[
 			"sounds/vo/yamato/yamato_tower_got_denied_01.vsnd",
 		]
-		vsnd_duration = 2.517750
+		vsnd_duration = 2.51775
 	}
 	yamato_tower_got_denied_02_hero_3d = 
 	{
@@ -15578,7 +15578,7 @@
 		[
 			"sounds/vo/yamato/yamato_tower_got_denied_04.vsnd",
 		]
-		vsnd_duration = 1.682260
+		vsnd_duration = 1.68226
 	}
 	yamato_tower_got_denied_05_hero_3d = 
 	{
@@ -15628,7 +15628,7 @@
 		[
 			"sounds/vo/yamato/yamato_unselect_04.vsnd",
 		]
-		vsnd_duration = 1.449500
+		vsnd_duration = 1.4495
 	}
 	yamato_unselect_05_hero_3d = 
 	{
@@ -15648,7 +15648,7 @@
 		[
 			"sounds/vo/yamato/yamato_unselect_06.vsnd",
 		]
-		vsnd_duration = 1.195750
+		vsnd_duration = 1.19575
 	}
 	yamato_unselect_07_hero_3d = 
 	{
@@ -15788,7 +15788,7 @@
 		[
 			"sounds/vo/yamato/yamato_upgrade_power1_10.vsnd",
 		]
-		vsnd_duration = 3.216010
+		vsnd_duration = 3.21601
 	}
 	yamato_upgrade_power2_01_hero_3d = 
 	{
@@ -15958,7 +15958,7 @@
 		[
 			"sounds/vo/yamato/yamato_upgrade_power3_07.vsnd",
 		]
-		vsnd_duration = 3.379990
+		vsnd_duration = 3.37999
 	}
 	yamato_upgrade_power3_08_hero_3d = 
 	{
@@ -16028,7 +16028,7 @@
 		[
 			"sounds/vo/yamato/yamato_upgrade_power4_04.vsnd",
 		]
-		vsnd_duration = 2.978740
+		vsnd_duration = 2.97874
 	}
 	yamato_upgrade_power4_05_hero_3d = 
 	{
@@ -16078,7 +16078,7 @@
 		[
 			"sounds/vo/yamato/yamato_upgrade_power4_09.vsnd",
 		]
-		vsnd_duration = 2.956240
+		vsnd_duration = 2.95624
 	}
 	yamato_upgrade_power4_10_hero_3d = 
 	{
@@ -16178,7 +16178,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_curse_03.vsnd",
 		]
-		vsnd_duration = 1.494260
+		vsnd_duration = 1.49426
 	}
 	yamato_use_decay_01_ability_3d = 
 	{
@@ -16218,7 +16218,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_echo_shard_01.vsnd",
 		]
-		vsnd_duration = 1.053990
+		vsnd_duration = 1.05399
 	}
 	yamato_use_echo_shard_02_ability_3d = 
 	{
@@ -16238,7 +16238,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_echo_shard_03.vsnd",
 		]
-		vsnd_duration = 1.251000
+		vsnd_duration = 1.251
 	}
 	yamato_use_ice_blast_01_ability_3d = 
 	{
@@ -16358,7 +16358,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_power1_02.vsnd",
 		]
-		vsnd_duration = 1.036750
+		vsnd_duration = 1.03675
 	}
 	yamato_use_power1_03_ability_3d = 
 	{
@@ -16458,7 +16458,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_power2_02.vsnd",
 		]
-		vsnd_duration = 1.583490
+		vsnd_duration = 1.58349
 	}
 	yamato_use_power2_03_ability_3d = 
 	{
@@ -16648,7 +16648,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_power4_01.vsnd",
 		]
-		vsnd_duration = 2.655500
+		vsnd_duration = 2.6555
 	}
 	yamato_use_power4_01_hero_announcer = 
 	{
@@ -16658,7 +16658,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_power4_01.vsnd",
 		]
-		vsnd_duration = 2.655500
+		vsnd_duration = 2.6555
 	}
 	yamato_use_power4_01_ult_3d = 
 	{
@@ -16668,7 +16668,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_power4_01.vsnd",
 		]
-		vsnd_duration = 2.655500
+		vsnd_duration = 2.6555
 	}
 	yamato_use_power4_02_ability_3d = 
 	{
@@ -16768,7 +16768,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_power4_05.vsnd",
 		]
-		vsnd_duration = 1.970260
+		vsnd_duration = 1.97026
 	}
 	yamato_use_power4_05_hero_announcer = 
 	{
@@ -16778,7 +16778,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_power4_05.vsnd",
 		]
-		vsnd_duration = 1.970260
+		vsnd_duration = 1.97026
 	}
 	yamato_use_power4_05_ult_3d = 
 	{
@@ -16788,7 +16788,7 @@
 		[
 			"sounds/vo/yamato/yamato_use_power4_05.vsnd",
 		]
-		vsnd_duration = 1.970260
+		vsnd_duration = 1.97026
 	}
 	yamato_use_power4_06_02_ability_3d = 
 	{

@@ -149,75 +149,75 @@
 	Tokamak.Dying.Star.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/tokamak/a2_dying_star/cast/tokamak_dying_star_cast_01.vsnd"
 		vsnd_duration = 2.275442
 	}
 	Tokamak.Dying.Star.Impact = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = "sounds/abilities/tokamak/a2_dying_star/impact.vsnd"
 		vsnd_duration = 1.889792
 	}
 	Tokamak.Breach.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = "sounds/abilities/tokamak/a3_breach/cast.vsnd"
 		vsnd_duration = 2.635833
 	}
 	Tokamak.Smoke.Modifier.Start = 
 	{
 		base = "Base.Ability"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = "sounds/abilities/tokamak/a3_radiance/start.vsnd"
 		vsnd_duration = 1.743708
 	}
 	Tokamak.Smoke.Modifier.Start.Impact = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/tokamak/a3_radiance/start.vsnd"
 		vsnd_duration = 1.743708
 	}
 	Tokamak.Smoke.Modifier.Start.Steam = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/tokamak/a3_breach/invis/start_steam.vsnd"
 		vsnd_duration = 2.099188
 	}
 	Tokamak.Smoke.Modifier.Start.Texture = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/tokamak/a3_breach/invis/start_texture.vsnd"
 		vsnd_duration = 2.247667
 	}
 	Tokamak.Smoke.Modifier.Duration.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -9.000000
-		delay = -6.000000
+		volume = -9.0
+		delay = -6.0
 		vsnd_files = "sounds/abilities/tokamak/a3_radiance/dur_lp.vsnd"
 		vsnd_duration = 3.840521
 	}
 	Tokamak.Smoke.Modifier.End = 
 	{
 		base = "Base.Ability"
-		volume = -8.000000
+		volume = -8.0
 		vsnd_files = "sounds/abilities/tokamak/a3_breach/invis/start_steam.vsnd"
 		vsnd_duration = 2.099188
 	}
 	Tokamak.Radiance.Enemy.Burn = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
+		volume = 0.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		limiter_on = 1.0
+		limiter_max = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/gigawatt/a4_storm_cloud/impact_1.vsnd",
@@ -230,38 +230,38 @@
 	Ability.Tokamak.HotShot.Loop = 
 	{
 		base = "Base.Ability"
-		volume = -12.000000
-		delay_rand_min = -3.000000
+		volume = -12.0
+		delay_rand_min = -3.0
 		vsnd_files = "sounds/abilities/tokamak/a1_hot_shot/lp.vsnd"
-		vsnd_duration = 4.016000
+		vsnd_duration = 4.016
 	}
 	Ability.Tokamak.HotShot.Fire = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = "sounds/abilities/tokamak/a1_hot_shot/cast.vsnd"
 		vsnd_duration = 2.363729
 	}
 	Ability.Tokamak.HotShot.Start = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
+		volume = -6.0
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
 		vsnd_files = "sounds/abilities/tokamak/a1_hot_shot/tokamak_a1_hotshot_cast_01.vsnd"
 		vsnd_duration = 4.079637
 	}
 	Ability.Tokamak.HotShot.End = 
 	{
 		base = "Base.Ability"
-		volume = -21.000000
+		volume = -21.0
 		vsnd_files = "sounds/abilities/tokamak/a1_hot_shot/end.vsnd"
 		vsnd_duration = 1.817042
 	}
 	Ability.Tokamak.HotShot.Hit = 
 	{
 		base = "Base.Ability"
-		volume = -9.000000
+		volume = -9.0
 		vsnd_files = 
 		[
 			"sounds/abilities/tokamak/a1_hot_shot/hit_01.vsnd",
@@ -275,48 +275,48 @@
 	Tokamak.HeatSinks.Modifier.Lp = 
 	{
 		base = "Base.Ability"
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		volume_fade_out = 0.500000
-		pitch = 1.030000
-		volume = -11.000000
-		delay_rand_min = -2.000000
+		limiter_on = 1.0
+		limiter_max = 0.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		volume_fade_out = 0.5
+		pitch = 1.03
+		volume = -11.0
+		delay_rand_min = -2.0
 		vsnd_files = "sounds/abilities/tokamak/modifier_core_lp.vsnd"
-		vsnd_duration = 8.210250
+		vsnd_duration = 8.21025
 	}
 	Tokamak.Crimson.Cannon.Loop = 
 	{
 		base = "Base.Ability"
-		volume = -12.000000
-		delay_rand_min = -3.000000
+		volume = -12.0
+		delay_rand_min = -3.0
 		vsnd_files = "sounds/abilities/bebop/a4_hyper_beam/lp.vsnd"
-		vsnd_duration = 4.016000
+		vsnd_duration = 4.016
 	}
 	Tokamak.Crimson.Cannon.Start = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
-		volume_fade_out = 1.000000
+		volume = -6.0
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
+		volume_fade_out = 1.0
 		vsnd_files = "sounds/abilities/bebop/a4_hyper_beam/pre_cast_lyr1.vsnd"
 		vsnd_duration = 3.176875
 	}
 	Tokamak.Crimson.Cannon.Target = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
-		pitch = 0.900000
+		volume = -1.0
+		pitch = 0.9
 		vsnd_files = "sounds/abilities/tokamak/crimson_cannon_target.vsnd"
 		vsnd_duration = 1.040385
 	}
 	Tokamak.Crimson.Cannon.Fire = 
 	{
 		base = "Base.Ability"
-		limiter_on = 1.000000
-		limiter_max = 4.000000
+		limiter_on = 1.0
+		limiter_max = 4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/wraith/psychic_daggers_zap_01.vsnd",
@@ -329,12 +329,12 @@
 	Tokamak.Crimson.Cannon.Blocked = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/bebop/a3_hook/miss_01.vsnd",
 			"sounds/abilities/bebop/a3_hook/miss_02.vsnd",
 		]
-		vsnd_duration = 0.767800
+		vsnd_duration = 0.7678
 	}
 }

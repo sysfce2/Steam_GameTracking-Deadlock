@@ -3,7 +3,7 @@
 	Shrine.King.Destroy = 
 	{
 		base = "Base.NPC.Shrine"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/npc/shrine/shrine_amber_destroy_01.vsnd",
@@ -15,7 +15,7 @@
 	Shrine.Mother.Destroy = 
 	{
 		base = "Base.NPC.Shrine"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/npc/shrine/shrine_sapphire_destroy_01.vsnd",
@@ -27,19 +27,19 @@
 	Shrine.Mother.AOE.Warning = 
 	{
 		base = "Base.NPC.Shrine"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = 
 		[
 			"sounds/npc/shrine/shrine_sapphire_aoe_warning_01.vsnd",
 			"sounds/npc/shrine/shrine_sapphire_aoe_warning_02.vsnd",
 			"sounds/npc/shrine/shrine_sapphire_aoe_warning_03.vsnd",
 		]
-		vsnd_duration = 4.012630
+		vsnd_duration = 4.01263
 	}
 	Shrine.King.AOE.Warning = 
 	{
 		base = "Base.NPC.Shrine"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = 
 		[
 			"sounds/npc/shrine/shrine_amber_aoe_warning_01.vsnd",
@@ -51,7 +51,7 @@
 	Shrine.King.AOE.Impact = 
 	{
 		base = "Base.NPC.Shrine"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/npc/shrine/shrine_amber_aoe_impact_01.vsnd",
@@ -63,7 +63,7 @@
 	Shrine.Mother.AOE.Impact = 
 	{
 		base = "Base.NPC.Shrine"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/npc/shrine/shrine_sapphire_aoe_impact_01.vsnd",

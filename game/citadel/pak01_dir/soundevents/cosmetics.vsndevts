@@ -3,7 +3,7 @@
 	Cosmetics.HeroPoster.Select = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/cosmetics/hero_poster/cosmetic_decal_poster_select_01.vsnd",
@@ -17,7 +17,7 @@
 	Cosmetics.HeroPoster.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/cosmetics/hero_poster/cosmetic_decal_poster_deselect_01.vsnd",
@@ -31,7 +31,7 @@
 	Cosmetics.HeroPoster.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/cosmetics/hero_poster/cosmetic_decal_poster_cast_01.vsnd",
@@ -48,25 +48,24 @@
 		type = "citadel_default_3d"
 		base = 
 		[
-			
 			{
 				event_name = "Volume.Falloff.Ambience.Emitter"
 				field_name = "citadel_distance_falloff"
 			},
 		]
 		mixer_mixgroup = "All"
-		limiter_on = 1.000000
-		limiter_max = 2.000000
+		limiter_on = 1.0
+		limiter_max = 2.0
 		limiter_stop_oldest = true
-		hrtf_on = 1.000000
-		spread_max_value = 0.000000
-		spread_min_value = 0.000000
-		occlusion_scale = 0.900000
-		distance_hpf_on = 1.000000
-		distance_lpf_on = 1.000000
-		volume_fade_out = 0.250000
-		mono_downmix_enabled = 1.000000
-		volume = 4.000000
+		hrtf_on = 1.0
+		spread_max_value = 0.0
+		spread_min_value = 0.0
+		occlusion_scale = 0.9
+		distance_hpf_on = 1.0
+		distance_lpf_on = 1.0
+		volume_fade_out = 0.25
+		mono_downmix_enabled = 1.0
+		volume = 4.0
 		vsnd_files = 
 		[
 			"sounds/cosmetics/hero_poster/cosmetic_decal_poster_destroy_01.vsnd",

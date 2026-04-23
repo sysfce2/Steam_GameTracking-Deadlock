@@ -3,10 +3,10 @@
 	Kelvin.Wpn.Fire = 
 	{
 		base = "Base.Weapon.Pistol"
-		volume = 1.000000
-		tail_vol_offset_db = -12.000000
-		tail_interior_vol_offset_db = -12.000000
-		last_shot_vol_offset_db = 2.000000
+		volume = 1.0
+		tail_vol_offset_db = -12.0
+		tail_interior_vol_offset_db = -12.0
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/kelvin/kelvin_weapon_fire_01.vsnd",
@@ -25,13 +25,13 @@
 	Kelvin.Wpn.Fire.First = 
 	{
 		base = "Kelvin.Wpn.Fire"
-		limiter_max = 0.000000
-		transient_offset_db = 5.000000
+		limiter_max = 0.0
+		transient_offset_db = 5.0
 	}
 	Kelvin.Wpn.Impact = 
 	{
 		base = "Base.Bullet.Impact"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/kelvin/impact/layer/kelvin_wpn_impact_01.vsnd",
@@ -45,24 +45,24 @@
 	Kelvin.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -20.000000
-		pitch = 1.100000
+		volume = -20.0
+		pitch = 1.1
 		vsnd_files = "sounds/weapons/forge/zoom/zoom_in.vsnd"
 		vsnd_duration = 0.707583
 	}
 	Kelvin.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -20.000000
-		pitch = 1.100000
+		volume = -20.0
+		pitch = 1.1
 		vsnd_files = "sounds/weapons/forge/zoom/zoom_out.vsnd"
-		vsnd_duration = 0.831250
+		vsnd_duration = 0.83125
 	}
 	Kelvin.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/kelvin/reload/kelvin_wpn_reload_start_01.vsnd",
@@ -74,8 +74,8 @@
 	Kelvin.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/kelvin/reload/kelvin_wpn_reload_mid_01.vsnd",
@@ -87,8 +87,8 @@
 	Kelvin.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/kelvin/reload/kelvin_wpn_reload_end_01.vsnd",
@@ -100,7 +100,7 @@
 	Kelvin.Wpn.BulletWhizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = 
 		[
 			"sounds/weapons/kelvin/whizby/kelvin_weapon_whizby_groupA-001.vsnd",
@@ -119,29 +119,29 @@
 	Kelvin.IceGrenade.Select = 
 	{
 		base = "Base.Ability"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/kelvin/kelvin_ice_grenade_select_01.vsnd",
 			"sounds/abilities/kelvin/kelvin_ice_grenade_select_02.vsnd",
 			"sounds/abilities/kelvin/kelvin_ice_grenade_select_03.vsnd",
 		]
-		vsnd_duration = 1.387370
+		vsnd_duration = 1.38737
 	}
 	Kelvin.IceGrenade.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -8.000000
-		delay_rand_min = -3.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
+		volume = -8.0
+		delay_rand_min = -3.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_grenade_select_lp_01.vsnd"
 		vsnd_duration = 4.209773
 	}
 	Kelvin.IceGrenade.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = -8.000000
+		volume = -8.0
 		vsnd_files = 
 		[
 			"sounds/abilities/kelvin/kelvin_ice_grenade_deselect_01.vsnd",
@@ -153,7 +153,7 @@
 	Kelvin.IceGrenade.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/kelvin/kelvin_ice_grenade_cast_01.vsnd",
@@ -165,17 +165,17 @@
 	Kelvin.IceGrenade.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -3.000000
-		delay_rand_min = -3.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
+		volume = -3.0
+		delay_rand_min = -3.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_grenade_proj_lp_01.vsnd"
 		vsnd_duration = 7.752948
 	}
 	Kelvin.IceGrenade.Explode = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/kelvin/kelvin_ice_grenade_impact_01.vsnd",
@@ -187,144 +187,134 @@
 	Kelvin.IceGrenade.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/kelvin/kelvin_ice_grenade_hit_01.vsnd",
 			"sounds/abilities/kelvin/kelvin_ice_grenade_hit_02.vsnd",
 			"sounds/abilities/kelvin/kelvin_ice_grenade_hit_03.vsnd",
 		]
-		vsnd_duration = 1.978050
+		vsnd_duration = 1.97805
 	}
 	Kelvin.IcePath.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/kelvin/a2_ice_path/kelvin_a2_ice_path_cast_01.vsnd"
 		vsnd_duration = 2.776168
 	}
 	Kelvin.IcePath.Dur.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -5.000000
-		delay_rand_min = -4.000000
-		volume_fade_out = 0.200000
-		volume_fade_in = 0.200000
+		volume = -5.0
+		delay_rand_min = -4.0
+		volume_fade_out = 0.2
+		volume_fade_in = 0.2
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_path_lp_01.vsnd"
 		vsnd_duration = 6.848254
 	}
 	Ability.Kelvin.IcePath_End = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/kelvin/kelvin_ice_path_end_01.vsnd",
 			"sounds/abilities/kelvin/kelvin_ice_path_end_02.vsnd",
 			"sounds/abilities/kelvin/kelvin_ice_path_end_03.vsnd",
 		]
-		vsnd_duration = 2.102880
+		vsnd_duration = 2.10288
 	}
 	Kelvin.IceBeam.Start = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_beam_start.vsnd"
 		vsnd_duration = 6.348617
 	}
 	Kelvin.IceBeam.Stop = 
 	{
 		base = "Base.Ability"
-		volume = -9.000000
+		volume = -9.0
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_beam_stop.vsnd"
 		vsnd_duration = 3.274422
 	}
 	Kelvin.IceBeam.Lp.Point.Start = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
-		delay_rand_max = -4.000000
-		volume_fade_in = 0.250000
-		volume_fade_out = 0.100000
-		param_envelope_enabled = 1.000000
-		param_envelope_duration = 4.000000
-		pitch_envelope_scale_min = 0.950000
-		pitch_envelope_scale_max = 1.200000
+		volume = -2.0
+		delay_rand_max = -4.0
+		volume_fade_in = 0.25
+		volume_fade_out = 0.1
+		param_envelope_enabled = 1.0
+		param_envelope_duration = 4.0
+		pitch_envelope_scale_min = 0.95
+		pitch_envelope_scale_max = 1.2
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_beam_lp_point_start.vsnd"
 		vsnd_duration = 21.501089
 	}
 	Kelvin.IceBeam.Lp.Point.Closest = 
 	{
 		base = "Base.Weapon.Beam.ClosestPoint"
-		volume = 0.000000
-		volume_fade_in = 0.250000
-		delay_rand_max = -4.000000
+		volume = 0.0
+		volume_fade_in = 0.25
+		delay_rand_max = -4.0
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_beam_lp_point_closest.vsnd"
 		vsnd_duration = 16.483742
 	}
 	Kelvin.IceBeam.Lp.Point.End = 
 	{
 		base = "Base.Weapon.Beam.EndPoint"
-		volume = 0.000000
-		volume_fade_in = 0.250000
-		delay_rand_max = -10.000000
+		volume = 0.0
+		volume_fade_in = 0.25
+		delay_rand_max = -10.0
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_beam_lp_point_end.vsnd"
 		vsnd_duration = 15.387347
 	}
 	Kelvin.IceBeam.Modifier.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 3.000000
-		volume_fade_in = 0.250000
-		volume_fade_out = 0.250000
-		delay_rand_max = -10.000000
+		volume = 3.0
+		volume_fade_in = 0.25
+		volume_fade_out = 0.25
+		delay_rand_max = -10.0
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_beam_lp_point_end.vsnd"
 		vsnd_duration = 15.387347
 	}
 	Kelvin.IceDome.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -2.000000
-		volume_fade_out = 0.200000
+		volume = -2.0
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_dome_start.vsnd"
 		vsnd_duration = 3.611928
 	}
 	Kelvin.IceDome.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = -6.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
-		delay = 0.250000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.950000
-		pitch_envelope_scale_max = 1.250000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
+		volume = -6.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		delay = 0.25
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.95
+		pitch_envelope_scale_max = 1.25
+		position_offset = [ 0.0, 0.0, 50.0 ]
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_dome_lp.vsnd"
 		vsnd_duration = 8.772766
 	}
 	Ability.Kelvin.IceDome.Destroy = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
+		position_offset = [ 0.0, 0.0, 50.0 ]
 		vsnd_files = "sounds/abilities/kelvin/kelvin_ice_dome_stop.vsnd"
 		vsnd_duration = 5.026961
 	}
 	Ability.Kelvin.IceDome_CastTarget = 
 	{
 		base = "Base.Ability.Ult"
-		volume_fade_out = 0.200000
-		volume = -18.000000
+		volume_fade_out = 0.2
+		volume = -18.0
 		vsnd_play_loop_release = false
 		vsnd_files = "sounds/abilities/kelvin/frozen_shelter_lp.vsnd"
 		vsnd_duration = 10.027896
@@ -332,8 +322,8 @@
 	Kelvin.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = -1.000000
-		track_2.vsnd_track_vol_offset_db = -1.000000
+		volume = -1.0
+		track_2.vsnd_track_vol_offset_db = -1.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/kelvin/kelvin_footstep_01.vsnd",
@@ -438,7 +428,7 @@
 	Kelvin.Skate = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/kelvin/kelvin_skate_01.vsnd",
@@ -456,8 +446,8 @@
 	Kelvin.Movement.Long = 
 	{
 		base = "Base.Movement"
-		track_2.vsnd_track_vol_offset_db = 3.000000
-		volume = -8.000000
+		track_2.vsnd_track_vol_offset_db = 3.0
+		volume = -8.0
 		track_2.track_vsnd_files = "sounds/common/null.vsnd"
 		vsnd_files = 
 		[
@@ -471,8 +461,8 @@
 	Kelvin.Movement.Short = 
 	{
 		base = "Base.Movement"
-		track_2.vsnd_track_vol_offset_db = 8.000000
-		volume = -16.000000
+		track_2.vsnd_track_vol_offset_db = 8.0
+		volume = -16.0
 		track_2.track_vsnd_files = "sounds/common/null.vsnd"
 		vsnd_files = 
 		[
@@ -481,14 +471,14 @@
 			"sounds/player/movement/kelvin/kelvin_foley_short_03.vsnd",
 			"sounds/player/movement/kelvin/kelvin_foley_short_04.vsnd",
 		]
-		vsnd_duration = 0.302200
+		vsnd_duration = 0.3022
 	}
 	Kelvin.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -2.000000
-		track_2.vsnd_track_vol_offset_db = -14.000000
-		pitch = 1.000000
+		track_1.vsnd_track_vol_offset_db = -2.0
+		track_2.vsnd_track_vol_offset_db = -14.0
+		pitch = 1.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/kelvin/kelvin_footstep_01.vsnd",

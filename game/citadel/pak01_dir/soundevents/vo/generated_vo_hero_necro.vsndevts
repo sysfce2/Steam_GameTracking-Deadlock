@@ -258,7 +258,7 @@
 		[
 			"sounds/vo/necro/necro_ally_chrono_swap_to_boss_03.vsnd",
 		]
-		vsnd_duration = 2.140750
+		vsnd_duration = 2.14075
 	}
 	necro_ally_doorman_killed_in_lane_01_hero_3d = 
 	{
@@ -268,7 +268,7 @@
 		[
 			"sounds/vo/necro/necro_ally_doorman_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.320240
+		vsnd_duration = 1.32024
 	}
 	necro_ally_drifter_killed_in_lane_01_hero_3d = 
 	{
@@ -308,7 +308,7 @@
 		[
 			"sounds/vo/necro/necro_ally_dynamo_big_blackhole_03.vsnd",
 		]
-		vsnd_duration = 1.001250
+		vsnd_duration = 1.00125
 	}
 	necro_ally_dynamo_clutch_heal_01_hero_3d = 
 	{
@@ -508,7 +508,7 @@
 		[
 			"sounds/vo/necro/necro_ally_gigawatt_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.180250
+		vsnd_duration = 1.18025
 	}
 	necro_ally_gigawatt_multi_kill_ult_01_hero_3d = 
 	{
@@ -668,7 +668,7 @@
 		[
 			"sounds/vo/necro/necro_ally_inferno_burns_down_objective_02.vsnd",
 		]
-		vsnd_duration = 1.108000
+		vsnd_duration = 1.108
 	}
 	necro_ally_inferno_burns_down_objective_03_hero_3d = 
 	{
@@ -748,7 +748,7 @@
 		[
 			"sounds/vo/necro/necro_ally_krill_grab_mid_enemy_ult_02.vsnd",
 		]
-		vsnd_duration = 1.010750
+		vsnd_duration = 1.01075
 	}
 	necro_ally_krill_grab_mid_enemy_ult_03_hero_3d = 
 	{
@@ -768,7 +768,7 @@
 		[
 			"sounds/vo/necro/necro_ally_krill_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.158500
+		vsnd_duration = 1.1585
 	}
 	necro_ally_lash_killed_in_lane_01_hero_3d = 
 	{
@@ -778,7 +778,7 @@
 		[
 			"sounds/vo/necro/necro_ally_lash_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.191260
+		vsnd_duration = 1.19126
 	}
 	necro_ally_lash_see_massive_stomp_01_hero_3d = 
 	{
@@ -838,7 +838,7 @@
 		[
 			"sounds/vo/necro/necro_ally_nano_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.324000
+		vsnd_duration = 1.324
 	}
 	necro_ally_orion_far_shot_01_hero_3d = 
 	{
@@ -858,7 +858,7 @@
 		[
 			"sounds/vo/necro/necro_ally_orion_far_shot_02.vsnd",
 		]
-		vsnd_duration = 1.697000
+		vsnd_duration = 1.697
 	}
 	necro_ally_orion_far_shot_03_hero_3d = 
 	{
@@ -878,7 +878,7 @@
 		[
 			"sounds/vo/necro/necro_ally_orion_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.394000
+		vsnd_duration = 1.394
 	}
 	necro_ally_orion_missile_stops_ult_01_hero_3d = 
 	{
@@ -888,7 +888,7 @@
 		[
 			"sounds/vo/necro/necro_ally_orion_missile_stops_ult_01.vsnd",
 		]
-		vsnd_duration = 1.671500
+		vsnd_duration = 1.6715
 	}
 	necro_ally_orion_missile_stops_ult_02_hero_3d = 
 	{
@@ -918,7 +918,7 @@
 		[
 			"sounds/vo/necro/necro_ally_priest_killed_in_lane_01_alt.vsnd",
 		]
-		vsnd_duration = 1.417000
+		vsnd_duration = 1.417
 	}
 	necro_ally_priest_killed_in_lane_01_hero_3d = 
 	{
@@ -988,7 +988,7 @@
 		[
 			"sounds/vo/necro/necro_ally_shiv_unkillable_01.vsnd",
 		]
-		vsnd_duration = 1.356500
+		vsnd_duration = 1.3565
 	}
 	necro_ally_shiv_unkillable_02_hero_3d = 
 	{
@@ -1058,7 +1058,7 @@
 		[
 			"sounds/vo/necro/necro_ally_tengu_take_objective_with_teather_03.vsnd",
 		]
-		vsnd_duration = 1.505000
+		vsnd_duration = 1.505
 	}
 	necro_ally_unicorn_killed_in_lane_01_hero_3d = 
 	{
@@ -1108,7 +1108,7 @@
 		[
 			"sounds/vo/necro/necro_ally_viscous_clutch_cube_02.vsnd",
 		]
-		vsnd_duration = 1.726000
+		vsnd_duration = 1.726
 	}
 	necro_ally_viscous_clutch_cube_03_hero_3d = 
 	{
@@ -1118,7 +1118,7 @@
 		[
 			"sounds/vo/necro/necro_ally_viscous_clutch_cube_03.vsnd",
 		]
-		vsnd_duration = 1.416000
+		vsnd_duration = 1.416
 	}
 	necro_ally_viscous_killed_in_lane_01_hero_3d = 
 	{
@@ -1178,7 +1178,7 @@
 		[
 			"sounds/vo/necro/necro_ally_werewolf_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.155500
+		vsnd_duration = 1.1555
 	}
 	necro_ally_wraith_killed_in_lane_01_hero_3d = 
 	{
@@ -1368,7 +1368,7 @@
 		[
 			"sounds/vo/necro/necro_congrats_03.vsnd",
 		]
-		vsnd_duration = 1.443000
+		vsnd_duration = 1.443
 	}
 	necro_congrats_04_hero_3d = 
 	{
@@ -1438,7 +1438,7 @@
 		[
 			"sounds/vo/necro/necro_desperation_power1_05.vsnd",
 		]
-		vsnd_duration = 1.243000
+		vsnd_duration = 1.243
 	}
 	necro_desperation_power1_06_ability_3d = 
 	{
@@ -1598,7 +1598,7 @@
 		[
 			"sounds/vo/necro/necro_desperation_power4_03.vsnd",
 		]
-		vsnd_duration = 1.464500
+		vsnd_duration = 1.4645
 	}
 	necro_desperation_power4_03_ult_3d = 
 	{
@@ -1608,7 +1608,7 @@
 		[
 			"sounds/vo/necro/necro_desperation_power4_03.vsnd",
 		]
-		vsnd_duration = 1.464500
+		vsnd_duration = 1.4645
 	}
 	necro_desperation_power4_04_ability_3d = 
 	{
@@ -1648,7 +1648,7 @@
 		[
 			"sounds/vo/necro/necro_desperation_power4_05_alt_01.vsnd",
 		]
-		vsnd_duration = 2.312240
+		vsnd_duration = 2.31224
 	}
 	necro_desperation_power4_05_alt_01_ult_3d = 
 	{
@@ -1658,7 +1658,7 @@
 		[
 			"sounds/vo/necro/necro_desperation_power4_05_alt_01.vsnd",
 		]
-		vsnd_duration = 2.312240
+		vsnd_duration = 2.31224
 	}
 	necro_desperation_power4_05_ult_3d = 
 	{
@@ -1678,7 +1678,7 @@
 		[
 			"sounds/vo/necro/necro_desperation_power5_01.vsnd",
 		]
-		vsnd_duration = 1.798500
+		vsnd_duration = 1.7985
 	}
 	necro_desperation_power5_02_ability_3d = 
 	{
@@ -1768,7 +1768,7 @@
 		[
 			"sounds/vo/necro/necro_desperation_power6_05.vsnd",
 		]
-		vsnd_duration = 1.317500
+		vsnd_duration = 1.3175
 	}
 	necro_effort_dash_01_emote_dash_3d = 
 	{
@@ -1798,7 +1798,7 @@
 		[
 			"sounds/vo/necro/emote/necro_effort_dash_02.vsnd",
 		]
-		vsnd_duration = 0.426500
+		vsnd_duration = 0.4265
 	}
 	necro_effort_dash_02_emote_effort_3d = 
 	{
@@ -1808,7 +1808,7 @@
 		[
 			"sounds/vo/necro/emote/necro_effort_dash_02.vsnd",
 		]
-		vsnd_duration = 0.426500
+		vsnd_duration = 0.4265
 	}
 	necro_effort_dash_03_emote_dash_3d = 
 	{
@@ -1858,7 +1858,7 @@
 		[
 			"sounds/vo/necro/emote/necro_effort_dash_05.vsnd",
 		]
-		vsnd_duration = 0.381760
+		vsnd_duration = 0.38176
 	}
 	necro_effort_dash_05_emote_effort_3d = 
 	{
@@ -1868,7 +1868,7 @@
 		[
 			"sounds/vo/necro/emote/necro_effort_dash_05.vsnd",
 		]
-		vsnd_duration = 0.381760
+		vsnd_duration = 0.38176
 	}
 	necro_effort_dash_06_emote_dash_3d = 
 	{
@@ -1898,7 +1898,7 @@
 		[
 			"sounds/vo/necro/emote/necro_effort_general_01.vsnd",
 		]
-		vsnd_duration = 0.493000
+		vsnd_duration = 0.493
 	}
 	necro_effort_general_02_emote_effort_3d = 
 	{
@@ -1958,7 +1958,7 @@
 		[
 			"sounds/vo/necro/emote/necro_effort_melee_big_01.vsnd",
 		]
-		vsnd_duration = 1.039000
+		vsnd_duration = 1.039
 	}
 	necro_effort_melee_big_01_emote_melee_effort_3d = 
 	{
@@ -1968,7 +1968,7 @@
 		[
 			"sounds/vo/necro/emote/necro_effort_melee_big_01.vsnd",
 		]
-		vsnd_duration = 1.039000
+		vsnd_duration = 1.039
 	}
 	necro_effort_melee_big_02_emote_effort_3d = 
 	{
@@ -2138,7 +2138,7 @@
 		[
 			"sounds/vo/necro/emote/necro_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.717000
+		vsnd_duration = 0.717
 	}
 	necro_effort_melee_small_05_emote_melee_effort_3d = 
 	{
@@ -2148,7 +2148,7 @@
 		[
 			"sounds/vo/necro/emote/necro_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.717000
+		vsnd_duration = 0.717
 	}
 	necro_end_streak_hero_3d = 
 	{
@@ -2188,7 +2188,7 @@
 		[
 			"sounds/vo/necro/necro_enemy_astro_bounce_escape_03.vsnd",
 		]
-		vsnd_duration = 2.592750
+		vsnd_duration = 2.59275
 	}
 	necro_enemy_astro_lassoed_01_hero_3d = 
 	{
@@ -2538,7 +2538,7 @@
 		[
 			"sounds/vo/necro/necro_enemy_hornet_damaged_by_snipe_02.vsnd",
 		]
-		vsnd_duration = 0.980750
+		vsnd_duration = 0.98075
 	}
 	necro_enemy_hornet_damaged_by_snipe_03_hero_3d = 
 	{
@@ -2588,7 +2588,7 @@
 		[
 			"sounds/vo/necro/necro_enemy_inferno_killed_mid_ult_01.vsnd",
 		]
-		vsnd_duration = 1.631000
+		vsnd_duration = 1.631
 	}
 	necro_enemy_inferno_killed_mid_ult_02_hero_3d = 
 	{
@@ -2638,7 +2638,7 @@
 		[
 			"sounds/vo/necro/necro_enemy_kelvin_kill_on_ice_path_03.vsnd",
 		]
-		vsnd_duration = 1.656000
+		vsnd_duration = 1.656
 	}
 	necro_enemy_krill_grabbed_01_hero_3d = 
 	{
@@ -2748,7 +2748,7 @@
 		[
 			"sounds/vo/necro/necro_enemy_shiv_unkillable_02.vsnd",
 		]
-		vsnd_duration = 1.395750
+		vsnd_duration = 1.39575
 	}
 	necro_enemy_shiv_unkillable_03_hero_3d = 
 	{
@@ -2808,7 +2808,7 @@
 		[
 			"sounds/vo/necro/necro_enemy_warden_see_ult_02.vsnd",
 		]
-		vsnd_duration = 1.102750
+		vsnd_duration = 1.10275
 	}
 	necro_enemy_warden_see_ult_03_hero_3d = 
 	{
@@ -2908,7 +2908,7 @@
 		[
 			"sounds/vo/necro/necro_interrupt_03.vsnd",
 		]
-		vsnd_duration = 0.811010
+		vsnd_duration = 0.81101
 	}
 	necro_interrupt_04_hero_3d = 
 	{
@@ -2948,7 +2948,7 @@
 		[
 			"sounds/vo/necro/necro_kill_anyhero_02_alt_01.vsnd",
 		]
-		vsnd_duration = 1.678000
+		vsnd_duration = 1.678
 	}
 	necro_kill_anyhero_03_hero_3d = 
 	{
@@ -2978,7 +2978,7 @@
 		[
 			"sounds/vo/necro/necro_kill_anyhero_05.vsnd",
 		]
-		vsnd_duration = 2.057500
+		vsnd_duration = 2.0575
 	}
 	necro_kill_anyhero_06_hero_3d = 
 	{
@@ -3048,7 +3048,7 @@
 		[
 			"sounds/vo/necro/necro_kill_astro_02.vsnd",
 		]
-		vsnd_duration = 1.108000
+		vsnd_duration = 1.108
 	}
 	necro_kill_astro_03_hero_3d = 
 	{
@@ -3068,7 +3068,7 @@
 		[
 			"sounds/vo/necro/necro_kill_astro_04.vsnd",
 		]
-		vsnd_duration = 3.973490
+		vsnd_duration = 3.97349
 	}
 	necro_kill_astro_05_hero_3d = 
 	{
@@ -3088,7 +3088,7 @@
 		[
 			"sounds/vo/necro/necro_kill_atlas_01.vsnd",
 		]
-		vsnd_duration = 1.390250
+		vsnd_duration = 1.39025
 	}
 	necro_kill_atlas_02_hero_3d = 
 	{
@@ -3118,7 +3118,7 @@
 		[
 			"sounds/vo/necro/necro_kill_atlas_04.vsnd",
 		]
-		vsnd_duration = 2.847000
+		vsnd_duration = 2.847
 	}
 	necro_kill_atlas_05_hero_3d = 
 	{
@@ -3148,7 +3148,7 @@
 		[
 			"sounds/vo/necro/necro_kill_bebop_02.vsnd",
 		]
-		vsnd_duration = 1.338750
+		vsnd_duration = 1.33875
 	}
 	necro_kill_bebop_03_hero_3d = 
 	{
@@ -3188,7 +3188,7 @@
 		[
 			"sounds/vo/necro/necro_kill_bookworm_01.vsnd",
 		]
-		vsnd_duration = 1.821000
+		vsnd_duration = 1.821
 	}
 	necro_kill_bookworm_02_hero_3d = 
 	{
@@ -3248,7 +3248,7 @@
 		[
 			"sounds/vo/necro/necro_kill_chrono_02.vsnd",
 		]
-		vsnd_duration = 2.833740
+		vsnd_duration = 2.83374
 	}
 	necro_kill_chrono_03_hero_3d = 
 	{
@@ -3268,7 +3268,7 @@
 		[
 			"sounds/vo/necro/necro_kill_chrono_04.vsnd",
 		]
-		vsnd_duration = 2.606000
+		vsnd_duration = 2.606
 	}
 	necro_kill_chrono_05_hero_3d = 
 	{
@@ -3278,7 +3278,7 @@
 		[
 			"sounds/vo/necro/necro_kill_chrono_05.vsnd",
 		]
-		vsnd_duration = 2.614000
+		vsnd_duration = 2.614
 	}
 	necro_kill_doorman_01_hero_3d = 
 	{
@@ -3288,7 +3288,7 @@
 		[
 			"sounds/vo/necro/necro_kill_doorman_01.vsnd",
 		]
-		vsnd_duration = 1.154000
+		vsnd_duration = 1.154
 	}
 	necro_kill_doorman_02_hero_3d = 
 	{
@@ -3318,7 +3318,7 @@
 		[
 			"sounds/vo/necro/necro_kill_doorman_04.vsnd",
 		]
-		vsnd_duration = 1.628000
+		vsnd_duration = 1.628
 	}
 	necro_kill_doorman_05_hero_3d = 
 	{
@@ -3368,7 +3368,7 @@
 		[
 			"sounds/vo/necro/necro_kill_drifter_04.vsnd",
 		]
-		vsnd_duration = 2.197000
+		vsnd_duration = 2.197
 	}
 	necro_kill_drifter_05_hero_3d = 
 	{
@@ -3428,7 +3428,7 @@
 		[
 			"sounds/vo/necro/necro_kill_dynamo_05.vsnd",
 		]
-		vsnd_duration = 1.841500
+		vsnd_duration = 1.8415
 	}
 	necro_kill_familiar_01_hero_3d = 
 	{
@@ -3518,7 +3518,7 @@
 		[
 			"sounds/vo/necro/necro_kill_fencer_04.vsnd",
 		]
-		vsnd_duration = 2.298000
+		vsnd_duration = 2.298
 	}
 	necro_kill_fencer_05_hero_3d = 
 	{
@@ -3578,7 +3578,7 @@
 		[
 			"sounds/vo/necro/necro_kill_forge_05.vsnd",
 		]
-		vsnd_duration = 2.106750
+		vsnd_duration = 2.10675
 	}
 	necro_kill_frank_01_hero_3d = 
 	{
@@ -3718,7 +3718,7 @@
 		[
 			"sounds/vo/necro/necro_kill_gigawatt_04.vsnd",
 		]
-		vsnd_duration = 2.422000
+		vsnd_duration = 2.422
 	}
 	necro_kill_gigawatt_05_hero_3d = 
 	{
@@ -3748,7 +3748,7 @@
 		[
 			"sounds/vo/necro/necro_kill_haze_02.vsnd",
 		]
-		vsnd_duration = 2.381500
+		vsnd_duration = 2.3815
 	}
 	necro_kill_haze_03_hero_3d = 
 	{
@@ -3788,7 +3788,7 @@
 		[
 			"sounds/vo/necro/necro_kill_high_networth.vsnd",
 		]
-		vsnd_duration = 2.686000
+		vsnd_duration = 2.686
 	}
 	necro_kill_hornet_01_hero_3d = 
 	{
@@ -4028,7 +4028,7 @@
 		[
 			"sounds/vo/necro/necro_kill_lash_04.vsnd",
 		]
-		vsnd_duration = 4.245760
+		vsnd_duration = 4.24576
 	}
 	necro_kill_lash_05_hero_3d = 
 	{
@@ -4048,7 +4048,7 @@
 		[
 			"sounds/vo/necro/necro_kill_magician_01.vsnd",
 		]
-		vsnd_duration = 1.070000
+		vsnd_duration = 1.07
 	}
 	necro_kill_magician_02_hero_3d = 
 	{
@@ -4078,7 +4078,7 @@
 		[
 			"sounds/vo/necro/necro_kill_magician_04.vsnd",
 		]
-		vsnd_duration = 1.357000
+		vsnd_duration = 1.357
 	}
 	necro_kill_magician_05_hero_3d = 
 	{
@@ -4088,7 +4088,7 @@
 		[
 			"sounds/vo/necro/necro_kill_magician_05.vsnd",
 		]
-		vsnd_duration = 1.523740
+		vsnd_duration = 1.52374
 	}
 	necro_kill_mirage_01_hero_3d = 
 	{
@@ -4098,7 +4098,7 @@
 		[
 			"sounds/vo/necro/necro_kill_mirage_01.vsnd",
 		]
-		vsnd_duration = 1.355000
+		vsnd_duration = 1.355
 	}
 	necro_kill_mirage_02_hero_3d = 
 	{
@@ -4158,7 +4158,7 @@
 		[
 			"sounds/vo/necro/necro_kill_nano_02.vsnd",
 		]
-		vsnd_duration = 1.094000
+		vsnd_duration = 1.094
 	}
 	necro_kill_nano_03_hero_3d = 
 	{
@@ -4318,7 +4318,7 @@
 		[
 			"sounds/vo/necro/necro_kill_punkgoat_03.vsnd",
 		]
-		vsnd_duration = 1.337000
+		vsnd_duration = 1.337
 	}
 	necro_kill_punkgoat_04_hero_3d = 
 	{
@@ -4388,7 +4388,7 @@
 		[
 			"sounds/vo/necro/necro_kill_shiv_05.vsnd",
 		]
-		vsnd_duration = 2.765000
+		vsnd_duration = 2.765
 	}
 	necro_kill_synth_01_hero_3d = 
 	{
@@ -4488,7 +4488,7 @@
 		[
 			"sounds/vo/necro/necro_kill_tengu_05.vsnd",
 		]
-		vsnd_duration = 2.234500
+		vsnd_duration = 2.2345
 	}
 	necro_kill_unicorn_01_hero_3d = 
 	{
@@ -4508,7 +4508,7 @@
 		[
 			"sounds/vo/necro/necro_kill_unicorn_02.vsnd",
 		]
-		vsnd_duration = 1.548000
+		vsnd_duration = 1.548
 	}
 	necro_kill_unicorn_03_hero_3d = 
 	{
@@ -4528,7 +4528,7 @@
 		[
 			"sounds/vo/necro/necro_kill_unicorn_04.vsnd",
 		]
-		vsnd_duration = 1.276760
+		vsnd_duration = 1.27676
 	}
 	necro_kill_unicorn_05_hero_3d = 
 	{
@@ -4568,7 +4568,7 @@
 		[
 			"sounds/vo/necro/necro_kill_vampirebat_03.vsnd",
 		]
-		vsnd_duration = 0.993740
+		vsnd_duration = 0.99374
 	}
 	necro_kill_vampirebat_04_hero_3d = 
 	{
@@ -4618,7 +4618,7 @@
 		[
 			"sounds/vo/necro/necro_kill_viper_03.vsnd",
 		]
-		vsnd_duration = 2.135000
+		vsnd_duration = 2.135
 	}
 	necro_kill_viper_04_hero_3d = 
 	{
@@ -4748,7 +4748,7 @@
 		[
 			"sounds/vo/necro/necro_kill_werewolf_01.vsnd",
 		]
-		vsnd_duration = 1.731500
+		vsnd_duration = 1.7315
 	}
 	necro_kill_werewolf_02_hero_3d = 
 	{
@@ -4858,7 +4858,7 @@
 		[
 			"sounds/vo/necro/necro_kill_yamato_02.vsnd",
 		]
-		vsnd_duration = 2.735260
+		vsnd_duration = 2.73526
 	}
 	necro_kill_yamato_03_hero_3d = 
 	{
@@ -4918,7 +4918,7 @@
 		[
 			"sounds/vo/necro/necro_killstreak_high_02.vsnd",
 		]
-		vsnd_duration = 2.348500
+		vsnd_duration = 2.3485
 	}
 	necro_killstreak_high_02_hero_announcer = 
 	{
@@ -4928,7 +4928,7 @@
 		[
 			"sounds/vo/necro/necro_killstreak_high_02.vsnd",
 		]
-		vsnd_duration = 2.348500
+		vsnd_duration = 2.3485
 	}
 	necro_killstreak_high_03_hero_3d = 
 	{
@@ -4938,7 +4938,7 @@
 		[
 			"sounds/vo/necro/necro_killstreak_high_03.vsnd",
 		]
-		vsnd_duration = 2.400000
+		vsnd_duration = 2.4
 	}
 	necro_killstreak_high_03_hero_announcer = 
 	{
@@ -4948,7 +4948,7 @@
 		[
 			"sounds/vo/necro/necro_killstreak_high_03.vsnd",
 		]
-		vsnd_duration = 2.400000
+		vsnd_duration = 2.4
 	}
 	necro_killstreak_mid_01_hero_3d = 
 	{
@@ -5038,7 +5038,7 @@
 		[
 			"sounds/vo/necro/necro_killstreak_start_02.vsnd",
 		]
-		vsnd_duration = 1.616000
+		vsnd_duration = 1.616
 	}
 	necro_killstreak_start_02_hero_announcer = 
 	{
@@ -5048,7 +5048,7 @@
 		[
 			"sounds/vo/necro/necro_killstreak_start_02.vsnd",
 		]
-		vsnd_duration = 1.616000
+		vsnd_duration = 1.616
 	}
 	necro_killstreak_start_03_hero_3d = 
 	{
@@ -5098,7 +5098,7 @@
 		[
 			"sounds/vo/necro/necro_killstreak_start_05.vsnd",
 		]
-		vsnd_duration = 2.836000
+		vsnd_duration = 2.836
 	}
 	necro_killstreak_start_05_hero_announcer = 
 	{
@@ -5108,7 +5108,7 @@
 		[
 			"sounds/vo/necro/necro_killstreak_start_05.vsnd",
 		]
-		vsnd_duration = 2.836000
+		vsnd_duration = 2.836
 	}
 	necro_last_one_standing_01_hero_3d = 
 	{
@@ -5168,7 +5168,7 @@
 		[
 			"sounds/vo/necro/necro_leave_base_03.vsnd",
 		]
-		vsnd_duration = 1.999000
+		vsnd_duration = 1.999
 	}
 	necro_leave_base_04_hero_3d = 
 	{
@@ -5188,7 +5188,7 @@
 		[
 			"sounds/vo/necro/necro_leave_base_05.vsnd",
 		]
-		vsnd_duration = 1.474000
+		vsnd_duration = 1.474
 	}
 	necro_leaving_area_01_hero_3d = 
 	{
@@ -5218,7 +5218,7 @@
 		[
 			"sounds/vo/necro/necro_leaving_area_03.vsnd",
 		]
-		vsnd_duration = 1.253000
+		vsnd_duration = 1.253
 	}
 	necro_match_start_familiar_necro_convo01_01_hero_zipline_3d = 
 	{
@@ -5258,7 +5258,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_familiar_necro_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.022000
+		vsnd_duration = 1.022
 	}
 	necro_match_start_familiar_necro_convo02_06_hero_zipline_3d = 
 	{
@@ -5308,7 +5308,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_fencer_necro_convo01_03.vsnd",
 		]
-		vsnd_duration = 1.617000
+		vsnd_duration = 1.617
 	}
 	necro_match_start_fencer_necro_convo02_02_hero_zipline_3d = 
 	{
@@ -5318,7 +5318,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_fencer_necro_convo02_02.vsnd",
 		]
-		vsnd_duration = 0.939000
+		vsnd_duration = 0.939
 	}
 	necro_match_start_fencer_necro_convo02_04_hero_zipline_3d = 
 	{
@@ -5338,7 +5338,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_fencer_necro_convo02_06.vsnd",
 		]
-		vsnd_duration = 1.681000
+		vsnd_duration = 1.681
 	}
 	necro_match_start_fencer_necro_convo02_08_hero_zipline_3d = 
 	{
@@ -5348,7 +5348,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_fencer_necro_convo02_08.vsnd",
 		]
-		vsnd_duration = 0.988750
+		vsnd_duration = 0.98875
 	}
 	necro_match_start_fencer_necro_convo03_01_hero_zipline_3d = 
 	{
@@ -5418,7 +5418,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_necro_astro_convo02_06.vsnd",
 		]
-		vsnd_duration = 1.992510
+		vsnd_duration = 1.99251
 	}
 	necro_match_start_necro_astro_convo02_08_hero_zipline_3d = 
 	{
@@ -5538,7 +5538,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_necro_bebop_convo01_04.vsnd",
 		]
-		vsnd_duration = 2.353250
+		vsnd_duration = 2.35325
 	}
 	necro_match_start_necro_bebop_convo02_01_hero_zipline_3d = 
 	{
@@ -5608,7 +5608,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_necro_bookworm_convo01_06_alt_01.vsnd",
 		]
-		vsnd_duration = 1.992000
+		vsnd_duration = 1.992
 	}
 	necro_match_start_necro_dynamo_convo01_01_hero_zipline_3d = 
 	{
@@ -5618,7 +5618,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_necro_dynamo_convo01_01.vsnd",
 		]
-		vsnd_duration = 3.129000
+		vsnd_duration = 3.129
 	}
 	necro_match_start_necro_dynamo_convo01_03_hero_zipline_3d = 
 	{
@@ -5948,7 +5948,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_necro_inferno_convo02_07.vsnd",
 		]
-		vsnd_duration = 1.622500
+		vsnd_duration = 1.6225
 	}
 	necro_match_start_necro_inferno_convo03_02_hero_zipline_3d = 
 	{
@@ -6218,7 +6218,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_necro_punkgoat_convo01_02.vsnd",
 		]
-		vsnd_duration = 5.462750
+		vsnd_duration = 5.46275
 	}
 	necro_match_start_necro_viper_convo01_02_hero_zipline_3d = 
 	{
@@ -6278,7 +6278,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_necro_viper_convo03_02.vsnd",
 		]
-		vsnd_duration = 0.618760
+		vsnd_duration = 0.61876
 	}
 	necro_match_start_necro_viper_convo03_04_hero_zipline_3d = 
 	{
@@ -6288,7 +6288,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_necro_viper_convo03_04.vsnd",
 		]
-		vsnd_duration = 1.456000
+		vsnd_duration = 1.456
 	}
 	necro_match_start_necro_viper_convo03_06_hero_zipline_3d = 
 	{
@@ -6328,7 +6328,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_necro_werewolf_convo01_06.vsnd",
 		]
-		vsnd_duration = 1.274000
+		vsnd_duration = 1.274
 	}
 	necro_match_start_necro_werewolf_convo02_01_hero_zipline_3d = 
 	{
@@ -6338,7 +6338,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_necro_werewolf_convo02_01.vsnd",
 		]
-		vsnd_duration = 1.158000
+		vsnd_duration = 1.158
 	}
 	necro_match_start_necro_werewolf_convo02_03_hero_zipline_3d = 
 	{
@@ -6478,7 +6478,7 @@
 		[
 			"sounds/vo/necro/necro_match_start_unicorn_necro_convo02_02.vsnd",
 		]
-		vsnd_duration = 3.017000
+		vsnd_duration = 3.017
 	}
 	necro_match_start_unicorn_necro_convo02_04_hero_zipline_3d = 
 	{
@@ -6538,7 +6538,7 @@
 		[
 			"sounds/vo/necro/necro_melee_kill_02.vsnd",
 		]
-		vsnd_duration = 0.947250
+		vsnd_duration = 0.94725
 	}
 	necro_melee_kill_03_hero_3d = 
 	{
@@ -6658,7 +6658,7 @@
 		[
 			"sounds/vo/necro/emote/necro_pain_big_01.vsnd",
 		]
-		vsnd_duration = 0.593000
+		vsnd_duration = 0.593
 	}
 	necro_pain_big_02_emote_pain_3d = 
 	{
@@ -6688,7 +6688,7 @@
 		[
 			"sounds/vo/necro/emote/necro_pain_big_04.vsnd",
 		]
-		vsnd_duration = 0.587000
+		vsnd_duration = 0.587
 	}
 	necro_pain_big_05_emote_pain_3d = 
 	{
@@ -6698,7 +6698,7 @@
 		[
 			"sounds/vo/necro/emote/necro_pain_big_05.vsnd",
 		]
-		vsnd_duration = 0.621250
+		vsnd_duration = 0.62125
 	}
 	necro_pain_big_06_emote_pain_3d = 
 	{
@@ -6758,7 +6758,7 @@
 		[
 			"sounds/vo/necro/emote/necro_pain_death_03.vsnd",
 		]
-		vsnd_duration = 0.682500
+		vsnd_duration = 0.6825
 	}
 	necro_pain_death_03_emote_pain_3d = 
 	{
@@ -6768,7 +6768,7 @@
 		[
 			"sounds/vo/necro/emote/necro_pain_death_03.vsnd",
 		]
-		vsnd_duration = 0.682500
+		vsnd_duration = 0.6825
 	}
 	necro_pain_death_04_emote_death_3d = 
 	{
@@ -6878,7 +6878,7 @@
 		[
 			"sounds/vo/necro/emote/necro_pain_small_03.vsnd",
 		]
-		vsnd_duration = 0.722500
+		vsnd_duration = 0.7225
 	}
 	necro_pain_small_04_emote_pain_3d = 
 	{
@@ -6888,7 +6888,7 @@
 		[
 			"sounds/vo/necro/emote/necro_pain_small_04.vsnd",
 		]
-		vsnd_duration = 0.601250
+		vsnd_duration = 0.60125
 	}
 	necro_pain_small_05_emote_pain_3d = 
 	{
@@ -6908,7 +6908,7 @@
 		[
 			"sounds/vo/necro/emote/necro_pain_small_06.vsnd",
 		]
-		vsnd_duration = 0.630500
+		vsnd_duration = 0.6305
 	}
 	necro_pain_small_07_emote_pain_3d = 
 	{
@@ -6928,7 +6928,7 @@
 		[
 			"sounds/vo/necro/emote/necro_pain_small_08.vsnd",
 		]
-		vsnd_duration = 0.610000
+		vsnd_duration = 0.61
 	}
 	necro_pain_small_09_emote_pain_3d = 
 	{
@@ -7018,7 +7018,7 @@
 		[
 			"sounds/vo/necro/necro_pick_up_gold_05.vsnd",
 		]
-		vsnd_duration = 0.667000
+		vsnd_duration = 0.667
 	}
 	necro_pick_up_rejuv_01_hero_3d = 
 	{
@@ -7058,7 +7058,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_ability1_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.339990
+		vsnd_duration = 1.33999
 	}
 	necro_ping_ability1_not_ready_ping_2d = 
 	{
@@ -7148,7 +7148,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_affermative_02.vsnd",
 		]
-		vsnd_duration = 0.647000
+		vsnd_duration = 0.647
 	}
 	necro_ping_affermative_03_ping_2d = 
 	{
@@ -7168,7 +7168,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_astro_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.389760
+		vsnd_duration = 1.38976
 	}
 	necro_ping_astro_check_items_ping_2d = 
 	{
@@ -7198,7 +7198,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_astro_in_mid.vsnd",
 		]
-		vsnd_duration = 1.019000
+		vsnd_duration = 1.019
 	}
 	necro_ping_astro_missing_01_ping_2d = 
 	{
@@ -7208,7 +7208,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_astro_missing_01.vsnd",
 		]
-		vsnd_duration = 1.127000
+		vsnd_duration = 1.127
 	}
 	necro_ping_astro_on_top_of_garage_ping_2d = 
 	{
@@ -7228,7 +7228,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_astro_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.386990
+		vsnd_duration = 1.38699
 	}
 	necro_ping_astro_under_garage_ping_2d = 
 	{
@@ -7598,7 +7598,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_attack_nano.vsnd",
 		]
-		vsnd_duration = 1.245000
+		vsnd_duration = 1.245
 	}
 	necro_ping_attack_orion_ping_2d = 
 	{
@@ -7638,7 +7638,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_attack_shiv.vsnd",
 		]
-		vsnd_duration = 1.136740
+		vsnd_duration = 1.13674
 	}
 	necro_ping_attack_synth_ping_2d = 
 	{
@@ -7648,7 +7648,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_attack_synth.vsnd",
 		]
-		vsnd_duration = 1.212750
+		vsnd_duration = 1.21275
 	}
 	necro_ping_attack_tengu_ping_2d = 
 	{
@@ -7658,7 +7658,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_attack_tengu.vsnd",
 		]
-		vsnd_duration = 1.237740
+		vsnd_duration = 1.23774
 	}
 	necro_ping_attack_unicorn_ping_2d = 
 	{
@@ -7688,7 +7688,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_attack_viper.vsnd",
 		]
-		vsnd_duration = 1.235990
+		vsnd_duration = 1.23599
 	}
 	necro_ping_attack_viscous_ping_2d = 
 	{
@@ -7758,7 +7758,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_be_back_soon.vsnd",
 		]
-		vsnd_duration = 0.837260
+		vsnd_duration = 0.83726
 	}
 	necro_ping_bebop_almost_respawn_ping_2d = 
 	{
@@ -7778,7 +7778,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_bebop_check_items.vsnd",
 		]
-		vsnd_duration = 1.284240
+		vsnd_duration = 1.28424
 	}
 	necro_ping_bebop_dead_ping_2d = 
 	{
@@ -7898,7 +7898,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_bookworm_dead.vsnd",
 		]
-		vsnd_duration = 0.897990
+		vsnd_duration = 0.89799
 	}
 	necro_ping_bookworm_in_mid_ping_2d = 
 	{
@@ -8018,7 +8018,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_can_heal_doorman.vsnd",
 		]
-		vsnd_duration = 1.326260
+		vsnd_duration = 1.32626
 	}
 	necro_ping_can_heal_drifter_ping_2d = 
 	{
@@ -8288,7 +8288,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_can_heal_viscous.vsnd",
 		]
-		vsnd_duration = 1.398740
+		vsnd_duration = 1.39874
 	}
 	necro_ping_can_heal_warden_ping_2d = 
 	{
@@ -8418,7 +8418,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_bebop_03.vsnd",
 		]
-		vsnd_duration = 1.026000
+		vsnd_duration = 1.026
 	}
 	necro_ping_careful_bookworm_01_ping_2d = 
 	{
@@ -8478,7 +8478,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_chrono_03.vsnd",
 		]
-		vsnd_duration = 1.278990
+		vsnd_duration = 1.27899
 	}
 	necro_ping_careful_doorman_01_ping_2d = 
 	{
@@ -8688,7 +8688,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_frank_03.vsnd",
 		]
-		vsnd_duration = 0.986240
+		vsnd_duration = 0.98624
 	}
 	necro_ping_careful_ghost_01_ping_2d = 
 	{
@@ -8698,7 +8698,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_ghost_01.vsnd",
 		]
-		vsnd_duration = 0.853260
+		vsnd_duration = 0.85326
 	}
 	necro_ping_careful_ghost_02_ping_2d = 
 	{
@@ -8818,7 +8818,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_inferno_01.vsnd",
 		]
-		vsnd_duration = 1.121260
+		vsnd_duration = 1.12126
 	}
 	necro_ping_careful_inferno_02_ping_2d = 
 	{
@@ -8908,7 +8908,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_lash_01.vsnd",
 		]
-		vsnd_duration = 0.880000
+		vsnd_duration = 0.88
 	}
 	necro_ping_careful_lash_02_ping_2d = 
 	{
@@ -8918,7 +8918,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_lash_02.vsnd",
 		]
-		vsnd_duration = 0.967750
+		vsnd_duration = 0.96775
 	}
 	necro_ping_careful_lash_03_ping_2d = 
 	{
@@ -8948,7 +8948,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_magician_02.vsnd",
 		]
-		vsnd_duration = 1.170240
+		vsnd_duration = 1.17024
 	}
 	necro_ping_careful_magician_03_ping_2d = 
 	{
@@ -9118,7 +9118,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_shiv_01.vsnd",
 		]
-		vsnd_duration = 0.911250
+		vsnd_duration = 0.91125
 	}
 	necro_ping_careful_shiv_02_ping_2d = 
 	{
@@ -9188,7 +9188,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_tengu_02.vsnd",
 		]
-		vsnd_duration = 1.069750
+		vsnd_duration = 1.06975
 	}
 	necro_ping_careful_tengu_03_ping_2d = 
 	{
@@ -9258,7 +9258,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_vampirebat_03.vsnd",
 		]
-		vsnd_duration = 0.939990
+		vsnd_duration = 0.93999
 	}
 	necro_ping_careful_viper_01_ping_2d = 
 	{
@@ -9398,7 +9398,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_careful_wraith_02.vsnd",
 		]
-		vsnd_duration = 1.062000
+		vsnd_duration = 1.062
 	}
 	necro_ping_careful_wraith_03_ping_2d = 
 	{
@@ -9448,7 +9448,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_chrono_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.439760
+		vsnd_duration = 1.43976
 	}
 	necro_ping_chrono_check_items_ping_2d = 
 	{
@@ -9498,7 +9498,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_chrono_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.792500
+		vsnd_duration = 1.7925
 	}
 	necro_ping_chrono_on_top_of_mid_ping_2d = 
 	{
@@ -9548,7 +9548,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_danger_area.vsnd",
 		]
-		vsnd_duration = 1.248010
+		vsnd_duration = 1.24801
 	}
 	necro_ping_defend_base_01_ping_2d = 
 	{
@@ -9558,7 +9558,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_defend_base_01.vsnd",
 		]
-		vsnd_duration = 1.093500
+		vsnd_duration = 1.0935
 	}
 	"necro_ping_defend_blue_01-imported_ping_2d" = 
 	{
@@ -9678,7 +9678,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_doorman_missing_01.vsnd",
 		]
-		vsnd_duration = 1.185000
+		vsnd_duration = 1.185
 	}
 	necro_ping_doorman_on_top_of_garage_ping_2d = 
 	{
@@ -9968,7 +9968,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_familiar_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.478240
+		vsnd_duration = 1.47824
 	}
 	necro_ping_familiar_on_top_of_mid_ping_2d = 
 	{
@@ -9978,7 +9978,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_familiar_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.283990
+		vsnd_duration = 1.28399
 	}
 	necro_ping_familiar_under_garage_ping_2d = 
 	{
@@ -9998,7 +9998,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_familiar_was_here.vsnd",
 		]
-		vsnd_duration = 0.938250
+		vsnd_duration = 0.93825
 	}
 	necro_ping_fencer_almost_respawn_alt_ping_2d = 
 	{
@@ -10118,7 +10118,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_forge_check_items.vsnd",
 		]
-		vsnd_duration = 1.303510
+		vsnd_duration = 1.30351
 	}
 	necro_ping_forge_dead_ping_2d = 
 	{
@@ -10168,7 +10168,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_forge_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.418240
+		vsnd_duration = 1.41824
 	}
 	necro_ping_forge_under_garage_ping_2d = 
 	{
@@ -10258,7 +10258,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_frank_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.283010
+		vsnd_duration = 1.28301
 	}
 	necro_ping_frank_under_garage_ping_2d = 
 	{
@@ -10298,7 +10298,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_ghost_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.301260
+		vsnd_duration = 1.30126
 	}
 	necro_ping_ghost_check_items_ping_2d = 
 	{
@@ -10408,7 +10408,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_gigawatt_dead.vsnd",
 		]
-		vsnd_duration = 1.005510
+		vsnd_duration = 1.00551
 	}
 	necro_ping_gigawatt_in_mid_ping_2d = 
 	{
@@ -10538,7 +10538,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_good_game_02.vsnd",
 		]
-		vsnd_duration = 1.052260
+		vsnd_duration = 1.05226
 	}
 	necro_ping_good_game_03_ping_2d = 
 	{
@@ -10588,7 +10588,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_haze_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.299740
+		vsnd_duration = 1.29974
 	}
 	necro_ping_haze_check_items_ping_2d = 
 	{
@@ -10618,7 +10618,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_haze_in_mid.vsnd",
 		]
-		vsnd_duration = 1.063490
+		vsnd_duration = 1.06349
 	}
 	necro_ping_haze_missing_01_ping_2d = 
 	{
@@ -10758,7 +10758,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_health_nova_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.500500
+		vsnd_duration = 1.5005
 	}
 	necro_ping_health_nova_not_ready_ping_2d = 
 	{
@@ -10858,7 +10858,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_hornet_under_garage.vsnd",
 		]
-		vsnd_duration = 1.473250
+		vsnd_duration = 1.47325
 	}
 	necro_ping_hornet_was_here_ping_2d = 
 	{
@@ -10968,7 +10968,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_ignore_fencer_alt.vsnd",
 		]
-		vsnd_duration = 1.212250
+		vsnd_duration = 1.21225
 	}
 	necro_ping_ignore_forge_ping_2d = 
 	{
@@ -11038,7 +11038,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_ignore_inferno.vsnd",
 		]
-		vsnd_duration = 1.218760
+		vsnd_duration = 1.21876
 	}
 	necro_ping_ignore_kelvin_ping_2d = 
 	{
@@ -11048,7 +11048,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_ignore_kelvin.vsnd",
 		]
-		vsnd_duration = 1.057500
+		vsnd_duration = 1.0575
 	}
 	necro_ping_ignore_krill_ping_2d = 
 	{
@@ -11148,7 +11148,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_ignore_synth.vsnd",
 		]
-		vsnd_duration = 1.081000
+		vsnd_duration = 1.081
 	}
 	necro_ping_ignore_tengu_ping_2d = 
 	{
@@ -11248,7 +11248,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_inferno_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.465000
+		vsnd_duration = 1.465
 	}
 	necro_ping_inferno_check_items_ping_2d = 
 	{
@@ -11328,7 +11328,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_inferno_was_here.vsnd",
 		]
-		vsnd_duration = 1.208990
+		vsnd_duration = 1.20899
 	}
 	necro_ping_item_almost_ready_ping_2d = 
 	{
@@ -11358,7 +11358,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_jar_call_01.vsnd",
 		]
-		vsnd_duration = 1.336000
+		vsnd_duration = 1.336
 	}
 	necro_ping_jar_call_02_ping_2d = 
 	{
@@ -11538,7 +11538,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_krill_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.576000
+		vsnd_duration = 1.576
 	}
 	necro_ping_krill_on_top_of_mid_ping_2d = 
 	{
@@ -11598,7 +11598,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_lash_dead.vsnd",
 		]
-		vsnd_duration = 0.941760
+		vsnd_duration = 0.94176
 	}
 	necro_ping_lash_in_mid_ping_2d = 
 	{
@@ -11898,7 +11898,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_mirage_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.500010
+		vsnd_duration = 1.50001
 	}
 	necro_ping_mirage_under_garage_ping_2d = 
 	{
@@ -11918,7 +11918,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_mirage_was_here.vsnd",
 		]
-		vsnd_duration = 1.050740
+		vsnd_duration = 1.05074
 	}
 	necro_ping_missing_blue_01_ping_2d = 
 	{
@@ -11928,7 +11928,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_missing_blue_01.vsnd",
 		]
-		vsnd_duration = 0.893490
+		vsnd_duration = 0.89349
 	}
 	necro_ping_missing_blue_02_ping_2d = 
 	{
@@ -11938,7 +11938,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_missing_blue_02.vsnd",
 		]
-		vsnd_duration = 1.105510
+		vsnd_duration = 1.10551
 	}
 	necro_ping_missing_green_01_ping_2d = 
 	{
@@ -11948,7 +11948,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_missing_green_01.vsnd",
 		]
-		vsnd_duration = 0.929740
+		vsnd_duration = 0.92974
 	}
 	necro_ping_missing_green_02_ping_2d = 
 	{
@@ -12098,7 +12098,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_need_help_blue_alt.vsnd",
 		]
-		vsnd_duration = 1.273760
+		vsnd_duration = 1.27376
 	}
 	necro_ping_need_help_blue_ping_2d = 
 	{
@@ -12118,7 +12118,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_need_help_green_alt.vsnd",
 		]
-		vsnd_duration = 1.222740
+		vsnd_duration = 1.22274
 	}
 	necro_ping_need_help_green_ping_2d = 
 	{
@@ -12188,7 +12188,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_negative_03.vsnd",
 		]
-		vsnd_duration = 0.710250
+		vsnd_duration = 0.71025
 	}
 	necro_ping_nice_work_01_ping_2d = 
 	{
@@ -12228,7 +12228,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_orion_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.618000
+		vsnd_duration = 1.618
 	}
 	necro_ping_orion_check_items_ping_2d = 
 	{
@@ -12238,7 +12238,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_orion_check_items.vsnd",
 		]
-		vsnd_duration = 1.575240
+		vsnd_duration = 1.57524
 	}
 	necro_ping_orion_dead_ping_2d = 
 	{
@@ -12308,7 +12308,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_orion_was_here.vsnd",
 		]
-		vsnd_duration = 1.260510
+		vsnd_duration = 1.26051
 	}
 	necro_ping_post_game_01_ping_2d = 
 	{
@@ -12358,7 +12358,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_post_game_05.vsnd",
 		]
-		vsnd_duration = 2.580000
+		vsnd_duration = 2.58
 	}
 	necro_ping_post_game_06_ping_2d = 
 	{
@@ -12368,7 +12368,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_post_game_06.vsnd",
 		]
-		vsnd_duration = 0.815000
+		vsnd_duration = 0.815
 	}
 	necro_ping_pre_game_01_ping_2d = 
 	{
@@ -12688,7 +12688,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_push_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.063000
+		vsnd_duration = 1.063
 	}
 	necro_ping_refresher_almost_ready_ping_2d = 
 	{
@@ -12708,7 +12708,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_refresher_not_ready.vsnd",
 		]
-		vsnd_duration = 1.338010
+		vsnd_duration = 1.33801
 	}
 	necro_ping_rejuv_drop_ping_2d = 
 	{
@@ -12718,7 +12718,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_rejuv_drop.vsnd",
 		]
-		vsnd_duration = 1.218510
+		vsnd_duration = 1.21851
 	}
 	necro_ping_request_follow_ping_2d = 
 	{
@@ -12778,7 +12778,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_rupture_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.399240
+		vsnd_duration = 1.39924
 	}
 	necro_ping_rupture_not_ready_ping_2d = 
 	{
@@ -12808,7 +12808,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_saw_atlas.vsnd",
 		]
-		vsnd_duration = 0.994750
+		vsnd_duration = 0.99475
 	}
 	necro_ping_saw_bebop_ping_2d = 
 	{
@@ -12908,7 +12908,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_saw_frank.vsnd",
 		]
-		vsnd_duration = 0.969490
+		vsnd_duration = 0.96949
 	}
 	necro_ping_saw_ghost_ping_2d = 
 	{
@@ -12938,7 +12938,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_saw_haze.vsnd",
 		]
-		vsnd_duration = 0.966000
+		vsnd_duration = 0.966
 	}
 	necro_ping_saw_hornet_ping_2d = 
 	{
@@ -13078,7 +13078,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_saw_tengu.vsnd",
 		]
-		vsnd_duration = 1.017490
+		vsnd_duration = 1.01749
 	}
 	necro_ping_saw_them_ping_2d = 
 	{
@@ -13098,7 +13098,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_saw_unicorn.vsnd",
 		]
-		vsnd_duration = 1.180500
+		vsnd_duration = 1.1805
 	}
 	necro_ping_saw_vampirebat_ping_2d = 
 	{
@@ -13178,7 +13178,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_astro_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.172490
+		vsnd_duration = 1.17249
 	}
 	necro_ping_see_astro_on_roof_ping_2d = 
 	{
@@ -13248,7 +13248,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_bebop_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.154500
+		vsnd_duration = 1.1545
 	}
 	necro_ping_see_bebop_on_roof_ping_2d = 
 	{
@@ -13358,7 +13358,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_drifter_01.vsnd",
 		]
-		vsnd_duration = 1.000740
+		vsnd_duration = 1.00074
 	}
 	necro_ping_see_drifter_on_bridge_ping_2d = 
 	{
@@ -13378,7 +13378,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_drifter_on_roof.vsnd",
 		]
-		vsnd_duration = 1.195250
+		vsnd_duration = 1.19525
 	}
 	necro_ping_see_dynamo_01_ping_2d = 
 	{
@@ -13428,7 +13428,7 @@
 		[
 			"sounds/vo/necro/necro_ping_see_enemy.vsnd",
 		]
-		vsnd_duration = 1.079500
+		vsnd_duration = 1.0795
 	}
 	necro_ping_see_enemy_on_bridge_ping_2d = 
 	{
@@ -13508,7 +13508,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_fencer_on_bridge_alt.vsnd",
 		]
-		vsnd_duration = 1.279750
+		vsnd_duration = 1.27975
 	}
 	necro_ping_see_fencer_on_roof_ping_2d = 
 	{
@@ -13538,7 +13538,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_forge_on_roof.vsnd",
 		]
-		vsnd_duration = 1.450010
+		vsnd_duration = 1.45001
 	}
 	necro_ping_see_forge_ping_2d = 
 	{
@@ -13568,7 +13568,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_frank_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.199990
+		vsnd_duration = 1.19999
 	}
 	necro_ping_see_frank_on_roof_ping_2d = 
 	{
@@ -13598,7 +13598,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_ghost_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.162740
+		vsnd_duration = 1.16274
 	}
 	necro_ping_see_ghost_on_roof_ping_2d = 
 	{
@@ -13628,7 +13628,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_gigawatt_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.173760
+		vsnd_duration = 1.17376
 	}
 	necro_ping_see_gigawatt_on_roof_ping_2d = 
 	{
@@ -13698,7 +13698,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_hornet_on_roof.vsnd",
 		]
-		vsnd_duration = 1.238240
+		vsnd_duration = 1.23824
 	}
 	necro_ping_see_inferno_on_bridge_ping_2d = 
 	{
@@ -13778,7 +13778,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_krill_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.113260
+		vsnd_duration = 1.11326
 	}
 	necro_ping_see_krill_on_roof_ping_2d = 
 	{
@@ -13808,7 +13808,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_lash_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.225750
+		vsnd_duration = 1.22575
 	}
 	necro_ping_see_lash_on_roof_ping_2d = 
 	{
@@ -13838,7 +13838,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_magician_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.268740
+		vsnd_duration = 1.26874
 	}
 	necro_ping_see_magician_on_roof_ping_2d = 
 	{
@@ -13918,7 +13918,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_orion_01.vsnd",
 		]
-		vsnd_duration = 1.176740
+		vsnd_duration = 1.17674
 	}
 	necro_ping_see_orion_on_bridge_ping_2d = 
 	{
@@ -14018,7 +14018,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_shiv_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.157510
+		vsnd_duration = 1.15751
 	}
 	necro_ping_see_shiv_on_roof_ping_2d = 
 	{
@@ -14108,7 +14108,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_unicorn_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.520000
+		vsnd_duration = 1.52
 	}
 	necro_ping_see_unicorn_on_roof_ping_2d = 
 	{
@@ -14128,7 +14128,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_vampirebat_01.vsnd",
 		]
-		vsnd_duration = 0.903750
+		vsnd_duration = 0.90375
 	}
 	necro_ping_see_vampirebat_on_bridge_ping_2d = 
 	{
@@ -14218,7 +14218,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_warden_01.vsnd",
 		]
-		vsnd_duration = 0.963500
+		vsnd_duration = 0.9635
 	}
 	necro_ping_see_warden_on_bridge_ping_2d = 
 	{
@@ -14328,7 +14328,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_see_yamato.vsnd",
 		]
-		vsnd_duration = 1.048510
+		vsnd_duration = 1.04851
 	}
 	necro_ping_shiv_almost_respawn_ping_2d = 
 	{
@@ -14358,7 +14358,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_shiv_dead.vsnd",
 		]
-		vsnd_duration = 0.953500
+		vsnd_duration = 0.9535
 	}
 	necro_ping_shiv_in_mid_ping_2d = 
 	{
@@ -14428,7 +14428,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_silence_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.663250
+		vsnd_duration = 1.66325
 	}
 	necro_ping_silence_not_ready_ping_2d = 
 	{
@@ -14508,7 +14508,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_stun_astro_01.vsnd",
 		]
-		vsnd_duration = 1.069500
+		vsnd_duration = 1.0695
 	}
 	necro_ping_stun_atlas_01_ping_2d = 
 	{
@@ -14578,7 +14578,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_stun_dynamo_01.vsnd",
 		]
-		vsnd_duration = 1.133010
+		vsnd_duration = 1.13301
 	}
 	necro_ping_stun_familiar_01_ping_2d = 
 	{
@@ -14618,7 +14618,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_stun_frank_01.vsnd",
 		]
-		vsnd_duration = 1.096240
+		vsnd_duration = 1.09624
 	}
 	necro_ping_stun_ghost_01_ping_2d = 
 	{
@@ -14658,7 +14658,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_stun_hornet_01.vsnd",
 		]
-		vsnd_duration = 1.151000
+		vsnd_duration = 1.151
 	}
 	necro_ping_stun_inferno_01_ping_2d = 
 	{
@@ -14698,7 +14698,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_stun_lash_01.vsnd",
 		]
-		vsnd_duration = 1.107490
+		vsnd_duration = 1.10749
 	}
 	necro_ping_stun_magician_01_ping_2d = 
 	{
@@ -14748,7 +14748,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_stun_priest_01.vsnd",
 		]
-		vsnd_duration = 1.107750
+		vsnd_duration = 1.10775
 	}
 	necro_ping_stun_punkgoat_01_ping_2d = 
 	{
@@ -14888,7 +14888,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_synth_check_items.vsnd",
 		]
-		vsnd_duration = 1.309490
+		vsnd_duration = 1.30949
 	}
 	necro_ping_synth_dead_ping_2d = 
 	{
@@ -14898,7 +14898,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_synth_dead.vsnd",
 		]
-		vsnd_duration = 1.115740
+		vsnd_duration = 1.11574
 	}
 	necro_ping_synth_in_mid_ping_2d = 
 	{
@@ -14938,7 +14938,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_synth_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.380990
+		vsnd_duration = 1.38099
 	}
 	necro_ping_synth_under_garage_ping_2d = 
 	{
@@ -14968,7 +14968,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_t1_under_attack.vsnd",
 		]
-		vsnd_duration = 1.309000
+		vsnd_duration = 1.309
 	}
 	necro_ping_t2_under_attack_ping_2d = 
 	{
@@ -15118,7 +15118,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_thanks.vsnd",
 		]
-		vsnd_duration = 0.651000
+		vsnd_duration = 0.651
 	}
 	necro_ping_they_were_here_ping_2d = 
 	{
@@ -15168,7 +15168,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_theyre_under_garage.vsnd",
 		]
-		vsnd_duration = 1.137500
+		vsnd_duration = 1.1375
 	}
 	necro_ping_unicorn_almost_respawn_ping_2d = 
 	{
@@ -15298,7 +15298,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_use_ability4_01.vsnd",
 		]
-		vsnd_duration = 1.351563
+		vsnd_duration = 1.351562
 	}
 	necro_ping_use_ability4_02_ping_2d = 
 	{
@@ -15308,7 +15308,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_use_ability4_02.vsnd",
 		]
-		vsnd_duration = 1.293500
+		vsnd_duration = 1.2935
 	}
 	necro_ping_use_ability4_03_ping_2d = 
 	{
@@ -15348,7 +15348,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_use_ability4_06.vsnd",
 		]
-		vsnd_duration = 1.270260
+		vsnd_duration = 1.27026
 	}
 	necro_ping_use_ability4_07_ping_2d = 
 	{
@@ -15368,7 +15368,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_use_ability4_08.vsnd",
 		]
-		vsnd_duration = 1.402000
+		vsnd_duration = 1.402
 	}
 	necro_ping_use_ability4_09_ping_2d = 
 	{
@@ -15388,7 +15388,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_use_ability4_10.vsnd",
 		]
-		vsnd_duration = 1.580250
+		vsnd_duration = 1.58025
 	}
 	necro_ping_use_glitch_ping_2d = 
 	{
@@ -15408,7 +15408,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_use_health_nova.vsnd",
 		]
-		vsnd_duration = 1.416990
+		vsnd_duration = 1.41699
 	}
 	necro_ping_use_item_ping_2d = 
 	{
@@ -15628,7 +15628,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_viper_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.546490
+		vsnd_duration = 1.54649
 	}
 	necro_ping_viper_on_top_of_mid_ping_2d = 
 	{
@@ -15658,7 +15658,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_viper_was_here.vsnd",
 		]
-		vsnd_duration = 1.030740
+		vsnd_duration = 1.03074
 	}
 	necro_ping_viscous_almost_respawn_ping_2d = 
 	{
@@ -15778,7 +15778,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_warden_check_items.vsnd",
 		]
-		vsnd_duration = 1.259750
+		vsnd_duration = 1.25975
 	}
 	necro_ping_warden_dead_ping_2d = 
 	{
@@ -15798,7 +15798,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_warden_in_mid.vsnd",
 		]
-		vsnd_duration = 1.106000
+		vsnd_duration = 1.106
 	}
 	necro_ping_warden_missing_01_ping_2d = 
 	{
@@ -15858,7 +15858,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_warp_stone_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.596250
+		vsnd_duration = 1.59625
 	}
 	necro_ping_warp_stone_not_ready_ping_2d = 
 	{
@@ -15908,7 +15908,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_werewolf_check_items.vsnd",
 		]
-		vsnd_duration = 1.253240
+		vsnd_duration = 1.25324
 	}
 	necro_ping_werewolf_dead_ping_2d = 
 	{
@@ -16098,7 +16098,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_with_frank.vsnd",
 		]
-		vsnd_duration = 1.052750
+		vsnd_duration = 1.05275
 	}
 	necro_ping_with_ghost_ping_2d = 
 	{
@@ -16258,7 +16258,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_with_synth.vsnd",
 		]
-		vsnd_duration = 1.061510
+		vsnd_duration = 1.06151
 	}
 	necro_ping_with_tengu_ping_2d = 
 	{
@@ -16308,7 +16308,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_with_viscous.vsnd",
 		]
-		vsnd_duration = 1.097250
+		vsnd_duration = 1.09725
 	}
 	necro_ping_with_warden_ping_2d = 
 	{
@@ -16388,7 +16388,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_wraith_in_mid.vsnd",
 		]
-		vsnd_duration = 1.091250
+		vsnd_duration = 1.09125
 	}
 	necro_ping_wraith_missing_01_ping_2d = 
 	{
@@ -16408,7 +16408,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_wraith_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.572490
+		vsnd_duration = 1.57249
 	}
 	necro_ping_wraith_on_top_of_mid_ping_2d = 
 	{
@@ -16458,7 +16458,7 @@
 		[
 			"sounds/vo/necro/ping/necro_ping_yamato_check_items.vsnd",
 		]
-		vsnd_duration = 1.376760
+		vsnd_duration = 1.37676
 	}
 	necro_ping_yamato_dead_ping_2d = 
 	{
@@ -16558,7 +16558,7 @@
 		[
 			"sounds/vo/necro/necro_revenge_kill.vsnd",
 		]
-		vsnd_duration = 1.429010
+		vsnd_duration = 1.42901
 	}
 	necro_see_enemy_metal_skin_01_hero_3d = 
 	{
@@ -16678,7 +16678,7 @@
 		[
 			"sounds/vo/necro/necro_select_06.vsnd",
 		]
-		vsnd_duration = 1.156500
+		vsnd_duration = 1.1565
 	}
 	necro_select_07_hero_3d = 
 	{
@@ -16718,7 +16718,7 @@
 		[
 			"sounds/vo/necro/necro_select_10.vsnd",
 		]
-		vsnd_duration = 3.812000
+		vsnd_duration = 3.812
 	}
 	necro_t1_shop_reminder_01_hero_3d = 
 	{
@@ -16748,7 +16748,7 @@
 		[
 			"sounds/vo/necro/necro_t1_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 1.136000
+		vsnd_duration = 1.136
 	}
 	necro_t2_shop_reminder_01_hero_3d = 
 	{
@@ -16778,7 +16778,7 @@
 		[
 			"sounds/vo/necro/necro_t2_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 2.449000
+		vsnd_duration = 2.449
 	}
 	necro_t3_shop_reminder_01_hero_3d = 
 	{
@@ -16788,7 +16788,7 @@
 		[
 			"sounds/vo/necro/necro_t3_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 1.552000
+		vsnd_duration = 1.552
 	}
 	necro_t3_shop_reminder_02_hero_3d = 
 	{
@@ -16848,7 +16848,7 @@
 		[
 			"sounds/vo/necro/necro_tower_got_denied_01.vsnd",
 		]
-		vsnd_duration = 1.157500
+		vsnd_duration = 1.1575
 	}
 	necro_tower_got_denied_02_hero_3d = 
 	{
@@ -16918,7 +16918,7 @@
 		[
 			"sounds/vo/necro/necro_unselect_03.vsnd",
 		]
-		vsnd_duration = 1.627000
+		vsnd_duration = 1.627
 	}
 	necro_unselect_04_hero_3d = 
 	{
@@ -16988,7 +16988,7 @@
 		[
 			"sounds/vo/necro/necro_unselect_10.vsnd",
 		]
-		vsnd_duration = 2.865500
+		vsnd_duration = 2.8655
 	}
 	necro_upgrade_power1_01_hero_3d = 
 	{
@@ -16998,7 +16998,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power1_01.vsnd",
 		]
-		vsnd_duration = 1.795000
+		vsnd_duration = 1.795
 	}
 	necro_upgrade_power1_02_hero_3d = 
 	{
@@ -17038,7 +17038,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power1_05.vsnd",
 		]
-		vsnd_duration = 2.108500
+		vsnd_duration = 2.1085
 	}
 	necro_upgrade_power1_06_hero_3d = 
 	{
@@ -17088,7 +17088,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power1_10.vsnd",
 		]
-		vsnd_duration = 3.728500
+		vsnd_duration = 3.7285
 	}
 	necro_upgrade_power2_01_hero_3d = 
 	{
@@ -17098,7 +17098,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power2_01.vsnd",
 		]
-		vsnd_duration = 2.625000
+		vsnd_duration = 2.625
 	}
 	necro_upgrade_power2_02_alt_01_hero_3d = 
 	{
@@ -17108,7 +17108,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power2_02_alt_01.vsnd",
 		]
-		vsnd_duration = 2.147000
+		vsnd_duration = 2.147
 	}
 	necro_upgrade_power2_03_hero_3d = 
 	{
@@ -17158,7 +17158,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power2_07.vsnd",
 		]
-		vsnd_duration = 3.597000
+		vsnd_duration = 3.597
 	}
 	necro_upgrade_power2_08_hero_3d = 
 	{
@@ -17178,7 +17178,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power2_09.vsnd",
 		]
-		vsnd_duration = 1.546500
+		vsnd_duration = 1.5465
 	}
 	necro_upgrade_power2_10_hero_3d = 
 	{
@@ -17268,7 +17268,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power3_06.vsnd",
 		]
-		vsnd_duration = 1.368510
+		vsnd_duration = 1.36851
 	}
 	necro_upgrade_power3_07_hero_3d = 
 	{
@@ -17288,7 +17288,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power3_08.vsnd",
 		]
-		vsnd_duration = 2.365000
+		vsnd_duration = 2.365
 	}
 	necro_upgrade_power3_09_hero_3d = 
 	{
@@ -17298,7 +17298,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power3_09.vsnd",
 		]
-		vsnd_duration = 2.418500
+		vsnd_duration = 2.4185
 	}
 	necro_upgrade_power3_10_hero_3d = 
 	{
@@ -17328,7 +17328,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power4_02.vsnd",
 		]
-		vsnd_duration = 1.897250
+		vsnd_duration = 1.89725
 	}
 	necro_upgrade_power4_03_hero_3d = 
 	{
@@ -17418,7 +17418,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power5_03.vsnd",
 		]
-		vsnd_duration = 1.999000
+		vsnd_duration = 1.999
 	}
 	necro_upgrade_power5_04_hero_3d = 
 	{
@@ -17538,7 +17538,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power6_05.vsnd",
 		]
-		vsnd_duration = 1.623000
+		vsnd_duration = 1.623
 	}
 	necro_upgrade_power6_06_hero_3d = 
 	{
@@ -17558,7 +17558,7 @@
 		[
 			"sounds/vo/necro/necro_upgrade_power6_07.vsnd",
 		]
-		vsnd_duration = 2.025500
+		vsnd_duration = 2.0255
 	}
 	necro_upgrade_power6_08_hero_3d = 
 	{
@@ -17618,7 +17618,7 @@
 		[
 			"sounds/vo/necro/necro_use_ability_refresher_01.vsnd",
 		]
-		vsnd_duration = 1.004500
+		vsnd_duration = 1.0045
 	}
 	necro_use_ability_refresher_02_ability_3d = 
 	{
@@ -17748,7 +17748,7 @@
 		[
 			"sounds/vo/necro/necro_use_echo_shard_02.vsnd",
 		]
-		vsnd_duration = 1.289000
+		vsnd_duration = 1.289
 	}
 	necro_use_echo_shard_03_ability_3d = 
 	{
@@ -17828,7 +17828,7 @@
 		[
 			"sounds/vo/necro/necro_use_phantom_strike_01.vsnd",
 		]
-		vsnd_duration = 1.092740
+		vsnd_duration = 1.09274
 	}
 	necro_use_phantom_strike_02_ability_3d = 
 	{
@@ -17948,7 +17948,7 @@
 		[
 			"sounds/vo/necro/necro_use_power1_10.vsnd",
 		]
-		vsnd_duration = 1.645500
+		vsnd_duration = 1.6455
 	}
 	necro_use_power1_11_ability_3d = 
 	{
@@ -17978,7 +17978,7 @@
 		[
 			"sounds/vo/necro/necro_use_power2_02_alt_01.vsnd",
 		]
-		vsnd_duration = 0.670000
+		vsnd_duration = 0.67
 	}
 	necro_use_power2_03_ability_3d = 
 	{
@@ -18018,7 +18018,7 @@
 		[
 			"sounds/vo/necro/necro_use_power2_06.vsnd",
 		]
-		vsnd_duration = 1.195000
+		vsnd_duration = 1.195
 	}
 	necro_use_power2_07_ability_3d = 
 	{
@@ -18028,7 +18028,7 @@
 		[
 			"sounds/vo/necro/necro_use_power2_07.vsnd",
 		]
-		vsnd_duration = 0.893500
+		vsnd_duration = 0.8935
 	}
 	necro_use_power2_08_ability_3d = 
 	{
@@ -18048,7 +18048,7 @@
 		[
 			"sounds/vo/necro/necro_use_power2_09.vsnd",
 		]
-		vsnd_duration = 1.038500
+		vsnd_duration = 1.0385
 	}
 	necro_use_power2_10_ability_3d = 
 	{
@@ -18058,7 +18058,7 @@
 		[
 			"sounds/vo/necro/necro_use_power2_10.vsnd",
 		]
-		vsnd_duration = 1.027250
+		vsnd_duration = 1.02725
 	}
 	necro_use_power3_01_ability_3d = 
 	{
@@ -18068,7 +18068,7 @@
 		[
 			"sounds/vo/necro/necro_use_power3_01.vsnd",
 		]
-		vsnd_duration = 0.755500
+		vsnd_duration = 0.7555
 	}
 	necro_use_power3_01_alt_01_ability_3d = 
 	{
@@ -18218,7 +18218,7 @@
 		[
 			"sounds/vo/necro/necro_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.446000
+		vsnd_duration = 1.446
 	}
 	necro_use_power4_02_hero_announcer = 
 	{
@@ -18228,7 +18228,7 @@
 		[
 			"sounds/vo/necro/necro_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.446000
+		vsnd_duration = 1.446
 	}
 	necro_use_power4_02_ult_3d = 
 	{
@@ -18238,7 +18238,7 @@
 		[
 			"sounds/vo/necro/necro_use_power4_02.vsnd",
 		]
-		vsnd_duration = 1.446000
+		vsnd_duration = 1.446
 	}
 	necro_use_power4_03_ability_3d = 
 	{
@@ -18248,7 +18248,7 @@
 		[
 			"sounds/vo/necro/necro_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.587510
+		vsnd_duration = 1.58751
 	}
 	necro_use_power4_03_hero_announcer = 
 	{
@@ -18258,7 +18258,7 @@
 		[
 			"sounds/vo/necro/necro_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.587510
+		vsnd_duration = 1.58751
 	}
 	necro_use_power4_03_ult_3d = 
 	{
@@ -18268,7 +18268,7 @@
 		[
 			"sounds/vo/necro/necro_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.587510
+		vsnd_duration = 1.58751
 	}
 	necro_use_power4_04_ability_3d = 
 	{
@@ -18458,7 +18458,7 @@
 		[
 			"sounds/vo/necro/necro_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.482990
+		vsnd_duration = 1.48299
 	}
 	necro_use_power4_10_hero_announcer = 
 	{
@@ -18468,7 +18468,7 @@
 		[
 			"sounds/vo/necro/necro_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.482990
+		vsnd_duration = 1.48299
 	}
 	necro_use_power4_10_ult_3d = 
 	{
@@ -18478,7 +18478,7 @@
 		[
 			"sounds/vo/necro/necro_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.482990
+		vsnd_duration = 1.48299
 	}
 	necro_use_power5_03_ability_3d = 
 	{
@@ -18588,7 +18588,7 @@
 		[
 			"sounds/vo/necro/necro_use_power5_08.vsnd",
 		]
-		vsnd_duration = 1.161750
+		vsnd_duration = 1.16175
 	}
 	necro_use_power5_08_ult_3d = 
 	{
@@ -18598,7 +18598,7 @@
 		[
 			"sounds/vo/necro/necro_use_power5_08.vsnd",
 		]
-		vsnd_duration = 1.161750
+		vsnd_duration = 1.16175
 	}
 	necro_use_power5_09_ability_3d = 
 	{
@@ -18758,7 +18758,7 @@
 		[
 			"sounds/vo/necro/necro_use_shadow_weave_02.vsnd",
 		]
-		vsnd_duration = 0.992760
+		vsnd_duration = 0.99276
 	}
 	necro_use_shadow_weave_03_ability_3d = 
 	{
@@ -18778,7 +18778,7 @@
 		[
 			"sounds/vo/necro/necro_use_silencer_01.vsnd",
 		]
-		vsnd_duration = 1.006490
+		vsnd_duration = 1.00649
 	}
 	necro_use_silencer_02_ability_3d = 
 	{
@@ -18808,7 +18808,7 @@
 		[
 			"sounds/vo/necro/necro_use_tech_purge_01.vsnd",
 		]
-		vsnd_duration = 0.849250
+		vsnd_duration = 0.84925
 	}
 	necro_use_tech_purge_02_ability_3d = 
 	{
@@ -18848,7 +18848,7 @@
 		[
 			"sounds/vo/necro/necro_use_unstoppable_02.vsnd",
 		]
-		vsnd_duration = 1.551000
+		vsnd_duration = 1.551
 	}
 	necro_use_unstoppable_03_ability_3d = 
 	{

@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "opvars"
 				operator = "util_null"
@@ -13,7 +12,7 @@
 					default = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -23,7 +22,7 @@
 					astro = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -33,7 +32,7 @@
 					atlas = 
 					{
 						data_type = "float"
-						value = 0.500000
+						value = 0.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -43,7 +42,7 @@
 					bebop = 
 					{
 						data_type = "float"
-						value = 3.500000
+						value = 3.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -53,7 +52,7 @@
 					bomber = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -63,7 +62,7 @@
 					cadence = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -73,7 +72,7 @@
 					chrono = 
 					{
 						data_type = "float"
-						value = 2.000000
+						value = 2.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -83,7 +82,7 @@
 					dynamo = 
 					{
 						data_type = "float"
-						value = 3.500000
+						value = 3.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -93,7 +92,7 @@
 					forge = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -103,7 +102,7 @@
 					ghost = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -113,7 +112,7 @@
 					genericperson = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -123,7 +122,7 @@
 					gigawatt = 
 					{
 						data_type = "float"
-						value = -0.500000
+						value = -0.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -133,7 +132,7 @@
 					gunslinger = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -143,7 +142,7 @@
 					haze = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -153,7 +152,7 @@
 					hornet = 
 					{
 						data_type = "float"
-						value = 0.500000
+						value = 0.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -163,7 +162,7 @@
 					inferno = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -173,7 +172,7 @@
 					kelvin = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -183,7 +182,7 @@
 					krill = 
 					{
 						data_type = "float"
-						value = 1.000000
+						value = 1.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -193,7 +192,7 @@
 					lash = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -203,7 +202,7 @@
 					magician = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -213,7 +212,7 @@
 					mirage = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -223,7 +222,7 @@
 					nano = 
 					{
 						data_type = "float"
-						value = 1.000000
+						value = 1.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -233,7 +232,7 @@
 					operative = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -243,7 +242,7 @@
 					orion = 
 					{
 						data_type = "float"
-						value = 0.500000
+						value = 0.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -253,7 +252,7 @@
 					priest = 
 					{
 						data_type = "float"
-						value = -0.500000
+						value = -0.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -263,7 +262,7 @@
 					rutger = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -273,7 +272,7 @@
 					shieldguy = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -283,7 +282,7 @@
 					shiv = 
 					{
 						data_type = "float"
-						value = 0.500000
+						value = 0.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -293,7 +292,7 @@
 					slork = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -303,7 +302,7 @@
 					synth = 
 					{
 						data_type = "float"
-						value = 1.000000
+						value = 1.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -313,7 +312,7 @@
 					tengu = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -323,7 +322,7 @@
 					thumper = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -333,7 +332,7 @@
 					tokamak = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -343,7 +342,7 @@
 					trapper = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -353,7 +352,7 @@
 					vandal = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -363,7 +362,7 @@
 					viper = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -373,7 +372,7 @@
 					viscous = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -383,7 +382,7 @@
 					warden = 
 					{
 						data_type = "float"
-						value = -1.500000
+						value = -1.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -393,7 +392,7 @@
 					wraith = 
 					{
 						data_type = "float"
-						value = -1.000000
+						value = -1.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -403,7 +402,7 @@
 					wrecker = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -413,7 +412,7 @@
 					yakuza = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -423,7 +422,7 @@
 					yamato = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -433,7 +432,7 @@
 					female_patron = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -443,7 +442,7 @@
 					male_patron = 
 					{
 						data_type = "float"
-						value = -2.000000
+						value = -2.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -453,7 +452,7 @@
 					spirit_jar = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -463,7 +462,7 @@
 					newscaster = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -473,7 +472,7 @@
 					shopkeeper = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -483,7 +482,7 @@
 					neutral_gremlin = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -493,7 +492,7 @@
 					oathkeeper = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -503,7 +502,7 @@
 					targetdummy = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -513,7 +512,7 @@
 					boho = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -523,7 +522,7 @@
 					bookworm = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -533,7 +532,7 @@
 					doorman = 
 					{
 						data_type = "float"
-						value = -0.500000
+						value = -0.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -543,7 +542,7 @@
 					drifter = 
 					{
 						data_type = "float"
-						value = -0.500000
+						value = -0.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -553,7 +552,7 @@
 					druid = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -563,7 +562,7 @@
 					fortuna = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -573,7 +572,7 @@
 					frank = 
 					{
 						data_type = "float"
-						value = 1.000000
+						value = 1.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -583,7 +582,7 @@
 					skyrunner = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -593,7 +592,7 @@
 					vampirebat = 
 					{
 						data_type = "float"
-						value = 1.000000
+						value = 1.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -603,7 +602,7 @@
 					punkgoat = 
 					{
 						data_type = "float"
-						value = 3.500000
+						value = 3.5
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -613,7 +612,7 @@
 					fencer = 
 					{
 						data_type = "float"
-						value = 0.000000
+						value = 0.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -623,7 +622,7 @@
 					necro = 
 					{
 						data_type = "float"
-						value = 1.000000
+						value = 1.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -633,7 +632,7 @@
 					familiar = 
 					{
 						data_type = "float"
-						value = 2.000000
+						value = 2.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -643,7 +642,7 @@
 					unicorn = 
 					{
 						data_type = "float"
-						value = 1.000000
+						value = 1.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"
@@ -653,7 +652,7 @@
 					werewolf = 
 					{
 						data_type = "float"
-						value = 1.000000
+						value = 1.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"

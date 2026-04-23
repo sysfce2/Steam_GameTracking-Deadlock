@@ -3,7 +3,7 @@
 	Operative.Wpn.Fire = 
 	{
 		base = "Base.Weapon.Pistol"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = 
 		[
 			"sounds/weapons/operative/operative_weapon_fire_01.vsnd",
@@ -18,27 +18,27 @@
 	Operative.Umbrella.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = "sounds/abilities/operative/operative_umbrella_fire.vsnd"
 		vsnd_duration = 1.446667
 	}
 	Operative.Umbrella.Charge = 
 	{
 		base = "Base.Ability"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = "sounds/abilities/operative/operative_umbrella_charge.vsnd"
-		vsnd_duration = 1.555850
+		vsnd_duration = 1.55585
 	}
 	Raven.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -3.000000
+		volume = -3.0
 	}
 	Raven.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 3.000000
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		volume = 3.0
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hero_self/06.vsnd",
@@ -68,17 +68,17 @@
 	Raven.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -9.000000
+		volume = -9.0
 	}
 	Raven.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Raven.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -5.000000
+		track_1.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hero_self/06.vsnd",
@@ -96,7 +96,7 @@
 	Raven.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",
@@ -141,7 +141,7 @@
 	Raven.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",

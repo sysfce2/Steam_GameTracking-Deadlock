@@ -12,7 +12,7 @@
 		m_strMessageToken = "#citadel_chatwheel_label_GoingIn"
 		m_unPingWheelOptionID = 1
 		m_bBindable = true
-		m_flPhraseTopMarginOffset = 50.000000
+		m_flPhraseTopMarginOffset = 50.0
 		m_bPingWheelBindable = true
 	}
 	Help = 
@@ -25,7 +25,7 @@
 		m_strMessageToken = "#citadel_chatwheel_message_Help"
 		m_unPingWheelOptionID = 2
 		m_bBindable = true
-		m_flPhraseTopMarginOffset = 50.000000
+		m_flPhraseTopMarginOffset = 50.0
 		m_bPingWheelBindable = true
 	}
 	Yes = 
@@ -58,7 +58,7 @@
 		m_ePingConcept = "CITADEL_PING_THANK_YOU"
 		m_unPingWheelOptionID = 4
 		m_bBindable = true
-		m_flPhraseTopMarginOffset = 40.000000
+		m_flPhraseTopMarginOffset = 40.0
 		m_bPingWheelBindable = true
 		m_vecChatTextTriggers = 
 		[
@@ -78,7 +78,7 @@
 		m_ePingWheelSoundType = "CITADEL_PING_WHEEL_SOUND_WARNING"
 		m_unPingWheelOptionID = 5
 		m_bBindable = true
-		m_flPhraseTopMarginOffset = 40.000000
+		m_flPhraseTopMarginOffset = 40.0
 		m_bPingWheelBindable = true
 	}
 	"Stay Together" = 
@@ -185,7 +185,7 @@
 		m_eRecipientsType = "k_ECitadelRecipients_RecipientsAroundPlayer"
 		m_strIcon = "file://{images}/hud/ping/ping_icon_thanks.svg"
 		m_bBindable = true
-		m_flPhraseTopMarginOffset = 50.000000
+		m_flPhraseTopMarginOffset = 50.0
 		m_bPingWheelBindable = true
 		m_vecChatTextTriggers = 
 		[
@@ -284,7 +284,7 @@
 			"Push Purple",
 		]
 		m_bBindable = true
-		m_flPhraseTopMarginOffset = 35.000000
+		m_flPhraseTopMarginOffset = 35.0
 	}
 	"Push Yellow" = 
 	{
@@ -295,7 +295,7 @@
 		m_bIsSubnavMessage = true
 		m_strMessageToken = "#citadel_chatwheel_push_yellow"
 		m_eLaneColor = "k_ELaneColor_Yellow"
-		m_flPhraseTopMarginOffset = 30.000000
+		m_flPhraseTopMarginOffset = 30.0
 	}
 	"Push Green" = 
 	{
@@ -306,7 +306,7 @@
 		m_bIsSubnavMessage = true
 		m_ePingConcept = "CITADEL_PING_PUSH_LANE"
 		m_eLaneColor = "k_ELaneColor_Green"
-		m_flPhraseTopMarginOffset = 30.000000
+		m_flPhraseTopMarginOffset = 30.0
 	}
 	"Push Blue" = 
 	{
@@ -317,7 +317,7 @@
 		m_strMessageToken = "#citadel_chatwheel_push_blue"
 		m_ePingConcept = "CITADEL_PING_PUSH_LANE"
 		m_eLaneColor = "k_ELaneColor_Blue"
-		m_flPhraseTopMarginOffset = 30.000000
+		m_flPhraseTopMarginOffset = 30.0
 	}
 	"Push Purple" = 
 	{
@@ -328,7 +328,7 @@
 		m_eLaneColor = "k_ELaneColor_Purple"
 		m_strLabelToken = "#citadel_chatwheel_push_purple"
 		m_strMessageToken = "#citadel_chatwheel_push_purple"
-		m_flPhraseTopMarginOffset = 30.000000
+		m_flPhraseTopMarginOffset = 30.0
 	}
 	"Pinged Enemy Player" = 
 	{
@@ -354,7 +354,7 @@
 		m_ePingConcept = "CITADEL_PING_MISSING"
 		m_strLabelToken = "#citadel_chatwheel_label_missing"
 		m_strMessageToken = "#citadel_chatwheel_message_missing_hero"
-		m_flPhraseTopMarginOffset = 50.000000
+		m_flPhraseTopMarginOffset = 50.0
 		m_strIcon = "file://{images}/hud/ping/ping_icon_question.svg"
 		m_bPingWheelBindable = true
 	}
@@ -368,7 +368,7 @@
 		m_strMessageToken = "#citadel_chatwheel_heal_please"
 		m_ePingWheelSoundType = "CITADEL_PING_WHEEL_SOUND_WARNING"
 		m_bBindable = true
-		m_flPhraseTopMarginOffset = 50.000000
+		m_flPhraseTopMarginOffset = 50.0
 		m_strIcon = "file://{images}/hud/ping/ping_icon_heal.svg"
 		m_bPingWheelBindable = true
 	}
@@ -381,7 +381,7 @@
 		m_strMessageToken = "#citadel_chatwheel_can_heal"
 		m_ePingWheelSoundType = "CITADEL_PING_WHEEL_SOUND_WARNING"
 		m_bBindable = true
-		m_flPhraseTopMarginOffset = 50.000000
+		m_flPhraseTopMarginOffset = 50.0
 		m_strIcon = "file://{images}/hud/ping/ping_icon_heal.svg"
 		m_ePingMarkerInfo = "k_EPingMarkerInfo_ShowMarkerOnSender"
 		m_bPingWheelBindable = true
@@ -393,7 +393,7 @@
 		m_strLabelToken = "#citadel_chatwheel_need_plan"
 		m_strMessageToken = "#citadel_chatwheel_need_plan"
 		m_bBindable = true
-		m_flPhraseTopMarginOffset = 25.000000
+		m_flPhraseTopMarginOffset = 25.0
 		m_strIcon = "file://{images}/hud/ping/ping_icon_question.svg"
 		m_bPingWheelBindable = true
 	}
@@ -407,7 +407,7 @@
 		m_eLaneColor = "k_ELaneColor_Yellow"
 		m_strIcon = "file://{images}/hud/ping/ping_icon_going_in.svg"
 		m_bIsSubnavMessage = true
-		m_flPhraseTopMarginOffset = 30.000000
+		m_flPhraseTopMarginOffset = 30.0
 		m_bPingWheelBindable = true
 	}
 	"Heading to Green Subnav" = 
@@ -420,7 +420,7 @@
 		m_strLabelToken = "#citadel_chatwheel_message_HeadedToGreen"
 		m_strIcon = "file://{images}/hud/ping/ping_icon_going_in.svg"
 		m_bIsSubnavMessage = true
-		m_flPhraseTopMarginOffset = 30.000000
+		m_flPhraseTopMarginOffset = 30.0
 		m_bPingWheelBindable = true
 	}
 	"Headed to Blue Subnav" = 
@@ -431,7 +431,7 @@
 		m_eLaneColor = "k_ELaneColor_Blue"
 		m_strMessageToken = "#citadel_chatwheel_message_HeadedToBlue"
 		m_strLabelToken = "#citadel_chatwheel_message_HeadedToBlue"
-		m_flPhraseTopMarginOffset = 30.000000
+		m_flPhraseTopMarginOffset = 30.0
 		m_bPingWheelBindable = true
 	}
 	"Headed to Purple Subnav" = 
@@ -442,7 +442,7 @@
 		m_eLaneColor = "k_ELaneColor_Purple"
 		m_strMessageToken = "#citadel_chatwheel_message_HeadedToPurple"
 		m_strLabelToken = "#citadel_chatwheel_message_HeadedToPurple"
-		m_flPhraseTopMarginOffset = 30.000000
+		m_flPhraseTopMarginOffset = 30.0
 		m_bPingWheelBindable = true
 	}
 	"Headed to Lane" = 
@@ -472,12 +472,10 @@
 		m_bBindable = true
 		m_ePingWheelSoundType = "CITADEL_PING_WHEEL_SOUND_MAP_PING"
 		m_bPingWheelBindable = true
-		m_vecRespondsToConcepts = 
-		[
-		]
+		m_vecRespondsToConcepts = [  ]
 		m_strIcon = "file://{images}/hud/ping/ping_icon_help.svg"
 	}
-	"You're Welcome" = 
+	"You\'re Welcome" = 
 	{
 		m_unPingWheelOptionID = 44
 		m_ePingConcept = "CITADEL_PING_YOURE_WELCOME"
@@ -486,7 +484,7 @@
 		m_strMessageToken = "#citadel_chatwheel_youre_welcome"
 		m_bBindable = true
 		m_ePingWheelSoundType = "CITADEL_PING_WHEEL_SOUND_NONE"
-		m_flPhraseTopMarginOffset = 30.000000
+		m_flPhraseTopMarginOffset = 30.0
 		m_bPingWheelBindable = true
 		m_vecRespondsToConcepts = 
 		[
@@ -501,7 +499,7 @@
 		m_strLabelToken = "#citadel_chatwheel_sorry"
 		m_strMessageToken = "#citadel_chatwheel_sorry"
 		m_bBindable = true
-		m_flPhraseTopMarginOffset = 40.000000
+		m_flPhraseTopMarginOffset = 40.0
 		m_bPingWheelBindable = true
 		m_strIcon = "file://{images}/hud/ping/ping_icon_heart.svg"
 		m_vecChatTextTriggers = 
@@ -607,7 +605,7 @@
 		m_bPingWheelBindable = true
 		m_ePingWheelSoundType = "CITADEL_PING_WHEEL_SOUND_ATTACK"
 	}
-	"I'll Clear Troopers" = 
+	"I\'ll Clear Troopers" = 
 	{
 		m_unPingWheelOptionID = 56
 		m_ePingConcept = "CITADEL_PING_CLEAR_TROOPERS"

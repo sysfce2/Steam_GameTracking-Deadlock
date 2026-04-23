@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -28,7 +27,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "get_viewing_entity_index"
 				operator = "opvar_get_float"
@@ -37,7 +35,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "viewing_entity_index"
 			},
-			
 			{
 				name = "is_viewing_valid_entity"
 				input_execute = "@public.is_enemy_audible_sound"
@@ -46,7 +43,6 @@
 				input1 = "@get_viewing_entity_index.output"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "is_viewing_owning_entity"
 				input_execute = "@public.is_enemy_audible_sound"
@@ -55,7 +51,6 @@
 				input1 = "@get_viewing_entity_index.output"
 				input2 = "@public.owner_entity_index"
 			},
-			
 			{
 				name = "accumulate_join_conditions"
 				operator = "math_accumulate12_float"
@@ -73,7 +68,6 @@
 				input11 = "1.0"
 				input12 = "1.0"
 			},
-			
 			{
 				name = "join_enemy_audible_sound_group"
 				execute_once = "true"
@@ -82,7 +76,6 @@
 				input_group_name = "enemy_audible_sound"
 				input_match_string = ""
 			},
-			
 			{
 				name = "get_group_result_info"
 				execute_once = "true"

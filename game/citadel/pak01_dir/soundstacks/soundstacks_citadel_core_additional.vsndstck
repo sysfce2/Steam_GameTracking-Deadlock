@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -267,12 +266,10 @@
 					}
 				}
 			},
-			
 			{
 				name = "get_event_info"
 				operator = "soundevent_get_info"
 			},
-			
 			{
 				name = "has_stop_time"
 				operator = "math_float"
@@ -280,7 +277,6 @@
 				input1 = "@public.event_stop_at_time"
 				input2 = "0.000000"
 			},
-			
 			{
 				name = "add_stop_time_to_fade_out_time"
 				operator = "math_float"
@@ -289,7 +285,6 @@
 				input1 = "@public.event_stop_at_time"
 				input2 = "@public.volume_fade_out"
 			},
-			
 			{
 				name = "elapsed_less_than_fade"
 				operator = "math_float"
@@ -298,14 +293,12 @@
 				input1 = "@get_event_info.output_elapsed_time"
 				input2 = "@add_stop_time_to_fade_out_time.output"
 			},
-			
 			{
 				name = "stop_at_time"
 				input_execute = "@has_stop_time.output"
 				operator = "soundevent_control"
 				input_stop_at_time = "@public.event_stop_at_time"
 			},
-			
 			{
 				name = "random_delay"
 				operator = "math_random_float"
@@ -315,7 +308,6 @@
 				input_max = "@public.delay_rand_max"
 				round_to_int = "0"
 			},
-			
 			{
 				name = "negative_delay"
 				operator = "math_float"
@@ -323,7 +315,6 @@
 				input1 = "@public.delay"
 				input2 = "0"
 			},
-			
 			{
 				name = "delay_required"
 				operator = "math_float"
@@ -331,7 +322,6 @@
 				input1 = "@public.delay_use_random"
 				input2 = "@negative_delay.output"
 			},
-			
 			{
 				name = "negative_delay_switch"
 				operator = "ctrl_switch_float"
@@ -339,7 +329,6 @@
 				input1 = "@random_delay.output"
 				input2 = "@public.delay"
 			},
-			
 			{
 				name = "create_index_for_vsnd"
 				operator = "math_random_float"
@@ -348,7 +337,6 @@
 				input_max = "@public.shared_vsnd_index_max"
 				round_to_int = "true"
 			},
-			
 			{
 				name = "mult_vol"
 				operator = "math_float"
@@ -356,7 +344,6 @@
 				input1 = "@public.volume"
 				input2 = "@public.volume_atten"
 			},
-			
 			{
 				name = "soundevent_01"
 				operator = "soundevent_start"
@@ -413,7 +400,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_01_fade_in"
 				operator = "soundevent_param"
@@ -429,7 +415,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_01_fade_out"
 				operator = "soundevent_param"
@@ -445,7 +430,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_01_delay"
 				operator = "soundevent_param"
@@ -461,7 +445,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_01_vsnd_index"
 				operator = "soundevent_param"
@@ -477,7 +460,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_02"
 				operator = "soundevent_start"
@@ -534,7 +516,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_02_fade_in"
 				operator = "soundevent_param"
@@ -550,7 +531,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_02_fade_out"
 				operator = "soundevent_param"
@@ -566,7 +546,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_02_delay"
 				operator = "soundevent_param"
@@ -582,7 +561,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_02_vsnd_index"
 				operator = "soundevent_param"
@@ -598,7 +576,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_03"
 				operator = "soundevent_start"
@@ -655,7 +632,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_03_fade_in"
 				operator = "soundevent_param"
@@ -671,7 +647,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_03_fade_out"
 				operator = "soundevent_param"
@@ -687,7 +662,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_03_delay"
 				operator = "soundevent_param"
@@ -703,7 +677,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_03_vsnd_index"
 				operator = "soundevent_param"
@@ -719,7 +692,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_04"
 				operator = "soundevent_start"
@@ -776,7 +748,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_04_fade_in"
 				operator = "soundevent_param"
@@ -792,7 +763,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_04_fade_out"
 				operator = "soundevent_param"
@@ -808,7 +778,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_04_delay"
 				operator = "soundevent_param"
@@ -824,7 +793,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "soundevent_04_vsnd_index"
 				operator = "soundevent_param"
@@ -851,7 +819,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -874,19 +841,16 @@
 					}
 				}
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_execute = "1"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "source_info"
 				operator = "game_get_source_info"
 			},
-			
 			{
 				name = "test_from_player_index"
 				operator = "ctrl_switch_float"
@@ -894,7 +858,6 @@
 				input2 = "-1"
 				input1 = "@source_info.output_entity_index"
 			},
-			
 			{
 				name = "get_entity_info"
 				input_execute = "1"
@@ -906,14 +869,12 @@
 				use_world_position = "@public.position_force_from_input"
 				attachment = "@public.attachment"
 			},
-			
 			{
 				name = "distance_to_source"
 				operator = "calc_distance"
 				input_position1 = "@get_entity_info.output_position"
 				input_position2 = "@globals.output_listener_position"
 			},
-			
 			{
 				name = "group_priority_limiter"
 				execute_once = "true"
@@ -921,14 +882,12 @@
 				input_group_name = "default_volume_mute_group"
 				input_limit_priority = "@distance_to_source.output"
 			},
-			
 			{
 				name = "update_opvar"
 				execute_once = "false"
 				operator = "soundevent_group_opvars"
 				input_limit_priority = "@distance_to_source.output"
 			},
-			
 			{
 				name = "mult_volume"
 				operator = "math_float"
@@ -937,14 +896,12 @@
 				input1 = "@public.group_pause"
 				input2 = "@public.volume_atten"
 			},
-			
 			{
 				name = "filter_float"
 				operator = "math_filter_float"
 				input = "@mult_volume.output"
 				input_max_velocity = "1.000000"
 			},
-			
 			{
 				name = "citadel_default_3d"
 				operator = "sos_import_stack"

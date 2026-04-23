@@ -3,13 +3,13 @@
 	Unicorn.Wpn.Fire = 
 	{
 		base = "Base.Weapon"
-		volume = 5.000000
-		pitch = 1.100000
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		tail_vol_offset_db = -9.000000
-		tail_exterior_sky_exposure_floor_db = -14.000000
-		last_shot_vol_offset_db = 2.000000
+		volume = 5.0
+		pitch = 1.1
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		tail_vol_offset_db = -9.0
+		tail_exterior_sky_exposure_floor_db = -14.0
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/unicorn/unicorn_weapon_fire_main_01.vsnd",
@@ -37,22 +37,22 @@
 	Unicorn.Weapon.Loop = 
 	{
 		base = "Base.Weapon"
-		volume = 3.000000
-		delay_rand_min = -2.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
-		pitch = 1.250000
+		volume = 3.0
+		delay_rand_min = -2.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		pitch = 1.25
 		vsnd_files = "sounds/weapons/unicorn/unicorn_weapon_lp.vsnd"
 		vsnd_duration = 5.731814
 	}
 	Unicorn.Weapon.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -12.000000
-		pitch_rand_min = -0.060000
-		pitch_rand_max = 0.060000
-		limiter_max = 1.000000
-		block_duration = 0.100000
+		volume = -12.0
+		pitch_rand_min = -0.06
+		pitch_rand_max = 0.06
+		limiter_max = 1.0
+		block_duration = 0.1
 		vsnd_files = 
 		[
 			"sounds/weapons/unicorn/impacts/unicorn_weapon_impact_01.vsnd",
@@ -66,7 +66,7 @@
 	Unicorn.Wpn.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/weapons/unicorn/unicorn_weapon_whizby_01.vsnd",
@@ -81,8 +81,8 @@
 	Unicorn.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 2.000000
-		mono_downmix_enabled = 0.000000
+		volume = 2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/unicorn/reload/unicorn_reload_start_01.vsnd",
@@ -94,9 +94,9 @@
 	Unicorn.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 1.000000
-		mono_downmix_enabled = 0.000000
-		block_duration = 1.000000
+		volume = 1.0
+		mono_downmix_enabled = 0.0
+		block_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/unicorn/reload/unicorn_reload_mid_01.vsnd",
@@ -108,9 +108,9 @@
 	Unicorn.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 0.000000
-		mono_downmix_enabled = 0.000000
-		block_duration = 1.000000
+		volume = 0.0
+		mono_downmix_enabled = 0.0
+		block_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/unicorn/reload/unicorn_reload_end_01.vsnd",
@@ -122,10 +122,10 @@
 	Unicorn.Radiant.Flare.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		volume_enemy_targeting_boost = 6.000000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
+		volume = 2.0
+		volume_enemy_targeting_boost = 6.0
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a1/unicorn_radiant_flare_cast_01.vsnd",
@@ -137,20 +137,20 @@
 	Unicorn.Radiant.Flare.Cast.Delay = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
-		volume_enemy_targeting_boost = 7.000000
+		volume = 2.0
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
+		volume_enemy_targeting_boost = 7.0
 		vsnd_files = "sounds/abilities/unicorn/a1/unicorn_radiant_flare_cast_delay.vsnd"
 		vsnd_duration = 2.333696
 	}
 	Unicorn.Radiant.Flare.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 6.000000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
-		volume_offset_attacker_db = 3.000000
+		volume = 6.0
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
+		volume_offset_attacker_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a1/unicorn_radiant_flare_hit_01.vsnd",
@@ -162,11 +162,11 @@
 	Unicorn.Radiant.Flare.BuffedBullet.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 5.000000
-		pitch = 1.100000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
-		volume_offset_attacker_db = 3.000000
+		volume = 5.0
+		pitch = 1.1
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
+		volume_offset_attacker_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a1/unicorn_radiant_flare_hit_sweetener_01.vsnd",
@@ -181,23 +181,23 @@
 	Unicorn.Radiant.Flare.Debuff.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -10.000000
-		delay_rand_min = -6.000000
-		volume_fade_in = 0.300000
-		volume_fade_out = 0.400000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.800000
-		pitch_envelope_scale_max = 1.300000
+		volume = -10.0
+		delay_rand_min = -6.0
+		volume_fade_in = 0.3
+		volume_fade_out = 0.4
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.8
+		pitch_envelope_scale_max = 1.3
 		vsnd_files = "sounds/abilities/unicorn/a1/unicorn_radiant_flare_debuff_lp.vsnd"
 		vsnd_duration = 6.939705
 	}
 	Unicorn.Radiant.Flare.Debuff.Expire = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -8.000000
-		pitch = 0.800000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
+		volume = -8.0
+		pitch = 0.8
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a1/unicorn_radiant_flare_debuff_expire_01.vsnd",
@@ -209,115 +209,95 @@
 	Unicorn.Prismatic.Guard.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 3.000000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
+		volume = 3.0
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
 		vsnd_files = "sounds/abilities/unicorn/a2/unicorn_prismatic_guard_cast.vsnd"
 		vsnd_duration = 2.729637
 	}
 	Unicorn.Prismatic.Guard.Mod.Start = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -1.000000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
+		volume = -1.0
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
 		vsnd_files = "sounds/abilities/unicorn/a2/unicorn_prismatic_guard_mod_start.vsnd"
 		vsnd_duration = 4.217188
 	}
 	Unicorn.Prismatic.Guard.Mod.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -6.000000
-		delay_rand_min = -7.000000
-		volume_fade_in = 0.300000
-		volume_fade_out = 0.400000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.900000
-		pitch_envelope_scale_max = 1.100000
+		volume = -6.0
+		delay_rand_min = -7.0
+		volume_fade_in = 0.3
+		volume_fade_out = 0.4
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.9
+		pitch_envelope_scale_max = 1.1
 		vsnd_files = "sounds/abilities/unicorn/a2/unicorn_prismatic_guard_lp.vsnd"
-		vsnd_duration = 8.070000
+		vsnd_duration = 8.07
 	}
 	Unicorn.Prismatic.Guard.Cracking.Layer = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 5.000000
-		volume_offset_opponent = 7.000000
-		param_envelope_enabled = 1.000000
-		param_envelope_duration = 5.750000
-		pitch_envelope_scale_min = 1.000000
-		pitch_envelope_scale_max = 1.800000
-		volume_fade_out = 0.100000
+		volume = 5.0
+		volume_offset_opponent = 7.0
+		param_envelope_enabled = 1.0
+		param_envelope_duration = 5.75
+		pitch_envelope_scale_min = 1.0
+		pitch_envelope_scale_max = 1.8
+		volume_fade_out = 0.1
 		vsnd_files = "sounds/abilities/unicorn/a2/unicorn_prismatic_guard_cracking.vsnd"
 		vsnd_duration = 4.190998
 	}
 	Unicorn.Prismatic.Guard.Explode = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 6.000000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
+		volume = 6.0
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
 		vsnd_files = "sounds/abilities/unicorn/a2/unicorn_prismatic_guard_explode.vsnd"
 		vsnd_duration = 3.722222
 	}
 	Unicorn.Prismatic.Guard.Expired = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -3.000000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
+		volume = -3.0
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
 		vsnd_files = "sounds/abilities/unicorn/a2/unicorn_prismatic_guard_expired.vsnd"
 		vsnd_duration = 3.709388
 	}
 	Unicorn.Prismatic.Guard.Proj.Impact = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 5.000000
-		pitch_rand_min = -0.010000
-		pitch_rand_max = 0.010000
+		volume = 5.0
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a2/unicorn_prismatic_guard_proj_impact_01.vsnd",
 			"sounds/abilities/unicorn/a2/unicorn_prismatic_guard_proj_impact_02.vsnd",
 			"sounds/abilities/unicorn/a2/unicorn_prismatic_guard_proj_impact_03.vsnd",
 		]
-		instance_attenuator_enabled = 1.000000
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-3.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, -3.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				6.000000,
-				-6.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				6.0, -6.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 3.709388
@@ -325,52 +305,32 @@
 	Unicorn.Prismatic.Guard.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 1.000000
-		volume_offset_opponent = 6.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		delay_rand_min = -6.000000
+		volume = 1.0
+		volume_offset_opponent = 6.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		delay_rand_min = -6.0
 		vsnd_files = "sounds/abilities/unicorn/a2/unicorn_prismatic_guard_proj_lp.vsnd"
-		instance_attenuator_enabled = 1.000000
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-3.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, -3.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				6.000000,
-				-6.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				6.0, -6.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 6.446599
@@ -378,25 +338,25 @@
 	Unicorn.Dazzling.Orb.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 4.000000
-		volume_offset_opponent = 3.000000
+		volume = 4.0
+		volume_offset_opponent = 3.0
 		vsnd_files = "sounds/abilities/unicorn/a4/unicorn_dazzling_orb_cast.vsnd"
 		vsnd_duration = 4.093968
 	}
 	Unicorn.Dazzling.Orb.Cast.Delay = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/abilities/unicorn/a4/unicorn_dazzling_orb_cast_delay.vsnd"
 		vsnd_duration = 3.679569
 	}
 	Unicorn.Dazzling.Orb.Channel.Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
-		volume_offset_opponent = 4.000000
+		volume = 3.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		volume_offset_opponent = 4.0
 		vsnd_files = "sounds/abilities/unicorn/a4/unicorn_dazzling_orb_channel_lp.vsnd"
 		vsnd_duration = 4.971542
 	}
@@ -404,13 +364,13 @@
 	{
 		base = "Base.Ability.Hit"
 		filter_include_others = true
-		volume = 4.000000
-		limiter_max = 2.000000
-		volume_offset_attacker_db = 3.000000
-		volume_offset_victim_db = 2.000000
-		instance_attenuator_enabled = 0.000000
-		pitch_increment_count_max = 18.000000
-		incremental_pitch_offset = 0.057500
+		volume = 4.0
+		limiter_max = 2.0
+		volume_offset_attacker_db = 3.0
+		volume_offset_victim_db = 2.0
+		instance_attenuator_enabled = 0.0
+		pitch_increment_count_max = 18.0
+		incremental_pitch_offset = 0.0575
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a4/unicorn_dazzling_orb_bounce_01.vsnd",
@@ -428,14 +388,14 @@
 	{
 		base = "Base.Ability.Hit"
 		filter_include_others = true
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = "sounds/abilities/unicorn/a4/unicorn_dazzling_orb_final_hit.vsnd"
 		vsnd_duration = 2.162177
 	}
 	Unicorn.Dazzling.Orb.World.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a4/unicorn_dazzling_orb_bounce_01.vsnd",
@@ -452,9 +412,9 @@
 	Unicorn.Dazzling.Orb.Whizby = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 5.000000
-		volume_fade_out = 0.200000
-		volume_offset_player = -6.000000
+		volume = 5.0
+		volume_fade_out = 0.2
+		volume_offset_player = -6.0
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a4/unicorn_dazzling_orb_proj_whiz_01.vsnd",
@@ -469,39 +429,39 @@
 	Unicorn.Dazzling.Orb.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 1.000000
-		volume_offset_opponent = 3.000000
-		volume_offset_player = -10.000000
-		doppler_factor = 1.000000
-		delay_rand_min = -7.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.750000
+		volume = 1.0
+		volume_offset_opponent = 3.0
+		volume_offset_player = -10.0
+		doppler_factor = 1.0
+		delay_rand_min = -7.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.75
 		vsnd_files = "sounds/abilities/unicorn/a4/unicorn_dazzling_orb_proj_lp.vsnd"
 		vsnd_duration = 16.139999
 	}
 	Unicorn.Dazzling.Orb.Grace.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -9.000000
-		delay_rand_min = -7.000000
-		volume_fade_in = 0.150000
-		volume_fade_out = 0.600000
+		volume = -9.0
+		delay_rand_min = -7.0
+		volume_fade_in = 0.15
+		volume_fade_out = 0.6
 		vsnd_files = "sounds/abilities/unicorn/a4/unicorn_dazzling_orb_grace_lp.vsnd"
-		vsnd_duration = 8.070000
+		vsnd_duration = 8.07
 	}
 	Unicorn.Dazzling.Orb.Expire = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -9.000000
-		volume_fade_in = 0.100000
+		volume = -9.0
+		volume_fade_in = 0.1
 		vsnd_files = "sounds/abilities/unicorn/a4/unicorn_dazzling_orb_expire.vsnd"
 		vsnd_duration = 2.907868
 	}
 	Unicorn.Luminous.Flux.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		volume_offset_opponent = 3.000000
+		volume = 2.0
+		volume_offset_opponent = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a3/unicorn_luminous_cast_01.vsnd",
@@ -513,62 +473,47 @@
 	Unicorn.Luminous.Flux.Buff = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 2.000000
-		incremental_pitch_offset = 0.070000
-		pitch_increment_count_max = 5.000000
+		volume = 2.0
+		incremental_pitch_offset = 0.07
+		pitch_increment_count_max = 5.0
 		vsnd_files = "sounds/abilities/unicorn/a3/unicorn_luminous_buff_01.vsnd"
 		vsnd_duration = 3.660272
 	}
 	Unicorn.Luminous.Flux.Buff.Max = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/unicorn/a3/unicorn_luminous_buff_max.vsnd"
 		vsnd_duration = 3.660272
 	}
 	Unicorn.Luminous.Flux.Buff.Expire = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = "sounds/abilities/unicorn/a3/unicorn_luminous_buff_expire.vsnd"
 		vsnd_duration = 2.590068
 	}
 	Unicorn.Luminous.Flux.Buff.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -12.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.300000
-		delay_rand_min = -10.000000
+		volume = -12.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.3
+		delay_rand_min = -10.0
 		vsnd_files = "sounds/abilities/unicorn/a3/unicorn_luminous_buff_lp.vsnd"
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.0, 1.0, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				5.000000,
-				1.000000,
-				-0.040350,
-				-0.040350,
-				3.000000,
-				1.000000,
+				5.0, 1.0, -0.04035, -0.04035,
+				3.0, 1.0,
 			],
-			
 			[
-				12.500000,
-				0.650000,
-				-0.023581,
-				-0.023581,
-				2.000000,
-				3.000000,
+				12.5, 0.65, -0.023581, -0.023581,
+				2.0, 3.0,
 			],
 		]
 		vsnd_duration = 11.212676
@@ -576,30 +521,30 @@
 	Unicorn.Luminous.Strike.AOE.Warning = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -1.000000
-		volume_offset_opponent = 6.000000
-		spread_min = 250.000000
-		spread_max_value_player = 0.700000
-		spread_max_value_opponent = 0.850000
-		spread_max_value_team = 0.700000
-		spread_max = 500.000000
-		spread_min_value = 0.000000
+		volume = -1.0
+		volume_offset_opponent = 6.0
+		spread_min = 250.0
+		spread_max_value_player = 0.7
+		spread_max_value_opponent = 0.85
+		spread_max_value_team = 0.7
+		spread_max = 500.0
+		spread_min_value = 0.0
 		vsnd_files = "sounds/abilities/unicorn/a3/unicorn_luminous_aoe_warning.vsnd"
 		vsnd_duration = 3.015079
 	}
 	Unicorn.Luminous.Flux.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 4.000000
-		volume_offset_opponent = 4.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		spread_min = 250.000000
-		spread_max_value_player = 0.600000
-		spread_max_value_opponent = 0.850000
-		spread_max_value_team = 0.600000
-		spread_max = 500.000000
-		spread_min_value = 0.000000
+		volume = 4.0
+		volume_offset_opponent = 4.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		spread_min = 250.0
+		spread_max_value_player = 0.6
+		spread_max_value_opponent = 0.85
+		spread_max_value_team = 0.6
+		spread_max = 500.0
+		spread_min_value = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a3/unicorn_luminous_explode_01.vsnd",
@@ -611,8 +556,8 @@
 	Unicorn.Luminous.Flux.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 4.000000
-		volume_offset_victim_db = 3.000000
+		volume = 4.0
+		volume_offset_victim_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/unicorn/a3/unicorn_luminous_hit_confirm_01.vsnd",
@@ -624,11 +569,11 @@
 	Unicorn.Footstep = 
 	{
 		base = "Base.Footsteps"
-		limiter_max = 3.000000
-		track_1.vsnd_track_vol_offset_db = -3.000000
-		track_2.vsnd_track_vol_offset_db = -9.500000
-		track_3.vsnd_track_vol_offset_db = -9.000000
-		track_2.track_percent_chance_to_play = 0.200000
+		limiter_max = 3.0
+		track_1.vsnd_track_vol_offset_db = -3.0
+		track_2.vsnd_track_vol_offset_db = -9.5
+		track_3.vsnd_track_vol_offset_db = -9.0
+		track_2.track_percent_chance_to_play = 0.2
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/unicorn/unicorn_footstep_01.vsnd",
@@ -682,7 +627,7 @@
 	Unicorn.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -10.000000
+		volume = -10.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/unicorn/unicorn_foley_short_01.vsnd",
@@ -701,8 +646,8 @@
 	Unicorn.Idle.Twirl = 
 	{
 		base = "Base.Movement"
-		volume = 1.000000
-		volume_offset_opponent = -10.000000
+		volume = 1.0
+		volume_offset_opponent = -10.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/unicorn/unicorn_idle_twirl_01.vsnd",
@@ -714,9 +659,9 @@
 	Unicorn.Dash.Sweetener = 
 	{
 		base = "Base.Movement"
-		volume = -2.000000
-		volume_offset_opponent = -6.000000
-		volume_offset_team = -9.000000
+		volume = -2.0
+		volume_offset_opponent = -6.0
+		volume_offset_team = -9.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/unicorn/unicorn_dash_sweetener_01.vsnd",
@@ -739,7 +684,7 @@
 	Unicorn.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = 2.000000
+		track_2.vsnd_track_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",

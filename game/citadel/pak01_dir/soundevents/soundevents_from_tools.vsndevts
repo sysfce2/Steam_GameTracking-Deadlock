@@ -16,7 +16,7 @@
 	Cam_dev_Gigawatt.powerSurgeTech.exit = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -25.000000
+		volume = -25.0
 		vsnd_files = 
 		[
 			"sounds/weapons/gigawatt/reload/clip_in.vsnd",
@@ -51,23 +51,23 @@
 			"sounds/weapons/gigawatt/impacts/gigawatt_wpn_impact_08.vsnd",
 			"sounds/weapons/gigawatt/impacts/gigawatt_wpn_impact_09.vsnd",
 		]
-		vsnd_duration = 1.425250
+		vsnd_duration = 1.42525
 	}
 	Ca_dev_Gigawatt.VoltageDrain.Proj.Lp = 
 	{
 		base = "Base.Ability"
-		pitch = 1.000000
-		volume = -99.000000
+		pitch = 1.0
+		volume = -99.0
 		vsnd_files = 
 		[
 			"sounds/abilities/gigawatt/a3_voltage_drain/proj_lp.vsnd",
 		]
-		vsnd_duration = 5.858750
+		vsnd_duration = 5.85875
 	}
 	Hideout.Ball.GoalScored = 
 	{
 		type = "citadel_perspective_default"
-		volume = -3.000000
+		volume = -3.0
 		_system_properties = 
 		{
 			event_origin = "scripts/npc_units.vdata"
@@ -89,6 +89,6 @@
 		{
 			event_origin = "models/npc/trooper/trooper_humanoid.vmdl"
 		}
-		vsnd_duration = 1.882540
+		vsnd_duration = 1.88254
 	}
 }

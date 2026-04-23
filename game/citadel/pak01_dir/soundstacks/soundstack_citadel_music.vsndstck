@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.2d"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -78,7 +76,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "track_queue"
 				operator = "track_queue"
@@ -95,7 +92,6 @@
 				input_priority = "0.0"
 				input_enable_voice_time_sync = "@public.input_enable_voice_time_sync"
 			},
-			
 			{
 				name = "citadel_default_2d"
 				operator = "sos_import_stack"

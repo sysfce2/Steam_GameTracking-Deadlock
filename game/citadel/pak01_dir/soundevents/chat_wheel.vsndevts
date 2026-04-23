@@ -3,8 +3,8 @@
 	Chat.Wheel.Received = 
 	{
 		base = "Base.UI"
-		pitch = 1.000000
-		volume = -3.000000
+		pitch = 1.0
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/ui/ui_chat_msg_received_01.vsnd",
@@ -20,7 +20,7 @@
 	{
 		base = "Base.UI"
 		volume = -35
-		pitch = 1.000000
+		pitch = 1.0
 		vsnd_files = 
 		[
 			"sounds/ui/ui_chat_msg_received_01.vsnd",

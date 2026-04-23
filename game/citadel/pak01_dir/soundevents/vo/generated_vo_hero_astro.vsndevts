@@ -48,7 +48,7 @@
 		[
 			"sounds/vo/astro/astro_ally_atlas_big_stun_02.vsnd",
 		]
-		vsnd_duration = 1.685510
+		vsnd_duration = 1.68551
 	}
 	astro_ally_atlas_big_stun_03_hero_3d = 
 	{
@@ -258,7 +258,7 @@
 		[
 			"sounds/vo/astro/astro_ally_chrono_swap_to_boss_03.vsnd",
 		]
-		vsnd_duration = 1.648730
+		vsnd_duration = 1.64873
 	}
 	astro_ally_doorman_killed_in_lane_01_hero_3d = 
 	{
@@ -268,7 +268,7 @@
 		[
 			"sounds/vo/astro/astro_ally_doorman_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.730590
+		vsnd_duration = 1.73059
 	}
 	astro_ally_drifter_killed_in_lane_01_hero_3d = 
 	{
@@ -488,7 +488,7 @@
 		[
 			"sounds/vo/astro/astro_ally_ghost_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.672540
+		vsnd_duration = 1.67254
 	}
 	astro_ally_ghost_see_big_swap_01_hero_3d = 
 	{
@@ -578,7 +578,7 @@
 		[
 			"sounds/vo/astro/astro_ally_haze_big_ult_01.vsnd",
 		]
-		vsnd_duration = 2.157800
+		vsnd_duration = 2.1578
 	}
 	astro_ally_haze_big_ult_02_hero_3d = 
 	{
@@ -598,7 +598,7 @@
 		[
 			"sounds/vo/astro/astro_ally_haze_big_ult_03.vsnd",
 		]
-		vsnd_duration = 1.419660
+		vsnd_duration = 1.41966
 	}
 	astro_ally_haze_interrupt_with_finesse_01_hero_3d = 
 	{
@@ -818,7 +818,7 @@
 		[
 			"sounds/vo/astro/astro_ally_krill_grab_mid_enemy_ult_02.vsnd",
 		]
-		vsnd_duration = 1.654240
+		vsnd_duration = 1.65424
 	}
 	astro_ally_krill_grab_mid_enemy_ult_03_hero_3d = 
 	{
@@ -848,7 +848,7 @@
 		[
 			"sounds/vo/astro/astro_ally_krill_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.792540
+		vsnd_duration = 1.79254
 	}
 	astro_ally_lash_killed_in_lane_01_hero_3d = 
 	{
@@ -898,7 +898,7 @@
 		[
 			"sounds/vo/astro/astro_ally_lash_see_massive_stomp_03.vsnd",
 		]
-		vsnd_duration = 3.475510
+		vsnd_duration = 3.47551
 	}
 	astro_ally_magician_killed_in_lane_01_hero_3d = 
 	{
@@ -1258,7 +1258,7 @@
 		[
 			"sounds/vo/astro/astro_ally_tengu_take_objective_with_teather_02.vsnd",
 		]
-		vsnd_duration = 1.914580
+		vsnd_duration = 1.91458
 	}
 	astro_ally_tengu_take_objective_with_teather_03_hero_3d = 
 	{
@@ -1298,7 +1298,7 @@
 		[
 			"sounds/vo/astro/astro_ally_unicorn_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.634830
+		vsnd_duration = 1.63483
 	}
 	astro_ally_vampirebat_killed_in_lane_01_hero_3d = 
 	{
@@ -1498,7 +1498,7 @@
 		[
 			"sounds/vo/astro/astro_ally_wrecker_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.395510
+		vsnd_duration = 1.39551
 	}
 	astro_ally_wrecker_pass_on_zipline_01_hero_3d = 
 	{
@@ -1568,7 +1568,7 @@
 		[
 			"sounds/vo/astro/astro_angry_01.vsnd",
 		]
-		vsnd_duration = 1.532880
+		vsnd_duration = 1.53288
 	}
 	astro_angry_01_ult_3d = 
 	{
@@ -1578,7 +1578,7 @@
 		[
 			"sounds/vo/astro/astro_angry_01.vsnd",
 		]
-		vsnd_duration = 1.532880
+		vsnd_duration = 1.53288
 	}
 	astro_angry_02_hero_3d = 
 	{
@@ -1818,7 +1818,7 @@
 		[
 			"sounds/vo/astro/astro_be_careful_03.vsnd",
 		]
-		vsnd_duration = 2.012970
+		vsnd_duration = 2.01297
 	}
 	astro_close_call_01_hero_3d = 
 	{
@@ -2278,7 +2278,7 @@
 		[
 			"sounds/vo/astro/astro_desperation_power3_04.vsnd",
 		]
-		vsnd_duration = 1.869320
+		vsnd_duration = 1.86932
 	}
 	astro_desperation_power3_05_ability_3d = 
 	{
@@ -2298,7 +2298,7 @@
 		[
 			"sounds/vo/astro/astro_desperation_power4_01.vsnd",
 		]
-		vsnd_duration = 1.212970
+		vsnd_duration = 1.21297
 	}
 	astro_desperation_power4_01_ult_3d = 
 	{
@@ -2308,7 +2308,7 @@
 		[
 			"sounds/vo/astro/astro_desperation_power4_01.vsnd",
 		]
-		vsnd_duration = 1.212970
+		vsnd_duration = 1.21297
 	}
 	astro_desperation_power4_02_ability_3d = 
 	{
@@ -2338,7 +2338,7 @@
 		[
 			"sounds/vo/astro/astro_desperation_power4_03.vsnd",
 		]
-		vsnd_duration = 1.422540
+		vsnd_duration = 1.42254
 	}
 	astro_desperation_power4_03_ult_3d = 
 	{
@@ -2348,7 +2348,7 @@
 		[
 			"sounds/vo/astro/astro_desperation_power4_03.vsnd",
 		]
-		vsnd_duration = 1.422540
+		vsnd_duration = 1.42254
 	}
 	astro_desperation_power4_04_ability_3d = 
 	{
@@ -2668,7 +2668,7 @@
 		[
 			"sounds/vo/astro/emote/astro_effort_melee_big_09.vsnd",
 		]
-		vsnd_duration = 1.255170
+		vsnd_duration = 1.25517
 	}
 	astro_effort_melee_big_09_emote_melee_effort_3d = 
 	{
@@ -2678,7 +2678,7 @@
 		[
 			"sounds/vo/astro/emote/astro_effort_melee_big_09.vsnd",
 		]
-		vsnd_duration = 1.255170
+		vsnd_duration = 1.25517
 	}
 	astro_effort_melee_small_01_emote_effort_3d = 
 	{
@@ -2688,7 +2688,7 @@
 		[
 			"sounds/vo/astro/emote/astro_effort_melee_small_01.vsnd",
 		]
-		vsnd_duration = 1.368980
+		vsnd_duration = 1.36898
 	}
 	astro_effort_melee_small_01_emote_melee_effort_3d = 
 	{
@@ -2698,7 +2698,7 @@
 		[
 			"sounds/vo/astro/emote/astro_effort_melee_small_01.vsnd",
 		]
-		vsnd_duration = 1.368980
+		vsnd_duration = 1.36898
 	}
 	astro_effort_melee_small_02_emote_effort_3d = 
 	{
@@ -2728,7 +2728,7 @@
 		[
 			"sounds/vo/astro/emote/astro_effort_melee_small_03.vsnd",
 		]
-		vsnd_duration = 1.316190
+		vsnd_duration = 1.31619
 	}
 	astro_effort_melee_small_03_emote_melee_effort_3d = 
 	{
@@ -2738,7 +2738,7 @@
 		[
 			"sounds/vo/astro/emote/astro_effort_melee_small_03.vsnd",
 		]
-		vsnd_duration = 1.316190
+		vsnd_duration = 1.31619
 	}
 	astro_effort_melee_small_04_emote_effort_3d = 
 	{
@@ -2748,7 +2748,7 @@
 		[
 			"sounds/vo/astro/emote/astro_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 1.115510
+		vsnd_duration = 1.11551
 	}
 	astro_effort_melee_small_04_emote_melee_effort_3d = 
 	{
@@ -2758,7 +2758,7 @@
 		[
 			"sounds/vo/astro/emote/astro_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 1.115510
+		vsnd_duration = 1.11551
 	}
 	astro_effort_melee_small_05_emote_effort_3d = 
 	{
@@ -3008,7 +3008,7 @@
 		[
 			"sounds/vo/astro/astro_enemy_forge_destroy_turrets_02.vsnd",
 		]
-		vsnd_duration = 2.598390
+		vsnd_duration = 2.59839
 	}
 	astro_enemy_forge_destroy_turrets_03_hero_3d = 
 	{
@@ -3068,7 +3068,7 @@
 		[
 			"sounds/vo/astro/astro_enemy_ghost_ping_with_swap_02.vsnd",
 		]
-		vsnd_duration = 2.395510
+		vsnd_duration = 2.39551
 	}
 	astro_enemy_ghost_ping_with_swap_03_hero_3d = 
 	{
@@ -3158,7 +3158,7 @@
 		[
 			"sounds/vo/astro/astro_enemy_hornet_damaged_by_snipe_02.vsnd",
 		]
-		vsnd_duration = 1.811270
+		vsnd_duration = 1.81127
 	}
 	astro_enemy_hornet_damaged_by_snipe_03_hero_3d = 
 	{
@@ -3398,7 +3398,7 @@
 		[
 			"sounds/vo/astro/astro_enemy_tengu_flies_away_02.vsnd",
 		]
-		vsnd_duration = 2.045170
+		vsnd_duration = 2.04517
 	}
 	astro_enemy_tengu_flies_away_03_hero_3d = 
 	{
@@ -3838,7 +3838,7 @@
 		[
 			"sounds/vo/astro/astro_kill_anyhero_06.vsnd",
 		]
-		vsnd_duration = 2.031020
+		vsnd_duration = 2.03102
 	}
 	astro_kill_anyhero_07_hero_3d = 
 	{
@@ -3958,7 +3958,7 @@
 		[
 			"sounds/vo/astro/astro_kill_bebop_03.vsnd",
 		]
-		vsnd_duration = 1.527460
+		vsnd_duration = 1.52746
 	}
 	astro_kill_bebop_04_hero_3d = 
 	{
@@ -4058,7 +4058,7 @@
 		[
 			"sounds/vo/astro/astro_kill_cadence_03.vsnd",
 		]
-		vsnd_duration = 2.423810
+		vsnd_duration = 2.42381
 	}
 	astro_kill_cadence_04_hero_3d = 
 	{
@@ -4118,7 +4118,7 @@
 		[
 			"sounds/vo/astro/astro_kill_chrono_04.vsnd",
 		]
-		vsnd_duration = 3.044830
+		vsnd_duration = 3.04483
 	}
 	astro_kill_chrono_05_hero_3d = 
 	{
@@ -4168,7 +4168,7 @@
 		[
 			"sounds/vo/astro/astro_kill_doorman_04.vsnd",
 		]
-		vsnd_duration = 2.071270
+		vsnd_duration = 2.07127
 	}
 	astro_kill_doorman_05_hero_3d = 
 	{
@@ -4268,7 +4268,7 @@
 		[
 			"sounds/vo/astro/astro_kill_dynamo_04.vsnd",
 		]
-		vsnd_duration = 3.652200
+		vsnd_duration = 3.6522
 	}
 	astro_kill_dynamo_05_hero_3d = 
 	{
@@ -4308,7 +4308,7 @@
 		[
 			"sounds/vo/astro/astro_kill_familiar_03.vsnd",
 		]
-		vsnd_duration = 1.995170
+		vsnd_duration = 1.99517
 	}
 	astro_kill_familiar_04_hero_3d = 
 	{
@@ -4778,7 +4778,7 @@
 		[
 			"sounds/vo/astro/astro_kill_kelvin_03.vsnd",
 		]
-		vsnd_duration = 2.306780
+		vsnd_duration = 2.30678
 	}
 	astro_kill_kelvin_04_hero_3d = 
 	{
@@ -4968,7 +4968,7 @@
 		[
 			"sounds/vo/astro/astro_kill_mirage_02.vsnd",
 		]
-		vsnd_duration = 2.340340
+		vsnd_duration = 2.34034
 	}
 	astro_kill_mirage_03_hero_3d = 
 	{
@@ -5018,7 +5018,7 @@
 		[
 			"sounds/vo/astro/astro_kill_nano_02.vsnd",
 		]
-		vsnd_duration = 3.445420
+		vsnd_duration = 3.44542
 	}
 	astro_kill_nano_03_hero_3d = 
 	{
@@ -5118,7 +5118,7 @@
 		[
 			"sounds/vo/astro/astro_kill_operative_02.vsnd",
 		]
-		vsnd_duration = 2.838730
+		vsnd_duration = 2.83873
 	}
 	astro_kill_operative_03_hero_3d = 
 	{
@@ -5128,7 +5128,7 @@
 		[
 			"sounds/vo/astro/astro_kill_operative_03.vsnd",
 		]
-		vsnd_duration = 3.214490
+		vsnd_duration = 3.21449
 	}
 	astro_kill_operative_04_hero_3d = 
 	{
@@ -5168,7 +5168,7 @@
 		[
 			"sounds/vo/astro/astro_kill_orion_01.vsnd",
 		]
-		vsnd_duration = 1.787370
+		vsnd_duration = 1.78737
 	}
 	astro_kill_orion_02_hero_3d = 
 	{
@@ -5198,7 +5198,7 @@
 		[
 			"sounds/vo/astro/astro_kill_orion_04.vsnd",
 		]
-		vsnd_duration = 2.415510
+		vsnd_duration = 2.41551
 	}
 	astro_kill_orion_05_hero_3d = 
 	{
@@ -5258,7 +5258,7 @@
 		[
 			"sounds/vo/astro/astro_kill_priest_05.vsnd",
 		]
-		vsnd_duration = 2.165510
+		vsnd_duration = 2.16551
 	}
 	astro_kill_punkgoat_01_hero_3d = 
 	{
@@ -5298,7 +5298,7 @@
 		[
 			"sounds/vo/astro/astro_kill_punkgoat_04.vsnd",
 		]
-		vsnd_duration = 1.110680
+		vsnd_duration = 1.11068
 	}
 	astro_kill_punkgoat_05_hero_3d = 
 	{
@@ -5498,7 +5498,7 @@
 		[
 			"sounds/vo/astro/astro_kill_tengu_04.vsnd",
 		]
-		vsnd_duration = 1.501610
+		vsnd_duration = 1.50161
 	}
 	astro_kill_tengu_05_hero_3d = 
 	{
@@ -5528,7 +5528,7 @@
 		[
 			"sounds/vo/astro/astro_kill_trapper_02.vsnd",
 		]
-		vsnd_duration = 1.192630
+		vsnd_duration = 1.19263
 	}
 	astro_kill_trapper_03_hero_3d = 
 	{
@@ -5548,7 +5548,7 @@
 		[
 			"sounds/vo/astro/astro_kill_trapper_04.vsnd",
 		]
-		vsnd_duration = 3.031950
+		vsnd_duration = 3.03195
 	}
 	astro_kill_trapper_05_hero_3d = 
 	{
@@ -5608,7 +5608,7 @@
 		[
 			"sounds/vo/astro/astro_kill_unicorn_05.vsnd",
 		]
-		vsnd_duration = 2.407710
+		vsnd_duration = 2.40771
 	}
 	astro_kill_vampirebat_01_hero_3d = 
 	{
@@ -5918,7 +5918,7 @@
 		[
 			"sounds/vo/astro/astro_kill_wrecker_01.vsnd",
 		]
-		vsnd_duration = 1.779320
+		vsnd_duration = 1.77932
 	}
 	astro_kill_wrecker_02_hero_3d = 
 	{
@@ -5948,7 +5948,7 @@
 		[
 			"sounds/vo/astro/astro_kill_wrecker_04.vsnd",
 		]
-		vsnd_duration = 1.754150
+		vsnd_duration = 1.75415
 	}
 	astro_kill_wrecker_05_hero_3d = 
 	{
@@ -6138,7 +6138,7 @@
 		[
 			"sounds/vo/astro/astro_killstreak_start_01.vsnd",
 		]
-		vsnd_duration = 3.681020
+		vsnd_duration = 3.68102
 	}
 	astro_killstreak_start_01_hero_announcer = 
 	{
@@ -6148,7 +6148,7 @@
 		[
 			"sounds/vo/astro/astro_killstreak_start_01.vsnd",
 		]
-		vsnd_duration = 3.681020
+		vsnd_duration = 3.68102
 	}
 	astro_killstreak_start_02_hero_3d = 
 	{
@@ -6248,7 +6248,7 @@
 		[
 			"sounds/vo/astro/astro_last_one_standing_02.vsnd",
 		]
-		vsnd_duration = 2.548050
+		vsnd_duration = 2.54805
 	}
 	astro_last_one_standing_03_hero_3d = 
 	{
@@ -6258,7 +6258,7 @@
 		[
 			"sounds/vo/astro/astro_last_one_standing_03.vsnd",
 		]
-		vsnd_duration = 2.396190
+		vsnd_duration = 2.39619
 	}
 	astro_leave_base_01_hero_3d = 
 	{
@@ -6298,7 +6298,7 @@
 		[
 			"sounds/vo/astro/astro_leave_base_04.vsnd",
 		]
-		vsnd_duration = 2.205420
+		vsnd_duration = 2.20542
 	}
 	astro_leave_base_05_hero_3d = 
 	{
@@ -6408,7 +6408,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_astro_chrono_convo04_03.vsnd",
 		]
-		vsnd_duration = 2.298980
+		vsnd_duration = 2.29898
 	}
 	astro_match_start_astro_forge_convo01_01_hero_zipline_3d = 
 	{
@@ -6468,7 +6468,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_astro_forge_convo03_01.vsnd",
 		]
-		vsnd_duration = 2.815510
+		vsnd_duration = 2.81551
 	}
 	astro_match_start_astro_forge_convo03_03_hero_zipline_3d = 
 	{
@@ -6918,7 +6918,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_astro_mirage_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.677710
+		vsnd_duration = 1.67771
 	}
 	astro_match_start_astro_mirage_convo03_01_hero_zipline_3d = 
 	{
@@ -7318,7 +7318,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_astro_warden_convo01_05.vsnd",
 		]
-		vsnd_duration = 2.057370
+		vsnd_duration = 2.05737
 	}
 	astro_match_start_astro_warden_convo02_01_hero_zipline_3d = 
 	{
@@ -7368,7 +7368,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_astro_wraith_convo01_01.vsnd",
 		]
-		vsnd_duration = 4.351020
+		vsnd_duration = 4.35102
 	}
 	astro_match_start_astro_wraith_convo01_03_hero_zipline_3d = 
 	{
@@ -7378,7 +7378,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_astro_wraith_convo01_03.vsnd",
 		]
-		vsnd_duration = 1.328980
+		vsnd_duration = 1.32898
 	}
 	astro_match_start_astro_wraith_convo01_05_hero_zipline_3d = 
 	{
@@ -7518,7 +7518,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_atlas_astro_convo01_02_02.vsnd",
 		]
-		vsnd_duration = 0.869660
+		vsnd_duration = 0.86966
 	}
 	astro_match_start_atlas_astro_convo01_02_hero_zipline_3d = 
 	{
@@ -7618,7 +7618,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_bebop_astro_convo01_05.vsnd",
 		]
-		vsnd_duration = 1.419410
+		vsnd_duration = 1.41941
 	}
 	astro_match_start_bebop_astro_convo01_07_hero_zipline_3d = 
 	{
@@ -8198,7 +8198,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_magician_astro_convo03_01.vsnd",
 		]
-		vsnd_duration = 2.682630
+		vsnd_duration = 2.68263
 	}
 	astro_match_start_magician_astro_convo03_03_hero_zipline_3d = 
 	{
@@ -8228,7 +8228,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_nano_astro_convo01_01.vsnd",
 		]
-		vsnd_duration = 1.604150
+		vsnd_duration = 1.60415
 	}
 	astro_match_start_nano_astro_convo01_03_hero_zipline_3d = 
 	{
@@ -8378,7 +8378,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_operative_astro_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.469320
+		vsnd_duration = 1.46932
 	}
 	astro_match_start_operative_astro_convo02_06_hero_zipline_3d = 
 	{
@@ -8408,7 +8408,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_priest_astro_convo01_02.vsnd",
 		]
-		vsnd_duration = 1.136440
+		vsnd_duration = 1.13644
 	}
 	astro_match_start_priest_astro_convo01_04_hero_zipline_3d = 
 	{
@@ -8638,7 +8638,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_viper_astro_convo01_06.vsnd",
 		]
-		vsnd_duration = 1.520000
+		vsnd_duration = 1.52
 	}
 	astro_match_start_viper_astro_convo02_02_hero_zipline_3d = 
 	{
@@ -8648,7 +8648,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_viper_astro_convo02_02.vsnd",
 		]
-		vsnd_duration = 2.454490
+		vsnd_duration = 2.45449
 	}
 	astro_match_start_viper_astro_convo02_04_hero_zipline_3d = 
 	{
@@ -8668,7 +8668,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_viper_astro_convo02_06.vsnd",
 		]
-		vsnd_duration = 1.331950
+		vsnd_duration = 1.33195
 	}
 	astro_match_start_viper_astro_convo02_08_hero_zipline_3d = 
 	{
@@ -8718,7 +8718,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_werewolf_astro_convo01_02.vsnd",
 		]
-		vsnd_duration = 1.342200
+		vsnd_duration = 1.3422
 	}
 	astro_match_start_werewolf_astro_convo02_02_hero_zipline_3d = 
 	{
@@ -8788,7 +8788,7 @@
 		[
 			"sounds/vo/astro/astro_match_start_yamato_astro_convo01_02.vsnd",
 		]
-		vsnd_duration = 2.620680
+		vsnd_duration = 2.62068
 	}
 	astro_match_start_yamato_astro_convo02_02_hero_zipline_3d = 
 	{
@@ -8828,7 +8828,7 @@
 		[
 			"sounds/vo/astro/astro_melee_kill_01.vsnd",
 		]
-		vsnd_duration = 1.572880
+		vsnd_duration = 1.57288
 	}
 	astro_melee_kill_02_hero_3d = 
 	{
@@ -8878,7 +8878,7 @@
 		[
 			"sounds/vo/astro/astro_near_miss_01.vsnd",
 		]
-		vsnd_duration = 1.458980
+		vsnd_duration = 1.45898
 	}
 	astro_near_miss_02_hero_3d = 
 	{
@@ -8998,7 +8998,7 @@
 		[
 			"sounds/vo/astro/emote/astro_pain_big_02.vsnd",
 		]
-		vsnd_duration = 1.127120
+		vsnd_duration = 1.12712
 	}
 	astro_pain_big_03_emote_pain_3d = 
 	{
@@ -9208,7 +9208,7 @@
 		[
 			"sounds/vo/astro/emote/astro_pain_low_health_warning_03.vsnd",
 		]
-		vsnd_duration = 1.643560
+		vsnd_duration = 1.64356
 	}
 	astro_pain_low_health_warning_04_emote_pain_3d = 
 	{
@@ -9258,7 +9258,7 @@
 		[
 			"sounds/vo/astro/emote/astro_pain_low_health_warning_08.vsnd",
 		]
-		vsnd_duration = 1.095760
+		vsnd_duration = 1.09576
 	}
 	astro_pain_low_health_warning_09_emote_pain_3d = 
 	{
@@ -9318,7 +9318,7 @@
 		[
 			"sounds/vo/astro/emote/astro_pain_small_03.vsnd",
 		]
-		vsnd_duration = 0.910590
+		vsnd_duration = 0.91059
 	}
 	astro_pain_small_04_emote_pain_3d = 
 	{
@@ -9488,7 +9488,7 @@
 		[
 			"sounds/vo/astro/astro_pick_up_rejuv_01.vsnd",
 		]
-		vsnd_duration = 1.890590
+		vsnd_duration = 1.89059
 	}
 	astro_pick_up_rejuv_02_hero_3d = 
 	{
@@ -9668,7 +9668,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_atlas_missing_01.vsnd",
 		]
-		vsnd_duration = 1.421270
+		vsnd_duration = 1.42127
 	}
 	astro_ping_atlas_on_top_of_garage_ping_2d = 
 	{
@@ -9928,7 +9928,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_attack_lash.vsnd",
 		]
-		vsnd_duration = 1.831020
+		vsnd_duration = 1.83102
 	}
 	astro_ping_attack_magician_ping_2d = 
 	{
@@ -10058,7 +10058,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_attack_trapper.vsnd",
 		]
-		vsnd_duration = 1.551610
+		vsnd_duration = 1.55161
 	}
 	astro_ping_attack_unicorn_ping_2d = 
 	{
@@ -10108,7 +10108,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_attack_warden.vsnd",
 		]
-		vsnd_duration = 1.945760
+		vsnd_duration = 1.94576
 	}
 	astro_ping_attack_werewolf_ping_2d = 
 	{
@@ -10158,7 +10158,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_avatar_under_attack.vsnd",
 		]
-		vsnd_duration = 1.771610
+		vsnd_duration = 1.77161
 	}
 	astro_ping_be_back_soon_ping_2d = 
 	{
@@ -10208,7 +10208,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_bebop_in_mid.vsnd",
 		]
-		vsnd_duration = 1.455510
+		vsnd_duration = 1.45551
 	}
 	astro_ping_bebop_missing_01_ping_2d = 
 	{
@@ -10268,7 +10268,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_blue_help_01.vsnd",
 		]
-		vsnd_duration = 1.432540
+		vsnd_duration = 1.43254
 	}
 	astro_ping_blue_help_02_ping_2d = 
 	{
@@ -10518,7 +10518,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_can_heal_familiar.vsnd",
 		]
-		vsnd_duration = 2.035170
+		vsnd_duration = 2.03517
 	}
 	astro_ping_can_heal_fencer_ping_2d = 
 	{
@@ -10538,7 +10538,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_can_heal_forge.vsnd",
 		]
-		vsnd_duration = 2.522630
+		vsnd_duration = 2.52263
 	}
 	astro_ping_can_heal_frank_ping_2d = 
 	{
@@ -10548,7 +10548,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_can_heal_frank.vsnd",
 		]
-		vsnd_duration = 1.996190
+		vsnd_duration = 1.99619
 	}
 	astro_ping_can_heal_ghost_ping_2d = 
 	{
@@ -10598,7 +10598,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_can_heal_inferno.vsnd",
 		]
-		vsnd_duration = 2.200340
+		vsnd_duration = 2.20034
 	}
 	astro_ping_can_heal_kelvin_ping_2d = 
 	{
@@ -10698,7 +10698,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_can_heal_priest.vsnd",
 		]
-		vsnd_duration = 2.343900
+		vsnd_duration = 2.3439
 	}
 	astro_ping_can_heal_punkgoat_ping_2d = 
 	{
@@ -10788,7 +10788,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_can_heal_viper.vsnd",
 		]
-		vsnd_duration = 2.383810
+		vsnd_duration = 2.38381
 	}
 	astro_ping_can_heal_viscous_ping_2d = 
 	{
@@ -10818,7 +10818,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_can_heal_werewolf.vsnd",
 		]
-		vsnd_duration = 2.207120
+		vsnd_duration = 2.20712
 	}
 	astro_ping_can_heal_wraith_ping_2d = 
 	{
@@ -10858,7 +10858,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_careful_atlas_01.vsnd",
 		]
-		vsnd_duration = 1.412880
+		vsnd_duration = 1.41288
 	}
 	astro_ping_careful_atlas_02_ping_2d = 
 	{
@@ -11188,7 +11188,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_careful_frank_01.vsnd",
 		]
-		vsnd_duration = 1.144240
+		vsnd_duration = 1.14424
 	}
 	astro_ping_careful_frank_02_ping_2d = 
 	{
@@ -11368,7 +11368,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_careful_kelvin_01.vsnd",
 		]
-		vsnd_duration = 1.442880
+		vsnd_duration = 1.44288
 	}
 	astro_ping_careful_kelvin_02_ping_2d = 
 	{
@@ -11388,7 +11388,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_careful_kelvin_03.vsnd",
 		]
-		vsnd_duration = 1.482880
+		vsnd_duration = 1.48288
 	}
 	astro_ping_careful_krill_01_ping_2d = 
 	{
@@ -11528,7 +11528,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_careful_nano_02.vsnd",
 		]
-		vsnd_duration = 1.721610
+		vsnd_duration = 1.72161
 	}
 	astro_ping_careful_nano_03_ping_2d = 
 	{
@@ -11628,7 +11628,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_careful_orion_03.vsnd",
 		]
-		vsnd_duration = 1.849410
+		vsnd_duration = 1.84941
 	}
 	astro_ping_careful_priest_01_ping_2d = 
 	{
@@ -11668,7 +11668,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_careful_punkgoat_01.vsnd",
 		]
-		vsnd_duration = 0.990930
+		vsnd_duration = 0.99093
 	}
 	astro_ping_careful_punkgoat_02_ping_2d = 
 	{
@@ -11898,7 +11898,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_careful_vampirebat_03.vsnd",
 		]
-		vsnd_duration = 1.330930
+		vsnd_duration = 1.33093
 	}
 	astro_ping_careful_viper_01_ping_2d = 
 	{
@@ -11948,7 +11948,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_careful_viscous_02.vsnd",
 		]
-		vsnd_duration = 1.582880
+		vsnd_duration = 1.58288
 	}
 	astro_ping_careful_viscous_03_ping_2d = 
 	{
@@ -12128,7 +12128,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_chrono_check_items.vsnd",
 		]
-		vsnd_duration = 1.990340
+		vsnd_duration = 1.99034
 	}
 	astro_ping_chrono_dead_ping_2d = 
 	{
@@ -12258,7 +12258,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_defend_green_01.vsnd",
 		]
-		vsnd_duration = 1.342880
+		vsnd_duration = 1.34288
 	}
 	astro_ping_defend_green_02_ping_2d = 
 	{
@@ -12388,7 +12388,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_drifter_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.586440
+		vsnd_duration = 1.58644
 	}
 	astro_ping_drifter_check_items_ping_2d = 
 	{
@@ -12468,7 +12468,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_drifter_was_here.vsnd",
 		]
-		vsnd_duration = 1.513560
+		vsnd_duration = 1.51356
 	}
 	astro_ping_dynamo_almost_respawn_ping_2d = 
 	{
@@ -12908,7 +12908,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_frank_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.925510
+		vsnd_duration = 1.92551
 	}
 	astro_ping_frank_on_top_of_mid_ping_2d = 
 	{
@@ -12958,7 +12958,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_ghost_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.693810
+		vsnd_duration = 1.69381
 	}
 	astro_ping_ghost_check_items_ping_2d = 
 	{
@@ -13188,7 +13188,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_good_game_01.vsnd",
 		]
-		vsnd_duration = 1.192540
+		vsnd_duration = 1.19254
 	}
 	astro_ping_good_game_02_ping_2d = 
 	{
@@ -13208,7 +13208,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_good_game_03.vsnd",
 		]
-		vsnd_duration = 1.297460
+		vsnd_duration = 1.29746
 	}
 	astro_ping_good_job_01_ping_2d = 
 	{
@@ -13228,7 +13228,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_green_help_01.vsnd",
 		]
-		vsnd_duration = 1.334490
+		vsnd_duration = 1.33449
 	}
 	astro_ping_green_help_02_ping_2d = 
 	{
@@ -13258,7 +13258,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_haze_check_items.vsnd",
 		]
-		vsnd_duration = 1.547120
+		vsnd_duration = 1.54712
 	}
 	astro_ping_haze_dead_ping_2d = 
 	{
@@ -13418,7 +13418,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_health_nova_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.959320
+		vsnd_duration = 1.95932
 	}
 	astro_ping_health_nova_not_ready_ping_2d = 
 	{
@@ -13428,7 +13428,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_health_nova_not_ready.vsnd",
 		]
-		vsnd_duration = 1.998050
+		vsnd_duration = 1.99805
 	}
 	astro_ping_help_with_idol_ping_2d = 
 	{
@@ -13708,7 +13708,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_ignore_krill.vsnd",
 		]
-		vsnd_duration = 1.533810
+		vsnd_duration = 1.53381
 	}
 	astro_ping_ignore_lash_ping_2d = 
 	{
@@ -13728,7 +13728,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_ignore_magician.vsnd",
 		]
-		vsnd_duration = 1.424240
+		vsnd_duration = 1.42424
 	}
 	astro_ping_ignore_mirage_ping_2d = 
 	{
@@ -13738,7 +13738,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_ignore_mirage.vsnd",
 		]
-		vsnd_duration = 1.628050
+		vsnd_duration = 1.62805
 	}
 	astro_ping_ignore_nano_ping_2d = 
 	{
@@ -13768,7 +13768,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_ignore_operative.vsnd",
 		]
-		vsnd_duration = 1.347370
+		vsnd_duration = 1.34737
 	}
 	astro_ping_ignore_orion_ping_2d = 
 	{
@@ -13928,7 +13928,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_ignore_wrecker.vsnd",
 		]
-		vsnd_duration = 1.443560
+		vsnd_duration = 1.44356
 	}
 	astro_ping_ignore_yamato_ping_2d = 
 	{
@@ -14268,7 +14268,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_krill_was_here.vsnd",
 		]
-		vsnd_duration = 1.287800
+		vsnd_duration = 1.2878
 	}
 	astro_ping_lash_almost_respawn_ping_2d = 
 	{
@@ -14528,7 +14528,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_magician_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.794580
+		vsnd_duration = 1.79458
 	}
 	astro_ping_magician_under_garage_ping_2d = 
 	{
@@ -14538,7 +14538,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_magician_under_garage.vsnd",
 		]
-		vsnd_duration = 1.838050
+		vsnd_duration = 1.83805
 	}
 	astro_ping_magician_was_here_ping_2d = 
 	{
@@ -14568,7 +14568,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_mirage_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.776440
+		vsnd_duration = 1.77644
 	}
 	astro_ping_mirage_check_items_ping_2d = 
 	{
@@ -14698,7 +14698,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_missing_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.417800
+		vsnd_duration = 1.4178
 	}
 	astro_ping_missing_yellow_02_ping_2d = 
 	{
@@ -14728,7 +14728,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_nano_check_items.vsnd",
 		]
-		vsnd_duration = 1.976190
+		vsnd_duration = 1.97619
 	}
 	astro_ping_nano_dead_ping_2d = 
 	{
@@ -14878,7 +14878,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_necro_under_garage.vsnd",
 		]
-		vsnd_duration = 1.890340
+		vsnd_duration = 1.89034
 	}
 	astro_ping_necro_was_here_ping_2d = 
 	{
@@ -15028,7 +15028,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_no_teamfight.vsnd",
 		]
-		vsnd_duration = 1.805510
+		vsnd_duration = 1.80551
 	}
 	astro_ping_on_way_ping_2d = 
 	{
@@ -15208,7 +15208,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_orion_under_garage.vsnd",
 		]
-		vsnd_duration = 2.195510
+		vsnd_duration = 2.19551
 	}
 	astro_ping_orion_was_here_ping_2d = 
 	{
@@ -15238,7 +15238,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_post_game_02.vsnd",
 		]
-		vsnd_duration = 1.982290
+		vsnd_duration = 1.98229
 	}
 	astro_ping_post_game_03_ping_2d = 
 	{
@@ -15388,7 +15388,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_priest_in_mid.vsnd",
 		]
-		vsnd_duration = 1.512540
+		vsnd_duration = 1.51254
 	}
 	astro_ping_priest_missing_01_ping_2d = 
 	{
@@ -15498,7 +15498,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_punkgoat_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.958390
+		vsnd_duration = 1.95839
 	}
 	astro_ping_punkgoat_on_top_of_mid_ping_2d = 
 	{
@@ -15548,7 +15548,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_push_blue_02.vsnd",
 		]
-		vsnd_duration = 1.501020
+		vsnd_duration = 1.50102
 	}
 	astro_ping_push_green_01_ping_2d = 
 	{
@@ -15558,7 +15558,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_push_green_01.vsnd",
 		]
-		vsnd_duration = 1.412540
+		vsnd_duration = 1.41254
 	}
 	astro_ping_push_green_02_ping_2d = 
 	{
@@ -15588,7 +15588,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_push_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.372200
+		vsnd_duration = 1.3722
 	}
 	astro_ping_refresher_almost_ready_ping_2d = 
 	{
@@ -15658,7 +15658,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_returning_to_base.vsnd",
 		]
-		vsnd_duration = 1.573560
+		vsnd_duration = 1.57356
 	}
 	astro_ping_right_back_01_ping_2d = 
 	{
@@ -15848,7 +15848,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_saw_kelvin.vsnd",
 		]
-		vsnd_duration = 1.334240
+		vsnd_duration = 1.33424
 	}
 	astro_ping_saw_krill_ping_2d = 
 	{
@@ -15858,7 +15858,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_saw_krill.vsnd",
 		]
-		vsnd_duration = 1.226780
+		vsnd_duration = 1.22678
 	}
 	astro_ping_saw_lash_ping_2d = 
 	{
@@ -15948,7 +15948,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_saw_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.219660
+		vsnd_duration = 1.21966
 	}
 	astro_ping_saw_shiv_ping_2d = 
 	{
@@ -15988,7 +15988,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_saw_tengu.vsnd",
 		]
-		vsnd_duration = 1.358730
+		vsnd_duration = 1.35873
 	}
 	astro_ping_saw_them_ping_2d = 
 	{
@@ -16058,7 +16058,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_saw_warden.vsnd",
 		]
-		vsnd_duration = 1.369410
+		vsnd_duration = 1.36941
 	}
 	astro_ping_saw_werewolf_ping_2d = 
 	{
@@ -16148,7 +16148,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_bebop_02.vsnd",
 		]
-		vsnd_duration = 1.390340
+		vsnd_duration = 1.39034
 	}
 	astro_ping_see_bebop_on_bridge_ping_2d = 
 	{
@@ -16398,7 +16398,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_enemy_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.682540
+		vsnd_duration = 1.68254
 	}
 	astro_ping_see_enemy_on_roof_ping_2d = 
 	{
@@ -16488,7 +16488,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_forge_02.vsnd",
 		]
-		vsnd_duration = 1.537710
+		vsnd_duration = 1.53771
 	}
 	astro_ping_see_forge_on_bridge_ping_2d = 
 	{
@@ -16548,7 +16548,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_frank_on_roof.vsnd",
 		]
-		vsnd_duration = 1.537030
+		vsnd_duration = 1.53703
 	}
 	astro_ping_see_ghost_01_ping_2d = 
 	{
@@ -16568,7 +16568,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_ghost_02.vsnd",
 		]
-		vsnd_duration = 1.555850
+		vsnd_duration = 1.55585
 	}
 	astro_ping_see_ghost_on_bridge_ping_2d = 
 	{
@@ -16608,7 +16608,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_gigawatt_02.vsnd",
 		]
-		vsnd_duration = 2.152540
+		vsnd_duration = 2.15254
 	}
 	astro_ping_see_gigawatt_on_bridge_ping_2d = 
 	{
@@ -16688,7 +16688,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_hornet_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.709660
+		vsnd_duration = 1.70966
 	}
 	astro_ping_see_hornet_on_roof_ping_2d = 
 	{
@@ -16818,7 +16818,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_lash_02.vsnd",
 		]
-		vsnd_duration = 1.857800
+		vsnd_duration = 1.8578
 	}
 	astro_ping_see_lash_on_bridge_ping_2d = 
 	{
@@ -16858,7 +16858,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_magician_01.vsnd",
 		]
-		vsnd_duration = 1.254240
+		vsnd_duration = 1.25424
 	}
 	astro_ping_see_magician_02_ping_2d = 
 	{
@@ -16898,7 +16898,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_mirage_01.vsnd",
 		]
-		vsnd_duration = 1.291360
+		vsnd_duration = 1.29136
 	}
 	astro_ping_see_mirage_02_ping_2d = 
 	{
@@ -16968,7 +16968,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_necro_01.vsnd",
 		]
-		vsnd_duration = 1.234150
+		vsnd_duration = 1.23415
 	}
 	astro_ping_see_necro_on_bridge_ping_2d = 
 	{
@@ -17088,7 +17088,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_priest_on_roof.vsnd",
 		]
-		vsnd_duration = 1.384490
+		vsnd_duration = 1.38449
 	}
 	astro_ping_see_punkgoat_01_ping_2d = 
 	{
@@ -17378,7 +17378,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_see_viper_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.685760
+		vsnd_duration = 1.68576
 	}
 	astro_ping_see_viper_on_roof_ping_2d = 
 	{
@@ -17638,7 +17638,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_shiv_in_mid.vsnd",
 		]
-		vsnd_duration = 1.419070
+		vsnd_duration = 1.41907
 	}
 	astro_ping_shiv_missing_01_ping_2d = 
 	{
@@ -17688,7 +17688,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_shiv_was_here.vsnd",
 		]
-		vsnd_duration = 1.276440
+		vsnd_duration = 1.27644
 	}
 	astro_ping_silence_almost_ready_ping_2d = 
 	{
@@ -17738,7 +17738,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_slork_dead.vsnd",
 		]
-		vsnd_duration = 1.253560
+		vsnd_duration = 1.25356
 	}
 	astro_ping_slork_in_mid_ping_2d = 
 	{
@@ -17928,7 +17928,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_stun_drifter_01.vsnd",
 		]
-		vsnd_duration = 1.472540
+		vsnd_duration = 1.47254
 	}
 	astro_ping_stun_dynamo_01_ping_2d = 
 	{
@@ -18158,7 +18158,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_stun_slork_01.vsnd",
 		]
-		vsnd_duration = 1.237460
+		vsnd_duration = 1.23746
 	}
 	astro_ping_stun_synth_01_ping_2d = 
 	{
@@ -18478,7 +18478,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_tengu_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.727710
+		vsnd_duration = 1.72771
 	}
 	astro_ping_tengu_under_garage_ping_2d = 
 	{
@@ -18718,7 +18718,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_unicorn_missing_01.vsnd",
 		]
-		vsnd_duration = 1.485760
+		vsnd_duration = 1.48576
 	}
 	astro_ping_unicorn_on_top_of_garage_ping_2d = 
 	{
@@ -18858,7 +18858,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_use_ability4_08.vsnd",
 		]
-		vsnd_duration = 2.436440
+		vsnd_duration = 2.43644
 	}
 	astro_ping_use_ability4_09_ping_2d = 
 	{
@@ -18898,7 +18898,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_use_glitch.vsnd",
 		]
-		vsnd_duration = 1.636440
+		vsnd_duration = 1.63644
 	}
 	astro_ping_use_health_nova_ping_2d = 
 	{
@@ -18928,7 +18928,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_use_kncokdown.vsnd",
 		]
-		vsnd_duration = 1.746780
+		vsnd_duration = 1.74678
 	}
 	astro_ping_use_refresher_ping_2d = 
 	{
@@ -18978,7 +18978,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_use_warp_stone.vsnd",
 		]
-		vsnd_duration = 1.918050
+		vsnd_duration = 1.91805
 	}
 	astro_ping_vampirebat_almost_respawn_ping_2d = 
 	{
@@ -19068,7 +19068,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_vampirebat_was_here.vsnd",
 		]
-		vsnd_duration = 1.281020
+		vsnd_duration = 1.28102
 	}
 	astro_ping_viper_almost_respawn_ping_2d = 
 	{
@@ -19178,7 +19178,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_viscous_check_items.vsnd",
 		]
-		vsnd_duration = 1.840680
+		vsnd_duration = 1.84068
 	}
 	astro_ping_viscous_dead_ping_2d = 
 	{
@@ -19378,7 +19378,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_welcome.vsnd",
 		]
-		vsnd_duration = 1.114240
+		vsnd_duration = 1.11424
 	}
 	astro_ping_well_played_ping_2d = 
 	{
@@ -19498,7 +19498,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_with_bebop.vsnd",
 		]
-		vsnd_duration = 1.471610
+		vsnd_duration = 1.47161
 	}
 	astro_ping_with_bookworm_ping_2d = 
 	{
@@ -19658,7 +19658,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_with_kelvin.vsnd",
 		]
-		vsnd_duration = 1.606780
+		vsnd_duration = 1.60678
 	}
 	astro_ping_with_krill_ping_2d = 
 	{
@@ -19748,7 +19748,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_with_priest.vsnd",
 		]
-		vsnd_duration = 1.700340
+		vsnd_duration = 1.70034
 	}
 	astro_ping_with_punkgoat_ping_2d = 
 	{
@@ -19858,7 +19858,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_with_warden.vsnd",
 		]
-		vsnd_duration = 1.474490
+		vsnd_duration = 1.47449
 	}
 	astro_ping_with_werewolf_ping_2d = 
 	{
@@ -20018,7 +20018,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_wrecker_dead.vsnd",
 		]
-		vsnd_duration = 1.478050
+		vsnd_duration = 1.47805
 	}
 	astro_ping_wrecker_in_mid_ping_2d = 
 	{
@@ -20058,7 +20058,7 @@
 		[
 			"sounds/vo/astro/ping/astro_ping_wrecker_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.815850
+		vsnd_duration = 1.81585
 	}
 	astro_ping_wrecker_under_garage_ping_2d = 
 	{
@@ -20218,7 +20218,7 @@
 		[
 			"sounds/vo/astro/astro_sad_02.vsnd",
 		]
-		vsnd_duration = 1.738390
+		vsnd_duration = 1.73839
 	}
 	astro_sad_03_hero_3d = 
 	{
@@ -20398,7 +20398,7 @@
 		[
 			"sounds/vo/astro/astro_select_04.vsnd",
 		]
-		vsnd_duration = 4.584240
+		vsnd_duration = 4.58424
 	}
 	astro_select_05_hero_3d = 
 	{
@@ -20408,7 +20408,7 @@
 		[
 			"sounds/vo/astro/astro_select_05.vsnd",
 		]
-		vsnd_duration = 4.236780
+		vsnd_duration = 4.23678
 	}
 	astro_select_06_hero_3d = 
 	{
@@ -20488,7 +20488,7 @@
 		[
 			"sounds/vo/astro/astro_solo_lasso_kill_03.vsnd",
 		]
-		vsnd_duration = 2.359320
+		vsnd_duration = 2.35932
 	}
 	astro_t1_shop_reminder_01_hero_3d = 
 	{
@@ -20508,7 +20508,7 @@
 		[
 			"sounds/vo/astro/astro_t1_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 1.463900
+		vsnd_duration = 1.4639
 	}
 	astro_t1_shop_reminder_03_hero_3d = 
 	{
@@ -20808,7 +20808,7 @@
 		[
 			"sounds/vo/astro/astro_upgrade_power1_05.vsnd",
 		]
-		vsnd_duration = 2.165170
+		vsnd_duration = 2.16517
 	}
 	astro_upgrade_power1_06_hero_3d = 
 	{
@@ -20948,7 +20948,7 @@
 		[
 			"sounds/vo/astro/astro_upgrade_power2_09.vsnd",
 		]
-		vsnd_duration = 1.528050
+		vsnd_duration = 1.52805
 	}
 	astro_upgrade_power2_10_hero_3d = 
 	{
@@ -21248,7 +21248,7 @@
 		[
 			"sounds/vo/astro/astro_use_colossus_02.vsnd",
 		]
-		vsnd_duration = 1.314830
+		vsnd_duration = 1.31483
 	}
 	astro_use_colossus_03_ability_3d = 
 	{
@@ -21308,7 +21308,7 @@
 		[
 			"sounds/vo/astro/astro_use_decay_02.vsnd",
 		]
-		vsnd_duration = 1.454830
+		vsnd_duration = 1.45483
 	}
 	astro_use_decay_03_ability_3d = 
 	{
@@ -21568,7 +21568,7 @@
 		[
 			"sounds/vo/astro/astro_use_power2_02.vsnd",
 		]
-		vsnd_duration = 2.018050
+		vsnd_duration = 2.01805
 	}
 	astro_use_power2_03_ability_3d = 
 	{
@@ -21628,7 +21628,7 @@
 		[
 			"sounds/vo/astro/astro_use_power2_08.vsnd",
 		]
-		vsnd_duration = 1.428390
+		vsnd_duration = 1.42839
 	}
 	astro_use_power2_09_ability_3d = 
 	{
@@ -21678,7 +21678,7 @@
 		[
 			"sounds/vo/astro/astro_use_power3_03.vsnd",
 		]
-		vsnd_duration = 1.767460
+		vsnd_duration = 1.76746
 	}
 	astro_use_power3_04_ability_3d = 
 	{
@@ -22038,7 +22038,7 @@
 		[
 			"sounds/vo/astro/astro_use_power4_07.vsnd",
 		]
-		vsnd_duration = 1.182290
+		vsnd_duration = 1.18229
 	}
 	astro_use_power4_07_hero_announcer = 
 	{
@@ -22048,7 +22048,7 @@
 		[
 			"sounds/vo/astro/astro_use_power4_07.vsnd",
 		]
-		vsnd_duration = 1.182290
+		vsnd_duration = 1.18229
 	}
 	astro_use_power4_07_ult_3d = 
 	{
@@ -22058,7 +22058,7 @@
 		[
 			"sounds/vo/astro/astro_use_power4_07.vsnd",
 		]
-		vsnd_duration = 1.182290
+		vsnd_duration = 1.18229
 	}
 	astro_use_power4_08_ability_3d = 
 	{
@@ -22168,7 +22168,7 @@
 		[
 			"sounds/vo/astro/astro_use_rupture_02.vsnd",
 		]
-		vsnd_duration = 1.609410
+		vsnd_duration = 1.60941
 	}
 	astro_use_rupture_03_ability_3d = 
 	{
@@ -22228,7 +22228,7 @@
 		[
 			"sounds/vo/astro/astro_use_silencer_02.vsnd",
 		]
-		vsnd_duration = 1.669070
+		vsnd_duration = 1.66907
 	}
 	astro_use_silencer_03_ability_3d = 
 	{
@@ -22288,7 +22288,7 @@
 		[
 			"sounds/vo/astro/astro_use_unstoppable_02.vsnd",
 		]
-		vsnd_duration = 1.735420
+		vsnd_duration = 1.73542
 	}
 	astro_use_unstoppable_03_ability_3d = 
 	{
@@ -22358,7 +22358,7 @@
 		[
 			"sounds/vo/astro/holliday_kill_wrecker_01.vsnd",
 		]
-		vsnd_duration = 1.779320
+		vsnd_duration = 1.77932
 	}
 	holliday_kill_wrecker_02_hero_3d = 
 	{

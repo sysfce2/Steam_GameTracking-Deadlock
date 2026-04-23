@@ -3,13 +3,13 @@
 	Werewolf.Wpn.Rifle.Fire.Main = 
 	{
 		base = "Base.Weapon.Shotgun"
-		volume = 5.000000
-		volume_fade_out = 0.250000
-		limiter_max_offset_player = 2.000000
-		tail_vol_offset_db = -6.500000
-		low_ammo_vol_offset_db = 4.000000
-		low_ammo_threshold = 3.000000
-		last_shot_vol_offset_db = 2.000000
+		volume = 5.0
+		volume_fade_out = 0.25
+		limiter_max_offset_player = 2.0
+		tail_vol_offset_db = -6.5
+		low_ammo_vol_offset_db = 4.0
+		low_ammo_threshold = 3.0
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/werewolf/werewolf_wpn_rifle_fire_01.vsnd",
@@ -33,13 +33,13 @@
 	Werewolf.Wpn.Rifle.Fire.Slamfire = 
 	{
 		base = "Base.Weapon.Shotgun"
-		volume = 1.000000
-		volume_fade_out = 0.250000
-		limiter_max_offset_player = 0.000000
-		tail_vol_offset_db = -8.000000
-		low_ammo_vol_offset_db = 4.000000
-		low_ammo_threshold = 3.000000
-		last_shot_vol_offset_db = 2.000000
+		volume = 1.0
+		volume_fade_out = 0.25
+		limiter_max_offset_player = 0.0
+		tail_vol_offset_db = -8.0
+		low_ammo_vol_offset_db = 4.0
+		low_ammo_threshold = 3.0
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/werewolf/werewolf_wpn_rifle_fire_01.vsnd",
@@ -63,12 +63,12 @@
 	Werewolf.Wpn.Rifle.Fire.First = 
 	{
 		base = "Base.Weapon.Shotgun"
-		volume = 5.500000
-		volume_fade_out = 0.250000
-		low_ammo_vol_offset_db = -1.000000
-		tail_vol_offset_db = -6.500000
-		limiter_max = 0.000000
-		last_shot_vol_offset_db = 2.000000
+		volume = 5.5
+		volume_fade_out = 0.25
+		low_ammo_vol_offset_db = -1.0
+		tail_vol_offset_db = -6.5
+		limiter_max = 0.0
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/werewolf/werewolf_wpn_rifle_fire_first_01.vsnd",
@@ -92,8 +92,8 @@
 	Werewolf.Wpn.Rifle.Cycle.Start = 
 	{
 		base = "Base.Ability"
-		volume = -13.000000
-		limiter_max = 1.000000
+		volume = -13.0
+		limiter_max = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/werewolf/werewolf_wpn_rifle_cycle_start_01.vsnd",
@@ -105,8 +105,8 @@
 	Werewolf.Wpn.Rifle.Cycle.Stop = 
 	{
 		base = "Base.Ability"
-		volume = -13.000000
-		limiter_max = 1.000000
+		volume = -13.0
+		limiter_max = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/werewolf/werewolf_wpn_rifle_cycle_stop_01.vsnd",
@@ -118,20 +118,20 @@
 	Werewolf.Wpn.Rifle.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 0.000000
-		mono_downmix_enabled = 0.000000
+		volume = 0.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/werewolf/reload/werewolf_wpn_rifle_reload_start_01.vsnd",
 			"sounds/weapons/werewolf/reload/werewolf_wpn_rifle_reload_start_02.vsnd",
 			"sounds/weapons/werewolf/reload/werewolf_wpn_rifle_reload_start_03.vsnd",
 		]
-		vsnd_duration = 1.721020
+		vsnd_duration = 1.72102
 	}
 	Werewolf.Wpn.Rifle.Reload.Round = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/weapons/werewolf/reload/werewolf_wpn_rifle_reload_round_01.vsnd",
@@ -145,8 +145,8 @@
 	Werewolf.Wpn.Rifle.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 2.000000
-		mono_downmix_enabled = 0.000000
+		volume = 2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/werewolf/reload/werewolf_wpn_rifle_reload_end_01.vsnd",
@@ -158,10 +158,10 @@
 	Werewolf.Wpn.Claws.Fire = 
 	{
 		base = "Base.Weapon"
-		volume = 4.000000
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
-		limiter_max_offset_player = 2.000000
+		volume = 4.0
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
+		limiter_max_offset_player = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/werewolf/werewolf_wpn_claws_fire_01.vsnd",
@@ -175,10 +175,10 @@
 	Werewolf.Wpn.Claws.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		limiter_max = 3.000000
+		volume = 2.0
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		limiter_max = 3.0
 		vsnd_files = 
 		[
 			"sounds/weapons/werewolf/werewolf_wpn_claws_hit_01.vsnd",
@@ -189,32 +189,17 @@
 		]
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				5.000000,
-				-7.500000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				5.0, -7.5, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 1.026145
@@ -222,38 +207,38 @@
 	Werewolf.Slamfire.Cast.Delay = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = "sounds/abilities/werewolf/human_a1_slamfire/werewolf_slamfire_cast_delay.vsnd"
 		vsnd_duration = 1.550567
 	}
 	Werewolf.Slamfire.Bonus.Proc = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 4.000000
-		volume_offset_attacker_db = 5.000000
+		volume = 4.0
+		volume_offset_attacker_db = 5.0
 		vsnd_files = "sounds/abilities/werewolf/human_a1_slamfire/werewolf_slamfire_bonus_proc.vsnd"
 		vsnd_duration = 1.820249
 	}
 	Werewolf.Slamfire.Mod.Expire = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = "sounds/abilities/werewolf/human_a1_slamfire/werewolf_slamfire_mod_expire.vsnd"
 		vsnd_duration = 2.496349
 	}
 	Werewolf.Boot.Kick.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
-		volume_offset_opponent = 4.000000
+		volume = 1.0
+		volume_offset_opponent = 4.0
 		vsnd_files = "sounds/abilities/werewolf/human_a2_kick/werewolf_bootkick_cast.vsnd"
 		vsnd_duration = 1.864558
 	}
 	Werewolf.Boot.Kick.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
-		volume_offset_attacker_db = 3.000000
+		volume = 0.0
+		volume_offset_attacker_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/werewolf/human_a2_kick/werewolf_bootkick_hit_01.vsnd",
@@ -265,7 +250,7 @@
 	Werewolf.Boot.Kick.PushOff = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/werewolf/human_a2_kick/werewolf_bootkick_pushoff_01.vsnd",
@@ -277,39 +262,39 @@
 	Werewolf.Boot.Kick.Mark.Proc = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 3.500000
-		volume_offset_attacker_db = 3.000000
+		volume = 3.5
+		volume_offset_attacker_db = 3.0
 		vsnd_files = "sounds/abilities/werewolf/human_a2_kick/werewolf_bootkick_mark_proc.vsnd"
 		vsnd_duration = 1.932358
 	}
 	Werewolf.Netshot.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
-		pitch_rand_min = -0.015000
-		pitch_rand_max = 0.015000
-		volume_enemy_targeting_boost = 6.000000
+		volume = 1.0
+		pitch_rand_min = -0.015
+		pitch_rand_max = 0.015
+		volume_enemy_targeting_boost = 6.0
 		vsnd_files = "sounds/abilities/werewolf/human_a3_bola/werewolf_netshot_cast.vsnd"
 		vsnd_duration = 2.492494
 	}
 	Werewolf.Netshot.Cast.Delay = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
-		delay = 0.050000
-		pitch = 0.900000
-		volume_enemy_targeting_boost = 6.000000
+		volume = 1.0
+		delay = 0.05
+		pitch = 0.9
+		volume_enemy_targeting_boost = 6.0
 		vsnd_files = "sounds/abilities/werewolf/human_a3_bola/werewolf_netshot_cast_delay.vsnd"
 		vsnd_duration = 0.970204
 	}
 	Werewolf.Netshot.Projectile.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -2.000000
-		pitch = 1.400000
-		delay_rand_min = -4.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.300000
+		volume = -2.0
+		pitch = 1.4
+		delay_rand_min = -4.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.3
 		fade_type = "equal_power"
 		vsnd_files = "sounds/abilities/werewolf/human_a3_bola/werewolf_netshot_proj_lp.vsnd"
 		vsnd_duration = 4.455964
@@ -317,44 +302,44 @@
 	Werewolf.Netshot.Debuff.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -6.000000
-		volume_offset_player = 4.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.200000
-		delay_rand_min = -2.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.150000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.800000
-		pitch_envelope_scale_max = 1.300000
+		volume = -6.0
+		volume_offset_player = 4.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.2
+		delay_rand_min = -2.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.15
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.8
+		pitch_envelope_scale_max = 1.3
 		vsnd_files = "sounds/abilities/werewolf/human_a3_bola/werewolf_netshot_debuff_lp.vsnd"
 		vsnd_duration = 3.180386
 	}
 	Werewolf.Netshot.Debuff.Expire = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 0.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = 0.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = "sounds/abilities/werewolf/human_a3_bola/werewolf_netshot_debuff_expire.vsnd"
 		vsnd_duration = 2.050068
 	}
 	Werewolf.Netshot.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 4.000000
-		volume_offset_attacker_db = 3.000000
+		volume = 4.0
+		volume_offset_attacker_db = 3.0
 		vsnd_files = "sounds/abilities/werewolf/human_a3_bola/werewolf_netshot_hit_confirm.vsnd"
 		vsnd_duration = 1.583605
 	}
 	Werewolf.Netshot.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -4.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
-		block_duration = 0.400000
-		block_match_entity = 0.000000
+		volume = -4.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
+		block_duration = 0.4
+		block_match_entity = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/werewolf/human_a3_bola/werewolf_netshot_world_impact_01.vsnd",
@@ -365,61 +350,61 @@
 	Werewolf.Lycan.Curse.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 5.000000
-		volume_offset_opponent = 1.500000
+		volume = 5.0
+		volume_offset_opponent = 1.5
 		vsnd_files = "sounds/abilities/werewolf/a4_lycan_curse/werewolf_lycan_curse_cast.vsnd"
 		vsnd_duration = 5.988276
 	}
 	Werewolf.Lycan.Curse.Ready = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
-		volume_offset_opponent = 5.000000
+		volume = 3.0
+		volume_offset_opponent = 5.0
 		vsnd_files = "sounds/abilities/werewolf/a4_lycan_curse/werewolf_lycan_curse_ready.vsnd"
 		vsnd_duration = 2.381406
 	}
 	Werewolf.Lycan.Curse.Ready.Warning = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 5.000000
-		volume_offset_opponent = 1.000000
-		volume_fade_out = 0.800000
+		volume = 5.0
+		volume_offset_opponent = 1.0
+		volume_fade_out = 0.8
 		vsnd_files = "sounds/abilities/werewolf/a4_lycan_curse/werewolf_lycan_curse_ready_warning.vsnd"
-		vsnd_duration = 6.823900
+		vsnd_duration = 6.8239
 	}
 	Werewolf.Lycan.Curse.Expire = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = "sounds/abilities/werewolf/a4_lycan_curse/werewolf_lycan_curse_expire.vsnd"
 		vsnd_duration = 3.102744
 	}
 	Werewolf.Lycan.Curse.Ending.Warning = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 7.000000
-		volume_fade_out = 0.600000
+		volume = 7.0
+		volume_fade_out = 0.6
 		vsnd_files = "sounds/abilities/werewolf/a4_lycan_curse/werewolf_lycan_curse_ending_warning.vsnd"
-		vsnd_duration = 6.196190
+		vsnd_duration = 6.19619
 	}
 	Werewolf.Bite.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 3.000000
-		volume_enemy_targeting_boost = 3.000000
+		volume = 3.0
+		volume_enemy_targeting_boost = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/werewolf/wolf_a1_bite/werewolf_bite_cast_01.vsnd",
 			"sounds/abilities/werewolf/wolf_a1_bite/werewolf_bite_cast_02.vsnd",
 			"sounds/abilities/werewolf/wolf_a1_bite/werewolf_bite_cast_03.vsnd",
 		]
-		vsnd_duration = 1.780590
+		vsnd_duration = 1.78059
 	}
 	Werewolf.Bite.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 6.000000
-		volume_offset_attacker_db = 4.000000
+		volume = 6.0
+		volume_offset_attacker_db = 4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/werewolf/wolf_a1_bite/werewolf_bite_hit_01.vsnd",
@@ -431,11 +416,11 @@
 	Werewolf.Mauling.Leap.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 4.000000
-		volume_offset_attacker_db = 5.000000
-		limiter_max = 4.000000
-		pitch_rand_min = -0.040000
-		pitch_rand_max = 0.040000
+		volume = 4.0
+		volume_offset_attacker_db = 5.0
+		limiter_max = 4.0
+		pitch_rand_min = -0.04
+		pitch_rand_max = 0.04
 		vsnd_files = 
 		[
 			"sounds/abilities/werewolf/wolf_a2_leap/werewolf_mauling_leap_hit_01.vsnd",
@@ -444,32 +429,17 @@
 		]
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.293897,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.293897,
-				-3.243744,
-				0.000000,
-				0.000000,
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
 			],
-			
 			[
-				10.000000,
-				-10.000000,
-				-3.243744,
-				0.000000,
-				0.000000,
-				0.000000,
+				10.0, -10.0, -3.243744, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 1.882608
@@ -477,18 +447,18 @@
 	Werewolf.Mauling.Leap.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		pitch_rand_min = -0.015000
-		pitch_rand_max = 0.015000
-		volume_enemy_targeting_boost = 6.000000
+		volume = 2.0
+		pitch_rand_min = -0.015
+		pitch_rand_max = 0.015
+		volume_enemy_targeting_boost = 6.0
 		vsnd_files = "sounds/abilities/werewolf/wolf_a2_leap/werewolf_mauling_leap_cast.vsnd"
-		vsnd_duration = 2.114490
+		vsnd_duration = 2.11449
 	}
 	Werewolf.Tail.Whack.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 7.000000
-		volume_offset_opponent = 3.000000
+		volume = 7.0
+		volume_offset_opponent = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/werewolf/wolf_a3_tail/werewolf_tail_whack_cast_01.vsnd",
@@ -500,8 +470,8 @@
 	Werewolf.Tail.Whack.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 5.000000
-		volume_offset_attacker_db = 5.000000
+		volume = 5.0
+		volume_offset_attacker_db = 5.0
 		vsnd_files = 
 		[
 			"sounds/abilities/werewolf/wolf_a3_tail/werewolf_tail_hit_01.vsnd",
@@ -513,8 +483,8 @@
 	Werewolf.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -4.000000
-		track_2.vsnd_track_vol_offset_db = -15.500000
+		track_1.vsnd_track_vol_offset_db = -4.0
+		track_2.vsnd_track_vol_offset_db = -15.5
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/holliday/holliday_footstep_01.vsnd",

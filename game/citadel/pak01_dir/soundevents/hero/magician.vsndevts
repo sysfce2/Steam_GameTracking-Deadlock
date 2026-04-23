@@ -3,8 +3,8 @@
 	Sinclair.Wpn.Fire = 
 	{
 		base = "Base.Weapon.Pistol"
-		volume = 1.000000
-		last_shot_vol_offset_db = 4.000000
+		volume = 1.0
+		last_shot_vol_offset_db = 4.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sinclair/magician_wpn_shoot_01.vsnd",
@@ -26,35 +26,35 @@
 	Sinclair.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 0.000000
-		mono_downmix_enabled = 0.000000
+		volume = 0.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sinclair/reload/sinclair_wpn_reload_start_01.vsnd",
 			"sounds/weapons/sinclair/reload/sinclair_wpn_reload_start_02.vsnd",
 			"sounds/weapons/sinclair/reload/sinclair_wpn_reload_start_03.vsnd",
 		]
-		vsnd_duration = 1.845170
+		vsnd_duration = 1.84517
 	}
 	Sinclair.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = 0.000000
-		mono_downmix_enabled = 0.000000
+		volume = 0.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sinclair/reload/sinclair_wpn_reload_end_01.vsnd",
 			"sounds/weapons/sinclair/reload/sinclair_wpn_reload_end_02.vsnd",
 			"sounds/weapons/sinclair/reload/sinclair_wpn_reload_end_03.vsnd",
 		]
-		vsnd_duration = 1.779410
+		vsnd_duration = 1.77941
 	}
 	Magician.VexingBolt.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = -1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/abilities/magician/magician_vexingbolt_cast_01.vsnd",
@@ -67,9 +67,9 @@
 	Magician.VexingBolt.Redirect = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/abilities/magician/magician_vexingbolt_redirect_01.vsnd",
@@ -81,104 +81,104 @@
 	Magician.VexingBolt.Projectile_Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -7.000000
-		volume_fade_out = 0.300000
-		volume_fade_in = 0.200000
-		delay_rand_min = -3.000000
-		delay_rand_max = -1.000000
+		volume = -7.0
+		volume_fade_out = 0.3
+		volume_fade_in = 0.2
+		delay_rand_min = -3.0
+		delay_rand_max = -1.0
 		vsnd_files = "sounds/abilities/magician/magician_vexingbolt_projectile_lp_01.vsnd"
 		vsnd_duration = 13.187573
 	}
 	Magician.VexingBolt.Impact = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 0.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/abilities/magician/magician_vexingbolt_impact_01.vsnd",
 			"sounds/abilities/magician/magician_vexingbolt_impact_02.vsnd",
 			"sounds/abilities/magician/magician_vexingbolt_impact_03.vsnd",
 		]
-		vsnd_duration = 1.695510
+		vsnd_duration = 1.69551
 	}
 	Magician.SpectralAssist.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = "sounds/abilities/magician/magician_spectralassist_cast_01.vsnd"
 		vsnd_duration = 3.252812
 	}
 	Magician.SpectralAssist.Cast.Select = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/magician/magician_spectralassist_cast_select_01.vsnd"
-		vsnd_duration = 1.889070
+		vsnd_duration = 1.88907
 	}
 	Magician.SpectralAssist.Cast.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = "sounds/abilities/magician/magician_spectralassist_cast_deselect_01.vsnd"
 		vsnd_duration = 1.297506
 	}
 	Magician.SpectralAssist.Cast.Select_Lp = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		volume_fade_out = 0.300000
-		volume_fade_in = 0.300000
-		delay = 0.200000
+		volume = 0.0
+		volume_fade_out = 0.3
+		volume_fade_in = 0.3
+		delay = 0.2
 		vsnd_files = "sounds/abilities/magician/magician_spectralassist_cast_select_lp_01.vsnd"
 		vsnd_duration = 4.731565
 	}
 	Magician.SpectralAssist.Swap = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = "sounds/abilities/magician/magician_spectralassist_swap_01.vsnd"
-		vsnd_duration = 2.900930
+		vsnd_duration = 2.90093
 	}
 	Magician.SpectralAssist.Expire = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/magician/magician_spectralassist_expire_01.vsnd"
 		vsnd_duration = 2.377506
 	}
 	Magician.SpectralAssist.Active_Lp = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		volume_fade_out = 0.300000
-		volume_fade_in = 0.300000
-		delay = 0.200000
+		volume = -6.0
+		volume_fade_out = 0.3
+		volume_fade_in = 0.3
+		delay = 0.2
 		vsnd_files = "sounds/abilities/magician/magician_spectral_assist_active_lp_01.vsnd"
 		vsnd_duration = 9.285714
 	}
 	Magician.SpectralAssist.Clone_Expire = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = "sounds/abilities/magician/magician_spectralassist_clone_expire_01.vsnd"
-		vsnd_duration = 2.270680
+		vsnd_duration = 2.27068
 	}
 	Magician.SpectralAssist.Clone.Start = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/magician/magician_spectralassist_clone_start_01.vsnd"
-		vsnd_duration = 1.658050
+		vsnd_duration = 1.65805
 	}
 	Magician.SpectralAssist.Clone.Shoot = 
 	{
 		base = "Base.Weapon"
-		volume = 0.000000
-		delay = 0.030000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.0
+		delay = 0.03
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/abilities/magician/magician_spectralassist_wpn_shoot_01.vsnd",
@@ -196,14 +196,14 @@
 	Magician.AnimalCurse.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/magician/magician_animalcurse_cast_01.vsnd"
 		vsnd_duration = 2.541179
 	}
 	Magician.AnimalCurse.Cast.Impact = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/magician/magician_animalcurse_cast_impact_01.vsnd",
@@ -215,9 +215,9 @@
 	Magician.AnimalCurse.Curse.Expire = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 0.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/abilities/magician/magician_animalcurse_curse_expire_01.vsnd",
@@ -229,11 +229,11 @@
 	Magician.AnimalCurse.Transform = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = 0.000000
-		volume_offset_opponent = 2.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		delay = 0.100000
+		volume = 0.0
+		volume_offset_opponent = 2.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		delay = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/magician/magician_animalcurse_transform_01.vsnd",
@@ -245,12 +245,12 @@
 	Magician.AnimalCurse.Transform_Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -4.000000
-		delay = 0.500000
-		volume_fade_out = 0.200000
-		volume_fade_in = 0.200000
-		delay_rand_max = -3.000000
-		delay_rand_min = -1.000000
+		volume = -4.0
+		delay = 0.5
+		volume_fade_out = 0.2
+		volume_fade_in = 0.2
+		delay_rand_max = -3.0
+		delay_rand_min = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/magician/magician_animalcurse_transformed_lp_01.vsnd",
@@ -262,7 +262,7 @@
 	Magician.AnimalCurse.Select = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/magician/magician_animalcurse_select_01.vsnd",
@@ -274,16 +274,16 @@
 	Magician.AnimalCurse.Proj_Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 0.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.010000
+		volume = 0.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.01
 		vsnd_files = "sounds/abilities/magician/magician_animalcurse_proj_lp_01.vsnd"
 		vsnd_duration = 9.039909
 	}
 	Magician_AnimalCurse.Rabbit.Footstep = 
 	{
 		base = "Base.Footsteps"
-		volume = -8.000000
+		volume = -8.0
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/nano_ava_step_02.vsnd",
@@ -304,98 +304,98 @@
 	Magician.AnimalCurse.Deselect = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/magician/magician_animalcurse_deselect_01.vsnd"
 		vsnd_duration = 0.990703
 	}
 	Magician.AnimalCurse.Select_Lp = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = 0.000000
-		volume_fade_out = 0.200000
-		volume_fade_in = 0.200000
+		volume = 0.0
+		volume_fade_out = 0.2
+		volume_fade_in = 0.2
 		vsnd_files = "sounds/abilities/magician/magician_animalcurse_select_lp_01.vsnd"
 		vsnd_duration = 7.914059
 	}
 	Magician.AnimalCurse.AOE.Start = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/magician/magician_animalcurse_aoe_start_01.vsnd"
 		vsnd_duration = 2.957075
 	}
 	Magician.CopyUlt.Select = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = "sounds/abilities/magician/magician_copyult_select_01.vsnd"
 		vsnd_duration = 2.108639
 	}
 	Magician.CopyUlt.Deselect = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = "sounds/abilities/magician/magician_copyult_deselect_01.vsnd"
 		vsnd_duration = 1.350771
 	}
 	Magician.CopyUlt.Select_Lp = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = -2.000000
-		volume_fade_out = 0.200000
-		volume_fade_in = 0.200000
+		volume = -2.0
+		volume_fade_out = 0.2
+		volume_fade_in = 0.2
 		vsnd_files = "sounds/abilities/magician/magician_copyult_cast_select_lp_01.vsnd"
 		vsnd_duration = 9.052449
 	}
 	Magician.CopyUlt.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
-		block_opponent = 1.000000
-		block_team = 1.000000
+		volume = 2.0
+		block_opponent = 1.0
+		block_team = 1.0
 		vsnd_files = "sounds/abilities/magician/magician_copyult_cast_01.vsnd"
 		vsnd_duration = 2.770522
 	}
 	Magician.CopyUlt.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 2.000000
-		volume_offset_attacker_db = -60.000000
-		volume_offset_other_db = 3.000000
-		filter_include_others = 1.000000
+		volume = 2.0
+		volume_offset_attacker_db = -60.0
+		volume_offset_other_db = 3.0
+		filter_include_others = 1.0
 		vsnd_files = "sounds/abilities/magician/magician_copyult_cast_01.vsnd"
 		vsnd_duration = 2.770522
 	}
 	Magician.CopyUlt.Copied_Lp = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
-		delay = 1.000000
-		volume_fade_out = 0.300000
-		volume_fade_in = 0.300000
+		volume = 0.0
+		delay = 1.0
+		volume_fade_out = 0.3
+		volume_fade_in = 0.3
 		vsnd_files = "sounds/abilities/magician/magician_copyult_copied_lp_01.vsnd"
 		vsnd_duration = 7.185193
 	}
 	Magician.CopyUlt.Copied.Activate = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
-		volume_offset_opponent = 2.000000
-		volume_offset_team = 2.000000
+		volume = 2.0
+		volume_offset_opponent = 2.0
+		volume_offset_team = 2.0
 		vsnd_files = "sounds/abilities/magician/magician_copyult_copied_activate_01.vsnd"
 		vsnd_duration = 3.723605
 	}
 	Magician.CopyUlt.Copied.Expire = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/magician/magician_copyult_copied_expire_01.vsnd"
 		vsnd_duration = 1.498458
 	}
 	Sinclair.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/magician/magician_footstep_01.vsnd",
@@ -436,24 +436,24 @@
 	Sinclair.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Sinclair.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Sinclair.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Sinclair.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -7.000000
-		track_2.vsnd_track_vol_offset_db = -12.000000
-		track_2.track_percent_chance_to_play = 0.200000
+		track_1.vsnd_track_vol_offset_db = -7.0
+		track_2.vsnd_track_vol_offset_db = -12.0
+		track_2.track_percent_chance_to_play = 0.2
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/magician/magician_footstep_01.vsnd",
@@ -494,7 +494,7 @@
 	Sinclair.Melee.Swing.Charged = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_long_01.vsnd",
@@ -540,7 +540,7 @@
 	Sinclair.Melee.Swing = 
 	{
 		base = "Base.Movement.Melee"
-		track_2.vsnd_track_vol_offset_db = -5.000000
+		track_2.vsnd_track_vol_offset_db = -5.0
 		vsnd_files = 
 		[
 			"sounds/player/melee/shared/swing_short_01.vsnd",

@@ -3,7 +3,7 @@
 	Necro.Wpn.Fire = 
 	{
 		base = "Base.Weapon"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/common/null.vsnd"
 		vsnd_files_low_ammo = "sounds/common/null.vsnd"
 		vsnd_files_tail = "sounds/common/null.vsnd"
@@ -16,15 +16,10 @@
 	Necro.Wpn.Tether.Start = 
 	{
 		base = "Base.Weapon"
-		volume = 2.000000
-		block_duration = 0.200000
-		limiter_max = 0.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
+		volume = 2.0
+		block_duration = 0.2
+		limiter_max = 0.0
+		position_offset = [ 0.0, 0.0, 50.0 ]
 		vsnd_files_low_ammo = "sounds/common/null.vsnd"
 		vsnd_files_last_shot = "sounds/common/null.vsnd"
 		vsnd_files_tail = "sounds/common/null.vsnd"
@@ -40,15 +35,10 @@
 	Necro.Wpn.Search.Start = 
 	{
 		base = "Base.Weapon"
-		volume = 2.000000
-		limiter_max = 0.000000
-		block_duration = 0.200000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
+		volume = 2.0
+		limiter_max = 0.0
+		block_duration = 0.2
+		position_offset = [ 0.0, 0.0, 50.0 ]
 		vsnd_files_low_ammo = "sounds/common/null.vsnd"
 		vsnd_files_last_shot = "sounds/common/null.vsnd"
 		vsnd_files_tail = "sounds/common/null.vsnd"
@@ -59,27 +49,22 @@
 			"sounds/weapons/necro/necro_wpn_search_start_03.vsnd",
 			"sounds/weapons/necro/necro_wpn_search_start_04.vsnd",
 		]
-		vsnd_duration = 0.961020
+		vsnd_duration = 0.96102
 	}
 	Necro.Wpn.Search.Lp = 
 	{
 		base = "Base.Weapon"
-		volume = 2.000000
-		volume_offset_team = -10.000000
-		volume_offset_opponent = -6.000000
-		volume_fade_out = 0.300000
-		volume_fade_in = 0.200000
-		delay_rand_min = -13.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
-		param_envelope_enabled = 1.000000
-		param_envelope_duration = 15.000000
-		pitch_envelope_scale_min = 0.800000
-		pitch_envelope_scale_max = 1.600000
+		volume = 2.0
+		volume_offset_team = -10.0
+		volume_offset_opponent = -6.0
+		volume_fade_out = 0.3
+		volume_fade_in = 0.2
+		delay_rand_min = -13.0
+		position_offset = [ 0.0, 0.0, 50.0 ]
+		param_envelope_enabled = 1.0
+		param_envelope_duration = 15.0
+		pitch_envelope_scale_min = 0.8
+		pitch_envelope_scale_max = 1.6
 		vsnd_files = "sounds/weapons/necro/necro_wpn_searching_lp_01.vsnd"
 		vsnd_files_low_ammo = "sounds/common/null.vsnd"
 		vsnd_files_last_shot = "sounds/common/null.vsnd"
@@ -89,15 +74,10 @@
 	Necro.Wpn.Release = 
 	{
 		base = "Base.Weapon"
-		volume = 4.000000
-		limiter_max = 0.000000
-		block_duration = 0.200000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
+		volume = 4.0
+		limiter_max = 0.0
+		block_duration = 0.2
+		position_offset = [ 0.0, 0.0, 50.0 ]
 		vsnd_files_low_ammo = "sounds/common/null.vsnd"
 		vsnd_files_last_shot = "sounds/common/null.vsnd"
 		vsnd_files_tail = "sounds/common/null.vsnd"
@@ -113,36 +93,26 @@
 	Necro.Wpn.Tether.Victim.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -6.000000
-		volume_offset_player = -3.000000
-		volume_fade_out = 0.300000
-		volume_fade_in = 0.200000
-		delay_rand_min = -10.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
+		volume = -6.0
+		volume_offset_player = -3.0
+		volume_fade_out = 0.3
+		volume_fade_in = 0.2
+		delay_rand_min = -10.0
+		position_offset = [ 0.0, 0.0, 50.0 ]
 		vsnd_files = "sounds/weapons/necro/necro_wpn_victim_lp_01.vsnd"
 		vsnd_duration = 15.658504
 	}
 	Necro.Wpn.Victim.Release = 
 	{
 		base = "Base.Weapon"
-		volume = 3.000000
-		limiter_max = 0.000000
-		play_from_listener_player = 1.000000
-		spread_max_value_opponent = 0.400000
-		volume_offset_player = -2.000000
+		volume = 3.0
+		limiter_max = 0.0
+		play_from_listener_player = 1.0
+		spread_max_value_opponent = 0.4
+		volume_offset_player = -2.0
 		mono_downmix_min_distance = 100
 		mono_downmix_max_distance = 250
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
+		position_offset = [ 0.0, 0.0, 50.0 ]
 		vsnd_files_low_ammo = "sounds/common/null.vsnd"
 		vsnd_files_last_shot = "sounds/common/null.vsnd"
 		vsnd_files_tail = "sounds/common/null.vsnd"
@@ -158,20 +128,15 @@
 	Necro.Wpn.Tether.Lp = 
 	{
 		base = "Base.Weapon"
-		volume = 3.000000
-		volume_fade_out = 0.200000
-		volume_fade_in = 0.300000
-		delay_rand_min = -13.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			50.000000,
-		]
-		param_envelope_enabled = 1.000000
-		param_envelope_duration = 15.000000
-		pitch_envelope_scale_min = 0.800000
-		pitch_envelope_scale_max = 1.600000
+		volume = 3.0
+		volume_fade_out = 0.2
+		volume_fade_in = 0.3
+		delay_rand_min = -13.0
+		position_offset = [ 0.0, 0.0, 50.0 ]
+		param_envelope_enabled = 1.0
+		param_envelope_duration = 15.0
+		pitch_envelope_scale_min = 0.8
+		pitch_envelope_scale_max = 1.6
 		vsnd_files = "sounds/weapons/necro/necro_wpn_tether_lp_01.vsnd"
 		vsnd_files_low_ammo = "sounds/common/null.vsnd"
 		vsnd_files_last_shot = "sounds/common/null.vsnd"
@@ -181,8 +146,8 @@
 	Necro.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/necro/necro_wpn_reload_start_01.vsnd",
@@ -194,8 +159,8 @@
 	Necro.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/necro/necro_wpn_reload_mid_01.vsnd",
@@ -207,8 +172,8 @@
 	Necro.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/necro/necro_wpn_reload_end_01.vsnd",
@@ -220,7 +185,7 @@
 	Necro.Gravedigging.Select = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_select_01.vsnd",
@@ -228,12 +193,12 @@
 			"sounds/abilities/necro/necro_wall_select_03.vsnd",
 			"sounds/abilities/necro/necro_wall_select_04.vsnd",
 		]
-		vsnd_duration = 0.961020
+		vsnd_duration = 0.96102
 	}
 	Necro.Gravedigging.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_deselect_01.vsnd",
@@ -246,17 +211,17 @@
 	Necro.Gravedigging.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -10.000000
-		delay_rand_min = -10.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
+		volume = -10.0
+		delay_rand_min = -10.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/necro/necro_gravedigging_select_lp_01.vsnd"
 		vsnd_duration = 12.142358
 	}
 	Necro.Gravedigging.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_gravedigging_cast_01.vsnd",
@@ -268,12 +233,12 @@
 	Necro.Shambler.Lp = 
 	{
 		base = "Base.Ability.Detached.Close"
-		volume = -4.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		delay_rand_min = -10.000000
-		volume_offset_team = -6.000000
-		volume_offset_player = -6.000000
+		volume = -4.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay_rand_min = -10.0
+		volume_offset_team = -6.0
+		volume_offset_player = -6.0
 		vsnd_files = "sounds/abilities/necro/necro_shambler_lp_01.vsnd"
 		track_2.track_vsnd_files = "sounds/abilities/necro/necro_shambler_emote_loop_trigger.vsnd"
 		vsnd_duration = 6.683311
@@ -281,10 +246,10 @@
 	Necro.Shambler.Footstep = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -9.000000
-		volume_offset_team = -3.000000
+		volume = -9.0
+		volume_offset_team = -3.0
 		limiter_global_event_distance_on = true
-		limiter_global_event_distance_max = 2.000000
+		limiter_global_event_distance_max = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_shambler_footstep_01.vsnd",
@@ -297,43 +262,28 @@
 			"sounds/abilities/necro/necro_shambler_footstep_08.vsnd",
 			"sounds/abilities/necro/necro_shambler_footstep_09.vsnd",
 		]
-		instance_attenuator_enabled = 1.000000
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -2.087491,
+				0.0, 0.0,
 			],
-			
 			[
-				2.000000,
-				-2.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				2.0, -2.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				4.000000,
-				-3.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				4.0, -3.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
 		]
-		vsnd_duration = 0.339660
+		vsnd_duration = 0.33966
 	}
 	Necro.Shambler.Spawn = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_shambler_spawn_01.vsnd",
@@ -360,7 +310,7 @@
 	Necro.Shambler.Destroy = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_shambler_destroy_01.vsnd",
@@ -373,7 +323,7 @@
 	Necro.Shambler.Warning = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_shambler_warning_01.vsnd",
@@ -385,11 +335,11 @@
 	Necro.Shambler.Explode = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = 1.000000
-		pitch_rand_max = 0.100000
-		pitch_rand_min = -0.100000
-		hrtf_on_opponent = 0.000000
-		spread_min = 100.000000
+		volume = 1.0
+		pitch_rand_max = 0.1
+		pitch_rand_min = -0.1
+		hrtf_on_opponent = 0.0
+		spread_min = 100.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_shambler_explode_01.vsnd",
@@ -402,13 +352,13 @@
 	Necro.Shambler.Melee = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
-		track_2.vsnd_track_vol_offset_db = -4.000000
-		volume_offset_opponent = -2.000000
-		pitch_rand_max = 0.100000
-		pitch_rand_min = -0.100000
+		volume = 0.0
+		track_2.vsnd_track_vol_offset_db = -4.0
+		volume_offset_opponent = -2.0
+		pitch_rand_max = 0.1
+		pitch_rand_min = -0.1
 		limiter_global_event_distance_on = true
-		limiter_global_event_distance_max = 2.000000
+		limiter_global_event_distance_max = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_shambler_melee_01.vsnd",
@@ -432,34 +382,34 @@
 			"sounds/abilities/necro/necro_shambler_emote_09.vsnd",
 			"sounds/abilities/necro/necro_shambler_emote_10.vsnd",
 		]
-		vsnd_duration = 0.519410
+		vsnd_duration = 0.51941
 	}
 	Necro.HauntingDead.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -8.000000
-		delay_rand_min = -5.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.300000
+		volume = -8.0
+		delay_rand_min = -5.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.3
 		vsnd_files = "sounds/abilities/necro/necro_hauntingdead_select_lp_01.vsnd"
 		vsnd_duration = 8.051928
 	}
 	Necro.HauntingDead.Select = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_hauntingdead_select_01.vsnd",
 			"sounds/abilities/necro/necro_hauntingdead_select_02.vsnd",
 			"sounds/abilities/necro/necro_hauntingdead_select_03.vsnd",
 		]
-		vsnd_duration = 0.954490
+		vsnd_duration = 0.95449
 	}
 	Necro.HauntingDead.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_hauntingdead_deselect_01.vsnd",
@@ -471,19 +421,19 @@
 	Necro.HauntingDead.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_hauntingdead_cast_01.vsnd",
 			"sounds/abilities/necro/necro_hauntingdead_cast_02.vsnd",
 			"sounds/abilities/necro/necro_hauntingdead_cast_03.vsnd",
 		]
-		vsnd_duration = 1.614240
+		vsnd_duration = 1.61424
 	}
 	Necro.HauntingDead.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_hauntingdead_impact_01.vsnd",
@@ -495,9 +445,9 @@
 	Necro.HauntingDead.Skull.Expire = 
 	{
 		base = "Base.Ability.Detached.Close"
-		volume = 0.000000
-		limiter_on = 1.000000
-		limiter_max = 2.000000
+		volume = 0.0
+		limiter_on = 1.0
+		limiter_max = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_hauntingdead_skull_expire_01.vsnd",
@@ -509,35 +459,20 @@
 			"sounds/abilities/necro/necro_hauntingdead_skull_expire_07.vsnd",
 			"sounds/abilities/necro/necro_hauntingdead_skull_expire_08.vsnd",
 		]
-		instance_attenuator_enabled = 1.000000
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -2.087491,
+				0.0, 0.0,
 			],
-			
 			[
-				4.000000,
-				-4.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				4.0, -4.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				6.000000,
-				-6.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				6.0, -6.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 2.036327
@@ -545,12 +480,12 @@
 	Necro.HauntingDead.Skull.Emote = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -1.000000
-		limiter_on = 1.000000
-		limiter_max = 2.000000
-		block_duration = 0.100000
+		volume = -1.0
+		limiter_on = 1.0
+		limiter_max = 2.0
+		block_duration = 0.1
 		limiter_global_event_distance_on = true
-		limiter_global_event_distance_max = 2.000000
+		limiter_global_event_distance_max = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_skull_emote_01.vsnd",
@@ -561,35 +496,20 @@
 			"sounds/abilities/necro/necro_skull_emote_06.vsnd",
 			"sounds/abilities/necro/necro_skull_emote_07.vsnd",
 		]
-		instance_attenuator_enabled = 1.000000
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -2.087491,
+				0.0, 0.0,
 			],
-			
 			[
-				4.000000,
-				-4.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				4.0, -4.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				6.000000,
-				-6.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				6.0, -6.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 0.609274
@@ -597,11 +517,11 @@
 	Necro.HauntingDead.Skull.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -7.000000
-		delay_rand_min = -5.000000
-		pitch_rand_max = 1.200000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.200000
+		volume = -7.0
+		delay_rand_min = -5.0
+		pitch_rand_max = 1.2
+		volume_fade_in = 0.1
+		volume_fade_out = 0.2
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_hauntingdead_skull_lp_01.vsnd",
@@ -609,35 +529,20 @@
 			"sounds/abilities/necro/necro_hauntingdead_skull_lp_03.vsnd",
 			"sounds/abilities/necro/necro_hauntingdead_skull_lp_04.vsnd",
 		]
-		instance_attenuator_enabled = 1.000000
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -2.087491,
+				0.0, 0.0,
 			],
-			
 			[
-				4.000000,
-				-2.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				4.0, -2.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				7.000000,
-				-8.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				7.0, -8.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 9.555511
@@ -645,7 +550,7 @@
 	Necro.HauntingDead.Skull.Destroy = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_skull_destroy_01.vsnd",
@@ -658,11 +563,11 @@
 	Necro.HauntingDead.Skull.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = -1.000000
-		volume_offset_attacker_db = -3.000000
-		spread_value_victim = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
+		volume = -1.0
+		volume_offset_attacker_db = -3.0
+		spread_value_victim = 1.0
+		limiter_on = 1.0
+		limiter_max = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_hauntingdead_skull_hit_01.vsnd",
@@ -680,7 +585,7 @@
 	Necro.HauntingDead.Pickup = 
 	{
 		base = "Base.Pickup.HighFrequency"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_hauntingdead_pickup_01.vsnd",
@@ -695,7 +600,7 @@
 	Necro.Wall.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_cast_01.vsnd",
@@ -707,7 +612,7 @@
 	Necro.Wall.Select = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_select_01.vsnd",
@@ -715,12 +620,12 @@
 			"sounds/abilities/necro/necro_wall_select_03.vsnd",
 			"sounds/abilities/necro/necro_wall_select_04.vsnd",
 		]
-		vsnd_duration = 0.961020
+		vsnd_duration = 0.96102
 	}
 	Necro.Wall.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_deselect_01.vsnd",
@@ -733,17 +638,17 @@
 	Necro.Wall.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -5.000000
-		delay_rand_min = -5.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
+		volume = -5.0
+		delay_rand_min = -5.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
 		vsnd_files = "sounds/abilities/necro/necro_wall_select_lp_01.vsnd"
 		vsnd_duration = 10.262857
 	}
 	Necro.Wall.Snap = 
 	{
 		base = "Base.Ability"
-		volume = -4.000000
+		volume = -4.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_snap_01.vsnd",
@@ -755,10 +660,10 @@
 	Necro.Wall.Spawn = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
-		limiter_on = 1.000000
-		limiter_max = 3.000000
-		limiter_match_entity = 0.000000
+		volume = 0.0
+		limiter_on = 1.0
+		limiter_max = 3.0
+		limiter_match_entity = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_spawn_01.vsnd",
@@ -777,18 +682,18 @@
 	Necro.Wall.Flame.Lp = 
 	{
 		base = "Base.Ability.Beam.ClosestPoint"
-		volume = 0.000000
-		volume_enemy_targeting_boost = 0.000000
-		volume_fade_out = 0.200000
-		volume_fade_in = 0.100000
-		delay_rand_min = -4.000000
+		volume = 0.0
+		volume_enemy_targeting_boost = 0.0
+		volume_fade_out = 0.2
+		volume_fade_in = 0.1
+		delay_rand_min = -4.0
 		vsnd_files = "sounds/abilities/necro/necro_grasping_hands_wall_lp_01.vsnd"
 		vsnd_duration = 12.142358
 	}
 	Necro.Wall.Pop = 
 	{
 		base = "Base.Ability.Beam.ClosestPoint"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_pop_01.vsnd",
@@ -802,7 +707,7 @@
 	{
 		base = "Base.Ability.Hit"
 		filter_include_others = true
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_immobilize_01.vsnd",
@@ -814,7 +719,7 @@
 	Necro.Decree.Channel = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_decree_channel_01.vsnd",
@@ -826,7 +731,7 @@
 	Necro.Decree.Cast = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_decree_cast_01.vsnd",
@@ -838,7 +743,7 @@
 	Necro.Decree.Select = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_select_01.vsnd",
@@ -846,12 +751,12 @@
 			"sounds/abilities/necro/necro_wall_select_03.vsnd",
 			"sounds/abilities/necro/necro_wall_select_04.vsnd",
 		]
-		vsnd_duration = 0.961020
+		vsnd_duration = 0.96102
 	}
 	Necro.Decree.Deselect = 
 	{
 		base = "Base.Ability"
-		volume = -7.000000
+		volume = -7.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_wall_deselect_01.vsnd",
@@ -864,27 +769,27 @@
 	Necro.Decree.Select.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -8.000000
-		delay_rand_min = -10.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.200000
+		volume = -8.0
+		delay_rand_min = -10.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
 		vsnd_files = "sounds/abilities/necro/necro_decree_select_lp_01.vsnd"
 		vsnd_duration = 20.638254
 	}
 	Necro.Decree.Gravestone.Lp = 
 	{
 		base = "Base.Ability.Detached"
-		volume = -4.000000
-		volume_fade_in = 0.300000
-		volume_fade_out = 0.300000
-		delay_rand_min = -10.000000
+		volume = -4.0
+		volume_fade_in = 0.3
+		volume_fade_out = 0.3
+		delay_rand_min = -10.0
 		vsnd_files = "sounds/abilities/necro/necro_decree_gravestone_lp_01.vsnd"
 		vsnd_duration = 13.333333
 	}
 	Necro.Decree.Gravestone.Expire = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_gravestone_expire_01.vsnd",
@@ -896,9 +801,9 @@
 	Necro.Decree.Gravestone.Destroy = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = 2.000000
-		spread_max_value_opponent = 0.800000
-		spread_max = 400.000000
+		volume = 2.0
+		spread_max_value_opponent = 0.8
+		spread_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_decree_gravestone_smash_01.vsnd",
@@ -910,9 +815,9 @@
 	Necro.Decree.Gravestone.Damage = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = 2.000000
-		spread_max_value_opponent = 0.800000
-		spread_max = 400.000000
+		volume = 2.0
+		spread_max_value_opponent = 0.8
+		spread_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_decree_gravestone_crack_01.vsnd",
@@ -924,7 +829,7 @@
 	Necro.Decree.Trooper.Spawn = 
 	{
 		base = "Base.Ability.Ult.Detached"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/necro/necro_decree_trooper_spawn_01.vsnd",
@@ -938,8 +843,8 @@
 	Necro.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -3.000000
-		track_2.vsnd_track_vol_offset_db = -9.000000
+		track_1.vsnd_track_vol_offset_db = -3.0
+		track_2.vsnd_track_vol_offset_db = -9.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/haze/haze_step_01.vsnd",
@@ -983,12 +888,12 @@
 	Necro.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Necro.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/haze/haze_movement_foley_short_01.vsnd",
@@ -1013,7 +918,7 @@
 	Necro.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/haze/haze_step_01.vsnd",
@@ -1127,6 +1032,6 @@
 			"sounds/vo/necro/ping/necro_ping_post_game_05.vsnd",
 			"sounds/vo/necro/ping/necro_ping_post_game_06.vsnd",
 		]
-		vsnd_duration = 2.580000
+		vsnd_duration = 2.58
 	}
 }

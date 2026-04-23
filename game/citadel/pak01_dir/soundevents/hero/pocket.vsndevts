@@ -3,10 +3,10 @@
 	Pocket.Wpn.Fire = 
 	{
 		base = "Base.Weapon.Shotgun"
-		volume = 1.500000
-		limiter_max = 0.000000
-		volume_fade_out = 0.100000
-		last_shot_vol_offset_db = 2.000000
+		volume = 1.5
+		limiter_max = 0.0
+		volume_fade_out = 0.1
+		last_shot_vol_offset_db = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/pocket/pocket_weapon_fire_01.vsnd",
@@ -20,13 +20,13 @@
 		[
 			"sounds/weapons/pocket/pocket_wpn_last_shot_01.vsnd",
 		]
-		vsnd_duration = 2.632290
+		vsnd_duration = 2.63229
 	}
 	Pocket.Wpn.Whizby = 
 	{
 		base = "Base.Bullet.Whizby.Shotgun"
-		limiter_max = 1.000000
-		volume = -6.000000
+		limiter_max = 1.0
+		volume = -6.0
 		limiter_stop_oldest = false
 		vsnd_files = 
 		[
@@ -60,35 +60,35 @@
 	Pocket.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -23.000000
+		volume = -23.0
 		vsnd_files = "sounds/weapons/shiv/zoom/in.vsnd"
 		vsnd_duration = 1.309833
 	}
 	Pocket.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -22.000000
+		volume = -22.0
 		vsnd_files = "sounds/weapons/shiv/zoom/out.vsnd"
 		vsnd_duration = 1.358688
 	}
 	Pocket.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/pocket/reload/pocket_wpn_reload_start_01.vsnd",
 			"sounds/weapons/pocket/reload/pocket_wpn_reload_start_02.vsnd",
 			"sounds/weapons/pocket/reload/pocket_wpn_reload_start_03.vsnd",
 		]
-		vsnd_duration = 1.260930
+		vsnd_duration = 1.26093
 	}
 	Pocket.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/pocket/reload/pocket_wpn_reload_mid_01.vsnd",
@@ -100,8 +100,8 @@
 	Pocket.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -2.000000
-		mono_downmix_enabled = 0.000000
+		volume = -2.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/pocket/reload/pocket_wpn_reload_end_01.vsnd",
@@ -113,11 +113,11 @@
 	Pocket.Barrage.Fire = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		pitch = 1.200000
-		pitch_rand_min = 0.130000
-		pitch_rand_max = -0.120000
-		volume_enemy_targeting_boost = 7.000000
+		volume = 2.0
+		pitch = 1.2
+		pitch_rand_min = 0.13
+		pitch_rand_max = -0.12
+		volume_enemy_targeting_boost = 7.0
 		vsnd_files = 
 		[
 			"sounds/abilities/pocket/pocket_a1_barrage_cast_01.vsnd",
@@ -132,8 +132,8 @@
 	Pocket.Barrage.Proj.Impact = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 0.000000
-		volume_offset_opponent = 6.000000
+		volume = 0.0
+		volume_offset_opponent = 6.0
 		vsnd_files = 
 		[
 			"sounds/abilities/pocket/pocket_a1_barrage_impact_01.vsnd",
@@ -146,17 +146,17 @@
 	Pocket.Barrage.Start = 
 	{
 		base = "Base.Ability"
-		volume = 6.000000
-		pitch_rand_min = 0.130000
-		pitch_rand_max = -0.120000
+		volume = 6.0
+		pitch_rand_min = 0.13
+		pitch_rand_max = -0.12
 		vsnd_files = "sounds/abilities/pocket/pocket_a1_barrage_cast_start.vsnd"
 		vsnd_duration = 2.566803
 	}
 	Pocket.Cloak.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		volume_enemy_targeting_boost = 6.000000
+		volume = 2.0
+		volume_enemy_targeting_boost = 6.0
 		vsnd_files = 
 		[
 			"sounds/abilities/pocket/pocket_cloak_cast_01.vsnd",
@@ -168,36 +168,36 @@
 	Pocket.Cloak.Caster.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -15.000000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.300000
-		pitch = 0.950000
+		volume = -15.0
+		volume_fade_in = 0.5
+		volume_fade_out = 0.3
+		pitch = 0.95
 		vsnd_files = "sounds/abilities/synth/a2_flying_cloak/player_cloak_lp.vsnd"
 		vsnd_duration = 5.896417
 	}
 	Pocket.Cloak.Expire = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 5.000000
+		volume = 5.0
 		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_end.vsnd"
 		vsnd_duration = 0.965147
 	}
 	Pocket.Cloak.Arrive = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		volume_offset_opponent = 5.000000
+		volume = 2.0
+		volume_offset_opponent = 5.0
 		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_warp.vsnd"
 		vsnd_duration = 1.763946
 	}
 	Pocket.Cloak.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 3.000000
+		volume = 3.0
 		limiter_stop_oldest = true
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		volume_offset_attacker_db = 3.000000
+		limiter_on = 1.0
+		limiter_max = 1.0
+		volume_offset_attacker_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/pocket/pocket_cloak_hit_01.vsnd",
@@ -209,15 +209,15 @@
 	Pocket.Cloak.Buff.Start = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/synth/a1_plasma_flux/t3_mod_start.vsnd"
 		vsnd_duration = 1.173458
 	}
 	Pocket.Cloak.Buff.Lp = 
 	{
 		base = "Base.Ability"
-		volume = -18.000000
-		pitch = 1.200000
+		volume = -18.0
+		pitch = 1.2
 		vsnd_files = "sounds/abilities/synth/a1_plasma_flux/t3_mod_lp.vsnd"
 		vsnd_duration = 7.590375
 	}
@@ -230,67 +230,67 @@
 	Pocket.Cloak.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 0.000000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.200000
-		delay_rand_min = -3.000000
+		volume = 0.0
+		volume_fade_in = 0.5
+		volume_fade_out = 0.2
+		delay_rand_min = -3.0
 		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_lp.vsnd"
 		vsnd_duration = 4.348844
 	}
 	Pocket.Cloak.Timer = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 0.000000
-		delay = 0.260000
-		volume_fade_out = 0.400000
-		play_from_listener_player = 1.000000
-		doppler_on = 0.000000
+		volume = 0.0
+		delay = 0.26
+		volume_fade_out = 0.4
+		play_from_listener_player = 1.0
+		doppler_on = 0.0
 		vsnd_files = "sounds/abilities/pocket/pocket_a2_cloak_timer.vsnd"
 		vsnd_duration = 2.464898
 	}
 	Pocket.Satchel.Lp = 
 	{
 		base = "Base.Ability"
-		volume = 4.000000
-		volume_fade_in = 1.250000
-		volume_fade_out = 0.300000
-		param_envelope_enabled = 1.000000
-		pitch_envelope_scale_min = 0.800000
-		pitch_envelope_scale_max = 1.300000
-		volume_offset_player = -4.000000
+		volume = 4.0
+		volume_fade_in = 1.25
+		volume_fade_out = 0.3
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.8
+		pitch_envelope_scale_max = 1.3
+		volume_offset_player = -4.0
 		vsnd_files = "sounds/abilities/pocket/pocket_a3_pulse_delay.vsnd"
 		vsnd_duration = 3.419887
 	}
 	Pocket.Satchel.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 4.000000
+		volume = 4.0
 		vsnd_files = "sounds/abilities/pocket/pocket_a3_pulse_cast.vsnd"
-		vsnd_duration = 2.131950
+		vsnd_duration = 2.13195
 	}
 	Pocket.Satchel.Explode = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/pocket/pocket_a3_pulse_explode.vsnd"
 		vsnd_duration = 2.298254
 	}
 	Pocket.Affliction.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
-		delay = 0.100000
+		volume = 2.0
+		delay = 0.1
 		vsnd_files = "sounds/abilities/pocket/pocket_a4_affliction_full.vsnd"
 		vsnd_duration = 4.175034
 	}
 	Pocket.Affliction.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		limiter_max = 5.000000
-		volume = 5.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_offset_attacker_db = 3.000000
+		limiter_max = 5.0
+		volume = 5.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_offset_attacker_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/abilities/pocket/pocket_affliction_hit_01.vsnd",
@@ -302,20 +302,20 @@
 	Pocket.Affliction.Debuff.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -14.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.500000
-		delay_rand_min = -3.000000
+		volume = -14.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.5
+		delay_rand_min = -3.0
 		vsnd_files = "sounds/abilities/pocket/pocket_a4_affliction_debuff.vsnd"
 		vsnd_duration = 11.909252
 	}
 	Pocket.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -13.000000
-		track_2.vsnd_track_vol_offset_db = -19.000000
-		track_3.vsnd_track_vol_offset_db = -20.000000
-		track_3.track_percent_chance_to_play = 0.080000
+		track_1.vsnd_track_vol_offset_db = -13.0
+		track_2.vsnd_track_vol_offset_db = -19.0
+		track_3.vsnd_track_vol_offset_db = -20.0
+		track_3.track_percent_chance_to_play = 0.08
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/pocket/pocket_footstep_01.vsnd",
@@ -359,12 +359,12 @@
 			"sounds/player/footsteps/pocket/pocket_footstep_frog_04.vsnd",
 			"sounds/player/footsteps/pocket/pocket_footstep_frog_05.vsnd",
 		]
-		vsnd_duration = 0.315760
+		vsnd_duration = 0.31576
 	}
 	Pocket.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -9.000000
+		volume = -9.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/pocket/pocket_movement_foley_short_01.vsnd",
@@ -387,7 +387,7 @@
 	Pocket.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -9.000000
+		volume = -9.0
 		vsnd_files = 
 		[
 			"sounds/player/movement/generic/foley_light/default_foley_01.vsnd",
@@ -400,13 +400,13 @@
 			"sounds/player/movement/generic/foley_light/default_foley_08.vsnd",
 			"sounds/player/movement/generic/foley_light/default_foley_09.vsnd",
 		]
-		vsnd_duration = 0.730000
+		vsnd_duration = 0.73
 	}
 	Pocket.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = -2.000000
-		track_2.vsnd_track_vol_offset_db = -4.000000
+		volume = -2.0
+		track_2.vsnd_track_vol_offset_db = -4.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/pocket/pocket_footstep_01.vsnd",
@@ -437,12 +437,12 @@
 			"sounds/player/movement/generic/foley_light/default_foley_08.vsnd",
 			"sounds/player/movement/generic/foley_light/default_foley_09.vsnd",
 		]
-		vsnd_duration = 0.315760
+		vsnd_duration = 0.31576
 	}
 	Pocket.Mantle = 
 	{
 		base = "Base.Movement"
-		volume = -3.000000
+		volume = -3.0
 	}
 	Pocket.Melee.Swing = 
 	{
@@ -519,7 +519,7 @@
 			"sounds/vo/synth/synth_upgrade_power2_09.vsnd",
 			"sounds/vo/synth/synth_select_05.vsnd",
 		]
-		vsnd_duration = 1.807460
+		vsnd_duration = 1.80746
 	}
 	Synth.Progession.Page.Lose.VO = 
 	{
@@ -537,29 +537,29 @@
 	Synth.A2.Grasp.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
-		pitch = 0.900000
+		volume = 1.0
+		pitch = 0.9
 		vsnd_files = "sounds/abilities/synth/a2_grasp/cast.vsnd"
 		vsnd_duration = 2.524833
 	}
 	Synth.A2.Grasp.Target.Lock = 
 	{
 		base = "Base.Ability"
-		volume = -1.000000
+		volume = -1.0
 		vsnd_files = "sounds/abilities/synth/a2_grasp/target_lock_start.vsnd"
 		vsnd_duration = 1.431813
 	}
 	Synth.A2.Grasp.Expire = 
 	{
 		base = "Base.Ability"
-		volume = -9.000000
+		volume = -9.0
 		vsnd_files = "sounds/abilities/synth/a2_grasp/target_lock_expire.vsnd"
 		vsnd_duration = 0.553625
 	}
 	Synth.A3.Blitz = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/synth/a3_blitz/cast.vsnd"
 		vsnd_duration = 4.301813
 	}

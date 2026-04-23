@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "music.hideout"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -166,7 +164,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "sync_track_syncpoints"
 				operator = "track_queue"
@@ -182,7 +179,6 @@
 				block_equal_priority = "false"
 				input_priority = "0.0"
 			},
-			
 			{
 				name = "opvar_get_afk_timer"
 				operator = "opvar_get_float"
@@ -191,7 +187,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "afk_fader"
 			},
-			
 			{
 				name = "opvar_get_play_location"
 				operator = "opvar_get_float3"
@@ -200,7 +195,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "hideout_action_play_position"
 			},
-			
 			{
 				name = "opvar_get_viewing_pawn_position"
 				operator = "opvar_get_float3"
@@ -209,14 +203,12 @@
 				input_operator_name = "opvars"
 				input_field_name = "viewing_entity_position"
 			},
-			
 			{
 				name = "distance_to_play_button"
 				operator = "calc_distance"
 				input_position1 = "@opvar_get_play_location.output"
 				input_position2 = "@opvar_get_viewing_pawn_position.output"
 			},
-			
 			{
 				name = "play_button_distance_falloff"
 				input_execute = "1.0"
@@ -228,14 +220,12 @@
 				input_floor = "0.0"
 				input_atten = "1.0"
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_execute = "1"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "math_dot_product_facing_play_button"
 				operator = "vector_facing_point"
@@ -244,7 +234,6 @@
 				input_source_position = "@opvar_get_play_location.output"
 				input_make_xy_plane = "1.0"
 			},
-			
 			{
 				name = "math_pawn_inside_play_min_distance"
 				operator = "math_float"
@@ -252,7 +241,6 @@
 				input1 = "@distance_to_play_button.output"
 				input2 = "@public.play_button_volume_min_distance"
 			},
-			
 			{
 				name = "switch_min_distance_facing_value"
 				operator = "ctrl_switch_float"
@@ -260,7 +248,6 @@
 				input1 = "@math_dot_product_facing_play_button.output_dot_product"
 				input2 = "1.0"
 			},
-			
 			{
 				name = "remap_facing"
 				operator = "math_remap_float"
@@ -271,7 +258,6 @@
 				input_map_max = "1.0"
 				default_to_max = "false"
 			},
-			
 			{
 				name = "math_mult_facing_distance"
 				operator = "math_float"
@@ -279,21 +265,18 @@
 				input1 = "@play_button_distance_falloff.output"
 				input2 = "@remap_facing.output"
 			},
-			
 			{
 				name = "distance_atten_volume_filter"
 				operator = "math_filter_float"
 				input = "@math_mult_facing_distance.output"
 				input_max_velocity = "@public.distance_attenuation_max_velocity"
 			},
-			
 			{
 				name = "play_button_volume_distance_to_db"
 				input_execute = "1.0"
 				operator = "math_gain_to_db"
 				input = "@distance_atten_volume_filter.output"
 			},
-			
 			{
 				name = "remap_facing_base_fx"
 				operator = "math_remap_float"
@@ -304,7 +287,6 @@
 				input_map_max = "@public.base_fx_layer_facing_min_volume_linear"
 				default_to_max = "false"
 			},
-			
 			{
 				name = "math_mult_invert_facing_distance"
 				operator = "math_float"
@@ -312,7 +294,6 @@
 				input1 = "@remap_facing_base_fx.output"
 				input2 = "@play_button_distance_falloff.output"
 			},
-			
 			{
 				name = "remap_afk_timer_to_gain_base_fx"
 				operator = "math_remap_float"
@@ -323,7 +304,6 @@
 				input_map_max = "1.0"
 				default_to_max = "false"
 			},
-			
 			{
 				name = "math_mult_facing_scalar_by_afk"
 				operator = "math_float"
@@ -331,21 +311,18 @@
 				input1 = "@math_mult_invert_facing_distance.output"
 				input2 = "@remap_afk_timer_to_gain_base_fx.output"
 			},
-			
 			{
 				name = "base_fx_volume_filter"
 				operator = "math_filter_float"
 				input = "@math_mult_facing_scalar_by_afk.output"
 				input_max_velocity = "@public.base_fx_layer_max_velocity"
 			},
-			
 			{
 				name = "base_fx_volume_gain_to_db"
 				input_execute = "1.0"
 				operator = "math_gain_to_db"
 				input = "@base_fx_volume_filter.output"
 			},
-			
 			{
 				name = "math_add_base_fx_vol_offset"
 				operator = "math_float"
@@ -353,7 +330,6 @@
 				input1 = "@base_fx_volume_gain_to_db.output"
 				input2 = "@public.base_fx_layer_vol_offset_db"
 			},
-			
 			{
 				name = "opvar_get_play_menu_enabled"
 				operator = "opvar_get_float"
@@ -362,7 +338,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "menu_page_play_enabled"
 			},
-			
 			{
 				name = "opvar_get_roster_confirm_enabled"
 				operator = "opvar_get_float"
@@ -371,7 +346,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "menu_page_roster_confirm_enabled"
 			},
-			
 			{
 				name = "math_layer_low_volume"
 				operator = "math_float"
@@ -379,35 +353,30 @@
 				input1 = "@opvar_get_roster_confirm_enabled.output"
 				input2 = "@opvar_get_play_menu_enabled.output"
 			},
-			
 			{
 				name = "volume_filter_layer_low"
 				operator = "math_filter_float"
 				input = "@math_layer_low_volume.output"
 				input_max_velocity = "1.0"
 			},
-			
 			{
 				name = "volume_filter_layer_low_db"
 				input_execute = "1.0"
 				operator = "math_gain_to_db"
 				input = "@volume_filter_layer_low.output"
 			},
-			
 			{
 				name = "volume_filter_layer_high"
 				operator = "math_filter_float"
 				input = "@opvar_get_roster_confirm_enabled.output"
 				input_max_velocity = "2.0"
 			},
-			
 			{
 				name = "volume_filter_layer_high_db"
 				input_execute = "1.0"
 				operator = "math_gain_to_db"
 				input = "@volume_filter_layer_high.output"
 			},
-			
 			{
 				name = "remap_afk_timer_to_gain_base"
 				operator = "math_remap_float"
@@ -418,14 +387,12 @@
 				input_map_max = "1.0"
 				default_to_max = "false"
 			},
-			
 			{
 				name = "afk_timer_gain_to_db_base"
 				input_execute = "1.0"
 				operator = "math_gain_to_db"
 				input = "@remap_afk_timer_to_gain_base.output"
 			},
-			
 			{
 				name = "math_add_afk_volume_offset_db_base"
 				operator = "math_float"
@@ -433,7 +400,6 @@
 				input1 = "@afk_timer_gain_to_db_base.output"
 				input2 = "@play_button_volume_distance_to_db.output"
 			},
-			
 			{
 				name = "citadel_default_2d"
 				operator = "sos_import_stack"

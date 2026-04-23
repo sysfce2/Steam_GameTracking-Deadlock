@@ -28,7 +28,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_astro_bounce_pad_03.vsnd",
 		]
-		vsnd_duration = 1.266440
+		vsnd_duration = 1.26644
 	}
 	inferno_ally_astro_killed_in_lane_01_hero_3d = 
 	{
@@ -48,7 +48,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_astro_lasso_victim_01.vsnd",
 		]
-		vsnd_duration = 1.207460
+		vsnd_duration = 1.20746
 	}
 	inferno_ally_astro_lasso_victim_02_hero_3d = 
 	{
@@ -248,7 +248,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_boho_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.157000
+		vsnd_duration = 1.157
 	}
 	inferno_ally_cadence_killed_in_lane_01_hero_3d = 
 	{
@@ -328,7 +328,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_chrono_swap_to_boss_02.vsnd",
 		]
-		vsnd_duration = 1.958730
+		vsnd_duration = 1.95873
 	}
 	inferno_ally_chrono_swap_to_boss_03_hero_3d = 
 	{
@@ -348,7 +348,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_doorman_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.317000
+		vsnd_duration = 1.317
 	}
 	inferno_ally_drifter_killed_in_lane_01_hero_3d = 
 	{
@@ -368,7 +368,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_druid_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.289000
+		vsnd_duration = 1.289
 	}
 	inferno_ally_dynamo_big_blackhole_01_hero_3d = 
 	{
@@ -438,7 +438,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_dynamo_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.545510
+		vsnd_duration = 1.54551
 	}
 	inferno_ally_dynamo_pass_on_zipline_01_hero_3d = 
 	{
@@ -558,7 +558,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_fortuna_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.265000
+		vsnd_duration = 1.265
 	}
 	inferno_ally_frank_killed_in_lane_01_hero_3d = 
 	{
@@ -628,7 +628,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_gigawatt_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.343560
+		vsnd_duration = 1.34356
 	}
 	inferno_ally_gigawatt_multi_kill_ult_01_hero_3d = 
 	{
@@ -648,7 +648,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_gigawatt_multi_kill_ult_02.vsnd",
 		]
-		vsnd_duration = 1.943810
+		vsnd_duration = 1.94381
 	}
 	inferno_ally_gigawatt_multi_kill_ult_03_hero_3d = 
 	{
@@ -678,7 +678,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_graf_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.207500
+		vsnd_duration = 1.2075
 	}
 	inferno_ally_haze_big_ult_01_hero_3d = 
 	{
@@ -688,7 +688,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_haze_big_ult_01.vsnd",
 		]
-		vsnd_duration = 2.120680
+		vsnd_duration = 2.12068
 	}
 	inferno_ally_haze_big_ult_02_hero_3d = 
 	{
@@ -818,7 +818,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_incubus_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.339000
+		vsnd_duration = 1.339
 	}
 	inferno_ally_kelvin_clutch_heal_01_hero_3d = 
 	{
@@ -878,7 +878,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_krill_grab_mid_enemy_ult_01.vsnd",
 		]
-		vsnd_duration = 1.242880
+		vsnd_duration = 1.24288
 	}
 	inferno_ally_krill_grab_mid_enemy_ult_02_hero_3d = 
 	{
@@ -898,7 +898,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_krill_grab_mid_enemy_ult_03.vsnd",
 		]
-		vsnd_duration = 1.260340
+		vsnd_duration = 1.26034
 	}
 	inferno_ally_krill_killed_in_lane_01_hero_3d = 
 	{
@@ -998,7 +998,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_nano_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.438050
+		vsnd_duration = 1.43805
 	}
 	inferno_ally_nano_pass_on_zipline_01_hero_3d = 
 	{
@@ -1008,7 +1008,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_nano_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 0.901750
+		vsnd_duration = 0.90175
 	}
 	inferno_ally_necro_killed_in_lane_01_hero_3d = 
 	{
@@ -1018,7 +1018,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_necro_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.306750
+		vsnd_duration = 1.30675
 	}
 	inferno_ally_orion_far_shot_01_hero_3d = 
 	{
@@ -1168,7 +1168,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_shiv_multikill_03.vsnd",
 		]
-		vsnd_duration = 1.683220
+		vsnd_duration = 1.68322
 	}
 	inferno_ally_shiv_pass_on_zipline_01_hero_3d = 
 	{
@@ -1218,7 +1218,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_skyrunner_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.329000
+		vsnd_duration = 1.329
 	}
 	inferno_ally_succubus_killed_in_lane_01_hero_3d = 
 	{
@@ -1238,7 +1238,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_swan_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.295000
+		vsnd_duration = 1.295
 	}
 	inferno_ally_synth_killed_in_lane_01_hero_3d = 
 	{
@@ -1278,7 +1278,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_tengu_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.784490
+		vsnd_duration = 1.78449
 	}
 	inferno_ally_tengu_take_objective_with_teather_01_hero_3d = 
 	{
@@ -1458,7 +1458,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_werewolf_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.279750
+		vsnd_duration = 1.27975
 	}
 	inferno_ally_wraith_kill_in_lift_01_hero_3d = 
 	{
@@ -1478,7 +1478,7 @@
 		[
 			"sounds/vo/inferno/inferno_ally_wraith_kill_in_lift_02.vsnd",
 		]
-		vsnd_duration = 1.337710
+		vsnd_duration = 1.33771
 	}
 	inferno_ally_wraith_kill_in_lift_03_hero_3d = 
 	{
@@ -1858,7 +1858,7 @@
 		[
 			"sounds/vo/inferno/inferno_close_call_02.vsnd",
 		]
-		vsnd_duration = 1.171270
+		vsnd_duration = 1.17127
 	}
 	inferno_close_call_03_hero_3d = 
 	{
@@ -1878,7 +1878,7 @@
 		[
 			"sounds/vo/inferno/inferno_close_call_04.vsnd",
 		]
-		vsnd_duration = 1.487460
+		vsnd_duration = 1.48746
 	}
 	inferno_close_call_05_hero_3d = 
 	{
@@ -2178,7 +2178,7 @@
 		[
 			"sounds/vo/inferno/inferno_desperation_power1_04.vsnd",
 		]
-		vsnd_duration = 1.614830
+		vsnd_duration = 1.61483
 	}
 	inferno_desperation_power1_05_ability_3d = 
 	{
@@ -2198,7 +2198,7 @@
 		[
 			"sounds/vo/inferno/inferno_desperation_power2_01.vsnd",
 		]
-		vsnd_duration = 1.511020
+		vsnd_duration = 1.51102
 	}
 	inferno_desperation_power2_02_ability_3d = 
 	{
@@ -2228,7 +2228,7 @@
 		[
 			"sounds/vo/inferno/inferno_desperation_power2_04.vsnd",
 		]
-		vsnd_duration = 1.816100
+		vsnd_duration = 1.8161
 	}
 	inferno_desperation_power2_05_ability_3d = 
 	{
@@ -2238,7 +2238,7 @@
 		[
 			"sounds/vo/inferno/inferno_desperation_power2_05.vsnd",
 		]
-		vsnd_duration = 2.282290
+		vsnd_duration = 2.28229
 	}
 	inferno_desperation_power4_01_ability_3d = 
 	{
@@ -2288,7 +2288,7 @@
 		[
 			"sounds/vo/inferno/inferno_desperation_power4_03.vsnd",
 		]
-		vsnd_duration = 1.535850
+		vsnd_duration = 1.53585
 	}
 	inferno_desperation_power4_03_ult_3d = 
 	{
@@ -2298,7 +2298,7 @@
 		[
 			"sounds/vo/inferno/inferno_desperation_power4_03.vsnd",
 		]
-		vsnd_duration = 1.535850
+		vsnd_duration = 1.53585
 	}
 	inferno_desperation_power4_04_ability_3d = 
 	{
@@ -2328,7 +2328,7 @@
 		[
 			"sounds/vo/inferno/inferno_desperation_power4_05.vsnd",
 		]
-		vsnd_duration = 1.722200
+		vsnd_duration = 1.7222
 	}
 	inferno_desperation_power4_05_ult_3d = 
 	{
@@ -2338,7 +2338,7 @@
 		[
 			"sounds/vo/inferno/inferno_desperation_power4_05.vsnd",
 		]
-		vsnd_duration = 1.722200
+		vsnd_duration = 1.7222
 	}
 	inferno_effort_dash_01_emote_dash_3d = 
 	{
@@ -2498,7 +2498,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_effort_general_02.vsnd",
 		]
-		vsnd_duration = 0.927460
+		vsnd_duration = 0.92746
 	}
 	inferno_effort_general_03_emote_effort_3d = 
 	{
@@ -2548,7 +2548,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_effort_general_07.vsnd",
 		]
-		vsnd_duration = 1.490000
+		vsnd_duration = 1.49
 	}
 	inferno_effort_general_08_emote_effort_3d = 
 	{
@@ -2558,7 +2558,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_effort_general_08.vsnd",
 		]
-		vsnd_duration = 2.572200
+		vsnd_duration = 2.5722
 	}
 	inferno_effort_general_09_emote_effort_3d = 
 	{
@@ -2628,7 +2628,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_effort_general_15.vsnd",
 		]
-		vsnd_duration = 1.697710
+		vsnd_duration = 1.69771
 	}
 	inferno_effort_melee_big_01_emote_effort_3d = 
 	{
@@ -2818,7 +2818,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 0.853810
+		vsnd_duration = 0.85381
 	}
 	inferno_effort_melee_small_04_emote_melee_effort_3d = 
 	{
@@ -2828,7 +2828,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 0.853810
+		vsnd_duration = 0.85381
 	}
 	inferno_effort_melee_small_05_emote_effort_3d = 
 	{
@@ -2968,7 +2968,7 @@
 		[
 			"sounds/vo/inferno/inferno_enemy_astro_lassoed_02.vsnd",
 		]
-		vsnd_duration = 1.639320
+		vsnd_duration = 1.63932
 	}
 	inferno_enemy_astro_lassoed_03_hero_3d = 
 	{
@@ -3108,7 +3108,7 @@
 		[
 			"sounds/vo/inferno/inferno_enemy_chrono_steals_rejuv_01.vsnd",
 		]
-		vsnd_duration = 1.685760
+		vsnd_duration = 1.68576
 	}
 	inferno_enemy_chrono_steals_rejuv_02_hero_3d = 
 	{
@@ -3148,7 +3148,7 @@
 		[
 			"sounds/vo/inferno/inferno_enemy_dynamo_charges_02.vsnd",
 		]
-		vsnd_duration = 1.612290
+		vsnd_duration = 1.61229
 	}
 	inferno_enemy_dynamo_charges_03_hero_3d = 
 	{
@@ -3198,7 +3198,7 @@
 		[
 			"sounds/vo/inferno/inferno_enemy_forge_destroy_turrets_01.vsnd",
 		]
-		vsnd_duration = 1.883560
+		vsnd_duration = 1.88356
 	}
 	inferno_enemy_forge_destroy_turrets_02_hero_3d = 
 	{
@@ -3648,7 +3648,7 @@
 		[
 			"sounds/vo/inferno/inferno_enemy_wraith_lifts_01.vsnd",
 		]
-		vsnd_duration = 1.498980
+		vsnd_duration = 1.49898
 	}
 	inferno_enemy_wraith_lifts_02_hero_3d = 
 	{
@@ -4038,7 +4038,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_anyhero_06.vsnd",
 		]
-		vsnd_duration = 1.932630
+		vsnd_duration = 1.93263
 	}
 	inferno_kill_anyhero_07_hero_3d = 
 	{
@@ -4068,7 +4068,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_anyhero_09.vsnd",
 		]
-		vsnd_duration = 2.324490
+		vsnd_duration = 2.32449
 	}
 	inferno_kill_anyhero_10_hero_3d = 
 	{
@@ -4148,7 +4148,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_atlas_02.vsnd",
 		]
-		vsnd_duration = 1.606100
+		vsnd_duration = 1.6061
 	}
 	inferno_kill_atlas_03_hero_3d = 
 	{
@@ -4208,7 +4208,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_bebop_03.vsnd",
 		]
-		vsnd_duration = 1.399000
+		vsnd_duration = 1.399
 	}
 	inferno_kill_bebop_04_hero_3d = 
 	{
@@ -4268,7 +4268,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_bookworm_04.vsnd",
 		]
-		vsnd_duration = 1.180000
+		vsnd_duration = 1.18
 	}
 	inferno_kill_bookworm_05_hero_3d = 
 	{
@@ -4348,7 +4348,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_doorman_02.vsnd",
 		]
-		vsnd_duration = 1.555500
+		vsnd_duration = 1.5555
 	}
 	inferno_kill_doorman_03_hero_3d = 
 	{
@@ -4408,7 +4408,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_drifter_03.vsnd",
 		]
-		vsnd_duration = 1.909000
+		vsnd_duration = 1.909
 	}
 	inferno_kill_drifter_04_hero_3d = 
 	{
@@ -4788,7 +4788,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_gigawatt_04.vsnd",
 		]
-		vsnd_duration = 2.525170
+		vsnd_duration = 2.52517
 	}
 	inferno_kill_gigawatt_05_hero_3d = 
 	{
@@ -4888,7 +4888,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_hornet_03.vsnd",
 		]
-		vsnd_duration = 2.073220
+		vsnd_duration = 2.07322
 	}
 	inferno_kill_hornet_04_hero_3d = 
 	{
@@ -4948,7 +4948,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_kelvin_04.vsnd",
 		]
-		vsnd_duration = 2.018390
+		vsnd_duration = 2.01839
 	}
 	inferno_kill_kelvin_05_hero_3d = 
 	{
@@ -4958,7 +4958,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_kelvin_05.vsnd",
 		]
-		vsnd_duration = 2.287030
+		vsnd_duration = 2.28703
 	}
 	inferno_kill_krill_01_hero_3d = 
 	{
@@ -4968,7 +4968,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_krill_01.vsnd",
 		]
-		vsnd_duration = 1.793220
+		vsnd_duration = 1.79322
 	}
 	inferno_kill_krill_02_hero_3d = 
 	{
@@ -4978,7 +4978,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_krill_02.vsnd",
 		]
-		vsnd_duration = 3.230930
+		vsnd_duration = 3.23093
 	}
 	inferno_kill_krill_03_hero_3d = 
 	{
@@ -5108,7 +5108,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_mirage_05.vsnd",
 		]
-		vsnd_duration = 2.357120
+		vsnd_duration = 2.35712
 	}
 	inferno_kill_nano_01_hero_3d = 
 	{
@@ -5168,7 +5168,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_necro_01.vsnd",
 		]
-		vsnd_duration = 1.945313
+		vsnd_duration = 1.945312
 	}
 	inferno_kill_necro_02_hero_3d = 
 	{
@@ -5188,7 +5188,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_necro_03.vsnd",
 		]
-		vsnd_duration = 4.805000
+		vsnd_duration = 4.805
 	}
 	inferno_kill_necro_04_hero_3d = 
 	{
@@ -5268,7 +5268,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_priest_01.vsnd",
 		]
-		vsnd_duration = 1.365000
+		vsnd_duration = 1.365
 	}
 	inferno_kill_priest_02_hero_3d = 
 	{
@@ -5358,7 +5358,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_punkgoat_03.vsnd",
 		]
-		vsnd_duration = 1.301000
+		vsnd_duration = 1.301
 	}
 	inferno_kill_punkgoat_04_hero_3d = 
 	{
@@ -5438,7 +5438,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_synth_01.vsnd",
 		]
-		vsnd_duration = 2.028640
+		vsnd_duration = 2.02864
 	}
 	inferno_kill_synth_02_hero_3d = 
 	{
@@ -5448,7 +5448,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_synth_02.vsnd",
 		]
-		vsnd_duration = 1.747710
+		vsnd_duration = 1.74771
 	}
 	inferno_kill_synth_03_hero_3d = 
 	{
@@ -5478,7 +5478,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_synth_05.vsnd",
 		]
-		vsnd_duration = 1.927370
+		vsnd_duration = 1.92737
 	}
 	inferno_kill_tengu_01_hero_3d = 
 	{
@@ -5548,7 +5548,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_unicorn_02.vsnd",
 		]
-		vsnd_duration = 3.572500
+		vsnd_duration = 3.5725
 	}
 	inferno_kill_unicorn_03_hero_3d = 
 	{
@@ -5638,7 +5638,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_viper_01.vsnd",
 		]
-		vsnd_duration = 1.517000
+		vsnd_duration = 1.517
 	}
 	inferno_kill_viper_02_hero_3d = 
 	{
@@ -5648,7 +5648,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_viper_02.vsnd",
 		]
-		vsnd_duration = 2.719000
+		vsnd_duration = 2.719
 	}
 	inferno_kill_viper_03_hero_3d = 
 	{
@@ -5758,7 +5758,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_warden_03.vsnd",
 		]
-		vsnd_duration = 2.094240
+		vsnd_duration = 2.09424
 	}
 	inferno_kill_warden_04_hero_3d = 
 	{
@@ -5818,7 +5818,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_werewolf_04.vsnd",
 		]
-		vsnd_duration = 2.220500
+		vsnd_duration = 2.2205
 	}
 	inferno_kill_werewolf_05_hero_3d = 
 	{
@@ -5908,7 +5908,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_wrecker_03.vsnd",
 		]
-		vsnd_duration = 1.877710
+		vsnd_duration = 1.87771
 	}
 	inferno_kill_wrecker_04_hero_3d = 
 	{
@@ -5958,7 +5958,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_yamato_03.vsnd",
 		]
-		vsnd_duration = 2.045760
+		vsnd_duration = 2.04576
 	}
 	inferno_kill_yamato_04_hero_3d = 
 	{
@@ -5978,7 +5978,7 @@
 		[
 			"sounds/vo/inferno/inferno_kill_yamato_05.vsnd",
 		]
-		vsnd_duration = 2.056780
+		vsnd_duration = 2.05678
 	}
 	inferno_killstreak_high_01_hero_3d = 
 	{
@@ -6068,7 +6068,7 @@
 		[
 			"sounds/vo/inferno/inferno_killstreak_mid_02.vsnd",
 		]
-		vsnd_duration = 2.038390
+		vsnd_duration = 2.03839
 	}
 	inferno_killstreak_mid_02_hero_announcer = 
 	{
@@ -6078,7 +6078,7 @@
 		[
 			"sounds/vo/inferno/inferno_killstreak_mid_02.vsnd",
 		]
-		vsnd_duration = 2.038390
+		vsnd_duration = 2.03839
 	}
 	inferno_killstreak_mid_03_hero_3d = 
 	{
@@ -6348,7 +6348,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_astro_inferno_convo02_02.vsnd",
 		]
-		vsnd_duration = 3.857250
+		vsnd_duration = 3.85725
 	}
 	inferno_match_start_astro_inferno_convo02_04_hero_zipline_3d = 
 	{
@@ -6448,7 +6448,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_bebop_inferno_convo01_01.vsnd",
 		]
-		vsnd_duration = 3.907000
+		vsnd_duration = 3.907
 	}
 	inferno_match_start_bebop_inferno_convo01_03_hero_zipline_3d = 
 	{
@@ -6478,7 +6478,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_bebop_inferno_convo01_07.vsnd",
 		]
-		vsnd_duration = 0.971000
+		vsnd_duration = 0.971
 	}
 	inferno_match_start_bebop_inferno_convo02_01_hero_zipline_3d = 
 	{
@@ -6498,7 +6498,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_bebop_inferno_convo03_02.vsnd",
 		]
-		vsnd_duration = 3.771500
+		vsnd_duration = 3.7715
 	}
 	inferno_match_start_drifter_inferno_convo01_02_hero_zipline_3d = 
 	{
@@ -6508,7 +6508,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_drifter_inferno_convo01_02.vsnd",
 		]
-		vsnd_duration = 1.179000
+		vsnd_duration = 1.179
 	}
 	inferno_match_start_drifter_inferno_convo02_01_hero_zipline_3d = 
 	{
@@ -6518,7 +6518,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_drifter_inferno_convo02_01.vsnd",
 		]
-		vsnd_duration = 2.875750
+		vsnd_duration = 2.87575
 	}
 	inferno_match_start_drifter_inferno_convo02_03_hero_zipline_3d = 
 	{
@@ -6548,7 +6548,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_drifter_inferno_convo03_01.vsnd",
 		]
-		vsnd_duration = 1.154000
+		vsnd_duration = 1.154
 	}
 	inferno_match_start_drifter_inferno_convo03_03_hero_zipline_3d = 
 	{
@@ -6588,7 +6588,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_dynamo_inferno_convo02_04.vsnd",
 		]
-		vsnd_duration = 2.996000
+		vsnd_duration = 2.996
 	}
 	inferno_match_start_dynamo_inferno_convo03_02_hero_zipline_3d = 
 	{
@@ -6658,7 +6658,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_fencer_inferno_convo01_02.vsnd",
 		]
-		vsnd_duration = 3.095750
+		vsnd_duration = 3.09575
 	}
 	inferno_match_start_fencer_inferno_convo01_04_hero_zipline_3d = 
 	{
@@ -6808,7 +6808,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_frank_inferno_convo03_03.vsnd",
 		]
-		vsnd_duration = 1.119000
+		vsnd_duration = 1.119
 	}
 	inferno_match_start_frank_inferno_convo03_05_hero_zipline_3d = 
 	{
@@ -6828,7 +6828,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_frank_inferno_convo03_07.vsnd",
 		]
-		vsnd_duration = 2.050000
+		vsnd_duration = 2.05
 	}
 	inferno_match_start_ghost_inferno_convo01_02_hero_zipline_3d = 
 	{
@@ -6848,7 +6848,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_ghost_inferno_convo02_02.vsnd",
 		]
-		vsnd_duration = 5.509000
+		vsnd_duration = 5.509
 	}
 	inferno_match_start_ghost_inferno_convo02_04_hero_zipline_3d = 
 	{
@@ -6958,7 +6958,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_haze_inferno_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.005000
+		vsnd_duration = 1.005
 	}
 	inferno_match_start_haze_inferno_convo03_01_hero_zipline_3d = 
 	{
@@ -6978,7 +6978,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_haze_inferno_convo03_03.vsnd",
 		]
-		vsnd_duration = 0.704000
+		vsnd_duration = 0.704
 	}
 	inferno_match_start_haze_inferno_convo03_05_hero_zipline_3d = 
 	{
@@ -6998,7 +6998,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_haze_inferno_convo03_07.vsnd",
 		]
-		vsnd_duration = 2.267250
+		vsnd_duration = 2.26725
 	}
 	inferno_match_start_haze_inferno_convo03_09_hero_zipline_3d = 
 	{
@@ -7008,7 +7008,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_haze_inferno_convo03_09.vsnd",
 		]
-		vsnd_duration = 0.772000
+		vsnd_duration = 0.772
 	}
 	inferno_match_start_inferno_forge_convo01_01_hero_zipline_3d = 
 	{
@@ -7018,7 +7018,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_inferno_forge_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.160000
+		vsnd_duration = 2.16
 	}
 	inferno_match_start_inferno_forge_convo01_03_hero_zipline_3d = 
 	{
@@ -7058,7 +7058,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_inferno_forge_convo03_04.vsnd",
 		]
-		vsnd_duration = 2.581000
+		vsnd_duration = 2.581
 	}
 	inferno_match_start_inferno_hornet_convo01_01_hero_zipline_3d = 
 	{
@@ -7068,7 +7068,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_inferno_hornet_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.124500
+		vsnd_duration = 2.1245
 	}
 	inferno_match_start_inferno_hornet_convo01_03_hero_zipline_3d = 
 	{
@@ -7138,7 +7138,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_inferno_krill_convo01_04.vsnd",
 		]
-		vsnd_duration = 3.622000
+		vsnd_duration = 3.622
 	}
 	inferno_match_start_inferno_krill_convo02_01_hero_zipline_3d = 
 	{
@@ -7258,7 +7258,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_inferno_viscous_convo03_01.vsnd",
 		]
-		vsnd_duration = 1.012250
+		vsnd_duration = 1.01225
 	}
 	inferno_match_start_inferno_viscous_convo03_03_hero_zipline_3d = 
 	{
@@ -7278,7 +7278,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_inferno_viscous_convo03_05.vsnd",
 		]
-		vsnd_duration = 2.235750
+		vsnd_duration = 2.23575
 	}
 	inferno_match_start_inferno_viscous_convo03_07_hero_zipline_3d = 
 	{
@@ -7288,7 +7288,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_inferno_viscous_convo03_07.vsnd",
 		]
-		vsnd_duration = 0.844750
+		vsnd_duration = 0.84475
 	}
 	inferno_match_start_inferno_wraith_convo01_02_hero_zipline_3d = 
 	{
@@ -7318,7 +7318,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_inferno_wraith_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.161000
+		vsnd_duration = 1.161
 	}
 	inferno_match_start_inferno_wraith_convo03_02_hero_zipline_3d = 
 	{
@@ -7328,7 +7328,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_inferno_wraith_convo03_02.vsnd",
 		]
-		vsnd_duration = 0.848000
+		vsnd_duration = 0.848
 	}
 	inferno_match_start_inferno_wraith_convo03_04_hero_zipline_3d = 
 	{
@@ -7358,7 +7358,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_kelvin_inferno_convo02_01.vsnd",
 		]
-		vsnd_duration = 2.890000
+		vsnd_duration = 2.89
 	}
 	inferno_match_start_kelvin_inferno_convo03_02_hero_zipline_3d = 
 	{
@@ -7388,7 +7388,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_kelvin_inferno_convo03_06.vsnd",
 		]
-		vsnd_duration = 1.203000
+		vsnd_duration = 1.203
 	}
 	inferno_match_start_necro_inferno_convo01_02_hero_zipline_3d = 
 	{
@@ -7408,7 +7408,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_necro_inferno_convo01_04.vsnd",
 		]
-		vsnd_duration = 5.008500
+		vsnd_duration = 5.0085
 	}
 	inferno_match_start_necro_inferno_convo01_06_hero_zipline_3d = 
 	{
@@ -7458,7 +7458,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_necro_inferno_convo02_08.vsnd",
 		]
-		vsnd_duration = 2.229500
+		vsnd_duration = 2.2295
 	}
 	inferno_match_start_necro_inferno_convo03_01_hero_zipline_3d = 
 	{
@@ -7478,7 +7478,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_necro_inferno_convo03_03.vsnd",
 		]
-		vsnd_duration = 3.865000
+		vsnd_duration = 3.865
 	}
 	inferno_match_start_necro_inferno_convo03_05_hero_zipline_3d = 
 	{
@@ -7548,7 +7548,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_priest_inferno_convo03_02.vsnd",
 		]
-		vsnd_duration = 2.869000
+		vsnd_duration = 2.869
 	}
 	inferno_match_start_priest_inferno_convo03_04_hero_zipline_3d = 
 	{
@@ -7668,7 +7668,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_werewolf_inferno_convo02_02.vsnd",
 		]
-		vsnd_duration = 2.286750
+		vsnd_duration = 2.28675
 	}
 	inferno_match_start_werewolf_inferno_convo02_04_hero_zipline_3d = 
 	{
@@ -7718,7 +7718,7 @@
 		[
 			"sounds/vo/inferno/inferno_match_start_yamato_inferno_convo01_04.vsnd",
 		]
-		vsnd_duration = 1.376000
+		vsnd_duration = 1.376
 	}
 	inferno_match_start_yamato_inferno_convo02_01_hero_zipline_3d = 
 	{
@@ -7768,7 +7768,7 @@
 		[
 			"sounds/vo/inferno/inferno_melee_kill_02.vsnd",
 		]
-		vsnd_duration = 1.617710
+		vsnd_duration = 1.61771
 	}
 	inferno_melee_kill_03_hero_3d = 
 	{
@@ -7788,7 +7788,7 @@
 		[
 			"sounds/vo/inferno/inferno_melee_kill_04.vsnd",
 		]
-		vsnd_duration = 1.385760
+		vsnd_duration = 1.38576
 	}
 	inferno_melee_kill_05_hero_3d = 
 	{
@@ -7888,7 +7888,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_pain_akira_laser_01.vsnd",
 		]
-		vsnd_duration = 1.914580
+		vsnd_duration = 1.91458
 	}
 	inferno_pain_akira_laser_02_emote_pain_3d = 
 	{
@@ -7908,7 +7908,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_pain_akira_laser_03.vsnd",
 		]
-		vsnd_duration = 3.354240
+		vsnd_duration = 3.35424
 	}
 	inferno_pain_akira_laser_04_emote_pain_3d = 
 	{
@@ -7938,7 +7938,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_pain_big_02.vsnd",
 		]
-		vsnd_duration = 1.366100
+		vsnd_duration = 1.3661
 	}
 	inferno_pain_big_03_emote_pain_3d = 
 	{
@@ -7998,7 +7998,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_pain_big_08.vsnd",
 		]
-		vsnd_duration = 1.257030
+		vsnd_duration = 1.25703
 	}
 	inferno_pain_big_09_emote_pain_3d = 
 	{
@@ -8118,7 +8118,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_pain_low_health_warning_02.vsnd",
 		]
-		vsnd_duration = 3.157710
+		vsnd_duration = 3.15771
 	}
 	inferno_pain_low_health_warning_03_emote_pain_3d = 
 	{
@@ -8188,7 +8188,7 @@
 		[
 			"sounds/vo/inferno/emote/inferno_pain_small_06.vsnd",
 		]
-		vsnd_duration = 1.119320
+		vsnd_duration = 1.11932
 	}
 	inferno_pain_small_07_emote_pain_3d = 
 	{
@@ -8318,7 +8318,7 @@
 		[
 			"sounds/vo/inferno/inferno_pick_up_rejuv_02.vsnd",
 		]
-		vsnd_duration = 1.487120
+		vsnd_duration = 1.48712
 	}
 	inferno_pick_up_rejuv_03_hero_3d = 
 	{
@@ -8378,7 +8378,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_ability3_not_ready.vsnd",
 		]
-		vsnd_duration = 2.326780
+		vsnd_duration = 2.32678
 	}
 	inferno_ping_ability4_almost_ready_ping_2d = 
 	{
@@ -8468,7 +8468,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_astro_in_mid.vsnd",
 		]
-		vsnd_duration = 1.514580
+		vsnd_duration = 1.51458
 	}
 	inferno_ping_astro_missing_01_ping_2d = 
 	{
@@ -8648,7 +8648,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_attack_bebop.vsnd",
 		]
-		vsnd_duration = 1.602200
+		vsnd_duration = 1.6022
 	}
 	inferno_ping_attack_boho_ping_2d = 
 	{
@@ -8668,7 +8668,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_attack_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.251000
+		vsnd_duration = 1.251
 	}
 	inferno_ping_attack_cadence_ping_2d = 
 	{
@@ -8748,7 +8748,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_attack_enemy.vsnd",
 		]
-		vsnd_duration = 1.585760
+		vsnd_duration = 1.58576
 	}
 	inferno_ping_attack_familiar_ping_2d = 
 	{
@@ -8858,7 +8858,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_attack_incubus.vsnd",
 		]
-		vsnd_duration = 1.412000
+		vsnd_duration = 1.412
 	}
 	inferno_ping_attack_kelvin_ping_2d = 
 	{
@@ -8958,7 +8958,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_attack_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.344500
+		vsnd_duration = 1.3445
 	}
 	inferno_ping_attack_shiv_ping_2d = 
 	{
@@ -8998,7 +8998,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_attack_swan.vsnd",
 		]
-		vsnd_duration = 1.479000
+		vsnd_duration = 1.479
 	}
 	inferno_ping_attack_synth_ping_2d = 
 	{
@@ -9108,7 +9108,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_attack_wrecker.vsnd",
 		]
-		vsnd_duration = 1.590680
+		vsnd_duration = 1.59068
 	}
 	inferno_ping_attack_yamato_ping_2d = 
 	{
@@ -9118,7 +9118,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_attack_yamato.vsnd",
 		]
-		vsnd_duration = 1.301000
+		vsnd_duration = 1.301
 	}
 	inferno_ping_avatar_under_attack_ping_2d = 
 	{
@@ -9268,7 +9268,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_bookworm_almost_respawn_alt.vsnd",
 		]
-		vsnd_duration = 1.379000
+		vsnd_duration = 1.379
 	}
 	inferno_ping_bookworm_check_items_alt_ping_2d = 
 	{
@@ -9298,7 +9298,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_bookworm_in_mid_alt.vsnd",
 		]
-		vsnd_duration = 1.226250
+		vsnd_duration = 1.22625
 	}
 	inferno_ping_bookworm_missing_01_alt_ping_2d = 
 	{
@@ -9348,7 +9348,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_bookworm_was_here_alt.vsnd",
 		]
-		vsnd_duration = 1.191000
+		vsnd_duration = 1.191
 	}
 	inferno_ping_cadence_in_mid_ping_2d = 
 	{
@@ -9378,7 +9378,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_cadence_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.950590
+		vsnd_duration = 1.95059
 	}
 	inferno_ping_cadence_on_top_of_mid_ping_2d = 
 	{
@@ -9398,7 +9398,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_cadence_under_garage.vsnd",
 		]
-		vsnd_duration = 1.841020
+		vsnd_duration = 1.84102
 	}
 	inferno_ping_cadence_was_here_ping_2d = 
 	{
@@ -9488,7 +9488,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_can_heal_drifter.vsnd",
 		]
-		vsnd_duration = 1.763000
+		vsnd_duration = 1.763
 	}
 	inferno_ping_can_heal_dynamo_ping_2d = 
 	{
@@ -9518,7 +9518,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_can_heal_fencer.vsnd",
 		]
-		vsnd_duration = 1.727500
+		vsnd_duration = 1.7275
 	}
 	inferno_ping_can_heal_forge_ping_2d = 
 	{
@@ -9648,7 +9648,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_can_heal_necro.vsnd",
 		]
-		vsnd_duration = 1.643250
+		vsnd_duration = 1.64325
 	}
 	inferno_ping_can_heal_orion_ping_2d = 
 	{
@@ -9698,7 +9698,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_can_heal_synth.vsnd",
 		]
-		vsnd_duration = 1.737800
+		vsnd_duration = 1.7378
 	}
 	inferno_ping_can_heal_tengu_ping_2d = 
 	{
@@ -9728,7 +9728,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_can_heal_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.717000
+		vsnd_duration = 1.717
 	}
 	inferno_ping_can_heal_viper_ping_2d = 
 	{
@@ -9758,7 +9758,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_can_heal_warden.vsnd",
 		]
-		vsnd_duration = 1.685420
+		vsnd_duration = 1.68542
 	}
 	inferno_ping_can_heal_werewolf_ping_2d = 
 	{
@@ -9848,7 +9848,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_atlas_02.vsnd",
 		]
-		vsnd_duration = 1.502880
+		vsnd_duration = 1.50288
 	}
 	inferno_ping_careful_atlas_03_ping_2d = 
 	{
@@ -9898,7 +9898,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_boho_01.vsnd",
 		]
-		vsnd_duration = 1.017000
+		vsnd_duration = 1.017
 	}
 	inferno_ping_careful_bookworm_01_alt_ping_2d = 
 	{
@@ -9918,7 +9918,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_bookworm_02_alt.vsnd",
 		]
-		vsnd_duration = 1.159000
+		vsnd_duration = 1.159
 	}
 	inferno_ping_careful_bookworm_03_alt_ping_2d = 
 	{
@@ -9958,7 +9958,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_cadence_03.vsnd",
 		]
-		vsnd_duration = 1.468050
+		vsnd_duration = 1.46805
 	}
 	inferno_ping_careful_chrono_01_ping_2d = 
 	{
@@ -10018,7 +10018,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_doorman_03.vsnd",
 		]
-		vsnd_duration = 1.308000
+		vsnd_duration = 1.308
 	}
 	inferno_ping_careful_drifter_01_ping_2d = 
 	{
@@ -10028,7 +10028,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_drifter_01.vsnd",
 		]
-		vsnd_duration = 1.051000
+		vsnd_duration = 1.051
 	}
 	inferno_ping_careful_drifter_02_ping_2d = 
 	{
@@ -10128,7 +10128,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_fencer_01.vsnd",
 		]
-		vsnd_duration = 1.169250
+		vsnd_duration = 1.16925
 	}
 	inferno_ping_careful_fencer_02_ping_2d = 
 	{
@@ -10188,7 +10188,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_fortuna_01.vsnd",
 		]
-		vsnd_duration = 1.095000
+		vsnd_duration = 1.095
 	}
 	inferno_ping_careful_frank_01_ping_2d = 
 	{
@@ -10198,7 +10198,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_frank_01.vsnd",
 		]
-		vsnd_duration = 1.092000
+		vsnd_duration = 1.092
 	}
 	inferno_ping_careful_frank_02_ping_2d = 
 	{
@@ -10228,7 +10228,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_ghost_01.vsnd",
 		]
-		vsnd_duration = 1.417800
+		vsnd_duration = 1.4178
 	}
 	inferno_ping_careful_ghost_02_ping_2d = 
 	{
@@ -10298,7 +10298,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_haze_01.vsnd",
 		]
-		vsnd_duration = 1.310590
+		vsnd_duration = 1.31059
 	}
 	inferno_ping_careful_haze_02_ping_2d = 
 	{
@@ -10458,7 +10458,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_magician_02.vsnd",
 		]
-		vsnd_duration = 1.275000
+		vsnd_duration = 1.275
 	}
 	inferno_ping_careful_magician_03_ping_2d = 
 	{
@@ -10538,7 +10538,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_necro_01.vsnd",
 		]
-		vsnd_duration = 1.163250
+		vsnd_duration = 1.16325
 	}
 	inferno_ping_careful_necro_02_ping_2d = 
 	{
@@ -10608,7 +10608,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_priest_02.vsnd",
 		]
-		vsnd_duration = 1.187000
+		vsnd_duration = 1.187
 	}
 	inferno_ping_careful_priest_03_ping_2d = 
 	{
@@ -10678,7 +10678,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_shiv_03.vsnd",
 		]
-		vsnd_duration = 1.419070
+		vsnd_duration = 1.41907
 	}
 	inferno_ping_careful_skyrunner_01_ping_2d = 
 	{
@@ -10688,7 +10688,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_skyrunner_01.vsnd",
 		]
-		vsnd_duration = 1.212500
+		vsnd_duration = 1.2125
 	}
 	inferno_ping_careful_succubus_01_ping_2d = 
 	{
@@ -10728,7 +10728,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_synth_02.vsnd",
 		]
-		vsnd_duration = 1.300000
+		vsnd_duration = 1.3
 	}
 	inferno_ping_careful_synth_03_ping_2d = 
 	{
@@ -10868,7 +10868,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_viper_03.vsnd",
 		]
-		vsnd_duration = 1.120250
+		vsnd_duration = 1.12025
 	}
 	inferno_ping_careful_viscous_01_ping_2d = 
 	{
@@ -10928,7 +10928,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_warden_03.vsnd",
 		]
-		vsnd_duration = 1.465510
+		vsnd_duration = 1.46551
 	}
 	inferno_ping_careful_werewolf_01_ping_2d = 
 	{
@@ -11038,7 +11038,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_careful_yamato_02.vsnd",
 		]
-		vsnd_duration = 1.276000
+		vsnd_duration = 1.276
 	}
 	inferno_ping_careful_yamato_03_ping_2d = 
 	{
@@ -11178,7 +11178,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_defend_blue_01.vsnd",
 		]
-		vsnd_duration = 1.297460
+		vsnd_duration = 1.29746
 	}
 	inferno_ping_defend_blue_02_ping_2d = 
 	{
@@ -11208,7 +11208,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_defend_green_02.vsnd",
 		]
-		vsnd_duration = 1.288980
+		vsnd_duration = 1.28898
 	}
 	inferno_ping_defend_yellow_01_ping_2d = 
 	{
@@ -11238,7 +11238,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_doorman_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.655000
+		vsnd_duration = 1.655
 	}
 	inferno_ping_doorman_check_items_ping_2d = 
 	{
@@ -11358,7 +11358,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_drifter_in_mid.vsnd",
 		]
-		vsnd_duration = 1.279000
+		vsnd_duration = 1.279
 	}
 	inferno_ping_drifter_missing_01_ping_2d = 
 	{
@@ -11378,7 +11378,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_drifter_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.633500
+		vsnd_duration = 1.6335
 	}
 	inferno_ping_drifter_on_top_of_mid_ping_2d = 
 	{
@@ -11418,7 +11418,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_druid_missing_01.vsnd",
 		]
-		vsnd_duration = 1.165000
+		vsnd_duration = 1.165
 	}
 	inferno_ping_dynamo_almost_respawn_ping_2d = 
 	{
@@ -11518,7 +11518,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_enemy_take_mid.vsnd",
 		]
-		vsnd_duration = 1.411270
+		vsnd_duration = 1.41127
 	}
 	inferno_ping_familiar_almost_respawn_ping_2d = 
 	{
@@ -11598,7 +11598,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_familiar_under_garage.vsnd",
 		]
-		vsnd_duration = 1.455000
+		vsnd_duration = 1.455
 	}
 	inferno_ping_familiar_was_here_ping_2d = 
 	{
@@ -11688,7 +11688,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_fencer_under_garage.vsnd",
 		]
-		vsnd_duration = 1.557750
+		vsnd_duration = 1.55775
 	}
 	inferno_ping_fencer_was_here_ping_2d = 
 	{
@@ -11808,7 +11808,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_fortuna_missing_01.vsnd",
 		]
-		vsnd_duration = 1.242500
+		vsnd_duration = 1.2425
 	}
 	inferno_ping_frank_almost_respawn_ping_2d = 
 	{
@@ -11858,7 +11858,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_frank_missing_01.vsnd",
 		]
-		vsnd_duration = 1.232000
+		vsnd_duration = 1.232
 	}
 	inferno_ping_frank_on_top_of_garage_ping_2d = 
 	{
@@ -11868,7 +11868,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_frank_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.542000
+		vsnd_duration = 1.542
 	}
 	inferno_ping_frank_on_top_of_mid_ping_2d = 
 	{
@@ -11898,7 +11898,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_frank_was_here.vsnd",
 		]
-		vsnd_duration = 1.085000
+		vsnd_duration = 1.085
 	}
 	inferno_ping_gank_ping_2d = 
 	{
@@ -12018,7 +12018,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_gigawatt_check_items.vsnd",
 		]
-		vsnd_duration = 1.571270
+		vsnd_duration = 1.57127
 	}
 	inferno_ping_gigawatt_dead_ping_2d = 
 	{
@@ -12038,7 +12038,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_gigawatt_in_mid.vsnd",
 		]
-		vsnd_duration = 1.175000
+		vsnd_duration = 1.175
 	}
 	inferno_ping_gigawatt_missing_01_ping_2d = 
 	{
@@ -12078,7 +12078,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_gigawatt_under_garage.vsnd",
 		]
-		vsnd_duration = 1.784240
+		vsnd_duration = 1.78424
 	}
 	inferno_ping_gigawatt_was_here_ping_2d = 
 	{
@@ -12348,7 +12348,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_headed_green_02_02.vsnd",
 		]
-		vsnd_duration = 1.287710
+		vsnd_duration = 1.28771
 	}
 	inferno_ping_headed_green_02_ping_2d = 
 	{
@@ -12438,7 +12438,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_hornet_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.680590
+		vsnd_duration = 1.68059
 	}
 	inferno_ping_hornet_check_items_ping_2d = 
 	{
@@ -12458,7 +12458,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_hornet_dead.vsnd",
 		]
-		vsnd_duration = 1.442540
+		vsnd_duration = 1.44254
 	}
 	inferno_ping_hornet_in_mid_ping_2d = 
 	{
@@ -12588,7 +12588,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_ignore_drifter.vsnd",
 		]
-		vsnd_duration = 1.117000
+		vsnd_duration = 1.117
 	}
 	inferno_ping_ignore_dynamo_ping_2d = 
 	{
@@ -12608,7 +12608,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_ignore_familiar.vsnd",
 		]
-		vsnd_duration = 1.087000
+		vsnd_duration = 1.087
 	}
 	inferno_ping_ignore_fencer_ping_2d = 
 	{
@@ -12648,7 +12648,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_ignore_ghost.vsnd",
 		]
-		vsnd_duration = 1.323560
+		vsnd_duration = 1.32356
 	}
 	inferno_ping_ignore_gigawatt_ping_2d = 
 	{
@@ -12798,7 +12798,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_ignore_succubus.vsnd",
 		]
-		vsnd_duration = 1.358000
+		vsnd_duration = 1.358
 	}
 	inferno_ping_ignore_synth_ping_2d = 
 	{
@@ -12838,7 +12838,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_ignore_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.187000
+		vsnd_duration = 1.187
 	}
 	inferno_ping_ignore_viper_ping_2d = 
 	{
@@ -12848,7 +12848,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_ignore_viper.vsnd",
 		]
-		vsnd_duration = 1.089000
+		vsnd_duration = 1.089
 	}
 	inferno_ping_ignore_viscous_ping_2d = 
 	{
@@ -13148,7 +13148,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_krill_under_garage.vsnd",
 		]
-		vsnd_duration = 1.754830
+		vsnd_duration = 1.75483
 	}
 	inferno_ping_krill_was_here_ping_2d = 
 	{
@@ -13158,7 +13158,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_krill_was_here.vsnd",
 		]
-		vsnd_duration = 1.399660
+		vsnd_duration = 1.39966
 	}
 	inferno_ping_lash_almost_respawn_ping_2d = 
 	{
@@ -13168,7 +13168,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_lash_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.561950
+		vsnd_duration = 1.56195
 	}
 	inferno_ping_lash_check_items_ping_2d = 
 	{
@@ -13228,7 +13228,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_lash_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.637120
+		vsnd_duration = 1.63712
 	}
 	inferno_ping_lash_under_garage_ping_2d = 
 	{
@@ -13378,7 +13378,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_magician_dead.vsnd",
 		]
-		vsnd_duration = 1.258000
+		vsnd_duration = 1.258
 	}
 	inferno_ping_magician_in_mid_ping_2d = 
 	{
@@ -13388,7 +13388,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_magician_in_mid.vsnd",
 		]
-		vsnd_duration = 1.361000
+		vsnd_duration = 1.361
 	}
 	inferno_ping_magician_missing_01_ping_2d = 
 	{
@@ -13688,7 +13688,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_nano_under_garage.vsnd",
 		]
-		vsnd_duration = 1.727710
+		vsnd_duration = 1.72771
 	}
 	inferno_ping_nano_was_here_ping_2d = 
 	{
@@ -13738,7 +13738,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_necro_in_mid.vsnd",
 		]
-		vsnd_duration = 1.316500
+		vsnd_duration = 1.3165
 	}
 	inferno_ping_necro_missing_01_ping_2d = 
 	{
@@ -13788,7 +13788,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_necro_was_here.vsnd",
 		]
-		vsnd_duration = 1.142500
+		vsnd_duration = 1.1425
 	}
 	inferno_ping_need_cover_ping_2d = 
 	{
@@ -13878,7 +13878,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_need_plan.vsnd",
 		]
-		vsnd_duration = 1.333560
+		vsnd_duration = 1.33356
 	}
 	inferno_ping_negative_01_ping_2d = 
 	{
@@ -13968,7 +13968,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_on_way.vsnd",
 		]
-		vsnd_duration = 1.258730
+		vsnd_duration = 1.25873
 	}
 	inferno_ping_orion_almost_respawn_ping_2d = 
 	{
@@ -13978,7 +13978,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_orion_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.677710
+		vsnd_duration = 1.67771
 	}
 	inferno_ping_orion_check_items_ping_2d = 
 	{
@@ -14208,7 +14208,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_priest_check_items.vsnd",
 		]
-		vsnd_duration = 1.406250
+		vsnd_duration = 1.40625
 	}
 	inferno_ping_priest_dead_ping_2d = 
 	{
@@ -14218,7 +14218,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_priest_dead.vsnd",
 		]
-		vsnd_duration = 1.265000
+		vsnd_duration = 1.265
 	}
 	inferno_ping_priest_in_mid_ping_2d = 
 	{
@@ -14268,7 +14268,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_priest_under_garage.vsnd",
 		]
-		vsnd_duration = 1.607000
+		vsnd_duration = 1.607
 	}
 	inferno_ping_priest_was_here_ping_2d = 
 	{
@@ -14278,7 +14278,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_priest_was_here.vsnd",
 		]
-		vsnd_duration = 1.231000
+		vsnd_duration = 1.231
 	}
 	inferno_ping_punkgoat_almost_respawn_ping_2d = 
 	{
@@ -14298,7 +14298,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_punkgoat_check_items.vsnd",
 		]
-		vsnd_duration = 1.376000
+		vsnd_duration = 1.376
 	}
 	inferno_ping_punkgoat_dead_ping_2d = 
 	{
@@ -14568,7 +14568,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_saw_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.209000
+		vsnd_duration = 1.209
 	}
 	inferno_ping_saw_cadence_ping_2d = 
 	{
@@ -14658,7 +14658,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_saw_frank.vsnd",
 		]
-		vsnd_duration = 1.001250
+		vsnd_duration = 1.00125
 	}
 	inferno_ping_saw_ghost_ping_2d = 
 	{
@@ -14728,7 +14728,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_saw_lash.vsnd",
 		]
-		vsnd_duration = 1.457710
+		vsnd_duration = 1.45771
 	}
 	inferno_ping_saw_magician_ping_2d = 
 	{
@@ -14788,7 +14788,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_saw_priest.vsnd",
 		]
-		vsnd_duration = 1.273000
+		vsnd_duration = 1.273
 	}
 	inferno_ping_saw_punkgoat_ping_2d = 
 	{
@@ -14858,7 +14858,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_saw_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.197000
+		vsnd_duration = 1.197
 	}
 	inferno_ping_saw_viper_ping_2d = 
 	{
@@ -14868,7 +14868,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_saw_viper.vsnd",
 		]
-		vsnd_duration = 1.159000
+		vsnd_duration = 1.159
 	}
 	inferno_ping_saw_viscous_ping_2d = 
 	{
@@ -14888,7 +14888,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_saw_warden.vsnd",
 		]
-		vsnd_duration = 1.397370
+		vsnd_duration = 1.39737
 	}
 	inferno_ping_saw_werewolf_ping_2d = 
 	{
@@ -14988,7 +14988,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_atlas_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.662880
+		vsnd_duration = 1.66288
 	}
 	inferno_ping_see_atlas_on_roof_ping_2d = 
 	{
@@ -15048,7 +15048,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_boho_01.vsnd",
 		]
-		vsnd_duration = 1.227000
+		vsnd_duration = 1.227
 	}
 	inferno_ping_see_bookworm_01_alt_ping_2d = 
 	{
@@ -15078,7 +15078,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_bookworm_on_roof_alt.vsnd",
 		]
-		vsnd_duration = 1.163000
+		vsnd_duration = 1.163
 	}
 	inferno_ping_see_cadence_01_ping_2d = 
 	{
@@ -15088,7 +15088,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_cadence_01.vsnd",
 		]
-		vsnd_duration = 1.569070
+		vsnd_duration = 1.56907
 	}
 	inferno_ping_see_cadence_02_ping_2d = 
 	{
@@ -15198,7 +15198,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_drifter_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.229000
+		vsnd_duration = 1.229
 	}
 	inferno_ping_see_drifter_on_roof_ping_2d = 
 	{
@@ -15268,7 +15268,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_enemy_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.504240
+		vsnd_duration = 1.50424
 	}
 	inferno_ping_see_enemy_on_roof_ping_2d = 
 	{
@@ -15388,7 +15388,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_fortuna_01.vsnd",
 		]
-		vsnd_duration = 1.107000
+		vsnd_duration = 1.107
 	}
 	inferno_ping_see_frank_01_ping_2d = 
 	{
@@ -15578,7 +15578,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_hornet_on_roof.vsnd",
 		]
-		vsnd_duration = 1.473560
+		vsnd_duration = 1.47356
 	}
 	inferno_ping_see_incubus_01_ping_2d = 
 	{
@@ -15648,7 +15648,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_krill_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.480930
+		vsnd_duration = 1.48093
 	}
 	inferno_ping_see_krill_on_roof_ping_2d = 
 	{
@@ -15678,7 +15678,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_lash_02.vsnd",
 		]
-		vsnd_duration = 1.856440
+		vsnd_duration = 1.85644
 	}
 	inferno_ping_see_lash_on_bridge_ping_2d = 
 	{
@@ -15718,7 +15718,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_magician_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.319000
+		vsnd_duration = 1.319
 	}
 	inferno_ping_see_magician_on_roof_ping_2d = 
 	{
@@ -15728,7 +15728,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_magician_on_roof.vsnd",
 		]
-		vsnd_duration = 1.276000
+		vsnd_duration = 1.276
 	}
 	inferno_ping_see_mirage_01_ping_2d = 
 	{
@@ -15898,7 +15898,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_punkgoat_01.vsnd",
 		]
-		vsnd_duration = 1.073750
+		vsnd_duration = 1.07375
 	}
 	inferno_ping_see_punkgoat_on_bridge_ping_2d = 
 	{
@@ -15908,7 +15908,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_punkgoat_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.267000
+		vsnd_duration = 1.267
 	}
 	inferno_ping_see_punkgoat_on_roof_ping_2d = 
 	{
@@ -15918,7 +15918,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_punkgoat_on_roof.vsnd",
 		]
-		vsnd_duration = 1.151000
+		vsnd_duration = 1.151
 	}
 	inferno_ping_see_shiv_01_ping_2d = 
 	{
@@ -15968,7 +15968,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_skyrunner_01.vsnd",
 		]
-		vsnd_duration = 1.353000
+		vsnd_duration = 1.353
 	}
 	inferno_ping_see_succubus_01_ping_2d = 
 	{
@@ -15978,7 +15978,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_succubus_01.vsnd",
 		]
-		vsnd_duration = 1.363000
+		vsnd_duration = 1.363
 	}
 	inferno_ping_see_swan_01_ping_2d = 
 	{
@@ -16118,7 +16118,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_vampirebat_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.273000
+		vsnd_duration = 1.273
 	}
 	inferno_ping_see_vampirebat_on_roof_ping_2d = 
 	{
@@ -16138,7 +16138,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_viper_01.vsnd",
 		]
-		vsnd_duration = 1.145000
+		vsnd_duration = 1.145
 	}
 	inferno_ping_see_viper_on_bridge_ping_2d = 
 	{
@@ -16348,7 +16348,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_yamato_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.389000
+		vsnd_duration = 1.389
 	}
 	inferno_ping_see_yamato_on_roof_ping_2d = 
 	{
@@ -16358,7 +16358,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_yamato_on_roof.vsnd",
 		]
-		vsnd_duration = 1.277000
+		vsnd_duration = 1.277
 	}
 	inferno_ping_see_yamato_ping_2d = 
 	{
@@ -16368,7 +16368,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_see_yamato.vsnd",
 		]
-		vsnd_duration = 1.277000
+		vsnd_duration = 1.277
 	}
 	inferno_ping_shiv_almost_respawn_ping_2d = 
 	{
@@ -16388,7 +16388,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_shiv_check_items.vsnd",
 		]
-		vsnd_duration = 1.519410
+		vsnd_duration = 1.51941
 	}
 	inferno_ping_shiv_dead_ping_2d = 
 	{
@@ -16428,7 +16428,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_shiv_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.750000
+		vsnd_duration = 1.75
 	}
 	inferno_ping_shiv_on_top_of_mid_ping_2d = 
 	{
@@ -16528,7 +16528,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_stay_together.vsnd",
 		]
-		vsnd_duration = 1.221950
+		vsnd_duration = 1.22195
 	}
 	inferno_ping_stim_pack_almost_ready_ping_2d = 
 	{
@@ -16548,7 +16548,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_stim_pack_not_ready.vsnd",
 		]
-		vsnd_duration = 1.930340
+		vsnd_duration = 1.93034
 	}
 	inferno_ping_stun_astro_01_ping_2d = 
 	{
@@ -16628,7 +16628,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_stun_drifter_01.vsnd",
 		]
-		vsnd_duration = 1.116000
+		vsnd_duration = 1.116
 	}
 	inferno_ping_stun_dynamo_01_ping_2d = 
 	{
@@ -16658,7 +16658,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_stun_fencer_01.vsnd",
 		]
-		vsnd_duration = 1.183000
+		vsnd_duration = 1.183
 	}
 	inferno_ping_stun_forge_01_ping_2d = 
 	{
@@ -16778,7 +16778,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_stun_nano_01.vsnd",
 		]
-		vsnd_duration = 1.406780
+		vsnd_duration = 1.40678
 	}
 	inferno_ping_stun_necro_01_ping_2d = 
 	{
@@ -16818,7 +16818,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_stun_punkgoat_01.vsnd",
 		]
-		vsnd_duration = 1.170000
+		vsnd_duration = 1.17
 	}
 	inferno_ping_stun_shiv_01_ping_2d = 
 	{
@@ -16868,7 +16868,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_stun_vampirebat_01.vsnd",
 		]
-		vsnd_duration = 1.055000
+		vsnd_duration = 1.055
 	}
 	inferno_ping_stun_viper_01_ping_2d = 
 	{
@@ -16898,7 +16898,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_stun_warden_01.vsnd",
 		]
-		vsnd_duration = 1.371950
+		vsnd_duration = 1.37195
 	}
 	inferno_ping_stun_werewolf_01_ping_2d = 
 	{
@@ -17118,7 +17118,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_tengu_dead.vsnd",
 		]
-		vsnd_duration = 1.520590
+		vsnd_duration = 1.52059
 	}
 	inferno_ping_tengu_in_mid_ping_2d = 
 	{
@@ -17258,7 +17258,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_theyre_under_garage.vsnd",
 		]
-		vsnd_duration = 1.675760
+		vsnd_duration = 1.67576
 	}
 	inferno_ping_tvspirit_missing_01_ping_2d = 
 	{
@@ -17558,7 +17558,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_use_silence.vsnd",
 		]
-		vsnd_duration = 1.862200
+		vsnd_duration = 1.8622
 	}
 	inferno_ping_use_stim_pack_ping_2d = 
 	{
@@ -17588,7 +17588,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_vampirebat_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.315000
+		vsnd_duration = 1.315
 	}
 	inferno_ping_vampirebat_check_items_ping_2d = 
 	{
@@ -17598,7 +17598,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_vampirebat_check_items.vsnd",
 		]
-		vsnd_duration = 1.412000
+		vsnd_duration = 1.412
 	}
 	inferno_ping_vampirebat_dead_ping_2d = 
 	{
@@ -17608,7 +17608,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_vampirebat_dead.vsnd",
 		]
-		vsnd_duration = 1.086000
+		vsnd_duration = 1.086
 	}
 	inferno_ping_vampirebat_in_mid_ping_2d = 
 	{
@@ -17688,7 +17688,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_viper_check_items.vsnd",
 		]
-		vsnd_duration = 1.413000
+		vsnd_duration = 1.413
 	}
 	inferno_ping_viper_dead_ping_2d = 
 	{
@@ -17708,7 +17708,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_viper_in_mid.vsnd",
 		]
-		vsnd_duration = 1.247000
+		vsnd_duration = 1.247
 	}
 	inferno_ping_viper_missing_01_ping_2d = 
 	{
@@ -17718,7 +17718,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_viper_missing_01.vsnd",
 		]
-		vsnd_duration = 1.043000
+		vsnd_duration = 1.043
 	}
 	inferno_ping_viper_on_top_of_garage_ping_2d = 
 	{
@@ -17738,7 +17738,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_viper_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.380000
+		vsnd_duration = 1.38
 	}
 	inferno_ping_viper_under_garage_ping_2d = 
 	{
@@ -17798,7 +17798,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_viscous_in_mid.vsnd",
 		]
-		vsnd_duration = 1.513220
+		vsnd_duration = 1.51322
 	}
 	inferno_ping_viscous_missing_01_ping_2d = 
 	{
@@ -17828,7 +17828,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_viscous_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.706780
+		vsnd_duration = 1.70678
 	}
 	inferno_ping_viscous_under_garage_ping_2d = 
 	{
@@ -17888,7 +17888,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_warden_dead.vsnd",
 		]
-		vsnd_duration = 1.410680
+		vsnd_duration = 1.41068
 	}
 	inferno_ping_warden_in_mid_ping_2d = 
 	{
@@ -17958,7 +17958,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_warp_stone_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.935850
+		vsnd_duration = 1.93585
 	}
 	inferno_ping_warp_stone_not_ready_ping_2d = 
 	{
@@ -18018,7 +18018,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_werewolf_dead.vsnd",
 		]
-		vsnd_duration = 1.238500
+		vsnd_duration = 1.2385
 	}
 	inferno_ping_werewolf_in_mid_ping_2d = 
 	{
@@ -18118,7 +18118,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_with_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.207000
+		vsnd_duration = 1.207
 	}
 	inferno_ping_with_cadence_ping_2d = 
 	{
@@ -18158,7 +18158,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_with_drifter.vsnd",
 		]
-		vsnd_duration = 1.201000
+		vsnd_duration = 1.201
 	}
 	inferno_ping_with_dynamo_ping_2d = 
 	{
@@ -18168,7 +18168,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_with_dynamo.vsnd",
 		]
-		vsnd_duration = 1.600590
+		vsnd_duration = 1.60059
 	}
 	inferno_ping_with_familiar_ping_2d = 
 	{
@@ -18208,7 +18208,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_with_frank.vsnd",
 		]
-		vsnd_duration = 1.271000
+		vsnd_duration = 1.271
 	}
 	inferno_ping_with_ghost_ping_2d = 
 	{
@@ -18218,7 +18218,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_with_ghost.vsnd",
 		]
-		vsnd_duration = 1.489070
+		vsnd_duration = 1.48907
 	}
 	inferno_ping_with_gigawatt_ping_2d = 
 	{
@@ -18238,7 +18238,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_with_haze.vsnd",
 		]
-		vsnd_duration = 1.526100
+		vsnd_duration = 1.5261
 	}
 	inferno_ping_with_hornet_ping_2d = 
 	{
@@ -18338,7 +18338,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_with_priest.vsnd",
 		]
-		vsnd_duration = 1.257000
+		vsnd_duration = 1.257
 	}
 	inferno_ping_with_punkgoat_ping_2d = 
 	{
@@ -18398,7 +18398,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_with_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.248000
+		vsnd_duration = 1.248
 	}
 	inferno_ping_with_viper_ping_2d = 
 	{
@@ -18408,7 +18408,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_with_viper.vsnd",
 		]
-		vsnd_duration = 1.227000
+		vsnd_duration = 1.227
 	}
 	inferno_ping_with_viscous_ping_2d = 
 	{
@@ -18528,7 +18528,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_wraith_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.813810
+		vsnd_duration = 1.81381
 	}
 	inferno_ping_wraith_on_top_of_mid_ping_2d = 
 	{
@@ -18568,7 +18568,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_wrecker_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.589320
+		vsnd_duration = 1.58932
 	}
 	inferno_ping_wrecker_check_items_ping_2d = 
 	{
@@ -18668,7 +18668,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_yamato_check_items.vsnd",
 		]
-		vsnd_duration = 1.702290
+		vsnd_duration = 1.70229
 	}
 	inferno_ping_yamato_dead_ping_2d = 
 	{
@@ -18718,7 +18718,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_yamato_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.463000
+		vsnd_duration = 1.463
 	}
 	inferno_ping_yamato_under_garage_ping_2d = 
 	{
@@ -18738,7 +18738,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_yamato_was_here.vsnd",
 		]
-		vsnd_duration = 1.228500
+		vsnd_duration = 1.2285
 	}
 	inferno_ping_yellow_help_01_ping_2d = 
 	{
@@ -18758,7 +18758,7 @@
 		[
 			"sounds/vo/inferno/ping/inferno_ping_yellow_help_02.vsnd",
 		]
-		vsnd_duration = 1.407800
+		vsnd_duration = 1.4078
 	}
 	inferno_revenge_kill_hero_3d = 
 	{
@@ -18868,7 +18868,7 @@
 		[
 			"sounds/vo/inferno/inferno_sad_10.vsnd",
 		]
-		vsnd_duration = 1.856440
+		vsnd_duration = 1.85644
 	}
 	inferno_see_enemy_metal_skin_01_hero_3d = 
 	{
@@ -18908,7 +18908,7 @@
 		[
 			"sounds/vo/inferno/inferno_see_money_01.vsnd",
 		]
-		vsnd_duration = 2.001000
+		vsnd_duration = 2.001
 	}
 	inferno_see_money_02_hero_3d = 
 	{
@@ -18928,7 +18928,7 @@
 		[
 			"sounds/vo/inferno/inferno_see_money_03.vsnd",
 		]
-		vsnd_duration = 1.709000
+		vsnd_duration = 1.709
 	}
 	inferno_select_01_hero_3d = 
 	{
@@ -19008,7 +19008,7 @@
 		[
 			"sounds/vo/inferno/inferno_select_08.vsnd",
 		]
-		vsnd_duration = 1.753220
+		vsnd_duration = 1.75322
 	}
 	inferno_select_09_hero_3d = 
 	{
@@ -19018,7 +19018,7 @@
 		[
 			"sounds/vo/inferno/inferno_select_09.vsnd",
 		]
-		vsnd_duration = 5.664150
+		vsnd_duration = 5.66415
 	}
 	inferno_select_10_hero_3d = 
 	{
@@ -19038,7 +19038,7 @@
 		[
 			"sounds/vo/inferno/inferno_t1_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 1.501610
+		vsnd_duration = 1.50161
 	}
 	inferno_t1_shop_reminder_02_hero_3d = 
 	{
@@ -19078,7 +19078,7 @@
 		[
 			"sounds/vo/inferno/inferno_t2_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 1.956440
+		vsnd_duration = 1.95644
 	}
 	inferno_t2_shop_reminder_03_hero_3d = 
 	{
@@ -19238,7 +19238,7 @@
 		[
 			"sounds/vo/inferno/inferno_unselect_04.vsnd",
 		]
-		vsnd_duration = 1.444830
+		vsnd_duration = 1.44483
 	}
 	inferno_unselect_05_hero_3d = 
 	{
@@ -19328,7 +19328,7 @@
 		[
 			"sounds/vo/inferno/inferno_upgrade_power1_03.vsnd",
 		]
-		vsnd_duration = 1.624000
+		vsnd_duration = 1.624
 	}
 	inferno_upgrade_power1_04_hero_3d = 
 	{
@@ -19348,7 +19348,7 @@
 		[
 			"sounds/vo/inferno/inferno_upgrade_power1_05.vsnd",
 		]
-		vsnd_duration = 2.789410
+		vsnd_duration = 2.78941
 	}
 	inferno_upgrade_power1_06_hero_3d = 
 	{
@@ -19498,7 +19498,7 @@
 		[
 			"sounds/vo/inferno/inferno_upgrade_power2_10.vsnd",
 		]
-		vsnd_duration = 2.341610
+		vsnd_duration = 2.34161
 	}
 	inferno_upgrade_power3_01_hero_3d = 
 	{
@@ -19518,7 +19518,7 @@
 		[
 			"sounds/vo/inferno/inferno_upgrade_power3_02.vsnd",
 		]
-		vsnd_duration = 2.997120
+		vsnd_duration = 2.99712
 	}
 	inferno_upgrade_power3_03_hero_3d = 
 	{
@@ -19578,7 +19578,7 @@
 		[
 			"sounds/vo/inferno/inferno_upgrade_power3_08.vsnd",
 		]
-		vsnd_duration = 3.207370
+		vsnd_duration = 3.20737
 	}
 	inferno_upgrade_power3_09_hero_3d = 
 	{
@@ -19628,7 +19628,7 @@
 		[
 			"sounds/vo/inferno/inferno_upgrade_power4_03.vsnd",
 		]
-		vsnd_duration = 2.616440
+		vsnd_duration = 2.61644
 	}
 	inferno_upgrade_power4_04_hero_3d = 
 	{
@@ -19778,7 +19778,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_curse_02.vsnd",
 		]
-		vsnd_duration = 1.381020
+		vsnd_duration = 1.38102
 	}
 	inferno_use_curse_03_ability_3d = 
 	{
@@ -19788,7 +19788,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_curse_03.vsnd",
 		]
-		vsnd_duration = 1.309070
+		vsnd_duration = 1.30907
 	}
 	inferno_use_decay_01_ability_3d = 
 	{
@@ -19998,7 +19998,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power1_03.vsnd",
 		]
-		vsnd_duration = 1.143220
+		vsnd_duration = 1.14322
 	}
 	inferno_use_power1_04_ability_3d = 
 	{
@@ -20118,7 +20118,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power2_05.vsnd",
 		]
-		vsnd_duration = 1.391270
+		vsnd_duration = 1.39127
 	}
 	inferno_use_power2_06_ability_3d = 
 	{
@@ -20178,7 +20178,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power4_01.vsnd",
 		]
-		vsnd_duration = 1.376780
+		vsnd_duration = 1.37678
 	}
 	inferno_use_power4_01_hero_announcer = 
 	{
@@ -20188,7 +20188,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power4_01.vsnd",
 		]
-		vsnd_duration = 1.376780
+		vsnd_duration = 1.37678
 	}
 	inferno_use_power4_01_ult_3d = 
 	{
@@ -20198,7 +20198,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power4_01.vsnd",
 		]
-		vsnd_duration = 1.376780
+		vsnd_duration = 1.37678
 	}
 	inferno_use_power4_02_ability_3d = 
 	{
@@ -20328,7 +20328,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power4_06.vsnd",
 		]
-		vsnd_duration = 1.902880
+		vsnd_duration = 1.90288
 	}
 	inferno_use_power4_06_hero_announcer = 
 	{
@@ -20338,7 +20338,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power4_06.vsnd",
 		]
-		vsnd_duration = 1.902880
+		vsnd_duration = 1.90288
 	}
 	inferno_use_power4_06_ult_3d = 
 	{
@@ -20348,7 +20348,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power4_06.vsnd",
 		]
-		vsnd_duration = 1.902880
+		vsnd_duration = 1.90288
 	}
 	inferno_use_power4_07_ability_3d = 
 	{
@@ -20448,7 +20448,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.438980
+		vsnd_duration = 1.43898
 	}
 	inferno_use_power4_10_hero_announcer = 
 	{
@@ -20458,7 +20458,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.438980
+		vsnd_duration = 1.43898
 	}
 	inferno_use_power4_10_ult_3d = 
 	{
@@ -20468,7 +20468,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_power4_10.vsnd",
 		]
-		vsnd_duration = 1.438980
+		vsnd_duration = 1.43898
 	}
 	inferno_use_power4_as_enemy_01_ability_3d = 
 	{
@@ -20708,7 +20708,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_silencer_01.vsnd",
 		]
-		vsnd_duration = 1.167120
+		vsnd_duration = 1.16712
 	}
 	inferno_use_silencer_02_ability_3d = 
 	{
@@ -20818,7 +20818,7 @@
 		[
 			"sounds/vo/inferno/inferno_use_unstoppable_02.vsnd",
 		]
-		vsnd_duration = 1.754240
+		vsnd_duration = 1.75424
 	}
 	inferno_use_unstoppable_03_ability_3d = 
 	{

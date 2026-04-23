@@ -3,63 +3,63 @@
 	Guardian.Tier1.Wpn.Beam.Begin = 
 	{
 		base = "Base.NPC.Guardian.Close"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = "sounds/npc/tier1boss/beam_weapon/t1_beam_fire_oneshot_begin.vsnd"
 		vsnd_duration = 4.366871
 	}
 	Guardian.Tier1.Wpn.Beam.End = 
 	{
 		base = "Base.NPC.Guardian.Close"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = "sounds/npc/tier1boss/beam_weapon/t1_beam_fire_oneshot_end.vsnd"
 		vsnd_duration = 0.817097
 	}
 	Guardian.Tier1.Wpn.Point.Begin.Lp = 
 	{
 		base = "Base.NPC.Guardian.Close"
-		volume = -11.000000
-		delay = 0.100000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.500000
-		delay_rand_max = -10.000000
+		volume = -11.0
+		delay = 0.1
+		volume_fade_in = 0.1
+		volume_fade_out = 0.5
+		delay_rand_max = -10.0
 		vsnd_files = "sounds/npc/tier1boss/beam_weapon/t1_beam_fire_point_begin_lp.vsnd"
-		vsnd_duration = 32.810680
+		vsnd_duration = 32.81068
 	}
 	Guardian.Tier1.Wpn.Point.End.Lp = 
 	{
 		base = "Base.NPC.Guardian.Close"
-		volume = -11.000000
-		volume_falloff_max_team = 500.000000
-		volume_falloff_max_opponent = 500.000000
-		volume_falloff_max_neutral = 500.000000
-		delay = 0.100000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		doppler_on = 1.000000
-		doppler_factor = 5.000000
-		delay_rand_max = -10.000000
-		spread_max_value_opponent = 0.250000
+		volume = -11.0
+		volume_falloff_max_team = 500.0
+		volume_falloff_max_opponent = 500.0
+		volume_falloff_max_neutral = 500.0
+		delay = 0.1
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		doppler_on = 1.0
+		doppler_factor = 5.0
+		delay_rand_max = -10.0
+		spread_max_value_opponent = 0.25
 		vsnd_files = "sounds/npc/tier1boss/beam_weapon/t1_beam_fire_point_end_lp.vsnd"
 		vsnd_duration = 27.624491
 	}
 	Guardian.Tier1.Wpn.Point.Closest.Lp = 
 	{
 		base = "Base.NPC.Beam.ClosestPoint"
-		volume = -3.000000
-		volume_falloff_max_team = 350.000000
-		volume_falloff_max_opponent = 350.000000
-		volume_falloff_max_neutral = 350.000000
-		delay = 0.100000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		delay_rand_max = -10.000000
+		volume = -3.0
+		volume_falloff_max_team = 350.0
+		volume_falloff_max_opponent = 350.0
+		volume_falloff_max_neutral = 350.0
+		delay = 0.1
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay_rand_max = -10.0
 		vsnd_files = "sounds/npc/tier1boss/beam_weapon/t1_beam_fire_point_closest_lp.vsnd"
-		vsnd_duration = 46.169140
+		vsnd_duration = 46.16914
 	}
 	Guardian.Tier1.Activate = 
 	{
 		base = "Base.NPC.Guardian"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/guardian_tier1_activate_01.vsnd",
@@ -71,7 +71,7 @@
 	Guardian.Tier1.Deactivate = 
 	{
 		base = "Base.NPC.Guardian"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/guardian_tier1_deactivate_01.vsnd",
@@ -83,7 +83,7 @@
 	Guardian.Tier1.Death.Initial = 
 	{
 		base = "Base.NPC.Guardian"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/guardian_t1_death_initial_01.vsnd",
@@ -98,7 +98,7 @@
 	Guardian.Tier1.Death.02.Fwd = 
 	{
 		base = "Base.NPC.Guardian"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/guardian_t1_death02_fwd_01.vsnd",
@@ -109,7 +109,7 @@
 	Guardian.Tier1.Death.02.Bwd = 
 	{
 		base = "Base.NPC.Guardian"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/guardian_t1_death02_bwd_01.vsnd",
@@ -120,7 +120,7 @@
 	Guardian.Tier1.Death.01 = 
 	{
 		base = "Base.NPC.Guardian"
-		volume = 3.000000
+		volume = 3.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/guardian_t1_death01_01.vsnd",
@@ -131,7 +131,7 @@
 	Guardian.Tier1.Melee.Swing = 
 	{
 		base = "Base.NPC.Guardian.Close"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/guardian_t1_melee_swing_01.vsnd",
@@ -143,7 +143,7 @@
 	Guardian.Tier1.Melee.Slam = 
 	{
 		base = "Base.NPC.Guardian.Close"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/guardian_tier1_melee_slam_01.vsnd",
@@ -155,7 +155,7 @@
 	Guardian.Tier1.Melee.Hit = 
 	{
 		base = "Base.NPC.Guardian.Close"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/guardian_t1_melee_hit_01.vsnd",
@@ -168,7 +168,7 @@
 	BossTier1.Death.Friendly = 
 	{
 		base = "Base.MapObjective.LoPri"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/t1_death_01.vsnd",
@@ -182,7 +182,7 @@
 	BossTier1.Death.Enemy = 
 	{
 		base = "Base.MapObjective.LoPri"
-		volume = -5.000000
+		volume = -5.0
 		vsnd_files = 
 		[
 			"sounds/npc/tier1boss/t1_death_01.vsnd",

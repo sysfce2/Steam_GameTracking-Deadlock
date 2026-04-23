@@ -18,7 +18,7 @@
 		[
 			"sounds/vo/hornet/hornet_ally_atlas_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.414250
+		vsnd_duration = 1.41425
 	}
 	hornet_ally_bebop_killed_in_lane_01_hero_3d = 
 	{
@@ -68,7 +68,7 @@
 		[
 			"sounds/vo/hornet/hornet_ally_doorman_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.414750
+		vsnd_duration = 1.41475
 	}
 	hornet_ally_drifter_killed_in_lane_01_hero_3d = 
 	{
@@ -138,7 +138,7 @@
 		[
 			"sounds/vo/hornet/hornet_ally_ghost_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.299500
+		vsnd_duration = 1.2995
 	}
 	hornet_ally_gigawatt_killed_in_lane_01_hero_3d = 
 	{
@@ -188,7 +188,7 @@
 		[
 			"sounds/vo/hornet/hornet_ally_inferno_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.468500
+		vsnd_duration = 1.4685
 	}
 	hornet_ally_kelvin_killed_in_lane_01_hero_3d = 
 	{
@@ -268,7 +268,7 @@
 		[
 			"sounds/vo/hornet/hornet_ally_priest_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.339000
+		vsnd_duration = 1.339
 	}
 	hornet_ally_punkgoat_killed_in_lane_01_hero_3d = 
 	{
@@ -278,7 +278,7 @@
 		[
 			"sounds/vo/hornet/hornet_ally_punkgoat_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.271000
+		vsnd_duration = 1.271
 	}
 	hornet_ally_shiv_killed_in_lane_01_hero_3d = 
 	{
@@ -318,7 +318,7 @@
 		[
 			"sounds/vo/hornet/hornet_ally_swan_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.287750
+		vsnd_duration = 1.28775
 	}
 	hornet_ally_tvspirit_killed_in_lane_01_hero_3d = 
 	{
@@ -328,7 +328,7 @@
 		[
 			"sounds/vo/hornet/hornet_ally_tvspirit_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.612500
+		vsnd_duration = 1.6125
 	}
 	hornet_ally_vampirebat_killed_in_lane_01_hero_3d = 
 	{
@@ -338,7 +338,7 @@
 		[
 			"sounds/vo/hornet/hornet_ally_vampirebat_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.231750
+		vsnd_duration = 1.23175
 	}
 	hornet_ally_viper_killed_in_lane_01_hero_3d = 
 	{
@@ -428,7 +428,7 @@
 		[
 			"sounds/vo/hornet/hornet_be_careful_01.vsnd",
 		]
-		vsnd_duration = 1.318000
+		vsnd_duration = 1.318
 	}
 	hornet_be_careful_02_hero_3d = 
 	{
@@ -498,7 +498,7 @@
 		[
 			"sounds/vo/hornet/hornet_close_call_05.vsnd",
 		]
-		vsnd_duration = 1.441000
+		vsnd_duration = 1.441
 	}
 	hornet_congrats_01_hero_3d = 
 	{
@@ -618,7 +618,7 @@
 		[
 			"sounds/vo/hornet/hornet_desperation_power2_01.vsnd",
 		]
-		vsnd_duration = 1.324830
+		vsnd_duration = 1.32483
 	}
 	hornet_desperation_power2_02_ability_3d = 
 	{
@@ -1028,7 +1028,7 @@
 		[
 			"sounds/vo/hornet/emote/hornet_effort_melee_big_02.vsnd",
 		]
-		vsnd_duration = 0.748980
+		vsnd_duration = 0.74898
 	}
 	hornet_effort_melee_big_02_emote_melee_effort_3d = 
 	{
@@ -1038,7 +1038,7 @@
 		[
 			"sounds/vo/hornet/emote/hornet_effort_melee_big_02.vsnd",
 		]
-		vsnd_duration = 0.748980
+		vsnd_duration = 0.74898
 	}
 	hornet_effort_melee_big_03_emote_effort_3d = 
 	{
@@ -1248,7 +1248,7 @@
 		[
 			"sounds/vo/hornet/emote/hornet_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.524150
+		vsnd_duration = 0.52415
 	}
 	hornet_effort_melee_small_05_emote_melee_effort_3d = 
 	{
@@ -1258,7 +1258,7 @@
 		[
 			"sounds/vo/hornet/emote/hornet_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.524150
+		vsnd_duration = 0.52415
 	}
 	hornet_effort_melee_small_06_emote_effort_3d = 
 	{
@@ -1388,7 +1388,7 @@
 		[
 			"sounds/vo/hornet/hornet_hunt_01.vsnd",
 		]
-		vsnd_duration = 2.002250
+		vsnd_duration = 2.00225
 	}
 	hornet_hunt_02_hero_3d = 
 	{
@@ -1478,7 +1478,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_anyhero_02.vsnd",
 		]
-		vsnd_duration = 0.841950
+		vsnd_duration = 0.84195
 	}
 	hornet_kill_anyhero_03_hero_3d = 
 	{
@@ -1518,7 +1518,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_anyhero_06.vsnd",
 		]
-		vsnd_duration = 1.880930
+		vsnd_duration = 1.88093
 	}
 	hornet_kill_anyhero_07_hero_3d = 
 	{
@@ -1658,7 +1658,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_atlas_05.vsnd",
 		]
-		vsnd_duration = 1.978250
+		vsnd_duration = 1.97825
 	}
 	hornet_kill_bebop_01_hero_3d = 
 	{
@@ -1728,7 +1728,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_bookworm_02.vsnd",
 		]
-		vsnd_duration = 2.303750
+		vsnd_duration = 2.30375
 	}
 	hornet_kill_bookworm_03_hero_3d = 
 	{
@@ -1958,7 +1958,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_dynamo_05.vsnd",
 		]
-		vsnd_duration = 3.459750
+		vsnd_duration = 3.45975
 	}
 	hornet_kill_forge_01_hero_3d = 
 	{
@@ -2008,7 +2008,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_forge_05.vsnd",
 		]
-		vsnd_duration = 1.463750
+		vsnd_duration = 1.46375
 	}
 	hornet_kill_frank_01_hero_3d = 
 	{
@@ -2038,7 +2038,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_frank_03.vsnd",
 		]
-		vsnd_duration = 2.238000
+		vsnd_duration = 2.238
 	}
 	hornet_kill_frank_04_hero_3d = 
 	{
@@ -2068,7 +2068,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_ghost_01.vsnd",
 		]
-		vsnd_duration = 1.694750
+		vsnd_duration = 1.69475
 	}
 	hornet_kill_ghost_02_hero_3d = 
 	{
@@ -2228,7 +2228,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_inferno_01.vsnd",
 		]
-		vsnd_duration = 1.547750
+		vsnd_duration = 1.54775
 	}
 	hornet_kill_inferno_02_hero_3d = 
 	{
@@ -2258,7 +2258,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_inferno_04.vsnd",
 		]
-		vsnd_duration = 1.871500
+		vsnd_duration = 1.8715
 	}
 	hornet_kill_inferno_05_hero_3d = 
 	{
@@ -2318,7 +2318,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_kelvin_05.vsnd",
 		]
-		vsnd_duration = 1.417000
+		vsnd_duration = 1.417
 	}
 	hornet_kill_krill_01_hero_3d = 
 	{
@@ -2368,7 +2368,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_krill_05.vsnd",
 		]
-		vsnd_duration = 2.282750
+		vsnd_duration = 2.28275
 	}
 	hornet_kill_lash_01_hero_3d = 
 	{
@@ -2478,7 +2478,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_nano_01.vsnd",
 		]
-		vsnd_duration = 1.942750
+		vsnd_duration = 1.94275
 	}
 	hornet_kill_nano_02_hero_3d = 
 	{
@@ -2628,7 +2628,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_punkgoat_01.vsnd",
 		]
-		vsnd_duration = 3.413250
+		vsnd_duration = 3.41325
 	}
 	hornet_kill_punkgoat_02_hero_3d = 
 	{
@@ -2738,7 +2738,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_synth_02.vsnd",
 		]
-		vsnd_duration = 2.748250
+		vsnd_duration = 2.74825
 	}
 	hornet_kill_synth_03_hero_3d = 
 	{
@@ -2958,7 +2958,7 @@
 		[
 			"sounds/vo/hornet/hornet_kill_viscous_04.vsnd",
 		]
-		vsnd_duration = 3.088750
+		vsnd_duration = 3.08875
 	}
 	hornet_kill_viscous_05_hero_3d = 
 	{
@@ -3268,7 +3268,7 @@
 		[
 			"sounds/vo/hornet/hornet_killstreak_start_02.vsnd",
 		]
-		vsnd_duration = 2.977250
+		vsnd_duration = 2.97725
 	}
 	hornet_killstreak_start_02_hero_announcer = 
 	{
@@ -3278,7 +3278,7 @@
 		[
 			"sounds/vo/hornet/hornet_killstreak_start_02.vsnd",
 		]
-		vsnd_duration = 2.977250
+		vsnd_duration = 2.97725
 	}
 	hornet_killstreak_start_03_hero_3d = 
 	{
@@ -3428,7 +3428,7 @@
 		[
 			"sounds/vo/hornet/hornet_low_health_warning.vsnd",
 		]
-		vsnd_duration = 1.292500
+		vsnd_duration = 1.2925
 	}
 	hornet_match_start_astro_hornet_convo01_02_hero_zipline_3d = 
 	{
@@ -3478,7 +3478,7 @@
 		[
 			"sounds/vo/hornet/hornet_match_start_astro_hornet_convo03_02.vsnd",
 		]
-		vsnd_duration = 3.527710
+		vsnd_duration = 3.52771
 	}
 	hornet_match_start_astro_hornet_convo03_04_hero_zipline_3d = 
 	{
@@ -3608,7 +3608,7 @@
 		[
 			"sounds/vo/hornet/hornet_match_start_drifter_hornet_convo02_02.vsnd",
 		]
-		vsnd_duration = 2.440500
+		vsnd_duration = 2.4405
 	}
 	hornet_match_start_drifter_hornet_convo03_02_hero_zipline_3d = 
 	{
@@ -3758,7 +3758,7 @@
 		[
 			"sounds/vo/hornet/hornet_match_start_haze_hornet_convo02_01.vsnd",
 		]
-		vsnd_duration = 1.538390
+		vsnd_duration = 1.53839
 	}
 	hornet_match_start_haze_hornet_convo02_03_hero_zipline_3d = 
 	{
@@ -4098,7 +4098,7 @@
 		[
 			"sounds/vo/hornet/hornet_match_start_orion_hornet_convo03_01.vsnd",
 		]
-		vsnd_duration = 6.359660
+		vsnd_duration = 6.35966
 	}
 	hornet_match_start_orion_hornet_convo03_03_hero_zipline_3d = 
 	{
@@ -4188,7 +4188,7 @@
 		[
 			"sounds/vo/hornet/hornet_match_start_tengu_hornet_convo02_01.vsnd",
 		]
-		vsnd_duration = 1.842970
+		vsnd_duration = 1.84297
 	}
 	hornet_match_start_tengu_hornet_convo02_03_hero_zipline_3d = 
 	{
@@ -4508,7 +4508,7 @@
 		[
 			"sounds/vo/hornet/emote/hornet_pain_big_04.vsnd",
 		]
-		vsnd_duration = 0.674150
+		vsnd_duration = 0.67415
 	}
 	hornet_pain_big_05_emote_pain_3d = 
 	{
@@ -4538,7 +4538,7 @@
 		[
 			"sounds/vo/hornet/emote/hornet_pain_big_07.vsnd",
 		]
-		vsnd_duration = 0.714240
+		vsnd_duration = 0.71424
 	}
 	hornet_pain_big_08_emote_pain_3d = 
 	{
@@ -4798,7 +4798,7 @@
 		[
 			"sounds/vo/hornet/emote/hornet_pain_small_06.vsnd",
 		]
-		vsnd_duration = 0.880680
+		vsnd_duration = 0.88068
 	}
 	hornet_pain_small_07_emote_pain_3d = 
 	{
@@ -4818,7 +4818,7 @@
 		[
 			"sounds/vo/hornet/emote/hornet_pain_small_08.vsnd",
 		]
-		vsnd_duration = 0.686780
+		vsnd_duration = 0.68678
 	}
 	hornet_pain_small_09_emote_pain_3d = 
 	{
@@ -5148,7 +5148,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_atlas_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.350000
+		vsnd_duration = 1.35
 	}
 	hornet_ping_atlas_check_items_ping_2d = 
 	{
@@ -5218,7 +5218,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_atlas_under_garage.vsnd",
 		]
-		vsnd_duration = 1.554150
+		vsnd_duration = 1.55415
 	}
 	hornet_ping_atlas_was_here_ping_2d = 
 	{
@@ -5298,7 +5298,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_attack_cadence.vsnd",
 		]
-		vsnd_duration = 1.500340
+		vsnd_duration = 1.50034
 	}
 	hornet_ping_attack_calico_ping_2d = 
 	{
@@ -5368,7 +5368,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_attack_enemy.vsnd",
 		]
-		vsnd_duration = 1.398980
+		vsnd_duration = 1.39898
 	}
 	hornet_ping_attack_forge_ping_2d = 
 	{
@@ -5398,7 +5398,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_attack_frank.vsnd",
 		]
-		vsnd_duration = 1.293500
+		vsnd_duration = 1.2935
 	}
 	hornet_ping_attack_geist_ping_2d = 
 	{
@@ -5428,7 +5428,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_attack_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.535170
+		vsnd_duration = 1.53517
 	}
 	hornet_ping_attack_graf_ping_2d = 
 	{
@@ -5488,7 +5488,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_attack_infernus.vsnd",
 		]
-		vsnd_duration = 1.671020
+		vsnd_duration = 1.67102
 	}
 	hornet_ping_attack_ivy_ping_2d = 
 	{
@@ -5598,7 +5598,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_attack_priest.vsnd",
 		]
-		vsnd_duration = 1.467250
+		vsnd_duration = 1.46725
 	}
 	hornet_ping_attack_punkgoat_ping_2d = 
 	{
@@ -5628,7 +5628,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_attack_shiv.vsnd",
 		]
-		vsnd_duration = 1.394580
+		vsnd_duration = 1.39458
 	}
 	hornet_ping_attack_skyrunner_ping_2d = 
 	{
@@ -5748,7 +5748,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_attack_yamato.vsnd",
 		]
-		vsnd_duration = 1.499320
+		vsnd_duration = 1.49932
 	}
 	hornet_ping_avatar_under_attack_ping_2d = 
 	{
@@ -5758,7 +5758,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_avatar_under_attack.vsnd",
 		]
-		vsnd_duration = 1.748390
+		vsnd_duration = 1.74839
 	}
 	hornet_ping_be_back_soon_ping_2d = 
 	{
@@ -5898,7 +5898,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_bookworm_almost_respawn_alt.vsnd",
 		]
-		vsnd_duration = 1.347000
+		vsnd_duration = 1.347
 	}
 	hornet_ping_bookworm_check_items_alt_ping_2d = 
 	{
@@ -5908,7 +5908,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_bookworm_check_items_alt.vsnd",
 		]
-		vsnd_duration = 1.403500
+		vsnd_duration = 1.4035
 	}
 	hornet_ping_bookworm_dead_alt_ping_2d = 
 	{
@@ -6078,7 +6078,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_calico_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.435760
+		vsnd_duration = 1.43576
 	}
 	hornet_ping_calico_under_garage_ping_2d = 
 	{
@@ -6228,7 +6228,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_can_heal_frank.vsnd",
 		]
-		vsnd_duration = 1.636000
+		vsnd_duration = 1.636
 	}
 	hornet_ping_can_heal_ghost_ping_2d = 
 	{
@@ -6288,7 +6288,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_can_heal_kelvin.vsnd",
 		]
-		vsnd_duration = 1.597460
+		vsnd_duration = 1.59746
 	}
 	hornet_ping_can_heal_krill_ping_2d = 
 	{
@@ -6368,7 +6368,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_can_heal_synth.vsnd",
 		]
-		vsnd_duration = 1.411610
+		vsnd_duration = 1.41161
 	}
 	hornet_ping_can_heal_tengu_ping_2d = 
 	{
@@ -6438,7 +6438,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_can_heal_yamato.vsnd",
 		]
-		vsnd_duration = 1.610000
+		vsnd_duration = 1.61
 	}
 	hornet_ping_careful_astro_01_ping_2d = 
 	{
@@ -6608,7 +6608,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_careful_calico_01.vsnd",
 		]
-		vsnd_duration = 1.092970
+		vsnd_duration = 1.09297
 	}
 	hornet_ping_careful_calico_02_ping_2d = 
 	{
@@ -6728,7 +6728,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_careful_druid_01.vsnd",
 		]
-		vsnd_duration = 1.061000
+		vsnd_duration = 1.061
 	}
 	hornet_ping_careful_dynamo_01_ping_2d = 
 	{
@@ -7078,7 +7078,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_careful_lash_02.vsnd",
 		]
-		vsnd_duration = 1.012290
+		vsnd_duration = 1.01229
 	}
 	hornet_ping_careful_lash_03_ping_2d = 
 	{
@@ -7088,7 +7088,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_careful_lash_03.vsnd",
 		]
-		vsnd_duration = 1.183220
+		vsnd_duration = 1.18322
 	}
 	hornet_ping_careful_mirage_01_ping_2d = 
 	{
@@ -7258,7 +7258,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_careful_succubus_01.vsnd",
 		]
-		vsnd_duration = 1.222250
+		vsnd_duration = 1.22225
 	}
 	hornet_ping_careful_swan_01_ping_2d = 
 	{
@@ -7288,7 +7288,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_careful_synth_02.vsnd",
 		]
-		vsnd_duration = 1.075170
+		vsnd_duration = 1.07517
 	}
 	hornet_ping_careful_synth_03_ping_2d = 
 	{
@@ -7298,7 +7298,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_careful_synth_03.vsnd",
 		]
-		vsnd_duration = 1.143810
+		vsnd_duration = 1.14381
 	}
 	hornet_ping_careful_tengu_01_ping_2d = 
 	{
@@ -7558,7 +7558,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_chrono_in_mid.vsnd",
 		]
-		vsnd_duration = 1.545760
+		vsnd_duration = 1.54576
 	}
 	hornet_ping_chrono_missing_01_ping_2d = 
 	{
@@ -7758,7 +7758,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_doorman_missing_01.vsnd",
 		]
-		vsnd_duration = 1.398500
+		vsnd_duration = 1.3985
 	}
 	hornet_ping_doorman_on_top_of_garage_ping_2d = 
 	{
@@ -7938,7 +7938,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_dynamo_in_mid.vsnd",
 		]
-		vsnd_duration = 1.198640
+		vsnd_duration = 1.19864
 	}
 	hornet_ping_dynamo_missing_01_ping_2d = 
 	{
@@ -7968,7 +7968,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_dynamo_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.463560
+		vsnd_duration = 1.46356
 	}
 	hornet_ping_dynamo_under_garage_ping_2d = 
 	{
@@ -7998,7 +7998,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_enemy_take_mid.vsnd",
 		]
-		vsnd_duration = 1.094830
+		vsnd_duration = 1.09483
 	}
 	hornet_ping_flank_ping_2d = 
 	{
@@ -8038,7 +8038,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_forge_dead.vsnd",
 		]
-		vsnd_duration = 1.211270
+		vsnd_duration = 1.21127
 	}
 	hornet_ping_forge_in_mid_ping_2d = 
 	{
@@ -8088,7 +8088,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_forge_under_garage.vsnd",
 		]
-		vsnd_duration = 1.817370
+		vsnd_duration = 1.81737
 	}
 	hornet_ping_forge_was_here_ping_2d = 
 	{
@@ -8108,7 +8108,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_fortuna_missing_01.vsnd",
 		]
-		vsnd_duration = 1.312250
+		vsnd_duration = 1.31225
 	}
 	hornet_ping_frank_almost_respawn_ping_2d = 
 	{
@@ -8208,7 +8208,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_gank.vsnd",
 		]
-		vsnd_duration = 1.163220
+		vsnd_duration = 1.16322
 	}
 	hornet_ping_ghost_almost_respawn_ping_2d = 
 	{
@@ -8238,7 +8238,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_ghost_dead.vsnd",
 		]
-		vsnd_duration = 1.242970
+		vsnd_duration = 1.24297
 	}
 	hornet_ping_ghost_in_mid_ping_2d = 
 	{
@@ -8258,7 +8258,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_ghost_missing_01.vsnd",
 		]
-		vsnd_duration = 1.176440
+		vsnd_duration = 1.17644
 	}
 	hornet_ping_ghost_on_top_of_garage_ping_2d = 
 	{
@@ -8338,7 +8338,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_gigawatt_in_mid.vsnd",
 		]
-		vsnd_duration = 1.297800
+		vsnd_duration = 1.2978
 	}
 	hornet_ping_gigawatt_missing_01_ping_2d = 
 	{
@@ -8348,7 +8348,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_gigawatt_missing_01.vsnd",
 		]
-		vsnd_duration = 1.198050
+		vsnd_duration = 1.19805
 	}
 	hornet_ping_gigawatt_on_top_of_garage_ping_2d = 
 	{
@@ -8598,7 +8598,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_haze_was_here.vsnd",
 		]
-		vsnd_duration = 1.019070
+		vsnd_duration = 1.01907
 	}
 	hornet_ping_headed_blue_01_ping_2d = 
 	{
@@ -8678,7 +8678,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_headed_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.078640
+		vsnd_duration = 1.07864
 	}
 	hornet_ping_heal_ready_ping_2d = 
 	{
@@ -8818,7 +8818,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_ignore_frank.vsnd",
 		]
-		vsnd_duration = 1.133500
+		vsnd_duration = 1.1335
 	}
 	hornet_ping_ignore_ghost_ping_2d = 
 	{
@@ -8948,7 +8948,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_ignore_shiv.vsnd",
 		]
-		vsnd_duration = 1.170000
+		vsnd_duration = 1.17
 	}
 	hornet_ping_ignore_synth_ping_2d = 
 	{
@@ -9078,7 +9078,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_inferno_in_mid.vsnd",
 		]
-		vsnd_duration = 1.404150
+		vsnd_duration = 1.40415
 	}
 	hornet_ping_inferno_missing_01_ping_2d = 
 	{
@@ -9118,7 +9118,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_inferno_under_garage.vsnd",
 		]
-		vsnd_duration = 1.907460
+		vsnd_duration = 1.90746
 	}
 	hornet_ping_inferno_was_here_ping_2d = 
 	{
@@ -9158,7 +9158,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_ivy_in_mid.vsnd",
 		]
-		vsnd_duration = 1.200340
+		vsnd_duration = 1.20034
 	}
 	hornet_ping_ivy_missing_01_ping_2d = 
 	{
@@ -9388,7 +9388,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_krill_missing_01.vsnd",
 		]
-		vsnd_duration = 1.016440
+		vsnd_duration = 1.01644
 	}
 	hornet_ping_krill_on_top_of_garage_ping_2d = 
 	{
@@ -9478,7 +9478,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_lash_missing_01.vsnd",
 		]
-		vsnd_duration = 1.224240
+		vsnd_duration = 1.22424
 	}
 	hornet_ping_lash_on_top_of_garage_ping_2d = 
 	{
@@ -9908,7 +9908,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_negative_01.vsnd",
 		]
-		vsnd_duration = 0.626190
+		vsnd_duration = 0.62619
 	}
 	hornet_ping_negative_02_ping_2d = 
 	{
@@ -9948,7 +9948,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_nevermind_02.vsnd",
 		]
-		vsnd_duration = 1.339410
+		vsnd_duration = 1.33941
 	}
 	hornet_ping_nevermind_03_ping_2d = 
 	{
@@ -10368,7 +10368,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_punkgoat_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.738000
+		vsnd_duration = 1.738
 	}
 	hornet_ping_punkgoat_on_top_of_mid_ping_2d = 
 	{
@@ -10428,7 +10428,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_push_green_01.vsnd",
 		]
-		vsnd_duration = 1.378050
+		vsnd_duration = 1.37805
 	}
 	hornet_ping_push_green_02_ping_2d = 
 	{
@@ -10598,7 +10598,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_saw_bebop.vsnd",
 		]
-		vsnd_duration = 1.204490
+		vsnd_duration = 1.20449
 	}
 	hornet_ping_saw_bookworm_alt_ping_2d = 
 	{
@@ -10628,7 +10628,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_saw_calico.vsnd",
 		]
-		vsnd_duration = 1.151020
+		vsnd_duration = 1.15102
 	}
 	hornet_ping_saw_chrono_ping_2d = 
 	{
@@ -10788,7 +10788,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_saw_orion.vsnd",
 		]
-		vsnd_duration = 1.350340
+		vsnd_duration = 1.35034
 	}
 	hornet_ping_saw_priest_ping_2d = 
 	{
@@ -10898,7 +10898,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_saw_wrecker.vsnd",
 		]
-		vsnd_duration = 0.993900
+		vsnd_duration = 0.9939
 	}
 	hornet_ping_saw_yamato_ping_2d = 
 	{
@@ -11158,7 +11158,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_see_chrono.vsnd",
 		]
-		vsnd_duration = 1.413220
+		vsnd_duration = 1.41322
 	}
 	hornet_ping_see_doorman_01_ping_2d = 
 	{
@@ -11348,7 +11348,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_see_frank_01.vsnd",
 		]
-		vsnd_duration = 1.072000
+		vsnd_duration = 1.072
 	}
 	hornet_ping_see_frank_on_bridge_ping_2d = 
 	{
@@ -11358,7 +11358,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_see_frank_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.280500
+		vsnd_duration = 1.2805
 	}
 	hornet_ping_see_frank_on_roof_ping_2d = 
 	{
@@ -11488,7 +11488,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_see_haze_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.246780
+		vsnd_duration = 1.24678
 	}
 	hornet_ping_see_haze_on_roof_ping_2d = 
 	{
@@ -11828,7 +11828,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_see_punkgoat_on_roof.vsnd",
 		]
-		vsnd_duration = 1.235250
+		vsnd_duration = 1.23525
 	}
 	hornet_ping_see_shiv_01_ping_2d = 
 	{
@@ -11858,7 +11858,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_see_shiv_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.255760
+		vsnd_duration = 1.25576
 	}
 	hornet_ping_see_shiv_on_roof_ping_2d = 
 	{
@@ -11948,7 +11948,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_see_tengu_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.222290
+		vsnd_duration = 1.22229
 	}
 	hornet_ping_see_tengu_on_roof_ping_2d = 
 	{
@@ -12298,7 +12298,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_silence_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.957370
+		vsnd_duration = 1.95737
 	}
 	hornet_ping_silence_not_ready_ping_2d = 
 	{
@@ -12508,7 +12508,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_stun_ghost_01.vsnd",
 		]
-		vsnd_duration = 1.082290
+		vsnd_duration = 1.08229
 	}
 	hornet_ping_stun_gigawatt_01_ping_2d = 
 	{
@@ -12658,7 +12658,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_stun_vampirebat_01.vsnd",
 		]
-		vsnd_duration = 1.163250
+		vsnd_duration = 1.16325
 	}
 	hornet_ping_stun_viscous_01_ping_2d = 
 	{
@@ -12738,7 +12738,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_synth_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.547120
+		vsnd_duration = 1.54712
 	}
 	hornet_ping_synth_check_items_ping_2d = 
 	{
@@ -12938,7 +12938,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_tengu_under_garage.vsnd",
 		]
-		vsnd_duration = 1.535510
+		vsnd_duration = 1.53551
 	}
 	hornet_ping_tengu_was_here_ping_2d = 
 	{
@@ -13098,7 +13098,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_use_ability4_03.vsnd",
 		]
-		vsnd_duration = 1.592540
+		vsnd_duration = 1.59254
 	}
 	hornet_ping_use_ability4_04_ping_2d = 
 	{
@@ -13118,7 +13118,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_use_ability4_05.vsnd",
 		]
-		vsnd_duration = 1.438730
+		vsnd_duration = 1.43873
 	}
 	hornet_ping_use_ability4_06_ping_2d = 
 	{
@@ -13288,7 +13288,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_vampirebat_dead.vsnd",
 		]
-		vsnd_duration = 1.124250
+		vsnd_duration = 1.12425
 	}
 	hornet_ping_vampirebat_in_mid_ping_2d = 
 	{
@@ -13338,7 +13338,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_vampirebat_under_garage.vsnd",
 		]
-		vsnd_duration = 1.573750
+		vsnd_duration = 1.57375
 	}
 	hornet_ping_vampirebat_was_here_ping_2d = 
 	{
@@ -13388,7 +13388,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_viscous_in_mid.vsnd",
 		]
-		vsnd_duration = 1.565510
+		vsnd_duration = 1.56551
 	}
 	hornet_ping_viscous_missing_01_ping_2d = 
 	{
@@ -13498,7 +13498,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_warden_missing_01.vsnd",
 		]
-		vsnd_duration = 1.194830
+		vsnd_duration = 1.19483
 	}
 	hornet_ping_warden_on_top_of_garage_ping_2d = 
 	{
@@ -13598,7 +13598,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_with_atlas.vsnd",
 		]
-		vsnd_duration = 1.228980
+		vsnd_duration = 1.22898
 	}
 	hornet_ping_with_bebop_ping_2d = 
 	{
@@ -13678,7 +13678,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_with_dynamo.vsnd",
 		]
-		vsnd_duration = 1.379660
+		vsnd_duration = 1.37966
 	}
 	hornet_ping_with_forge_ping_2d = 
 	{
@@ -13798,7 +13798,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_with_orion.vsnd",
 		]
-		vsnd_duration = 1.436440
+		vsnd_duration = 1.43644
 	}
 	hornet_ping_with_priest_ping_2d = 
 	{
@@ -13848,7 +13848,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_with_tengu.vsnd",
 		]
-		vsnd_duration = 1.210340
+		vsnd_duration = 1.21034
 	}
 	hornet_ping_with_vampirebat_ping_2d = 
 	{
@@ -13938,7 +13938,7 @@
 		[
 			"sounds/vo/hornet/ping/hornet_ping_wraith_dead.vsnd",
 		]
-		vsnd_duration = 1.218050
+		vsnd_duration = 1.21805
 	}
 	hornet_ping_wraith_in_mid_ping_2d = 
 	{
@@ -14238,7 +14238,7 @@
 		[
 			"sounds/vo/hornet/hornet_see_enemy_metal_skin_03.vsnd",
 		]
-		vsnd_duration = 1.868750
+		vsnd_duration = 1.86875
 	}
 	hornet_select_01_hero_3d = 
 	{
@@ -14248,7 +14248,7 @@
 		[
 			"sounds/vo/hornet/hornet_select_01.vsnd",
 		]
-		vsnd_duration = 2.920680
+		vsnd_duration = 2.92068
 	}
 	hornet_select_02_hero_3d = 
 	{
@@ -14308,7 +14308,7 @@
 		[
 			"sounds/vo/hornet/hornet_select_07.vsnd",
 		]
-		vsnd_duration = 11.010340
+		vsnd_duration = 11.01034
 	}
 	hornet_select_08_hero_3d = 
 	{
@@ -14648,7 +14648,7 @@
 		[
 			"sounds/vo/hornet/hornet_upgrade_power1_04.vsnd",
 		]
-		vsnd_duration = 2.114490
+		vsnd_duration = 2.11449
 	}
 	hornet_upgrade_power1_05_hero_3d = 
 	{
@@ -14718,7 +14718,7 @@
 		[
 			"sounds/vo/hornet/hornet_upgrade_power2_01.vsnd",
 		]
-		vsnd_duration = 3.140680
+		vsnd_duration = 3.14068
 	}
 	hornet_upgrade_power2_02_hero_3d = 
 	{
@@ -14828,7 +14828,7 @@
 		[
 			"sounds/vo/hornet/hornet_upgrade_power3_02.vsnd",
 		]
-		vsnd_duration = 2.242970
+		vsnd_duration = 2.24297
 	}
 	hornet_upgrade_power3_03_hero_3d = 
 	{
@@ -15018,7 +15018,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_ability_refresher_01.vsnd",
 		]
-		vsnd_duration = 1.281750
+		vsnd_duration = 1.28175
 	}
 	hornet_use_ability_refresher_02_ability_3d = 
 	{
@@ -15038,7 +15038,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_ability_refresher_03.vsnd",
 		]
-		vsnd_duration = 1.095000
+		vsnd_duration = 1.095
 	}
 	hornet_use_colossus_01_ability_3d = 
 	{
@@ -15058,7 +15058,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_colossus_02.vsnd",
 		]
-		vsnd_duration = 1.943750
+		vsnd_duration = 1.94375
 	}
 	hornet_use_colossus_03_ability_3d = 
 	{
@@ -15248,7 +15248,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_phantom_strike_03.vsnd",
 		]
-		vsnd_duration = 0.951250
+		vsnd_duration = 0.95125
 	}
 	hornet_use_power1_01_ability_3d = 
 	{
@@ -15348,7 +15348,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_power1_10.vsnd",
 		]
-		vsnd_duration = 1.584240
+		vsnd_duration = 1.58424
 	}
 	hornet_use_power2_01_ability_3d = 
 	{
@@ -15468,7 +15468,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_power3_02.vsnd",
 		]
-		vsnd_duration = 1.070590
+		vsnd_duration = 1.07059
 	}
 	hornet_use_power3_03_ability_3d = 
 	{
@@ -15828,7 +15828,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_power4_07_02.vsnd",
 		]
-		vsnd_duration = 1.485420
+		vsnd_duration = 1.48542
 	}
 	hornet_use_power4_07_02_hero_announcer = 
 	{
@@ -15838,7 +15838,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_power4_07_02.vsnd",
 		]
-		vsnd_duration = 1.485420
+		vsnd_duration = 1.48542
 	}
 	hornet_use_power4_07_02_ult_3d = 
 	{
@@ -15848,7 +15848,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_power4_07_02.vsnd",
 		]
-		vsnd_duration = 1.485420
+		vsnd_duration = 1.48542
 	}
 	hornet_use_power4_07_ability_3d = 
 	{
@@ -16188,7 +16188,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_power4_17.vsnd",
 		]
-		vsnd_duration = 1.528390
+		vsnd_duration = 1.52839
 	}
 	hornet_use_power4_17_hero_announcer = 
 	{
@@ -16198,7 +16198,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_power4_17.vsnd",
 		]
-		vsnd_duration = 1.528390
+		vsnd_duration = 1.52839
 	}
 	hornet_use_power4_17_ult_3d = 
 	{
@@ -16208,7 +16208,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_power4_17.vsnd",
 		]
-		vsnd_duration = 1.528390
+		vsnd_duration = 1.52839
 	}
 	hornet_use_power4_18_ability_3d = 
 	{
@@ -16318,7 +16318,7 @@
 		[
 			"sounds/vo/hornet/hornet_use_shadow_weave_02.vsnd",
 		]
-		vsnd_duration = 1.970000
+		vsnd_duration = 1.97
 	}
 	hornet_use_shadow_weave_03_ability_3d = 
 	{

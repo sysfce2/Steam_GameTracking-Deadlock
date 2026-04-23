@@ -3,11 +3,11 @@
 	Calico.Wpn.Fire.Main = 
 	{
 		base = "Base.Weapon.MachineGun"
-		volume = 2.000000
-		volume_fade_out = 0.200000
-		low_ammo_vol_offset_db = 2.000000
-		tail_vol_offset_db = -4.000000
-		last_shot_vol_offset_db = 1.000000
+		volume = 2.0
+		volume_fade_out = 0.2
+		low_ammo_vol_offset_db = 2.0
+		tail_vol_offset_db = -4.0
+		last_shot_vol_offset_db = 1.0
 		vsnd_files_low_ammo = 
 		[
 			"sounds/weapons/nano/calico_weapon_fire_mech_01.vsnd",
@@ -36,23 +36,13 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.999681,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.999681, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files_last_shot = 
@@ -64,8 +54,8 @@
 	Calico.Wpn.Fire.First = 
 	{
 		base = "Calico.Wpn.Fire.Main"
-		transient_offset_db = 6.000000
-		limiter_max = 0.000000
+		transient_offset_db = 6.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/nano/calico_weapon_fire_first_01.vsnd",
@@ -84,7 +74,7 @@
 	Calico.Wpn.Fire.Release = 
 	{
 		base = "Base.Weapon.Tail"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files_tail = 
 		[
 			"sounds/weapons/nano/calico_weapon_fire_release_01.vsnd",
@@ -100,44 +90,24 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-5.999681,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -5.999681, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 1.647732
@@ -149,22 +119,22 @@
 	Calico.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = "sounds/weapons/nano/zoomin.vsnd"
 		vsnd_duration = 0.247166
 	}
 	Calico.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -12.000000
+		volume = -12.0
 		vsnd_files = "sounds/weapons/nano/zoomout.vsnd"
 		vsnd_duration = 0.418118
 	}
 	Calico.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -1.000000
-		mono_downmix_enabled = 0.000000
+		volume = -1.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/nano/calico_wpn_reload_start_01.vsnd",
@@ -176,8 +146,8 @@
 	Calico.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -1.000000
-		mono_downmix_enabled = 0.000000
+		volume = -1.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/nano/calico_wpn_reload_end_01.vsnd",
@@ -189,18 +159,18 @@
 	Calico.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = 0.000000
+		volume = 0.0
 	}
 	Calico.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Calico.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand"
-		volume = -1.000000
-		track_2.vsnd_track_vol_offset_db = -4.000000
+		volume = -1.0
+		track_2.vsnd_track_vol_offset_db = -4.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/nano/nano_r_01.vsnd",
@@ -308,7 +278,7 @@
 	Calico.Footstep = 
 	{
 		base = "Base.Footsteps"
-		track_1.vsnd_track_vol_offset_db = -7.000000
+		track_1.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/nano/nano_r_01.vsnd",
@@ -335,9 +305,9 @@
 	Calico.GloomBomb.Explode = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 2.000000
-		volume_offset_player = -2.000000
-		pitch = 1.100000
+		volume = 2.0
+		volume_offset_player = -2.0
+		pitch = 1.1
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/nano_gloombomb_explode_01.vsnd",
@@ -353,46 +323,46 @@
 	Calico.GloomBomb.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = 2.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = "sounds/abilities/nano/nano_gloombomb_cast.vsnd"
 		vsnd_duration = 0.916213
 	}
 	Calico.GloomBomb.Projectile.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -2.000000
-		pitch = 0.870000
-		delay_rand_max = -6.000000
-		param_envelope_enabled = 1.000000
-		volume_fade_in = 0.300000
-		doppler_factor = 1.000000
-		volume_offset_player = -6.000000
+		volume = -2.0
+		pitch = 0.87
+		delay_rand_max = -6.0
+		param_envelope_enabled = 1.0
+		volume_fade_in = 0.3
+		doppler_factor = 1.0
+		volume_offset_player = -6.0
 		vsnd_files = "sounds/abilities/nano/nano_gloombomb_proj_lp.vsnd"
 		vsnd_duration = 3.704127
 	}
 	Calico.GloomBomb.Projectile.Timer = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 2.000000
-		pitch = 0.850000
-		param_envelope_enabled = 1.000000
-		pitch_rand_min = -0.100000
-		volume_fade_in = 0.300000
-		delay = 0.000000
-		delay_rand_min = 0.300000
-		doppler_factor = 3.000000
-		volume_offset_player = -6.000000
+		volume = 2.0
+		pitch = 0.85
+		param_envelope_enabled = 1.0
+		pitch_rand_min = -0.1
+		volume_fade_in = 0.3
+		delay = 0.0
+		delay_rand_min = 0.3
+		doppler_factor = 3.0
+		volume_offset_player = -6.0
 		vsnd_files = "sounds/abilities/nano/nano_gloombomb_timer.vsnd"
 		vsnd_duration = 0.954921
 	}
 	Calico.Gloombomb.Impact_Player = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 6.000000
-		volume_offset_attacker_db = 6.000000
-		pitch = 1.100000
+		volume = 6.0
+		volume_offset_attacker_db = 6.0
+		pitch = 1.1
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/nano_gloombomb_stick_01.vsnd",
@@ -402,12 +372,12 @@
 			"sounds/abilities/nano/nano_gloombomb_stick_05.vsnd",
 			"sounds/abilities/nano/nano_gloombomb_stick_06.vsnd",
 		]
-		vsnd_duration = 1.204240
+		vsnd_duration = 1.20424
 	}
 	Calico.Gloombomb.Impact_World = 
 	{
 		base = "Base.Ability"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/nano_gloombomb_impact_world_01.vsnd",
@@ -421,14 +391,14 @@
 	Calico.LeapingSlash.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/nano/nano_leapingslash_cast.vsnd"
 		vsnd_duration = 1.997211
 	}
 	Calico.LeapingSlash.Cast.Delay = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/nano_leapingslash_cast_delay_01.vsnd",
@@ -439,8 +409,8 @@
 	Calico.LeapingSlash.Impact = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 8.000000
-		pitch = 0.900000
+		volume = 8.0
+		pitch = 0.9
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/nano_leapingslash_impact_01.vsnd",
@@ -453,33 +423,33 @@
 	Calico.Ava.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		pitch_rand_max = 0.100000
-		pitch_rand_min = -0.100000
-		pitch = 1.100000
+		volume = 0.0
+		pitch_rand_max = 0.1
+		pitch_rand_min = -0.1
+		pitch = 1.1
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/a3_rollermine/cat_mine_meow_01.vsnd",
 			"sounds/abilities/nano/a3_rollermine/cat_mine_meow_02.vsnd",
 			"sounds/abilities/nano/a3_rollermine/cat_mine_meow_03.vsnd",
 		]
-		vsnd_duration = 2.651950
+		vsnd_duration = 2.65195
 	}
 	Calico.Ava.Expire = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		pitch_rand_max = 0.100000
-		pitch_rand_min = -0.100000
+		volume = 0.0
+		pitch_rand_max = 0.1
+		pitch_rand_min = -0.1
 		vsnd_files = "sounds/abilities/nano/a3_rollermine/cat_mine_expire.vsnd"
 	}
 	Calico.Ava.Meow = 
 	{
 		base = "Base.Ability"
-		volume = -19.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		block_duration = 3.000000
+		volume = -19.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		block_duration = 3.0
 		position_force_from_player = true
 		vsnd_files = 
 		[
@@ -499,14 +469,14 @@
 			"sounds/abilities/nano/nano_ava_meow_14.vsnd",
 			"sounds/abilities/nano/nano_ava_meow_15.vsnd",
 		]
-		vsnd_duration = 1.605170
+		vsnd_duration = 1.60517
 	}
 	Calico.Ava.Meow.Effort = 
 	{
 		base = "Base.Ability"
-		volume = -13.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = -13.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/calico_ava_meow_effort_01.vsnd",
@@ -516,14 +486,14 @@
 			"sounds/abilities/nano/calico_ava_meow_effort_05.vsnd",
 			"sounds/abilities/nano/calico_ava_meow_effort_06.vsnd",
 		]
-		vsnd_duration = 1.177460
+		vsnd_duration = 1.17746
 	}
 	Calico.Ava.Melee = 
 	{
 		base = "Base.Ability"
-		volume = -6.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = -6.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/calico_ava_melee_01.vsnd",
@@ -537,9 +507,9 @@
 	Calico.Ava.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -4.000000
-		pitch_rand_max = 0.100000
-		pitch_rand_min = -0.100000
+		volume = -4.0
+		pitch_rand_max = 0.1
+		pitch_rand_min = -0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/calico_ava_movement_short_01.vsnd",
@@ -552,9 +522,9 @@
 	Calico.Ava.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = -2.000000
-		pitch_rand_max = 0.100000
-		pitch_rand_min = -0.100000
+		volume = -2.0
+		pitch_rand_max = 0.1
+		pitch_rand_min = -0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/calico_ava_movement_long_01.vsnd",
@@ -567,9 +537,9 @@
 	Calico.Ava.Footstep = 
 	{
 		base = "Base.Footsteps"
-		volume = -11.000000
-		volume_hideout_offset_db = -6.000000
-		pitch = 0.950000
+		volume = -11.0
+		volume_hideout_offset_db = -6.0
+		pitch = 0.95
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/nano_ava_step_01.vsnd",
@@ -588,35 +558,35 @@
 	Calico.Ava.Lick_01 = 
 	{
 		base = "Base.Movement"
-		volume_hideout_offset_db = -3.000000
-		volume = -20.000000
-		pitch_rand_max = 0.150000
-		pitch_rand_min = -0.150000
-		volume_offset_opponent = -8.000000
+		volume_hideout_offset_db = -3.0
+		volume = -20.0
+		pitch_rand_max = 0.15
+		pitch_rand_min = -0.15
+		volume_offset_opponent = -8.0
 		vsnd_files = "sounds/abilities/nano/a4_tower/cat_lick_01.vsnd"
 		vsnd_duration = 0.455669
 	}
 	Calico.Ava.Lick_02 = 
 	{
 		base = "Base.Movement"
-		volume_hideout_offset_db = -3.000000
-		volume = -12.000000
-		pitch_rand_max = 0.100000
-		pitch_rand_min = -0.100000
-		pitch = 1.100000
-		volume_offset_opponent = -8.000000
+		volume_hideout_offset_db = -3.0
+		volume = -12.0
+		pitch_rand_max = 0.1
+		pitch_rand_min = -0.1
+		pitch = 1.1
+		volume_offset_opponent = -8.0
 		vsnd_files = "sounds/abilities/nano/a4_tower/cat_lick_02.vsnd"
 		vsnd_duration = 0.457914
 	}
 	Calico.Ava.Purr = 
 	{
 		base = "Base.Movement"
-		volume = -8.000000
-		pitch_rand_max = 0.100000
-		pitch_rand_min = -0.100000
-		pitch = 1.100000
-		volume_offset_team = 2.000000
-		volume_offset_opponent = -10.000000
+		volume = -8.0
+		pitch_rand_max = 0.1
+		pitch_rand_min = -0.1
+		pitch = 1.1
+		volume_offset_team = 2.0
+		volume_offset_opponent = -10.0
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/a4_tower/cat_purr_01.vsnd",
@@ -630,30 +600,30 @@
 	Calico.Shadow.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 2.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = 2.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = "sounds/abilities/nano/nano_shadow_cast.vsnd"
 		vsnd_duration = 2.914716
 	}
 	Calico.Shadow.Explode = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/nano/nano_shadow_explode.vsnd"
 		vsnd_duration = 3.590408
 	}
 	Calico.Shadow.Middle = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 3.000000
-		pitch = 1.000000
-		volume_offset_opponent = 2.000000
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.000000
-		delay = 1.000000
-		delay_rand_min = -1.000000
-		delay_rand_max = -1.000000
+		volume = 3.0
+		pitch = 1.0
+		volume_offset_opponent = 2.0
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.0
+		delay = 1.0
+		delay_rand_min = -1.0
+		delay_rand_max = -1.0
 		vsnd_files = "sounds/abilities/nano/nano_shadow_middle.vsnd"
 		vsnd_duration = 5.599864
 	}
@@ -683,10 +653,10 @@
 	npc_nano_rollermine.Killed = 
 	{
 		base = "Base.Ability"
-		position_force_static = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.050000
+		position_force_static = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.05
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/a3_rollermine/cat_mine_explosion_01.vsnd",
@@ -698,33 +668,33 @@
 	Ability.Nano.RollerMine_Travel_Lp = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/abilities/nano/a3_rollermine/nano_a3_rollermine_travel_lp_01.vsnd"
 		vsnd_duration = 6.306417
 	}
 	Nano.Ritual.Lp = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		spread_min = 44.571430
-		spread_max_value = 0.000000
-		spread_max = 300.000000
-		spread_min_value = 0.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.010000
+		volume = 0.0
+		spread_min = 44.57143
+		spread_max_value = 0.0
+		spread_max = 300.0
+		spread_min_value = 0.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.01
 		vsnd_files = "sounds/abilities/nano/a4_tower/nano_ult_amb_lp2.vsnd"
 		vsnd_duration = 15.333741
 	}
 	Nano.Ritual.Activate = 
 	{
 		base = "Base.Ability"
-		volume = 0.000000
-		spread_min = 0.000000
-		spread_max_value = 0.000000
-		spread_max = 300.000000
-		spread_min_value = 0.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.0
+		spread_min = 0.0
+		spread_max_value = 0.0
+		spread_max = 300.0
+		spread_min_value = 0.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/abilities/nano/a4_tower/statue_activate_01.vsnd",

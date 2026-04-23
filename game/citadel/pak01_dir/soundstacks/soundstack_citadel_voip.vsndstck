@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -27,31 +26,26 @@
 					}
 				}
 			},
-			
 			{
 				name = "get_event_info"
 				operator = "soundevent_get_info"
 			},
-			
 			{
 				name = "set_layer"
 				operator = "soundevent_control"
 				voice_layer = "ui"
 			},
-			
 			{
 				name = "set_builtins"
 				operator = "sos_set_builtins"
 				input_voicegraph = "citadel.voip"
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_execute = "1"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "send_voicegraph_volume"
 				input_execute = "1"
@@ -59,7 +53,6 @@
 				input_name = "player_voip_volume"
 				input = "1.0"
 			},
-			
 			{
 				name = "submix_send"
 				operator = "vmix_mixgraph_send"
@@ -68,13 +61,11 @@
 				input = "1.0"
 				send_type = "named"
 			},
-			
 			{
 				name = "volume_fan"
 				operator = "util_float_to_speakers"
 				input = "1.0"
 			},
-			
 			{
 				name = "start_vsnd"
 				operator = "vmix_voice_start"

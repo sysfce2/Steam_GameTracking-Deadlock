@@ -3,8 +3,8 @@
 	Vindicta.Wpn.Fire = 
 	{
 		base = "Base.Weapon.Rifle"
-		volume = 3.000000
-		last_shot_vol_offset_db = 1.000000
+		volume = 3.0
+		last_shot_vol_offset_db = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/hornet/vindicta_wpn_fire_main_01.vsnd",
@@ -27,62 +27,37 @@
 		]
 		fire_rate_percent_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, -0.059997,
+				0.0, 0.0,
 			],
-			
 			[
-				100.000000,
-				-4.000000,
-				-0.059997,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, -4.0, -0.059997, 0.0,
+				0.0, 0.0,
 			],
 		]
 		continuous_fire_time_curve_db_offset = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-1.001785,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -1.001785,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-3.000000,
-				-1.001785,
-				-1.001785,
-				0.000000,
-				1.000000,
+				3.0, -3.0, -1.001785, -1.001785,
+				0.0, 1.0,
 			],
 		]
-		vsnd_duration = 3.001950
+		vsnd_duration = 3.00195
 	}
 	Vindicta.Wpn.Fire.First = 
 	{
 		base = "Vindicta.Wpn.Fire"
-		limiter_max = 0.000000
-		transient_offset_db = 3.000000
+		limiter_max = 0.0
+		transient_offset_db = 3.0
 		vsnd_files = 
 		[
 			"sounds/weapons/hornet/vindicta_wpn_fire_first_01.vsnd",
@@ -96,14 +71,14 @@
 	Vindicta.Wpn.Impact = 
 	{
 		base = "Base.Bullet.Impact"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = "sounds/common/null.vsnd"
 		vsnd_duration = 0.050023
 	}
 	Vindicta.Wpn.Whizby = 
 	{
 		base = "Base.Bullet.Whizby"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = 
 		[
 			"sounds/weapons/hornet/vindicta_weapon_whizby_groupA-001.vsnd",
@@ -142,19 +117,19 @@
 	Vindicta.Wpn.ZoomIn = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -16.000000
+		volume = -16.0
 		vsnd_files = 
 		[
 			"sounds/weapons/hornet/zoom/vindicta_wpn_zoom_in_01.vsnd",
 			"sounds/weapons/hornet/zoom/vindicta_wpn_zoom_in_02.vsnd",
 			"sounds/weapons/hornet/zoom/vindicta_wpn_zoom_in_03.vsnd",
 		]
-		vsnd_duration = 0.494150
+		vsnd_duration = 0.49415
 	}
 	Vindicta.Wpn.ZoomOut = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -16.000000
+		volume = -16.0
 		vsnd_files = 
 		[
 			"sounds/weapons/hornet/zoom/vindicta_wpn_zoom_out_01.vsnd",
@@ -166,8 +141,8 @@
 	Vindicta.Wpn.Reload.Start = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/hornet/reload/vindicta_wpn_reload_start_01.vsnd",
@@ -179,8 +154,8 @@
 	Vindicta.Wpn.Reload.Mid = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/hornet/reload/vindicta_wpn_reload_mid_01.vsnd",
@@ -192,8 +167,8 @@
 	Vindicta.Wpn.Reload.End = 
 	{
 		base = "Base.Weapon.Foley"
-		volume = -3.000000
-		mono_downmix_enabled = 0.000000
+		volume = -3.0
+		mono_downmix_enabled = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/hornet/reload/vindicta_wpn_reload_end_01.vsnd",
@@ -205,16 +180,16 @@
 	Hornet.Chain.Grenade.Cast = 
 	{
 		base = "Base.Ability"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/hornet/a1_chain_grenade/hornet_a1_chain_grenade_cast_01.vsnd"
-		vsnd_duration = 1.585420
+		vsnd_duration = 1.58542
 	}
 	Hornet.Chain.Grenade.Explode = 
 	{
 		base = "Base.Ability.Detached"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/abilities/hornet/a1_chain_grenade/hornet_a1_chain_grenade_explode_01.vsnd"
-		vsnd_duration = 2.475170
+		vsnd_duration = 2.47517
 	}
 	Hornet.Chain.Grenade.Target = 
 	{
@@ -225,42 +200,42 @@
 	Hornet.Chain.Grenade.Modifier.End = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = "sounds/abilities/hornet/a1_chain_grenade/modifier_end.vsnd"
-		vsnd_duration = 3.989250
+		vsnd_duration = 3.98925
 	}
 	Ability.Hornet.Leap.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
-		volume_offset_team = -3.000000
+		volume = -2.0
+		volume_offset_team = -3.0
 		vsnd_files = "sounds/abilities/hornet/vindicta_flight_cast.vsnd"
 		vsnd_duration = 4.656236
 	}
 	Ability.Hornet.Leap.Lp = 
 	{
 		base = "Base.Ability.Telegraph"
-		volume = -3.000000
-		volume_fade_out = 0.250000
-		volume_fade_in = 0.100000
-		volume_offset_player = -5.000000
-		volume_offset_team = -5.000000
-		delay_rand_max = -20.000000
+		volume = -3.0
+		volume_fade_out = 0.25
+		volume_fade_in = 0.1
+		volume_offset_player = -5.0
+		volume_offset_team = -5.0
+		delay_rand_max = -20.0
 		vsnd_files = "sounds/abilities/hornet/vindicta_flight_loop.vsnd"
-		vsnd_duration = 24.670000
+		vsnd_duration = 24.67
 	}
 	Ability.Hornet.Leap.Expire = 
 	{
 		base = "Base.Ability"
-		volume = -9.000000
-		volume_offset_team = -3.000000
+		volume = -9.0
+		volume_offset_team = -3.0
 		vsnd_files = "sounds/abilities/hornet/vindicta_flight_expire.vsnd"
 		vsnd_duration = 2.372494
 	}
 	Hornet.Sting.Cast = 
 	{
 		base = "Base.Ability"
-		volume = -2.000000
+		volume = -2.0
 		vsnd_files = 
 		[
 			"sounds/abilities/hornet/vindicta_familiar_cast_01.vsnd",
@@ -272,19 +247,19 @@
 	Hornet.Sting.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = 0.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.200000
-		delay_rand_min = -4.000000
-		block_duration = 0.100000
+		volume = 0.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.2
+		delay_rand_min = -4.0
+		block_duration = 0.1
 		vsnd_files = "sounds/abilities/hornet/vindicta_familiar_proj_lp_01.vsnd"
 		vsnd_duration = 4.640907
 	}
 	Hornet.Sting.Proj.Expire = 
 	{
 		base = "Base.Ability.Projectile"
-		volume = -1.000000
-		block_duration = 0.200000
+		volume = -1.0
+		block_duration = 0.2
 		vsnd_files = 
 		[
 			"sounds/abilities/hornet/vindicta_familiar_proj_expire_01.vsnd",
@@ -296,7 +271,7 @@
 	Hornet.Sting.Hit = 
 	{
 		base = "Base.Ability.Hit"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/hornet/vindicta_familiar_hit_01.vsnd",
@@ -308,40 +283,25 @@
 	Hornet.Sting.Debuff.Lp = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -8.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.500000
-		delay_rand_min = -4.000000
+		volume = -8.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.5
+		delay_rand_min = -4.0
 		vsnd_files = "sounds/abilities/hornet/vindicta_familiar_debuff_lp_01.vsnd"
-		instance_attenuator_enabled = 1.000000
+		instance_attenuator_enabled = 1.0
 		instance_count_offset_amount_db = 
 		[
-			
 			[
-				1.000000,
-				0.000000,
-				0.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
+				1.0, 0.0, 0.0, -2.087491,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				-4.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, -4.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				6.000000,
-				-8.000000,
-				-2.087491,
-				0.000000,
-				0.000000,
-				0.000000,
+				6.0, -8.0, -2.087491, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_duration = 5.053265
@@ -349,7 +309,7 @@
 	Hornet.Sting.Debuff.End = 
 	{
 		base = "Base.Ability.StatusEffect"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = 
 		[
 			"sounds/abilities/hornet/vindicta_familiar_proj_expire_01.vsnd",
@@ -367,21 +327,21 @@
 	Hornet.Assassinate.Zoom.Out = 
 	{
 		base = "Base.Ability"
-		volume = -3.000000
+		volume = -3.0
 		vsnd_files = "sounds/abilities/hornet/vindicta_assassinate_scope_out.vsnd"
 		vsnd_duration = 0.462902
 	}
 	Hornet.Assassinate.Zoom.Lp = 
 	{
 		base = "Base.Ability.Target"
-		volume = 6.000000
+		volume = 6.0
 		vsnd_files = "sounds/abilities/hornet/vindicta_assassinate_scope_lp.vsnd"
 		vsnd_duration = 11.191497
 	}
 	Hornet.Assassinate.Cast = 
 	{
 		base = "Base.Ability.Ult"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/abilities/hornet/vindicta_assassinate_fire_01.vsnd",
@@ -407,7 +367,7 @@
 	Vindicta.Footstep = 
 	{
 		base = "Base.Footsteps.Soft"
-		track_1.vsnd_track_vol_offset_db = -7.000000
+		track_1.vsnd_track_vol_offset_db = -7.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hornet/vindicta_footstep_01.vsnd",
@@ -424,18 +384,18 @@
 	Vindicta.Movement.Short = 
 	{
 		base = "Base.Movement"
-		volume = -5.000000
+		volume = -5.0
 	}
 	Vindicta.Movement.Long = 
 	{
 		base = "Base.Movement"
-		volume = 0.000000
+		volume = 0.0
 	}
 	Vindicta.JumpLand = 
 	{
 		base = "Base.Footsteps.JumpLand.Soft"
-		volume = -4.000000
-		track_2.vsnd_track_vol_offset_db = -4.000000
+		volume = -4.0
+		track_2.vsnd_track_vol_offset_db = -4.0
 		vsnd_files = 
 		[
 			"sounds/player/footsteps/hornet/vindicta_footstep_01.vsnd",

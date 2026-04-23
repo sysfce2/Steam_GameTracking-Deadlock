@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -310,14 +308,12 @@
 					}
 				}
 			},
-			
 			{
 				name = "citadel_damage_info"
 				operator = "sos_import_stack"
 				import_stack = "citadel_damage_info"
 				auto_connect_public_fields = "true"
 			},
-			
 			{
 				name = "should_block_attacker"
 				execute_once = "true"
@@ -327,7 +323,6 @@
 				input1 = "@public.block_attacker"
 				input2 = "@citadel_damage_info::output.is_viewing_attacker"
 			},
-			
 			{
 				name = "block_attacker"
 				operator = "sos_goto"
@@ -335,7 +330,6 @@
 				input_goto_end = "true"
 				input_execute = "@should_block_attacker.output"
 			},
-			
 			{
 				name = "should_block_victim"
 				execute_once = "true"
@@ -345,7 +339,6 @@
 				input1 = "@public.block_victim"
 				input2 = "@citadel_damage_info::output.is_viewing_victim"
 			},
-			
 			{
 				name = "block_victim"
 				operator = "sos_goto"
@@ -353,7 +346,6 @@
 				input_goto_end = "true"
 				input_execute = "@should_block_victim.output"
 			},
-			
 			{
 				name = "should_block_other"
 				execute_once = "true"
@@ -363,7 +355,6 @@
 				input1 = "@public.block_other"
 				input2 = "@citadel_damage_info::output.is_viewing_other"
 			},
-			
 			{
 				name = "block_other"
 				operator = "sos_goto"
@@ -371,7 +362,6 @@
 				input_goto_end = "true"
 				input_execute = "@should_block_other.output"
 			},
-			
 			{
 				name = "damage_is_not_dot"
 				execute_once = "true"
@@ -381,7 +371,6 @@
 				input1 = "@public.damage_is_dot"
 				input2 = "1.0"
 			},
-			
 			{
 				name = "eval_viewer_is_victim_and_damage_not_dot"
 				execute_once = "true"
@@ -391,7 +380,6 @@
 				input1 = "@damage_is_not_dot.output"
 				input2 = "@citadel_damage_info::output.is_viewing_victim"
 			},
-			
 			{
 				name = "eval_viewer_is_victim_and_damage_dot"
 				execute_once = "true"
@@ -401,7 +389,6 @@
 				input1 = "@public.damage_is_dot"
 				input2 = "@citadel_damage_info::output.is_viewing_victim"
 			},
-			
 			{
 				name = "switch_position_for_viewing_victim"
 				execute_once = "true"
@@ -411,14 +398,12 @@
 				input1 = "@citadel_damage_info::get_victim_info.output_position"
 				input2 = "@public.inflictor_position"
 			},
-			
 			{
 				name = "citadel_health_fraction_curve"
 				operator = "sos_import_stack"
 				import_stack = "citadel_health_fraction_curve"
 				auto_connect_public_fields = "true"
 			},
-			
 			{
 				name = "eval_health_curve_enabled"
 				execute_once = "true"
@@ -428,7 +413,6 @@
 				input1 = "@public.health_fraction_curve_enabled"
 				input2 = "@citadel_damage_info::output.is_viewing_victim"
 			},
-			
 			{
 				name = "eval_health_curve_result"
 				execute_once = "true"
@@ -438,7 +422,6 @@
 				input1 = "@citadel_health_fraction_curve::output.curve_result"
 				input2 = "@eval_health_curve_enabled.output"
 			},
-			
 			{
 				name = "get_player_health_fraction_buffer_change"
 				operator = "opvar_get_float"
@@ -447,13 +430,11 @@
 				input_operator_name = "opvars"
 				input_field_name = "player_health_fraction_buffer_change"
 			},
-			
 			{
 				name = "get_audio_health_change_damage_priority_threshold"
 				operator = "convar_get"
 				convar = "audio_health_change_damage_priority_threshold"
 			},
-			
 			{
 				name = "health_change_less_than_amount"
 				execute_once = "true"
@@ -463,7 +444,6 @@
 				input1 = "@get_player_health_fraction_buffer_change.output"
 				input2 = "-.02"
 			},
-			
 			{
 				name = "accumulate_sidechain_conditions"
 				operator = "math_accumulate12_float"
@@ -481,7 +461,6 @@
 				input11 = "0.0"
 				input12 = "0.0"
 			},
-			
 			{
 				name = "sidechain_conditions_met"
 				execute_once = "true"
@@ -491,7 +470,6 @@
 				input1 = "@accumulate_sidechain_conditions.output"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "eval_damage_sidechain_enabled"
 				execute_once = "true"
@@ -501,7 +479,6 @@
 				input1 = "@public.triggers_damage_sidechain"
 				input2 = "@sidechain_conditions_met.output"
 			},
-			
 			{
 				name = "switch_mixgroup_victim_bypass"
 				execute_once = "true"
@@ -510,7 +487,6 @@
 				input1 = "@public.mixer_mixgroup_victim_bypass"
 				input2 = "@public.mixer_mixgroup_victim"
 			},
-			
 			{
 				name = "switch_mixgroup"
 				execute_once = "true"
@@ -520,7 +496,6 @@
 				input2 = "@switch_mixgroup_victim_bypass.output"
 				input3 = "@public.mixer_mixgroup_other"
 			},
-			
 			{
 				name = "switch_volume_falloff_max"
 				execute_once = "true"
@@ -530,7 +505,6 @@
 				input1 = "@public.volume_falloff_max_victim"
 				input2 = "@public.volume_falloff_max_other"
 			},
-			
 			{
 				name = "switch_occlusion_scale"
 				execute_once = "true"
@@ -540,7 +514,6 @@
 				input1 = "0.0"
 				input2 = "@public.occlusion_scale_non_victim"
 			},
-			
 			{
 				name = "switch_spread"
 				execute_once = "true"
@@ -550,7 +523,6 @@
 				input1 = "@public.spread_value_victim"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "chip_damage_offset_result"
 				execute_once = "true"
@@ -560,7 +532,6 @@
 				input1 = "@citadel_damage_info::output.is_chip_damage"
 				input2 = "@public.chip_damage_offset_db"
 			},
-			
 			{
 				name = "switch_vmix_send"
 				execute_once = "true"
@@ -570,7 +541,6 @@
 				input2 = "hit-victim-bus"
 				input3 = "main"
 			},
-			
 			{
 				name = "switch_group_instance_atten"
 				execute_once = "true"
@@ -580,7 +550,6 @@
 				input2 = "victim"
 				input3 = "other"
 			},
-			
 			{
 				name = "concat_attenuator_name"
 				operator = "math_string"
@@ -589,7 +558,6 @@
 				input2 = "@switch_group_instance_atten.output"
 				apply = "add"
 			},
-			
 			{
 				name = "mult_volume_offset_npc"
 				execute_once = "true"
@@ -599,14 +567,12 @@
 				input1 = "@public.victim_is_npc"
 				input2 = "@public.volume_victim_npc_offset_db"
 			},
-			
 			{
 				name = "math_curve_effectiveness_db_offset"
 				operator = "math_curve_2d"
 				input = "@public.damage_effectiveness"
 				public_field_name = "public.damage_effectiveness_curve_db"
 			},
-			
 			{
 				name = "math_mult_damage_effectiveness_curve_enabled"
 				execute_once = "true"
@@ -616,7 +582,6 @@
 				input1 = "@math_curve_effectiveness_db_offset.output"
 				input2 = "@public.damage_effectiveness_enabled"
 			},
-			
 			{
 				name = "volume_accumulate"
 				operator = "math_accumulate12_float"
@@ -634,7 +599,6 @@
 				input11 = "0.0"
 				input12 = "0.0"
 			},
-			
 			{
 				name = "switch_volume_fade_out"
 				execute_once = "true"
@@ -644,7 +608,6 @@
 				input1 = "@public.volume_fade_out"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "citadel_default_3d"
 				operator = "sos_import_stack"

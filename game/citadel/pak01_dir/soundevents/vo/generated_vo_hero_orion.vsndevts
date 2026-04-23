@@ -8,7 +8,7 @@
 		[
 			"sounds/vo/orion/orion_ally_astro_bounce_pad_01.vsnd",
 		]
-		vsnd_duration = 1.131950
+		vsnd_duration = 1.13195
 	}
 	orion_ally_astro_bounce_pad_02_hero_3d = 
 	{
@@ -138,7 +138,7 @@
 		[
 			"sounds/vo/orion/orion_ally_atlas_unkillable_01.vsnd",
 		]
-		vsnd_duration = 1.484490
+		vsnd_duration = 1.48449
 	}
 	orion_ally_atlas_unkillable_02_hero_3d = 
 	{
@@ -178,7 +178,7 @@
 		[
 			"sounds/vo/orion/orion_ally_bebop_far_hook_02.vsnd",
 		]
-		vsnd_duration = 1.187800
+		vsnd_duration = 1.1878
 	}
 	orion_ally_bebop_far_hook_03_hero_3d = 
 	{
@@ -258,7 +258,7 @@
 		[
 			"sounds/vo/orion/orion_ally_bookworm_killed_in_lane_01_alt.vsnd",
 		]
-		vsnd_duration = 1.262500
+		vsnd_duration = 1.2625
 	}
 	orion_ally_bookworm_killed_in_lane_01_hero_3d = 
 	{
@@ -278,7 +278,7 @@
 		[
 			"sounds/vo/orion/orion_ally_bookworm_pass_on_zipline_01_alt.vsnd",
 		]
-		vsnd_duration = 1.401000
+		vsnd_duration = 1.401
 	}
 	orion_ally_bookworm_pass_on_zipline_01_hero_3d = 
 	{
@@ -358,7 +358,7 @@
 		[
 			"sounds/vo/orion/orion_ally_doorman_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.425000
+		vsnd_duration = 1.425
 	}
 	orion_ally_doorman_pass_on_zipline_01_hero_3d = 
 	{
@@ -528,7 +528,7 @@
 		[
 			"sounds/vo/orion/orion_ally_forge_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.661020
+		vsnd_duration = 1.66102
 	}
 	orion_ally_forge_wall_stun_kill_01_hero_3d = 
 	{
@@ -538,7 +538,7 @@
 		[
 			"sounds/vo/orion/orion_ally_forge_wall_stun_kill_01.vsnd",
 		]
-		vsnd_duration = 1.385760
+		vsnd_duration = 1.38576
 	}
 	orion_ally_forge_wall_stun_kill_02_hero_3d = 
 	{
@@ -588,7 +588,7 @@
 		[
 			"sounds/vo/orion/orion_ally_frank_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.107000
+		vsnd_duration = 1.107
 	}
 	orion_ally_ghost_killed_in_lane_01_hero_3d = 
 	{
@@ -618,7 +618,7 @@
 		[
 			"sounds/vo/orion/orion_ally_ghost_see_big_swap_01.vsnd",
 		]
-		vsnd_duration = 1.972970
+		vsnd_duration = 1.97297
 	}
 	orion_ally_ghost_see_big_swap_02_hero_3d = 
 	{
@@ -708,7 +708,7 @@
 		[
 			"sounds/vo/orion/orion_ally_haze_big_ult_01.vsnd",
 		]
-		vsnd_duration = 3.048640
+		vsnd_duration = 3.04864
 	}
 	orion_ally_haze_big_ult_02_hero_3d = 
 	{
@@ -818,7 +818,7 @@
 		[
 			"sounds/vo/orion/orion_ally_hornet_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.250340
+		vsnd_duration = 1.25034
 	}
 	orion_ally_hornet_killed_in_lane_02_hero_3d = 
 	{
@@ -918,7 +918,7 @@
 		[
 			"sounds/vo/orion/orion_ally_kelvin_clutch_heal_02.vsnd",
 		]
-		vsnd_duration = 2.036440
+		vsnd_duration = 2.03644
 	}
 	orion_ally_kelvin_clutch_heal_03_hero_3d = 
 	{
@@ -928,7 +928,7 @@
 		[
 			"sounds/vo/orion/orion_ally_kelvin_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 1.461020
+		vsnd_duration = 1.46102
 	}
 	orion_ally_kelvin_killed_in_lane_01_hero_3d = 
 	{
@@ -1028,7 +1028,7 @@
 		[
 			"sounds/vo/orion/orion_ally_lash_see_massive_stomp_01.vsnd",
 		]
-		vsnd_duration = 1.374240
+		vsnd_duration = 1.37424
 	}
 	orion_ally_lash_see_massive_stomp_02_hero_3d = 
 	{
@@ -1058,7 +1058,7 @@
 		[
 			"sounds/vo/orion/orion_ally_magician_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.501000
+		vsnd_duration = 2.501
 	}
 	orion_ally_mirage_killed_in_lane_01_hero_3d = 
 	{
@@ -1158,7 +1158,7 @@
 		[
 			"sounds/vo/orion/orion_ally_punkgoat_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.328000
+		vsnd_duration = 2.328
 	}
 	orion_ally_shiv_killed_in_lane_01_hero_3d = 
 	{
@@ -1168,7 +1168,7 @@
 		[
 			"sounds/vo/orion/orion_ally_shiv_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.197370
+		vsnd_duration = 1.19737
 	}
 	orion_ally_shiv_multikill_01_hero_3d = 
 	{
@@ -1268,7 +1268,7 @@
 		[
 			"sounds/vo/orion/orion_ally_swan_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.224500
+		vsnd_duration = 1.2245
 	}
 	orion_ally_synth_killed_in_lane_01_hero_3d = 
 	{
@@ -1298,7 +1298,7 @@
 		[
 			"sounds/vo/orion/orion_ally_tengu_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.230680
+		vsnd_duration = 1.23068
 	}
 	orion_ally_tengu_pass_on_zipline_01_hero_3d = 
 	{
@@ -1348,7 +1348,7 @@
 		[
 			"sounds/vo/orion/orion_ally_tvspirit_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.654000
+		vsnd_duration = 1.654
 	}
 	orion_ally_vampirebat_killed_in_lane_01_hero_3d = 
 	{
@@ -1368,7 +1368,7 @@
 		[
 			"sounds/vo/orion/orion_ally_vampirebat_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.795000
+		vsnd_duration = 1.795
 	}
 	orion_ally_viper_pass_on_zipline_01_hero_3d = 
 	{
@@ -1378,7 +1378,7 @@
 		[
 			"sounds/vo/orion/orion_ally_viper_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 0.806750
+		vsnd_duration = 0.80675
 	}
 	orion_ally_viscous_clutch_cube_01_hero_3d = 
 	{
@@ -1428,7 +1428,7 @@
 		[
 			"sounds/vo/orion/orion_ally_viscous_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 2.116780
+		vsnd_duration = 2.11678
 	}
 	orion_ally_warden_big_ult_01_hero_3d = 
 	{
@@ -1588,7 +1588,7 @@
 		[
 			"sounds/vo/orion/orion_ally_yamato_kills_with_hook_03.vsnd",
 		]
-		vsnd_duration = 1.283560
+		vsnd_duration = 1.28356
 	}
 	orion_ally_yamato_pass_on_zipline_01_hero_3d = 
 	{
@@ -1598,7 +1598,7 @@
 		[
 			"sounds/vo/orion/orion_ally_yamato_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.381020
+		vsnd_duration = 1.38102
 	}
 	orion_angry_01_hero_3d = 
 	{
@@ -1608,7 +1608,7 @@
 		[
 			"sounds/vo/orion/orion_angry_01.vsnd",
 		]
-		vsnd_duration = 1.241020
+		vsnd_duration = 1.24102
 	}
 	orion_angry_01_ult_3d = 
 	{
@@ -1618,7 +1618,7 @@
 		[
 			"sounds/vo/orion/orion_angry_01.vsnd",
 		]
-		vsnd_duration = 1.241020
+		vsnd_duration = 1.24102
 	}
 	orion_angry_02_hero_3d = 
 	{
@@ -1808,7 +1808,7 @@
 		[
 			"sounds/vo/orion/orion_ap_reminder_01.vsnd",
 		]
-		vsnd_duration = 2.006440
+		vsnd_duration = 2.00644
 	}
 	orion_ap_reminder_02_hero_3d = 
 	{
@@ -1908,7 +1908,7 @@
 		[
 			"sounds/vo/orion/orion_close_call_05.vsnd",
 		]
-		vsnd_duration = 1.570000
+		vsnd_duration = 1.57
 	}
 	orion_concerned_01_hero_3d = 
 	{
@@ -1958,7 +1958,7 @@
 		[
 			"sounds/vo/orion/orion_concerned_03.vsnd",
 		]
-		vsnd_duration = 2.008050
+		vsnd_duration = 2.00805
 	}
 	orion_concerned_03_ult_3d = 
 	{
@@ -1968,7 +1968,7 @@
 		[
 			"sounds/vo/orion/orion_concerned_03.vsnd",
 		]
-		vsnd_duration = 2.008050
+		vsnd_duration = 2.00805
 	}
 	orion_concerned_04_hero_3d = 
 	{
@@ -1978,7 +1978,7 @@
 		[
 			"sounds/vo/orion/orion_concerned_04.vsnd",
 		]
-		vsnd_duration = 2.554580
+		vsnd_duration = 2.55458
 	}
 	orion_concerned_04_ult_3d = 
 	{
@@ -1988,7 +1988,7 @@
 		[
 			"sounds/vo/orion/orion_concerned_04.vsnd",
 		]
-		vsnd_duration = 2.554580
+		vsnd_duration = 2.55458
 	}
 	orion_concerned_05_hero_3d = 
 	{
@@ -2018,7 +2018,7 @@
 		[
 			"sounds/vo/orion/orion_concerned_06.vsnd",
 		]
-		vsnd_duration = 2.160000
+		vsnd_duration = 2.16
 	}
 	orion_concerned_06_ult_3d = 
 	{
@@ -2028,7 +2028,7 @@
 		[
 			"sounds/vo/orion/orion_concerned_06.vsnd",
 		]
-		vsnd_duration = 2.160000
+		vsnd_duration = 2.16
 	}
 	orion_concerned_07_hero_3d = 
 	{
@@ -2058,7 +2058,7 @@
 		[
 			"sounds/vo/orion/orion_concerned_08.vsnd",
 		]
-		vsnd_duration = 3.120680
+		vsnd_duration = 3.12068
 	}
 	orion_concerned_08_ult_3d = 
 	{
@@ -2068,7 +2068,7 @@
 		[
 			"sounds/vo/orion/orion_concerned_08.vsnd",
 		]
-		vsnd_duration = 3.120680
+		vsnd_duration = 3.12068
 	}
 	orion_concerned_09_hero_3d = 
 	{
@@ -2318,7 +2318,7 @@
 		[
 			"sounds/vo/orion/orion_desperation_power4_01.vsnd",
 		]
-		vsnd_duration = 1.216100
+		vsnd_duration = 1.2161
 	}
 	orion_desperation_power4_01_ult_3d = 
 	{
@@ -2328,7 +2328,7 @@
 		[
 			"sounds/vo/orion/orion_desperation_power4_01.vsnd",
 		]
-		vsnd_duration = 1.216100
+		vsnd_duration = 1.2161
 	}
 	orion_desperation_power4_02_ability_3d = 
 	{
@@ -2518,7 +2518,7 @@
 		[
 			"sounds/vo/orion/emote/orion_effort_dash_06.vsnd",
 		]
-		vsnd_duration = 0.375760
+		vsnd_duration = 0.37576
 	}
 	orion_effort_dash_06_emote_effort_3d = 
 	{
@@ -2528,7 +2528,7 @@
 		[
 			"sounds/vo/orion/emote/orion_effort_dash_06.vsnd",
 		]
-		vsnd_duration = 0.375760
+		vsnd_duration = 0.37576
 	}
 	orion_effort_general_01_emote_effort_3d = 
 	{
@@ -2698,7 +2698,7 @@
 		[
 			"sounds/vo/orion/emote/orion_effort_melee_small_01.vsnd",
 		]
-		vsnd_duration = 0.422200
+		vsnd_duration = 0.4222
 	}
 	orion_effort_melee_small_01_emote_melee_effort_3d = 
 	{
@@ -2708,7 +2708,7 @@
 		[
 			"sounds/vo/orion/emote/orion_effort_melee_small_01.vsnd",
 		]
-		vsnd_duration = 0.422200
+		vsnd_duration = 0.4222
 	}
 	orion_effort_melee_small_02_emote_effort_3d = 
 	{
@@ -2738,7 +2738,7 @@
 		[
 			"sounds/vo/orion/emote/orion_effort_melee_small_03.vsnd",
 		]
-		vsnd_duration = 0.510590
+		vsnd_duration = 0.51059
 	}
 	orion_effort_melee_small_03_emote_melee_effort_3d = 
 	{
@@ -2748,7 +2748,7 @@
 		[
 			"sounds/vo/orion/emote/orion_effort_melee_small_03.vsnd",
 		]
-		vsnd_duration = 0.510590
+		vsnd_duration = 0.51059
 	}
 	orion_effort_melee_small_04_emote_effort_3d = 
 	{
@@ -2778,7 +2778,7 @@
 		[
 			"sounds/vo/orion/emote/orion_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.496780
+		vsnd_duration = 0.49678
 	}
 	orion_effort_melee_small_05_emote_melee_effort_3d = 
 	{
@@ -2788,7 +2788,7 @@
 		[
 			"sounds/vo/orion/emote/orion_effort_melee_small_05.vsnd",
 		]
-		vsnd_duration = 0.496780
+		vsnd_duration = 0.49678
 	}
 	orion_effort_melee_small_06_emote_effort_3d = 
 	{
@@ -2798,7 +2798,7 @@
 		[
 			"sounds/vo/orion/emote/orion_effort_melee_small_06.vsnd",
 		]
-		vsnd_duration = 0.487710
+		vsnd_duration = 0.48771
 	}
 	orion_effort_melee_small_06_emote_melee_effort_3d = 
 	{
@@ -2808,7 +2808,7 @@
 		[
 			"sounds/vo/orion/emote/orion_effort_melee_small_06.vsnd",
 		]
-		vsnd_duration = 0.487710
+		vsnd_duration = 0.48771
 	}
 	orion_effort_melee_small_07_emote_effort_3d = 
 	{
@@ -3038,7 +3038,7 @@
 		[
 			"sounds/vo/orion/orion_enemy_bebop_hooked_01.vsnd",
 		]
-		vsnd_duration = 1.060590
+		vsnd_duration = 1.06059
 	}
 	orion_enemy_bebop_hooked_02_hero_3d = 
 	{
@@ -3068,7 +3068,7 @@
 		[
 			"sounds/vo/orion/orion_enemy_bebop_kill_mid_laser_01.vsnd",
 		]
-		vsnd_duration = 4.472540
+		vsnd_duration = 4.47254
 	}
 	orion_enemy_bebop_kill_mid_laser_02_hero_3d = 
 	{
@@ -3118,7 +3118,7 @@
 		[
 			"sounds/vo/orion/orion_enemy_chrono_kill_post_swap_03.vsnd",
 		]
-		vsnd_duration = 2.419070
+		vsnd_duration = 2.41907
 	}
 	orion_enemy_dynamo_charges_01_hero_3d = 
 	{
@@ -3468,7 +3468,7 @@
 		[
 			"sounds/vo/orion/orion_enemy_lash_mid_air_kill_02.vsnd",
 		]
-		vsnd_duration = 2.173220
+		vsnd_duration = 2.17322
 	}
 	orion_enemy_lash_mid_air_kill_03_hero_3d = 
 	{
@@ -3478,7 +3478,7 @@
 		[
 			"sounds/vo/orion/orion_enemy_lash_mid_air_kill_03.vsnd",
 		]
-		vsnd_duration = 2.105170
+		vsnd_duration = 2.10517
 	}
 	orion_enemy_shiv_unkillable_01_hero_3d = 
 	{
@@ -3778,7 +3778,7 @@
 		[
 			"sounds/vo/orion/orion_happy_08.vsnd",
 		]
-		vsnd_duration = 1.107460
+		vsnd_duration = 1.10746
 	}
 	orion_happy_08_ult_3d = 
 	{
@@ -3788,7 +3788,7 @@
 		[
 			"sounds/vo/orion/orion_happy_08.vsnd",
 		]
-		vsnd_duration = 1.107460
+		vsnd_duration = 1.10746
 	}
 	orion_happy_09_hero_3d = 
 	{
@@ -3848,7 +3848,7 @@
 		[
 			"sounds/vo/orion/orion_hunt_02.vsnd",
 		]
-		vsnd_duration = 2.163810
+		vsnd_duration = 2.16381
 	}
 	orion_hunt_03_hero_3d = 
 	{
@@ -3998,7 +3998,7 @@
 		[
 			"sounds/vo/orion/orion_kill_anyhero_09.vsnd",
 		]
-		vsnd_duration = 1.366190
+		vsnd_duration = 1.36619
 	}
 	orion_kill_anyhero_10_hero_3d = 
 	{
@@ -4068,7 +4068,7 @@
 		[
 			"sounds/vo/orion/orion_kill_atlas_01.vsnd",
 		]
-		vsnd_duration = 1.099320
+		vsnd_duration = 1.09932
 	}
 	orion_kill_atlas_02_hero_3d = 
 	{
@@ -4158,7 +4158,7 @@
 		[
 			"sounds/vo/orion/orion_kill_bebop_05.vsnd",
 		]
-		vsnd_duration = 1.004830
+		vsnd_duration = 1.00483
 	}
 	orion_kill_bookworm_01_hero_3d = 
 	{
@@ -4188,7 +4188,7 @@
 		[
 			"sounds/vo/orion/orion_kill_bookworm_03.vsnd",
 		]
-		vsnd_duration = 2.243250
+		vsnd_duration = 2.24325
 	}
 	orion_kill_bookworm_04_alt_hero_3d = 
 	{
@@ -4198,7 +4198,7 @@
 		[
 			"sounds/vo/orion/orion_kill_bookworm_04_alt.vsnd",
 		]
-		vsnd_duration = 1.750750
+		vsnd_duration = 1.75075
 	}
 	orion_kill_bookworm_05_hero_3d = 
 	{
@@ -4258,7 +4258,7 @@
 		[
 			"sounds/vo/orion/orion_kill_chrono_05.vsnd",
 		]
-		vsnd_duration = 3.221270
+		vsnd_duration = 3.22127
 	}
 	orion_kill_doorman_01_hero_3d = 
 	{
@@ -4268,7 +4268,7 @@
 		[
 			"sounds/vo/orion/orion_kill_doorman_01.vsnd",
 		]
-		vsnd_duration = 1.729500
+		vsnd_duration = 1.7295
 	}
 	orion_kill_doorman_02_hero_3d = 
 	{
@@ -4318,7 +4318,7 @@
 		[
 			"sounds/vo/orion/orion_kill_drifter_01.vsnd",
 		]
-		vsnd_duration = 2.059500
+		vsnd_duration = 2.0595
 	}
 	orion_kill_drifter_02_hero_3d = 
 	{
@@ -4348,7 +4348,7 @@
 		[
 			"sounds/vo/orion/orion_kill_drifter_04.vsnd",
 		]
-		vsnd_duration = 1.689500
+		vsnd_duration = 1.6895
 	}
 	orion_kill_drifter_05_hero_3d = 
 	{
@@ -4428,7 +4428,7 @@
 		[
 			"sounds/vo/orion/orion_kill_forge_02.vsnd",
 		]
-		vsnd_duration = 2.718730
+		vsnd_duration = 2.71873
 	}
 	orion_kill_forge_03_hero_3d = 
 	{
@@ -4468,7 +4468,7 @@
 		[
 			"sounds/vo/orion/orion_kill_frank_01.vsnd",
 		]
-		vsnd_duration = 1.966000
+		vsnd_duration = 1.966
 	}
 	orion_kill_frank_02_hero_3d = 
 	{
@@ -4478,7 +4478,7 @@
 		[
 			"sounds/vo/orion/orion_kill_frank_02.vsnd",
 		]
-		vsnd_duration = 1.464000
+		vsnd_duration = 1.464
 	}
 	orion_kill_frank_03_hero_3d = 
 	{
@@ -4488,7 +4488,7 @@
 		[
 			"sounds/vo/orion/orion_kill_frank_03.vsnd",
 		]
-		vsnd_duration = 2.580000
+		vsnd_duration = 2.58
 	}
 	orion_kill_frank_04_hero_3d = 
 	{
@@ -4608,7 +4608,7 @@
 		[
 			"sounds/vo/orion/orion_kill_gigawatt_05.vsnd",
 		]
-		vsnd_duration = 5.022290
+		vsnd_duration = 5.02229
 	}
 	orion_kill_haze_01_hero_3d = 
 	{
@@ -4618,7 +4618,7 @@
 		[
 			"sounds/vo/orion/orion_kill_haze_01.vsnd",
 		]
-		vsnd_duration = 2.475420
+		vsnd_duration = 2.47542
 	}
 	orion_kill_haze_02_hero_3d = 
 	{
@@ -4628,7 +4628,7 @@
 		[
 			"sounds/vo/orion/orion_kill_haze_02.vsnd",
 		]
-		vsnd_duration = 3.944490
+		vsnd_duration = 3.94449
 	}
 	orion_kill_haze_03_hero_3d = 
 	{
@@ -4748,7 +4748,7 @@
 		[
 			"sounds/vo/orion/orion_kill_inferno_03.vsnd",
 		]
-		vsnd_duration = 1.845510
+		vsnd_duration = 1.84551
 	}
 	orion_kill_inferno_04_hero_3d = 
 	{
@@ -4898,7 +4898,7 @@
 		[
 			"sounds/vo/orion/orion_kill_lash_03.vsnd",
 		]
-		vsnd_duration = 2.265000
+		vsnd_duration = 2.265
 	}
 	orion_kill_lash_04_hero_3d = 
 	{
@@ -4988,7 +4988,7 @@
 		[
 			"sounds/vo/orion/orion_kill_nano_02.vsnd",
 		]
-		vsnd_duration = 1.864000
+		vsnd_duration = 1.864
 	}
 	orion_kill_nano_03_hero_3d = 
 	{
@@ -5028,7 +5028,7 @@
 		[
 			"sounds/vo/orion/orion_kill_priest_01.vsnd",
 		]
-		vsnd_duration = 2.059000
+		vsnd_duration = 2.059
 	}
 	orion_kill_priest_02_hero_3d = 
 	{
@@ -5118,7 +5118,7 @@
 		[
 			"sounds/vo/orion/orion_kill_punkgoat_05.vsnd",
 		]
-		vsnd_duration = 1.915250
+		vsnd_duration = 1.91525
 	}
 	orion_kill_shiv_01_hero_3d = 
 	{
@@ -5258,7 +5258,7 @@
 		[
 			"sounds/vo/orion/orion_kill_tengu_04.vsnd",
 		]
-		vsnd_duration = 4.226780
+		vsnd_duration = 4.22678
 	}
 	orion_kill_tengu_05_hero_3d = 
 	{
@@ -5288,7 +5288,7 @@
 		[
 			"sounds/vo/orion/orion_kill_vampirebat_02.vsnd",
 		]
-		vsnd_duration = 2.602000
+		vsnd_duration = 2.602
 	}
 	orion_kill_vampirebat_03_hero_3d = 
 	{
@@ -5388,7 +5388,7 @@
 		[
 			"sounds/vo/orion/orion_kill_viscous_02.vsnd",
 		]
-		vsnd_duration = 1.765760
+		vsnd_duration = 1.76576
 	}
 	orion_kill_viscous_03_hero_3d = 
 	{
@@ -5398,7 +5398,7 @@
 		[
 			"sounds/vo/orion/orion_kill_viscous_03.vsnd",
 		]
-		vsnd_duration = 3.744240
+		vsnd_duration = 3.74424
 	}
 	orion_kill_viscous_04_hero_3d = 
 	{
@@ -5538,7 +5538,7 @@
 		[
 			"sounds/vo/orion/orion_kill_wrecker_02.vsnd",
 		]
-		vsnd_duration = 1.583220
+		vsnd_duration = 1.58322
 	}
 	orion_kill_wrecker_03_hero_3d = 
 	{
@@ -5588,7 +5588,7 @@
 		[
 			"sounds/vo/orion/orion_kill_yamato_02.vsnd",
 		]
-		vsnd_duration = 1.240000
+		vsnd_duration = 1.24
 	}
 	orion_kill_yamato_03_hero_3d = 
 	{
@@ -5858,7 +5858,7 @@
 		[
 			"sounds/vo/orion/orion_last_one_standing_02.vsnd",
 		]
-		vsnd_duration = 1.334240
+		vsnd_duration = 1.33424
 	}
 	orion_last_one_standing_03_hero_3d = 
 	{
@@ -5868,7 +5868,7 @@
 		[
 			"sounds/vo/orion/orion_last_one_standing_03.vsnd",
 		]
-		vsnd_duration = 2.499410
+		vsnd_duration = 2.49941
 	}
 	orion_leave_base_01_hero_3d = 
 	{
@@ -5908,7 +5908,7 @@
 		[
 			"sounds/vo/orion/orion_leave_base_04.vsnd",
 		]
-		vsnd_duration = 1.850000
+		vsnd_duration = 1.85
 	}
 	orion_leave_base_05_hero_3d = 
 	{
@@ -5938,7 +5938,7 @@
 		[
 			"sounds/vo/orion/orion_leaving_area_02.vsnd",
 		]
-		vsnd_duration = 1.133220
+		vsnd_duration = 1.13322
 	}
 	orion_leaving_area_03_hero_3d = 
 	{
@@ -6058,7 +6058,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_atlas_orion_convo03_02.vsnd",
 		]
-		vsnd_duration = 4.415510
+		vsnd_duration = 4.41551
 	}
 	orion_match_start_bebop_orion_convo01_01_hero_zipline_3d = 
 	{
@@ -6108,7 +6108,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_bebop_orion_convo03_02.vsnd",
 		]
-		vsnd_duration = 1.815760
+		vsnd_duration = 1.81576
 	}
 	orion_match_start_bebop_orion_convo03_04_hero_zipline_3d = 
 	{
@@ -6158,7 +6158,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_bookworm_orion_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.363500
+		vsnd_duration = 1.3635
 	}
 	orion_match_start_bookworm_orion_convo03_01_hero_zipline_3d = 
 	{
@@ -6168,7 +6168,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_bookworm_orion_convo03_01.vsnd",
 		]
-		vsnd_duration = 1.711000
+		vsnd_duration = 1.711
 	}
 	orion_match_start_bookworm_orion_convo03_03_hero_zipline_3d = 
 	{
@@ -6188,7 +6188,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_bookworm_orion_convo03_05.vsnd",
 		]
-		vsnd_duration = 1.934500
+		vsnd_duration = 1.9345
 	}
 	orion_match_start_doorman_orion_convo01_02_hero_zipline_3d = 
 	{
@@ -6278,7 +6278,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_drifter_orion_convo03_02.vsnd",
 		]
-		vsnd_duration = 2.486000
+		vsnd_duration = 2.486
 	}
 	orion_match_start_dynamo_orion_convo01_02_hero_zipline_3d = 
 	{
@@ -6368,7 +6368,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_forge_orion_convo01_04.vsnd",
 		]
-		vsnd_duration = 1.150000
+		vsnd_duration = 1.15
 	}
 	orion_match_start_forge_orion_convo02_02_hero_zipline_3d = 
 	{
@@ -6398,7 +6398,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_forge_orion_convo02_06.vsnd",
 		]
-		vsnd_duration = 1.616000
+		vsnd_duration = 1.616
 	}
 	orion_match_start_forge_orion_convo03_02_hero_zipline_3d = 
 	{
@@ -6418,7 +6418,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_forge_orion_convo03_04.vsnd",
 		]
-		vsnd_duration = 1.888000
+		vsnd_duration = 1.888
 	}
 	orion_match_start_frank_orion_convo01_02_hero_zipline_3d = 
 	{
@@ -6468,7 +6468,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_frank_orion_convo03_02.vsnd",
 		]
-		vsnd_duration = 0.770000
+		vsnd_duration = 0.77
 	}
 	orion_match_start_frank_orion_convo03_04_hero_zipline_3d = 
 	{
@@ -6488,7 +6488,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_frank_orion_convo03_06.vsnd",
 		]
-		vsnd_duration = 1.378000
+		vsnd_duration = 1.378
 	}
 	orion_match_start_frank_orion_convo03_08_hero_zipline_3d = 
 	{
@@ -6628,7 +6628,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_haze_orion_convo01_02.vsnd",
 		]
-		vsnd_duration = 0.815000
+		vsnd_duration = 0.815
 	}
 	orion_match_start_haze_orion_convo01_04_hero_zipline_3d = 
 	{
@@ -6658,7 +6658,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_haze_orion_convo03_02.vsnd",
 		]
-		vsnd_duration = 0.610000
+		vsnd_duration = 0.61
 	}
 	orion_match_start_haze_orion_convo03_04_hero_zipline_3d = 
 	{
@@ -6678,7 +6678,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_kelvin_orion_convo01_02.vsnd",
 		]
-		vsnd_duration = 11.441000
+		vsnd_duration = 11.441
 	}
 	orion_match_start_kelvin_orion_convo02_01_hero_zipline_3d = 
 	{
@@ -6728,7 +6728,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_kelvin_orion_convo03_04.vsnd",
 		]
-		vsnd_duration = 6.094000
+		vsnd_duration = 6.094
 	}
 	orion_match_start_krill_orion_convo01_02_hero_zipline_3d = 
 	{
@@ -6838,7 +6838,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_lash_orion_convo03_03.vsnd",
 		]
-		vsnd_duration = 3.234240
+		vsnd_duration = 3.23424
 	}
 	orion_match_start_nano_orion_convo01_02_hero_zipline_3d = 
 	{
@@ -6878,7 +6878,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_nano_orion_convo02_04.vsnd",
 		]
-		vsnd_duration = 0.555500
+		vsnd_duration = 0.5555
 	}
 	orion_match_start_nano_orion_convo03_02_hero_zipline_3d = 
 	{
@@ -6898,7 +6898,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_chrono_convo01_02.vsnd",
 		]
-		vsnd_duration = 2.503500
+		vsnd_duration = 2.5035
 	}
 	orion_match_start_orion_chrono_convo01_04_hero_zipline_3d = 
 	{
@@ -6918,7 +6918,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_chrono_convo01_06.vsnd",
 		]
-		vsnd_duration = 1.590500
+		vsnd_duration = 1.5905
 	}
 	orion_match_start_orion_chrono_convo02_02_hero_zipline_3d = 
 	{
@@ -7008,7 +7008,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_shiv_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.069500
+		vsnd_duration = 2.0695
 	}
 	orion_match_start_orion_shiv_convo01_03_hero_zipline_3d = 
 	{
@@ -7018,7 +7018,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_shiv_convo01_03.vsnd",
 		]
-		vsnd_duration = 2.224000
+		vsnd_duration = 2.224
 	}
 	orion_match_start_orion_shiv_convo01_05_hero_zipline_3d = 
 	{
@@ -7038,7 +7038,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_shiv_convo02_02.vsnd",
 		]
-		vsnd_duration = 6.084000
+		vsnd_duration = 6.084
 	}
 	orion_match_start_orion_shiv_convo02_04_hero_zipline_3d = 
 	{
@@ -7048,7 +7048,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_shiv_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.361000
+		vsnd_duration = 1.361
 	}
 	orion_match_start_orion_shiv_convo02_06_hero_zipline_3d = 
 	{
@@ -7058,7 +7058,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_shiv_convo02_06.vsnd",
 		]
-		vsnd_duration = 2.727250
+		vsnd_duration = 2.72725
 	}
 	orion_match_start_orion_shiv_convo03_02_hero_zipline_3d = 
 	{
@@ -7068,7 +7068,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_shiv_convo03_02.vsnd",
 		]
-		vsnd_duration = 0.613500
+		vsnd_duration = 0.6135
 	}
 	orion_match_start_orion_shiv_convo03_04_hero_zipline_3d = 
 	{
@@ -7158,7 +7158,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_viscous_convo01_04.vsnd",
 		]
-		vsnd_duration = 2.899000
+		vsnd_duration = 2.899
 	}
 	orion_match_start_orion_viscous_convo02_02_hero_zipline_3d = 
 	{
@@ -7188,7 +7188,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_viscous_convo02_06.vsnd",
 		]
-		vsnd_duration = 5.104000
+		vsnd_duration = 5.104
 	}
 	orion_match_start_orion_viscous_convo03_02_hero_zipline_3d = 
 	{
@@ -7218,7 +7218,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_warden_convo01_03.vsnd",
 		]
-		vsnd_duration = 0.959750
+		vsnd_duration = 0.95975
 	}
 	orion_match_start_orion_warden_convo02_02_hero_zipline_3d = 
 	{
@@ -7228,7 +7228,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_warden_convo02_02.vsnd",
 		]
-		vsnd_duration = 4.677500
+		vsnd_duration = 4.6775
 	}
 	orion_match_start_orion_warden_convo02_04_hero_zipline_3d = 
 	{
@@ -7278,7 +7278,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_orion_wraith_convo02_04.vsnd",
 		]
-		vsnd_duration = 3.036000
+		vsnd_duration = 3.036
 	}
 	orion_match_start_orion_wraith_convo03_01_hero_zipline_3d = 
 	{
@@ -7298,7 +7298,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_punkgoat_orion_convo01_02.vsnd",
 		]
-		vsnd_duration = 1.400000
+		vsnd_duration = 1.4
 	}
 	orion_match_start_punkgoat_orion_convo01_04_hero_zipline_3d = 
 	{
@@ -7398,7 +7398,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_viper_orion_convo02_03.vsnd",
 		]
-		vsnd_duration = 1.720000
+		vsnd_duration = 1.72
 	}
 	orion_match_start_viper_orion_convo03_02_hero_zipline_3d = 
 	{
@@ -7408,7 +7408,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_viper_orion_convo03_02.vsnd",
 		]
-		vsnd_duration = 1.194000
+		vsnd_duration = 1.194
 	}
 	orion_match_start_viper_orion_convo03_04_hero_zipline_3d = 
 	{
@@ -7458,7 +7458,7 @@
 		[
 			"sounds/vo/orion/orion_match_start_yamato_orion_convo02_04.vsnd",
 		]
-		vsnd_duration = 1.945000
+		vsnd_duration = 1.945
 	}
 	orion_match_start_yamato_orion_convo03_01_hero_zipline_3d = 
 	{
@@ -7878,7 +7878,7 @@
 		[
 			"sounds/vo/orion/emote/orion_pain_small_06.vsnd",
 		]
-		vsnd_duration = 0.574150
+		vsnd_duration = 0.57415
 	}
 	orion_pain_small_07_emote_pain_3d = 
 	{
@@ -7948,7 +7948,7 @@
 		[
 			"sounds/vo/orion/orion_pick_up_gold_03.vsnd",
 		]
-		vsnd_duration = 2.321270
+		vsnd_duration = 2.32127
 	}
 	orion_pick_up_gold_04_hero_3d = 
 	{
@@ -7958,7 +7958,7 @@
 		[
 			"sounds/vo/orion/orion_pick_up_gold_04.vsnd",
 		]
-		vsnd_duration = 1.734500
+		vsnd_duration = 1.7345
 	}
 	orion_pick_up_gold_05_hero_3d = 
 	{
@@ -8078,7 +8078,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_ability4_not_ready.vsnd",
 		]
-		vsnd_duration = 1.433000
+		vsnd_duration = 1.433
 	}
 	orion_ping_affermative_01_ping_2d = 
 	{
@@ -8108,7 +8108,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_affermative_03.vsnd",
 		]
-		vsnd_duration = 0.540680
+		vsnd_duration = 0.54068
 	}
 	orion_ping_astro_almost_respawn_ping_2d = 
 	{
@@ -8308,7 +8308,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_attack_atlas.vsnd",
 		]
-		vsnd_duration = 1.245850
+		vsnd_duration = 1.24585
 	}
 	orion_ping_attack_bebop_ping_2d = 
 	{
@@ -8468,7 +8468,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_attack_graf.vsnd",
 		]
-		vsnd_duration = 1.315000
+		vsnd_duration = 1.315
 	}
 	orion_ping_attack_haze_ping_2d = 
 	{
@@ -8498,7 +8498,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_attack_incubus.vsnd",
 		]
-		vsnd_duration = 1.599000
+		vsnd_duration = 1.599
 	}
 	orion_ping_attack_inferno_ping_2d = 
 	{
@@ -8538,7 +8538,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_attack_lash.vsnd",
 		]
-		vsnd_duration = 1.217710
+		vsnd_duration = 1.21771
 	}
 	orion_ping_attack_mirage_ping_2d = 
 	{
@@ -8588,7 +8588,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_attack_shiv.vsnd",
 		]
-		vsnd_duration = 1.158730
+		vsnd_duration = 1.15873
 	}
 	orion_ping_attack_skyrunner_ping_2d = 
 	{
@@ -8618,7 +8618,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_attack_swan.vsnd",
 		]
-		vsnd_duration = 1.205000
+		vsnd_duration = 1.205
 	}
 	orion_ping_attack_synth_ping_2d = 
 	{
@@ -8638,7 +8638,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_attack_tengu.vsnd",
 		]
-		vsnd_duration = 1.145510
+		vsnd_duration = 1.14551
 	}
 	orion_ping_attack_tvspirit_ping_2d = 
 	{
@@ -8648,7 +8648,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_attack_tvspirit.vsnd",
 		]
-		vsnd_duration = 1.727000
+		vsnd_duration = 1.727
 	}
 	orion_ping_attack_vampirebat_ping_2d = 
 	{
@@ -8718,7 +8718,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_avatar_under_attack.vsnd",
 		]
-		vsnd_duration = 1.464000
+		vsnd_duration = 1.464
 	}
 	orion_ping_be_back_soon_ping_2d = 
 	{
@@ -8728,7 +8728,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_be_back_soon.vsnd",
 		]
-		vsnd_duration = 0.827710
+		vsnd_duration = 0.82771
 	}
 	orion_ping_bebop_almost_respawn_ping_2d = 
 	{
@@ -8758,7 +8758,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_bebop_dead.vsnd",
 		]
-		vsnd_duration = 1.024150
+		vsnd_duration = 1.02415
 	}
 	orion_ping_bebop_in_mid_ping_2d = 
 	{
@@ -8778,7 +8778,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_bebop_missing_01.vsnd",
 		]
-		vsnd_duration = 0.913220
+		vsnd_duration = 0.91322
 	}
 	orion_ping_bebop_on_top_of_garage_ping_2d = 
 	{
@@ -8798,7 +8798,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_bebop_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.350000
+		vsnd_duration = 1.35
 	}
 	orion_ping_bebop_under_garage_ping_2d = 
 	{
@@ -8818,7 +8818,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_bebop_was_here.vsnd",
 		]
-		vsnd_duration = 0.861610
+		vsnd_duration = 0.86161
 	}
 	orion_ping_blue_help_01_ping_2d = 
 	{
@@ -8888,7 +8888,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_bookworm_in_mid_alt.vsnd",
 		]
-		vsnd_duration = 1.015000
+		vsnd_duration = 1.015
 	}
 	orion_ping_bookworm_missing_01_alt_ping_2d = 
 	{
@@ -8898,7 +8898,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_bookworm_missing_01_alt.vsnd",
 		]
-		vsnd_duration = 1.002000
+		vsnd_duration = 1.002
 	}
 	orion_ping_bookworm_on_top_of_garage_alt_ping_2d = 
 	{
@@ -8938,7 +8938,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_bookworm_was_here_alt.vsnd",
 		]
-		vsnd_duration = 0.939500
+		vsnd_duration = 0.9395
 	}
 	orion_ping_cadence_in_mid_ping_2d = 
 	{
@@ -9038,7 +9038,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_can_heal_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.272500
+		vsnd_duration = 1.2725
 	}
 	orion_ping_can_heal_cadence_ping_2d = 
 	{
@@ -9128,7 +9128,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_can_heal_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.191270
+		vsnd_duration = 1.19127
 	}
 	orion_ping_can_heal_haze_ping_2d = 
 	{
@@ -9218,7 +9218,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_can_heal_priest.vsnd",
 		]
-		vsnd_duration = 1.633000
+		vsnd_duration = 1.633
 	}
 	orion_ping_can_heal_punkgoat_ping_2d = 
 	{
@@ -9228,7 +9228,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_can_heal_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.291000
+		vsnd_duration = 1.291
 	}
 	orion_ping_can_heal_shiv_ping_2d = 
 	{
@@ -9318,7 +9318,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_can_heal_yamato.vsnd",
 		]
-		vsnd_duration = 1.551270
+		vsnd_duration = 1.55127
 	}
 	orion_ping_careful_astro_01_ping_2d = 
 	{
@@ -9388,7 +9388,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_bebop_01.vsnd",
 		]
-		vsnd_duration = 0.814240
+		vsnd_duration = 0.81424
 	}
 	orion_ping_careful_bebop_02_ping_2d = 
 	{
@@ -9448,7 +9448,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_bookworm_03_alt.vsnd",
 		]
-		vsnd_duration = 1.025500
+		vsnd_duration = 1.0255
 	}
 	orion_ping_careful_cadence_01_ping_2d = 
 	{
@@ -9528,7 +9528,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_doorman_02.vsnd",
 		]
-		vsnd_duration = 1.135250
+		vsnd_duration = 1.13525
 	}
 	orion_ping_careful_doorman_03_ping_2d = 
 	{
@@ -9538,7 +9538,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_doorman_03.vsnd",
 		]
-		vsnd_duration = 1.045000
+		vsnd_duration = 1.045
 	}
 	orion_ping_careful_drifter_01_ping_2d = 
 	{
@@ -9658,7 +9658,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_frank_01.vsnd",
 		]
-		vsnd_duration = 0.884000
+		vsnd_duration = 0.884
 	}
 	orion_ping_careful_frank_02_ping_2d = 
 	{
@@ -9668,7 +9668,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_frank_02.vsnd",
 		]
-		vsnd_duration = 1.009000
+		vsnd_duration = 1.009
 	}
 	orion_ping_careful_frank_03_ping_2d = 
 	{
@@ -9708,7 +9708,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_ghost_03.vsnd",
 		]
-		vsnd_duration = 1.117800
+		vsnd_duration = 1.1178
 	}
 	orion_ping_careful_gigawatt_01_ping_2d = 
 	{
@@ -9748,7 +9748,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_graf_01.vsnd",
 		]
-		vsnd_duration = 0.954000
+		vsnd_duration = 0.954
 	}
 	orion_ping_careful_haze_01_ping_2d = 
 	{
@@ -9778,7 +9778,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_haze_03.vsnd",
 		]
-		vsnd_duration = 0.997710
+		vsnd_duration = 0.99771
 	}
 	orion_ping_careful_hornet_01_ping_2d = 
 	{
@@ -9818,7 +9818,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_incubus_01.vsnd",
 		]
-		vsnd_duration = 1.238000
+		vsnd_duration = 1.238
 	}
 	orion_ping_careful_inferno_01_ping_2d = 
 	{
@@ -9828,7 +9828,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_inferno_01.vsnd",
 		]
-		vsnd_duration = 1.020590
+		vsnd_duration = 1.02059
 	}
 	orion_ping_careful_inferno_02_ping_2d = 
 	{
@@ -10008,7 +10008,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_priest_01.vsnd",
 		]
-		vsnd_duration = 0.960000
+		vsnd_duration = 0.96
 	}
 	orion_ping_careful_priest_02_ping_2d = 
 	{
@@ -10018,7 +10018,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_priest_02.vsnd",
 		]
-		vsnd_duration = 1.001000
+		vsnd_duration = 1.001
 	}
 	orion_ping_careful_priest_03_ping_2d = 
 	{
@@ -10048,7 +10048,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_punkgoat_02.vsnd",
 		]
-		vsnd_duration = 0.920000
+		vsnd_duration = 0.92
 	}
 	orion_ping_careful_punkgoat_03_ping_2d = 
 	{
@@ -10118,7 +10118,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_swan_01.vsnd",
 		]
-		vsnd_duration = 0.966000
+		vsnd_duration = 0.966
 	}
 	orion_ping_careful_synth_01_ping_2d = 
 	{
@@ -10148,7 +10148,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_synth_03.vsnd",
 		]
-		vsnd_duration = 0.958980
+		vsnd_duration = 0.95898
 	}
 	orion_ping_careful_tengu_01_ping_2d = 
 	{
@@ -10178,7 +10178,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_tengu_03.vsnd",
 		]
-		vsnd_duration = 0.891270
+		vsnd_duration = 0.89127
 	}
 	orion_ping_careful_tvspirit_01_ping_2d = 
 	{
@@ -10218,7 +10218,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_vampirebat_03.vsnd",
 		]
-		vsnd_duration = 0.980750
+		vsnd_duration = 0.98075
 	}
 	orion_ping_careful_viscous_01_ping_2d = 
 	{
@@ -10268,7 +10268,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_warden_02.vsnd",
 		]
-		vsnd_duration = 0.884150
+		vsnd_duration = 0.88415
 	}
 	orion_ping_careful_warden_03_ping_2d = 
 	{
@@ -10368,7 +10368,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_careful_yamato_03.vsnd",
 		]
-		vsnd_duration = 1.049660
+		vsnd_duration = 1.04966
 	}
 	orion_ping_chrono_almost_respawn_ping_2d = 
 	{
@@ -10438,7 +10438,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_chrono_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.504240
+		vsnd_duration = 1.50424
 	}
 	orion_ping_chrono_under_garage_ping_2d = 
 	{
@@ -10558,7 +10558,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_doorman_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.634500
+		vsnd_duration = 1.6345
 	}
 	orion_ping_doorman_check_items_ping_2d = 
 	{
@@ -10618,7 +10618,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_doorman_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.514000
+		vsnd_duration = 1.514
 	}
 	orion_ping_doorman_under_garage_ping_2d = 
 	{
@@ -10638,7 +10638,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_doorman_was_here.vsnd",
 		]
-		vsnd_duration = 1.006500
+		vsnd_duration = 1.0065
 	}
 	orion_ping_drifter_almost_respawn_ping_2d = 
 	{
@@ -10668,7 +10668,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_drifter_dead.vsnd",
 		]
-		vsnd_duration = 1.345500
+		vsnd_duration = 1.3455
 	}
 	orion_ping_drifter_in_mid_ping_2d = 
 	{
@@ -10688,7 +10688,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_drifter_missing_01.vsnd",
 		]
-		vsnd_duration = 1.274000
+		vsnd_duration = 1.274
 	}
 	orion_ping_drifter_on_top_of_garage_ping_2d = 
 	{
@@ -10698,7 +10698,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_drifter_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.723000
+		vsnd_duration = 1.723
 	}
 	orion_ping_drifter_on_top_of_mid_ping_2d = 
 	{
@@ -10708,7 +10708,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_drifter_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.527500
+		vsnd_duration = 1.5275
 	}
 	orion_ping_drifter_under_garage_ping_2d = 
 	{
@@ -10718,7 +10718,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_drifter_under_garage.vsnd",
 		]
-		vsnd_duration = 1.482000
+		vsnd_duration = 1.482
 	}
 	orion_ping_drifter_was_here_ping_2d = 
 	{
@@ -10848,7 +10848,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_flank.vsnd",
 		]
-		vsnd_duration = 0.841270
+		vsnd_duration = 0.84127
 	}
 	orion_ping_forge_almost_respawn_ping_2d = 
 	{
@@ -10948,7 +10948,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_fortuna_missing_01.vsnd",
 		]
-		vsnd_duration = 1.172500
+		vsnd_duration = 1.1725
 	}
 	orion_ping_frank_almost_respawn_ping_2d = 
 	{
@@ -10958,7 +10958,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_frank_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.425500
+		vsnd_duration = 1.4255
 	}
 	orion_ping_frank_check_items_ping_2d = 
 	{
@@ -10978,7 +10978,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_frank_dead.vsnd",
 		]
-		vsnd_duration = 1.036000
+		vsnd_duration = 1.036
 	}
 	orion_ping_frank_in_mid_ping_2d = 
 	{
@@ -11038,7 +11038,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_frank_was_here.vsnd",
 		]
-		vsnd_duration = 0.986000
+		vsnd_duration = 0.986
 	}
 	orion_ping_gank_ping_2d = 
 	{
@@ -11058,7 +11058,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_ghost_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.453900
+		vsnd_duration = 1.4539
 	}
 	orion_ping_ghost_check_items_ping_2d = 
 	{
@@ -11258,7 +11258,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_going_in_01.vsnd",
 		]
-		vsnd_duration = 0.865510
+		vsnd_duration = 0.86551
 	}
 	orion_ping_going_in_ping_2d = 
 	{
@@ -11308,7 +11308,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_good_game_03.vsnd",
 		]
-		vsnd_duration = 0.868730
+		vsnd_duration = 0.86873
 	}
 	orion_ping_good_job_01_ping_2d = 
 	{
@@ -11328,7 +11328,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_graf_missing_01.vsnd",
 		]
-		vsnd_duration = 1.147500
+		vsnd_duration = 1.1475
 	}
 	orion_ping_green_help_01_ping_2d = 
 	{
@@ -11338,7 +11338,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_green_help_01.vsnd",
 		]
-		vsnd_duration = 0.979320
+		vsnd_duration = 0.97932
 	}
 	orion_ping_green_help_02_ping_2d = 
 	{
@@ -11398,7 +11398,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_haze_missing_01.vsnd",
 		]
-		vsnd_duration = 1.206190
+		vsnd_duration = 1.20619
 	}
 	orion_ping_haze_on_top_of_garage_ping_2d = 
 	{
@@ -11448,7 +11448,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_headed_blue_01.vsnd",
 		]
-		vsnd_duration = 0.882200
+		vsnd_duration = 0.8822
 	}
 	orion_ping_headed_blue_02_ping_2d = 
 	{
@@ -11578,7 +11578,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_hornet_dead.vsnd",
 		]
-		vsnd_duration = 1.228980
+		vsnd_duration = 1.22898
 	}
 	orion_ping_hornet_in_mid_ping_2d = 
 	{
@@ -11698,7 +11698,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_ignore_doorman.vsnd",
 		]
-		vsnd_duration = 1.189500
+		vsnd_duration = 1.1895
 	}
 	orion_ping_ignore_drifter_ping_2d = 
 	{
@@ -11818,7 +11818,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_ignore_lash.vsnd",
 		]
-		vsnd_duration = 1.143220
+		vsnd_duration = 1.14322
 	}
 	orion_ping_ignore_mirage_ping_2d = 
 	{
@@ -11828,7 +11828,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_ignore_mirage.vsnd",
 		]
-		vsnd_duration = 0.982200
+		vsnd_duration = 0.9822
 	}
 	orion_ping_ignore_nano_ping_2d = 
 	{
@@ -11888,7 +11888,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_ignore_tengu.vsnd",
 		]
-		vsnd_duration = 0.865760
+		vsnd_duration = 0.86576
 	}
 	orion_ping_ignore_vampirebat_ping_2d = 
 	{
@@ -11898,7 +11898,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_ignore_vampirebat.vsnd",
 		]
-		vsnd_duration = 0.988000
+		vsnd_duration = 0.988
 	}
 	orion_ping_ignore_viscous_ping_2d = 
 	{
@@ -11988,7 +11988,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_inferno_dead.vsnd",
 		]
-		vsnd_duration = 1.308730
+		vsnd_duration = 1.30873
 	}
 	orion_ping_inferno_in_mid_ping_2d = 
 	{
@@ -12028,7 +12028,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_inferno_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.487460
+		vsnd_duration = 1.48746
 	}
 	orion_ping_inferno_under_garage_ping_2d = 
 	{
@@ -12078,7 +12078,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_jar_call_01.vsnd",
 		]
-		vsnd_duration = 1.112200
+		vsnd_duration = 1.1122
 	}
 	orion_ping_jar_call_02_ping_2d = 
 	{
@@ -12098,7 +12098,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_kelvin_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.410340
+		vsnd_duration = 1.41034
 	}
 	orion_ping_kelvin_check_items_ping_2d = 
 	{
@@ -12128,7 +12128,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_kelvin_in_mid.vsnd",
 		]
-		vsnd_duration = 0.960930
+		vsnd_duration = 0.96093
 	}
 	orion_ping_kelvin_missing_01_ping_2d = 
 	{
@@ -12148,7 +12148,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_kelvin_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.664150
+		vsnd_duration = 1.66415
 	}
 	orion_ping_kelvin_on_top_of_mid_ping_2d = 
 	{
@@ -12188,7 +12188,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_kncokdown_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.510680
+		vsnd_duration = 1.51068
 	}
 	orion_ping_kncokdown_not_ready_ping_2d = 
 	{
@@ -12208,7 +12208,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_krill_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.361610
+		vsnd_duration = 1.36161
 	}
 	orion_ping_krill_check_items_ping_2d = 
 	{
@@ -12398,7 +12398,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_leaving_area_02.vsnd",
 		]
-		vsnd_duration = 1.133220
+		vsnd_duration = 1.13322
 	}
 	orion_ping_leaving_area_03_ping_2d = 
 	{
@@ -12448,7 +12448,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_lets_go_green.vsnd",
 		]
-		vsnd_duration = 0.945850
+		vsnd_duration = 0.94585
 	}
 	orion_ping_lets_go_yellow_alt_ping_2d = 
 	{
@@ -12468,7 +12468,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_lets_go_yellow.vsnd",
 		]
-		vsnd_duration = 0.940930
+		vsnd_duration = 0.94093
 	}
 	orion_ping_lets_hide_ping_2d = 
 	{
@@ -12528,7 +12528,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_mirage_in_mid.vsnd",
 		]
-		vsnd_duration = 1.131610
+		vsnd_duration = 1.13161
 	}
 	orion_ping_mirage_missing_01_ping_2d = 
 	{
@@ -12658,7 +12658,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_nano_check_items.vsnd",
 		]
-		vsnd_duration = 1.641270
+		vsnd_duration = 1.64127
 	}
 	orion_ping_nano_dead_ping_2d = 
 	{
@@ -12938,7 +12938,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_post_game_06.vsnd",
 		]
-		vsnd_duration = 2.248390
+		vsnd_duration = 2.24839
 	}
 	orion_ping_pre_game_01_ping_2d = 
 	{
@@ -12978,7 +12978,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_pre_game_04.vsnd",
 		]
-		vsnd_duration = 2.656190
+		vsnd_duration = 2.65619
 	}
 	orion_ping_pre_game_05_ping_2d = 
 	{
@@ -13058,7 +13058,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_priest_missing_01.vsnd",
 		]
-		vsnd_duration = 1.248000
+		vsnd_duration = 1.248
 	}
 	orion_ping_priest_on_top_of_garage_ping_2d = 
 	{
@@ -13178,7 +13178,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_punkgoat_under_garage.vsnd",
 		]
-		vsnd_duration = 1.402000
+		vsnd_duration = 1.402
 	}
 	orion_ping_punkgoat_was_here_ping_2d = 
 	{
@@ -13318,7 +13318,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_returning_to_base.vsnd",
 		]
-		vsnd_duration = 1.053220
+		vsnd_duration = 1.05322
 	}
 	orion_ping_right_back_01_ping_2d = 
 	{
@@ -13388,7 +13388,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_saw_bookworm_alt.vsnd",
 		]
-		vsnd_duration = 1.081000
+		vsnd_duration = 1.081
 	}
 	orion_ping_saw_cadence_ping_2d = 
 	{
@@ -13578,7 +13578,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_saw_punkgoat.vsnd",
 		]
-		vsnd_duration = 0.899000
+		vsnd_duration = 0.899
 	}
 	orion_ping_saw_shiv_ping_2d = 
 	{
@@ -13628,7 +13628,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_saw_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.016000
+		vsnd_duration = 1.016
 	}
 	orion_ping_saw_viscous_ping_2d = 
 	{
@@ -13768,7 +13768,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_bebop_on_roof.vsnd",
 		]
-		vsnd_duration = 0.998980
+		vsnd_duration = 0.99898
 	}
 	orion_ping_see_boho_01_ping_2d = 
 	{
@@ -13798,7 +13798,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_bookworm_on_bridge_alt.vsnd",
 		]
-		vsnd_duration = 1.285000
+		vsnd_duration = 1.285
 	}
 	orion_ping_see_bookworm_on_roof_alt_ping_2d = 
 	{
@@ -13808,7 +13808,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_bookworm_on_roof_alt.vsnd",
 		]
-		vsnd_duration = 1.151000
+		vsnd_duration = 1.151
 	}
 	orion_ping_see_cadence_01_ping_2d = 
 	{
@@ -13818,7 +13818,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_cadence_01.vsnd",
 		]
-		vsnd_duration = 0.973560
+		vsnd_duration = 0.97356
 	}
 	orion_ping_see_cadence_on_bridge_ping_2d = 
 	{
@@ -13878,7 +13878,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_doorman_01.vsnd",
 		]
-		vsnd_duration = 1.300000
+		vsnd_duration = 1.3
 	}
 	orion_ping_see_doorman_on_bridge_ping_2d = 
 	{
@@ -13888,7 +13888,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_doorman_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.411000
+		vsnd_duration = 1.411
 	}
 	orion_ping_see_doorman_on_roof_ping_2d = 
 	{
@@ -13898,7 +13898,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_doorman_on_roof.vsnd",
 		]
-		vsnd_duration = 1.185000
+		vsnd_duration = 1.185
 	}
 	orion_ping_see_drifter_01_ping_2d = 
 	{
@@ -13908,7 +13908,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_drifter_01.vsnd",
 		]
-		vsnd_duration = 1.272500
+		vsnd_duration = 1.2725
 	}
 	orion_ping_see_drifter_on_bridge_ping_2d = 
 	{
@@ -13938,7 +13938,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_druid_01.vsnd",
 		]
-		vsnd_duration = 1.088500
+		vsnd_duration = 1.0885
 	}
 	orion_ping_see_dynamo_01_ping_2d = 
 	{
@@ -14018,7 +14018,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_forge_on_roof.vsnd",
 		]
-		vsnd_duration = 1.245760
+		vsnd_duration = 1.24576
 	}
 	orion_ping_see_forge_ping_2d = 
 	{
@@ -14058,7 +14058,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_frank_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.256500
+		vsnd_duration = 1.2565
 	}
 	orion_ping_see_frank_on_roof_ping_2d = 
 	{
@@ -14268,7 +14268,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_kelvin_on_roof.vsnd",
 		]
-		vsnd_duration = 1.106440
+		vsnd_duration = 1.10644
 	}
 	orion_ping_see_krill_01_ping_2d = 
 	{
@@ -14288,7 +14288,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_krill_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.158980
+		vsnd_duration = 1.15898
 	}
 	orion_ping_see_krill_on_roof_ping_2d = 
 	{
@@ -14378,7 +14378,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_nano_on_roof.vsnd",
 		]
-		vsnd_duration = 1.061950
+		vsnd_duration = 1.06195
 	}
 	orion_ping_see_nano_ping_2d = 
 	{
@@ -14398,7 +14398,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_priest_01.vsnd",
 		]
-		vsnd_duration = 1.279000
+		vsnd_duration = 1.279
 	}
 	orion_ping_see_priest_on_bridge_ping_2d = 
 	{
@@ -14408,7 +14408,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_priest_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.400000
+		vsnd_duration = 1.4
 	}
 	orion_ping_see_priest_on_roof_ping_2d = 
 	{
@@ -14418,7 +14418,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_priest_on_roof.vsnd",
 		]
-		vsnd_duration = 1.213000
+		vsnd_duration = 1.213
 	}
 	orion_ping_see_punkgoat_01_ping_2d = 
 	{
@@ -14498,7 +14498,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_succubus_01.vsnd",
 		]
-		vsnd_duration = 1.304000
+		vsnd_duration = 1.304
 	}
 	orion_ping_see_swan_01_ping_2d = 
 	{
@@ -14518,7 +14518,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_synth_01.vsnd",
 		]
-		vsnd_duration = 0.884490
+		vsnd_duration = 0.88449
 	}
 	orion_ping_see_synth_on_bridge_ping_2d = 
 	{
@@ -14578,7 +14578,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_tvspirit_01.vsnd",
 		]
-		vsnd_duration = 1.431500
+		vsnd_duration = 1.4315
 	}
 	orion_ping_see_vampirebat_01_ping_2d = 
 	{
@@ -14598,7 +14598,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_see_vampirebat_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.128000
+		vsnd_duration = 1.128
 	}
 	orion_ping_see_vampirebat_on_roof_ping_2d = 
 	{
@@ -14818,7 +14818,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_shiv_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.600000
+		vsnd_duration = 1.6
 	}
 	orion_ping_shiv_on_top_of_mid_ping_2d = 
 	{
@@ -14908,7 +14908,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_sorry_03.vsnd",
 		]
-		vsnd_duration = 0.778730
+		vsnd_duration = 0.77873
 	}
 	orion_ping_stay_together_ping_2d = 
 	{
@@ -14958,7 +14958,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_stun_atlas_01.vsnd",
 		]
-		vsnd_duration = 0.906780
+		vsnd_duration = 0.90678
 	}
 	orion_ping_stun_bebop_01_ping_2d = 
 	{
@@ -15008,7 +15008,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_stun_doorman_01.vsnd",
 		]
-		vsnd_duration = 1.062000
+		vsnd_duration = 1.062
 	}
 	orion_ping_stun_drifter_01_ping_2d = 
 	{
@@ -15098,7 +15098,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_stun_inferno_01.vsnd",
 		]
-		vsnd_duration = 1.119660
+		vsnd_duration = 1.11966
 	}
 	orion_ping_stun_kelvin_01_ping_2d = 
 	{
@@ -15108,7 +15108,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_stun_kelvin_01.vsnd",
 		]
-		vsnd_duration = 0.925420
+		vsnd_duration = 0.92542
 	}
 	orion_ping_stun_krill_01_ping_2d = 
 	{
@@ -15208,7 +15208,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_stun_vampirebat_01.vsnd",
 		]
-		vsnd_duration = 0.939000
+		vsnd_duration = 0.939
 	}
 	orion_ping_stun_viscous_01_ping_2d = 
 	{
@@ -15448,7 +15448,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_tengu_in_mid.vsnd",
 		]
-		vsnd_duration = 0.982200
+		vsnd_duration = 0.9822
 	}
 	orion_ping_tengu_missing_01_ping_2d = 
 	{
@@ -15608,7 +15608,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_use_ability2.vsnd",
 		]
-		vsnd_duration = 0.957800
+		vsnd_duration = 0.9578
 	}
 	orion_ping_use_ability3_ping_2d = 
 	{
@@ -15638,7 +15638,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_use_ability4_02.vsnd",
 		]
-		vsnd_duration = 1.342200
+		vsnd_duration = 1.3422
 	}
 	orion_ping_use_ability4_03_ping_2d = 
 	{
@@ -15678,7 +15678,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_use_ability4_06.vsnd",
 		]
-		vsnd_duration = 1.799000
+		vsnd_duration = 1.799
 	}
 	orion_ping_use_ability4_07_ping_2d = 
 	{
@@ -15778,7 +15778,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_use_rupture.vsnd",
 		]
-		vsnd_duration = 1.212290
+		vsnd_duration = 1.21229
 	}
 	orion_ping_use_silence_ping_2d = 
 	{
@@ -15798,7 +15798,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_use_stim_pack.vsnd",
 		]
-		vsnd_duration = 1.428980
+		vsnd_duration = 1.42898
 	}
 	orion_ping_use_warp_stone_ping_2d = 
 	{
@@ -15858,7 +15858,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_vampirebat_missing_01.vsnd",
 		]
-		vsnd_duration = 1.029000
+		vsnd_duration = 1.029
 	}
 	orion_ping_vampirebat_on_top_of_garage_ping_2d = 
 	{
@@ -15868,7 +15868,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_vampirebat_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.551000
+		vsnd_duration = 1.551
 	}
 	orion_ping_vampirebat_on_top_of_mid_ping_2d = 
 	{
@@ -15908,7 +15908,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_viscous_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.687120
+		vsnd_duration = 1.68712
 	}
 	orion_ping_viscous_check_items_ping_2d = 
 	{
@@ -15978,7 +15978,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_viscous_under_garage.vsnd",
 		]
-		vsnd_duration = 1.607710
+		vsnd_duration = 1.60771
 	}
 	orion_ping_viscous_was_here_ping_2d = 
 	{
@@ -16498,7 +16498,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_wraith_missing_01.vsnd",
 		]
-		vsnd_duration = 1.163810
+		vsnd_duration = 1.16381
 	}
 	orion_ping_wraith_on_top_of_garage_ping_2d = 
 	{
@@ -16618,7 +16618,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_wrecker_under_garage.vsnd",
 		]
-		vsnd_duration = 1.374240
+		vsnd_duration = 1.37424
 	}
 	orion_ping_wrecker_was_here_ping_2d = 
 	{
@@ -16678,7 +16678,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_yamato_missing_01.vsnd",
 		]
-		vsnd_duration = 1.328980
+		vsnd_duration = 1.32898
 	}
 	orion_ping_yamato_on_top_of_garage_ping_2d = 
 	{
@@ -16688,7 +16688,7 @@
 		[
 			"sounds/vo/orion/ping/orion_ping_yamato_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.801270
+		vsnd_duration = 1.80127
 	}
 	orion_ping_yamato_on_top_of_mid_ping_2d = 
 	{
@@ -16758,7 +16758,7 @@
 		[
 			"sounds/vo/orion/orion_sad_01.vsnd",
 		]
-		vsnd_duration = 3.501000
+		vsnd_duration = 3.501
 	}
 	orion_sad_02_hero_3d = 
 	{
@@ -16838,7 +16838,7 @@
 		[
 			"sounds/vo/orion/orion_sad_09.vsnd",
 		]
-		vsnd_duration = 1.414240
+		vsnd_duration = 1.41424
 	}
 	orion_sad_10_hero_3d = 
 	{
@@ -16868,7 +16868,7 @@
 		[
 			"sounds/vo/orion/orion_see_enemy_metal_skin_02.vsnd",
 		]
-		vsnd_duration = 1.294830
+		vsnd_duration = 1.29483
 	}
 	orion_see_enemy_metal_skin_03_hero_3d = 
 	{
@@ -16938,7 +16938,7 @@
 		[
 			"sounds/vo/orion/orion_select_03.vsnd",
 		]
-		vsnd_duration = 2.070000
+		vsnd_duration = 2.07
 	}
 	orion_select_04_hero_3d = 
 	{
@@ -16998,7 +16998,7 @@
 		[
 			"sounds/vo/orion/orion_select_09.vsnd",
 		]
-		vsnd_duration = 1.867460
+		vsnd_duration = 1.86746
 	}
 	orion_select_10_hero_3d = 
 	{
@@ -17078,7 +17078,7 @@
 		[
 			"sounds/vo/orion/orion_t3_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 2.239070
+		vsnd_duration = 2.23907
 	}
 	orion_t3_shop_reminder_02_hero_3d = 
 	{
@@ -17108,7 +17108,7 @@
 		[
 			"sounds/vo/orion/orion_t4_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 1.945760
+		vsnd_duration = 1.94576
 	}
 	orion_t4_shop_reminder_02_hero_3d = 
 	{
@@ -17158,7 +17158,7 @@
 		[
 			"sounds/vo/orion/orion_tower_got_denied_03.vsnd",
 		]
-		vsnd_duration = 2.716440
+		vsnd_duration = 2.71644
 	}
 	orion_tower_got_denied_04_hero_3d = 
 	{
@@ -17388,7 +17388,7 @@
 		[
 			"sounds/vo/orion/orion_upgrade_power2_01.vsnd",
 		]
-		vsnd_duration = 1.317710
+		vsnd_duration = 1.31771
 	}
 	orion_upgrade_power2_02_hero_3d = 
 	{
@@ -17448,7 +17448,7 @@
 		[
 			"sounds/vo/orion/orion_upgrade_power2_07.vsnd",
 		]
-		vsnd_duration = 2.352540
+		vsnd_duration = 2.35254
 	}
 	orion_upgrade_power2_08_hero_3d = 
 	{
@@ -17468,7 +17468,7 @@
 		[
 			"sounds/vo/orion/orion_upgrade_power2_09.vsnd",
 		]
-		vsnd_duration = 1.741610
+		vsnd_duration = 1.74161
 	}
 	orion_upgrade_power2_10_hero_3d = 
 	{
@@ -17728,7 +17728,7 @@
 		[
 			"sounds/vo/orion/orion_use_colossus_02.vsnd",
 		]
-		vsnd_duration = 1.465510
+		vsnd_duration = 1.46551
 	}
 	orion_use_colossus_03_ability_3d = 
 	{
@@ -17848,7 +17848,7 @@
 		[
 			"sounds/vo/orion/orion_use_ice_blast_02.vsnd",
 		]
-		vsnd_duration = 1.240590
+		vsnd_duration = 1.24059
 	}
 	orion_use_ice_blast_03_ability_3d = 
 	{
@@ -17878,7 +17878,7 @@
 		[
 			"sounds/vo/orion/orion_use_metal_skin_02.vsnd",
 		]
-		vsnd_duration = 1.457370
+		vsnd_duration = 1.45737
 	}
 	orion_use_metal_skin_03_ability_3d = 
 	{
@@ -17968,7 +17968,7 @@
 		[
 			"sounds/vo/orion/orion_use_power1_05.vsnd",
 		]
-		vsnd_duration = 0.650000
+		vsnd_duration = 0.65
 	}
 	orion_use_power1_06_ability_3d = 
 	{
@@ -17998,7 +17998,7 @@
 		[
 			"sounds/vo/orion/orion_use_power1_07.vsnd",
 		]
-		vsnd_duration = 0.925170
+		vsnd_duration = 0.92517
 	}
 	orion_use_power1_08_ability_3d = 
 	{
@@ -18028,7 +18028,7 @@
 		[
 			"sounds/vo/orion/orion_use_power1_10.vsnd",
 		]
-		vsnd_duration = 0.849660
+		vsnd_duration = 0.84966
 	}
 	orion_use_power1_11_ability_3d = 
 	{
@@ -18168,7 +18168,7 @@
 		[
 			"sounds/vo/orion/orion_use_power2_04.vsnd",
 		]
-		vsnd_duration = 1.837710
+		vsnd_duration = 1.83771
 	}
 	orion_use_power2_05_ability_3d = 
 	{
@@ -18328,7 +18328,7 @@
 		[
 			"sounds/vo/orion/orion_use_power3_10.vsnd",
 		]
-		vsnd_duration = 0.940590
+		vsnd_duration = 0.94059
 	}
 	orion_use_power4_01_ability_3d = 
 	{
@@ -18398,7 +18398,7 @@
 		[
 			"sounds/vo/orion/orion_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.673900
+		vsnd_duration = 1.6739
 	}
 	orion_use_power4_03_hero_announcer = 
 	{
@@ -18408,7 +18408,7 @@
 		[
 			"sounds/vo/orion/orion_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.673900
+		vsnd_duration = 1.6739
 	}
 	orion_use_power4_03_ult_3d = 
 	{
@@ -18418,7 +18418,7 @@
 		[
 			"sounds/vo/orion/orion_use_power4_03.vsnd",
 		]
-		vsnd_duration = 1.673900
+		vsnd_duration = 1.6739
 	}
 	orion_use_power4_04_ability_3d = 
 	{
@@ -18758,7 +18758,7 @@
 		[
 			"sounds/vo/orion/orion_use_vampiric_burst_01.vsnd",
 		]
-		vsnd_duration = 1.249320
+		vsnd_duration = 1.24932
 	}
 	orion_use_vampiric_burst_02_ability_3d = 
 	{

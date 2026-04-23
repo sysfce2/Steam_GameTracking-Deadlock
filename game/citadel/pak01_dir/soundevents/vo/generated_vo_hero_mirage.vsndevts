@@ -118,7 +118,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_atlas_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.905170
+		vsnd_duration = 1.90517
 	}
 	mirage_ally_atlas_pass_on_zipline_01_hero_3d = 
 	{
@@ -148,7 +148,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_atlas_unkillable_02.vsnd",
 		]
-		vsnd_duration = 1.900340
+		vsnd_duration = 1.90034
 	}
 	mirage_ally_atlas_unkillable_03_hero_3d = 
 	{
@@ -228,7 +228,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_bebop_uppercut_towards_boss_02.vsnd",
 		]
-		vsnd_duration = 1.353560
+		vsnd_duration = 1.35356
 	}
 	mirage_ally_bebop_uppercut_towards_boss_03_hero_3d = 
 	{
@@ -328,7 +328,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_chrono_steals_rejuv_02.vsnd",
 		]
-		vsnd_duration = 2.285170
+		vsnd_duration = 2.28517
 	}
 	mirage_ally_chrono_steals_rejuv_03_hero_3d = 
 	{
@@ -428,7 +428,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_dynamo_big_blackhole_03.vsnd",
 		]
-		vsnd_duration = 1.825170
+		vsnd_duration = 1.82517
 	}
 	mirage_ally_dynamo_clutch_heal_01_hero_3d = 
 	{
@@ -448,7 +448,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_dynamo_clutch_heal_02.vsnd",
 		]
-		vsnd_duration = 1.949660
+		vsnd_duration = 1.94966
 	}
 	mirage_ally_dynamo_clutch_heal_03_hero_3d = 
 	{
@@ -498,7 +498,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_forge_clutch_heal_02.vsnd",
 		]
-		vsnd_duration = 1.749660
+		vsnd_duration = 1.74966
 	}
 	mirage_ally_forge_clutch_heal_03_hero_3d = 
 	{
@@ -588,7 +588,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_ghost_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.541610
+		vsnd_duration = 1.54161
 	}
 	mirage_ally_ghost_pass_on_zipline_01_hero_3d = 
 	{
@@ -618,7 +618,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_gigawatt_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.920340
+		vsnd_duration = 1.92034
 	}
 	mirage_ally_graf_killed_in_lane_01_hero_3d = 
 	{
@@ -628,7 +628,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_graf_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.414830
+		vsnd_duration = 1.41483
 	}
 	mirage_ally_haze_killed_in_lane_01_hero_3d = 
 	{
@@ -768,7 +768,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_magician_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.654830
+		vsnd_duration = 1.65483
 	}
 	mirage_ally_magician_pass_on_zipline_01_hero_3d = 
 	{
@@ -778,7 +778,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_magician_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.845510
+		vsnd_duration = 1.84551
 	}
 	mirage_ally_nano_killed_in_lane_01_hero_3d = 
 	{
@@ -968,7 +968,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_tengu_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.630000
+		vsnd_duration = 1.63
 	}
 	mirage_ally_trapper_killed_in_lane_01_hero_3d = 
 	{
@@ -1028,7 +1028,7 @@
 		[
 			"sounds/vo/mirage/mirage_ally_viper_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 0.920000
+		vsnd_duration = 0.92
 	}
 	mirage_ally_viscous_killed_in_lane_01_hero_3d = 
 	{
@@ -1338,7 +1338,7 @@
 		[
 			"sounds/vo/mirage/mirage_desperation_power1_05.vsnd",
 		]
-		vsnd_duration = 0.989320
+		vsnd_duration = 0.98932
 	}
 	mirage_desperation_power2_01_ability_3d = 
 	{
@@ -1388,7 +1388,7 @@
 		[
 			"sounds/vo/mirage/mirage_desperation_power2_05.vsnd",
 		]
-		vsnd_duration = 1.662630
+		vsnd_duration = 1.66263
 	}
 	mirage_desperation_power3_01_ability_3d = 
 	{
@@ -2028,7 +2028,7 @@
 		[
 			"sounds/vo/mirage/emote/mirage_effort_melee_big_07.vsnd",
 		]
-		vsnd_duration = 0.566440
+		vsnd_duration = 0.56644
 	}
 	mirage_effort_melee_big_07_emote_melee_effort_3d = 
 	{
@@ -2038,7 +2038,7 @@
 		[
 			"sounds/vo/mirage/emote/mirage_effort_melee_big_07.vsnd",
 		]
-		vsnd_duration = 0.566440
+		vsnd_duration = 0.56644
 	}
 	mirage_effort_melee_small_01_emote_effort_3d = 
 	{
@@ -2168,7 +2168,7 @@
 		[
 			"sounds/vo/mirage/emote/mirage_effort_melee_small_07.vsnd",
 		]
-		vsnd_duration = 0.493560
+		vsnd_duration = 0.49356
 	}
 	mirage_effort_melee_small_07_emote_melee_effort_3d = 
 	{
@@ -2178,7 +2178,7 @@
 		[
 			"sounds/vo/mirage/emote/mirage_effort_melee_small_07.vsnd",
 		]
-		vsnd_duration = 0.493560
+		vsnd_duration = 0.49356
 	}
 	mirage_end_streak_hero_3d = 
 	{
@@ -2468,7 +2468,7 @@
 		[
 			"sounds/vo/mirage/mirage_enemy_gets_rejuv_01.vsnd",
 		]
-		vsnd_duration = 1.740000
+		vsnd_duration = 1.74
 	}
 	mirage_enemy_gets_rejuv_02_hero_3d = 
 	{
@@ -2558,7 +2558,7 @@
 		[
 			"sounds/vo/mirage/mirage_interrupt_04.vsnd",
 		]
-		vsnd_duration = 2.200000
+		vsnd_duration = 2.2
 	}
 	mirage_interrupt_05_hero_3d = 
 	{
@@ -2778,7 +2778,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_bebop_01.vsnd",
 		]
-		vsnd_duration = 1.930000
+		vsnd_duration = 1.93
 	}
 	mirage_kill_bebop_02_hero_3d = 
 	{
@@ -2808,7 +2808,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_bebop_04.vsnd",
 		]
-		vsnd_duration = 2.934830
+		vsnd_duration = 2.93483
 	}
 	mirage_kill_bebop_05_hero_3d = 
 	{
@@ -2838,7 +2838,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_bookworm_02.vsnd",
 		]
-		vsnd_duration = 1.634490
+		vsnd_duration = 1.63449
 	}
 	mirage_kill_bookworm_03_hero_3d = 
 	{
@@ -2918,7 +2918,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_chrono_05.vsnd",
 		]
-		vsnd_duration = 3.320340
+		vsnd_duration = 3.32034
 	}
 	mirage_kill_doorman_01_hero_3d = 
 	{
@@ -2928,7 +2928,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_doorman_01.vsnd",
 		]
-		vsnd_duration = 4.195510
+		vsnd_duration = 4.19551
 	}
 	mirage_kill_doorman_02_hero_3d = 
 	{
@@ -2938,7 +2938,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_doorman_02.vsnd",
 		]
-		vsnd_duration = 3.515850
+		vsnd_duration = 3.51585
 	}
 	mirage_kill_doorman_03_hero_3d = 
 	{
@@ -2998,7 +2998,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_drifter_03.vsnd",
 		]
-		vsnd_duration = 2.459660
+		vsnd_duration = 2.45966
 	}
 	mirage_kill_drifter_04_hero_3d = 
 	{
@@ -3018,7 +3018,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_drifter_05.vsnd",
 		]
-		vsnd_duration = 2.659660
+		vsnd_duration = 2.65966
 	}
 	mirage_kill_dynamo_01_hero_3d = 
 	{
@@ -3128,7 +3128,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_frank_01.vsnd",
 		]
-		vsnd_duration = 1.607800
+		vsnd_duration = 1.6078
 	}
 	mirage_kill_frank_02_hero_3d = 
 	{
@@ -3298,7 +3298,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_haze_03.vsnd",
 		]
-		vsnd_duration = 2.009660
+		vsnd_duration = 2.00966
 	}
 	mirage_kill_haze_04_hero_3d = 
 	{
@@ -3318,7 +3318,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_haze_05.vsnd",
 		]
-		vsnd_duration = 1.852630
+		vsnd_duration = 1.85263
 	}
 	mirage_kill_high_networth_hero_3d = 
 	{
@@ -3398,7 +3398,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_inferno_02.vsnd",
 		]
-		vsnd_duration = 1.580340
+		vsnd_duration = 1.58034
 	}
 	mirage_kill_inferno_03_hero_3d = 
 	{
@@ -3438,7 +3438,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_kelvin_01.vsnd",
 		]
-		vsnd_duration = 1.350340
+		vsnd_duration = 1.35034
 	}
 	mirage_kill_kelvin_02_hero_3d = 
 	{
@@ -3718,7 +3718,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_operative_04.vsnd",
 		]
-		vsnd_duration = 1.600340
+		vsnd_duration = 1.60034
 	}
 	mirage_kill_operative_05_hero_3d = 
 	{
@@ -3738,7 +3738,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_orion_01.vsnd",
 		]
-		vsnd_duration = 1.790000
+		vsnd_duration = 1.79
 	}
 	mirage_kill_orion_02_hero_3d = 
 	{
@@ -3848,7 +3848,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_punkgoat_02.vsnd",
 		]
-		vsnd_duration = 2.520680
+		vsnd_duration = 2.52068
 	}
 	mirage_kill_punkgoat_03_hero_3d = 
 	{
@@ -4058,7 +4058,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_tengu_03.vsnd",
 		]
-		vsnd_duration = 1.320000
+		vsnd_duration = 1.32
 	}
 	mirage_kill_tengu_04_hero_3d = 
 	{
@@ -4088,7 +4088,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_trapper_01.vsnd",
 		]
-		vsnd_duration = 1.129660
+		vsnd_duration = 1.12966
 	}
 	mirage_kill_trapper_02_hero_3d = 
 	{
@@ -4198,7 +4198,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_viper_02.vsnd",
 		]
-		vsnd_duration = 1.404830
+		vsnd_duration = 1.40483
 	}
 	mirage_kill_viper_03_hero_3d = 
 	{
@@ -4228,7 +4228,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_viper_05.vsnd",
 		]
-		vsnd_duration = 2.228050
+		vsnd_duration = 2.22805
 	}
 	mirage_kill_viscous_01_hero_3d = 
 	{
@@ -4258,7 +4258,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_viscous_03.vsnd",
 		]
-		vsnd_duration = 1.850000
+		vsnd_duration = 1.85
 	}
 	mirage_kill_viscous_04_hero_3d = 
 	{
@@ -4378,7 +4378,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_wraith_04.vsnd",
 		]
-		vsnd_duration = 2.270340
+		vsnd_duration = 2.27034
 	}
 	mirage_kill_wraith_05_hero_3d = 
 	{
@@ -4408,7 +4408,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_wrecker_02.vsnd",
 		]
-		vsnd_duration = 2.299660
+		vsnd_duration = 2.29966
 	}
 	mirage_kill_wrecker_03_hero_3d = 
 	{
@@ -4438,7 +4438,7 @@
 		[
 			"sounds/vo/mirage/mirage_kill_wrecker_05.vsnd",
 		]
-		vsnd_duration = 2.414150
+		vsnd_duration = 2.41415
 	}
 	mirage_kill_yamato_01_hero_3d = 
 	{
@@ -4868,7 +4868,7 @@
 		[
 			"sounds/vo/mirage/mirage_match_start_atlas_mirage_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.999660
+		vsnd_duration = 2.99966
 	}
 	mirage_match_start_atlas_mirage_convo01_03_hero_zipline_3d = 
 	{
@@ -4908,7 +4908,7 @@
 		[
 			"sounds/vo/mirage/mirage_match_start_atlas_mirage_convo02_03.vsnd",
 		]
-		vsnd_duration = 1.550340
+		vsnd_duration = 1.55034
 	}
 	mirage_match_start_atlas_mirage_convo03_02_hero_zipline_3d = 
 	{
@@ -5058,7 +5058,7 @@
 		[
 			"sounds/vo/mirage/mirage_match_start_drifter_mirage_convo03_04.vsnd",
 		]
-		vsnd_duration = 3.059660
+		vsnd_duration = 3.05966
 	}
 	mirage_match_start_dynamo_mirage_convo01_02_hero_zipline_3d = 
 	{
@@ -5208,7 +5208,7 @@
 		[
 			"sounds/vo/mirage/mirage_match_start_gigawatt_mirage_convo01_02.vsnd",
 		]
-		vsnd_duration = 2.537460
+		vsnd_duration = 2.53746
 	}
 	mirage_match_start_gigawatt_mirage_convo02_02_hero_zipline_3d = 
 	{
@@ -5458,7 +5458,7 @@
 		[
 			"sounds/vo/mirage/mirage_match_start_viper_mirage_convo03_02.vsnd",
 		]
-		vsnd_duration = 3.595510
+		vsnd_duration = 3.59551
 	}
 	mirage_match_start_viper_mirage_convo03_04_hero_zipline_3d = 
 	{
@@ -5478,7 +5478,7 @@
 		[
 			"sounds/vo/mirage/mirage_match_start_viper_mirage_convo03_06.vsnd",
 		]
-		vsnd_duration = 1.665510
+		vsnd_duration = 1.66551
 	}
 	mirage_melee_kill_01_hero_3d = 
 	{
@@ -5558,7 +5558,7 @@
 		[
 			"sounds/vo/mirage/mirage_near_miss_03.vsnd",
 		]
-		vsnd_duration = 1.650340
+		vsnd_duration = 1.65034
 	}
 	mirage_near_miss_04_hero_3d = 
 	{
@@ -5658,7 +5658,7 @@
 		[
 			"sounds/vo/mirage/emote/mirage_pain_big_01.vsnd",
 		]
-		vsnd_duration = 1.109320
+		vsnd_duration = 1.10932
 	}
 	mirage_pain_big_02_emote_pain_3d = 
 	{
@@ -5938,7 +5938,7 @@
 		[
 			"sounds/vo/mirage/emote/mirage_pain_small_09.vsnd",
 		]
-		vsnd_duration = 0.632540
+		vsnd_duration = 0.63254
 	}
 	mirage_pain_small_10_emote_pain_3d = 
 	{
@@ -6298,7 +6298,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_atlas_in_mid.vsnd",
 		]
-		vsnd_duration = 1.140680
+		vsnd_duration = 1.14068
 	}
 	mirage_ping_atlas_missing_01_ping_2d = 
 	{
@@ -6338,7 +6338,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_atlas_under_garage.vsnd",
 		]
-		vsnd_duration = 1.524150
+		vsnd_duration = 1.52415
 	}
 	mirage_ping_atlas_was_here_ping_2d = 
 	{
@@ -6348,7 +6348,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_atlas_was_here.vsnd",
 		]
-		vsnd_duration = 1.105760
+		vsnd_duration = 1.10576
 	}
 	mirage_ping_attack_astro_ping_2d = 
 	{
@@ -6478,7 +6478,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_attack_enemy.vsnd",
 		]
-		vsnd_duration = 1.423810
+		vsnd_duration = 1.42381
 	}
 	mirage_ping_attack_forge_ping_2d = 
 	{
@@ -6528,7 +6528,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_attack_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.307800
+		vsnd_duration = 1.3078
 	}
 	mirage_ping_attack_graf_ping_2d = 
 	{
@@ -6538,7 +6538,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_attack_graf.vsnd",
 		]
-		vsnd_duration = 1.629660
+		vsnd_duration = 1.62966
 	}
 	mirage_ping_attack_haze_ping_2d = 
 	{
@@ -6598,7 +6598,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_attack_krill.vsnd",
 		]
-		vsnd_duration = 1.451270
+		vsnd_duration = 1.45127
 	}
 	mirage_ping_attack_lash_ping_2d = 
 	{
@@ -6768,7 +6768,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_attack_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.646780
+		vsnd_duration = 1.64678
 	}
 	mirage_ping_attack_viper_ping_2d = 
 	{
@@ -6778,7 +6778,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_attack_viper.vsnd",
 		]
-		vsnd_duration = 1.510340
+		vsnd_duration = 1.51034
 	}
 	mirage_ping_attack_viscous_ping_2d = 
 	{
@@ -6828,7 +6828,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_attack_yamato.vsnd",
 		]
-		vsnd_duration = 1.447800
+		vsnd_duration = 1.4478
 	}
 	mirage_ping_avatar_under_attack_ping_2d = 
 	{
@@ -6858,7 +6858,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_bebop_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.270930
+		vsnd_duration = 1.27093
 	}
 	mirage_ping_bebop_check_items_ping_2d = 
 	{
@@ -6898,7 +6898,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_bebop_missing_01.vsnd",
 		]
-		vsnd_duration = 1.044240
+		vsnd_duration = 1.04424
 	}
 	mirage_ping_bebop_on_top_of_garage_ping_2d = 
 	{
@@ -6948,7 +6948,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_blue_help_01.vsnd",
 		]
-		vsnd_duration = 1.064490
+		vsnd_duration = 1.06449
 	}
 	mirage_ping_blue_help_02_ping_2d = 
 	{
@@ -6958,7 +6958,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_blue_help_02.vsnd",
 		]
-		vsnd_duration = 1.275760
+		vsnd_duration = 1.27576
 	}
 	mirage_ping_boho_missing_01_ping_2d = 
 	{
@@ -7238,7 +7238,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_can_heal_ghost.vsnd",
 		]
-		vsnd_duration = 1.321610
+		vsnd_duration = 1.32161
 	}
 	mirage_ping_can_heal_gigawatt_ping_2d = 
 	{
@@ -7268,7 +7268,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_can_heal_hornet.vsnd",
 		]
-		vsnd_duration = 1.605510
+		vsnd_duration = 1.60551
 	}
 	mirage_ping_can_heal_inferno_ping_2d = 
 	{
@@ -7288,7 +7288,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_can_heal_kelvin.vsnd",
 		]
-		vsnd_duration = 1.390000
+		vsnd_duration = 1.39
 	}
 	mirage_ping_can_heal_krill_ping_2d = 
 	{
@@ -7298,7 +7298,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_can_heal_krill.vsnd",
 		]
-		vsnd_duration = 1.254240
+		vsnd_duration = 1.25424
 	}
 	mirage_ping_can_heal_lash_ping_2d = 
 	{
@@ -7368,7 +7368,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_can_heal_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.330000
+		vsnd_duration = 1.33
 	}
 	mirage_ping_can_heal_shiv_ping_2d = 
 	{
@@ -7478,7 +7478,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_can_heal_wrecker.vsnd",
 		]
-		vsnd_duration = 1.402290
+		vsnd_duration = 1.40229
 	}
 	mirage_ping_can_heal_yamato_ping_2d = 
 	{
@@ -7498,7 +7498,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_astro_01.vsnd",
 		]
-		vsnd_duration = 1.040000
+		vsnd_duration = 1.04
 	}
 	mirage_ping_careful_astro_02_ping_2d = 
 	{
@@ -7528,7 +7528,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_atlas_01.vsnd",
 		]
-		vsnd_duration = 1.041270
+		vsnd_duration = 1.04127
 	}
 	mirage_ping_careful_atlas_02_ping_2d = 
 	{
@@ -7588,7 +7588,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_boho_01.vsnd",
 		]
-		vsnd_duration = 1.079660
+		vsnd_duration = 1.07966
 	}
 	mirage_ping_careful_bookworm_01_alt_ping_2d = 
 	{
@@ -7618,7 +7618,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_bookworm_03_alt.vsnd",
 		]
-		vsnd_duration = 1.215510
+		vsnd_duration = 1.21551
 	}
 	mirage_ping_careful_cadence_01_ping_2d = 
 	{
@@ -7868,7 +7868,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_ghost_02.vsnd",
 		]
-		vsnd_duration = 1.254150
+		vsnd_duration = 1.25415
 	}
 	mirage_ping_careful_ghost_03_ping_2d = 
 	{
@@ -7878,7 +7878,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_ghost_03.vsnd",
 		]
-		vsnd_duration = 1.252540
+		vsnd_duration = 1.25254
 	}
 	mirage_ping_careful_gigawatt_01_ping_2d = 
 	{
@@ -8088,7 +8088,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_lash_01.vsnd",
 		]
-		vsnd_duration = 0.853560
+		vsnd_duration = 0.85356
 	}
 	mirage_ping_careful_lash_02_ping_2d = 
 	{
@@ -8148,7 +8148,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_nano_01.vsnd",
 		]
-		vsnd_duration = 1.001020
+		vsnd_duration = 1.00102
 	}
 	mirage_ping_careful_nano_02_ping_2d = 
 	{
@@ -8158,7 +8158,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_nano_02.vsnd",
 		]
-		vsnd_duration = 1.560930
+		vsnd_duration = 1.56093
 	}
 	mirage_ping_careful_nano_03_ping_2d = 
 	{
@@ -8228,7 +8228,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_orion_03.vsnd",
 		]
-		vsnd_duration = 1.653220
+		vsnd_duration = 1.65322
 	}
 	mirage_ping_careful_priest_01_ping_2d = 
 	{
@@ -8268,7 +8268,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_punkgoat_01.vsnd",
 		]
-		vsnd_duration = 0.941950
+		vsnd_duration = 0.94195
 	}
 	mirage_ping_careful_punkgoat_02_ping_2d = 
 	{
@@ -8308,7 +8308,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_shiv_02.vsnd",
 		]
-		vsnd_duration = 0.960930
+		vsnd_duration = 0.96093
 	}
 	mirage_ping_careful_shiv_03_ping_2d = 
 	{
@@ -8328,7 +8328,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_skyrunner_01.vsnd",
 		]
-		vsnd_duration = 1.315170
+		vsnd_duration = 1.31517
 	}
 	mirage_ping_careful_slork_01_ping_2d = 
 	{
@@ -8338,7 +8338,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_slork_01.vsnd",
 		]
-		vsnd_duration = 0.980000
+		vsnd_duration = 0.98
 	}
 	mirage_ping_careful_slork_02_ping_2d = 
 	{
@@ -8368,7 +8368,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_succubus_01.vsnd",
 		]
-		vsnd_duration = 1.414490
+		vsnd_duration = 1.41449
 	}
 	mirage_ping_careful_swan_01_ping_2d = 
 	{
@@ -8598,7 +8598,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_careful_warden_03.vsnd",
 		]
-		vsnd_duration = 1.152290
+		vsnd_duration = 1.15229
 	}
 	mirage_ping_careful_wraith_01_ping_2d = 
 	{
@@ -8738,7 +8738,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_chrono_missing_01.vsnd",
 		]
-		vsnd_duration = 1.224150
+		vsnd_duration = 1.22415
 	}
 	mirage_ping_chrono_on_top_of_garage_ping_2d = 
 	{
@@ -8758,7 +8758,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_chrono_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.539660
+		vsnd_duration = 1.53966
 	}
 	mirage_ping_chrono_under_garage_ping_2d = 
 	{
@@ -8778,7 +8778,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_chrono_was_here.vsnd",
 		]
-		vsnd_duration = 1.181950
+		vsnd_duration = 1.18195
 	}
 	mirage_ping_clear_troopers_ping_2d = 
 	{
@@ -8788,7 +8788,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_clear_troopers.vsnd",
 		]
-		vsnd_duration = 1.481020
+		vsnd_duration = 1.48102
 	}
 	mirage_ping_danger_area_ping_2d = 
 	{
@@ -8848,7 +8848,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_defend_green_02.vsnd",
 		]
-		vsnd_duration = 1.165850
+		vsnd_duration = 1.16585
 	}
 	mirage_ping_defend_yellow_01_ping_2d = 
 	{
@@ -8898,7 +8898,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_doorman_dead.vsnd",
 		]
-		vsnd_duration = 1.454490
+		vsnd_duration = 1.45449
 	}
 	mirage_ping_doorman_in_mid_ping_2d = 
 	{
@@ -8948,7 +8948,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_doorman_under_garage.vsnd",
 		]
-		vsnd_duration = 1.794830
+		vsnd_duration = 1.79483
 	}
 	mirage_ping_doorman_was_here_ping_2d = 
 	{
@@ -9068,7 +9068,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_dynamo_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.466100
+		vsnd_duration = 1.4661
 	}
 	mirage_ping_dynamo_check_items_ping_2d = 
 	{
@@ -9178,7 +9178,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_forge_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.403220
+		vsnd_duration = 1.40322
 	}
 	mirage_ping_forge_check_items_ping_2d = 
 	{
@@ -9188,7 +9188,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_forge_check_items.vsnd",
 		]
-		vsnd_duration = 1.541610
+		vsnd_duration = 1.54161
 	}
 	mirage_ping_forge_dead_ping_2d = 
 	{
@@ -9208,7 +9208,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_forge_in_mid.vsnd",
 		]
-		vsnd_duration = 1.268730
+		vsnd_duration = 1.26873
 	}
 	mirage_ping_forge_missing_01_ping_2d = 
 	{
@@ -9728,7 +9728,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_haze_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.645760
+		vsnd_duration = 1.64576
 	}
 	mirage_ping_haze_on_top_of_mid_ping_2d = 
 	{
@@ -9818,7 +9818,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_headed_yellow_01.vsnd",
 		]
-		vsnd_duration = 0.994490
+		vsnd_duration = 0.99449
 	}
 	mirage_ping_headed_yellow_02_ping_2d = 
 	{
@@ -10148,7 +10148,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_ignore_krill.vsnd",
 		]
-		vsnd_duration = 1.034490
+		vsnd_duration = 1.03449
 	}
 	mirage_ping_ignore_lash_ping_2d = 
 	{
@@ -10158,7 +10158,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_ignore_lash.vsnd",
 		]
-		vsnd_duration = 1.072630
+		vsnd_duration = 1.07263
 	}
 	mirage_ping_ignore_magician_ping_2d = 
 	{
@@ -10358,7 +10358,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_inferno_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.620680
+		vsnd_duration = 1.62068
 	}
 	mirage_ping_inferno_check_items_ping_2d = 
 	{
@@ -10488,7 +10488,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_kelvin_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.517370
+		vsnd_duration = 1.51737
 	}
 	mirage_ping_kelvin_check_items_ping_2d = 
 	{
@@ -10518,7 +10518,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_kelvin_in_mid.vsnd",
 		]
-		vsnd_duration = 1.185850
+		vsnd_duration = 1.18585
 	}
 	mirage_ping_kelvin_missing_01_ping_2d = 
 	{
@@ -10568,7 +10568,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_kelvin_was_here.vsnd",
 		]
-		vsnd_duration = 1.085850
+		vsnd_duration = 1.08585
 	}
 	mirage_ping_kncokdown_almost_ready_ping_2d = 
 	{
@@ -10588,7 +10588,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_kncokdown_not_ready.vsnd",
 		]
-		vsnd_duration = 1.647030
+		vsnd_duration = 1.64703
 	}
 	mirage_ping_krill_almost_respawn_ping_2d = 
 	{
@@ -10828,7 +10828,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_lets_go_yellow.vsnd",
 		]
-		vsnd_duration = 0.996780
+		vsnd_duration = 0.99678
 	}
 	mirage_ping_lets_hide_ping_2d = 
 	{
@@ -10848,7 +10848,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_magician_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.786100
+		vsnd_duration = 1.7861
 	}
 	mirage_ping_magician_check_items_ping_2d = 
 	{
@@ -10908,7 +10908,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_magician_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.780340
+		vsnd_duration = 1.78034
 	}
 	mirage_ping_magician_under_garage_ping_2d = 
 	{
@@ -11028,7 +11028,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_nano_dead.vsnd",
 		]
-		vsnd_duration = 0.991270
+		vsnd_duration = 0.99127
 	}
 	mirage_ping_nano_in_mid_ping_2d = 
 	{
@@ -11038,7 +11038,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_nano_in_mid.vsnd",
 		]
-		vsnd_duration = 1.221950
+		vsnd_duration = 1.22195
 	}
 	mirage_ping_nano_missing_01_ping_2d = 
 	{
@@ -11128,7 +11128,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_need_help_blue.vsnd",
 		]
-		vsnd_duration = 1.234490
+		vsnd_duration = 1.23449
 	}
 	mirage_ping_need_help_green_alt_ping_2d = 
 	{
@@ -11328,7 +11328,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_operative_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.769660
+		vsnd_duration = 1.76966
 	}
 	mirage_ping_operative_on_top_of_mid_ping_2d = 
 	{
@@ -11658,7 +11658,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_priest_under_garage.vsnd",
 		]
-		vsnd_duration = 1.985510
+		vsnd_duration = 1.98551
 	}
 	mirage_ping_priest_was_here_ping_2d = 
 	{
@@ -11738,7 +11738,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_punkgoat_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.470000
+		vsnd_duration = 1.47
 	}
 	mirage_ping_punkgoat_under_garage_ping_2d = 
 	{
@@ -11868,7 +11868,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_retreat_01.vsnd",
 		]
-		vsnd_duration = 0.800680
+		vsnd_duration = 0.80068
 	}
 	mirage_ping_retreat_02_ping_2d = 
 	{
@@ -11888,7 +11888,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_returning_to_base.vsnd",
 		]
-		vsnd_duration = 1.269410
+		vsnd_duration = 1.26941
 	}
 	mirage_ping_right_back_01_ping_2d = 
 	{
@@ -11938,7 +11938,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_saw_atlas.vsnd",
 		]
-		vsnd_duration = 1.120590
+		vsnd_duration = 1.12059
 	}
 	mirage_ping_saw_bebop_ping_2d = 
 	{
@@ -12078,7 +12078,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_saw_inferno.vsnd",
 		]
-		vsnd_duration = 1.172290
+		vsnd_duration = 1.17229
 	}
 	mirage_ping_saw_kelvin_ping_2d = 
 	{
@@ -12178,7 +12178,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_saw_shiv.vsnd",
 		]
-		vsnd_duration = 0.985510
+		vsnd_duration = 0.98551
 	}
 	mirage_ping_saw_slork_ping_2d = 
 	{
@@ -12408,7 +12408,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_bebop_on_roof.vsnd",
 		]
-		vsnd_duration = 1.243560
+		vsnd_duration = 1.24356
 	}
 	mirage_ping_see_boho_01_ping_2d = 
 	{
@@ -12468,7 +12468,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_cadence_02.vsnd",
 		]
-		vsnd_duration = 1.139660
+		vsnd_duration = 1.13966
 	}
 	mirage_ping_see_cadence_on_bridge_ping_2d = 
 	{
@@ -12578,7 +12578,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_drifter_on_roof.vsnd",
 		]
-		vsnd_duration = 1.719660
+		vsnd_duration = 1.71966
 	}
 	mirage_ping_see_druid_01_ping_2d = 
 	{
@@ -12628,7 +12628,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_dynamo_on_roof.vsnd",
 		]
-		vsnd_duration = 1.422290
+		vsnd_duration = 1.42229
 	}
 	mirage_ping_see_enemy_on_bridge_ping_2d = 
 	{
@@ -12678,7 +12678,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_forge_on_roof.vsnd",
 		]
-		vsnd_duration = 1.470930
+		vsnd_duration = 1.47093
 	}
 	mirage_ping_see_forge_ping_2d = 
 	{
@@ -12748,7 +12748,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_ghost_02.vsnd",
 		]
-		vsnd_duration = 1.304580
+		vsnd_duration = 1.30458
 	}
 	mirage_ping_see_ghost_on_bridge_ping_2d = 
 	{
@@ -12788,7 +12788,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_gigawatt_02.vsnd",
 		]
-		vsnd_duration = 1.163810
+		vsnd_duration = 1.16381
 	}
 	mirage_ping_see_gigawatt_on_bridge_ping_2d = 
 	{
@@ -12988,7 +12988,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_krill_02.vsnd",
 		]
-		vsnd_duration = 1.121270
+		vsnd_duration = 1.12127
 	}
 	mirage_ping_see_krill_on_bridge_ping_2d = 
 	{
@@ -13108,7 +13108,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_nano.vsnd",
 		]
-		vsnd_duration = 1.071950
+		vsnd_duration = 1.07195
 	}
 	mirage_ping_see_operative_01_ping_2d = 
 	{
@@ -13318,7 +13318,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_succubus_01.vsnd",
 		]
-		vsnd_duration = 1.525510
+		vsnd_duration = 1.52551
 	}
 	mirage_ping_see_swan_01_ping_2d = 
 	{
@@ -13468,7 +13468,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_see_viper_01.vsnd",
 		]
-		vsnd_duration = 1.250000
+		vsnd_duration = 1.25
 	}
 	mirage_ping_see_viper_on_bridge_ping_2d = 
 	{
@@ -13728,7 +13728,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_shiv_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.457710
+		vsnd_duration = 1.45771
 	}
 	mirage_ping_shiv_under_garage_ping_2d = 
 	{
@@ -13968,7 +13968,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_stun_bookworm_01_alt.vsnd",
 		]
-		vsnd_duration = 1.229660
+		vsnd_duration = 1.22966
 	}
 	mirage_ping_stun_cadence_01_ping_2d = 
 	{
@@ -13978,7 +13978,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_stun_cadence_01.vsnd",
 		]
-		vsnd_duration = 1.399660
+		vsnd_duration = 1.39966
 	}
 	mirage_ping_stun_chrono_01_ping_2d = 
 	{
@@ -13988,7 +13988,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_stun_chrono_01.vsnd",
 		]
-		vsnd_duration = 1.267460
+		vsnd_duration = 1.26746
 	}
 	mirage_ping_stun_doorman_01_ping_2d = 
 	{
@@ -14208,7 +14208,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_stun_synth_01.vsnd",
 		]
-		vsnd_duration = 1.016780
+		vsnd_duration = 1.01678
 	}
 	mirage_ping_stun_tengu_01_ping_2d = 
 	{
@@ -14298,7 +14298,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_stun_yamato_01.vsnd",
 		]
-		vsnd_duration = 1.104240
+		vsnd_duration = 1.10424
 	}
 	mirage_ping_succubus_missing_01_ping_2d = 
 	{
@@ -14308,7 +14308,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_succubus_missing_01.vsnd",
 		]
-		vsnd_duration = 1.577370
+		vsnd_duration = 1.57737
 	}
 	mirage_ping_swan_missing_01_ping_2d = 
 	{
@@ -14348,7 +14348,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_synth_dead.vsnd",
 		]
-		vsnd_duration = 0.997800
+		vsnd_duration = 0.9978
 	}
 	mirage_ping_synth_in_mid_ping_2d = 
 	{
@@ -14528,7 +14528,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_tengu_under_garage.vsnd",
 		]
-		vsnd_duration = 1.507030
+		vsnd_duration = 1.50703
 	}
 	mirage_ping_tengu_was_here_ping_2d = 
 	{
@@ -14598,7 +14598,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_theyre_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.454490
+		vsnd_duration = 1.45449
 	}
 	mirage_ping_theyre_on_top_of_mid_ping_2d = 
 	{
@@ -14638,7 +14638,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_trapper_check_items.vsnd",
 		]
-		vsnd_duration = 1.644240
+		vsnd_duration = 1.64424
 	}
 	mirage_ping_trapper_dead_ping_2d = 
 	{
@@ -14708,7 +14708,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_trapper_was_here.vsnd",
 		]
-		vsnd_duration = 1.181020
+		vsnd_duration = 1.18102
 	}
 	mirage_ping_tvspirit_missing_01_ping_2d = 
 	{
@@ -14758,7 +14758,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_use_ability4_01.vsnd",
 		]
-		vsnd_duration = 1.210340
+		vsnd_duration = 1.21034
 	}
 	mirage_ping_use_ability4_02_ping_2d = 
 	{
@@ -14798,7 +14798,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_use_ability4_05.vsnd",
 		]
-		vsnd_duration = 1.740000
+		vsnd_duration = 1.74
 	}
 	mirage_ping_use_ability4_06_ping_2d = 
 	{
@@ -14908,7 +14908,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_use_rupture.vsnd",
 		]
-		vsnd_duration = 1.516440
+		vsnd_duration = 1.51644
 	}
 	mirage_ping_use_silence_ping_2d = 
 	{
@@ -14918,7 +14918,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_use_silence.vsnd",
 		]
-		vsnd_duration = 1.827460
+		vsnd_duration = 1.82746
 	}
 	mirage_ping_use_stim_pack_ping_2d = 
 	{
@@ -14938,7 +14938,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_use_warp_stone.vsnd",
 		]
-		vsnd_duration = 1.635760
+		vsnd_duration = 1.63576
 	}
 	mirage_ping_vampirebat_almost_respawn_ping_2d = 
 	{
@@ -15028,7 +15028,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_vampirebat_was_here.vsnd",
 		]
-		vsnd_duration = 1.077710
+		vsnd_duration = 1.07771
 	}
 	mirage_ping_viper_almost_respawn_ping_2d = 
 	{
@@ -15048,7 +15048,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_viper_check_items.vsnd",
 		]
-		vsnd_duration = 1.501270
+		vsnd_duration = 1.50127
 	}
 	mirage_ping_viper_dead_ping_2d = 
 	{
@@ -15118,7 +15118,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_viper_was_here.vsnd",
 		]
-		vsnd_duration = 1.167030
+		vsnd_duration = 1.16703
 	}
 	mirage_ping_viscous_almost_respawn_ping_2d = 
 	{
@@ -15288,7 +15288,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_warden_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.495170
+		vsnd_duration = 1.49517
 	}
 	mirage_ping_warden_under_garage_ping_2d = 
 	{
@@ -15338,7 +15338,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_welcome.vsnd",
 		]
-		vsnd_duration = 0.920590
+		vsnd_duration = 0.92059
 	}
 	mirage_ping_well_played_ping_2d = 
 	{
@@ -15418,7 +15418,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_with_doorman.vsnd",
 		]
-		vsnd_duration = 1.608390
+		vsnd_duration = 1.60839
 	}
 	mirage_ping_with_drifter_ping_2d = 
 	{
@@ -15438,7 +15438,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_with_dynamo.vsnd",
 		]
-		vsnd_duration = 1.160590
+		vsnd_duration = 1.16059
 	}
 	mirage_ping_with_forge_ping_2d = 
 	{
@@ -15458,7 +15458,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_with_frank.vsnd",
 		]
-		vsnd_duration = 1.400000
+		vsnd_duration = 1.4
 	}
 	mirage_ping_with_ghost_ping_2d = 
 	{
@@ -15538,7 +15538,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_with_lash.vsnd",
 		]
-		vsnd_duration = 1.081020
+		vsnd_duration = 1.08102
 	}
 	mirage_ping_with_magician_ping_2d = 
 	{
@@ -15598,7 +15598,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_with_punkgoat.vsnd",
 		]
-		vsnd_duration = 1.304830
+		vsnd_duration = 1.30483
 	}
 	mirage_ping_with_shiv_ping_2d = 
 	{
@@ -15678,7 +15678,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_with_viscous.vsnd",
 		]
-		vsnd_duration = 1.288730
+		vsnd_duration = 1.28873
 	}
 	mirage_ping_with_warden_ping_2d = 
 	{
@@ -15718,7 +15718,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_with_yamato.vsnd",
 		]
-		vsnd_duration = 1.271020
+		vsnd_duration = 1.27102
 	}
 	mirage_ping_wraith_almost_respawn_ping_2d = 
 	{
@@ -15768,7 +15768,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_wraith_missing_01.vsnd",
 		]
-		vsnd_duration = 1.086100
+		vsnd_duration = 1.0861
 	}
 	mirage_ping_wraith_on_top_of_garage_ping_2d = 
 	{
@@ -15798,7 +15798,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_wraith_under_garage.vsnd",
 		]
-		vsnd_duration = 1.578730
+		vsnd_duration = 1.57873
 	}
 	mirage_ping_wraith_was_here_ping_2d = 
 	{
@@ -15938,7 +15938,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_yamato_in_mid.vsnd",
 		]
-		vsnd_duration = 1.418980
+		vsnd_duration = 1.41898
 	}
 	mirage_ping_yamato_missing_01_ping_2d = 
 	{
@@ -15968,7 +15968,7 @@
 		[
 			"sounds/vo/mirage/ping/mirage_ping_yamato_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.588730
+		vsnd_duration = 1.58873
 	}
 	mirage_ping_yamato_under_garage_ping_2d = 
 	{
@@ -16018,7 +16018,7 @@
 		[
 			"sounds/vo/mirage/mirage_revenge_kill.vsnd",
 		]
-		vsnd_duration = 1.880340
+		vsnd_duration = 1.88034
 	}
 	mirage_see_enemy_metal_skin_01_hero_3d = 
 	{
@@ -16188,7 +16188,7 @@
 		[
 			"sounds/vo/mirage/mirage_t2_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 1.490000
+		vsnd_duration = 1.49
 	}
 	mirage_t2_shop_reminder_02_hero_3d = 
 	{
@@ -16268,7 +16268,7 @@
 		[
 			"sounds/vo/mirage/mirage_t4_shop_reminder_03.vsnd",
 		]
-		vsnd_duration = 2.134490
+		vsnd_duration = 2.13449
 	}
 	mirage_tower_got_denied_01_hero_3d = 
 	{
@@ -16338,7 +16338,7 @@
 		[
 			"sounds/vo/mirage/mirage_unselect_02.vsnd",
 		]
-		vsnd_duration = 2.275850
+		vsnd_duration = 2.27585
 	}
 	mirage_unselect_03_hero_3d = 
 	{
@@ -16468,7 +16468,7 @@
 		[
 			"sounds/vo/mirage/mirage_upgrade_power1_05.vsnd",
 		]
-		vsnd_duration = 1.663810
+		vsnd_duration = 1.66381
 	}
 	mirage_upgrade_power1_06_hero_3d = 
 	{
@@ -16608,7 +16608,7 @@
 		[
 			"sounds/vo/mirage/mirage_upgrade_power2_05_alt.vsnd",
 		]
-		vsnd_duration = 1.841950
+		vsnd_duration = 1.84195
 	}
 	mirage_upgrade_power2_05_hero_3d = 
 	{
@@ -16718,7 +16718,7 @@
 		[
 			"sounds/vo/mirage/mirage_upgrade_power3_05.vsnd",
 		]
-		vsnd_duration = 2.990340
+		vsnd_duration = 2.99034
 	}
 	mirage_upgrade_power3_06_hero_3d = 
 	{
@@ -16748,7 +16748,7 @@
 		[
 			"sounds/vo/mirage/mirage_upgrade_power3_08.vsnd",
 		]
-		vsnd_duration = 2.524490
+		vsnd_duration = 2.52449
 	}
 	mirage_upgrade_power3_09_hero_3d = 
 	{
@@ -16758,7 +16758,7 @@
 		[
 			"sounds/vo/mirage/mirage_upgrade_power3_09.vsnd",
 		]
-		vsnd_duration = 4.510340
+		vsnd_duration = 4.51034
 	}
 	mirage_upgrade_power3_10_hero_3d = 
 	{
@@ -16768,7 +16768,7 @@
 		[
 			"sounds/vo/mirage/mirage_upgrade_power3_10.vsnd",
 		]
-		vsnd_duration = 2.570340
+		vsnd_duration = 2.57034
 	}
 	mirage_upgrade_power4_01_hero_3d = 
 	{
@@ -16878,7 +16878,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_ability_refresher_01.vsnd",
 		]
-		vsnd_duration = 1.070000
+		vsnd_duration = 1.07
 	}
 	mirage_use_ability_refresher_02_ability_3d = 
 	{
@@ -16968,7 +16968,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_decay_01.vsnd",
 		]
-		vsnd_duration = 0.969660
+		vsnd_duration = 0.96966
 	}
 	mirage_use_decay_02_ability_3d = 
 	{
@@ -17018,7 +17018,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_echo_shard_03.vsnd",
 		]
-		vsnd_duration = 1.053900
+		vsnd_duration = 1.0539
 	}
 	mirage_use_ice_blast_01_ability_3d = 
 	{
@@ -17048,7 +17048,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_ice_blast_03.vsnd",
 		]
-		vsnd_duration = 1.500340
+		vsnd_duration = 1.50034
 	}
 	mirage_use_knockdown_01_ability_3d = 
 	{
@@ -17108,7 +17108,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_metal_skin_03.vsnd",
 		]
-		vsnd_duration = 2.049660
+		vsnd_duration = 2.04966
 	}
 	mirage_use_phantom_strike_01_ability_3d = 
 	{
@@ -17168,7 +17168,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_power1_03.vsnd",
 		]
-		vsnd_duration = 1.492970
+		vsnd_duration = 1.49297
 	}
 	mirage_use_power1_04_ability_3d = 
 	{
@@ -17338,7 +17338,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_power2_05_alt.vsnd",
 		]
-		vsnd_duration = 2.323220
+		vsnd_duration = 2.32322
 	}
 	mirage_use_power2_06_ability_3d = 
 	{
@@ -17618,7 +17618,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_power4_04.vsnd",
 		]
-		vsnd_duration = 2.465760
+		vsnd_duration = 2.46576
 	}
 	mirage_use_power4_04_hero_announcer = 
 	{
@@ -17628,7 +17628,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_power4_04.vsnd",
 		]
-		vsnd_duration = 2.465760
+		vsnd_duration = 2.46576
 	}
 	mirage_use_power4_04_ult_3d = 
 	{
@@ -17638,7 +17638,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_power4_04.vsnd",
 		]
-		vsnd_duration = 2.465760
+		vsnd_duration = 2.46576
 	}
 	mirage_use_power4_05_ability_3d = 
 	{
@@ -17878,7 +17878,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_silencer_03.vsnd",
 		]
-		vsnd_duration = 2.224150
+		vsnd_duration = 2.22415
 	}
 	mirage_use_tech_purge_01_ability_3d = 
 	{
@@ -17958,7 +17958,7 @@
 		[
 			"sounds/vo/mirage/mirage_use_vampiric_burst_02.vsnd",
 		]
-		vsnd_duration = 1.900000
+		vsnd_duration = 1.9
 	}
 	mirage_use_vampiric_burst_03_ability_3d = 
 	{
@@ -17968,6 +17968,6 @@
 		[
 			"sounds/vo/mirage/mirage_use_vampiric_burst_03.vsnd",
 		]
-		vsnd_duration = 1.939410
+		vsnd_duration = 1.93941
 	}
 }

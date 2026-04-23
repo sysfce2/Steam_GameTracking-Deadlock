@@ -42,7 +42,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_yellow_walker_attack_01.vsnd",
 		]
-		vsnd_duration = 4.404000
+		vsnd_duration = 4.404
 	}
 	Announcer.Tier2Boss_UnderAttack_Green = 
 	{
@@ -51,7 +51,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_green_walker_attack_01.vsnd",
 		]
-		vsnd_duration = 4.428000
+		vsnd_duration = 4.428
 	}
 	Announcer.Tier2Boss_UnderAttack_Blue = 
 	{
@@ -60,7 +60,7 @@
 		[
 			"sounds/vo/announcer/female_patron/patron_female_ally_blue_walker_attack_01.vsnd",
 		]
-		vsnd_duration = 4.268000
+		vsnd_duration = 4.268
 	}
 	Announcer.Tier2Boss_UnderAttack_Purple = 
 	{
@@ -159,7 +159,7 @@
 			"sounds/vo/announcer/female_patron/patron_female_ally_blue_guardian_destroyed_01.vsnd",
 			"sounds/vo/announcer/female_patron/patron_female_ally_blue_guardian_destroyed_02.vsnd",
 		]
-		vsnd_duration = 4.603000
+		vsnd_duration = 4.603
 	}
 	Announcer.Tier1Boss_Destroyed_Yellow = 
 	{
@@ -169,7 +169,7 @@
 			"sounds/vo/announcer/female_patron/patron_female_ally_yellow_guardian_destroyed_01.vsnd",
 			"sounds/vo/announcer/female_patron/patron_female_ally_yellow_guardian_destroyed_02.vsnd",
 		]
-		vsnd_duration = 4.836000
+		vsnd_duration = 4.836
 	}
 	Announcer.Tier1Boss_Destroyed_Green = 
 	{
@@ -218,7 +218,7 @@
 			"sounds/vo/announcer/female_patron/patron_female_ally_green_walker_destroyed_01.vsnd",
 			"sounds/vo/announcer/female_patron/patron_female_ally_green_walker_destroyed_02.vsnd",
 		]
-		vsnd_duration = 5.096000
+		vsnd_duration = 5.096
 	}
 	Announcer.TeamDefeated = 
 	{
@@ -494,7 +494,7 @@
 			"sounds/vo/announcer/female_patron/patron_female_ally_bebop_start_04.vsnd",
 			"sounds/vo/announcer/female_patron/patron_female_ally_bebop_start_05.vsnd",
 		]
-		vsnd_duration = 11.788000
+		vsnd_duration = 11.788
 	}
 	Female_Patron_Welcome_Dynamo = 
 	{
@@ -861,7 +861,7 @@
 			"sounds/vo/announcer/male_patron/patron_male_ally_astro_start_04.vsnd",
 			"sounds/vo/announcer/male_patron/patron_male_ally_astro_start_05.vsnd",
 		]
-		vsnd_duration = 12.040000
+		vsnd_duration = 12.04
 	}
 	Male_Patron_Welcome_Bebop = 
 	{
@@ -1003,7 +1003,7 @@
 			"sounds/vo/announcer/female_patron/patron_female_killing_streak_generic_medium_04.vsnd",
 			"sounds/vo/announcer/female_patron/patron_female_killing_streak_generic_medium_05.vsnd",
 		]
-		vsnd_duration = 6.658750
+		vsnd_duration = 6.65875
 	}
 	Female.Patron.Killstreak.High = 
 	{

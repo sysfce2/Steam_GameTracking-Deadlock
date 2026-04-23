@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -145,7 +143,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "inverse_use_curve_editor"
 				execute_once = "true"
@@ -155,7 +152,6 @@
 				input1 = "1.0"
 				input2 = "@public.volume_falloff_use_curve_editor"
 			},
-			
 			{
 				name = "opvar_get_viewing_pawn_position"
 				operator = "opvar_get_float3"
@@ -164,14 +160,12 @@
 				input_operator_name = "opvars"
 				input_field_name = "viewing_entity_position"
 			},
-			
 			{
 				name = "distance_to_pawn"
 				operator = "calc_distance"
 				input_position1 = "@public.source_position"
 				input_position2 = "@opvar_get_viewing_pawn_position.output"
 			},
-			
 			{
 				name = "ctrl_switch_distance_pawn_camera"
 				operator = "ctrl_switch_float"
@@ -180,7 +174,6 @@
 				input1 = "@public.distance_falloff"
 				input2 = "@distance_to_pawn.output"
 			},
-			
 			{
 				name = "classic_volume_falloff"
 				input_execute = "1.0"
@@ -192,7 +185,6 @@
 				input_floor = "@public.volume_falloff_floor"
 				input_atten = "@public.volume_falloff_scale"
 			},
-			
 			{
 				name = "evaluate_opvar_falloff_curve"
 				operator = "math_curve_2d"
@@ -202,14 +194,12 @@
 				input_scale_x = "@public.volume_falloff_scale"
 				input_scale_y = "1.0"
 			},
-			
 			{
 				name = "volume_falloff_curve_to_gain"
 				operator = "math_db_to_gain"
 				input_execute = "@public.volume_falloff_use_curve_editor"
 				input = "@evaluate_opvar_falloff_curve.output"
 			},
-			
 			{
 				name = "switch_enable_curve_editor"
 				operator = "ctrl_switch_float"
@@ -217,7 +207,6 @@
 				input1 = "@classic_volume_falloff.output"
 				input2 = "@volume_falloff_curve_to_gain.output"
 			},
-			
 			{
 				name = "volume_floor"
 				input_execute = "1.0"
@@ -226,7 +215,6 @@
 				input1 = "@switch_enable_curve_editor.output"
 				input2 = "@public.volume_falloff_floor"
 			},
-			
 			{
 				name = "volume_ceiling"
 				input_execute = "1.0"
@@ -235,7 +223,6 @@
 				input1 = "@volume_floor.output"
 				input2 = "1.0"
 			},
-			
 			{
 				name = "max_distance_switch"
 				operator = "ctrl_switch_float"
@@ -243,7 +230,6 @@
 				input1 = "@public.volume_falloff_max"
 				input2 = "@evaluate_opvar_falloff_curve.output_x_max"
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"

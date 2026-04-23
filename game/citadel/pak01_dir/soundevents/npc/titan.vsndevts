@@ -2,7 +2,7 @@
 {
 	Patron.Phase1.Transform.Start = 
 	{
-		volume = 0.000000
+		volume = 0.0
 		base = "Base.MapObjective"
 		vsnd_files = "sounds/npc/patron/patron_transform_start_01.vsnd"
 		vsnd_duration = 10.579139
@@ -10,51 +10,51 @@
 	Patron.Mother.Reforming.Lp = 
 	{
 		base = "Base.NPC.Patron"
-		volume = 0.000000
-		volume_fade_out = 0.100000
+		volume = 0.0
+		volume_fade_out = 0.1
 		vsnd_files = "sounds/npc/patron/patron_mother_reforming_lp_01.vsnd"
 		vsnd_duration = 4.418753
 	}
 	Patron.King.Reforming.Lp = 
 	{
 		base = "Base.NPC.Patron"
-		volume = 0.000000
-		volume_fade_out = 0.100000
+		volume = 0.0
+		volume_fade_out = 0.1
 		vsnd_files = "sounds/npc/patron/patron_king_reforming_lp_01.vsnd"
 		vsnd_duration = 4.651156
 	}
 	Patron.Mother.Reform = 
 	{
 		base = "Base.NPC.Patron"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/npc/patron/patron_transforming_reform_01.vsnd"
 		vsnd_duration = 2.636712
 	}
 	Patron.King.Reform = 
 	{
 		base = "Base.NPC.Patron"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/npc/patron/patron_transforming_reform_01.vsnd"
 		vsnd_duration = 2.636712
 	}
 	Patron.Mother.Effigy.Explode = 
 	{
 		base = "Base.NPC.Patron"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/npc/patron/patron_mother_effigy_explode_01.vsnd"
 		vsnd_duration = 4.352812
 	}
 	Patron.King.Effigy.Explode = 
 	{
 		base = "Base.NPC.Patron"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/npc/patron/patron_king_effigy_explode_01.vsnd"
 		vsnd_duration = 3.673447
 	}
 	Patron.Phase2.Wpn.Pulse = 
 	{
 		base = "Base.NPC.Patron.Close"
-		volume = -6.000000
+		volume = -6.0
 		vsnd_files = 
 		[
 			"sounds/npc/patron/patron_phase2_pulse_fire_01.vsnd",
@@ -69,7 +69,7 @@
 	Patron.Mother.AOE.Warning = 
 	{
 		base = "Base.NPC.Patron.AOE"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/npc/patron/patron_sapphire_aoe_warning_01.vsnd",
@@ -81,7 +81,7 @@
 	Patron.King.AOE.Warning = 
 	{
 		base = "Base.NPC.Patron.AOE"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/npc/patron/patron_amber_aoe_warning_01.vsnd",
@@ -93,7 +93,7 @@
 	Patron.King.AOE.Impact = 
 	{
 		base = "Base.NPC.Patron.AOE"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/npc/patron/patron_amber_aoe_impact_01.vsnd",
@@ -105,7 +105,7 @@
 	Patron.Mother.AOE.Impact = 
 	{
 		base = "Base.NPC.Patron.AOE"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/npc/patron/patron_sapphire_aoe_impact_01.vsnd",

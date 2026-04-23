@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -48,7 +46,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "concat_prefix_material"
 				operator = "math_string"
@@ -57,7 +54,6 @@
 				input2 = "@public.material_string"
 				apply = "add"
 			},
-			
 			{
 				name = "concat_vsnd_field_name"
 				operator = "math_string"
@@ -66,7 +62,6 @@
 				input2 = "@concat_prefix_material.output_string"
 				apply = "add"
 			},
-			
 			{
 				name = "concat_vol_offset_field_name"
 				operator = "math_string"
@@ -75,7 +70,6 @@
 				input2 = "_vol_offset_db"
 				apply = "add"
 			},
-			
 			{
 				name = "get_opvar_vol_offset"
 				operator = "opvar_get_float"
@@ -86,7 +80,6 @@
 				input_field_name = "@concat_vol_offset_field_name.output_string"
 				input_use_namespace = "false"
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"

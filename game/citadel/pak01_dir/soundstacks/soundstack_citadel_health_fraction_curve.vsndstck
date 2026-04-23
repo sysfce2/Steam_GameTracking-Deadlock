@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -28,7 +27,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "get_player_health_fraction"
 				operator = "opvar_get_float"
@@ -37,7 +35,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "player_health_fraction"
 			},
-			
 			{
 				name = "evaluate_opvar_health_fraction"
 				operator = "math_curve_2d"
@@ -46,7 +43,6 @@
 				input_scale_x = "1.0"
 				input_scale_y = "1.0"
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"

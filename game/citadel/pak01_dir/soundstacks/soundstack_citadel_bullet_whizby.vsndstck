@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -69,12 +67,10 @@
 					}
 				}
 			},
-			
 			{
 				name = "get_event_info"
 				operator = "soundevent_get_info"
 			},
-			
 			{
 				name = "calc_animation_duration"
 				operator = "math_float"
@@ -82,7 +78,6 @@
 				input1 = "@public.whizby_time_to_peak"
 				input2 = "2.0"
 			},
-			
 			{
 				name = "calc_elapsed_time_fraction"
 				operator = "math_float"
@@ -90,7 +85,6 @@
 				input1 = "@get_event_info.output_elapsed_time"
 				input2 = "@calc_animation_duration.output"
 			},
-			
 			{
 				name = "clamp_animation_duration"
 				operator = "math_float"
@@ -99,7 +93,6 @@
 				input1 = "@calc_elapsed_time_fraction.output"
 				input2 = "1.0"
 			},
-			
 			{
 				name = "lerp_bullet_position"
 				operator = "math_animate_float3"
@@ -111,7 +104,6 @@
 				input_animation_direction = "0.0"
 				anim_type = "lerp"
 			},
-			
 			{
 				name = "citadel_default_3d_import"
 				operator = "sos_import_stack"

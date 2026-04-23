@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -67,7 +66,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "private"
 				operator = "util_null"
@@ -86,7 +84,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "get_viewing_entity_index"
 				operator = "opvar_get_float"
@@ -95,7 +92,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "viewing_entity_index"
 			},
-			
 			{
 				name = "get_attacker_info"
 				input_execute = "1"
@@ -103,7 +99,6 @@
 				operator = "game_entity_info"
 				input_entity_index = "@public.entity_index_attacker"
 			},
-			
 			{
 				name = "get_victim_info"
 				input_execute = "1"
@@ -111,7 +106,6 @@
 				operator = "game_entity_info"
 				input_entity_index = "@public.entity_index_victim"
 			},
-			
 			{
 				name = "get_inflictor_info"
 				input_execute = "1"
@@ -119,7 +113,6 @@
 				operator = "game_entity_info"
 				input_entity_index = "@public.entity_index_inflictor"
 			},
-			
 			{
 				name = "check_viewer_is_victim"
 				execute_once = "true"
@@ -129,7 +122,6 @@
 				input1 = "@get_victim_info.output_entity_is_actual_player_entity"
 				input2 = "1.0"
 			},
-			
 			{
 				name = "set_damage_index_opvar_victim"
 				input = "1"
@@ -138,7 +130,6 @@
 				input_operator_name = "private"
 				input_field_name = "damage_index"
 			},
-			
 			{
 				name = "check_viewer_is_attacker"
 				execute_once = "true"
@@ -148,7 +139,6 @@
 				input1 = "@get_attacker_info.output_entity_is_actual_player_entity"
 				input2 = "1.0"
 			},
-			
 			{
 				name = "set_damage_index_opvar_attacker"
 				input = "0.0"
@@ -157,7 +147,6 @@
 				input_operator_name = "private"
 				input_field_name = "damage_index"
 			},
-			
 			{
 				name = "check_viewer_is_inflictor"
 				execute_once = "true"
@@ -167,7 +156,6 @@
 				input1 = "@get_inflictor_info.output_entity_is_actual_player_entity"
 				input2 = "1.0"
 			},
-			
 			{
 				name = "check_damage_index_set"
 				execute_once = "true"
@@ -177,7 +165,6 @@
 				input1 = "@private.damage_index"
 				input2 = "-1.0"
 			},
-			
 			{
 				name = "set_damage_index_opvar_everyone_else"
 				input = "2.0"
@@ -187,7 +174,6 @@
 				input_operator_name = "private"
 				input_field_name = "damage_index"
 			},
-			
 			{
 				name = "switch_damage_index"
 				execute_once = "true"
@@ -197,7 +183,6 @@
 				input2 = "viewing_victim"
 				input3 = "everyone_else"
 			},
-			
 			{
 				name = "inverse_is_viewing_victim"
 				execute_once = "true"
@@ -207,7 +192,6 @@
 				input1 = "1.0"
 				input2 = "@check_viewer_is_victim.output"
 			},
-			
 			{
 				name = "inverse_is_viewing_attacker"
 				execute_once = "true"
@@ -217,7 +201,6 @@
 				input1 = "1.0"
 				input2 = "@check_viewer_is_attacker.output"
 			},
-			
 			{
 				name = "check_is_viewing_other"
 				execute_once = "true"
@@ -227,7 +210,6 @@
 				input1 = "2.0"
 				input2 = "@private.damage_index"
 			},
-			
 			{
 				name = "get_player_health_regen_amount"
 				operator = "opvar_get_float"
@@ -236,7 +218,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "player_health_regen_amount"
 			},
-			
 			{
 				name = "eval_damage_is_below_regen_amount"
 				execute_once = "true"
@@ -246,7 +227,6 @@
 				input1 = "@public.damage_amount"
 				input2 = "@get_player_health_regen_amount.output"
 			},
-			
 			{
 				name = "chip_damage_result"
 				execute_once = "true"
@@ -256,7 +236,6 @@
 				input1 = "@eval_damage_is_below_regen_amount.output"
 				input2 = "@check_viewer_is_victim.output"
 			},
-			
 			{
 				name = "inverse_is_chip_damage"
 				execute_once = "true"
@@ -266,7 +245,6 @@
 				input1 = "1.0"
 				input2 = "@chip_damage_result.output"
 			},
-			
 			{
 				name = "is_viewing_attacker_or_vicitim"
 				execute_once = "true"
@@ -276,7 +254,6 @@
 				input1 = "@check_viewer_is_attacker.output"
 				input2 = "@check_viewer_is_victim.output"
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"

@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -48,7 +47,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "remap_distance_normalized"
 				operator = "math_remap_float"
@@ -59,7 +57,6 @@
 				input_map_max = "1.000000"
 				clamp_range = "true"
 			},
-			
 			{
 				name = "enable_downmix_mult"
 				operator = "math_float"
@@ -68,7 +65,6 @@
 				input1 = "@public.mono_downmix_enabled"
 				input2 = "@remap_distance_normalized.output"
 			},
-			
 			{
 				name = "mono_downmix_value_send"
 				execute_once = "false"

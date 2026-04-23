@@ -4,7 +4,6 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -34,7 +33,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "owner_entity_index_public_field_is_invalid"
 				input_execute = "1.0"
@@ -43,7 +41,6 @@
 				input1 = "@public.owner_entity_index"
 				input2 = "-1"
 			},
-			
 			{
 				name = "use_entity_index_for_perspective"
 				input_execute = "1.0"
@@ -52,12 +49,10 @@
 				input1 = "@owner_entity_index_public_field_is_invalid.output"
 				input2 = "@public.force_entity_perspective_assignment"
 			},
-			
 			{
 				name = "entity_source_info"
 				operator = "game_get_source_info"
 			},
-			
 			{
 				name = "switch_owner_entity_index"
 				operator = "ctrl_switch_float"
@@ -65,14 +60,12 @@
 				input1 = "@public.owner_entity_index"
 				input2 = "@entity_source_info.output_entity_index"
 			},
-			
 			{
 				name = "game_entity_perspective"
 				execute_once = false
 				operator = "game_entity_perspective"
 				input_owner_entity_index = "@switch_owner_entity_index.output"
 			},
-			
 			{
 				name = "math_perspective_is_team"
 				input_execute = "1.0"
@@ -82,7 +75,6 @@
 				input1 = "@game_entity_perspective.output"
 				input2 = "1.0"
 			},
-			
 			{
 				name = "math_perspective_is_player"
 				input_execute = "1.0"
@@ -92,7 +84,6 @@
 				input1 = "@game_entity_perspective.output"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "get_viewing_entity_index"
 				operator = "opvar_get_float"
@@ -101,7 +92,6 @@
 				input_operator_name = "opvars"
 				input_field_name = "viewing_entity_index"
 			},
-			
 			{
 				name = "viewing_entity_index_is_valid"
 				input_execute = "1.0"
@@ -110,7 +100,6 @@
 				input1 = "@get_viewing_entity_index.output"
 				input2 = "0.0"
 			},
-			
 			{
 				name = "math_owner_entity_equals_viewing_entity"
 				input_execute = "@viewing_entity_index_is_valid.output"
@@ -119,7 +108,6 @@
 				input1 = "@public.owner_entity_index"
 				input2 = "@get_viewing_entity_index.output"
 			},
-			
 			{
 				name = "math_perspective_is_owner_or_emitter"
 				execute_once = false
@@ -128,7 +116,6 @@
 				input1 = "@math_perspective_is_player.output"
 				input2 = "@math_owner_entity_equals_viewing_entity.output"
 			},
-			
 			{
 				name = "output"
 				operator = "util_null"

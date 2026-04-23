@@ -4,18 +4,18 @@
 	{
 		type = "citadel_default_3d"
 		mixer_mixgroup = "World"
-		limiter_on = 1.000000
-		limiter_max = 3.000000
-		volume = -10.000000
+		limiter_on = 1.0
+		limiter_max = 3.0
+		volume = -10.0
 		position_force_from_player = false
-		volume_fade_out = 0.100000
-		volume_fade_in = 0.100000
+		volume_fade_out = 0.1
+		volume_fade_in = 0.1
 		event_use_music_convar = false
-		delay = 0.000000
-		delay_rand_min = -2.000000
-		delay_rand_max = 0.000000
-		volume_falloff_min = 1.000000
-		volume_falloff_max = 500.000000
+		delay = 0.0
+		delay_rand_min = -2.0
+		delay_rand_max = 0.0
+		volume_falloff_min = 1.0
+		volume_falloff_max = 500.0
 		block_distance_max = 600
 	}
 }

@@ -496,7 +496,7 @@
 		"Citadel_Player_Level_RewardsTitle"							"Boon Rewards"
 		"Citadel_Player_Level_RewardsSubhead"						"At each threshold, {s:hero_name} gains:"
 		"Citadel_Player_Level_AP_Rewards"							"<span class=\"boldText\">Ability Unlock</span> or <span class=\"boldText\">AP</span>"
-		"Citadel_Player_Level_AP_Rewards_UnlockNote"				"Abilities unlock at Boons 0, 1, 4 and 6"
+		"Citadel_Player_Level_AP_Rewards_UnlockNote"				"Abilities unlock at Boons 0, 2, 4 and 6"
 		"Citadel_Player_Level_AP_Rewards_Visuals"					"<Panel class=\"rewardIcon iconUnlock\"></Panel> or <Panel class=\"rewardIcon iconAP\"></Panel>"
 		"Citadel_Player_Level_Stat_Rewards"							"Stat Increases"
 		"Citadel_Player_Level_Stat_RewardsMax"						"Stat Rewards max at Boon {#}"
@@ -3706,7 +3706,7 @@
 
 		"MyRosterRosterDesc_MinNonNew"				"Your roster needs at least {d:min_non_new_heroes} or more heroes that are not new"
 		"MyRosterRosterDesc_NeedsMoreNonNew:f"		"At least {d:min_non_limited_heroes} non-new {min_non_limited_heroes, plural, one{hero} other{heroes}} required to queue"
-		"MyRosterRosterDesc_PartyInvalid"			"Can't form a valid team with your Party's rosters."
+		"MyRosterRosterDesc_PartyInvalid"			"Can't form a valid team with your Party's rosters. Try adding more or different heroes to your roster."
 		"MyRosterRosterDesc_HeroLabs"				"Your roster needs at least 3 Heroes, 2 of which must be standard, non-testing Heroes"
 		"MyRosterRosterDesc_NeedsMoreNonNewOld"		"You have too many new heroes in your roster. Please add some more heroes to your roster that aren't new"
 

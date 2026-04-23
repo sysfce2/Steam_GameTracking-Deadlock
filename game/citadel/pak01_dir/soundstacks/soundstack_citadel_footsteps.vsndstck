@@ -4,13 +4,11 @@
 	{
 		operators = 
 		[
-			
 			{
 				name = "_builtins"
 				operator = "sos_builtins"
 				_voicegraph = "citadel.hrtf_basic"
 			},
-			
 			{
 				name = "public"
 				operator = "util_null"
@@ -429,7 +427,6 @@
 					}
 				}
 			},
-			
 			{
 				name = "citadel_material_response"
 				operator = "sos_import_stack"
@@ -444,14 +441,12 @@
 					}
 				}
 			},
-			
 			{
 				name = "citadel_find_perspective"
 				operator = "sos_import_stack"
 				import_stack = "citadel_find_perspective"
 				auto_connect_public_fields = "true"
 			},
-			
 			{
 				name = "perspective_switch_crouched"
 				operator = "logic_perspective_switch_float"
@@ -461,7 +456,6 @@
 				input_opponent_value = "@public.volume_offset_crouched_opponent"
 				input_neutral_value = "@public.volume_offset_crouched_neutral"
 			},
-			
 			{
 				name = "enable_crouched_volume_offset"
 				operator = "ctrl_switch_float"
@@ -469,7 +463,6 @@
 				input1 = "0"
 				input2 = "@perspective_switch_crouched.output"
 			},
-			
 			{
 				name = "math_crouching_volume"
 				operator = "math_float"
@@ -478,7 +471,6 @@
 				input1 = "@enable_crouched_volume_offset.output"
 				input2 = "@public.volume"
 			},
-			
 			{
 				name = "enable_quieted_volume_offset"
 				operator = "ctrl_switch_float"
@@ -486,7 +478,6 @@
 				input1 = "0"
 				input2 = "-7"
 			},
-			
 			{
 				name = "quieted_falloff_scale"
 				operator = "ctrl_switch_float"
@@ -494,7 +485,6 @@
 				input1 = "1"
 				input2 = "0.5"
 			},
-			
 			{
 				name = "math_quieted_volume"
 				operator = "math_float"
@@ -503,25 +493,21 @@
 				input1 = "@enable_quieted_volume_offset.output"
 				input2 = "@math_crouching_volume.output"
 			},
-			
 			{
 				name = "db_to_linear"
 				operator = "math_db_to_gain"
 				input = "@math_quieted_volume.output"
 			},
-			
 			{
 				name = "source_info"
 				operator = "game_get_source_info"
 			},
-			
 			{
 				name = "globals"
 				operator = "get_system_globals"
 				input_execute = "1"
 				input_listener_index = "0"
 			},
-			
 			{
 				name = "get_entity_info"
 				input_execute = "1"
@@ -533,7 +519,6 @@
 				use_world_position = "@public.position_force_from_input"
 				attachment = "@public.attachment"
 			},
-			
 			{
 				name = "remap_velocity_normalized"
 				operator = "math_remap_float"
@@ -544,7 +529,6 @@
 				input_map_max = "1.000000"
 				clamp_range = "true"
 			},
-			
 			{
 				name = "enable_velocity_scaling"
 				operator = "ctrl_switch_float"
@@ -552,7 +536,6 @@
 				input1 = "1"
 				input2 = "@remap_velocity_normalized.output"
 			},
-			
 			{
 				name = "mult_volume_by_velocity_scalar"
 				operator = "math_float"
@@ -561,13 +544,11 @@
 				input1 = "@db_to_linear.output"
 				input2 = "@enable_velocity_scaling.output"
 			},
-			
 			{
 				name = "linear_to_db"
 				operator = "math_gain_to_db"
 				input = "@mult_volume_by_velocity_scalar.output"
 			},
-			
 			{
 				name = "citadel_perspective_default"
 				operator = "sos_import_stack"

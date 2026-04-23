@@ -6,12 +6,12 @@
 		mixer_mixgroup = "Music"
 		send_name = "Music"
 		event_voice_layer = "game"
-		reverb_xfade_value = 0.000000
-		reverb_use_curve = 0.000000
-		volume = -10.000000
+		reverb_xfade_value = 0.0
+		reverb_use_curve = 0.0
+		volume = -10.0
 		event_use_music_convar = true
-		block_volume_min = -1.000000
-		volume_fade_out = 2.000000
+		block_volume_min = -1.0
+		volume_fade_out = 2.0
 		ui_pitch_curve_enabled = false
 		panner_mode = "bypass"
 	}
@@ -20,9 +20,9 @@
 		base = "Base.Music.Arp"
 		track_1.vsnd_selection_type = "index"
 		limiter_on = true
-		limiter_max = 1.000000
-		volume_fade_out = 0.300000
-		volume = -10.000000
+		limiter_max = 1.0
+		volume_fade_out = 0.3
+		volume = -10.0
 		vsnd_files = 
 		[
 			"sounds/music/arpeggiator/hideout_bell/music_hideout_arp_bell_14.vsnd",

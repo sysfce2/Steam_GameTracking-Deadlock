@@ -158,7 +158,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_bebop_uppercut_towards_boss_03.vsnd",
 		]
-		vsnd_duration = 2.165510
+		vsnd_duration = 2.16551
 	}
 	atlas_ally_cadence_killed_in_lane_01_hero_3d = 
 	{
@@ -188,7 +188,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_chrono_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.735170
+		vsnd_duration = 1.73517
 	}
 	atlas_ally_chrono_swap_to_boss_01_hero_3d = 
 	{
@@ -198,7 +198,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_chrono_swap_to_boss_01.vsnd",
 		]
-		vsnd_duration = 2.004240
+		vsnd_duration = 2.00424
 	}
 	atlas_ally_chrono_swap_to_boss_02_hero_3d = 
 	{
@@ -208,7 +208,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_chrono_swap_to_boss_02.vsnd",
 		]
-		vsnd_duration = 1.799660
+		vsnd_duration = 1.79966
 	}
 	atlas_ally_chrono_swap_to_boss_03_hero_3d = 
 	{
@@ -218,7 +218,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_chrono_swap_to_boss_03.vsnd",
 		]
-		vsnd_duration = 1.753220
+		vsnd_duration = 1.75322
 	}
 	atlas_ally_dynamo_big_blackhole_01_hero_3d = 
 	{
@@ -288,7 +288,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_dynamo_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 2.042290
+		vsnd_duration = 2.04229
 	}
 	atlas_ally_dynamo_killed_in_lane_01_hero_3d = 
 	{
@@ -338,7 +338,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_forge_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 2.235850
+		vsnd_duration = 2.23585
 	}
 	atlas_ally_forge_killed_in_lane_01_hero_3d = 
 	{
@@ -458,7 +458,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_gigawatt_multi_kill_ult_01.vsnd",
 		]
-		vsnd_duration = 2.860340
+		vsnd_duration = 2.86034
 	}
 	atlas_ally_gigawatt_multi_kill_ult_02_hero_3d = 
 	{
@@ -618,7 +618,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_inferno_burns_down_objective_02.vsnd",
 		]
-		vsnd_duration = 2.020590
+		vsnd_duration = 2.02059
 	}
 	atlas_ally_inferno_burns_down_objective_03_hero_3d = 
 	{
@@ -678,7 +678,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_kelvin_clutch_heal_03.vsnd",
 		]
-		vsnd_duration = 1.634830
+		vsnd_duration = 1.63483
 	}
 	atlas_ally_kelvin_killed_in_lane_01_hero_3d = 
 	{
@@ -698,7 +698,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_kelvin_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.878730
+		vsnd_duration = 1.87873
 	}
 	atlas_ally_krill_grab_mid_enemy_ult_01_hero_3d = 
 	{
@@ -808,7 +808,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_mirage_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.675510
+		vsnd_duration = 1.67551
 	}
 	atlas_ally_mirage_pass_on_zipline_01_02_hero_3d = 
 	{
@@ -838,7 +838,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_nano_pass_on_zipline_01.vsnd",
 		]
-		vsnd_duration = 1.980590
+		vsnd_duration = 1.98059
 	}
 	atlas_ally_orion_far_shot_01_hero_3d = 
 	{
@@ -1158,7 +1158,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_warden_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.563810
+		vsnd_duration = 1.56381
 	}
 	atlas_ally_warden_pass_on_zipline_01_hero_3d = 
 	{
@@ -1178,7 +1178,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_wraith_kill_in_lift_01.vsnd",
 		]
-		vsnd_duration = 1.740340
+		vsnd_duration = 1.74034
 	}
 	atlas_ally_wraith_kill_in_lift_02_hero_3d = 
 	{
@@ -1198,7 +1198,7 @@
 		[
 			"sounds/vo/atlas/atlas_ally_wraith_kill_in_lift_03.vsnd",
 		]
-		vsnd_duration = 1.444240
+		vsnd_duration = 1.44424
 	}
 	atlas_ally_wraith_killed_in_lane_01_hero_3d = 
 	{
@@ -1288,7 +1288,7 @@
 		[
 			"sounds/vo/atlas/atlas_angry_01_alt_01.vsnd",
 		]
-		vsnd_duration = 1.123810
+		vsnd_duration = 1.12381
 	}
 	atlas_angry_01_alt_01_ult_3d = 
 	{
@@ -1298,7 +1298,7 @@
 		[
 			"sounds/vo/atlas/atlas_angry_01_alt_01.vsnd",
 		]
-		vsnd_duration = 1.123810
+		vsnd_duration = 1.12381
 	}
 	atlas_angry_01_hero_3d = 
 	{
@@ -1638,7 +1638,7 @@
 		[
 			"sounds/vo/atlas/atlas_concerned_02.vsnd",
 		]
-		vsnd_duration = 1.996100
+		vsnd_duration = 1.9961
 	}
 	atlas_concerned_02_ult_3d = 
 	{
@@ -1648,7 +1648,7 @@
 		[
 			"sounds/vo/atlas/atlas_concerned_02.vsnd",
 		]
-		vsnd_duration = 1.996100
+		vsnd_duration = 1.9961
 	}
 	atlas_concerned_03_hero_3d = 
 	{
@@ -1658,7 +1658,7 @@
 		[
 			"sounds/vo/atlas/atlas_concerned_03.vsnd",
 		]
-		vsnd_duration = 2.300590
+		vsnd_duration = 2.30059
 	}
 	atlas_concerned_03_ult_3d = 
 	{
@@ -1668,7 +1668,7 @@
 		[
 			"sounds/vo/atlas/atlas_concerned_03.vsnd",
 		]
-		vsnd_duration = 2.300590
+		vsnd_duration = 2.30059
 	}
 	atlas_concerned_04_hero_3d = 
 	{
@@ -1718,7 +1718,7 @@
 		[
 			"sounds/vo/atlas/atlas_concerned_06.vsnd",
 		]
-		vsnd_duration = 1.847710
+		vsnd_duration = 1.84771
 	}
 	atlas_concerned_06_ult_3d = 
 	{
@@ -1728,7 +1728,7 @@
 		[
 			"sounds/vo/atlas/atlas_concerned_06.vsnd",
 		]
-		vsnd_duration = 1.847710
+		vsnd_duration = 1.84771
 	}
 	atlas_concerned_07_hero_3d = 
 	{
@@ -1848,7 +1848,7 @@
 		[
 			"sounds/vo/atlas/atlas_congrats_04.vsnd",
 		]
-		vsnd_duration = 1.587370
+		vsnd_duration = 1.58737
 	}
 	atlas_congrats_05_hero_3d = 
 	{
@@ -1968,7 +1968,7 @@
 		[
 			"sounds/vo/atlas/atlas_desperation_power2_04.vsnd",
 		]
-		vsnd_duration = 1.980930
+		vsnd_duration = 1.98093
 	}
 	atlas_desperation_power2_05_ability_3d = 
 	{
@@ -1978,7 +1978,7 @@
 		[
 			"sounds/vo/atlas/atlas_desperation_power2_05.vsnd",
 		]
-		vsnd_duration = 1.736190
+		vsnd_duration = 1.73619
 	}
 	atlas_desperation_power4_01_ability_3d = 
 	{
@@ -2168,7 +2168,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_effort_dash_05.vsnd",
 		]
-		vsnd_duration = 0.840590
+		vsnd_duration = 0.84059
 	}
 	atlas_effort_dash_05_emote_effort_3d = 
 	{
@@ -2178,7 +2178,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_effort_dash_05.vsnd",
 		]
-		vsnd_duration = 0.840590
+		vsnd_duration = 0.84059
 	}
 	atlas_effort_dash_06_emote_dash_3d = 
 	{
@@ -2298,7 +2298,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_effort_melee_big_01.vsnd",
 		]
-		vsnd_duration = 1.244830
+		vsnd_duration = 1.24483
 	}
 	atlas_effort_melee_big_01_emote_melee_effort_3d = 
 	{
@@ -2308,7 +2308,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_effort_melee_big_01.vsnd",
 		]
-		vsnd_duration = 1.244830
+		vsnd_duration = 1.24483
 	}
 	atlas_effort_melee_big_02_emote_effort_3d = 
 	{
@@ -2478,7 +2478,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 0.922630
+		vsnd_duration = 0.92263
 	}
 	atlas_effort_melee_small_04_emote_melee_effort_3d = 
 	{
@@ -2488,7 +2488,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_effort_melee_small_04.vsnd",
 		]
-		vsnd_duration = 0.922630
+		vsnd_duration = 0.92263
 	}
 	atlas_effort_melee_small_05_emote_effort_3d = 
 	{
@@ -2538,7 +2538,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_effort_melee_small_07.vsnd",
 		]
-		vsnd_duration = 0.915760
+		vsnd_duration = 0.91576
 	}
 	atlas_effort_melee_small_07_emote_melee_effort_3d = 
 	{
@@ -2548,7 +2548,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_effort_melee_small_07.vsnd",
 		]
-		vsnd_duration = 0.915760
+		vsnd_duration = 0.91576
 	}
 	atlas_effort_melee_small_08_emote_effort_3d = 
 	{
@@ -2748,7 +2748,7 @@
 		[
 			"sounds/vo/atlas/atlas_enemy_bebop_kill_mid_laser_02.vsnd",
 		]
-		vsnd_duration = 1.554150
+		vsnd_duration = 1.55415
 	}
 	atlas_enemy_bebop_kill_mid_laser_03_hero_3d = 
 	{
@@ -2778,7 +2778,7 @@
 		[
 			"sounds/vo/atlas/atlas_enemy_chrono_kill_post_swap_02.vsnd",
 		]
-		vsnd_duration = 2.448730
+		vsnd_duration = 2.44873
 	}
 	atlas_enemy_chrono_kill_post_swap_03_hero_3d = 
 	{
@@ -2908,7 +2908,7 @@
 		[
 			"sounds/vo/atlas/atlas_enemy_ghost_kill_fat_ghost_03.vsnd",
 		]
-		vsnd_duration = 2.805510
+		vsnd_duration = 2.80551
 	}
 	atlas_enemy_ghost_ping_with_swap_01_hero_3d = 
 	{
@@ -2958,7 +2958,7 @@
 		[
 			"sounds/vo/atlas/atlas_enemy_gigawatt_hide_from_ult_02.vsnd",
 		]
-		vsnd_duration = 1.494490
+		vsnd_duration = 1.49449
 	}
 	atlas_enemy_gigawatt_hide_from_ult_03_hero_3d = 
 	{
@@ -3058,7 +3058,7 @@
 		[
 			"sounds/vo/atlas/atlas_enemy_hornet_killed_mid_air_03.vsnd",
 		]
-		vsnd_duration = 1.967710
+		vsnd_duration = 1.96771
 	}
 	atlas_enemy_inferno_killed_mid_ult_01_hero_3d = 
 	{
@@ -3138,7 +3138,7 @@
 		[
 			"sounds/vo/atlas/atlas_enemy_krill_grabbed_02.vsnd",
 		]
-		vsnd_duration = 2.065850
+		vsnd_duration = 2.06585
 	}
 	atlas_enemy_krill_grabbed_03_hero_3d = 
 	{
@@ -3198,7 +3198,7 @@
 		[
 			"sounds/vo/atlas/atlas_enemy_orion_see_missile_02.vsnd",
 		]
-		vsnd_duration = 1.655510
+		vsnd_duration = 1.65551
 	}
 	atlas_enemy_orion_see_missile_03_hero_3d = 
 	{
@@ -3208,7 +3208,7 @@
 		[
 			"sounds/vo/atlas/atlas_enemy_orion_see_missile_03.vsnd",
 		]
-		vsnd_duration = 1.749660
+		vsnd_duration = 1.74966
 	}
 	atlas_enemy_shiv_unkillable_01_hero_3d = 
 	{
@@ -3478,7 +3478,7 @@
 		[
 			"sounds/vo/atlas/atlas_happy_06.vsnd",
 		]
-		vsnd_duration = 2.389320
+		vsnd_duration = 2.38932
 	}
 	atlas_happy_06_ult_3d = 
 	{
@@ -3488,7 +3488,7 @@
 		[
 			"sounds/vo/atlas/atlas_happy_06.vsnd",
 		]
-		vsnd_duration = 2.389320
+		vsnd_duration = 2.38932
 	}
 	atlas_happy_07_hero_3d = 
 	{
@@ -3518,7 +3518,7 @@
 		[
 			"sounds/vo/atlas/atlas_happy_08.vsnd",
 		]
-		vsnd_duration = 2.790340
+		vsnd_duration = 2.79034
 	}
 	atlas_happy_08_ult_3d = 
 	{
@@ -3528,7 +3528,7 @@
 		[
 			"sounds/vo/atlas/atlas_happy_08.vsnd",
 		]
-		vsnd_duration = 2.790340
+		vsnd_duration = 2.79034
 	}
 	atlas_happy_09_hero_3d = 
 	{
@@ -3618,7 +3618,7 @@
 		[
 			"sounds/vo/atlas/atlas_interrupt_02.vsnd",
 		]
-		vsnd_duration = 1.798730
+		vsnd_duration = 1.79873
 	}
 	atlas_interrupt_03_hero_3d = 
 	{
@@ -3678,7 +3678,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_anyhero_03.vsnd",
 		]
-		vsnd_duration = 1.662880
+		vsnd_duration = 1.66288
 	}
 	atlas_kill_anyhero_04_hero_3d = 
 	{
@@ -3728,7 +3728,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_anyhero_08.vsnd",
 		]
-		vsnd_duration = 2.147800
+		vsnd_duration = 2.1478
 	}
 	atlas_kill_anyhero_09_alt_01_hero_3d = 
 	{
@@ -3808,7 +3808,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_astro_05.vsnd",
 		]
-		vsnd_duration = 1.541270
+		vsnd_duration = 1.54127
 	}
 	atlas_kill_bebop_01_hero_3d = 
 	{
@@ -3868,7 +3868,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_chrono_01.vsnd",
 		]
-		vsnd_duration = 1.671270
+		vsnd_duration = 1.67127
 	}
 	atlas_kill_chrono_02_hero_3d = 
 	{
@@ -3928,7 +3928,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_dynamo_02.vsnd",
 		]
-		vsnd_duration = 1.674490
+		vsnd_duration = 1.67449
 	}
 	atlas_kill_dynamo_03_hero_3d = 
 	{
@@ -3978,7 +3978,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_forge_02.vsnd",
 		]
-		vsnd_duration = 1.660340
+		vsnd_duration = 1.66034
 	}
 	atlas_kill_forge_03_hero_3d = 
 	{
@@ -4108,7 +4108,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_gigawatt_03.vsnd",
 		]
-		vsnd_duration = 2.193900
+		vsnd_duration = 2.1939
 	}
 	atlas_kill_gigawatt_04_hero_3d = 
 	{
@@ -4258,7 +4258,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_inferno_02.vsnd",
 		]
-		vsnd_duration = 2.273900
+		vsnd_duration = 2.2739
 	}
 	atlas_kill_inferno_03_hero_3d = 
 	{
@@ -4288,7 +4288,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_inferno_05.vsnd",
 		]
-		vsnd_duration = 2.820340
+		vsnd_duration = 2.82034
 	}
 	atlas_kill_kelvin_01_hero_3d = 
 	{
@@ -4508,7 +4508,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_orion_02.vsnd",
 		]
-		vsnd_duration = 1.744240
+		vsnd_duration = 1.74424
 	}
 	atlas_kill_orion_03_hero_3d = 
 	{
@@ -4708,7 +4708,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_viscous_03.vsnd",
 		]
-		vsnd_duration = 2.924830
+		vsnd_duration = 2.92483
 	}
 	atlas_kill_viscous_04_hero_3d = 
 	{
@@ -4748,7 +4748,7 @@
 		[
 			"sounds/vo/atlas/atlas_kill_warden_02.vsnd",
 		]
-		vsnd_duration = 1.889070
+		vsnd_duration = 1.88907
 	}
 	atlas_kill_warden_03_hero_3d = 
 	{
@@ -5408,7 +5408,7 @@
 		[
 			"sounds/vo/atlas/atlas_lose_late_02.vsnd",
 		]
-		vsnd_duration = 1.315760
+		vsnd_duration = 1.31576
 	}
 	atlas_lose_late_03_hero_3d = 
 	{
@@ -5418,7 +5418,7 @@
 		[
 			"sounds/vo/atlas/atlas_lose_late_03.vsnd",
 		]
-		vsnd_duration = 2.198980
+		vsnd_duration = 2.19898
 	}
 	atlas_lose_late_04_hero_3d = 
 	{
@@ -5478,7 +5478,7 @@
 		[
 			"sounds/vo/atlas/atlas_match_start_atlas_astro_convo02_02.vsnd",
 		]
-		vsnd_duration = 4.619660
+		vsnd_duration = 4.61966
 	}
 	atlas_match_start_atlas_astro_convo03_01_hero_zipline_3d = 
 	{
@@ -5908,7 +5908,7 @@
 		[
 			"sounds/vo/atlas/atlas_match_start_atlas_haze_convo03_01.vsnd",
 		]
-		vsnd_duration = 2.405170
+		vsnd_duration = 2.40517
 	}
 	atlas_match_start_atlas_hornet_convo01_01_hero_zipline_3d = 
 	{
@@ -6058,7 +6058,7 @@
 		[
 			"sounds/vo/atlas/atlas_match_start_atlas_kelvin_convo03_03.vsnd",
 		]
-		vsnd_duration = 2.455850
+		vsnd_duration = 2.45585
 	}
 	atlas_match_start_atlas_krill_convo01_01_hero_zipline_3d = 
 	{
@@ -6188,7 +6188,7 @@
 		[
 			"sounds/vo/atlas/atlas_match_start_atlas_orion_convo01_01.vsnd",
 		]
-		vsnd_duration = 2.049660
+		vsnd_duration = 2.04966
 	}
 	atlas_match_start_atlas_orion_convo01_03_hero_zipline_3d = 
 	{
@@ -6268,7 +6268,7 @@
 		[
 			"sounds/vo/atlas/atlas_match_start_atlas_shiv_convo03_02.vsnd",
 		]
-		vsnd_duration = 1.302290
+		vsnd_duration = 1.30229
 	}
 	atlas_match_start_atlas_synth_convo01_01_hero_zipline_3d = 
 	{
@@ -6838,7 +6838,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_pain_death_10.vsnd",
 		]
-		vsnd_duration = 1.201950
+		vsnd_duration = 1.20195
 	}
 	atlas_pain_death_10_emote_pain_3d = 
 	{
@@ -6848,7 +6848,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_pain_death_10.vsnd",
 		]
-		vsnd_duration = 1.201950
+		vsnd_duration = 1.20195
 	}
 	atlas_pain_death_11_emote_death_3d = 
 	{
@@ -6878,7 +6878,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_pain_death_12.vsnd",
 		]
-		vsnd_duration = 1.349410
+		vsnd_duration = 1.34941
 	}
 	atlas_pain_death_12_emote_pain_3d = 
 	{
@@ -6888,7 +6888,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_pain_death_12.vsnd",
 		]
-		vsnd_duration = 1.349410
+		vsnd_duration = 1.34941
 	}
 	atlas_pain_low_health_warning_alt_01_emote_pain_3d = 
 	{
@@ -6988,7 +6988,7 @@
 		[
 			"sounds/vo/atlas/emote/atlas_pain_small_06.vsnd",
 		]
-		vsnd_duration = 0.934240
+		vsnd_duration = 0.93424
 	}
 	atlas_pain_small_07_emote_pain_3d = 
 	{
@@ -7068,7 +7068,7 @@
 		[
 			"sounds/vo/atlas/atlas_pick_up_gold_04.vsnd",
 		]
-		vsnd_duration = 2.333220
+		vsnd_duration = 2.33322
 	}
 	atlas_pick_up_gold_05_hero_3d = 
 	{
@@ -7088,7 +7088,7 @@
 		[
 			"sounds/vo/atlas/atlas_pick_up_rejuv_01.vsnd",
 		]
-		vsnd_duration = 1.736190
+		vsnd_duration = 1.73619
 	}
 	atlas_pick_up_rejuv_02_hero_3d = 
 	{
@@ -7198,7 +7198,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_affermative_01.vsnd",
 		]
-		vsnd_duration = 1.373810
+		vsnd_duration = 1.37381
 	}
 	atlas_ping_affermative_02_ping_2d = 
 	{
@@ -7238,7 +7238,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_astro_check_items.vsnd",
 		]
-		vsnd_duration = 1.926190
+		vsnd_duration = 1.92619
 	}
 	atlas_ping_astro_dead_ping_2d = 
 	{
@@ -7478,7 +7478,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_attack_mirage.vsnd",
 		]
-		vsnd_duration = 2.002970
+		vsnd_duration = 2.00297
 	}
 	atlas_ping_attack_nano_ping_2d = 
 	{
@@ -7558,7 +7558,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_attack_warden.vsnd",
 		]
-		vsnd_duration = 2.001610
+		vsnd_duration = 2.00161
 	}
 	atlas_ping_attack_wraith_ping_2d = 
 	{
@@ -7648,7 +7648,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_bebop_missing_01.vsnd",
 		]
-		vsnd_duration = 1.645170
+		vsnd_duration = 1.64517
 	}
 	atlas_ping_bebop_on_top_of_garage_ping_2d = 
 	{
@@ -7718,7 +7718,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_cadence_in_mid.vsnd",
 		]
-		vsnd_duration = 1.413900
+		vsnd_duration = 1.4139
 	}
 	atlas_ping_cadence_missing_01_ping_2d = 
 	{
@@ -7828,7 +7828,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_can_heal_forge.vsnd",
 		]
-		vsnd_duration = 2.234240
+		vsnd_duration = 2.23424
 	}
 	atlas_ping_can_heal_ghost_ping_2d = 
 	{
@@ -8188,7 +8188,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_careful_forge_01.vsnd",
 		]
-		vsnd_duration = 1.456190
+		vsnd_duration = 1.45619
 	}
 	atlas_ping_careful_forge_02_ping_2d = 
 	{
@@ -8328,7 +8328,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_careful_hornet_03.vsnd",
 		]
-		vsnd_duration = 1.495850
+		vsnd_duration = 1.49585
 	}
 	atlas_ping_careful_inferno_01_ping_2d = 
 	{
@@ -8448,7 +8448,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_careful_lash_03.vsnd",
 		]
-		vsnd_duration = 1.624490
+		vsnd_duration = 1.62449
 	}
 	atlas_ping_careful_mirage_01_ping_2d = 
 	{
@@ -8568,7 +8568,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_careful_orion_02.vsnd",
 		]
-		vsnd_duration = 1.505760
+		vsnd_duration = 1.50576
 	}
 	atlas_ping_careful_orion_03_01_ping_2d = 
 	{
@@ -8808,7 +8808,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_careful_wrecker_01.vsnd",
 		]
-		vsnd_duration = 1.343900
+		vsnd_duration = 1.3439
 	}
 	atlas_ping_careful_wrecker_02_ping_2d = 
 	{
@@ -8928,7 +8928,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_chrono_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.905760
+		vsnd_duration = 1.90576
 	}
 	atlas_ping_chrono_under_garage_ping_2d = 
 	{
@@ -8968,7 +8968,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_curse_almost_ready.vsnd",
 		]
-		vsnd_duration = 1.788980
+		vsnd_duration = 1.78898
 	}
 	atlas_ping_danger_area_ping_2d = 
 	{
@@ -8998,7 +8998,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_defend_base_01.vsnd",
 		]
-		vsnd_duration = 1.614150
+		vsnd_duration = 1.61415
 	}
 	atlas_ping_defend_blue_01_ping_2d = 
 	{
@@ -9028,7 +9028,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_defend_green_01.vsnd",
 		]
-		vsnd_duration = 1.572630
+		vsnd_duration = 1.57263
 	}
 	atlas_ping_defend_green_02_ping_2d = 
 	{
@@ -9068,7 +9068,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_dynamo_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.825510
+		vsnd_duration = 1.82551
 	}
 	atlas_ping_dynamo_check_items_ping_2d = 
 	{
@@ -9238,7 +9238,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_forge_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.888730
+		vsnd_duration = 1.88873
 	}
 	atlas_ping_forge_under_garage_ping_2d = 
 	{
@@ -9528,7 +9528,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_green_help_01.vsnd",
 		]
-		vsnd_duration = 1.497120
+		vsnd_duration = 1.49712
 	}
 	atlas_ping_green_help_02_ping_2d = 
 	{
@@ -9578,7 +9578,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_haze_in_mid.vsnd",
 		]
-		vsnd_duration = 1.660340
+		vsnd_duration = 1.66034
 	}
 	atlas_ping_haze_missing_01_ping_2d = 
 	{
@@ -9768,7 +9768,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_hornet_in_mid.vsnd",
 		]
-		vsnd_duration = 1.579320
+		vsnd_duration = 1.57932
 	}
 	atlas_ping_hornet_missing_01_ping_2d = 
 	{
@@ -9928,7 +9928,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_ignore_kelvin.vsnd",
 		]
-		vsnd_duration = 1.575510
+		vsnd_duration = 1.57551
 	}
 	atlas_ping_ignore_krill_ping_2d = 
 	{
@@ -10018,7 +10018,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_ignore_viscous.vsnd",
 		]
-		vsnd_duration = 1.582880
+		vsnd_duration = 1.58288
 	}
 	atlas_ping_ignore_warden_ping_2d = 
 	{
@@ -10038,7 +10038,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_ignore_wraith.vsnd",
 		]
-		vsnd_duration = 1.765760
+		vsnd_duration = 1.76576
 	}
 	atlas_ping_ignore_wrecker_ping_2d = 
 	{
@@ -10088,7 +10088,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_inferno_dead.vsnd",
 		]
-		vsnd_duration = 1.851270
+		vsnd_duration = 1.85127
 	}
 	atlas_ping_inferno_in_mid_ping_2d = 
 	{
@@ -10178,7 +10178,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_jar_call_01.vsnd",
 		]
-		vsnd_duration = 1.757370
+		vsnd_duration = 1.75737
 	}
 	atlas_ping_kelvin_almost_respawn_ping_2d = 
 	{
@@ -10188,7 +10188,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_kelvin_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.847460
+		vsnd_duration = 1.84746
 	}
 	atlas_ping_kelvin_check_items_ping_2d = 
 	{
@@ -10538,7 +10538,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_lets_go_green.vsnd",
 		]
-		vsnd_duration = 1.571950
+		vsnd_duration = 1.57195
 	}
 	atlas_ping_lets_go_yellow_alt_ping_2d = 
 	{
@@ -10568,7 +10568,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_lets_hide.vsnd",
 		]
-		vsnd_duration = 1.405760
+		vsnd_duration = 1.40576
 	}
 	atlas_ping_lets_not_01_ping_2d = 
 	{
@@ -10748,7 +10748,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_missing_yellow_02.vsnd",
 		]
-		vsnd_duration = 1.476440
+		vsnd_duration = 1.47644
 	}
 	atlas_ping_nano_almost_respawn_ping_2d = 
 	{
@@ -10788,7 +10788,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_nano_in_mid.vsnd",
 		]
-		vsnd_duration = 1.521270
+		vsnd_duration = 1.52127
 	}
 	atlas_ping_nano_missing_01_ping_2d = 
 	{
@@ -10898,7 +10898,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_need_help_green.vsnd",
 		]
-		vsnd_duration = 1.695510
+		vsnd_duration = 1.69551
 	}
 	atlas_ping_need_help_yellow_alt_ping_2d = 
 	{
@@ -11018,7 +11018,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_no_teamfight.vsnd",
 		]
-		vsnd_duration = 1.933810
+		vsnd_duration = 1.93381
 	}
 	atlas_ping_on_way_ping_2d = 
 	{
@@ -11158,7 +11158,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_post_game_04.vsnd",
 		]
-		vsnd_duration = 1.725850
+		vsnd_duration = 1.72585
 	}
 	atlas_ping_post_game_05_ping_2d = 
 	{
@@ -11198,7 +11198,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_pre_game_02.vsnd",
 		]
-		vsnd_duration = 1.448730
+		vsnd_duration = 1.44873
 	}
 	atlas_ping_pre_game_03_ping_2d = 
 	{
@@ -11288,7 +11288,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_push_green_02.vsnd",
 		]
-		vsnd_duration = 1.743900
+		vsnd_duration = 1.7439
 	}
 	atlas_ping_push_yellow_01_ping_2d = 
 	{
@@ -11378,7 +11378,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_returning_to_base.vsnd",
 		]
-		vsnd_duration = 1.624490
+		vsnd_duration = 1.62449
 	}
 	atlas_ping_right_back_01_ping_2d = 
 	{
@@ -11388,7 +11388,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_right_back_01.vsnd",
 		]
-		vsnd_duration = 1.900680
+		vsnd_duration = 1.90068
 	}
 	atlas_ping_rupture_almost_ready_ping_2d = 
 	{
@@ -11418,7 +11418,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_saw_astro.vsnd",
 		]
-		vsnd_duration = 1.387800
+		vsnd_duration = 1.3878
 	}
 	atlas_ping_saw_bebop_ping_2d = 
 	{
@@ -11648,7 +11648,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_saw_viscous.vsnd",
 		]
-		vsnd_duration = 1.579660
+		vsnd_duration = 1.57966
 	}
 	atlas_ping_saw_warden_ping_2d = 
 	{
@@ -11888,7 +11888,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_enemy_on_roof.vsnd",
 		]
-		vsnd_duration = 1.645850
+		vsnd_duration = 1.64585
 	}
 	atlas_ping_see_enemy_ping_2d = 
 	{
@@ -11998,7 +11998,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_haze_01.vsnd",
 		]
-		vsnd_duration = 1.644490
+		vsnd_duration = 1.64449
 	}
 	atlas_ping_see_haze_02_ping_2d = 
 	{
@@ -12008,7 +12008,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_haze_02.vsnd",
 		]
-		vsnd_duration = 1.704490
+		vsnd_duration = 1.70449
 	}
 	atlas_ping_see_haze_on_bridge_ping_2d = 
 	{
@@ -12028,7 +12028,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_haze_on_roof.vsnd",
 		]
-		vsnd_duration = 1.634150
+		vsnd_duration = 1.63415
 	}
 	atlas_ping_see_hornet_01_ping_2d = 
 	{
@@ -12098,7 +12098,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_kelvin_01.vsnd",
 		]
-		vsnd_duration = 1.705850
+		vsnd_duration = 1.70585
 	}
 	atlas_ping_see_kelvin_02_ping_2d = 
 	{
@@ -12278,7 +12278,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_orion_01.vsnd",
 		]
-		vsnd_duration = 1.767030
+		vsnd_duration = 1.76703
 	}
 	atlas_ping_see_orion_02_ping_2d = 
 	{
@@ -12408,7 +12408,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_synth_on_roof.vsnd",
 		]
-		vsnd_duration = 1.612630
+		vsnd_duration = 1.61263
 	}
 	atlas_ping_see_tengu_on_bridge_ping_2d = 
 	{
@@ -12468,7 +12468,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_viscous_on_bridge_alt_01.vsnd",
 		]
-		vsnd_duration = 1.654830
+		vsnd_duration = 1.65483
 	}
 	atlas_ping_see_viscous_on_bridge_ping_2d = 
 	{
@@ -12488,7 +12488,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_viscous_on_roof.vsnd",
 		]
-		vsnd_duration = 1.517030
+		vsnd_duration = 1.51703
 	}
 	atlas_ping_see_warden_01_ping_2d = 
 	{
@@ -12508,7 +12508,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_warden_02.vsnd",
 		]
-		vsnd_duration = 1.690680
+		vsnd_duration = 1.69068
 	}
 	atlas_ping_see_warden_on_bridge_ping_2d = 
 	{
@@ -12518,7 +12518,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_warden_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.674830
+		vsnd_duration = 1.67483
 	}
 	atlas_ping_see_warden_on_roof_ping_2d = 
 	{
@@ -12608,7 +12608,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_see_yamato_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.692290
+		vsnd_duration = 1.69229
 	}
 	atlas_ping_see_yamato_on_roof_ping_2d = 
 	{
@@ -12708,7 +12708,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_shiv_under_garage.vsnd",
 		]
-		vsnd_duration = 2.005760
+		vsnd_duration = 2.00576
 	}
 	atlas_ping_shiv_was_here_ping_2d = 
 	{
@@ -12728,7 +12728,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_slork_in_mid.vsnd",
 		]
-		vsnd_duration = 1.564490
+		vsnd_duration = 1.56449
 	}
 	atlas_ping_slork_missing_01_ping_2d = 
 	{
@@ -12738,7 +12738,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_slork_missing_01.vsnd",
 		]
-		vsnd_duration = 1.736190
+		vsnd_duration = 1.73619
 	}
 	atlas_ping_slork_on_top_of_garage_ping_2d = 
 	{
@@ -12848,7 +12848,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_stun_cadence_01.vsnd",
 		]
-		vsnd_duration = 1.625850
+		vsnd_duration = 1.62585
 	}
 	atlas_ping_stun_chrono_01_ping_2d = 
 	{
@@ -12938,7 +12938,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_stun_kelvin_01.vsnd",
 		]
-		vsnd_duration = 1.414240
+		vsnd_duration = 1.41424
 	}
 	atlas_ping_stun_krill_01_ping_2d = 
 	{
@@ -13488,7 +13488,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_use_ability4_09.vsnd",
 		]
-		vsnd_duration = 1.765760
+		vsnd_duration = 1.76576
 	}
 	atlas_ping_use_ability4_10_ping_2d = 
 	{
@@ -13538,7 +13538,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_use_health_nova.vsnd",
 		]
-		vsnd_duration = 1.840340
+		vsnd_duration = 1.84034
 	}
 	atlas_ping_use_item_ping_2d = 
 	{
@@ -13668,7 +13668,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_viscous_under_garage.vsnd",
 		]
-		vsnd_duration = 1.989320
+		vsnd_duration = 1.98932
 	}
 	atlas_ping_viscous_was_here_ping_2d = 
 	{
@@ -13688,7 +13688,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_wait.vsnd",
 		]
-		vsnd_duration = 1.152200
+		vsnd_duration = 1.1522
 	}
 	atlas_ping_warden_almost_respawn_ping_2d = 
 	{
@@ -13698,7 +13698,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_warden_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.920000
+		vsnd_duration = 1.92
 	}
 	atlas_ping_warden_check_items_ping_2d = 
 	{
@@ -13828,7 +13828,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_with_astro.vsnd",
 		]
-		vsnd_duration = 1.707460
+		vsnd_duration = 1.70746
 	}
 	atlas_ping_with_bebop_ping_2d = 
 	{
@@ -13888,7 +13888,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_with_ghost.vsnd",
 		]
-		vsnd_duration = 1.579320
+		vsnd_duration = 1.57932
 	}
 	atlas_ping_with_gigawatt_ping_2d = 
 	{
@@ -14018,7 +14018,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_with_synth.vsnd",
 		]
-		vsnd_duration = 1.705510
+		vsnd_duration = 1.70551
 	}
 	atlas_ping_with_tengu_ping_2d = 
 	{
@@ -14128,7 +14128,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_wraith_missing_01.vsnd",
 		]
-		vsnd_duration = 1.778730
+		vsnd_duration = 1.77873
 	}
 	atlas_ping_wraith_on_top_of_garage_ping_2d = 
 	{
@@ -14238,7 +14238,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_wrecker_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.720340
+		vsnd_duration = 1.72034
 	}
 	atlas_ping_wrecker_under_garage_ping_2d = 
 	{
@@ -14308,7 +14308,7 @@
 		[
 			"sounds/vo/atlas/ping/atlas_ping_yamato_missing_01.vsnd",
 		]
-		vsnd_duration = 1.675850
+		vsnd_duration = 1.67585
 	}
 	atlas_ping_yamato_on_top_of_garage_ping_2d = 
 	{
@@ -14388,7 +14388,7 @@
 		[
 			"sounds/vo/atlas/atlas_sad_01.vsnd",
 		]
-		vsnd_duration = 2.098140
+		vsnd_duration = 2.09814
 	}
 	atlas_sad_02_hero_3d = 
 	{
@@ -14488,7 +14488,7 @@
 		[
 			"sounds/vo/atlas/atlas_sad_10.vsnd",
 		]
-		vsnd_duration = 2.279320
+		vsnd_duration = 2.27932
 	}
 	atlas_see_enemy_metal_skin_01_hero_3d = 
 	{
@@ -14648,7 +14648,7 @@
 		[
 			"sounds/vo/atlas/atlas_select_10.vsnd",
 		]
-		vsnd_duration = 2.061950
+		vsnd_duration = 2.06195
 	}
 	atlas_select_11_hero_3d = 
 	{
@@ -14668,7 +14668,7 @@
 		[
 			"sounds/vo/atlas/atlas_t1_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 1.765760
+		vsnd_duration = 1.76576
 	}
 	atlas_t1_shop_reminder_02_hero_3d = 
 	{
@@ -14708,7 +14708,7 @@
 		[
 			"sounds/vo/atlas/atlas_t2_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 2.201270
+		vsnd_duration = 2.20127
 	}
 	atlas_t2_shop_reminder_03_hero_3d = 
 	{
@@ -15058,7 +15058,7 @@
 		[
 			"sounds/vo/atlas/atlas_upgrade_power2_04.vsnd",
 		]
-		vsnd_duration = 2.675760
+		vsnd_duration = 2.67576
 	}
 	atlas_upgrade_power2_05_hero_3d = 
 	{
@@ -15098,7 +15098,7 @@
 		[
 			"sounds/vo/atlas/atlas_upgrade_power2_08.vsnd",
 		]
-		vsnd_duration = 4.109410
+		vsnd_duration = 4.10941
 	}
 	atlas_upgrade_power2_09_hero_3d = 
 	{
@@ -15158,7 +15158,7 @@
 		[
 			"sounds/vo/atlas/atlas_upgrade_power3_04.vsnd",
 		]
-		vsnd_duration = 1.685170
+		vsnd_duration = 1.68517
 	}
 	atlas_upgrade_power3_05_hero_3d = 
 	{
@@ -15368,7 +15368,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_colossus_02.vsnd",
 		]
-		vsnd_duration = 2.524830
+		vsnd_duration = 2.52483
 	}
 	atlas_use_colossus_03_ability_3d = 
 	{
@@ -15428,7 +15428,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_decay_02.vsnd",
 		]
-		vsnd_duration = 1.271270
+		vsnd_duration = 1.27127
 	}
 	atlas_use_decay_03_ability_3d = 
 	{
@@ -15448,7 +15448,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_echo_shard_01.vsnd",
 		]
-		vsnd_duration = 1.425850
+		vsnd_duration = 1.42585
 	}
 	atlas_use_echo_shard_02_ability_3d = 
 	{
@@ -15458,7 +15458,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_echo_shard_02.vsnd",
 		]
-		vsnd_duration = 1.842880
+		vsnd_duration = 1.84288
 	}
 	atlas_use_echo_shard_03_ability_3d = 
 	{
@@ -15468,7 +15468,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_echo_shard_03.vsnd",
 		]
-		vsnd_duration = 1.741020
+		vsnd_duration = 1.74102
 	}
 	atlas_use_ice_blast_01_ability_3d = 
 	{
@@ -15588,7 +15588,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power1_01.vsnd",
 		]
-		vsnd_duration = 1.164490
+		vsnd_duration = 1.16449
 	}
 	atlas_use_power1_02_ability_3d = 
 	{
@@ -15598,7 +15598,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power1_02.vsnd",
 		]
-		vsnd_duration = 1.784490
+		vsnd_duration = 1.78449
 	}
 	atlas_use_power1_03_ability_3d = 
 	{
@@ -15638,7 +15638,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power1_05.vsnd",
 		]
-		vsnd_duration = 1.272880
+		vsnd_duration = 1.27288
 	}
 	atlas_use_power1_06_ability_3d = 
 	{
@@ -15698,7 +15698,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power2_01.vsnd",
 		]
-		vsnd_duration = 1.578050
+		vsnd_duration = 1.57805
 	}
 	atlas_use_power2_02_ability_3d = 
 	{
@@ -15708,7 +15708,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power2_02.vsnd",
 		]
-		vsnd_duration = 1.843900
+		vsnd_duration = 1.8439
 	}
 	atlas_use_power2_03_ability_3d = 
 	{
@@ -15778,7 +15778,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power2_09.vsnd",
 		]
-		vsnd_duration = 2.332540
+		vsnd_duration = 2.33254
 	}
 	atlas_use_power2_10_ability_3d = 
 	{
@@ -15948,7 +15948,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power4_06.vsnd",
 		]
-		vsnd_duration = 1.316100
+		vsnd_duration = 1.3161
 	}
 	atlas_use_power4_06_hero_announcer = 
 	{
@@ -15958,7 +15958,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power4_06.vsnd",
 		]
-		vsnd_duration = 1.316100
+		vsnd_duration = 1.3161
 	}
 	atlas_use_power4_06_ult_3d = 
 	{
@@ -15968,7 +15968,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power4_06.vsnd",
 		]
-		vsnd_duration = 1.316100
+		vsnd_duration = 1.3161
 	}
 	atlas_use_power4_07_ability_3d = 
 	{
@@ -16008,7 +16008,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power4_08.vsnd",
 		]
-		vsnd_duration = 1.240590
+		vsnd_duration = 1.24059
 	}
 	atlas_use_power4_08_hero_announcer = 
 	{
@@ -16018,7 +16018,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power4_08.vsnd",
 		]
-		vsnd_duration = 1.240590
+		vsnd_duration = 1.24059
 	}
 	atlas_use_power4_08_ult_3d = 
 	{
@@ -16028,7 +16028,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power4_08.vsnd",
 		]
-		vsnd_duration = 1.240590
+		vsnd_duration = 1.24059
 	}
 	atlas_use_power4_09_ability_3d = 
 	{
@@ -16228,7 +16228,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power4_as_enemy_02.vsnd",
 		]
-		vsnd_duration = 1.979320
+		vsnd_duration = 1.97932
 	}
 	atlas_use_power4_as_enemy_02_hero_3d = 
 	{
@@ -16238,7 +16238,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power4_as_enemy_02.vsnd",
 		]
-		vsnd_duration = 1.979320
+		vsnd_duration = 1.97932
 	}
 	atlas_use_power4_as_enemy_02_hero_announcer = 
 	{
@@ -16248,7 +16248,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power4_as_enemy_02.vsnd",
 		]
-		vsnd_duration = 1.979320
+		vsnd_duration = 1.97932
 	}
 	atlas_use_power4_as_enemy_02_ult_3d = 
 	{
@@ -16258,7 +16258,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_power4_as_enemy_02.vsnd",
 		]
-		vsnd_duration = 1.979320
+		vsnd_duration = 1.97932
 	}
 	atlas_use_power4_as_enemy_03_ability_3d = 
 	{
@@ -16558,7 +16558,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_tech_purge_03.vsnd",
 		]
-		vsnd_duration = 1.273560
+		vsnd_duration = 1.27356
 	}
 	atlas_use_unstoppable_01_ability_3d = 
 	{
@@ -16568,7 +16568,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_unstoppable_01.vsnd",
 		]
-		vsnd_duration = 2.024580
+		vsnd_duration = 2.02458
 	}
 	atlas_use_unstoppable_02_ability_3d = 
 	{
@@ -16618,7 +16618,7 @@
 		[
 			"sounds/vo/atlas/atlas_use_vampiric_burst_03.vsnd",
 		]
-		vsnd_duration = 2.225850
+		vsnd_duration = 2.22585
 	}
 	atlas_win_01_hero_3d = 
 	{
@@ -16738,7 +16738,7 @@
 		[
 			"sounds/vo/atlas/atlas_win_late_01.vsnd",
 		]
-		vsnd_duration = 2.683220
+		vsnd_duration = 2.68322
 	}
 	atlas_win_late_02_hero_3d = 
 	{

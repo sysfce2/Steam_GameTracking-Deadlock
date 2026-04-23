@@ -108,7 +108,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_atlas_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.285500
+		vsnd_duration = 1.2855
 	}
 	fencer_ally_atlas_unkillable_01_hero_3d = 
 	{
@@ -128,7 +128,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_atlas_unkillable_02.vsnd",
 		]
-		vsnd_duration = 1.789500
+		vsnd_duration = 1.7895
 	}
 	fencer_ally_atlas_unkillable_03_hero_3d = 
 	{
@@ -158,7 +158,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_bebop_far_hook_02.vsnd",
 		]
-		vsnd_duration = 1.232500
+		vsnd_duration = 1.2325
 	}
 	fencer_ally_bebop_far_hook_03_hero_3d = 
 	{
@@ -218,7 +218,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_bookworm_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.356250
+		vsnd_duration = 1.35625
 	}
 	fencer_ally_chrono_killed_in_lane_01_hero_3d = 
 	{
@@ -258,7 +258,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_chrono_swap_to_boss_03.vsnd",
 		]
-		vsnd_duration = 2.112750
+		vsnd_duration = 2.11275
 	}
 	fencer_ally_doorman_killed_in_lane_01_hero_3d = 
 	{
@@ -318,7 +318,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_dynamo_clutch_heal_01.vsnd",
 		]
-		vsnd_duration = 1.136000
+		vsnd_duration = 1.136
 	}
 	fencer_ally_dynamo_clutch_heal_02_hero_3d = 
 	{
@@ -558,7 +558,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_haze_big_ult_03.vsnd",
 		]
-		vsnd_duration = 2.164500
+		vsnd_duration = 2.1645
 	}
 	fencer_ally_haze_interrupt_with_finesse_01_hero_3d = 
 	{
@@ -568,7 +568,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_haze_interrupt_with_finesse_01.vsnd",
 		]
-		vsnd_duration = 1.883750
+		vsnd_duration = 1.88375
 	}
 	fencer_ally_haze_interrupt_with_finesse_02_hero_3d = 
 	{
@@ -688,7 +688,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_kelvin_clutch_heal_01.vsnd",
 		]
-		vsnd_duration = 1.117250
+		vsnd_duration = 1.11725
 	}
 	fencer_ally_kelvin_clutch_heal_02_hero_3d = 
 	{
@@ -738,7 +738,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_krill_grab_mid_enemy_ult_02.vsnd",
 		]
-		vsnd_duration = 1.153000
+		vsnd_duration = 1.153
 	}
 	fencer_ally_krill_grab_mid_enemy_ult_03_hero_3d = 
 	{
@@ -798,7 +798,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_lash_see_massive_stomp_03.vsnd",
 		]
-		vsnd_duration = 1.909250
+		vsnd_duration = 1.90925
 	}
 	fencer_ally_magician_killed_in_lane_01_hero_3d = 
 	{
@@ -898,7 +898,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_orion_missile_stops_ult_02.vsnd",
 		]
-		vsnd_duration = 1.635500
+		vsnd_duration = 1.6355
 	}
 	fencer_ally_orion_missile_stops_ult_03_hero_3d = 
 	{
@@ -928,7 +928,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_priest_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.486750
+		vsnd_duration = 1.48675
 	}
 	fencer_ally_punkgoat_killed_in_lane_01_hero_3d = 
 	{
@@ -1068,7 +1068,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_unicorn_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.483250
+		vsnd_duration = 1.48325
 	}
 	fencer_ally_vampirebat_killed_in_lane_01_hero_3d = 
 	{
@@ -1198,7 +1198,7 @@
 		[
 			"sounds/vo/fencer/fencer_ally_yamato_killed_in_lane_01.vsnd",
 		]
-		vsnd_duration = 1.417250
+		vsnd_duration = 1.41725
 	}
 	fencer_ally_yamato_kills_with_hook_01_hero_3d = 
 	{
@@ -1298,7 +1298,7 @@
 		[
 			"sounds/vo/fencer/fencer_close_call_01.vsnd",
 		]
-		vsnd_duration = 1.294250
+		vsnd_duration = 1.29425
 	}
 	fencer_close_call_02_hero_3d = 
 	{
@@ -1548,7 +1548,7 @@
 		[
 			"sounds/vo/fencer/fencer_desperation_power3_05.vsnd",
 		]
-		vsnd_duration = 3.164000
+		vsnd_duration = 3.164
 	}
 	fencer_desperation_power4_01_ability_3d = 
 	{
@@ -1658,7 +1658,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_dash_01.vsnd",
 		]
-		vsnd_duration = 0.607000
+		vsnd_duration = 0.607
 	}
 	fencer_effort_dash_01_emote_effort_3d = 
 	{
@@ -1668,7 +1668,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_dash_01.vsnd",
 		]
-		vsnd_duration = 0.607000
+		vsnd_duration = 0.607
 	}
 	fencer_effort_dash_02_emote_dash_3d = 
 	{
@@ -1678,7 +1678,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_dash_02.vsnd",
 		]
-		vsnd_duration = 0.552000
+		vsnd_duration = 0.552
 	}
 	fencer_effort_dash_02_emote_effort_3d = 
 	{
@@ -1688,7 +1688,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_dash_02.vsnd",
 		]
-		vsnd_duration = 0.552000
+		vsnd_duration = 0.552
 	}
 	fencer_effort_dash_03_emote_dash_3d = 
 	{
@@ -1758,7 +1758,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_dash_06.vsnd",
 		]
-		vsnd_duration = 0.762000
+		vsnd_duration = 0.762
 	}
 	fencer_effort_dash_06_emote_effort_3d = 
 	{
@@ -1768,7 +1768,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_dash_06.vsnd",
 		]
-		vsnd_duration = 0.762000
+		vsnd_duration = 0.762
 	}
 	fencer_effort_general_01_emote_effort_3d = 
 	{
@@ -1788,7 +1788,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_general_02.vsnd",
 		]
-		vsnd_duration = 0.366000
+		vsnd_duration = 0.366
 	}
 	fencer_effort_general_03_emote_effort_3d = 
 	{
@@ -1798,7 +1798,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_general_03.vsnd",
 		]
-		vsnd_duration = 0.527000
+		vsnd_duration = 0.527
 	}
 	fencer_effort_general_04_emote_effort_3d = 
 	{
@@ -1828,7 +1828,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_general_06.vsnd",
 		]
-		vsnd_duration = 0.471000
+		vsnd_duration = 0.471
 	}
 	fencer_effort_general_07_emote_effort_3d = 
 	{
@@ -1908,7 +1908,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_melee_big_04.vsnd",
 		]
-		vsnd_duration = 1.134000
+		vsnd_duration = 1.134
 	}
 	fencer_effort_melee_big_04_emote_melee_effort_3d = 
 	{
@@ -1918,7 +1918,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_melee_big_04.vsnd",
 		]
-		vsnd_duration = 1.134000
+		vsnd_duration = 1.134
 	}
 	fencer_effort_melee_big_05_emote_effort_3d = 
 	{
@@ -1948,7 +1948,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_melee_big_06.vsnd",
 		]
-		vsnd_duration = 1.266000
+		vsnd_duration = 1.266
 	}
 	fencer_effort_melee_big_06_emote_melee_effort_3d = 
 	{
@@ -1958,7 +1958,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_effort_melee_big_06.vsnd",
 		]
-		vsnd_duration = 1.266000
+		vsnd_duration = 1.266
 	}
 	fencer_effort_melee_big_07_emote_effort_3d = 
 	{
@@ -2198,7 +2198,7 @@
 		[
 			"sounds/vo/fencer/fencer_enemy_atlas_unkillable_03.vsnd",
 		]
-		vsnd_duration = 1.558250
+		vsnd_duration = 1.55825
 	}
 	fencer_enemy_bebop_hooked_01_hero_3d = 
 	{
@@ -2228,7 +2228,7 @@
 		[
 			"sounds/vo/fencer/fencer_enemy_bebop_hooked_03_alt_01.vsnd",
 		]
-		vsnd_duration = 1.181500
+		vsnd_duration = 1.1815
 	}
 	fencer_enemy_bebop_hooked_03_hero_3d = 
 	{
@@ -2378,7 +2378,7 @@
 		[
 			"sounds/vo/fencer/fencer_enemy_gets_rejuv_02.vsnd",
 		]
-		vsnd_duration = 2.054250
+		vsnd_duration = 2.05425
 	}
 	fencer_enemy_gets_rejuv_03_hero_3d = 
 	{
@@ -2388,7 +2388,7 @@
 		[
 			"sounds/vo/fencer/fencer_enemy_gets_rejuv_03.vsnd",
 		]
-		vsnd_duration = 1.985500
+		vsnd_duration = 1.9855
 	}
 	fencer_enemy_ghost_ping_with_swap_01_hero_3d = 
 	{
@@ -2498,7 +2498,7 @@
 		[
 			"sounds/vo/fencer/fencer_enemy_hornet_damaged_by_snipe_02.vsnd",
 		]
-		vsnd_duration = 1.160000
+		vsnd_duration = 1.16
 	}
 	fencer_enemy_hornet_damaged_by_snipe_03_hero_3d = 
 	{
@@ -2518,7 +2518,7 @@
 		[
 			"sounds/vo/fencer/fencer_enemy_hornet_killed_mid_air_01.vsnd",
 		]
-		vsnd_duration = 1.588250
+		vsnd_duration = 1.58825
 	}
 	fencer_enemy_hornet_killed_mid_air_02_hero_3d = 
 	{
@@ -2578,7 +2578,7 @@
 		[
 			"sounds/vo/fencer/fencer_enemy_kelvin_kill_on_ice_path_01.vsnd",
 		]
-		vsnd_duration = 2.688500
+		vsnd_duration = 2.6885
 	}
 	fencer_enemy_kelvin_kill_on_ice_path_02_hero_3d = 
 	{
@@ -2598,7 +2598,7 @@
 		[
 			"sounds/vo/fencer/fencer_enemy_kelvin_kill_on_ice_path_03.vsnd",
 		]
-		vsnd_duration = 2.168250
+		vsnd_duration = 2.16825
 	}
 	fencer_enemy_krill_grabbed_01_hero_3d = 
 	{
@@ -2628,7 +2628,7 @@
 		[
 			"sounds/vo/fencer/fencer_enemy_krill_grabbed_03.vsnd",
 		]
-		vsnd_duration = 1.309500
+		vsnd_duration = 1.3095
 	}
 	fencer_enemy_lash_mid_air_kill_01_hero_3d = 
 	{
@@ -3028,7 +3028,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_astro_01.vsnd",
 		]
-		vsnd_duration = 1.338250
+		vsnd_duration = 1.33825
 	}
 	fencer_kill_astro_02_hero_3d = 
 	{
@@ -3068,7 +3068,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_astro_05.vsnd",
 		]
-		vsnd_duration = 2.759500
+		vsnd_duration = 2.7595
 	}
 	fencer_kill_atlas_01_hero_3d = 
 	{
@@ -3078,7 +3078,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_atlas_01.vsnd",
 		]
-		vsnd_duration = 1.671000
+		vsnd_duration = 1.671
 	}
 	fencer_kill_atlas_02_hero_3d = 
 	{
@@ -3138,7 +3138,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_bebop_02.vsnd",
 		]
-		vsnd_duration = 1.913500
+		vsnd_duration = 1.9135
 	}
 	fencer_kill_bebop_03_hero_3d = 
 	{
@@ -3328,7 +3328,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_doorman_06.vsnd",
 		]
-		vsnd_duration = 4.142250
+		vsnd_duration = 4.14225
 	}
 	fencer_kill_drifter_01_hero_3d = 
 	{
@@ -3398,7 +3398,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_dynamo_02.vsnd",
 		]
-		vsnd_duration = 4.026750
+		vsnd_duration = 4.02675
 	}
 	fencer_kill_dynamo_03_hero_3d = 
 	{
@@ -3528,7 +3528,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_forge_05.vsnd",
 		]
-		vsnd_duration = 1.507250
+		vsnd_duration = 1.50725
 	}
 	fencer_kill_frank_01_hero_3d = 
 	{
@@ -3698,7 +3698,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_haze_02.vsnd",
 		]
-		vsnd_duration = 1.952000
+		vsnd_duration = 1.952
 	}
 	fencer_kill_haze_03_hero_3d = 
 	{
@@ -3768,7 +3768,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_hornet_03.vsnd",
 		]
-		vsnd_duration = 1.903000
+		vsnd_duration = 1.903
 	}
 	fencer_kill_hornet_04_hero_3d = 
 	{
@@ -3828,7 +3828,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_inferno_04.vsnd",
 		]
-		vsnd_duration = 3.459000
+		vsnd_duration = 3.459
 	}
 	fencer_kill_inferno_05_hero_3d = 
 	{
@@ -3978,7 +3978,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_lash_04.vsnd",
 		]
-		vsnd_duration = 3.730250
+		vsnd_duration = 3.73025
 	}
 	fencer_kill_lash_05_hero_3d = 
 	{
@@ -4068,7 +4068,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_mirage_02.vsnd",
 		]
-		vsnd_duration = 4.372500
+		vsnd_duration = 4.3725
 	}
 	fencer_kill_mirage_03_hero_3d = 
 	{
@@ -4118,7 +4118,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_nano_02.vsnd",
 		]
-		vsnd_duration = 1.375750
+		vsnd_duration = 1.37575
 	}
 	fencer_kill_nano_03_hero_3d = 
 	{
@@ -4368,7 +4368,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_shiv_02.vsnd",
 		]
-		vsnd_duration = 2.539063
+		vsnd_duration = 2.539062
 	}
 	fencer_kill_shiv_03_hero_3d = 
 	{
@@ -4428,7 +4428,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_synth_03.vsnd",
 		]
-		vsnd_duration = 1.959250
+		vsnd_duration = 1.95925
 	}
 	fencer_kill_synth_04_hero_3d = 
 	{
@@ -4628,7 +4628,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_viper_03.vsnd",
 		]
-		vsnd_duration = 1.678750
+		vsnd_duration = 1.67875
 	}
 	fencer_kill_viper_04_hero_3d = 
 	{
@@ -4648,7 +4648,7 @@
 		[
 			"sounds/vo/fencer/fencer_kill_viper_05.vsnd",
 		]
-		vsnd_duration = 1.726000
+		vsnd_duration = 1.726
 	}
 	fencer_kill_viscous_01_hero_3d = 
 	{
@@ -5028,7 +5028,7 @@
 		[
 			"sounds/vo/fencer/fencer_killstreak_start_01.vsnd",
 		]
-		vsnd_duration = 1.917750
+		vsnd_duration = 1.91775
 	}
 	fencer_killstreak_start_01_hero_announcer = 
 	{
@@ -5038,7 +5038,7 @@
 		[
 			"sounds/vo/fencer/fencer_killstreak_start_01.vsnd",
 		]
-		vsnd_duration = 1.917750
+		vsnd_duration = 1.91775
 	}
 	fencer_killstreak_start_02_hero_3d = 
 	{
@@ -5158,7 +5158,7 @@
 		[
 			"sounds/vo/fencer/fencer_last_one_standing_03.vsnd",
 		]
-		vsnd_duration = 3.512750
+		vsnd_duration = 3.51275
 	}
 	fencer_leave_base_01_hero_3d = 
 	{
@@ -5278,7 +5278,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_familiar_fencer_convo03_04.vsnd",
 		]
-		vsnd_duration = 1.611750
+		vsnd_duration = 1.61175
 	}
 	fencer_match_start_familiar_fencer_convo03_06_hero_zipline_3d = 
 	{
@@ -5428,7 +5428,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_atlas_convo03_05.vsnd",
 		]
-		vsnd_duration = 2.674500
+		vsnd_duration = 2.6745
 	}
 	fencer_match_start_fencer_atlas_convo04_01_hero_zipline_3d = 
 	{
@@ -5588,7 +5588,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_doorman_convo01_02.vsnd",
 		]
-		vsnd_duration = 2.851000
+		vsnd_duration = 2.851
 	}
 	fencer_match_start_fencer_doorman_convo02_02_hero_zipline_3d = 
 	{
@@ -5678,7 +5678,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_dynamo_convo02_05.vsnd",
 		]
-		vsnd_duration = 3.811750
+		vsnd_duration = 3.81175
 	}
 	fencer_match_start_fencer_dynamo_convo03_02_hero_zipline_3d = 
 	{
@@ -5708,7 +5708,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_forge_convo02_02.vsnd",
 		]
-		vsnd_duration = 3.798750
+		vsnd_duration = 3.79875
 	}
 	fencer_match_start_fencer_forge_convo03_02_hero_zipline_3d = 
 	{
@@ -5868,7 +5868,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_haze_convo02_02.vsnd",
 		]
-		vsnd_duration = 1.514500
+		vsnd_duration = 1.5145
 	}
 	fencer_match_start_fencer_haze_convo02_04_hero_zipline_3d = 
 	{
@@ -5928,7 +5928,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_hornet_convo02_03.vsnd",
 		]
-		vsnd_duration = 8.011250
+		vsnd_duration = 8.01125
 	}
 	fencer_match_start_fencer_hornet_convo03_01_hero_zipline_3d = 
 	{
@@ -6078,7 +6078,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_kelvin_convo02_02.vsnd",
 		]
-		vsnd_duration = 1.318500
+		vsnd_duration = 1.3185
 	}
 	fencer_match_start_fencer_kelvin_convo02_04_hero_zipline_3d = 
 	{
@@ -6128,7 +6128,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_krill_convo01_01.vsnd",
 		]
-		vsnd_duration = 1.945250
+		vsnd_duration = 1.94525
 	}
 	fencer_match_start_fencer_krill_convo01_03_hero_zipline_3d = 
 	{
@@ -6188,7 +6188,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_lash_convo01_03.vsnd",
 		]
-		vsnd_duration = 2.200000
+		vsnd_duration = 2.2
 	}
 	fencer_match_start_fencer_lash_convo01_05_hero_zipline_3d = 
 	{
@@ -6238,7 +6238,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_lash_convo03_02.vsnd",
 		]
-		vsnd_duration = 1.811500
+		vsnd_duration = 1.8115
 	}
 	fencer_match_start_fencer_lash_convo03_04_hero_zipline_3d = 
 	{
@@ -6428,7 +6428,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_necro_convo02_05.vsnd",
 		]
-		vsnd_duration = 4.926000
+		vsnd_duration = 4.926
 	}
 	fencer_match_start_fencer_necro_convo02_07_hero_zipline_3d = 
 	{
@@ -6618,7 +6618,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_punkgoat_convo01_02.vsnd",
 		]
-		vsnd_duration = 1.246000
+		vsnd_duration = 1.246
 	}
 	fencer_match_start_fencer_punkgoat_convo02_02_hero_zipline_3d = 
 	{
@@ -6708,7 +6708,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_shiv_convo03_01.vsnd",
 		]
-		vsnd_duration = 1.283500
+		vsnd_duration = 1.2835
 	}
 	fencer_match_start_fencer_shiv_convo03_03_hero_zipline_3d = 
 	{
@@ -6858,7 +6858,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_viper_convo01_04.vsnd",
 		]
-		vsnd_duration = 0.899250
+		vsnd_duration = 0.89925
 	}
 	fencer_match_start_fencer_viper_convo02_02_hero_zipline_3d = 
 	{
@@ -6908,7 +6908,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_fencer_viscous_convo01_02.vsnd",
 		]
-		vsnd_duration = 3.270500
+		vsnd_duration = 3.2705
 	}
 	fencer_match_start_fencer_viscous_convo01_04_hero_zipline_3d = 
 	{
@@ -7158,7 +7158,7 @@
 		[
 			"sounds/vo/fencer/fencer_match_start_unicorn_fencer_convo01_02.vsnd",
 		]
-		vsnd_duration = 1.352250
+		vsnd_duration = 1.35225
 	}
 	fencer_match_start_unicorn_fencer_convo01_04_hero_zipline_3d = 
 	{
@@ -7258,7 +7258,7 @@
 		[
 			"sounds/vo/fencer/fencer_melee_kill_04.vsnd",
 		]
-		vsnd_duration = 4.040750
+		vsnd_duration = 4.04075
 	}
 	fencer_melee_kill_05_hero_3d = 
 	{
@@ -7298,7 +7298,7 @@
 		[
 			"sounds/vo/fencer/fencer_near_miss_03.vsnd",
 		]
-		vsnd_duration = 1.879000
+		vsnd_duration = 1.879
 	}
 	fencer_near_miss_04_hero_3d = 
 	{
@@ -7358,7 +7358,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_pain_big_01.vsnd",
 		]
-		vsnd_duration = 0.669500
+		vsnd_duration = 0.6695
 	}
 	fencer_pain_big_02_emote_pain_3d = 
 	{
@@ -7368,7 +7368,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_pain_big_02.vsnd",
 		]
-		vsnd_duration = 0.584500
+		vsnd_duration = 0.5845
 	}
 	fencer_pain_big_03_emote_pain_3d = 
 	{
@@ -7388,7 +7388,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_pain_big_04.vsnd",
 		]
-		vsnd_duration = 0.659000
+		vsnd_duration = 0.659
 	}
 	fencer_pain_big_05_emote_pain_3d = 
 	{
@@ -7408,7 +7408,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_pain_big_06.vsnd",
 		]
-		vsnd_duration = 0.915000
+		vsnd_duration = 0.915
 	}
 	fencer_pain_death_01_emote_death_3d = 
 	{
@@ -7458,7 +7458,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_pain_death_03.vsnd",
 		]
-		vsnd_duration = 0.822500
+		vsnd_duration = 0.8225
 	}
 	fencer_pain_death_03_emote_pain_3d = 
 	{
@@ -7468,7 +7468,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_pain_death_03.vsnd",
 		]
-		vsnd_duration = 0.822500
+		vsnd_duration = 0.8225
 	}
 	fencer_pain_death_04_emote_death_3d = 
 	{
@@ -7498,7 +7498,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_pain_low_health_warning_01.vsnd",
 		]
-		vsnd_duration = 1.528000
+		vsnd_duration = 1.528
 	}
 	fencer_pain_low_health_warning_02_emote_pain_3d = 
 	{
@@ -7528,7 +7528,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_pain_low_health_warning_04.vsnd",
 		]
-		vsnd_duration = 1.368000
+		vsnd_duration = 1.368
 	}
 	fencer_pain_small_01_emote_pain_3d = 
 	{
@@ -7568,7 +7568,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_pain_small_04.vsnd",
 		]
-		vsnd_duration = 0.556000
+		vsnd_duration = 0.556
 	}
 	fencer_pain_small_05_emote_pain_3d = 
 	{
@@ -7588,7 +7588,7 @@
 		[
 			"sounds/vo/fencer/emote/fencer_pain_small_06.vsnd",
 		]
-		vsnd_duration = 0.693500
+		vsnd_duration = 0.6935
 	}
 	fencer_parry_01_hero_3d = 
 	{
@@ -7758,7 +7758,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_ability3_not_ready.vsnd",
 		]
-		vsnd_duration = 1.643500
+		vsnd_duration = 1.6435
 	}
 	fencer_ping_ability4_almost_ready_ping_2d = 
 	{
@@ -7848,7 +7848,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_astro_in_mid.vsnd",
 		]
-		vsnd_duration = 1.224000
+		vsnd_duration = 1.224
 	}
 	fencer_ping_astro_missing_01_ping_2d = 
 	{
@@ -7908,7 +7908,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_atlas_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.610750
+		vsnd_duration = 1.61075
 	}
 	fencer_ping_atlas_check_items_ping_2d = 
 	{
@@ -7958,7 +7958,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_atlas_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.756250
+		vsnd_duration = 1.75625
 	}
 	fencer_ping_atlas_on_top_of_mid_ping_2d = 
 	{
@@ -8078,7 +8078,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_attack_enemy_avatar.vsnd",
 		]
-		vsnd_duration = 1.660750
+		vsnd_duration = 1.66075
 	}
 	fencer_ping_attack_enemy_ping_2d = 
 	{
@@ -8148,7 +8148,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_attack_haze.vsnd",
 		]
-		vsnd_duration = 1.434250
+		vsnd_duration = 1.43425
 	}
 	fencer_ping_attack_hornet_ping_2d = 
 	{
@@ -8198,7 +8198,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_attack_lash.vsnd",
 		]
-		vsnd_duration = 1.385000
+		vsnd_duration = 1.385
 	}
 	fencer_ping_attack_magician_ping_2d = 
 	{
@@ -8328,7 +8328,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_attack_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.232500
+		vsnd_duration = 1.2325
 	}
 	fencer_ping_attack_viper_ping_2d = 
 	{
@@ -8638,7 +8638,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_can_heal_bebop.vsnd",
 		]
-		vsnd_duration = 1.448750
+		vsnd_duration = 1.44875
 	}
 	fencer_ping_can_heal_bookworm_ping_2d = 
 	{
@@ -8668,7 +8668,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_can_heal_doorman.vsnd",
 		]
-		vsnd_duration = 1.679750
+		vsnd_duration = 1.67975
 	}
 	fencer_ping_can_heal_drifter_ping_2d = 
 	{
@@ -9308,7 +9308,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_careful_frank_03.vsnd",
 		]
-		vsnd_duration = 1.204750
+		vsnd_duration = 1.20475
 	}
 	fencer_ping_careful_ghost_01_ping_2d = 
 	{
@@ -9418,7 +9418,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_careful_hornet_02.vsnd",
 		]
-		vsnd_duration = 1.299000
+		vsnd_duration = 1.299
 	}
 	fencer_ping_careful_hornet_03_ping_2d = 
 	{
@@ -9488,7 +9488,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_careful_kelvin_03.vsnd",
 		]
-		vsnd_duration = 1.275250
+		vsnd_duration = 1.27525
 	}
 	fencer_ping_careful_krill_01_ping_2d = 
 	{
@@ -9638,7 +9638,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_careful_nano_03.vsnd",
 		]
-		vsnd_duration = 1.287250
+		vsnd_duration = 1.28725
 	}
 	fencer_ping_careful_necro_01_ping_2d = 
 	{
@@ -9698,7 +9698,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_careful_orion_03.vsnd",
 		]
-		vsnd_duration = 1.395250
+		vsnd_duration = 1.39525
 	}
 	fencer_ping_careful_priest_01_ping_2d = 
 	{
@@ -9788,7 +9788,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_careful_shiv_03.vsnd",
 		]
-		vsnd_duration = 1.119000
+		vsnd_duration = 1.119
 	}
 	fencer_ping_careful_synth_01_ping_2d = 
 	{
@@ -10088,7 +10088,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_careful_yamato_03.vsnd",
 		]
-		vsnd_duration = 1.374500
+		vsnd_duration = 1.3745
 	}
 	fencer_ping_chrono_almost_respawn_ping_2d = 
 	{
@@ -10228,7 +10228,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_defend_blue_02_alt_01.vsnd",
 		]
-		vsnd_duration = 1.271250
+		vsnd_duration = 1.27125
 	}
 	fencer_ping_defend_blue_02_ping_2d = 
 	{
@@ -10268,7 +10268,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_defend_yellow_01.vsnd",
 		]
-		vsnd_duration = 1.026000
+		vsnd_duration = 1.026
 	}
 	fencer_ping_defend_yellow_02_alt_01_ping_2d = 
 	{
@@ -10278,7 +10278,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_defend_yellow_02_alt_01.vsnd",
 		]
-		vsnd_duration = 0.933750
+		vsnd_duration = 0.93375
 	}
 	fencer_ping_defend_yellow_02_alt_02_ping_2d = 
 	{
@@ -10488,7 +10488,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_dynamo_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.486750
+		vsnd_duration = 1.48675
 	}
 	fencer_ping_dynamo_check_items_ping_2d = 
 	{
@@ -10638,7 +10638,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_familiar_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.581500
+		vsnd_duration = 1.5815
 	}
 	fencer_ping_familiar_on_top_of_mid_ping_2d = 
 	{
@@ -10648,7 +10648,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_familiar_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.298250
+		vsnd_duration = 1.29825
 	}
 	fencer_ping_familiar_under_garage_ping_2d = 
 	{
@@ -10878,7 +10878,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_ghost_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.513250
+		vsnd_duration = 1.51325
 	}
 	fencer_ping_ghost_check_items_ping_2d = 
 	{
@@ -10998,7 +10998,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_gigawatt_in_mid.vsnd",
 		]
-		vsnd_duration = 1.230000
+		vsnd_duration = 1.23
 	}
 	fencer_ping_gigawatt_missing_01_ping_2d = 
 	{
@@ -11088,7 +11088,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_going_in.vsnd",
 		]
-		vsnd_duration = 0.840500
+		vsnd_duration = 0.8405
 	}
 	fencer_ping_going_shop_01_ping_2d = 
 	{
@@ -11198,7 +11198,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_haze_in_mid.vsnd",
 		]
-		vsnd_duration = 1.183750
+		vsnd_duration = 1.18375
 	}
 	fencer_ping_haze_missing_01_ping_2d = 
 	{
@@ -11748,7 +11748,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_ignore_unicorn.vsnd",
 		]
-		vsnd_duration = 1.285500
+		vsnd_duration = 1.2855
 	}
 	fencer_ping_ignore_vampirebat_ping_2d = 
 	{
@@ -11878,7 +11878,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_inferno_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.914500
+		vsnd_duration = 1.9145
 	}
 	fencer_ping_inferno_on_top_of_mid_ping_2d = 
 	{
@@ -11928,7 +11928,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_item_not_ready.vsnd",
 		]
-		vsnd_duration = 1.334000
+		vsnd_duration = 1.334
 	}
 	fencer_ping_jar_call_01_ping_2d = 
 	{
@@ -11998,7 +11998,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_kelvin_missing_01.vsnd",
 		]
-		vsnd_duration = 1.217750
+		vsnd_duration = 1.21775
 	}
 	fencer_ping_kelvin_on_top_of_garage_ping_2d = 
 	{
@@ -12038,7 +12038,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_kelvin_was_here.vsnd",
 		]
-		vsnd_duration = 1.177500
+		vsnd_duration = 1.1775
 	}
 	fencer_ping_kncokdown_almost_ready_ping_2d = 
 	{
@@ -12538,7 +12538,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_missing_blue_01.vsnd",
 		]
-		vsnd_duration = 0.877250
+		vsnd_duration = 0.87725
 	}
 	fencer_ping_missing_blue_02_ping_2d = 
 	{
@@ -12688,7 +12688,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_necro_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.465000
+		vsnd_duration = 1.465
 	}
 	fencer_ping_necro_check_items_ping_2d = 
 	{
@@ -12778,7 +12778,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_need_cover.vsnd",
 		]
-		vsnd_duration = 0.658000
+		vsnd_duration = 0.658
 	}
 	fencer_ping_need_heal_ping_2d = 
 	{
@@ -12838,7 +12838,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_need_help_yellow_alt.vsnd",
 		]
-		vsnd_duration = 1.380250
+		vsnd_duration = 1.38025
 	}
 	fencer_ping_need_help_yellow_ping_2d = 
 	{
@@ -12898,7 +12898,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_nice_work_01.vsnd",
 		]
-		vsnd_duration = 1.268750
+		vsnd_duration = 1.26875
 	}
 	fencer_ping_no_teamfight_ping_2d = 
 	{
@@ -13088,7 +13088,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_pre_game_02.vsnd",
 		]
-		vsnd_duration = 1.901750
+		vsnd_duration = 1.90175
 	}
 	fencer_ping_pre_game_03_ping_2d = 
 	{
@@ -13118,7 +13118,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_pre_game_05.vsnd",
 		]
-		vsnd_duration = 4.112250
+		vsnd_duration = 4.11225
 	}
 	fencer_ping_pre_game_06_ping_2d = 
 	{
@@ -13168,7 +13168,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_priest_dead.vsnd",
 		]
-		vsnd_duration = 1.759000
+		vsnd_duration = 1.759
 	}
 	fencer_ping_priest_in_mid_ping_2d = 
 	{
@@ -13268,7 +13268,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_punkgoat_in_mid.vsnd",
 		]
-		vsnd_duration = 0.985000
+		vsnd_duration = 0.985
 	}
 	fencer_ping_punkgoat_missing_01_ping_2d = 
 	{
@@ -13278,7 +13278,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_punkgoat_missing_01.vsnd",
 		]
-		vsnd_duration = 1.028000
+		vsnd_duration = 1.028
 	}
 	fencer_ping_punkgoat_on_top_of_garage_ping_2d = 
 	{
@@ -13428,7 +13428,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_retreat_01.vsnd",
 		]
-		vsnd_duration = 0.915750
+		vsnd_duration = 0.91575
 	}
 	fencer_ping_retreat_02_ping_2d = 
 	{
@@ -13508,7 +13508,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_saw_bebop.vsnd",
 		]
-		vsnd_duration = 1.251250
+		vsnd_duration = 1.25125
 	}
 	fencer_ping_saw_bookworm_ping_2d = 
 	{
@@ -13598,7 +13598,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_saw_ghost.vsnd",
 		]
-		vsnd_duration = 1.157750
+		vsnd_duration = 1.15775
 	}
 	fencer_ping_saw_gigawatt_ping_2d = 
 	{
@@ -13608,7 +13608,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_saw_gigawatt.vsnd",
 		]
-		vsnd_duration = 1.222000
+		vsnd_duration = 1.222
 	}
 	fencer_ping_saw_haze_ping_2d = 
 	{
@@ -13718,7 +13718,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_saw_orion.vsnd",
 		]
-		vsnd_duration = 1.420250
+		vsnd_duration = 1.42025
 	}
 	fencer_ping_saw_priest_ping_2d = 
 	{
@@ -13788,7 +13788,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_saw_unicorn.vsnd",
 		]
-		vsnd_duration = 1.379750
+		vsnd_duration = 1.37975
 	}
 	fencer_ping_saw_vampirebat_ping_2d = 
 	{
@@ -13798,7 +13798,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_saw_vampirebat.vsnd",
 		]
-		vsnd_duration = 1.062750
+		vsnd_duration = 1.06275
 	}
 	fencer_ping_saw_viper_ping_2d = 
 	{
@@ -13868,7 +13868,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_see_astro_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.247750
+		vsnd_duration = 1.24775
 	}
 	fencer_ping_see_astro_on_roof_ping_2d = 
 	{
@@ -13988,7 +13988,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_see_chrono_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.547750
+		vsnd_duration = 1.54775
 	}
 	fencer_ping_see_chrono_on_roof_ping_2d = 
 	{
@@ -14078,7 +14078,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_see_dynamo_01.vsnd",
 		]
-		vsnd_duration = 1.215000
+		vsnd_duration = 1.215
 	}
 	fencer_ping_see_dynamo_on_bridge_ping_2d = 
 	{
@@ -14398,7 +14398,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_see_kelvin_on_roof.vsnd",
 		]
-		vsnd_duration = 1.208750
+		vsnd_duration = 1.20875
 	}
 	fencer_ping_see_krill_01_ping_2d = 
 	{
@@ -14428,7 +14428,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_see_krill_on_roof.vsnd",
 		]
-		vsnd_duration = 1.107250
+		vsnd_duration = 1.10725
 	}
 	fencer_ping_see_lash_01_ping_2d = 
 	{
@@ -14678,7 +14678,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_see_punkgoat_on_roof.vsnd",
 		]
-		vsnd_duration = 1.124000
+		vsnd_duration = 1.124
 	}
 	fencer_ping_see_shiv_01_ping_2d = 
 	{
@@ -14798,7 +14798,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_see_unicorn_on_roof.vsnd",
 		]
-		vsnd_duration = 1.270750
+		vsnd_duration = 1.27075
 	}
 	fencer_ping_see_vampirebat_01_ping_2d = 
 	{
@@ -14968,7 +14968,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_see_wraith_on_bridge.vsnd",
 		]
-		vsnd_duration = 1.310000
+		vsnd_duration = 1.31
 	}
 	fencer_ping_see_wraith_on_roof_ping_2d = 
 	{
@@ -15018,7 +15018,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_shiv_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.378000
+		vsnd_duration = 1.378
 	}
 	fencer_ping_shiv_check_items_ping_2d = 
 	{
@@ -15268,7 +15268,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_stun_dynamo_01.vsnd",
 		]
-		vsnd_duration = 1.176750
+		vsnd_duration = 1.17675
 	}
 	fencer_ping_stun_familiar_01_ping_2d = 
 	{
@@ -15558,7 +15558,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_stun_yamato_01.vsnd",
 		]
-		vsnd_duration = 1.158750
+		vsnd_duration = 1.15875
 	}
 	fencer_ping_synth_almost_respawn_ping_2d = 
 	{
@@ -15568,7 +15568,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_synth_almost_respawn.vsnd",
 		]
-		vsnd_duration = 1.509500
+		vsnd_duration = 1.5095
 	}
 	fencer_ping_synth_check_items_ping_2d = 
 	{
@@ -15578,7 +15578,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_synth_check_items.vsnd",
 		]
-		vsnd_duration = 1.565750
+		vsnd_duration = 1.56575
 	}
 	fencer_ping_synth_dead_ping_2d = 
 	{
@@ -15588,7 +15588,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_synth_dead.vsnd",
 		]
-		vsnd_duration = 1.147750
+		vsnd_duration = 1.14775
 	}
 	fencer_ping_synth_in_mid_ping_2d = 
 	{
@@ -15618,7 +15618,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_synth_on_top_of_garage.vsnd",
 		]
-		vsnd_duration = 1.454000
+		vsnd_duration = 1.454
 	}
 	fencer_ping_synth_on_top_of_mid_ping_2d = 
 	{
@@ -15628,7 +15628,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_synth_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.444000
+		vsnd_duration = 1.444
 	}
 	fencer_ping_synth_under_garage_ping_2d = 
 	{
@@ -15648,7 +15648,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_synth_was_here.vsnd",
 		]
-		vsnd_duration = 0.959500
+		vsnd_duration = 0.9595
 	}
 	fencer_ping_t1_under_attack_ping_2d = 
 	{
@@ -15658,7 +15658,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_t1_under_attack.vsnd",
 		]
-		vsnd_duration = 1.659250
+		vsnd_duration = 1.65925
 	}
 	fencer_ping_t2_under_attack_ping_2d = 
 	{
@@ -15728,7 +15728,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_tengu_in_mid.vsnd",
 		]
-		vsnd_duration = 1.065250
+		vsnd_duration = 1.06525
 	}
 	fencer_ping_tengu_missing_01_ping_2d = 
 	{
@@ -15788,7 +15788,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_thank_you_01.vsnd",
 		]
-		vsnd_duration = 0.681000
+		vsnd_duration = 0.681
 	}
 	fencer_ping_thank_you_02_ping_2d = 
 	{
@@ -15828,7 +15828,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_theyre_in_mid.vsnd",
 		]
-		vsnd_duration = 1.011250
+		vsnd_duration = 1.01125
 	}
 	fencer_ping_theyre_on_top_of_garage_ping_2d = 
 	{
@@ -16058,7 +16058,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_use_ability4_08.vsnd",
 		]
-		vsnd_duration = 1.322250
+		vsnd_duration = 1.32225
 	}
 	fencer_ping_use_ability4_09_ping_2d = 
 	{
@@ -16218,7 +16218,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_vampirebat_missing_01.vsnd",
 		]
-		vsnd_duration = 1.046750
+		vsnd_duration = 1.04675
 	}
 	fencer_ping_vampirebat_on_top_of_garage_ping_2d = 
 	{
@@ -16328,7 +16328,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_viper_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.421000
+		vsnd_duration = 1.421
 	}
 	fencer_ping_viper_under_garage_ping_2d = 
 	{
@@ -16368,7 +16368,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_viscous_check_items.vsnd",
 		]
-		vsnd_duration = 1.685250
+		vsnd_duration = 1.68525
 	}
 	fencer_ping_viscous_dead_ping_2d = 
 	{
@@ -16818,7 +16818,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_with_hornet.vsnd",
 		]
-		vsnd_duration = 1.502750
+		vsnd_duration = 1.50275
 	}
 	fencer_ping_with_inferno_ping_2d = 
 	{
@@ -17108,7 +17108,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_wraith_on_top_of_mid.vsnd",
 		]
-		vsnd_duration = 1.446750
+		vsnd_duration = 1.44675
 	}
 	fencer_ping_wraith_under_garage_ping_2d = 
 	{
@@ -17128,7 +17128,7 @@
 		[
 			"sounds/vo/fencer/ping/fencer_ping_wraith_was_here.vsnd",
 		]
-		vsnd_duration = 1.094500
+		vsnd_duration = 1.0945
 	}
 	fencer_ping_yamato_almost_respawn_ping_2d = 
 	{
@@ -17368,7 +17368,7 @@
 		[
 			"sounds/vo/fencer/fencer_select_06.vsnd",
 		]
-		vsnd_duration = 1.731750
+		vsnd_duration = 1.73175
 	}
 	fencer_select_07_hero_3d = 
 	{
@@ -17438,7 +17438,7 @@
 		[
 			"sounds/vo/fencer/fencer_t1_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 1.801750
+		vsnd_duration = 1.80175
 	}
 	fencer_t1_shop_reminder_02_hero_3d = 
 	{
@@ -17508,7 +17508,7 @@
 		[
 			"sounds/vo/fencer/fencer_t3_shop_reminder_02.vsnd",
 		]
-		vsnd_duration = 2.038250
+		vsnd_duration = 2.03825
 	}
 	fencer_t3_shop_reminder_03_hero_3d = 
 	{
@@ -17528,7 +17528,7 @@
 		[
 			"sounds/vo/fencer/fencer_t4_shop_reminder_01.vsnd",
 		]
-		vsnd_duration = 1.694250
+		vsnd_duration = 1.69425
 	}
 	fencer_t4_shop_reminder_02_hero_3d = 
 	{
@@ -18078,7 +18078,7 @@
 		[
 			"sounds/vo/fencer/fencer_upgrade_power4_07.vsnd",
 		]
-		vsnd_duration = 2.227000
+		vsnd_duration = 2.227
 	}
 	fencer_upgrade_power4_08_hero_3d = 
 	{
@@ -18198,7 +18198,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_curse_03.vsnd",
 		]
-		vsnd_duration = 1.222500
+		vsnd_duration = 1.2225
 	}
 	fencer_use_decay_01_ability_3d = 
 	{
@@ -18398,7 +18398,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power1_05.vsnd",
 		]
-		vsnd_duration = 0.960500
+		vsnd_duration = 0.9605
 	}
 	fencer_use_power1_06_ability_3d = 
 	{
@@ -18428,7 +18428,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power1_08.vsnd",
 		]
-		vsnd_duration = 1.318500
+		vsnd_duration = 1.3185
 	}
 	fencer_use_power1_09_ability_3d = 
 	{
@@ -18498,7 +18498,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power2_04.vsnd",
 		]
-		vsnd_duration = 1.239750
+		vsnd_duration = 1.23975
 	}
 	fencer_use_power2_05_ability_3d = 
 	{
@@ -18558,7 +18558,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power2_10.vsnd",
 		]
-		vsnd_duration = 0.925750
+		vsnd_duration = 0.92575
 	}
 	fencer_use_power3_01_ability_3d = 
 	{
@@ -18588,7 +18588,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power3_03.vsnd",
 		]
-		vsnd_duration = 1.530250
+		vsnd_duration = 1.53025
 	}
 	fencer_use_power3_04_ability_3d = 
 	{
@@ -18758,7 +18758,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_04.vsnd",
 		]
-		vsnd_duration = 0.858250
+		vsnd_duration = 0.85825
 	}
 	fencer_use_power4_04_hero_announcer = 
 	{
@@ -18768,7 +18768,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_04.vsnd",
 		]
-		vsnd_duration = 0.858250
+		vsnd_duration = 0.85825
 	}
 	fencer_use_power4_04_ult_3d = 
 	{
@@ -18778,7 +18778,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_04.vsnd",
 		]
-		vsnd_duration = 0.858250
+		vsnd_duration = 0.85825
 	}
 	fencer_use_power4_05_ability_3d = 
 	{
@@ -19268,7 +19268,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_end_10.vsnd",
 		]
-		vsnd_duration = 1.130750
+		vsnd_duration = 1.13075
 	}
 	fencer_use_power4_end_10_hero_announcer = 
 	{
@@ -19278,7 +19278,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_end_10.vsnd",
 		]
-		vsnd_duration = 1.130750
+		vsnd_duration = 1.13075
 	}
 	fencer_use_power4_end_10_ult_3d = 
 	{
@@ -19288,7 +19288,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_end_10.vsnd",
 		]
-		vsnd_duration = 1.130750
+		vsnd_duration = 1.13075
 	}
 	fencer_use_power4_start_01_ability_3d = 
 	{
@@ -19358,7 +19358,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_start_03.vsnd",
 		]
-		vsnd_duration = 0.916000
+		vsnd_duration = 0.916
 	}
 	fencer_use_power4_start_03_alt_01_ability_3d = 
 	{
@@ -19398,7 +19398,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_start_03.vsnd",
 		]
-		vsnd_duration = 0.916000
+		vsnd_duration = 0.916
 	}
 	fencer_use_power4_start_03_ult_3d = 
 	{
@@ -19408,7 +19408,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_start_03.vsnd",
 		]
-		vsnd_duration = 0.916000
+		vsnd_duration = 0.916
 	}
 	fencer_use_power4_start_04_ability_3d = 
 	{
@@ -19418,7 +19418,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_start_04.vsnd",
 		]
-		vsnd_duration = 1.718750
+		vsnd_duration = 1.71875
 	}
 	fencer_use_power4_start_04_hero_announcer = 
 	{
@@ -19428,7 +19428,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_start_04.vsnd",
 		]
-		vsnd_duration = 1.718750
+		vsnd_duration = 1.71875
 	}
 	fencer_use_power4_start_04_ult_3d = 
 	{
@@ -19438,7 +19438,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_start_04.vsnd",
 		]
-		vsnd_duration = 1.718750
+		vsnd_duration = 1.71875
 	}
 	fencer_use_power4_start_05_ability_3d = 
 	{
@@ -19538,7 +19538,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_start_08.vsnd",
 		]
-		vsnd_duration = 1.490000
+		vsnd_duration = 1.49
 	}
 	fencer_use_power4_start_08_hero_announcer = 
 	{
@@ -19548,7 +19548,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_start_08.vsnd",
 		]
-		vsnd_duration = 1.490000
+		vsnd_duration = 1.49
 	}
 	fencer_use_power4_start_08_ult_3d = 
 	{
@@ -19558,7 +19558,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_power4_start_08.vsnd",
 		]
-		vsnd_duration = 1.490000
+		vsnd_duration = 1.49
 	}
 	fencer_use_power4_start_09_ability_3d = 
 	{
@@ -19698,7 +19698,7 @@
 		[
 			"sounds/vo/fencer/fencer_use_tech_purge_02.vsnd",
 		]
-		vsnd_duration = 1.134500
+		vsnd_duration = 1.1345
 	}
 	fencer_use_tech_purge_03_ability_3d = 
 	{

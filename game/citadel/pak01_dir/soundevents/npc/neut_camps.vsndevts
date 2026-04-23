@@ -3,10 +3,10 @@
 	Neutral.Camp.Spawn_Large = 
 	{
 		base = "Base.NPC.Neutral"
-		volume = 5.000000
-		delay_rand_max = 0.700000
-		pitch = 0.750000
-		track_2.vsnd_track_vol_offset_db = -3.000000
+		volume = 5.0
+		delay_rand_max = 0.7
+		pitch = 0.75
+		track_2.vsnd_track_vol_offset_db = -3.0
 		vsnd_files = 
 		[
 			"sounds/npc/neutrals/neutral_spawn_medium_01.vsnd",
@@ -37,9 +37,9 @@
 	Neutral.Camp.Spawn_Medium = 
 	{
 		base = "Base.NPC.Neutral"
-		volume = 3.000000
-		delay_rand_max = 0.700000
-		track_2.vsnd_track_vol_offset_db = -3.000000
+		volume = 3.0
+		delay_rand_max = 0.7
+		track_2.vsnd_track_vol_offset_db = -3.0
 		vsnd_files = 
 		[
 			"sounds/npc/neutrals/neutral_spawn_medium_01.vsnd",
@@ -60,9 +60,9 @@
 	Neutral.Camp.Spawn_Small = 
 	{
 		base = "Base.NPC.Neutral"
-		volume = 1.000000
-		delay_rand_max = 0.700000
-		track_2.vsnd_track_vol_offset_db = -3.000000
+		volume = 1.0
+		delay_rand_max = 0.7
+		track_2.vsnd_track_vol_offset_db = -3.0
 		vsnd_files = 
 		[
 			"sounds/npc/neutrals/neutral_spawn_small_01.vsnd",

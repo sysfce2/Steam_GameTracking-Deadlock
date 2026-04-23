@@ -34,39 +34,35 @@
 		m_eHudDisplayLocation = "DISPLAY_HUD_NONE"
 		m_strSmallIconCssClass = "stunned"
 		m_bKeepMaximumDurationOnRefresh = true
-		m_flGravityScale = 2.000000
+		m_flGravityScale = 2.0
 		m_cameraSequenceCreated = 
 		{
 			m_vecDistanceOperations = 
 			[
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Lerp"
 					m_bLerpEndAtDefault = false
-					m_flLerpEnd = 300.000000
-					m_flLerpBias = 0.508000
-					m_flLerpDuration = 0.500000
+					m_flLerpEnd = 300.0
+					m_flLerpBias = 0.508
+					m_flLerpDuration = 0.5
 				},
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Maintain"
-					m_flMaintainDuration = 5.000000
+					m_flMaintainDuration = 5.0
 				},
 			]
 			m_vecFOVOperations = 
 			[
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Lerp"
 					m_bLerpEndAtDefault = false
-					m_flLerpEnd = 80.000000
-					m_flLerpDuration = 0.150000
+					m_flLerpEnd = 80.0
+					m_flLerpDuration = 0.15
 				},
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Lerp"
-					m_flLerpBias = 0.800000
-					m_flLerpDuration = 0.150000
+					m_flLerpBias = 0.8
+					m_flLerpDuration = 0.15
 				},
 			]
 		}
@@ -74,31 +70,19 @@
 		{
 			m_vecDistanceOperations = 
 			[
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Lerp"
-					m_flLerpDuration = 0.250000
-					m_flLerpBias = 0.702000
+					m_flLerpDuration = 0.25
+					m_flLerpBias = 0.702
 					m_bLerpStartAtCurrent = true
-					m_flLerpStart = 0.000000
+					m_flLerpStart = 0.0
 				},
 			]
 		}
-		m_flGetUpSeqDuration = 0.250000
-		m_satColorOutline = 
-		[
-			255,
-			255,
-			255,
-			0,
-		]
-		m_flDesatAmount = 1.000000
-		m_satColorDesat = 
-		[
-			118,
-			85,
-			85,
-		]
+		m_flGetUpSeqDuration = 0.25
+		m_satColorOutline = [ 255, 255, 255, 0 ]
+		m_flDesatAmount = 1.0
+		m_satColorDesat = [ 118, 85, 85 ]
 	}
 	modifier_life_steal = 
 	{
@@ -124,7 +108,7 @@
 	modifier_zipline_speed_trooper_first_wave = 
 	{
 		_class = "modifier_zipline_speed"
-		m_flPercentageMultiplierEnd = 33.333300
+		m_flPercentageMultiplierEnd = 33.3333
 		m_flRampUpTime = 0
 	}
 	modifier_zipline_speed_trooper_reinforcement = 
@@ -172,7 +156,7 @@
 			_class = "modifier_item_pickup_aura_target"
 			_my_subclass_name = "aura_target"
 			m_bIsHidden = true
-			m_PickupTimer = 2.000000
+			m_PickupTimer = 2.0
 			m_nEnabledStateMask = "MODIFIER_STATE_TELEPORTER_DISABLED | MODIFIER_STATE_PICKING_UP_IDOL"
 			m_PickupTimerModifier = subclass:
 			{
@@ -182,8 +166,8 @@
 				m_bIsHidden = false
 				m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_EVERYONE"
 				m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
-				m_TimerToSilence = 0.500000
-				m_SilenceDuration = 0.100000
+				m_TimerToSilence = 0.5
+				m_SilenceDuration = 0.1
 				m_bIsIdolPickup = true
 				m_bDurationReducible = false
 				m_nEnabledStateMask = "MODIFIER_STATE_TELEPORTER_DISABLED | MODIFIER_STATE_PARRY_DISABLED"
@@ -198,7 +182,7 @@
 		}
 		m_strFilterAbilityName = "ability_golden_idol"
 		m_bIsHidden = true
-		m_flAuraRadius = 70.000000
+		m_flAuraRadius = 70.0
 		m_IsFrozenParticle = resource_name:"particles/environment/rejuv_frozen_model.vpcf"
 	}
 	modifier_citadel_idol_return = 
@@ -242,12 +226,12 @@
 				m_eDebuffType = "MODIFIER_DEBUFF_NO"
 				m_bDurationReducible = false
 			}
-			m_PickupTimer = 1.500000
+			m_PickupTimer = 1.5
 			m_bDurationCanBeTimeScaled = false
 			m_eDebuffType = "MODIFIER_DEBUFF_NO"
 		}
 		m_bIsHidden = true
-		m_flAuraRadius = 70.000000
+		m_flAuraRadius = 70.0
 		m_iAuraSearchFlags = "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE"
 		m_eDebuffType = "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY"
 	}
@@ -261,13 +245,12 @@
 			_class = "modifier_base"
 			_my_subclass_name = "bonus_speed"
 			m_strParticleStatusEffect = resource_name:"particles/abilities/kali/kali_speed_boost_buff.vpcf"
-			m_flDuration = 5.000000
+			m_flDuration = 5.0
 			m_vecScriptValues = 
 			[
-				
 				{
 					m_eModifierValue = "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
-					m_value = 118.110000
+					m_value = 118.11
 				},
 			]
 			m_strHudMessageText = "#TeleporterBonus"
@@ -302,10 +285,10 @@
 				m_sEndSound = soundevent:""
 				m_bDurationReducible = false
 			}
-			m_PickupTimer = 0.750000
+			m_PickupTimer = 0.75
 		}
 		m_bIsHidden = true
-		m_flAuraRadius = 70.000000
+		m_flAuraRadius = 70.0
 	}
 	modifier_early_gold_pickup_aura = 
 	{
@@ -327,10 +310,10 @@
 				m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
 				m_bDurationReducible = false
 			}
-			m_PickupTimer = 2.000000
+			m_PickupTimer = 2.0
 		}
 		m_bIsHidden = true
-		m_flAuraRadius = 70.000000
+		m_flAuraRadius = 70.0
 	}
 	modifier_citadel_disarmed = 
 	{
@@ -346,13 +329,13 @@
 		_class = "modifier_citadel_idol_walkback"
 		m_flStopDistance = 600
 		m_flMaxSpeedDistance = 1600
-		m_flSlowSpeed = 30.000000
-		m_flFastSpeed = 280.000000
-		m_flVerticalOffset = 0.000000
-		m_flTolerance = 20.000000
-		m_flWaitTimeLimit = 12.000000
-		m_flAutoRunTime = 45.000000
-		m_flTimeToStartAutoRun = 0.000000
+		m_flSlowSpeed = 30.0
+		m_flFastSpeed = 280.0
+		m_flVerticalOffset = 0.0
+		m_flTolerance = 20.0
+		m_flWaitTimeLimit = 12.0
+		m_flAutoRunTime = 45.0
+		m_flTimeToStartAutoRun = 0.0
 		m_IdleParticle = resource_name:"particles/generic/idol_pickup_aura.vpcf"
 		m_RunningParticle = resource_name:"particles/generic/idol_pickup_aura_running.vpcf"
 		m_BiasEffectPositive = resource_name:"particles/generic/idol_pickup_indicator.vpcf"
@@ -362,7 +345,7 @@
 	{
 		_class = "modifier_hero_testing_damage_aura"
 		m_strParticleEffect = resource_name:"particles/npc/tier2boss/tier2boss_barrage_explosion_ground.vpcf"
-		m_flAuraRadius = 50.000000
+		m_flAuraRadius = 50.0
 		m_modifierProvidedByAura = subclass:
 		{
 			_my_subclass_name = "modifier_hero_testing_damage_aura"
@@ -383,7 +366,7 @@
 	{
 		_class = "modifier_damage_resistance"
 		m_flDamageResistancePerSecond = 35
-		m_flTickInterval = 0.050000
+		m_flTickInterval = 0.05
 		m_flDamageResistanceBonusPerGameMinute = 5
 	}
 	modifier_citadel_in_shop = 
@@ -472,24 +455,20 @@
 		m_nEnabledStateMask = ""
 		m_strParticleEffect = resource_name:""
 		m_strParticleStatusEffect = resource_name:"particles/status_fx/status_fx_obscured_by_steam.vpcf"
-		m_vecScriptValues = 
-		[
-		]
-		m_vecScriptEventHandlers = 
-		[
-		]
+		m_vecScriptValues = [  ]
+		m_vecScriptEventHandlers = [  ]
 		m_eDebuffType = "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY"
-		m_flRevealDuration = 1.000000
-		m_flHideDuration = 1.000000
+		m_flRevealDuration = 1.0
+		m_flHideDuration = 1.0
 	}
 	modifier_barrier_tracker = 
 	{
 		_class = "modifier_barrier_tracker"
 		m_bIsHidden = true
-		m_flShieldImpactEffectDuration = 1.500000
+		m_flShieldImpactEffectDuration = 1.5
 		m_flDecayPause = 5
 		m_flDecayRate = 60
-		m_flTickRate = 0.500000
+		m_flTickRate = 0.5
 		m_WeaponImpactParticle = resource_name:"particles/items/bullet_shield_impact.vpcf"
 		m_TechImpactParticle = resource_name:"particles/upgrades/tech_shield_impact.vpcf"
 		m_ShieldBreakParticle = resource_name:"particles/upgrades/bullet_shield_impact_break.vpcf"
@@ -517,7 +496,7 @@
 		m_bIsHidden = true
 		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
 		m_eDebuffType = "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY"
-		m_flMoveSpeedBoost = 70.000000
+		m_flMoveSpeedBoost = 70.0
 		m_strParticleEffect = resource_name:"particles/generic/sprint.vpcf"
 	}
 	modifier_force_duck = 
@@ -552,7 +531,7 @@
 		_class = "modifier_near_climbable_rope"
 		m_bIsHidden = true
 		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE"
-		m_flEnableStateTime = 0.150000
+		m_flEnableStateTime = 0.15
 		m_eDebuffType = "MODIFIER_DEBUFF_NO"
 	}
 	modifier_citadel_cheater_curse = 
@@ -620,26 +599,25 @@
 		_class = "modifier_citadel_catapult_damage_watcher"
 		m_eDebuffType = "MODIFIER_DEBUFF_NO"
 		m_bIsHidden = true
-		m_flDuration = 0.900000
+		m_flDuration = 0.9
 		m_StunModifier = subclass:
 		{
 			_class = "modifier_citadel_catapult_damage_stun"
 			_my_subclass_name = "modifier_citadel_catapult_damage_stun"
 			m_bIsHidden = true
-			m_flStunDurationOnLand = 0.200000
+			m_flStunDurationOnLand = 0.2
 			m_flDamageHealthPct = 15
 			m_SlowModifier = subclass:
 			{
 				_class = "modifier_slow_base"
 				_my_subclass_name = "modifier_citadel_catapult_damage_slow"
 				m_bIsHidden = true
-				m_flDuration = 2.000000
+				m_flDuration = 2.0
 				m_vecScriptValues = 
 				[
-					
 					{
 						m_eModifierValue = "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
-						m_value = 30.000000
+						m_value = 30.0
 					},
 				]
 			}
@@ -657,7 +635,7 @@
 		m_bIsHidden = false
 		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE"
 		m_eDebuffType = "MODIFIER_DEBUFF_NO"
-		m_flDuration = 5.000000
+		m_flDuration = 5.0
 		m_sStartSound = soundevent:"Teleport.Enter"
 		m_sExpiredSound = soundevent:""
 		m_nAmbientLoopingSoundRecipients = "MODIFIER_SOUND_RECIPIENT_ALWAYS"
@@ -691,13 +669,13 @@
 		m_preIntroCamera = 
 		{
 			m_sCameraEntityName = "pre_intro_camera"
-			m_flTransitionOutDuration = 4.500000
+			m_flTransitionOutDuration = 4.5
 		}
 		m_introCamera = 
 		{
 			m_sCameraEntityName = "intro_camera"
-			m_flTransitionInDuration = 0.500000
-			m_flTransitionOutDuration = 2.000000
+			m_flTransitionInDuration = 0.5
+			m_flTransitionOutDuration = 2.0
 		}
 	}
 	modifier_citadel_hideout_intro_exit = 
@@ -715,42 +693,36 @@
 		{
 			m_vecDistanceOperations = 
 			[
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Spring"
-					m_flSpringStrength = 0.000000
+					m_flSpringStrength = 0.0
 					m_bSpringToDefault = false
-					m_flSpringTarget = 100.000000
+					m_flSpringTarget = 100.0
 				},
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Maintain"
 				},
 			]
 			m_vecHorizOffsetOperations = 
 			[
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Spring"
-					m_flSpringStrength = 0.000000
+					m_flSpringStrength = 0.0
 					m_bSpringToDefault = false
-					m_flSpringTarget = 100.000000
+					m_flSpringTarget = 100.0
 				},
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Maintain"
 				},
 			]
 			m_vecVertOffsetOperations = 
 			[
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Spring"
-					m_flSpringStrength = 0.000000
+					m_flSpringStrength = 0.0
 					m_bSpringToDefault = false
-					m_flSpringTarget = 100.000000
+					m_flSpringTarget = 100.0
 				},
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Maintain"
 				},
@@ -761,20 +733,17 @@
 	{
 		_class = "modifier_nearby_ally_resist"
 		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
-		m_flNearbyAllyResistRange = 1181.100000
+		m_flNearbyAllyResistRange = 1181.1
 		m_flResistValues = 
 		[
-			0,
-			30,
-			50,
-			70,
+			0, 30, 50, 70,
 			90,
 		]
 	}
 	modifier_citadel_trooper_in_enemy_base_resist = 
 	{
 		_class = "modifier_citadel_trooper_in_enemy_base_resist"
-		m_flDamageReductionForTroopers = 35.000000
+		m_flDamageReductionForTroopers = 35.0
 	}
 	modifier_combat_status_bullet_hit = 
 	{
@@ -790,9 +759,9 @@
 	modifier_crowd_control_diminish_watcher = 
 	{
 		_class = "modifier_crowd_control_diminish_watcher"
-		m_flModifierWindow = 9.000000
-		m_flReductionPerModifier = 15.000000
-		m_flMaxReduction = 35.000000
+		m_flModifierWindow = 9.0
+		m_flReductionPerModifier = 15.0
+		m_flMaxReduction = 35.0
 	}
 	modifier_street_brawl_round_start_zipline_boost = 
 	{
@@ -803,50 +772,44 @@
 		m_nEnabledStateMask = "MODIFIER_STATE_USING_ZIPLINE_BOOST"
 		m_eModifierDisplayLocaiton = "MODIFIER_DISPLAY_BOTTOM_LEFT"
 		m_eHudDisplayLocation = "DISPLAY_HUD_NONE"
-		m_flDuration = 8.000000
-		m_flRampUpTime = 8.000000
-		m_flPercentageSpeedIncreaseRampFrom = 100.000000
-		m_flPercentageSpeedIncreaseRampTo = 0.000000
+		m_flDuration = 8.0
+		m_flRampUpTime = 8.0
+		m_flPercentageSpeedIncreaseRampFrom = 100.0
+		m_flPercentageSpeedIncreaseRampTo = 0.0
 		m_cameraSequenceStartBoost = 
 		{
 			m_vecFOVOperations = 
 			[
-				
 				{
-					m_flApproachTarget = 40.000000
-					m_flApproachSpeed = 10.000000
-					m_flApproachMinDuration = 1.000000
+					m_flApproachTarget = 40.0
+					m_flApproachSpeed = 10.0
+					m_flApproachMinDuration = 1.0
 					m_bLerpEndAtDefault = false
-					m_flLerpEnd = 110.000000
-					m_flLerpBias = 0.750000
-					m_flLerpDuration = 1.000000
+					m_flLerpEnd = 110.0
+					m_flLerpBias = 0.75
+					m_flLerpDuration = 1.0
 					m_eCameraOperation = "k_ECameraOp_Lerp"
 				},
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Maintain"
 				},
 			]
 			m_vecDistanceOperations = 
 			[
-				
 				{
-					m_flApproachSpeed = 60.000000
-					m_flApproachTarget = 1000.000000
-					m_flApproachMinDuration = 1.000000
+					m_flApproachSpeed = 60.0
+					m_flApproachTarget = 1000.0
+					m_flApproachMinDuration = 1.0
 					m_bLerpEndAtDefault = false
-					m_flLerpEnd = 200.000000
-					m_flLerpDuration = 1.000000
+					m_flLerpEnd = 200.0
+					m_flLerpDuration = 1.0
 					m_eCameraOperation = "k_ECameraOp_Lerp"
 				},
-				
 				{
 					m_eCameraOperation = "k_ECameraOp_Maintain"
 				},
 			]
-			m_vecTargetPosOperations = 
-			[
-			]
+			m_vecTargetPosOperations = [  ]
 		}
 		m_sStartSound = soundevent:"Gameplay.World.Zipline.Speed.Boost.Start"
 	}
@@ -856,47 +819,42 @@
 		m_bIsHidden = true
 		m_bAllowApplicationPrediction = false
 		m_nEnabledStateMask = "MODIFIER_STATE_CINEMATIC_INTRO | MODIFIER_STATE_ZIPLINE_LOCKED"
-		m_flZiplineStartDelayDuration = 7.250000
+		m_flZiplineStartDelayDuration = 7.25
 		m_vecIntroCameraSequenceAmber = 
 		[
-			
 			{
 				m_sCameraEntityName = "intro_camera_amber_1"
-				m_flDuration = 7.500000
-				m_flTransitionTime = 7.500000
+				m_flDuration = 7.5
+				m_flTransitionTime = 7.5
 			},
-			
 			{
 				m_sCameraEntityName = "intro_camera_amber_2"
-				m_flDuration = 0.000000
-				m_flTransitionTime = 0.000000
+				m_flDuration = 0.0
+				m_flTransitionTime = 0.0
 			},
 		]
 		m_vecIntroCameraSequenceSapphire = 
 		[
-			
 			{
 				m_sCameraEntityName = "intro_camera_sapphire_1"
-				m_flDuration = 7.500000
-				m_flTransitionTime = 7.500000
+				m_flDuration = 7.5
+				m_flTransitionTime = 7.5
 			},
-			
 			{
 				m_sCameraEntityName = "intro_camera_sapphire_2"
-				m_flDuration = 0.000000
-				m_flTransitionTime = 0.000000
+				m_flDuration = 0.0
+				m_flTransitionTime = 0.0
 			},
 		]
-		m_flPostProcessingFadeInTime = 0.000000
-		m_flPostProcessingHoldTime = 2.000000
-		m_flPostProcessingFadeOutTime = 5.000000
+		m_flPostProcessingFadeInTime = 0.0
+		m_flPostProcessingHoldTime = 2.0
+		m_flPostProcessingFadeOutTime = 5.0
 		m_vecPostProcessEffects = 
 		[
-			
 			{
 				m_eState = "PostProcState_MatchIntro"
-				m_flHoldTime = 2.000000
-				m_flFadeOutTime = 5.000000
+				m_flHoldTime = 2.0
+				m_flFadeOutTime = 5.0
 			},
 		]
 	}
@@ -919,53 +877,47 @@
 		_class = "modifier_cinematic_intro_player"
 		m_bIsHidden = true
 		m_bAllowApplicationPrediction = false
-		m_flZiplineStartDelayDuration = 7.250000
+		m_flZiplineStartDelayDuration = 7.25
 		m_bTeamSpecificCameras = true
 		m_vecIntroCameraSequenceAmber = 
 		[
-			
 			{
 				m_sCameraEntityName = "intro_camera_amber_1"
-				m_flDuration = 5.750000
-				m_flTransitionTime = 5.750000
+				m_flDuration = 5.75
+				m_flTransitionTime = 5.75
 			},
-			
 			{
 				m_sCameraEntityName = "intro_camera_amber_2"
-				m_flDuration = 0.000000
-				m_flTransitionTime = 0.000000
+				m_flDuration = 0.0
+				m_flTransitionTime = 0.0
 			},
 		]
 		m_vecIntroCameraSequenceSapphire = 
 		[
-			
 			{
 				m_sCameraEntityName = "intro_camera_sapphire_1"
-				m_flDuration = 5.750000
-				m_flTransitionTime = 5.750000
+				m_flDuration = 5.75
+				m_flTransitionTime = 5.75
 			},
-			
 			{
 				m_sCameraEntityName = "intro_camera_sapphire_2"
-				m_flDuration = 0.000000
-				m_flTransitionTime = 0.000000
+				m_flDuration = 0.0
+				m_flTransitionTime = 0.0
 			},
 		]
-		m_flDuration = 8.000000
+		m_flDuration = 8.0
 		m_vecPostProcessEffects = 
 		[
-			
 			{
 				m_eState = "PostProcState_MatchIntro"
-				m_flHoldTime = 2.000000
-				m_flFadeOutTime = 3.000000
+				m_flHoldTime = 2.0
+				m_flFadeOutTime = 3.0
 			},
-			
 			{
-				m_flStartDelay = 4.000000
-				m_flFadeInTime = 0.750000
-				m_flHoldTime = 0.500000
-				m_flFadeOutTime = 2.000000
+				m_flStartDelay = 4.0
+				m_flFadeInTime = 0.75
+				m_flHoldTime = 0.5
+				m_flFadeOutTime = 2.0
 			},
 		]
 	}
