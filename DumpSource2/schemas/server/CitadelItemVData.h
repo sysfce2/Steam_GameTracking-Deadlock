@@ -439,6 +439,7 @@
 //	],
 //	"m_sCustomTooltipID": "",
 //	"m_bCustomTooltipInteractive": false,
+//	"m_bDisabledForBots": false,
 //	"m_sCustomStackLabel": "",
 //	"m_vecComponentItems":
 //	[
@@ -463,6 +464,8 @@ class CitadelItemVData : public CitadelAbilityVData
 	CUtlString m_sCustomTooltipID;
 	// MPropertyFriendlyName = "Custom Layout Tooltip Is Interactive"
 	bool m_bCustomTooltipInteractive;
+	// MPropertyFriendlyName = "Disabled for bots"
+	bool m_bDisabledForBots;
 	// MPropertyFriendlyName = "Custom Stacks Label"
 	CUtlString m_sCustomStackLabel;
 	CUtlVector< CSubclassName< 4 > > m_vecComponentItems;

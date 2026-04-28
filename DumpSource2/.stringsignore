@@ -6260,6 +6260,10 @@ CScaleFunctionAbilityPropertySingleStatVData
 CScaleFunctionAbilityProperty_AbilityCharges
 CScaleFunctionAbilityProperty_AbilityRechargeTime
 CScaleFunctionAbilityProperty_BaseWeaponDamage
+CScaleFunctionAbilityProperty_HealingBoonScale
+CScaleFunctionAbilityProperty_HealingBoonScaleVData
+CScaleFunctionAbilityProperty_HealingSpiritScale
+CScaleFunctionAbilityProperty_HealingSpiritScaleVData
 CScaleFunctionAbilityProperty_KineticCarbine
 CScaleFunctionAbilityProperty_NanoTechRoundsDamage
 CScaleFunctionAbilityProperty_TechDamage
@@ -8411,6 +8415,7 @@ DisableShadows_t
 Disabled
 Disabled ( Face Path )
 Disabled During Endcap
+Disabled for bots
 Disables Handshake
 Disables unpausing for this many seconds after a pause occurs
 Disallow backtracking a player for lag compensation if it will cause them to become stuck
@@ -28642,6 +28647,7 @@ m_bDisableZiplining
 m_bDisableZippingToByPlayers
 m_bDisabled
 m_bDisabledContextThinks
+m_bDisabledForBots
 m_bDisabledOld
 m_bDisabledOnExperimental
 m_bDisallowInterrupts

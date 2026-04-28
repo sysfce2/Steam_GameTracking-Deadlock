@@ -181,9 +181,13 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPXb
- (08@HR
- (0X`hpz
+ (08@HPX`j@
+ (08@HPXb0P
+ (08@HPZ@
+ (08@HR0P
+ (08@J0P
+ (0X`hpz0P
+ (20P
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -212,6 +216,7 @@
  <-- Retval '%s'
  @expressions
  ACTIVE GROUP
+ ApH
  Damage Dealt to Trooper Boss
  Damage Taken from Player
  FLK
@@ -2055,9 +2060,10 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0E0
-.0G0
-.0U0
+.0S0
+.0q0
+.0r0
+.0u0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -6507,6 +6513,8 @@ $light_emissive
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_AbilityCharges@@@@
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_AbilityRechargeTime@@@@
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_BaseWeaponDamage@@@@
+.?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_HealingBoonScale@@@@
+.?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_HealingSpiritScale@@@@
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_KineticCarbine@@@@
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_NanoTechRoundsDamage@@@@
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_TechDamage@@@@
@@ -7324,6 +7332,8 @@ $light_emissive
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_AbilityCharges@@VCScaleFunctionBase@@@@
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_AbilityRechargeTime@@VCScaleFunctionBase@@@@
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_BaseWeaponDamage@@VCScaleFunctionBase@@@@
+.?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_HealingBoonScale@@VCScaleFunctionBase@@@@
+.?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_HealingSpiritScale@@VCScaleFunctionBase@@@@
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_KineticCarbine@@VCScaleFunctionBase@@@@
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_NanoTechRoundsDamage@@VCScaleFunctionBase@@@@
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_TechDamage@@VCScaleFunctionBase@@@@
@@ -13000,6 +13010,10 @@ $light_emissive
 .?AVCScaleFunctionAbilityProperty_AbilityCharges@@
 .?AVCScaleFunctionAbilityProperty_AbilityRechargeTime@@
 .?AVCScaleFunctionAbilityProperty_BaseWeaponDamage@@
+.?AVCScaleFunctionAbilityProperty_HealingBoonScale@@
+.?AVCScaleFunctionAbilityProperty_HealingBoonScaleVData@@
+.?AVCScaleFunctionAbilityProperty_HealingSpiritScale@@
+.?AVCScaleFunctionAbilityProperty_HealingSpiritScaleVData@@
 .?AVCScaleFunctionAbilityProperty_KineticCarbine@@
 .?AVCScaleFunctionAbilityProperty_NanoTechRoundsDamage@@
 .?AVCScaleFunctionAbilityProperty_TechDamage@@
@@ -14029,8 +14043,7 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
-.PD0
-.PE0
+.PC0
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14048,10 +14061,11 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PU0
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
+.Pq0
+.Pu0
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14336,10 +14350,10 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p30
-.pD0
-.pE0
 .pp@0
+.pq0
+.pr0
+.pu0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14396,15 +14410,18 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@J
+08@HR@
+08@J0P
+08B@
 08bX
 09,h
-0:Ps
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
 0AgffA
+0Hl+
 0M2~@p
+0PT+
 0W/5
 0Z@q
 0\n+k_EMsgClientToGCRemoveItemAttributeResponse
@@ -14432,11 +14449,8 @@ $light_emissive
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
-0lA+
-0pY+
 0pp@5tqE?|sO541
 0tU+xc:
-0vDe+
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14571,7 +14585,6 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vppY+
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14680,16 +14693,16 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 U0
-6 w0
+6 G0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60K0
-60N0
+6030
+60^0
+60c0
 62$|S)6f
 64CK\vH
 65535
@@ -14699,10 +14712,13 @@ $light_emissive
 6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@R0
+6@40
+6@g0
+6@h0
 6H,N
 6O|T%
-6PL0
+6P50
+6P_0
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14714,8 +14730,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`M0
-6`f0
+6`b0
 6afD
 6bX+
 6c&0|vvX
@@ -14723,10 +14738,9 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pJ0
-6pQ0
-6pg0
-6pv0
+6p]0
+6pf0
+6p{0
 6qo~
 6r-m_v
 6r1ij
@@ -14970,7 +14984,6 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->0T0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -14992,8 +15005,8 @@ $light_emissive
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
->PO0
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
+>Pd0
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15014,6 +15027,8 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
+>p90
+>pz0
 >yhP
 >ztq
 ?333?
@@ -15023,7 +15038,6 @@ $light_emissive
 ?Format: ent_find substring [substring...] [-exclude_substring...] \n
 ?HAI\t81\t9dcG'
 ?HP4
-?Set to something >= 0 to test setting every unit's timescale to that value
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15043,14 +15057,11 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NDe+
 @0pp
-@6 E0
-@60}0
-@6@D0
+@6 S0
+@6PY0
 @Accolades
 @BH]f
-@HPX`hvpi0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15064,11 +15075,9 @@ $light_emissive
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
-@fDe+
 @fff>fff>fff>fff>
 @i1V
 @n2w
-@nDe+
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -16456,6 +16465,7 @@ C!OFtq74
 C%C'C3C7C9COCWCiC
 C-gr
 C-side of entity framework
+C09\
 C3ps
 C6DN
 C7HSY
@@ -21474,7 +21484,6 @@ F'pY
 F+Zb
 F,mZq
 F/o4
-F050
 F2M+
 F6tr
 F7!z
@@ -21511,6 +21520,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FPH0
 FU\n-XP
 FVisible
 FV|FgUV
@@ -23979,7 +23989,7 @@ LightMeleeAmmo
 LightMeleeCooldownMult
 LightMeleeDamage
 LightMeleeForce
-LightMeleeScale
+LightMeleeReduction
 LightMeleeTimeWindow
 LightProbeDirectLightShadowsTexture
 LightProbeTexture
@@ -25695,11 +25705,14 @@ P-224
 P-256
 P-384
 P-521
-P08@J
-P08J
-P08NDe+
+P08@J0P
+P08J`
 P1\t98"
+P20P
 P5[1
+P6PS0
+P6`r0
+P:0P
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -25770,6 +25783,7 @@ PHAG2
 PHYSGUN
 PHYS_SAVE_RESTORE_VERSION
 PHhn}Y
+PHl+
 PKCS #7 SIGNED DATA
 PKCS12
 PKCS12 lib
@@ -25912,6 +25926,7 @@ POTG Eval: No important events at hottest locale, skipped eval\n
 POTG: Began replay for %s [ %.2f -> %.2f ] \n
 POTG: Stashed %.2f -> %.2f (miss time: %.2f) \n
 POTG:\n\tEvents: %d\n\tLocales: %d\n\tMemory Total: %d bytes\n
+PPT+
 PPz\v=
 PRB+
 PRECIPITATION
@@ -26092,6 +26107,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+PfpF0
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -26134,7 +26150,6 @@ PingCommonData
 PingWheelOptionID_t"
 PitchShift
 PivotPaint
-PlA+
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -26237,7 +26252,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-PnDe+
+PnpG0
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26285,7 +26300,6 @@ PowerUp Permanent %s
 PowerUp Temp
 PowerUp Temp %s
 PowerUpStages
-PpY+
 Pr"V
 Pre-Nav Queries Updates
 PreBounceLifetime
@@ -26670,7 +26684,6 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vppY+
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30641,6 +30654,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr@
 Xd3h
 XfJ7
 XjfR
@@ -30911,8 +30925,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPlA+
-\fppY+
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31049,6 +31061,7 @@ Z~wl
 \nEnemy is %s
 \nGameTime_t
 \nGameTime_t"
+\nPHl+
 \nSimulating Entities:\n\n
 \nVisMon: Polling now. (Frequency: %f)\n
 \n\fBPE_Teleport
@@ -31786,6 +31799,7 @@ Z~wl
 \tMax uptime scheduled Shutdown: %u (%u seconds from now)\n
 \tNone\n
 \tPOTG Eval: Contribution(%s) Weight(%.2f) Time(%.2f -> %.2f)\n
+\tPPT+
 \tPartyID_t
 \tPrivate script scope:
 \tPublic script scope:
@@ -31840,14 +31854,12 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
+\vPPT+
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
 \vj0k
 \vjC7
-\vplA+
-\vppC+
-\vppY+
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -31862,6 +31874,7 @@ Z~wl
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
+^p40
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -31919,11 +31932,9 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
+`20P
 `28)fk
-`6 F0
-`60H0
-`6`G0
-`6`H0
+`6pZ0
 `:zQF
 `D$daM-l
 `DZG
@@ -31931,11 +31942,8 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`fDe+
 `fPw.\vM
 `h9T~
-`htP
-`nDe+
 `o_je
 `yNT
 a null shared library handle was used
@@ -31954,7 +31962,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvDe+
 aD/x
 aDSS
 aECDH
@@ -34274,6 +34281,7 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
+dP\tP
 dSAQuality
 dWry
 dZ!2.
@@ -34670,6 +34678,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
+dq\f D
 draft
 draft_item_sets
 drag_override
@@ -35345,13 +35354,11 @@ f1cK%
 f45\r
 fBB\fy
 fC\tc
-fDe+
 fL\ri
 fLength
 fMaxLength
 fP;y
 fPitch
-fPo0
 fRoll
 fSpinDownTime
 fSpinUpTime
@@ -36448,6 +36455,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
+hpz0P
 hr_H
 http request
 https proxy request
@@ -39510,7 +39518,6 @@ nChangeOffset > 0
 nCheckMatchID == 0 || nCheckMatchID == m_unMatchID
 nCheckTime == 0 || V_Abs((int64)nCheckTime-(int64)m_unMatchTime) < 5
 nChoice
-nDe+
 nDefault
 nDenominator
 nElems
@@ -39543,6 +39550,7 @@ nTraceContents
 nValue
 nVersion
 n\r2S
+n`20
 n`3i
 name constraints minimum and maximum not supported
 name of highest net worth enemy
@@ -40156,13 +40164,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^De+
+p20P
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p>De+
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40190,7 +40197,6 @@ pField
 pFilter
 pFireUserEntityIO_t
 pFirstWaypoint type[%d]
-pFp50
 pG_*h
 pHitEntity
 pIdentifier
@@ -40209,6 +40215,7 @@ pOnEntity
 pOptionalLocationEnt
 pOtherEntity
 pOwner
+pPT+
 pParamValue
 pParameterName
 pPhysicsModel
@@ -40598,7 +40605,6 @@ pkey
 pkeyalg
 pkix
 pkparameters2group failure
-plA+
 placebo
 placementattachment
 placementbone
@@ -40689,7 +40695,6 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pnDe+
 point
 point arithmetic failure
 point at infinity
@@ -40799,7 +40804,6 @@ power_up_buffs
 pp == NULL || *pp != NULL
 pp&c
 ppBasis
-ppY+
 pqualid
 pre idle done
 pre mac length too long
@@ -41588,6 +41592,8 @@ scale_function_ability_weapon_damage
 scale_function_base
 scale_function_base_weapon_damage
 scale_function_curve
+scale_function_healing_boon_scale
+scale_function_healing_spirit_scale
 scale_function_kinetic_carbine_damage
 scale_function_multi_stats
 scale_function_nanotech_rounds_damage
@@ -42717,6 +42723,7 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
+tR\tP
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -43597,7 +43604,6 @@ uvs are all identical
 uxX/
 v'A>M6
 v)56
-v0l0
 v0o/5
 v1(0)
 v1GZ
@@ -43613,7 +43619,6 @@ v<d2}
 vAj}
 vAr>
 vAu&
-vDe+
 vDefault
 vDirection
 vEndPos

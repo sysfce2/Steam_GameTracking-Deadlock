@@ -89,9 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j@
+ (08@HPX`j 
  (08@HPXb
- (08@HPZ@
+ (08@HPZ 
  (08@HR
  (0X`hpz
  (Dirty Animation)
@@ -3018,7 +3018,6 @@ $hRh
 *BaseEntity::CBodyComponent
 *BaseModelEntity::CBodyComponentBaseModelEntity
 *Gets the last-played times for the account
-*Pds
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -7874,6 +7873,8 @@ $hRh
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_AbilityCharges@@@@
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_AbilityRechargeTime@@@@
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_BaseWeaponDamage@@@@
+.?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_HealingBoonScale@@@@
+.?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_HealingSpiritScale@@@@
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_KineticCarbine@@@@
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_NanoTechRoundsDamage@@@@
 .?AV?$CScaleFunctionFactory@VCScaleFunctionAbilityProperty_TechDamage@@@@
@@ -8685,6 +8686,8 @@ $hRh
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_AbilityCharges@@VCScaleFunctionBase@@@@
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_AbilityRechargeTime@@VCScaleFunctionBase@@@@
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_BaseWeaponDamage@@VCScaleFunctionBase@@@@
+.?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_HealingBoonScale@@VCScaleFunctionBase@@@@
+.?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_HealingSpiritScale@@VCScaleFunctionBase@@@@
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_KineticCarbine@@VCScaleFunctionBase@@@@
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_NanoTechRoundsDamage@@VCScaleFunctionBase@@@@
 .?AV?$CSubclassFactory@VCScaleFunctionAbilityProperty_TechDamage@@VCScaleFunctionBase@@@@
@@ -14919,6 +14922,10 @@ $hRh
 .?AVCScaleFunctionAbilityProperty_AbilityCharges@@
 .?AVCScaleFunctionAbilityProperty_AbilityRechargeTime@@
 .?AVCScaleFunctionAbilityProperty_BaseWeaponDamage@@
+.?AVCScaleFunctionAbilityProperty_HealingBoonScale@@
+.?AVCScaleFunctionAbilityProperty_HealingBoonScaleVData@@
+.?AVCScaleFunctionAbilityProperty_HealingSpiritScale@@
+.?AVCScaleFunctionAbilityProperty_HealingSpiritScaleVData@@
 .?AVCScaleFunctionAbilityProperty_KineticCarbine@@
 .?AVCScaleFunctionAbilityProperty_NanoTechRoundsDamage@@
 .?AVCScaleFunctionAbilityProperty_TechDamage@@
@@ -16707,9 +16714,9 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR@
+08@HR 
 08@J
-08B@
+08B 
 08bX
 09,h
 0:00
@@ -16973,7 +16980,8 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpT>
+2\vp4S
+2\vp|4
 2^pV
 2a"l
 2bT~
@@ -17280,7 +17288,6 @@ $hRh
 :LBN
 :NAy
 :NPCAttachmentSpawnKV_t
-:Pds
 :QYJ
 :Vlq
 :\n5k_EMsgClientToGCCancelUnfinalizedTransactionsResponse
@@ -17447,10 +17454,10 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CCitadel_Modifier_Priest_KnockbackBuff
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
+?ECitadelStatusImpact
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17480,6 +17487,7 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
+?ability_necro_fear
 ?d86L
 ?dt]X
 ?expf
@@ -17492,6 +17500,8 @@ $hRh
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
+@6Pr
+@6pq
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
@@ -27879,7 +27889,7 @@ LightMeleeAmmo
 LightMeleeCooldownMult
 LightMeleeDamage
 LightMeleeForce
-LightMeleeScale
+LightMeleeReduction
 LightMeleeTask
 LightMeleeTimeWindow
 LightProbeDirectLightShadowsTexture
@@ -29363,11 +29373,11 @@ P-256
 P-384
 P-521
 P08@J
-P08J`
+P08J@
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6@X
+P6 m
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -29939,7 +29949,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf@U
+Pf j
 Phrase
 Phrase%d
 PhraseContainer
@@ -30087,7 +30097,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-Pn@V
+Pn k
 Point entity.
 Point under crosshair
 PointType
@@ -30666,12 +30676,13 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpT>
+R\fp4S
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpP/
+R\vp0D
+R\vp|4
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34974,7 +34985,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr@
+X`hr 
 Xd3h
 XfJ7
 XjfR
@@ -35190,7 +35201,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -35402,7 +35412,7 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
-\nPds
+\nP0D
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -35603,7 +35613,6 @@ Z~wl
 \n\nGetDetails
 \n\nGoldSource
 \n\nOAuthToken
-\n\nPds
 \n\nPerfSample
 \n\nPlayerData
 \n\nPlayerItem
@@ -36462,6 +36471,8 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vp0D
+\vp4S
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36530,6 +36541,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`6Ps
 `:zQF
 `D$daM-l
 `DZG
@@ -36538,8 +36550,10 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`\rP\f00D
 `fPw.\vM
 `h9T~
+`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -36764,7 +36778,6 @@ ability_nano_pounce
 ability_nano_pounce_instant
 ability_nano_proximity_ritual
 ability_nano_shadow_step
-ability_necro_fear
 ability_necro_hauntingskull
 ability_necro_hauntingspirits
 ability_necro_killsummon
@@ -45393,7 +45406,7 @@ n1Z
 n5cM
 n6j/
 n:2C[
-n<}\v<}\v<}\v<}\vh
+n<}\v<}\v<}\v<}\v
 n@PK
 nCRD
 nChangeOffset < INT16_MAX
@@ -46128,7 +46141,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0jp:
+p0jPO
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46145,7 +46158,7 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pFP;
+pF0P
 pField
 pFilter
 pG_*h
@@ -47243,10 +47256,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpP/
+r\fp0D
 r\n\vstart_index
 r\vDi
-r\vpT>
+r\vp4S
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -47865,6 +47878,8 @@ scale_function_ability_weapon_damage
 scale_function_base
 scale_function_base_weapon_damage
 scale_function_curve
+scale_function_healing_boon_scale
+scale_function_healing_spirit_scale
 scale_function_kinetic_carbine_damage
 scale_function_multi_stats
 scale_function_nanotech_rounds_damage

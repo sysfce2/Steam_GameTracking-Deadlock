@@ -439,6 +439,7 @@
 //	],
 //	"m_sCustomTooltipID": "",
 //	"m_bCustomTooltipInteractive": false,
+//	"m_bDisabledForBots": false,
 //	"m_sCustomStackLabel": "",
 //	"m_vecComponentItems":
 //	[
