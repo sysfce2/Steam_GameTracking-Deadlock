@@ -181,13 +181,12 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j@
- (08@HPXb0P
- (08@HPZ@
- (08@HR0P
- (08@J0P
- (0X`hpz0P
- (20P
+ (08@HPX`jP
+ (08@HPXb@P
+ (08@HPZP
+ (08@HR@P
+ (08@JP
+ (0X`hpz@P
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -2060,7 +2059,7 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0S0
+.0Z0
 .0q0
 .0r0
 .0u0
@@ -14043,7 +14042,6 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
-.PC0
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14061,11 +14059,14 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PZ0
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
-.Pq0
+.Pr0
+.Ps0
 .Pu0
+.Px0
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14350,9 +14351,11 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
+.pD0
+.pS0
+.pY0
 .pp@0
-.pq0
-.pr0
+.ps0
 .pu0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14410,19 +14413,18 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@HR@
-08@J0P
-08B@
+08@HRP
+08@J@P
+08BP
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
 0AgffA
-0Hl+
 0M2~@p
-0PT+
 0W/5
+0Xl+
 0Z@q
 0\n+k_EMsgClientToGCRemoveItemAttributeResponse
 0\n+k_EMsgGCRequestCrateEscalationLevelResponse
@@ -14639,6 +14641,7 @@ $light_emissive
 3|rN>
 4)#bH
 4)m1
+4+\t0F
 474E4U4W4c4i4m4
 4<Td
 4@AA
@@ -14693,16 +14696,14 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 G0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-6030
-60^0
-60c0
+60=0
+60G0
 62$|S)6f
 64CK\vH
 65535
@@ -14712,13 +14713,13 @@ $light_emissive
 6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@40
-6@g0
-6@h0
+6@30
+6@c0
 6H,N
 6O|T%
-6P50
-6P_0
+6P40
+6Pg0
+6Ph0
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14730,7 +14731,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`b0
+6`50
 6afD
 6bX+
 6c&0|vvX
@@ -14738,9 +14739,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p]0
-6pf0
-6p{0
+6pb0
 6qo~
 6r-m_v
 6r1ij
@@ -14789,6 +14788,7 @@ $light_emissive
 851Pe
 8<pl
 8= zp
+8@JP
 8A6j
 8GZS
 8SIffK5W
@@ -14984,6 +14984,7 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
+>0e0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15006,7 +15007,6 @@ $light_emissive
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
->Pd0
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15027,8 +15027,6 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->p90
->pz0
 >yhP
 >ztq
 ?333?
@@ -15058,10 +15056,12 @@ $light_emissive
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
-@6 S0
-@6PY0
+@60S0
+@6`Y0
+@>0A0
 @Accolades
 @BH]f
+@HVP
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15096,6 +15096,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:0
 AABBDirection
 AACompromise
 AC2,h
@@ -21520,7 +21521,6 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FPH0
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21531,6 +21531,7 @@ F\n\finventories3
 F\n\fitem_scalars
 F\n\trow_range
 F\rH'4
+F`H0
 Face %s
 Face Actor
 Face Entity
@@ -25705,14 +25706,13 @@ P-224
 P-256
 P-384
 P-521
-P08@J0P
-P08J`
+P08@J@P
 P1\t98"
-P20P
+P2@P
 P5[1
-P6PS0
-P6`r0
-P:0P
+P6 ?0
+P6`S0
+P6pr0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -25783,7 +25783,6 @@ PHAG2
 PHYSGUN
 PHYS_SAVE_RESTORE_VERSION
 PHhn}Y
-PHl+
 PKCS #7 SIGNED DATA
 PKCS12
 PKCS12 lib
@@ -25926,7 +25925,6 @@ POTG Eval: No important events at hottest locale, skipped eval\n
 POTG: Began replay for %s [ %.2f -> %.2f ] \n
 POTG: Stashed %.2f -> %.2f (miss time: %.2f) \n
 POTG:\n\tEvents: %d\n\tLocales: %d\n\tMemory Total: %d bytes\n
-PPT+
 PPz\v=
 PRB+
 PRECIPITATION
@@ -25957,6 +25955,7 @@ PULSE_VMMD
 PUT 
 PVSManagerGameSystem
 PVSModifier
+PXl+
 P\n\nregression
 PackedBlobNormal
 Palm_L
@@ -26107,7 +26106,6 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-PfpF0
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -26252,7 +26250,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-PnpG0
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -30654,7 +30651,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr@
+X`hrP
 Xd3h
 XfJ7
 XjfR
@@ -31061,7 +31058,7 @@ Z~wl
 \nEnemy is %s
 \nGameTime_t
 \nGameTime_t"
-\nPHl+
+\nPXl+
 \nSimulating Entities:\n\n
 \nVisMon: Polling now. (Frequency: %f)\n
 \n\fBPE_Teleport
@@ -31799,7 +31796,6 @@ Z~wl
 \tMax uptime scheduled Shutdown: %u (%u seconds from now)\n
 \tNone\n
 \tPOTG Eval: Contribution(%s) Weight(%.2f) Time(%.2f -> %.2f)\n
-\tPPT+
 \tPartyID_t
 \tPrivate script scope:
 \tPublic script scope:
@@ -31854,7 +31850,6 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
-\vPPT+
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
@@ -31874,7 +31869,6 @@ Z~wl
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
-^p40
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -31932,9 +31926,7 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
-`20P
 `28)fk
-`6pZ0
 `:zQF
 `D$daM-l
 `DZG
@@ -31944,6 +31936,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -34208,6 +34201,7 @@ cvarvalue
 cycle
 cz>Sp
 d e not congruent to 1
+d,\t0F
 d.allOrFirstTier
 d.authenticatedData
 d.certificate
@@ -34281,7 +34275,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\tP
 dSAQuality
 dWry
 dZ!2.
@@ -34678,7 +34671,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
-dq\f D
+dq\f0D
 draft
 draft_item_sets
 drag_override
@@ -36455,7 +36448,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpz0P
+hpz@P
 hr_H
 http request
 https proxy request
@@ -39550,7 +39543,6 @@ nTraceContents
 nValue
 nVersion
 n\r2S
-n`20
 n`3i
 name constraints minimum and maximum not supported
 name of highest net worth enemy
@@ -39847,6 +39839,7 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
+np20
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -40164,7 +40157,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p20P
+p2@P
 p2{l
 p4Z3
 p5Z3
@@ -40215,7 +40208,6 @@ pOnEntity
 pOptionalLocationEnt
 pOtherEntity
 pOwner
-pPT+
 pParamValue
 pParameterName
 pPhysicsModel
@@ -42723,7 +42715,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\tP
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -44115,9 +44106,11 @@ zz2K
 }Xee+
 }gE3
 }n2W
+~0s0
 ~9ob
 ~If D
 ~P2T
+~Pq0
 ~R65Fu
 ~jLRG
 ~w]UG
