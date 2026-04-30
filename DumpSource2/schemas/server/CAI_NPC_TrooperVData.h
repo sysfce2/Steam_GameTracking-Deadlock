@@ -283,39 +283,224 @@
 //		"m_flMaxLagCompensation": 340282346638528859811704183484516925440.000000
 //	},
 //	"m_TrooperType": "TROOPER_NORMAL",
-//	"m_flTrooperDamageResistPct": 0.000000,
-//	"m_flPlayerDamageResistPct": 0.000000,
-//	"m_flT1BossDamageResistPct": 0.000000,
-//	"m_flT2BossDamageResistPct": 0.000000,
-//	"m_flT3BossDamageResistPct": 0.000000,
-//	"m_flBarrackGuardianDamageResistPct": 0.000000,
 //	"m_flNearDeathDuration": 0.000000,
 //	"m_flFlySpeed": 0.000000,
 //	"m_flFlyHeight": 0.000000,
 //	"m_flMeleeDamage": 0.000000,
 //	"m_flMeleeDuration": 0.000000,
 //	"m_flMeleeChargeRange": 0.000000,
-//	"m_flAttackT1BossMaxRange": 0.000000,
-//	"m_flAttackT2BossMaxRange": 0.000000,
-//	"m_flAttackShrineMaxRange": 0.000000,
-//	"m_flAttackT3BossMaxRange": 0.000000,
-//	"m_flAttackT3BossPhase2MaxRange": 0.000000,
-//	"m_flAttackTrooperMaxRange": 0.000000,
 //	"m_flHealthBarOffsetDucking": 40.000000,
-//	"m_flTrooperDPS": 0.000000,
+//	"m_VSPlayer":
+//	{
+//		"m_flBaseDPS": 0.000000,
+//		"m_flEndDPS": 0.000000,
+//		"m_flEndDPSTimeInSeconds": 0.000000,
+//		"m_flMaxRange": 0.000000,
+//		"m_flDamageResist": 0.000000
+//	},
+//	"m_VSTrooper":
+//	{
+//		"m_flBaseDPS": 0.000000,
+//		"m_flEndDPS": 0.000000,
+//		"m_flEndDPSTimeInSeconds": 0.000000,
+//		"m_flMaxRange": 0.000000,
+//		"m_flDamageResist": 0.000000
+//	},
+//	"m_VSGuardian":
+//	{
+//		"m_flBaseDPS": 0.000000,
+//		"m_flEndDPS": 0.000000,
+//		"m_flEndDPSTimeInSeconds": 0.000000,
+//		"m_flMaxRange": 0.000000,
+//		"m_flDamageResist": 0.000000
+//	},
+//	"m_VSWalker":
+//	{
+//		"m_flBaseDPS": 0.000000,
+//		"m_flEndDPS": 0.000000,
+//		"m_flEndDPSTimeInSeconds": 0.000000,
+//		"m_flMaxRange": 0.000000,
+//		"m_flDamageResist": 0.000000
+//	},
+//	"m_VSWatcher":
+//	{
+//		"m_flBaseDPS": 0.000000,
+//		"m_flEndDPS": 0.000000,
+//		"m_flEndDPSTimeInSeconds": 0.000000,
+//		"m_flMaxRange": 0.000000,
+//		"m_flDamageResist": 0.000000
+//	},
+//	"m_VSShrine":
+//	{
+//		"m_flBaseDPS": 0.000000,
+//		"m_flEndDPS": 0.000000,
+//		"m_flEndDPSTimeInSeconds": 0.000000,
+//		"m_flMaxRange": 0.000000,
+//		"m_flDamageResist": 0.000000
+//	},
+//	"m_VSPatron":
+//	{
+//		"m_flBaseDPS": 0.000000,
+//		"m_flEndDPS": 0.000000,
+//		"m_flEndDPSTimeInSeconds": 0.000000,
+//		"m_flMaxRange": 0.000000,
+//		"m_flDamageResist": 0.000000
+//	},
+//	"m_VSPatronPhase2":
+//	{
+//		"m_flBaseDPS": 0.000000,
+//		"m_flEndDPS": 0.000000,
+//		"m_flEndDPSTimeInSeconds": 0.000000,
+//		"m_flMaxRange": 0.000000,
+//		"m_flDamageResist": 0.000000
+//	},
 //	"m_flDPSPctGrowthPerMinute": 0.000000,
-//	"m_flPlayerDPS": 0.000000,
-//	"m_flT1BossDPS": 36.000000,
-//	"m_flT1BossDPSBaseResist": 70.000000,
-//	"m_flT1BossDPSMaxResist": -30.000000,
-//	"m_flT1BossDPSMaxResistTimeInSeconds": 600.000000,
-//	"m_flT2BossDPS": 80.000000,
-//	"m_flT2BossDPSBaseResist": 0.000000,
-//	"m_flT2BossDPSMaxResist": 0.000000,
-//	"m_flT2BossDPSMaxResistTimeInSeconds": 600.000000,
-//	"m_flT3BossDPS": 0.000000,
-//	"m_flBarrackBossDPS": 0.000000,
-//	"m_flGeneratorBossDPS": 0.000000,
+//	"m_bBossWeaponEnabled": false,
+//	"m_BossWeapon":
+//	{
+//		"m_flBulletDamage": 0.000000,
+//		"m_eDamageType": "CITADEL_DAMAGETYPE_BULLET",
+//		"m_iBullets": 1,
+//		"m_iSplitShotsMax": -1,
+//		"m_flSplitShotAngles": -1.000000,
+//		"m_bHitOnceAcrossAllBullets": false,
+//		"m_iBulletsToFullyClaimOrb": 1,
+//		"m_flExplosionRadius": 0.000000,
+//		"m_flExplosionDamageScaleAtMaxRadius": 0.300000,
+//		"m_bAllowExplosionToCollectGold": false,
+//		"m_iClipSize": 0,
+//		"m_flCycleTime": 0.150000,
+//		"m_flBulletCreationDelay": 0.000000,
+//		"m_iBurstShotCount": 1,
+//		"m_flIntraBurstCycleTime": 0.000000,
+//		"m_iAmmoConsumedPerShot": 1,
+//		"m_flRange": 8192.000000,
+//		"m_flRangeWhileZoomed": 0.000000,
+//		"m_flDamageFalloffStartRange": 0.000000,
+//		"m_flDamageFalloffEndRange": 900.000000,
+//		"m_flDamageFalloffBias": 0.500000,
+//		"m_flDamageFalloffStartScale": 1.000000,
+//		"m_flDamageFalloffEndScale": 0.000000,
+//		"m_bDontPassThroughPortals": false,
+//		"m_bPlayImpactEffectsOnTeammates": false,
+//		"m_flPenetrationPercent": 0.000000,
+//		"m_flIronSightsTime": 0.100000,
+//		"m_reloadDuration": 0.000000,
+//		"m_bReloadUseActiveWeaponInfoDuration": false,
+//		"m_bReloadSingleBullets": false,
+//		"m_bReloadSingleBulletsAllowCancel": false,
+//		"m_flReloadSingleBulletsInitialDelay": 0.000000,
+//		"m_bCanCrit": true,
+//		"m_flCritBonusStartRange": 0.000000,
+//		"m_flCritBonusEndRange": 0.000000,
+//		"m_flCritBonusStart": 1.000000,
+//		"m_flCritBonusEnd": 1.000000,
+//		"m_flCritBonusAgainstNPCs": 0.200000,
+//		"m_eCritFilter": "CITADEL_UNIT_TARGET_ALL",
+//		"m_eCritAlwaysFilter": "",
+//		"m_bSpinsUp": false,
+//		"m_flMaxSpinCycleTime": -1.000000,
+//		"m_flSpinIncreaseRate": 0.000000,
+//		"m_flSpinDecayRate": 0.000000,
+//		"m_flBuildUpRate": -1.000000,
+//		"m_bIsSemiAuto": false,
+//		"m_flBulletSpeed": 1000.000000,
+//		"m_flBulletSpeedRandomFactor": 0.000000,
+//		"m_flBulletGravityScale": 1.000000,
+//		"m_flBulletRadius": 0.000000,
+//		"m_flBulletRadiusVsWorld": 0.000000,
+//		"m_flBulletLifetime": 0.000000,
+//		"m_flVerticalAimBias": 0.000000,
+//		"m_flBulletInheritShooterVelocityScale": 0.000000,
+//		"m_bCanZoom": true,
+//		"m_flZoomFOV": 70.000000,
+//		"m_flZoomFOV_Relative": -5.000000,
+//		"m_flZoomMoveSpeedPercent": 0.750000,
+//		"m_flShootMoveSpeedPercent": 0.750000,
+//		"m_flReloadMoveSpeedPercent": 1.000000,
+//		"m_bUsesSpreadPattern": true,
+//		"m_Spread": 0.200000,
+//		"m_bFirstShotPerfectAccuracy": false,
+//		"m_AimingShootSpreadPenalty": 0.000000,
+//		"m_flScatterYawScale": 1.000000,
+//		"m_flShootSpreadPenaltyPerShot": 0.000000,
+//		"m_ShootSpreadPenaltyPerShotNormalization":
+//		{
+//			"m_bNormalizeSpreadPerShot": false,
+//			"m_FireRatePctRange":
+//			[
+//				0.000000,
+//				100.000000
+//			],
+//			"m_SpreadPerShotFactor": 1.000000
+//		},
+//		"m_flShootSpreadPenaltyDecayDelay": -1.000000,
+//		"m_flShootSpreadPenaltyDecay": 1.000000,
+//		"m_flSpreadPenaltyDecay": 3.000000,
+//		"m_flShootingUpSpreadPenalty": 0.000000,
+//		"m_flAutoReplenishClip": 0.000000,
+//		"m_NpcAimingSpread": 0.000000,
+//		"m_vecScatterOffsets":
+//		[
+//		],
+//		"m_flPelletScatterFactor": 1.000000,
+//		"m_flPelletScatterSpreadFactor": 0.500000,
+//		"m_bApplySpreadToFirstPellet": false,
+//		"m_vecOriginOffsets":
+//		[
+//		],
+//		"m_flVerticalPunch": 1.000000,
+//		"m_flHorizontalPunch": 0.500000,
+//		"m_HorizontalRecoil":
+//		{
+//			"m_Range": 0.000000,
+//			"m_flBurstSlope": 0.000000,
+//			"m_flBurstExponent": 1.000000,
+//			"m_flBurstConstant": 0.000000
+//		},
+//		"m_VerticallRecoil":
+//		{
+//			"m_Range": 0.000000,
+//			"m_flBurstSlope": 0.000000,
+//			"m_flBurstExponent": 1.000000,
+//			"m_flBurstConstant": 0.000000
+//		},
+//		"m_flRecoilSpeed": 1.000000,
+//		"m_flRecoilRecoveryDelayFactor": 1.000000,
+//		"m_flRecoilRecoverySpeed": 1.000000,
+//		"m_flRecoilShotIndexRecoveryTimeFactor": 0.250000,
+//		"m_nRecoilSeed": 0,
+//		"m_szBulletTravelTracerParticle": "particles/weapon_fx/default_tracer.vpcf",
+//		"m_szSelfBulletTravelTracerParticle": "",
+//		"m_szBulletLinkParticle": "",
+//		"m_bUseDesatForFriendlyNonHeroTracer": true,
+//		"m_eAttachmentSourceType": "EAttachmentSource_WeaponMuzzles",
+//		"m_strCustomAttachmentSource": "ability_cast",
+//		"m_szMuzzleFlashEffectName": "",
+//		"m_strWeaponImpactEffect": "",
+//		"m_mapImpactEffects":
+//		{
+//		},
+//		"m_bUseWeaponAbilityName": false,
+//		"m_flDamageForce": 50.000000,
+//		"m_strShootSound": "",
+//		"m_strFirstShotSound": "",
+//		"m_strShotReleaseSound": "",
+//		"m_strBulletLoopingSound": "",
+//		"m_strBulletWhizSound": "",
+//		"m_strBulletImpactSound": "",
+//		"m_flBulletWhizDistance": 150.000000,
+//		"m_strReloadSound": "",
+//		"m_strReloadEndSound": "",
+//		"m_strLocalPlayerBulletImpactSound": "",
+//		"m_strLocalPlayerBulletImpactHeavySound": "",
+//		"m_strZoomInSound": "",
+//		"m_strZoomOutSound": "",
+//		"m_strSpinUpSound": "",
+//		"m_strSpinDownSound": "",
+//		"m_strSpinUpLoopSound": "",
+//		"m_flMaxLagCompensation": 340282346638528859811704183484516925440.000000
+//	},
 //	"m_BossAttackParticle": "",
 //	"m_LastHitParticle": "",
 //	"m_TargetingLaserParticle": "",
@@ -341,53 +526,25 @@
 class CAI_NPC_TrooperVData : public CAI_CitadelNPCVData
 {
 	TrooperType_t m_TrooperType;
-	float32 m_flTrooperDamageResistPct;
-	float32 m_flPlayerDamageResistPct;
-	float32 m_flT1BossDamageResistPct;
-	float32 m_flT2BossDamageResistPct;
-	float32 m_flT3BossDamageResistPct;
-	float32 m_flBarrackGuardianDamageResistPct;
 	float32 m_flNearDeathDuration;
 	float32 m_flFlySpeed;
 	float32 m_flFlyHeight;
 	float32 m_flMeleeDamage;
 	float32 m_flMeleeDuration;
 	float32 m_flMeleeChargeRange;
-	// MPropertyDescription = "Limit engagement range of Trooper vs Shrine. Final result will be the minimum of "Attack T1 Boss Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range""
-	float32 m_flAttackT1BossMaxRange;
-	// MPropertyDescription = "Limit engagement range of Trooper vs Shrine. Final result will be the minimum of "Attack T2 Boss Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range""
-	float32 m_flAttackT2BossMaxRange;
-	// MPropertyDescription = "Limit engagement range of Trooper vs Shrine. Final result will be the minimum of "Attack Shrine Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range""
-	float32 m_flAttackShrineMaxRange;
-	// MPropertyDescription = "Limit engagement range of Trooper vs Patron Phase 1. Final result will be the minimum of "Attack T3 Boss Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range""
-	float32 m_flAttackT3BossMaxRange;
-	// MPropertyDescription = "Limit engagement range of Trooper vs Patron Phase 2. Final result will be the minimum of "Attack T3 Boss Phase2 Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range""
-	float32 m_flAttackT3BossPhase2MaxRange;
-	// MPropertyDescription = "Limit engagement range of Trooper vs Trooper. Final result will be the minimum of "Attack Trooper Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range""
-	float32 m_flAttackTrooperMaxRange;
 	float32 m_flHealthBarOffsetDucking;
-	// MPropertyStartGroup = "Trooper DPS"
-	// MPropertyDescription = "Trooper vs Trooper DPS"
-	float32 m_flTrooperDPS;
+	// MPropertyStartGroup = "Enemy VS"
+	TrooperVsConfig_t m_VSPlayer;
+	TrooperVsConfig_t m_VSTrooper;
+	TrooperVsConfig_t m_VSGuardian;
+	TrooperVsConfig_t m_VSWalker;
+	TrooperVsConfig_t m_VSWatcher;
+	TrooperVsConfig_t m_VSShrine;
+	TrooperVsConfig_t m_VSPatron;
+	TrooperVsConfig_t m_VSPatronPhase2;
 	float32 m_flDPSPctGrowthPerMinute;
-	// MPropertyDescription = "Trooper vs Player DPS"
-	float32 m_flPlayerDPS;
-	// MPropertyDescription = "Trooper vs T1 Guardian Base DPS "
-	float32 m_flT1BossDPS;
-	float32 m_flT1BossDPSBaseResist;
-	float32 m_flT1BossDPSMaxResist;
-	float32 m_flT1BossDPSMaxResistTimeInSeconds;
-	// MPropertyDescription = "Trooper vs T2 Guardian Base DPS "
-	float32 m_flT2BossDPS;
-	float32 m_flT2BossDPSBaseResist;
-	float32 m_flT2BossDPSMaxResist;
-	float32 m_flT2BossDPSMaxResistTimeInSeconds;
-	// MPropertyDescription = "Trooper vs T3 Guardian DPS"
-	float32 m_flT3BossDPS;
-	// MPropertyDescription = "Trooper vs Barrack Guardian DPS"
-	float32 m_flBarrackBossDPS;
-	// MPropertyDescription = "Trooper vs Generator DPS"
-	float32 m_flGeneratorBossDPS;
+	bool m_bBossWeaponEnabled;
+	CCitadelWeaponInfo m_BossWeapon;
 	// MPropertyStartGroup = "Visuals"
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_BossAttackParticle;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_LastHitParticle;

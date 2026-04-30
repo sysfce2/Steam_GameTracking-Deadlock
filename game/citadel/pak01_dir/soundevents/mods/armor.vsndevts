@@ -829,6 +829,20 @@
 		]
 		vsnd_duration = 1.647438
 	}
+	Mods.Armor.Indomitable.Proc = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 8.0
+		volume_offset_attacker_db = 3.0
+		filter_include_others = true
+		vsnd_files = 
+		[
+			"sounds/mods/armor/indomitable/indomitable_proc_01.vsnd",
+			"sounds/mods/armor/indomitable/indomitable_proc_02.vsnd",
+			"sounds/mods/armor/indomitable/indomitable_proc_03.vsnd",
+		]
+		vsnd_duration = 1.950907
+	}
 	Mods.Shrink.Ray.Cast = 
 	{
 		base = "Base.Mod"

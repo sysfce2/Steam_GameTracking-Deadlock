@@ -2494,10 +2494,10 @@ citadel_force_unpause_cooldown false (developmentonly gamedll defensive)
 citadel_forced_hero_model "" (developmentonly gamedll cheat)
 	Forces all heroes to use this model
 
-citadel_forge_sentry_gold_reward 80 (developmentonly gamedll defensive)
+citadel_forge_sentry_gold_reward 40 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_forge_sentry_gold_reward_bonus_per_minute 2 (developmentonly gamedll defensive)
+citadel_forge_sentry_gold_reward_bonus_per_minute 4 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_fow_player_range 2500 (developmentonly gamedll replicated)
@@ -4930,13 +4930,13 @@ citadel_zipline_arrow_scoll_speed 1 (developmentonly clientdll)
 citadel_zipline_attachment_debug false (developmentonly gamedll clientdll replicated defensive)
 	<no description>
 
-citadel_zipline_back_lane_speed_mult 2 (developmentonly gamedll clientdll replicated)
-	<no description>
-
 citadel_zipline_baselane_speed_mult 0.7 (developmentonly gamedll clientdll replicated)
 	<no description>
 
-citadel_zipline_capture_trigger_thickness 400 (developmentonly gamedll defensive)
+citadel_zipline_capture_trigger_max_thickness 400 (developmentonly gamedll defensive)
+	<no description>
+
+citadel_zipline_capture_trigger_min_thickness 400 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_zipline_capture_trigger_width 1200 (developmentonly gamedll defensive)
@@ -4946,6 +4946,9 @@ citadel_zipline_curve_sampling_size 24 (developmentonly gamedll clientdll replic
 	<no description>
 
 citadel_zipline_debug_draw false (developmentonly clientdll)
+	<no description>
+
+citadel_zipline_debug_draw_capture false (developmentonly gamedll)
 	<no description>
 
 citadel_zipline_debug_draw_node_entity 0 (developmentonly clientdll)

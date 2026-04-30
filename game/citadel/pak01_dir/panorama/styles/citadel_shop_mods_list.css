@@ -167,7 +167,7 @@ CitadelShopModsList
 	height: fit-children;
 	x: 0px;
 	y: 450px;
-	width: 50%;
+	width: 56%;
 	height: fit-children;
 	x: 1.8%;
 	y: 54%;
@@ -179,9 +179,9 @@ CitadelShopModsList
 	height: fit-children;
 	x: 0%;
 	y: 670px;
-	width: 45%;
+	width: 35.8%;
 	height: fit-children;
-	x: 54.6%;
+	x: 62.4%;
 	y: 54%;
 }
 
@@ -391,8 +391,8 @@ CitadelShopModsList
 #ShopModsListWeapon #Tier4PriceTag
 {
 	transform: rotateZ(-6deg);
-	x: 590px;
-	y: 471px;
+	x: 672px;
+	y: 474px;
 }
 
 #Tier4PriceTag.priceTag Label

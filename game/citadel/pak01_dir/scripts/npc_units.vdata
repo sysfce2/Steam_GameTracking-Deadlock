@@ -201,12 +201,6 @@
 		m_flSightRangeNPCs = 1600.0
 		m_flTurnRate = 360.0
 		m_JumpParticle = resource_name:"particles/npc/npc_trooper_jump.vpcf"
-		m_flPlayerDamageResistPct = -25.0
-		m_flTrooperDamageResistPct = 42.5
-		m_flT1BossDamageResistPct = 0.0
-		m_flT2BossDamageResistPct = 80.0
-		m_flT3BossDamageResistPct = 50.0
-		m_flBarrackGuardianDamageResistPct = 67.5
 		m_flNearDeathDuration = 1.0
 		m_flBreakableForceScale = 5.0
 		m_flWalkSpeed = 248
@@ -214,12 +208,6 @@
 		m_flAcceleration = 200
 		m_flMeleeAttemptRange = 100
 		m_flMeleeHitRange = 100
-		m_flAttackT1BossMaxRange = 472.441
-		m_flAttackT2BossMaxRange = 700
-		m_flAttackShrineMaxRange = 450
-		m_flAttackT3BossMaxRange = 1000
-		m_flAttackT3BossPhase2MaxRange = 472.441
-		m_flAttackTrooperMaxRange = 700
 		m_BossAttackParticle = resource_name:"particles/weapon_fx/trooper/trooper_bullet_bonus_dmg.vpcf"
 		m_sDefaultMaterialGroupName = "Friendly"
 		m_sEnemyMaterialGroupName = "Enemy"
@@ -271,19 +259,6 @@
 		m_sCelebrationSound = soundevent:""
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPS = 36.0
-		m_flT1BossDPSBaseResist = 60.0
-		m_flT1BossDPSMaxResist = -50.0
-		m_flT1BossDPSMaxResistTimeInSeconds = 600.0
-		m_flT2BossDPS = 60.0
-		m_flT2BossDPSBaseResist = 60.0
-		m_flT2BossDPSMaxResist = -40.0
-		m_flT2BossDPSMaxResistTimeInSeconds = 1200.0
-		m_flT3BossDPS = 50.0
-		m_flGeneratorBossDPS = 50.0
-		m_flBarrackBossDPS = 80.0
-		m_flPlayerDPS = 28.0
-		m_flTrooperDPS = 35.0
 		m_flDPSPctGrowthPerMinute = 0.0
 		m_sAmberModelName = resource_name:""
 		m_sSapphireModelName = resource_name:""
@@ -292,6 +267,54 @@
 		m_bOutlineThroughWalls = true
 		m_bOutlineWhenVisible = true
 		m_flOutlineWidth = 4.0
+		m_VSPlayer = 
+		{
+			m_flBaseDPS = 28.0
+			m_flDamageResist = -25.0
+		}
+		m_VSTrooper = 
+		{
+			m_flBaseDPS = 35.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 42.5
+		}
+		m_VSWatcher = 
+		{
+			m_flBaseDPS = 80.0
+			m_flDamageResist = 67.5
+		}
+		m_VSWalker = 
+		{
+			m_flBaseDPS = 24.0
+			m_flEndDPS = 84.0
+			m_flEndDPSTimeInSeconds = 1200.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 80.0
+		}
+		m_VSPatron = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 1000.0
+			m_flDamageResist = 50.0
+		}
+		m_VSPatronPhase2 = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 472.441
+			m_flDamageResist = 50.0
+		}
+		m_VSGuardian = 
+		{
+			m_flBaseDPS = 14.4
+			m_flEndDPS = 54.0
+			m_flEndDPSTimeInSeconds = 600.0
+			m_flMaxRange = 472.441
+		}
+		m_VSShrine = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 450.0
+		}
 	}
 	trooper_zipline_container = 
 	{
@@ -397,12 +420,6 @@
 		m_flSightRangeNPCs = 1600.0
 		m_flTurnRate = 360.0
 		m_JumpParticle = resource_name:"particles/npc/npc_trooper_jump.vpcf"
-		m_flPlayerDamageResistPct = -25.0
-		m_flTrooperDamageResistPct = 42.5
-		m_flT1BossDamageResistPct = 0.0
-		m_flT2BossDamageResistPct = 80.0
-		m_flT3BossDamageResistPct = 50.0
-		m_flBarrackGuardianDamageResistPct = 67.5
 		m_flNearDeathDuration = 0
 		m_flBreakableForceScale = 5.0
 		m_flWalkSpeed = 248
@@ -410,12 +427,6 @@
 		m_flAcceleration = 200
 		m_flMeleeAttemptRange = 100
 		m_flMeleeHitRange = 100
-		m_flAttackT1BossMaxRange = 472.441
-		m_flAttackT2BossMaxRange = 700
-		m_flAttackShrineMaxRange = 450
-		m_flAttackT3BossMaxRange = 1000
-		m_flAttackT3BossPhase2MaxRange = 472.441
-		m_flAttackTrooperMaxRange = 700
 		m_BossAttackParticle = resource_name:"particles/weapon_fx/trooper/trooper_bullet_bonus_dmg.vpcf"
 		m_sDefaultMaterialGroupName = "Friendly"
 		m_sEnemyMaterialGroupName = "Enemy"
@@ -467,19 +478,6 @@
 		m_sCelebrationSound = soundevent:""
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPS = 36.0
-		m_flT1BossDPSBaseResist = 60.0
-		m_flT1BossDPSMaxResist = -50.0
-		m_flT1BossDPSMaxResistTimeInSeconds = 600.0
-		m_flT2BossDPS = 60.0
-		m_flT2BossDPSBaseResist = 60.0
-		m_flT2BossDPSMaxResist = -40.0
-		m_flT2BossDPSMaxResistTimeInSeconds = 1200.0
-		m_flT3BossDPS = 50.0
-		m_flGeneratorBossDPS = 50.0
-		m_flBarrackBossDPS = 80.0
-		m_flPlayerDPS = 28.0
-		m_flTrooperDPS = 35.0
 		m_flDPSPctGrowthPerMinute = 0.0
 		m_sAmberModelName = resource_name:"models/npc/trooper_zipline_container/trooper_zipline_container_amber.vmdl"
 		m_sSapphireModelName = resource_name:"models/npc/trooper_zipline_container/trooper_zipline_container_sapphire.vmdl"
@@ -488,6 +486,54 @@
 		m_bOutlineThroughWalls = true
 		m_bOutlineWhenVisible = true
 		m_flOutlineWidth = 4.0
+		m_VSPlayer = 
+		{
+			m_flBaseDPS = 28.0
+			m_flDamageResist = -25.0
+		}
+		m_VSTrooper = 
+		{
+			m_flBaseDPS = 35.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 42.5
+		}
+		m_VSWatcher = 
+		{
+			m_flBaseDPS = 80.0
+			m_flDamageResist = 67.5
+		}
+		m_VSWalker = 
+		{
+			m_flBaseDPS = 24.0
+			m_flEndDPS = 84.0
+			m_flEndDPSTimeInSeconds = 1200.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 80.0
+		}
+		m_VSPatron = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 1000.0
+			m_flDamageResist = 50.0
+		}
+		m_VSPatronPhase2 = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 472.441
+			m_flDamageResist = 50.0
+		}
+		m_VSGuardian = 
+		{
+			m_flBaseDPS = 14.4
+			m_flEndDPS = 54.0
+			m_flEndDPSTimeInSeconds = 600.0
+			m_flMaxRange = 472.441
+		}
+		m_VSShrine = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 450.0
+		}
 		m_TrooperType = "TROOPER_ZIPLINE_CONTAINER"
 		m_mapBoundAbilities = 
 		{
@@ -600,12 +646,6 @@
 		m_flSightRangeNPCs = 1600.0
 		m_flTurnRate = 360.0
 		m_JumpParticle = resource_name:"particles/npc/npc_trooper_jump.vpcf"
-		m_flPlayerDamageResistPct = -25.0
-		m_flTrooperDamageResistPct = 42.5
-		m_flT1BossDamageResistPct = 0.0
-		m_flT2BossDamageResistPct = 80.0
-		m_flT3BossDamageResistPct = 50.0
-		m_flBarrackGuardianDamageResistPct = 67.5
 		m_flNearDeathDuration = 1.0
 		m_flBreakableForceScale = 5.0
 		m_flWalkSpeed = 248
@@ -613,12 +653,6 @@
 		m_flAcceleration = 200
 		m_flMeleeAttemptRange = 100
 		m_flMeleeHitRange = 100
-		m_flAttackT1BossMaxRange = 472.441
-		m_flAttackT2BossMaxRange = 700
-		m_flAttackShrineMaxRange = 450
-		m_flAttackT3BossMaxRange = 1000
-		m_flAttackT3BossPhase2MaxRange = 472.441
-		m_flAttackTrooperMaxRange = 700
 		m_BossAttackParticle = resource_name:"particles/weapon_fx/trooper/trooper_bullet_bonus_dmg.vpcf"
 		m_sDefaultMaterialGroupName = "Friendly"
 		m_sEnemyMaterialGroupName = "Enemy"
@@ -671,19 +705,6 @@
 		m_sCelebrationSound = soundevent:""
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPS = 36.0
-		m_flT1BossDPSBaseResist = 60.0
-		m_flT1BossDPSMaxResist = -50.0
-		m_flT1BossDPSMaxResistTimeInSeconds = 600.0
-		m_flT2BossDPS = 60.0
-		m_flT2BossDPSBaseResist = 60.0
-		m_flT2BossDPSMaxResist = -40.0
-		m_flT2BossDPSMaxResistTimeInSeconds = 1200.0
-		m_flT3BossDPS = 50.0
-		m_flGeneratorBossDPS = 50.0
-		m_flBarrackBossDPS = 80.0
-		m_flPlayerDPS = 28.0
-		m_flTrooperDPS = 35.0
 		m_flDPSPctGrowthPerMinute = 0.0
 		m_sAmberModelName = resource_name:"models/npc_units/troopers/amber_trooper_01/amber_trooper_01.vmdl"
 		m_sSapphireModelName = resource_name:"models/npc_units/troopers/sapphire_trooper_01/sapphire_trooper_01.vmdl"
@@ -692,6 +713,54 @@
 		m_bOutlineThroughWalls = true
 		m_bOutlineWhenVisible = true
 		m_flOutlineWidth = 4.0
+		m_VSPlayer = 
+		{
+			m_flBaseDPS = 28.0
+			m_flDamageResist = -25.0
+		}
+		m_VSTrooper = 
+		{
+			m_flBaseDPS = 35.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 42.5
+		}
+		m_VSWatcher = 
+		{
+			m_flBaseDPS = 80.0
+			m_flDamageResist = 67.5
+		}
+		m_VSWalker = 
+		{
+			m_flBaseDPS = 24.0
+			m_flEndDPS = 84.0
+			m_flEndDPSTimeInSeconds = 1200.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 80.0
+		}
+		m_VSPatron = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 1000.0
+			m_flDamageResist = 50.0
+		}
+		m_VSPatronPhase2 = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 472.441
+			m_flDamageResist = 50.0
+		}
+		m_VSGuardian = 
+		{
+			m_flBaseDPS = 14.4
+			m_flEndDPS = 54.0
+			m_flEndDPSTimeInSeconds = 600.0
+			m_flMaxRange = 472.441
+		}
+		m_VSShrine = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 450.0
+		}
 		m_flMeleeDuration = 1.5
 		m_MeleeAttackPoints = [ 0.5 ]
 		m_flMeleeDamage = 50
@@ -802,12 +871,6 @@
 		m_flSightRangeNPCs = 1600.0
 		m_flTurnRate = 360.0
 		m_JumpParticle = resource_name:"particles/npc/npc_trooper_jump.vpcf"
-		m_flPlayerDamageResistPct = -25.0
-		m_flTrooperDamageResistPct = 42.5
-		m_flT1BossDamageResistPct = 0.0
-		m_flT2BossDamageResistPct = 80.0
-		m_flT3BossDamageResistPct = 50.0
-		m_flBarrackGuardianDamageResistPct = 67.5
 		m_flNearDeathDuration = 1.0
 		m_flBreakableForceScale = 5.0
 		m_flWalkSpeed = 248
@@ -815,12 +878,6 @@
 		m_flAcceleration = 200
 		m_flMeleeAttemptRange = 100
 		m_flMeleeHitRange = 100
-		m_flAttackT1BossMaxRange = 472.441
-		m_flAttackT2BossMaxRange = 700
-		m_flAttackShrineMaxRange = 450
-		m_flAttackT3BossMaxRange = 1000
-		m_flAttackT3BossPhase2MaxRange = 472.441
-		m_flAttackTrooperMaxRange = 900
 		m_BossAttackParticle = resource_name:"particles/weapon_fx/trooper/trooper_bullet_bonus_dmg.vpcf"
 		m_sDefaultMaterialGroupName = "FriendlyMedic"
 		m_sEnemyMaterialGroupName = "EnemyMedic"
@@ -873,19 +930,6 @@
 		m_sCelebrationSound = soundevent:""
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPS = 36.0
-		m_flT1BossDPSBaseResist = 60.0
-		m_flT1BossDPSMaxResist = -50.0
-		m_flT1BossDPSMaxResistTimeInSeconds = 600.0
-		m_flT2BossDPS = 60.0
-		m_flT2BossDPSBaseResist = 60.0
-		m_flT2BossDPSMaxResist = -40.0
-		m_flT2BossDPSMaxResistTimeInSeconds = 1200.0
-		m_flT3BossDPS = 50.0
-		m_flGeneratorBossDPS = 50.0
-		m_flBarrackBossDPS = 80.0
-		m_flPlayerDPS = 28.0
-		m_flTrooperDPS = 45.0
 		m_flDPSPctGrowthPerMinute = 3.0
 		m_sAmberModelName = resource_name:"models/npc_units/troopers/amber_medic_01/amber_medic_01.vmdl"
 		m_sSapphireModelName = resource_name:"models/npc_units/troopers/sapphire_medic_01/sapphire_medic_01.vmdl"
@@ -894,6 +938,54 @@
 		m_bOutlineThroughWalls = true
 		m_bOutlineWhenVisible = true
 		m_flOutlineWidth = 4.0
+		m_VSPlayer = 
+		{
+			m_flBaseDPS = 28.0
+			m_flDamageResist = -25.0
+		}
+		m_VSTrooper = 
+		{
+			m_flBaseDPS = 45.0
+			m_flMaxRange = 900.0
+			m_flDamageResist = 42.5
+		}
+		m_VSWatcher = 
+		{
+			m_flBaseDPS = 80.0
+			m_flDamageResist = 67.5
+		}
+		m_VSWalker = 
+		{
+			m_flBaseDPS = 24.0
+			m_flEndDPS = 84.0
+			m_flEndDPSTimeInSeconds = 1200.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 80.0
+		}
+		m_VSPatron = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 1000.0
+			m_flDamageResist = 50.0
+		}
+		m_VSPatronPhase2 = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 472.441
+			m_flDamageResist = 50.0
+		}
+		m_VSGuardian = 
+		{
+			m_flBaseDPS = 14.4
+			m_flEndDPS = 54.0
+			m_flEndDPSTimeInSeconds = 600.0
+			m_flMaxRange = 472.441
+		}
+		m_VSShrine = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 450.0
+		}
 		m_flMeleeDuration = 1.0
 		m_MeleeAttackPoints = [ 0.3 ]
 		m_flMeleeDamage = 25
@@ -1010,12 +1102,6 @@
 		m_flSightRangeNPCs = 1600.0
 		m_flTurnRate = 360.0
 		m_JumpParticle = resource_name:"particles/npc/npc_trooper_jump.vpcf"
-		m_flPlayerDamageResistPct = -25.0
-		m_flTrooperDamageResistPct = 42.5
-		m_flT1BossDamageResistPct = 0.0
-		m_flT2BossDamageResistPct = 80.0
-		m_flT3BossDamageResistPct = 50.0
-		m_flBarrackGuardianDamageResistPct = 67.5
 		m_flNearDeathDuration = 1.0
 		m_flBreakableForceScale = 5.0
 		m_flWalkSpeed = 320
@@ -1023,12 +1109,6 @@
 		m_flAcceleration = 200
 		m_flMeleeAttemptRange = 120
 		m_flMeleeHitRange = 120
-		m_flAttackT1BossMaxRange = 472.441
-		m_flAttackT2BossMaxRange = 700
-		m_flAttackShrineMaxRange = 450
-		m_flAttackT3BossMaxRange = 1000
-		m_flAttackT3BossPhase2MaxRange = 472.441
-		m_flAttackTrooperMaxRange = 700
 		m_BossAttackParticle = resource_name:"particles/weapon_fx/trooper/trooper_bullet_bonus_dmg.vpcf"
 		m_sDefaultMaterialGroupName = "Friendly"
 		m_sEnemyMaterialGroupName = "Enemy"
@@ -1081,19 +1161,6 @@
 		m_sCelebrationSound = soundevent:""
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPS = 36.0
-		m_flT1BossDPSBaseResist = 60.0
-		m_flT1BossDPSMaxResist = -50.0
-		m_flT1BossDPSMaxResistTimeInSeconds = 600.0
-		m_flT2BossDPS = 60.0
-		m_flT2BossDPSBaseResist = 60.0
-		m_flT2BossDPSMaxResist = -40.0
-		m_flT2BossDPSMaxResistTimeInSeconds = 1200.0
-		m_flT3BossDPS = 50.0
-		m_flGeneratorBossDPS = 50.0
-		m_flBarrackBossDPS = 80.0
-		m_flPlayerDPS = 28.0
-		m_flTrooperDPS = 35.0
 		m_flDPSPctGrowthPerMinute = 0.0
 		m_sAmberModelName = resource_name:"models/npc_units/troopers/amber_trooper_01_melee/amber_trooper_01_melee.vmdl"
 		m_sSapphireModelName = resource_name:"models/npc_units/troopers/sapphire_trooper_01_melee/sapphire_trooper_01_melee.vmdl"
@@ -1102,6 +1169,54 @@
 		m_bOutlineThroughWalls = true
 		m_bOutlineWhenVisible = true
 		m_flOutlineWidth = 4.0
+		m_VSPlayer = 
+		{
+			m_flBaseDPS = 28.0
+			m_flDamageResist = -25.0
+		}
+		m_VSTrooper = 
+		{
+			m_flBaseDPS = 35.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 42.5
+		}
+		m_VSWatcher = 
+		{
+			m_flBaseDPS = 80.0
+			m_flDamageResist = 67.5
+		}
+		m_VSWalker = 
+		{
+			m_flBaseDPS = 24.0
+			m_flEndDPS = 84.0
+			m_flEndDPSTimeInSeconds = 1200.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 80.0
+		}
+		m_VSPatron = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 1000.0
+			m_flDamageResist = 50.0
+		}
+		m_VSPatronPhase2 = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 472.441
+			m_flDamageResist = 50.0
+		}
+		m_VSGuardian = 
+		{
+			m_flBaseDPS = 14.4
+			m_flEndDPS = 54.0
+			m_flEndDPSTimeInSeconds = 600.0
+			m_flMaxRange = 472.441
+		}
+		m_VSShrine = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 450.0
+		}
 		m_flMeleeDuration = 1.333
 		m_MeleeAttackPoints = [ 0.4 ]
 		m_flMeleeDamage = 80.0
@@ -1268,6 +1383,10 @@
 					{
 						m_eModifierValue = "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT"
 						m_value = 0.0
+					},
+					{
+						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
+						m_value = 10
 					},
 				]
 			},
@@ -1471,6 +1590,10 @@
 						m_eModifierValue = "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT"
 						m_value = 0.0
 					},
+					{
+						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
+						m_value = 10
+					},
 				]
 			},
 		]
@@ -1659,6 +1782,10 @@
 					{
 						m_eModifierValue = "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT"
 						m_value = 0.0
+					},
+					{
+						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
+						m_value = 10
 					},
 				]
 			},
@@ -1849,6 +1976,10 @@
 						m_eModifierValue = "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT"
 						m_value = 0.0
 					},
+					{
+						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
+						m_value = 10
+					},
 				]
 			},
 		]
@@ -1879,6 +2010,28 @@
 			m_BulletResist = 60
 			m_BulletResistReductionPerHero = 20
 		}
+		m_vecIntrinsicModifiers = 
+		[
+			subclass:
+			{
+				_my_subclass_name = "npc_boss_intrinsic"
+				_class = "modifier_intrinsic_base"
+				m_mapAutoRegisterModifierValueFromAbilityPropertyName = 
+				{
+				}
+				m_vecScriptValues = 
+				[
+					{
+						m_eModifierValue = "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT"
+						m_value = 0.0
+					},
+					{
+						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
+						m_value = 10
+					},
+				]
+			},
+		]
 		m_BackdoorProtectionModifier = subclass:
 		{
 			_class = "modifier_citadel_backdoor_protection"
@@ -2056,6 +2209,10 @@
 					{
 						m_eModifierValue = "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT"
 						m_value = 0.0
+					},
+					{
+						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
+						m_value = 10
 					},
 				]
 			},
@@ -3475,7 +3632,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 15
+						m_value = 25
 					},
 				]
 			},
@@ -3718,7 +3875,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 15
+						m_value = 25
 					},
 				]
 			},
@@ -3963,7 +4120,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 15
+						m_value = 25
 					},
 				]
 			},
@@ -4207,7 +4364,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 15
+						m_value = 25
 					},
 				]
 			},
@@ -5397,12 +5554,6 @@
 		m_flSightRangeNPCs = 1600.0
 		m_flTurnRate = 360.0
 		m_JumpParticle = resource_name:"particles/npc/npc_trooper_jump.vpcf"
-		m_flPlayerDamageResistPct = -25.0
-		m_flTrooperDamageResistPct = 42.5
-		m_flT1BossDamageResistPct = 0.0
-		m_flT2BossDamageResistPct = 80.0
-		m_flT3BossDamageResistPct = 50.0
-		m_flBarrackGuardianDamageResistPct = 67.5
 		m_flNearDeathDuration = 1.0
 		m_flBreakableForceScale = 5.0
 		m_flWalkSpeed = 320
@@ -5410,12 +5561,6 @@
 		m_flAcceleration = 200
 		m_flMeleeAttemptRange = 120
 		m_flMeleeHitRange = 120
-		m_flAttackT1BossMaxRange = 472.441
-		m_flAttackT2BossMaxRange = 700
-		m_flAttackShrineMaxRange = 450
-		m_flAttackT3BossMaxRange = 1000
-		m_flAttackT3BossPhase2MaxRange = 472.441
-		m_flAttackTrooperMaxRange = 700
 		m_BossAttackParticle = resource_name:"particles/weapon_fx/trooper/trooper_bullet_bonus_dmg.vpcf"
 		m_sDefaultMaterialGroupName = "Friendly"
 		m_sEnemyMaterialGroupName = "Enemy"
@@ -5467,19 +5612,6 @@
 		m_sCelebrationSound = soundevent:""
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPS = 36.0
-		m_flT1BossDPSBaseResist = 60.0
-		m_flT1BossDPSMaxResist = -50.0
-		m_flT1BossDPSMaxResistTimeInSeconds = 600.0
-		m_flT2BossDPS = 60.0
-		m_flT2BossDPSBaseResist = 60.0
-		m_flT2BossDPSMaxResist = -40.0
-		m_flT2BossDPSMaxResistTimeInSeconds = 1200.0
-		m_flT3BossDPS = 50.0
-		m_flGeneratorBossDPS = 50.0
-		m_flBarrackBossDPS = 80.0
-		m_flPlayerDPS = 28.0
-		m_flTrooperDPS = 35.0
 		m_flDPSPctGrowthPerMinute = 0.0
 		m_sAmberModelName = resource_name:"models/heroes_wip/necro/necro_zombietrooper.vmdl"
 		m_sSapphireModelName = resource_name:"models/heroes_wip/necro/necro_zombietrooper.vmdl"
@@ -5488,6 +5620,54 @@
 		m_bOutlineThroughWalls = true
 		m_bOutlineWhenVisible = true
 		m_flOutlineWidth = 4.0
+		m_VSPlayer = 
+		{
+			m_flBaseDPS = 28.0
+			m_flDamageResist = -25.0
+		}
+		m_VSTrooper = 
+		{
+			m_flBaseDPS = 35.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 42.5
+		}
+		m_VSWatcher = 
+		{
+			m_flBaseDPS = 80.0
+			m_flDamageResist = 67.5
+		}
+		m_VSWalker = 
+		{
+			m_flBaseDPS = 24.0
+			m_flEndDPS = 84.0
+			m_flEndDPSTimeInSeconds = 1200.0
+			m_flMaxRange = 700.0
+			m_flDamageResist = 80.0
+		}
+		m_VSPatron = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 1000.0
+			m_flDamageResist = 50.0
+		}
+		m_VSPatronPhase2 = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 472.441
+			m_flDamageResist = 50.0
+		}
+		m_VSGuardian = 
+		{
+			m_flBaseDPS = 14.4
+			m_flEndDPS = 54.0
+			m_flEndDPSTimeInSeconds = 600.0
+			m_flMaxRange = 472.441
+		}
+		m_VSShrine = 
+		{
+			m_flBaseDPS = 50.0
+			m_flMaxRange = 450.0
+		}
 		m_flMeleeDuration = 1.333
 		m_MeleeAttackPoints = [ 0.4 ]
 		m_flMeleeDamage = 80.0

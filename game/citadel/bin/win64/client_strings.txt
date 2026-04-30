@@ -3019,6 +3019,7 @@ $hRh
 *BaseModelEntity::CBodyComponentBaseModelEntity
 *Gets the last-played times for the account
 *Returns the player's community preferences
+*Switch to thirdperson camera.
 *UlS
 *Y$ve
 *\fhsD
@@ -3066,7 +3067,6 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
-*thirdpersonshoulder
 +'+1+3+=+?+K+O+U+i+m+o+{+
 +(#\v&dbF:xrJ'$#
 +(Optional) Filename for the published file.
@@ -6411,7 +6411,6 @@ $hRh
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flExposureCompensation@C_PostProcessingVolume@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flExposureFadeSpeedDown@C_PostProcessingVolume@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flExposureFadeSpeedUp@C_PostProcessingVolume@@@@
-.?AV?$CNetworkVarBase@MVNetworkVar_m_flExtraLatchDistance@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flFPS@C_TextureBasedAnimatable@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flFadeDuration@C_PostProcessingVolume@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flFadeEndAngle@C_RenderPortal@@@@
@@ -6602,7 +6601,6 @@ $hRh
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpawnDuration@CNPC_NecroSkele@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpeed@C_BaseEntity@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpeedAdjust@CCitadel_Ability_Slide@@@@
-.?AV?$CNetworkVarBase@MVNetworkVar_m_flSpeedMultiplier@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpeedMultiplierFromBaseBonus@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpeedMultiplierToBaseBonus@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flSpreadPenalty@CCitadel_Ability_PrimaryWeapon@@@@
@@ -6622,7 +6620,6 @@ $hRh
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flStreetBrawlTotalNonCombatTime@CStreetBrawlController@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flStrength@C_EnvVolumetricFogVolume@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flTackleDuration@CCitadel_Ability_SuperNeutralCharge@@@@
-.?AV?$CNetworkVarBase@MVNetworkVar_m_flTaper@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flTheta@CLightComponent@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flThickness@ice_path_shard_model_desc_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flTimeScale@CCitadelAbilityComponent@@@@
@@ -6997,7 +6994,6 @@ $hRh
 .?AV?$CNetworkVarBase@VCitadelAbilityUpgradeInfoPacked_t@@VNetworkVar_m_nUpgradeInfo@AbilityUpgradeState_t@@@@
 .?AV?$CNetworkVarBase@VCitadelAbilityUpgradeInfoPacked_t@@VNetworkVar_m_nUpgradeInfo@C_CitadelBaseAbility@@@@
 .?AV?$CNetworkVarBase@VCitadelLobbyPlayerSlot_t@@VNetworkVar_m_unLobbyPlayerSlot@CCitadelPlayerController@@@@
-.?AV?$CNetworkVarBase@VColor@@VNetworkVar_m_Color@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@VColor@@VNetworkVar_m_Color@C_PointWorldText@@@@
 .?AV?$CNetworkVarBase@VColor@@VNetworkVar_m_ColorTint@C_EnvParticleGlow@@@@
 .?AV?$CNetworkVarBase@VColor@@VNetworkVar_m_TintColor@C_EnvVolumetricFogController@@@@
@@ -7418,7 +7414,6 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bAllowModifiersOnDeadEntities@CModifierProperty@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bAllowRotatingUp@C_Citadel_Shield@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bAllowSSTGeneration@CLightComponent@@@@
-.?AV?$CNetworkVarBase@_NVNetworkVar_m_bAlwaysUsable@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bAnimGraphMovementClipped@C_CitadelPlayerPawn@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bAnimGraphMovementDirectAirControl@C_CitadelPlayerPawn@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bAnimGraphMovementDisableGravity@C_CitadelPlayerPawn@@@@
@@ -7462,7 +7457,6 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDamaged@C_PlayerSprayDecal@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDestroyed@C_Citadel_Destroyable_Building@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDisableMipGen@C_PointClientUIWorldPanel@@@@
-.?AV?$CNetworkVarBase@_NVNetworkVar_m_bDisableZipAbilityTargeting@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDisableZippingToByPlayers@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDisabled@CInfoOffscreenPanoramaTexture@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDisabled@C_BaseTrigger@@@@
@@ -7479,7 +7473,6 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDynamicBounce@CLightComponent@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDynamicBounce@C_BarnLight@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bEnableIndirect@C_EnvVolumetricFogController@@@@
-.?AV?$CNetworkVarBase@_NVNetworkVar_m_bEnabled@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bEnabled@CLightComponent@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bEnabled@C_BarnLight@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bEnabled@C_BaseClientUIEntity@@@@
@@ -7572,7 +7565,6 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bInitiallyPopulateInterpHistory@CBaseAnimGraph@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bInputPressedWhileSelected@CCitadel_Ability_PrimaryWeapon@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsActivelyStolen@CitadelStolenAbilitySlot_t@@@@
-.?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBaseBackLane@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBeingBlocked@CCitadelControlPointTrigger@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBeingCaptured@CCitadelControlPointTrigger@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBlinking@CCitadel_Ability_VampireBat_BatBlink@@@@
@@ -7636,7 +7628,6 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bNoRamp@C_ParticleSystem@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bNoSave@C_ParticleSystem@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bNoSky@C_PointCamera@@@@
-.?AV?$CNetworkVarBase@_NVNetworkVar_m_bOneWay@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bOnlyRenderToTexture@C_PointClientUIWorldPanel@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bOpaque@C_PointClientUIWorldPanel@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bOutOfFuelAndHaventTouchedGround@CCitadel_Ability_Airheart_Rocketeer3@@@@
@@ -7726,7 +7717,6 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bUseAnimGraph@C_DynamicProp@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bUseAutoCompare@C_SoundOpvarSetPointBase@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bUseBaseLaneColor@CCitadelZipLineNode@@@@
-.?AV?$CNetworkVarBase@_NVNetworkVar_m_bUseForMinimapDrawing@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bUseHitboxesForRenderBox@C_DynamicProp@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bUseOffScreenIndicator@C_PointClientUIWorldPanel@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bUseParentRenderBounds@CSkeletonInstance@@@@
@@ -11221,6 +11211,8 @@ $hRh
 .?AVCCitadel_ArmorUpgrade_AblativeCoatVData@@
 .?AVCCitadel_ArmorUpgrade_ActiveBulletShield@@
 .?AVCCitadel_ArmorUpgrade_ActiveBulletShieldVData@@
+.?AVCCitadel_ArmorUpgrade_AutoCleanse@@
+.?AVCCitadel_ArmorUpgrade_AutoCleanseVData@@
 .?AVCCitadel_ArmorUpgrade_BulletArmorReductionAura@@
 .?AVCCitadel_ArmorUpgrade_CloakingDevice@@
 .?AVCCitadel_ArmorUpgrade_CloakingDeviceActive@@
@@ -16980,8 +16972,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp4S
-2\vp|4
+2\vp48
 2^pV
 2a"l
 2bT~
@@ -17359,6 +17350,7 @@ $hRh
 <\n\vdiagnostics
 <a class="PersonaName"%s%s%s>%s</a>
 <a href="\1\3">\1\3</a>
+<array element>
 <classptr>
 <custom>
 <embedded>
@@ -17446,7 +17438,6 @@ $hRh
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
 ?333?
-?<array element>
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
 ??0Utf8Value@String@v8@@QEAA@PEAVIsolate@2@V?$Local@VValue@v8@@@2@@Z
@@ -17455,9 +17446,9 @@ $hRh
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
+?CitadelPartyCode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
-?ECitadelStatusImpact
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17478,7 +17469,6 @@ $hRh
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?LatchVariables
 ?TabButton
-?TeamObjectiveHealthPanel
 ?The most recent last-played time the client already knows about"
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
@@ -17487,21 +17477,21 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
-?ability_necro_fear
 ?d86L
 ?dt]X
 ?expf
 ?gwL
 ?jOb
 ?srJO
+?trigger_portal
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
-@6Pr
-@6pq
+@6PW
+@6pV
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
@@ -17520,6 +17510,7 @@ $hRh
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @\tV_iswcntrl
+@ability_gunslinger_knockbackblast
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
@@ -18067,6 +18058,7 @@ AirJumpForce
 AirJumpVerticalSpeedPercent
 AirJumps
 AirMoveDistance
+AirMoveIncreasePercent
 AirSideMoveSpeedPercentage
 AirSpeedBonus
 AirSpeedMax
@@ -18397,7 +18389,6 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
-B>MapPingPanel
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -19211,8 +19202,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:723
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4274
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4448
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4298
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4472
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
@@ -19232,9 +19223,9 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stats_sha
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2331
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2456
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:560
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:1999
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2112
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:561
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2007
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2124
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1933
@@ -22611,7 +22602,6 @@ CitadelPartyAcceptInvite
 CitadelPartyAcceptInvite( %llu )
 CitadelPartyCancelInviteAccountID
 CitadelPartyClearReady
-CitadelPartyCode
 CitadelPartyCodeHiddenUpdated
 CitadelPartyCodeTooltip
 CitadelPartyCreatePrivateLobby
@@ -25472,6 +25462,7 @@ FeatureListContainer
 FeaturedMatchSnippet
 FeaturesDisabled
 Fell out of shadow map cache! More than %d shadowed lights rendering in this frame!\n
+FervorStatusResistancePercent
 Ff,n
 Ffff
 FgColor
@@ -28252,6 +28243,7 @@ Map "%s" is using the obsolete HoldAnimation key on a prop_dynamic with model %s
 Map Name
 Map transition...\n
 MapMappingsEntry
+MapPingPanel
 MapUnitName
 MapValuesEntry
 MarkDuration
@@ -29377,7 +29369,7 @@ P08J@
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6 m
+P6 R
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -29949,7 +29941,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf j
+Pf O
 Phrase
 Phrase%d
 PhraseContainer
@@ -30097,7 +30089,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-Pn k
+Pn P
 Point entity.
 Point under crosshair
 PointType
@@ -30676,13 +30668,12 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fp4S
+R\fp48
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp0D
-R\vp|4
+R\vp0)
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -31070,6 +31061,7 @@ ResourceRadius
 RespawnDelay
 RespawnHealthPercent
 RespawnTime
+RespawnTimeMod
 RespondingToHero
 ResponseGroup
 ResponseHeader
@@ -33466,6 +33458,7 @@ TeamHeroes
 TeamInfo
 TeamMsg
 TeamMsgPanel
+TeamObjectiveHealthPanel
 TeamOpenMicCheckbox
 TeamPlayer
 TeamPlayers
@@ -33889,6 +33882,7 @@ Tried to UTIL_Remove a networked entity (%d/%s) on the client, the server contro
 Tried to UTIL_RemoveImmediate a networked entity (%d/%s) on the client, the server controls lifespan, ignoring\n
 Tried to add game system %s twice!\n
 Tried to add unknown game system %s!\n
+Tried to load a polymorphic pointer with no '%s' key
 Tried to load resource reference '%s' from a value without a resource reference specific type.
 Trigger
 Trigger Activated\n
@@ -34543,6 +34537,7 @@ WARNING: Too many essential breakpieces in one frame - this may cause performanc
 WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
+WC_AI_CitadelNPC
 WD%g"0Q-)
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
@@ -35190,7 +35185,7 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@Tried to load a polymorphic pointer with no '%s' key
+\f@IKV3TransferInterface_ResourceLoad
 \fAccoladeID_t
 \fCitadelMMR_t
 \fKS1
@@ -35201,6 +35196,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -35412,7 +35408,6 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
-\nP0D
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -36256,9 +36251,10 @@ Z~wl
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\vpL1
 \r^mX
-\rc_orthowidth
+\rc_minyaw
 \ri1I
 \rjwB\t
+\rm_vecDependentAbilities
 \roKK
 \rrCj
 \rstyle_index_t
@@ -36471,8 +36467,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vp0D
-\vp4S
+\vp48
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36541,7 +36536,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6Ps
+`6PX
 `:zQF
 `D$daM-l
 `DZG
@@ -36550,10 +36545,8 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`\rP\f00D
 `fPw.\vM
 `h9T~
-`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -36727,7 +36720,6 @@ ability_graf_ability03
 ability_graf_ult
 ability_gravity_lasso
 ability_guided_arrow
-ability_gunslinger_knockbackblast
 ability_gunslinger_spreadingfire
 ability_hat_trick
 ability_health_swap
@@ -36778,6 +36770,7 @@ ability_nano_pounce
 ability_nano_pounce_instant
 ability_nano_proximity_ritual
 ability_nano_shadow_step
+ability_necro_fear
 ability_necro_hauntingskull
 ability_necro_hauntingspirits
 ability_necro_killsummon
@@ -37104,7 +37097,6 @@ always tradable
 alwaysShowPips
 alwaysShowStats
 always_send_to_servers
-always_usable
 alwaysrepaint
 amberFOWSelected
 ambient_shadow_amount
@@ -39619,7 +39611,6 @@ directory services - algorithms
 diretide_effect
 dirname error
 disableVisualEffects
-disable_ability_zip_targeting
 disable_blink
 disable_delete
 disable_mip_gen
@@ -40336,7 +40327,6 @@ extensions
 extent
 extra data in message
 extra_info
-extra_latch_distance
 extra_messages
 extra_party_member_count
 extrazoomout
@@ -42778,7 +42768,6 @@ is_aggressive_ping
 is_banned_future
 is_banned_steam_china
 is_barracks_boss
-is_base_backlane
 is_bonus_bullet
 is_comms_restricted
 is_community_banned
@@ -44015,7 +44004,6 @@ m_tail != QUEUE_ITERATOR_INVALID
 m_think
 m_time
 m_unFrameFuncThreadID == unCurrentThread
-m_vecDependentAbilities
 m_vecHealthbars.IsValidIndex( idx )
 m_vecInitialVel %.2f %.2f %.2f
 m_vecLandmarkAngles
@@ -45406,7 +45394,7 @@ n1Z
 n5cM
 n6j/
 n:2C[
-n<}\v<}\v<}\v<}\v
+n<}\v<}\v<}\v<}\vm_fog
 n@PK
 nCRD
 nChangeOffset < INT16_MAX
@@ -45941,7 +45929,6 @@ oncontextmenu
 oncontextmenu="
 ondblclick
 one or more DECLARE_NETWORKCLASS is malformed, see console for information!
-one_way
 onfirstimpact
 onfocus
 onframechange
@@ -46141,7 +46128,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0jPO
+p0jP4
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46158,7 +46145,7 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pF0P
+pF05
 pField
 pFilter
 pG_*h
@@ -46166,7 +46153,6 @@ pHeroReleaseVoteOptions->GetChildCount() == (int)EActiveHeroReleaseVoteOption::C
 pHitEntity
 pIp 
 pLocationEntity
-pModifierPropRuntimeHandle_t
 pO0h
 pOtherEntity
 pRTH
@@ -46829,6 +46815,7 @@ playrandom
 playtime_2weeks
 playtime_forever
 plum
+pmodifier_capture_data_descs
 pngsize
 point
 point arithmetic failure
@@ -47256,10 +47243,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp0D
+r\fp0)
 r\n\vstart_index
 r\vDi
-r\vp4S
+r\vp48
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -48703,7 +48690,6 @@ speech
 speech_concept
 speed less than
 speedDisplayContainer
-speed_multiplier
 speed_multiplier_from_base_bonus
 speed_multiplier_to_base_bonus
 speed_range
@@ -49224,7 +49210,6 @@ tangent
 tangent_in
 tangent_out
 tangentu_signv
-taper
 target entity not found
 target input not found
 target1
@@ -49601,7 +49586,6 @@ trigger_mins
 trigger_neutral_shield
 trigger_passthrough_fake_wall
 trigger_physics
-trigger_portal
 trigger_tier3phase2_shield
 trigger_transition
 tripmine
@@ -49991,6 +49975,7 @@ upgrade_aoe_smoke_bomb
 upgrade_aoe_tech_shield
 upgrade_apex_combat
 upgrade_arctic_blast
+upgrade_auto_cleanse
 upgrade_available
 upgrade_blood_tribute
 upgrade_bullet_armor_reduction_aura
@@ -50126,7 +50111,6 @@ use_baselane_color
 use_bitmap_instead_of_increment
 use_block_solver
 use_css_position
-use_for_minimap_drawing
 use_game_map
 use_high_quality_simulation
 use_http
@@ -50676,7 +50660,6 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDWhen you sell an item.
 zF):O4
 zFar
 zG2m8

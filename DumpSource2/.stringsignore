@@ -2749,6 +2749,8 @@ CCitadel_ArmorUpgrade_AblativeCoat
 CCitadel_ArmorUpgrade_AblativeCoatVData
 CCitadel_ArmorUpgrade_ActiveBulletShield
 CCitadel_ArmorUpgrade_ActiveBulletShieldVData
+CCitadel_ArmorUpgrade_AutoCleanse
+CCitadel_ArmorUpgrade_AutoCleanseVData
 CCitadel_ArmorUpgrade_BulletArmorReductionAura
 CCitadel_ArmorUpgrade_CloakingDevice
 CCitadel_ArmorUpgrade_CloakingDeviceActive
@@ -8143,6 +8145,8 @@ DOOR_STATE_OPENING
 DOT_OUTLINE_RADIUS
 DOWN
 DPS
+DPS dealt to enemy at "End DPS Time in Seconds". Moments in between start and end will be lerped DPS.
+DPS dealt to enemy at the start of the match. Leave the value as 0 to use Beam Weapon values.
 DSP Effect Name
 DT for debug drawing ability preview path.
 DYNAMIC_CONTINUOUS_ALLOW_IF_REQUESTED_BY_OTHER_BODY
@@ -10073,6 +10077,7 @@ Ends the current match as if players all abandoned.
 Ends timedemo on given tick.
 Enemies are slowed for this duration when hit by this attack
 Enemies are slowed to this speed when hit by this attack
+Enemy VS
 Enforce Limits
 Enforce strict matchmaking style abandon rules even in practice/bot matches (useful for testing)
 EngineCountdownTimer
@@ -12412,12 +12417,7 @@ Like ai_disable but you manually specify the state (with a 0 or 1) instead of to
 Limit Count
 Limit Foot Rotation
 Limit Leg Twist
-Limit engagement range of Trooper vs Patron Phase 1. Final result will be the minimum of "Attack T3 Boss Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range"
-Limit engagement range of Trooper vs Patron Phase 2. Final result will be the minimum of "Attack T3 Boss Phase2 Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range"
-Limit engagement range of Trooper vs Shrine. Final result will be the minimum of "Attack Shrine Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range"
-Limit engagement range of Trooper vs Shrine. Final result will be the minimum of "Attack T1 Boss Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range"
-Limit engagement range of Trooper vs Shrine. Final result will be the minimum of "Attack T2 Boss Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range"
-Limit engagement range of Trooper vs Trooper. Final result will be the minimum of "Attack Trooper Max Range", "Sight Range NPCs" and "Beam Weapon : Weapon Info : Firing Behavior : Range"
+Limit engagement range of Trooper vs Enemy. Final result will be the minimum of "Max Range", "Sight Range NPCs" and "Beam Weapon or Boss Weapon : Weapon Info : Firing Behavior : Range". Leave at 0 to not apply.
 Limit on how fast you can move (walking/sprinting/whatever)
 Limit on number of jobs that will be run(serially) in a frame. - 1 = no limit
 LimitSearchToSourceState
@@ -12721,6 +12721,7 @@ MODIFIER_EVENT_MODIFIER_CREATION_PREVENTED
 MODIFIER_EVENT_MODIFIER_GAINED
 MODIFIER_EVENT_MODIFIER_LOST
 MODIFIER_EVENT_MODIFIER_REFRESHED
+MODIFIER_EVENT_MODIFIER_SHOULD_CREATE
 MODIFIER_EVENT_NPC_KILLED
 MODIFIER_EVENT_NPC_KILLED_BROADCAST
 MODIFIER_EVENT_ON_ABILITY_CHANNEL_FINISHED
@@ -12978,6 +12979,7 @@ MODIFIER_STATE_MATERIAL_OVERRIDE
 MODIFIER_STATE_MELEE_ATTACKS_ONLY
 MODIFIER_STATE_MELEE_DISABLED
 MODIFIER_STATE_MELEE_DISABLED_DEBUFF
+MODIFIER_STATE_MOD_NO_CLEANSE
 MODIFIER_STATE_MOVEMENT_ABILITY_RESTRICTED
 MODIFIER_STATE_MOVEMENT_FOLEY_SOUNDS_DISABLE
 MODIFIER_STATE_MOVEMENT_INPUT_DISABLED
@@ -15416,6 +15418,7 @@ PerParticleFloatInput()
 PerParticleVecInput()
 PerSurfaceImpactEffects_t
 Percent Missing Regen
+Percent of damage resisted when attacked by Enemy.
 Percentage chance of showing the survey questions when entering matchmaking
 Percentage of health to be considered low health
 Percentage of health to be considered low health when you have high max health.
@@ -18474,6 +18477,7 @@ Time scale
 Time spent at 0.0 speed before fade.
 Time to crossfade sound effects between soundscapes
 Time to move between crouch and stand
+Time when DPS dealt to enemy reaches "End DPS". Leave the value as 0 to stay at "Start DPS" all match.
 Time window for damage to be considered lethal
 TimeElapsed
 TimeRemaining
@@ -18644,15 +18648,8 @@ Trigger on deselect?
 Triggers a RenderDoc capture
 Triggers a RenderDoc capture of a specific Window
 Triggers impulse command
-Trooper DPS
-Trooper vs Barrack Guardian DPS
-Trooper vs Generator DPS
-Trooper vs Player DPS
-Trooper vs T1 Guardian Base DPS 
-Trooper vs T2 Guardian Base DPS 
-Trooper vs T3 Guardian DPS
-Trooper vs Trooper DPS
 TrooperType_t
+TrooperVsConfig_t
 True
 True if the joystick is enabled, false otherwise.
 Try to deny orbs
@@ -21883,14 +21880,15 @@ citadel_zipline_arrow_boost_brightness
 citadel_zipline_arrow_scale
 citadel_zipline_arrow_scoll_speed
 citadel_zipline_attachment_debug
-citadel_zipline_back_lane_speed_mult
 citadel_zipline_baselane_speed_mult
 citadel_zipline_capture
 citadel_zipline_capture_all
-citadel_zipline_capture_trigger_thickness
+citadel_zipline_capture_trigger_max_thickness
+citadel_zipline_capture_trigger_min_thickness
 citadel_zipline_capture_trigger_width
 citadel_zipline_curve_sampling_size
 citadel_zipline_debug_draw
+citadel_zipline_debug_draw_capture
 citadel_zipline_debug_draw_node_entity
 citadel_zipline_debug_draw_segments
 citadel_zipline_movement_debug
@@ -25404,6 +25402,7 @@ m_BossAction
 m_BossActionSource
 m_BossAttackParticle
 m_BossDamage
+m_BossWeapon
 m_BounceCount
 m_BounceModifier
 m_BounceParticle
@@ -27489,6 +27488,7 @@ m_ShieldModifier
 m_ShieldParticle
 m_ShivOnlyDeathStatus
 m_ShivOnlyDeathTrail
+m_ShivOnlyExecuteHeart
 m_ShockImpactParticle
 m_ShockImpactSound
 m_ShockReadyParticle
@@ -27914,6 +27914,14 @@ m_UppercutAttackData
 m_UppercutModifier
 m_UserFriendlyName
 m_VBData
+m_VSGuardian
+m_VSPatron
+m_VSPatronPhase2
+m_VSPlayer
+m_VSShrine
+m_VSTrooper
+m_VSWalker
+m_VSWatcher
 m_VTOLExplosionFX
 m_VTOLModifier
 m_VTOLSpeedByTime
@@ -28315,7 +28323,6 @@ m_bAlphaToCoverageEnable
 m_bAltCast
 m_bAlternateShift
 m_bAlwaysFireBlockedOutputs
-m_bAlwaysUsable
 m_bAlwaysUseFallbackHinge
 m_bAnd
 m_bAnglesSet
@@ -28425,6 +28432,7 @@ m_bBonesInWorldSpace
 m_bBonesOrientedAlongPositiveX
 m_bBonusTracked
 m_bBoomerangCatch
+m_bBossWeaponEnabled
 m_bBotDisconnectTakeover
 m_bBoundBox
 m_bBoxSelectRequiresFullyContained
@@ -28642,7 +28650,6 @@ m_bDisableShadows
 m_bDisableSolidCollisions
 m_bDisableSolidCollisionsForHierarchy
 m_bDisableZBuffering
-m_bDisableZipAbilityTargeting
 m_bDisableZiplining
 m_bDisableZippingToByPlayers
 m_bDisabled
@@ -29207,7 +29214,6 @@ m_bIsAttacking
 m_bIsAxisAligned
 m_bIsAxisLocal
 m_bIsBackground
-m_bIsBaseBackLane
 m_bIsBeingBlocked
 m_bIsBeingCaptured
 m_bIsBlinking
@@ -29590,7 +29596,6 @@ m_bOnChangeLevelFired
 m_bOnGround
 m_bOnMovableNavMesh
 m_bOnRespawn
-m_bOneWay
 m_bOnlyChildren
 m_bOnlyDestroyWhenGibbing
 m_bOnlyGoals
@@ -30300,7 +30305,6 @@ m_bUseEchoEffect
 m_bUseEntityPivot
 m_bUseFixedDuration
 m_bUseFixedUpDirection
-m_bUseForMinimapDrawing
 m_bUseForwardPusher
 m_bUseFramesAsInput
 m_bUseGameDefaultDecalSize
@@ -31471,19 +31475,13 @@ m_flAttackHalfAngle
 m_flAttackInterval
 m_flAttackLatchTime
 m_flAttackRange
-m_flAttackShrineMaxRange
 m_flAttackStateTime
-m_flAttackT1BossMaxRange
-m_flAttackT2BossMaxRange
-m_flAttackT3BossMaxRange
-m_flAttackT3BossPhase2MaxRange
 m_flAttackThinkTime
 m_flAttackTime
 m_flAttackTimeMS
 m_flAttackTimePhase01
 m_flAttackTimePhase02
 m_flAttackTriggeredTime
-m_flAttackTrooperMaxRange
 m_flAttackableTime
 m_flAttenMax
 m_flAttenMin
@@ -31537,13 +31535,12 @@ m_flBallTraceRadius
 m_flBandwidth
 m_flBank
 m_flBarbedWireAuraRadius
-m_flBarrackBossDPS
-m_flBarrackGuardianDamageResistPct
 m_flBarrageEndTime
 m_flBarrelBounceVelocity
 m_flBarrelUpFactor
 m_flBase
 m_flBaseCooldown
+m_flBaseDPS
 m_flBaseDamage
 m_flBaseDamping
 m_flBaseForwardFriction
@@ -32020,6 +32017,7 @@ m_flDamagePerTick
 m_flDamagePositionOffset
 m_flDamageReceived
 m_flDamageReductionForTroopers
+m_flDamageResist
 m_flDamageResistanceBonusPerGameMinute
 m_flDamageResistancePerSecond
 m_flDamageScale
@@ -32310,6 +32308,8 @@ m_flEndCPGrowthTime
 m_flEndChargeVelocityScale
 m_flEndCullSize
 m_flEndCycle
+m_flEndDPS
+m_flEndDPSTimeInSeconds
 m_flEndDistance
 m_flEndEmitTime
 m_flEndFadeDot
@@ -32389,7 +32389,6 @@ m_flExposureFadeSpeedDown
 m_flExposureFadeSpeedUp
 m_flExtensionScale
 m_flExternalHealthRegen
-m_flExtraLatchDistance
 m_flEyeZOffset
 m_flFOV
 m_flFOVSensitivityAdjust
@@ -32631,7 +32630,6 @@ m_flGammaB
 m_flGammaG
 m_flGammaR
 m_flGammaRGB
-m_flGeneratorBossDPS
 m_flGetUpAnimTime
 m_flGetUpSeqDuration
 m_flGetupBusyDuration
@@ -34115,6 +34113,7 @@ m_flRefireTime
 m_flReflectSpeedReductionRatio
 m_flReflectionsTintByBaseBlendToNone
 m_flRefractAmount
+m_flRefreshLockOutTime
 m_flRefreshRate
 m_flRefreshTime
 m_flRegenAccumulator
@@ -34678,18 +34677,6 @@ m_flSwingMaxDuration
 m_flSwingStartDelay
 m_flSyncOffset
 m_flT
-m_flT1BossDPS
-m_flT1BossDPSBaseResist
-m_flT1BossDPSMaxResist
-m_flT1BossDPSMaxResistTimeInSeconds
-m_flT1BossDamageResistPct
-m_flT2BossDPS
-m_flT2BossDPSBaseResist
-m_flT2BossDPSMaxResist
-m_flT2BossDPSMaxResistTimeInSeconds
-m_flT2BossDamageResistPct
-m_flT3BossDPS
-m_flT3BossDamageResistPct
 m_flTLength
 m_flTValue
 m_flTWidth
@@ -34699,7 +34686,6 @@ m_flTackleStartTime
 m_flTailAlphaScale
 m_flTapeSpeedAttackTime
 m_flTapeSpeedReleaseTime
-m_flTaper
 m_flTaps
 m_flTargetAirSpeedBase
 m_flTargetAirSpeedFast
@@ -35527,6 +35513,7 @@ m_hMeasureReference
 m_hMeasureTarget
 m_hModel
 m_hModifier
+m_hModifierCaster
 m_hModifierInteractionIKLock
 m_hModifierListHandle
 m_hMoveHeadingParam
@@ -36555,6 +36542,8 @@ m_movementType
 m_nAABBDirection
 m_nAG2EmulatedState
 m_nAITraceMask
+m_nAbilityBlockTime
+m_nAbilityBlocking
 m_nAbilityPointsCost
 m_nAbilitySubclassID
 m_nAbilityTargetFlags
@@ -36884,6 +36873,7 @@ m_nCompressionType
 m_nCompressorIndex
 m_nConcept
 m_nConditionNodeIdx
+m_nConeVFX
 m_nConfig
 m_nConfigCount
 m_nConfigStartIndex
@@ -39766,9 +39756,6 @@ m_strNeutralWorldPickup
 m_strNewCardActionName
 m_strNewHintGroup
 m_strNextPath
-m_strNode01
-m_strNode02
-m_strNode03
 m_strOffCooldownSound
 m_strOnBecomeEnableParticle
 m_strOnBreakAnimGraphParam

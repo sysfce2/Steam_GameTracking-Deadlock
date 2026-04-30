@@ -43,7 +43,7 @@ CitadelHudHeroShop.DashboardBuilds,CitadelHudHeroShop.gEditingBuilds
 {
 	width: 100%;
 	height: 100%;
-	flow-children: right;
+	flow-children: left;
 }
 
 .AspectRatio21x9 #Shop
@@ -776,14 +776,8 @@ CitadelTrainingPage #HeroScenePanel
 #MainPanel
 {
 	height: 960px;
-	width: 100%;
-	max-width: 1150px;
+	width: 1150px;
 	margin-top: 20px;
-}
-
-.AspectRatio16x10 #MainPanel
-{
-	max-width: 1150px;
 }
 
 .isShowingTrainingPage #MainPanel

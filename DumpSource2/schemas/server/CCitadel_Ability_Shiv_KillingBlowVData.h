@@ -446,6 +446,7 @@
 //	"m_flMinLeapTime": 0.250000,
 //	"m_flCheckRadius": 70.000000,
 //	"m_flSlashRadius": 200.000000,
+//	"m_flRefreshLockOutTime": 0.250000,
 //	"m_flMaxTurnRate": 140.000000,
 //	"m_flCameraTurnRate": 200.000000,
 //	"m_SpeedCurve":
@@ -508,6 +509,7 @@ class CCitadel_Ability_Shiv_KillingBlowVData : public CitadelAbilityVData
 	float32 m_flMinLeapTime;
 	float32 m_flCheckRadius;
 	float32 m_flSlashRadius;
+	float32 m_flRefreshLockOutTime;
 	float32 m_flMaxTurnRate;
 	float32 m_flCameraTurnRate;
 	CPiecewiseCurve m_SpeedCurve;

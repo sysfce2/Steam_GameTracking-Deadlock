@@ -484,7 +484,7 @@
 			name = "CitadelZipLineNodeManifest"
 			group = "GameStartup"
 			source_file = "src/game/shared/citadel/citadel_zip_line_node.cpp"
-			source_line = 80
+			source_line = 83
 			resources = 
 			[
 				resource_name:"materials/dev/zipline_inner_rope.vmat",

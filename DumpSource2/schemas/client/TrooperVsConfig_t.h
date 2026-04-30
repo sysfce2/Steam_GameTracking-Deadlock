@@ -1,0 +1,20 @@
+// MGetKV3ClassDefaults = {
+//	"m_flBaseDPS": 0.000000,
+//	"m_flEndDPS": 0.000000,
+//	"m_flEndDPSTimeInSeconds": 0.000000,
+//	"m_flMaxRange": 0.000000,
+//	"m_flDamageResist": 0.000000
+//}
+class TrooperVsConfig_t
+{
+	// MPropertyDescription = "DPS dealt to enemy at the start of the match. Leave the value as 0 to use Beam Weapon values."
+	float32 m_flBaseDPS;
+	// MPropertyDescription = "DPS dealt to enemy at "End DPS Time in Seconds". Moments in between start and end will be lerped DPS."
+	float32 m_flEndDPS;
+	// MPropertyDescription = "Time when DPS dealt to enemy reaches "End DPS". Leave the value as 0 to stay at "Start DPS" all match."
+	float32 m_flEndDPSTimeInSeconds;
+	// MPropertyDescription = "Limit engagement range of Trooper vs Enemy. Final result will be the minimum of "Max Range", "Sight Range NPCs" and "Beam Weapon or Boss Weapon : Weapon Info : Firing Behavior : Range". Leave at 0 to not apply."
+	float32 m_flMaxRange;
+	// MPropertyDescription = "Percent of damage resisted when attacked by Enemy."
+	float32 m_flDamageResist;
+};

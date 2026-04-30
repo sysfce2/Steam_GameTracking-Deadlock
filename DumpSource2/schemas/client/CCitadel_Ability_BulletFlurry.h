@@ -12,5 +12,6 @@ class CCitadel_Ability_BulletFlurry : public C_CitadelBaseAbility
 	int32 m_nShootIndexNPC;
 	int32 m_nBurstShots;
 	SatVolumeIndex_t m_nSatVolumeIndex;
+	ParticleIndex_t m_nConeVFX;
 	bool m_bHasCameraOverride;
 };

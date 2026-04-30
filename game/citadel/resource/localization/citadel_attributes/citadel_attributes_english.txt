@@ -1110,6 +1110,16 @@
 		"StatusResistancePercent_postvalue_label"				"Debuff Resist"
 		"StatusResistancePercent_postfix"				"%"
 
+		"InnateStatusResistancePercent_prefix"				"{s:sign}"
+		"InnateStatusResistancePercent_label"				"Debuff Resist"
+		"InnateStatusResistancePercent_postvalue_label"				"Debuff Resist"
+		"InnateStatusResistancePercent_postfix"				"%"
+
+		"FervorStatusResistancePercent_prefix"				"{s:sign}"
+		"FervorStatusResistancePercent_label"				"Debuff Resist"
+		"FervorStatusResistancePercent_postvalue_label"				"Debuff Resist"
+		"FervorStatusResistancePercent_postfix"				"%"
+
 		"ActiveStatusResistancePercent_postfix"			"%"
 		"ActiveStatusResistancePercent_label"			"Debuff Reduction"
 		"ActiveStatusResistancePercent_postvalue_label"			"Debuff Reduction"

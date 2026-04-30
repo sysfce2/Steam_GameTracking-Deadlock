@@ -7,24 +7,14 @@
 // MNetworkVarNames = "int16 m_eCaptureState"
 // MNetworkVarNames = "int16 m_iPrimaryLane"
 // MNetworkVarNames = "bool m_bUseBaseLaneColor"
-// MNetworkVarNames = "bool m_bIsBaseBackLane"
 // MNetworkVarNames = "int16 m_nRopesParity"
 // MNetworkVarNames = "bool m_bCornerNode"
 // MNetworkVarNames = "bool m_bCapturable"
-// MNetworkVarNames = "bool m_bAlwaysUsable"
-// MNetworkVarNames = "bool m_bOneWay"
 // MNetworkVarNames = "bool m_bDisableZippingToByPlayers"
-// MNetworkVarNames = "bool m_bDisableZipAbilityTargeting"
-// MNetworkVarNames = "bool m_bUseForMinimapDrawing"
-// MNetworkVarNames = "float m_flExtraLatchDistance"
-// MNetworkVarNames = "float m_flSpeedMultiplier"
 // MNetworkVarNames = "float m_flSpeedMultiplierToBaseBonus"
 // MNetworkVarNames = "float m_flSpeedMultiplierFromBaseBonus"
-// MNetworkVarNames = "float m_flTaper"
-// MNetworkVarNames = "Color m_Color"
 // MNetworkVarNames = "EHANDLE m_hGuardingBosses"
 // MNetworkVarNames = "float m_flRopeRadius"
-// MNetworkVarNames = "bool m_bEnabled"
 class CCitadelZipLineNode : public C_BaseModelEntity
 {
 	// MNetworkEnable
@@ -50,8 +40,6 @@ class CCitadelZipLineNode : public C_BaseModelEntity
 	// MNetworkEnable
 	bool m_bUseBaseLaneColor;
 	// MNetworkEnable
-	bool m_bIsBaseBackLane;
-	// MNetworkEnable
 	// MNotSaved
 	int16 m_nRopesParity;
 	// MNetworkEnable
@@ -59,32 +47,14 @@ class CCitadelZipLineNode : public C_BaseModelEntity
 	// MNetworkEnable
 	bool m_bCapturable;
 	// MNetworkEnable
-	bool m_bAlwaysUsable;
-	// MNetworkEnable
-	bool m_bOneWay;
-	// MNetworkEnable
 	bool m_bDisableZippingToByPlayers;
-	// MNetworkEnable
-	bool m_bDisableZipAbilityTargeting;
-	// MNetworkEnable
-	bool m_bUseForMinimapDrawing;
-	// MNetworkEnable
-	float32 m_flExtraLatchDistance;
-	// MNetworkEnable
-	float32 m_flSpeedMultiplier;
 	// MNetworkEnable
 	float32 m_flSpeedMultiplierToBaseBonus;
 	// MNetworkEnable
 	float32 m_flSpeedMultiplierFromBaseBonus;
 	// MNetworkEnable
-	float32 m_flTaper;
-	// MNetworkEnable
-	Color m_Color;
-	// MNetworkEnable
 	// MNotSaved
 	C_NetworkUtlVectorBase< CHandle< C_BaseEntity > > m_hGuardingBosses;
 	// MNetworkEnable
 	float32 m_flRopeRadius;
-	// MNetworkEnable
-	bool m_bEnabled;
 };
