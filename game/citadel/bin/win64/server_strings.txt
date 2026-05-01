@@ -181,9 +181,10 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPXb
- (08@HR
- (0X`hpz
+ (08@HPX`jp
+ (08@HPXb`=
+ (08@HPZp
+ (08@Jp
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -2054,12 +2055,11 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0J0
-.0K0
-.0L0
-.0c0
-.0e0
-.0f0
+.0G0
+.0H0
+.0V0
+.0b0
+.0h0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14048,13 +14048,11 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PJ0
-.PL0
-.PM0
-.PN0
+.PG0
+.PH0
+.PI0
 .PartnerAccountType
-.Pc0
-.Pe0
+.Pb0
 .PingCommonData
 .PostProcessingGameStates
 .Q.Ol
@@ -14341,12 +14339,13 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pL0
-.pM0
-.pc0
-.pg0
-.pm0
+.pG0
+.pH0
+.pb0
+.pe0
 .pp@0
+.pq0
+.py0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14403,7 +14402,8 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@J
+08@HRp
+08Bp
 08bX
 09,h
 0;Q5[
@@ -14441,6 +14441,7 @@ $light_emissive
 0pp@5tqE?|sO541
 0tU+xc:
 0x%s
+0xY+
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
 1.35
@@ -14628,15 +14629,17 @@ $light_emissive
 3|rN>
 4)#bH
 4)m1
-4+\tp8
+4+\t03
 474E4U4W4c4i4m4
 4<Td
+4?\f0x
 4@AA
 4B0X8
 4Ch;
 4F0I
 4Mv8
 4Zis
+4\f0x
 4\fPl
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
@@ -14665,6 +14668,7 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
+5\fWx
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14684,15 +14688,14 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 R0
+6 L0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60S0
-60l0
+60Q0
 62$|S)6f
 64CK\vH
 65535
@@ -14700,15 +14703,17 @@ $light_emissive
 65535"j\n
 65535B$
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666@
+6666666666666666P
 67-s
-6@P0
-6@W0
-6@m0
+6@J0
+6@M0
 6H,N
 6O|T%
-6PZ0
+6P*0
+6P40
+6Pt0
 6Qd=
+6\fWx
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14719,7 +14724,9 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`Q0
+6`K0
+6`P0
+6`q0
 6afD
 6bX+
 6c&0|vvX
@@ -14727,7 +14734,9 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pV0
+6p!0
+6pT0
+6pU0
 6qo~
 6r-m_v
 6r1ij
@@ -14776,6 +14785,7 @@ $light_emissive
 851Pe
 8<pl
 8= zp
+8@Jp
 8A6j
 8GZS
 8SIffK5W
@@ -14971,7 +14981,6 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->0Y0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -14994,7 +15003,7 @@ $light_emissive
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
->PT0
+>PR0
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15046,9 +15055,10 @@ $light_emissive
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @0pp
+@6P@0
 @Accolades
 @BH]f
-@HPX`hv@o0
+@HVp
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15083,6 +15093,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:P
 AABBDirection
 AACompromise
 AC2,h
@@ -21470,6 +21481,7 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
+F s0
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -21521,7 +21533,7 @@ F\n\finventories3
 F\n\fitem_scalars
 F\n\trow_range
 F\rH'4
-F`x0
+F`p0
 Face %s
 Face Actor
 Face Entity
@@ -25697,10 +25709,11 @@ P-224
 P-256
 P-384
 P-521
-P08@J
+P08@J`=
 P08J
 P1\t98"
 P5[1
+P6@,0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26471,6 +26484,7 @@ PushThink
 PushVelocity
 Pushes an identifier used to group overlays. Deletes all existing overlays using this overlay id.
 Pushes an identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch.
+PxY+
 P|iC\r
 Q*hd
 Q/xtJ2
@@ -30639,6 +30653,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hrp
 Xd3h
 XfJ7
 XjfR
@@ -31045,6 +31060,7 @@ Z~wl
 \nEnemy is %s
 \nGameTime_t
 \nGameTime_t"
+\nPxY+
 \nSimulating Entities:\n\n
 \nVisMon: Polling now. (Frequency: %f)\n
 \n\fBPE_Teleport
@@ -31914,9 +31930,6 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60M0
-`60N0
-`60d0
 `:zQF
 `D$daM-l
 `DZG
@@ -31926,7 +31939,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -34187,7 +34199,7 @@ cvarvalue
 cycle
 cz>Sp
 d e not congruent to 1
-d,\tp8
+d,\t03
 d.allOrFirstTier
 d.authenticatedData
 d.certificate
@@ -34261,7 +34273,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\t0
 dSAQuality
 dWry
 dZ!2.
@@ -34657,7 +34668,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
-dq\fp6
+dq\f01
 draft
 draft_item_sets
 drag_override
@@ -35326,7 +35337,6 @@ eye_l_fx
 eye_r_fx
 eyes_follow
 eyj5yR
-f u0
 f#9i\n
 f%wyLmX:
 f&dy
@@ -36435,6 +36445,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
+hpz`=
 hr_H
 http request
 https proxy request
@@ -40140,13 +40151,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j`m
+p0j h
 p2{l
 p4Z3
 p5Z3
 p5\nL,
+p6 /0
 p618
-p6`40
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40170,7 +40181,6 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
-pF@;0
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -42698,7 +42708,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\t0
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -44095,6 +44104,5 @@ zz2K
 ~P2T
 ~R65Fu
 ~jLRG
-~pe0
 ~w]UG
 ~yhZ
