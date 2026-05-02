@@ -2055,9 +2055,9 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0c0
-.0d0
-.0g0
+.0H0
+.0I0
+.0Y0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14028,6 +14028,7 @@ $light_emissive
 .MODIFIER_ENTRY_TYPE
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
+.P70
 .PARTICLE_MESSAGE
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
@@ -14046,11 +14047,10 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PJ0
-.PL0
-.PZ0
+.PH0
+.PI0
 .PartnerAccountType
-.Pc0
+.Pb0
 .PingCommonData
 .PostProcessingGameStates
 .Q.Ol
@@ -14337,9 +14337,9 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pI0
-.pJ0
-.pZ0
+.pH0
+.pY0
+.pb0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14400,11 +14400,12 @@ $light_emissive
 08@J
 08bX
 09,h
-0:px
+0:0w
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
 0AgffA
+0LE+
 0M2~@p
 0W/5
 0Z@q
@@ -14435,7 +14436,7 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vdj+
+0v$i+
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14630,7 +14631,6 @@ $light_emissive
 4B8X8
 4Ch;
 4F0I
-4F\v0
 4Mv8
 4Zis
 4\fPl
@@ -14661,7 +14661,6 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
-5\fgy
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14681,16 +14680,14 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 T0
+6 V0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60O0
-60X0
-60m0
+60P0
 62$|S)6f
 64CK\vH
 65535
@@ -14698,15 +14695,17 @@ $light_emissive
 65535"j\n
 65535B$
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666P
+6666666666666666@
 67-s
-6@Z0
+6@Q0
+6@j0
 6H,N
 6O|T%
-6PP0
-6PS0
+6PN0
+6PU0
+6Pk0
+6Pz0
 6Qd=
-6\fgy
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14717,7 +14716,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`W0
+6`X0
 6afD
 6bX+
 6c&0|vvX
@@ -14725,7 +14724,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pQ0
+6pO0
 6qo~
 6r-m_v
 6r1ij
@@ -14968,7 +14967,7 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->0l0
+>0S0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -14991,7 +14990,6 @@ $light_emissive
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
->PY0
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15012,7 +15010,8 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->pT0
+>pV0
+>px0
 >yhP
 >ztq
 ?333?
@@ -15043,14 +15042,13 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Ndj+
+@08N$i+
 @0pp
-@6@J0
-@6`I0
+@6 H0
 @Accolades
 @BH]f
+@HPX`hvPm0
 @MfKZ
-@N q0
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -15064,11 +15062,10 @@ $light_emissive
 @\n\vPowerUpBuff
 @citadel_item_pickup_rejuv_herotest
 @dKb]
-@fdj+
 @fff>fff>fff>fff>
+@htp
 @i1V
 @n2w
-@ndj+
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -15077,6 +15074,7 @@ A string associated with this Cursor, to use later for remote Kill or Wait reque
 A uniform random number generator.
 A!A3A5A;A?AYAeAkAwA{A
 A%N_A
+A(A8
 A,uw"
 A.00h
 A.I. Disabled...\n
@@ -16540,8 +16538,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_b
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_beam.cpp:243
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4331
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4505
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4309
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4483
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_gamerules.cpp
@@ -21517,7 +21515,6 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FP:0
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21883,6 +21880,7 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
+Fpv0
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25705,11 +25703,10 @@ P-256
 P-384
 P-521
 P08@J
-P08J \r
-P08Ndj+
+P08J
+P08N$i+
 P1\t98"
 P5[1
-P6 d0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -25894,6 +25891,7 @@ PKEY_SET_TYPE
 PKEY_USAGE_PERIOD
 PKIX
 PLASMA
+PLE+
 PLUG_TYPE_INPUT
 PLUG_TYPE_OUTPUT
 PLUG_TYPE_RELAY_OMNIDIRECTIONAL_LEGACY
@@ -26103,7 +26101,6 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf080
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -26248,8 +26245,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn090
-Pndj+
+Pn$i+
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -30920,6 +30916,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPLE+
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31852,6 +31849,8 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpLE+
+\vpPG+
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -31924,9 +31923,9 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60L0
 `6@K0
-`6PM0
+`6@L0
+`6@b0
 `:zQF
 `D$daM-l
 `DZG
@@ -31935,9 +31934,7 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
-`fdj+
 `h9T~
-`ndj+
 `o_je
 `yNT
 a null shared library handle was used
@@ -31956,7 +31953,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvdj+
+aBv$i+
 aD/x
 aDSS
 aECDH
@@ -35336,6 +35333,7 @@ eyj5yR
 f#9i\n
 f%wyLmX:
 f&dy
+f0s0
 f1cK%
 f45\r
 fBB\fy
@@ -35450,7 +35448,6 @@ fathom_lurkers_ambush
 fathom_reefdweller_harpoon
 fathom_scalding_spray
 favouriteDrink
-fdj+
 fdxfv%
 featherboomerang_projectile
 feop(
@@ -35747,7 +35744,6 @@ found_friendship
 fow_control_point
 fow_control_point2
 fpnS
-fpt0
 frac
 fraction
 frame_idle_time_95_micro_s
@@ -39490,7 +39486,6 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n u0
 n0?X
 n1Z 
 n5cM
@@ -39574,7 +39569,6 @@ navprop
 navsystem
 nbio connect error
 ncg:
-ndj+
 ne[9
 nearby_allies_and_spectators
 nearby_hero_networth_pct_diff
@@ -40143,6 +40137,7 @@ owning_ability
 p is not prime
 p not prime
 p!PcA1|
+p(A8
 p)ou}
 p+"\tHr9
 p.char_two
@@ -40151,13 +40146,14 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^dj+
+p08@H^$i+
+p0jpk
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p>dj+
+p6p20
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40181,6 +40177,7 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
+pFP90
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -40189,6 +40186,7 @@ pHitEntity
 pIdentifier
 pIp 
 pJointName
+pLE+
 pLocationEntity
 pMaterialGroup
 pMeshGroupName
@@ -40681,7 +40679,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pndj+
+pn$i+
 point
 point arithmetic failure
 point at infinity
@@ -43615,7 +43613,6 @@ vPoint
 vPoint1
 vPoint2
 vPosition
-vPq0
 vPrevWaypoint.IsValid()\n
 vStartPos
 vStartPos[%s] pStartArea[%d]
@@ -43704,7 +43701,6 @@ vcd_pulse_requirement
 vdata
 vdata_choice
 vdataderived
-vdj+
 vec1_
 vec2_
 vec3_
