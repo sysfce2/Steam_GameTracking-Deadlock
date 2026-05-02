@@ -1133,6 +1133,7 @@ $light_emissive
 %s[%d]: Trace[%d], hitbox name: %s, hitbox_min: (%f, %f, %f), hitbox_max: (%f, %f, %f)\n
 %s\%s_%s_%s_%s_%i%s.vanimreplay
 %s\n%2.f - Pos: %.2f, Orient: %.2f
+%s\t%32.32s = "%s"\n
 %s_%03d
 %s_%s.csv
 %s_%s_%i-%i-%i_%02uh%02um%02us
@@ -2054,9 +2055,9 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.040
-.0E0
-.0F0
+.0c0
+.0d0
+.0g0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14028,7 +14029,6 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
-.PE0
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14046,11 +14046,13 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PV0
+.PJ0
+.PL0
+.PZ0
 .PartnerAccountType
+.Pc0
 .PingCommonData
 .PostProcessingGameStates
-.Pz0
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14335,8 +14337,9 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pE0
-.pb0
+.pI0
+.pJ0
+.pZ0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14391,13 +14394,13 @@ $light_emissive
 0.25
 0.5 = 50% speed\n1 = 100% speed\n2 = 200% speed\n(Only editable when Fixed Length is false)
 0.75
-00Z+
 0123456789
 02V8[
 05=k
 08@J
 08bX
 09,h
+0:px
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
@@ -14432,6 +14435,7 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vdj+
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14566,7 +14570,6 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vp0Z+
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14624,9 +14627,10 @@ $light_emissive
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4B0X8
+4B8X8
 4Ch;
 4F0I
+4F\v0
 4Mv8
 4Zis
 4\fPl
@@ -14657,7 +14661,7 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
-5\fgx
+5\fgy
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14677,18 +14681,16 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 N0
-6 g0
+6 T0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60K0
-60R0
-60h0
-60w0
+60O0
+60X0
+60m0
 62$|S)6f
 64CK\vH
 65535
@@ -14698,13 +14700,13 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666P
 67-s
-6@U0
-6@z0
+6@Z0
 6H,N
 6O|T%
-6PL0
+6PP0
+6PS0
 6Qd=
-6\fgx
+6\fgy
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14715,7 +14717,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`Q0
+6`W0
 6afD
 6bX+
 6c&0|vvX
@@ -14723,8 +14725,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pJ0
-6pM0
+6pQ0
 6qo~
 6r-m_v
 6r1ij
@@ -14849,7 +14850,6 @@ $light_emissive
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:ParticleAttachment_t
 :QYJ
 :Vlq
 :\n5k_EMsgClientToGCCancelUnfinalizedTransactionsResponse
@@ -14874,7 +14874,7 @@ $light_emissive
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;Dm_scriptState
+;Dm_bTeleportOnEnd
 ;LGEW
 ;Qo0
 ;X94<
@@ -14968,6 +14968,7 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
+>0l0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -14990,8 +14991,7 @@ $light_emissive
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
->PS0
->Pu0
+>PY0
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15012,16 +15012,17 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->pN0
+>pT0
 >yhP
 >ztq
 ?333?
 ?33s?
+?CAbility_Fathom_ReefdwellerHarpoon_VData
 ?CAnimFoot
-?CCitadel_Ability_Priest_BearTrapVData
-?Format: ent_find substring [substring...] [-exclude_substring...] \n
+?Can't ent_call w/o arguments!\n
 ?HAI\t81\t9dcG'
 ?HP4
+?SCHED_FAMILIARHELPER_PERFORM_TASK_END_INFEST
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15029,25 +15030,27 @@ $light_emissive
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
-?compare game events across all mods
 ?d86L
 ?dt]X
 ?expf
 ?ffffff
 ?gwL
 ?jOb
-?pW8
 ?srJO
 ?tya
 ?uWS
+?write gameevents keyvalues (sorted by name) to gameevents_<modname>.txt
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08Ndj+
 @0pp
+@6@J0
+@6`I0
 @Accolades
 @BH]f
-@HPX`hv0j0
 @MfKZ
+@N q0
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -15059,11 +15062,13 @@ $light_emissive
 @\n<STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INTERNAL_DATA_SOURCE_ERROR
 @\n\fSingleObject
 @\n\vPowerUpBuff
+@citadel_item_pickup_rejuv_herotest
 @dKb]
+@fdj+
 @fff>fff>fff>fff>
-@htP
 @i1V
 @n2w
+@ndj+
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -15086,7 +15091,6 @@ AABBDirection
 AACompromise
 AC2,h
 ACCESS_DESCRIPTION
-ACCitadel_Ability_Fencer_RiposteVData
 ACHIEVEMENT_EVENT_
 ACID
 ACPT_STATE
@@ -15917,6 +15921,7 @@ BOUNDARY
 BREAKABLE
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
+BServer sound helpers.
 BT5f
 BTEBubbleTrail_GameEvent_t
 BUCKSHOT
@@ -16054,8 +16059,8 @@ Batched Inference response without corresponding waiting handle! (%d)
 Batched Snapshot response without corresponding waiting handle! (%d)
 BatteryGenerationPercent
 BcT`
+Bcitadel_new_years_fireworks
 Bd]U
-Bdebug - disable trace query cache
 BeamCloseDamagePercent
 BeamCloseRadius
 BeamDamageOutput
@@ -16283,7 +16288,6 @@ BounceVelocity
 BountyDuration
 BountyThreshold
 BoxAngles
-BpW8
 Branch (%s): %s
 Branch value: %s
 Branch%02d
@@ -16536,8 +16540,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_b
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_beam.cpp:243
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4298
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4472
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4331
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4505
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_gamerules.cpp
@@ -16554,7 +16558,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stats_sha
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2331
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2456
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_archer.cpp:1255
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:561
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:564
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_familiar.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1971
@@ -17380,6 +17384,7 @@ CEntitySpawner<class CWorld>::Spawn
 CEntitySpawner<class C_HeroPreview>::Spawn
 CEntitySubclassGameSystem
 CEntitySubclassGameSystem::LoadSubclasses
+CEntitySubclassGameSystem::ParseSubclass
 CEntitySubclassGameSystem::ParseVDataFile
 CEntitySystem::AddKeyToUnserialize
 CEntitySystem::AllocateEntityIdentity
@@ -19287,6 +19292,7 @@ CWorkThread -- Sleep
 CWorkThreadPool::StartWorkThread: Thread creation failed.\n
 CWorkThreadPool::~CWorkThreadPool: work complete queue not empty, %d items discarded.\n
 CWorkThreadPool::~CWorkThreadPool: work processing queue not empty: %d items discarded.\n
+CX2\
 C[L6
 C\lVQ
 C\n?k_EGCMsgInitiateTradeResponse_Free_Account_Initiator_DEPRECATED
@@ -19338,7 +19344,6 @@ Can Character See Entity
 Can't %s on %s: its AnimGraph needs a Direct Playback node\n
 Can't access unified message interface. Make sure Steam is up-to-date!\n
 Can't create NPC. Bad Position!\n
-Can't ent_call w/o arguments!\n
 Can't find a nearby track !!!\n
 Can't find bottom track for track change! %s\n
 Can't find ladder in path
@@ -19555,6 +19560,8 @@ CitadelSatVolumeGameSystem
 CitadelSatVolumeGameSystemClientDebug
 CitadelServerLobby
 CitadelSignOutPlayerInfo
+CitadelSkill_t
+CitadelSkill_t"
 CitadelStatTracker_global_server
 CitadelTVDirector
 CitadelTeam_t
@@ -21374,7 +21381,7 @@ Error in encoding\n
 Error loading kv3 data: %s\n
 Error map!
 Error parsing '%s'
-Error parsing KV3 data in '%s' for entity subclass '%s' vdata class %s\nErrors: %s\n
+Error parsing KV3 data in '%s' for entity subclass '%s' vdata class '%s': %s\n
 Error parsing soundscape file %s after %s\n
 Error reading sub-version number.\n
 Error writing kv3 data: %s\n
@@ -21510,7 +21517,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FPs0
+FP:0
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21848,6 +21855,7 @@ Forcing S1 g_pNetworkStringTable to use version from engine.dll\n
 Forcing split screen player onto team %s\n
 ForgetEntity
 Format: citadel_bot_give_team_gold <team> <amount>\n
+Format: ent_find substring [substring...] [-exclude_substring...] \n
 Format: ent_find_index <index>\n
 Format: ent_orient <entity name> <optional: allangles>\n
 Format: ent_teleport <entity name>\n
@@ -22510,6 +22518,7 @@ HAS FL_FLY
 HAS_LADDERS
 HB@T\tJ
 HBJ\nTRF
+HBTerminating due to %d missing responses from the GC\n
 HDR Color Scale: %0.3f
 HEAD 
 HELPER_BONE
@@ -24218,7 +24227,6 @@ MS[;6
 MScriptDescription
 MTreatUnknownEnumeratorsAsZero
 MUST
-MUST FIX: %s\n
 MVDataAssociatedFile
 MVDataRoot
 MVDataSingleton
@@ -25697,11 +25705,11 @@ P-256
 P-384
 P-521
 P08@J
-P08J
-P0Z+
+P08J \r
+P08Ndj+
 P1\t98"
 P5[1
-P6p,0
+P6 d0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -25963,6 +25971,7 @@ ParryMoveSpeed
 ParrySuccessHealPercentage
 ParryWindow
 Parse error on %s: %s\n
+ParseSubclass
 ParserResponse
 Particle Binding
 Particle Binding (Real)
@@ -26094,6 +26103,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+Pf080
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -26238,6 +26248,8 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+Pn090
+Pndj+
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26670,7 +26682,6 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vp0Z+
 R]Di
 Rad2 Deg
 RadiationThink
@@ -27168,7 +27179,6 @@ SCHED_FAMILIARHELPER_PERFORM_TASK_COLLECT
 SCHED_FAMILIARHELPER_PERFORM_TASK_DAMAGE
 SCHED_FAMILIARHELPER_PERFORM_TASK_DAMAGE_ATTACHED
 SCHED_FAMILIARHELPER_PERFORM_TASK_DAMAGE_UNIT
-SCHED_FAMILIARHELPER_PERFORM_TASK_END_INFEST
 SCHED_FAMILIARHELPER_PERFORM_TASK_HEAL_INFEST
 SCHED_FAMILIARHELPER_PERFORM_TASK_SHOP
 SCHED_FAMILIARHELPER_SCARED
@@ -29530,7 +29540,6 @@ TempTechShieldHealth
 Template NPC Spawner "%s" doesn't have any valid spawn destinations!\n
 Template NPC Spawner "%s" encountered invalid spawn destination "%s" at %.3f %.3f %.3f\n
 Template NPC Spawner "%s" has only %d valid spawn destinations out of %d.\n
-Terminating due to %d missing responses from the GC\n
 Terminating immediately due to version change since server is hibernating\n
 Terminating immediately due to version change since this is a bot test server\n
 Test Mode Assert True
@@ -30911,7 +30920,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp0Z+
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31713,7 +31721,6 @@ Z~wl
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
-\r%s\t%32.32s = "%s"\n
 \r@h!Aq8
 \rB6uZ
 \rChallengeID_t
@@ -31845,8 +31852,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vp0D+
-\vp0Z+
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -31919,8 +31924,9 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6 H0
-`6 I0
+`60L0
+`6@K0
+`6PM0
 `:zQF
 `D$daM-l
 `DZG
@@ -31929,7 +31935,9 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
+`fdj+
 `h9T~
+`ndj+
 `o_je
 `yNT
 a null shared library handle was used
@@ -31948,6 +31956,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvdj+
 aD/x
 aDSS
 aECDH
@@ -33714,7 +33723,6 @@ citadel_item_metal
 citadel_item_pickup
 citadel_item_pickup_idol
 citadel_item_pickup_rejuv
-citadel_item_pickup_rejuv_herotest
 citadel_item_pickup_rejuv_herotest_infospawn
 citadel_item_powerup_spawner
 citadel_item_punchable_gold
@@ -33738,7 +33746,6 @@ citadel_modifier_tangotether_tether
 citadel_modifier_tangotether_tether_receiver
 citadel_modifier_teleport
 citadel_nano_predatory_statue
-citadel_new_years_fireworks
 citadel_obscured_volume
 citadel_passthrough_fake_wall
 citadel_pestilence_drone_dispenser
@@ -34658,7 +34665,6 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
-dq\f`1
 draft
 draft_item_sets
 drag_override
@@ -35444,6 +35450,7 @@ fathom_lurkers_ambush
 fathom_reefdweller_harpoon
 fathom_scalding_spray
 favouriteDrink
+fdj+
 fdxfv%
 featherboomerang_projectile
 feop(
@@ -35740,6 +35747,7 @@ found_friendship
 fow_control_point
 fow_control_point2
 fpnS
+fpt0
 frac
 fraction
 frame_idle_time_95_micro_s
@@ -36285,6 +36293,7 @@ hero_magician_henry
 hero_magician_savannah
 hero_mmr
 hero_mmr_with_uncertainty
+hero_mmru_skill
 hero_model_change
 hero_preview
 hero_selections
@@ -39481,6 +39490,7 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
+n u0
 n0?X
 n1Z 
 n5cM
@@ -39564,6 +39574,7 @@ navprop
 navsystem
 nbio connect error
 ncg:
+ndj+
 ne[9
 nearby_allies_and_spectators
 nearby_hero_networth_pct_diff
@@ -40140,15 +40151,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0Z+
-p0jPh
+p08@H^dj+
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6@~0
-p6P/0
+p>dj+
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40172,7 +40181,6 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
-pF060
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -40673,6 +40681,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
+pndj+
 point
 point arithmetic failure
 point at infinity
@@ -43606,6 +43615,7 @@ vPoint
 vPoint1
 vPoint2
 vPosition
+vPq0
 vPrevWaypoint.IsValid()\n
 vStartPos
 vStartPos[%s] pStartArea[%d]
@@ -43694,6 +43704,7 @@ vcd_pulse_requirement
 vdata
 vdata_choice
 vdataderived
+vdj+
 vec1_
 vec2_
 vec3_
