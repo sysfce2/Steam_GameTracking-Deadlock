@@ -749,6 +749,11 @@
 		"Citadel_Survey_Question_HeroPower_LowLabel"			"Weak"
 		"Citadel_Survey_Question_HeroPower_HighLabel"			"Powerful"
 
+		"Citadel_Survey_Question_HeroFrontliner"				"How good of a <span class=\"playAsHighlight\"><b>frontliner</b></span> is this hero?"
+		"Citadel_Survey_Question_HeroCarry"						"How good of a <span class=\"playAsHighlight\"><b>carry</b></span> is this hero?"
+		"Citadel_Survey_Question_HeroDisable"					"How good is this hero at <span class=\"playAsHighlight\"><b>disables or crowd control</b></span> ?"
+		"Citadel_Survey_Question_HeroUtility"					"How good is this hero at <span class=\"playAsHighlight\"><b>utility or healing</b></span>?"
+
 		// Book
 		//"Citadel_Book_NotEnoughXP"							"This chatper requires {d:unlock_cost} to unlock, but you only have {d:available_unlocks} available. Play more matches to earn more unlocks."
 		//"Citadel_Book_NotEnoughXPSingle"					"This chapter requires spending an unlock, but you don't have any currently available. Play more matches to earn more unlocks."

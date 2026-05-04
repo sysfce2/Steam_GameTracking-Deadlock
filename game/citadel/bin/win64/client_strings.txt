@@ -1177,12 +1177,16 @@
 #Citadel_StopMatchMaking_ErrorTitle
 #Citadel_StopMatchMaking_FailedToGetResponse
 #Citadel_StopMatchMaking_GeneralError
+#Citadel_Survey_Question_HeroCarry
+#Citadel_Survey_Question_HeroDisable
+#Citadel_Survey_Question_HeroFrontliner
 #Citadel_Survey_Question_HeroPlayAgainst
 #Citadel_Survey_Question_HeroPlayAgainst_
 #Citadel_Survey_Question_HeroPlayAs
 #Citadel_Survey_Question_HeroPlayAs_
 #Citadel_Survey_Question_HeroPower
 #Citadel_Survey_Question_HeroPower_
+#Citadel_Survey_Question_HeroUtility
 #Citadel_Survey_Question_ItemDesign
 #Citadel_Survey_Question_ItemDesign_
 #Citadel_Survey_Question_ItemPower
@@ -16747,7 +16751,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vd9
+0vd:
 0x%4.4x 
 0x%X
 0x%X 
@@ -17485,9 +17489,8 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Nd9
+@08Nd:
 @0pp
-@6PZ
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
@@ -17509,13 +17512,11 @@ $hRh
 @\tV_iswcntrl
 @absorigin_follow
 @dKb]
-@fd9
 @fff>fff>fff>fff>
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @n2w
-@nd9
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -19200,8 +19201,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:723
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4309
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4483
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4312
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4486
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
@@ -24308,6 +24309,7 @@ DetonationRange
 Dev operation was successful\n
 DevConsole
 DevUniverse
+Dheb
 Dhq0\ri
 DialogVariablesHeader
 DiamondResistShred
@@ -29366,11 +29368,11 @@ P-384
 P-521
 P08@J
 P08J 
-P08Nd9
+P08Nd:
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6pw
+P6px
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30090,7 +30092,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-Pnd9
+Pnd:
 Point entity.
 Point under crosshair
 PointType
@@ -35492,6 +35494,7 @@ Z~wl
 \n\fk_eDeveloper
 \n\fk_eEmailUsed
 \n\fk_eGrant_Win
+\n\fk_eHeroCarry
 \n\fk_eHeroPower
 \n\fk_eItemPower
 \n\fk_eLeftParty
@@ -36541,10 +36544,7 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
-`fd9
 `h9T~
-`htP
-`nd9
 `o_je
 `yNT
 a null shared library handle was used
@@ -36562,7 +36562,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvd9
+aBvd:
 aD/x
 aDSS
 aECDH
@@ -43183,9 +43183,12 @@ k_eGotInitialHeroes
 k_eGrant_Award
 k_eHasAdditionalItem
 k_eHasUpgradeBit
+k_eHeroDisable
+k_eHeroFrontliner
 k_eHeroLabsMMNotOpen
 k_eHeroLabsNotUnlocked
 k_eHeroPlayAgainst
+k_eHeroUtility
 k_eHeroesNotUnlocked
 k_eHideHolidayModels
 k_eInMatchMaking
@@ -46129,8 +46132,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^d9
-p0j08
+p08@H^d:
+p0j09
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46141,7 +46144,6 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>d9
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -46818,7 +46820,7 @@ playtime_2weeks
 playtime_forever
 plum
 pmodifier_capture_data_descs
-pnd9
+pnd:
 pngsize
 point
 point arithmetic failure
