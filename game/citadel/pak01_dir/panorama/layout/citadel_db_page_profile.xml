@@ -102,6 +102,7 @@
 					<CitadelAvatarImage id="SelfImage" />
 					<Panel id="ProfileInfo">
 						<CitadelUserName id="SelfName" />
+						<Label class="FriendID" text="#Citadel_Profile_FriendID" />
 						<Button id="ForumButton" onactivate="CitadelJoinForum()">
 							<Panel class="ForumIcon buttonIcon" />
 							<Label class="defaultText" text="#Citadel_JoinForum_ViewInfo" />

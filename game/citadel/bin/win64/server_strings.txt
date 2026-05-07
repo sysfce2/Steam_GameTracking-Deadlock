@@ -2055,12 +2055,12 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.050
-.0D0
+.0I0
 .0J0
-.0L0
+.0K0
+.0b0
 .0d0
-.0f0
+.0e0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14049,7 +14049,13 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PI0
+.PK0
+.PL0
+.PM0
+.PZ0
 .PartnerAccountType
+.Pb0
 .Pd0
 .PingCommonData
 .PostProcessingGameStates
@@ -14337,10 +14343,11 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pI0
-.pJ0
+.pK0
+.pL0
+.pZ0
 .pb0
-.pd0
+.pf0
 .pl0
 .pp@0
 .solo
@@ -14436,7 +14443,6 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vti+
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14571,7 +14577,6 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpL
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14626,16 +14631,16 @@ $light_emissive
 3|rN>
 4)#bH
 4)m1
+4+\tp7
 474E4U4W4c4i4m4
 4<Td
-4?\f0x
 4@AA
 4B8X8
 4Ch;
 4F0I
+4F\vP
 4Mv8
 4Zis
-4\f0x
 4\fPl
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
@@ -14664,7 +14669,7 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
-5\fWx
+5\fgx
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14684,14 +14689,15 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 P0
+6 Q0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60S0
+60R0
+60k0
 62$|S)6f
 64CK\vH
 65535
@@ -14701,15 +14707,15 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666@
 67-s
-6@N0
-6@W0
+6@O0
+6@V0
 6@l0
 6H,N
 6O|T%
 6PY0
-6P{0
+6P~0
 6Qd=
-6\fWx
+6\fgx
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14720,8 +14726,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`O0
-6`R0
+6`P0
 6afD
 6bX+
 6c&0|vvX
@@ -14729,7 +14734,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pV0
+6pU0
 6qo~
 6r-m_v
 6r1ij
@@ -14972,6 +14977,7 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
+>0X0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -14994,8 +15000,7 @@ $light_emissive
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
->PT0
->Ps0
+>PS0
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15046,15 +15051,11 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Nti+
 @0pp
-@6 J0
-@6PI0
-@6pH0
 @Accolades
 @BH]f
+@HPX`hv@n0
 @MfKZ
-@N0p0
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -15069,10 +15070,8 @@ $light_emissive
 @citadel_item_pickup_rejuv_herotest
 @dKb]
 @fff>fff>fff>fff>
-@fti+
 @i1V
 @n2w
-@nti+
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -16568,7 +16567,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_he
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1971
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2007
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2124
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2129
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1933
@@ -21481,7 +21480,6 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
-F 90
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -21533,7 +21531,7 @@ F\n\finventories3
 F\n\fitem_scalars
 F\n\trow_range
 F\rH'4
-F`90
+F`w0
 Face %s
 Face Actor
 Face Entity
@@ -25711,12 +25709,9 @@ P-256
 P-384
 P-521
 P08@J
-P08J0\f
-P08Nti+
+P08J
 P1\t98"
 P5[1
-P6 D0
-P60c0
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26110,7 +26105,6 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf@70
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -26255,8 +26249,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn@80
-Pnti+
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26689,7 +26681,6 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpL
 R]Di
 Rad2 Deg
 RadiationThink
@@ -31932,9 +31923,9 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6@K0
-`6PJ0
-`6`L0
+`60L0
+`60M0
+`60c0
 `:zQF
 `D$daM-l
 `DZG
@@ -31943,9 +31934,7 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
-`fti+
 `h9T~
-`nti+
 `o_je
 `yNT
 a null shared library handle was used
@@ -31964,7 +31953,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvti+
 aD/x
 aDSS
 aECDH
@@ -34205,6 +34193,7 @@ cvarvalue
 cycle
 cz>Sp
 d e not congruent to 1
+d,\tp7
 d.allOrFirstTier
 d.authenticatedData
 d.certificate
@@ -34278,6 +34267,7 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
+dP\t0
 dSAQuality
 dWry
 dZ!2.
@@ -34673,6 +34663,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
+dq\fp5
 draft
 draft_item_sets
 drag_override
@@ -35341,6 +35332,7 @@ eye_l_fx
 eye_r_fx
 eyes_follow
 eyj5yR
+f t0
 f#9i\n
 f%wyLmX:
 f&dy
@@ -35794,7 +35786,6 @@ from
 from_crate
 frozen
 fruit_model
-fti+
 fulfilled_item_id
 full_body
 full_charge
@@ -39497,9 +39488,7 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n0#0
 n0?X
-n0t0
 n1Z 
 n5cM
 n6j/
@@ -39910,7 +39899,6 @@ nsRevocationUrl
 nsSGC
 nsSslServerName
 nssslserver
-nti+
 null before block missing
 null is wrong length
 null parameter
@@ -40160,13 +40148,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^ti+
+p0j`l
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p>ti+
+p6`30
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40190,6 +40178,7 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
+pF@:0
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -40690,7 +40679,6 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pnti+
 point
 point arithmetic failure
 point at infinity
@@ -42718,6 +42706,7 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
+tR\t0
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -43655,7 +43644,6 @@ v_movement_stop_position
 v_navlink_exit_direction
 v_navlink_target
 v_navlink_up
-v`p0
 valid
 validation_errors
 validity
@@ -43789,7 +43777,6 @@ vparams
 vqw0\nU
 vscripts
 vsnd_selection_index
-vti+
 vv == NULL
 vzcrR
 w+Ce
@@ -44114,9 +44101,8 @@ zz2K
 ~9ob
 ~If D
 ~P2T
-~Pc0
 ~R65Fu
 ~jLRG
-~pc0
+~pd0
 ~w]UG
 ~yhZ

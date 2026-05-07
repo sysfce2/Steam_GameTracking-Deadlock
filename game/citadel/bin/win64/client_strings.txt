@@ -89,7 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
+ (08@HPX`j 
  (08@HPXb
+ (08@HPZ 
  (08@HR
  (0X`hpz
  (Dirty Animation)
@@ -16708,7 +16710,9 @@ $hRh
 0123456789
 02V8[
 05=k
+08@HR 
 08@J
+08B 
 08bX
 09,h
 0:00
@@ -16751,7 +16755,6 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vd:
 0x%4.4x 
 0x%X
 0x%X 
@@ -16973,6 +16976,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
+2\vp4>
 2^pV
 2a"l
 2bT~
@@ -17489,7 +17493,6 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Nd:
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
@@ -19224,7 +19227,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:564
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2007
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2124
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2129
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1933
@@ -23758,6 +23761,7 @@ DH_compute_key
 DH_generate_key
 DH_generate_parameters_ex
 DH_new_method
+DHeb
 DHparams_print_fp
 DIFFUSE_AMBIENT_OCCLUSION
 DIFFUSE_LIGHTING
@@ -24309,7 +24313,6 @@ DetonationRange
 Dev operation was successful\n
 DevConsole
 DevUniverse
-Dheb
 Dhq0\ri
 DialogVariablesHeader
 DiamondResistShred
@@ -29367,12 +29370,11 @@ P-256
 P-384
 P-521
 P08@J
-P08J 
-P08Nd:
+P08J@
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6px
+P6 X
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -29945,6 +29947,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+Pf U
 Phrase
 Phrase%d
 PhraseContainer
@@ -30092,7 +30095,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-Pnd:
+Pn V
 Point entity.
 Point under crosshair
 PointType
@@ -30671,10 +30674,12 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
+R\fp4>
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vp0/
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34981,6 +34986,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr 
 Xd3h
 XfJ7
 XjfR
@@ -35196,6 +35202,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -36562,7 +36569,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvd:
 aD/x
 aDSS
 aECDH
@@ -46132,8 +46138,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^d:
-p0j09
+p0jP:
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46150,6 +46155,7 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
+pF0;
 pField
 pFilter
 pG_*h
@@ -46820,7 +46826,6 @@ playtime_2weeks
 playtime_forever
 plum
 pmodifier_capture_data_descs
-pnd:
 pngsize
 point
 point arithmetic failure
@@ -47248,8 +47253,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fp0/
 r\n\vstart_index
 r\vDi
+r\vp4>
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
