@@ -68,17 +68,41 @@ CitadelProfilePage
 	flow-children: down;
 }
 
+#ProfileInfo Button.SimpleIconButtonSteam
+{
+	flow-children: right;
+	transition-duration: 0.1s;
+	transition-property: wash-color;
+	height: 20px;
+	margin-right: 4px;
+	visibility: visible;
+	margin-left: -1px;
+	tooltip-position: left;
+}
+
+#ProfileInfo Button.SimpleIconButtonSteam:hover
+{
+	wash-color: #ffffff;
+	color: #ffffff;
+}
+
+#ProfileInfo Button.SimpleIconButtonSteam Image
+{
+	width: 20px;
+	margin-right: 4px;
+}
+
 #ProfileInfo .FriendID
 {
 	color: offWhite;
 	font-weight: semi-bold;
 	font-size: 18px;
 	margin-left: 8px;
-	opacity: 0.3;
-	max-height: 25px;
+	opacity: 0.5;
+	max-height: 20px;
 	max-width: 120px;
 	text-overflow: shrink;
-	vertical-align: middle;
+	vertical-align: bottom;
 	text-transform: uppercase;
 }
 

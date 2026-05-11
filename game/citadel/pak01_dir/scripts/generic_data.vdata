@@ -1040,8 +1040,8 @@
 			{
 				m_mapBuckets = 
 				{
-					Normal = 30.0
-					Good = 70.0
+					Normal = 40.0
+					Good = 60.0
 				}
 				m_strBucketName = "Tier 1"
 			}
@@ -1049,8 +1049,8 @@
 			{
 				m_mapBuckets = 
 				{
-					Normal = 40.0
-					Good = 60.0
+					Normal = 50.0
+					Good = 50.0
 				}
 				m_strBucketName = "Tier 2"
 			}
@@ -1058,8 +1058,8 @@
 			{
 				m_mapBuckets = 
 				{
-					Normal = 40.0
-					Good = 60.0
+					Normal = 50.0
+					Good = 50.0
 				}
 				m_strBucketName = "Tier 3"
 			}
@@ -1067,8 +1067,8 @@
 			{
 				m_mapBuckets = 
 				{
-					Normal = 45.0
-					Good = 55.0
+					Normal = 55.0
+					Good = 45.0
 				}
 				m_strBucketName = "Tier 4"
 			}

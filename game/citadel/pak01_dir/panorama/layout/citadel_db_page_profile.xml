@@ -102,7 +102,10 @@
 					<CitadelAvatarImage id="SelfImage" />
 					<Panel id="ProfileInfo">
 						<CitadelUserName id="SelfName" />
-						<Label class="FriendID" text="#Citadel_Profile_FriendID" />
+						<Button class="SimpleIconButtonSteam" id="ViewSteamProfile" onmouseout="UIHideTextTooltip();" onmouseover="UIShowTextTooltip( #Citadel_Profile_ViewSteamProfile );">
+							<Image id="SteamLogo" src="s2r://panorama/images/profile/icon_steam_psd.vtex" />
+							<Label class="FriendID" text="#Citadel_Profile_FriendID" />
+						</Button>
 						<Button id="ForumButton" onactivate="CitadelJoinForum()">
 							<Panel class="ForumIcon buttonIcon" />
 							<Label class="defaultText" text="#Citadel_JoinForum_ViewInfo" />
