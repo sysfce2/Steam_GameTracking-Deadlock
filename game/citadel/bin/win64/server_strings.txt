@@ -2055,12 +2055,11 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0I0
-.0J0
 .0K0
-.0b0
+.0L0
 .0d0
-.0e0
+.0f0
+.0n0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14049,14 +14048,13 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PI0
+.PJ0
 .PK0
 .PL0
-.PM0
-.PZ0
 .PartnerAccountType
-.Pb0
-.Pd0
+.Pc0
+.Pe0
+.Pf0
 .PingCommonData
 .PostProcessingGameStates
 .Q.Ol
@@ -14343,12 +14341,12 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pK0
+.pJ0
 .pL0
-.pZ0
-.pb0
-.pf0
-.pl0
+.pM0
+.pN0
+.pc0
+.pe0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14443,6 +14441,7 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0v4k+
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14631,16 +14630,16 @@ $light_emissive
 3|rN>
 4)#bH
 4)m1
-4+\tp7
 474E4U4W4c4i4m4
 4<Td
+4?\f0y
 4@AA
 4B8X8
 4Ch;
 4F0I
-4F\vP
 4Mv8
 4Zis
+4\f0y
 4\fPl
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
@@ -14669,7 +14668,7 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
-5\fgx
+5\fWy
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14690,32 +14689,30 @@ $light_emissive
 5t?F
 5~EW
 6 Q0
+6 T0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60R0
-60k0
+60X0
 62$|S)6f
 64CK\vH
 65535
 65535"
 65535"j\n
 65535B$
+66666666666666660
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666@
 67-s
-6@O0
-6@V0
-6@l0
+6@R0
 6H,N
 6O|T%
-6PY0
-6P~0
+6PS0
+6Pl0
 6Qd=
-6\fgx
+6\fWy
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14727,6 +14724,8 @@ $light_emissive
 6\n\vmatch_slots
 6_wEX
 6`P0
+6`W0
+6`m0
 6afD
 6bX+
 6c&0|vvX
@@ -14734,7 +14733,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pU0
+6pZ0
 6qo~
 6r-m_v
 6r1ij
@@ -14977,7 +14976,6 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->0X0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15000,7 +14998,7 @@ $light_emissive
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
->PS0
+>PY0
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15021,6 +15019,7 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
+>pT0
 >yhP
 >ztq
 ?333?
@@ -15051,10 +15050,12 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08N4k+
 @0pp
+@60J0
 @Accolades
 @BH]f
-@HPX`hv@n0
+@HPX`hv`o0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15069,9 +15070,11 @@ $light_emissive
 @\n\vPowerUpBuff
 @citadel_item_pickup_rejuv_herotest
 @dKb]
+@f4k+
 @fff>fff>fff>fff>
 @i1V
 @n2w
+@n4k+
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -15080,7 +15083,6 @@ A string associated with this Cursor, to use later for remote Kill or Wait reque
 A uniform random number generator.
 A!A3A5A;A?AYAeAkAwA{A
 A%N_A
-A(A8
 A,uw"
 A.00h
 A.I. Disabled...\n
@@ -19296,7 +19298,6 @@ CWorkThread -- Sleep
 CWorkThreadPool::StartWorkThread: Thread creation failed.\n
 CWorkThreadPool::~CWorkThreadPool: work complete queue not empty, %d items discarded.\n
 CWorkThreadPool::~CWorkThreadPool: work processing queue not empty: %d items discarded.\n
-CX2\
 C[L6
 C\lVQ
 C\n?k_EGCMsgInitiateTradeResponse_Free_Account_Initiator_DEPRECATED
@@ -21531,7 +21532,6 @@ F\n\finventories3
 F\n\fitem_scalars
 F\n\trow_range
 F\rH'4
-F`w0
 Face %s
 Face Actor
 Face Entity
@@ -25710,6 +25710,7 @@ P-384
 P-521
 P08@J
 P08J
+P08N4k+
 P1\t98"
 P5[1
 PAGN_4
@@ -26249,6 +26250,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+Pn4k+
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26378,7 +26380,7 @@ ProcRadius
 Process
 Process Selector
 ProcessLeaver: %d players have left, marking match as safe to abandon\n
-ProcessLeaver: Player %u effectively abandoned at %fs (%fs match time), marking match as not scored\n
+ProcessLeaver: Player %u abandoned (last seen at %fs match time, %s first blood), marking match as not scored\n
 ProcessMovement
 ProcessSceneEventsThink
 Processing account %u as a leaver\n
@@ -31923,9 +31925,10 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60L0
-`60M0
-`60c0
+`6 N0
+`6PM0
+`6PN0
+`6Pd0
 `:zQF
 `D$daM-l
 `DZG
@@ -31933,8 +31936,10 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`f4k+
 `fPw.\vM
 `h9T~
+`n4k+
 `o_je
 `yNT
 a null shared library handle was used
@@ -31953,6 +31958,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv4k+
 aD/x
 aDSS
 aECDH
@@ -32361,6 +32367,7 @@ aes256
 aevF~
 affect_ragdolls
 affiliationChanged
+after
 ag2tickseed
 aggregate
 aggregation_position
@@ -33031,6 +33038,7 @@ beam_windup
 beams
 beams_state
 bebop_hook_projectile
+before
 bell_charge
 bentnormal
 between_shots
@@ -34193,7 +34201,6 @@ cvarvalue
 cycle
 cz>Sp
 d e not congruent to 1
-d,\tp7
 d.allOrFirstTier
 d.authenticatedData
 d.certificate
@@ -34267,7 +34274,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\t0
 dSAQuality
 dWry
 dZ!2.
@@ -34663,7 +34669,6 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
-dq\fp5
 draft
 draft_item_sets
 drag_override
@@ -35332,12 +35337,13 @@ eye_l_fx
 eye_r_fx
 eyes_follow
 eyj5yR
-f t0
 f#9i\n
 f%wyLmX:
 f&dy
 f1cK%
 f45\r
+f4k+
+f@u0
 fBB\fy
 fC\tc
 fL\ri
@@ -39490,6 +39496,7 @@ n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
 n1Z 
+n4k+
 n5cM
 n6j/
 n:2C[
@@ -40139,7 +40146,6 @@ owning_ability
 p is not prime
 p not prime
 p!PcA1|
-p(A8
 p)ou}
 p+"\tHr9
 p.char_two
@@ -40148,13 +40154,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j`l
+p08@H^4k+
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6`30
+p>4k+
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40178,7 +40184,7 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
-pF@:0
+pF`;0
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -40679,6 +40685,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
+pn4k+
 point
 point arithmetic failure
 point at infinity
@@ -42706,7 +42713,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\t0
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -43584,6 +43590,7 @@ util4
 util5
 uvs are all identical
 uxX/
+v r0
 v'A>M6
 v)56
 v0o/5
@@ -43593,6 +43600,7 @@ v2i_ASN1_BIT_STRING
 v2i_GENERAL_NAMES
 v2i_GENERAL_NAME_ex
 v3\vt
+v4k+
 v8array
 v8callback
 v8object
@@ -44098,11 +44106,11 @@ zz2K
 }Xee+
 }gE3
 }n2W
+~0e0
 ~9ob
 ~If D
 ~P2T
 ~R65Fu
 ~jLRG
-~pd0
 ~w]UG
 ~yhZ

@@ -652,6 +652,7 @@ ASSET_FILTER_PARENTS_ASSET
 ASSET_FILTER_REF_SUBASSET
 ASYNC_FIRE_AND_FORGET
 A_Sharp
+Abandons must be before first blood for a match to not be scored.
 AbiCompParticleTimeScaleChanged
 AbiCompSelectedAbilityChanged
 AbiCompTimeScaleChanged
@@ -20939,6 +20940,7 @@ citadel_fibonnaci_sphere_trace_debug
 citadel_fibonnaci_sphere_trace_fraction
 citadel_fibonnaci_sphere_trace_los_max
 citadel_finale_duration
+citadel_first_blood_disables_match_not_scored
 citadel_first_person
 citadel_fissure_debug
 citadel_fissure_forward_trace_distance

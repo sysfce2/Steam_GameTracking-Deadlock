@@ -2458,6 +2458,9 @@ citadel_fibonnaci_sphere_trace_los_max 160 (developmentonly gamedll clientdll re
 citadel_finale_duration 6 (developmentonly gamedll defensive)
 	<no description>
 
+citadel_first_blood_disables_match_not_scored true (developmentonly gamedll defensive)
+	Abandons must be before first blood for a match to not be scored.
+
 citadel_first_person false (developmentonly clientdll defensive)
 	Enables first-person viewpoint
 

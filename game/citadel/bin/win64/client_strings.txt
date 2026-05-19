@@ -89,8 +89,11 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
+ (08@HPX`jp
  (08@HPXb
+ (08@HPZp
  (08@HR
+ (08@Jp
  (0X`hpz
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
@@ -1298,6 +1301,8 @@
 #MyRosterExitRosterConfirm
 #MyRosterRosterDesc:f
 #MyRosterRosterDesc_NeedsMoreNonNew:f
+#MyRosterRosterDesc_NotEnoughHighestPri
+#MyRosterRosterDesc_NotEnoughHighestPriParty
 #MyRosterRosterDesc_PartyInvalid
 #MyRosterSelectHero
 #NameSuggestions
@@ -16708,7 +16713,9 @@ $hRh
 0123456789
 02V8[
 05=k
+08@HRp
 08@J
+08Bp
 08bX
 09,h
 0:00
@@ -16751,7 +16758,6 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vT=
 0x%4.4x 
 0x%X
 0x%X 
@@ -16973,7 +16979,6 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpL!
 2^pV
 2a"l
 2bT~
@@ -17188,6 +17193,7 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@Jp
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
@@ -17490,14 +17496,15 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NT=
 @0pp
+@6pa
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAccoladeDefinition
 @CCitadel_Ability_Frank_SelfZapVData
 @CitadelMusicCueData_t
 @DebugIndividualStyle
+@HPX`hv 
 @MfKZ
 @Pgl
 @Pu\rm
@@ -23759,8 +23766,8 @@ DH_compute_key
 DH_generate_key
 DH_generate_parameters_ex
 DH_new_method
-DHeb
 DHparams_print_fp
+DHub
 DIFFUSE_AMBIENT_OCCLUSION
 DIFFUSE_LIGHTING
 DIRECT
@@ -29369,10 +29376,11 @@ P-384
 P-521
 P08@J
 P08J
-P08NT=
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
+P6 Q
+P6p[
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -29945,6 +29953,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+PfpX
 Phrase
 Phrase%d
 PhraseContainer
@@ -30092,7 +30101,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-PnT=
+PnpY
 Point entity.
 Point under crosshair
 PointType
@@ -30675,7 +30684,6 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpL!
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34983,6 +34991,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hrp
 Xd3h
 XfJ7
 XjfR
@@ -36536,8 +36545,8 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`2pU
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60b
 `:zQF
 `D$daM-l
 `DZG
@@ -36565,7 +36574,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvT=
 aD/x
 aDSS
 aECDH
@@ -39725,6 +39733,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -44358,6 +44367,7 @@ min-height
 min-width
 minIdleTurnAngle
 min_fps
+min_highest_priority
 min_ilevel
 min_last_played
 min_non_limited_heroes
@@ -46135,8 +46145,6 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^T=
-p0j <
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46146,7 +46154,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6pR
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -46824,7 +46831,6 @@ playtime_2weeks
 playtime_forever
 plum
 pmodifier_capture_data_descs
-pnT=
 pngsize
 point
 point arithmetic failure
