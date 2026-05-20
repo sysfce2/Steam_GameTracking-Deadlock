@@ -181,9 +181,11 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPXb
- (08@HR
- (0X`hpz
+ (08@HPXbpB
+ (08@HRpB
+ (08@JpB
+ (0X`hpzpB
+ (2pB
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -210,6 +212,7 @@
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
+ A0A
  ACTIVE GROUP
  Damage Dealt to Trooper Boss
  Damage Taken from Player
@@ -2055,11 +2058,8 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0K0
-.0L0
+.0J0
 .0d0
-.0f0
-.0n0
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14049,12 +14049,8 @@ $light_emissive
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
 .PJ0
-.PK0
-.PL0
 .PartnerAccountType
-.Pc0
-.Pe0
-.Pf0
+.Pg0
 .PingCommonData
 .PostProcessingGameStates
 .Q.Ol
@@ -14341,12 +14337,10 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pJ0
-.pL0
-.pM0
-.pN0
+.pE0
 .pc0
-.pe0
+.pd0
+.pg0
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14404,7 +14398,7 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@J
+08@JpB
 08bX
 09,h
 0;Q5[
@@ -14441,7 +14435,6 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0v4k+
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14632,14 +14625,12 @@ $light_emissive
 4)m1
 474E4U4W4c4i4m4
 4<Td
-4?\f0y
 4@AA
 4B8X8
 4Ch;
 4F0I
 4Mv8
 4Zis
-4\f0y
 4\fPl
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
@@ -14668,7 +14659,6 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
-5\fWy
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14688,15 +14678,14 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 Q0
-6 T0
+6 Z0
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60X0
+60Q0
 62$|S)6f
 64CK\vH
 65535
@@ -14706,13 +14695,12 @@ $light_emissive
 66666666666666660
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@R0
+6@V0
 6H,N
 6O|T%
-6PS0
-6Pl0
+6PO0
+6PR0
 6Qd=
-6\fWy
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14723,9 +14711,8 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`P0
-6`W0
-6`m0
+6`90
+6`y0
 6afD
 6bX+
 6c&0|vvX
@@ -14733,7 +14720,10 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pZ0
+6p%0
+6pP0
+6pU0
+6pv0
 6qo~
 6r-m_v
 6r1ij
@@ -14976,6 +14966,8 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
+>0X0
+>0z0
 >33s?
 >4|6eXg_e
 >7^0g
@@ -14998,7 +14990,7 @@ $light_emissive
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
->PY0
+>PS0
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15019,7 +15011,6 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->pT0
 >yhP
 >ztq
 ?333?
@@ -15050,12 +15041,10 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N4k+
 @0pp
-@60J0
+@6`E0
 @Accolades
 @BH]f
-@HPX`hv`o0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15070,11 +15059,10 @@ $light_emissive
 @\n\vPowerUpBuff
 @citadel_item_pickup_rejuv_herotest
 @dKb]
-@f4k+
 @fff>fff>fff>fff>
+@ht0
 @i1V
 @n2w
-@n4k+
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -21486,6 +21474,7 @@ F'pY
 F+Zb
 F,mZq
 F/o4
+F0x0
 F2M+
 F6tr
 F7!z
@@ -21887,6 +21876,7 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
+Fpu0
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25708,11 +25698,13 @@ P-224
 P-256
 P-384
 P-521
-P08@J
+P08@JpB
 P08J
-P08N4k+
 P1\t98"
+P2pB
 P5[1
+P6P10
+P:pB
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26250,7 +26242,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn4k+
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -31925,10 +31916,8 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6 N0
-`6PM0
-`6PN0
-`6Pd0
+`2pB
+`6P!0
 `:zQF
 `D$daM-l
 `DZG
@@ -31936,10 +31925,8 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`f4k+
 `fPw.\vM
 `h9T~
-`n4k+
 `o_je
 `yNT
 a null shared library handle was used
@@ -31958,7 +31945,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4k+
 aD/x
 aDSS
 aECDH
@@ -34669,6 +34655,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
+dq\f@6
 draft
 draft_item_sets
 drag_override
@@ -35342,8 +35329,6 @@ f%wyLmX:
 f&dy
 f1cK%
 f45\r
-f4k+
-f@u0
 fBB\fy
 fC\tc
 fL\ri
@@ -36448,6 +36433,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
+hpzpB
 hr_H
 http request
 https proxy request
@@ -39496,7 +39482,6 @@ n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
 n1Z 
-n4k+
 n5cM
 n6j/
 n:2C[
@@ -40154,13 +40139,14 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4k+
+p0j0m
+p2pB
 p2{l
 p4Z3
 p5Z3
 p5\nL,
+p6040
 p618
-p>4k+
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40184,7 +40170,6 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
-pF`;0
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -40685,7 +40670,6 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pn4k+
 point
 point arithmetic failure
 point at infinity
@@ -43590,7 +43574,6 @@ util4
 util5
 uvs are all identical
 uxX/
-v r0
 v'A>M6
 v)56
 v0o/5
@@ -43600,7 +43583,6 @@ v2i_ASN1_BIT_STRING
 v2i_GENERAL_NAMES
 v2i_GENERAL_NAME_ex
 v3\vt
-v4k+
 v8array
 v8callback
 v8object
@@ -44106,7 +44088,6 @@ zz2K
 }Xee+
 }gE3
 }n2W
-~0e0
 ~9ob
 ~If D
 ~P2T
