@@ -4,5 +4,5 @@ class CCitadel_Modifier_ChargeDragEnemy : public CCitadelModifier
 	float32 m_flRelativeDist;
 	float32 m_flMaxDist;
 	Vector m_vecOffsetDir;
-	Vector m_vecStartPosition;
+	VectorWS m_vecStartPosition;
 };

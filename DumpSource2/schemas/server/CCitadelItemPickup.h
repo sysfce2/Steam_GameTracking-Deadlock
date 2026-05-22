@@ -29,7 +29,7 @@ class CCitadelItemPickup : public CCitadelAnimatingModelEntity
 	// MNotSaved
 	bool m_bOnGround;
 	int32 m_nKillingTeamNumber;
-	VectorWS m_vHomePosition;
-	VectorWS m_vDropPosition;
+	Vector m_vHomePosition;
+	Vector m_vDropPosition;
 	GameTime_t m_tFirstPickupTime;
 };

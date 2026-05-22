@@ -184,18 +184,18 @@
 					m_strSoundEvent = soundevent:"Stinger.Rejuvinator.Descent"
 				}
 			}
-			EStinger_Idol_PickedUp = 
+			EStinger_Idol_Returned_Team = 
 			{
 				m_MusicStateDefault = 
 				{
-					m_strSoundEvent = soundevent:"Stinger.Idol.PickedUp"
+					m_strSoundEvent = soundevent:"Stinger.Idol.Returned.Team"
 				}
 			}
-			EStinger_Idol_Returned = 
+			EStinger_Idol_Returned_Opponent = 
 			{
 				m_MusicStateDefault = 
 				{
-					m_strSoundEvent = soundevent:"Stinger.Idol.Returned"
+					m_strSoundEvent = soundevent:"Stinger.Idol.Returned.Opponent"
 				}
 			}
 			EMusicState_Idol_Carry = 
@@ -203,6 +203,7 @@
 				m_MusicStateDefault = 
 				{
 					m_strSoundEvent = soundevent:"Music.Idol.Pickup.Lp"
+					m_nSyncMode = "ESyncMode_Resume"
 				}
 			}
 			EStinger_BossKilled_T1_Friendly = 
@@ -814,6 +815,20 @@
 				m_MusicStateDefault = 
 				{
 					m_strSoundEvent = soundevent:"Music.Shop.Silence"
+				}
+			}
+			EStinger_Idol_DropAnnounce = 
+			{
+				m_MusicStateDefault = 
+				{
+					m_strSoundEvent = soundevent:"Stinger.Idol.AnnounceDrop"
+				}
+			}
+			EMusicState_Idol_ReturnTimer = 
+			{
+				m_MusicStateDefault = 
+				{
+					m_strSoundEvent = soundevent:"Music.Idol.Timer.Lp"
 				}
 			}
 		}

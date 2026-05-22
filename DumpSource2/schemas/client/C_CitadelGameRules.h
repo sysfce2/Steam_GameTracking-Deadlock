@@ -28,6 +28,9 @@
 // MNetworkVarNames = "AccountID_t m_nHideoutOwner"
 // MNetworkVarNames = "CHandle<CCitadelTrooperMinimap> m_hTrooperMinimap"
 // MNetworkVarNames = "CitadelTeam_t m_iWinningTeam"
+// MNetworkVarNames = "CitadelTeam_t m_nIdolCashInTeam"
+// MNetworkVarNames = "GameTime_t m_timeIdolCashInStart"
+// MNetworkVarNames = "GameTime_t m_timeIdolCashInEnd"
 // MNetworkVarNames = "EHANDLE m_hCurrentHeroDrafterRebels"
 // MNetworkVarNames = "EHANDLE m_hCurrentHeroDrafterCombine"
 // MNetworkVarNames = "int m_iMidbossKillCount"
@@ -111,6 +114,12 @@ class C_CitadelGameRules : public C_TeamplayRules
 	CHandle< CCitadelTrooperMinimap > m_hTrooperMinimap;
 	// MNetworkEnable
 	int32 m_iWinningTeam;
+	// MNetworkEnable
+	int32 m_nIdolCashInTeam;
+	// MNetworkEnable
+	GameTime_t m_timeIdolCashInStart;
+	// MNetworkEnable
+	GameTime_t m_timeIdolCashInEnd;
 	// MNetworkEnable
 	// MNetworkPriority = 32
 	// MNetworkChangeCallback = "playerDraftingChanged"

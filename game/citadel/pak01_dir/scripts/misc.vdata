@@ -93,7 +93,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 50.0
 		_base = "citadel_breakable_prop_base"
 		_not_pickable = 2
@@ -196,7 +196,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_base"
 		_not_pickable = 2
@@ -220,7 +220,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 50.0
 		_base = "citadel_breakable_prop_drop_powerups"
 		m_vecPrimaryPickups = 
@@ -324,7 +324,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -349,7 +349,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -373,7 +373,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -400,7 +400,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -425,7 +425,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -451,7 +451,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -477,7 +477,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -503,7 +503,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -860,7 +860,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -886,7 +886,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -912,7 +912,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -938,7 +938,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -964,7 +964,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -990,7 +990,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -1016,7 +1016,7 @@
 		m_bDamagedByAbilities = true
 		m_bDamagedByMelee = true
 		m_bDamagedByBullets = true
-		m_flInitialSpawnTime = 120.0
+		m_flInitialSpawnTime = 180.0
 		m_flPrimaryDropChance = 60.0
 		_base = "citadel_breakable_prop_drop_gold"
 		m_vecPrimaryPickups = 
@@ -2997,6 +2997,70 @@
 		m_OutlineColor = [ 193, 245, 81, 255 ]
 		m_friendlyModelParticle = resource_name:""
 	}
+	citadel_idol_cashin = 
+	{
+		_class = "citadel_idol_cashin"
+		m_IdleParticleFriendly = resource_name:"particles/generic/idol_pickup_aura.vpcf"
+		m_IdleParticleEnemy = resource_name:"particles/generic/idol_pickup_aura_enemy.vpcf"
+		m_HitParticleFriendly = resource_name:"particles/generic/idol_pickup_hit.vpcf"
+		m_HitParticleEnemy = resource_name:"particles/generic/idol_pickup_hit_enemy.vpcf"
+		m_EndParticleFriendly = resource_name:"particles/generic/idol_pickup_end.vpcf"
+		m_EndParticleEnemy = resource_name:"particles/generic/idol_pickup_end_enemy.vpcf"
+		m_flCashInTime = 5.0
+		m_flCashInTimeFavored = 3.0
+		m_flCashInTimeUnfavored = 10.0
+		m_flPhysicsRadius = 12.0
+		m_flHoverHeight = 20.0
+		m_strCashInLoopSound = soundevent:"Soul.Urn.CashIn.Timer"
+		m_strCashInLoopEndSound = soundevent:""
+		m_strCashInLoopStartSound = soundevent:""
+		m_AuraModifier = subclass:
+		{
+			_class = "modifier_base_aura"
+			_my_subclass_name = "modifier_aura_idol_cashin"
+			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
+			m_modifierProvidedByAura = subclass:
+			{
+				_class = "modifier_idol_cashin_timer"
+				_my_subclass_name = "target_near_idol_cashin"
+				m_bIsHidden = true
+				m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+				m_nEnabledStateMask = "MODIFIER_STATE_NEAR_IDOL_CASHIN"
+			}
+			m_bIsHidden = true
+			m_flAuraRadius = 2362.2
+		}
+		m_ComebackAuraModifier = subclass:
+		{
+			_class = "modifier_base_aura_cylinder"
+			_my_subclass_name = "modifier_aura_idol_cashin_comeback"
+			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO_FRIENDLY"
+			m_modifierProvidedByAura = subclass:
+			{
+				_class = "modifier_base"
+				_my_subclass_name = "idol_cashin_comeback"
+				m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+				m_bIsHidden = true
+				m_vecScriptValues = 
+				[
+					{
+						m_eModifierValue = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
+						m_value = 50
+					},
+					{
+						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
+						m_value = 50
+					},
+				]
+			}
+			m_bIsHidden = true
+			m_flAuraRadius = 2362.2
+			m_flAuraTargetingCylinderUpOffset = 400.0
+			m_flAuraTargetingCylinderHalfHeight = 1000.0
+		}
+		m_strSwitchTeamSound = soundevent:"Soul.Urn.Switch.Team"
+		m_strSwitchOpponentSound = soundevent:"Soul.Urn.Switch.Opponent"
+	}
 	xp_orb = 
 	{
 		_class = "item_xp"
@@ -3494,7 +3558,7 @@
 		m_sIdleAmbient = soundevent:""
 		m_sAlertAmbient = soundevent:""
 		_base = "info_neutral_trooper_camp"
-		m_iInitialSpawnDelayInSeconds = 360
+		m_iInitialSpawnDelayInSeconds = 300
 		m_iSpawnIntervalInSeconds = 290
 		m_eNeutralType = "NEUTRAL_TROOPER_NORMAL"
 	}
@@ -3542,7 +3606,7 @@
 		m_sIdleAmbient = soundevent:""
 		m_sAlertAmbient = soundevent:""
 		_base = "info_neutral_trooper_camp"
-		m_iInitialSpawnDelayInSeconds = 600
+		m_iInitialSpawnDelayInSeconds = 0
 		m_iSpawnIntervalInSeconds = 420
 		m_eNeutralType = "NEUTRAL_SUPER"
 	}

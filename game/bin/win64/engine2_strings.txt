@@ -151,9 +151,10 @@
  %i refs\n
  (08@HPX`hpx
  (08@HPX`j
- (08@HPXb`
+ (08@HPXb
  (08@HPZ
- (0X`hpz`
+ (08@HR
+ (0X`hpz
  (Start: 
  (Texture)
  (default = .tga + .wav file)\n
@@ -843,6 +844,7 @@ $tI(knN
 '\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
 '\n#REPLAY_EVENT_STUCK_NEED_FULL_UPDATE
 '\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
+'\n#Source2PlayStats_SteamIDTrustBucket
 '\n#eQueryCvarValueStatus_CvarProtected
 '\n#k_EProtoDebugVisibility_ValveServer
 '\n\fworldgroupid
@@ -2555,7 +2557,7 @@ $tI(knN
 0123456789abcdefghijklmnopqrstuvwxyz
 08@HP
 08@HR
-08@J`
+08@J
 08\fj
 09:52:22
 0: Force z prepass off. 1: Force on. -1: Don't force
@@ -2566,14 +2568,13 @@ $tI(knN
 0=Off, 1=Visualize trace from camera, 2=Visualize occlusion, 3=Visualize far field trace from camera
 0B_u
 0C&C
-0D#G
-0D&C
 0E>X
 0T.Q
 0X8b?~
 0\n\vserializers
 0\tV_fwrite
 0iN>/
+0vD*C
 0x%x,
 0|t?L
 0|t?uj
@@ -2615,6 +2616,7 @@ $tI(knN
 2+.google.protobuf.FieldDescriptorProto.Label
 2/.google.protobuf.MethodOptions.IdempotencyLevel:
 200000
+20X%
 25:Q
 2CZu
 2Hax
@@ -2625,7 +2627,7 @@ $tI(knN
 2\r%2t
 2\r.PrefetchType"h\n
 2\rU2t
-2\vpD#G
+2\vpp
 2i0/
 3$EE\f
 3'F^7
@@ -2670,7 +2672,6 @@ $tI(knN
 6GQ^h~
 6KT3c7
 6NK>
-6P\nH
 6\fXO>\ntA
 6\n\fmessage_type
 6\r56t
@@ -2678,6 +2679,7 @@ $tI(knN
 6tmT
 6uu?>
 6uu?uj
+6v*H
 7>I0
 7?GX
 7K[iu
@@ -2693,7 +2695,9 @@ $tI(knN
 8>0RF>
 8@HP:
 8A3b
+8B0X%
 8Csinf
+8Er^
 8Smt
 8W?i
 8\n\textension
@@ -3131,13 +3135,15 @@ $tI(knN
 ?ysB
 @ Current  :  %s\n
 @08@HPX`hpx
-@08N
+@08ND*C
 @GetProfile_ultrafast
 @HPX
 @HPX&I
-@HPX`hv
+@HPX`hv`
 @^8U)zj
+@fD*C
 @i-kuX
+@nD*C
 A command with the specified name already exists. Cannot create an alias with the same name.\n
 A dB floor of when to stop transmitting packets, the volume between this and voice_threshold will still transmit packets to allow for volume ramping.
 A file with this name is already in the pool.
@@ -5572,7 +5578,6 @@ H.FM
 HD?0
 HGR9\f
 HH:mm:ss
-HIP`
 HKR~
 HLTV
 HLTV Broadcast
@@ -5585,6 +5590,7 @@ HLTV:  SetSignonState( %s )\n
 HLTV:maxplayers set to %i\n
 HLTV_CopyNewEntity: GetDynamicBaseline(%d) failed.
 HSR_GAME_REMOTE_CHANGELEVEL_RECONNECT
+HaP`
 HammerMapLoader001
 Hangul
 Hanunoo
@@ -5627,7 +5633,6 @@ Hostname for server.
 How far back before our current playback head in seconds to hold onto fragments.
 How long to show the message about Killer Replay after death. The best setting is a bit shorter than spec_replay_autostart_delay + spec_replay_leadup_time + spec_replay_winddown_time
 How often to flash demo recording/playback overlay (0 - disable overlay, -1 - show always)
-HuP`
 HudUpdate
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
@@ -6516,16 +6521,15 @@ Override Fog color: %f %f %f\n
 Overrides the SourceTV master root address.
 Overrides the max players reported to prospective clients
 Overriding minidump handler with Engine2MinidumpFunction\n
-P08@J`
-P08Jp
-P08N
+P08@J
+P08J
+P08ND*C
 P4File
 P:S;A
 P?fff?33s?{
 P@HPX`hpx\f
 PBDEMS2
 PCRE does not support \L, \l, \N{name}, \U, or \u
-PD&C
 PHrk
 PInstruction_t<41>::Run
 PInstruction_t<42>::Run
@@ -6799,6 +6803,7 @@ Playing Broadcast (%s)
 Playing Demo (%s)
 Playing back demo: '%s' at tick %u\n
 PmNk
+PnD*C
 Pointers cannot be used as numeric values
 PollAndProcessInput
 Poor man's restart: reload the current map from disk.
@@ -6981,7 +6986,7 @@ RP_PAUSE
 RP_TOGGLEPAUSE
 RSDSh
 RST%d
-R\vpD&C
+R\fpp
 RaiseException
 Random Float
 Random Integer
@@ -8281,7 +8286,6 @@ UtlVectorMemory_FailedAllocation
 U}JK
 U}g7x~
 V/?[w8rV
-V0\nH
 V<@ss
 V?wm\v
 VApplication001
@@ -8694,7 +8698,6 @@ Zq",9\fB
 \fBLo
 \fCEntityIndex
 \fFlX
-\fPo3
 \fV0U
 \fV4U
 \fX\fm\vH\vH\vm\v
@@ -8727,7 +8730,6 @@ Zq",9\fB
 \nEnd mem_test\n
 \nGame: "%s"\nMap: "%s"\nPlayers: %i (%i bots) / %i humans\nBuild: %u (revision %s)\nServer Number: %i\n\n
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
-\nPD&C
 \nParsing attempt:  
 \nProcess Memory:\nWorking set: %.2f MiB\nPeak working set: %.2f MiB\n
 \nRegistered comments:\n
@@ -9100,7 +9102,6 @@ Zq",9\fB
 \vm\vm\vm\vH\vm\vm\v
 \vm\vm\vm\vm\vH\v
 \vnJH
-\vpD&C
 \vxYT
 ] is an invalid data character in JavaScript compatibility mode
 ]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
@@ -9166,6 +9167,7 @@ _spawngroup_logging/log_%s_group_%s.txt
 _temp_mapcycle.txt
 `-uRQg
 `3Q"X
+`60\nH
 `?m'_?&~]?(
 `RTTI
 `adjustor{
@@ -9179,6 +9181,7 @@ _temp_mapcycle.txt
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
+`fD*C
 `generic-class-parameter-
 `generic-method-parameter-
 `generic-type-
@@ -9192,6 +9195,7 @@ _temp_mapcycle.txt
 `managed vector constructor iterator'
 `managed vector copy constructor iterator'
 `managed vector destructor iterator'
+`nD*C
 `non-type-template-parameter
 `omni callsig'
 `placement delete closure'
@@ -9223,6 +9227,7 @@ a numbered reference must not be zero
 a&M-=Z]<i*k)n-t&q&p&|
 a6>r
 a?wSa?\
+aBvD*C
 a\tV_roundd
 a\v4+Wk
 abcdefghijklmnopqrstuvwxyz
@@ -9347,6 +9352,7 @@ avi
 avisound 
 b"Iq
 b#M**y`Bl+o(u,{ x$w!
+b0X%
 b0xNA;;|E)!
 b3>7
 b?qq
@@ -9957,6 +9963,7 @@ f5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
 f9U\n
 f?3Jf?6
 fD""B
+fD*C
 fD>b
 fDD"AUDT$t
 fP~V
@@ -10207,7 +10214,6 @@ hostname
 hostname : %s\n
 hostname_in_client_status
 hostport
-hpz`
 hscript
 hscript_lightbinding
 http Send %.3f ms ave, %.3f ms max\n
@@ -10724,6 +10730,7 @@ n>sak><
 n?A6
 n?SZn?
 nBits != 32
+nD*C
 nGh>
 nI9>h
 nMax
@@ -10941,19 +10948,21 @@ overwatch
 owM&
 owner dead
 oz>!km>
-p08@H^
+p08@H^D*C
+p0j 
 p0p@
+p20X%
 p2p_listpeers
 p2p_ping "%s"
 p4edit
-p>h(H
+p>D*C
 p?ff
 p@HPX`h\f
 pClass
 pClass->m_ClassID(%i) >= %i\n
 pClient
 pCm)
-pD&C
+pF@\fH
 pH\fy
 pMessage
 pServerClass
@@ -11027,6 +11036,7 @@ playing %s from '%s'\n
 playsound
 playsound 
 playsound <soundname>
+pnD*C
 png 
 png_screenshot
 pointer, 
@@ -11108,9 +11118,9 @@ r?dar?\n
 rA?7
 rEy5
 rFg7
-r\fpD&C
 r\tV_sscanf
 r\tVr.>T
+r\vpp
 r_add_views_in_pre_output
 r_always_render_all_windows
 r_aspectratio
@@ -11516,6 +11526,7 @@ steamhdl
 steamid
 steamid  : %s (%llu)\n
 steamid64
+steamidtrustbucket_vals
 steamlearn_count
 steamml_is_timestamp
 steamml_max_entries
@@ -11979,6 +11990,7 @@ utl_vector,
 utlstringtoken
 uzKs@>
 v2!L.2
+vD*C
 vE-2
 vQO+t
 vWewe

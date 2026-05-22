@@ -245,6 +245,8 @@
 		m_IdolDroppingParticle = resource_name:"particles/environment/soul_jar_drop.vpcf"
 		m_flIdolDropHeight = 1400.0
 		m_flIdolDropDuration = 12.5
+		m_IdolSpawnSound = soundevent:"Soul.Urn.Spawn"
+		m_IdolSpawnCompleteSound = soundevent:"Soul.Urn.Spawn.Complete"
 	}
 	m_ObjectiveParams = 
 	{

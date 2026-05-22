@@ -6,7 +6,7 @@
 			name = "CitadelMinimapManifest"
 			group = "GameStartup"
 			source_file = "src/game/client/citadel/ui/hud_minimap.cpp"
-			source_line = 141
+			source_line = 138
 			resources = 
 			[
 				resource_name:"materials/minimap/minimap_circle.vtex",
@@ -675,7 +675,7 @@
 			name = "CitadelClimbRopeTriggerManifest"
 			group = "GameStartup"
 			source_file = "src/game/client/citadel/c_citadel_triggers.cpp"
-			source_line = 98
+			source_line = 89
 			resources = 
 			[
 				resource_name:"models/dev/zipline_cylinder.vmdl",

@@ -7,5 +7,8 @@ class CCitadel_Modifier_DazzlingOrbWatcher : public CCitadelModifier
 	Vector m_vLastHitLocation;
 	int32 m_nBouncesRemaining;
 	GameTime_t m_flLingerEndTime;
+	float32 m_flDamageAtCast;
+	float32 m_flSlowDurationAtCast;
+	float32 m_flBounceRadiusAtCast;
 	ParticleIndex_t m_nGraceParticleIndex;
 };

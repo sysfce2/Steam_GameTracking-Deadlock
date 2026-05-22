@@ -157,6 +157,21 @@
 		]
 		vsnd_duration = 1.697324
 	}
+	Lash.GroundStrike.Fall.Collide = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 3.0
+		volume_offset_attacker_db = 2.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		vsnd_files = 
+		[
+			"sounds/abilities/lash/a1_ground_strike/lash_ground_strike_fall_collide_01.vsnd",
+			"sounds/abilities/lash/a1_ground_strike/lash_ground_strike_fall_collide_02.vsnd",
+			"sounds/abilities/lash/a1_ground_strike/lash_ground_strike_fall_collide_03.vsnd",
+		]
+		vsnd_duration = 1.481791
+	}
 	Lash.Grapple.Cast = 
 	{
 		base = "Base.Ability"
@@ -245,9 +260,10 @@
 	{
 		base = "Base.Ability.Ult"
 		volume = 5.0
-		pitch_rand_min = -0.025
-		pitch_rand_max = 0.1
+		pitch = 0.85
 		block_duration = 0.05
+		pitch_increment_count_max = 10.0
+		incremental_pitch_offset = 0.1
 		vsnd_files = 
 		[
 			"sounds/abilities/lash/a4_death_slam/lash_death_slam_lockon_01.vsnd",
@@ -284,9 +300,8 @@
 		pitch_rand_min = -0.05
 		pitch_rand_max = 0.1
 		spread_max_value_opponent = 0.6
-		limiter_on = 1.0
-		limiter_max = 1.0
-		limiter_match_entity = 0.0
+		block_duration = 0.1
+		block_match_entity = false
 		vsnd_files = 
 		[
 			"sounds/abilities/lash/a4_death_slam/lash_death_slam_impact_01.vsnd",

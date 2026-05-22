@@ -444,6 +444,9 @@
 //	"m_HopOutLockoutModifier":
 //	{
 //	},
+//	"m_LaunchTossModifier":
+//	{
+//	},
 //	"m_LaunchedSelfModifier":
 //	{
 //	},
@@ -510,6 +513,7 @@ class CCitadel_Ability_Familiar_AttachVData : public CitadelAbilityVData
 	CEmbeddedSubclass< CCitadelModifier > m_SpeedModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_DeathBarrierModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_HopOutLockoutModifier;
+	CEmbeddedSubclass< CCitadelModifier > m_LaunchTossModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_LaunchedSelfModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_AllyLockoutModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_HopOffBuffModifier;

@@ -26,7 +26,13 @@
 //	},
 //	"m_RangedArmorModifier":
 //	{
-//	}
+//	},
+//	"m_BarrackBossProtection":
+//	{
+//	},
+//	"m_vecIntrinsicModifiers":
+//	[
+//	]
 //}
 class CDestructableBuildingVData : public CEntitySubclassVDataBase
 {
@@ -51,4 +57,6 @@ class CDestructableBuildingVData : public CEntitySubclassVDataBase
 	CEmbeddedSubclass< CCitadelModifier > m_BackdoorBulletResistModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_BackdoorProtectionModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_RangedArmorModifier;
+	CEmbeddedSubclass< CCitadelModifier > m_BarrackBossProtection;
+	CUtlVector< CEmbeddedSubclass< CCitadelModifier > > m_vecIntrinsicModifiers;
 };

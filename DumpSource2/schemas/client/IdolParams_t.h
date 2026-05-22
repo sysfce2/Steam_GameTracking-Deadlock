@@ -7,6 +7,8 @@
 //	"m_flIdolReturnLocationParticleScale": 1.000000,
 //	"m_IdolSpawnLocationParticle": "",
 //	"m_IdolDroppingParticle": "",
+//	"m_IdolSpawnSound": "",
+//	"m_IdolSpawnCompleteSound": "",
 //	"m_flIdolDropHeight": 1800.000000,
 //	"m_flIdolDropDuration": 25.000000
 //}
@@ -20,6 +22,8 @@ class IdolParams_t
 	float32 m_flIdolReturnLocationParticleScale;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_IdolSpawnLocationParticle;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_IdolDroppingParticle;
+	CSoundEventName m_IdolSpawnSound;
+	CSoundEventName m_IdolSpawnCompleteSound;
 	float32 m_flIdolDropHeight;
 	float32 m_flIdolDropDuration;
 };

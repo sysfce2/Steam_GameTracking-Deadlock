@@ -134,6 +134,7 @@
 //	"m_flInCombatWithNonHeroDuration": 0.500000,
 //	"m_flInCombatWithNeutralDuration": 3.000000,
 //	"m_bNAGunFalloffRange": false,
+//	"m_bAllowedInTunnels": false,
 //	"m_mapStartingStats":
 //	{
 //	},
@@ -299,6 +300,8 @@ class CitadelHeroData_t
 	float32 m_flInCombatWithNeutralDuration;
 	// MPropertyDescription = "Show N/A for falloff numbers in gun panel."
 	bool m_bNAGunFalloffRange;
+	// MPropertyDescription = "Can this hero make it into the tunnel areas without it being a bug."
+	bool m_bAllowedInTunnels;
 	// MPropertyStartGroup = ""
 	CUtlOrderedMap< EStatsType, float32 > m_mapStartingStats;
 	CUtlOrderedMap< EStatsType, HeroScalingStat_t > m_mapScalingStats;

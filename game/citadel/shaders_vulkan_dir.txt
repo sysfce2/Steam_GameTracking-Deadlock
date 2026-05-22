@@ -258,9 +258,9 @@ shaders/vfx/xegtao_vulkan_50_cs.vcs CRC:000ea0e611 size:13447
 shaders/vfx/xegtao_vulkan_50_features.vcs CRC:00cd800930 size:1810
 shaders/vfx/zipline.ini CRC:0000000000 size:0
 shaders/vfx/zipline2.ini CRC:0000000000 size:0
-shaders/vfx/zipline2_vulkan_50_features.vcs CRC:00c3c5eb14 size:2514
-shaders/vfx/zipline2_vulkan_50_ps.vcs CRC:00fbdc30b3 size:4609
-shaders/vfx/zipline2_vulkan_50_vs.vcs CRC:00565eed6f size:12057
+shaders/vfx/zipline2_vulkan_50_features.vcs CRC:008c90b4dc size:2514
+shaders/vfx/zipline2_vulkan_50_ps.vcs CRC:00b6b2baf8 size:4609
+shaders/vfx/zipline2_vulkan_50_vs.vcs CRC:00a7a98e2a size:12057
 shaders/vfx/zipline_vulkan_50_features.vcs CRC:00a2f73727 size:4290
 shaders/vfx/zipline_vulkan_50_ps.vcs CRC:00ba56b254 size:270643
 shaders/vfx/zipline_vulkan_50_vs.vcs CRC:004a21f5f6 size:10684

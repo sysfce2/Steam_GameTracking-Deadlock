@@ -40,6 +40,20 @@ CitadelHudGameAnnouncements
 	padding-left: 20px;
 }
 
+.GenericError
+{
+	margin-top: 80px;
+}
+
+.GenericError Label.AnnouncementTitle
+{
+	text-overflow: shrink;
+	transform: none;
+	font-size: 30px;
+	color: red;
+	max-width: 600px;
+}
+
 .wants_scoreboard CitadelHudGameAnnouncements
 {
 	opacity: 0.5;

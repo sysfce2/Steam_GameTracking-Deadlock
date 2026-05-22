@@ -25,4 +25,12 @@
 		m_eNewSettingsBadge = "New"
 		m_sDescription = "#citadel_settings_communication_permissions_desc"
 	}
+	zipline_rope_binding = 
+	{
+		m_nID = 4
+		m_sTitle = "#citadel_settings_rope_zipline_binding"
+		m_sCreationDate = "2026-05-22"
+		m_eNewSettingsBadge = "Updated"
+		m_sDescription = "#citadel_settings_rope_zipline_binding_desc"
+	}
 }

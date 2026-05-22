@@ -427,7 +427,10 @@
 //		"m_bIsSeasonal": false
 //	},
 //	"m_ItemModel": "",
-//	"m_sIdolDropOffSound": "",
+//	"m_OnKnockedOffHolderParticle": "",
+//	"m_OnKnockedOffUrnParticle": "",
+//	"m_strUrnCashedInSound": "",
+//	"m_strUrnMeleeDropSound": "",
 //	"m_DropoffTimerModifier":
 //	{
 //	},
@@ -454,8 +457,12 @@
 //}
 class CCitadel_Ability_GoldenIdolVData : public CCitadel_Ability_BaseHeldItemVData
 {
+	// MPropertyStartGroup = "Visuals"
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnKnockedOffHolderParticle;
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnKnockedOffUrnParticle;
 	// MPropertyStartGroup = "Sounds"
-	CSoundEventName m_sIdolDropOffSound;
+	CSoundEventName m_strUrnCashedInSound;
+	CSoundEventName m_strUrnMeleeDropSound;
 	// MPropertyStartGroup = "Modifiers"
 	CEmbeddedSubclass< CCitadelModifier > m_DropoffTimerModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_HoldingIdolModifier;

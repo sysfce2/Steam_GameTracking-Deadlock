@@ -52,7 +52,6 @@ enum CitadelUserMessageIds : uint32_t
 	k_EUserMsg_MeleeHit = 355,
 	k_EUserMsg_FlexSlotUnlocked = 356,
 	k_EUserMsg_SeasonalKill = 357,
-	k_EUserMsg_MusicQueue = 358,
 	k_EUserMsg_AG2ParamTrigger = 359,
 	k_EUserMsg_ItemPurchaseNotification = 360,
 	k_EUserMsg_EntityPortalled = 361,

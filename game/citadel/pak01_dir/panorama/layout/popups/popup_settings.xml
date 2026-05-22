@@ -300,7 +300,7 @@
 							<CitadelSettingsKeyBinder id="MantleBinder" bind="Mantle" />
 						</PopupSettingsSettingsRow>
 						<PopupSettingsSettingsRow>
-							<CitadelSettingsKeyBinder id="ZiplineBinder" bind="Zipline" />
+							<CitadelSettingsKeyBinder id="ZiplineBinder" bind="Zipline" new-setting-index="4" />
 						</PopupSettingsSettingsRow>
 						<PopupSettingsSettingsRow>
 							<CitadelSettingsKeyBinder id="RollBinder" bind="Roll" />

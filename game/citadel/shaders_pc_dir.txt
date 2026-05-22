@@ -222,9 +222,9 @@ shaders/vfx/xegtao_pc_50_cs.vcs CRC:00b448f0e3 size:14126
 shaders/vfx/xegtao_pc_50_features.vcs CRC:001235ecb8 size:1762
 shaders/vfx/zipline.ini CRC:0000000000 size:0
 shaders/vfx/zipline2.ini CRC:0000000000 size:0
-shaders/vfx/zipline2_pc_50_features.vcs CRC:009fe6603d size:2450
-shaders/vfx/zipline2_pc_50_ps.vcs CRC:00c18b74d6 size:3386
-shaders/vfx/zipline2_pc_50_vs.vcs CRC:00ec2b90fb size:8731
+shaders/vfx/zipline2_pc_50_features.vcs CRC:00f9f3f8fe size:2450
+shaders/vfx/zipline2_pc_50_ps.vcs CRC:00998a34af size:3386
+shaders/vfx/zipline2_pc_50_vs.vcs CRC:00df5cc3ae size:8731
 shaders/vfx/zipline_pc_50_features.vcs CRC:008554f16d size:4242
 shaders/vfx/zipline_pc_50_ps.vcs CRC:004fd20187 size:139928
 shaders/vfx/zipline_pc_50_vs.vcs CRC:00aa1c78a0 size:10625

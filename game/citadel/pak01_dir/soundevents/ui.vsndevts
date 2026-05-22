@@ -110,8 +110,8 @@
 		base = "Base.UI"
 		volume = -18.0
 		pitch = 0.85
-		vsnd_files = "sounds/gameplay/idol_spawn_map_ping.vsnd"
-		vsnd_duration = 4.625782
+		vsnd_files = "sounds/common/null.vsnd"
+		vsnd_duration = 0.050023
 	}
 	UI.YourTurnToDraft = 
 	{

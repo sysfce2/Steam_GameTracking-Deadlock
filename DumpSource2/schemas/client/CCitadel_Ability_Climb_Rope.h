@@ -15,6 +15,8 @@ class CCitadel_Ability_Climb_Rope : public C_CitadelBaseAbility
 	GameTime_t m_flActivatePressTime;
 	GameTime_t m_flDisconnectTime;
 	GameTime_t m_flClimbStartTime;
+	bool m_bNoDelayNeeded;
+	bool m_bMouseWheelBind;
 	Vector m_vLastPos;
 	// MNetworkEnable
 	// MNetworkUserGroup = "LocalPlayerOwnerAndObserversExclusive"

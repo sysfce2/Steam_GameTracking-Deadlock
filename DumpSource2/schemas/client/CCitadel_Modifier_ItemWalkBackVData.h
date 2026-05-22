@@ -140,6 +140,8 @@
 //	"m_RunningParticle": "",
 //	"m_BiasEffectPositive": "",
 //	"m_BiasEffectNegative": "",
+//	"m_WalkingLoopSound": "",
+//	"m_IdlingLoopSound": "",
 //	"m_flStopDistance": 600.000000,
 //	"m_flMaxSpeedDistance": 1600.000000,
 //	"m_flSlowSpeed": 40.000000,
@@ -160,6 +162,9 @@ class CCitadel_Modifier_ItemWalkBackVData : public CCitadelModifierVData
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_RunningParticle;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_BiasEffectPositive;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_BiasEffectNegative;
+	// MPropertyStartGroup = "Sounds"
+	CSoundEventName m_WalkingLoopSound;
+	CSoundEventName m_IdlingLoopSound;
 	// MPropertyStartGroup = "Gameplay"
 	float32 m_flStopDistance;
 	float32 m_flMaxSpeedDistance;

@@ -370,6 +370,8 @@
 		"upgrade_juggernaut_search"						"Juggernaut"
 		"upgrade_auto_cleanse"							"Indomitable"
 		"upgrade_auto_cleanse_search"					"Indomitable Cleanse"
+		"upgrade_grit"							"Grit"
+		"upgrade_grit_search"					"Grit"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Utility

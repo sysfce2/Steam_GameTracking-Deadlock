@@ -722,6 +722,8 @@
 		"Citadel_MatchmakingSchedule"							"Update:"
 		"Citadel_MatchmakingSchedule_Desc"						"Matchmaking now open 24/7!"
 
+		"Citadel_UnstickFailure_GameAnnouncement"				"Unstick cannot be used if you have recently taken damage."
+
 		//Survey
 		"Citadel_Survey_Skip"									"Skip"
 		"Citadel_Survey_Question_Title"							"Playtester Survey"
@@ -2322,7 +2324,8 @@
 		"modifier_citadel_holding_golden_idol_revealed"			"Carrying Urn"
 		"modifier_citadel_returning_golden_idol"  				"Depositing Urn"
 		"modifier_citadel_holding_golden_idol_visible"			"Visible to Enemies"
-		"modifier_citadel_idol_pickup_disabled"					"Team Soul Urn Timeout"
+		"modifier_citadel_idol_pickup_disabled"					"Urn Timeout"
+		"modifier_citadel_idol_pickup_disabled_desc"			"Can't Pick up Urn"
 		"modifier_knocked_off_zipline_slow"						"Knocked off zipline"
 		"modifier_citadel_respawn_credit" 						"Instant Revive"
 		"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"		"Mystic Reverb"
@@ -3181,7 +3184,7 @@
 		"citadel_keybind_roll"							"Dash"
 		"citadel_keybind_reload"						"Reload"
 		"citadel_keybind_pause"							"Pause"
-		"citadel_keybind_zipline"						"Zipline"
+		"citadel_keybind_zipline"						"Zipline / rope"
 		"citadel_keybind_toggle_mute"					"Toggle mute"
 		"citadel_keybind_crouch"						"Crouch / slide"
 		"citadel_keybind_crouch_toggle"					"Toggle crouch / toggle slide"
@@ -3244,6 +3247,11 @@
 		"citadel_clientversion"							"#{d:client_version_number}"
 		"Citadel_ClientVersion_Connary"					""
 		"OS_Default_Device"								"Default Device"
+
+		//-----------------------------------------------------------------------------
+
+		"citadel_settings_rope_zipline_binding"						"Ropes Keybind"
+		"citadel_settings_rope_zipline_binding_desc"				"The Zipline keybind now applies to ropes as well. If changed from the defaults, the Zipline key will be used for climbing onto or dismounting ropes instead of the Jump key. Mouse wheel binds are now supported for Zipline / ropes, and the key no longer needs to be held if it is different from the Jump binding."
 
 		//-----------------------------------------------------------------------------
 		// Get Started Content
@@ -3992,7 +4000,9 @@
 		"AbilityButtonHint_MeleeChangeTeam"			"Heavy Melee to change your team"
 		"AbilityButtonHint_MeleePickUp"				"Heavy Melee to claim souls"
 		"AbilityButtonHint_MeleeHeavyPunchDestroy"	"Heavy Melee to Destroy"
-		"AbilityButtonHint_ClimbRope"				"Hold {g:citadel_binding:'Mantle'} to Climb Rope"
+		"AbilityButtonHint_MeleeIdolCashIn"			"Heavy Melee to contest Spirit Urn"
+		"AbilityButtonHint_MeleeIdolPickup"			"Melee to pick up Spirit Urn"
+		"AbilityButtonHint_ClimbRope"				"Hold {g:citadel_binding:'Zipline'} to Climb Rope"
 		"AbilityButtonHint_Swing"					"Swing"
 		"AbilityButtonHint_PlacePoster"				"Place Poster"
 		

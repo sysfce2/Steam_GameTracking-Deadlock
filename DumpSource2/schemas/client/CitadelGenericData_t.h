@@ -453,6 +453,8 @@
 //		"m_flIdolReturnLocationParticleScale": 1.000000,
 //		"m_IdolSpawnLocationParticle": "",
 //		"m_IdolDroppingParticle": "",
+//		"m_IdolSpawnSound": "",
+//		"m_IdolSpawnCompleteSound": "",
 //		"m_flIdolDropHeight": 1800.000000,
 //		"m_flIdolDropDuration": 25.000000
 //	},

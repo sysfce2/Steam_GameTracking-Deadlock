@@ -1879,6 +1879,9 @@ citadel_crate_delivery_base_payoff 0 (gamedll cheat)
 citadel_crate_delivery_overtime_bonus 50 (gamedll cheat)
 	<no description>
 
+citadel_crate_drop_duration_override -1 (gamedll cheat)
+	<no description>
+
 citadel_crate_respawn_interval 300 (gamedll clientdll replicated cheat)
 	<no description>
 
@@ -2797,6 +2800,9 @@ citadel_idle_time 300 (developmentonly gamedll defensive)
 citadel_idle_time_grace_period 8 (developmentonly gamedll defensive)
 	How long a player needs to be idle we start putting that time towards their stored idle time.
 
+citadel_idol_think_bias_interval 10 (gamedll cheat)
+	<no description>
+
 citadel_in_world_item_panel_dpi 2 (developmentonly clientdll defensive)
 	In-world texture resolution scale
 
@@ -3070,12 +3076,6 @@ citadel_minimap_teleporter_nearby_dist 1600 (developmentonly clientdll defensive
 citadel_minimap_unit_click_radius 200 (clientdll release)
 	<no description>
 
-citadel_minimap_use_canvas_for_neutrals true (developmentonly clientdll)
-	<no description>
-
-citadel_minimap_use_canvas_for_shop true (developmentonly clientdll)
-	<no description>
-
 citadel_minimap_use_effects false (developmentonly clientdll)
 	<no description>
 
@@ -3136,7 +3136,7 @@ citadel_movement_slip_accel 200 (developmentonly gamedll clientdll replicated)
 citadel_movement_solver_iterations 16 (developmentonly gamedll clientdll replicated)
 	<no description>
 
-citadel_movespeed_bonus_max 433.071 (developmentonly gamedll clientdll replicated)
+citadel_movespeed_bonus_max 472.441 (developmentonly gamedll clientdll replicated)
 	Maximum Value for Movespeed bonuses (Diminishing Returns) in Hu
 
 citadel_mvp_enabled 0 (developmentonly gamedll)

@@ -559,6 +559,7 @@
 						{
 							property_group = "Limiter"
 							display_group = "advanced"
+							property_help = "only to be used with looping or retriggered sounds"
 						}
 					}
 					block_stop_radius_around_player = 

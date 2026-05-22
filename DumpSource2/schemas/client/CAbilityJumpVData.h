@@ -432,6 +432,9 @@
 //	"m_DashJumpParticle": "",
 //	"m_AirJumpParticle": "",
 //	"m_WallJumpParticle": "",
+//	"m_DebuffModifier":
+//	{
+//	},
 //	"m_GroundJumpExecutedSound": "",
 //	"m_AirJumpSound": "",
 //	"m_flMantleRefundWindow": 0.100000,
@@ -490,6 +493,8 @@ class CAbilityJumpVData : public CitadelAbilityVData
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_DashJumpParticle;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_AirJumpParticle;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_WallJumpParticle;
+	// MPropertyStartGroup = "Modifiers"
+	CEmbeddedSubclass< CCitadelModifier > m_DebuffModifier;
 	// MPropertyGroupName = "Sounds"
 	CSoundEventName m_GroundJumpExecutedSound;
 	// MPropertyGroupName = "Sounds"

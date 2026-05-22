@@ -24,6 +24,8 @@ class CCitadel_Ability_ZipLine : public CCitadelBaseAbility
 	GameTime_t m_flActivatePressTime;
 	bool m_bThinking;
 	bool m_bMoveCollidedPushUp;
+	bool m_bNoDelayNeeded;
+	bool m_bMouseWheelBind;
 	EAttachState_t m_eCommittedAttachState;
 	// MNetworkEnable
 	GameTime_t m_flTimeStartZipping;

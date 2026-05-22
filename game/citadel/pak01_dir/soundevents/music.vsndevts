@@ -524,32 +524,102 @@
 	}
 	Music.Idol.Pickup.Lp = 
 	{
-		base = "Base.Music.2d"
+		type = "citadel_music_urn"
+		volume = 0.0
+		volume_fade_in = 0.1
+		max_fade_distance = 3200.0
+		vsnd_files = 
+		[
+			"sounds/music/music_idol_carry_lp_141bpm.vsnd",
+		]
+		vsnd_files_distance_xfade = 
+		[
+			"sounds/music/music_idol_carry_distant_lp_141bpm.vsnd",
+		]
+		distance_xfade_gain = 
+		[
+			[
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
+			],
+			[
+				1.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
+			],
+			[
+				2002.8737, 1.0, 0.0, -0.000811,
+				0.0, 0.0,
+			],
+			[
+				3236.437, 0.0, -0.000811, -0.000811,
+				1.0, 1.0,
+			],
+		]
+		distance_falloff_db = 
+		[
+			[
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
+			],
+			[
+				1.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
+			],
+			[
+				1565.9482, 0.0, 0.0, -0.012818,
+				0.0, 0.0,
+			],
+			[
+				1800.0, -3.0, -0.012818, -0.012818,
+				1.0, 1.0,
+			],
+		]
+		vsnd_duration = 47.659569
+	}
+	Music.Idol.Timer.Lp = 
+	{
+		type = "citadel_music_urn_drop"
+		volume = 3.0
+		volume_fade_in = 0.1
+		vsnd_files = 
+		[
+			"sounds/music/music_idol_timer_lp_team_160bpm.vsnd",
+		]
+		vsnd_files_opponent_control = 
+		[
+			"sounds/music/music_idol_timer_lp_opponent_160bpm.vsnd",
+		]
+		vsnd_duration = 12.0
+	}
+	Stinger.Idol.Returned.Team = 
+	{
+		base = "Base.Stingers.2d"
 		volume = 2.0
 		vsnd_files = 
 		[
-			"sounds/music/music_idol_carry_lp.vsnd",
+			"sounds/music/music_idol_return_team.vsnd",
 		]
-		vsnd_duration = 47.659592
+		vsnd_duration = 7.082041
 	}
-	Stinger.Idol.PickedUp = 
-	{
-		base = "Base.Stingers.2d"
-		vsnd_files = 
-		[
-			"sounds/common/null.vsnd",
-		]
-		vsnd_duration = 0.050023
-	}
-	Stinger.Idol.Returned = 
+	Stinger.Idol.Returned.Opponent = 
 	{
 		base = "Base.Stingers.2d"
 		volume = 2.0
 		vsnd_files = 
 		[
-			"sounds/music/music_stinger_idol_return.vsnd",
+			"sounds/music/music_idol_return_opponent.vsnd",
 		]
-		vsnd_duration = 3.417438
+		vsnd_duration = 5.68034
+	}
+	Stinger.Idol.AnnounceDrop = 
+	{
+		base = "Base.Stingers.2d"
+		volume = 2.0
+		vsnd_files = 
+		[
+			"sounds/music/music_idol_announce.vsnd",
+		]
+		vsnd_duration = 6.808504
 	}
 	Stinger.KillStreak = 
 	{

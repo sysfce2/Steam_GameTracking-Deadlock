@@ -202,24 +202,6 @@
 		]
 		vsnd_duration = 0.581973
 	}
-	Footstep.Urn.Sweetener = 
-	{
-		base = "Base.Footsteps"
-		pitch = 0.8
-		volume = -1.5
-		vsnd_files = 
-		[
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_01.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_02.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_03.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_04.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_05.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_06.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_07.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_08.vsnd",
-		]
-		vsnd_duration = 2.158435
-	}
 	Footstep.MetalSkin.Sweetener = 
 	{
 		base = "Base.Footsteps"

@@ -136,7 +136,7 @@
 //	},
 //	"m_FootstepAdditional": "",
 //	"m_bRemoveOnInterrupted": false,
-//	"m_flActivationTime": 20.000000,
+//	"m_flActivationTime": 14.000000,
 //	"m_flBackdoorProtectionDamageMitigationFromPlayers": 65.000000,
 //	"m_flBackdoorProtectionDamageMitigationFromPlayers_Streetbrawl": 85.000000,
 //	"m_flHealthPerSecondRegen": 65.000000,

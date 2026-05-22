@@ -1,0 +1,109 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	citadel_music_urn_drop = 
+	{
+		operators = 
+		[
+			{
+				name = "_builtins"
+				operator = "sos_builtins"
+				_voicegraph = "citadel.2d_basic"
+			},
+			{
+				name = "public"
+				operator = "util_null"
+				operator_variables = 
+				{
+					citadel_default_2d = 
+					{
+						data_type = "public_opvar"
+						value = "citadel_default_2d"
+					}
+					has_team_control = 
+					{
+						data_type = "bool"
+						value = "false"
+					}
+					vsnd_files = 
+					{
+						data_type = "vsnd"
+						soundevent_data = "true"
+						value = "sounds/music/music_idol_timer_lp_team_160bpm.vsnd"
+						_system_properties = 
+						{
+							property_group = "VSND Files"
+						}
+					}
+					vsnd_files_opponent_control = 
+					{
+						data_type = "vsnd"
+						soundevent_data = "true"
+						value = "sounds/music/music_idol_timer_lp_opponent_160bpm.vsnd"
+						_system_properties = 
+						{
+							property_group = "VSND Files"
+						}
+					}
+				}
+			},
+			{
+				name = "math_inverse_has_team_control"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "sub"
+				input1 = "1.0"
+				input2 = "@public.has_team_control"
+			},
+			{
+				name = "filter_team_control_param"
+				operator = "math_filter_float"
+				input = "@public.has_team_control"
+				input_max_velocity = "10.0"
+			},
+			{
+				name = "filter_opponent_control_param"
+				operator = "math_filter_float"
+				input = "@math_inverse_has_team_control.output"
+				input_max_velocity = "10.0"
+			},
+			{
+				name = "has_team_control_db"
+				operator = "math_gain_to_db"
+				input = "@filter_team_control_param.output"
+			},
+			{
+				name = "has_opponent_control_db"
+				operator = "math_gain_to_db"
+				input = "@filter_opponent_control_param.output"
+			},
+			{
+				name = "citadel_default_2d"
+				operator = "sos_import_stack"
+				import_stack = "citadel_default_2d"
+				auto_connect_public_fields = "true"
+				operator_variables = 
+				{
+					track_1.vsnd_track_vol_offset_db = 
+					{
+						data_type = "float"
+						value = "@has_team_control_db.output"
+					}
+					track_2.vsnd_track_vol_offset_db = 
+					{
+						data_type = "float"
+						value = "@has_opponent_control_db.output"
+					}
+					track_2.vsnd_files_field_name = 
+					{
+						data_type = "string"
+						value = "vsnd_files_opponent_control"
+					}
+				}
+			},
+		]
+		_system_properties = 
+		{
+			display_game = "citadel"
+		}
+	}
+}

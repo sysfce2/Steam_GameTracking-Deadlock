@@ -149,41 +149,20 @@
 	}
 	modifier_idol_pickup_aura = 
 	{
-		_class = "modifier_held_item_pickup_aura"
+		_class = "modifier_base_aura"
 		m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
 		m_modifierProvidedByAura = subclass:
 		{
-			_class = "modifier_item_pickup_aura_target"
+			_class = "modifier_base"
 			_my_subclass_name = "aura_target"
 			m_bIsHidden = true
-			m_PickupTimer = 2.0
 			m_nEnabledStateMask = "MODIFIER_STATE_TELEPORTER_DISABLED | MODIFIER_STATE_PICKING_UP_IDOL"
-			m_PickupTimerModifier = subclass:
-			{
-				_class = "modifier_item_pickup_timer"
-				_my_subclass_name = "timer"
-				m_bReverseHudProgressBar = true
-				m_bIsHidden = false
-				m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_EVERYONE"
-				m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
-				m_TimerToSilence = 0.5
-				m_SilenceDuration = 0.1
-				m_bIsIdolPickup = true
-				m_bDurationReducible = false
-				m_nEnabledStateMask = "MODIFIER_STATE_TELEPORTER_DISABLED | MODIFIER_STATE_PARRY_DISABLED"
-				m_SilenceModifier = subclass:
-				{
-					_class = "modifier_citadel_silenced"
-					_my_subclass_name = "modifier_citadel_silenced"
-					m_bIsHidden = true
-					m_nEnabledStateMask = "MODIFIER_STATE_SILENCED | MODIFIER_STATE_MUTED | MODIFIER_STATE_ZIPLINE_DISABLED | MODIFIER_STATE_PICKING_UP_IDOL"
-				}
-			}
 		}
-		m_strFilterAbilityName = "ability_golden_idol"
 		m_bIsHidden = true
 		m_flAuraRadius = 70.0
-		m_IsFrozenParticle = resource_name:"particles/environment/rejuv_frozen_model.vpcf"
+		m_nEnabledStateMask = "MODIFIER_STATE_IS_MELEE_TARGET"
+		m_sStartSound = soundevent:""
+		m_sAmbientLoopingSound = soundevent:""
 	}
 	modifier_citadel_idol_return = 
 	{
@@ -330,16 +309,19 @@
 		m_flStopDistance = 600
 		m_flMaxSpeedDistance = 1600
 		m_flSlowSpeed = 30.0
-		m_flFastSpeed = 280.0
+		m_flFastSpeed = 400.0
 		m_flVerticalOffset = 0.0
 		m_flTolerance = 20.0
-		m_flWaitTimeLimit = 12.0
+		m_flWaitTimeLimit = 13.0
 		m_flAutoRunTime = 45.0
 		m_flTimeToStartAutoRun = 0.0
 		m_IdleParticle = resource_name:"particles/generic/idol_pickup_aura.vpcf"
 		m_RunningParticle = resource_name:"particles/generic/idol_pickup_aura_running.vpcf"
 		m_BiasEffectPositive = resource_name:"particles/generic/idol_pickup_indicator.vpcf"
 		m_BiasEffectNegative = resource_name:"particles/generic/idol_pickup_indicator_enemy.vpcf"
+		m_sAmbientLoopingSound = soundevent:""
+		m_WalkingLoopSound = soundevent:"Soul.Urn.Walking.Lp"
+		m_IdlingLoopSound = soundevent:"Soul.Urn.Idling.Lp"
 	}
 	modifier_hero_testing_damage_aura = 
 	{
@@ -635,7 +617,7 @@
 		m_bIsHidden = false
 		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE"
 		m_eDebuffType = "MODIFIER_DEBUFF_NO"
-		m_flDuration = 5.0
+		m_flDuration = 4.0
 		m_sStartSound = soundevent:"Teleport.Enter"
 		m_sExpiredSound = soundevent:""
 		m_nAmbientLoopingSoundRecipients = "MODIFIER_SOUND_RECIPIENT_ALWAYS"
@@ -938,5 +920,30 @@
 		_class = "modifier_streetbrawl_phase"
 		m_nEnabledStateMask = "MODIFIER_STATE_ITEMS_DISABLED | MODIFIER_STATE_SILENCED_HIDDEN | MODIFIER_STATE_INVULNERABLE | MODIFIER_STATE_TECH_UNTARGETABLE_BY_ENEMIES | MODIFIER_STATE_SHOOTING_DISABLED | MODIFIER_STATE_ZIPLINE_DISABLED | MODIFIER_STATE_UNIT_STATUS_HEALTH_HIDDEN | MODIFIER_STATE_HIDE_CROSSHAIR | MODIFIER_STATE_HIDE_STAMINA | MODIFIER_STATE_HIDE_AMMO"
 		m_eValidStates = "ESBGS_Init | ESBGS_PreBuy | ESBGS_Buy"
+	}
+	modifier_idol_comeback = 
+	{
+		_class = "modifier_idol_comeback"
+		m_modifierProvidedByAura = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "idol_comeback"
+			m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+			m_eDebuffType = "MODIFIER_DEBUFF_NO"
+			m_bIsHidden = true
+			m_vecScriptValues = 
+			[
+				{
+					m_eModifierValue = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
+					m_value = 50
+				},
+				{
+					m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
+					m_value = 50
+				},
+			]
+		}
+		m_bIsHidden = true
+		m_flAuraRadius = 2362.2
 	}
 }

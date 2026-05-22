@@ -427,7 +427,7 @@
 //		"m_bIsSeasonal": false
 //	},
 //	"m_ExplodeParticle": "",
-//	"m_AuraModifier":
+//	"m_DebuffModifier":
 //	{
 //	},
 //	"m_ExplodeSound": ""
@@ -437,7 +437,7 @@ class CCitadel_Ability_Nano_ClusterGrenadeVData : public CitadelAbilityVData
 	// MPropertyStartGroup = "Visuals"
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_ExplodeParticle;
 	// MPropertyStartGroup = "Modifiers"
-	CEmbeddedSubclass< CCitadelModifier > m_AuraModifier;
+	CEmbeddedSubclass< CCitadelModifier > m_DebuffModifier;
 	// MPropertyStartGroup = "Sounds"
 	CSoundEventName m_ExplodeSound;
 };

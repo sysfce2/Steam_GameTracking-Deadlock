@@ -2203,6 +2203,11 @@
 		"ImmobilizeDuration_postvalue_label"					"Immobilize Duration"
 		"ImmobilizeDuration_postfix"					"s"
 
+		"AirControlPercentBarrier_label"					"Air Control"
+		"AirControlPercentBarrier_postvalue_label"					"Air Control"
+		"AirControlPercentBarrier_prefix"							"{s:sign}"
+		"AirControlPercentBarrier_postfix"							"%"
+
 		"AirControlPercent_label"					"Air Control"
 		"AirControlPercent_postvalue_label"					"Air Control"
 		"AirControlPercent_prefix"							"{s:sign}"

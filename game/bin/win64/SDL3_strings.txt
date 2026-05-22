@@ -585,7 +585,6 @@ $E4A(
 28O0b`
 2>X94>
 2@Q0b
-2\vpp
 2scRGB_output
 3-bit IMA ADPCM currently not supported
 3333
@@ -2234,7 +2233,6 @@ ROTATION
 RTS0
 RTS0$
 RTS0H
-R\fpp
 Rcoeff
 Read timed out
 Reading from
@@ -5376,7 +5374,6 @@ qYVYU
 queue
 quiet
 r,s,d
-r\vpp
 raw mouse input
 read size overflow
 realloc_func

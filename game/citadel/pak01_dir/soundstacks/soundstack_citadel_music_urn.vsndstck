@@ -1,0 +1,183 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	citadel_music_urn = 
+	{
+		operators = 
+		[
+			{
+				name = "_builtins"
+				operator = "sos_builtins"
+				_voicegraph = "music.urn"
+			},
+			{
+				name = "public"
+				operator = "util_null"
+				operator_variables = 
+				{
+					citadel_default_2d = 
+					{
+						data_type = "public_opvar"
+						value = "citadel_default_2d"
+					}
+					max_fade_distance = 
+					{
+						data_type = "float"
+						value = "1500.000000"
+						_system_properties = 
+						{
+							display_group = "advanced"
+							property_group = "citadel_occlusion"
+						}
+					}
+					distance_xfade_gain = 
+					{
+						data_type = "float6"
+						soundevent_data = "true"
+						value = 
+						[
+							"[ 0.0, 1.0, 0.0, 0.0, 0.0, 0.0 ]",
+							"[ 1.0, 1.0, 0.0, 0.0, 0.0, 0.0 ]",
+						]
+						_system_properties = 
+						{
+							display_group = "advanced"
+							display_edit_type = "field_curve_2d_editor"
+						}
+					}
+					distance_falloff_db = 
+					{
+						data_type = "float6"
+						soundevent_data = "true"
+						value = 
+						[
+							"[ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]",
+							"[ 1.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]",
+						]
+						_system_properties = 
+						{
+							display_group = "advanced"
+							display_edit_type = "field_curve_2d_editor"
+						}
+					}
+					vsnd_files = 
+					{
+						data_type = "vsnd"
+						soundevent_data = "true"
+						value = "sounds/common/null.vsnd"
+						_system_properties = 
+						{
+							property_group = "VSND Files"
+						}
+					}
+					vsnd_files_distance_xfade = 
+					{
+						data_type = "vsnd"
+						soundevent_data = "true"
+						value = "sounds/music/music_idol_carry_distant_lp_141bpm.vsnd"
+						_system_properties = 
+						{
+							property_group = "VSND Files"
+						}
+					}
+				}
+			},
+			{
+				name = "opvar_get_urn_dropoff_dist"
+				operator = "opvar_get_float"
+				input_execute = "1.0"
+				input_stack_name = "citadel_music_opvars"
+				input_operator_name = "opvars"
+				input_field_name = "distance_to_closest_urn"
+			},
+			{
+				name = "clamp_max_distance"
+				operator = "math_float"
+				apply = "min"
+				input1 = "@opvar_get_urn_dropoff_dist.output"
+				input2 = "@public.max_fade_distance"
+			},
+			{
+				name = "remap_distance_crossfade_linear"
+				operator = "math_curve_2d"
+				input = "@clamp_max_distance.output"
+				public_field_name = "public.distance_xfade_gain"
+			},
+			{
+				name = "scaled_volume_db"
+				operator = "math_gain_to_db"
+				input = "@remap_distance_crossfade_linear.output"
+			},
+			{
+				name = "proximity_fraction"
+				operator = "math_float"
+				apply = "div"
+				input1 = "@opvar_get_urn_dropoff_dist.output"
+				input2 = "@public.max_fade_distance"
+			},
+			{
+				name = "inverse_proximity_fraction"
+				operator = "math_float"
+				apply = "sub"
+				input1 = "1.0"
+				input2 = "@proximity_fraction.output"
+			},
+			{
+				name = "send_voicegraph_proximity_fraction"
+				operator = "vmix_voicegraph_input"
+				input_name = "proximity_fraction"
+				input = "@inverse_proximity_fraction.output"
+			},
+			{
+				name = "remap_distance_falloff"
+				operator = "math_curve_2d"
+				input = "@clamp_max_distance.output"
+				public_field_name = "public.distance_falloff_db"
+			},
+			{
+				name = "math_volume_offset"
+				operator = "math_float"
+				apply = "add"
+				input1 = "@remap_distance_falloff.output"
+				input2 = "@public.volume"
+			},
+			{
+				name = "citadel_default_2d"
+				operator = "sos_import_stack"
+				import_stack = "citadel_default_2d"
+				auto_connect_public_fields = "true"
+				operator_variables = 
+				{
+					volume = 
+					{
+						data_type = "float"
+						value = "@math_volume_offset.output"
+					}
+					track_1.vsnd_files_track_name = 
+					{
+						data_type = "string"
+						value = "bypass"
+					}
+					track_2.vsnd_files_field_name = 
+					{
+						data_type = "string"
+						value = "vsnd_files_distance_xfade"
+					}
+					track_2.vsnd_track_vol_offset_db = 
+					{
+						data_type = "float"
+						value = "@scaled_volume_db.output"
+					}
+					track_2.vsnd_files_track_name = 
+					{
+						data_type = "string"
+						value = "distance_filter"
+					}
+				}
+			},
+		]
+		_system_properties = 
+		{
+			display_game = "citadel"
+		}
+	}
+}

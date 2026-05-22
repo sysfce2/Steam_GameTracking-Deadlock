@@ -1592,7 +1592,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 10
+						m_value = 20
 					},
 				]
 			},
@@ -1785,7 +1785,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 10
+						m_value = 20
 					},
 				]
 			},
@@ -1978,7 +1978,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 10
+						m_value = 20
 					},
 				]
 			},
@@ -2027,7 +2027,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 10
+						m_value = 20
 					},
 				]
 			},
@@ -2049,6 +2049,12 @@
 		}
 		m_AmberDeathSound = soundevent:"Shrine.King.Destroy"
 		m_SapphDeathSound = soundevent:"Shrine.Mother.Destroy"
+		m_BarrackBossProtection = subclass:
+		{
+			_class = "modifier_citadel_boss_damage_protection"
+			_my_subclass_name = "modifier_citadel_boss_damage_protection"
+			m_ShieldActiveParticle = resource_name:"particles/trooper/tier2_boss_invulerability_shield.vpcf"
+		}
 	}
 	alt_npc_boss_tier1 = 
 	{
@@ -3632,7 +3638,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 25
+						m_value = 35
 					},
 				]
 			},
@@ -3875,7 +3881,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 25
+						m_value = 35
 					},
 				]
 			},
@@ -4120,7 +4126,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 25
+						m_value = 35
 					},
 				]
 			},
@@ -4364,7 +4370,7 @@
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 25
+						m_value = 35
 					},
 				]
 			},

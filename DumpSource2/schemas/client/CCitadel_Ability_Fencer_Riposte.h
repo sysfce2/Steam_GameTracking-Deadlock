@@ -1,3 +1,4 @@
+// MNetworkVarNames = "EHANDLE m_hTarget"
 // MNetworkVarNames = "Vector m_vRiposteStartPosition"
 // MNetworkVarNames = "Vector m_vDashDirection"
 // MNetworkVarNames = "GameTime_t m_flStateStartTime"
@@ -5,6 +6,9 @@
 // MNetworkVarNames = "GameTime_t m_flSuccessfulRiposteTime"
 class CCitadel_Ability_Fencer_Riposte : public C_CitadelBaseAbility
 {
+	// MNetworkEnable
+	// MNetworkUserGroup = "LocalPlayerOwnerAndObserversExclusive"
+	CHandle< C_BaseEntity > m_hTarget;
 	// MNetworkEnable
 	// MNetworkUserGroup = "LocalPlayerOwnerAndObserversExclusive"
 	Vector m_vRiposteStartPosition;

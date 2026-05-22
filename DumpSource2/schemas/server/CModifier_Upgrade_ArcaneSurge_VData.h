@@ -136,16 +136,19 @@
 //	},
 //	"m_FootstepAdditional": "",
 //	"m_bRemoveOnInterrupted": false,
-//	"m_WeaponBuffModifier":
+//	"m_SurgeWindowModifier":
 //	{
 //	},
 //	"m_AbilityWatcherModifier":
 //	{
-//	}
+//	},
+//	"m_flMaxSurgeTime": 25.000000
 //}
 class CModifier_Upgrade_ArcaneSurge_VData : public CCitadelModifierVData
 {
 	// MPropertyStartGroup = "Modifiers"
-	CEmbeddedSubclass< CCitadelModifier > m_WeaponBuffModifier;
+	CEmbeddedSubclass< CCitadelModifier > m_SurgeWindowModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_AbilityWatcherModifier;
+	// MPropertyStartGroup = "Gameplay"
+	float32 m_flMaxSurgeTime;
 };

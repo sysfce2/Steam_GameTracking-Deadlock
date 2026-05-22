@@ -33,224 +33,6 @@
 		volume = 5.0
 		vsnd_files = "sounds/abilities/reflect_damage.vsnd"
 	}
-	BouncePad.Activate = 
-	{
-		base = "Base.World"
-		volume = 2.0
-		volume_fade_out = 0.1
-		vsnd_files = "sounds/gameplay/jump_pad/jump_pad_wind_01.vsnd"
-		vsnd_duration = 3.46
-	}
-	Teleport.Enter = 
-	{
-		base = "Base.World"
-		volume = -4.0
-		volume_fade_out = 0.3
-		spread_min = 200.0
-		spread_max_value = 0.9
-		spread_max = 350.0
-		spread_min_value = 0.0
-		position_offset = [ 0.0, 10.0, 100.0 ]
-		occlusion_min = 0.3
-		occlusion_volume_blend_distance_min = 1200.0
-		occlusion_volume_blend_distance_max = 2200.0
-		pitch = 0.95
-		vsnd_files = "sounds/world/teleport/teleporter_enter.vsnd"
-		vsnd_duration = 2.26
-	}
-	Teleport.Buildup = 
-	{
-		base = "Base.World"
-		spread_min = 200.0
-		spread_max_value = 0.9
-		spread_max = 350.0
-		spread_min_value = 0.0
-		volume_fade_in = 0.1
-		volume_fade_out = 1.0
-		volume = -2.0
-		position_offset = [ 0.0, 10.0, 100.0 ]
-		occlusion_min = 0.3
-		occlusion_volume_blend_distance_min = 1200.0
-		occlusion_volume_blend_distance_max = 2200.0
-		vsnd_files = "sounds/world/teleport/teleporter_buildup.vsnd"
-		vsnd_duration = 5.532449
-	}
-	Teleport.Appear = 
-	{
-		base = "Base.World"
-		volume = 0.0
-		occlusion_min = 0.3
-		occlusion_volume_blend_distance_min = 1200.0
-		occlusion_volume_blend_distance_max = 2200.0
-		spread_min = 200.0
-		spread_max_value = 0.9
-		spread_max = 350.0
-		spread_min_value = 0.0
-		position_offset = [ 0.0, 10.0, 100.0 ]
-		vsnd_files = "sounds/world/teleport/teleporter_appear.vsnd"
-		vsnd_duration = 2.91678
-	}
-	World.Shop.Close = 
-	{
-		base = "Base.World"
-		volume = -23.0
-		volume_falloff_max = 800.0
-		volume_fade_out = 0.1
-		block_duration = 1.5
-		vsnd_files = "sounds/ui/shop_deactivate.vsnd"
-		vsnd_duration = 1.697982
-	}
-	World.Shop.Open = 
-	{
-		base = "Base.World"
-		volume = -6.0
-		volume_falloff_max = 800.0
-		volume_fade_out = 0.1
-		block_duration = 1.5
-		vsnd_files = "sounds/ui/shop_activate.vsnd"
-		vsnd_duration = 1.59771
-	}
-	World.Shop.Active_Lp = 
-	{
-		base = "Base.Ambience.3d"
-		volume = -6.0
-		volume_fade_in = 0.0
-		volume_fade_out = 2.0
-		spread_min = 112.967026
-		spread_max_value = 0.388489
-		spread_max = 148.640823
-		spread_min_value = 0.0
-		pitch = 0.95
-		volume_mult = 3.0
-		cull_at_distance = 1500.0
-		mixer_mixgroup = "Ambience-Details"
-		block_duration = 8.0
-		vsnd_files = "sounds/ambient/soundscapes/entities/shop_active_lp.vsnd"
-		volume_fade_over_time_curve = 
-		[
-			[
-				0.0, 1.0, 1.083, 0.0,
-				2.0, 0.0,
-			],
-			[
-				2.937143, 1.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-		]
-		vsnd_duration = 8.663991
-	}
-	World.Shop.Deactivate = 
-	{
-		base = "Base.Ambience.3d"
-		volume = 0.0
-		volume_fade_in = 0.0
-		volume_fade_out = 2.0
-		spread_min = 112.967026
-		spread_max_value = 0.388489
-		spread_max = 148.640823
-		spread_min_value = 0.0
-		pitch = 0.95
-		volume_mult = 3.0
-		mixer_mixgroup = "Ambience-Details"
-		block_duration = 8.0
-		vsnd_files = "sounds/common/null.vsnd"
-		volume_fade_over_time_curve = 
-		[
-			[
-				0.0, 1.0, 1.083, 0.0,
-				2.0, 0.0,
-			],
-			[
-				2.937143, 1.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-		]
-		vsnd_duration = 0.050023
-	}
-	World.Shop.Activate.MetalDoor = 
-	{
-		base = "Base.Ambience.3d"
-		volume = -6.0
-		volume_fade_in = 0.0
-		volume_fade_out = 2.0
-		spread_min = 110.0
-		spread_max_value = 0.3
-		spread_max = 1150.0
-		pitch = 0.95
-		volume_mult = 3.0
-		cull_at_distance = 1500.0
-		mixer_mixgroup = "Ambience-Details"
-		block_duration = 8.0
-		vsnd_files = "sounds/ambient/soundscapes/entities/shop_open_metaldooropen.vsnd"
-		volume_fade_over_time_curve = 
-		[
-			[
-				0.0, 1.0, 1.083, 0.0,
-				2.0, 0.0,
-			],
-			[
-				2.937143, 1.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-		]
-		vsnd_duration = 2.028299
-	}
-	World.Shop.Activate.MiscItems = 
-	{
-		base = "Base.Ambience.3d"
-		volume = -6.0
-		volume_fade_in = 0.0
-		volume_fade_out = 2.0
-		spread_min = 110.0
-		spread_max_value = 0.3
-		spread_max = 150.0
-		pitch = 0.95
-		volume_mult = 3.0
-		cull_at_distance = 1500.0
-		mixer_mixgroup = "Ambience-Details"
-		block_duration = 8.0
-		vsnd_files = "sounds/ambient/soundscapes/entities/shop_open_miscitems.vsnd"
-		volume_fade_over_time_curve = 
-		[
-			[
-				0.0, 1.0, 1.083, 0.0,
-				2.0, 0.0,
-			],
-			[
-				2.937143, 1.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-		]
-		vsnd_duration = 2.369002
-	}
-	World.Shop.Activate.Merchant = 
-	{
-		base = "Base.Ambience.3d"
-		volume = -6.0
-		volume_fade_in = 0.0
-		volume_fade_out = 2.0
-		spread_min = 110.0
-		spread_max_value = 0.3
-		spread_max = 150.0
-		pitch = 0.95
-		volume_mult = 3.0
-		cull_at_distance = 1500.0
-		mixer_mixgroup = "Ambience-Details"
-		block_duration = 8.0
-		vsnd_files = "sounds/ambient/soundscapes/entities/shop_open_merchantrise.vsnd"
-		volume_fade_over_time_curve = 
-		[
-			[
-				0.0, 1.0, 1.083, 0.0,
-				2.0, 0.0,
-			],
-			[
-				2.937143, 1.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-		]
-		vsnd_duration = 1.079524
-	}
 	World.ZapTrigger.Fire = 
 	{
 		type = "citadel_default_3d"
@@ -293,99 +75,238 @@
 		vsnd_files = "sounds/environmental_hazard/zap_trigger_charged_loop.vsnd"
 		vsnd_duration = 87.0
 	}
-	Powerup.Survival_PickUp = 
+	BouncePad.Activate = 
 	{
-		base = "Base.Ambience.3d"
-		volume = -26.0
-		volume_fade_in = 1.0
-		volume_fade_out = 4.0
-		spread_min = 113.064499
-		spread_max_value = 0.983516
-		spread_max = 148.640823
-		spread_min_value = 0.0
-		pitch = 1.0
-		volume_mult = 3.0
-		cull_at_distance = 1500.0
-		mixer_mixgroup = "Ambience-Bed"
-		pitch_rand_min = -0.01
-		pitch_rand_max = 0.01
-		hrtf_on = 0.0
-		hrtf_mix = 0.0
-		vsnd_files = "sounds/world/powerup/powerup_spirit_lp.vsnd"
-		volume_fade_over_time_curve = 
-		[
-			[
-				0.0, 1.0, 1.083, 1.083,
-				2.0, 3.0,
-			],
-			[
-				1.0, 1.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-		]
-		vsnd_duration = 12.637483
+		base = "Base.World"
+		volume = 2.0
+		volume_fade_out = 0.1
+		vsnd_files = "sounds/gameplay/jump_pad/jump_pad_wind_01.vsnd"
+		vsnd_duration = 3.46
 	}
-	Powerup.Gun_PickUp = 
+	Teleport.Enter = 
 	{
-		base = "Base.Ambience.3d"
-		volume = -26.0
-		volume_fade_in = 1.0
-		volume_fade_out = 4.0
-		spread_min = 113.064499
-		spread_max_value = 0.983516
-		spread_max = 148.640823
-		spread_min_value = 0.0
+		base = "Base.World"
+		volume = -4.0
+		spread_min = 200.0
+		spread_max_value = 0.9
+		spread_max = 350.0
+		position_offset = [ 0.0, 10.0, 100.0 ]
+		occlusion_min = 0.3
+		occlusion_volume_blend_distance_min = 1200.0
+		occlusion_volume_blend_distance_max = 2200.0
 		pitch = 0.95
-		volume_mult = 3.0
-		cull_at_distance = 1500.0
-		mixer_mixgroup = "Ambience-Bed"
-		pitch_rand_min = -0.01
-		pitch_rand_max = 0.01
-		vsnd_files = "sounds/world/powerup/powerup_spirit_lp.vsnd"
-		volume_fade_over_time_curve = 
-		[
-			[
-				0.0, 1.0, 1.083, 1.083,
-				2.0, 3.0,
-			],
-			[
-				1.0, 1.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-		]
-		vsnd_duration = 12.637483
+		vsnd_files = "sounds/world/teleport/teleporter_enter.vsnd"
+		vsnd_duration = 2.26
 	}
-	Powerup.Casting_PickUp = 
+	Teleport.Buildup = 
 	{
-		base = "Base.Ambience.3d"
-		volume = -26.0
-		volume_fade_in = 1.0
-		volume_fade_out = 4.0
-		spread_min = 113.064499
-		spread_max_value = 0.983516
-		spread_max = 148.640823
-		spread_min_value = 0.0
-		pitch = 1.0
-		volume_mult = 3.0
-		cull_at_distance = 1500.0
-		mixer_mixgroup = "Ambience-Bed"
-		pitch_rand_min = -0.01
-		pitch_rand_max = 0.01
-		hrtf_on = 0.0
-		hrtf_mix = 0.0
-		vsnd_files = "sounds/world/powerup/powerup_spirit_lp.vsnd"
-		volume_fade_over_time_curve = 
+		base = "Base.World"
+		spread_min = 200.0
+		spread_max_value = 0.9
+		spread_max = 350.0
+		volume_fade_out = 1.0
+		volume = -2.0
+		position_offset = [ 0.0, 10.0, 100.0 ]
+		occlusion_min = 0.3
+		occlusion_volume_blend_distance_min = 1200.0
+		occlusion_volume_blend_distance_max = 2200.0
+		vsnd_files = "sounds/world/teleport/teleporter_buildup.vsnd"
+		vsnd_duration = 5.532449
+	}
+	Teleport.Appear = 
+	{
+		base = "Base.World"
+		volume = 0.0
+		occlusion_min = 0.3
+		occlusion_volume_blend_distance_min = 1200.0
+		occlusion_volume_blend_distance_max = 2200.0
+		spread_min = 200.0
+		spread_max_value = 0.9
+		spread_max = 350.0
+		position_offset = [ 0.0, 10.0, 100.0 ]
+		vsnd_files = "sounds/world/teleport/teleporter_appear.vsnd"
+		vsnd_duration = 2.91678
+	}
+	World.Shop.Close = 
+	{
+		base = "Base.World"
+		volume = -18.0
+		volume_falloff_max = 800.0
+		block_duration = 1.5
+		vsnd_files = "sounds/ui/shop_deactivate.vsnd"
+		vsnd_duration = 1.697982
+	}
+	World.Shop.Open = 
+	{
+		base = "Base.World"
+		volume = -6.0
+		volume_falloff_max = 800.0
+		block_duration = 1.5
+		vsnd_files = "sounds/ui/shop_activate.vsnd"
+		vsnd_duration = 1.59771
+	}
+	World.Shop.Activate.MetalDoor = 
+	{
+		base = "Base.World"
+		volume = -6.0
+		vsnd_files = "sounds/ambient/soundscapes/entities/shop_open_metaldooropen.vsnd"
+		vsnd_duration = 2.028299
+	}
+	World.Shop.Activate.MiscItems = 
+	{
+		base = "Base.World"
+		volume = -6.0
+		vsnd_files = "sounds/ambient/soundscapes/entities/shop_open_miscitems.vsnd"
+		vsnd_duration = 2.369002
+	}
+	World.Shop.Activate.Merchant = 
+	{
+		base = "Base.World"
+		volume = -6.0
+		vsnd_files = "sounds/ambient/soundscapes/entities/shop_open_merchantrise.vsnd"
+		vsnd_duration = 1.079524
+	}
+	Soul.Urn.Spawn = 
+	{
+		base = "Base.Urn"
+		volume = 0.0
+		max_distance_recipient_filter = -1
+		vsnd_files = "sounds/world/urn/soul_urn_spawn_01.vsnd"
+		vsnd_duration = 12.985964
+	}
+	Soul.Urn.Spawn.Complete = 
+	{
+		base = "Base.Urn"
+		volume = 0.0
+		vsnd_files = "sounds/world/urn/soul_urn_spawn_complete_01.vsnd"
+		vsnd_duration = 2.040771
+	}
+	Soul.Urn.Bonk = 
+	{
+		base = "Base.Urn"
+		volume = 4.0
+		vsnd_files = 
 		[
-			[
-				0.0, 1.0, 1.083, 1.083,
-				2.0, 3.0,
-			],
-			[
-				1.0, 1.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
+			"sounds/world/breakables/pottery/prop_impact_ceramic_01.vsnd",
+			"sounds/world/breakables/pottery/prop_impact_ceramic_02.vsnd",
+			"sounds/world/breakables/pottery/prop_impact_ceramic_03.vsnd",
+			"sounds/world/breakables/pottery/prop_impact_ceramic_04.vsnd",
+			"sounds/world/breakables/pottery/prop_impact_ceramic_05.vsnd",
+			"sounds/world/breakables/pottery/prop_impact_ceramic_06.vsnd",
 		]
-		vsnd_duration = 12.637483
+	}
+	Soul.Urn.Pickup = 
+	{
+		base = "Base.Urn"
+		volume = 0.0
+		vsnd_files = 
+		[
+			"sounds/world/urn/soul_urn_pickup_01.vsnd",
+			"sounds/world/urn/soul_urn_pickup_02.vsnd",
+			"sounds/world/urn/soul_urn_pickup_03.vsnd",
+		]
+		vsnd_duration = 1.825261
+	}
+	Soul.Urn.Drop = 
+	{
+		base = "Base.Urn"
+		volume = 0.0
+		vsnd_files = 
+		[
+			"sounds/world/urn/soul_urn_drop_01.vsnd",
+			"sounds/world/urn/soul_urn_drop_02.vsnd",
+			"sounds/world/urn/soul_urn_drop_03.vsnd",
+		]
+		vsnd_duration = 1.735873
+	}
+	Soul.Urn.Walking.Lp = 
+	{
+		base = "Base.Urn"
+		volume = 2.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		delay_rand_min = -2.0
+		spread_max_value = 0.0
+		vsnd_files = "sounds/world/urn/soul_urn_walking_lp_01.vsnd"
+		vsnd_duration = 8.913469
+	}
+	Soul.Urn.Idling.Lp = 
+	{
+		base = "Base.Urn"
+		volume = -2.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		delay_rand_min = -2.0
+		spread_max_value = 0.0
+		vsnd_files = "sounds/world/urn/soul_urn_idling_lp_01.vsnd"
+		vsnd_duration = 9.071428
+	}
+	Footstep.Urn.Sweetener = 
+	{
+		base = "Base.Footsteps"
+		pitch = 0.8
+		volume = 0.0
+		vsnd_files = 
+		[
+			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_01.vsnd",
+			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_02.vsnd",
+			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_03.vsnd",
+			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_04.vsnd",
+			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_05.vsnd",
+			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_06.vsnd",
+			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_07.vsnd",
+			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_08.vsnd",
+		]
+		vsnd_duration = 2.158435
+	}
+	Soul.Urn.Switch.Team = 
+	{
+		base = "Base.Urn"
+		volume = 0.0
+		limiter_on = 1.0
+		limiter_max = 0.0
+		vsnd_files = 
+		[
+			"sounds/world/urn/soul_urn_switch_team_01.vsnd",
+		]
+		vsnd_duration = 1.197256
+	}
+	Soul.Urn.Switch.Opponent = 
+	{
+		base = "Base.Urn"
+		volume = 0.0
+		limiter_on = 1.0
+		limiter_max = 0.0
+		vsnd_files = 
+		[
+			"sounds/world/urn/soul_urn_switch_opponent_01.vsnd",
+		]
+		vsnd_duration = 1.197256
+	}
+	Soul.Urn.CashIn.Timer = 
+	{
+		base = "Base.Urn"
+		volume = 0.0
+		max_distance_recipient_filter = -1
+		vsnd_files = "sounds/world/urn/soul_urn_cashin_timer_01.vsnd"
+		vsnd_duration = 15.704807
+	}
+	Soul.Urn.CashIn.Complete = 
+	{
+		base = "Base.Urn"
+		volume = 0.0
+		vsnd_files = "sounds/world/urn/soul_urn_cashin_complete_01.vsnd"
+		vsnd_duration = 2.399909
+	}
+	Soul.Urn.Melee.Drop = 
+	{
+		base = "Base.Urn"
+		volume = -1.0
+		vsnd_files = 
+		[
+			"sounds/world/urn/soul_urn_melee_drop_01.vsnd",
+		]
+		vsnd_duration = 1.190658
 	}
 	Powerup.Gun_Lp = 
 	{

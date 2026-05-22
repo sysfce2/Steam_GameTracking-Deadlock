@@ -2099,6 +2099,8 @@ CCitadelModifierAura
 CCitadelModifierAuraVData
 CCitadelModifierAura_Cone
 CCitadelModifierAura_ConeVData
+CCitadelModifierAura_Cylinder
+CCitadelModifierAura_CylinderVData
 CCitadelModifierAura_Default
 CCitadelModifierCadenceGunSpikesVData
 CCitadelModifierChronoPulseGrenadePulseAreaVData
@@ -2528,6 +2530,7 @@ CCitadel_Ability_Punkgoat_PrimaryWeaponVData
 CCitadel_Ability_RapidFire
 CCitadel_Ability_RestorativeGoo
 CCitadel_Ability_RiotProtocol
+CCitadel_Ability_RiposteTargetSelect
 CCitadel_Ability_RocketBarrage
 CCitadel_Ability_RocketBarrageVData
 CCitadel_Ability_RocketLauncher
@@ -2763,6 +2766,8 @@ CCitadel_ArmorUpgrade_DebuffReducer
 CCitadel_ArmorUpgrade_DebuffReducerVData
 CCitadel_ArmorUpgrade_DoubleJump
 CCitadel_ArmorUpgrade_Frenzy
+CCitadel_ArmorUpgrade_Grit
+CCitadel_ArmorUpgrade_GritVData
 CCitadel_ArmorUpgrade_HealOnLevel
 CCitadel_ArmorUpgrade_HealOnLevelVData
 CCitadel_ArmorUpgrade_HighImpactArmor
@@ -2835,6 +2840,8 @@ CCitadel_Hideout_Clock
 CCitadel_Hideout_ClockVData
 CCitadel_Ice_Dome_Blocker
 CCitadel_Ice_Path_Shard_Physics
+CCitadel_IdolCashIn
+CCitadel_IdolCashInVData
 CCitadel_InfoTrooperSpawnAPI
 CCitadel_Item
 CCitadel_Item_AOERoot
@@ -3032,6 +3039,8 @@ CCitadel_Modifier_Bookworm_KnightBarrier
 CCitadel_Modifier_Bookworm_KnightBarrierVData
 CCitadel_Modifier_Bookworm_KnightCharge_Buff
 CCitadel_Modifier_BossInvuln
+CCitadel_Modifier_Boss_Damage_Protection
+CCitadel_Modifier_Boss_Damage_ProtectionVData
 CCitadel_Modifier_BoucePadVData
 CCitadel_Modifier_Bounce_Pad_Ally
 CCitadel_Modifier_Bounce_Pad_Stomp
@@ -3235,6 +3244,7 @@ CCitadel_Modifier_EtherealBullets_BulletBuff
 CCitadel_Modifier_EtherealBullets_Watcher
 CCitadel_Modifier_ExplosiveShots
 CCitadel_Modifier_ExplosiveShots::BulletEntityPair_t
+CCitadel_Modifier_Extendable_HealthRegen
 CCitadel_Modifier_FamiliarHelper_InvisWatcher
 CCitadel_Modifier_Familiar_Asleep
 CCitadel_Modifier_Familiar_AsleepVData
@@ -3242,6 +3252,7 @@ CCitadel_Modifier_Familiar_AttachHeal
 CCitadel_Modifier_Familiar_AttachHealVData
 CCitadel_Modifier_Familiar_AttachHost
 CCitadel_Modifier_Familiar_AttachHostVData
+CCitadel_Modifier_Familiar_AttachLaunchOff
 CCitadel_Modifier_Familiar_Attached
 CCitadel_Modifier_Familiar_AttachedVData
 CCitadel_Modifier_Familiar_Barrier
@@ -3404,8 +3415,10 @@ CCitadel_Modifier_IceGrenadeDebuff
 CCitadel_Modifier_IcePath
 CCitadel_Modifier_IcePath_Friendly
 CCitadel_Modifier_IcePath_TechPowerLinger
+CCitadel_Modifier_IdolCashInTimer
 CCitadel_Modifier_IdolReturnTimer
 CCitadel_Modifier_IdolTeamTimeout
+CCitadel_Modifier_Idol_Comeback
 CCitadel_Modifier_Idol_Return
 CCitadel_Modifier_InFountain
 CCitadel_Modifier_InHideoutMap
@@ -3414,6 +3427,8 @@ CCitadel_Modifier_InMenu
 CCitadel_Modifier_InMenuVData
 CCitadel_Modifier_InShopTunnel
 CCitadel_Modifier_IncendiaryDebuff
+CCitadel_Modifier_InfernalResilience_Melee
+CCitadel_Modifier_InfernalResilience_MeleeVData
 CCitadel_Modifier_Infested
 CCitadel_Modifier_InfestedBuilding
 CCitadel_Modifier_InfiniteMagazineActive
@@ -4073,6 +4088,7 @@ CCitadel_ShopProp
 CCitadel_SmokeGrenade_Blocker
 CCitadel_SpiderAnimating
 CCitadel_SpiderAnimatingVData
+CCitadel_Stamina_Regen_Jump_Reduction
 CCitadel_TechUpgrade_CorpseExplosion
 CCitadel_TechUpgrade_CorpseExplosionVData
 CCitadel_TechUpgrade_Infuser
@@ -7462,6 +7478,7 @@ CameraParamMode
 Can Hear the Player
 Can See the Player
 Can be mantled?
+Can this hero make it into the tunnel areas without it being a bug.
 Can this object be scaled. If enabled the minimum and maximum lengths must be set to specify the size range of allowable scale.
 CanPlaySequence_t
 CancelOnSucceeded
@@ -9474,6 +9491,7 @@ EMusicState_HideoutRem
 EMusicState_HideoutSearch
 EMusicState_HideoutWait
 EMusicState_Idol_Carry
+EMusicState_Idol_ReturnTimer
 EMusicState_Invalid
 EMusicState_Lost
 EMusicState_MatchIntro_Connecting
@@ -9766,8 +9784,9 @@ EStinger_BossKilled_Titan_Friendly
 EStinger_Brawl_OvertimeAnnounce
 EStinger_CheaterVote
 EStinger_HeroDeath
-EStinger_Idol_PickedUp
-EStinger_Idol_Returned
+EStinger_Idol_DropAnnounce
+EStinger_Idol_Returned_Opponent
+EStinger_Idol_Returned_Team
 EStinger_KillStreak_01
 EStinger_KillStreak_02
 EStinger_KillStreak_03
@@ -12989,6 +13008,8 @@ MODIFIER_STATE_NANO_RECENT_DAMAGE
 MODIFIER_STATE_NEAR_CLIMBABLE_ROPE
 MODIFIER_STATE_NEAR_HEAVY_PUNCHABLE_DESTROY
 MODIFIER_STATE_NEAR_HEAVY_PUNCHABLE_ITEM
+MODIFIER_STATE_NEAR_IDOL_CASHIN
+MODIFIER_STATE_NEAR_IDOL_CASHIN_ENEMY
 MODIFIER_STATE_NEAR_PUNCHABLE_CHANGE_TEAM
 MODIFIER_STATE_NEAR_PUNCHABLE_PICKUP
 MODIFIER_STATE_NEAR_REJUVINATOR
@@ -17559,6 +17580,7 @@ Source2PlayStats_Int64
 Source2PlayStats_Int8
 Source2PlayStats_Invalid
 Source2PlayStats_LowCardinalityString
+Source2PlayStats_SteamIDTrustBucket
 Source2PlayStats_String
 Source2PlayStats_UInt16
 Source2PlayStats_UInt32
@@ -19557,6 +19579,7 @@ When true, uses the WIP models defined in the hero vdata
 When true, we add a different class to show it's a negative attribute.
 When true, we can feature bot test matches
 When true, we don't show this ability property anywhere in the UI.
+When true, we return zero if the upgrade bits are zero. Otherwise, returns a real value.
 When true, we roll for a proc once per shot and apply that result to all bullets in the shot.  When false, we roll independently for each bullet in the shot.
 When true, we will do an extra trace with the same cone shape, but with the cone laying flat in XY
 When true, will only call OnProc if the target hit passes the unit filter.
@@ -20718,6 +20741,7 @@ citadel_corner_boost_strength
 citadel_crate_client_notification_time
 citadel_crate_delivery_base_payoff
 citadel_crate_delivery_overtime_bonus
+citadel_crate_drop_duration_override
 citadel_crate_respawn_interval
 citadel_crate_reward_base
 citadel_crate_reward_time_multiplier
@@ -21074,6 +21098,7 @@ citadel_hud_top_bar_enable_dynamic_player_position
 citadel_hud_visible
 citadel_idle_time
 citadel_idle_time_grace_period
+citadel_idol_think_bias_interval
 citadel_in_world_item_panel_dpi
 citadel_inactive_time_grace_period
 citadel_increase_replay_speed
@@ -21178,8 +21203,6 @@ citadel_minimap_teleporter_active_dist
 citadel_minimap_teleporter_height_dist
 citadel_minimap_teleporter_nearby_dist
 citadel_minimap_unit_click_radius
-citadel_minimap_use_canvas_for_neutrals
-citadel_minimap_use_canvas_for_shop
 citadel_minimap_use_effects
 citadel_minimap_zip_line_thickness
 citadel_minimum_fire_rate
@@ -24644,7 +24667,6 @@ k_EUserMsg_MapPing
 k_EUserMsg_MeleeHit
 k_EUserMsg_MidBossSpawned
 k_EUserMsg_ModifierApplied
-k_EUserMsg_MusicQueue
 k_EUserMsg_ObjectiveMask
 k_EUserMsg_ObstructedShotFired
 k_EUserMsg_ParticipantSetLibraryStackFields
@@ -25305,6 +25327,7 @@ m_BallScored
 m_BallSpawned
 m_BallTrailFx
 m_BarbedWireAuraModifier
+m_BarrackBossProtection
 m_BarrageAnnounceSound
 m_BarrageCasterModifier
 m_BarrageModifier
@@ -25595,6 +25618,7 @@ m_ColorSelection
 m_ColorStart
 m_ColorTint
 m_ComboBreakerModifier
+m_ComebackAuraModifier
 m_Command
 m_CommandContext
 m_Comment
@@ -25885,6 +25909,8 @@ m_End
 m_EndEffect
 m_EndEffectorRotationFixUpMode
 m_EndEntity
+m_EndParticleEnemy
+m_EndParticleFriendly
 m_EndPointA
 m_EndPointB
 m_EndPointSpaceA
@@ -26254,6 +26280,8 @@ m_HitBoxSets
 m_HitBoxes
 m_HitConfirmSound
 m_HitParticle
+m_HitParticleEnemy
+m_HitParticleFriendly
 m_HitSound
 m_HitTargetSound
 m_HitWorldSound
@@ -26305,12 +26333,17 @@ m_IdealNPCState
 m_IdealYaw
 m_IdleLoopSound
 m_IdleParticle
+m_IdleParticleEnemy
+m_IdleParticleFriendly
+m_IdlingLoopSound
 m_IdolDroppingParticle
 m_IdolModel
 m_IdolParams
 m_IdolParticle
 m_IdolReturnLocationParticle
+m_IdolSpawnCompleteSound
 m_IdolSpawnLocationParticle
+m_IdolSpawnSound
 m_IgnoreChannelSlow
 m_IkChain
 m_IkChains
@@ -26474,6 +26507,7 @@ m_LastThinkTime
 m_LaunchAngle
 m_LaunchAngleRemap
 m_LaunchParticle
+m_LaunchTossModifier
 m_LaunchTrailParticle
 m_LaunchedSelfModifier
 m_LayerName
@@ -26848,6 +26882,8 @@ m_OnInternalTestVoid
 m_OnInterval
 m_OnKillSound
 m_OnKilled
+m_OnKnockedOffHolderParticle
+m_OnKnockedOffUrnParticle
 m_OnLerpFinished
 m_OnLerpStarted
 m_OnLerpToPositionComplete
@@ -27730,6 +27766,7 @@ m_SupportedExts
 m_SuppressSubstrings
 m_SurfacePropStringToken
 m_SurfacePropertyOverride
+m_SurgeWindowModifier
 m_SwapModifier
 m_SwapParticle
 m_SwappedToTime
@@ -27996,6 +28033,7 @@ m_WakeCancel
 m_WakeFail
 m_WakeResume
 m_WakeUpDamageParticle
+m_WalkingLoopSound
 m_WallImpactFx
 m_WallImpactParticle
 m_WallImpactSound
@@ -28018,7 +28056,6 @@ m_Waypoints
 m_WaypointsLocal
 m_WeakenedEffect
 m_WeakenedSound
-m_WeaponBuffModifier
 m_WeaponBuffParticle
 m_WeaponDamageBonusModifier
 m_WeaponDamageBuff
@@ -28256,6 +28293,7 @@ m_bAddedStasisParticle
 m_bAdditive
 m_bAdrenalineActive
 m_bAffectInvulnerableEnts
+m_bAffectedAnyTargets
 m_bAgentEnabled
 m_bAggregate
 m_bAggregateInstanceStreams
@@ -28319,6 +28357,7 @@ m_bAllowTargetUpdate
 m_bAllowTinyCharacters
 m_bAllowTrackTarget
 m_bAllowTranslation
+m_bAllowedInTunnels
 m_bAllowedToCompileInTestMode
 m_bAlphaOverride
 m_bAlphaToCoverageEnable
@@ -29505,6 +29544,7 @@ m_bModelOverrodeBlockLOS
 m_bModifierStatesDirty
 m_bModulateStepHeight
 m_bMomentary
+m_bMouseWheelBind
 m_bMoveCollidedPushUp
 m_bMoveSolveNudgeActive
 m_bMoveVarsDisabled
@@ -29562,6 +29602,7 @@ m_bNoClipEnabled
 m_bNoDeath
 m_bNoDeathEnabled
 m_bNoDecalsOnOwner
+m_bNoDelayNeeded
 m_bNoDepth
 m_bNoDmgForce
 m_bNoFreeze
@@ -29703,6 +29744,7 @@ m_bPlayMeepMop
 m_bPlayOnClient
 m_bPlayOnServer
 m_bPlayReversalSound
+m_bPlaySpawnMusic
 m_bPlayTail
 m_bPlayTravelSound
 m_bPlayedApproachingWhoosh
@@ -29809,7 +29851,6 @@ m_bRandomlySelectDecalInGroup == false
 m_bRangedAttack
 m_bRare
 m_bRealtime
-m_bRecastingBuffedAbility
 m_bReceivedEnemyDeadNotification
 m_bReciprocal
 m_bRecomputeSmoothNormalsAfterAnimation
@@ -29888,6 +29929,7 @@ m_bRestrictMovement
 m_bRetainInitialVelocity
 m_bReturnAbsoluteResult
 m_bReturnNegatedResult
+m_bReturnZeroIfUnupgraded
 m_bReturning
 m_bReturningToPreviousOrientation
 m_bRevealed
@@ -31499,6 +31541,8 @@ m_flAuraEntityBoundsScale
 m_flAuraRadius
 m_flAuraTargetingConeAngle
 m_flAuraTargetingConeHalfWidth
+m_flAuraTargetingCylinderHalfHeight
+m_flAuraTargetingCylinderUpOffset
 m_flAutoExposureMax
 m_flAutoExposureMin
 m_flAutoReplenishClip
@@ -31656,6 +31700,7 @@ m_flBossVictimCalmTime
 m_flBossVictimNoMeleeTime
 m_flBottomOffset
 m_flBounceAmount
+m_flBounceRadiusAtCast
 m_flBounceScale
 m_flBounceVelocity
 m_flBounceVerticalReductionRatio
@@ -31776,6 +31821,10 @@ m_flCaptureTime
 m_flCarrierFrequency
 m_flCartSpeed
 m_flCartSpeedFast
+m_flCashInTime
+m_flCashInTimeExtension
+m_flCashInTimeFavored
+m_flCashInTimeUnfavored
 m_flCastCompleteToAttackTime
 m_flCastCompletedTime
 m_flCastDelayMax
@@ -31994,6 +32043,7 @@ m_flDamageAbsorbed
 m_flDamageAccumulator
 m_flDamageAmount
 m_flDamageAmp
+m_flDamageAtCast
 m_flDamageCap
 m_flDamageCollisonScale
 m_flDamageDealt
@@ -32793,6 +32843,7 @@ m_flHorizontalPunch
 m_flHorizontalSpawnOffset
 m_flHorizontalTime
 m_flHourChimeInterval
+m_flHoverHeight
 m_flHoverInputAcceleration
 m_flHoverInputSpeedMax
 m_flHoverOffset
@@ -33340,6 +33391,7 @@ m_flMaxStretchAmount
 m_flMaxSurfaceDotToBounce
 m_flMaxSurfacePitch
 m_flMaxSurfaceSlope
+m_flMaxSurgeTime
 m_flMaxSuspensionOffset
 m_flMaxTangentLength
 m_flMaxTimeRemaining
@@ -34419,6 +34471,7 @@ m_flSlopeFacingAngleToActivate
 m_flSlopeScaledDepthBias
 m_flSlowDownStrength
 m_flSlowDuration
+m_flSlowDurationAtCast
 m_flSlowFallElevationEnd
 m_flSlowFallElevationStart
 m_flSlowGetupStartTime
@@ -37307,6 +37360,7 @@ m_nIKAnchorBoneIndex
 m_nId
 m_nIdealMotionType
 m_nIdleAnimLoopMode
+m_nIdolCashInTeam
 m_nIgnoreCP
 m_nImportance
 m_nImpulse
@@ -38144,6 +38198,7 @@ m_nTargetingLightEffect
 m_nTargetingParticleIndex
 m_nTaskStatus
 m_nTeam
+m_nTeamBias
 m_nTestType
 m_nTextHeightPx
 m_nTextWidthPx
@@ -39024,7 +39079,6 @@ m_sHitSound
 m_sId
 m_sIdentifier
 m_sIdleAmbient
-m_sIdolDropOffSound
 m_sImageName
 m_sInCombat
 m_sInstantProcIfCasterHasModifier
@@ -39469,6 +39523,9 @@ m_strCSSClass
 m_strCantCastOutOfResourceToken
 m_strCardCastSound
 m_strCardSummonSound
+m_strCashInLoopEndSound
+m_strCashInLoopSound
+m_strCashInLoopStartSound
 m_strCastAnimGraphParam
 m_strCastAnimSequenceName
 m_strCastButtonLocToken
@@ -39926,6 +39983,8 @@ m_strSwipeParticle
 m_strSwipeTracerParticleLeft
 m_strSwipeTracerParticleRight
 m_strSwipeTracerParticleRightMove
+m_strSwitchOpponentSound
+m_strSwitchTeamSound
 m_strTarget
 m_strTargetCompleteSound
 m_strTargetEnemyParticleEffect
@@ -39970,6 +40029,8 @@ m_strUIShoppingMap
 m_strUITeamRevealMap
 m_strUnlockPrereq
 m_strUnselectedSound
+m_strUrnCashedInSound
+m_strUrnMeleeDropSound
 m_strUsedCastGraphParam
 m_strVacuumStartSound
 m_strValue
@@ -40103,12 +40164,12 @@ m_szWeaponBeamParticle
 m_szWorldContext
 m_szWorldModel
 m_tAbilityCreateTime
-m_tAbilityWatcherInProgress
 m_tActivationTime
 m_tActiveEndTime
 m_tAttackWindowStart
 m_tBeginTimeWithPrewarm
 m_tBuffRechargeTime
+m_tCashInTime
 m_tCastCompleteTime
 m_tCatRecallTime
 m_tChoreUseCooldownEndTime
@@ -40157,6 +40218,7 @@ m_tSlowStopTime
 m_tSoonestHelperCooldownEndTime
 m_tSourcePrevious
 m_tSpawnTime
+m_tStartTime
 m_tStateEnterTime
 m_tStateStartTime
 m_tStopTarget
@@ -40218,6 +40280,8 @@ m_timeBeginFailedSteer
 m_timeDamage
 m_timeElapsedEvents
 m_timeEnemyDisappeared
+m_timeIdolCashInEnd
+m_timeIdolCashInStart
 m_timeLastSpawnCrates
 m_timeLastUpdate
 m_timeLaunch
@@ -42436,6 +42500,7 @@ p2p_Voice
 p2p_WatchSynchronization
 p2p_listpeers
 p2p_ping
+pRiposteAbility
 pWorldObject
 panorama_2d_translate_no_comp_layer
 panorama_alignment_fixes

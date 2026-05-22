@@ -11,6 +11,7 @@
 //	"m_eApplyFilter": "EApplyFilter_None",
 //	"m_strDisableValue": "",
 //	"m_bDamageAffectedByEffectiveness": false,
+//	"m_bReturnZeroIfUnupgraded": true,
 //	"m_eDisplayType": "EStatsCount",
 //	"m_eDisplayUnits": "EDisplayUnit_Normal",
 //	"m_bIsHidden": false,
@@ -44,6 +45,8 @@ class CitadelAbilityProperty_t
 	CUtlString m_strDisableValue;
 	// MPropertyDescription = "When true, effectiveness (distance falloff) will be applied when looking up this value.  Only works in modifiers for now."
 	bool m_bDamageAffectedByEffectiveness;
+	// MPropertyDescription = "When true, we return zero if the upgrade bits are zero. Otherwise, returns a real value."
+	bool m_bReturnZeroIfUnupgraded;
 	// MPropertyStartGroup = "UI"
 	// MPropertyDescription = "Set this so we know how to display the ability property (prefix, postfix, and # decimal places)"
 	EStatsType m_eDisplayType;
