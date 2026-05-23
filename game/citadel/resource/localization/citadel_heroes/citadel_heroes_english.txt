@@ -4491,9 +4491,9 @@
 		
 		//Ability 2 - Wall
 		"ability_necro_zombiewall" "Grasping Hands"
-		"ability_necro_zombiewall_desc" "Unearth a line of grasping hands, dealing {g:citadel_inline_attribute:'SpiritDamage'} and applying {g:citadel_inline_attribute:'Immobilize'} to enemies when they pass through.  <br><br><span class=\"diminish\">Alt-Cast {g:citadel_binding:'AltCast'} rotates the orientation of the wall."
+		"ability_necro_zombiewall_desc" "Unearth a line of grasping hands, summoning a <span class=\"highlight\">Ghoul</span> and leaving behind a rift. Enemies who pass through take {g:citadel_inline_attribute:'SpiritDamage'} and receive {g:citadel_inline_attribute:'Immobilize'}.  <br><br><span class=\"diminish\">Alt-Cast {g:citadel_binding:'AltCast'} rotates the orientation of the wall."
 		"ability_necro_zombiewall_t2_desc" "<span class=\"highlight\">+{s:Damage}</span> Damage and <span class=\"highlight\">+{s:ZombieWallLength}m</span> Wall Length"
-		"ability_necro_zombiewall_t3_desc" "Summons <span class=\"highlight\">{s:GhoulCount}</span> Ghoul<br><span class=\"highlight\">{s:AbilityCooldown}s</span> Cooldown<br><span class=\"highlight\">+{s:ImmobilizeDuration}s</span> Immobilize Duration"
+		"ability_necro_zombiewall_t3_desc" "<span class=\"highlight\">+{s:GhoulCount}</span> Ghouls Raised <br><span class=\"highlight\">{s:AbilityCooldown}s</span> Cooldown<br><span class=\"highlight\">+{s:ImmobilizeDuration}s</span> Immobilize Duration"
 		"ZombieWallLength_postfix" "m"
 		"ZombieWallLength_postvalue_label" "Wall Length"
 		"ZombieWallLength_label" "Wall Length"
@@ -4528,8 +4528,8 @@
 
 		//Ability 4 - Gravestone
 		"ability_necro_gravestone" "Borrowed Decree"
-		"ability_necro_gravestone_desc_1" "Create a gravestone at a target location that summons <span class=\"highlight\">ghouls</span> over time. Enemies can destroy the gravestone with two heavy melees."
-		"ability_necro_gravestone_desc_2" "Ghouls shamble towards the enemy base, dealing {g:citadel_inline_attribute:'MeleeDamage'}. They explode when they approach a hero or objective, dealing {g:citadel_inline_attribute:'SpiritDamage'} in an area and applying a brief {g:citadel_inline_attribute:'Slow'}"
+		"ability_necro_gravestone_desc_1" "<span class=\"diminish\">Innate: </span>Abilities can summon <span class=\"highlight\">Ghouls</span> that shamble toward the enemy base, dealing {g:citadel_inline_attribute:'MeleeDamage'}. They explode when they approach a hero or objective, dealing {g:citadel_inline_attribute:'SpiritDamage'} in an area and applying a brief {g:citadel_inline_attribute:'Slow'}"
+		"ability_necro_gravestone_desc_2" "<span class=\"diminish\">Active: </span>Create a gravestone at a target location that summons <span class=\"highlight\">Ghouls</span> over time. Enemies can destroy the gravestone with two heavy melees."
 		"ability_necro_gravestone_t2_desc" "<span class=\"highlight\">+{s:MoveSpeedPercent}%</span> Ghoul Speed and <span class=\"highlight\">+{s:AbilityDuration}s</span> Duration"
 		"ability_necro_gravestone_t3_desc" "On Death: Deal <span class=\"highlight\">+{s:CurrentHealthDamagePercentage}%</span> Current Health as Damage"
 		"ability_necro_gravestone/gravestone/buff" "Borrowed Decree"

@@ -2011,6 +2011,7 @@ $light_emissive
 -\n)k_eCitadelTeamObjective_BarrackBoss_Lane2
 -\n)k_eCitadelTeamObjective_BarrackBoss_Lane3
 -\n)k_eCitadelTeamObjective_BarrackBoss_Lane4
+-\nP51
 -\n\nend_reason
 -\n\tchat_mode
 -\n\tdef_index
@@ -2055,11 +2056,10 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0N1
+.0R1
 .0T1
-.0V1
-.0n1
-.0p1
+.0b1
+.0k1
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14084,9 +14084,11 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PQ1
+.PR1
 .PartnerAccountType
+.Pb1
 .PingCommonData
-.Pn1
 .PostProcessingGameStates
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
@@ -14372,12 +14374,11 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pS1
-.pT1
-.pl1
-.pn1
+.p11
+.pQ1
+.pR1
+.pk1
 .pp@0
-.pv1
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14469,9 +14470,11 @@ $light_emissive
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
+0lN,
+0pf,
 0pp@5tqE?|sO541
 0tU+xc:
-0vts,
+0vDr,
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14606,7 +14609,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpL
+2\vppf,
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14715,15 +14718,15 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 01
-6 Z1
+6 b1
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60]1
+60X1
+60[1
 62$|S)6f
 64CK\vH
 65535
@@ -14733,12 +14736,9 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666CAttributeManager
 67-s
-6@X1
-6@a1
-6@v1
 6H,N
 6O|T%
-6Pc1
+6PY1
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14750,7 +14750,8 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`Y1
+6`Z1
+6`s1
 6afD
 6bX+
 6c&0|vvX
@@ -14758,7 +14759,9 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p`1
+6pW1
+6p^1
+6pt1
 6qo~
 6r-m_v
 6r1ij
@@ -15001,6 +15004,7 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
+>0a1
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15073,16 +15077,14 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Nts,
+@08NDr,
 @0pp
-@6 T1
-@6PS1
-@6pR1
+@6 R1
+@6@Q1
 @Accolades
 @BH]f
-@HPX`hv
+@HPX`hvpv1
 @MfKZ
-@N0z1
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -15095,12 +15097,12 @@ $light_emissive
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
+@fDr,
 @fff>fff>fff>fff>
-@fts,
 @ground_origin
 @i1V
 @n2w
-@nts,
+@nDr,
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -21506,12 +21508,12 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
-F C1
 F#bgn?MwN|%
 F'pY
 F+Zb
 F,mZq
 F/o4
+F0B1
 F2M+
 F6tr
 F7!z
@@ -21558,7 +21560,6 @@ F\n\finventories3
 F\n\fitem_scalars
 F\n\trow_range
 F\rH'4
-F`C1
 Face %s
 Face Actor
 Face Entity
@@ -25746,12 +25747,9 @@ P-224
 P-256
 P-384
 P-521
-P08J0
-P08Nts,
+P08NDr,
 P1\t98"
 P5[1
-P6 N1
-P60m1
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26145,7 +26143,6 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf@A1
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -26188,6 +26185,7 @@ PingCommonData
 PingWheelOptionID_t"
 PitchShift
 PivotPaint
+PlN,
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -26290,8 +26288,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn@B1
-Pnts,
+PnDr,
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26339,6 +26336,7 @@ PowerUp Permanent %s
 PowerUp Temp
 PowerUp Temp %s
 PowerUpStages
+Ppf,
 Pr"V
 Pre-Nav Queries Updates
 PreBounceLifetime
@@ -26724,7 +26722,7 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpL
+R\vppf,
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30970,6 +30968,8 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPlN,
+\fppf,
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31770,6 +31770,7 @@ Z~wl
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
+\r061
 \r@h!Aq8
 \rB6uZ
 \rChallengeID_t
@@ -31901,6 +31902,9 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vplN,
+\vppP,
+\vppf,
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -31973,9 +31977,11 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6@U1
-`6PT1
-`6`V1
+`6 S1
+`60U1
+`6`T1
+`6`U1
+`6`k1
 `:zQF
 `D$daM-l
 `DZG
@@ -31983,11 +31989,11 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`fDr,
 `fPw.\vM
-`fts,
 `h9T~
 `htp
-`nts,
+`nDr,
 `o_je
 `yNT
 a null shared library handle was used
@@ -32006,7 +32012,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvts,
+aBvDr,
 aD/x
 aDSS
 aECDH
@@ -35395,11 +35401,13 @@ f1cK%
 f45\r
 fBB\fy
 fC\tc
+fDr,
 fL\ri
 fLength
 fMaxLength
 fP;y
 fPitch
+fP|1
 fRoll
 fSpinDownTime
 fSpinUpTime
@@ -35841,7 +35849,6 @@ from
 from_crate
 frozen
 fruit_model
-fts,
 fulfilled_item_id
 full_body
 full_charge
@@ -39552,9 +39559,7 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n0-1
 n0?X
-n0~1
 n1Z 
 n5cM
 n6j/
@@ -39571,6 +39576,7 @@ nCheckTime == 0 || V_Abs((int64)nCheckTime-(int64)m_unMatchTime) < 5
 nChoice
 nDefault
 nDenominator
+nDr,
 nElems
 nEludingState
 nGets the access tokens needed for registering data sources, submitting data to them, and snapshotting projects
@@ -39965,7 +39971,6 @@ nsRevocationUrl
 nsSGC
 nsSslServerName
 nssslserver
-nts,
 null before block missing
 null is wrong length
 null parameter
@@ -40213,13 +40218,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^ts,
+p08@H^Dr,
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p>ts,
+p>Dr,
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40247,6 +40252,7 @@ pEntity
 pField
 pFilter
 pFirstWaypoint type[%d]
+pFpB1
 pG_*h
 pHitEntity
 pIdentifier
@@ -40654,6 +40660,7 @@ pkey
 pkeyalg
 pkix
 pkparameters2group failure
+plN,
 placebo
 placementattachment
 placementbone
@@ -40745,7 +40752,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pnts,
+pnDr,
 point
 point arithmetic failure
 point at infinity
@@ -40855,6 +40862,7 @@ power_up_buffs
 pp == NULL || *pp != NULL
 pp&c
 ppBasis
+ppf,
 pqualid
 pre idle done
 pre mac length too long
@@ -43653,6 +43661,7 @@ uxX/
 v'A>M6
 v)56
 v0o/5
+v0y1
 v1(0)
 v1GZ
 v2i_ASN1_BIT_STRING
@@ -43669,6 +43678,7 @@ vAr>
 vAu&
 vDefault
 vDirection
+vDr,
 vEndPos
 vF'l
 vForward
@@ -43710,7 +43720,6 @@ v_movement_stop_position
 v_navlink_exit_direction
 v_navlink_target
 v_navlink_up
-v`z1
 valid
 validation_errors
 validity
@@ -43844,7 +43853,6 @@ vparams
 vqw0\nU
 vscripts
 vsnd_selection_index
-vts,
 vv == NULL
 vzcrR
 w+Ce
@@ -44169,9 +44177,7 @@ zz2K
 ~9ob
 ~If D
 ~P2T
-~Pm1
 ~R65Fu
 ~jLRG
-~pm1
 ~w]UG
 ~yhZ
