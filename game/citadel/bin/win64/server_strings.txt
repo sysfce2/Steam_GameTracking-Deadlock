@@ -181,6 +181,8 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
+ (08@HPX`j 
+ (08@HPZ 
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -2011,7 +2013,6 @@ $light_emissive
 -\n)k_eCitadelTeamObjective_BarrackBoss_Lane2
 -\n)k_eCitadelTeamObjective_BarrackBoss_Lane3
 -\n)k_eCitadelTeamObjective_BarrackBoss_Lane4
--\nP51
 -\n\nend_reason
 -\n\tchat_mode
 -\n\tdef_index
@@ -2056,10 +2057,9 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0R1
-.0T1
-.0b1
+.0V1
 .0k1
+.0o1
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14084,11 +14084,11 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PQ1
-.PR1
 .PartnerAccountType
-.Pb1
 .PingCommonData
+.Pk1
+.Pl1
+.Po1
 .PostProcessingGameStates
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
@@ -14374,9 +14374,9 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p11
-.pQ1
 .pR1
+.pT1
+.pb1
 .pk1
 .pp@0
 .solo
@@ -14433,9 +14433,13 @@ $light_emissive
 0.25
 0.5 = 50% speed\n1 = 100% speed\n2 = 200% speed\n(Only editable when Fixed Length is false)
 0.75
+00N,
 0123456789
 02V8[
+04u,
 05=k
+08@HR 
+08B 
 08bX
 09,h
 0;Q5[
@@ -14470,11 +14474,8 @@ $light_emissive
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
-0lN,
-0pf,
 0pp@5tqE?|sO541
 0tU+xc:
-0vDr,
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14609,7 +14610,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vppf,
+2\vp4u,
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14718,15 +14719,16 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
+6 a1
 6 b1
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
+60/1
 60000
-60X1
-60[1
+60Y1
 62$|S)6f
 64CK\vH
 65535
@@ -14738,7 +14740,9 @@ $light_emissive
 67-s
 6H,N
 6O|T%
-6PY1
+6PW1
+6P`1
+6Pu1
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14750,8 +14754,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`Z1
-6`s1
+6`b1
 6afD
 6bX+
 6c&0|vvX
@@ -14759,9 +14762,8 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pW1
-6p^1
-6pt1
+6pX1
+6p[1
 6qo~
 6r-m_v
 6r1ij
@@ -15004,7 +15006,6 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->0a1
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15026,7 +15027,9 @@ $light_emissive
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
+>P31
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
+>Pt1
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15047,6 +15050,7 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
+>pa1
 >yhP
 >ztq
 ?333?
@@ -15077,14 +15081,15 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NDr,
+@08N
 @0pp
-@6 R1
-@6@Q1
+@60S1
+@6`R1
 @Accolades
 @BH]f
-@HPX`hvpv1
+@HPX`hv
 @MfKZ
+@N@y1
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -15097,12 +15102,10 @@ $light_emissive
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
-@fDr,
 @fff>fff>fff>fff>
 @ground_origin
 @i1V
 @n2w
-@nDr,
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -21916,6 +21919,7 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
+FpB1
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25747,9 +25751,13 @@ P-224
 P-256
 P-384
 P-521
-P08NDr,
+P08J@
+P08N
+P0N,
 P1\t98"
 P5[1
+P60M1
+P6@l1
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26143,6 +26151,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+PfP@1
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -26185,7 +26194,6 @@ PingCommonData
 PingWheelOptionID_t"
 PitchShift
 PivotPaint
-PlN,
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -26288,7 +26296,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-PnDr,
+PnPA1
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26336,7 +26344,6 @@ PowerUp Permanent %s
 PowerUp Temp
 PowerUp Temp %s
 PowerUpStages
-Ppf,
 Pr"V
 Pre-Nav Queries Updates
 PreBounceLifetime
@@ -26719,10 +26726,10 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
+R\fp4u,
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vppf,
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30698,6 +30705,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr 
 Xd3h
 XfJ7
 XjfR
@@ -30968,8 +30976,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPlN,
-\fppf,
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31770,7 +31776,6 @@ Z~wl
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
-\r061
 \r@h!Aq8
 \rB6uZ
 \rChallengeID_t
@@ -31798,6 +31803,7 @@ Z~wl
 \ri1I
 \rjwB\t
 \roKK
+\rp61
 \rrCj
 \rstyle_index_t
 \rusercmd.proto"
@@ -31842,6 +31848,8 @@ Z~wl
 \tMatchID_t"9\n&CMsgGCToServerAllocateForMatchResponse
 \tMax uptime scheduled Shutdown: %u (%u seconds from now)\n
 \tNone\n
+\tP0N,
+\tP51
 \tPOTG Eval: Contribution(%s) Weight(%.2f) Time(%.2f -> %.2f)\n
 \tPartyID_t
 \tPrivate script scope:
@@ -31897,14 +31905,13 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
+\vP0N,
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
 \vj0k
 \vjC7
-\vplN,
-\vppP,
-\vppf,
+\vp4u,
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -31977,11 +31984,9 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6 S1
-`60U1
-`6`T1
-`6`U1
-`6`k1
+`6PT1
+`6`S1
+`6pU1
 `:zQF
 `D$daM-l
 `DZG
@@ -31989,11 +31994,8 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`fDr,
 `fPw.\vM
 `h9T~
-`htp
-`nDr,
 `o_je
 `yNT
 a null shared library handle was used
@@ -32012,7 +32014,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvDr,
 aD/x
 aDSS
 aECDH
@@ -35401,13 +35402,11 @@ f1cK%
 f45\r
 fBB\fy
 fC\tc
-fDr,
 fL\ri
 fLength
 fMaxLength
 fP;y
 fPitch
-fP|1
 fRoll
 fSpinDownTime
 fSpinUpTime
@@ -39576,7 +39575,6 @@ nCheckTime == 0 || V_Abs((int64)nCheckTime-(int64)m_unMatchTime) < 5
 nChoice
 nDefault
 nDenominator
-nDr,
 nElems
 nEludingState
 nGets the access tokens needed for registering data sources, submitting data to them, and snapshotting projects
@@ -40218,13 +40216,14 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^Dr,
+p08@H^
+p0N,
 p2{l
 p4Z3
+p4u,
 p5Z3
 p5\nL,
 p618
-p>Dr,
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40252,7 +40251,6 @@ pEntity
 pField
 pFilter
 pFirstWaypoint type[%d]
-pFpB1
 pG_*h
 pHitEntity
 pIdentifier
@@ -40660,7 +40658,6 @@ pkey
 pkeyalg
 pkix
 pkparameters2group failure
-plN,
 placebo
 placementattachment
 placementbone
@@ -40752,7 +40749,6 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pnDr,
 point
 point arithmetic failure
 point at infinity
@@ -40862,7 +40858,6 @@ power_up_buffs
 pp == NULL || *pp != NULL
 pp&c
 ppBasis
-ppf,
 pqualid
 pre idle done
 pre mac length too long
@@ -41140,6 +41135,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vp4u,
 rad2deg
 radial
 radialalt
@@ -43661,7 +43657,6 @@ uxX/
 v'A>M6
 v)56
 v0o/5
-v0y1
 v1(0)
 v1GZ
 v2i_ASN1_BIT_STRING
@@ -43678,7 +43673,6 @@ vAr>
 vAu&
 vDefault
 vDirection
-vDr,
 vEndPos
 vF'l
 vForward
@@ -43850,6 +43844,7 @@ volumematcheseventramp
 vote_round_to_tally
 voxel_size
 vparams
+vpy1
 vqw0\nU
 vscripts
 vsnd_selection_index
