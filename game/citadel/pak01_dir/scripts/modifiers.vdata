@@ -936,11 +936,11 @@
 			[
 				{
 					m_eModifierValue = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
-					m_value = 50
+					m_value = 35
 				},
 				{
 					m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-					m_value = 50
+					m_value = 35
 				},
 			]
 		}
