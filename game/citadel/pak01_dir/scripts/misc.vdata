@@ -3006,10 +3006,11 @@
 		m_HitParticleEnemy = resource_name:"particles/generic/idol_pickup_hit_enemy.vpcf"
 		m_EndParticleFriendly = resource_name:"particles/generic/idol_pickup_end.vpcf"
 		m_EndParticleEnemy = resource_name:"particles/generic/idol_pickup_end_enemy.vpcf"
-		m_flCashInTime = 5.0
-		m_flCashInTimeFavored = 3.0
-		m_flCashInTimeUnfavored = 10.0
-		m_flPhysicsRadius = 12.0
+		m_flCashInTimeExtension = 3
+		m_flCashInTimeFavored = 5.0
+		m_flCashInTime = 10.0
+		m_flCashInTimeUnfavored = 15.0
+		m_flPhysicsRadius = 15.6
 		m_flHoverHeight = 20.0
 		m_strCashInLoopSound = soundevent:"Soul.Urn.CashIn.Timer"
 		m_strCashInLoopEndSound = soundevent:""
@@ -3045,11 +3046,11 @@
 				[
 					{
 						m_eModifierValue = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
-						m_value = 50
+						m_value = 35
 					},
 					{
 						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 50
+						m_value = 35
 					},
 				]
 			}

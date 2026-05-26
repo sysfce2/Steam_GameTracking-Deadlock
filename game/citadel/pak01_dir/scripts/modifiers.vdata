@@ -306,14 +306,15 @@
 	modifier_citadel_idol_walkback = 
 	{
 		_class = "modifier_citadel_idol_walkback"
-		m_flStopDistance = 600
+		m_flStopDistance = 1000
 		m_flMaxSpeedDistance = 1600
 		m_flSlowSpeed = 30.0
-		m_flFastSpeed = 400.0
+		m_flFastSpeed = 700.0
 		m_flVerticalOffset = 0.0
 		m_flTolerance = 20.0
+		m_flWaitTimeDistance = 1574.8
 		m_flWaitTimeLimit = 13.0
-		m_flAutoRunTime = 45.0
+		m_flAutoRunTime = 70.0
 		m_flTimeToStartAutoRun = 0.0
 		m_IdleParticle = resource_name:"particles/generic/idol_pickup_aura.vpcf"
 		m_RunningParticle = resource_name:"particles/generic/idol_pickup_aura_running.vpcf"

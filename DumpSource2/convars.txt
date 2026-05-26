@@ -1117,6 +1117,9 @@ citadel_allow_ally_text true (clientdll archive release)
 citadel_allow_ally_voice true (clientdll archive release)
 	<no description>
 
+citadel_allow_biased_urn_pickups true (developmentonly gamedll clientdll replicated defensive)
+	<no description>
+
 citadel_allow_client_higher_version_for_reconnect true (clientdll release)
 	When set to true, the client is allowed to connect so long as the client compat version is higher than the server's
 

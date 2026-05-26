@@ -17005,7 +17005,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpT\n
+2\vpT
 2^pV
 2a"l
 2bT~
@@ -17479,6 +17479,7 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
+?CAbility_Synth_Affliction
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CitadelPartyCode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
@@ -17529,7 +17530,7 @@ $hRh
 @BH]f
 @DebugIndividualStyle
 @HPX`hv
-@HV`g
+@HV`l
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17551,6 +17552,7 @@ $hRh
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
+@m_PreExplodeParticle
 @n2w
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
@@ -24346,7 +24348,6 @@ Dev operation was successful\n
 DevConsole
 DevUniverse
 Dhq0\ri
-Dhxc
 DialogVariablesHeader
 DiamondResistShred
 DiamondResistShredDuration
@@ -30711,7 +30712,7 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpT\n
+R\fpT
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
@@ -35029,8 +35030,8 @@ XWY]
 XYD%
 X\tQo
 Xd3h
-Xf o
-Xf@p
+Xf t
+Xf@u
 XfJ7
 XjfR
 XqgA+
@@ -36593,7 +36594,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`ht0`
+`ht e
 `o_je
 `yNT
 a null shared library handle was used
@@ -46196,7 +46197,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0j@
+p0j@\n
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46213,6 +46214,7 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
+pFP\f
 pField
 pFilter
 pG_*h
@@ -47313,7 +47315,7 @@ rZPM
 r\fpP
 r\n\vstart_index
 r\vDi
-r\vpT\n
+r\vpT
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
