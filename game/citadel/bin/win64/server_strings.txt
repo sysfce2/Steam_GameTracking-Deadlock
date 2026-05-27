@@ -181,12 +181,13 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`jp6
- (08@HPXb`m
- (08@HPZp6
- (08@HR`m
- (08@Jp6
- (0X`hpz`m
+ (08@HPX`j`6
+ (08@HPXbPm
+ (08@HPZ`6
+ (08@HRPm
+ (08@JPm
+ (0X`hpzPm
+ (2Pm
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -2061,10 +2062,7 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0L1
-.0U1
-.0w1
-.0x1
+.0u1
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14096,9 +14094,7 @@ $light_emissive
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
-.Pw1
-.Px1
-.Py1
+.Pp1
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14383,10 +14379,8 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pL1
 .pp@0
-.pw1
-.px1
+.py1
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14444,9 +14438,9 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@HRp6
-08@J`m
-08Bp6
+08@HR`6
+08@JPm
+08B`6
 08bX
 09,h
 0;Q5[
@@ -14482,6 +14476,7 @@ $light_emissive
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
 0pp@5tqE?|sO541
+0pq,
 0tU+xc:
 0x%s
 0}dV
@@ -14617,6 +14612,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vpt
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14676,7 +14672,6 @@ $light_emissive
 4@AA
 4Ch;
 4F0I
-4F\v0
 4Mv8
 4Zis
 4\fPl
@@ -14732,6 +14727,8 @@ $light_emissive
 6,2K
 6-zeZ
 60000
+60z1
+60}1
 62$|S)6f
 64CK\vH
 65535
@@ -14741,11 +14738,12 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666CAttributeManager
 67-s
-6@z1
+6@Z1
+6@d1
 6H,N
 6O|T%
-6PZ1
-6Pd1
+6PP1
+6P{1
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14757,7 +14755,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`P1
+6`Q1
 6afD
 6bX+
 6c&0|vvX
@@ -14765,7 +14763,8 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pQ1
+6pR1
+6p|1
 6qo~
 6r-m_v
 6r1ij
@@ -14814,9 +14813,9 @@ $light_emissive
 851Pe
 8<pl
 8= zp
-8@Jp6
+8@J`6
 8A6j
-8Bp6
+8B`6
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14836,7 +14835,6 @@ $light_emissive
 8\n\tgame_info
 8\n\vAbilityStat
 8\n\vreason_code
-8\np6
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
@@ -15063,7 +15061,6 @@ $light_emissive
 ?HAI\t81\t9dcG'
 ?HP4
 ?Lists all entities
-?NoPhysicsDust
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15085,12 +15082,11 @@ $light_emissive
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
-@2p6
-@6Pp1
+@6@p1
+@6pv1
 @Accolades
 @BH]f
 @HPX`hv
-@HVp
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15126,7 +15122,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:P
 AABBDirection
 AACompromise
 AC2,h
@@ -21567,7 +21562,6 @@ F\n\finventories2
 F\n\finventories3
 F\n\fitem_scalars
 F\n\trow_range
-F\np6
 F\rH'4
 Face %s
 Face Actor
@@ -21925,6 +21919,7 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
+Fpe1
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25143,6 +25138,7 @@ No vprof list report.
 NoChannel
 NoClipDuration
 NoInterpolate
+NoPhysicsDust
 NoStaminaRegenDuringSleep
 NoValidActors
 NoWindUpTime
@@ -25756,13 +25752,15 @@ P-224
 P-256
 P-384
 P-521
-P08@J`m
+P08@JPm
 P08N
 P1\t98"
-P2`m
-P2p6
+P2Pm
+P2`6
 P5[1
-P6@\1
+P60\1
+P6pp1
+P:Pm
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26198,7 +26196,7 @@ PingCommonData
 PingWheelOptionID_t"
 PitchShift
 PivotPaint
-Pjp6
+Pj`6
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -26348,6 +26346,7 @@ PowerUp Permanent %s
 PowerUp Temp
 PowerUp Temp %s
 PowerUpStages
+Ppq,
 Pr"V
 Pre-Nav Queries Updates
 PreBounceLifetime
@@ -26730,6 +26729,7 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
+R\fpt
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
@@ -30708,7 +30708,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hrp6
+X`hr`6
 Xd3h
 XfJ7
 XjfR
@@ -31853,6 +31853,7 @@ Z~wl
 \tNone\n
 \tPOTG Eval: Contribution(%s) Weight(%.2f) Time(%.2f -> %.2f)\n
 \tPartyID_t
+\tPpq,
 \tPrivate script scope:
 \tPublic script scope:
 \tRead %s\t%s%s%s,\tOffs 0x%04x\n
@@ -31906,6 +31907,7 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
+\vPpq,
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
@@ -31983,8 +31985,8 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2p6
-`6@L1
+`2Pm
+`60L1
 `:zQF
 `D$daM-l
 `DZG
@@ -31992,8 +31994,6 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`bp6
-`dp6
 `fPw.\vM
 `h9T~
 `o_je
@@ -34727,7 +34727,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
-dq\f0a
+dq\f a
 draft
 draft_item_sets
 drag_override
@@ -35399,9 +35399,9 @@ eyj5yR
 f#9i\n
 f%wyLmX:
 f&dy
+f0I1
 f1cK%
 f45\r
-f@I1
 fBB\fy
 fC\tc
 fL\ri
@@ -36506,7 +36506,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpz`m
+hpzPm
 hr_H
 http request
 https proxy request
@@ -40221,13 +40221,12 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p2`m
-p2p6
+p2Pm
+p2`6
 p2{l
 p4Z3
 p5Z3
 p5\nL,
-p6 _1
 p618
 p@0pqE5tsO?|1
 pActivator
@@ -40501,6 +40500,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pb`6
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -40514,7 +40514,6 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
-pbp6
 pcPathLengthConstraint
 peak_memory_bytes
 pedestal_itemdef
@@ -40864,6 +40863,7 @@ power_up_buffs
 pp == NULL || *pp != NULL
 pp&c
 ppBasis
+ppq,
 pqualid
 pre idle done
 pre mac length too long
@@ -41141,6 +41141,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vpt
 rad2deg
 radial
 radialalt
