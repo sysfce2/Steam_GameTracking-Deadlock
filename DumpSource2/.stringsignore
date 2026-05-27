@@ -3122,6 +3122,8 @@ CCitadel_Modifier_CharmedWraps
 CCitadel_Modifier_CharmedWraps_VData
 CCitadel_Modifier_CheaterCurse
 CCitadel_Modifier_CheaterCurseVData
+CCitadel_Modifier_CheckNearbyPlayerParry
+CCitadel_Modifier_CheckNearbyPlayerParryVData
 CCitadel_Modifier_ChronoSwap_BubbleMove
 CCitadel_Modifier_ChronoSwap_BubbleMoveVData
 CCitadel_Modifier_Chrono_KineticCarbine
@@ -3520,7 +3522,6 @@ CCitadel_Modifier_MedicBulletsVData
 CCitadel_Modifier_MeleeCharge
 CCitadel_Modifier_MeleeCharge_VData
 CCitadel_Modifier_MeleeDamageOnly
-CCitadel_Modifier_MeleeTarget
 CCitadel_Modifier_Metal
 CCitadel_Modifier_MetalSkin
 CCitadel_Modifier_MetalSkinVData
@@ -21566,6 +21567,7 @@ citadel_show_falloff_in_world
 citadel_show_global_leaderboard
 citadel_show_hero_debut_popup
 citadel_show_hero_select_popup
+citadel_show_hidden_public_builds
 citadel_show_localization_errors
 citadel_show_minimap_reveal_indicators
 citadel_show_modifier_history
@@ -27133,6 +27135,7 @@ m_ParryActivateParticle
 m_ParryActiveModifier
 m_ParryBossVictimCalmModifier
 m_ParryBossVictimNoMeleeModifier
+m_ParryCheckModifier
 m_ParryCooldownModifier
 m_ParryEndVisualModifier
 m_ParryFXOverride
@@ -37366,6 +37369,7 @@ m_nId
 m_nIdealMotionType
 m_nIdleAnimLoopMode
 m_nIdolCashInTeam
+m_nIdolScoringTeam
 m_nIgnoreCP
 m_nImportance
 m_nImpulse
@@ -40287,6 +40291,7 @@ m_timeElapsedEvents
 m_timeEnemyDisappeared
 m_timeIdolCashInEnd
 m_timeIdolCashInStart
+m_timeIdolScoring
 m_timeLastSpawnCrates
 m_timeLastUpdate
 m_timeLaunch

@@ -3206,6 +3206,12 @@
 				_class = "modifier_intrinsic_base"
 				m_nEnabledStateMask = "MODIFIER_STATE_TECH_UNTARGETABLE | MODIFIER_STATE_TECH_INVULNERABLE"
 			},
+			subclass:
+			{
+				_class = "modifier_check_nearby_player_parry"
+				_my_subclass_name = "modifier_check_nearby_player_parry"
+				m_flParryCheckRadius = 60.0
+			},
 		]
 		m_eTrooperType = "NEUTRAL_SINNERS_SACRIFICE"
 		m_DeathParticle = resource_name:"particles/generic/null.vpcf"
@@ -3358,6 +3364,12 @@
 				_my_subclass_name = "neutral_vault_tech_immune"
 				_class = "modifier_intrinsic_base"
 				m_nEnabledStateMask = "MODIFIER_STATE_TECH_UNTARGETABLE | MODIFIER_STATE_TECH_INVULNERABLE"
+			},
+			subclass:
+			{
+				_class = "modifier_check_nearby_player_parry"
+				_my_subclass_name = "modifier_check_nearby_player_parry"
+				m_flParryCheckRadius = 60.0
 			},
 		]
 		m_eTrooperType = "NEUTRAL_SINNERS_SACRIFICE"
@@ -5013,6 +5025,12 @@
 				}
 				m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
 			}
+			m_ParryCheckModifier = subclass:
+			{
+				_class = "modifier_check_nearby_player_parry"
+				_my_subclass_name = "modifier_check_nearby_player_parry"
+				m_flParryCheckRadius = 80.0
+			}
 		}
 	}
 	citadel_item_pickup_rejuv_herotest = 
@@ -5080,6 +5098,12 @@
 					m_nEnabledStateMask = "MODIFIER_STATE_NEAR_REJUVINATOR"
 				}
 				m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
+			}
+			m_ParryCheckModifier = subclass:
+			{
+				_class = "modifier_check_nearby_player_parry"
+				_my_subclass_name = "modifier_check_nearby_player_parry"
+				m_flParryCheckRadius = 80.0
 			}
 		}
 		_base = "citadel_item_pickup_rejuv"

@@ -3011,6 +3011,7 @@ $hRh
 *.vdata_inc
 *.vmdl
 *.vnmgraph
+*0Ht
 *0fT
 *1~Pt
 *5\n\rESourceEngine
@@ -4826,6 +4827,7 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_ChargedTacklePrepare@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_CharmedWraps@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_CheaterCurse@@$0PPPP@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_CheckNearbyPlayerParry@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ChronoSwap_BubbleMove@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Chrono_KineticCarbine@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Chrono_KineticCarbine_Slow@@$0PPPP@@@
@@ -5095,7 +5097,6 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_MedicBullets@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_MeleeCharge@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_MeleeDamageOnly@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_MeleeTarget@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Metal@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_MetalSkin@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_MidBossAggroEnemy@@$0PPPP@@@
@@ -6157,6 +6158,7 @@ $hRh
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nHitIndex@C_Citadel_BreakableProp@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nHitbox@C_PlayerSprayDecal@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIdolCashInTeam@C_CitadelGameRules@@@@
+.?AV?$CNetworkVarBase@HVNetworkVar_m_nIdolScoringTeam@C_CitadelGameRules@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIndirectLight@CLightComponent@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIndirectTextureDimX@C_EnvVolumetricFogController@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIndirectTextureDimY@C_EnvVolumetricFogController@@@@
@@ -7253,6 +7255,7 @@ $hRh
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tWallDeployFinishTime@CCitadel_Ability_Necro_ZombieWall@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolCashInEnd@C_CitadelGameRules@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolCashInStart@C_CitadelGameRules@@@@
+.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolScoring@C_CitadelGameRules@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeLastUpdate@CCitadelTrooperMinimap@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeLaunch@CItemXP@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeRevealedOnMinimapByNPC@C_CitadelPlayerPawn@@@@
@@ -8029,6 +8032,7 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ChargedTacklePrepare@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_CharmedWraps@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_CheaterCurse@@VCBaseModifier@@@@
+.?AV?$CSubclassFactory@VCCitadel_Modifier_CheckNearbyPlayerParry@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ChronoSwap_BubbleMove@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Chrono_KineticCarbine@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Chrono_KineticCarbine_Slow@@VCBaseModifier@@@@
@@ -8298,7 +8302,6 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_MedicBullets@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_MeleeCharge@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_MeleeDamageOnly@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_MeleeTarget@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Metal@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_MetalSkin@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_MidBossAggroEnemy@@VCBaseModifier@@@@
@@ -11690,6 +11693,8 @@ $hRh
 .?AVCCitadel_Modifier_CharmedWraps_VData@@
 .?AVCCitadel_Modifier_CheaterCurse@@
 .?AVCCitadel_Modifier_CheaterCurseVData@@
+.?AVCCitadel_Modifier_CheckNearbyPlayerParry@@
+.?AVCCitadel_Modifier_CheckNearbyPlayerParryVData@@
 .?AVCCitadel_Modifier_ChronoSwap_BubbleMove@@
 .?AVCCitadel_Modifier_ChronoSwap_BubbleMoveVData@@
 .?AVCCitadel_Modifier_Chrono_KineticCarbine@@
@@ -12084,7 +12089,6 @@ $hRh
 .?AVCCitadel_Modifier_MeleeCharge@@
 .?AVCCitadel_Modifier_MeleeCharge_VData@@
 .?AVCCitadel_Modifier_MeleeDamageOnly@@
-.?AVCCitadel_Modifier_MeleeTarget@@
 .?AVCCitadel_Modifier_Metal@@
 .?AVCCitadel_Modifier_MetalSkin@@
 .?AVCCitadel_Modifier_MetalSkinVData@@
@@ -16745,6 +16749,7 @@ $hRh
 08bX
 09,h
 0:00
+0:py
 0;Q5[
 0<cz
 0M2~@p
@@ -16784,6 +16789,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vt)
 0x%4.4x 
 0x%X
 0x%X 
@@ -17005,7 +17011,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpT
+2\vpl\r
 2^pV
 2a"l
 2bT~
@@ -17072,6 +17078,7 @@ $hRh
 474E4U4W4c4i4m4
 4<Td
 4@AA
+4Bhe
 4Ch;
 4F0I
 4Mv8
@@ -17303,6 +17310,7 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
+:0Ht
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -17479,9 +17487,9 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CAbility_Synth_Affliction
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CitadelPartyCode
+?Clear all post process effects that are active, and spew their state
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?EncodeBC7Blocks
@@ -17503,6 +17511,7 @@ $hRh
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?LatchVariables
+?Open an ability by slot in the VData editor
 ?TabButton
 ?The most recent last-played time the client already knows about"
 ?VBH;
@@ -17517,22 +17526,23 @@ $hRh
 ?expf
 ?gwL
 ?jOb
-?m_AIPhysicsModifier
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N
+@08Nt)
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
+@CitadelMusicCueOverrides_t
 @DebugIndividualStyle
 @HPX`hv
-@HV`l
+@HV0
 @MPropertyAttributeEditor
 @MfKZ
+@NPt
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -17546,13 +17556,13 @@ $hRh
 @\n\vPowerUpBuff
 @\tV_iswcntrl
 @absorigin_follow
-@citadel_minimap_boundary
 @dKb]
 @fff>fff>fff>fff>
+@htp
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
-@m_PreExplodeParticle
+@m_flLaunchTime
 @n2w
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
@@ -17569,6 +17579,7 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
+AA:p
 AABBDirection
 AACompromise
 ABXY
@@ -18883,7 +18894,6 @@ BookImagePage
 BookImageSequence
 BookInfo
 BookItemUnlock
-BookItemUnlockControl
 BookLogo
 BookNavButton
 BookNavButtonBase
@@ -22316,6 +22326,7 @@ CitadelFriendsListEntryParty
 CitadelFriendsPanelButtonClicked
 CitadelGCConnectionStatusChanged
 CitadelGameAccountClientChanged
+CitadelGameChatModeSelected
 CitadelGameLobbyUpdated
 CitadelGamePadBinding
 CitadelGamePadGlyph
@@ -28116,7 +28127,7 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MCitadelGameChatModeSelected
+MBookItemUnlockControl
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -29408,8 +29419,7 @@ P-224
 P-256
 P-384
 P-521
-P08J0
-P08N
+P08Nt)
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
@@ -30134,6 +30144,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
+Pnt)
 Point entity.
 Point under crosshair
 PointType
@@ -30712,12 +30723,11 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpT
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpP
+R\vpl\r
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34793,6 +34803,7 @@ WriteSteamRemoteStorageFileBlocking( "%s", buf ) -> %f seconds\n
 WriteToBuffer Message %s is not initialized! Probably missing required fields!\n
 Writing SST data to %s...\n
 Writing cubemaps to %s\n
+Wteam_manager
 X to the Y power
 X(Optional) If true, only return the published file ids of files that satisfy this query.
 X.509 part of OpenSSL 1.0.2j  26 Sep 2016
@@ -35030,8 +35041,6 @@ XWY]
 XYD%
 X\tQo
 Xd3h
-Xf t
-Xf@u
 XfJ7
 XjfR
 XqgA+
@@ -35246,7 +35255,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -35444,6 +35452,7 @@ Z~wl
 \n/CMsgClientToGCUpdateHeroBuildPreferenceResponse
 \n/steammessages_publishedfile.steamworkssdk.proto
 \n0CCitadelUserMsg_ParticipantSetLibraryStackFields
+\n0Ht
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
 \n3CCitadelClientMsg_HideoutUpdateHeroReleaseVoteTally
 \n3CMsgServerSteamLearnCitadelPlayerMechanicalBehavior
@@ -35650,6 +35659,7 @@ Z~wl
 \n\fwinning_team
 \n\fx_resolution
 \n\fy_resolution
+\n\n0Ht
 \n\nDiagnostic
 \n\nEAddSocket
 \n\nEEndReason
@@ -36278,6 +36288,7 @@ Z~wl
 \rKT8v
 \rLAM
 \rMinghuaQu\f
+\rPort old muzzle defs to the new
 \rTxL
 \rUHz4Z}\r
 \rWhO
@@ -36584,6 +36595,8 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`60M
+`6PN
 `:zQF
 `D$daM-l
 `DZG
@@ -36594,7 +36607,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`ht e
 `o_je
 `yNT
 a null shared library handle was used
@@ -36612,6 +36624,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvt)
 aD/x
 aDSS
 aECDH
@@ -38152,6 +38165,7 @@ captions
 capturable
 capture_point
 capture_time
+captured
 capturepoint
 capturing
 card_variant
@@ -38547,6 +38561,7 @@ citadel_loading_screen
 citadel_magic_beam_blocker
 citadel_magician_turret_object
 citadel_match_time
+citadel_minimap_boundary
 citadel_minimap_effects
 citadel_minion
 citadel_mobile_resupply_object
@@ -42323,6 +42338,7 @@ identified-organization
 identifier
 idiv
 idol
+idolScoreResultDisplayTime
 idol_dropping
 idol_return
 idol_return_enemy
@@ -44655,6 +44671,7 @@ modifier_charged_bomb
 modifier_charmed_wraps
 modifier_charred
 modifier_cheat_death_immunity
+modifier_check_nearby_player_parry
 modifier_chrono_kinetic_carbine
 modifier_chrono_kinetic_carbine_slow
 modifier_chrono_pulse_grenade_debuff
@@ -45049,7 +45066,6 @@ modifier_magician_animalcurse_hexarea
 modifier_magicshock_proc_immune_watcher
 modifier_medic_bullets
 modifier_melee_charge
-modifier_melee_target
 modifier_midboss_aggro_enemy
 modifier_mirage_fire_beetles_debuff
 modifier_mirage_fire_scarabs_health_loss
@@ -46196,8 +46212,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p0j@\n
+p08@H^t)
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46214,7 +46229,6 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pFP\f
 pField
 pFilter
 pG_*h
@@ -46886,6 +46900,7 @@ playtime_2weeks
 playtime_forever
 plum
 pngsize
+pnt)
 point
 point arithmetic failure
 point at infinity
@@ -47312,10 +47327,8 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpP
 r\n\vstart_index
 r\vDi
-r\vpT
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -49344,7 +49357,6 @@ team_friendly_container
 team_id
 team_image
 team_kills
-team_manager
 team_name
 team_net_worth
 team_networth
@@ -50735,7 +50747,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDm_bPreIntroFinished
+zDWhen you get gold from a player orb.
 zF):O4
 zFar
 zG2m8

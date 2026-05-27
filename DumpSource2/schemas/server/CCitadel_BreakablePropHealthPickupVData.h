@@ -52,6 +52,9 @@
 //	],
 //	"m_flFallGravity": 1.000000,
 //	"m_flHoverOffset": 0.000000,
+//	"m_ParryCheckModifier":
+//	{
+//	},
 //	"m_bPicupIsVacuum": false,
 //	"m_flInitialVacuumSideSpeed":
 //	[

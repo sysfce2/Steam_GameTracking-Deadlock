@@ -52,6 +52,9 @@
 //	],
 //	"m_flFallGravity": 1.000000,
 //	"m_flHoverOffset": 0.000000,
+//	"m_ParryCheckModifier":
+//	{
+//	},
 //	"m_bPicupIsVacuum": false,
 //	"m_flInitialVacuumSideSpeed":
 //	[
@@ -180,6 +183,7 @@ class CCitadel_BreakablePropPickupVData : public CEntitySubclassVDataBase
 	// MPropertyDescription = "Optionally how far to hover off the ground"
 	// MPropertySuppressExpr = "bPhysicallyDropToTheGroundOnSpawn == false"
 	float32 m_flHoverOffset;
+	CEmbeddedSubclass< CBaseModifier > m_ParryCheckModifier;
 	// MPropertyStartGroup = ""
 	// MPropertyDescription = "When true, the pickup will vacuum to the first player that gets within the pickup radius"
 	bool m_bPicupIsVacuum;

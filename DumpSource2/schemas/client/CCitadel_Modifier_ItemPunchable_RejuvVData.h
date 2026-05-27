@@ -139,7 +139,6 @@
 //	"m_iRejuvBossKill01": 3,
 //	"m_iRejuvBossKill02": 3,
 //	"m_flPhysicsRadius": 40.000000,
-//	"m_flParryCheckRadius": 80.000000,
 //	"m_flMaxDistForHeal": 1400.000000,
 //	"m_IsDroppingParticle": "",
 //	"m_IsPunchableParticle": "",
@@ -149,6 +148,9 @@
 //	"m_NearRejuvAuraModifier":
 //	{
 //	},
+//	"m_ParryCheckModifier":
+//	{
+//	},
 //	"m_sHitSound": ""
 //}
 class CCitadel_Modifier_ItemPunchable_RejuvVData : public CCitadelModifierVData
@@ -156,7 +158,6 @@ class CCitadel_Modifier_ItemPunchable_RejuvVData : public CCitadelModifierVData
 	int32 m_iRejuvBossKill01;
 	int32 m_iRejuvBossKill02;
 	float32 m_flPhysicsRadius;
-	float32 m_flParryCheckRadius;
 	float32 m_flMaxDistForHeal;
 	// MPropertyStartGroup = "Visuals"
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_IsDroppingParticle;
@@ -166,6 +167,7 @@ class CCitadel_Modifier_ItemPunchable_RejuvVData : public CCitadelModifierVData
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_AoEHealParticle;
 	// MPropertyStartGroup = "Modifiers"
 	CEmbeddedSubclass< CCitadelModifier > m_NearRejuvAuraModifier;
+	CEmbeddedSubclass< CCitadelModifier > m_ParryCheckModifier;
 	// MPropertyGroupName = "Audio"
 	CSoundEventName m_sHitSound;
 };

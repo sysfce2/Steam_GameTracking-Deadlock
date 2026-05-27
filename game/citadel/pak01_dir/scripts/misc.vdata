@@ -1095,6 +1095,12 @@
 			}
 			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
 		}
+		m_ParryCheckModifier = subclass:
+		{
+			_class = "modifier_check_nearby_player_parry"
+			_my_subclass_name = "modifier_check_nearby_player_parry"
+			m_flParryCheckRadius = 60.0
+		}
 		m_iHitsRequired = 1
 		m_sHitSound = soundevent:"Powerup.Pickup.Punch"
 		m_DamagedParticle = resource_name:"particles/environment/powerup_spawner_ambient_damaged.vpcf"
@@ -1168,6 +1174,12 @@
 				m_nEnabledStateMask = "MODIFIER_STATE_NEAR_HEAVY_PUNCHABLE_ITEM"
 			}
 			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
+		}
+		m_ParryCheckModifier = subclass:
+		{
+			_class = "modifier_check_nearby_player_parry"
+			_my_subclass_name = "modifier_check_nearby_player_parry"
+			m_flParryCheckRadius = 60.0
 		}
 		m_iHitsRequired = 1
 		m_sHitSound = soundevent:"Powerup.Pickup.Punch"
@@ -1249,6 +1261,12 @@
 			}
 			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
 		}
+		m_ParryCheckModifier = subclass:
+		{
+			_class = "modifier_check_nearby_player_parry"
+			_my_subclass_name = "modifier_check_nearby_player_parry"
+			m_flParryCheckRadius = 60.0
+		}
 		m_iHitsRequired = 1
 		m_sHitSound = soundevent:"Powerup.Pickup.Punch"
 		m_DamagedParticle = resource_name:"particles/environment/powerup_spawner_ambient_damaged.vpcf"
@@ -1329,6 +1347,12 @@
 			}
 			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
 		}
+		m_ParryCheckModifier = subclass:
+		{
+			_class = "modifier_check_nearby_player_parry"
+			_my_subclass_name = "modifier_check_nearby_player_parry"
+			m_flParryCheckRadius = 60.0
+		}
 		m_iHitsRequired = 1
 		m_sHitSound = soundevent:"Powerup.Pickup.Punch"
 		m_DamagedParticle = resource_name:"particles/environment/powerup_spawner_ambient_damaged.vpcf"
@@ -1408,6 +1432,12 @@
 				m_nEnabledStateMask = "MODIFIER_STATE_NEAR_HEAVY_PUNCHABLE_ITEM"
 			}
 			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
+		}
+		m_ParryCheckModifier = subclass:
+		{
+			_class = "modifier_check_nearby_player_parry"
+			_my_subclass_name = "modifier_check_nearby_player_parry"
+			m_flParryCheckRadius = 60.0
 		}
 		m_iHitsRequired = 1
 		m_sHitSound = soundevent:"Powerup.Pickup.Punch"
@@ -1500,6 +1530,12 @@
 			}
 			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
 		}
+		m_ParryCheckModifier = subclass:
+		{
+			_class = "modifier_check_nearby_player_parry"
+			_my_subclass_name = "modifier_check_nearby_player_parry"
+			m_flParryCheckRadius = 60.0
+		}
 		m_iHitsRequired = 1
 		m_sHitSound = soundevent:"Powerup.Pickup.Punch"
 		m_DamagedParticle = resource_name:"particles/environment/powerup_spawner_ambient_damaged.vpcf"
@@ -1553,6 +1589,12 @@
 				m_nEnabledStateMask = "MODIFIER_STATE_NEAR_PUNCHABLE_CHANGE_TEAM"
 			}
 			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
+		}
+		m_ParryCheckModifier = subclass:
+		{
+			_class = "modifier_check_nearby_player_parry"
+			_my_subclass_name = "modifier_check_nearby_player_parry"
+			m_flParryCheckRadius = 60.0
 		}
 		m_iHitsRequired = 1
 		m_sHitSound = soundevent:"Powerup.Pickup.Punch"

@@ -4042,6 +4042,9 @@ citadel_show_falloff_in_world false (developmentonly clientdll)
 citadel_show_global_leaderboard false (clientdll release)
 	Show Global Leaderboards
 
+citadel_show_hidden_public_builds false (developmentonly clientdll archive)
+	<no description>
+
 citadel_show_localization_errors false (developmentonly clientdll)
 	<no description>
 

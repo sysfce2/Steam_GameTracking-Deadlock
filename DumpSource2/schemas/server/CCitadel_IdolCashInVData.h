@@ -18,6 +18,9 @@
 //	"m_flCashInTimeFavored": 5.000000,
 //	"m_flCashInTimeUnfavored": 8.000000,
 //	"m_flCashInTimeExtension": 1.250000,
+//	"m_ParryCheckModifier":
+//	{
+//	},
 //	"m_AuraModifier":
 //	{
 //	},
@@ -49,6 +52,8 @@ class CCitadel_IdolCashInVData : public CEntitySubclassVDataBase
 	float32 m_flCashInTimeFavored;
 	float32 m_flCashInTimeUnfavored;
 	float32 m_flCashInTimeExtension;
+	// MPropertyStartGroup = "Modifiers"
+	CEmbeddedSubclass< CBaseModifier > m_ParryCheckModifier;
 	CEmbeddedSubclass< CBaseModifier > m_AuraModifier;
 	CEmbeddedSubclass< CBaseModifier > m_ComebackAuraModifier;
 };

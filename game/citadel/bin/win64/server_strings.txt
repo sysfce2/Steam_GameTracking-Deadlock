@@ -181,6 +181,12 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
+ (08@HPX`jp6
+ (08@HPXb`m
+ (08@HPZp6
+ (08@HR`m
+ (08@Jp6
+ (0X`hpz`m
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -2055,11 +2061,10 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0D1
-.0S1
-.0Y1
-.0s1
-.0u1
+.0L1
+.0U1
+.0w1
+.0x1
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -3511,6 +3516,7 @@ $light_emissive
 .?AV?$CModifierFactory@VCCitadel_Modifier_ChargedTacklePrepare@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_CharmedWraps@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_CheaterCurse@@$0PPPP@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_CheckNearbyPlayerParry@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ChronoSwap_BubbleMove@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Chrono_KineticCarbine@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Chrono_KineticCarbine_Slow@@$0PPPP@@@
@@ -3783,7 +3789,6 @@ $light_emissive
 .?AV?$CModifierFactory@VCCitadel_Modifier_MedicBullets@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_MeleeCharge@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_MeleeDamageOnly@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_MeleeTarget@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Metal@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_MetalSkin@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_MidBossAggroEnemy@@$0PPPP@@@
@@ -4805,6 +4810,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nHitIndex@CCitadel_BreakableProp@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nHitbox@CPlayerSprayDecal@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIdolCashInTeam@CCitadelGameRules@@@@
+.?AV?$CNetworkVarBase@HVNetworkVar_m_nIdolScoringTeam@CCitadelGameRules@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIndirectLight@CLightComponent@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIndirectTextureDimX@CEnvVolumetricFogController@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIndirectTextureDimY@CEnvVolumetricFogController@@@@
@@ -5896,6 +5902,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tWallDeployFinishTime@CCitadel_Ability_Necro_ZombieWall@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolCashInEnd@CCitadelGameRules@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolCashInStart@CCitadelGameRules@@@@
+.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolScoring@CCitadelGameRules@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeLastUpdate@CCitadelTrooperMinimap@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeLaunch@CItemXP@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeRevealedOnMinimapByNPC@CCitadelPlayerPawn@@@@
@@ -6660,6 +6667,7 @@ $light_emissive
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ChargedTacklePrepare@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_CharmedWraps@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_CheaterCurse@@VCBaseModifier@@@@
+.?AV?$CSubclassFactory@VCCitadel_Modifier_CheckNearbyPlayerParry@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ChronoSwap_BubbleMove@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Chrono_KineticCarbine@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Chrono_KineticCarbine_Slow@@VCBaseModifier@@@@
@@ -6932,7 +6940,6 @@ $light_emissive
 .?AV?$CSubclassFactory@VCCitadel_Modifier_MedicBullets@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_MeleeCharge@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_MeleeDamageOnly@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_MeleeTarget@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Metal@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_MetalSkin@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_MidBossAggroEnemy@@VCBaseModifier@@@@
@@ -9867,6 +9874,8 @@ $light_emissive
 .?AVCCitadel_Modifier_CharmedWraps_VData@@
 .?AVCCitadel_Modifier_CheaterCurse@@
 .?AVCCitadel_Modifier_CheaterCurseVData@@
+.?AVCCitadel_Modifier_CheckNearbyPlayerParry@@
+.?AVCCitadel_Modifier_CheckNearbyPlayerParryVData@@
 .?AVCCitadel_Modifier_ChronoSwap_BubbleMove@@
 .?AVCCitadel_Modifier_ChronoSwap_BubbleMoveVData@@
 .?AVCCitadel_Modifier_Chrono_KineticCarbine@@
@@ -10264,7 +10273,6 @@ $light_emissive
 .?AVCCitadel_Modifier_MeleeCharge@@
 .?AVCCitadel_Modifier_MeleeCharge_VData@@
 .?AVCCitadel_Modifier_MeleeDamageOnly@@
-.?AVCCitadel_Modifier_MeleeTarget@@
 .?AVCCitadel_Modifier_Metal@@
 .?AVCCitadel_Modifier_MetalSkin@@
 .?AVCCitadel_Modifier_MetalSkinVData@@
@@ -14084,10 +14092,13 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PL1
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
-.Ps1
+.Pw1
+.Px1
+.Py1
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14372,11 +14383,10 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pX1
-.pY1
+.pL1
 .pp@0
-.pq1
-.ps1
+.pw1
+.px1
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14434,6 +14444,9 @@ $light_emissive
 0123456789
 02V8[
 05=k
+08@HRp6
+08@J`m
+08Bp6
 08bX
 09,h
 0;Q5[
@@ -14470,7 +14483,6 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vtx,
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14605,7 +14617,6 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpL
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14665,6 +14676,7 @@ $light_emissive
 4@AA
 4Ch;
 4F0I
+4F\v0
 4Mv8
 4Zis
 4\fPl
@@ -14714,14 +14726,12 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 51
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60b1
 62$|S)6f
 64CK\vH
 65535
@@ -14731,10 +14741,11 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666CAttributeManager
 67-s
-6@f1
+6@z1
 6H,N
 6O|T%
-6Ph1
+6PZ1
+6Pd1
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14746,7 +14757,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`a1
+6`P1
 6afD
 6bX+
 6c&0|vvX
@@ -14754,7 +14765,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pe1
+6pQ1
 6qo~
 6r-m_v
 6r1ij
@@ -14803,7 +14814,9 @@ $light_emissive
 851Pe
 8<pl
 8= zp
+8@Jp6
 8A6j
+8Bp6
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14823,6 +14836,7 @@ $light_emissive
 8\n\tgame_info
 8\n\vAbilityStat
 8\n\vreason_code
+8\np6
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
@@ -15019,7 +15033,6 @@ $light_emissive
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
->Pc1
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15070,14 +15083,14 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Ntx,
+@08N
 @0pp
-@6 Y1
-@6PX1
-@6pW1
+@2p6
+@6Pp1
 @Accolades
 @BH]f
 @HPX`hv
+@HVp
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15092,11 +15105,9 @@ $light_emissive
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@ftx,
-@ground_origin
 @i1V
+@m_BonusItem2
 @n2w
-@ntx,
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -15115,6 +15126,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:P
 AABBDirection
 AACompromise
 AC2,h
@@ -15359,6 +15371,7 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
+A`r9
 AbW_
 Abandon
 Abandoned
@@ -15810,6 +15823,7 @@ AwaitingTether
 AwakeDamage
 Axis
 AxisAngleToQuaternion
+AxoL
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
@@ -21502,7 +21516,6 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
-F H1
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -21544,6 +21557,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FPj9
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21553,8 +21567,8 @@ F\n\finventories2
 F\n\finventories3
 F\n\fitem_scalars
 F\n\trow_range
+F\np6
 F\rH'4
-F`H1
 Face %s
 Face Actor
 Face Entity
@@ -25742,12 +25756,13 @@ P-224
 P-256
 P-384
 P-521
-P08J0
-P08Ntx,
+P08@J`m
+P08N
 P1\t98"
+P2`m
+P2p6
 P5[1
-P6 S1
-P60r1
+P6@\1
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26141,7 +26156,6 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf@F1
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -26184,6 +26198,7 @@ PingCommonData
 PingWheelOptionID_t"
 PitchShift
 PivotPaint
+Pjp6
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -26286,8 +26301,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn@G1
-Pntx,
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26720,7 +26733,6 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpL
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30696,6 +30708,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hrp6
 Xd3h
 XfJ7
 XjfR
@@ -31778,6 +31791,7 @@ Z~wl
 \rTxL
 \rUHz4Z}\r
 \rWhO
+\rXj9
 \rY=QX
 \rYYHl
 \r\n\tEUpgraded
@@ -31969,8 +31983,8 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6@Z1
-`6PY1
+`2p6
+`6@L1
 `:zQF
 `D$daM-l
 `DZG
@@ -31978,10 +31992,10 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`bp6
+`dp6
 `fPw.\vM
-`ftx,
 `h9T~
-`ntx,
 `o_je
 `yNT
 a null shared library handle was used
@@ -32000,7 +32014,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvtx,
 aD/x
 aDSS
 aECDH
@@ -34319,7 +34332,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\tp
 dSAQuality
 dWry
 dZ!2.
@@ -34715,6 +34727,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
+dq\f0a
 draft
 draft_item_sets
 drag_override
@@ -35388,6 +35401,7 @@ f%wyLmX:
 f&dy
 f1cK%
 f45\r
+f@I1
 fBB\fy
 fC\tc
 fL\ri
@@ -35836,7 +35850,6 @@ from
 from_crate
 frozen
 fruit_model
-ftx,
 fulfilled_item_id
 full_body
 full_charge
@@ -36139,6 +36152,7 @@ grenade
 ground5_to_water1
 ground_dash
 ground_jump
+ground_origin
 ground_water_air_transition_mesh_part
 ground_water_air_transition_with_ladder
 ground_water_air_transition_with_ladder_mesh_part
@@ -36492,6 +36506,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
+hpz`m
 hr_H
 http request
 https proxy request
@@ -38722,6 +38737,7 @@ modifier_charged_bomb
 modifier_charmed_wraps
 modifier_charred
 modifier_cheat_death_immunity
+modifier_check_nearby_player_parry
 modifier_chrono_kinetic_carbine
 modifier_chrono_kinetic_carbine_slow
 modifier_chrono_pulse_grenade_debuff
@@ -39137,7 +39153,6 @@ modifier_magician_animalcurse_hexarea
 modifier_magicshock_proc_immune_watcher
 modifier_medic_bullets
 modifier_melee_charge
-modifier_melee_target
 modifier_midboss_aggro_enemy
 modifier_mirage_fire_beetles_debuff
 modifier_mirage_fire_scarabs_health_loss
@@ -39547,7 +39562,6 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n021
 n0?X
 n1Z 
 n5cM
@@ -39959,7 +39973,6 @@ nsRevocationUrl
 nsSGC
 nsSslServerName
 nssslserver
-ntx,
 null before block missing
 null is wrong length
 null parameter
@@ -40207,13 +40220,15 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^tx,
+p08@H^
+p2`m
+p2p6
 p2{l
 p4Z3
 p5Z3
 p5\nL,
+p6 _1
 p618
-p>tx,
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40499,6 +40514,7 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
+pbp6
 pcPathLengthConstraint
 peak_memory_bytes
 pedestal_itemdef
@@ -40739,7 +40755,6 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pntx,
 point
 point arithmetic failure
 point at infinity
@@ -42766,7 +42781,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\tp
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -43838,7 +43852,6 @@ vparams
 vqw0\nU
 vscripts
 vsnd_selection_index
-vtx,
 vv == NULL
 vzcrR
 w+Ce
@@ -44163,9 +44176,7 @@ zz2K
 ~9ob
 ~If D
 ~P2T
-~Pr1
 ~R65Fu
 ~jLRG
-~pr1
 ~w]UG
 ~yhZ

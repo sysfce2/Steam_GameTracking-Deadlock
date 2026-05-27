@@ -594,7 +594,7 @@
 	Stinger.Idol.Returned.Team = 
 	{
 		base = "Base.Stingers.2d"
-		volume = 2.0
+		volume = 4.0
 		vsnd_files = 
 		[
 			"sounds/music/music_idol_return_team.vsnd",
@@ -604,7 +604,7 @@
 	Stinger.Idol.Returned.Opponent = 
 	{
 		base = "Base.Stingers.2d"
-		volume = 2.0
+		volume = 4.0
 		vsnd_files = 
 		[
 			"sounds/music/music_idol_return_opponent.vsnd",

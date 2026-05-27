@@ -1812,6 +1812,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 	}
 	hero_inferno = 
@@ -3626,6 +3631,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -5475,6 +5485,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -7335,6 +7350,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_bLaneTestingRecommended = true
@@ -9186,6 +9206,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/spectre_sm.psd"
@@ -11029,6 +11054,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -12886,6 +12916,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_bLaneTestingRecommended = true
@@ -14732,6 +14767,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -16586,6 +16626,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/chrono_sm.psd"
@@ -18435,6 +18480,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_bLaneTestingRecommended = true
@@ -20277,6 +20327,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -22132,6 +22187,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = true
@@ -23976,6 +24036,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -25826,6 +25891,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
@@ -27671,6 +27741,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -29531,6 +29606,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_bLaneTestingRecommended = true
@@ -31373,6 +31453,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -33230,6 +33315,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/shiv_sm.psd"
@@ -35072,6 +35162,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -36922,6 +37017,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/kali_sm.psd"
@@ -38751,6 +38851,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -40606,6 +40711,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/yamato_sm.psd"
@@ -42453,6 +42563,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/lash_sm.psd"
@@ -44295,6 +44410,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -46146,6 +46266,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/gunslinger_sm.psd"
@@ -47963,6 +48088,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -49789,6 +49919,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/genericperson_sm.psd"
@@ -51607,6 +51742,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -53431,6 +53571,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -55262,6 +55407,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconHeroCard = panorama:"file://{images}/heroes/rutger_card.psd"
@@ -57083,6 +57233,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -58930,6 +59085,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/thumper_sm.psd"
@@ -60750,6 +60910,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -62600,6 +62765,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/slork_sm.psd"
@@ -64425,6 +64595,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/cadence_sm.psd"
@@ -66243,6 +66418,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -68070,6 +68250,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strHeroSearchName = "#hero_bomber_search"
@@ -69884,6 +70069,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -71709,6 +71899,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -73560,6 +73755,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/vandal_sm.psd"
@@ -75390,6 +75590,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -77240,6 +77445,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/trapper_sm.psd"
@@ -79068,6 +79278,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/operative_sm.psd"
@@ -80892,6 +81107,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -82739,6 +82959,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -84599,6 +84824,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/priest_sm.psd"
@@ -86448,6 +86678,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -88303,6 +88538,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
@@ -90151,6 +90391,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
@@ -91979,6 +92224,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -93834,6 +94084,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/skyrunner_sm.psd"
@@ -95663,6 +95918,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/swan_sm.psd"
@@ -97488,6 +97748,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -99338,6 +99603,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_nReadability = 4
@@ -101162,6 +101432,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -103007,6 +103282,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/fortuna_sm.psd"
@@ -104847,6 +105127,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -106699,6 +106984,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/fencer_sm.psd"
@@ -108546,6 +108836,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/chrono_sm.psd"
@@ -110372,6 +110667,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -112215,6 +112515,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
@@ -114068,6 +114373,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/unicorn_sm.psd"
@@ -115913,6 +116223,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.0
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
 		}
 		_base = "hero_base"
 		m_strHeroSearchName = "#hero_opera_search"
@@ -117729,6 +118044,11 @@
 				m_flWeight = 1.0
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.0
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.0

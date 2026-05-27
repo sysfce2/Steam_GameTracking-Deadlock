@@ -31,6 +31,8 @@
 // MNetworkVarNames = "CitadelTeam_t m_nIdolCashInTeam"
 // MNetworkVarNames = "GameTime_t m_timeIdolCashInStart"
 // MNetworkVarNames = "GameTime_t m_timeIdolCashInEnd"
+// MNetworkVarNames = "CitadelTeam_t m_nIdolScoringTeam"
+// MNetworkVarNames = "GameTime_t m_timeIdolScoring"
 // MNetworkVarNames = "EHANDLE m_hCurrentHeroDrafterRebels"
 // MNetworkVarNames = "EHANDLE m_hCurrentHeroDrafterCombine"
 // MNetworkVarNames = "int m_iMidbossKillCount"
@@ -120,6 +122,10 @@ class C_CitadelGameRules : public C_TeamplayRules
 	GameTime_t m_timeIdolCashInStart;
 	// MNetworkEnable
 	GameTime_t m_timeIdolCashInEnd;
+	// MNetworkEnable
+	int32 m_nIdolScoringTeam;
+	// MNetworkEnable
+	GameTime_t m_timeIdolScoring;
 	// MNetworkEnable
 	// MNetworkPriority = 32
 	// MNetworkChangeCallback = "playerDraftingChanged"
