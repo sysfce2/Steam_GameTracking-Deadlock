@@ -143,16 +143,12 @@
 //	"m_WalkingLoopSound": "",
 //	"m_IdlingLoopSound": "",
 //	"m_flStopDistance": 600.000000,
-//	"m_flMaxSpeedDistance": 1600.000000,
-//	"m_flSlowSpeed": 40.000000,
 //	"m_flFastSpeed": 250.000000,
 //	"m_flVerticalOffset": 16.000000,
 //	"m_flTolerance": 20.000000,
 //	"m_flRepathTime": 5.000000,
-//	"m_flAutoRunTime": 75.000000,
-//	"m_flTimeToStartAutoRun": 5.000000,
-//	"m_flWaitTimeDistance": 1000.000000,
 //	"m_flWaitTimeLimit": 20.000000,
+//	"m_flWaitTimeLimitOverheld": 0.000000,
 //	"m_flCheckPlayerRate": 0.500000
 //}
 class CCitadel_Modifier_ItemWalkBackVData : public CCitadelModifierVData
@@ -167,15 +163,11 @@ class CCitadel_Modifier_ItemWalkBackVData : public CCitadelModifierVData
 	CSoundEventName m_IdlingLoopSound;
 	// MPropertyStartGroup = "Gameplay"
 	float32 m_flStopDistance;
-	float32 m_flMaxSpeedDistance;
-	float32 m_flSlowSpeed;
 	float32 m_flFastSpeed;
 	float32 m_flVerticalOffset;
 	float32 m_flTolerance;
 	float32 m_flRepathTime;
-	float32 m_flAutoRunTime;
-	float32 m_flTimeToStartAutoRun;
-	float32 m_flWaitTimeDistance;
 	float32 m_flWaitTimeLimit;
+	float32 m_flWaitTimeLimitOverheld;
 	float32 m_flCheckPlayerRate;
 };

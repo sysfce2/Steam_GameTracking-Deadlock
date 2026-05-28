@@ -2534,20 +2534,19 @@
 			m_flPerMinuteAfterStart = 0.0
 		}
 		m_bUseFixedDuration = true
-		m_flRegenDuration = 2.0
+		m_flRegenDuration = 4.0
 		m_flRegenDurationTroopers = 8.0
 		m_flRegenTrooperMulti = 1.3
 		m_flMissingPctRegen = 
 		{
-			m_flBase = 16.0
+			m_flBase = 13.0
 		}
 		m_flRegenHPS = 0.0
 		m_RegenModifier = subclass:
 		{
-			_class = "modifier_citadel_basic_health_regen"
+			_class = "modifier_citadel_extendable_health_regen"
 			m_bIsHidden = true
 			_my_subclass_name = "regen"
-			m_nAttributes = "MODIFIER_ATTRIBUTE_MULTIPLE"
 			m_HealingLoopSoundOverride = 
 			{
 				m_sLoopSound = soundevent:""
@@ -2699,7 +2698,7 @@
 		m_flRegenFixed = 
 		{
 			m_flBase = 150.0
-			m_flPerMinuteAfterStart = 4.0
+			m_flPerMinuteAfterStart = 2.0
 		}
 	}
 	medic_trooper_aoe_health_pickup_sapphire = 
@@ -2732,20 +2731,19 @@
 			m_flPerMinuteAfterStart = 0.0
 		}
 		m_bUseFixedDuration = true
-		m_flRegenDuration = 2.0
+		m_flRegenDuration = 4.0
 		m_flRegenDurationTroopers = 8.0
 		m_flRegenTrooperMulti = 1.3
 		m_flMissingPctRegen = 
 		{
-			m_flBase = 16.0
+			m_flBase = 13.0
 		}
 		m_flRegenHPS = 0.0
 		m_RegenModifier = subclass:
 		{
-			_class = "modifier_citadel_basic_health_regen"
+			_class = "modifier_citadel_extendable_health_regen"
 			m_bIsHidden = true
 			_my_subclass_name = "regen"
-			m_nAttributes = "MODIFIER_ATTRIBUTE_MULTIPLE"
 			m_HealingLoopSoundOverride = 
 			{
 				m_sLoopSound = soundevent:""
@@ -2897,7 +2895,7 @@
 		m_flRegenFixed = 
 		{
 			m_flBase = 150.0
-			m_flPerMinuteAfterStart = 4.0
+			m_flPerMinuteAfterStart = 2.0
 		}
 		_base = "medic_trooper_aoe_health_pickup_amber"
 	}

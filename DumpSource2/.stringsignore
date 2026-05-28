@@ -3419,8 +3419,6 @@ CCitadel_Modifier_IcePath_Friendly
 CCitadel_Modifier_IcePath_TechPowerLinger
 CCitadel_Modifier_IdolCashInTimer
 CCitadel_Modifier_IdolReturnTimer
-CCitadel_Modifier_IdolTeamTimeout
-CCitadel_Modifier_Idol_Comeback
 CCitadel_Modifier_Idol_Return
 CCitadel_Modifier_InFountain
 CCitadel_Modifier_InHideoutMap
@@ -25418,7 +25416,6 @@ m_BombParticle
 m_Bone
 m_BoneName
 m_Bonus01
-m_Bonus02
 m_BonusDamageModifier
 m_BonusDebuffModifier
 m_BonusImpactParticle
@@ -26720,7 +26717,6 @@ m_NoConnectionModifier
 m_NoDrawModifier
 m_NoExplodeModifier
 m_NoLaneZip
-m_NoPickupModifier
 m_NoValidActors
 m_NodeBases
 m_NodeBlock
@@ -31556,7 +31552,6 @@ m_flAutoExposureMin
 m_flAutoReplenishClip
 m_flAutoReturnDelay
 m_flAutoRideSpeed
-m_flAutoRunTime
 m_flAutomationDelay
 m_flAutomationTime
 m_flAverageAngularVelocityRadians
@@ -32815,6 +32810,7 @@ m_flHeightTestDistance
 m_flHeightTolerance
 m_flHeightUILingerTime
 m_flHeldTime
+m_flHeldTimeRadius
 m_flHeroDiedTime
 m_flHeroKillGoldShareFrac
 m_flHeroLockBreakRange
@@ -32976,6 +32972,7 @@ m_flInvulnRange
 m_flIronSightsTime
 m_flJointFriction
 m_flJokerWeight
+m_flJuggleTimeAdd
 m_flJumpAirDrag
 m_flJumpAirSpeedMax
 m_flJumpAnticipationTime
@@ -33386,7 +33383,6 @@ m_flMaxSize
 m_flMaxSlopeDistance
 m_flMaxSpeed
 m_flMaxSpeedDelta
-m_flMaxSpeedDistance
 m_flMaxSpinCycleTime
 m_flMaxSpringForce
 m_flMaxSpringFrequency
@@ -33722,7 +33718,6 @@ m_flNextUseTime
 m_flNextWallCheck
 m_flNoCameraFallback
 m_flNoDrawTimeToGoToSleep
-m_flNoPickupTime
 m_flNoPixelVisibilityFallback
 m_flNoise
 m_flNoiseAnimationTimeScale
@@ -34877,7 +34872,7 @@ m_flTimeToOOC
 m_flTimeToReachMaxSpeed
 m_flTimeToReachZeroSpeed
 m_flTimeToReturn
-m_flTimeToStartAutoRun
+m_flTimeToRunBackInstantly
 m_flTimeToStartScale
 m_flTimeToTraverseToNextNode
 m_flTimeToTrigger
@@ -35110,8 +35105,8 @@ m_flWaitFinished
 m_flWaitForNextShootTime
 m_flWaitInterval
 m_flWaitIntervalHigh
-m_flWaitTimeDistance
 m_flWaitTimeLimit
+m_flWaitTimeLimitOverheld
 m_flWaitTimeMax
 m_flWakeUpDelay
 m_flWalkDestinationRandomness
@@ -40178,7 +40173,6 @@ m_tActiveEndTime
 m_tAttackWindowStart
 m_tBeginTimeWithPrewarm
 m_tBuffRechargeTime
-m_tCashInTime
 m_tCastCompleteTime
 m_tCatRecallTime
 m_tChoreUseCooldownEndTime
@@ -40227,7 +40221,6 @@ m_tSlowStopTime
 m_tSoonestHelperCooldownEndTime
 m_tSourcePrevious
 m_tSpawnTime
-m_tStartTime
 m_tStateEnterTime
 m_tStateStartTime
 m_tStopTarget

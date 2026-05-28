@@ -181,13 +181,9 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j`6
- (08@HPXbPm
- (08@HPZ`6
- (08@HRPm
- (08@JPm
- (0X`hpzPm
- (2Pm
+ (08@HPX`j0%
+ (08@HPXb \
+ (08@HPZ0%
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -2062,7 +2058,8 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0u1
+.0f1
+.0g1
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -3716,8 +3713,6 @@ $light_emissive
 .?AV?$CModifierFactory@VCCitadel_Modifier_IcePath_TechPowerLinger@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_IdolCashInTimer@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_IdolReturnTimer@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_IdolTeamTimeout@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_Idol_Comeback@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Idol_Return@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_InFountain@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_InHideoutMap@@$0PPPP@@@
@@ -5863,7 +5858,6 @@ $light_emissive
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_reloadQueuedStartTime@CCitadel_Ability_PrimaryWeapon@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tActiveEndTime@CCitadel_Werewolf_UnloadGun2@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tBeginTimeWithPrewarm@PlayOfTheGamePlaybackData_t@@@@
-.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tCashInTime@CCitadel_IdolCashIn@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tChoreUseCooldownEndTime@CCitadel_Ability_Familiar_HelpingHands@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tCooldownEndTime@CNPC_FamiliarHelper@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tCooldownStartTime@CNPC_FamiliarHelper@@@@
@@ -5890,7 +5884,6 @@ $light_emissive
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tSlowStopTime@CCitadel_Ability_LifeDrain@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tSoonestHelperCooldownEndTime@CCitadel_Ability_Familiar_HelpingHands@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tSpawnTime@CNPC_NecroSkele@@@@
-.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tStartTime@CCitadel_IdolCashIn@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tStateEnterTime@CCitadel_Ability_Airheart_Rocketeer4@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tStateStartTime@CCitadel_Ability_PunkGoat_GoatFlip@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tTeleportCompletedTime@CCitadel_Ability_Mirage_Teleport@@@@
@@ -6867,8 +6860,6 @@ $light_emissive
 .?AV?$CSubclassFactory@VCCitadel_Modifier_IcePath_TechPowerLinger@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_IdolCashInTimer@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_IdolReturnTimer@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_IdolTeamTimeout@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_Idol_Comeback@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Idol_Return@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_InFountain@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_InHideoutMap@@VCBaseModifier@@@@
@@ -10168,8 +10159,6 @@ $light_emissive
 .?AVCCitadel_Modifier_IcePath_TechPowerLinger@@
 .?AVCCitadel_Modifier_IdolCashInTimer@@
 .?AVCCitadel_Modifier_IdolReturnTimer@@
-.?AVCCitadel_Modifier_IdolTeamTimeout@@
-.?AVCCitadel_Modifier_Idol_Comeback@@
 .?AVCCitadel_Modifier_Idol_Return@@
 .?AVCCitadel_Modifier_InFountain@@
 .?AVCCitadel_Modifier_InHideoutMap@@
@@ -14090,11 +14079,12 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PL1
+.PP1
 .PartnerAccountType
+.Pe1
+.Pg1
 .PingCommonData
 .PostProcessingGameStates
-.Pp1
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14380,7 +14370,6 @@ $light_emissive
 .lbN
 .league
 .pp@0
-.py1
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14438,10 +14427,10 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@HR`6
-08@JPm
-08B`6
+08@HR0%
+08B0%
 08bX
+08x,
 09,h
 0;Q5[
 0<cz
@@ -14476,7 +14465,6 @@ $light_emissive
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
 0pp@5tqE?|sO541
-0pq,
 0tU+xc:
 0x%s
 0}dV
@@ -14612,7 +14600,8 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpt
+2\vpD
+2\vpl
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14721,14 +14710,17 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
+6 j1
+6 o1
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60z1
-60}1
+60@1
+60s1
+60t1
 62$|S)6f
 64CK\vH
 65535
@@ -14738,12 +14730,11 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666CAttributeManager
 67-s
-6@Z1
-6@d1
+6@A1
+6@k1
 6H,N
 6O|T%
-6PP1
-6P{1
+6Pn1
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14755,7 +14746,8 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`Q1
+6`i1
+6`r1
 6afD
 6bX+
 6c&0|vvX
@@ -14763,8 +14755,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pR1
-6p|1
+6pt1
 6qo~
 6r-m_v
 6r1ij
@@ -14813,9 +14804,9 @@ $light_emissive
 851Pe
 8<pl
 8= zp
-8@J`6
+8@J0%
 8A6j
-8B`6
+8B0%
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15051,12 +15042,12 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
+>po1
 >yhP
 >ztq
 ?333?
 ?33s?
 ?CAnimFoot
-?COND_FAMILIARHELPER_HASTASK
 ?EPlayOfTheGameState
 ?HAI\t81\t9dcG'
 ?HP4
@@ -15074,6 +15065,7 @@ $light_emissive
 ?ffffff
 ?gwL
 ?jOb
+?npc_familiar_helper
 ?srJO
 ?tya
 ?uWS
@@ -15082,11 +15074,12 @@ $light_emissive
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
-@6@p1
-@6pv1
+@6@e1
+@6pd1
 @Accolades
 @BH]f
 @HPX`hv
+@HV0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15099,10 +15092,10 @@ $light_emissive
 @\n<STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INTERNAL_DATA_SOURCE_ERROR
 @\n\fSingleObject
 @\n\vPowerUpBuff
+@citadel_crate_delivery_base_payoff
 @dKb]
 @fff>fff>fff>fff>
 @i1V
-@m_BonusItem2
 @n2w
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
@@ -15126,6 +15119,7 @@ AABBDirection
 AACompromise
 AC2,h
 ACCESS_DESCRIPTION
+ACCitadel_Ability_Fortuna_PrimaryWeaponVData
 ACHIEVEMENT_EVENT_
 ACID
 ACPT_STATE
@@ -15366,7 +15360,6 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
-A`r9
 AbW_
 Abandon
 Abandoned
@@ -15816,9 +15809,9 @@ AveragePlayerMMR
 Avg Frame: %.2fms, Avg Idle: %.2fms - %u frames\n
 AwaitingTether
 AwakeDamage
+Ax`L
 Axis
 AxisAngleToQuaternion
-AxoL
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
@@ -16232,6 +16225,7 @@ BonusAbilityChargesNonCharge
 BonusAbilityDurationPercent
 BonusAbilityResource
 BonusAmpToVampire
+BonusArmorDamageResist
 BonusBatsPerProc
 BonusBuffsPerGold
 BonusBulletSpeed
@@ -16294,6 +16288,7 @@ BonusTargetRadius
 BonusTargets
 BonusTargetsBarrierPercentage
 BonusTechPowerPerKill
+BonusTechResist
 BonusTetherUpgrade
 BonusWeaponAngle
 BonusWeaponDamage
@@ -18196,6 +18191,7 @@ COND_ESCORT_DORMANT
 COND_ESCORT_ENEMY_OBJECTIVE_NEARBY
 COND_FAMILIARHELPER_DOSLEEPCOOLDOWN
 COND_FAMILIARHELPER_HASPATROL
+COND_FAMILIARHELPER_HASTASK
 COND_FAMILIARHELPER_ISINFESTING
 COND_FAMILIARHELPER_NOPATROL
 COND_FAMILIARHELPER_PLAYERIDLE
@@ -21521,6 +21517,7 @@ F6tr
 F7!z
 F9q'
 F<mb
+F@T1
 FAILED - attempting to steal CopyUlt! Resetting cooldown and letting the user try again. \n
 FAILED - target has no valid ultimate ability. \n
 FALL
@@ -21552,7 +21549,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FPj9
+FTZ9
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21919,7 +21916,6 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
-Fpe1
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25752,15 +25748,15 @@ P-224
 P-256
 P-384
 P-521
-P08@JPm
+P08@J \
+P08JP'
 P08N
 P1\t98"
-P2Pm
-P2`6
+P20%
 P5[1
-P60\1
-P6pp1
-P:Pm
+P6@_1
+P6P~1
+P8x,
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26154,6 +26150,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+Pf`R1
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -26196,7 +26193,7 @@ PingCommonData
 PingWheelOptionID_t"
 PitchShift
 PivotPaint
-Pj`6
+Pj0%
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -26299,6 +26296,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+Pn`S1
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26346,7 +26344,6 @@ PowerUp Permanent %s
 PowerUp Temp
 PowerUp Temp %s
 PowerUpStages
-Ppq,
 Pr"V
 Pre-Nav Queries Updates
 PreBounceLifetime
@@ -26729,10 +26726,11 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
-R\fpt
+R\fpD
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vpl
 R]Di
 Rad2 Deg
 RadiationThink
@@ -29801,7 +29799,9 @@ TrailDuration
 TrailInterval
 TrailLength
 Trailer Field: 0x
+TrailingTeamBonusArmorDamageResist
 TrailingTeamBonusSprintSpeed
+TrailingTeamBonusTechResist
 Train %s speed to %4.2f\n
 TransformContextValue
 TransformPointEntityToWorld
@@ -30708,7 +30708,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr`6
+X`hr0%
 Xd3h
 XfJ7
 XjfR
@@ -31115,6 +31115,7 @@ Z~wl
 \nEnemy is %s
 \nGameTime_t
 \nGameTime_t"
+\nP8x,
 \nSimulating Entities:\n\n
 \nVisMon: Polling now. (Frequency: %f)\n
 \n\fBPE_Teleport
@@ -31791,7 +31792,6 @@ Z~wl
 \rTxL
 \rUHz4Z}\r
 \rWhO
-\rXj9
 \rY=QX
 \rYYHl
 \r\n\tEUpgraded
@@ -31853,7 +31853,6 @@ Z~wl
 \tNone\n
 \tPOTG Eval: Contribution(%s) Weight(%.2f) Time(%.2f -> %.2f)\n
 \tPartyID_t
-\tPpq,
 \tPrivate script scope:
 \tPublic script scope:
 \tRead %s\t%s%s%s,\tOffs 0x%04x\n
@@ -31907,7 +31906,6 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
-\vPpq,
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
@@ -31985,8 +31983,8 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2Pm
-`60L1
+`6`f1
+`6pe1
 `:zQF
 `D$daM-l
 `DZG
@@ -34727,7 +34725,6 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
-dq\f a
 draft
 draft_item_sets
 drag_override
@@ -35399,7 +35396,6 @@ eyj5yR
 f#9i\n
 f%wyLmX:
 f&dy
-f0I1
 f1cK%
 f45\r
 fBB\fy
@@ -36320,7 +36316,6 @@ heavy_melee
 heavy_melee_damage
 height_tolerance
 heightfog
-held_time
 held_weapon_behavior
 helper
 helper_idx
@@ -36506,7 +36501,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpzPm
+hpz \
 hr_H
 http request
 https proxy request
@@ -39087,10 +39082,8 @@ modifier_icegrenade_debuff
 modifier_icepath
 modifier_icepath_tech_power_linger
 modifier_idol_cashin_timer
-modifier_idol_comeback
 modifier_idol_pickup_aura
 modifier_idol_return_timer
-modifier_idol_team_timeout
 modifier_in_choreo
 modifier_in_tunnel
 modifier_incendiary_debuff
@@ -39596,6 +39589,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
+nP>1
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39915,7 +39909,6 @@ npc_bullseye
 npc_dota_hero_%s
 npc_enemyfinder
 npc_escort
-npc_familiar_helper
 npc_field_sentry
 npc_follows_entity
 npc_furniture
@@ -40221,8 +40214,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p2Pm
-p2`6
+p20%
 p2{l
 p4Z3
 p5Z3
@@ -40500,7 +40492,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pb`6
+pb0%
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -40863,7 +40855,6 @@ power_up_buffs
 pp == NULL || *pp != NULL
 pp&c
 ppBasis
-ppq,
 pqualid
 pre idle done
 pre mac length too long
@@ -41141,7 +41132,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
-r\vpt
+r\vpD
 rad2deg
 radial
 radialalt

@@ -306,16 +306,11 @@
 	modifier_citadel_idol_walkback = 
 	{
 		_class = "modifier_citadel_idol_walkback"
-		m_flStopDistance = 1000
-		m_flMaxSpeedDistance = 1600
-		m_flSlowSpeed = 30.0
+		m_flStopDistance = 1574.8
+		m_flWaitTimeLimit = 13.0
 		m_flFastSpeed = 700.0
 		m_flVerticalOffset = 0.0
 		m_flTolerance = 20.0
-		m_flWaitTimeDistance = 1574.8
-		m_flWaitTimeLimit = 13.0
-		m_flAutoRunTime = 70.0
-		m_flTimeToStartAutoRun = 0.0
 		m_IdleParticle = resource_name:"particles/generic/idol_pickup_aura.vpcf"
 		m_RunningParticle = resource_name:"particles/generic/idol_pickup_aura_running.vpcf"
 		m_BiasEffectPositive = resource_name:"particles/generic/idol_pickup_indicator.vpcf"
@@ -921,30 +916,5 @@
 		_class = "modifier_streetbrawl_phase"
 		m_nEnabledStateMask = "MODIFIER_STATE_ITEMS_DISABLED | MODIFIER_STATE_SILENCED_HIDDEN | MODIFIER_STATE_INVULNERABLE | MODIFIER_STATE_TECH_UNTARGETABLE_BY_ENEMIES | MODIFIER_STATE_SHOOTING_DISABLED | MODIFIER_STATE_ZIPLINE_DISABLED | MODIFIER_STATE_UNIT_STATUS_HEALTH_HIDDEN | MODIFIER_STATE_HIDE_CROSSHAIR | MODIFIER_STATE_HIDE_STAMINA | MODIFIER_STATE_HIDE_AMMO"
 		m_eValidStates = "ESBGS_Init | ESBGS_PreBuy | ESBGS_Buy"
-	}
-	modifier_idol_comeback = 
-	{
-		_class = "modifier_idol_comeback"
-		m_modifierProvidedByAura = subclass:
-		{
-			_class = "modifier_base"
-			_my_subclass_name = "idol_comeback"
-			m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
-			m_eDebuffType = "MODIFIER_DEBUFF_NO"
-			m_bIsHidden = true
-			m_vecScriptValues = 
-			[
-				{
-					m_eModifierValue = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
-					m_value = 35
-				},
-				{
-					m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-					m_value = 35
-				},
-			]
-		}
-		m_bIsHidden = true
-		m_flAuraRadius = 2362.2
 	}
 }

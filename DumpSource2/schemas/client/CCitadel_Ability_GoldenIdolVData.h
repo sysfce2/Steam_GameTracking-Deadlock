@@ -440,12 +440,6 @@
 //	"m_Bonus01":
 //	{
 //	},
-//	"m_Bonus02":
-//	{
-//	},
-//	"m_NoPickupModifier":
-//	{
-//	},
 //	"m_flInstantGoldPercentage": 0.750000,
 //	"m_iComebackBounty": 130,
 //	"m_flCasterBonusPercent": 25.000000,
@@ -453,7 +447,9 @@
 //	"m_flDamageTickRate": 1.000000,
 //	"m_flMaxHealthDamage": 0.010000,
 //	"m_flTimeToDamage": 75.000000,
-//	"m_flNoPickupTime": 5.000000
+//	"m_flTimeToRunBackInstantly": 40.000000,
+//	"m_flHeldTimeRadius": 1574.800049,
+//	"m_flJuggleTimeAdd": 8.000000
 //}
 class CCitadel_Ability_GoldenIdolVData : public CCitadel_Ability_BaseHeldItemVData
 {
@@ -467,8 +463,6 @@ class CCitadel_Ability_GoldenIdolVData : public CCitadel_Ability_BaseHeldItemVDa
 	CEmbeddedSubclass< CCitadelModifier > m_DropoffTimerModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_HoldingIdolModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_Bonus01;
-	CEmbeddedSubclass< CCitadelModifier > m_Bonus02;
-	CEmbeddedSubclass< CCitadelModifier > m_NoPickupModifier;
 	// MPropertyStartGroup = "Gameplay"
 	float32 m_flInstantGoldPercentage;
 	int32 m_iComebackBounty;
@@ -477,5 +471,7 @@ class CCitadel_Ability_GoldenIdolVData : public CCitadel_Ability_BaseHeldItemVDa
 	float32 m_flDamageTickRate;
 	float32 m_flMaxHealthDamage;
 	float32 m_flTimeToDamage;
-	float32 m_flNoPickupTime;
+	float32 m_flTimeToRunBackInstantly;
+	float32 m_flHeldTimeRadius;
+	float32 m_flJuggleTimeAdd;
 };
