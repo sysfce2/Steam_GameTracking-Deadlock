@@ -589,6 +589,21 @@
 		[
 			"sounds/music/music_idol_timer_lp_opponent_160bpm.vsnd",
 		]
+		distance_falloff_db = 
+		[
+			[
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
+			],
+			[
+				1300.862, 0.0, 0.0, -0.005721,
+				0.0, 0.0,
+			],
+			[
+				2000.0, -4.0, -0.005721, 0.0,
+				0.0, 0.0,
+			],
+		]
 		vsnd_duration = 12.0
 	}
 	Stinger.Idol.Returned.Team = 

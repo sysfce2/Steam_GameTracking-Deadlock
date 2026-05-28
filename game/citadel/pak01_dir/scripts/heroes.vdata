@@ -1615,7 +1615,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -3438,7 +3438,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -5292,7 +5292,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -7153,7 +7153,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -9009,7 +9009,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -10861,7 +10861,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -12719,7 +12719,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -14574,7 +14574,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -16394,7 +16394,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.0
+				m_flWeight = 0.4
 			}
 			upgrade_rupture = 
 			{
@@ -16429,7 +16429,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -18248,7 +18248,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.0
+				m_flWeight = 0.4
 			}
 			upgrade_rupture = 
 			{
@@ -18283,7 +18283,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -20099,7 +20099,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.0
+				m_flWeight = 0.4
 			}
 			upgrade_rupture = 
 			{
@@ -20134,7 +20134,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -21990,7 +21990,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -23843,7 +23843,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -25694,7 +25694,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -27548,7 +27548,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -29409,7 +29409,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -31260,7 +31260,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -33118,7 +33118,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -34969,7 +34969,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -36820,7 +36820,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -38658,7 +38658,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -40514,7 +40514,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -42366,7 +42366,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -44217,7 +44217,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -46069,7 +46069,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -47895,7 +47895,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -49722,7 +49722,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -51549,7 +51549,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -53378,7 +53378,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -55210,7 +55210,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -57040,7 +57040,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -58888,7 +58888,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -60717,7 +60717,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -62568,7 +62568,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -64398,7 +64398,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -66225,7 +66225,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -68053,7 +68053,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -69876,7 +69876,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -71706,7 +71706,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -73558,7 +73558,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -75397,7 +75397,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -77248,7 +77248,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -79081,7 +79081,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -80914,7 +80914,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -82766,7 +82766,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -84627,7 +84627,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -86485,7 +86485,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -88306,7 +88306,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.0
+				m_flWeight = 0.4
 			}
 			upgrade_rupture = 
 			{
@@ -88341,7 +88341,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -90194,7 +90194,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -92031,7 +92031,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -93887,7 +93887,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -95721,7 +95721,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -97555,7 +97555,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -99406,7 +99406,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -101239,7 +101239,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -103085,7 +103085,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -104934,7 +104934,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -106787,7 +106787,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -108639,7 +108639,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -110439,7 +110439,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.0
+				m_flWeight = 0.4
 			}
 			upgrade_rupture = 
 			{
@@ -110474,7 +110474,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -112322,7 +112322,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -114176,7 +114176,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -116026,7 +116026,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -117851,7 +117851,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.3
+				m_flWeight = 0.4
 			}
 			upgrade_siphon_bullets = 
 			{

@@ -44,6 +44,22 @@
 							property_group = "VSND Files"
 						}
 					}
+					distance_falloff_db = 
+					{
+						data_type = "float6"
+						soundevent_data = "true"
+						value = 
+						[
+							"[ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]",
+							"[ 1200.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]",
+							"[ 1800.0, -3.0, 0.0, 0.0, 0.0, 0.0 ]",
+						]
+						_system_properties = 
+						{
+							display_group = "advanced"
+							display_edit_type = "field_curve_2d_editor"
+						}
+					}
 				}
 			},
 			{
@@ -77,12 +93,38 @@
 				input = "@filter_opponent_control_param.output"
 			},
 			{
+				name = "opvar_get_urn_dropoff_dist"
+				operator = "opvar_get_float"
+				input_execute = "1.0"
+				input_stack_name = "citadel_music_opvars"
+				input_operator_name = "opvars"
+				input_field_name = "distance_to_closest_urn"
+			},
+			{
+				name = "remap_distance_crossfade_db"
+				operator = "math_curve_2d"
+				input = "@opvar_get_urn_dropoff_dist.output"
+				public_field_name = "public.distance_falloff_db"
+			},
+			{
+				name = "volume_offset"
+				operator = "math_float"
+				apply = "add"
+				input1 = "@public.volume"
+				input2 = "@remap_distance_crossfade_db.output"
+			},
+			{
 				name = "citadel_default_2d"
 				operator = "sos_import_stack"
 				import_stack = "citadel_default_2d"
 				auto_connect_public_fields = "true"
 				operator_variables = 
 				{
+					volume = 
+					{
+						data_type = "float"
+						value = "@volume_offset.output"
+					}
 					track_1.vsnd_track_vol_offset_db = 
 					{
 						data_type = "float"
