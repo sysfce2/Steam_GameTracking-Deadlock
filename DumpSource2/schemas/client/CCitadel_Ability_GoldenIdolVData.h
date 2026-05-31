@@ -429,7 +429,8 @@
 //	"m_ItemModel": "",
 //	"m_OnKnockedOffHolderParticle": "",
 //	"m_OnKnockedOffUrnParticle": "",
-//	"m_strUrnCashedInSound": "",
+//	"m_strUrnCashedInSoundFriendly": "",
+//	"m_strUrnCashedInSoundEnemy": "",
 //	"m_strUrnMeleeDropSound": "",
 //	"m_DropoffTimerModifier":
 //	{
@@ -457,7 +458,8 @@ class CCitadel_Ability_GoldenIdolVData : public CCitadel_Ability_BaseHeldItemVDa
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnKnockedOffHolderParticle;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnKnockedOffUrnParticle;
 	// MPropertyStartGroup = "Sounds"
-	CSoundEventName m_strUrnCashedInSound;
+	CSoundEventName m_strUrnCashedInSoundFriendly;
+	CSoundEventName m_strUrnCashedInSoundEnemy;
 	CSoundEventName m_strUrnMeleeDropSound;
 	// MPropertyStartGroup = "Modifiers"
 	CEmbeddedSubclass< CCitadelModifier > m_DropoffTimerModifier;

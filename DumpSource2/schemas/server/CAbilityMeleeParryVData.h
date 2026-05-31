@@ -438,6 +438,7 @@
 //	"m_SuccessfulAbilityParryParticle": "",
 //	"m_ActiveParryParticle": "",
 //	"m_strSuccessfulParrySound": "",
+//	"m_strSuccessfulParryTrooperSound": "",
 //	"m_ParryActiveModifier":
 //	{
 //	},
@@ -473,6 +474,7 @@ class CAbilityMeleeParryVData : public CitadelAbilityVData
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_ActiveParryParticle;
 	// MPropertyStartGroup = "Sounds"
 	CSoundEventName m_strSuccessfulParrySound;
+	CSoundEventName m_strSuccessfulParryTrooperSound;
 	// MPropertyStartGroup = "Modifiers"
 	CEmbeddedSubclass< CCitadelModifier > m_ParryActiveModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_ParryVictimModifier;

@@ -39976,6 +39976,7 @@ m_strSubCastUICSSClass
 m_strSuccessProcSound
 m_strSuccessSound
 m_strSuccessfulParrySound
+m_strSuccessfulParryTrooperSound
 m_strSummonGravestoneSound
 m_strSwapCloneSound
 m_strSwapParticle
@@ -40033,7 +40034,8 @@ m_strUIShoppingMap
 m_strUITeamRevealMap
 m_strUnlockPrereq
 m_strUnselectedSound
-m_strUrnCashedInSound
+m_strUrnCashedInSoundEnemy
+m_strUrnCashedInSoundFriendly
 m_strUrnMeleeDropSound
 m_strUsedCastGraphParam
 m_strVacuumStartSound

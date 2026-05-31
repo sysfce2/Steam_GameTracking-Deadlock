@@ -335,6 +335,18 @@
 		vsnd_files = "sounds/player/melee/shared/melee_parry_success.vsnd"
 		vsnd_duration = 3.531814
 	}
+	Player.Melee.Parry.Trooper.Success = 
+	{
+		base = "Base.Ability"
+		volume = 0.0
+		vsnd_files = 
+		[
+			"sounds/player/melee/shared/melee_parry_trooper_success_01.vsnd",
+			"sounds/player/melee/shared/melee_parry_trooper_success_02.vsnd",
+			"sounds/player/melee/shared/melee_parry_trooper_success_03.vsnd",
+		]
+		vsnd_duration = 1.922358
+	}
 	Player.Melee.Hold.Shared = 
 	{
 		base = "Base.Ability"
