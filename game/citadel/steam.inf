@@ -1,9 +1,9 @@
-ClientVersion=6541
-ServerVersion=6541
+ClientVersion=6542
+ServerVersion=6542
 ProductName=citadel
 appID=1422450
 ServerAppID=1422460
 ToolsAppID=211
-SourceRevision=10705794
+SourceRevision=10706367
 VersionDate=Jun 03 2026
-VersionTime=08:39:16
+VersionTime=10:57:24
