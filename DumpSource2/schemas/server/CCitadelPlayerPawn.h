@@ -192,7 +192,6 @@ class CCitadelPlayerPawn : public CCitadelPlayerPawnBase
 	bool m_bHasShopOpen;
 	ECitadelPingLocation_t m_eCurrentPingLocation;
 	float32 m_flLastRegenThinkTime;
-	float32 m_flCitadelDamageAccumulator;
 	int32 m_nBulletsFiredAtUs;
 	int32 m_nBulletsHitOnUs;
 	int32 m_nHeadshotsOnUs;

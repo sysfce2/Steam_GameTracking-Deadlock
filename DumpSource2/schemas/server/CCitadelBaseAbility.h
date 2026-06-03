@@ -135,6 +135,5 @@ class CCitadelBaseAbility : public CBaseEntity
 	// MNetworkEnable
 	// MNetworkUserGroup = "LocalPlayerOwnerAndObserversExclusive"
 	bool m_bSelectionModeIsAltMode;
-	CUtlVector< CHandle< CBaseEntity > > m_vecEnemyHeroesDamaged;
 	float32 m_flPreviousEffectiveCooldown;
 };

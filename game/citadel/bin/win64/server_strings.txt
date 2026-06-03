@@ -1296,6 +1296,7 @@ $light_emissive
 (.CMsgSteamLearn_SnapshotProject_Response"-
 (0'yX
 (0x%08X)'??'
+(4Pc
 (5Me
 (5jP
 (ACTIVE)
@@ -1683,6 +1684,7 @@ $light_emissive
 (d4t8
 (debug)
 (default)
+(fPB1
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
@@ -2055,9 +2057,8 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0k1
-.0q1
-.0s1
+.0H1
+.0J1
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -3556,7 +3557,6 @@ $light_emissive
 .?AV?$CModifierFactory@VCCitadel_Modifier_DelayedCatapultLaunch@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Delayed_Stun@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_DetentionAmmo@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_Digger_MudShield@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_DiminishingSlow@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_DisarmProc@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_DisarmProcWatcher@@$0PPPP@@@
@@ -3694,7 +3694,6 @@ $light_emissive
 .?AV?$CModifierFactory@VCCitadel_Modifier_HollowPoint_Stack@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HookSelf@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HookTarget@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_HornetMark@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Hornet_Chain_Connection@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Hornet_Snipe@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Hornet_Sting@@$0PPPP@@@
@@ -3720,7 +3719,6 @@ $light_emissive
 .?AV?$CModifierFactory@VCCitadel_Modifier_IncendiaryDebuff@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_InfernalResilience_Melee@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Infested@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_InfestedBuilding@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_InfiniteMagazineActive@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Infuser@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Inhibitor_Proc@@$0PPPP@@@
@@ -4104,8 +4102,6 @@ $light_emissive
 .?AV?$CModifierFactory@VCCitadel_Modifier_Werewolf_TrackingBomb@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Werewolf_TransformationWatcher@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Werewolf_UnloadGun2@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_WingBlastApply@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_WingBlastPush@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Wraith_ProjectMind_Shield@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Wraith_RapidFire@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_WreckerSalvage@@$0PPPP@@@
@@ -6703,7 +6699,6 @@ $light_emissive
 .?AV?$CSubclassFactory@VCCitadel_Modifier_DelayedCatapultLaunch@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Delayed_Stun@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_DetentionAmmo@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_Digger_MudShield@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_DiminishingSlow@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_DisarmProc@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_DisarmProcWatcher@@VCBaseModifier@@@@
@@ -6841,7 +6836,6 @@ $light_emissive
 .?AV?$CSubclassFactory@VCCitadel_Modifier_HollowPoint_Stack@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_HookSelf@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_HookTarget@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_HornetMark@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Hornet_Chain_Connection@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Hornet_Snipe@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Hornet_Sting@@VCBaseModifier@@@@
@@ -6867,7 +6861,6 @@ $light_emissive
 .?AV?$CSubclassFactory@VCCitadel_Modifier_IncendiaryDebuff@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_InfernalResilience_Melee@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Infested@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_InfestedBuilding@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_InfiniteMagazineActive@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Infuser@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Inhibitor_Proc@@VCBaseModifier@@@@
@@ -7251,8 +7244,6 @@ $light_emissive
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Werewolf_TrackingBomb@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Werewolf_TransformationWatcher@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Werewolf_UnloadGun2@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_WingBlastApply@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_WingBlastPush@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Wraith_ProjectMind_Shield@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Wraith_RapidFire@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_WreckerSalvage@@VCBaseModifier@@@@
@@ -9004,8 +8995,6 @@ $light_emissive
 .?AVCCitadel_Ability_CrowdControl@@
 .?AVCCitadel_Ability_Dash@@
 .?AVCCitadel_Ability_DeathTax@@
-.?AVCCitadel_Ability_Digger_MudShield@@
-.?AVCCitadel_Ability_Digger_MudShieldVData@@
 .?AVCCitadel_Ability_Disruptive_Charge@@
 .?AVCCitadel_Ability_Doorman_Bomb@@
 .?AVCCitadel_Ability_Doorman_Bomb_VData@@
@@ -9116,7 +9105,6 @@ $light_emissive
 .?AVCCitadel_Ability_HoldMelee@@
 .?AVCCitadel_Ability_Hook@@
 .?AVCCitadel_Ability_HornetLeap@@
-.?AVCCitadel_Ability_HornetMark@@
 .?AVCCitadel_Ability_HornetSting@@
 .?AVCCitadel_Ability_Hornet_Chain@@
 .?AVCCitadel_Ability_Hornet_Snipe@@
@@ -9465,7 +9453,6 @@ $light_emissive
 .?AVCCitadel_Ability_Werewolf_RifleVData@@
 .?AVCCitadel_Ability_Werewolf_TrackingBomb@@
 .?AVCCitadel_Ability_Werewolf_TrackingBombVData@@
-.?AVCCitadel_Ability_WingBlast@@
 .?AVCCitadel_Ability_Wraith_RapidFire@@
 .?AVCCitadel_Ability_Wraith_RapidFireVData@@
 .?AVCCitadel_Ability_WreckerGarbageSuck@@
@@ -9931,8 +9918,6 @@ $light_emissive
 .?AVCCitadel_Modifier_Delayed_Stun@@
 .?AVCCitadel_Modifier_DetentionAmmo@@
 .?AVCCitadel_Modifier_DetentionAmmoVData@@
-.?AVCCitadel_Modifier_Digger_MudShield@@
-.?AVCCitadel_Modifier_Digger_MudShieldVData@@
 .?AVCCitadel_Modifier_DiminishingSlow@@
 .?AVCCitadel_Modifier_DiminishingSlowVData@@
 .?AVCCitadel_Modifier_DisarmProc@@
@@ -10135,7 +10120,6 @@ $light_emissive
 .?AVCCitadel_Modifier_HookSelf@@
 .?AVCCitadel_Modifier_HookTarget@@
 .?AVCCitadel_Modifier_HookTargetVData@@
-.?AVCCitadel_Modifier_HornetMark@@
 .?AVCCitadel_Modifier_HornetSnipeVData@@
 .?AVCCitadel_Modifier_Hornet_Chain_Connection@@
 .?AVCCitadel_Modifier_Hornet_Snipe@@
@@ -10168,7 +10152,6 @@ $light_emissive
 .?AVCCitadel_Modifier_InfernalResilience_Melee@@
 .?AVCCitadel_Modifier_InfernalResilience_MeleeVData@@
 .?AVCCitadel_Modifier_Infested@@
-.?AVCCitadel_Modifier_InfestedBuilding@@
 .?AVCCitadel_Modifier_InfiniteMagazineActive@@
 .?AVCCitadel_Modifier_Infuser@@
 .?AVCCitadel_Modifier_Infuser_VData@@
@@ -10751,8 +10734,6 @@ $light_emissive
 .?AVCCitadel_Modifier_Werewolf_TransformationWatcherVData@@
 .?AVCCitadel_Modifier_Werewolf_UnloadGun2@@
 .?AVCCitadel_Modifier_Werewolf_UnloadGun2VData@@
-.?AVCCitadel_Modifier_WingBlastApply@@
-.?AVCCitadel_Modifier_WingBlastPush@@
 .?AVCCitadel_Modifier_Wraith_ProjectMind_Shield@@
 .?AVCCitadel_Modifier_Wraith_RapidFire@@
 .?AVCCitadel_Modifier_Wraith_RapidFireVData@@
@@ -14077,6 +14058,9 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PG1
+.PH1
+.PJ1
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14364,9 +14348,8 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pp1
+.pG1
 .pp@0
-.pq1
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14594,7 +14577,6 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpL
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14651,11 +14633,14 @@ $light_emissive
 4)m1
 474E4U4W4c4i4m4
 4<Td
+4?\f0f
 4@AA
+4B0\r9
 4Ch;
 4F0I
 4Mv8
 4Zis
+4\f0f
 4\fPl
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
@@ -14684,6 +14669,7 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
+5\fWf
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14703,15 +14689,15 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 M1
-6 w1
+6 B1
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
+60&1
 60000
-60z1
+6081
 62$|S)6f
 64CK\vH
 65535
@@ -14719,12 +14705,14 @@ $light_emissive
 65535"j\n
 65535B$
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666CAttributeManager
+6666666666666666m_nAttachedParticleIndex
 67-s
-6@u1
 6H,N
 6O|T%
+6P91
+6P>1
 6Qd=
+6\fWf
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14735,8 +14723,9 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`v1
-6`y1
+6`21
+6`41
+6`T1
 6afD
 6bX+
 6c&0|vvX
@@ -14744,7 +14733,8 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p}1
+6p]1
+6pc1
 6qo~
 6r-m_v
 6r1ij
@@ -15029,6 +15019,7 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
+>pB1
 >yhP
 >ztq
 ?333?
@@ -15058,14 +15049,12 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Nt
+@08N
 @0pp
-@6 q1
-@6Pp1
-@6po1
+@6@G1
 @Accolades
 @BH]f
-@HPX`hv
+@HPX`hv0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15078,9 +15067,10 @@ $light_emissive
 @\n<STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INTERNAL_DATA_SOURCE_ERROR
 @\n\fSingleObject
 @\n\vPowerUpBuff
-@citadel_crate_delivery_base_payoff
+@citadel_item_pickup_fall_tolerance
 @dKb]
 @fff>fff>fff>fff>
+@htPc
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -15105,7 +15095,6 @@ AABBDirection
 AACompromise
 AC2,h
 ACCESS_DESCRIPTION
-ACCitadel_Ability_Fortuna_PrimaryWeaponVData
 ACHIEVEMENT_EVENT_
 ACID
 ACPT_STATE
@@ -15364,10 +15353,8 @@ Ability Unlocks
 Ability key was pressed but did not execute for %s\n
 Ability.Charge.HitEnemy
 Ability.Grenade.Tick
-Ability.Hornet.WingBlast
 Ability.Pestilence.RollerMine_Travel_Lp
 Ability.Sentry.Place
-Ability.SlowTarget.Cast
 Ability.Stun.Impact
 Ability.Sumo.Tackle.Activate
 Ability.Sumo.Tackle.ChargeUp
@@ -16177,7 +16164,7 @@ BloodImpact
 BloodSpillDPSPercent
 BloodSpillDuration
 BlurVisionRange
-Bm_iGoldNetWorth
+Bm_iCreepGoldSoloBonus
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -16424,13 +16411,9 @@ BulletResistReduction
 BulletResistReductionDuration
 BulletResistReductionPerStack
 BulletScaleFactor
-BulletShieldDamageConversionPercent
 BulletShieldHealth
-BulletShieldMaxHealthPercentage
-BulletShieldMissingHealthPercentage
 BulletShieldOnHook
 BulletShieldOnLand
-BulletShieldPoints
 BulletSpeed
 BulletSpeedIncrease
 BulletSpeedOverride
@@ -16541,7 +16524,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\baseflex_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayercontroller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayerpawn_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\breakableprop.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1482
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1483
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1031
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:290
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:332
@@ -16554,8 +16537,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_b
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_beam.cpp:243
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4333
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4507
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4329
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4503
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_gamerules.cpp
@@ -16569,8 +16552,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_player_pa
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_player_pawn_shared.cpp:1899
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stat_tracker_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stats_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2336
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2461
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2335
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2460
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_archer.cpp:1258
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:426
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_familiar.cpp
@@ -19500,7 +19483,6 @@ ChannelTimePerBulletPct
 Char=
 ChargeDistance
 ChargeDragVerticalOffset
-ChargeForKill
 ChargeForMaxDamage
 ChargeMultiHitRadius
 ChargeParticleMaxScale
@@ -21533,6 +21515,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FP"1
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21804,7 +21787,6 @@ FlameAuraRadius
 FlameThink
 FlareDamage
 FlashlightReceiverManager
-FlatBulletDamageReduction
 FlatHealthHealing
 FlexSceneFileManager
 FlickerLights
@@ -21922,7 +21904,6 @@ FriendlyImpactDuration
 FriendlySkin
 From
 FromLane
-Ftj9
 Fuel
 FuelConsumedTotal
 FuelPct
@@ -24430,7 +24411,6 @@ MaxPitch
 MaxProjectileSpeed
 MaxPushForceHorizontal
 MaxPushForceVertical
-MaxPushVelocity
 MaxRagdollCount
 MaxRage
 MaxRange
@@ -25295,8 +25275,6 @@ Object Signer
 Object Signing
 Object Signing CA
 Objective
-ObjectiveDamageResistedPercent
-ObjectiveDamageTakenPercent
 Obsolete / Unused
 Obstruction %f\n
 Obstruction test
@@ -25732,11 +25710,9 @@ P-224
 P-256
 P-384
 P-521
-P08J03
-P08Nt
+P08N
 P1\t98"
 P5[1
-P6 k1
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26130,7 +26106,6 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf@^1
 PhaseOutDuration
 Phys.GlassBreakLg
 Phys.GlassBreakMd
@@ -26275,7 +26250,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn@_1
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26405,7 +26379,7 @@ ProcRadius
 Process
 Process Selector
 ProcessLeaver: %d players have left, marking match as safe to abandon\n
-ProcessLeaver: Player %u abandoned (last seen at %fs match time, %s first blood), marking match as not scored\n
+ProcessLeaver: Player %u abandoned (at match time %fs, idle for %fs, %s first tower kill), marking match as not scored\n
 ProcessMovement
 ProcessSceneEventsThink
 Processing account %u as a leaver\n
@@ -26507,7 +26481,6 @@ PushSpeedMax
 PushSpeedMid
 PushSpeedMin
 PushThink
-PushVelocity
 Pushes an identifier used to group overlays. Deletes all existing overlays using this overlay id.
 Pushes an identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch.
 P|iC\r
@@ -26708,7 +26681,6 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpL
 R]Di
 Rad2 Deg
 RadiationThink
@@ -28451,7 +28423,6 @@ SharedObjectCache for %s (%d types):\n
 SharedRandomFloat
 SharedRandomInt
 Shatter
-ShieldDuration
 ShieldScale
 ShockDPS
 ShockDelay
@@ -30160,6 +30131,7 @@ UsingMelee
 Ut]<E
 Uv1t
 Uz_G3=
+V S1
 V07;m
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
@@ -30318,6 +30290,7 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
+VpJ1
 Vt_9
 VulnerabilityPerStack
 V~~Vq
@@ -30688,6 +30661,7 @@ XYD%
 X\tQo
 Xd3h
 XfJ7
+Xf`81
 XjfR
 XqgA+
 Xuub
@@ -31959,9 +31933,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6@r1
-`6Pq1
-`6`s1
+`6pY1
 `:zQF
 `D$daM-l
 `DZG
@@ -31989,7 +31961,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvt
 aD/x
 aDSS
 aECDH
@@ -32070,8 +32041,6 @@ ability_crackshot
 ability_damage
 ability_death_tax
 ability_demonmark
-ability_digger_mudshield
-ability_digger_mudshield_trigger
 ability_doorman_bomb
 ability_doorman_doorway
 ability_doorman_doorway_close
@@ -33601,7 +33570,6 @@ citadel_ability_hold_melee
 citadel_ability_hook
 citadel_ability_hornet_chain
 citadel_ability_hornet_leap
-citadel_ability_hornet_mark
 citadel_ability_hornet_snipe
 citadel_ability_hornet_sting
 citadel_ability_jump
@@ -33678,7 +33646,6 @@ citadel_ability_werewolf_clawweapon
 citadel_ability_werewolf_frenzy
 citadel_ability_werewolf_onthehunt
 citadel_ability_werewolf_rifle
-citadel_ability_wing_blast
 citadel_ability_wraith_rapidfire
 citadel_ability_wrecker_bouldergrenade
 citadel_ability_wrecker_garbage_suck
@@ -33773,7 +33740,6 @@ citadel_model_entity
 citadel_modifier_familiar_asleep
 citadel_modifier_familiar_exposed
 citadel_modifier_familiar_infested
-citadel_modifier_familiar_infested_building
 citadel_modifier_familiar_speedlines
 citadel_modifier_familiar_spotlighteffect
 citadel_modifier_familiar_staring
@@ -38790,7 +38756,6 @@ modifier_citadel_hooktarget
 modifier_citadel_hornet_chain_connection
 modifier_citadel_hornet_snipe
 modifier_citadel_hornet_sting_debuff
-modifier_citadel_hornetmark
 modifier_citadel_idol_return
 modifier_citadel_idol_walkback
 modifier_citadel_in_enemy_base
@@ -38893,8 +38858,6 @@ modifier_citadel_viper_stackingdebuff
 modifier_citadel_viper_venom_proc_watcher
 modifier_citadel_werewolf_leaping
 modifier_citadel_werewolf_maulingleapdebuff
-modifier_citadel_wing_blast_apply
-modifier_citadel_wing_blast_push
 modifier_climb_rope_slow
 modifier_cloak_of_opportunity_watcher
 modifier_cloaking_device_active_ambush
@@ -38923,7 +38886,6 @@ modifier_debug_is_visible_to_enemy_team
 modifier_debug_scale
 modifier_deflectingarmor
 modifier_delayed_apply
-modifier_digger_mudshield
 modifier_diminishing_slow
 modifier_disable_gravity
 modifier_discord_aura
@@ -39530,10 +39492,10 @@ mvp_map_override
 mvp_rank
 my_hero
 mzP"T
+n 61
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
-n0J1
 n1Z 
 n5cM
 n6j/
@@ -39876,6 +39838,7 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
+npa1
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -40190,12 +40153,14 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^t
+p08@H^
+p0jP
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
+p6@-1
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40209,7 +40174,6 @@ pAttributeName
 pAttributeValue
 pBaseClassBinding
 pBodyGroupName
-pCGameModifier_FireUserEntityIO
 pCheckpointName
 pClassName
 pCommand
@@ -40335,10 +40299,7 @@ particles/abilities/gigawatt_chain_lightning.vpcf
 particles/abilities/gigawatt_lightning_cone.vpcf
 particles/abilities/heavy_barrage_projectile_impact_explode.vpcf
 particles/abilities/heavy_dispenser_spray.vpcf
-particles/abilities/hornet_funnel.vpcf
-particles/abilities/hornet_spinup.vpcf
 particles/abilities/inferno/inferno_incendiary_ground.vpcf
-particles/abilities/markedfordeath.vpcf
 particles/abilities/melee/melee_activate.vpcf
 particles/abilities/melee_impact.vpcf
 particles/abilities/melee_swing.vpcf
@@ -43650,6 +43611,7 @@ vForward
 vHingeAxis
 vHullPos[%i] %g %g %g\n
 vNewPoint.IsValid()\n
+vP_1
 vPoint
 vPoint1
 vPoint2
@@ -44083,7 +44045,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-zDDistance threshold that we allow bullet to penetrate body to headshot.
+zDGameModeStreetBrawl_t
 zF):O4
 zFar
 zG2m8

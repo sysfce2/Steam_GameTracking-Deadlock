@@ -438,7 +438,7 @@
 		"@type:server.dll!PVAL_SCHEMA_ENUM:AILOD_t" = 2989435320
 		"@type:server.dll!PVAL_SCHEMA_ENUM:ChoreoLookAtMode_t" = 1855753749
 		"@type:server.dll!PVAL_SCHEMA_ENUM:ChoreoLookAtSpeed_t" = 4241769962
-		"@type:server.dll!PVAL_SCHEMA_ENUM:DamageTypes_t" = 1182434900
+		"@type:server.dll!PVAL_SCHEMA_ENUM:DamageTypes_t" = 2170947975
 		"@type:server.dll!PVAL_SCHEMA_ENUM:EStreetBrawlGameState" = 62714967
 		"@type:server.dll!PVAL_SCHEMA_ENUM:HitGroup_t" = 3817317871
 		"@type:server.dll!PVAL_SCHEMA_ENUM:MoveType_t" = 831783037

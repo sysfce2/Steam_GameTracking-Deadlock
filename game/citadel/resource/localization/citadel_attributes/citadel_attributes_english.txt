@@ -588,11 +588,11 @@
 		"NonPlayerBonusWeaponPower_postfix"			"%"
 		"NonPlayerBonusWeaponPower_conditional"		"against NPCs"
 
-		"MODIFIER_NON_PLAYER_BONUS_BASE_DAMAGE_PERCENT_label"			"Weapon Damage vs. NPCs"
-		"MODIFIER_NON_PLAYER_BONUS_BASE_DAMAGE_PERCENT_postvalue_label"			"Weapon Damage vs. NPCs"
-		"MODIFIER_NON_PLAYER_BONUS_BASE_DAMAGE_PERCENT_prefix"			"{s:sign}"
-		"MODIFIER_NON_PLAYER_BONUS_BASE_DAMAGE_PERCENT_postfix"			"%"
-		"MODIFIER_NON_PLAYER_BONUS_BASE_DAMAGE_PERCENT_conditional"		"against NPCs"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_label"			"Weapon Damage vs. NPCs"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postvalue_label"			"Weapon Damage vs. NPCs"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postfix"			"%"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_conditional"		"against NPCs"
 
 		"NonPlayerBulletResist_label"			"Bullet Resist vs. NPCs"
 
@@ -719,10 +719,10 @@
 		"TechResist_label"								"Spirit Resist"
 		"TechResist_postvalue_label"								"Spirit Resist"
 
-		"MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_prefix"								"{s:sign}"
-		"MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_postfix"							"%"
-		"MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_label"								"Spirit Resist"
-		"MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_postvalue_label"								"Spirit Resist"
+		"MODIFIER_VALUE_TECH_RESIST_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_RESIST_postfix"							"%"
+		"MODIFIER_VALUE_TECH_RESIST_label"								"Spirit Resist"
+		"MODIFIER_VALUE_TECH_RESIST_postvalue_label"								"Spirit Resist"
 
 		"TechResistPerStack_prefix"						"{s:sign}"
 		"TechResistPerStack_postfix"					"%"
@@ -1235,9 +1235,9 @@
 		"MeleeDamageReductionPercent_postfix"			"%"
 		//"MeleeDamageReductionPercent_label"			"Melee Armor"
 		
-		"MODIFIER_VALUE_MELEE_DAMAGE_REDUCTION_PERCENT_prefix"			"{s:sign}"
-		"MODIFIER_VALUE_MELEE_DAMAGE_REDUCTION_PERCENT_postfix"			"%"
-		//"MODIFIER_VALUE_MELEE_DAMAGE_REDUCTION_PERCENT_label"			"Melee Armor"
+		"MODIFIER_VALUE_MELEE_RESIST_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_MELEE_RESIST_postfix"			"%"
+		//"MODIFIER_VALUE_MELEE_RESIST_label"			"Melee Armor"
 
 		//"DispenserHealth_label"						"Dispenser Health"
 
@@ -1700,15 +1700,15 @@
 		"LongRangeBonusWeaponPower_postfix"				"%"
 		"LongRangeBonusWeaponPower_conditional"			"beyond Range"
 
-		"MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENTMinRange_label"		"Min. Distance"
-		"MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENTMinRange_postvalue_label"		"Min. Distance"
-		"MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENTMinRange_postfix"		"m"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_label"		"Min. Distance"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postvalue_label"		"Min. Distance"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postfix"		"m"
 
-		"MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENT_prefix"				"{s:sign}"
-		"MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENT_label"				"Weapon Damage"
-		"MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENT_postvalue_label"				"Weapon Damage"
-		"MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENT_postfix"				"%"
-		"MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENT_conditional"			"beyond Range"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_label"				"Weapon Damage"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postvalue_label"				"Weapon Damage"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postfix"				"%"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_conditional"			"beyond Range"
 
 		"TechRangeMultiplier_prefix"					"{s:sign}"
 		"TechRangeMultiplier_label"						"Ability Range"
@@ -2520,9 +2520,9 @@
 		"TechDamagePercent_postvalue_label"	"Damage"
 		"TechDamagePercent_Postfix"	"%"
 		
-		"MODIFIER_VALUE_TECH_DAMAGE_PERCENT_Label"	"Damage"
-		"MODIFIER_VALUE_TECH_DAMAGE_PERCENT_postvalue_label"	"Damage"
-		"MODIFIER_VALUE_TECH_DAMAGE_PERCENT_Postfix"	"%"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Label"	"Damage"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_postvalue_label"	"Damage"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Postfix"	"%"
 		
 		"DelayDuration_Label"	"Delay Duration"
 		"DelayDuration_postvalue_label"	"Delay Duration"
@@ -2735,30 +2735,30 @@
 		"BonusBaseWeaponDamage_postvalue_label"					"Weapon Damage"
 		"BonusBaseWeaponDamage_postfix"					"%"
 
-		"MODIFIER_VALUE_BASE_BULLET_DAMAGE_PERCENT_prefix"					"{s:sign}"
-		"MODIFIER_VALUE_BASE_BULLET_DAMAGE_PERCENT_label"					"Weapon Damage"
-		"MODIFIER_VALUE_BASE_BULLET_DAMAGE_PERCENT_postvalue_label"					"Weapon Damage"
-		"MODIFIER_VALUE_BASE_BULLET_DAMAGE_PERCENT_postfix"					"%"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_label"					"Weapon Damage"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postvalue_label"					"Weapon Damage"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postfix"					"%"
 
 		"BaseAttackDamagePercent_prefix"					"{s:sign}"
 		"BaseAttackDamagePercent_label"					"Weapon Damage"
 		"BaseAttackDamagePercent_postvalue_label"					"Weapon Damage"
 		"BaseAttackDamagePercent_postfix"					"%"
 
-		"MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT_prefix"					"{s:sign}"
-		"MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT_label"					"Weapon Damage"
-		"MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT_postvalue_label"					"Weapon Damage"
-		"MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT_postfix"					"%"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_label"					"Weapon Damage"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postvalue_label"					"Weapon Damage"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postfix"					"%"
 
 		"BaseAttackDamagePercentAltFire_prefix"					"{s:sign}"
 		"BaseAttackDamagePercentAltFire_label"					"Secondary Fire Weapon Damage"
 		"BaseAttackDamagePercentAltFire_postvalue_label"					"Secondary Fire Weapon Damage"
 		"BaseAttackDamagePercentAltFire_postfix"					"%"
 
-		"MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENTAltFire_prefix"					"{s:sign}"
-		"MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENTAltFire_label"					"Secondary Fire Weapon Damage"
-		"MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENTAltFire_postvalue_label"					"Secondary Fire Weapon Damage"
-		"MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENTAltFire_postfix"					"%"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_label"					"Secondary Fire Weapon Damage"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postvalue_label"					"Secondary Fire Weapon Damage"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postfix"					"%"
 
 		"ImbuedTechPower_prefix"					"{s:sign}"
 		"ImbuedTechPower_label"						"Imbued Ability Spirit Power"

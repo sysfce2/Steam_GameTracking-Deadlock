@@ -2961,7 +2961,7 @@
 						m_value = 55.0
 					},
 					{
-						m_eModifierValue = "MODIFIER_VALUE_MELEE_DAMAGE_INCREASE_PERCENT"
+						m_eModifierValue = "MODIFIER_VALUE_MELEE_RESIST_REDUCTION"
 						m_value = 20.0
 					},
 				]
@@ -3559,7 +3559,7 @@
 				m_vecScriptValues = 
 				[
 					{
-						m_eModifierValue = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
+						m_eModifierValue = "MODIFIER_VALUE_TECH_RESIST"
 						m_value = 15
 					},
 					{
@@ -3802,7 +3802,7 @@
 				m_vecScriptValues = 
 				[
 					{
-						m_eModifierValue = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
+						m_eModifierValue = "MODIFIER_VALUE_TECH_RESIST"
 						m_value = 15
 					},
 					{
@@ -4047,7 +4047,7 @@
 				m_vecScriptValues = 
 				[
 					{
-						m_eModifierValue = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
+						m_eModifierValue = "MODIFIER_VALUE_TECH_RESIST"
 						m_value = 15
 					},
 					{
@@ -4291,7 +4291,7 @@
 				m_vecScriptValues = 
 				[
 					{
-						m_eModifierValue = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
+						m_eModifierValue = "MODIFIER_VALUE_TECH_RESIST"
 						m_value = 15
 					},
 					{
@@ -4993,7 +4993,7 @@
 					m_value = 0.0
 				},
 				{
-					m_eModifierValue = "MODIFIER_VALUE_TECH_DAMAGE_PERCENT"
+					m_eModifierValue = "MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER"
 					m_value = 0.0
 				},
 			]
@@ -5067,7 +5067,7 @@
 					m_value = 0.0
 				},
 				{
-					m_eModifierValue = "MODIFIER_VALUE_TECH_DAMAGE_PERCENT"
+					m_eModifierValue = "MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER"
 					m_value = 0.0
 				},
 			]

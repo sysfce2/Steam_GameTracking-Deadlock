@@ -2279,7 +2279,7 @@
 			m_vecScriptValues = 
 			[
 				{
-					m_eModifierValue = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_eModifierValue = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 					m_value = 3
 				},
 			]
@@ -2319,7 +2319,7 @@
 			m_vecScriptValues = 
 			[
 				{
-					m_eModifierValue = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_eModifierValue = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 					m_value = 4
 				},
 			]
@@ -2359,7 +2359,7 @@
 			m_vecScriptValues = 
 			[
 				{
-					m_eModifierValue = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_eModifierValue = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 					m_value = 6
 				},
 			]
@@ -3085,7 +3085,7 @@
 				m_vecScriptValues = 
 				[
 					{
-						m_eModifierValue = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
+						m_eModifierValue = "MODIFIER_VALUE_TECH_RESIST"
 						m_value = 35
 					},
 					{

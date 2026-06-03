@@ -979,9 +979,6 @@ citadel_ability_cast_cancel_mash_protection_time 0.2 (developmentonly gamedll cl
 citadel_ability_cooldown_max 0 (gamedll clientdll replicated cheat)
 	<no description>
 
-citadel_ability_damage_falloff [40, 70, 0] (developmentonly gamedll clientdll replicated defensive)
-	Ability ability damage falloff (start_dist, end_dist, end_scale_pct)
-
 citadel_ability_debug false (gamedll clientdll replicated cheat)
 	<no description>
 
@@ -1990,6 +1987,9 @@ citadel_damage_indicator_width 120 (developmentonly clientdll defensive)
 citadel_damage_offscreen_indicator_disabled true (clientdll release)
 	<no description>
 
+citadel_damage_pipeline 2 (developmentonly gamedll)
+	<no description>
+
 citadel_damage_radar_enemy_display_time 2 (developmentonly clientdll)
 	<no description>
 
@@ -2464,11 +2464,11 @@ citadel_fibonnaci_sphere_trace_los_max 160 (developmentonly gamedll clientdll re
 citadel_finale_duration 6 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_first_blood_disables_match_not_scored true (developmentonly gamedll defensive)
-	Abandons must be before first blood for a match to not be scored.
-
 citadel_first_person false (developmentonly clientdll defensive)
 	Enables first-person viewpoint
+
+citadel_first_tower_kill_disables_match_not_scored true (developmentonly gamedll defensive)
+	Abandons must be before first blood for a match to not be scored.
 
 citadel_fissure_debug false (developmentonly gamedll clientdll replicated defensive)
 	<no description>

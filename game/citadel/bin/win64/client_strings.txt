@@ -89,8 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j 
- (08@HPZ 
+ (08@HPX`j`r
+ (08@HPZ`r
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2451,6 +2451,7 @@ $hRh
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
+(4PZ
 (5Me
 (5jP
 (?CBuoyancyHelper
@@ -2879,6 +2880,7 @@ $hRh
 (\v2\v.CMsgVector*
 (d4t8
 (default)
+(f05
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
@@ -3574,8 +3576,8 @@ $hRh
 .?AV<lambda_10>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@
 .?AV<lambda_13>@?EE@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@
 .?AV<lambda_15>@?1??UpdateDirtyPanel@CCitadelHeroCard@@MEAAXXZ@
-.?AV<lambda_17>@?1???R0?BL@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@
-.?AV<lambda_17>@?BL@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@
+.?AV<lambda_16>@?1???R<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@
+.?AV<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@
 .?AV<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4HitGroup_t@@@@
 .?AV<lambda_1>@?1???$IterateChildrenOfType@VCCitadelHeroCard@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCCitadelHeroCard@@@Z@std@@@Z@
 .?AV<lambda_1>@?1???$IterateChildrenOfType@VCCitadel_Hud_PlayerIntents_Player@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCCitadel_Hud_PlayerIntents_Player@@@Z@std@@@Z@
@@ -3635,7 +3637,7 @@ $hRh
 .?AV<lambda_1>@?1???$UpdateClassPanelList@VCCitadel_UI_PlayersListEntry@@@panorama@@YAXPEAVCPanel2D@1@HAEBV?$function@$$A6AXPEAVCCitadel_UI_PlayersListEntry@@H@Z@std@@@Z@
 .?AV<lambda_1>@?1???$UpdateClassPanelList@VCImagePanel@panorama@@@panorama@@YAXPEAVCPanel2D@1@HAEBV?$function@$$A6AXPEAVCImagePanel@panorama@@H@Z@std@@@Z@
 .?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_13>@?EE@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_13>@?EE@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@@Z@
-.?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_17>@?BL@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_17>@?BL@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@@Z@
+.?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@@Z@
 .?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_1>@?1??OnLayoutReloaded@CCitadelModsPurchasedPanel@@UEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV0?1??OnLayoutReloaded@CCitadelModsPurchasedPanel@@UEAAXXZ@@Z@
 .?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_1>@?1??UpdateDirtyPanel@CCitadel_DB_Page_News@@EEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV0?1??UpdateDirtyPanel@CCitadel_DB_Page_News@@EEAAXXZ@@Z@
 .?AV<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_1>@?1??UpdateDirtyPanel@CCitadel_UI_BuildSelector@@UEAAXXZ@@panorama@@YAXPEAVCPanel2D@1@HPEBDAEBV0?1??UpdateDirtyPanel@CCitadel_UI_BuildSelector@@UEAAXXZ@@Z@
@@ -4875,7 +4877,6 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_DelayedCatapultLaunch@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Delayed_Stun@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_DetentionAmmo@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_Digger_MudShield@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_DiminishingSlow@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_DisarmProc@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_DisarmProcWatcher@@$0PPPP@@@
@@ -5012,7 +5013,6 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_HollowPoint_Stack@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HookSelf@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_HookTarget@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_HornetMark@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Hornet_Chain_Connection@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Hornet_Snipe@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Hornet_Sting@@$0PPPP@@@
@@ -5038,7 +5038,6 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_IncendiaryDebuff@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_InfernalResilience_Melee@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Infested@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_InfestedBuilding@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_InfiniteMagazineActive@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Infuser@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Inhibitor_Proc@@$0PPPP@@@
@@ -5414,8 +5413,6 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_Werewolf_TrackingBomb@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Werewolf_TransformationWatcher@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Werewolf_UnloadGun2@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_WingBlastApply@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_WingBlastPush@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Wraith_ProjectMind_Shield@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Wraith_RapidFire@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_WreckerSalvage@@$0PPPP@@@
@@ -8076,7 +8073,6 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_DelayedCatapultLaunch@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Delayed_Stun@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_DetentionAmmo@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_Digger_MudShield@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_DiminishingSlow@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_DisarmProc@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_DisarmProcWatcher@@VCBaseModifier@@@@
@@ -8213,7 +8209,6 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_HollowPoint_Stack@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_HookSelf@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_HookTarget@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_HornetMark@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Hornet_Chain_Connection@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Hornet_Snipe@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Hornet_Sting@@VCBaseModifier@@@@
@@ -8239,7 +8234,6 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_IncendiaryDebuff@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_InfernalResilience_Melee@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Infested@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_InfestedBuilding@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_InfiniteMagazineActive@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Infuser@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Inhibitor_Proc@@VCBaseModifier@@@@
@@ -8615,8 +8609,6 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Werewolf_TrackingBomb@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Werewolf_TransformationWatcher@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Werewolf_UnloadGun2@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_WingBlastApply@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_WingBlastPush@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Wraith_ProjectMind_Shield@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Wraith_RapidFire@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_WreckerSalvage@@VCBaseModifier@@@@
@@ -9588,8 +9580,8 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_10>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@I$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_13>@?EE@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_15>@?1??UpdateDirtyPanel@CCitadelHeroCard@@MEAAXXZ@XPEAVCCitadel_UI_AvatarImage@@H@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_17>@?1???R1?BL@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@XPEAVCCitadelModIcon@@H@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_17>@?BL@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_16>@?1???R<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@XPEAVCCitadelModIcon@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4HitGroup_t@@@@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$IterateChildrenOfType@VCCitadelHeroCard@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCCitadelHeroCard@@@Z@std@@@Z@_NPEAV23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$IterateChildrenOfType@VCCitadel_Hud_PlayerIntents_Player@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCCitadel_Hud_PlayerIntents_Player@@@Z@std@@@Z@_NPEAV23@@std@@
@@ -9649,7 +9641,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateClassPanelList@VCCitadel_UI_PlayersListEntry@@@panorama@@YAXPEAVCPanel2D@2@HAEBV?$function@$$A6AXPEAVCCitadel_UI_PlayersListEntry@@H@Z@std@@@Z@PEAVCCitadel_UI_PlayersListEntry@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateClassPanelList@VCImagePanel@panorama@@@panorama@@YAXPEAVCPanel2D@2@HAEBV?$function@$$A6AXPEAVCImagePanel@panorama@@H@Z@std@@@Z@PEAVCImagePanel@2@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_13>@?EE@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_13>@?EE@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@@Z@PEAV32@H@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_17>@?BL@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_17>@?BL@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@@Z@PEAV32@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@@Z@PEAV32@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_1>@?1??OnLayoutReloaded@CCitadelModsPurchasedPanel@@UEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV1?1??OnLayoutReloaded@CCitadelModsPurchasedPanel@@UEAAXXZ@@Z@PEAV32@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_1>@?1??UpdateDirtyPanel@CCitadel_DB_Page_News@@EEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV1?1??UpdateDirtyPanel@CCitadel_DB_Page_News@@EEAAXXZ@@Z@PEAV32@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$UpdateSnippetPanelList@VCPanel2D@panorama@@V<lambda_1>@?1??UpdateDirtyPanel@CCitadel_UI_BuildSelector@@UEAAXXZ@@panorama@@YAXPEAVCPanel2D@2@HPEBDAEBV1?1??UpdateDirtyPanel@CCitadel_UI_BuildSelector@@UEAAXXZ@@Z@PEAV32@H@std@@
@@ -10750,8 +10742,6 @@ $hRh
 .?AVCCitadel_Ability_CrowdControl@@
 .?AVCCitadel_Ability_Dash@@
 .?AVCCitadel_Ability_DeathTax@@
-.?AVCCitadel_Ability_Digger_MudShield@@
-.?AVCCitadel_Ability_Digger_MudShieldVData@@
 .?AVCCitadel_Ability_Disruptive_Charge@@
 .?AVCCitadel_Ability_Doorman_Bomb@@
 .?AVCCitadel_Ability_Doorman_Bomb_VData@@
@@ -10862,7 +10852,6 @@ $hRh
 .?AVCCitadel_Ability_HoldMelee@@
 .?AVCCitadel_Ability_Hook@@
 .?AVCCitadel_Ability_HornetLeap@@
-.?AVCCitadel_Ability_HornetMark@@
 .?AVCCitadel_Ability_HornetSting@@
 .?AVCCitadel_Ability_Hornet_Chain@@
 .?AVCCitadel_Ability_Hornet_Snipe@@
@@ -11211,7 +11200,6 @@ $hRh
 .?AVCCitadel_Ability_Werewolf_RifleVData@@
 .?AVCCitadel_Ability_Werewolf_TrackingBomb@@
 .?AVCCitadel_Ability_Werewolf_TrackingBombVData@@
-.?AVCCitadel_Ability_WingBlast@@
 .?AVCCitadel_Ability_Wraith_RapidFire@@
 .?AVCCitadel_Ability_Wraith_RapidFireVData@@
 .?AVCCitadel_Ability_WreckerGarbageSuck@@
@@ -11758,8 +11746,6 @@ $hRh
 .?AVCCitadel_Modifier_Delayed_Stun@@
 .?AVCCitadel_Modifier_DetentionAmmo@@
 .?AVCCitadel_Modifier_DetentionAmmoVData@@
-.?AVCCitadel_Modifier_Digger_MudShield@@
-.?AVCCitadel_Modifier_Digger_MudShieldVData@@
 .?AVCCitadel_Modifier_DiminishingSlow@@
 .?AVCCitadel_Modifier_DiminishingSlowVData@@
 .?AVCCitadel_Modifier_DisarmProc@@
@@ -11961,7 +11947,6 @@ $hRh
 .?AVCCitadel_Modifier_HookSelf@@
 .?AVCCitadel_Modifier_HookTarget@@
 .?AVCCitadel_Modifier_HookTargetVData@@
-.?AVCCitadel_Modifier_HornetMark@@
 .?AVCCitadel_Modifier_HornetSnipeVData@@
 .?AVCCitadel_Modifier_Hornet_Chain_Connection@@
 .?AVCCitadel_Modifier_Hornet_Snipe@@
@@ -11994,7 +11979,6 @@ $hRh
 .?AVCCitadel_Modifier_InfernalResilience_Melee@@
 .?AVCCitadel_Modifier_InfernalResilience_MeleeVData@@
 .?AVCCitadel_Modifier_Infested@@
-.?AVCCitadel_Modifier_InfestedBuilding@@
 .?AVCCitadel_Modifier_InfiniteMagazineActive@@
 .?AVCCitadel_Modifier_Infuser@@
 .?AVCCitadel_Modifier_Infuser_VData@@
@@ -12566,8 +12550,6 @@ $hRh
 .?AVCCitadel_Modifier_Werewolf_TransformationWatcherVData@@
 .?AVCCitadel_Modifier_Werewolf_UnloadGun2@@
 .?AVCCitadel_Modifier_Werewolf_UnloadGun2VData@@
-.?AVCCitadel_Modifier_WingBlastApply@@
-.?AVCCitadel_Modifier_WingBlastPush@@
 .?AVCCitadel_Modifier_Wraith_ProjectMind_Shield@@
 .?AVCCitadel_Modifier_Wraith_RapidFire@@
 .?AVCCitadel_Modifier_Wraith_RapidFireVData@@
@@ -16739,14 +16721,13 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR 
-08B 
+08@HR`r
+08B`r
 08bX
 09,h
 0:00
 0;Q5[
 0<cz
-0>pt
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -17005,7 +16986,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp4
+2\vpt
 2^pV
 2a"l
 2bT~
@@ -17220,7 +17201,9 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@J`r
 8A6j
+8B`r
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17479,11 +17462,12 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
+?CScaleFunctionAbilityProperty_HealingSpiritScaleVData
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CitadelPartyCode
-?Clear all post process effects that are active, and spew their state
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
+?Emote
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17503,7 +17487,6 @@ $hRh
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?LatchVariables
-?Open ModelDoc to the model under the cursor.  Pass any parameter to open your own model
 ?TabButton
 ?The most recent last-played time the client already knows about"
 ?VBH;
@@ -17518,7 +17501,6 @@ $hRh
 ?expf
 ?gwL
 ?jOb
-?modifier_necro_hauntingskull_stackingdebuff
 ?srJO
 ?tya
 ?uWS
@@ -17529,11 +17511,8 @@ $hRh
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
-@CCitadel_Modifier_Gunslinger_DemonCarbineVData
-@CitadelMusicCueOverrides_t
 @DebugIndividualStyle
 @HPX`hv
-@HV@m
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17549,6 +17528,7 @@ $hRh
 @\n\vPowerUpBuff
 @\tV_iswcntrl
 @absorigin_follow
+@citadel_minimap_boundary
 @dKb]
 @fff>fff>fff>fff>
 @i1V
@@ -17581,7 +17561,7 @@ ACTIVATE_TYPE_DATAUPDATE_CREATION
 ACTIVATE_TYPE_INITIAL_CREATION
 ACTIVATE_TYPE_ONRESTORE
 ACTOR
-ACUserMessageRequestState_t
+ACUserMessageFade_t
 AD Time Stamping
 ADD_CERT_DIR
 ADH-AES128-GCM-SHA256
@@ -18886,6 +18866,7 @@ BookImagePage
 BookImageSequence
 BookInfo
 BookItemUnlock
+BookItemUnlockControl
 BookLogo
 BookNavButton
 BookNavButtonBase
@@ -19085,14 +19066,10 @@ BulletResistReduction
 BulletResistReductionDuration
 BulletResistReductionPerStack
 BulletScaleFactor
-BulletShieldDamageConversionPercent
 BulletShieldEmpty
 BulletShieldFull
 BulletShieldHealth
-BulletShieldMaxHealthPercentage
-BulletShieldMissingHealthPercentage
 BulletShieldOnHook
-BulletShieldPoints
 BulletSpeed
 BulletSpeedIncrease
 BulletSpeedOverride
@@ -19236,15 +19213,15 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\baseflex_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayercontroller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayerpawn_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\beam_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1482
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1483
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1031
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:290
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:332
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:723
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4333
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4507
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4329
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4503
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
@@ -19261,8 +19238,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_player_pa
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_post_processing_controller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stat_tracker_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stats_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2336
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2461
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2335
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2460
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:426
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2007
@@ -21236,7 +21213,6 @@ CUserMessageDesiredTimescale
 CUserMessageDesiredTimescale_t
 CUserMessageEmpty
 CUserMessageFade
-CUserMessageFade_t
 CUserMessageGameTitle"
 CUserMessageHapticsManagerEffect_t
 CUserMessageHapticsManagerPulse
@@ -21255,6 +21231,7 @@ CUserMessageRequestDllStatus_t
 CUserMessageRequestInventory
 CUserMessageRequestInventory_t
 CUserMessageRequestState"@\n
+CUserMessageRequestState_t
 CUserMessageRequestUtilAction
 CUserMessageRequestUtilAction_t
 CUserMessageResetHUD"8\n
@@ -22060,7 +22037,6 @@ ChapterList
 Char=
 ChargeDistance
 ChargeDragVerticalOffset
-ChargeForKill
 ChargeForMaxDamage
 ChargeMultiHitRadius
 ChargeParticleMaxScale
@@ -22258,7 +22234,6 @@ CitadelConnectedToGameServer
 CitadelConnectingToGameServer
 CitadelConnectionStatus
 CitadelConnectionStatusSpoofUpdated
-CitadelContextMenuGameChat
 CitadelContextMenuManager
 CitadelContextMenuParty
 CitadelContextMenuPlayer
@@ -23451,6 +23426,7 @@ Control Point:
 ControlBG
 ControlBarRow
 ControlFG
+ControlParameterNode
 Controller
 Controller: %s
 Controller: (%d) Name: %s
@@ -25646,7 +25622,6 @@ FlashFrameCapture
 FlashbangOverlay
 FlashlightEffectManager1
 FlashlightReceiverManager
-FlatBulletDamageReduction
 FlatHealthHealing
 FlexSceneFileManager
 Flick
@@ -28118,7 +28093,7 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MBookItemUnlockControl
+MCitadelContextMenuGameChat
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -28378,7 +28353,6 @@ MaxNonNetworkableEntities
 MaxProjectileSpeed
 MaxPushForceHorizontal
 MaxPushForceVertical
-MaxPushVelocity
 MaxRage
 MaxRange
 MaxRecasts
@@ -29189,8 +29163,6 @@ Object Signing
 Object Signing CA
 Objective Mask
 ObjectiveComplete
-ObjectiveDamageResistedPercent
-ObjectiveDamageTakenPercent
 ObjectiveDmg
 ObjectiveHealthPanel
 ObjectiveInvulnerable
@@ -29410,10 +29382,10 @@ P-224
 P-256
 P-384
 P-521
-P08J@
 P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
+P2`r
 P5[1
 PAGN_4
 PANORAMA_LAYOUTFILE
@@ -30044,6 +30016,7 @@ Pitch: %6.1f   Yaw: %6.1f   Dist: %6.1f %19s
 Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixelToProj
+Pj`r
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -30714,12 +30687,12 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fp4
+R\fpt
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp0
+R\vpp
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -32222,7 +32195,6 @@ SharedObjectCache for %s (%d types):\n
 SharedRandomFloat
 SharedRandomInt
 Sharpness
-ShieldDuration
 ShieldScale
 ShockDPS
 ShockRadius
@@ -35034,9 +35006,8 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr 
+X`hr`r
 Xd3h
-Xf v
 XfJ7
 XjfR
 XqgA+
@@ -35251,7 +35222,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -36277,7 +36247,6 @@ Z~wl
 \rChallengeID_t
 \rChallengeID_t"
 \rCitadelMMRu_t
-\rControlParameterNode
 \rHeroBadgeXP_t
 \rHeroBuildID_t
 \rHeroBuildID_t"
@@ -36287,6 +36256,7 @@ Z~wl
 \rTxL
 \rUHz4Z}\r
 \rWhO
+\rXPj
 \rY=QX
 \rYYHl
 \r\n\tEUpgraded
@@ -36311,7 +36281,7 @@ Z~wl
 \rjwB\t
 \roKK
 \rrCj
-\rr_flashlightoffsetright
+\rr_flashlightconstant
 \rstyle_index_t
 \rusercmd.proto"
 \sG7tPD
@@ -36590,7 +36560,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6P0
 `:zQF
 `D$daM-l
 `DZG
@@ -36601,7 +36570,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`ht`o
+`htPZ
 `o_je
 `yNT
 a null shared library handle was used
@@ -36717,7 +36686,6 @@ ability_damage_percent
 ability_damage_total
 ability_death_tax
 ability_demonmark
-ability_digger_mudshield
 ability_doorman_bomb
 ability_doorman_doorway
 ability_doorman_doorway_trigger
@@ -38366,7 +38334,6 @@ citadel_ability_hold_melee
 citadel_ability_hook
 citadel_ability_hornet_chain
 citadel_ability_hornet_leap
-citadel_ability_hornet_mark
 citadel_ability_hornet_snipe
 citadel_ability_hornet_sting
 citadel_ability_jump
@@ -38443,7 +38410,6 @@ citadel_ability_werewolf_clawweapon
 citadel_ability_werewolf_frenzy
 citadel_ability_werewolf_onthehunt
 citadel_ability_werewolf_rifle
-citadel_ability_wing_blast
 citadel_ability_wraith_rapidfire
 citadel_ability_wrecker_bouldergrenade
 citadel_ability_wrecker_garbage_suck
@@ -38555,7 +38521,6 @@ citadel_loading_screen
 citadel_magic_beam_blocker
 citadel_magician_turret_object
 citadel_match_time
-citadel_minimap_boundary
 citadel_minimap_effects
 citadel_minion
 citadel_mobile_resupply_object
@@ -38563,7 +38528,6 @@ citadel_model_entity
 citadel_modifier_familiar_asleep
 citadel_modifier_familiar_exposed
 citadel_modifier_familiar_infested
-citadel_modifier_familiar_infested_building
 citadel_modifier_familiar_speedlines
 citadel_modifier_familiar_spotlighteffect
 citadel_modifier_familiar_staring
@@ -44745,7 +44709,6 @@ modifier_citadel_hooktarget
 modifier_citadel_hornet_chain_connection
 modifier_citadel_hornet_snipe
 modifier_citadel_hornet_sting_debuff
-modifier_citadel_hornetmark
 modifier_citadel_idol_return
 modifier_citadel_idol_walkback
 modifier_citadel_in_fountain
@@ -44839,8 +44802,6 @@ modifier_citadel_viper_stackingdebuff
 modifier_citadel_viper_venom_proc_watcher
 modifier_citadel_werewolf_leaping
 modifier_citadel_werewolf_maulingleapdebuff
-modifier_citadel_wing_blast_apply
-modifier_citadel_wing_blast_push
 modifier_climb_rope_slow
 modifier_cloak_of_opportunity_watcher
 modifier_cloaking_device_active_ambush
@@ -44869,7 +44830,6 @@ modifier_debug_is_visible_to_enemy_team
 modifier_debug_scale
 modifier_deflectingarmor
 modifier_delayed_apply
-modifier_digger_mudshield
 modifier_diminishing_slow
 modifier_disable_gravity
 modifier_discord_aura
@@ -45097,6 +45057,7 @@ modifier_necro_ghoul_explode
 modifier_necro_gun_searching
 modifier_necro_gun_tether
 modifier_necro_hauntingskull_area
+modifier_necro_hauntingskull_stackingdebuff
 modifier_necro_hauntingspirits
 modifier_necro_rampup
 modifier_necro_summondecay
@@ -46204,7 +46165,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0jP\f
+p2`r
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46221,7 +46182,6 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pF0\r
 pField
 pFilter
 pG_*h
@@ -46392,10 +46352,7 @@ particles/abilities/familiar/familiar_ambient_body.vpcf
 particles/abilities/ghost/ghost_death_tax.vpcf
 particles/abilities/gigawatt_chain_lightning.vpcf
 particles/abilities/gigawatt_lightning_cone.vpcf
-particles/abilities/hornet_funnel.vpcf
-particles/abilities/hornet_spinup.vpcf
 particles/abilities/inferno/inferno_incendiary_ground.vpcf
-particles/abilities/markedfordeath.vpcf
 particles/abilities/melee/melee_activate.vpcf
 particles/abilities/melee_impact.vpcf
 particles/abilities/melee_swing.vpcf
@@ -46541,6 +46498,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pb`r
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -47319,10 +47277,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp0
+r\fpp
 r\n\vstart_index
 r\vDi
-r\vp4
+r\vpt
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -50741,7 +50699,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDWhen you get gold from a player orb.
+zDWhen you get gold from a neutral boss kill.
 zF):O4
 zFar
 zG2m8

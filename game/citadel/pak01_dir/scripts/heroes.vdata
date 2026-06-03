@@ -122,27 +122,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -680,8 +680,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -1943,27 +1943,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -2501,8 +2501,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -3797,27 +3797,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -4355,8 +4355,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -5653,27 +5653,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -6216,8 +6216,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -7514,27 +7514,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -8072,8 +8072,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -9364,27 +9364,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -9923,8 +9923,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -11218,27 +11218,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -11781,8 +11781,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -13078,27 +13078,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -13636,8 +13636,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.625
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.625
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -14934,27 +14934,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -15492,8 +15492,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -16784,27 +16784,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -17346,8 +17346,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.625
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -18639,27 +18639,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -19197,8 +19197,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.625
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.625
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.3
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -20490,27 +20490,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -21053,8 +21053,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 0.5
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -22348,27 +22348,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -22906,8 +22906,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -24198,27 +24198,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -24756,8 +24756,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 59
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.3
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -26053,27 +26053,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -26611,8 +26611,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -27904,27 +27904,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -28472,8 +28472,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.6
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -29765,27 +29765,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -30323,8 +30323,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -31623,27 +31623,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -32181,8 +32181,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_Rage"
@@ -33474,27 +33474,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -34032,8 +34032,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.2
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -35327,27 +35327,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -35885,8 +35885,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -37153,27 +37153,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -37721,8 +37721,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -39014,27 +39014,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -39577,8 +39577,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -40871,27 +40871,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -41429,8 +41429,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -42722,27 +42722,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -43280,8 +43280,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.3
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -44576,27 +44576,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -45134,8 +45134,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -46402,27 +46402,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -46960,8 +46960,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -48229,27 +48229,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -48787,8 +48787,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -50056,27 +50056,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -50614,8 +50614,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -51884,27 +51884,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -52442,8 +52442,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -53717,27 +53717,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -54275,8 +54275,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -55545,27 +55545,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -56103,8 +56103,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -57395,27 +57395,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -57953,8 +57953,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -59222,27 +59222,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -59780,8 +59780,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -61073,27 +61073,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -61631,8 +61631,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -62905,27 +62905,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -63463,8 +63463,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -64732,27 +64732,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -65290,8 +65290,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -66560,27 +66560,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -67118,8 +67118,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -68383,27 +68383,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -68941,8 +68941,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -70206,27 +70206,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -70769,8 +70769,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -72063,27 +72063,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -72621,8 +72621,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -73897,27 +73897,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -74460,8 +74460,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.3
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -75753,27 +75753,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -76311,8 +76311,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -77587,27 +77587,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -78145,8 +78145,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -79419,27 +79419,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -79977,8 +79977,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -81271,27 +81271,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -81829,8 +81829,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_Rage"
@@ -83122,27 +83122,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -83690,8 +83690,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -84985,27 +84985,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -85548,8 +85548,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -86841,27 +86841,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -87404,8 +87404,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -88699,27 +88699,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -89257,8 +89257,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -90536,27 +90536,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -91094,8 +91094,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -92392,27 +92392,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -92950,8 +92950,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -94226,27 +94226,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -94784,8 +94784,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -96060,27 +96060,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -96618,8 +96618,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -97913,27 +97913,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -98471,8 +98471,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -99744,27 +99744,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -100302,8 +100302,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -101584,27 +101584,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -102147,8 +102147,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -103439,27 +103439,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -103997,8 +103997,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -105292,27 +105292,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -105850,8 +105850,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -107144,27 +107144,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -107702,8 +107702,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_Rage"
@@ -108979,27 +108979,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -109537,8 +109537,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -110827,27 +110827,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -111385,8 +111385,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -112681,27 +112681,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -113239,8 +113239,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -114533,27 +114533,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -115091,8 +115091,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -116356,27 +116356,27 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -116914,8 +116914,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.0
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.0
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.0
+			MODIFIER_VALUE_TECH_RESIST = 0.0
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.0
 			MODIFIER_VALUE_TECH_POWER = 1.1
 		}
 		m_eAbilityResourceType = "EResourceType_None"

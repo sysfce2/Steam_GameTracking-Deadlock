@@ -741,7 +741,7 @@
 		"@lib:client.dll!CPulseTestScriptLib" = 1396807546
 		"@lib:client.dll!CTakeDamageInfoAPI" = 69159789
 		"@type:client.dll!PVAL_SCHEMA_ENUM:AILOD_t" = 2989435320
-		"@type:client.dll!PVAL_SCHEMA_ENUM:DamageTypes_t" = 1182434900
+		"@type:client.dll!PVAL_SCHEMA_ENUM:DamageTypes_t" = 2170947975
 		"@type:client.dll!PVAL_SCHEMA_ENUM:HitGroup_t" = 3817317871
 		"@type:client.dll!PVAL_SCHEMA_ENUM:NPC_STATE" = 3496838490
 		"@type:client.dll!PVAL_SCHEMA_ENUM:PulseCursorCancelPriority_t" = 627611872

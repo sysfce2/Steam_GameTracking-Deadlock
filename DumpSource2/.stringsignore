@@ -662,7 +662,6 @@ Abilities that weaken ground dash distance
 Ability Alt-Cast
 Ability Cast
 Ability References
-Ability ability damage falloff (start_dist, end_dist, end_scale_pct)
 Ability damage against me heals the attacker
 AbilityCastEvent_t
 AbilityCosmeticInfo_t
@@ -744,7 +743,6 @@ Additional Settings
 Additional amp on the depth dimension reflections.  Note negative numbers mean this feedback bypasses the filter (predelay).
 Additional amp on the height dimension reflections.  Note negative numbers mean this feedback bypasses the filter (predelay).
 Additional amp on the width dimension reflections.  Note negative numbers mean this feedback bypasses the filter (predelay).
-Additional bullet resist % added to value of MODIFIER_VALUE_BULLET_ARMOR
 Additional frame rate limit while in tools mode and a window other than the game window has focus. Note that fps_max still applies, this only allows the maximum frame rate for tools mode to be lower. 0=no tools specific limit.
 Additional interpolation ticks to use when interpolating with threaded engine mode set.
 Additional margin (in ticks) to apply when spectating.
@@ -823,6 +821,8 @@ Align Up With Normal
 Align the initial orientation of each placed object based on it position on the sphere or circle.
 Alignment Degrees
 All
+All damage amplification on the target
+All damage multiplier, after increases
 All operation source and target values are considered relative to the default values
 All positions
 Allied Players around Pinging Player
@@ -934,7 +934,6 @@ An identifier for this physics body.
 An offset in addition to the base side offset while ziplining
 An offset in addition to the base standing offset while ziplining
 An offset to apply to the root bone of the entity
-An override of the base bullet damage. Does nothing if zero.
 Analysis Container
 Analysis Window
 Anchor point source
@@ -1018,7 +1017,6 @@ Applies multi-band modulation to a carrier signal, based on the multi-band envel
 Applies steam audio model for a 3d audio source.  This includes panning and HRTF (head-related transfer function).
 Applies steam audio model for direct audio.  This includes modeling the loss due to transmission in air, directivity and occlusion effects.
 Applies steam audio model for pathing audio through space.  This pans the audio based on the openings that the audio is audible through by traversing a path through space from the source to the listener.
-Applies to players and any entities for which GetScorer returns this player
 Apply Air Absorption
 Apply Antialiasing
 Apply Directivity
@@ -1433,16 +1431,23 @@ Build the full frames on a seperate job thread
 Buildup Frac per Extra Player
 BuildupMode_t
 Bullet Damage
+Bullet Damage increase at long range
 Bullet Protection
+Bullet Resist (positive)
 Bullet Resist Reduced Per Enemy Hero (Max 0%)
+Bullet Resist Reductions (negative)
 Bullet Resist with no Enemy Heroes around
 Bullet Travel
 Bullet Velocity
+Bullet and Melee Damage increase at close range
+Bullet and Melee damage increase
 Bullet damage I deal heals me
 Bullet damage against me heals the attacker
+Bullet damage amplification on the target
+Bullet damage increase
+Bullet damage multiplier, after increases
 Bullet impact effect.  CP0=position & surface normal, CP1=position & reflect dir, CP2=position & bullet dir, CP3=damage CP4=normal CP5=explosion radius
 Bullet resist against NPC
-Bullet resist reduction
 BulletID_t
 Bump Strength
 Burst Damage
@@ -2268,8 +2273,6 @@ CCitadel_Ability_Crackshot
 CCitadel_Ability_CrowdControl
 CCitadel_Ability_Dash
 CCitadel_Ability_DeathTax
-CCitadel_Ability_Digger_MudShield
-CCitadel_Ability_Digger_MudShieldVData
 CCitadel_Ability_Disruptive_Charge
 CCitadel_Ability_Doorman_Bomb
 CCitadel_Ability_Doorman_Bomb_VData
@@ -2380,7 +2383,6 @@ CCitadel_Ability_HighAlert
 CCitadel_Ability_HoldMelee
 CCitadel_Ability_Hook
 CCitadel_Ability_HornetLeap
-CCitadel_Ability_HornetMark
 CCitadel_Ability_HornetSting
 CCitadel_Ability_Hornet_Chain
 CCitadel_Ability_Hornet_Snipe
@@ -2729,7 +2731,6 @@ CCitadel_Ability_Werewolf_Rifle
 CCitadel_Ability_Werewolf_RifleVData
 CCitadel_Ability_Werewolf_TrackingBomb
 CCitadel_Ability_Werewolf_TrackingBombVData
-CCitadel_Ability_WingBlast
 CCitadel_Ability_Wraith_RapidFire
 CCitadel_Ability_Wraith_RapidFireVData
 CCitadel_Ability_WreckerGarbageSuck
@@ -3192,8 +3193,6 @@ CCitadel_Modifier_DelayedCatapultLaunch
 CCitadel_Modifier_Delayed_Stun
 CCitadel_Modifier_DetentionAmmo
 CCitadel_Modifier_DetentionAmmoVData
-CCitadel_Modifier_Digger_MudShield
-CCitadel_Modifier_Digger_MudShieldVData
 CCitadel_Modifier_DiminishingSlow
 CCitadel_Modifier_DiminishingSlowVData
 CCitadel_Modifier_DisarmProc
@@ -3397,7 +3396,6 @@ CCitadel_Modifier_HollowPoint_Stack
 CCitadel_Modifier_HookSelf
 CCitadel_Modifier_HookTarget
 CCitadel_Modifier_HookTargetVData
-CCitadel_Modifier_HornetMark
 CCitadel_Modifier_HornetSnipeVData
 CCitadel_Modifier_Hornet_Chain_Connection
 CCitadel_Modifier_Hornet_Snipe
@@ -3430,7 +3428,6 @@ CCitadel_Modifier_IncendiaryDebuff
 CCitadel_Modifier_InfernalResilience_Melee
 CCitadel_Modifier_InfernalResilience_MeleeVData
 CCitadel_Modifier_Infested
-CCitadel_Modifier_InfestedBuilding
 CCitadel_Modifier_InfiniteMagazineActive
 CCitadel_Modifier_Infuser
 CCitadel_Modifier_Infuser_VData
@@ -4014,8 +4011,6 @@ CCitadel_Modifier_Werewolf_TransformationWatcher
 CCitadel_Modifier_Werewolf_TransformationWatcherVData
 CCitadel_Modifier_Werewolf_UnloadGun2
 CCitadel_Modifier_Werewolf_UnloadGun2VData
-CCitadel_Modifier_WingBlastApply
-CCitadel_Modifier_WingBlastPush
 CCitadel_Modifier_Wraith_ProjectMind_Shield
 CCitadel_Modifier_Wraith_RapidFire
 CCitadel_Modifier_Wraith_RapidFireVData
@@ -8034,7 +8029,6 @@ DETAIL_COMBO_ADD
 DETAIL_COMBO_ADD_SELF_ILLUM
 DETAIL_COMBO_MOD2X
 DETAIL_COMBO_OFF
-DFLAG_ABILITY_DAMAGE_IGNORE_FALLOFF
 DFLAG_ALLOW_NON_AUTHORITATIVE
 DFLAG_ALLOW_SUICIDE
 DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
@@ -8118,6 +8112,7 @@ DMG_BUCKSHOT
 DMG_BUFFED
 DMG_BULLET
 DMG_BURN
+DMG_CITADEL_CORRECT_PATH
 DMG_CLUB
 DMG_CRIT
 DMG_CRUSH
@@ -8188,7 +8183,6 @@ Damage Dealt (in the case of NPC vs NPC damage, medium skill times the NPC damag
 Damage Levels
 Damage Numbers
 Damage Numbers Offset (from abs origin)
-Damage Received Amplification
 Damage Received AnimGraph Parameter
 Damage Scalar for NPC vs NPC cases
 Damage Type
@@ -10759,6 +10753,10 @@ Fixup corrupted .wav file if engine crashed during startmovie/endmovie, etc.
 Flag to enable spatial audio in Dota 2.
 Flag value to set on NPCs targeted by ai_autoselect_class. Valid values: 'combat', 'selected', 'tasks', 'all'.
 Flags_t
+Flat Alt-fire Bullet Damage given from boons that will be scaled by all increases and multipliers
+Flat Bullet Damage given from boons that will be scaled by all increases and multipliers
+Flat Melee Damage given from boons that will be scaled by all increases and multipliers
+Flat bullet damage that is added after all the scaling is done.
 FlexOpCode_t
 Flip U or V texcoords if pitch or yaw go over PI
 FlipHemisphere
@@ -12768,7 +12766,6 @@ MODIFIER_EVENT_PORTAL_CLOSED
 MODIFIER_EVENT_PRE_BULLET_FIRED
 MODIFIER_EVENT_PRE_DAMAGE_TAKEN
 MODIFIER_EVENT_PRE_DAMAGE_TAKEN_BROADCAST
-MODIFIER_EVENT_PRE_FATAL_DAMAGE
 MODIFIER_EVENT_PRE_OWNER_TAKE_ADJUSTED_DAMAGE
 MODIFIER_EVENT_PROJECTILE_HIT
 MODIFIER_EVENT_PROP_BROKE
@@ -12787,7 +12784,6 @@ MODIFIER_EVENT_UNIT_SHIELD_ABSORBED_DAMAGE_BROADCAST
 MODIFIER_EVENT_UNIT_SHIELD_REMOVED
 MODIFIER_EVENT_VISCOUS_CUBE_DESTROYED
 MODIFIER_EVENT_WALL_JUMP_EXECUTED
-MODIFIER_NON_PLAYER_BONUS_BASE_DAMAGE_PERCENT
 MODIFIER_PRIORITY_HIGH
 MODIFIER_PRIORITY_LOW
 MODIFIER_PRIORITY_NORMAL
@@ -13051,7 +13047,6 @@ MODIFIER_STATE_PUNKGOAT_TETHERED
 MODIFIER_STATE_REFLECT_ATTACKS
 MODIFIER_STATE_RELOAD_DISABLED
 MODIFIER_STATE_RELOAD_MELEE_FULL_SPEED
-MODIFIER_STATE_RESIST_NULLIFICATION
 MODIFIER_STATE_RESPAWN_CREDIT
 MODIFIER_STATE_RESPAWN_CREDIT_PERSONAL
 MODIFIER_STATE_RETURNING_IDOL
@@ -13124,9 +13119,7 @@ MODIFIER_STATE_ZIPLINE_INTRO
 MODIFIER_STATE_ZIPLINE_LOCKED
 MODIFIER_TIME_SCALE_USE_CASTER
 MODIFIER_TIME_SCALE_USE_PARENT
-MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION
 MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT
-MODIFIER_VALUE_ABILITY_DAMAGE_TAKEN_INCREASE_PERCENT
 MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT
 MODIFIER_VALUE_ABILITY_RESOURCE_MAX_ADDITIVE
 MODIFIER_VALUE_ABILITY_RESOURCE_REGEN_PER_SECOND_ADDITIVE
@@ -13138,6 +13131,9 @@ MODIFIER_VALUE_AIR_DRAG
 MODIFIER_VALUE_AIR_JUMPS
 MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT
 MODIFIER_VALUE_AIR_SPEED_MAX
+MODIFIER_VALUE_ALL_DAMAGE_MULTIPLIER
+MODIFIER_VALUE_ALL_DAMAGE_TAKEN_INCREASE
+MODIFIER_VALUE_ALL_DAMAGE_TAKEN_REDUCTION
 MODIFIER_VALUE_AMMO_CLIP_SIZE
 MODIFIER_VALUE_AMMO_CLIP_SIZE_OVERRIDE
 MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT
@@ -13146,33 +13142,23 @@ MODIFIER_VALUE_ANIMATION_FRAME_SKIP_RATE
 MODIFIER_VALUE_ANIMATION_TIME_SCALE_ADDITIVE
 MODIFIER_VALUE_ANIMATION_TIME_SCALE_PERCENT
 MODIFIER_VALUE_ARMOR_POWER
-MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY
 MODIFIER_VALUE_AVOID_SPELL
 MODIFIER_VALUE_BARRIER_AMP_CAST_PERCENT
 MODIFIER_VALUE_BARRIER_AMP_RECEIVE_PERCENT
 MODIFIER_VALUE_BARRIER_HEALTH
-MODIFIER_VALUE_BASEATTACK_DAMAGE
-MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT
 MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL
 MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE
-MODIFIER_VALUE_BASE_BULLET_DAMAGE_OVERRIDE
-MODIFIER_VALUE_BASE_BULLET_DAMAGE_PERCENT
-MODIFIER_VALUE_BASE_BULLET_DAMAGE_PERCENT_FROM_LEVEL
-MODIFIER_VALUE_BASE_BULLET_DAMAGE_TAKEN_PERCENT
 MODIFIER_VALUE_BASE_BULLET_SPEED_OVERRIDE
 MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL
 MODIFIER_VALUE_BASE_HEALTH_PERCENT
 MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL
-MODIFIER_VALUE_BASE_MELEE_DAMAGE_PERCENT
-MODIFIER_VALUE_BASE_MELEE_DAMAGE_PERCENT_FROM_LEVEL
-MODIFIER_VALUE_BASE_MELEE_DAMAGE_TAKEN_PERCENT
 MODIFIER_VALUE_BASE_VELOCITY
-MODIFIER_VALUE_BASE_WEAPON_DAMAGE_TAKEN_PERCENT
 MODIFIER_VALUE_BODY_GROUP_CHOICE_OVERRIDE
 MODIFIER_VALUE_BONUS_ABILITY_CHARGES
 MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE
 MODIFIER_VALUE_BONUS_ATTACK_RANGE
 MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT
+MODIFIER_VALUE_BONUS_BULLET_DAMAGE_LONG_RANGE_MIN_RANGE
 MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT
 MODIFIER_VALUE_BONUS_BURST_SHOT_CONSTANT
 MODIFIER_VALUE_BONUS_BURST_SHOT_PERCENT
@@ -13181,20 +13167,17 @@ MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT
 MODIFIER_VALUE_BONUS_JUMP_VERTICAL_SPEED_PERCENT
 MODIFIER_VALUE_BONUS_MAX_HEALTH_NO_SCALE
 MODIFIER_VALUE_BONUS_WEAPON_DAMAGE_CLOSE_RANGE_MAX_RANGE
-MODIFIER_VALUE_BONUS_WEAPON_DAMAGE_LONG_RANGE_MIN_RANGE
 MODIFIER_VALUE_BOON_COUNT
-MODIFIER_VALUE_BULLET_ARMOR
+MODIFIER_VALUE_BULLET_AND_MELEE_RESIST_REDUCTION
 MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST
-MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_NON_HERO
-MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_PERCENT
-MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION
-MODIFIER_VALUE_BULLET_DAMAGE_PERCENT
-MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION
+MODIFIER_VALUE_BULLET_DAMAGE_INCREASE
+MODIFIER_VALUE_BULLET_DAMAGE_MULTIPLIER
 MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_PERCENT
 MODIFIER_VALUE_BULLET_DAMAGE_TAKEN_HEALS_ATTACKER
-MODIFIER_VALUE_BULLET_DAMAGE_TAKEN_INCREASE_PERCENT
+MODIFIER_VALUE_BULLET_DAMAGE_TAKEN_INCREASE
 MODIFIER_VALUE_BULLET_EVASION
 MODIFIER_VALUE_BULLET_LIFESTEAL
+MODIFIER_VALUE_BULLET_RESIST_NON_HERO
 MODIFIER_VALUE_BULLET_SHIELD_DAMAGE_PERCENT
 MODIFIER_VALUE_BULLET_SHIELD_HEALTH
 MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX
@@ -13212,7 +13195,7 @@ MODIFIER_VALUE_CHARGE_SPEED
 MODIFIER_VALUE_CLIMB_ROPE_SPEED_PERCENTAGE
 MODIFIER_VALUE_CLOAK_DESAT_FACTOR
 MODIFIER_VALUE_CLOAK_FACTOR
-MODIFIER_VALUE_CLOSE_RANGE_BONUS_BASE_DAMAGE_PERCENT
+MODIFIER_VALUE_CLOSE_RANGE_WEAPON_DAMAGE_INCREASE
 MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE
 MODIFIER_VALUE_COOLDOWN_MAX_TIME
 MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE
@@ -13220,9 +13203,6 @@ MODIFIER_VALUE_COUNT
 MODIFIER_VALUE_CRIT_DAMAGE_RECEIVED_SCALE
 MODIFIER_VALUE_CYCLE_TIME
 MODIFIER_VALUE_CYCLE_TIME_PERCENTAGE
-MODIFIER_VALUE_DAMAGE_PERCENT
-MODIFIER_VALUE_DAMAGE_TAKEN_INCREASE_PERCENT
-MODIFIER_VALUE_DAMAGE_TAKEN_REDUCTION_PERCENT
 MODIFIER_VALUE_DIMENSION_TYPE
 MODIFIER_VALUE_DISPLAY_SPEED_CURRENT
 MODIFIER_VALUE_DISPLAY_SPEED_MAX
@@ -13236,6 +13216,7 @@ MODIFIER_VALUE_FALL_SPEED_MAX
 MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE
 MODIFIER_VALUE_FIRE_RATE
 MODIFIER_VALUE_FIRE_RATE_SLOW
+MODIFIER_VALUE_FLAT_BULLET_DAMAGE_POST_SCALE
 MODIFIER_VALUE_FOOTSTEP_ADDITIONAL
 MODIFIER_VALUE_FOOTSTEP_OVERRIDE
 MODIFIER_VALUE_FRICTION_PERCENTAGE
@@ -13264,15 +13245,14 @@ MODIFIER_VALUE_INTRA_BURST_SHOT_CYCLE_TIME_OVERRIDE
 MODIFIER_VALUE_INVALID
 MODIFIER_VALUE_INVISIBILITY_LEVEL
 MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE
-MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENT
+MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE
 MODIFIER_VALUE_MATERIAL_OVERRIDE
 MODIFIER_VALUE_MAX_HEALTH_OVERRIDE
-MODIFIER_VALUE_MELEEATTACK_DAMAGE
-MODIFIER_VALUE_MELEEATTACK_DAMAGE_PERCENTAGE
 MODIFIER_VALUE_MELEEATTACK_SPEED
-MODIFIER_VALUE_MELEE_DAMAGE_INCREASE_PERCENT
-MODIFIER_VALUE_MELEE_DAMAGE_PERCENT
-MODIFIER_VALUE_MELEE_DAMAGE_REDUCTION_PERCENT
+MODIFIER_VALUE_MELEE_DAMAGE_INCREASE
+MODIFIER_VALUE_MELEE_DAMAGE_MULTIPLIER
+MODIFIER_VALUE_MELEE_RESIST
+MODIFIER_VALUE_MELEE_RESIST_REDUCTION
 MODIFIER_VALUE_MELEE_TRAVEL_DISTANCE_PERCENTAGE
 MODIFIER_VALUE_MINIMAP_POSITION_OVERRIDE
 MODIFIER_VALUE_MODEL_CHANGE
@@ -13335,12 +13315,9 @@ MODIFIER_VALUE_STANCE_OVERRIDE
 MODIFIER_VALUE_STATUS_RESISTANCE
 MODIFIER_VALUE_TARGET_IDENTIFIER_OVERRIDE
 MODIFIER_VALUE_TARGET_IDENTIFIER_OVERRIDE_ORIENTATION
-MODIFIER_VALUE_TECH_ARMOR
-MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST
-MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_PERCENT
-MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION
-MODIFIER_VALUE_TECH_DAMAGE_PERCENT
+MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER
 MODIFIER_VALUE_TECH_DAMAGE_TAKEN_HEALS_ATTACKER
+MODIFIER_VALUE_TECH_DAMAGE_TAKEN_INCREASE
 MODIFIER_VALUE_TECH_LIFESTEAL
 MODIFIER_VALUE_TECH_POWER
 MODIFIER_VALUE_TECH_POWER_PERCENT
@@ -13349,6 +13326,8 @@ MODIFIER_VALUE_TECH_RADIUS_PERCENT
 MODIFIER_VALUE_TECH_RANGE_ADDITIVE
 MODIFIER_VALUE_TECH_RANGE_CLAMP
 MODIFIER_VALUE_TECH_RANGE_PERCENT
+MODIFIER_VALUE_TECH_RESIST
+MODIFIER_VALUE_TECH_RESIST_REDUCTION
 MODIFIER_VALUE_TELEPORT_COOLDOWN_REDUCTION_PERCENT
 MODIFIER_VALUE_TRACER_ADDITIONAL
 MODIFIER_VALUE_TRACER_REPLACEMENT
@@ -13357,6 +13336,8 @@ MODIFIER_VALUE_TURN_SIDEMOVE_PERCENTAGE
 MODIFIER_VALUE_VEHICLE_TOP_SPEED_SCALE
 MODIFIER_VALUE_VISION_RADIUS
 MODIFIER_VALUE_VISUAL_ORIGIN_OFFSET
+MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE
+MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE
 MODIFIER_VALUE_WEAPON_POWER
 MODIFIER_VALUE_WEAPON_POWER_PERCENT
 MODIFIER_VALUE_WEAPON_RECOIL_REDUCTION_PERCENT
@@ -13646,7 +13627,11 @@ Medium Circle
 Medium Range
 MediumCircle
 Melee
+Melee Damage increase
+Melee Resist (positive)
+Melee Resist Reductions (negative)
 Melee Spirit
+Melee damage multiplier, after increases
 MeleeAttack
 MeleeVehicleSideOptions_t
 Memory Level - Default: High
@@ -16148,6 +16133,7 @@ Reduce texture memory pool size by this many MB / s when over budget.
 Reduce texture memory pool size when this percentage of the budget is full.
 Reduce the effects of negative heal amp
 Reduce the horizontal velocity of a slowed slide jump by this much.
+Reduces all damage taken
 Reference dB at snd_refdist
 Reference distance for snd_refdb
 Reference to a vsnd file or another container.
@@ -17854,7 +17840,6 @@ Stencil
 Step Height
 Step Height Max
 Step Height Max Angle
-Step function that determines your bullet damage resist %
 StepPhase
 StepPhase_InAir
 StepPhase_OnGround
@@ -18196,7 +18181,11 @@ TaskStatus_t
 TeamReveal
 Teammate footstep sounds are relative to whoever we're spectating.
 Tech
+Tech Resist (positive)
+Tech Resist Reductions (negative)
 Tech damage I deal heals me
+Tech damage amplification on the target
+Tech damage multiplier, after increases
 Teleport joint anchors if connected to world
 Teleport other splitscreen player to my location.
 Teleport the specified entity to where the player is looking.\n\tFormat: ent_teleport <entity name>
@@ -19774,7 +19763,6 @@ _editor/next_player_stat_id
 _editor/next_team_stat_id
 _fov
 _record
-ability resist reduction
 ability_friendly_life_threshold
 ability_friendly_pitch
 ability_min_cast_range
@@ -19795,7 +19783,6 @@ adaptive retest on moving surface
 add self amount over alphablend
 add test object
 addip
-additional ability damage resist added to the value of MODIFIER_VALUE_TECH_ARMOR, negative values mean penetration
 additive
 addons
 adjacent_levels
@@ -19815,9 +19802,6 @@ adsp_room_min
 adsp_street_min
 adsp_tunnel_min
 adsp_wall_height
-affects all (bullet, melee, tech) damage output
-affects both Bullets and Melee
-affects both Bullets and Melee but does not get scaled with Percent
 ag2_preserve_params_on_reload
 ag2_use_networked_serialization_context_demo
 ag2_use_networked_serialization_context_game
@@ -20182,8 +20166,6 @@ back
 ban_ignore_after_player_abandons
 banid
 banip
-base bullet damage % increases
-base melee damage % increases
 base_action value
 base_state value
 batch particle systems (DO NOT USE)
@@ -20406,7 +20388,6 @@ citadel_ability_busy_queue_time
 citadel_ability_cancel_time
 citadel_ability_cast_cancel_mash_protection_time
 citadel_ability_cooldown_max
-citadel_ability_damage_falloff
 citadel_ability_damage_vdata_tweak
 citadel_ability_debug
 citadel_ability_force_gold_collection
@@ -20782,6 +20763,7 @@ citadel_damage_indicator_height
 citadel_damage_indicator_radius
 citadel_damage_indicator_width
 citadel_damage_offscreen_indicator_disabled
+citadel_damage_pipeline
 citadel_damage_radar_enemy_display_time
 citadel_damage_report_enable
 citadel_damage_report_show_adjusted_percent_min
@@ -20968,8 +20950,8 @@ citadel_fibonnaci_sphere_trace_debug
 citadel_fibonnaci_sphere_trace_fraction
 citadel_fibonnaci_sphere_trace_los_max
 citadel_finale_duration
-citadel_first_blood_disables_match_not_scored
 citadel_first_person
+citadel_first_tower_kill_disables_match_not_scored
 citadel_fissure_debug
 citadel_fissure_forward_trace_distance
 citadel_fissure_hit_debug
@@ -23448,8 +23430,6 @@ fl_StoredDamage
 fl_lookHeading
 fl_mSpellShieldBreakTime
 flags
-flat ability damage reduction
-flat bullet damage reduction
 flattening strength
 flip cull normal
 flip horizontal
@@ -26376,7 +26356,6 @@ m_IncomingParticle
 m_IncompatibleFilter
 m_IndicatorFX
 m_InfestBarrierModifier
-m_InfestBuildingModifier
 m_InfestModifier
 m_InfestWaitingModifier
 m_InfestedHeroParticle
@@ -31867,7 +31846,6 @@ m_flChaseMoveDistance
 m_flCheckPlayerRate
 m_flCheckRadius
 m_flChestDamageMultiplier
-m_flCitadelDamageAccumulator
 m_flClientCullRadius
 m_flClientLocalScale
 m_flClimbDownAccelTime
@@ -32720,7 +32698,6 @@ m_flGraceTime
 m_flGrainCrossfadeAmount
 m_flGrainLength
 m_flGrainMs
-m_flGrantedBulletShieldHealth
 m_flGrappleArriveTime
 m_flGrappleShotAttackTime
 m_flGrappleShotDelayToFlyOnHit
@@ -37307,7 +37284,6 @@ m_nHandshakeScope
 m_nHandshakeState
 m_nHapticsType
 m_nHardwareType
-m_nHeadFX
 m_nHeadLocation
 m_nHeadLocationMax
 m_nHeadLocationMin
@@ -41042,7 +41018,6 @@ m_vecEndLocationCaster
 m_vecEndPos
 m_vecEndPosition
 m_vecEndPositionNormal
-m_vecEnemyHeroesDamaged
 m_vecEnemyPosition
 m_vecEntitiesHit
 m_vecEntityMaxs
@@ -42391,17 +42366,14 @@ offset propotional to radius
 offset rate
 offset rotation
 offset start point amount
-only Bullet
 only active within input range
 only active within specified difference
 only active within specified distance
 only active within specified input range
-only melee
 only restart children
 only set distance once
 only set orientation once
 only set position once
-only tech damage
 only write where stencil is NOT stencil test ID
 open_asset
 open_current_map_in_hammer
@@ -43688,8 +43660,6 @@ scale size multiplier from CP
 scale value to map attribute to texture coordinate
 scale velocity
 scale_function_dump
-scales all ability damage resist
-scales all bullet resist
 scattering
 scene_clientflex
 scene_coordinator_add_request
@@ -44272,7 +44242,6 @@ spec_replay_victim_pov
 spec_replay_winddown_time
 spec_target
 spec_track
-special version of base % increases just from levels, need to do this for tooltips because of stats and it sucks
 specific sim id
 specifies how much of a gap between MMR's we allow to randomize lane assignment
 specular warp texture
@@ -44367,7 +44336,6 @@ steamlearn_spew_um_times
 steamvrevent_quit
 stencil test ID
 stencil write ID
-step function that determines your ability damage resist %
 stick instead of cull
 sticky_tooltips
 stop

@@ -441,9 +441,6 @@
 //	"m_InfestWaitingModifier":
 //	{
 //	},
-//	"m_InfestBuildingModifier":
-//	{
-//	},
 //	"m_InfestBarrierModifier":
 //	{
 //	},
@@ -557,7 +554,6 @@ class CCitadel_Ability_Familiar_HelpingHandsVData : public CitadelAbilityVData
 	CEmbeddedSubclass< CCitadelModifier > m_InvisWatcherModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_InfestModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_InfestWaitingModifier;
-	CEmbeddedSubclass< CCitadelModifier > m_InfestBuildingModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_InfestBarrierModifier;
 	// MPropertyStartGroup = "Sounds"
 	CSoundEventName m_strHelperShootSound;

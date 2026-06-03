@@ -2413,6 +2413,7 @@ non_homogenous_forward_layer_only
 not obeying particle system stencil of failure to parse stencil comparison string %s\n
 not rendering particle system because of failure ot parse stencil write string %s\n
 num_particles
+oH j
 o\t\raHC
 opacity
 operators
