@@ -1313,11 +1313,12 @@ ProgressBar
 
 #IdolCashInMeter.captured
 {
-	opacity: 0.0;
+	opacity: 0;
 	animation-name: Idol_Captured;
 	animation-duration: 5s;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-out;
+	visibility: visible;
 }
 
 #IdolCashInMeter.capturing

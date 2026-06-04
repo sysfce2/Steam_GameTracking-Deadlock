@@ -3702,6 +3702,7 @@
 			_class = "modifier_base_aura_cylinder"
 			_my_subclass_name = "modifier_aura_idol_cashin_comeback"
 			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO_FRIENDLY"
+			m_flModifierProvidedByAuraDuration = 1.0
 			m_modifierProvidedByAura = subclass:
 			{
 				_class = "modifier_base"

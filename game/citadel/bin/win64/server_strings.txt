@@ -204,10 +204,11 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
+ .0C2
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
- @instanced_scripted_scene
+ @snd_occlusion_debug
  ACTIVE GROUP
  Damage Dealt to Trooper Boss
  Damage Taken from Player
@@ -734,6 +735,7 @@ $light_emissive
 %d instruction(s)\n
 %d of %d Spawn destinations valid
 %d players in lane %d:\n
+%d queries, %d misses (%d free) suc spec = %d wasted spec=%d\n
 %d register(s) %d byte(s)\n
 %d spawn groups:\n
 %d structs not using DECLARE_NETWORKVAR_STRUCT_NOT_IN_NETWORK_UTLVECTOR_EMBEDDED, consider porting fields to use CNetworkVars!\n
@@ -1372,6 +1374,7 @@ $light_emissive
 (\n$k_PackBundle_Failed_ItemIsNonEconomy
 (\n$k_PackBundle_Failed_ItemMixedQuality
 (\n$k_UnlockStyle_Failed_AlreadyUnlocked
+(\n\fdeposit_team
 (\n\fserver_state
 (\n\fteam_claimed
 (\n\fwinning_team
@@ -1564,6 +1567,7 @@ $light_emissive
 (\v2/.CMsgParticleSystemManager.UpdateParticleOffset
 (\v2/.CMsgParticleSystemManager.UpdateParticleOrient
 (\v2/.CMsgServerSignoutData_DetailedStats.TimeSample"
+(\v2/.CMsgServerSignoutData_DetailedStats.UrnCapture
 (\v2/.CMsgServerSignoutData_MatchDevStats.PlayerSlot
 (\v2/.CMsgServerSignoutData_PenalizedPlayers.Penalty
 (\v20.CCitadelUserMsg_GetDamageStatsResponse.StatType
@@ -12060,6 +12064,7 @@ $light_emissive
 .?AVCMsgServerSignoutData_DetailedStats_TimeSample@@
 .?AVCMsgServerSignoutData_DetailedStats_TimeSample_GoldStats@@
 .?AVCMsgServerSignoutData_DetailedStats_TimeSample_Stats@@
+.?AVCMsgServerSignoutData_DetailedStats_UrnCapture@@
 .?AVCMsgServerSignoutData_Disconnections@@
 .?AVCMsgServerSignoutData_Disconnections_CMsgMatchDisconnection@@
 .?AVCMsgServerSignoutData_HeroXPGrant@@
@@ -14047,6 +14052,7 @@ $light_emissive
 .MODIFIER_ENTRY_TYPE
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
+.P82
 .PARTICLE_MESSAGE
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
@@ -14065,6 +14071,8 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PF2
+.PO2
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14352,8 +14360,7 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p02
-.p92
+.p82
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14641,7 +14648,6 @@ $light_emissive
 4@AA
 4Ch;
 4F0I
-4F\vp
 4Mv8
 4Zis
 4\fPl
@@ -14672,7 +14678,6 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
-5\fg0
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14697,22 +14702,23 @@ $light_emissive
 6%vi
 6,2K
 6-zeZ
+60$2
 60000
+6062
+60N2
 62$|S)6f
 64CK\vH
 65535
 65535"
 65535"j\n
 65535B$
+6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666CAttributeManager
 67-s
 6H,N
 6O|T%
-6P 2
-6P82
+6P22
 6Qd=
-6\fg0
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14779,6 +14785,7 @@ $light_emissive
 8<pl
 8= zp
 8A6j
+8F &2
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14878,7 +14885,7 @@ $light_emissive
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;DEnable / Disable Play Stat S2MatchPerf.
+;Dm_iszSpawnGroupName
 ;LGEW
 ;Qo0
 ;X94<
@@ -15021,7 +15028,6 @@ $light_emissive
 ?CAnimFoot
 ?HAI\t81\t9dcG'
 ?HP4
-?Lists all entities
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15029,24 +15035,27 @@ $light_emissive
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
+?_entname_fixup_prefix
 ?d86L
 ?dt]X
 ?expf
 ?ffffff
 ?gwL
 ?jOb
+?m_AIPhysicsModifier
+?m_flRangeAtCast
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NT
+@08N4
 @0pp
-@6P"2
+@6082
+@6p72
 @BH]f
-@HPX`hv
-@MVDataRoot
+@HPX`hv`\t2
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15062,7 +15071,6 @@ $light_emissive
 @dKb]
 @fff>fff>fff>fff>
 @i1V
-@m_flFOV
 @n2w
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
@@ -15086,6 +15094,7 @@ AABBDirection
 AACompromise
 AC2,h
 ACCESS_DESCRIPTION
+ACCitadel_Modifier_Dust_Storm_Aura
 ACHIEVEMENT_EVENT_
 ACID
 ACPT_STATE
@@ -15493,6 +15502,7 @@ Adds a modifier to the entity
 Adds a team (by index) to the broadcast list
 Adds velocity to all entities in a sphere
 Adds velocity to an entity
+Aenv_cubemap
 AffectInvulnerableEnts
 Affiliation Changed
 Ag*g*
@@ -15554,7 +15564,6 @@ AmbientCubes
 AmbushDuration
 AmmoConsumedPct
 AmmoPerSoul
-Amodifier_spreadingfire_dot
 AmpDamagePercent
 AmpDuration
 AmpPercentPerStack
@@ -15779,7 +15788,6 @@ Axis
 AxisAngleToQuaternion
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
-B%d queries, %d misses (%d free) suc spec = %d wasted spec=%d\n
 B*k@5
 B+N3
 B+Uk=
@@ -15797,7 +15805,6 @@ B64_READ_ASN1
 B64_READ_PKCS7
 B64_WRITE_ASN1
 B64_WRITE_PKCS7
-B8,K
 B8Z"h
 B>J7I
 BAD ENUMERATED
@@ -15810,6 +15817,8 @@ BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
+BCITADEL_PING_WHEEL_SOUND_MAP_PING
+BCPulseServerFuncs::AddVelocityToAllEntitiesWithinRadius
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -15917,6 +15926,7 @@ BREAKABLE
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
 BT5f
+BTEBubbles_GameEvent_t
 BUCKSHOT
 BUF lib
 BUFFER_CTRL
@@ -16158,7 +16168,7 @@ BloodImpact
 BloodSpillDPSPercent
 BloodSpillDuration
 BlurVisionRange
-Bm_iHealthMax
+Bm_flLookDist
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -18505,7 +18515,6 @@ CPulsePhysicsConstraintsFuncs::CreatePhysicsBallSocketConstraint
 CPulsePhysicsConstraintsFuncs::CreatePhysicsConstraint
 CPulsePhysicsConstraintsFuncs::CreatePhysicsHingeConstraint
 CPulseServerFuncs::AddNewModifier
-CPulseServerFuncs::AddVelocityToAllEntitiesWithinRadius
 CPulseServerFuncs::AddVelocityToEntity
 CPulseServerFuncs::AreEntitiesInHierarchy
 CPulseServerFuncs::CanCharacterSeeEntity
@@ -20039,7 +20048,6 @@ DAE!
 DAL\fL@
 DBDc
 DBF-
-DCitadel/Player/Movement
 DEBRIS
 DEFORMABLE
 DEFORMABLE_DOCK
@@ -20372,6 +20380,7 @@ DateTime('UTC')
 DazeDuration
 DbgBit
 DcO/lcK+hSK
+Dcitadel_upload_metadata_enabled
 Dd g4X3
 Deactivate
 Deactivated
@@ -21129,6 +21138,7 @@ E[3M
 E\n!matching_subscription_def_indexes
 E\nQc
 E\n\ftime_samples
+E\n\furn_captures
 E\n\naccount_xp
 E\n\rentity_handle
 E\n\rentity_killed
@@ -24228,6 +24238,7 @@ MScriptDescription
 MTreatUnknownEnumeratorsAsZero
 MUST
 MVDataAssociatedFile
+MVDataRoot
 MVDataSingleton
 MVDataUniqueMonotonicInt
 MVDataUseLinkedEntityClasses
@@ -25707,8 +25718,7 @@ P-224
 P-256
 P-384
 P-521
-P08J0
-P08NT
+P08N4
 P1\t98"
 P5[1
 PAGN_4
@@ -29277,7 +29287,6 @@ TEBeamPoints_GameEvent_t
 TEBeamRing_GameEvent_t
 TEBloodStream_GameEvent_t
 TEBubbleTrail_GameEvent_t
-TEBubbles_GameEvent_t
 TEDecal_GameEvent_t
 TEDust_GameEvent_t
 TEEffectDispatch_GameEvent_t
@@ -30178,6 +30187,7 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
+VPC2
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -30288,7 +30298,6 @@ VolumeMatchesRamp
 VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
-Vp-2
 Vp>u
 Vt_9
 VulnerabilityPerStack
@@ -30659,6 +30668,8 @@ XWY]
 XYD%
 X\tQo
 Xd3h
+Xf )2
+Xf@*2
 XfJ7
 XjfR
 XqgA+
@@ -31229,6 +31240,7 @@ Z~wl
 \n\nUM_HudText
 \n\nUM_SayText
 \n\nUM_TextMsg
+\n\nUrnCapture
 \n\n\nServer Dynamic Lobby Dump:\n
 \n\n\nServer Static Lobby Dump:\n
 \n\n\nSteamLearn
@@ -31914,7 +31926,6 @@ _commentary
 _cone
 _entname_fixup_local
 _entname_fixup_parent
-_entname_fixup_prefix
 _g@Cg
 _inner_cone
 _jPo
@@ -31931,7 +31942,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6P#2
+`6092
 `:zQF
 `D$daM-l
 `DZG
@@ -31941,6 +31952,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`ht0
 `o_je
 `yNT
 a null shared library handle was used
@@ -31959,7 +31971,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvT
+aBv4
 aD/x
 aDSS
 aECDH
@@ -34274,7 +34286,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\tP
 dSAQuality
 dWry
 dZ!2.
@@ -35128,7 +35139,6 @@ env_beams cannot have the end entity be the beam itself\nunless the start entity
 env_beverage
 env_combined_light_probe_volume
 env_credits
-env_cubemap
 env_cubemap_box
 env_cubemap_fog
 env_debughistory
@@ -36985,6 +36995,7 @@ instance_file
 instance_parm
 instance_variable
 instanced_scene_%s_%s
+instanced_scripted_scene
 instant
 instructor_close_lesson
 instructor_server_hint_create
@@ -37880,6 +37891,7 @@ loot_lists
 loot_table_base
 loot_type
 lootlist
+losing_players
 loud
 love_bites_burst_damage
 low_idle_frames
@@ -39250,6 +39262,7 @@ modifier_spirit_burn_proc_watcher
 modifier_spirit_resilience
 modifier_spirit_snatch
 modifier_splitshot_weapon_damage
+modifier_spreadingfire_dot
 modifier_stabilizing_tripod
 modifier_stabilizing_tripod_self_debuff
 modifier_stamina_regen_jump_reduction
@@ -39492,7 +39505,6 @@ mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
-n0\n2
 n1Z 
 n5cM
 n6j/
@@ -39526,6 +39538,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
+nP&2
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -40131,6 +40144,7 @@ override_anticipation_name
 override_attack_attachments
 override_train_id
 overrideclass
+overtime
 owner
 owner: %s\n
 owner_account_id
@@ -40150,7 +40164,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^T
+p08@H^4
 p2{l
 p4Z3
 p5Z3
@@ -42702,7 +42716,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\tP
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -43822,6 +43835,7 @@ wap-wsg-idm-ecid-wtls9
 wap}Q\n
 warn
 warp_shield_impact
+was_comeback_victory
 was_lost_lobby
 was_server_shutdown
 was_stolen
@@ -43886,6 +43900,7 @@ window
 windradius
 winner
 winner_pct_time_in_enemy
+winning_players
 winning_team
 wlLYP
 wm"h
@@ -44038,8 +44053,8 @@ yyen
 z(ov
 z/B,9d
 z<d2
-z>8R
 z>Hz
+zDCCitadel_Modifier_HideoutIntroVData
 zF):O4
 zFar
 zG2m8
@@ -44100,5 +44115,6 @@ zz2K
 ~P2T
 ~R65Fu
 ~jLRG
+~pC2
 ~w]UG
 ~yhZ

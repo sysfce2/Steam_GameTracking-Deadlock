@@ -89,11 +89,7 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXb0s
- (08@HR0s
- (08@J0s
- (0X`hpz0s
- (20s
+ (08@HPXb {
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2524,6 +2520,7 @@ $hRh
 (\n$k_PackBundle_Failed_ItemMixedQuality
 (\n$k_UnlockStyle_Failed_AlreadyUnlocked
 (\n$k_eMatchMakingStopped_NoServerRegion
+(\n\fdeposit_team
 (\n\fserver_state
 (\n\fteam_claimed
 (\n\fwinning_team
@@ -2754,6 +2751,7 @@ $hRh
 (\v2/.CMsgParticleSystemManager.UpdateParticleOffset
 (\v2/.CMsgParticleSystemManager.UpdateParticleOrient
 (\v2/.CMsgServerSignoutData_DetailedStats.TimeSample"
+(\v2/.CMsgServerSignoutData_DetailedStats.UrnCapture
 (\v2/.CMsgServerSignoutData_MatchDevStats.PlayerSlot
 (\v2/.CMsgServerSignoutData_PenalizedPlayers.Penalty
 (\v20.CCitadelUserMsg_GetDamageStatsResponse.StatType
@@ -14146,6 +14144,7 @@ $hRh
 .?AVCMsgServerSignoutData_DetailedStats_TimeSample@@
 .?AVCMsgServerSignoutData_DetailedStats_TimeSample_GoldStats@@
 .?AVCMsgServerSignoutData_DetailedStats_TimeSample_Stats@@
+.?AVCMsgServerSignoutData_DetailedStats_UrnCapture@@
 .?AVCMsgServerSignoutData_Disconnections@@
 .?AVCMsgServerSignoutData_Disconnections_CMsgMatchDisconnection@@
 .?AVCMsgServerSignoutData_HeroXPGrant@@
@@ -16736,7 +16735,6 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J0s
 08bX
 09,h
 0:00
@@ -17000,7 +16998,6 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp(P
 2^pV
 2a"l
 2bT~
@@ -17473,7 +17470,6 @@ $hRh
 ??1HandleScope@v8@@QEAA@XZ
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
-?After being alone in enemy territory for a short while
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?ControlParameterNode
@@ -17512,7 +17508,10 @@ $hRh
 ?dt]X
 ?expf
 ?gwL
+?hq4
 ?jOb
+?m_strTurretParticle
+?observed someone who took {damage_percent} over the last N seconds, and have {target_healthfrac} now
 ?srJO
 ?tya
 ?uWS
@@ -17523,15 +17522,15 @@ $hRh
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
+@CCitadel_Modifier_Familiar_Exposed
 @CitadelArpeggiator_t
 @DebugIndividualStyle
-@HPX`hv@
+@HPX`hv0
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
-@W%cK
 @WE]X
 @X!pf
 @Zs3
@@ -24930,6 +24929,7 @@ E[3M
 E\n!matching_subscription_def_indexes
 E\nQc
 E\n\ftime_samples
+E\n\furn_captures
 E\n\naccount_xp
 E\n\rentity_handle
 E\n\rentity_killed
@@ -27729,7 +27729,6 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
-L=h5l
 L>ff
 L?fff?
 L@4T
@@ -29405,14 +29404,12 @@ P-224
 P-256
 P-384
 P-521
-P08@J0s
+P08@J {
 P08N
 P1\t98"
-P20s
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6@n
-P:0s
+P60v
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30716,7 +30713,6 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp(P
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -35667,6 +35663,7 @@ Z~wl
 \n\nUM_HudText
 \n\nUM_SayText
 \n\nUM_TextMsg
+\n\nUrnCapture
 \n\n\nSteamLearn
 \n\n\nTimeSample
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
@@ -36301,7 +36298,7 @@ Z~wl
 \r^mX
 \ri1I
 \rjwB\t
-\rm_strUrnCashedInSoundFriendly
+\rm_flTimeToGiveUp
 \roKK
 \rrCj
 \rr_flashlightlockposition
@@ -36581,7 +36578,6 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
-`20s
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
@@ -41985,7 +41981,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz0s
+hpz {
 hr_H
 href="
 hscroll
@@ -43823,6 +43819,7 @@ loot_lists
 loot_table_base
 loot_type
 lootlist
+losing_players
 losses
 lost_gold
 loud
@@ -46183,6 +46180,7 @@ override_train_id
 overrideclass
 overridesound
 overridewalktorunspeed
+overtime
 owned
 owned_unlocks
 owner
@@ -46205,7 +46203,6 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p20s
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -50490,6 +50487,7 @@ wap-wsg-idm-ecid-wtls9
 wap}Q\n
 warn
 warp
+was_comeback_victory
 was_lost_lobby
 was_server_shutdown
 wash-color
@@ -50574,6 +50572,7 @@ window
 windradius
 winner
 winner_pct_time_in_enemy
+winning_players
 wins
 wlLYP
 wm"h

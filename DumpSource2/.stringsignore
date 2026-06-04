@@ -40039,6 +40039,7 @@ m_strUrnCashinLoopSound
 m_strUrnGiveUpSound
 m_strUrnGiveUpTempVocalizeSound
 m_strUrnGiveUpWarnSound
+m_strUrnGivingUpWarningLoopSound
 m_strUrnMeleeDropSound
 m_strUrnOverheldDamageSound
 m_strUsedCastGraphParam

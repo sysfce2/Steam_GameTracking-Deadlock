@@ -44,6 +44,7 @@
 //	"m_strUrnGiveUpTempVocalizeSound": "",
 //	"m_strUrnGiveUpWarnSound": "",
 //	"m_strUrnCashinLoopSound": "",
+//	"m_strUrnGivingUpWarningLoopSound": "",
 //	"m_iComebackBounty": 130,
 //	"m_Bonus01":
 //	{
@@ -75,6 +76,7 @@ class CCitadel_IdolCashInVData : public CCitadel_MultiCapturePointVData
 	CSoundEventName m_strUrnGiveUpTempVocalizeSound;
 	CSoundEventName m_strUrnGiveUpWarnSound;
 	CSoundEventName m_strUrnCashinLoopSound;
+	CSoundEventName m_strUrnGivingUpWarningLoopSound;
 	// MPropertyStartGroup = "Gameplay"
 	int32 m_iComebackBounty;
 	CEmbeddedSubclass< CCitadelModifier > m_Bonus01;
