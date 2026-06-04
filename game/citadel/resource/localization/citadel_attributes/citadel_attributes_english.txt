@@ -2788,7 +2788,7 @@
 		//"modifier_limit_ability_cooldown"		"Quick Cooldowns"
 
 		//"ability_golden_idol"					"Drop Soul Urn"
-		"golden_idol_bonus_01"					"+25% Extra Souls"
+		"golden_idol_bonus_01"					"+35% Extra Souls"
 		"golden_idol_bonus_02"					"+1 Ability Point"
 
 		//"ability_capture_zip_line"				"Capture Hyperline"

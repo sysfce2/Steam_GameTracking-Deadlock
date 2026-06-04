@@ -338,7 +338,7 @@
 	Stinger.Death = 
 	{
 		base = "Base.Stingers.2d"
-		volume = -3.0
+		volume = 3.0
 		vsnd_files = 
 		[
 			"sounds/music/music_stinger_player_death.vsnd",
@@ -580,7 +580,8 @@
 	{
 		type = "citadel_music_urn_drop"
 		volume = 3.0
-		volume_fade_in = 0.1
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
 		vsnd_files = 
 		[
 			"sounds/music/music_idol_timer_lp_team_160bpm.vsnd",
@@ -588,21 +589,6 @@
 		vsnd_files_opponent_control = 
 		[
 			"sounds/music/music_idol_timer_lp_opponent_160bpm.vsnd",
-		]
-		distance_falloff_db = 
-		[
-			[
-				0.0, 0.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-			[
-				1300.862, 0.0, 0.0, -0.005721,
-				0.0, 0.0,
-			],
-			[
-				2000.0, -4.0, -0.005721, 0.0,
-				0.0, 0.0,
-			],
 		]
 		vsnd_duration = 12.0
 	}

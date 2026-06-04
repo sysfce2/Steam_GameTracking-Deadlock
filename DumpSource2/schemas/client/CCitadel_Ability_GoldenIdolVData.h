@@ -429,21 +429,15 @@
 //	"m_ItemModel": "",
 //	"m_OnKnockedOffHolderParticle": "",
 //	"m_OnKnockedOffUrnParticle": "",
-//	"m_strUrnCashedInSoundFriendly": "",
-//	"m_strUrnCashedInSoundEnemy": "",
+//	"m_OnOverheldDamageParticle": "",
 //	"m_strUrnMeleeDropSound": "",
+//	"m_strUrnOverheldDamageSound": "",
 //	"m_DropoffTimerModifier":
 //	{
 //	},
 //	"m_HoldingIdolModifier":
 //	{
 //	},
-//	"m_Bonus01":
-//	{
-//	},
-//	"m_flInstantGoldPercentage": 0.750000,
-//	"m_iComebackBounty": 130,
-//	"m_flCasterBonusPercent": 25.000000,
 //	"m_flRevealTime": 30.000000,
 //	"m_flDamageTickRate": 1.000000,
 //	"m_flMaxHealthDamage": 0.010000,
@@ -457,18 +451,14 @@ class CCitadel_Ability_GoldenIdolVData : public CCitadel_Ability_BaseHeldItemVDa
 	// MPropertyStartGroup = "Visuals"
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnKnockedOffHolderParticle;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnKnockedOffUrnParticle;
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnOverheldDamageParticle;
 	// MPropertyStartGroup = "Sounds"
-	CSoundEventName m_strUrnCashedInSoundFriendly;
-	CSoundEventName m_strUrnCashedInSoundEnemy;
 	CSoundEventName m_strUrnMeleeDropSound;
+	CSoundEventName m_strUrnOverheldDamageSound;
 	// MPropertyStartGroup = "Modifiers"
 	CEmbeddedSubclass< CCitadelModifier > m_DropoffTimerModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_HoldingIdolModifier;
-	CEmbeddedSubclass< CCitadelModifier > m_Bonus01;
 	// MPropertyStartGroup = "Gameplay"
-	float32 m_flInstantGoldPercentage;
-	int32 m_iComebackBounty;
-	float32 m_flCasterBonusPercent;
 	float32 m_flRevealTime;
 	float32 m_flDamageTickRate;
 	float32 m_flMaxHealthDamage;

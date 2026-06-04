@@ -89,8 +89,11 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j`r
- (08@HPZ`r
+ (08@HPXb0s
+ (08@HR0s
+ (08@J0s
+ (0X`hpz0s
+ (20s
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2451,7 +2454,6 @@ $hRh
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
-(4PZ
 (5Me
 (5jP
 (?CBuoyancyHelper
@@ -2880,7 +2882,6 @@ $hRh
 (\v2\v.CMsgVector*
 (d4t8
 (default)
-(f05
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
@@ -3560,6 +3561,7 @@ $hRh
 .?AUSoundeventPathCornerPairNetworked_t@@
 .?AUStatViewerModifierValues_t@@
 .?AUStolenAbilityPair_t@@
+.?AUTeamIdolState_t@@
 .?AUTrackedStatNetworkData_t@@
 .?AUTranslationTrack_t@@
 .?AUVDataInitInfo_t@@
@@ -3575,7 +3577,9 @@ $hRh
 .?AV<lambda>@fnKeybinderReset@@
 .?AV<lambda_10>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@
 .?AV<lambda_13>@?EE@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@
+.?AV<lambda_14>@?6???R<lambda_6>@?1??UpdateIdolCashInMeter@CCitadel_Hud_TopBar@@AEAAXXZ@QEBA@H@Z@
 .?AV<lambda_15>@?1??UpdateDirtyPanel@CCitadelHeroCard@@MEAAXXZ@
+.?AV<lambda_15>@?6???R<lambda_6>@?1??UpdateIdolCashInMeter@CCitadel_Hud_TopBar@@AEAAXXZ@QEBA@H@Z@
 .?AV<lambda_16>@?1???R<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@
 .?AV<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@
 .?AV<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4HitGroup_t@@@@
@@ -5956,6 +5960,7 @@ $hRh
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nDetailLayerMaskType@VPhysicsCollisionAttribute_t@@@@
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nEnablePhysics@CCollisionProperty@@@@
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nEnableState@CCitadelTriggerCapturePoint@@@@
+.?AV?$CNetworkVarBase@EVNetworkVar_m_nEnableState@CCitadelTriggerMultiCapturePoint@@@@
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nHealthPercent@STeamFOWEntity@@@@
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nHitboxSet@CSkeletonInstance@@@@
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nMarks@AirheartLockOnTarget_t@@@@
@@ -6116,6 +6121,7 @@ $hRh
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nBounceLight@C_BarnLight@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nBrokenBodygroupIndex@WeakPoint_t@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nCaptureProgressOwner@CCitadelTriggerCapturePoint@@@@
+.?AV?$CNetworkVarBase@HVNetworkVar_m_nCapturerCount@TeamIdolState_t@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nCascadeRenderStaticObjects@CLightComponent@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nCascades@CLightComponent@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nCastShadows@CLightComponent@@@@
@@ -6153,7 +6159,6 @@ $hRh
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nHeroDraftPosition@PlayerDataGlobal_t@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nHitIndex@C_Citadel_BreakableProp@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nHitbox@C_PlayerSprayDecal@@@@
-.?AV?$CNetworkVarBase@HVNetworkVar_m_nIdolCashInTeam@C_CitadelGameRules@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIdolScoringTeam@C_CitadelGameRules@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIndirectLight@CLightComponent@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIndirectTextureDimX@C_EnvVolumetricFogController@@@@
@@ -6378,6 +6383,7 @@ $hRh
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flCapsuleLength@CLightComponent@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flCapsuleRadius@CCollisionProperty@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flCaptureProgress@CCitadelTriggerCapturePoint@@@@
+.?AV?$CNetworkVarBase@MVNetworkVar_m_flCaptureProgressFrac@TeamIdolState_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flCaptureTime@CCitadelControlPointTrigger@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flCasterSpeed@CCitadel_Ability_ZipLine@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flChannelTime@CCitadel_Ability_VampireBat_BatSwarm@@@@
@@ -7247,8 +7253,8 @@ $hRh
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tTetherBreakTime@CCitadel_Ability_Necro_PrimaryWeapon@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tTriggerTime@PlayOfTheGameTrigger_t@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tWallDeployFinishTime@CCitadel_Ability_Necro_ZombieWall@@@@
-.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolCashInEnd@C_CitadelGameRules@@@@
-.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolCashInStart@C_CitadelGameRules@@@@
+.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolCashInStarted@C_CitadelGameRules@@@@
+.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolGiveUp@C_CitadelGameRules@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolScoring@C_CitadelGameRules@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeLastUpdate@CCitadelTrooperMinimap@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeLaunch@CItemXP@@@@
@@ -7293,6 +7299,7 @@ $hRh
 .?AV?$CNetworkVarBase@VTrackedStatID_t@@VNetworkVar_unStatID@TrackedStatNetworkData_t@@@@
 .?AV?$CNetworkVarBase@VTrackedStatValue_t@@VNetworkVar_unStatValue@TrackedStatNetworkData_t@@@@
 .?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vAuraPosition@CCitadel_Ability_Familiar_Spotlight@@@@
+.?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vIdolCashInCurrentLocation@C_CitadelGameRules@@@@
 .?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vTargetPosition@CCitadel_Ability_Mirage_Teleport@@@@
 .?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vecCastLocation@CNPC_NecroSkele@@@@
 .?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vecInitialPosition@CCitadel_Ability_FissureWall@@@@
@@ -7581,6 +7588,7 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBeingBlocked@CCitadelControlPointTrigger@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBeingCaptured@CCitadelControlPointTrigger@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBlinking@CCitadel_Ability_VampireBat_BatBlink@@@@
+.?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBlocked@TeamIdolState_t@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsDashing@CCitadel_Ability_NanoDash@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsDashing@CCitadel_Ability_ShivDash@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsEnabled@C_GradientFog@@@@
@@ -9066,6 +9074,7 @@ $hRh
 .?AV?$CUtlVector@VCUtlStringToken@@HV?$CNetworkUtlVector_MemoryType@VCUtlStringToken@@$0?0@@@@
 .?AV?$CUtlVector@VCUtlSymbolLarge@@HV?$CNetworkUtlVector_MemoryType@VCUtlSymbolLarge@@$0?0@@@@
 .?AV?$CUtlVector@VGameTime_t@@HV?$CNetworkUtlVector_MemoryType@VGameTime_t@@$0?0@@@@
+.?AV?$CUtlVector@VHeroID_t@@HV?$CNetworkUtlVector_MemoryType@VHeroID_t@@$0?0@@@@
 .?AV?$CUtlVector@VQAngle@@HV?$CNetworkUtlVector_MemoryType@VQAngle@@$0?0@@@@
 .?AV?$CUtlVector@VQuaternion@@HV?$CNetworkUtlVector_MemoryType@VQuaternion@@$0?0@@@@
 .?AV?$CUtlVector@VResourceId_t@@HV?$CNetworkUtlVector_MemoryType@VResourceId_t@@$0?0@@@@
@@ -9258,6 +9267,7 @@ $hRh
 .?AV?$C_NetworkUtlVectorBase@VCUtlSymbolLarge@@VNetworkVar_m_vecCSSClasses@C_PointClientUIHUD@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VCUtlSymbolLarge@@VNetworkVar_m_vecCSSClasses@C_PointClientUIWorldPanel@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VGameTime_t@@VNetworkVar_m_vecNextExplosionTime@CCitadel_Ability_Unicorn_LuminousStrike@@$0?0H@@
+.?AV?$C_NetworkUtlVectorBase@VHeroID_t@@VNetworkVar_m_vecParticipants@TeamIdolState_t@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VQAngle@@VNetworkVar_m_ragAngles@C_RagdollProp@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VQuaternion@@VNetworkVar_m_OwnerOnlyPredNetQuaternionVariables@CAnimGraphNetworkedVariables@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VQuaternion@@VNetworkVar_m_PredNetQuaternionVariables@CAnimGraphNetworkedVariables@@$0?0H@@
@@ -9280,6 +9290,7 @@ $hRh
 .?AV?$C_UtlVectorEmbeddedNetworkVar@USTrooperFOWEntity@@VNetworkVar_m_vecFOWEntities@CCitadelTrooperMinimap@@$0?0H@@
 .?AV?$C_UtlVectorEmbeddedNetworkVar@UStatViewerModifierValues_t@@VNetworkVar_m_vecStatViewerModifierValues@PlayerDataGlobal_t@@$0?0H@@
 .?AV?$C_UtlVectorEmbeddedNetworkVar@UStolenAbilityPair_t@@VNetworkVar_m_vecStolenAbilities@PlayerDataGlobal_t@@$0?0H@@
+.?AV?$C_UtlVectorEmbeddedNetworkVar@UTeamIdolState_t@@VNetworkVar_m_vecTeamIdolStates@C_CitadelGameRules@@$01H@@
 .?AV?$C_UtlVectorEmbeddedNetworkVar@UTrackedStatNetworkData_t@@VNetworkVar_m_vecTrackedStats@CBaseTrackedStatsEntity@@$0?0H@@
 .?AV?$C_UtlVectorEmbeddedNetworkVar@UViewAngleServerChange_t@@VNetworkVar_m_ServerViewAngleChanges@C_BasePlayerPawn@@$0?0H@@
 .?AV?$C_UtlVectorEmbeddedNetworkVar@UWeakPoint_t@@VNetworkVar_m_vecWeakPoints@C_AI_CitadelNPC@@$0?0H@@
@@ -9579,7 +9590,9 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda>@fnKeybinderReset@@_NPEAVCCitadel_SettingsPingKeyBinder@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_10>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@I$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_13>@?EE@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_14>@?6???R<lambda_6>@?1??UpdateIdolCashInMeter@CCitadel_Hud_TopBar@@AEAAXXZ@QEBA@H@Z@PEAVCCitadel_UI_HeroImage@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_15>@?1??UpdateDirtyPanel@CCitadelHeroCard@@MEAAXXZ@XPEAVCCitadel_UI_AvatarImage@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_15>@?6???R<lambda_6>@?1??UpdateIdolCashInMeter@CCitadel_Hud_TopBar@@AEAAXXZ@QEBA@H@Z@XPEAVCCitadel_UI_HeroImage@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_16>@?1???R<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@XPEAVCCitadelModIcon@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4HitGroup_t@@@@VCPulseValueFullType@@$$V@std@@
@@ -10509,6 +10522,7 @@ $hRh
 .?AVCCitadelTeamRevealHeroCard@@
 .?AVCCitadelTopBarPlayerDetails@@
 .?AVCCitadelTriggerCapturePoint@@
+.?AVCCitadelTriggerMultiCapturePoint@@
 .?AVCCitadelTriggerNoPortals@@
 .?AVCCitadelTrooperMinimap@@
 .?AVCCitadelTunnelTrigger@@
@@ -12575,6 +12589,7 @@ $hRh
 .?AVCCitadel_Modifire_Priest_FlashBangBurn@@
 .?AVCCitadel_Modifire_Priest_FlashBangBurnAura@@
 .?AVCCitadel_Modifire_Priest_FlashBangBurnAuraVData@@
+.?AVCCitadel_MultiCapturePointVData@@
 .?AVCCitadel_NPCAbility_Shield@@
 .?AVCCitadel_NPCAbility_Shield_VData@@
 .?AVCCitadel_NPCAbility_Vanguard_AOEBuff@@
@@ -16721,8 +16736,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR`r
-08B`r
+08@J0s
 08bX
 09,h
 0:00
@@ -16986,7 +17000,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpt
+2\vp(P
 2^pV
 2a"l
 2bT~
@@ -17201,9 +17215,7 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@J`r
 8A6j
-8B`r
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17461,13 +17473,12 @@ $hRh
 ??1HandleScope@v8@@QEAA@XZ
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
+?After being alone in enemy territory for a short while
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CScaleFunctionAbilityProperty_HealingSpiritScaleVData
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelPartyCode
+?ControlParameterNode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
-?Emote
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17488,6 +17499,7 @@ $hRh
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?LatchVariables
 ?TabButton
+?TeamObjectiveHealthPanel
 ?The most recent last-played time the client already knows about"
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
@@ -17511,13 +17523,15 @@ $hRh
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
+@CitadelArpeggiator_t
 @DebugIndividualStyle
-@HPX`hv
+@HPX`hv@
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
+@W%cK
 @WE]X
 @X!pf
 @Zs3
@@ -17528,7 +17542,6 @@ $hRh
 @\n\vPowerUpBuff
 @\tV_iswcntrl
 @absorigin_follow
-@citadel_minimap_boundary
 @dKb]
 @fff>fff>fff>fff>
 @i1V
@@ -17561,7 +17574,7 @@ ACTIVATE_TYPE_DATAUPDATE_CREATION
 ACTIVATE_TYPE_INITIAL_CREATION
 ACTIVATE_TYPE_ONRESTORE
 ACTOR
-ACUserMessageFade_t
+ACUserMessageVoiceMask_t
 AD Time Stamping
 ADD_CERT_DIR
 ADH-AES128-GCM-SHA256
@@ -18406,6 +18419,7 @@ B64_READ_PKCS7
 B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
+B>Changes the zipline width
 B>J7I
 BAD ENUMERATED
 BAD INTEGER
@@ -18804,6 +18818,7 @@ BonusDamagePerHeadshot
 BonusDamagePercent
 BonusDamageVsBarrier
 BonusDebuffDuration
+BonusDebuffResist
 BonusFireRate
 BonusFireRateNPC
 BonusFireRatePerHero
@@ -18855,7 +18870,6 @@ BonusesContainer
 Book
 Book reader playing sound event '%s' without a duration!\n
 BookAchievementPage
-BookChapter
 BookChapterLink
 BookChoice
 BookChoiceNavButton
@@ -20683,6 +20697,7 @@ CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecRestrictedToItems , 
 CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecUpgrades , -1, int >
 CNetworkUtlVectorBase< FullSellPriceAbilityUpgrades_t, NetworkVar_m_vecFullSellPriceAbilityUpgrades , -1, int >
 CNetworkUtlVectorBase< GameTime_t, NetworkVar_m_vecNextExplosionTime , -1, int >
+CNetworkUtlVectorBase< HeroID_t, NetworkVar_m_vecParticipants , -1, int >
 CNetworkUtlVectorBase< QAngle, NetworkVar_m_ragAngles , -1, int >
 CNetworkUtlVectorBase< Quaternion, NetworkVar_m_OwnerOnlyPredNetQuaternionVariables , -1, int >
 CNetworkUtlVectorBase< Quaternion, NetworkVar_m_PredNetQuaternionVariables , -1, int >
@@ -21213,6 +21228,7 @@ CUserMessageDesiredTimescale
 CUserMessageDesiredTimescale_t
 CUserMessageEmpty
 CUserMessageFade
+CUserMessageFade_t
 CUserMessageGameTitle"
 CUserMessageHapticsManagerEffect_t
 CUserMessageHapticsManagerPulse
@@ -21261,7 +21277,6 @@ CUserMessageTextMsg_t
 CUserMessageUpdateCssClasses
 CUserMessageUpdateCssClasses_t
 CUserMessageVoiceMask
-CUserMessageVoiceMask_t
 CUserMessageWaterShake
 CUserMessageWaterShake_t
 CUserMessage_DllStatus
@@ -21751,6 +21766,7 @@ CUtlVectorEmbeddedNetworkVar< STeamFOWEntity, NetworkVar_m_vecFOWEntities , -1, 
 CUtlVectorEmbeddedNetworkVar< STrooperFOWEntity, NetworkVar_m_vecFOWEntities , -1, int >
 CUtlVectorEmbeddedNetworkVar< StatViewerModifierValues_t, NetworkVar_m_vecStatViewerModifierValues , -1, int >
 CUtlVectorEmbeddedNetworkVar< StolenAbilityPair_t, NetworkVar_m_vecStolenAbilities , -1, int >
+CUtlVectorEmbeddedNetworkVar< TeamIdolState_t, NetworkVar_m_vecTeamIdolStates , (( ( ( 1 +1) + 1 ) - ( 1 +1) ) + 1) , int >
 CUtlVectorEmbeddedNetworkVar< TrackedStatNetworkData_t, NetworkVar_m_vecTrackedStats , -1, int >
 CUtlVectorEmbeddedNetworkVar< ViewAngleServerChange_t, NetworkVar_m_ServerViewAngleChanges , -1, int >
 CUtlVectorEmbeddedNetworkVar< WeakPoint_t, NetworkVar_m_vecWeakPoints , -1, int >
@@ -22234,6 +22250,7 @@ CitadelConnectedToGameServer
 CitadelConnectingToGameServer
 CitadelConnectionStatus
 CitadelConnectionStatusSpoofUpdated
+CitadelContextMenuGameChat
 CitadelContextMenuManager
 CitadelContextMenuParty
 CitadelContextMenuPlayer
@@ -22617,6 +22634,7 @@ CitadelPartyAcceptInvite
 CitadelPartyAcceptInvite( %llu )
 CitadelPartyCancelInviteAccountID
 CitadelPartyClearReady
+CitadelPartyCode
 CitadelPartyCodeHiddenUpdated
 CitadelPartyCodeTooltip
 CitadelPartyCreatePrivateLobby
@@ -22672,7 +22690,6 @@ CitadelPopupJoinParty
 CitadelPopupJoinPartyCode
 CitadelPopupNewsPost
 CitadelPopupNewsPostClose
-CitadelPopupRankedInfo
 CitadelPopupRankedSummary
 CitadelPopupReportPlayerSubmitted
 CitadelPopupRosterSelect
@@ -23426,7 +23443,6 @@ Control Point:
 ControlBG
 ControlBarRow
 ControlFG
-ControlParameterNode
 Controller
 Controller: %s
 Controller: (%d) Name: %s
@@ -26948,8 +26964,15 @@ IconsContainer
 IdleAnim
 IdleAnimationLoopMode
 IdolCashInMeter
-IdolCashInMeter_Timer
+IdolCashInMeterTeam1
+IdolCashInMeterTeam2
+IdolCashInTeamBar1
+IdolCashInTeamBar2
+IdolCashInTeamLabel1
+IdolCashInTeamLabel2
 IdolMsg
+IdolParticipantsTeam1
+IdolParticipantsTeam2
 IdolPickedUp
 IdolReturned
 IdolReturned - Opponent
@@ -27568,7 +27591,6 @@ JoinSection
 JoiningChat
 JokerExtraCardSearchRadius
 JokerExtraCards
-JoystickCamera
 Jq;v
 Jq?a
 Jr\tA
@@ -27707,6 +27729,7 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
+L=h5l
 L>ff
 L?fff?
 L@4T
@@ -28093,7 +28116,7 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MCitadelContextMenuGameChat
+MBookChapter
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -29382,11 +29405,14 @@ P-224
 P-256
 P-384
 P-521
+P08@J0s
 P08N
 P1\t98"
+P20s
 P2P ping to "%s". Timed out after %.2fms\n
-P2`r
 P5[1
+P6@n
+P:0s
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30016,7 +30042,6 @@ Pitch: %6.1f   Yaw: %6.1f   Dist: %6.1f %19s
 Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixelToProj
-Pj`r
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -30687,12 +30712,11 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpt
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpp
+R\vp(P
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -33478,7 +33502,6 @@ TeamHeroes
 TeamInfo
 TeamMsg
 TeamMsgPanel
-TeamObjectiveHealthPanel
 TeamOpenMicCheckbox
 TeamPlayer
 TeamPlayers
@@ -33882,6 +33905,7 @@ TrailDuration
 TrailInterval
 Trailer Field: 0x
 TrailingTeamBonusArmorDamageResist
+TrailingTeamBonusDebuffResist
 TrailingTeamBonusSprintSpeed
 TrailingTeamBonusTechResist
 TrainButton
@@ -34564,6 +34588,7 @@ WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WD%g"0Q-)
+WDCitadelPopupRankedInfo
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -34579,6 +34604,7 @@ WIN32_NAME_CONVERTER
 WIN32_PATHBYADDR
 WIN32_SPLITTER
 WIN32_UNLOAD
+WJoystickCamera
 WL6e}:
 WLs6
 WOCR
@@ -34769,7 +34795,6 @@ WriteSteamRemoteStorageFileBlocking( "%s", buf ) -> %f seconds\n
 WriteToBuffer Message %s is not initialized! Probably missing required fields!\n
 Writing SST data to %s...\n
 Writing cubemaps to %s\n
-Wteam_manager
 X to the Y power
 X(Optional) If true, only return the published file ids of files that satisfy this query.
 X.509 part of OpenSSL 1.0.2j  26 Sep 2016
@@ -35006,7 +35031,6 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr`r
 Xd3h
 XfJ7
 XjfR
@@ -35211,7 +35235,6 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@IKV3TransferInterface_ResourceLoad
 \fAccoladeID_t
 \fCitadelMMR_t
 \fKS1
@@ -36256,7 +36279,6 @@ Z~wl
 \rTxL
 \rUHz4Z}\r
 \rWhO
-\rXPj
 \rY=QX
 \rYYHl
 \r\n\tEUpgraded
@@ -36279,9 +36301,10 @@ Z~wl
 \r^mX
 \ri1I
 \rjwB\t
+\rm_strUrnCashedInSoundFriendly
 \roKK
 \rrCj
-\rr_flashlightconstant
+\rr_flashlightlockposition
 \rstyle_index_t
 \rusercmd.proto"
 \sG7tPD
@@ -36558,6 +36581,7 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
+`20s
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
@@ -36570,7 +36594,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`htPZ
 `o_je
 `yNT
 a null shared library handle was used
@@ -37689,6 +37712,7 @@ blendweights
 block cipher pad is wrong
 block type is not 01
 block type is not 02
+blocked
 blood_bomb_projectile
 bloodsplat
 bloomBufferClamp
@@ -38128,6 +38152,12 @@ capturable
 capture_point
 capture_time
 captured
+captured_enemy
+captured_friendly
+captured_invalid
+captured_neutral
+captured_team_1
+captured_team_2
 capturepoint
 capturing
 card_variant
@@ -38521,6 +38551,7 @@ citadel_loading_screen
 citadel_magic_beam_blocker
 citadel_magician_turret_object
 citadel_match_time
+citadel_minimap_boundary
 citadel_minimap_effects
 citadel_minion
 citadel_mobile_resupply_object
@@ -38535,6 +38566,7 @@ citadel_modifier_hideout_teleport
 citadel_modifier_tangotether_target
 citadel_modifier_tangotether_tether
 citadel_modifier_tangotether_tether_receiver
+citadel_multi_capture_point
 citadel_music_opvars
 citadel_nano_predatory_statue
 citadel_new_years_fireworks
@@ -38914,6 +38946,7 @@ contentidentifier mismatch
 contents
 contents_group_id
 contentwidth
+contested
 context
 context not initialised
 context-menu
@@ -39761,6 +39794,7 @@ drifter_darkness
 drifter_shadow_mark
 drifter_shadow_mark_teleport
 drop
+drop_off_radius
 drop_rate_bonus
 drop_to_ground_range
 dropdownbodyposition
@@ -41165,6 +41199,7 @@ fruit_model
 fuchsia
 fulfilled_item_id
 full_charge
+full_progress
 full_screen_movie
 full_screen_progress_bar
 fullbright
@@ -41285,6 +41320,7 @@ gascylinder
 gathered override for %s 0x%p : field %s flags %s\n
 gaussian
 gaussian( 
+gave_up
 gb`X
 gc_account_data
 gc_connected
@@ -41348,6 +41384,7 @@ gifting_charge_max
 gifting_charge_uses
 gifting_window_hours
 give_to_account_id
+give_up_warning
 givenName
 gives_normal_credit_in_turbo_mode
 giveunlocks 3
@@ -41948,6 +41985,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
+hpz0s
 hr_H
 href="
 hscroll
@@ -42411,6 +42449,7 @@ in_move_down
 in_move_up
 in_party
 in_post_game
+in_range
 in_replay_death
 in_shop
 in_shop_zone
@@ -45695,6 +45734,7 @@ no_key_required
 no_lobby
 no_netchan
 no_player
+no_progress
 no_ramp
 no_result
 no_save
@@ -46165,7 +46205,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p2`r
+p20s
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46333,6 +46373,7 @@ parry_to_idle
 parse error
 parse tlsext
 part_name
+partial_progress
 particleName
 particle_can_freeze
 particle_cfg
@@ -46498,7 +46539,6 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pb`r
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -47277,10 +47317,8 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpp
 r\n\vstart_index
 r\vDi
-r\vpt
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -49309,6 +49347,7 @@ team_friendly_container
 team_id
 team_image
 team_kills
+team_manager
 team_name
 team_net_worth
 team_networth
@@ -49623,7 +49662,6 @@ trigger_neutral_shield
 trigger_passthrough_fake_wall
 trigger_physics
 trigger_portal
-trigger_swap
 trigger_tier3phase2_shield
 trigger_transition
 tripmine
@@ -50699,7 +50737,6 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDWhen you get gold from a neutral boss kill.
 zF):O4
 zFar
 zG2m8

@@ -358,7 +358,6 @@
 .?AVIToolAttr_Value@@
 .?AVIUndoable@@
 0.5 = 50% speed\n1 = 100% speed\n2 = 200% speed\n(Only editable when Fixed Length is false)
-0H j
 < WRITE DEFAULTS >
 <map_key>
 <map_value>

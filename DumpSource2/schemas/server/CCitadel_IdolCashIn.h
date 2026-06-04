@@ -1,7 +1,12 @@
-class CCitadel_IdolCashIn : public CCitadelAnimatingModelEntity
+class CCitadel_IdolCashIn : public CCitadelTriggerMultiCapturePoint
 {
+	CHandle< CBaseEntity > m_hDropOffPlayer;
 	int32 m_nGold;
-	Vector m_vHomePosition;
-	Vector m_vGroundOrigin;
 	int32 m_nTeamBias;
+	int32 m_nAmberNetworth;
+	int32 m_nSapphireNetworth;
+	bool m_bGiveUpHasWarned;
+	bool m_bGivenUp;
+	ParticleIndex_t m_nZoneParticle;
+	bool m_bCashedIn;
 };

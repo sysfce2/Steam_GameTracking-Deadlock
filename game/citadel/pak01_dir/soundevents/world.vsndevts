@@ -289,6 +289,8 @@
 	{
 		base = "Base.Urn"
 		volume = -4.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
 		delay_rand_min = -3.0
 		max_distance_recipient_filter = -1
 		vsnd_files = "sounds/world/urn/soul_urn_cashin_timer_lp_01.vsnd"

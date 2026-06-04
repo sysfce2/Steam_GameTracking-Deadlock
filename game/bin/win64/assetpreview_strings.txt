@@ -8053,7 +8053,7 @@ $prefix_element$
 2\n?doItemsLayout@QListView@@UEAAXXZ
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vp4
+2\vpH
 2_BONE_IK
 2aboutToShow()
 2accepted()
@@ -12738,7 +12738,6 @@ MAlternateSemanticName
 MAtomicTransfersAsPlainString
 MENU
 MFgdHelper
-MH j
 MIsStringAndTokenType
 MKV3TransferName
 MModelGameData
@@ -13828,10 +13827,9 @@ RMouse
 RMouseDoubleClick
 ROTATION
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
-R\fp4
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vpx
+R\vpp
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Rad2 Deg
@@ -16584,7 +16582,7 @@ group_title
 grow_or_shrink
 guide_hair_count
 hResource
-hS(e
+hS(f
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
 h\tV_sind
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
@@ -17533,8 +17531,6 @@ quad_bend_tolerance
 quadratic
 quaternion_array
 quiet
-r\fpx
-r\vp4
 r_renderdoc_capture_thumbnail_rendering
 rad2deg
 radius0_key

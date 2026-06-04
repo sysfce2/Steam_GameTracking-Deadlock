@@ -24,6 +24,16 @@
 						data_type = "bool"
 						value = "false"
 					}
+					drop_off_radius = 
+					{
+						data_type = "float"
+						value = "-1.0"
+					}
+					drop_off_fade_distance = 
+					{
+						data_type = "float"
+						value = "1000.0"
+					}
 					vsnd_files = 
 					{
 						data_type = "vsnd"
@@ -42,22 +52,6 @@
 						_system_properties = 
 						{
 							property_group = "VSND Files"
-						}
-					}
-					distance_falloff_db = 
-					{
-						data_type = "float6"
-						soundevent_data = "true"
-						value = 
-						[
-							"[ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]",
-							"[ 1200.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]",
-							"[ 1800.0, -3.0, 0.0, 0.0, 0.0, 0.0 ]",
-						]
-						_system_properties = 
-						{
-							display_group = "advanced"
-							display_edit_type = "field_curve_2d_editor"
 						}
 					}
 				}
@@ -101,17 +95,34 @@
 				input_field_name = "distance_to_closest_urn"
 			},
 			{
-				name = "remap_distance_crossfade_db"
-				operator = "math_curve_2d"
+				name = "math_max_distance_falloff"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "add"
+				input1 = "@public.drop_off_radius"
+				input2 = "@public.drop_off_fade_distance"
+			},
+			{
+				name = "remap_volume_offset"
+				operator = "math_remap_float"
 				input = "@opvar_get_urn_dropoff_dist.output"
-				public_field_name = "public.distance_falloff_db"
+				input_min = "@public.drop_off_radius"
+				input_max = "@math_max_distance_falloff.output"
+				input_map_min = "1.0"
+				input_map_max = "0.0"
+				clamp_range = "true"
+			},
+			{
+				name = "volume_falloff_gain_to_db"
+				operator = "math_gain_to_db"
+				input = "@remap_volume_offset.output"
 			},
 			{
 				name = "volume_offset"
 				operator = "math_float"
 				apply = "add"
 				input1 = "@public.volume"
-				input2 = "@remap_distance_crossfade_db.output"
+				input2 = "@volume_falloff_gain_to_db.output"
 			},
 			{
 				name = "citadel_default_2d"

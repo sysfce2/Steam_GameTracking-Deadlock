@@ -1885,10 +1885,10 @@ citadel_crate_drop_duration_override -1 (gamedll cheat)
 citadel_crate_respawn_interval 360 (gamedll clientdll replicated cheat)
 	<no description>
 
-citadel_crate_reward_base 1300 (developmentonly gamedll defensive)
+citadel_crate_reward_base 1040 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_crate_reward_time_multiplier 230 (developmentonly gamedll defensive)
+citadel_crate_reward_time_multiplier 185 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_crate_spawn_enabled true (developmentonly gamedll)

@@ -63,7 +63,7 @@ CitadelHudGameAnnouncements #ToastManager
 {
 	vertical-align: top;
 	horizontal-align: center;
-	margin-top: 200px;
+	margin-top: 250px;
 	height: 100%;
 	flow-children: down;
 }
@@ -80,6 +80,11 @@ CitadelHudGameAnnouncements #ToastManager > .ToastPanel.ToastVisible
 {
 	opacity: 1.0;
 	transform: none;
+}
+
+.inCombat CitadelHudGameAnnouncements
+{
+	opacity: 0.1;
 }
 
 .OvertimeAnnouncement.ToastVisible

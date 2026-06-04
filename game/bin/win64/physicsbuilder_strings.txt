@@ -6798,10 +6798,9 @@ $prefix_element$
 .tif
 .vmat
 .webp
-08wa
 0\r%0t
+0dta
 0x%llx
-0|ta
 16-byte data pool
 1D Blend Has No Referenced Animations
 1D Twist
@@ -6813,8 +6812,6 @@ $prefix_element$
 2DBlend
 2DBlendEditor
 2DBlendFromAnimation
-2\vp8wa
-2\vp|ta
 2_BONE_IK
 4-byte data pool
 4\r54t
@@ -9761,7 +9758,6 @@ Overrides the target VSNAP resource (defaults to "particles/models/%model_name%/
 Overwrite all bone data
 Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
-P@Za
 PARENT
 PF\n%d %d\n-1.000000\n
 POINT
@@ -9802,6 +9798,8 @@ ParseEXRHeaderFromMemory failed! Error message: %s\n
 Particle Configuration File
 Particle system that handles the generated model/snapshot (Must be authored specifically for this case to work properly)
 ParticleCompileBinaryIdenticalHack_underlying_struct
+Pd=s
+Pdta
 Peak Cycle
 Peak Frame
 Peak Frame Number
@@ -10049,7 +10047,7 @@ R8_UNORM
 R9G9B9E5_SHAREDEXP
 RBF Based Anim Constraint
 ROTATION
-R\fp8wa
+R\vpdta
 R_T5Y
 Radial Basis Function Type
 Radius Params CP ( Prop Group Smallest Radius / Prop Group Largest Radius / Number of Avg Objects )
@@ -10975,7 +10973,7 @@ Z\tV_powd
 [experimental] Recompute Vertices
 [procedural]
 \f?nkK=f
-\fp\v`8wa
+\nPdta
 \nclass 
 \ndummyfilename.tif
 \ng default\n
@@ -10986,7 +10984,7 @@ Z\tV_powd
 \tV_expd
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StringAfterPrefixCaseSensitive
-\vp8wa
+\vpdta
 ]>jkT>Q3
 _CustomCommand
 _CustomCommand%d
@@ -11042,8 +11040,9 @@ _temp_tangent
 _volumeatlas_
 _wjb
 _zero
-`8wa
 `=IhC?zm6>
+`\rP\f0dta
+`dta
 absolute
 acceleration
 accent
@@ -12629,7 +12628,6 @@ overwrite_existing
 overwrite_existing_flags_only
 ownerlog
 owns_polymorphic_data
-p8wa
 p=f3G=
 panorama_image
 panorama_style
@@ -12670,6 +12668,8 @@ pathclass
 pathnode
 pathnodeclass
 pattern
+pd=s
+pdta
 peak
 peak_attr
 peak_cycle
@@ -12799,14 +12799,13 @@ prune
 pseudo-
 pushout_strength
 pvTarget
-p|ta
 qangle log
 qangle_array
 quad_bend_tolerance
 quadratic
 quaternion log
 quaternion_array
-r\vp8wa
+r\fpdta
 radius0_key
 radius1_key
 radiusScale

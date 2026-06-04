@@ -113,8 +113,7 @@
 .?AVIShaderReloadListener@@
 .?AVIVPhysicsLegacyKeyHandler@@
 .vmdl
-2\vp4
-2\vpl
+2\vpDE
 2_BONE_IK
 7G/S
 8a\v6;
@@ -382,7 +381,6 @@ RESOURCE_TYPE_MORPHSET_INTERNAL
 RESOURCE_TYPE_RENDERMESH_INTERNAL
 ROTATION
 RSDS&
-R\fpl
 RayTracingEnvironment::RefineNode
 RayTracingEnvironment::RefineNodeJob
 Rejecting load for legacy model: '%s'\n
@@ -517,7 +515,6 @@ placementbone
 posxyz
 print_model_bind_pose
 projectedDecal
-r\vpl
 reload_model
 resourcesystem
 root

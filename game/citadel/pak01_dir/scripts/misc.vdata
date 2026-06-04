@@ -3037,71 +3037,6 @@
 		m_OutlineColor = [ 193, 245, 81, 255 ]
 		m_friendlyModelParticle = resource_name:""
 	}
-	citadel_idol_cashin = 
-	{
-		_class = "citadel_idol_cashin"
-		m_IdleParticleFriendly = resource_name:"particles/generic/idol_pickup_aura.vpcf"
-		m_IdleParticleEnemy = resource_name:"particles/generic/idol_pickup_aura_enemy.vpcf"
-		m_HitParticleFriendly = resource_name:"particles/generic/idol_pickup_hit.vpcf"
-		m_HitParticleEnemy = resource_name:"particles/generic/idol_pickup_hit_enemy.vpcf"
-		m_EndParticleFriendly = resource_name:"particles/generic/idol_pickup_end.vpcf"
-		m_EndParticleEnemy = resource_name:"particles/generic/idol_pickup_end_enemy.vpcf"
-		m_flCashInTimeExtension = 3
-		m_flCashInTimeFavored = 5.0
-		m_flCashInTime = 10.0
-		m_flCashInTimeUnfavored = 15.0
-		m_flPhysicsRadius = 15.6
-		m_flHoverHeight = 20.0
-		m_strCashInLoopSound = soundevent:"Soul.Urn.CashIn.Timer"
-		m_strCashInLoopEndSound = soundevent:""
-		m_strCashInLoopStartSound = soundevent:""
-		m_AuraModifier = subclass:
-		{
-			_class = "modifier_base_aura"
-			_my_subclass_name = "modifier_aura_idol_cashin"
-			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
-			m_modifierProvidedByAura = subclass:
-			{
-				_class = "modifier_idol_cashin_timer"
-				_my_subclass_name = "target_near_idol_cashin"
-				m_bIsHidden = true
-				m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
-				m_nEnabledStateMask = "MODIFIER_STATE_NEAR_IDOL_CASHIN"
-			}
-			m_bIsHidden = true
-			m_flAuraRadius = 2362.2
-		}
-		m_ComebackAuraModifier = subclass:
-		{
-			_class = "modifier_base_aura_cylinder"
-			_my_subclass_name = "modifier_aura_idol_cashin_comeback"
-			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO_FRIENDLY"
-			m_modifierProvidedByAura = subclass:
-			{
-				_class = "modifier_base"
-				_my_subclass_name = "idol_cashin_comeback"
-				m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
-				m_bIsHidden = true
-				m_vecScriptValues = 
-				[
-					{
-						m_eModifierValue = "MODIFIER_VALUE_TECH_RESIST"
-						m_value = 35
-					},
-					{
-						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
-						m_value = 35
-					},
-				]
-			}
-			m_bIsHidden = true
-			m_flAuraRadius = 2362.2
-			m_flAuraTargetingCylinderUpOffset = 400.0
-			m_flAuraTargetingCylinderHalfHeight = 1000.0
-		}
-		m_strSwitchTeamSound = soundevent:"Soul.Urn.Switch.Team"
-		m_strSwitchOpponentSound = soundevent:"Soul.Urn.Switch.Opponent"
-	}
 	xp_orb = 
 	{
 		_class = "item_xp"
@@ -3207,21 +3142,21 @@
 		m_sEnemyOrbDeniedParticle = resource_name:"particles/generic/spirit_xp_denied.vpcf"
 		m_sFriendlyOrbEarnedParticle = resource_name:"particles/generic/spirit_xp_earned.vpcf"
 		m_sEnemyOrbEarnedParticle = resource_name:"particles/generic/spirit_xp_earned_enemy.vpcf"
-		m_flOrbSpawnDelayMin = 0.3
+		m_flOrbSpawnDelayMin = 0.1
 		m_flOrbSpawnDelayMax = 0.3
 		m_flOrbSpawnOffsetZ = 10.0
-		m_flOrbSpawnOffsetRandomXYZ = 10.0
-		m_flGravityScale = 0.0
-		m_flLateralSpeedMin = 10.0
-		m_flLateralSpeedMax = 60.0
-		m_flUpSpeedMin = 10.0
-		m_flUpSpeedMax = 60.0
+		m_flOrbSpawnOffsetRandomXYZ = 20.0
+		m_flGravityScale = 1.0
+		m_flLateralSpeedMin = 5.0
+		m_flLateralSpeedMax = 10.0
+		m_flUpSpeedMin = 20.0
+		m_flUpSpeedMax = 30.0
 		m_flDownSpeed = 20.0
-		m_flOscillateFrequency = 1.0
-		m_flLifeTime = 3.0
-		m_flCollisionRadius = 12.0
-		m_flBurstSpeedMultiplier = 1.5
-		m_flBurstSpeedDuration = 0.1
+		m_flOscillateFrequency = 0.5
+		m_flLifeTime = 25.0
+		m_flCollisionRadius = 15.0
+		m_flBurstSpeedMultiplier = 10
+		m_flBurstSpeedDuration = 2
 		m_flInvulDuration = 0.12
 		m_strOrbClaimed = soundevent:"Player.ClaimOrb"
 		m_strOrbClaimedTeammate = soundevent:"Teammate.ClaimOrb"
@@ -3235,9 +3170,10 @@
 		m_sFriendlyHitConfirmParticle = resource_name:"particles/generic/spirit_orb_ambient_hit.vpcf"
 		m_sEnemyHitConfirmParticle = resource_name:"particles/generic/spirit_orb_ambient_hit_enemy.vpcf"
 		m_strOrbHitPredicted = soundevent:"Player.ClaimOrb.Hit"
-		m_flInvulDurationMin = 0.35
-		m_flInvulDurationMax = 0.65
+		m_flInvulDurationMin = 0.4
+		m_flInvulDurationMax = 0.5
 		_base = "xp_orb"
+		m_flRadius = 1.5
 	}
 	xp_orb_player_kill = 
 	{
@@ -3705,5 +3641,99 @@
 		m_flDecaySpeed = 0.01
 		m_remapCapturersToCaptureTime = [ 1.0, 6.0, 12.0, 2.0 ]
 		m_flTotalHealthToCapture = 0.0
+	}
+	citadel_idol_cashin = 
+	{
+		_class = "citadel_idol_cashin"
+		m_ZoneParticle = resource_name:"particles/generic/idol_cashin_aura.vpcf"
+		m_EndParticleFriendly = resource_name:"particles/generic/idol_pickup_end.vpcf"
+		m_EndParticleEnemy = resource_name:"particles/generic/idol_pickup_end_enemy.vpcf"
+		m_strPreEnableParticle = resource_name:"particles/npc/escort/escort_arriving.vpcf"
+		m_strEnabledParticle = resource_name:""
+		m_strOnFullyCapturedParticle = resource_name:"particles/npc/escort/escort_spawn.vpcf"
+		m_strOnBecomeEnableParticle = resource_name:"particles/npc/escort/escort_spawn.vpcf"
+		m_EnabledLoopSounds = 
+		{
+		}
+		m_flDecaySpeed = 0.0
+		m_flTotalTimeToCapture = 12
+		m_flTotalTimeToCaptureFavored = 6
+		m_flTotalTimeToCaptureUnfavored = 18
+		m_bDestroyNearbyNeutrals = false
+		m_flHoldAtPercent = 99.0
+		m_iComebackBounty = 155
+		m_flDropOffPlayerBonusPercent = 35
+		m_flZoneHeightMeters = 14.0
+		m_flZoneRadiusMeters = 20.0
+		m_flTimeToWarnAboutGivingUp = 65.0
+		m_flTimeToGiveUp = 75.0
+		m_nGiveUpOrbs = 13
+		m_Bonus01 = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "idol_bonus_01"
+			m_strHudMessageText = "#golden_idol_bonus_01"
+			m_bIsHidden = true
+		}
+		m_modifierCapturer = subclass:
+		{
+			_class = "modifier_cp_capturer"
+			_my_subclass_name = "capturing_urn"
+			m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+		}
+		m_AuraModifier = subclass:
+		{
+			_class = "modifier_base_aura"
+			_my_subclass_name = "modifier_aura_idol_cashin"
+			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
+			m_modifierProvidedByAura = subclass:
+			{
+				_class = "modifier_idol_cashin_timer"
+				_my_subclass_name = "target_near_idol_cashin"
+				m_bIsHidden = true
+				m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+				m_nEnabledStateMask = "MODIFIER_STATE_NEAR_IDOL_CASHIN"
+			}
+			m_bIsHidden = true
+			m_flAuraRadius = 2362.2
+		}
+		m_ComebackAuraModifier = subclass:
+		{
+			_class = "modifier_base_aura_cylinder"
+			_my_subclass_name = "modifier_aura_idol_cashin_comeback"
+			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO_FRIENDLY"
+			m_modifierProvidedByAura = subclass:
+			{
+				_class = "modifier_base"
+				_my_subclass_name = "idol_cashin_comeback"
+				m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+				m_bIsHidden = true
+				m_vecScriptValues = 
+				[
+					{
+						m_eModifierValue = "MODIFIER_VALUE_TECH_RESIST"
+						m_value = 35
+					},
+					{
+						m_eModifierValue = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST"
+						m_value = 35
+					},
+					{
+						m_eModifierValue = "MODIFIER_VALUE_STATUS_RESISTANCE"
+						m_value = 35
+					},
+				]
+			}
+			m_bIsHidden = true
+			m_flAuraRadius = 787.402
+			m_flAuraTargetingCylinderUpOffset = 400.0
+			m_flAuraTargetingCylinderHalfHeight = 1000.0
+		}
+		m_strUrnCashedInSoundFriendly = soundevent:"Soul.Urn.CashIn.Complete.Team"
+		m_strUrnCashedInSoundEnemy = soundevent:"Soul.Urn.CashIn.Complete.Opponent"
+		m_strUrnGiveUpSound = soundevent:"Soul.Urn.CashIn.Complete.Opponent"
+		m_strUrnGiveUpWarnSound = soundevent:"spirit_jar_idol_waiting_on_bridge_01_idol"
+		m_strUrnGiveUpTempVocalizeSound = soundevent:"spirit_jar_idol_waiting_on_bridge_09_idol"
+		m_strUrnCashinLoopSound = soundevent:"Soul.Urn.CashIn.Timer"
 	}
 }

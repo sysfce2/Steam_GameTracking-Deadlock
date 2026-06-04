@@ -1,3 +1,3 @@
-class CCitadel_IdolCashIn : public CCitadelAnimatingModelEntity
+class CCitadel_IdolCashIn : public CCitadelTriggerMultiCapturePoint
 {
 };

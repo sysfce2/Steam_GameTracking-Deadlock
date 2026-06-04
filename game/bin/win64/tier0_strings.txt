@@ -77,7 +77,6 @@
 #include is NULL 
 #int#
 #nyf
-#vpulse2
 $Ib?s
 $eax
 $ebp
@@ -1707,7 +1706,7 @@ $xmm9
 ?GetWinLevelRevision@CPUInformation@@SA_NPEAG0@Z
 ?GrowByChunks@CBufferString@@QEAAHHH@Z
 ?GrowPool@CPoolAllocator@@QEAAXI@Z
-?HEAP WARNING: memory pointer %p is invalid\n
+?HEAP WARNING: memory block at %p is unexpectedly allocated\n
 ?HandleFirstWriteLockTransition@CEventRWLock@@IEAAXAEAVCEventListNode@@@Z
 ?HandleToString@CCountedStringPool_CI@@QEBAPEBDG@Z
 ?HandlerQueueHeartBeat@MiniDumpStandardData_t@@QEBAXXZ
@@ -2563,6 +2562,7 @@ AppPolicyGetThreadInitializationType
 ApplyDiffs
 April
 AreFileApisANSI
+Assert
 AssertDlgThread
 Assertion Dialog could not be created. Breaking in debugger.\n
 Assertion Dialog could not be created. Ignoring assertion. Run under the debugger to break instead.\n
@@ -3427,6 +3427,7 @@ C_OP_InstantaneousEmitter
 C_OP_LockToBone
 C_OP_LockToSavedSequentialPath
 C_OP_MaintainEmitter
+C_OP_MaxVelocity
 C_OP_MoveToHitbox
 C_OP_MovementPlaceOnGround
 C_OP_MovementRotateParticleAroundAxis
@@ -3559,7 +3560,6 @@ ConfigAttachedModel
 Conflicting range base values given for compile_unit\n
 Connection_Inparam
 Connection_Outflow
-Console
 Constructor/destructor index ('%c%c') out of range\n
 Constructor/destructor name extraction failed\n
 Content Assertion Failed
@@ -4119,9 +4119,9 @@ H(VVH
 H*0"ZOW
 H>r1
 HEAP WARNING: memory block at %p appears to be corrupt\n
-HEAP WARNING: memory block at %p is unexpectedly allocated\n
 HEAP WARNING: memory block at %p is unexpectedly free\n
 HEAP WARNING: memory block at %p is unexpectedly unrecognized\n
+HEAP WARNING: memory pointer %p is invalid\n
 HH:MM:SS.z
 HH:mm:ss
 HIGHDPI
@@ -4838,7 +4838,7 @@ Outflow_NPCScriptedMoveTo
 Outflow_NPCUseScriptedAbility
 Outflow_Simultaneous
 OutputDebugStringA
-P(YX(
+P(YX
 P4_EXTRACT_CMD=p4.exe print -o %srcsrvtrg% -q "//%var3%#%var4%"\n
 P4_EXTRACT_TARGET=%targ%\%var2%\%fnbksl%(%var3%)\%var4%\%fnfile%(%var1%)\n
 PARTICLE_DEPTH_FEATHERING_OFF
@@ -6125,7 +6125,6 @@ Unable to create thread in %s\n
 Unable to determine CPU Frequency\n
 Unable to determine ELF default base address\n
 Unable to determine Mach-O default base address\n
-Unable to determine buffer encoding.
 Unable to load COM\n
 Unable to load SDL\n
 Unable to load oleaut32\n
@@ -6864,7 +6863,7 @@ ZwSetTimerResolution
 \nh?oT
 \nk>oB
 \r00000000-0000-0000-0000-000000000000
-\rAssert
+\rConsole
 \rInput contains no data
 \r\f\v\v\n\n\t\t\t\t\t
 \rmj>zjZ
@@ -7938,6 +7937,7 @@ m_flLiteralValue
 m_flMax
 m_flMaxLength
 m_flMaxPitchAngle
+m_flMaxVelocity
 m_flMaxYawAngle
 m_flMin
 m_flMinLength
@@ -8086,6 +8086,7 @@ m_nOutputBlendMode
 m_nOutputField
 m_nOverrideCP
 m_nOverrideCP2
+m_nOverrideCPField
 m_nParamInterruptability
 m_nParticleNumber
 m_nParticleSelection
@@ -8278,8 +8279,11 @@ nInterruptability
 nMax
 nMin
 nOffset < m_nAllocationSize
+nOverrideCPField
 nSwitchValue
 nTries < 10000000
+nUnable to determine buffer encoding.
+nXAO
 n\f"pA3Q
 n\f"pA3QX
 n]?iJ
@@ -8593,7 +8597,7 @@ symbol
 symsrv.dll
 symtab
 t#tvI
-t+0Re\f
+t+0re\f
 table
 tail_frame
 tanf
@@ -8795,6 +8799,7 @@ vpcf62
 vpcf63
 vpcf64
 vpcf65
+vpcf66
 vpcf7
 vpcf8
 vpcf9
@@ -8809,6 +8814,7 @@ vpulse14
 vpulse15
 vpulse16
 vpulse17
+vpulse2
 vpulse3
 vpulse4
 vpulse5

@@ -734,7 +734,6 @@ $light_emissive
 %d instruction(s)\n
 %d of %d Spawn destinations valid
 %d players in lane %d:\n
-%d queries, %d misses (%d free) suc spec = %d wasted spec=%d\n
 %d register(s) %d byte(s)\n
 %d spawn groups:\n
 %d structs not using DECLARE_NETWORKVAR_STRUCT_NOT_IN_NETWORK_UTLVECTOR_EMBEDDED, consider porting fields to use CNetworkVars!\n
@@ -1296,7 +1295,6 @@ $light_emissive
 (.CMsgSteamLearn_SnapshotProject_Response"-
 (0'yX
 (0x%08X)'??'
-(4Pc
 (5Me
 (5jP
 (ACTIVE)
@@ -1684,7 +1682,6 @@ $light_emissive
 (d4t8
 (debug)
 (default)
-(fPB1
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
@@ -2057,8 +2054,6 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0H1
-.0J1
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -2288,6 +2283,7 @@ $light_emissive
 .?AUSquadModeInfo_t@@
 .?AUStatViewerModifierValues_t@@
 .?AUStolenAbilityPair_t@@
+.?AUTeamIdolState_t@@
 .?AUTrackedStatNetworkData_t@@
 .?AUTranslationTrack_t@@
 .?AUVDataInitInfo_t@@
@@ -2899,6 +2895,7 @@ $light_emissive
 .?AV?$CEntitySpawner@VCBaseAnimGraph@@@@
 .?AV?$CEntitySpawner@VCBaseEntity@@@@
 .?AV?$CEntitySpawner@VCBaseModelEntity@@@@
+.?AV?$CEntitySpawner@VCBaseTrigger@@@@
 .?AV?$CEntitySpawner@VCBeam@@@@
 .?AV?$CEntitySpawner@VCCitadelAnimatingModelEntity@@@@
 .?AV?$CEntitySpawner@VCCitadelBaseAbility@@@@
@@ -3014,6 +3011,7 @@ $light_emissive
 .?AV?$CEntitySpawnerBase@VCBaseAnimGraph@@@@
 .?AV?$CEntitySpawnerBase@VCBaseEntity@@@@
 .?AV?$CEntitySpawnerBase@VCBaseModelEntity@@@@
+.?AV?$CEntitySpawnerBase@VCBaseTrigger@@@@
 .?AV?$CEntitySpawnerBase@VCBeam@@@@
 .?AV?$CEntitySpawnerBase@VCCitadelAnimatingModelEntity@@@@
 .?AV?$CEntitySpawnerBase@VCCitadelBaseAbility@@@@
@@ -4554,6 +4552,7 @@ $light_emissive
 .?AV?$CNetworkUtlVectorBase@VCUtlSymbolLarge@@VNetworkVar_m_vecCSSClasses@CInfoOffscreenPanoramaTexture@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VCUtlSymbolLarge@@VNetworkVar_m_vecCSSClasses@CPointClientUIWorldPanel@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VGameTime_t@@VNetworkVar_m_vecNextExplosionTime@CCitadel_Ability_Unicorn_LuminousStrike@@$0?0H@@
+.?AV?$CNetworkUtlVectorBase@VHeroID_t@@VNetworkVar_m_vecParticipants@TeamIdolState_t@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VQAngle@@VNetworkVar_m_ragAngles@CRagdollProp@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VQuaternion@@VNetworkVar_m_OwnerOnlyPredNetQuaternionVariables@CAnimGraphNetworkedVariables@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VQuaternion@@VNetworkVar_m_PredNetQuaternionVariables@CAnimGraphNetworkedVariables@@$0?0H@@
@@ -4599,6 +4598,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nDetailLayerMaskType@VPhysicsCollisionAttribute_t@@@@
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nEnablePhysics@CCollisionProperty@@@@
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nEnableState@CCitadelTriggerCapturePoint@@@@
+.?AV?$CNetworkVarBase@EVNetworkVar_m_nEnableState@CCitadelTriggerMultiCapturePoint@@@@
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nHealthPercent@STeamFOWEntity@@@@
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nHitboxSet@CSkeletonInstance@@@@
 .?AV?$CNetworkVarBase@EVNetworkVar_m_nMarks@AirheartLockOnTarget_t@@@@
@@ -4759,6 +4759,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nBounceLight@CBarnLight@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nBrokenBodygroupIndex@WeakPoint_t@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nCaptureProgressOwner@CCitadelTriggerCapturePoint@@@@
+.?AV?$CNetworkVarBase@HVNetworkVar_m_nCapturerCount@TeamIdolState_t@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nCascadeRenderStaticObjects@CLightComponent@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nCascades@CLightComponent@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nCastShadows@CBarnLight@@@@
@@ -4796,7 +4797,6 @@ $light_emissive
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nHeroDraftPosition@PlayerDataGlobal_t@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nHitIndex@CCitadel_BreakableProp@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nHitbox@CPlayerSprayDecal@@@@
-.?AV?$CNetworkVarBase@HVNetworkVar_m_nIdolCashInTeam@CCitadelGameRules@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIdolScoringTeam@CCitadelGameRules@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIndirectLight@CLightComponent@@@@
 .?AV?$CNetworkVarBase@HVNetworkVar_m_nIndirectTextureDimX@CEnvVolumetricFogController@@@@
@@ -5017,6 +5017,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flCapsuleLength@CLightComponent@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flCapsuleRadius@CCollisionProperty@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flCaptureProgress@CCitadelTriggerCapturePoint@@@@
+.?AV?$CNetworkVarBase@MVNetworkVar_m_flCaptureProgressFrac@TeamIdolState_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flCaptureTime@CCitadelControlPointTrigger@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flCasterSpeed@CCitadel_Ability_ZipLine@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_flChannelTime@CCitadel_Ability_VampireBat_BatSwarm@@@@
@@ -5885,8 +5886,8 @@ $light_emissive
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tTetherBreakTime@CCitadel_Ability_Necro_PrimaryWeapon@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tTriggerTime@PlayOfTheGameTrigger_t@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tWallDeployFinishTime@CCitadel_Ability_Necro_ZombieWall@@@@
-.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolCashInEnd@CCitadelGameRules@@@@
-.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolCashInStart@CCitadelGameRules@@@@
+.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolCashInStarted@CCitadelGameRules@@@@
+.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolGiveUp@CCitadelGameRules@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeIdolScoring@CCitadelGameRules@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeLastUpdate@CCitadelTrooperMinimap@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_timeLaunch@CItemXP@@@@
@@ -5935,6 +5936,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vAuraPosition@CCitadel_Ability_Familiar_Spotlight@@@@
 .?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vBeamAimPos@CCitadelAbilityBeam_t@@@@
 .?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vEyeBeamTarget@CAI_CitadelNPC@@@@
+.?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vIdolCashInCurrentLocation@CCitadelGameRules@@@@
 .?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vTargetPosition@CCitadel_Ability_Mirage_Teleport@@@@
 .?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vecCastLocation@CNPC_NecroSkele@@@@
 .?AV?$CNetworkVarBase@VVectorWS@@VNetworkVar_m_vecElectricBeamLookTarget@CNPC_Boss_Tier2@@@@
@@ -6221,6 +6223,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBeingBlocked@CCitadelControlPointTrigger@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBeingCaptured@CCitadelControlPointTrigger@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBlinking@CCitadel_Ability_VampireBat_BatBlink@@@@
+.?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBlocked@TeamIdolState_t@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsDashing@CCitadel_Ability_NanoDash@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsDashing@CCitadel_Ability_ShivDash@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsEnabled@CGradientFog@@@@
@@ -7535,6 +7538,7 @@ $light_emissive
 .?AV?$CUtlVector@VCUtlStringToken@@HV?$CNetworkUtlVector_MemoryType@VCUtlStringToken@@$0?0@@@@
 .?AV?$CUtlVector@VCUtlSymbolLarge@@HV?$CNetworkUtlVector_MemoryType@VCUtlSymbolLarge@@$0?0@@@@
 .?AV?$CUtlVector@VGameTime_t@@HV?$CNetworkUtlVector_MemoryType@VGameTime_t@@$0?0@@@@
+.?AV?$CUtlVector@VHeroID_t@@HV?$CNetworkUtlVector_MemoryType@VHeroID_t@@$0?0@@@@
 .?AV?$CUtlVector@VQAngle@@HV?$CNetworkUtlVector_MemoryType@VQAngle@@$0?0@@@@
 .?AV?$CUtlVector@VQuaternion@@HV?$CNetworkUtlVector_MemoryType@VQuaternion@@$0?0@@@@
 .?AV?$CUtlVector@VResourceId_t@@HV?$CNetworkUtlVector_MemoryType@VResourceId_t@@$0?0@@@@
@@ -7658,6 +7662,7 @@ $light_emissive
 .?AV?$CUtlVectorEmbeddedNetworkVar@USTrooperFOWEntity@@VNetworkVar_m_vecFOWEntities@CCitadelTrooperMinimap@@$0?0H@@
 .?AV?$CUtlVectorEmbeddedNetworkVar@UStatViewerModifierValues_t@@VNetworkVar_m_vecStatViewerModifierValues@PlayerDataGlobal_t@@$0?0H@@
 .?AV?$CUtlVectorEmbeddedNetworkVar@UStolenAbilityPair_t@@VNetworkVar_m_vecStolenAbilities@PlayerDataGlobal_t@@$0?0H@@
+.?AV?$CUtlVectorEmbeddedNetworkVar@UTeamIdolState_t@@VNetworkVar_m_vecTeamIdolStates@CCitadelGameRules@@$01H@@
 .?AV?$CUtlVectorEmbeddedNetworkVar@UTrackedStatNetworkData_t@@VNetworkVar_m_vecTrackedStats@CBaseTrackedStatsEntity@@$0?0H@@
 .?AV?$CUtlVectorEmbeddedNetworkVar@UViewAngleServerChange_t@@VNetworkVar_m_ServerViewAngleChanges@CBasePlayerPawn@@$0?0H@@
 .?AV?$CUtlVectorEmbeddedNetworkVar@UWeakPoint_t@@VNetworkVar_m_vecWeakPoints@CAI_CitadelNPC@@$0?0H@@
@@ -8767,6 +8772,7 @@ $light_emissive
 .?AVCCitadelTriggerCapturePoint@@
 .?AVCCitadelTriggerHideout@@
 .?AVCCitadelTriggerHurt@@
+.?AVCCitadelTriggerMultiCapturePoint@@
 .?AVCCitadelTriggerNoPortals@@
 .?AVCCitadelTrooperMinimap@@
 .?AVCCitadelTrooperSpawnGameSystem@@
@@ -10759,6 +10765,7 @@ $light_emissive
 .?AVCCitadel_Modifire_Priest_FlashBangBurn@@
 .?AVCCitadel_Modifire_Priest_FlashBangBurnAura@@
 .?AVCCitadel_Modifire_Priest_FlashBangBurnAuraVData@@
+.?AVCCitadel_MultiCapturePointVData@@
 .?AVCCitadel_NPCAbility_Shield@@
 .?AVCCitadel_NPCAbility_Shield_VData@@
 .?AVCCitadel_NPCAbility_Vanguard_AOEBuff@@
@@ -14058,9 +14065,6 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PG1
-.PH1
-.PJ1
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14348,7 +14352,8 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pG1
+.p02
+.p92
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14633,14 +14638,12 @@ $light_emissive
 4)m1
 474E4U4W4c4i4m4
 4<Td
-4?\f0f
 4@AA
-4B0\r9
 4Ch;
 4F0I
+4F\vp
 4Mv8
 4Zis
-4\f0f
 4\fPl
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
@@ -14669,7 +14672,7 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
-5\fWf
+5\fg0
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14689,15 +14692,12 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 B1
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
-60&1
 60000
-6081
 62$|S)6f
 64CK\vH
 65535
@@ -14705,14 +14705,14 @@ $light_emissive
 65535"j\n
 65535B$
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666m_nAttachedParticleIndex
+6666666666666666CAttributeManager
 67-s
 6H,N
 6O|T%
-6P91
-6P>1
+6P 2
+6P82
 6Qd=
-6\fWf
+6\fg0
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14723,9 +14723,6 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`21
-6`41
-6`T1
 6afD
 6bX+
 6c&0|vvX
@@ -14733,8 +14730,6 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p]1
-6pc1
 6qo~
 6r-m_v
 6r1ij
@@ -14883,7 +14878,7 @@ $light_emissive
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;DDon't retain more than N perf samples for any given client
+;DEnable / Disable Play Stat S2MatchPerf.
 ;LGEW
 ;Qo0
 ;X94<
@@ -15019,13 +15014,11 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->pB1
 >yhP
 >ztq
 ?333?
 ?33s?
 ?CAnimFoot
-?EPlayOfTheGameState
 ?HAI\t81\t9dcG'
 ?HP4
 ?Lists all entities
@@ -15042,19 +15035,18 @@ $light_emissive
 ?ffffff
 ?gwL
 ?jOb
-?npc_familiar_helper
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N
+@08NT
 @0pp
-@6@G1
-@Accolades
+@6P"2
 @BH]f
-@HPX`hv0
+@HPX`hv
+@MVDataRoot
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15067,11 +15059,10 @@ $light_emissive
 @\n<STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INTERNAL_DATA_SOURCE_ERROR
 @\n\fSingleObject
 @\n\vPowerUpBuff
-@citadel_item_pickup_fall_tolerance
 @dKb]
 @fff>fff>fff>fff>
-@htPc
 @i1V
+@m_flFOV
 @n2w
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
@@ -15397,6 +15388,7 @@ Acceptable OCSP Responses
 AccepterSlot
 Accolade %s references unknown tracked stat '%s'
 AccoladeThresholds
+Accolades
 AccoladesDataManifest_global_server
 Account
 Account %u abandoned lobby\n
@@ -15562,6 +15554,7 @@ AmbientCubes
 AmbushDuration
 AmmoConsumedPct
 AmmoPerSoul
+Amodifier_spreadingfire_dot
 AmpDamagePercent
 AmpDuration
 AmpPercentPerStack
@@ -15786,6 +15779,7 @@ Axis
 AxisAngleToQuaternion
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
+B%d queries, %d misses (%d free) suc spec = %d wasted spec=%d\n
 B*k@5
 B+N3
 B+Uk=
@@ -15803,6 +15797,7 @@ B64_READ_ASN1
 B64_READ_PKCS7
 B64_WRITE_ASN1
 B64_WRITE_PKCS7
+B8,K
 B8Z"h
 B>J7I
 BAD ENUMERATED
@@ -15921,7 +15916,6 @@ BOUNDARY
 BREAKABLE
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
-BSpew PVS debug info for entity
 BT5f
 BUCKSHOT
 BUF lib
@@ -16164,7 +16158,7 @@ BloodImpact
 BloodSpillDPSPercent
 BloodSpillDuration
 BlurVisionRange
-Bm_iCreepGoldSoloBonus
+Bm_iHealthMax
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -16219,6 +16213,7 @@ BonusDamagePerHero
 BonusDamagePercent
 BonusDamageVsBarrier
 BonusDebuffDuration
+BonusDebuffResist
 BonusFireRate
 BonusFireRateNPC
 BonusFireRatePerHero
@@ -17277,6 +17272,7 @@ CEntitySpawner<class CAI_NetworkManager>::Spawn
 CEntitySpawner<class CBaseAnimGraph>::Spawn
 CEntitySpawner<class CBaseEntity>::Spawn
 CEntitySpawner<class CBaseModelEntity>::Spawn
+CEntitySpawner<class CBaseTrigger>::Spawn
 CEntitySpawner<class CBeam>::Spawn
 CEntitySpawner<class CCitadelAnimatingModelEntity>::Spawn
 CEntitySpawner<class CCitadelBaseAbility>::Spawn
@@ -18074,6 +18070,7 @@ CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecRestrictedToItems , 
 CNetworkUtlVectorBase< EntitySubclassID_t , NetworkVar_m_vecUpgrades , -1, int >
 CNetworkUtlVectorBase< FullSellPriceAbilityUpgrades_t, NetworkVar_m_vecFullSellPriceAbilityUpgrades , -1, int >
 CNetworkUtlVectorBase< GameTime_t, NetworkVar_m_vecNextExplosionTime , -1, int >
+CNetworkUtlVectorBase< HeroID_t, NetworkVar_m_vecParticipants , -1, int >
 CNetworkUtlVectorBase< QAngle, NetworkVar_m_ragAngles , -1, int >
 CNetworkUtlVectorBase< Quaternion, NetworkVar_m_OwnerOnlyPredNetQuaternionVariables , -1, int >
 CNetworkUtlVectorBase< Quaternion, NetworkVar_m_PredNetQuaternionVariables , -1, int >
@@ -19272,6 +19269,7 @@ CUtlVectorEmbeddedNetworkVar< STeamFOWEntity, NetworkVar_m_vecFOWEntities , -1, 
 CUtlVectorEmbeddedNetworkVar< STrooperFOWEntity, NetworkVar_m_vecFOWEntities , -1, int >
 CUtlVectorEmbeddedNetworkVar< StatViewerModifierValues_t, NetworkVar_m_vecStatViewerModifierValues , -1, int >
 CUtlVectorEmbeddedNetworkVar< StolenAbilityPair_t, NetworkVar_m_vecStolenAbilities , -1, int >
+CUtlVectorEmbeddedNetworkVar< TeamIdolState_t, NetworkVar_m_vecTeamIdolStates , (( ( ( 1 +1) + 1 ) - ( 1 +1) ) + 1) , int >
 CUtlVectorEmbeddedNetworkVar< TrackedStatNetworkData_t, NetworkVar_m_vecTrackedStats , -1, int >
 CUtlVectorEmbeddedNetworkVar< ViewAngleServerChange_t, NetworkVar_m_ServerViewAngleChanges , -1, int >
 CUtlVectorEmbeddedNetworkVar< WeakPoint_t, NetworkVar_m_vecWeakPoints , -1, int >
@@ -19708,8 +19706,10 @@ Comeback Gold
 Comeback Gold Urn
 Comeback Inactive\n
 Comeback Possibly Incorrect\n
-Comeback Urn - GameTime: %0.1f, Base Gold: %d, Extra Gold: %d, flComebackMultiplier: %0.1f, Scorer Team Gold: %d, Enemy Team Gold: %d\n
-Comeback Urn Inactive - GameTime: %0.1f, Base Gold: %d, Scorer Team Gold: %d, Enemy Team Gold: %d\n
+Comeback Urn - GameTime: %0.1f, Base Gold: %d, Extra Gold: %d, flComebackMultiplier: %0.1f, Sapphire Team Gold: %d, Amber Team Gold: %d\n
+Comeback Urn Captured: %.2fs Elapsed time, Amber vs Sapphire Participants: ( %d vs %d )\n
+Comeback Urn Give Up: %.2fs Elapsed time, Amber vs Sapphire Participants: ( %d vs %d )\n
+Comeback Urn Inactive - GameTime: %0.1f, Base Gold: %d, Sapphire Team Gold: %d, Amber Team Gold: %d\n
 Comeback paid %s %d\n
 ComebackGold %s
 ComebackGold Kills
@@ -21515,7 +21515,6 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FP"1
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21635,7 +21634,6 @@ FastRetrigger: %s
 FearDuration
 FervorStatusResistancePercent
 Ff,n
-Ffff
 Ffilter_t
 Fgi?)
 Fi:je
@@ -24230,7 +24228,6 @@ MScriptDescription
 MTreatUnknownEnumeratorsAsZero
 MUST
 MVDataAssociatedFile
-MVDataRoot
 MVDataSingleton
 MVDataUniqueMonotonicInt
 MVDataUseLinkedEntityClasses
@@ -25710,7 +25707,8 @@ P-224
 P-256
 P-384
 P-521
-P08N
+P08J0
+P08NT
 P1\t98"
 P5[1
 PAGN_4
@@ -29749,6 +29747,7 @@ TrailInterval
 TrailLength
 Trailer Field: 0x
 TrailingTeamBonusArmorDamageResist
+TrailingTeamBonusDebuffResist
 TrailingTeamBonusSprintSpeed
 TrailingTeamBonusTechResist
 Train %s speed to %4.2f\n
@@ -30078,6 +30077,7 @@ UploadReplayFiles %s\n
 UpperRandomBound
 UppercutBuffOnHit
 UppercutDamage
+Urn - Reward paid to runner GameTime: %0.1f, Paid: %d @ %.0f%% Gold Per Player: %d, Comeback Bounty: %d, flComebackMultiplier: %0.1f, Sapphire Team Gold: %d, Amber Team Gold: %d\n
 Usage:  %s <groupname>\n
 Usage:  %s minx miny miny maxx maxy maxz <lifetime = 10.0> <r g b a>\n
 Usage:  %s x y z pitch yaw rol <lifetime = 10.0> <r g b a>\n
@@ -30131,7 +30131,6 @@ UsingMelee
 Ut]<E
 Uv1t
 Uz_G3=
-V S1
 V07;m
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
@@ -30289,8 +30288,8 @@ VolumeMatchesRamp
 VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
+Vp-2
 Vp>u
-VpJ1
 Vt_9
 VulnerabilityPerStack
 V~~Vq
@@ -30661,7 +30660,6 @@ XYD%
 X\tQo
 Xd3h
 XfJ7
-Xf`81
 XjfR
 XqgA+
 Xuub
@@ -31933,7 +31931,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6pY1
+`6P#2
 `:zQF
 `D$daM-l
 `DZG
@@ -31961,6 +31959,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvT
 aD/x
 aDSS
 aECDH
@@ -33748,6 +33747,7 @@ citadel_modifier_tangotether_target
 citadel_modifier_tangotether_tether
 citadel_modifier_tangotether_tether_receiver
 citadel_modifier_teleport
+citadel_multi_capture_point
 citadel_nano_predatory_statue
 citadel_new_years_fireworks
 citadel_obscured_volume
@@ -34274,6 +34274,7 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
+dP\tP
 dSAQuality
 dWry
 dZ!2.
@@ -36766,7 +36767,6 @@ idol
 idol | rejuv | neutral_gold
 idol | rejuv | neutral_gold | trophy (trophy is Shiv only)
 idol_cashed_in
-idol_delivered
 idol_delivery_diff
 idol_delivery_pct_diff
 idol_descending
@@ -38019,7 +38019,6 @@ m_fog.start
 m_guid
 m_hAmbientSound
 m_hAttachAbility.IsValid()
-m_hCapturingPlayer
 m_hCastingAbility
 m_hColorCorrectionController
 m_hConVarUserInfoSet
@@ -38037,7 +38036,6 @@ m_hOpvarData
 m_hPawnListEntry
 m_hPlayingSound
 m_hProjectedDecal
-m_hReturnTrigger
 m_hRuntimeListHandle
 m_hScriptInstance
 m_hSoundMoving
@@ -39252,7 +39250,6 @@ modifier_spirit_burn_proc_watcher
 modifier_spirit_resilience
 modifier_spirit_snatch
 modifier_splitshot_weapon_damage
-modifier_spreadingfire_dot
 modifier_stabilizing_tripod
 modifier_stabilizing_tripod_self_debuff
 modifier_stamina_regen_jump_reduction
@@ -39492,10 +39489,10 @@ mvp_map_override
 mvp_rank
 my_hero
 mzP"T
-n 61
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
+n0\n2
 n1Z 
 n5cM
 n6j/
@@ -39838,7 +39835,6 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
-npa1
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -39849,6 +39845,7 @@ npc_bullseye
 npc_dota_hero_%s
 npc_enemyfinder
 npc_escort
+npc_familiar_helper
 npc_field_sentry
 npc_follows_entity
 npc_furniture
@@ -40153,14 +40150,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p0jP
+p08@H^T
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6@-1
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -41396,7 +41391,6 @@ result_set
 retransmit:  message %d non-existant\n
 return_location
 returndelay
-returned_idol
 returnspeed
 reuse cert length not zero
 reuse cert type not zero
@@ -42708,6 +42702,7 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
+tR\tP
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -43611,7 +43606,6 @@ vForward
 vHingeAxis
 vHullPos[%i] %g %g %g\n
 vNewPoint.IsValid()\n
-vP_1
 vPoint
 vPoint1
 vPoint2
@@ -44044,8 +44038,8 @@ yyen
 z(ov
 z/B,9d
 z<d2
+z>8R
 z>Hz
-zDGameModeStreetBrawl_t
 zF):O4
 zFar
 zG2m8

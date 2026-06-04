@@ -28,11 +28,12 @@
 // MNetworkVarNames = "AccountID_t m_nHideoutOwner"
 // MNetworkVarNames = "CHandle<CCitadelTrooperMinimap> m_hTrooperMinimap"
 // MNetworkVarNames = "CitadelTeam_t m_iWinningTeam"
-// MNetworkVarNames = "CitadelTeam_t m_nIdolCashInTeam"
-// MNetworkVarNames = "GameTime_t m_timeIdolCashInStart"
-// MNetworkVarNames = "GameTime_t m_timeIdolCashInEnd"
+// MNetworkVarNames = "TeamIdolState_t m_vecTeamIdolStates"
 // MNetworkVarNames = "CitadelTeam_t m_nIdolScoringTeam"
 // MNetworkVarNames = "GameTime_t m_timeIdolScoring"
+// MNetworkVarNames = "GameTime_t m_timeIdolCashInStarted"
+// MNetworkVarNames = "GameTime_t m_timeIdolGiveUp"
+// MNetworkVarNames = "VectorWS m_vIdolCashInCurrentLocation"
 // MNetworkVarNames = "EHANDLE m_hCurrentHeroDrafterRebels"
 // MNetworkVarNames = "EHANDLE m_hCurrentHeroDrafterCombine"
 // MNetworkVarNames = "int m_iMidbossKillCount"
@@ -117,15 +118,17 @@ class C_CitadelGameRules : public C_TeamplayRules
 	// MNetworkEnable
 	int32 m_iWinningTeam;
 	// MNetworkEnable
-	int32 m_nIdolCashInTeam;
-	// MNetworkEnable
-	GameTime_t m_timeIdolCashInStart;
-	// MNetworkEnable
-	GameTime_t m_timeIdolCashInEnd;
+	C_UtlVectorEmbeddedNetworkVar< TeamIdolState_t > m_vecTeamIdolStates;
 	// MNetworkEnable
 	int32 m_nIdolScoringTeam;
 	// MNetworkEnable
 	GameTime_t m_timeIdolScoring;
+	// MNetworkEnable
+	GameTime_t m_timeIdolCashInStarted;
+	// MNetworkEnable
+	GameTime_t m_timeIdolGiveUp;
+	// MNetworkEnable
+	VectorWS m_vIdolCashInCurrentLocation;
 	// MNetworkEnable
 	// MNetworkPriority = 32
 	// MNetworkChangeCallback = "playerDraftingChanged"

@@ -93,24 +93,24 @@
 %s_matgrp
 'Play reversed' has no effect when used with time synchronization!
 (%f, %f, %f)
-(5Ir
-(AYr
+(5Jr
+(AZr
 (Blend1D):m_flBlendValue
 (Blend1D):m_resetCount
-(IFr
-(M7r
-(Y3r
-(YRr
-(Yer
-(aPr
-(aWr
-(iKr
-(mHr
-(mXr
-(qUr
-(u9r
-(uar
-(ydr
+(IGr
+(Iar
+(M8r
+(Y4r
+(YSr
+(Yfr
+(aQr
+(aXr
+(iLr
+(mIr
+(mYr
+(qVr
+(ubr
+(yer
 ** Invalid ID **
 *** Test failure: "%s"
 ***\nShared activity collision with private activity! %s<->%s [%i]\n***\n
@@ -2037,12 +2037,22 @@
 .?AVUseReflectionEditor@AnimGraph@Attribute@@
 .?AVUsesCustomCurrentValue@MotionMatching@Attribute@@
 .?AVUsesCustomSampleInterpolation@MotionMatching@Attribute@@
+.hQZ
 .vagrp_c/.vanim_c mismatch :: %s :: %s\n
-0TNZ
+04\Z
+0>Pj]
+0LOZ
+0vhQZ
 180_recovery
+2\vp4\Z
+2\vpLOZ
+2\vpdG]
 2_BONE_IK
 2py\v
-8y@r
+6Pd]
+6Pm]
+6pp]
+8yAr
 ::embedded_animation
 :NetworkedCycle:CycleZeroTime
 :NetworkedCycle:CyclesPerSecond
@@ -2080,11 +2090,13 @@
 ?Move Heading
 ?expf
 ?m_flPosition
-@08N
+@08NhQZ
+@60Z]
 @HPX`hv
 @V@const char *__cdecl Reflection::Internal::GetFuncName<class IPathAnimMotorInstance>(void)
 @const char *__cdecl Reflection::Internal::GetFuncName<class IPairedSequenceComponentInstance>(void)
 @fff>fff>fff>fff>
+@nhQZ
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
 ACT_NEUTRAL_REF_POSE
 AE_ACTION_ALLOW_COMBO
@@ -2946,9 +2958,11 @@ Overlay Blend (Masked): %.2f%%
 Overlay Blend: %.2f%%
 OverlayBlendTask - Trying to perform an overlay blend with mis-matched pose types (additive/parent-space)
 OverlayProjectionDirection
-P08N
-P6Pm]
+P08NhQZ
+P6@x]
+P6Pe]
 PARENT
+PLOZ
 POINT
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
@@ -2971,14 +2985,12 @@ Pass Outflow
 PerTickSettings
 PerTickSettings_t
 PerVertexLighting
-Pfpn]
 PivotPaint
 Plane normal
 Playback:m_SequenceCycleZeroTime
 Playback:m_currentSequence
 Playback:m_flForcedCycle
 PlayerInputAnimMotorInstance
-Pn0p]
 Pole vector (raw dir: {%.2f, %.2f, %.2f})
 Position
 Position progress\t\t\t[%f]
@@ -3001,8 +3013,10 @@ RESOURCE_TYPE_NM_GRAPH
 RESOURCE_TYPE_NM_SKELETON
 RESOURCE_TYPE_SEQUENCE_GROUP_INTERNAL
 ROTATION
+R\fp4\Z
 R\vp!F
 R\vp!y
+R\vpLOZ
 Rad2 Deg
 Ragdoll Component
 Random World Position
@@ -3204,8 +3218,11 @@ Zero input vector for info node!
 [NOP]
 [RETURN R%d]
 [RETURN]
-\nPTNZ
+\fpLOZ
+\fp\v`LOZ
 \rRESOURCE_TYPE_ANIMGRAPH
+\rp\f`\v0LOZ
+\rp\f`\vPLOZ
 \t%d (%d) : %s %s %s %s\n
 \t%d:%d - %s (agrp vs agrp flag mismatch) %s:%s (promoted to match existing) %s:%s\n
 \t%d:%d - %s (match)\n
@@ -3224,6 +3241,8 @@ Zero input vector for info node!
 \t_FindGlobalSymbolByHash
 \tg_bUpdateStringTokenDatabase
 \tnexttoken
+\vp4\Z
+\vpLOZ
 _CustomCommand
 _CustomCommand%d
 __CursorQueue__
@@ -3234,13 +3253,15 @@ __TimelineParent__
 ______________________
 __current_metadata_table_stack
 _autoreset
-`6Pw]
-`TNZ
-`Y5r
-`alv
-`umv
+`LOZ
+`Y6r
+`amv
+`fhQZ
+`nhQZ
+`unv
 a:fulltype
 a:typeparam
+aBvhQZ
 acosf
 allowed_api_features
 allowed_requirements
@@ -3581,11 +3602,12 @@ elems
 embedded_animation
 emptyanimwithnoeffect
 exp2
-f@Pgo
+f@Pho
 fSpeedScale
 fast
 fetched: %s : %.3f\n
 ffffff
+fhQZ
 field_name
 flDegrees
 flDuration
@@ -3794,18 +3816,26 @@ nMaxElements
 nNumerator
 nValue
 next
+nhQZ
 no samples
 numframes
 offBeforeFinished
 offWhenFinished
 optionallycompressedtangentframe
-p08@H^
+p08@H^hQZ
+p4\Z
+p60n]
+p>hQZ
 pCheckpointName
 pDescription
+pF@Y]
+pLOZ
 pTagName
+p\r`\fPLOZ
 parameters
 parent to constrained
 particleslib
+pnhQZ
 polymorphic_arg
 posxyz
 preview
@@ -3815,6 +3845,7 @@ propattr_force_readonly
 pulse_node_custom_attributes
 pulse_runtime_lib
 r\vp!4
+r\vp4\Z
 rad2deg
 random_position
 remainingRootMotionToWarp\t[%f] [%s]
@@ -3862,6 +3893,7 @@ vecValue
 vecValueA
 vecValueB
 very_fast
+vhQZ
 weaponType
 whileCurrent
 worldrelative

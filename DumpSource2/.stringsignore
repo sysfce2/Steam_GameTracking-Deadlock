@@ -2172,6 +2172,7 @@ CCitadelTrackedProjectile
 CCitadelTriggerCapturePoint
 CCitadelTriggerHideout
 CCitadelTriggerHurt
+CCitadelTriggerMultiCapturePoint
 CCitadelTriggerNoPortals
 CCitadelTrooperMinimap
 CCitadelTunnelTrigger
@@ -4036,6 +4037,7 @@ CCitadel_Modifire_Bookworm_DragonFire
 CCitadel_Modifire_Priest_FlashBangBurn
 CCitadel_Modifire_Priest_FlashBangBurnAura
 CCitadel_Modifire_Priest_FlashBangBurnAuraVData
+CCitadel_MultiCapturePointVData
 CCitadel_NPCAbility_Shield
 CCitadel_NPCAbility_Shield_VData
 CCitadel_NPCAbility_Vanguard_AOEBuff
@@ -7491,8 +7493,10 @@ Capture Selected Bones
 Capture Settings
 Capture a specific cubemap with RenderDoc during buildcubemaps.
 Capture dual shadow maps during sparseshadowtree generation.
+Capture progress will hold at this percent when contested by multiple teams
 CaptureAllBones
 CapturePointSettings_t
+CapturePointTeamState_t
 CaptureSelectedBones
 Captures the closest zipline node
 Cast Completed "hero_action" value
@@ -7990,6 +7994,8 @@ Cycle through specified convar values.
 Cycle time
 Cycles focus between the game window and undocked imgui windows
 Cyclic Coordinate Descent solver - A solver that can handle any number of bones and works by iteratively solving for the rotation of each bone in the chain.
+Cylinder - Centered (SLOW PERF)
+Cylinder - Ground (SLOW PERF)
 D
 DEAD
 DEFAULT
@@ -11521,6 +11527,7 @@ How long pre-match is until we start the match
 How long pre-match is until we start the match in the full version
 How long pre-match is until we start the match in the simple version.
 How long should the warning be up before it boots the user from the MM queue
+How long someone can be outside the circle before they are considered absent
 How long the debug draws stick around for, unless they're per-tick.
 How long the face to black should be for the teleports
 How long the shield effect lingers after having taken damage
@@ -12271,6 +12278,7 @@ Kill Particle
 Kill after current node.
 Kill elegantly.
 Kill immediately.
+Kill nearby neutrals.
 Kill switch for the idle detection system
 Kill switch for the lost lobby functionality
 Kill switch in case we want to make sure the survey isn't shown, or temporarily disable it
@@ -12585,6 +12593,7 @@ Looks at the target player's center, instead of his eye position, in chase came 
 Loop
 Loop Sound
 Loop XFade
+Loop that plays when both teams are actively capturing.
 Loop that plays when the enemy team is actively capturing.
 Loop that plays when the friendly team is actively capturing.
 Loop that plays while the capture point is active.
@@ -14525,6 +14534,7 @@ OnLookTargetChanged
 OnMirageTornadoStateChanged
 OnModifierPointerChanged
 OnMoveTypeChanged
+OnMultiEnableStateChanged
 OnMyWeaponsChanged
 OnNavIgnoreChanged
 OnNetBoolVarChanged
@@ -16586,6 +16596,7 @@ SOLID
 SOLID_BBOX
 SOLID_BSP
 SOLID_CAPSULE
+SOLID_CYLINDER
 SOLID_LAST
 SOLID_NONE
 SOLID_OBB
@@ -18178,6 +18189,7 @@ Task Blocking + Force Facing
 Task Handshake Tag
 TaskHandshakeScope_t
 TaskStatus_t
+TeamIdolState_t
 TeamReveal
 Teammate footstep sounds are relative to whoever we're spectating.
 Tech
@@ -18488,6 +18500,7 @@ Time interval between NPC thinks
 Time interval between NPC thinks when set to AI LOD low.
 Time interval between NPC thinks when set to AI LOD medium.
 Time interval between NPC thinks when set to AI LOD very low.
+Time it takes to fully capture
 Time scale
 Time spent at 0.0 speed before fade.
 Time to crossfade sound effects between soundscapes
@@ -22834,6 +22847,7 @@ eCannotClear
 eCenter
 eCenterToCenter
 eCenteredCapsule
+eCenteredCylinder
 eChest
 eChoreo
 eClear
@@ -22904,6 +22918,7 @@ eGoalOffsetInLocalYaw
 eGround
 eGroundBox
 eGroundCapsule
+eGroundCylinder
 eGunfire
 eHead
 eHideAlways
@@ -25901,6 +25916,7 @@ m_EndPointSpaceA
 m_EndPointSpaceB
 m_EndTime
 m_EndingForce
+m_EnemyAndFriendlyCapturingLoopSounds
 m_EnemyAura
 m_EnemyAuraModifier
 m_EnemyCapturingLoopSounds
@@ -26264,8 +26280,6 @@ m_HitBoxSets
 m_HitBoxes
 m_HitConfirmSound
 m_HitParticle
-m_HitParticleEnemy
-m_HitParticleFriendly
 m_HitSound
 m_HitTargetSound
 m_HitWorldSound
@@ -26317,8 +26331,6 @@ m_IdealNPCState
 m_IdealYaw
 m_IdleLoopSound
 m_IdleParticle
-m_IdleParticleEnemy
-m_IdleParticleFriendly
 m_IdlingLoopSound
 m_IdolDroppingParticle
 m_IdolModel
@@ -26921,6 +26933,7 @@ m_OnOscillateStartArrive
 m_OnOscillateStartDepart
 m_OnOut
 m_OnOutOfWorld
+m_OnOverheldDamageParticle
 m_OnPass
 m_OnPassThrough
 m_OnPassThroughForward
@@ -28085,6 +28098,7 @@ m_ZipLineTetherParticle
 m_ZipLineTetherStartParticle
 m_ZipboostModifier
 m_ZombieSummonModifier
+m_ZoneParticle
 m_aAngOffset
 m_aAttachedObjects
 m_aAttachedObjectsFromServer
@@ -28521,6 +28535,7 @@ m_bCapSimultanousAttackers
 m_bCapsule
 m_bCapturable
 m_bCardIsFlying
+m_bCashedIn
 m_bCastShadows
 m_bCastStaticShadows
 m_bCastWhileAttached
@@ -28643,6 +28658,7 @@ m_bDepthWriteEnable
 m_bDerivative
 m_bDestroyAfterReload
 m_bDestroyImmediately
+m_bDestroyNearbyNeutrals
 m_bDestroyed
 m_bDetachFromOwner
 m_bDetailObject
@@ -28971,6 +28987,8 @@ m_bGammaCorrectVertexColors
 m_bGenerateMuzzleLight
 m_bGenerateNormals
 m_bGetUpCamSeqStarted
+m_bGiveUpHasWarned
+m_bGivenUp
 m_bGlassInFrame
 m_bGlassNavIgnore
 m_bGlobalCenter
@@ -29241,6 +29259,7 @@ m_bIsBackground
 m_bIsBeingBlocked
 m_bIsBeingCaptured
 m_bIsBlinking
+m_bIsBlocked
 m_bIsBoneID
 m_bIsBoneSpaceOffset
 m_bIsBoneTarget
@@ -31072,8 +31091,8 @@ m_eType != MODIFIER_SCRIPT_VARIANT_MODIFIER_FLOAT && m_eType != MODIFIER_SCRIPT_
 m_eType != MODIFIER_SCRIPT_VARIANT_PARTICLE
 m_eType != eGenericCapsule
 m_eType != eGroundBox
-m_eType != eGroundCapsule && m_eType != eCenteredCapsule
-m_eType != eGroundCapsule && m_eType != eGenericCapsule && m_eType != eCenteredCapsule
+m_eType != eGroundCapsule && m_eType != eCenteredCapsule && m_eType != eCenteredCylinder && m_eType != eGroundCylinder
+m_eType != eGroundCapsule && m_eType != eGenericCapsule && m_eType != eCenteredCapsule && m_eType != eCenteredCylinder && m_eType != eGroundCylinder
 m_eUltState
 m_eUpgradeType
 m_eValType
@@ -31798,15 +31817,12 @@ m_flCapsuleRadius
 m_flCapsuleRadiusOverride
 m_flCapsuleTriggerRadius
 m_flCaptureProgress
+m_flCaptureProgressFrac
 m_flCaptureSpeedPerPlayer
 m_flCaptureTime
 m_flCarrierFrequency
 m_flCartSpeed
 m_flCartSpeedFast
-m_flCashInTime
-m_flCashInTimeExtension
-m_flCashInTimeFavored
-m_flCashInTimeUnfavored
 m_flCastCompleteToAttackTime
 m_flCastCompletedTime
 m_flCastDelayMax
@@ -31815,7 +31831,6 @@ m_flCastDelayMin
 m_flCastDelayStartTime
 m_flCastTime
 m_flCastTimeDamage
-m_flCasterBonusPercent
 m_flCasterSpeed
 m_flCatchUpSpeed
 m_flCenterBulletRadiusOverride
@@ -32293,6 +32308,7 @@ m_flDrainScale
 m_flDrainSuppressEndTime
 m_flDrawDistance
 m_flDropDownRate
+m_flDropOffPlayerBonusPercent
 m_flDropSpeed
 m_flDrowningDamageInterval
 m_flDuckOffHorizontal
@@ -32807,6 +32823,7 @@ m_flHitStrength
 m_flHitThrowerDelay
 m_flHitboxFireScale
 m_flHitboxVelocityScale
+m_flHoldAtPercent
 m_flHoldBombOffsetX
 m_flHoldBombOffsetY
 m_flHoldBombOffsetZ
@@ -32824,7 +32841,6 @@ m_flHorizontalPunch
 m_flHorizontalSpawnOffset
 m_flHorizontalTime
 m_flHourChimeInterval
-m_flHoverHeight
 m_flHoverInputAcceleration
 m_flHoverInputSpeedMax
 m_flHoverOffset
@@ -32921,7 +32937,6 @@ m_flInputScale1
 m_flInputScale2
 m_flInputValue
 m_flInsideThreshold
-m_flInstantGoldPercentage
 m_flIntensity
 m_flIntentMultiplier
 m_flIntentMultiplierApproachSpeed
@@ -34624,6 +34639,7 @@ m_flStepHeightDecreaseScale
 m_flStepHeightIncreaseScale
 m_flStepHeightMax
 m_flStepHeightMaxAngle
+m_flStepOutGraceWindow
 m_flStepSoundTime
 m_flStepUpHeight
 m_flStickyBreakRange
@@ -34842,6 +34858,7 @@ m_flTimeToBlendToNewOrientation
 m_flTimeToDamage
 m_flTimeToEndScale
 m_flTimeToExpire
+m_flTimeToGiveUp
 m_flTimeToHintRefresh
 m_flTimeToHoldBeforeBeginJetpack
 m_flTimeToNextGust
@@ -34854,6 +34871,7 @@ m_flTimeToStartScale
 m_flTimeToTraverseToNextNode
 m_flTimeToTrigger
 m_flTimeToWaitOscillate
+m_flTimeToWarnAboutGivingUp
 m_flTimeValueSeconds
 m_flTimelineCallModeIconSize
 m_flTimelineCursorHeight
@@ -34890,6 +34908,9 @@ m_flTotalPendingDamage
 m_flTotalPendingHeal
 m_flTotalProbability
 m_flTotalTimeLookedAtCaster
+m_flTotalTimeToCapture
+m_flTotalTimeToCaptureFavored
+m_flTotalTimeToCaptureUnfavored
 m_flTotalledDamage
 m_flTotalledPreModifiedDamage
 m_flTouchDelta
@@ -35193,6 +35214,8 @@ m_flZombieSpawnNavMeshSearchDistance
 m_flZombieSpawnVerticalOffset
 m_flZone1Distance
 m_flZone2Distance
+m_flZoneHeightMeters
+m_flZoneRadiusMeters
 m_flZoomFOV
 m_flZoomFOV_Relative
 m_flZoomMoveSpeedPercent
@@ -35419,6 +35442,7 @@ m_hDoorList
 m_hDoorModel
 m_hDoorwayAbility
 m_hDragger
+m_hDropOffPlayer
 m_hDummy
 m_hDummyForCamera
 m_hDynamicEntity
@@ -36613,6 +36637,7 @@ m_nAlphaReferenceType
 m_nAlphaTestPointField
 m_nAlphaTestRangeField
 m_nAlphaTestSharpnessField
+m_nAmberNetworth
 m_nAmbientEffect
 m_nAmbientLoopingSoundRecipients
 m_nAmbientLoopingSoundSource
@@ -36834,6 +36859,7 @@ m_nCapsuleLightBehavior == PARTICLE_LIGHT_BEHAVIOR_FOLLOW_DIRECTION || m_nCapsul
 m_nCapsuleLightBehavior == PARTICLE_LIGHT_BEHAVIOR_FOLLOW_DIRECTION || m_nCapsuleLightBehavior == PARTICLE_LIGHT_BEHAVIOR_TRAILS
 m_nCapsuleLightBehavior == PARTICLE_LIGHT_BEHAVIOR_ROPE || m_nCapsuleLightBehavior == PARTICLE_LIGHT_BEHAVIOR_TRAILS
 m_nCaptureProgressOwner
+m_nCapturerCount
 m_nCardNum
 m_nCascadeRenderStaticObjects
 m_nCascades
@@ -37239,6 +37265,7 @@ m_nFxIndex
 m_nGameFlags
 m_nGameIndex
 m_nGameOverEvent
+m_nGiveUpOrbs
 m_nGlintParticleIndex
 m_nGlowRange
 m_nGlowRangeMin
@@ -37339,7 +37366,6 @@ m_nIKAnchorBoneIndex
 m_nId
 m_nIdealMotionType
 m_nIdleAnimLoopMode
-m_nIdolCashInTeam
 m_nIdolScoringTeam
 m_nIgnoreCP
 m_nImportance
@@ -37764,8 +37790,6 @@ m_nOutputWhitePointRGB
 m_nOutsideWorld
 m_nOverlayRenderOrder
 m_nOverrideBlockLOS
-m_nOverrideCP
-m_nOverrideCPField
 m_nOverrideFlinchHitGroup
 m_nOverrideStyle
 m_nOversampleFactor
@@ -37967,6 +37991,7 @@ m_nSDFRigidIndex
 m_nSampleCount
 m_nSampleStart
 m_nSamples
+m_nSapphireNetworth
 m_nSatVolumeIndex
 m_nSaturation
 m_nSaturationBlue
@@ -38341,6 +38366,7 @@ m_nYTopDst
 m_nZAxisScalingAttribute
 m_nZCount
 m_nZSpacing
+m_nZoneParticle
 m_name
 m_nameAnchor
 m_nameAttach
@@ -39503,9 +39529,6 @@ m_strCSSClass
 m_strCantCastOutOfResourceToken
 m_strCardCastSound
 m_strCardSummonSound
-m_strCashInLoopEndSound
-m_strCashInLoopSound
-m_strCashInLoopStartSound
 m_strCastAnimGraphParam
 m_strCastAnimSequenceName
 m_strCastButtonLocToken
@@ -39964,8 +39987,6 @@ m_strSwipeParticle
 m_strSwipeTracerParticleLeft
 m_strSwipeTracerParticleRight
 m_strSwipeTracerParticleRightMove
-m_strSwitchOpponentSound
-m_strSwitchTeamSound
 m_strTarget
 m_strTargetCompleteSound
 m_strTargetEnemyParticleEffect
@@ -40010,9 +40031,16 @@ m_strUIShoppingMap
 m_strUITeamRevealMap
 m_strUnlockPrereq
 m_strUnselectedSound
+m_strUrnBlockedOpponentSound
+m_strUrnBlockedSound
 m_strUrnCashedInSoundEnemy
 m_strUrnCashedInSoundFriendly
+m_strUrnCashinLoopSound
+m_strUrnGiveUpSound
+m_strUrnGiveUpTempVocalizeSound
+m_strUrnGiveUpWarnSound
 m_strUrnMeleeDropSound
+m_strUrnOverheldDamageSound
 m_strUsedCastGraphParam
 m_strVacuumStartSound
 m_strValue
@@ -40260,8 +40288,8 @@ m_timeBeginFailedSteer
 m_timeDamage
 m_timeElapsedEvents
 m_timeEnemyDisappeared
-m_timeIdolCashInEnd
-m_timeIdolCashInStart
+m_timeIdolCashInStarted
+m_timeIdolGiveUp
 m_timeIdolScoring
 m_timeLastSpawnCrates
 m_timeLastUpdate
@@ -40532,6 +40560,7 @@ m_vHomePosition
 m_vHoverPosePosition
 m_vHullMax
 m_vHullMin
+m_vIdolCashInCurrentLocation
 m_vImpactPos
 m_vImpactVel
 m_vImposterPos
@@ -41346,6 +41375,7 @@ m_vecTargets
 m_vecTargetsHit
 m_vecTargetsInCone
 m_vecTargettingTiers
+m_vecTeamIdolStates
 m_vecTeleportOrigin
 m_vecTeleportPosition
 m_vecTeleportPositionNormal
@@ -42464,8 +42494,6 @@ outputSubmix
 overall size multiplier (-1 count based distribution)
 overbright factor
 overlay_vars
-override CP field
-override max velocity from this CP
 override owner's camera target with this entity
 override translucent materials
 p2p_FightingGame_Connection

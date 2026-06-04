@@ -2555,11 +2555,11 @@ $tI(knN
 00A+
 0123456789abcdef
 0123456789abcdefghijklmnopqrstuvwxyz
+07:44:07
 08@HP
 08@HR
 08@J
 08\fj
-09:52:22
 0: Force z prepass off. 1: Force on. -1: Don't force
 0: Use normals reconstructed from depth. 1: Output correct normals in z prepass.
 0: run all send jobs on main thread; 1: send jobs run asynchronously (except on dedicated server); 2: send jobs asynchronously; 3: send jobs run in parallel but block to not overlap the next tick; 4: main server clients' send jobs run in parallel, then HLTV server jobs; this approximately matches pre-async profile for a single HLTV server configuration
@@ -3293,7 +3293,6 @@ Application transferred too few scanlines
 Application transferred too many scanlines
 Application unable to load gameinfo.gi file from directory "%s"\n%s
 ApplicationInfo
-Apr  3 2026
 April
 Arabic
 AreFileApisANSI
@@ -5831,6 +5830,7 @@ Joystick
 July
 JumpOrLeap( C%d:I%d )
 Jumping to random tick %d (%.2f min)\n
+Jun  4 2026
 June
 JustInTime Resource Spawn Group
 JustInTimeManifest
