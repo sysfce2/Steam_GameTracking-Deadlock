@@ -204,7 +204,6 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
- .0C2
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -14072,7 +14071,7 @@ $light_emissive
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
 .PF2
-.PO2
+.PQ2
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14645,12 +14644,14 @@ $light_emissive
 4)m1
 474E4U4W4c4i4m4
 4<Td
+4?\fp7
 4@AA
 4Ch;
 4F0I
 4Mv8
 4Zis
 4\fPl
+4\fp7
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
 4\n0PARTICLE_SYSTEM_MANAGER_EVENT_UPDATE_ORIENTATION
@@ -14702,10 +14703,8 @@ $light_emissive
 6%vi
 6,2K
 6-zeZ
-60$2
 60000
-6062
-60N2
+60?2
 62$|S)6f
 64CK\vH
 65535
@@ -14715,9 +14714,10 @@ $light_emissive
 6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
+6@62
+6@N2
 6H,N
 6O|T%
-6P22
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14729,6 +14729,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
+6`22
 6afD
 6bX+
 6c&0|vvX
@@ -14736,6 +14737,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
+6p(2
 6qo~
 6r-m_v
 6r1ij
@@ -14785,7 +14787,8 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8F &2
+8F '2
+8F0&2
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15050,12 +15053,11 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N4
+@08ND
 @0pp
-@6082
-@6p72
+@6@82
 @BH]f
-@HPX`hv`\t2
+@HPX`hvp\t2
 @MfKZ
 @Pgl
 @Pu\rm
@@ -25718,7 +25720,8 @@ P-224
 P-256
 P-384
 P-521
-P08N4
+P08J 
+P08ND
 P1\t98"
 P5[1
 PAGN_4
@@ -26689,6 +26692,7 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vpp
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30187,7 +30191,7 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
-VPC2
+VP:2
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -30199,6 +30203,7 @@ V\n\vItemCharges
 V\rKk
 V_a|I
 V_strcmp( pDataMap->dataClassName, pCodeClass ) == 0
+V`C2
 VacuumRadius
 ValidatePrivateScriptScope
 ValidateVertices
@@ -30668,9 +30673,9 @@ XWY]
 XYD%
 X\tQo
 Xd3h
-Xf )2
-Xf@*2
+Xf0)2
 XfJ7
+XfP*2
 XjfR
 XqgA+
 Xuub
@@ -30939,6 +30944,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31885,6 +31891,7 @@ Z~wl
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
+^pN2
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -31942,7 +31949,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6092
+`6@92
 `:zQF
 `D$daM-l
 `DZG
@@ -31952,7 +31959,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`ht0
 `o_je
 `yNT
 a null shared library handle was used
@@ -31971,7 +31977,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4
+aBvD
 aD/x
 aDSS
 aECDH
@@ -34681,6 +34687,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
+dq\fP
 draft
 draft_item_sets
 drag_override
@@ -39538,7 +39545,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nP&2
+nP'2
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -40164,7 +40171,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4
+p08@H^D
 p2{l
 p4Z3
 p5Z3
@@ -43596,6 +43603,7 @@ uvs are all identical
 uxX/
 v'A>M6
 v)56
+v0\f2
 v0o/5
 v1(0)
 v1GZ
@@ -44110,11 +44118,11 @@ zz2K
 }Xee+
 }gE3
 }n2W
+~0L2
 ~9ob
 ~If D
 ~P2T
 ~R65Fu
 ~jLRG
-~pC2
 ~w]UG
 ~yhZ

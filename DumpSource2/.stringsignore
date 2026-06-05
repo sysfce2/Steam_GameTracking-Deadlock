@@ -30455,6 +30455,7 @@ m_bWarpTranslation
 m_bWasActive
 m_bWasBlockIdleTagActive
 m_bWasBlockIdleTurnTagActive
+m_bWasBlockedAtAnyPoint
 m_bWasDamageSuppressed
 m_bWasEnabled
 m_bWasLatchedWhenCast
