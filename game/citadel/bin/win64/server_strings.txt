@@ -1685,6 +1685,7 @@ $light_emissive
 (d4t8
 (debug)
 (default)
+(f 22
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
@@ -2057,6 +2058,7 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
+.072
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14051,7 +14053,7 @@ $light_emissive
 .MODIFIER_ENTRY_TYPE
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
-.P82
+.P72
 .PARTICLE_MESSAGE
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
@@ -14070,8 +14072,6 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PF2
-.PQ2
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14359,7 +14359,6 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p82
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14644,14 +14643,12 @@ $light_emissive
 4)m1
 474E4U4W4c4i4m4
 4<Td
-4?\fp7
 4@AA
 4Ch;
 4F0I
 4Mv8
 4Zis
 4\fPl
-4\fp7
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
 4\n0PARTICLE_SYSTEM_MANAGER_EVENT_UPDATE_ORIENTATION
@@ -14703,8 +14700,10 @@ $light_emissive
 6%vi
 6,2K
 6-zeZ
+60"2
+60$2
 60000
-60?2
+60D2
 62$|S)6f
 64CK\vH
 65535
@@ -14714,8 +14713,8 @@ $light_emissive
 6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@62
-6@N2
+6@M2
+6@S2
 6H,N
 6O|T%
 6Qd=
@@ -14729,7 +14728,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`22
+6`F2
 6afD
 6bX+
 6c&0|vvX
@@ -14737,7 +14736,8 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p(2
+6p>2
+6pS2
 6qo~
 6r-m_v
 6r1ij
@@ -14787,8 +14787,7 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8F '2
-8F0&2
+8B0)
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15053,11 +15052,11 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08ND
+@08N
 @0pp
-@6@82
 @BH]f
-@HPX`hvp\t2
+@HPX`hv
+@HVp 2
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15072,6 +15071,7 @@ $light_emissive
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
+@ht@N
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -15092,6 +15092,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:pG
 AABBDirection
 AACompromise
 AC2,h
@@ -19716,7 +19717,6 @@ Comeback Capped. Would have been: %0.1f\n
 Comeback Gold
 Comeback Gold Urn
 Comeback Inactive\n
-Comeback Possibly Incorrect\n
 Comeback Urn - GameTime: %0.1f, Base Gold: %d, Extra Gold: %d, flComebackMultiplier: %0.1f, Sapphire Team Gold: %d, Amber Team Gold: %d\n
 Comeback Urn Captured: %.2fs Elapsed time, Amber vs Sapphire Participants: ( %d vs %d )\n
 Comeback Urn Give Up: %.2fs Elapsed time, Amber vs Sapphire Participants: ( %d vs %d )\n
@@ -20538,6 +20538,7 @@ Didnt supply startpos and endpos to Script TraceLine call, failing, setting call
 Didnt supply startpos, endpos, and ent to Script TraceCollideable call, failing, setting called to false\n
 Didnt supply startpos, endpos, min, and max to Script TraceHull call, failing, setting called to false\n
 Different CRL scope
+Difficulty Bonus For Winning Team\n
 Diffie-Hellman based MAC
 Diffie-Hellman part of OpenSSL 1.0.2j  26 Sep 2016
 Diffie-Hellman routines
@@ -25720,10 +25721,10 @@ P-224
 P-256
 P-384
 P-521
-P08J 
-P08ND
+P08N
 P1\t98"
 P5[1
+P6`>2
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26692,7 +26693,6 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpp
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30191,7 +30191,6 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
-VP:2
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -30203,7 +30202,6 @@ V\n\vItemCharges
 V\rKk
 V_a|I
 V_strcmp( pDataMap->dataClassName, pCodeClass ) == 0
-V`C2
 VacuumRadius
 ValidatePrivateScriptScope
 ValidateVertices
@@ -30673,9 +30671,9 @@ XWY]
 XYD%
 X\tQo
 Xd3h
-Xf0)2
+Xf0(2
 XfJ7
-XfP*2
+XfP)2
 XjfR
 XqgA+
 Xuub
@@ -30944,7 +30942,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31888,10 +31885,11 @@ Z~wl
 ^DqPt
 ^J_spY
 ^Nij
+^PD2
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
-^pN2
+^pM2
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -31949,7 +31947,8 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6@92
+`2pG
+`6@I2
 `:zQF
 `D$daM-l
 `DZG
@@ -31977,7 +31976,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvD
 aD/x
 aDSS
 aECDH
@@ -34687,7 +34685,6 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
-dq\fP
 draft
 draft_item_sets
 drag_override
@@ -39517,6 +39514,7 @@ n5cM
 n6j/
 n:2C[
 n@PK
+n@Q2
 nAlpha
 nAttributeValue
 nBodyGroup
@@ -39545,7 +39543,6 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nP'2
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -40171,7 +40168,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^D
+p08@H^
+p0j@
+p20)
 p2{l
 p4Z3
 p5Z3
@@ -43601,9 +43600,9 @@ util4
 util5
 uvs are all identical
 uxX/
+v O2
 v'A>M6
 v)56
-v0\f2
 v0o/5
 v1(0)
 v1GZ
@@ -44118,7 +44117,6 @@ zz2K
 }Xee+
 }gE3
 }n2W
-~0L2
 ~9ob
 ~If D
 ~P2T
