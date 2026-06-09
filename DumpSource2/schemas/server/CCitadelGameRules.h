@@ -44,6 +44,7 @@
 // MNetworkVarNames = "int m_iPauseTeam"
 // MNetworkVarNames = "int m_nMatchClockUpdateTick"
 // MNetworkVarNames = "float m_flMatchClockAtLastUpdate"
+// MNetworkVarNames = "float m_fUnpauseRawTime"
 // MNetworkVarNames = "bool m_bRequiresReportCardDismissal"
 // MNetworkVarNames = "int m_eGGTeam"
 // MNetworkVarNames = "GameTime_t m_flGGEndsAtTime"
@@ -177,6 +178,7 @@ class CCitadelGameRules : public CTeamplayRules
 	CPlayerSlot m_unpausingPlayerId;
 	float32 m_fPauseRawTime;
 	float32 m_fPauseCurTime;
+	// MNetworkEnable
 	float32 m_fUnpauseRawTime;
 	float32 m_fUnpauseCurTime;
 	// MNetworkEnable

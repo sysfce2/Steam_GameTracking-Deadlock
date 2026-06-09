@@ -850,6 +850,12 @@
 		m_bAllowApplicationPrediction = false
 		m_nEnabledStateMask = "MODIFIER_STATE_CINEMATIC_INTRO"
 	}
+	modifier_pause_unpause = 
+	{
+		_class = "modifier_pause_unpause"
+		m_eDebuffType = "MODIFIER_DEBUFF_NO"
+		m_bIsHidden = true
+	}
 	modifier_street_brawl_intro_player = 
 	{
 		_class = "modifier_cinematic_intro_player"

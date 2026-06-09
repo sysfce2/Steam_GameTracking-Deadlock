@@ -181,6 +181,12 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
+ (08@HPX`j@
+ (08@HPXb0
+ (08@HPZ@
+ (08@HR0
+ (08@J0
+ (0X`hpz0
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -204,6 +210,7 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
+ .pL2
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -1686,7 +1693,6 @@ $light_emissive
 (debug)
 (default)
 (fS{ggRcjh
-(f`32
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
@@ -2058,9 +2064,8 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.092
-.0G2
-.0P2
+.0Z2
+.0c2
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -3844,6 +3849,7 @@ $light_emissive
 .?AV?$CModifierFactory@VCCitadel_Modifier_PatronsBlessingEnemyTracker@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_PatronsBlessingProcWatcher@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_PatronsBlessingTarget@@$0PPPP@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_PauseUnPause@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_PerchedPredatorDrag@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_PermanentPickup@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Petrify@@$0PPPP@@@
@@ -4971,6 +4977,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fStartFrame@CBeam@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fSunLightStrength@CEnvVolumetricFogVolume@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fTurbulence@CEnvWindController@@@@
+.?AV?$CNetworkVarBase@MVNetworkVar_m_fUnpauseRawTime@CCitadelGameRules@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fVolumeHalfExtentXY@CEnvWindController@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fVolumeHalfExtentZ@CEnvWindController@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fWidth@CBeam@@@@
@@ -6991,6 +6998,7 @@ $light_emissive
 .?AV?$CSubclassFactory@VCCitadel_Modifier_PatronsBlessingEnemyTracker@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_PatronsBlessingProcWatcher@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_PatronsBlessingTarget@@VCBaseModifier@@@@
+.?AV?$CSubclassFactory@VCCitadel_Modifier_PauseUnPause@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_PerchedPredatorDrag@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_PermanentPickup@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Petrify@@VCBaseModifier@@@@
@@ -10351,6 +10359,7 @@ $light_emissive
 .?AVCCitadel_Modifier_PatronsBlessingProcWatcher@@
 .?AVCCitadel_Modifier_PatronsBlessingProcWatcherVData@@
 .?AVCCitadel_Modifier_PatronsBlessingTarget@@
+.?AVCCitadel_Modifier_PauseUnPause@@
 .?AVCCitadel_Modifier_PerchedPredatorDrag@@
 .?AVCCitadel_Modifier_PermanentPickup@@
 .?AVCCitadel_Modifier_PermanentPickupVData@@
@@ -14055,7 +14064,6 @@ $light_emissive
 .MODIFIER_ENTRY_TYPE
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
-.P92
 .PARTICLE_MESSAGE
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
@@ -14074,7 +14082,10 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PI2
+.PU2
 .PartnerAccountType
+.Pc2
 .PingCommonData
 .PostProcessingGameStates
 .Q.Ol
@@ -14361,7 +14372,7 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p82
+.pI2
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14420,11 +14431,15 @@ $light_emissive
 0123456789
 02V8[
 05=k
+08@HR@
+08@J0
+08B@
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
+0>P72
 0AgffA
 0M2~@p
 0W/5
@@ -14590,6 +14605,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vp4
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14646,11 +14662,13 @@ $light_emissive
 4)m1
 474E4U4W4c4i4m4
 4<Td
+4?\fPE
 4@AA
 4Ch;
 4F0I
 4Mv8
 4Zis
+4\fPE
 4\fPl
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
@@ -14679,7 +14697,7 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
-5\fG7
+5\fwE
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14699,26 +14717,28 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
+6 N2
+6 c2
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-6032
 62$|S)6f
 64CK\vH
 65535
 65535"
 65535"j\n
 65535B$
-6666666666666666
+66666666666666660\v
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
+6@82
 6H,N
 6O|T%
 6Qd=
-6\fG7
+6\fwE
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14729,6 +14749,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
+6`92
 6afD
 6bX+
 6c&0|vvX
@@ -14736,9 +14757,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p#2
-6p%2
-6pE2
+6pN2
 6qo~
 6r-m_v
 6r1ij
@@ -14788,7 +14807,8 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8Bp*
+8F`62
+8Fp52
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14888,7 +14908,7 @@ $light_emissive
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;Dm_iszSpawnGroupName
+;DCGameScriptedMoveDef_t
 ;LGEW
 ;Qo0
 ;X94<
@@ -15045,8 +15065,6 @@ $light_emissive
 ?ffffff
 ?gwL
 ?jOb
-?m_AIPhysicsModifier
-?m_flRangeAtCast
 ?srJO
 ?tya
 ?uWS
@@ -15055,9 +15073,10 @@ $light_emissive
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
-@6P82
+@6p,2
 @BH]f
-@HPX`hv@\n2
+@HPX`hv
+@HV 02
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15092,11 +15111,12 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA: W
 AABBDirection
 AACompromise
 AC2,h
 ACCESS_DESCRIPTION
-ACCitadel_Modifier_Dust_Storm_Aura
+ACCitadel_Modifier_Dust_Storm_Aura_Apply
 ACHIEVEMENT_EVENT_
 ACID
 ACPT_STATE
@@ -15819,7 +15839,7 @@ BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
-BCITADEL_PING_WHEEL_SOUND_MAP_PING
+BCITADEL_PING_LETS_GO_THIS_WAY
 BCPulseServerFuncs::AddVelocityToAllEntitiesWithinRadius
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
@@ -20259,6 +20279,7 @@ DSO_set_filename
 DSO_set_name_converter
 DSO_up_ref
 DSS1
+DSource2GameDirector001
 DTLS1_ADD_CERT_TO_BUF
 DTLS1_BUFFER_RECORD
 DTLS1_GET_HELLO_VERIFY
@@ -20381,7 +20402,6 @@ DateTime('UTC')
 DazeDuration
 DbgBit
 DcO/lcK+hSK
-Dcitadel_upload_metadata_enabled
 Dd g4X3
 Deactivate
 Deactivated
@@ -21527,6 +21547,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FP=2
 FU\n-XP
 FVisible
 FV|FgUV
@@ -25720,6 +25741,8 @@ P-224
 P-256
 P-384
 P-521
+P08@J0
+P08J`
 P08N
 P1\t98"
 P5[1
@@ -26688,6 +26711,7 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
+R\fp4
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
@@ -28623,7 +28647,6 @@ Source1LegacyGameEvent_t
 Source1LegacyListenEvents_t
 Source2EntitySystem
 Source2EntitySystemDeallocator
-Source2GameDirector001
 Source2Metrics.MatchPerfSummary#1
 Source2Metrics.RecordPlayStats#1
 SourceEntityName
@@ -30143,7 +30166,6 @@ Ut]<E
 Uv1t
 Uz_G3=
 V07;m
-V0D2
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -30669,10 +30691,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr@
 Xd3h
-Xf +2
 XfJ7
-Xfp)2
+Xfp82
 XjfR
 XqgA+
 Xuub
@@ -31953,6 +31975,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -34285,7 +34308,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\t0
 dSAQuality
 dWry
 dZ!2.
@@ -36456,6 +36478,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
+hpz0
 hr_H
 http request
 https proxy request
@@ -39163,6 +39186,7 @@ modifier_patrons_blessing_aura
 modifier_patrons_blessing_enemy_tracker
 modifier_patrons_blessing_proc_watcher
 modifier_patrons_blessing_target
+modifier_pause_unpause
 modifier_perched_predator_drag
 modifier_permanent_pickup
 modifier_play_effect_on_death
@@ -39504,7 +39528,6 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n0'2
 n0?X
 n1Z 
 n5cM
@@ -39539,6 +39562,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
+nP<2
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -40165,7 +40189,6 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p2p*
 p2{l
 p4Z3
 p5Z3
@@ -41078,6 +41101,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vp4
 rad2deg
 radial
 radialalt
@@ -42717,7 +42741,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\t0
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -43656,7 +43679,6 @@ v_movement_stop_position
 v_navlink_exit_direction
 v_navlink_target
 v_navlink_up
-v`P2
 valid
 validation_errors
 validity
@@ -44057,7 +44079,6 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-zDCCitadel_Modifier_HideoutIntroVData
 zF):O4
 zFar
 zG2m8
@@ -44116,7 +44137,6 @@ zz2K
 ~9ob
 ~If D
 ~P2T
-~PD2
 ~R65Fu
 ~jLRG
 ~w]UG

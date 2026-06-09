@@ -89,9 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXbP{
- (08@HRP{
- (0X`hpzP{
+ (08@HPXb@
+ (0X`hpz@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -5158,6 +5157,7 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_PatronsBlessingEnemyTracker@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_PatronsBlessingProcWatcher@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_PatronsBlessingTarget@@$0PPPP@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_PauseUnPause@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_PerchedPredatorDrag@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_PermanentPickup@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Petrify@@$0PPPP@@@
@@ -6330,6 +6330,7 @@ $hRh
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fStartFrame@C_Beam@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fSunLightStrength@C_EnvVolumetricFogVolume@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fTurbulence@C_EnvWindController@@@@
+.?AV?$CNetworkVarBase@MVNetworkVar_m_fUnpauseRawTime@C_CitadelGameRules@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fVolumeHalfExtentXY@C_EnvWindController@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fVolumeHalfExtentZ@C_EnvWindController@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_fWidth@C_Beam@@@@
@@ -8358,6 +8359,7 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_PatronsBlessingEnemyTracker@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_PatronsBlessingProcWatcher@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_PatronsBlessingTarget@@VCBaseModifier@@@@
+.?AV?$CSubclassFactory@VCCitadel_Modifier_PauseUnPause@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_PerchedPredatorDrag@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_PermanentPickup@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Petrify@@VCBaseModifier@@@@
@@ -12175,6 +12177,7 @@ $hRh
 .?AVCCitadel_Modifier_PatronsBlessingProcWatcher@@
 .?AVCCitadel_Modifier_PatronsBlessingProcWatcherVData@@
 .?AVCCitadel_Modifier_PatronsBlessingTarget@@
+.?AVCCitadel_Modifier_PauseUnPause@@
 .?AVCCitadel_Modifier_PerchedPredatorDrag@@
 .?AVCCitadel_Modifier_PermanentPickup@@
 .?AVCCitadel_Modifier_PermanentPickupVData@@
@@ -16737,7 +16740,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@JP{
+08@J@
 08bX
 09,h
 0:00
@@ -17001,8 +17004,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpHX
-2\vp\fH
+2\vp8c
 2^pV
 2a"l
 2bT~
@@ -17218,7 +17220,6 @@ $hRh
 8<pl
 8= zp
 8A6j
-8BP!
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17478,7 +17479,6 @@ $hRh
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?ControlParameterNode
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?EncodeBC7Blocks
@@ -17510,14 +17510,13 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
+?ability_familiar_helpinghands
+?citadel_zipline_show_lane_colors_for_spectators
 ?d86L
 ?dt]X
 ?expf
 ?gwL
-?hq4
 ?jOb
-?m_strTurretParticle
-?observed someone who took {damage_percent} over the last N seconds, and have {target_healthfrac} now
 ?srJO
 ?tya
 ?uWS
@@ -17528,9 +17527,9 @@ $hRh
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
-@CCitadel_Modifier_Familiar_Exposed
 @CitadelArpeggiator_t
 @DebugIndividualStyle
+@HPX`hvP
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17548,6 +17547,7 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
+@ht0
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -17567,6 +17567,7 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
+AA:0
 AABBDirection
 AACompromise
 ABXY
@@ -18874,6 +18875,7 @@ BonusesContainer
 Book
 Book reader playing sound event '%s' without a duration!\n
 BookAchievementPage
+BookChapter
 BookChapterLink
 BookChoice
 BookChoiceNavButton
@@ -22694,6 +22696,7 @@ CitadelPopupJoinParty
 CitadelPopupJoinPartyCode
 CitadelPopupNewsPost
 CitadelPopupNewsPostClose
+CitadelPopupRankedInfo
 CitadelPopupRankedSummary
 CitadelPopupReportPlayerSubmitted
 CitadelPopupRosterSelect
@@ -23447,6 +23450,7 @@ Control Point:
 ControlBG
 ControlBarRow
 ControlFG
+ControlParameterNode
 Controller
 Controller: %s
 Controller: (%d) Name: %s
@@ -27596,6 +27600,7 @@ JoinSection
 JoiningChat
 JokerExtraCardSearchRadius
 JokerExtraCards
+JoystickCamera
 Jq;v
 Jq?a
 Jr\tA
@@ -28120,7 +28125,6 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MBookChapter
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -29409,13 +29413,11 @@ P-224
 P-256
 P-384
 P-521
-P08@JP{
+P08@J@
 P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
-P2P{
 P5[1
-P6`v
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30719,8 +30721,7 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpHX
-R\vp\fH
+R\vp8c
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34591,8 +34592,9 @@ WARNING: Too many essential breakpieces in one frame - this may cause performanc
 WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
+WC_BaseToggle
 WD%g"0Q-)
-WDCitadelPopupRankedInfo
+WDp(
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -34608,7 +34610,6 @@ WIN32_NAME_CONVERTER
 WIN32_PATHBYADDR
 WIN32_SPLITTER
 WIN32_UNLOAD
-WJoystickCamera
 WL6e}:
 WLs6
 WOCR
@@ -35239,6 +35240,7 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
+\f@ml-game-pregamewait
 \fAccoladeID_t
 \fCitadelMMR_t
 \fKS1
@@ -35249,7 +35251,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fpHX
+\fp8c
 \ful2
 \fy&3Gl
 \l:ArR
@@ -36282,6 +36284,7 @@ Z~wl
 \rKT8v
 \rLAM
 \rMinghuaQu\f
+\rMinimum value possible for fire rate
 \rTxL
 \rUHz4Z}\r
 \rWhO
@@ -36307,7 +36310,6 @@ Z~wl
 \r^mX
 \ri1I
 \rjwB\t
-\rm_flTimeToGiveUp
 \roKK
 \rrCj
 \rr_flashlightlockposition
@@ -36385,6 +36387,7 @@ Z~wl
 \tMatchID_t"9\n&CMsgGCToServerAllocateForMatchResponse
 \tMatchID_t"Z\n#CMsgClientToGCSpectateLobbyResponse
 \tNone\n
+\tPPJ
 \tParam BasePlayerWeapon returned NULL!\n
 \tParam selecting string is out of range!\n
 \tPartyID_t
@@ -36516,13 +36519,13 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
+\vPPJ
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
 \vj0k
 \vjC7
-\vpHX
-\vpPB
+\vp8c
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36747,7 +36750,6 @@ ability_familiar_clone_end
 ability_familiar_clonesingle
 ability_familiar_clonesingle_trigger
 ability_familiar_healhost
-ability_familiar_helpinghands
 ability_familiar_primary_weapon_bubblegun
 ability_familiar_spotlight
 ability_fencer_lunge
@@ -41992,7 +41994,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpzP{
+hpz@
 hr_H
 href="
 hscroll
@@ -44432,6 +44434,7 @@ min-height
 min-width
 minIdleTurnAngle
 min_fps
+min_games_total
 min_highest_priority
 min_ilevel
 min_last_played
@@ -44520,7 +44523,6 @@ ml-game-menumask
 ml-game-pause
 ml-game-player-in-pit
 ml-game-postgame
-ml-game-pregamewait
 ml-game-spawnmask
 mmamammmmammamamaaamammma
 mmmaaaabcdefgmmmmaaaammmaamm
@@ -45131,6 +45133,7 @@ modifier_patrons_blessing_aura
 modifier_patrons_blessing_enemy_tracker
 modifier_patrons_blessing_proc_watcher
 modifier_patrons_blessing_target
+modifier_pause_unpause
 modifier_perched_predator_drag
 modifier_permanent_pickup
 modifier_play_effect_on_death
@@ -46214,8 +46217,6 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p2P!
-p2P{
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46224,7 +46225,6 @@ p2{l
 p4Z3
 p5Z3
 p5\nL,
-p60y
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
@@ -46256,7 +46256,7 @@ pUnitName
 p\n$k_EPingMarkerInfo_ShowMarkerOnSender
 p\n\fDevQueueSize
 p\rP\f0!h
-p\r`\fPHX
+p\r`\fP8c
 p^i9
 packet length too long
 padding

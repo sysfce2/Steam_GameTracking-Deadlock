@@ -3615,6 +3615,7 @@ CCitadel_Modifier_PatronsBlessingEnemyTrackerVData
 CCitadel_Modifier_PatronsBlessingProcWatcher
 CCitadel_Modifier_PatronsBlessingProcWatcherVData
 CCitadel_Modifier_PatronsBlessingTarget
+CCitadel_Modifier_PauseUnPause
 CCitadel_Modifier_PerchedPredatorDrag
 CCitadel_Modifier_PermanentPickup
 CCitadel_Modifier_PermanentPickupVData
@@ -38857,6 +38858,7 @@ m_qOffset
 m_qOrientation
 m_qOrientationOverride
 m_qParentBindRotation
+m_qPauseStartAngle
 m_qPostTeleportAngles
 m_qRelativeOffset
 m_qStartRot
