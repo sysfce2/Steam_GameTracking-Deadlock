@@ -2472,7 +2472,7 @@
 		"spirit_permanent_pickup_label_lv2"				"+3 Spirit Power"
 		"firerate_permanent_pickup_label_lv2"			"+2% Fire Rate"
 		"ammo_permanent_pickup_label_lv2"				"+5% Max Ammo"
-		"hp_permanent_pickup_label_lv2"					"+25 Bonus Health"
+		"hp_permanent_pickup_label_lv2"					"+20 Bonus Health"
 		"cd_permanent_pickup_label_lv2"					"+0.75% Cooldown Reduction"
 		"wp_permanent_pickup_label_lv2"					"+4% Weapon Damage"
 

@@ -1,5 +1,7 @@
 // MGetKV3ClassDefaults = {
 //	"_class": "CCitadel_Bounce_PadVData",
+//	"m_flBouncePadCollisionHeight": 16.000000,
+//	"m_flBouncePadCollisionRadius": 25.000000,
 //	"m_sModelName": "",
 //	"m_IdleParticle": "",
 //	"m_BounceParticle": "",
@@ -11,6 +13,8 @@
 //}
 class CCitadel_Bounce_PadVData : public CEntitySubclassVDataBase
 {
+	float32 m_flBouncePadCollisionHeight;
+	float32 m_flBouncePadCollisionRadius;
 	// MPropertyStartGroup = "Visuals"
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeCModel > > m_sModelName;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_IdleParticle;

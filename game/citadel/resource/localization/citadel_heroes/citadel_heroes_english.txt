@@ -135,7 +135,7 @@
 		"citadel_ability_storm_cloud_desc"		"Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight."
 		"citadel_ability_storm_cloud_t1_desc"		"<span class=\"highlight\">+{s:BulletResistOnActive}% Bullet Resist</span> while channeling Storm Cloud"
 		"citadel_ability_storm_cloud_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime}s</span> Channel Time <br><span class=\"highlight\">+{s:Radius}m</span> Radius"
-		"citadel_ability_storm_cloud_t3_desc"		"<span class=\"highlight\">+{s:DPS}s</span> DPS<br><span class=\"highlight\">+{s:FlightControlEnabled}m</span> Flight Speed"
+		"citadel_ability_storm_cloud_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> DPS<br><span class=\"highlight\">+{s:FlightControlEnabled}m</span> Flight Speed"
 		"citadel_ability_storm_cloud_lightning_strike_desc"		"While channeling, press{g:citadel_binding:'Attack'}to mark the targeted area to be struck with a powerful lightning bolt that <span class=\"highlight\">knocks enemies away</span> after a {s:LightningStrikeDelay}s delay. One use per cast."
 		"citadel_ability_storm_cloud_lightning_strike"			"Lightning Strike"
 

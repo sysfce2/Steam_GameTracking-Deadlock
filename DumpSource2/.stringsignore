@@ -31708,6 +31708,8 @@ m_flBossVictimCalmTime
 m_flBossVictimNoMeleeTime
 m_flBottomOffset
 m_flBounceAmount
+m_flBouncePadCollisionHeight
+m_flBouncePadCollisionRadius
 m_flBounceRadiusAtCast
 m_flBounceScale
 m_flBounceVelocity
