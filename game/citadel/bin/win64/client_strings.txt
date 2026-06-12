@@ -7476,6 +7476,7 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bCornerNode@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bCrashingDown@CCitadel_UtilityUpgrade_RocketBooster@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDamaged@C_PlayerSprayDecal@@@@
+.?AV?$CNetworkVarBase@_NVNetworkVar_m_bDamagedAnyHero@CCitadel_Ability_Shiv_KillingBlow@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDestroyed@C_Citadel_Destroyable_Building@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDisableMipGen@C_PointClientUIWorldPanel@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDisableZippingToByPlayers@CCitadelZipLineNode@@@@
@@ -7622,7 +7623,6 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsZoomed@CCitadel_Ability_PrimaryWeapon@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bJetpackActive@CCitadel_Ability_Airheart_Rocketeer3@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bJumped@CCitadel_Ability_Jump@@@@
-.?AV?$CNetworkVarBase@_NVNetworkVar_m_bKilledAnyHero@CCitadel_Ability_Shiv_KillingBlow@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bKnownTeamMismatch@CBasePlayerController@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bLanded@CCitadel_Ability_Tengu_StoneForm@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bLaneSwapLocked@CCitadelPlayerController@@@@
@@ -17007,7 +17007,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vplz
+2\vp\z
 2^pV
 2a"l
 2bT~
@@ -17527,14 +17527,13 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Nt
+@08Nd
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CitadelArpeggiator_t
 @DebugIndividualStyle
 @HPX`hv
-@HV0
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -27768,6 +27767,7 @@ LT_txt
 LWIN
 LXKQ
 LY\r5
+L\f0F
 L\n\fincludevotes
 L\n\tfile_type
 Label.BgColor
@@ -29419,8 +29419,8 @@ P-224
 P-256
 P-384
 P-521
-P08J0G
-P08Nt
+P08J G
+P08Nd
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
@@ -30727,7 +30727,7 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vplz
+R\vp\z
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -36624,7 +36624,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvt
+aBvd
 aD/x
 aDSS
 aECDH
@@ -46219,8 +46219,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^t
-p0j@
+p08@H^d
+p0j0
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n

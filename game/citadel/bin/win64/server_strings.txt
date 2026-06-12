@@ -2057,7 +2057,8 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0G2
+.0E2
+.0e2
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -6120,6 +6121,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bCornerNode@CCitadelZipLineNode@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bCrashingDown@CCitadel_UtilityUpgrade_RocketBooster@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDamaged@CPlayerSprayDecal@@@@
+.?AV?$CNetworkVarBase@_NVNetworkVar_m_bDamagedAnyHero@CCitadel_Ability_Shiv_KillingBlow@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDestroyed@CCitadel_Destroyable_Building@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDisableMipGen@CPointClientUIWorldPanel@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bDisableZippingToByPlayers@CCitadelZipLineNode@@@@
@@ -6264,7 +6266,6 @@ $light_emissive
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsZoomed@CCitadel_Ability_PrimaryWeapon@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bJetpackActive@CCitadel_Ability_Airheart_Rocketeer3@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bJumped@CCitadel_Ability_Jump@@@@
-.?AV?$CNetworkVarBase@_NVNetworkVar_m_bKilledAnyHero@CCitadel_Ability_Shiv_KillingBlow@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bKnownTeamMismatch@CBasePlayerController@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bLanded@CCitadel_Ability_Tengu_StoneForm@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bLaneSwapLocked@CCitadelPlayerController@@@@
@@ -14063,7 +14064,6 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
-.PE2
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14081,12 +14081,9 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PG2
-.PO2
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
-.Pt2
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14371,11 +14368,8 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pD2
-.pF2
-.pG2
+.pE2
 .pp@0
-.pr2
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14435,10 +14429,10 @@ $light_emissive
 05=k
 08bX
 09,h
+0:pU
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
-0> o2
 0AgffA
 0M2~@p
 0W/5
@@ -14470,7 +14464,7 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vTL-
+0vDL-
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14717,17 +14711,15 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 12
-6 O2
+6 q2
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60<2
-60^2
-60q2
+6022
+6052
 62$|S)6f
 64CK\vH
 65535
@@ -14737,13 +14729,11 @@ $light_emissive
 6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@22
-6@52
+6@92
+6@k2
 6H,N
 6O|T%
-6P92
-6Pk2
-6P}2
+6P32
 6Qd=
 6\fWW
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
@@ -14756,7 +14746,10 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`32
+6`42
+6`M2
+6`e2
+6`y2
 6afD
 6bX+
 6c&0|vvX
@@ -14764,10 +14757,11 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p42
-6pM2
-6pe2
-6py2
+6p12
+6p82
+6pN2
+6p]2
+6po2
 6qo~
 6r-m_v
 6r1ij
@@ -14817,8 +14811,8 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8F0n2
-8F@m2
+8F n2
+8F0m2
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15012,8 +15006,7 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->072
->0V2
+>0r2
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15035,6 +15028,7 @@ $light_emissive
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
+>P62
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
 >Sem
 >WK6
@@ -15083,13 +15077,11 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NTL-
+@08NDL-
 @0pp
-@60,2
-@6@d2
-@6P+2
+@60d2
 @BH]f
-@HPX`hv
+@HPX`hvpP2
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15103,11 +15095,11 @@ $light_emissive
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
-@fTL-
+@fDL-
 @fff>fff>fff>fff>
 @i1V
 @n2w
-@nTL-
+@nDL-
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -21522,7 +21514,6 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
-F u2
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -25759,8 +25750,8 @@ P-224
 P-256
 P-384
 P-521
-P08J0
-P08NTL-
+P08J 
+P08NDL-
 P1\t98"
 P5[1
 PAGN_4
@@ -26300,7 +26291,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-PnTL-
+PnDL-
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -30709,9 +30700,9 @@ XWY]
 XYD%
 X\tQo
 Xd3h
-Xf@p2
+Xf0p2
 XfJ7
-Xf`q2
+XfPq2
 XjfR
 XqgA+
 Xuub
@@ -31984,10 +31975,8 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60-2
-`6p.2
-`6p/2
-`6pE2
+`60/2
+`6`E2
 `:zQF
 `D$daM-l
 `DZG
@@ -31995,10 +31984,10 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`fDL-
 `fPw.\vM
-`fTL-
 `h9T~
-`nTL-
+`nDL-
 `o_je
 `yNT
 a null shared library handle was used
@@ -32017,7 +32006,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvTL-
+aBvDL-
 aD/x
 aDSS
 aECDH
@@ -35401,15 +35390,16 @@ f1cK%
 f45\r
 fBB\fy
 fC\tc
+fDL-
 fL\ri
 fLength
 fMaxLength
 fP;y
+fPV2
 fPitch
 fRoll
 fSpinDownTime
 fSpinUpTime
-fTL-
 fUnh\
 fValue
 fYaw
@@ -35440,7 +35430,6 @@ f_movement_target_speed
 f_navlink_dist_to_next
 f_pose_weight_%s
 f_velocity
-f`V2
 face_up
 faceposer
 facing: %s
@@ -39556,9 +39545,8 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n t2
+n g2
 n0?X
-n0g2
 n1Z 
 n5cM
 n6j/
@@ -39573,6 +39561,7 @@ nChangeOffset > 0
 nCheckMatchID == 0 || nCheckMatchID == m_unMatchID
 nCheckTime == 0 || V_Abs((int64)nCheckTime-(int64)m_unMatchTime) < 5
 nChoice
+nDL-
 nDefault
 nDenominator
 nElems
@@ -39593,6 +39582,7 @@ nMode
 nMoveType
 nNumerator
 nPitch
+nPn2
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
 nSerialNumber
@@ -39600,14 +39590,13 @@ nSoundEventGuid
 nStance
 nStf,a
 nSw}Z\tu
-nTL-
 nTextOffset
 nTraceContents
 nValue
 nVersion
 n\r2S
 n`3i
-n`n2
+n`m2
 name constraints minimum and maximum not supported
 name of highest net worth enemy
 name too long
@@ -39958,7 +39947,6 @@ npc_vehicle
 npc_yakuza_gangster
 npcclass
 npcstate
-npm2
 nsBaseUrl
 nsCaPolicyUrl
 nsCaRevocationUrl
@@ -40220,13 +40208,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^TL-
+p08@H^DL-
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p>TL-
+p>DL-
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40748,7 +40736,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pnTL-
+pnDL-
 point
 point arithmetic failure
 point at infinity
@@ -43654,6 +43642,7 @@ uvs are all identical
 uxX/
 v'A>M6
 v)56
+v0S2
 v0o/5
 v1(0)
 v1GZ
@@ -43666,10 +43655,10 @@ v8callback
 v8object
 v8value
 v<d2}
-v@S2
 vAj}
 vAr>
 vAu&
+vDL-
 vDefault
 vDirection
 vEndPos
@@ -43686,7 +43675,6 @@ vPrevWaypoint.IsValid()\n
 vStartPos
 vStartPos[%s] pStartArea[%d]
 vStartPos[%s] vGoalPos[%s]
-vTL-
 vTarget
 vValue
 vVelocity %.2f %.2f %.2f
@@ -44170,11 +44158,9 @@ zz2K
 }Xee+
 }gE3
 }n2W
-~0F2
 ~9ob
 ~If D
 ~P2T
-~PF2
 ~R65Fu
 ~jLRG
 ~w]UG

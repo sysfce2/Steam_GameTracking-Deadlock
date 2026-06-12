@@ -28632,6 +28632,7 @@ m_bDamageAffectedByEffectiveness
 m_bDamageDone
 m_bDamageInProgress
 m_bDamaged
+m_bDamagedAnyHero
 m_bDamagedByAbilities
 m_bDamagedByBullets
 m_bDamagedByMelee
@@ -29434,7 +29435,6 @@ m_bKillParticles == false
 m_bKillParticles == true
 m_bKillUnused
 m_bKillWhenNotTiny
-m_bKilledAnyHero
 m_bKillonContact
 m_bKnockedBack
 m_bKnownTeamMismatch

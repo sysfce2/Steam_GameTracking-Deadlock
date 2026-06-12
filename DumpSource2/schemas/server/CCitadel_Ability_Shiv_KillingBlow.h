@@ -1,4 +1,4 @@
-// MNetworkVarNames = "bool m_bKilledAnyHero"
+// MNetworkVarNames = "bool m_bDamagedAnyHero"
 // MNetworkVarNames = "bool m_bActive"
 // MNetworkVarNames = "bool m_bStartedOnGround"
 // MNetworkVarNames = "bool m_bIsBonusCast"
@@ -12,7 +12,7 @@ class CCitadel_Ability_Shiv_KillingBlow : public CCitadelBaseShivAbility
 {
 	CUtlVector< CHandle< CBaseEntity > > m_vHitEnts;
 	// MNetworkEnable
-	bool m_bKilledAnyHero;
+	bool m_bDamagedAnyHero;
 	// MNetworkEnable
 	bool m_bActive;
 	// MNetworkEnable
