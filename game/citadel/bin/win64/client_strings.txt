@@ -89,8 +89,6 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXb@
- (0X`hpz@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -4844,6 +4842,7 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_CinematicIntro_Shrine@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ClimbRopeSlow@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_CloakOfOpportunityWatcher@@$0PPPP@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_ClusterGrenade_Debuff@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ColdFrontAOE@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ColossusActive@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_CombatStatus@@$0PPPP@@@
@@ -7243,6 +7242,7 @@ $hRh
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tNextDropTime@C_Citadel_PickupItemSpawner@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tOverdriveBeginTime@CCitadel_Ability_Airheart_Rocketeer3@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tQueuedEnableTime@CCitadelTriggerCapturePoint@@@@
+.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tRecastEndTime@CCitadel_Ability_Fencer_ThrowBlade@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tSlowStartTime@CCitadel_Ability_LifeDrain@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tSlowStopTime@CCitadel_Ability_LifeDrain@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tSoonestHelperCooldownEndTime@CCitadel_Ability_Familiar_HelpingHands@@@@
@@ -7590,6 +7590,7 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBeingCaptured@CCitadelControlPointTrigger@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBlinking@CCitadel_Ability_VampireBat_BatBlink@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBlocked@TeamIdolState_t@@@@
+.?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBonusCast@CCitadel_Ability_Shiv_KillingBlow@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsDashing@CCitadel_Ability_NanoDash@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsDashing@CCitadel_Ability_ShivDash@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsEnabled@C_GradientFog@@@@
@@ -7621,6 +7622,7 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsZoomed@CCitadel_Ability_PrimaryWeapon@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bJetpackActive@CCitadel_Ability_Airheart_Rocketeer3@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bJumped@CCitadel_Ability_Jump@@@@
+.?AV?$CNetworkVarBase@_NVNetworkVar_m_bKilledAnyHero@CCitadel_Ability_Shiv_KillingBlow@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bKnownTeamMismatch@CBasePlayerController@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bLanded@CCitadel_Ability_Tengu_StoneForm@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bLaneSwapLocked@CCitadelPlayerController@@@@
@@ -8046,6 +8048,7 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_CinematicIntro_Shrine@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ClimbRopeSlow@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_CloakOfOpportunityWatcher@@VCBaseModifier@@@@
+.?AV?$CSubclassFactory@VCCitadel_Modifier_ClusterGrenade_Debuff@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ColdFrontAOE@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ColossusActive@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_CombatStatus@@VCBaseModifier@@@@
@@ -11710,6 +11713,7 @@ $hRh
 .?AVCCitadel_Modifier_ClimbRopeSlowVData@@
 .?AVCCitadel_Modifier_CloakOfOpportunityWatcher@@
 .?AVCCitadel_Modifier_CloakOfOpportunityWatcherVData@@
+.?AVCCitadel_Modifier_ClusterGrenade_Debuff@@
 .?AVCCitadel_Modifier_ColdFrontAOE@@
 .?AVCCitadel_Modifier_ColdFrontAOE_VData@@
 .?AVCCitadel_Modifier_ColossusActive@@
@@ -16740,7 +16744,6 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J@
 08bX
 09,h
 0:00
@@ -17004,7 +17007,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp8c
+2\vplz
 2^pV
 2a"l
 2bT~
@@ -17467,6 +17470,7 @@ $hRh
 >fN46R^
 >l\rur
 >p00<
+>xLn
 >yhP
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
@@ -17511,25 +17515,26 @@ $hRh
 ?\n\ncurrencies
 ?\n\rmatch_outcome
 ?ability_familiar_helpinghands
-?citadel_zipline_show_lane_colors_for_spectators
 ?d86L
 ?dt]X
 ?expf
 ?gwL
 ?jOb
+?m_bUseEchoEffect
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N
+@08Nt
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CitadelArpeggiator_t
 @DebugIndividualStyle
-@HPX`hvP
+@HPX`hv
+@HV0
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17545,9 +17550,9 @@ $hRh
 @\n\vPowerUpBuff
 @\tV_iswcntrl
 @absorigin_follow
+@citadel_ability_fencer_primaryweapon
 @dKb]
 @fff>fff>fff>fff>
-@ht0
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -17567,7 +17572,6 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
-AA:0
 AABBDirection
 AACompromise
 ABXY
@@ -19233,7 +19237,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\baseflex_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayercontroller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayerpawn_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\beam_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1483
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1501
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1031
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:290
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:332
@@ -19262,8 +19266,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2460
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:426
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2007
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2129
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2028
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2130
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1933
@@ -25475,6 +25479,7 @@ Failed to spectate user: %s\n
 Failed to write %s!\n
 Failed to write %s\n
 Failed!\n
+FailedExecuteCooldownPenalty
 FailedToConnect
 Fake client, simulated server side; don't send network messages to them
 FakeCritDamageVsNPC
@@ -28422,6 +28427,7 @@ MeleeLifesteal
 MeleeRadius
 MeleeRange
 MeleeResist
+MeleeResistReduction
 MeleeResistReductionDuration
 MeleeScalingFromWeaponPower
 MeleeSpeedBonusPercentage
@@ -29413,8 +29419,8 @@ P-224
 P-256
 P-384
 P-521
-P08@J@
-P08N
+P08J0G
+P08Nt
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
@@ -30721,7 +30727,7 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp8c
+R\vplz
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -31763,6 +31769,7 @@ SecondaryBinding
 SecondaryBindingContainer
 SecondaryDisplayGlyph
 SecondaryDupeDisplayGlyph
+SecondaryExplosionDelay
 SecondaryHealHeroRange
 SecondaryLayoutRequested
 SecondaryStatContainer_%s
@@ -32413,7 +32420,6 @@ Shutting down...\n
 SideMoveSpeed
 SideMoveSpeedReduction
 Siege Trooper Orb
-SigilHeight
 SigilRadius
 Sign Float
 Sign Int
@@ -34465,6 +34471,7 @@ Vector[NUM_AUDIO_LOCAL_SOUNDS]
 Vector[kSERVERCONTROLLEDPOINTS]
 Vector[tether_DEST_BUFFER_SIZE]
 VeilFrontDepth
+VelocityRetainedPct
 Vemn\t
 VenomDuration
 VenomMaxDamage
@@ -34594,7 +34601,7 @@ WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WC_BaseToggle
 WD%g"0Q-)
-WDp(
+WDPJ
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -35251,7 +35258,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp8c
 \ful2
 \fy&3Gl
 \l:ArR
@@ -36284,7 +36290,6 @@ Z~wl
 \rKT8v
 \rLAM
 \rMinghuaQu\f
-\rMinimum value possible for fire rate
 \rTxL
 \rUHz4Z}\r
 \rWhO
@@ -36308,6 +36313,7 @@ Z~wl
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\vpL1
 \r^mX
+\rcitadel_item_sell_price_ratio
 \ri1I
 \rjwB\t
 \roKK
@@ -36387,7 +36393,6 @@ Z~wl
 \tMatchID_t"9\n&CMsgGCToServerAllocateForMatchResponse
 \tMatchID_t"Z\n#CMsgClientToGCSpectateLobbyResponse
 \tNone\n
-\tPPJ
 \tParam BasePlayerWeapon returned NULL!\n
 \tParam selecting string is out of range!\n
 \tPartyID_t
@@ -36519,13 +36524,11 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
-\vPPJ
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
 \vj0k
 \vjC7
-\vp8c
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36621,6 +36624,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvt
 aD/x
 aDSS
 aECDH
@@ -38361,7 +38365,6 @@ citadel_ability_chrono_time_wall
 citadel_ability_climb_rope
 citadel_ability_dash
 citadel_ability_drifter_primaryweapon
-citadel_ability_fencer_primaryweapon
 citadel_ability_fissure_wall
 citadel_ability_fissure_wall_cancel
 citadel_ability_fissure_wall_trigger
@@ -41994,7 +41997,6 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz@
 hr_H
 href="
 hscroll
@@ -45091,6 +45093,7 @@ modifier_name_split
 modifier_name_split_clipped
 modifier_nano_bounty
 modifier_nano_catform
+modifier_nano_cluster_grenade_debuff
 modifier_nano_damageamp
 modifier_nano_predatory_statue
 modifier_nano_predatory_statue_target
@@ -46216,7 +46219,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
+p08@H^t
+p0j@
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46256,7 +46260,6 @@ pUnitName
 p\n$k_EPingMarkerInfo_ShowMarkerOnSender
 p\n\fDevQueueSize
 p\rP\f0!h
-p\r`\fP8c
 p^i9
 packet length too long
 padding

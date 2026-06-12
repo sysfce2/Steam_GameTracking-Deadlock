@@ -25730,6 +25730,226 @@
 		]
 		vsnd_duration = 2.988708
 	}
+	spirit_jar_koth_give_up_01_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_01.vsnd",
+		]
+		vsnd_duration = 3.942208
+	}
+	spirit_jar_koth_give_up_02_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_02.vsnd",
+		]
+		vsnd_duration = 2.489146
+	}
+	spirit_jar_koth_give_up_03_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_03.vsnd",
+		]
+		vsnd_duration = 3.362313
+	}
+	spirit_jar_koth_give_up_04_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_04.vsnd",
+		]
+		vsnd_duration = 3.717104
+	}
+	spirit_jar_koth_give_up_05_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_05.vsnd",
+		]
+		vsnd_duration = 3.318187
+	}
+	spirit_jar_koth_give_up_06_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_06.vsnd",
+		]
+		vsnd_duration = 4.572542
+	}
+	spirit_jar_koth_give_up_07_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_07.vsnd",
+		]
+		vsnd_duration = 3.420354
+	}
+	spirit_jar_koth_give_up_08_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_08.vsnd",
+		]
+		vsnd_duration = 2.311229
+	}
+	spirit_jar_koth_give_up_09_alt_01_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_09_alt_01.vsnd",
+		]
+		vsnd_duration = 3.004188
+	}
+	spirit_jar_koth_give_up_09_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_09.vsnd",
+		]
+		vsnd_duration = 2.563542
+	}
+	spirit_jar_koth_give_up_10_alt_01_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_10_alt_01.vsnd",
+		]
+		vsnd_duration = 4.712667
+	}
+	spirit_jar_koth_give_up_10_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_give_up_10.vsnd",
+		]
+		vsnd_duration = 4.326
+	}
+	spirit_jar_koth_warning_01_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_warning_01.vsnd",
+		]
+		vsnd_duration = 3.755708
+	}
+	spirit_jar_koth_warning_02_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_warning_02.vsnd",
+		]
+		vsnd_duration = 3.475667
+	}
+	spirit_jar_koth_warning_03_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_warning_03.vsnd",
+		]
+		vsnd_duration = 3.884979
+	}
+	spirit_jar_koth_warning_04_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_warning_04.vsnd",
+		]
+		vsnd_duration = 3.707271
+	}
+	spirit_jar_koth_warning_05_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_warning_05.vsnd",
+		]
+		vsnd_duration = 3.243771
+	}
+	spirit_jar_koth_warning_06_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_warning_06.vsnd",
+		]
+		vsnd_duration = 3.434604
+	}
+	spirit_jar_koth_warning_07_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_warning_07.vsnd",
+		]
+		vsnd_duration = 3.877292
+	}
+	spirit_jar_koth_warning_08_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_warning_08.vsnd",
+		]
+		vsnd_duration = 3.15175
+	}
+	spirit_jar_koth_warning_09_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_warning_09.vsnd",
+		]
+		vsnd_duration = 3.202896
+	}
+	spirit_jar_koth_warning_10_idol = 
+	{
+		base = "Base.Hero.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_koth_warning_10.vsnd",
+		]
+		vsnd_duration = 4.587729
+	}
 	vn_book_mina_intro_01_book = 
 	{
 		base = "Base.VO.2d"

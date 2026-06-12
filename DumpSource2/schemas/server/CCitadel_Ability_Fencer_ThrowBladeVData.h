@@ -436,7 +436,11 @@
 //	"m_DebuffModifier":
 //	{
 //	},
-//	"m_flUpDisenageJumpRatio": 1.500000,
+//	"m_DisarmModifier":
+//	{
+//	},
+//	"m_flUpDisenageJumpRatio": 1.000000,
+//	"m_flMinDisengageAmountBack": 0.500000,
 //	"m_flForwardPlacementDistance": 100.000000,
 //	"m_flHeightAboveGround": 80.000000,
 //	"m_velocityCurve":
@@ -472,8 +476,10 @@ class CCitadel_Ability_Fencer_ThrowBladeVData : public CitadelAbilityVData
 	// MPropertyStartGroup = "Modifiers"
 	CEmbeddedSubclass< CCitadelModifier > m_BuffModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_DebuffModifier;
+	CEmbeddedSubclass< CCitadelModifier > m_DisarmModifier;
 	// MPropertyStartGroup = "Gameplay"
 	float32 m_flUpDisenageJumpRatio;
+	float32 m_flMinDisengageAmountBack;
 	float32 m_flForwardPlacementDistance;
 	float32 m_flHeightAboveGround;
 	CPiecewiseCurve m_velocityCurve;

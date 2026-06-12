@@ -1,4 +1,5 @@
 class CModifier_Upgrade_ArcaneSurge_AbilityWatcher : public CCitadelModifier
 {
-	CHandle< CBaseEntity > m_hBuffedAbility;
+	CHandle< CCitadelBaseAbility > m_hBuffedAbility;
+	bool m_bEnabled;
 };

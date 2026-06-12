@@ -1,5 +1,7 @@
+// MNetworkVarNames = "bool m_bKilledAnyHero"
 // MNetworkVarNames = "bool m_bActive"
 // MNetworkVarNames = "bool m_bStartedOnGround"
+// MNetworkVarNames = "bool m_bIsBonusCast"
 // MNetworkVarNames = "Vector m_vStartPosition"
 // MNetworkVarNames = "QAngle m_qCurrentAngles"
 // MNetworkVarNames = "CCitadelAutoScaledTime m_flDepartureTime"
@@ -10,9 +12,13 @@ class CCitadel_Ability_Shiv_KillingBlow : public CCitadelBaseShivAbility
 {
 	CUtlVector< CHandle< CBaseEntity > > m_vHitEnts;
 	// MNetworkEnable
+	bool m_bKilledAnyHero;
+	// MNetworkEnable
 	bool m_bActive;
 	// MNetworkEnable
 	bool m_bStartedOnGround;
+	// MNetworkEnable
+	bool m_bIsBonusCast;
 	// MNetworkEnable
 	Vector m_vStartPosition;
 	// MNetworkEnable

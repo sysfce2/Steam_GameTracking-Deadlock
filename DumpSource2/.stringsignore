@@ -3142,6 +3142,7 @@ CCitadel_Modifier_ClimbRopeSlow
 CCitadel_Modifier_ClimbRopeSlowVData
 CCitadel_Modifier_CloakOfOpportunityWatcher
 CCitadel_Modifier_CloakOfOpportunityWatcherVData
+CCitadel_Modifier_ClusterGrenade_Debuff
 CCitadel_Modifier_ColdFrontAOE
 CCitadel_Modifier_ColdFrontAOE_VData
 CCitadel_Modifier_ColossusActive
@@ -21633,6 +21634,7 @@ citadel_steamlearn_new_player_threshold
 citadel_steamlearn_new_player_thresholds
 citadel_steamtimeline_show_dev_messages
 citadel_streaming_mode_enabled
+citadel_street_brawl_ability_range_multiplier
 citadel_street_brawl_advance_state
 citadel_street_brawl_match_length_limits_enabled
 citadel_street_brawl_match_length_override
@@ -27411,6 +27413,7 @@ m_RicochetTracerParticle
 m_RidingZipLineModifier
 m_RigidColliderPriorities
 m_RiposteDashParticle
+m_RiposteParriedParticle
 m_RocketFireSound
 m_RocketLaunchAmbientParticle
 m_RocketLaunchParticle
@@ -29264,6 +29267,7 @@ m_bIsBlocked
 m_bIsBoneID
 m_bIsBoneSpaceOffset
 m_bIsBoneTarget
+m_bIsBonusCast
 m_bIsBoosting
 m_bIsBuildup
 m_bIsClosedLoop
@@ -29430,6 +29434,7 @@ m_bKillParticles == false
 m_bKillParticles == true
 m_bKillUnused
 m_bKillWhenNotTiny
+m_bKilledAnyHero
 m_bKillonContact
 m_bKnockedBack
 m_bKnownTeamMismatch
@@ -33462,6 +33467,7 @@ m_flMinDebuffTime
 m_flMinDelayBetweenHits
 m_flMinDesiredDashDist
 m_flMinDisarmedSoundInterval
+m_flMinDisengageAmountBack
 m_flMinDist
 m_flMinDistance
 m_flMinDistanceAboveGround
@@ -34164,6 +34170,7 @@ m_flRefireTime
 m_flReflectSpeedReductionRatio
 m_flReflectionsTintByBaseBlendToNone
 m_flRefractAmount
+m_flRefreshBuffer
 m_flRefreshLockOutTime
 m_flRefreshRate
 m_flRefreshTime
@@ -35474,6 +35481,7 @@ m_hEnvSky
 m_hEnvWind
 m_hEscort
 m_hEvent
+m_hExecutedAbility
 m_hExplodeParticle
 m_hExtGraphHandle
 m_hExternalGraph
@@ -37816,6 +37824,7 @@ m_nParentAttachmentOrBone
 m_nParentBoneIdx
 m_nParentChainLinkIdx
 m_nParentViewParticle
+m_nParriedFXIndex
 m_nParticle
 m_nParticleIncrement
 m_nParticleIndex
@@ -40040,7 +40049,6 @@ m_strUrnCashedInSoundEnemy
 m_strUrnCashedInSoundFriendly
 m_strUrnCashinLoopSound
 m_strUrnGiveUpSound
-m_strUrnGiveUpTempVocalizeSound
 m_strUrnGiveUpWarnSound
 m_strUrnGivingUpWarningLoopSound
 m_strUrnMeleeDropSound
@@ -40226,6 +40234,7 @@ m_tOverdriveBeginTime
 m_tParticlePrecipTraceTimer
 m_tPriorityTargetTime
 m_tQueuedEnableTime
+m_tRecastEndTime
 m_tSlowStartTime
 m_tSlowStopTime
 m_tSoonestHelperCooldownEndTime

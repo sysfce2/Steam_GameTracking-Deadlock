@@ -3661,12 +3661,12 @@
 		m_flTotalTimeToCaptureUnfavored = 18
 		m_bDestroyNearbyNeutrals = false
 		m_flHoldAtPercent = 99.0
-		m_iComebackBounty = 155
+		m_iComebackBounty = 170
 		m_flDropOffPlayerBonusPercent = 35
 		m_flZoneHeightMeters = 14.0
 		m_flZoneRadiusMeters = 20.0
-		m_flTimeToWarnAboutGivingUp = 65.0
-		m_flTimeToGiveUp = 75.0
+		m_flTimeToWarnAboutGivingUp = 50.0
+		m_flTimeToGiveUp = 60.0
 		m_nGiveUpOrbs = 13
 		m_Bonus01 = subclass:
 		{
@@ -3733,8 +3733,6 @@
 		m_strUrnCashedInSoundFriendly = soundevent:"Soul.Urn.CashIn.Complete.Team"
 		m_strUrnCashedInSoundEnemy = soundevent:"Soul.Urn.CashIn.Complete.Opponent"
 		m_strUrnGiveUpSound = soundevent:"Soul.Urn.CashIn.Complete.Opponent"
-		m_strUrnGiveUpWarnSound = soundevent:"spirit_jar_idol_waiting_on_bridge_01_idol"
-		m_strUrnGiveUpTempVocalizeSound = soundevent:"spirit_jar_idol_waiting_on_bridge_09_idol"
 		m_strUrnCashinLoopSound = soundevent:"Soul.Urn.CashIn.Timer"
 	}
 }

@@ -27,4 +27,5 @@ class CCitadel_Ability_Fencer_Riposte : public CCitadelBaseAbility
 	CUtlVector< CHandle< CBaseEntity > > m_vecHitEnemies;
 	Vector m_vecLastPosition;
 	GameTime_t m_flStuckTime;
+	ParticleIndex_t m_nParriedFXIndex;
 };

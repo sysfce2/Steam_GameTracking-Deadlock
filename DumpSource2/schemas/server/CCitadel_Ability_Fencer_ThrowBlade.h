@@ -1,3 +1,4 @@
+// MNetworkVarNames = "GameTime_t m_tRecastEndTime"
 class CCitadel_Ability_Fencer_ThrowBlade : public CCitadelBaseAbility
 {
 	Vector m_vCastPosition;
@@ -6,4 +7,6 @@ class CCitadel_Ability_Fencer_ThrowBlade : public CCitadelBaseAbility
 	ParticleIndex_t m_nLingerParticleIndex;
 	ParticleIndex_t m_nExplodeParticleIndex;
 	bool m_bHitEnemyPlayer;
+	// MNetworkEnable
+	GameTime_t m_tRecastEndTime;
 };

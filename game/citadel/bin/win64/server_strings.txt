@@ -181,12 +181,6 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j@
- (08@HPXb0
- (08@HPZ@
- (08@HR0
- (08@J0
- (0X`hpz0
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -210,7 +204,6 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
- .pL2
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -2064,8 +2057,7 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0Z2
-.0c2
+.0G2
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -3531,6 +3523,7 @@ $light_emissive
 .?AV?$CModifierFactory@VCCitadel_Modifier_CinematicIntro_Shrine@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ClimbRopeSlow@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_CloakOfOpportunityWatcher@@$0PPPP@@@
+.?AV?$CModifierFactory@VCCitadel_Modifier_ClusterGrenade_Debuff@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ColdFrontAOE@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ColossusActive@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_CombatStatus@@$0PPPP@@@
@@ -5889,6 +5882,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tNextDropTime@CCitadel_PickupItemSpawner@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tOverdriveBeginTime@CCitadel_Ability_Airheart_Rocketeer3@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tQueuedEnableTime@CCitadelTriggerCapturePoint@@@@
+.?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tRecastEndTime@CCitadel_Ability_Fencer_ThrowBlade@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tSlowStartTime@CCitadel_Ability_LifeDrain@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tSlowStopTime@CCitadel_Ability_LifeDrain@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_tSoonestHelperCooldownEndTime@CCitadel_Ability_Familiar_HelpingHands@@@@
@@ -6238,6 +6232,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBeingCaptured@CCitadelControlPointTrigger@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBlinking@CCitadel_Ability_VampireBat_BatBlink@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBlocked@TeamIdolState_t@@@@
+.?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsBonusCast@CCitadel_Ability_Shiv_KillingBlow@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsDashing@CCitadel_Ability_NanoDash@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsDashing@CCitadel_Ability_ShivDash@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsEnabled@CGradientFog@@@@
@@ -6269,6 +6264,7 @@ $light_emissive
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bIsZoomed@CCitadel_Ability_PrimaryWeapon@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bJetpackActive@CCitadel_Ability_Airheart_Rocketeer3@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bJumped@CCitadel_Ability_Jump@@@@
+.?AV?$CNetworkVarBase@_NVNetworkVar_m_bKilledAnyHero@CCitadel_Ability_Shiv_KillingBlow@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bKnownTeamMismatch@CBasePlayerController@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bLanded@CCitadel_Ability_Tengu_StoneForm@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bLaneSwapLocked@CCitadelPlayerController@@@@
@@ -6680,6 +6676,7 @@ $light_emissive
 .?AV?$CSubclassFactory@VCCitadel_Modifier_CinematicIntro_Shrine@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ClimbRopeSlow@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_CloakOfOpportunityWatcher@@VCBaseModifier@@@@
+.?AV?$CSubclassFactory@VCCitadel_Modifier_ClusterGrenade_Debuff@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ColdFrontAOE@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ColossusActive@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_CombatStatus@@VCBaseModifier@@@@
@@ -9887,6 +9884,7 @@ $light_emissive
 .?AVCCitadel_Modifier_ClimbRopeSlowVData@@
 .?AVCCitadel_Modifier_CloakOfOpportunityWatcher@@
 .?AVCCitadel_Modifier_CloakOfOpportunityWatcherVData@@
+.?AVCCitadel_Modifier_ClusterGrenade_Debuff@@
 .?AVCCitadel_Modifier_ColdFrontAOE@@
 .?AVCCitadel_Modifier_ColdFrontAOE_VData@@
 .?AVCCitadel_Modifier_ColossusActive@@
@@ -14065,6 +14063,7 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
+.PE2
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14082,12 +14081,12 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PI2
-.PU2
+.PG2
+.PO2
 .PartnerAccountType
-.Pc2
 .PingCommonData
 .PostProcessingGameStates
+.Pt2
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14372,8 +14371,11 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pI2
+.pD2
+.pF2
+.pG2
 .pp@0
+.pr2
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14431,15 +14433,12 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@HR@
-08@J0
-08B@
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
-0>P72
+0> o2
 0AgffA
 0M2~@p
 0W/5
@@ -14471,6 +14470,7 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vTL-
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14605,7 +14605,6 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vp4
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14662,13 +14661,14 @@ $light_emissive
 4)m1
 474E4U4W4c4i4m4
 4<Td
-4?\fPE
+4?\f0W
 4@AA
 4Ch;
 4F0I
+4F\vp
 4Mv8
 4Zis
-4\fPE
+4\f0W
 4\fPl
 4\n/k_EMsgClientToGCPurchaseChargeCostItemsResponse
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
@@ -14697,7 +14697,7 @@ $light_emissive
 5N{j
 5\f%54
 5\fE54L
-5\fwE
+5\fWW
 5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_MATERIAL_OVERRIDE
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
@@ -14717,28 +14717,35 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 N2
-6 c2
+6 12
+6 O2
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
+60<2
+60^2
+60q2
 62$|S)6f
 64CK\vH
 65535
 65535"
 65535"j\n
 65535B$
-66666666666666660\v
+6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@82
+6@22
+6@52
 6H,N
 6O|T%
+6P92
+6Pk2
+6P}2
 6Qd=
-6\fwE
+6\fWW
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
 6\n2STEAMLEARN_INFERENCE_ERROR_UNSUPPLIED_DATA_NO_KEYS
@@ -14749,7 +14756,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`92
+6`32
 6afD
 6bX+
 6c&0|vvX
@@ -14757,7 +14764,10 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pN2
+6p42
+6pM2
+6pe2
+6py2
 6qo~
 6r-m_v
 6r1ij
@@ -14807,8 +14817,8 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8F`62
-8Fp52
+8F0n2
+8F@m2
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15002,6 +15012,8 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
+>072
+>0V2
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15071,12 +15083,13 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N
+@08NTL-
 @0pp
-@6p,2
+@60,2
+@6@d2
+@6P+2
 @BH]f
 @HPX`hv
-@HV 02
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15090,9 +15103,11 @@ $light_emissive
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
+@fTL-
 @fff>fff>fff>fff>
 @i1V
 @n2w
+@nTL-
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -15101,6 +15116,7 @@ A string associated with this Cursor, to use later for remote Kill or Wait reque
 A uniform random number generator.
 A!A3A5A;A?AYAeAkAwA{A
 A%N_A
+A(GM
 A,uw"
 A.00h
 A.I. Disabled...\n
@@ -15111,12 +15127,10 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA: W
 AABBDirection
 AACompromise
 AC2,h
 ACCESS_DESCRIPTION
-ACCitadel_Modifier_Dust_Storm_Aura_Apply
 ACHIEVEMENT_EVENT_
 ACID
 ACPT_STATE
@@ -15581,6 +15595,7 @@ Already in the goal area
 AltJumpSpeed
 Alternate icon definition index %d must be greater than or equal to zero
 AlternativeSorting
+Am_AuraActive
 Amber
 AmbientCubes
 AmbushDuration
@@ -15839,8 +15854,7 @@ BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
-BCITADEL_PING_LETS_GO_THIS_WAY
-BCPulseServerFuncs::AddVelocityToAllEntitiesWithinRadius
+BCITADEL_PING_CONCEPT_NONE
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -15945,6 +15959,7 @@ BOOLEAN
 BOT TEST: Bot %s failed moving to node %s\n
 BOUNDARY
 BREAKABLE
+BReturns the input array sorted by distance to a reference entity.
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
 BT5f
@@ -16551,15 +16566,15 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\baseflex_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayercontroller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayerpawn_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\breakableprop.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1483
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1501
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1031
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:290
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:332
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:723
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_2_boss_abilities.cpp:1535
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_2_boss_abilities.cpp:1557
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_3_boss_abilities.cpp:517
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_3_boss_abilities.cpp:545
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_2_boss_abilities.cpp:1536
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_2_boss_abilities.cpp:1558
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_3_boss_abilities.cpp:518
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\tier_3_boss_abilities.cpp:546
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_beam.cpp:208
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_ability_beam.cpp:243
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
@@ -16585,9 +16600,9 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_he
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:426
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_familiar.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1988
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2007
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2129
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1990
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2028
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2130
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1933
@@ -18537,6 +18552,7 @@ CPulsePhysicsConstraintsFuncs::CreatePhysicsBallSocketConstraint
 CPulsePhysicsConstraintsFuncs::CreatePhysicsConstraint
 CPulsePhysicsConstraintsFuncs::CreatePhysicsHingeConstraint
 CPulseServerFuncs::AddNewModifier
+CPulseServerFuncs::AddVelocityToAllEntitiesWithinRadius
 CPulseServerFuncs::AddVelocityToEntity
 CPulseServerFuncs::AreEntitiesInHierarchy
 CPulseServerFuncs::CanCharacterSeeEntity
@@ -21506,6 +21522,7 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
+F u2
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -21547,7 +21564,6 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FP=2
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21652,6 +21668,7 @@ Failed to write Match Metadata file %s to disk, not uploading!\n
 Failed to write file %s!\n
 Failed with no pGoalArea and no pGoalPos
 Failed with no pStartArea
+FailedExecuteCooldownPenalty
 Fake client, simulated server side; don't send network messages to them
 FakeCritDamageVsNPC
 FakeScriptThinkFunc
@@ -24499,6 +24516,7 @@ MeleeLifesteal
 MeleeRadius
 MeleeRange
 MeleeResist
+MeleeResistReduction
 MeleeResistReductionDuration
 MeleeScalingFromWeaponPower
 MeleeSpeedBonusPercentage
@@ -25741,9 +25759,8 @@ P-224
 P-256
 P-384
 P-521
-P08@J0
-P08J`
-P08N
+P08J0
+P08NTL-
 P1\t98"
 P5[1
 PAGN_4
@@ -26283,6 +26300,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+PnTL-
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26711,7 +26729,6 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
-R\fp4
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
@@ -27046,7 +27063,6 @@ Returns the engines current frame count
 Returns the hierarchical parent of an entity
 Returns the input Vector transformed from entity to world space
 Returns the input Vector transformed from world to entity space
-Returns the input array sorted by distance to a reference entity.
 Returns the joint limit angles.
 Returns the model config entity attached to this entity by the specified name
 Returns the name of the model.
@@ -27892,6 +27908,7 @@ SecondDoorPlacementWindow
 SecondHit
 SecondHitDamagePercentage
 Secondary %02x%02x%02x
+SecondaryExplosionDelay
 SecondaryHealHeroRange
 Seconds
 SectionPause
@@ -28516,7 +28533,6 @@ Shutting down server while in state %u for reason %s\n
 SideMoveSpeed
 SideMoveSpeedReduction
 Siege Trooper Orb
-SigilHeight
 SigilRadius
 Sign Float
 Sign Int
@@ -30266,6 +30282,7 @@ Vector[tether_DEST_BUFFER_SIZE]
 Vel %.1f %.1f %.1f   Ang: %.1f %.1f %.1f\n
 Velocity is not high enough
 Velocity: %.3f
+VelocityRetainedPct
 Vemn\t
 VenomDuration
 VenomMaxDamage
@@ -30691,10 +30708,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr@
 Xd3h
+Xf@p2
 XfJ7
-Xfp82
+Xf`q2
 XjfR
 XqgA+
 Xuub
@@ -31773,6 +31790,7 @@ Z~wl
 \rKT8v
 \rLAM
 \rMinghuaQu\f
+\rSave Game
 \rTxL
 \rUHz4Z}\r
 \rWhO
@@ -31966,6 +31984,10 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`60-2
+`6p.2
+`6p/2
+`6pE2
 `:zQF
 `D$daM-l
 `DZG
@@ -31974,8 +31996,9 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
+`fTL-
 `h9T~
-`htP
+`nTL-
 `o_je
 `yNT
 a null shared library handle was used
@@ -31994,6 +32017,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvTL-
 aD/x
 aDSS
 aECDH
@@ -35385,6 +35409,7 @@ fPitch
 fRoll
 fSpinDownTime
 fSpinUpTime
+fTL-
 fUnh\
 fValue
 fYaw
@@ -35415,6 +35440,7 @@ f_movement_target_speed
 f_navlink_dist_to_next
 f_pose_weight_%s
 f_velocity
+f`V2
 face_up
 faceposer
 facing: %s
@@ -36478,7 +36504,6 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpz0
 hr_H
 http request
 https proxy request
@@ -36805,6 +36830,8 @@ idol_delivery_pct_diff
 idol_descending
 idol_dropping
 idol_fumbled
+idol_give_up
+idol_give_up_warning
 idol_hold_duration
 idol_holding
 idol_landing
@@ -39140,6 +39167,7 @@ modifier_mystical_piano_aura
 modifier_name
 modifier_nano_bounty
 modifier_nano_catform
+modifier_nano_cluster_grenade_debuff
 modifier_nano_damageamp
 modifier_nano_predatory_statue
 modifier_nano_predatory_statue_target
@@ -39528,7 +39556,9 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
+n t2
 n0?X
+n0g2
 n1Z 
 n5cM
 n6j/
@@ -39562,7 +39592,6 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nP<2
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39571,12 +39600,14 @@ nSoundEventGuid
 nStance
 nStf,a
 nSw}Z\tu
+nTL-
 nTextOffset
 nTraceContents
 nValue
 nVersion
 n\r2S
 n`3i
+n`n2
 name constraints minimum and maximum not supported
 name of highest net worth enemy
 name too long
@@ -39927,6 +39958,7 @@ npc_vehicle
 npc_yakuza_gangster
 npcclass
 npcstate
+npm2
 nsBaseUrl
 nsCaPolicyUrl
 nsCaRevocationUrl
@@ -40188,12 +40220,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
+p08@H^TL-
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
+p>TL-
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40715,6 +40748,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
+pnTL-
 point
 point arithmetic failure
 point at infinity
@@ -41101,7 +41135,6 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
-r\vp4
 rad2deg
 radial
 radialalt
@@ -43633,6 +43666,7 @@ v8callback
 v8object
 v8value
 v<d2}
+v@S2
 vAj}
 vAr>
 vAu&
@@ -43652,6 +43686,7 @@ vPrevWaypoint.IsValid()\n
 vStartPos
 vStartPos[%s] pStartArea[%d]
 vStartPos[%s] vGoalPos[%s]
+vTL-
 vTarget
 vValue
 vVelocity %.2f %.2f %.2f
@@ -44079,6 +44114,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
+zDcitadel_increment_killstreak [player_slot] [first_blood]
 zF):O4
 zFar
 zG2m8
@@ -44134,9 +44170,11 @@ zz2K
 }Xee+
 }gE3
 }n2W
+~0F2
 ~9ob
 ~If D
 ~P2T
+~PF2
 ~R65Fu
 ~jLRG
 ~w]UG

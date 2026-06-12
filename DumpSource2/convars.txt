@@ -1885,10 +1885,10 @@ citadel_crate_drop_duration_override -1 (gamedll cheat)
 citadel_crate_respawn_interval 360 (gamedll clientdll replicated cheat)
 	<no description>
 
-citadel_crate_reward_base 1040 (developmentonly gamedll defensive)
+citadel_crate_reward_base 935 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_crate_reward_time_multiplier 185 (developmentonly gamedll defensive)
+citadel_crate_reward_time_multiplier 165 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_crate_spawn_enabled true (developmentonly gamedll)
@@ -3484,16 +3484,16 @@ citadel_player_gold_comeback_assister_ratio 1.5 (developmentonly gamedll defensi
 citadel_player_gold_comeback_killer_fraction 0.3 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_player_gold_comeback_multiplier 2.1 (developmentonly gamedll defensive)
+citadel_player_gold_comeback_multiplier 2.268 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_player_gold_comeback_npc_max_mutliplier_delta 1.2 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_player_gold_comeback_npc_max_mutliplier_value 1.22 (developmentonly gamedll defensive)
+citadel_player_gold_comeback_npc_max_mutliplier_value 1.237 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_player_gold_difficulty_multiplier 2.3 (developmentonly gamedll defensive)
+citadel_player_gold_difficulty_multiplier 2.484 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_player_gold_killer_to_assist_ratio 2.2 (developmentonly gamedll defensive)
@@ -4209,6 +4209,9 @@ citadel_steamtimeline_show_dev_messages false (developmentonly clientdll)
 
 citadel_streaming_mode_enabled false (clientdll archive release)
 	Enable to alter various game UI elements
+
+citadel_street_brawl_ability_range_multiplier 0.9 (gamedll clientdll replicated cheat)
+	<no description>
 
 citadel_street_brawl_match_length_limits_enabled false (developmentonly gamedll clientdll replicated defensive)
 	<no description>

@@ -41,7 +41,6 @@
 //	"m_strUrnBlockedSound": "",
 //	"m_strUrnBlockedOpponentSound": "",
 //	"m_strUrnGiveUpSound": "",
-//	"m_strUrnGiveUpTempVocalizeSound": "",
 //	"m_strUrnGiveUpWarnSound": "",
 //	"m_strUrnCashinLoopSound": "",
 //	"m_strUrnGivingUpWarningLoopSound": "",
@@ -73,7 +72,6 @@ class CCitadel_IdolCashInVData : public CCitadel_MultiCapturePointVData
 	CSoundEventName m_strUrnBlockedSound;
 	CSoundEventName m_strUrnBlockedOpponentSound;
 	CSoundEventName m_strUrnGiveUpSound;
-	CSoundEventName m_strUrnGiveUpTempVocalizeSound;
 	CSoundEventName m_strUrnGiveUpWarnSound;
 	CSoundEventName m_strUrnCashinLoopSound;
 	CSoundEventName m_strUrnGivingUpWarningLoopSound;

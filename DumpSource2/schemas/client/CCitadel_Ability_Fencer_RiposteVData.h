@@ -428,6 +428,7 @@
 //	},
 //	"m_DashLineEffect": "",
 //	"m_RiposteDashParticle": "",
+//	"m_RiposteParriedParticle": "",
 //	"m_strDashStart": "",
 //	"m_strStunImpactSound": "",
 //	"m_strAvoidDamage": "",
@@ -446,6 +447,7 @@ class CCitadel_Ability_Fencer_RiposteVData : public CitadelAbilityVData
 	// MPropertyStartGroup = "Visuals"
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_DashLineEffect;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_RiposteDashParticle;
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_RiposteParriedParticle;
 	// MPropertyStartGroup = "Sounds"
 	CSoundEventName m_strDashStart;
 	CSoundEventName m_strStunImpactSound;
