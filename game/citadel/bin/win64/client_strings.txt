@@ -89,9 +89,7 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`jpE
- (08@HPZpE
- (08@JpE
+ (08@HPX`j`>
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -7725,7 +7723,6 @@ $hRh
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bStartDisabled@C_GradientFog@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bStartDisabled@C_PlayerVisibility@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bStartedInAir@CAbility_Fencer_Lunge@@@@
-.?AV?$CNetworkVarBase@_NVNetworkVar_m_bStartedInAir@CCitadel_Ability_ShivDash@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bStartedOnGround@CCitadel_Ability_Shiv_KillingBlow@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bState@C_FuncElectrifiedVolume@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bSummoning@CCitadel_Upgrade_MagicCarpet@@@@
@@ -16747,14 +16744,13 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HRpE
-08BpE
+08@HR`>
+08B`>
 08bX
 09,h
 0:00
 0;Q5[
 0<cz
-0>PA
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -17013,6 +17009,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
+2\vpt
 2^pV
 2a"l
 2bT~
@@ -17228,9 +17225,7 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@JpE
 8A6j
-8BpE
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17257,7 +17252,6 @@ $hRh
 8\n\tgame_info
 8\n\vAbilityStat
 8\n\vreason_code
-8\npE
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
@@ -17528,7 +17522,6 @@ $hRh
 ?expf
 ?gwL
 ?jOb
-?m_bUseEchoEffect
 ?srJO
 ?tya
 ?uWS
@@ -17536,14 +17529,12 @@ $hRh
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
-@0Re
 @0pp
-@2pE
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CitadelArpeggiator_t
 @DebugIndividualStyle
-@HPX`hv 
+@HPX`hv
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17798,6 +17789,7 @@ A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
 A\tV_iswdigit
+A\v:0K
 A_txt
 AbW_
 AbandonButton
@@ -19275,7 +19267,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2460
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:426
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2030
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2018
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2130
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
@@ -25388,7 +25380,6 @@ F\n\finventories2
 F\n\finventories3
 F\n\fitem_scalars
 F\n\trow_range
-F\npE
 F\rH'4
 Face %s
 Face Actor
@@ -29432,7 +29423,6 @@ P-521
 P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
-P2pE
 P5[1
 PAGN_4
 PANORAMA_LAYOUTFILE
@@ -30063,7 +30053,6 @@ Pitch: %6.1f   Yaw: %6.1f   Dist: %6.1f %19s
 Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixelToProj
-PjpE
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -30734,10 +30723,12 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
+R\fpt
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vpp
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -35053,7 +35044,6 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hrpE
 Xd3h
 XfJ7
 XjfR
@@ -36607,8 +36597,6 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2pE
-`2pP
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -36618,8 +36606,6 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`bpE
-`dpE
 `fPw.\vM
 `h9T~
 `o_je
@@ -39806,7 +39792,6 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\fp
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -46235,7 +46220,6 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p2pE
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46582,7 +46566,6 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
-pbpE
 pcPathLengthConstraint
 pct_complete
 pct_item_complete
@@ -47348,8 +47331,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpp
 r\n\vstart_index
 r\vDi
+r\vpt
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
