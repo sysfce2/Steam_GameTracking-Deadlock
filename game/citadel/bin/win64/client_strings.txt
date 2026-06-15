@@ -89,7 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j`>
+ (08@HPX`jP>
+ (08@HPZP>
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16744,8 +16745,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR`>
-08B`>
+08@HRP>
+08BP>
 08bX
 09,h
 0:00
@@ -17009,7 +17010,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpt
+2\vpd
 2^pV
 2a"l
 2bT~
@@ -17078,7 +17079,6 @@ $hRh
 4@AA
 4Ch;
 4F0I
-4F\vP
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17225,7 +17225,9 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@JP>
 8A6j
+8BP>
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17535,6 +17537,7 @@ $hRh
 @CitadelArpeggiator_t
 @DebugIndividualStyle
 @HPX`hv
+@HVp
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17550,13 +17553,13 @@ $hRh
 @\n\vPowerUpBuff
 @\tV_iswcntrl
 @absorigin_follow
-@citadel_ability_fencer_primaryweapon
 @dKb]
 @fff>fff>fff>fff>
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @n2w
+@pRe
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -17789,7 +17792,6 @@ A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
 A\tV_iswdigit
-A\v:0K
 A_txt
 AbW_
 AbandonButton
@@ -18429,8 +18431,8 @@ B64_READ_PKCS7
 B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
-B>Changes the zipline width
 B>J7I
+B>citadel_in_world_item_panel_dpi
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -29420,9 +29422,11 @@ P-224
 P-256
 P-384
 P-521
+P08Jp@
 P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
+P2P>
 P5[1
 PAGN_4
 PANORAMA_LAYOUTFILE
@@ -30053,6 +30057,7 @@ Pitch: %6.1f   Yaw: %6.1f   Dist: %6.1f %19s
 Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixelToProj
+PjP>
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -30723,12 +30728,11 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpt
+R\fpd
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpp
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34602,7 +34606,7 @@ WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WC_BaseToggle
 WD%g"0Q-)
-WDPJ
+WD@J
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -35044,6 +35048,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hrP>
 Xd3h
 XfJ7
 XjfR
@@ -36597,6 +36602,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`2PI
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -38365,6 +38371,7 @@ citadel_ability_chrono_time_wall
 citadel_ability_climb_rope
 citadel_ability_dash
 citadel_ability_drifter_primaryweapon
+citadel_ability_fencer_primaryweapon
 citadel_ability_fissure_wall
 citadel_ability_fissure_wall_cancel
 citadel_ability_fissure_wall_trigger
@@ -39792,6 +39799,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -46220,6 +46228,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
+p2P>
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46230,6 +46239,7 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
+p>t9
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -46553,6 +46563,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pbP>
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -47331,10 +47342,9 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpp
 r\n\vstart_index
 r\vDi
-r\vpt
+r\vpd
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
