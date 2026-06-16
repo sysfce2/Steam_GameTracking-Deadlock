@@ -89,8 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`jP>
- (08@HPZP>
+ (08@HPXb@
+ (0X`hpz@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16745,8 +16745,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HRP>
-08BP>
+08@J@
 08bX
 09,h
 0:00
@@ -17010,7 +17009,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpd
+2\vp8
 2^pV
 2a"l
 2bT~
@@ -17225,9 +17224,8 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@JP>
 8A6j
-8BP>
+8B@N
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17473,6 +17471,7 @@ $hRh
 >\n\vitemdetails
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >fN46R^
+>hMn
 >l\rur
 >p00<
 >yhP
@@ -17536,8 +17535,7 @@ $hRh
 @BH]f
 @CitadelArpeggiator_t
 @DebugIndividualStyle
-@HPX`hv
-@HVp
+@HPX`hvP
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17555,11 +17553,11 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
+@ht0\f
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @n2w
-@pRe
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -17575,6 +17573,7 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
+AA:0
 AABBDirection
 AACompromise
 ABXY
@@ -17792,6 +17791,7 @@ A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
 A\tV_iswdigit
+A\v:pL
 A_txt
 AbW_
 AbandonButton
@@ -29422,11 +29422,10 @@ P-224
 P-256
 P-384
 P-521
-P08Jp@
+P08@J@
 P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
-P2P>
 P5[1
 PAGN_4
 PANORAMA_LAYOUTFILE
@@ -30057,7 +30056,6 @@ Pitch: %6.1f   Yaw: %6.1f   Dist: %6.1f %19s
 Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixelToProj
-PjP>
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -30728,11 +30726,11 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpd
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vp8
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34606,7 +34604,7 @@ WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WC_BaseToggle
 WD%g"0Q-)
-WD@J
+WDPJ
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -35048,7 +35046,6 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hrP>
 Xd3h
 XfJ7
 XjfR
@@ -36399,6 +36396,7 @@ Z~wl
 \tMatchID_t"9\n&CMsgGCToServerAllocateForMatchResponse
 \tMatchID_t"Z\n#CMsgClientToGCSpectateLobbyResponse
 \tNone\n
+\tPPl
 \tParam BasePlayerWeapon returned NULL!\n
 \tParam selecting string is out of range!\n
 \tPartyID_t
@@ -36530,6 +36528,7 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
+\vPPl
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
@@ -36602,7 +36601,6 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2PI
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -39799,7 +39797,6 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -42005,6 +42002,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
+hpz@
 hr_H
 href="
 hscroll
@@ -46228,7 +46226,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p2P>
+p2@N
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46239,7 +46237,6 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>t9
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -46563,7 +46560,6 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pbP>
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -47344,7 +47340,6 @@ rZ1VwGf5
 rZPM
 r\n\vstart_index
 r\vDi
-r\vpd
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
