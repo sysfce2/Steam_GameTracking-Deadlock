@@ -2058,10 +2058,7 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0C2
 .0E2
-.0M2
-.0r2
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14066,8 +14063,7 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
-.PB2
-.PD2
+.PC2
 .PE2
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
@@ -14086,10 +14082,11 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PM2
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
-.Pp2
+.Pr2
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14376,6 +14373,8 @@ $light_emissive
 .league
 .pB2
 .pD2
+.pE2
+.pp2
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14439,6 +14438,7 @@ $light_emissive
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
+0> m2
 0AgffA
 0M2~@p
 0W/5
@@ -14470,7 +14470,7 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0v4J-
+0vTJ-
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14713,17 +14713,17 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 02
-6 32
+6 82
+6 M2
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-6072
-60i2
-60{2
+60:2
+60\2
+60o2
 62$|S)6f
 64CK\vH
 65535
@@ -14733,13 +14733,13 @@ $light_emissive
 6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@12
+6@02
+6@32
 6H,N
 6O|T%
-6P22
-6PK2
-6Pc2
-6Pw2
+6P72
+6Pi2
+6P{2
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14751,9 +14751,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`62
-6`L2
-6`m2
+6`12
 6afD
 6bX+
 6c&0|vvX
@@ -14761,8 +14759,10 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p92
-6p^2
+6p22
+6pK2
+6pc2
+6pw2
 6qo~
 6r-m_v
 6r1ij
@@ -14812,7 +14812,8 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8F k2
+8F0l2
+8F@k2
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15006,6 +15007,8 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
+>052
+>0T2
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15027,7 +15030,6 @@ $light_emissive
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
->P82
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
 >Sem
 >WK6
@@ -15049,7 +15051,7 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->p32
+>p82
 >yhP
 >ztq
 ?333?
@@ -15078,14 +15080,14 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N4J-
+@08NTJ-
 @0pp
-@6 b2
-@60)2
-@60}2
-@6p|2
+@60*2
+@6@b2
+@6P)2
+@6P}2
 @BH]f
-@HPX`hv`N2
+@HPX`hv
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15099,11 +15101,11 @@ $light_emissive
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
-@f4J-
+@fTJ-
 @fff>fff>fff>fff>
 @i1V
 @n2w
-@n4J-
+@nTJ-
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -21517,6 +21519,7 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
+F s2
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -25753,7 +25756,8 @@ P-224
 P-256
 P-384
 P-521
-P08N4J-
+P08J0
+P08NTJ-
 P1\t98"
 P5[1
 PAGN_4
@@ -26293,7 +26297,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn4J-
+PnTJ-
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -30702,9 +30706,9 @@ XWY]
 XYD%
 X\tQo
 Xd3h
-Xf n2
-Xf@o2
+Xf@n2
 XfJ7
+Xf`o2
 XjfR
 XqgA+
 Xuub
@@ -31977,10 +31981,11 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60~2
-`6P,2
-`6P-2
-`6PC2
+`60+2
+`6P~2
+`6p,2
+`6p-2
+`6pC2
 `:zQF
 `D$daM-l
 `DZG
@@ -31988,10 +31993,10 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`f4J-
 `fPw.\vM
+`fTJ-
 `h9T~
-`n4J-
+`nTJ-
 `o_je
 `yNT
 a null shared library handle was used
@@ -32010,7 +32015,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4J-
+aBvTJ-
 aD/x
 aDSS
 aECDH
@@ -35392,8 +35397,6 @@ f%wyLmX:
 f&dy
 f1cK%
 f45\r
-f4J-
-f@T2
 fBB\fy
 fC\tc
 fL\ri
@@ -35404,6 +35407,7 @@ fPitch
 fRoll
 fSpinDownTime
 fSpinUpTime
+fTJ-
 fUnh\
 fValue
 fYaw
@@ -35434,6 +35438,7 @@ f_movement_target_speed
 f_navlink_dist_to_next
 f_pose_weight_%s
 f_velocity
+f`T2
 face_up
 faceposer
 facing: %s
@@ -39549,14 +39554,14 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
+n r2
 n0?X
+n0e2
 n1Z 
-n4J-
 n5cM
 n6j/
 n:2C[
 n@PK
-n@l2
 nAlpha
 nAttributeValue
 nBodyGroup
@@ -39586,7 +39591,6 @@ nMode
 nMoveType
 nNumerator
 nPitch
-nPk2
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
 nSerialNumber
@@ -39594,12 +39598,14 @@ nSoundEventGuid
 nStance
 nStf,a
 nSw}Z\tu
+nTJ-
 nTextOffset
 nTraceContents
 nValue
 nVersion
 n\r2S
 n`3i
+n`l2
 name constraints minimum and maximum not supported
 name of highest net worth enemy
 name too long
@@ -39951,6 +39957,7 @@ npc_vehicle
 npc_yakuza_gangster
 npcclass
 npcstate
+npk2
 nsBaseUrl
 nsCaPolicyUrl
 nsCaRevocationUrl
@@ -40212,14 +40219,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4J-
+p08@H^TJ-
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6pb2
-p>4J-
+p>TJ-
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40741,7 +40747,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pn4J-
+pnTJ-
 point
 point arithmetic failure
 point at infinity
@@ -43646,7 +43652,6 @@ util4
 util5
 uvs are all identical
 uxX/
-v Q2
 v'A>M6
 v)56
 v0o/5
@@ -43656,12 +43661,12 @@ v2i_ASN1_BIT_STRING
 v2i_GENERAL_NAMES
 v2i_GENERAL_NAME_ex
 v3\vt
-v4J-
 v8array
 v8callback
 v8object
 v8value
 v<d2}
+v@Q2
 vAj}
 vAr>
 vAu&
@@ -43681,6 +43686,7 @@ vPrevWaypoint.IsValid()\n
 vStartPos
 vStartPos[%s] pStartArea[%d]
 vStartPos[%s] vGoalPos[%s]
+vTJ-
 vTarget
 vValue
 vVelocity %.2f %.2f %.2f
@@ -44168,6 +44174,7 @@ zz2K
 ~9ob
 ~If D
 ~P2T
+~PD2
 ~R65Fu
 ~jLRG
 ~w]UG
