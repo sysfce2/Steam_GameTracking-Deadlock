@@ -3130,6 +3130,9 @@ citadel_movement_debugdraw false (developmentonly gamedll clientdll replicated)
 citadel_movement_plane_overlap_mult 0 (developmentonly gamedll clientdll replicated)
 	<no description>
 
+citadel_movement_resolve_origin true (developmentonly gamedll clientdll replicated)
+	<no description>
+
 citadel_movement_skyclip_push_distance 196.85 (developmentonly gamedll clientdll replicated)
 	<no description>
 

@@ -89,8 +89,6 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXb@
- (0X`hpz@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16745,7 +16743,6 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J@
 08bX
 09,h
 0:00
@@ -17009,7 +17006,6 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp8
 2^pV
 2a"l
 2bT~
@@ -17225,7 +17221,6 @@ $hRh
 8<pl
 8= zp
 8A6j
-8B@N
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17471,7 +17466,6 @@ $hRh
 >\n\vitemdetails
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >fN46R^
->hMn
 >l\rur
 >p00<
 >yhP
@@ -17529,13 +17523,13 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N
+@08Nd
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CitadelArpeggiator_t
 @DebugIndividualStyle
-@HPX`hvP
+@HPX`hv
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17553,7 +17547,6 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
-@ht0\f
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -17573,7 +17566,6 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
-AA:0
 AABBDirection
 AACompromise
 ABXY
@@ -17791,7 +17783,6 @@ A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
 A\tV_iswdigit
-A\v:pL
 A_txt
 AbW_
 AbandonButton
@@ -18431,8 +18422,8 @@ B64_READ_PKCS7
 B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
+B>In-world texture resolution scale
 B>J7I
-B>citadel_in_world_item_panel_dpi
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -19241,7 +19232,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayercontroller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayerpawn_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\beam_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1501
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1031
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1040
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:290
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:332
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:723
@@ -27771,6 +27762,7 @@ LT_txt
 LWIN
 LXKQ
 LY\r5
+L\f0I
 L\n\fincludevotes
 L\n\tfile_type
 Label.BgColor
@@ -29422,8 +29414,8 @@ P-224
 P-256
 P-384
 P-521
-P08@J@
-P08N
+P08J J
+P08Nd
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
@@ -30730,7 +30722,6 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp8
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -33087,6 +33078,7 @@ SteamInputBindingsChangedEvent
 SteamInputControllerConnectionEvent
 SteamLeaderboardUpdated
 SteamSetRichPresence("%s","%s")\n
+SteamTextFilterSection
 SteamUnifiedMessages
 StepSimulationFuncRotatingAnglesSerializer
 StepSize
@@ -34604,7 +34596,7 @@ WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WC_BaseToggle
 WD%g"0Q-)
-WDPJ
+WD@J
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -36396,7 +36388,6 @@ Z~wl
 \tMatchID_t"9\n&CMsgGCToServerAllocateForMatchResponse
 \tMatchID_t"Z\n#CMsgClientToGCSpectateLobbyResponse
 \tNone\n
-\tPPl
 \tParam BasePlayerWeapon returned NULL!\n
 \tParam selecting string is out of range!\n
 \tPartyID_t
@@ -36528,7 +36519,6 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
-\vPPl
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
@@ -36629,6 +36619,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvd
 aD/x
 aDSS
 aECDH
@@ -42002,7 +41993,6 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz@
 hr_H
 href="
 hscroll
@@ -46225,8 +46215,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p2@N
+p08@H^d
+p0j0
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46237,6 +46227,7 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
+p>OC
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t

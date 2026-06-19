@@ -3672,6 +3672,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_inferno.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/inferno_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/inferno_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Inferno.Hero.Avoided.VO"
 	}
 	hero_gigawatt = 
 	{
@@ -5528,6 +5529,7 @@
 		{
 			upgrade_target_stun = 2.5
 		}
+		m_strRosterAvoidedSound = soundevent:"Generated.Gigawatt.Hero.Avoided.VO"
 	}
 	hero_hornet = 
 	{
@@ -7389,6 +7391,7 @@
 			upgrade_target_stun = 2.0
 		}
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/hornet_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Hornet.Hero.Avoided.VO"
 	}
 	hero_ghost = 
 	{
@@ -9239,6 +9242,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_ghost.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/spectre_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/spectre_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Ghost.Hero.Avoided.VO"
 	}
 	hero_atlas = 
 	{
@@ -11093,6 +11097,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_atlas.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/bull_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/bull_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Atlas.Hero.Avoided.VO"
 	}
 	hero_wraith = 
 	{
@@ -12953,6 +12958,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_wraith.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/wraith_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/wraith_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Wraith.Hero.Avoided.VO"
 	}
 	hero_forge = 
 	{
@@ -14809,6 +14815,7 @@
 		{
 			upgrade_healbane = 2.0
 		}
+		m_strRosterAvoidedSound = soundevent:"Generated.Forge.Hero.Avoided.VO"
 	}
 	hero_chrono = 
 	{
@@ -16659,6 +16666,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_chrono.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/chrono_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/chrono_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Chrono.Hero.Avoided.VO"
 	}
 	hero_dynamo = 
 	{
@@ -18514,6 +18522,7 @@
 		m_strHideoutRichPresence = "#Steam_Citadel_Hideout_Pontificating"
 		m_eHeroType = "ECitadelHeroType_Mystic"
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_dynamo.vsndevts"
+		m_strRosterAvoidedSound = soundevent:"Generated.Dynamo.Hero.Avoided.VO"
 	}
 	hero_kelvin = 
 	{
@@ -20365,6 +20374,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_kelvin.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/kelvin_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/kelvin_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Kelvin.Hero.Avoided.VO"
 	}
 	hero_haze = 
 	{
@@ -22223,6 +22233,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_haze.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/haze_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/haze_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Haze.Hero.Avoided.VO"
 	}
 	hero_astro = 
 	{
@@ -24073,6 +24084,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_astro.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/astro_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/astro_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Astro.Hero.Avoided.VO"
 	}
 	hero_bebop = 
 	{
@@ -25928,6 +25940,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_bebop.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/bebop_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/bebop_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Bebop.Hero.Avoided.VO"
 	}
 	hero_nano = 
 	{
@@ -27779,6 +27792,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_nano.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/nano_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/nano_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Nano.Hero.Avoided.VO"
 	}
 	hero_orion = 
 	{
@@ -29640,6 +29654,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_orion.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/archer_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/archer_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Orion.Hero.Avoided.VO"
 	}
 	hero_krill = 
 	{
@@ -31497,6 +31512,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_krill.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/digger_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/digger_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Krill.Hero.Avoided.VO"
 	}
 	hero_shiv = 
 	{
@@ -33349,6 +33365,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_shiv.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/shiv_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/shiv_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Shiv.Hero.Avoided.VO"
 	}
 	hero_tengu = 
 	{
@@ -35202,6 +35219,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_tengu.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/tengu_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/tengu_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Tengu.Hero.Avoided.VO"
 	}
 	hero_kali = 
 	{
@@ -38888,6 +38906,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_warden.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/warden_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/warden_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Warden.Hero.Avoided.VO"
 	}
 	hero_yamato = 
 	{
@@ -40745,6 +40764,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_yamato.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/yamato_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/yamato_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Yamato.Hero.Avoided.VO"
 	}
 	hero_lash = 
 	{
@@ -42596,6 +42616,7 @@
 		m_strHideoutRichPresence = "#Steam_Citadel_Hideout_Lash"
 		m_eHeroType = "ECitadelHeroType_Assassin"
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_lash.vsndevts"
+		m_strRosterAvoidedSound = soundevent:"Generated.Lash.Hero.Avoided.VO"
 	}
 	hero_viscous = 
 	{
@@ -44451,6 +44472,7 @@
 		m_strWIPModelName = resource_name:"models/heroes_wip/viscous/viscous_tourist_shape.vmdl"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/viscous_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/viscous_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Viscous.Hero.Avoided.VO"
 	}
 	hero_gunslinger = 
 	{
@@ -53592,6 +53614,7 @@
 		m_strRosterRemovedSound = soundevent:"Generated.Wrecker.Hero.Remove.VO"
 		m_strUIPortraitMap = "maps/ui/hero_prefabs/wrecker.vmap"
 		m_strTopBarVertical = panorama:"file://{images}/heroes/wrecker_vertical.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Wrecker.Hero.Avoided.VO"
 	}
 	hero_rutger = 
 	{
@@ -57270,6 +57293,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_synth.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/synth_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/synth_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Synth.Hero.Avoided.VO"
 	}
 	hero_thumper = 
 	{
@@ -60948,6 +60972,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_mirage.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/mirage_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/mirage_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Mirage.Hero.Avoided.VO"
 	}
 	hero_slork = 
 	{
@@ -71938,6 +71963,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_viper.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/kali_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/kali_card_gloat.psd"
+		m_strRosterAvoidedSound = soundevent:"Generated.Viper.Hero.Avoided.VO"
 	}
 	hero_vandal = 
 	{
@@ -75627,6 +75653,7 @@
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/magician_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/magician_card_gloat.psd"
 		m_strPostGameVictorySound = soundevent:"Sinclair.Progession.Page.Win.VO"
+		m_strRosterAvoidedSound = soundevent:"Generated.Magician.Hero.Avoided.VO"
 	}
 	hero_trapper = 
 	{
@@ -81146,6 +81173,7 @@
 		m_sAG2VariationName = resource_name:"animgraphs/animgraph2/hero/hero.vnmgraph+vampirebat.vnmgraph"
 		m_strPostGameVictorySound = soundevent:"Vampirebat.Progession.Page.Win.VO"
 		m_bNewPlayerRecommended = true
+		m_strRosterAvoidedSound = soundevent:"Generated.Vampirebat.Hero.Avoided.VO"
 	}
 	hero_drifter = 
 	{
@@ -82997,6 +83025,7 @@
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/drifter_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/drifter_card_gloat.psd"
 		m_strPostGameVictorySound = soundevent:"Drifter.Progession.Page.Win.VO"
+		m_strRosterAvoidedSound = soundevent:"Generated.Drifter.Hero.Avoided.VO"
 	}
 	hero_priest = 
 	{
@@ -84859,6 +84888,7 @@
 		m_strVoteRevealSound = soundevent:"Vo.VoteReveal.Priest"
 		m_strHideoutRichPresence = "#Steam_Citadel_Hideout_Bless"
 		m_bNewPlayerRecommended = true
+		m_strRosterAvoidedSound = soundevent:"Generated.Priest.Hero.Avoided.VO"
 	}
 	hero_frank = 
 	{
@@ -86716,6 +86746,7 @@
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/frank_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/frank_card_gloat.psd"
 		m_strPostGameVictorySound = soundevent:"Frank.Progession.Page.Win.VO"
+		m_strRosterAvoidedSound = soundevent:"Generated.Frank.Hero.Avoided.VO"
 	}
 	hero_bookworm = 
 	{
@@ -88574,6 +88605,7 @@
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/bookworm_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/bookworm_card_gloat.psd"
 		m_strPostGameVictorySound = soundevent:"Bookworm.Progession.Page.Win.VO"
+		m_strRosterAvoidedSound = soundevent:"Generated.Bookworm.Hero.Avoided.VO"
 	}
 	hero_boho = 
 	{
@@ -92265,6 +92297,7 @@
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/doorman_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/doorman_card_gloat.psd"
 		m_strPostGameVictorySound = soundevent:"Doorman.Progession.Page.Win.VO"
+		m_strRosterAvoidedSound = soundevent:"Generated.Doorman.Hero.Avoided.VO"
 	}
 	hero_skyrunner = 
 	{
@@ -97788,6 +97821,7 @@
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/punkgoat_card_critical.psd"
 		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/punkgoat_card_gloat.psd"
 		m_strPostGameVictorySound = soundevent:"Punkgoat.Progession.Page.Win.VO"
+		m_strRosterAvoidedSound = soundevent:"Generated.Punkgoat.Hero.Avoided.VO"
 	}
 	hero_druid = 
 	{
@@ -105167,6 +105201,7 @@
 		m_strPostGameVictorySound = soundevent:"Necro.Progession.Page.Win.VO"
 		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/necro_localized.svg"
 		m_bNewPlayerRecommended = true
+		m_strRosterAvoidedSound = soundevent:"Generated.Necro.Hero.Avoided.VO"
 	}
 	hero_fencer = 
 	{
@@ -107018,6 +107053,7 @@
 		m_strLogoImageEnglish = panorama:"file://{images}/heroes/hero_names/fencer.svg"
 		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/fencer_localized.svg"
 		m_strVoteRevealSound = soundevent:"Vo.VoteReveal.Fencer"
+		m_strRosterAvoidedSound = soundevent:"Generated.Fencer.Hero.Avoided.VO"
 	}
 	hero_airheart = 
 	{
@@ -108853,6 +108889,7 @@
 		m_strRosterRemovedSound = soundevent:"Generated.Chrono.Hero.Remove.VO"
 		m_strUIPortraitMap = "maps/ui/hero_prefabs/chrono.vmap"
 		m_strTopBarVertical = panorama:"file://{images}/heroes/airheart_card.psd"
+		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_airheart.vsndevts"
 	}
 	hero_familiar = 
 	{
@@ -110702,6 +110739,7 @@
 		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/familiar_localized.svg"
 		m_strVoteRevealSound = soundevent:"Vo.VoteReveal.Familiar"
 		m_strHideoutRichPresence = "#Steam_Citadel_Hideout_Dreams"
+		m_strRosterAvoidedSound = soundevent:"Generated.Familiar.Hero.Avoided.VO"
 	}
 	hero_werewolf = 
 	{
@@ -112556,6 +112594,7 @@
 		m_strLogoImageEnglish = panorama:"file://{images}/heroes/hero_names/werewolf.svg"
 		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/werewolf_localized.svg"
 		m_strVoteRevealSound = soundevent:"Vo.VoteReveal.Werewolf"
+		m_strRosterAvoidedSound = soundevent:"Generated.Werewolf.Hero.Avoided.VO"
 	}
 	hero_unicorn = 
 	{
@@ -114408,6 +114447,7 @@
 		m_strLogoImageEnglish = panorama:"file://{images}/heroes/hero_names/unicorn.svg"
 		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/unicorn_localized.svg"
 		m_strVoteRevealSound = soundevent:"Vo.VoteReveal.Unicorn"
+		m_strRosterAvoidedSound = soundevent:"Generated.Unicorn.Hero.Avoided.VO"
 	}
 	hero_opera = 
 	{

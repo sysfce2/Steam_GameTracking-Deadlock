@@ -208,7 +208,6 @@
  <-- Arg '%s'
  <-- Retval '%s'
  @snd_occlusion_debug
- A0s
  ACTIVE GROUP
  Damage Dealt to Trooper Boss
  Damage Taken from Player
@@ -2058,7 +2057,9 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0E2
+.012
+.022
+.0K2
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14060,11 +14061,11 @@ $light_emissive
 .GCProtoBufMsgSrc
 .HCK\v
 .MODIFIER_ENTRY_TYPE
+.P12
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
-.PC2
-.PE2
+.PB2
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14082,11 +14083,11 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PM2
+.PK2
 .PartnerAccountType
+.Pf2
 .PingCommonData
 .PostProcessingGameStates
-.Pr2
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14371,10 +14372,8 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pB2
-.pD2
-.pE2
-.pp2
+.p12
+.pN2
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14430,6 +14429,7 @@ $light_emissive
 0.25
 0.5 = 50% speed\n1 = 100% speed\n2 = 200% speed\n(Only editable when Fixed Length is false)
 0.75
+00F-
 0123456789
 02V8[
 05=k
@@ -14438,7 +14438,6 @@ $light_emissive
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
-0> m2
 0AgffA
 0M2~@p
 0W/5
@@ -14470,7 +14469,6 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vTJ-
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14605,6 +14603,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vp0F-
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14713,17 +14712,19 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 82
-6 M2
+6 S2
+6 k2
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60:2
-60\2
-60o2
+6072
+60>2
+60T2
+60c2
+60u2
 62$|S)6f
 64CK\vH
 65535
@@ -14733,12 +14734,12 @@ $light_emissive
 6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@02
-6@32
+6@A2
+6@f2
 6H,N
 6O|T%
-6P72
-6Pi2
+6P82
+6Pv2
 6P{2
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
@@ -14751,7 +14752,8 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`12
+6`o2
+6`q2
 6afD
 6bX+
 6c&0|vvX
@@ -14759,10 +14761,8 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p22
-6pK2
-6pc2
-6pw2
+6p62
+6p92
 6qo~
 6r-m_v
 6r1ij
@@ -14812,8 +14812,7 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8F0l2
-8F@k2
+8B`v
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15007,8 +15006,6 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound*
 >0 = watershed, 1 = monotone, 2 = layers
->052
->0T2
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15031,6 +15028,8 @@ $light_emissive
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
+>Pa2
+>Pg2
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15051,7 +15050,6 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->p82
 >yhP
 >ztq
 ?333?
@@ -15080,14 +15078,10 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NTJ-
+@08N
 @0pp
-@60*2
-@6@b2
-@6P)2
-@6P}2
 @BH]f
-@HPX`hv
+@HPX`hv0V2
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15101,11 +15095,10 @@ $light_emissive
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
-@fTJ-
 @fff>fff>fff>fff>
+@htp
 @i1V
 @n2w
-@nTJ-
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -15119,7 +15112,7 @@ A.00h
 A.I. Disabled...\n
 A2VPD
 A4Wn>
-A87M
+A8GM
 A9ur
 A<fP
 A>x8
@@ -15369,6 +15362,7 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
+A\v:pt
 AbW_
 Abandon
 Abandoned
@@ -16564,7 +16558,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayercontroller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\baseplayerpawn_shared.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\breakableprop.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_melee.cpp:1501
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1031
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:1040
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:290
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:332
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:723
@@ -21519,7 +21513,6 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
-F s2
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -21561,6 +21554,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FP_2
 FU\n-XP
 FVisible
 FV|FgUV
@@ -25756,8 +25750,8 @@ P-224
 P-256
 P-384
 P-521
-P08J0
-P08NTJ-
+P08N
+P0F-
 P1\t98"
 P5[1
 PAGN_4
@@ -26297,7 +26291,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-PnTJ-
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26729,6 +26722,7 @@ RSA_verify_PKCS1_PSS_mgf1
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vp0F-
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30706,9 +30700,8 @@ XWY]
 XYD%
 X\tQo
 Xd3h
-Xf@n2
 XfJ7
-Xf`o2
+Xf`u2
 XjfR
 XqgA+
 Xuub
@@ -30977,6 +30970,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp0F-
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31910,6 +31904,8 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vp00-
+\vp0F-
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -31981,11 +31977,9 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60+2
-`6P~2
-`6p,2
-`6p-2
-`6pC2
+`6 42
+`6 52
+`6 K2
 `:zQF
 `D$daM-l
 `DZG
@@ -31994,9 +31988,7 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
-`fTJ-
 `h9T~
-`nTJ-
 `o_je
 `yNT
 a null shared library handle was used
@@ -32015,7 +32007,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvTJ-
 aD/x
 aDSS
 aECDH
@@ -35407,7 +35398,6 @@ fPitch
 fRoll
 fSpinDownTime
 fSpinUpTime
-fTJ-
 fUnh\
 fValue
 fYaw
@@ -35438,7 +35428,6 @@ f_movement_target_speed
 f_navlink_dist_to_next
 f_pose_weight_%s
 f_velocity
-f`T2
 face_up
 faceposer
 facing: %s
@@ -39554,9 +39543,8 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n r2
+n s2
 n0?X
-n0e2
 n1Z 
 n5cM
 n6j/
@@ -39598,14 +39586,12 @@ nSoundEventGuid
 nStance
 nStf,a
 nSw}Z\tu
-nTJ-
 nTextOffset
 nTraceContents
 nValue
 nVersion
 n\r2S
 n`3i
-n`l2
 name constraints minimum and maximum not supported
 name of highest net worth enemy
 name too long
@@ -39957,7 +39943,6 @@ npc_vehicle
 npc_yakuza_gangster
 npcclass
 npcstate
-npk2
 nsBaseUrl
 nsCaPolicyUrl
 nsCaRevocationUrl
@@ -40219,13 +40204,16 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^TJ-
+p08@H^
+p0F-
+p0jpO
+p2`v
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p>TJ-
+p6@j2
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40249,6 +40237,7 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
+pF0"2
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -40747,7 +40736,6 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pnTJ-
 point
 point arithmetic failure
 point at infinity
@@ -43666,7 +43654,6 @@ v8callback
 v8object
 v8value
 v<d2}
-v@Q2
 vAj}
 vAr>
 vAu&
@@ -43686,7 +43673,6 @@ vPrevWaypoint.IsValid()\n
 vStartPos
 vStartPos[%s] pStartArea[%d]
 vStartPos[%s] vGoalPos[%s]
-vTJ-
 vTarget
 vValue
 vVelocity %.2f %.2f %.2f
@@ -44170,11 +44156,9 @@ zz2K
 }Xee+
 }gE3
 }n2W
-~0D2
 ~9ob
 ~If D
 ~P2T
-~PD2
 ~R65Fu
 ~jLRG
 ~w]UG

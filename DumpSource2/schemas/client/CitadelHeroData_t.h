@@ -103,6 +103,7 @@
 //	"m_strLastHitSound": "",
 //	"m_strRosterSelectedSound": "",
 //	"m_strRosterRemovedSound": "",
+//	"m_strRosterAvoidedSound": "",
 //	"m_strVoteRevealSound": "",
 //	"m_strLowHealthSound": "",
 //	"m_strHeroSpecificLowHealthSound": "",
@@ -248,6 +249,7 @@ class CitadelHeroData_t
 	CSoundEventName m_strLastHitSound;
 	CSoundEventName m_strRosterSelectedSound;
 	CSoundEventName m_strRosterRemovedSound;
+	CSoundEventName m_strRosterAvoidedSound;
 	CSoundEventName m_strVoteRevealSound;
 	CSoundEventName m_strLowHealthSound;
 	CSoundEventName m_strHeroSpecificLowHealthSound;

@@ -21224,6 +21224,7 @@ citadel_modifier_hud_message_display_time
 citadel_move_goal_tolerance
 citadel_movement_debugdraw
 citadel_movement_plane_overlap_mult
+citadel_movement_resolve_origin
 citadel_movement_skyclip_push_distance
 citadel_movement_skyclip_push_min_force
 citadel_movement_slip_accel
@@ -39920,6 +39921,7 @@ m_strReturnSound
 m_strRiccochetSound
 m_strRootTargetSound
 m_strRopeMaterialModel
+m_strRosterAvoidedSound
 m_strRosterBackgroundLayout
 m_strRosterRemovedSound
 m_strRosterSelectedSound

@@ -515,7 +515,7 @@
 							<CitadelSettingsCheckbox class="CommunicationToggle" text="#citadel_settings_communication_allow_text" convar="citadel_allow_spectated_text" />
 							<CitadelSettingsCheckbox class="CommunicationToggle" text="#citadel_settings_communication_allow_pings" convar="citadel_allow_spectated_pings" />
 						</PopupSettingsSettingsRow>
-						<PopupSettingsSettingsRow>
+						<PopupSettingsSettingsRow id="SteamTextFilterSection">
 							<Label class="SettingLabel AlignVerticalCenter" text="#citadel_settings_steam_text_filter_title" searchable="true" />
 							<Button class="InputButton Fill" onactivate="CitadelShowSteamTextFilterSettings()">
 								<Panel class="Bottom" />
