@@ -80,6 +80,7 @@
 %s does not support all required features, disabling.\n
 %s does not support computeDerivativeGroupQuads, disabling.\n
 %s required because VulkanRequireComputeShaderDerivatives is set in gameinfo.gi, but it is not supported.  Vulkan device creation failed.\n
+%s.json
 %s.spv
 %s2-d encoding
 %s: %s at line %u of %s %u (got %u, expected %u)
@@ -138,6 +139,8 @@
 %sEOL padding
 %s[%s:%d] %s\n
 %s[line %d:%d] 
+%s\shader-%s-%s.nvdbg
+%s\shader-%s-%s.spv
 %s_ColorTargetImageView
 %s_ColorTargetImageViewSrgb
 %s_CubeArrayImageView
@@ -418,6 +421,7 @@
 .elements
 .foz
 .ini
+.nv-gpudmp
 .rdc
 .spv
 .vcs
@@ -428,6 +432,7 @@
 0123456789-
 0123456789ABCDEFabcdef-+Xx
 0123456789ABCDEFabcdef-+XxPp
+0pH(
 0x%x
 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
 2\f%24
@@ -441,6 +446,7 @@
 7T2,
 8"3hrf
 8&Kx
+8F@O,
 969p
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
@@ -453,6 +459,7 @@
 =\t ();,\n\r<>
 >-memory-
 ?ParseEXRHeaderFromMemory() failed! Error message: %s\n
+@6p0,
 @BXV
 @Integer overflow in %s
 @count
@@ -476,6 +483,7 @@ AddDescriptorsToGlobalPerFrameDescriptorSet(): Trying to register descriptor wit
 Additional fossilize database path: %s\n
 AdobeDeflate
 After failure, vkCreateGraphicsPipelines retry %d was successful.\n
+Aftermath GPU dump written to '%s'.\n
 Allocation falling back to non-device local heap failed.\n
 AllocationBytes
 AllocationCount
@@ -666,40 +674,40 @@ CRenderDeviceBase::InitPerFrameMemoryStack
 CRenderDeviceBase::Present(598): 
 CRenderDeviceBase::StartRenderDocCapture(3483): 
 CRenderDeviceVulkan::AllocateBufferInPool - invalid memory pool handle.\n
-CRenderDeviceVulkan::AllocateBufferInPool(10050): vmaBindImageMemory failed for buffer %s with error %d.\n
-CRenderDeviceVulkan::AllocateBufferInPool(9995): failed to allocate GPU memory in custom pool for %s.\n
+CRenderDeviceVulkan::AllocateBufferInPool(10010): failed to allocate GPU memory in custom pool for %s.\n
+CRenderDeviceVulkan::AllocateBufferInPool(10065): vmaBindImageMemory failed for buffer %s with error %d.\n
 CRenderDeviceVulkan::AllocateStaticDescriptorSet: Failed to allocate descriptor set.\n
 CRenderDeviceVulkan::AllocateTextureInPool - invalid memory pool handle.\n
-CRenderDeviceVulkan::AllocateTextureInPool(9677): Allocation already set for %s, it is not valid to assign a new allocation.\n
-CRenderDeviceVulkan::AllocateTextureInPool(9752): failed to allocate GPU memory in custom pool for %s.\n
-CRenderDeviceVulkan::AllocateTextureInPool(9818): vmaBindImageMemory failed for image %s with error %d.\n
+CRenderDeviceVulkan::AllocateTextureInPool(9692): Allocation already set for %s, it is not valid to assign a new allocation.\n
+CRenderDeviceVulkan::AllocateTextureInPool(9767): failed to allocate GPU memory in custom pool for %s.\n
+CRenderDeviceVulkan::AllocateTextureInPool(9833): vmaBindImageMemory failed for image %s with error %d.\n
 CRenderDeviceVulkan::AllocateUpdateAfterBindDescriptorSet: Failed to allocate descriptor set.\n
-CRenderDeviceVulkan::BeginSubmittingDisplayLists(4433): 
-CRenderDeviceVulkan::CreateDefaultBuffers(2511): 
+CRenderDeviceVulkan::BeginSubmittingDisplayLists(4437): 
+CRenderDeviceVulkan::CreateDefaultBuffers(2515): 
 CRenderDeviceVulkan::CreateDefaultShaders
 CRenderDeviceVulkan::CreateDescriptorSet: Failed to create descriptor set.\n
 CRenderDeviceVulkan::CreateIndirectCommandsPreprocessBuffer- invalid layout handle.\n
 CRenderDeviceVulkan::CreateIndirectExecutionSet
-CRenderDeviceVulkan::CreateTLAS(7778): 
-CRenderDeviceVulkan::DeleteQueryObject(4647): 
+CRenderDeviceVulkan::CreateTLAS(7782): 
+CRenderDeviceVulkan::DeleteQueryObject(4651): 
 CRenderDeviceVulkan::DestroyDeviceMemoryPool - invalid memory pool handle.\n
 CRenderDeviceVulkan::DestroyIndirectCommandsLayout - invalid layout handle.\n
-CRenderDeviceVulkan::FreeBufferFromPool(10089): Unable to get Vulkan buffer.\n
-CRenderDeviceVulkan::FreeBufferFromPool(10095): no allocation for buffer %s.\n
+CRenderDeviceVulkan::FreeBufferFromPool(10104): Unable to get Vulkan buffer.\n
+CRenderDeviceVulkan::FreeBufferFromPool(10110): no allocation for buffer %s.\n
 CRenderDeviceVulkan::FreeTextureFromPool - invalid memory pool handle.\n
-CRenderDeviceVulkan::FreeTextureFromPool(9850): Unable to get Vulkan image for %s.\n
-CRenderDeviceVulkan::FreeTextureFromPool(9856): no allocation for image %s.\n
-CRenderDeviceVulkan::GetDeviceMemoryBufferAllocationInfo(10191): Unable to get Vulkan buffer.\n
-CRenderDeviceVulkan::GetDeviceMemoryBufferAllocationInfo(10197): no allocation for buffer %s.\n
-CRenderDeviceVulkan::GetDeviceMemoryTextureAllocationInfo(10166): Unable to get Vulkan image for %s.\n
-CRenderDeviceVulkan::GetDeviceMemoryTextureAllocationInfo(10172): no allocation for image %s.\n
+CRenderDeviceVulkan::FreeTextureFromPool(9865): Unable to get Vulkan image for %s.\n
+CRenderDeviceVulkan::FreeTextureFromPool(9871): no allocation for image %s.\n
+CRenderDeviceVulkan::GetDeviceMemoryBufferAllocationInfo(10206): Unable to get Vulkan buffer.\n
+CRenderDeviceVulkan::GetDeviceMemoryBufferAllocationInfo(10212): no allocation for buffer %s.\n
+CRenderDeviceVulkan::GetDeviceMemoryTextureAllocationInfo(10181): Unable to get Vulkan image for %s.\n
+CRenderDeviceVulkan::GetDeviceMemoryTextureAllocationInfo(10187): no allocation for image %s.\n
 CRenderDeviceVulkan::GetDeviceSpecificTexture
 CRenderDeviceVulkan::GetDeviceSpecificTexture() failed to get texture data.\n
 CRenderDeviceVulkan::InitDevice: failed to get queue properties\n
 CRenderDeviceVulkan::InitDevice: no graphics queue found\n
 CRenderDeviceVulkan::InitDevice: vkEnumerateDeviceExtensionProperties( ... ) failed.\n
 CRenderDeviceVulkan::OnLowMemoryNotification - evicting all textures to reduce memory pressure.\n
-CRenderDeviceVulkan::ReadTexturePixels(4230): 
+CRenderDeviceVulkan::ReadTexturePixels(4234): 
 CRenderDeviceVulkan::RebakeDescriptorSetsReferencing - could not allocate descriptor in new pool.\n
 CRenderDeviceVulkan::SetHardwareGammaRamp failed to get swap chain.\n
 CRenderDeviceVulkan::UpdateDescriptorSet: Failed to update descriptor set.\n
@@ -712,7 +720,7 @@ CRenderThreadVulkan::OnReadPixels(233): Error! NULL texture pointer sent to OnRe
 CSheetDataTextureCache::AllocateAndUploadSequenceData(582): 
 CSwapChainBase::QueuePresentAndWait() looped for %d iterations without a present event.\n
 CSwapChainVulkan::CreateSwapChain
-CSwapChainVulkan::CreateSwapChain(3281): 
+CSwapChainVulkan::CreateSwapChain(3285): 
 CSwapChainVulkan::CreateSwapChain::<lambda_2>::operator ()
 CSwapChainVulkan::SwapBuffers
 CSwapChainVulkan::SwapBuffers vkAcquireNextImageKHR - completed result = %s\n
@@ -768,6 +776,8 @@ CUtlLeanVectorBase<struct UtlLinkedListElem_t<struct VulkanSemaphore_t *,unsigne
 CUtlLeanVectorBase<struct UtlLinkedListElem_t<unsigned short,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CShaderVulkanBase const *,class CUtlLinkedList<struct CFossilizeStateCreator::FossilizeShaderModule_t *,unsigned short,0,unsigned short,class CUtlLeanVector<struct UtlLinkedListElem_t<struct CFossilizeStateCreator::FossilizeShaderModule_t *,unsigned short>,unsigned short,class CMemAllocAllocator> > *,class CDefLess<class CShaderVulkanBase const *>,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,struct VulkanDeviceSpecificTexture_t,class CDefLess<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator>::EnsureCapacity
+CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct GFSDK_Aftermath_ShaderBinaryHash,struct CAftermathVulkan::ShaderSpirvInfo_t,class CDefLess<struct GFSDK_Aftermath_ShaderBinaryHash>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator>::EnsureCapacity
+CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct GFSDK_Aftermath_ShaderDebugInfoIdentifier,class CUtlVector<unsigned char,int,class CUtlVectorMemory_Growable<unsigned char,int,0> > *,class CDefLess<struct GFSDK_Aftermath_ShaderDebugInfoIdentifier>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct RenderDescriptorSetHandle_t__ *,struct VulkanDeviceSpecificDescriptorSet_t,class CDefLess<struct RenderDescriptorSetHandle_t__ *>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct RenderRayTracePipelineHandle_t__ *,struct VulkanDeviceSpecificRayTracePipeline_t,class CDefLess<struct RenderRayTracePipelineHandle_t__ *>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct RenderResourceHandle_t__ *,struct VulkanDeviceSpecificBuffer_t,class CDefLess<struct RenderResourceHandle_t__ *>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator>::EnsureCapacity
@@ -782,6 +792,8 @@ CUtlQueue<struct VkSemaphore_T *,class CUtlLeanVector<struct CUtlQueueNode_t<str
 CUtlRBTree<struct CUtlOrderedMapBase<class CShaderVulkanBase const *,class CUtlLinkedList<struct CFossilizeStateCreator::FossilizeShaderModule_t *,unsigned short,0,unsigned short,class CUtlLeanVector<struct UtlLinkedListElem_t<struct CFossilizeStateCreator::FossilizeShaderModule_t *,unsigned short>,unsigned short,class CMemAllocAllocator> > *,class CDefLess<class CShaderVulkanBase const *>,unsigned short>::Node_t,class CUtlOrderedMapBase<class CShaderVulkanBase const *,class CUtlLinkedList<struct CFossilizeStateCreator::FossilizeShaderModule_t *,unsigned short,0,unsigned short,class CUtlLeanVector<struct UtlLinkedListElem_t<struct CFossilizeStateCreator::FossilizeShaderModule_t *,unsigned short>,unsigned short,class CMemAllocAllocator> > *,class CDefLess<class CShaderVulkanBase const *>,unsigned short>::CKeyLess,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CShaderVulkanBase const *,class CUtlLinkedList<struct CFossilizeStateCreator::FossilizeShaderModule_t *,unsigned short,0,unsigned short,class CUtlLeanVector<struct UtlLinkedListElem_t<struct CFossilizeStateCreator::FossilizeShaderModule_t *,unsigned short>,unsigned short,class CMemAllocAllocator> > *,class CDefLess<class CShaderVulkanBase const *>,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,class CUtlHashtable<class CDescriptorSetVulkan *,struct empty_t,struct DefaultHashFunctor<class CDescriptorSetVulkan *>,struct DefaultEqualFunctor<class CDescriptorSetVulkan *>,class CUtlLeanVector<class CUtlHashtableEntry<class CDescriptorSetVulkan *,struct empty_t>,int,class CMemAllocAllocator>,1> *,class CDefLess<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,int>::Node_t,class CUtlOrderedMapBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,class CUtlHashtable<class CDescriptorSetVulkan *,struct empty_t,struct DefaultHashFunctor<class CDescriptorSetVulkan *>,struct DefaultEqualFunctor<class CDescriptorSetVulkan *>,class CUtlLeanVector<class CUtlHashtableEntry<class CDescriptorSetVulkan *,struct empty_t>,int,class CMemAllocAllocator>,1> *,class CDefLess<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,class CUtlHashtable<class CDescriptorSetVulkan *,struct empty_t,struct DefaultHashFunctor<class CDescriptorSetVulkan *>,struct DefaultEqualFunctor<class CDescriptorSetVulkan *>,class CUtlLeanVector<class CUtlHashtableEntry<class CDescriptorSetVulkan *,struct empty_t>,int,class CMemAllocAllocator>,1> *,class CDefLess<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,struct VulkanDeviceSpecificTexture_t,class CDefLess<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,unsigned int>::Node_t,class CUtlOrderedMapBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,struct VulkanDeviceSpecificTexture_t,class CDefLess<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,unsigned int>::CKeyLess,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,struct VulkanDeviceSpecificTexture_t,class CDefLess<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<struct GFSDK_Aftermath_ShaderBinaryHash,struct CAftermathVulkan::ShaderSpirvInfo_t,class CDefLess<struct GFSDK_Aftermath_ShaderBinaryHash>,unsigned int>::Node_t,class CUtlOrderedMapBase<struct GFSDK_Aftermath_ShaderBinaryHash,struct CAftermathVulkan::ShaderSpirvInfo_t,class CDefLess<struct GFSDK_Aftermath_ShaderBinaryHash>,unsigned int>::CKeyLess,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct GFSDK_Aftermath_ShaderBinaryHash,struct CAftermathVulkan::ShaderSpirvInfo_t,class CDefLess<struct GFSDK_Aftermath_ShaderBinaryHash>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<struct GFSDK_Aftermath_ShaderDebugInfoIdentifier,class CUtlVector<unsigned char,int,class CUtlVectorMemory_Growable<unsigned char,int,0> > *,class CDefLess<struct GFSDK_Aftermath_ShaderDebugInfoIdentifier>,unsigned int>::Node_t,class CUtlOrderedMapBase<struct GFSDK_Aftermath_ShaderDebugInfoIdentifier,class CUtlVector<unsigned char,int,class CUtlVectorMemory_Growable<unsigned char,int,0> > *,class CDefLess<struct GFSDK_Aftermath_ShaderDebugInfoIdentifier>,unsigned int>::CKeyLess,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct GFSDK_Aftermath_ShaderDebugInfoIdentifier,class CUtlVector<unsigned char,int,class CUtlVectorMemory_Growable<unsigned char,int,0> > *,class CDefLess<struct GFSDK_Aftermath_ShaderDebugInfoIdentifier>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct RenderDescriptorSetHandle_t__ *,struct VulkanDeviceSpecificDescriptorSet_t,class CDefLess<struct RenderDescriptorSetHandle_t__ *>,unsigned int>::Node_t,class CUtlOrderedMapBase<struct RenderDescriptorSetHandle_t__ *,struct VulkanDeviceSpecificDescriptorSet_t,class CDefLess<struct RenderDescriptorSetHandle_t__ *>,unsigned int>::CKeyLess,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct RenderDescriptorSetHandle_t__ *,struct VulkanDeviceSpecificDescriptorSet_t,class CDefLess<struct RenderDescriptorSetHandle_t__ *>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct RenderRayTracePipelineHandle_t__ *,struct VulkanDeviceSpecificRayTracePipeline_t,class CDefLess<struct RenderRayTracePipelineHandle_t__ *>,unsigned int>::Node_t,class CUtlOrderedMapBase<struct RenderRayTracePipelineHandle_t__ *,struct VulkanDeviceSpecificRayTracePipeline_t,class CDefLess<struct RenderRayTracePipelineHandle_t__ *>,unsigned int>::CKeyLess,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct RenderRayTracePipelineHandle_t__ *,struct VulkanDeviceSpecificRayTracePipeline_t,class CDefLess<struct RenderRayTracePipelineHandle_t__ *>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct RenderResourceHandle_t__ *,struct VulkanDeviceSpecificBuffer_t,class CDefLess<struct RenderResourceHandle_t__ *>,unsigned int>::Node_t,class CUtlOrderedMapBase<struct RenderResourceHandle_t__ *,struct VulkanDeviceSpecificBuffer_t,class CDefLess<struct RenderResourceHandle_t__ *>,unsigned int>::CKeyLess,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct RenderResourceHandle_t__ *,struct VulkanDeviceSpecificBuffer_t,class CDefLess<struct RenderResourceHandle_t__ *>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
@@ -1045,6 +1057,8 @@ Failed to prepare fossilize database: '%s'\n
 Failed to read attribute.\n
 Failed to save video settings config to '%s'\n
 Failed to setup frame pacing, renderthread is not available.\n
+Failed to write NVIDIA Aftermath GPU Crash Dump JSON to %s\n
+Failed to write NVIDIA Aftermath GPU Crash Dump to %s\n
 FallbackTexture
 Fax3Decode1D
 Fax3Decode2D
@@ -1072,6 +1086,7 @@ FindOrCreateTexture: Only dynamic textures can have non-global scope!\n
 FindOrCreateTexture: Texture scope is unspecified!\n
 FindOrCreateTexture: Texture usage is unspecified!\n
 Floating point "Predictor" not supported with %d data format
+FlushQueuedBufferCopies: %s size: %llu dstOffset: %llu srcOffset: %llu
 Flushing Pipeline Cache...\n
 Force defragmenting memory with VMA
 Fossilize ERROR: Binary varint buffer overflows payload.\n
@@ -1093,6 +1108,7 @@ Fossilize WARNING:\n\t%s
 FossilizeLogCallback
 FossilizePipelineCreation
 FossilizePrepare
+Found %d NV_device_diagnostic_checkpoints.\n
 Found %d checkpoints.\n
 Found %d streaming textures in array, but in-flight count is %d\n
 Found matching VkApplicationInfo.pApplicationName: '%s' VkApplicationInfo.pEngineName: '%s'\n
@@ -1126,6 +1142,26 @@ GBuffer.ShadingModelId
 GBuffer.Specular
 GBuffer.Subsurface
 GENERAL
+GFSDK_Aftermath_DisableGpuCrashDumps
+GFSDK_Aftermath_EnableGpuCrashDumps
+GFSDK_Aftermath_GetShaderDebugInfoIdentifier
+GFSDK_Aftermath_GetShaderDebugInfoIdentifier returned 0x%x\n
+GFSDK_Aftermath_GetShaderHashSpirv
+GFSDK_Aftermath_GetShaderHashSpirv failed with %x
+GFSDK_Aftermath_GpuCrashDump_CreateDecoder
+GFSDK_Aftermath_GpuCrashDump_CreateDecoder returned 0x%x\n
+GFSDK_Aftermath_GpuCrashDump_DestroyDecoder
+GFSDK_Aftermath_GpuCrashDump_DestroyDecoder returned 0x%x\n
+GFSDK_Aftermath_GpuCrashDump_GenerateJSON
+GFSDK_Aftermath_GpuCrashDump_GenerateJSON returned 0x%x\n
+GFSDK_Aftermath_GpuCrashDump_GetBaseInfo
+GFSDK_Aftermath_GpuCrashDump_GetBaseInfo returned 0x%x\n
+GFSDK_Aftermath_GpuCrashDump_GetDescription
+GFSDK_Aftermath_GpuCrashDump_GetDescription returned 0x%x\n
+GFSDK_Aftermath_GpuCrashDump_GetDescriptionSize
+GFSDK_Aftermath_GpuCrashDump_GetDescriptionSize returned 0x%x\n
+GFSDK_Aftermath_GpuCrashDump_GetJSON
+GFSDK_Aftermath_Lib.x64.dll
 GLSL.std.450
 GL_EXT_samplerless_texture_functions
 GL_EXT_shader_16bit_storage
@@ -1136,6 +1172,8 @@ GL_GOOGLE_include_directive
 GL_KHR_shader_subgroup_basic
 GL_KHR_shader_subgroup_quad
 GPSIFDOffset
+GPU Hang
+GPU Hang. %s
 GPU memory available (%d MB of %d MB used). Increasing texture pool size %d MB -> %d MB.\n
 GPU memory available (%d MB of %d MB used). Reducing texture pool size %d MB -> %d MB\n
 GPU memory available (%d MB of %d MB used). Texture pool size has become smaller than the minimum pool size, increasing pool size %d MB -> %d MB\n
@@ -1478,7 +1516,6 @@ Output aborted.
 Overall System GPU memory use:\n
 Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!\n
 Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!\n
-P2P{&
 PC SM 4.0 (D3D10)
 PC SM 4.0 (VULKAN)
 PC SM 4.1 (D3D10.1)
@@ -1534,6 +1571,7 @@ PooledDynamicConstantBuffer
 Position.ViewSpace
 PostMessageW
 PostThreadMessageW
+PpH(
 Predictor
 PredictorEncodeTile
 PredictorSetup
@@ -1559,6 +1597,7 @@ RESOURCE_TYPE_TEXTURE
 RJqn
 RTX\n
 R\vpX
+R\vppH(
 R_T5Y
 Ran out of query slots.\n
 Rasterizer state is VK_POLYGON_MODE_LINE but VkPhysicalDeviceFeatures.fillModeNonSolid is not supported.  Forcing to VK_POLYGON_MODE_FILL.  May result in incorrect rendering.\n
@@ -2008,6 +2047,7 @@ VK_NOT_READY
 VK_NVX_binary_import
 VK_NVX_image_view_handle
 VK_NV_device_diagnostic_checkpoints
+VK_NV_device_diagnostics_config
 VK_NV_low_latency2
 VK_NV_ray_tracing_invocation_reorder
 VK_NV_ray_tracing_validation
@@ -2166,6 +2206,8 @@ WinVerifyTrust
 Windowed
 Write error at scanline %lu
 Wrote %s\n
+Wrote NVIDIA Aftermath GPU Crash Dump JSON to %s\n
+Wrote NVIDIA Aftermath GPU Crash Dump to %s\n
 Wrote RenderDoc capture to %s\n
 X5AHx
 XClipPathUnits
@@ -2264,6 +2306,7 @@ Z\tV_powd
 \nGetVfxDll(93): ERROR! Can't load %s dll, automatic RenderDoc shader debug info not available.\n
 \nMS,\nVS_MS_RTX
 \nPS_RENDER_STATE
+\nPpH(
 \nRTX
 \n\tCommand Buffer Labels - %d\n
 \n\tObjects - %d\n
@@ -2291,6 +2334,7 @@ Z\tV_powd
 \t_V_StringAfterPrefixCaseSensitive
 \t_V_strcspn
 \tg_TSPointerListNodes
+\vppH(
 \ysK
 ]rHa
 _DOVK
@@ -2325,6 +2369,8 @@ _wjb
 addressModeU
 addressModeV
 addressModeW
+aftermath_dump
+aftermath_dumps
 allocateInPool
 alphaBlendOp
 alphaToCoverageEnable
@@ -2500,6 +2546,7 @@ error: unable to fetch LUID for Vulkan device
 error: vkGetInstanceProcAddr not a valid entrypoint
 error: vkGetPhysicalDeviceProperties2 entrypoint does not exist for this Vulkan driver
 extraPrimitiveOverestimationSize
+fDD,
 fDeltaTime
 fDeviceToViewDepth
 fDownscaleFactor
@@ -2508,6 +2555,7 @@ fJitter
 fJitterSequenceLength
 fMotionVectorJitterCancellation
 fMotionVectorScale
+fPD,
 fPreExposure
 fPreviousFramePreExposure
 fReactiveMax
@@ -2729,6 +2777,7 @@ png/jpg
 polygonMode
 positiont
 powf
+ppH(
 preserveAttachments
 primitiveRestartEnable
 printf_enable
@@ -2742,6 +2791,7 @@ psize
 psrs
 pushConstantRanges
 quAt
+r\fppH(
 r_allow_low_gpu_memory_mode
 r_cache_pool_allocations
 r_dilatedDepth
