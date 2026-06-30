@@ -4278,7 +4278,7 @@
 		"ping_attack"											"Let's take out {s:param_1}"
 		"ping_stun"												"Stun {s:param_1}!"
 		"ping_jar_call"											"Spirit Urn is here!"
-		"ping_koth"												"Dying Star is here!"
+		"ping_koth"												"Unstable Rift is here!"
 		"ping_enemy_take_mid"									"They're taking mid!"
 		"ping_take_mid"											"Let's take mid!"
 		"ping_use_ability"										"{s:param_1} is ready!"

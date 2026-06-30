@@ -181,6 +181,12 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
+ (08@HPX`j@
+ (08@HPXb0
+ (08@HPZ@
+ (08@HR0
+ (08@J0
+ (0X`hpz0
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -1688,7 +1694,6 @@ $light_emissive
 (debug)
 (default)
 (fS{ggRcjh
-(fp23
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
@@ -2060,9 +2065,8 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.083
-.0F3
-.0Q3
+.0L3
+.0U3
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14093,7 +14097,6 @@ $light_emissive
 .MODIFIER_ENTRY_TYPE
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
-.P83
 .PARTICLE_MESSAGE
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
@@ -14112,6 +14115,8 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PG3
+.PU3
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14399,8 +14404,6 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p73
-.p83
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14459,11 +14462,15 @@ $light_emissive
 0123456789
 02V8[
 05=k
+08@HR@
+08@J0
+08B@
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
+0>P)3
 0AgffA
 0M2~@p
 0W/5
@@ -14629,7 +14636,6 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vpP
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14739,8 +14745,7 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 63
-6 N3
+6 U3
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
@@ -14756,10 +14761,9 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666kill eater score type
 67-s
-6@23
 6H,N
 6O|T%
-6P(3
+6P\t3
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14778,8 +14782,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p)3
-6p.3
+6p@3
 6qo~
 6r-m_v
 6r1ij
@@ -14829,6 +14832,8 @@ $light_emissive
 8<pl
 8= zp
 8A6j
+8F`(3
+8Fp'3
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15093,12 +15098,10 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N$
+@08N
 @0pp
-@6 83
-@6`73
 @BH]f
-@HPX`hvP\t3
+@HPX`hv
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15134,6 +15137,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA: I
 AABBDirection
 AACompromise
 AC2,h
@@ -16604,7 +16608,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_he
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_familiar.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1990
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2116
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2119
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2130
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
@@ -21562,6 +21566,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FP/3
 FU\n-XP
 FVisible
 FV|FgUV
@@ -25758,7 +25763,9 @@ P-224
 P-256
 P-384
 P-521
-P08N$
+P08@J0
+P08J`
+P08N
 P1\t98"
 P5[1
 PAGN_4
@@ -26730,7 +26737,6 @@ R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vpP
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30182,7 +30188,6 @@ Ut]<E
 Uv1t
 Uz_G3=
 V07;m
-V0:3
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -30200,7 +30205,7 @@ V3 s
 V3_ADDR_VALIDATE_PATH_INTERNAL
 V3_GENERIC_EXTENSION
 V5u f
-V@C3
+V@M3
 VALV
 VALVw
 VDPr
@@ -30710,9 +30715,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr@
 Xd3h
-Xf0*3
 XfJ7
+Xfp*3
 XjfR
 XqgA+
 Xuub
@@ -30981,7 +30987,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -31925,7 +31930,6 @@ Z~wl
 ^DqPt
 ^J_spY
 ^Nij
-^PN3
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
@@ -31987,7 +31991,6 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6 93
 `:zQF
 `D$daM-l
 `DZG
@@ -31997,7 +32000,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`ht`d
 `o_je
 `yNT
 a null shared library handle was used
@@ -32016,7 +32018,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$
 aD/x
 aDSS
 aECDH
@@ -34333,7 +34334,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\tp
 dSAQuality
 dWry
 dZ!2.
@@ -36505,6 +36505,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
+hpz0
 hr_H
 http request
 https proxy request
@@ -36831,6 +36832,7 @@ idol_delivery_pct_diff
 idol_descending
 idol_dropping
 idol_fumbled
+idol_give_up
 idol_hold_duration
 idol_holding
 idol_landing
@@ -39560,7 +39562,6 @@ my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
 n does not equal p q
-n0'3
 n0?X
 n1Z 
 n5cM
@@ -39595,6 +39596,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
+nP.3
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -40221,7 +40223,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^$
+p08@H^
 p2{l
 p4Z3
 p5Z3
@@ -42775,7 +42777,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\tp
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -43843,7 +43844,7 @@ volume_resolution_z
 volumematcheseventramp
 vote_round_to_tally
 voxel_size
-vpO3
+vp\r3
 vparams
 vqw0\nU
 vscripts
@@ -44177,5 +44178,6 @@ zz2K
 ~P2T
 ~R65Fu
 ~jLRG
+~pM3
 ~w]UG
 ~yhZ

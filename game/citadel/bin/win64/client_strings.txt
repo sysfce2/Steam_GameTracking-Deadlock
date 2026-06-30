@@ -89,6 +89,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
+ (08@HPXb r
+ (08@HR r
+ (0X`hpz r
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16774,6 +16777,7 @@ $hRh
 0123456789
 02V8[
 05=k
+08@J r
 08bX
 09,h
 0:00
@@ -16816,7 +16820,6 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vtZ
 0x%4.4x 
 0x%X
 0x%X 
@@ -17038,7 +17041,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpl>
+2\vp(O
 2^pV
 2a"l
 2bT~
@@ -17515,6 +17518,7 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
+?CAbility_Synth_PlasmaFlux
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
@@ -17553,21 +17557,19 @@ $hRh
 ?expf
 ?gwL
 ?jOb
-?modifier_citadel_priest_silencebomb_aura
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NtZ
+@08N
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CCitadel_Modifier_EmpowerBulletVData
 @DebugIndividualStyle
-@HPX`hv
-@HV0
+@HPX`hv@
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17585,12 +17587,10 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
-@ftZ
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @n2w
-@ntZ
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -19297,7 +19297,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2463
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:426
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2116
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2119
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2130
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
@@ -29456,11 +29456,13 @@ P-224
 P-256
 P-384
 P-521
-P08J \v
-P08NtZ
+P08@J r
+P08N
 P1\t98"
+P2 r
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
+P6@m
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30182,7 +30184,6 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-PntZ
 Point entity.
 Point under crosshair
 PointType
@@ -30766,9 +30767,8 @@ R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
-R\vp N
 R\vp!y
-R\vpl>
+R\vp(O
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -36567,6 +36567,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vp09
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36635,7 +36636,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60R
 `:zQF
 `D$daM-l
 `DZG
@@ -36645,9 +36645,7 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
-`ftZ
 `h9T~
-`ntZ
 `o_je
 `yNT
 a null shared library handle was used
@@ -36665,7 +36663,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvtZ
 aD/x
 aDSS
 aECDH
@@ -39837,6 +39834,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -42044,6 +42042,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
+hpz r
 hr_H
 href="
 hscroll
@@ -44848,6 +44847,7 @@ modifier_citadel_powerup_gun
 modifier_citadel_powerup_movement
 modifier_citadel_powerup_survival
 modifier_citadel_pre_match_wait
+modifier_citadel_priest_silencebomb_aura
 modifier_citadel_projectmind
 modifier_citadel_psychiclift
 modifier_citadel_pulldown_to_ground
@@ -46278,8 +46278,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^tZ
-p0j0Y
+p08@H^
+p2 r
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46290,14 +46290,12 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>tZ
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pF Z
 pField
 pFilter
 pG_*h
@@ -46967,7 +46965,6 @@ playtime_2weeks
 playtime_forever
 plum
 pngsize
-pntZ
 point
 point arithmetic failure
 point at infinity
@@ -47396,7 +47393,6 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp N
 r\n\vstart_index
 r\vDi
 r_citadel_edges 0
