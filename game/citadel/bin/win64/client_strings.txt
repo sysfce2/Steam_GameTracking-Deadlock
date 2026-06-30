@@ -89,9 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPXb r
- (08@HR r
- (0X`hpz r
+ (08@HPX`j0\f
+ (08@HPZ0\f
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16772,12 +16771,14 @@ $hRh
 /zt1
 0 0 0 196
 0 == ( pInstance->GetOwnerEntity()->GetEntityIdentity()->GetFlags() & EF_IN_STAGING_LIST )
+0%Dj
 0.5 = 50% speed\n1 = 100% speed\n2 = 200% speed\n(Only editable when Fixed Length is false)
 0.CPlayer_UpdateSteamAnnouncementLastRead_Request
 0123456789
 02V8[
 05=k
-08@J r
+08@HR0\f
+08B0\f
 08bX
 09,h
 0:00
@@ -17041,7 +17042,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp(O
+2\vpT`
 2^pV
 2a"l
 2bT~
@@ -17256,7 +17257,9 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@J0\f
 8A6j
+8B0\f
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17508,7 +17511,6 @@ $hRh
 >yhP
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
-?0K6
 ?333?
 ?8c1
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
@@ -17541,6 +17543,7 @@ $hRh
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?LatchVariables
+?PK6
 ?TabButton
 ?TeamObjectiveHealthPanel
 ?The most recent last-played time the client already knows about"
@@ -17569,7 +17572,7 @@ $hRh
 @BH]f
 @CCitadel_Modifier_EmpowerBulletVData
 @DebugIndividualStyle
-@HPX`hv@
+@HPX`hv
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -29456,13 +29459,13 @@ P-224
 P-256
 P-384
 P-521
-P08@J r
+P08JP
 P08N
 P1\t98"
-P2 r
+P20\f
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6@m
+P6@z
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30037,6 +30040,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+Pf@w
 Phrase
 Phrase%d
 PhraseContainer
@@ -30092,6 +30096,7 @@ Pitch: %6.1f   Yaw: %6.1f   Dist: %6.1f %19s
 Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixelToProj
+Pj0\f
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -30184,6 +30189,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
+Pn@x
 Point entity.
 Point under crosshair
 PointType
@@ -30763,12 +30769,13 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
+R\fpT`
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vp(O
+R\vpPQ
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -35082,6 +35089,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr0\f
 Xd3h
 XfJ7
 XjfR
@@ -35297,6 +35305,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPl9
 \ful2
 \fy&3Gl
 \l:ArR
@@ -35508,6 +35517,7 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
+\nPPQ
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -36567,7 +36577,8 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vp09
+\vpPQ
+\vpl9
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36634,6 +36645,7 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
+`20t
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
@@ -36644,6 +36656,7 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`\rP\f0PQ
 `fPw.\vM
 `h9T~
 `o_je
@@ -39834,7 +39847,6 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -42042,7 +42054,6 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz r
 hr_H
 href="
 hscroll
@@ -46279,7 +46290,8 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p2 r
+p0j`\
+p20\f
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46296,6 +46308,7 @@ pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
+pFP]
 pField
 pFilter
 pG_*h
@@ -46612,6 +46625,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pb0\f
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -47393,8 +47407,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpPQ
 r\n\vstart_index
 r\vDi
+r\vpT`
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals

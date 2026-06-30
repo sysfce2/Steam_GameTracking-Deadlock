@@ -26900,6 +26900,7 @@ m_OnEventEnded
 m_OnEventFired
 m_OnEventStarted
 m_OnExit
+m_OnExpireParticle
 m_OnFacingLookat
 m_OnFactorAll
 m_OnFactor_1

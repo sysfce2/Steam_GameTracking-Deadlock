@@ -136,6 +136,7 @@
 //	},
 //	"m_FootstepAdditional": "",
 //	"m_bRemoveOnInterrupted": false,
+//	"m_OnExpireParticle": "",
 //	"m_TimerToSilence": -1.000000,
 //	"m_SilenceDuration": 0.100000,
 //	"m_SilenceModifier":
@@ -145,6 +146,8 @@
 //}
 class CCitadelModifierItemPickupTimerVData : public CCitadelModifierVData
 {
+	// MPropertyStartGroup = "Visuals"
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnExpireParticle;
 	// MPropertyGroupName = "Timers"
 	float32 m_TimerToSilence;
 	float32 m_SilenceDuration;

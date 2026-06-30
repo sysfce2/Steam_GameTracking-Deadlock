@@ -431,6 +431,7 @@
 //	"m_OnKnockedOffHolderParticle": "",
 //	"m_OnKnockedOffUrnParticle": "",
 //	"m_OnOverheldDamageParticle": "",
+//	"m_OnExpireParticle": "",
 //	"m_strUrnMeleeDropSound": "",
 //	"m_strUrnOverheldDamageSound": "",
 //	"m_strUrnDroppedOffSound": "",
@@ -455,6 +456,7 @@ class CCitadel_Ability_GoldenIdolVData : public CCitadel_Ability_BaseHeldItemVDa
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnKnockedOffHolderParticle;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnKnockedOffUrnParticle;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnOverheldDamageParticle;
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_OnExpireParticle;
 	// MPropertyStartGroup = "Sounds"
 	CSoundEventName m_strUrnMeleeDropSound;
 	CSoundEventName m_strUrnOverheldDamageSound;

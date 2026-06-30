@@ -181,12 +181,12 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j@
- (08@HPXb0
- (08@HPZ@
- (08@HR0
- (08@J0
- (0X`hpz0
+ (08@HPX`j`
+ (08@HPXbP
+ (08@HPZ`
+ (08@HRP
+ (08@JP
+ (0X`hpzP
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -215,7 +215,6 @@
  <-- Retval '%s'
  @snd_occlusion_debug
  ACTIVE GROUP
- Apl
  Damage Dealt to Trooper Boss
  Damage Taken from Player
  FLK
@@ -2065,8 +2064,7 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0L3
-.0U3
+.0Q3
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14115,8 +14113,8 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PG3
-.PU3
+.PP3
+.PY3
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14404,6 +14402,8 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
+.pK3
+.pY3
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14462,15 +14462,15 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@HR@
-08@J0
-08B@
+08@HR`
+08@JP
+08B`
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
-0>P)3
+0>p-3
 0AgffA
 0M2~@p
 0W/5
@@ -14745,13 +14745,13 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 U3
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
+60L3
 62$|S)6f
 64CK\vH
 65535
@@ -14761,9 +14761,10 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666kill eater score type
 67-s
+6@D3
+6@Y3
 6H,N
 6O|T%
-6P\t3
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14782,7 +14783,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p@3
+6p\r3
 6qo~
 6r-m_v
 6r1ij
@@ -14832,8 +14833,6 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8F`(3
-8Fp'3
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15137,7 +15136,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA: I
+AA:@M
 AABBDirection
 AACompromise
 AC2,h
@@ -16508,6 +16507,7 @@ C-side of entity framework
 C3ps
 C6DN
 C7HSY
+C8Q_
 C:\buildworker\citadel_rel_win64\build\_build_\game\server\_vpc_server_citadel\unity\win64\_msvc_\Retail\server.pdb
 C:\buildworker\citadel_rel_win64\build\src\animlib\graph\animgraph_instance.cpp
 C:\buildworker\citadel_rel_win64\build\src\animlib\tasksystem\animtasksystem.cpp
@@ -21566,7 +21566,6 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FP/3
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21932,6 +21931,7 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
+Fp33
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25763,11 +25763,11 @@ P-224
 P-256
 P-384
 P-521
-P08@J0
-P08J`
+P08@JP
 P08N
 P1\t98"
 P5[1
+P60D3
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -30205,7 +30205,6 @@ V3 s
 V3_ADDR_VALIDATE_PATH_INTERNAL
 V3_GENERIC_EXTENSION
 V5u f
-V@M3
 VALV
 VALVw
 VDPr
@@ -30246,6 +30245,7 @@ V\n\vItemCharges
 V\rKk
 V_a|I
 V_strcmp( pDataMap->dataClassName, pCodeClass ) == 0
+V`Q3
 VacuumRadius
 ValidatePrivateScriptScope
 ValidateVertices
@@ -30715,10 +30715,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr@
+X`hr`
 Xd3h
+Xf /3
 XfJ7
-Xfp*3
 XjfR
 XqgA+
 Xuub
@@ -36505,7 +36505,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpz0
+hpzP
 hr_H
 http request
 https proxy request
@@ -39596,7 +39596,6 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nP.3
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39907,6 +39906,7 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
+np23
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -43844,7 +43844,6 @@ volume_resolution_z
 volumematcheseventramp
 vote_round_to_tally
 voxel_size
-vp\r3
 vparams
 vqw0\nU
 vscripts
@@ -44178,6 +44177,5 @@ zz2K
 ~P2T
 ~R65Fu
 ~jLRG
-~pM3
 ~w]UG
 ~yhZ
