@@ -1,5 +1,6 @@
 // MGetKV3ClassDefaults = {
 //	"_class": "CCitadelItemPickupRejuvVData",
+//	"m_AmbientParticle": "",
 //	"m_AbilityProjectile": "",
 //	"m_flMaxDistForHeal": 1400.000000,
 //	"m_flPhysicsRadius": 60.000000,
@@ -11,7 +12,7 @@
 //	},
 //	"m_IsFrozenParticle": ""
 //}
-class CCitadelItemPickupRejuvVData : public CEntitySubclassVDataBase
+class CCitadelItemPickupRejuvVData : public CCitadelItemPickupVData
 {
 	CSubclassName< 4 > m_AbilityProjectile;
 	float32 m_flMaxDistForHeal;

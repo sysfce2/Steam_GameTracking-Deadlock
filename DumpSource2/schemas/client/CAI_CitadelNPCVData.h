@@ -137,6 +137,7 @@
 //	"m_flBeamWeaponWidth": 1.000000,
 //	"m_flBeamTurnRate": 90.000000,
 //	"m_BeamWeaponParticle": "",
+//	"m_strCustomUnitIcon": "",
 //	"m_WeaponInfo":
 //	{
 //		"m_flBulletDamage": 0.000000,
@@ -365,5 +366,7 @@ class CAI_CitadelNPCVData : public CAI_BaseNPCVData
 	float32 m_flBeamWeaponWidth;
 	float32 m_flBeamTurnRate;
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_BeamWeaponParticle;
+	// MPropertyDescription = "When set, uses this as a custom icon for the unit, currently only used for precaching references in code."
+	CPanoramaImageName m_strCustomUnitIcon;
 	CCitadelWeaponInfo m_WeaponInfo;
 };

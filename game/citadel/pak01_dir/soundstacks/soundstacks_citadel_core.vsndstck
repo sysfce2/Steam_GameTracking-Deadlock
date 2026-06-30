@@ -1000,6 +1000,16 @@
 							display_group = "advanced"
 						}
 					}
+					distance_to_koth_zone = 
+					{
+						data_type = "float"
+						value = "0.0"
+						_system_properties = 
+						{
+							property_group = "citadel_music_opvars"
+							display_group = "advanced"
+						}
+					}
 				}
 			},
 		]

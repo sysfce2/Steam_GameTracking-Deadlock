@@ -248,13 +248,24 @@
 		m_IdolSpawnSound = soundevent:"Soul.Urn.Spawn"
 		m_IdolSpawnCompleteSound = soundevent:"Soul.Urn.Spawn.Complete"
 	}
+	m_KothParams = 
+	{
+		m_flKothRadius = 20.0
+		m_KothEarlyWarningParticle = resource_name:"particles/generic/koth_indicator.vpcf"
+		m_KothSpawnLocationParticle = resource_name:"particles/generic/koth_rift_timer.vpcf"
+		m_KothOnSpawnParticle = resource_name:"particles/generic/koth_comet_drop_endcap.vpcf"
+		m_strKothSpawnCompleteSound = soundevent:"Koth.Spawn.Complete"
+		m_strKothSpawnLoopSound = soundevent:"Koth.Spawn.Lp"
+		m_strKothSpawnLoopStartSound = soundevent:"Koth.Spawn.Start"
+		m_strKothPreSpawnLoopSound = soundevent:"Koth.Pre.Spawn.Lp"
+	}
 	m_ObjectiveParams = 
 	{
 		m_GoldPerOrb = 0
 		m_NearPlayerSplitPct = 40.0
-		m_nTier1GoldKill = 1500
+		m_nTier1GoldKill = 1250
 		m_nTier1GoldOrbs = 0
-		m_nTier2GoldKill = 4000
+		m_nTier2GoldKill = 3500
 		m_nTier2GoldOrbs = 0
 		m_nBaseGuardiansGoldKill = 1000
 		m_nBaseGuardiansGoldOrbs = 0
@@ -338,19 +349,19 @@
 	m_RejuvParams = 
 	{
 		m_flRejuvinatorExpirationWarningTiming = 30
-		m_flRejuvinatorBuffDuration = 240
+		m_flRejuvinatorBuffDuration = 180
 		m_flRejuvinatorDropHeight = 500
 		m_flRejuvinatorDropDuration = 6
 		m_strRejuvPickupSound = soundevent:"Rejuv.Pickup"
 		m_TrooperHealthMult = [ 1.7, 2.0, 2.3 ]
 		m_PlayerRespawnMult = [ 0.5, 0.4, 0.3 ]
-		m_flRejuvinatorRebirthDuration = [ 240, 240, 240 ]
+		m_flRejuvinatorRebirthDuration = [ 180, 180, 180 ]
 	}
 	m_ShoppingEffect = resource_name:"particles/generic/hero_shopping_status.vpcf"
 	m_MinimapZiplinesParticle = resource_name:"particles/ui/ui_minimap.vpcf"
 	m_KillStreakFireParticle = resource_name:"particles/ui/ui_topbar_killstreak.vpcf"
-	m_MidbossIndicatorRespawningParticle = resource_name:"particles/environment/rejuv_indicator_timer.vpcf"
-	m_MidbossIndicatorSpawnedParticle = resource_name:"particles/environment/rejuv_indicator.vpcf"
+	m_MidbossIndicatorRespawningParticle = resource_name:""
+	m_MidbossIndicatorSpawnedParticle = resource_name:""
 	m_enemyObjectivesColor = [ 220, 76, 47 ]
 	m_enemyZiplineColor = [ 140, 55, 38 ]
 	m_vecWeaponGroups = 
@@ -1051,8 +1062,8 @@
 			{
 				m_mapBuckets = 
 				{
-					Normal = 50.0
-					Good = 50.0
+					Normal = 60.0
+					Good = 40.0
 				}
 				m_strBucketName = "Tier 2"
 			}
@@ -1060,8 +1071,8 @@
 			{
 				m_mapBuckets = 
 				{
-					Normal = 50.0
-					Good = 50.0
+					Normal = 60.0
+					Good = 40.0
 				}
 				m_strBucketName = "Tier 3"
 			}
@@ -1069,8 +1080,8 @@
 			{
 				m_mapBuckets = 
 				{
-					Normal = 55.0
-					Good = 45.0
+					Normal = 65.0
+					Good = 35.0
 				}
 				m_strBucketName = "Tier 4"
 			}

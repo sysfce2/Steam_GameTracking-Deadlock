@@ -143,7 +143,7 @@
 //	"m_WalkingLoopSound": "",
 //	"m_IdlingLoopSound": "",
 //	"m_flStopDistance": 600.000000,
-//	"m_flFastSpeed": 250.000000,
+//	"m_flMoveSpeed": 250.000000,
 //	"m_flVerticalOffset": 16.000000,
 //	"m_flTolerance": 20.000000,
 //	"m_flRepathTime": 5.000000,
@@ -163,7 +163,7 @@ class CCitadel_Modifier_ItemWalkBackVData : public CCitadelModifierVData
 	CSoundEventName m_IdlingLoopSound;
 	// MPropertyStartGroup = "Gameplay"
 	float32 m_flStopDistance;
-	float32 m_flFastSpeed;
+	float32 m_flMoveSpeed;
 	float32 m_flVerticalOffset;
 	float32 m_flTolerance;
 	float32 m_flRepathTime;

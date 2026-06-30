@@ -22,12 +22,17 @@
 //	"m_bShowOnMinimap": false,
 //	"m_bIsPermanentPickup": false,
 //	"m_iTempParticleSheetIndex": -1,
-//	"m_sMiniMapCssClass": "",
 //	"m_flParticleRadius": 80.000000,
+//	"m_vecMinimapCssClasses":
+//	[
+//	],
 //	"m_sPickupSound": "",
 //	"m_sSpawnSound": "",
+//	"m_sBecomeInteractiveSound": "",
 //	"m_strVacuumStartSound": "",
 //	"m_sAmbientSound": "",
+//	"m_sHitSound": "",
+//	"m_eCollectionMethod": "Touch",
 //	"m_flPickupRadius":
 //	{
 //		"m_flBase": 0.000000,
@@ -35,6 +40,7 @@
 //		"m_flStartMinute": 0.000000,
 //		"m_flMaxValue": 0.000000
 //	},
+//	"m_bPickupExpires": true,
 //	"m_flPickupExpirationDuration":
 //	{
 //		"m_flBase": 0.000000,
@@ -52,6 +58,10 @@
 //	],
 //	"m_flFallGravity": 1.000000,
 //	"m_flHoverOffset": 0.000000,
+//	"m_iHitsRequired": 1,
+//	"m_bHeavyMeleeOnly": true,
+//	"m_flCollisionRadius": 40.000000,
+//	"m_flCenterHeightOffset": 40.000000,
 //	"m_ParryCheckModifier":
 //	{
 //	},
@@ -121,6 +131,9 @@
 //		0,
 //		0
 //	],
+//	"m_AuraModifier":
+//	{
+//	},
 //	"m_ParticleAOEHeal": "",
 //	"m_flHealMaxHealthPercent":
 //	{
@@ -177,7 +190,7 @@
 //	"m_AOETargetFlags": "",
 //	"m_AOELOSCheckType": "ELOSCheck_None"
 //}
-class CCitadel_BreakablePropHealthPickupVData : public CCitadel_BreakablePropPickupVData
+class CCitadel_BreakablePropHealthPickupVData : public CCitadel_Pickup_VData
 {
 	// MPropertyGroupName = "Visuals"
 	// MPropertyFriendlyName = "AOE Heal Particle"

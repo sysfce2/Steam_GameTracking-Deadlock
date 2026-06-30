@@ -458,6 +458,18 @@
 //		"m_flIdolDropHeight": 1800.000000,
 //		"m_flIdolDropDuration": 25.000000
 //	},
+//	"m_KothParams":
+//	{
+//		"m_flKothRadius": 20.000000,
+//		"m_flKothWarningDropHeight": 60.000000,
+//		"m_KothEarlyWarningParticle": "",
+//		"m_KothSpawnLocationParticle": "",
+//		"m_KothOnSpawnParticle": "",
+//		"m_strKothSpawnLoopStartSound": "",
+//		"m_strKothSpawnLoopSound": "",
+//		"m_strKothPreSpawnLoopSound": "",
+//		"m_strKothSpawnCompleteSound": ""
+//	},
 //	"m_TeleporterParams":
 //	{
 //		"m_StartEffect": "",
@@ -623,6 +635,7 @@ class CitadelGenericData_t
 	DOFDesc_t m_DefaultDOF;
 	RejuvinatorParams_t m_RejuvParams;
 	IdolParams_t m_IdolParams;
+	KothParams_t m_KothParams;
 	TeleporterParams_t m_TeleporterParams;
 	ObjectivesParams_t m_ObjectiveParams;
 	CUtlOrderedMap< EStatsType, CUtlString > m_mapStatTypeImages;

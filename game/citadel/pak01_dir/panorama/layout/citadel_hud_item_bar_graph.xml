@@ -4,18 +4,19 @@
 		<include src="s2r://panorama/styles/citadel_base_styles.vcss_c" />
 		<include src="s2r://panorama/styles/citadel_hud_item_bar_graph.vcss_c" />
 	</styles>
+	<snippets />
 	<CitadelHudItemBarGraph hittest="false">
 		<Panel id="BarsContainer">
 			<Panel id="WeaponBarContainer" class="weaponProgressBarContainer progressBarContainer">
-				<ProgressBar id="WeaponProgressBar" class="modsProgressBar" vertical="true" />
+				<Panel id="WeaponProgressBar" class="modsProgressBar" />
 				<Panel id="WeaponImage" class="progressBarImage weaponImage" />
 			</Panel>
 			<Panel id="ArmorBarContainer" class="armorProgressBarContainer progressBarContainer">
-				<ProgressBar id="ArmorProgressBar" class="modsProgressBar" vertical="true" />
+				<Panel id="ArmorProgressBar" class="modsProgressBar" />
 				<Panel id="ArmorImage" class="progressBarImage armorImage" />
 			</Panel>
 			<Panel id="TechBarContainer" class="techProgressBarContainer progressBarContainer">
-				<ProgressBar id="TechProgressBar" class="modsProgressBar" vertical="true" />
+				<Panel id="TechProgressBar" class="modsProgressBar" />
 				<Panel id="TechImage" class="progressBarImage techImage" />
 			</Panel>
 		</Panel>

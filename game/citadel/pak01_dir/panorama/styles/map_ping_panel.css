@@ -154,3 +154,37 @@
 	border: 3px solid rgb(220, 76, 47);
 }
 
+@keyframes 'koth-ping-pulse'
+{
+	0%
+	{
+		pre-transform-scale2d: 1.0;
+	}
+	
+	33%
+	{
+		border: 3px solid rgb(0, 255, 191);
+		pre-transform-scale2d: 2.0;
+	}
+	
+	66%
+	{
+		border: 1px solid rgb(0, 255, 191);
+		pre-transform-scale2d: 4.0;
+	}
+	
+	100%
+	{
+		pre-transform-scale2d: 2.0;
+	}
+	
+}
+
+.location_set.KothSpawn #circle
+{
+	animation-name: koth-ping-pulse;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
+

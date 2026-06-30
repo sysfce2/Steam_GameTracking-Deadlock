@@ -5,5 +5,6 @@ enum EDenyDistributionType : uint32_t
 	EDenyToDenierTeam = 2,
 	EDenyToNobody = 3,
 	EDenyInLaningPhase = 4,
-	EDenyTypesCount = 5,
+	EDenyToDenierAndSplitWithClaimer = 5,
+	EDenyTypesCount = 6,
 };

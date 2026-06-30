@@ -22,7 +22,7 @@
   w/ large threshold: %d,
   w/ zero threshold: %d,
   w/ zero threshold: (%.1f, %.1f)
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$8D_
  %i fog-only.
  %s [%.2f ms]
  (08@HPXb`Q
@@ -447,11 +447,12 @@ $tIP
 (%6.1f,%6.1f) (%6.1f,%6.1f) Size (%6.1f,%6.1f) %s
 (%6.1f,%6.1f) (%6.1f,%6.1f) Size (%6.1f,%6.1f) Col %d %s
 (%d,%d,%d,%d)
-(1Fa
 (2) Or right-click this text
 (3) Or click this button
-(5oa
-(5xa
+(5Ra
+(5Ua
+(5Va
+(9Oa
 (<-- right-click here)
 (ActiveIdUsing: AllKeyboardKeys: %d, NavDirMask: 0x%X)
 (Click and drag to scroll)
@@ -462,42 +463,46 @@ $tIP
 (Hold Ctrl to: 
 (Hold Ctrl to: use 
 (Hold Shift to display a dummy viewport)
-(IZa
-(Iaa
+(IGa
+(IKa
 (Internal Buffer: TextA Size: %d, Capacity: %d)
 (Left) Using ImGui::PushClipRect():\nWill alter ImGui hit-testing logic + ImDrawList rendering.\n(use this if you want your clipping rectangle to affect interactions)\n\n(Center) Using ImDrawList::PushClipRect():\nWill alter ImDrawList rendering only.\n(use this as a shortcut if you are only using ImDrawList calls)\n\n(Right) Using ImDrawList::AddText() with a fine ClipRect:\nWill alter only this specific ImDrawList::AddText() rendering.\nThis is often used internally to avoid altering the clipping rectangle and minimize draw calls.
+(MZa
 (Main menu bar)
 (Popup)
 (R = radius, N = approx number of segments)
 (SceneWorld 3D Dump contains %d large objects - they are scaled down and will render red.)\n
+(UHa
 (Untitled)
+(Upa
 (Use ImGui::SameLine() to keep adding items to the right of the preceding item)
+(YWa
 (Z(^(b(f(j(n(r(v(z1
 (\?=\nW>=\nW>=\nW>
-(aMa
+(aPa
+(aga
 (also access from 'Examples->Assets Browser' in menu)
 (and more errors)
+(asa
 (c) 2014-2025 Omar Cornut
 (demo menu)
 (dump)
 (dump3d)
-(eVa
 (except InputRouting which is spammy)
 (f@uU
-(iJa
+(iUa
 (in ChildD: not using same Shortcut)
 (in ChildE: using same Shortcut)
 (in PopupF)
 (in WindowA)
-(iwa
-(mPa
-(mZa
+(mMa
+(mSa
+(moa
 (no material)
 (no model)
 (note: some platform backends may not reflect a change of this value for existing viewports, and may need the viewport to be recreated)
-(qUa
 (see Demo->Configuration for details & more)
-(uQa
+(uRa
 (unnamed)
 (void*)0x%p
 ** %d instances of same table! Some data below will refer to last instance.
@@ -1035,7 +1040,7 @@ $tIP
 ?JA7=
 ?Label1
 ?PUNCTUAL
-?SCENEOBJECT_VIS_NONE
+?SCENEOBJECT_VIS_LOD
 ?The "Tools" menu above gives access to: Style Editors (ImPlot/ImGui)\nand Metrics (general purpose Dear ImGui debugging tool).
 ?VertexPos_t
 ?XXXXXXXXXXXXXXXX
@@ -1090,8 +1095,8 @@ $tIP
 @6PGU
 @6PJU
 @HPX`hv
+@Hide
 @OS/2
-@Show
 @fff>fff>fff>fff>
 @fffff
 @fffff"
@@ -2868,7 +2873,6 @@ Here, all circle data is stored in a single interleaved buffer:
 Hex-encode non-ASCII
 Hidden
 HiddenTabBar
-Hide
 Hide Filtered
 Hide tab bar###HideTabBar
 Hierarchy lines
@@ -4824,6 +4828,7 @@ Shift+Click to check multiple boxes.
 Shift+Keyboard to copy current value to other boxes.
 Short Text
 Shortcuts
+Show
 Show "Debug Break" buttons in other sections (io.ConfigDebugIsDebuggerPresent)
 Show 2nd header
 Show Axes Rects
@@ -5926,9 +5931,9 @@ _WidthFixed
 _WidthStretch
 _XFREE86_GLYPH_RANGES
 _atlas
+`1sa
 `6PYU
 `6pQU
-`QZa
 `f\uK
 `ljK
 `n\uK
@@ -6407,6 +6412,7 @@ hyphen
 hypheninferior
 hyphensuperior
 h}?fN
+h}Za
 i < V_ARRAYSIZE( s_szMissShaderNames )
 i(i4i:iP
 iacute

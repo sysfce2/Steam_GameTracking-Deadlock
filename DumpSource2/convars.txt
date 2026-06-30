@@ -1870,7 +1870,7 @@ citadel_core_regen_pause_on_damage 15 (developmentonly gamedll defensive)
 citadel_corner_boost_strength 0.6 (developmentonly gamedll clientdll replicated defensive)
 	0.0: turn off corner boosts. 1.0: raw corner boost.
 
-citadel_crate_client_notification_time 30 (gamedll cheat)
+citadel_crate_client_notification_time 30 (developmentonly gamedll clientdll replicated)
 	<no description>
 
 citadel_crate_delivery_base_payoff 0 (gamedll cheat)
@@ -1879,22 +1879,22 @@ citadel_crate_delivery_base_payoff 0 (gamedll cheat)
 citadel_crate_delivery_overtime_bonus 50 (gamedll cheat)
 	<no description>
 
-citadel_crate_drop_duration_override -1 (gamedll cheat)
+citadel_crate_drop_duration_override -1 (gamedll clientdll replicated cheat)
 	<no description>
 
-citadel_crate_respawn_interval 360 (gamedll clientdll replicated cheat)
+citadel_crate_respawn_interval 300 (gamedll clientdll replicated cheat)
 	<no description>
 
-citadel_crate_reward_base 935 (developmentonly gamedll defensive)
+citadel_crate_reward_base 250 (gamedll clientdll replicated cheat)
 	<no description>
 
-citadel_crate_reward_time_multiplier 165 (developmentonly gamedll defensive)
+citadel_crate_reward_time_multiplier 70 (gamedll clientdll replicated cheat)
 	<no description>
 
-citadel_crate_spawn_enabled true (developmentonly gamedll)
+citadel_crate_spawn_enabled true (developmentonly gamedll clientdll replicated)
 	<no description>
 
-citadel_crate_spawn_initial_delay 720 (gamedll clientdll replicated cheat)
+citadel_crate_spawn_initial_delay 600 (gamedll clientdll replicated cheat)
 	<no description>
 
 citadel_crosshair_clip_angle 90 (developmentonly clientdll defensive)
@@ -2803,6 +2803,18 @@ citadel_idle_time 300 (developmentonly gamedll defensive)
 citadel_idle_time_grace_period 8 (developmentonly gamedll defensive)
 	How long a player needs to be idle we start putting that time towards their stored idle time.
 
+citadel_idol_cashin_buff_count 4 (gamedll cheat)
+	<no description>
+
+citadel_idol_decay_duration 45 (gamedll clientdll replicated cheat)
+	<no description>
+
+citadel_idol_duration_until_decay 45 (gamedll clientdll replicated cheat)
+	<no description>
+
+citadel_idol_orbs_to_spawn 10 (gamedll cheat)
+	<no description>
+
 citadel_idol_think_bias_interval 10 (gamedll cheat)
 	<no description>
 
@@ -2864,6 +2876,36 @@ citadel_keybind_default_hold_duration 1 (developmentonly clientdll)
 	<no description>
 
 citadel_keybindings_cloud_disable false (developmentonly clientdll defensive)
+	<no description>
+
+citadel_koth_early_warning_time 60 (gamedll clientdll replicated cheat)
+	<no description>
+
+citadel_koth_enabled true (developmentonly gamedll clientdll replicated)
+	<no description>
+
+citadel_koth_respawn_interval 420 (gamedll clientdll replicated cheat)
+	<no description>
+
+citadel_koth_reward_base 1260 (gamedll clientdll replicated cheat)
+	<no description>
+
+citadel_koth_reward_buff_count 0 (gamedll clientdll replicated cheat)
+	<no description>
+
+citadel_koth_reward_time_multiplier 222 (gamedll clientdll replicated cheat)
+	<no description>
+
+citadel_koth_spawn_initial_delay 720 (gamedll clientdll replicated cheat)
+	<no description>
+
+citadel_koth_spawn_location_deck_count 4 (gamedll clientdll replicated cheat)
+	<no description>
+
+citadel_koth_spawn_window 60 (gamedll clientdll replicated cheat)
+	<no description>
+
+citadel_koth_warning_time 25 (gamedll clientdll replicated cheat)
 	<no description>
 
 citadel_lane_matchups_mmr_variance 0 (gamedll release)
@@ -3043,6 +3085,9 @@ citadel_minimap_arrow_show_distance_up 200 (developmentonly gamedll)
 citadel_minimap_draw_fow false (clientdll cheat)
 	<no description>
 
+citadel_minimap_koth_trooper_size 4.5 (clientdll release)
+	<no description>
+
 citadel_minimap_local_player_width 12 (clientdll release)
 	<no description>
 
@@ -3074,6 +3119,9 @@ citadel_minimap_teleporter_height_dist 160 (developmentonly clientdll defensive)
 	<no description>
 
 citadel_minimap_teleporter_nearby_dist 1600 (developmentonly clientdll defensive)
+	<no description>
+
+citadel_minimap_trooper_size 3 (clientdll release)
 	<no description>
 
 citadel_minimap_unit_click_radius 200 (clientdll release)
@@ -3496,7 +3544,7 @@ citadel_player_gold_comeback_multiplier 2.268 (developmentonly gamedll defensive
 citadel_player_gold_comeback_npc_max_mutliplier_delta 1.2 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_player_gold_comeback_npc_max_mutliplier_value 1.237 (developmentonly gamedll defensive)
+citadel_player_gold_comeback_npc_max_mutliplier_value 1.26 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_player_gold_difficulty_multiplier 2.484 (developmentonly gamedll defensive)
@@ -3508,13 +3556,13 @@ citadel_player_gold_killer_to_assist_ratio 2.2 (developmentonly gamedll defensiv
 citadel_player_gold_per_level_postmax 2000 (developmentonly gamedll clientdll replicated defensive)
 	Gold per 'level' after maxing out rewards
 
-citadel_player_gold_reward_first_kill_bonus 150 (developmentonly gamedll defensive)
+citadel_player_gold_reward_first_kill_bonus 125 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_player_gold_reward_max 2200 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_player_gold_reward_min 250 (developmentonly gamedll defensive)
+citadel_player_gold_reward_min 200 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_player_gold_reward_time 2400 (developmentonly gamedll defensive)
@@ -3535,7 +3583,10 @@ citadel_player_move_speed_min 80 (gamedll clientdll replicated cheat)
 citadel_player_move_speed_scale 1 (gamedll clientdll replicated cheat)
 	Scales how fast players can move
 
-citadel_player_neutral_gold_drop_min 150 (developmentonly gamedll defensive)
+citadel_player_neutral_gold_drop_min 50 (developmentonly gamedll defensive)
+	<no description>
+
+citadel_player_neutral_gold_drop_min_increase_per_minute 5 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_player_neutral_gold_duration 180 (developmentonly gamedll defensive)
@@ -3595,10 +3646,10 @@ citadel_player_spawn_distance_from_other 32 (developmentonly gamedll)
 citadel_player_spawn_time_in_base_penalty 10 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_player_spawn_time_max_ramp_1 30 (developmentonly gamedll defensive)
+citadel_player_spawn_time_max_ramp_1 35 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_player_spawn_time_max_ramp_1_time 1140 (developmentonly gamedll defensive)
+citadel_player_spawn_time_max_ramp_1_time 1200 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_player_spawn_time_max_ramp_2 70 (developmentonly gamedll defensive)
@@ -3622,10 +3673,10 @@ citadel_player_spawn_time_min_ramp_1 8 (developmentonly gamedll defensive)
 citadel_player_spawn_time_min_ramp_1_time 300 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_player_spawn_time_min_ramp_2 30 (developmentonly gamedll defensive)
+citadel_player_spawn_time_min_ramp_2 35 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_player_spawn_time_min_ramp_2_time 1140 (developmentonly gamedll defensive)
+citadel_player_spawn_time_min_ramp_2_time 1200 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_player_spawn_time_min_ramp_3 70 (developmentonly gamedll defensive)
@@ -4354,6 +4405,12 @@ citadel_time_scale -1 (developmentonly gamedll clientdll replicated defensive)
 citadel_track_player_vs_player_accuracy true (gamedll clientdll replicated cheat)
 	<no description>
 
+citadel_trailingteam_bias_threshold_max 0.15 (developmentonly gamedll clientdll replicated)
+	Max Difference between teams to get full trailing bonuses for Koth/Urn
+
+citadel_trailingteam_bias_threshold_min 0 (developmentonly gamedll clientdll replicated)
+	Min Difference between teams to start getting trailing bonuses for Koth/Urn
+
 citadel_trigger_rope_size 192 (developmentonly gamedll replicated defensive)
 	<no description>
 
@@ -4387,10 +4444,10 @@ citadel_trooper_friendly_glow_disabled true (clientdll release)
 citadel_trooper_glow_disabled false (clientdll release)
 	<no description>
 
-citadel_trooper_gold_reward 116 (developmentonly gamedll defensive)
+citadel_trooper_gold_reward 100 (developmentonly gamedll defensive)
 	<no description>
 
-citadel_trooper_gold_reward_bonus_per_minute 1.16 (developmentonly gamedll defensive)
+citadel_trooper_gold_reward_bonus_per_minute 2 (developmentonly gamedll defensive)
 	<no description>
 
 citadel_trooper_health_model_scale 1.2 (developmentonly gamedll)
@@ -4405,10 +4462,10 @@ citadel_trooper_health_mult_gametime 35 (developmentonly gamedll)
 citadel_trooper_instant_gold_as_dropped_orbs 2 (gamedll release)
 	0=instant gold 1=orbs in experimental only 2=orbs always
 
-citadel_trooper_instant_gold_ratio_laning 0.6 (developmentonly gamedll)
+citadel_trooper_instant_gold_ratio_laning 0.5 (developmentonly gamedll)
 	<no description>
 
-citadel_trooper_instant_gold_ratio_postlaning 0.6 (developmentonly gamedll)
+citadel_trooper_instant_gold_ratio_postlaning 0.5 (developmentonly gamedll)
 	<no description>
 
 citadel_trooper_lane_node_max_spacing 150 (developmentonly gamedll defensive)

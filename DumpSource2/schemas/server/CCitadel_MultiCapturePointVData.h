@@ -4,6 +4,7 @@
 //	"m_strOnBecomeEnableParticle": "",
 //	"m_strEnabledParticle": "",
 //	"m_strOnFullyCapturedParticle": "",
+//	"m_bPingMinimapOnActive": true,
 //	"m_EnabledLoopSounds":
 //	{
 //	},
@@ -39,6 +40,8 @@ class CCitadel_MultiCapturePointVData : public CEntitySubclassVDataBase
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_strEnabledParticle;
 	// MPropertyDescription = "Particle that's fired when the point is fully captured by a team."
 	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_strOnFullyCapturedParticle;
+	// MPropertyDescription = "Ping Mini Map on Active"
+	bool m_bPingMinimapOnActive;
 	// MPropertyStartGroup = "Sounds"
 	// MPropertyDescription = "Loop that plays while the capture point is active."
 	CUtlOrderedMap< ECitadelAudioLoopSounds, CSoundEventName > m_EnabledLoopSounds;

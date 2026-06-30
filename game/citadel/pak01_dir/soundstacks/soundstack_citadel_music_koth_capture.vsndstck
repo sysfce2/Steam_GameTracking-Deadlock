@@ -1,0 +1,362 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	citadel_music_koth_capture = 
+	{
+		operators = 
+		[
+			{
+				name = "_builtins"
+				operator = "sos_builtins"
+				_voicegraph = "music.koth_zone"
+			},
+			{
+				name = "public"
+				operator = "util_null"
+				operator_variables = 
+				{
+					citadel_default_2d = 
+					{
+						data_type = "public_opvar"
+						value = "citadel_default_2d"
+					}
+					is_contested = 
+					{
+						data_type = "bool"
+						value = "false"
+					}
+					is_blocked = 
+					{
+						data_type = "bool"
+						value = "false"
+					}
+					drop_off_radius = 
+					{
+						data_type = "float"
+						value = "-1.0"
+					}
+					drop_off_fade_distance = 
+					{
+						data_type = "float"
+						value = "1000.0"
+					}
+					filter_speed = 
+					{
+						data_type = "float"
+						value = "2.0"
+					}
+					koth_position = 
+					{
+						data_type = "float3"
+						value = "[0.0, 0.0, 0.0]"
+						_system_properties = 
+						{
+							property_group = "Position"
+							display_group = "locked"
+							display_edit_type = "field_position_editor"
+						}
+					}
+					vsnd_files = 
+					{
+						data_type = "vsnd"
+						soundevent_data = "true"
+						value = "sounds/music/music_koth_capture_160bpm.vsnd"
+						_system_properties = 
+						{
+							property_group = "VSND Files"
+						}
+					}
+					vsnd_files_blocked = 
+					{
+						data_type = "vsnd"
+						soundevent_data = "true"
+						value = "sounds/music/music_koth_capture_block_160bpm.vsnd"
+						_system_properties = 
+						{
+							property_group = "VSND Files"
+						}
+					}
+					vsnd_files_contest = 
+					{
+						data_type = "vsnd"
+						soundevent_data = "true"
+						value = "sounds/music/music_koth_capture_contest_160bpm.vsnd"
+						_system_properties = 
+						{
+							property_group = "VSND Files"
+						}
+					}
+					vsnd_files_approach = 
+					{
+						data_type = "vsnd"
+						soundevent_data = "true"
+						value = "sounds/music/music_koth_capture_fx_160bpm.vsnd"
+						_system_properties = 
+						{
+							property_group = "VSND Files"
+						}
+					}
+				}
+			},
+			{
+				name = "math_inverse_is_blocked"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "sub"
+				input1 = "1.0"
+				input2 = "@public.is_blocked"
+			},
+			{
+				name = "math_inverse_is_contested"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "sub"
+				input1 = "1.0"
+				input2 = "@public.is_contested"
+			},
+			{
+				name = "math_is_in_zone"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "less_than"
+				input1 = "@opvar_get_urn_dropoff_dist.output"
+				input2 = "@public.drop_off_radius"
+			},
+			{
+				name = "math_is_not_in_zone"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "greater_than"
+				input1 = "@opvar_get_urn_dropoff_dist.output"
+				input2 = "@public.drop_off_radius"
+			},
+			{
+				name = "math_not_in_zone_and_contested"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "mult"
+				input1 = "@math_is_not_in_zone.output"
+				input2 = "@public.is_contested"
+			},
+			{
+				name = "math_or_capture_conditions"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "add"
+				input1 = "@math_is_in_zone.output"
+				input2 = "@math_not_in_zone_and_contested.output"
+			},
+			{
+				name = "math_and_capture_conditions"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "mult"
+				input1 = "@math_or_capture_conditions.output"
+				input2 = "@math_inverse_is_blocked.output"
+			},
+			{
+				name = "filter_capture_vol"
+				operator = "math_filter_float"
+				input = "@math_and_capture_conditions.output"
+				input_max_velocity = "@public.filter_speed"
+			},
+			{
+				name = "filter_capture_vol_db"
+				operator = "math_gain_to_db"
+				input = "@filter_capture_vol.output"
+			},
+			{
+				name = "filter_blocked"
+				operator = "math_filter_float"
+				input = "@public.is_blocked"
+				input_max_velocity = "@public.filter_speed"
+			},
+			{
+				name = "filter_blocked_vol_db"
+				operator = "math_gain_to_db"
+				input = "@filter_blocked.output"
+			},
+			{
+				name = "opvar_get_urn_dropoff_dist"
+				operator = "opvar_get_float"
+				input_execute = "1.0"
+				input_stack_name = "citadel_music_opvars"
+				input_operator_name = "opvars"
+				input_field_name = "distance_to_koth_zone"
+			},
+			{
+				name = "math_max_distance_falloff"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "add"
+				input1 = "@public.drop_off_radius"
+				input2 = "@public.drop_off_fade_distance"
+			},
+			{
+				name = "remap_volume_offset"
+				operator = "math_remap_float"
+				input = "@opvar_get_urn_dropoff_dist.output"
+				input_min = "@public.drop_off_radius"
+				input_max = "@math_max_distance_falloff.output"
+				input_map_min = "1.0"
+				input_map_max = "0.0"
+				clamp_range = "true"
+			},
+			{
+				name = "filter_volume_falloff"
+				operator = "math_filter_float"
+				input = "@remap_volume_offset.output"
+				input_max_velocity = "10.0"
+			},
+			{
+				name = "volume_falloff_gain_to_db"
+				operator = "math_gain_to_db"
+				input = "@filter_volume_falloff.output"
+			},
+			{
+				name = "volume_offset"
+				operator = "math_float"
+				apply = "add"
+				input1 = "@public.volume"
+				input2 = "@volume_falloff_gain_to_db.output"
+			},
+			{
+				name = "math_contested_mult_blocked"
+				input_execute = "1.0"
+				operator = "math_float"
+				apply = "mult"
+				input1 = "@math_inverse_is_blocked.output"
+				input2 = "@public.is_contested"
+			},
+			{
+				name = "filter_contested"
+				operator = "math_filter_float"
+				input = "@math_contested_mult_blocked.output"
+				input_max_velocity = "@public.filter_speed"
+			},
+			{
+				name = "volume_contested_gain_to_db"
+				operator = "math_gain_to_db"
+				input = "@filter_contested.output"
+			},
+			{
+				name = "math_mult_approach_volume"
+				operator = "math_accumulate12_float"
+				apply = "mult"
+				input1 = "@math_is_not_in_zone.output"
+				input2 = "@math_inverse_is_blocked.output"
+				input3 = "@math_inverse_is_contested.output"
+			},
+			{
+				name = "filter_approach"
+				operator = "math_filter_float"
+				input = "@math_mult_approach_volume.output"
+				input_max_velocity = "@public.filter_speed"
+			},
+			{
+				name = "volume_approach_gain_to_db"
+				operator = "math_gain_to_db"
+				input = "@filter_approach.output"
+			},
+			{
+				name = "citadel_default_2d"
+				operator = "sos_import_stack"
+				import_stack = "citadel_default_2d"
+				auto_connect_public_fields = "true"
+				operator_variables = 
+				{
+					volume = 
+					{
+						data_type = "float"
+						value = "@volume_offset.output"
+					}
+					track_1.vsnd_track_vol_offset_db = 
+					{
+						data_type = "float"
+						value = "@filter_capture_vol_db.output"
+					}
+					track_1.vsnd_files_track_name = 
+					{
+						data_type = "string"
+						value = "bypass"
+					}
+					track_2.vsnd_files_field_name = 
+					{
+						data_type = "string"
+						value = "vsnd_files_blocked"
+					}
+					track_2.vsnd_track_vol_offset_db = 
+					{
+						data_type = "float"
+						value = "@filter_blocked_vol_db.output"
+					}
+					track_2.vsnd_files_track_name = 
+					{
+						data_type = "string"
+						value = "bypass"
+					}
+					track_3.vsnd_files_field_name = 
+					{
+						data_type = "string"
+						value = "vsnd_files_contest"
+					}
+					track_3.vsnd_track_vol_offset_db = 
+					{
+						data_type = "float"
+						value = "@volume_contested_gain_to_db.output"
+					}
+					track_3.vsnd_files_track_name = 
+					{
+						data_type = "string"
+						value = "bypass"
+					}
+					track_4.vsnd_files_field_name = 
+					{
+						data_type = "string"
+						value = "vsnd_files_approach"
+					}
+					track_4.vsnd_track_vol_offset_db = 
+					{
+						data_type = "float"
+						value = "@volume_approach_gain_to_db.output"
+					}
+					track_4.vsnd_files_track_name = 
+					{
+						data_type = "string"
+						value = "positional"
+					}
+				}
+			},
+			{
+				name = "globals"
+				operator = "get_system_globals"
+				input_execute = "1.0"
+				input_listener_index = "0"
+			},
+			{
+				name = "math_dot_product_listener_right"
+				operator = "vector_facing_point"
+				input_vec_forward = "@globals.output_listener_left"
+				input_listener_position = "@globals.output_listener_position"
+				input_source_position = "@public.koth_position"
+			},
+			{
+				name = "math_invert_dot"
+				operator = "math_float"
+				apply = "mult"
+				input1 = "@math_dot_product_listener_right.output_dot_product"
+				input2 = "-1.0"
+			},
+			{
+				name = "send_tail_stereo_pan"
+				input_execute = "1"
+				operator = "vmix_voicegraph_input"
+				input_name = "pan_position"
+				input = "@math_invert_dot.output"
+			},
+		]
+		_system_properties = 
+		{
+			display_game = "citadel"
+		}
+	}
+}

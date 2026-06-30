@@ -452,7 +452,7 @@
 					spirit_jar = 
 					{
 						data_type = "float"
-						value = 0.0
+						value = 2.0
 						_system_properties = 
 						{
 							property_group = "citadel_dialog_volumes"

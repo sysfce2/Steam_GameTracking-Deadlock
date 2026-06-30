@@ -528,6 +528,7 @@
 		volume = 0.0
 		volume_fade_in = 0.1
 		max_fade_distance = 3200.0
+		filter_speed = 2.0
 		vsnd_files = 
 		[
 			"sounds/music/music_idol_carry_lp_141bpm.vsnd",
@@ -581,7 +582,7 @@
 		type = "citadel_music_urn_drop"
 		volume = 3.0
 		volume_fade_in = 0.5
-		volume_fade_out = 0.5
+		volume_fade_out = 1.0
 		vsnd_files = 
 		[
 			"sounds/music/music_idol_timer_lp_team_160bpm.vsnd",
@@ -621,6 +622,56 @@
 			"sounds/music/music_idol_announce.vsnd",
 		]
 		vsnd_duration = 6.808504
+	}
+	Music.Koth.Capture.Lp = 
+	{
+		type = "citadel_music_koth_capture"
+		volume = 0.0
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
+	}
+	Stinger.Koth.Announce = 
+	{
+		base = "Base.Stingers.2d"
+		volume = 2.0
+		vsnd_files = 
+		[
+			"sounds/music/music_koth_announce.vsnd",
+		]
+		vsnd_duration = 7.521678
+	}
+	Stinger.Koth.Win = 
+	{
+		base = "Base.Stingers.2d"
+		volume = 2.0
+		mixer_mixgroup = "Music-Objective"
+		vsnd_files = 
+		[
+			"sounds/music/music_koth_win.vsnd",
+		]
+		vsnd_duration = 7.104739
+	}
+	Stinger.Koth.Lose = 
+	{
+		base = "Base.Stingers.2d"
+		volume = 2.0
+		mixer_mixgroup = "Music-Objective"
+		vsnd_files = 
+		[
+			"sounds/music/music_koth_lose.vsnd",
+		]
+		vsnd_duration = 8.522018
+	}
+	Stinger.Koth.Expire = 
+	{
+		base = "Base.Stingers.2d"
+		volume = 2.0
+		mixer_mixgroup = "Music-Objective"
+		vsnd_files = 
+		[
+			"sounds/music/music_koth_expire.vsnd",
+		]
+		vsnd_duration = 7.662245
 	}
 	Stinger.KillStreak = 
 	{

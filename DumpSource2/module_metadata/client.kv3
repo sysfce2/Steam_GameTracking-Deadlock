@@ -6,7 +6,7 @@
 			name = "CitadelMinimapManifest"
 			group = "GameStartup"
 			source_file = "src/game/client/citadel/ui/hud_minimap.cpp"
-			source_line = 138
+			source_line = 141
 			resources = 
 			[
 				resource_name:"materials/minimap/minimap_circle.vtex",

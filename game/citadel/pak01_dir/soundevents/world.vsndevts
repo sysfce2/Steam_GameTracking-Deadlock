@@ -177,23 +177,9 @@
 	Soul.Urn.Spawn.Complete = 
 	{
 		base = "Base.Urn"
-		volume = 0.0
+		volume = -1.0
 		vsnd_files = "sounds/world/urn/soul_urn_spawn_complete_01.vsnd"
-		vsnd_duration = 2.040771
-	}
-	Soul.Urn.Bonk = 
-	{
-		base = "Base.Urn"
-		volume = 4.0
-		vsnd_files = 
-		[
-			"sounds/world/breakables/pottery/prop_impact_ceramic_01.vsnd",
-			"sounds/world/breakables/pottery/prop_impact_ceramic_02.vsnd",
-			"sounds/world/breakables/pottery/prop_impact_ceramic_03.vsnd",
-			"sounds/world/breakables/pottery/prop_impact_ceramic_04.vsnd",
-			"sounds/world/breakables/pottery/prop_impact_ceramic_05.vsnd",
-			"sounds/world/breakables/pottery/prop_impact_ceramic_06.vsnd",
-		]
+		vsnd_duration = 2.071247
 	}
 	Soul.Urn.Pickup = 
 	{
@@ -227,6 +213,7 @@
 		volume_fade_out = 0.2
 		delay_rand_min = -2.0
 		spread_max_value = 0.0
+		max_distance_recipient_filter = -1
 		vsnd_files = "sounds/world/urn/soul_urn_walking_lp_01.vsnd"
 		vsnd_duration = 8.913469
 	}
@@ -238,26 +225,47 @@
 		volume_fade_out = 0.2
 		delay_rand_min = -2.0
 		spread_max_value = 0.0
+		max_distance_recipient_filter = -1
+		vsnd_files = "sounds/world/urn/soul_urn_idling_lp_01.vsnd"
+		vsnd_duration = 9.071428
+	}
+	Soul.Urn.Carry.Lp = 
+	{
+		base = "Base.Ability"
+		volume = 2.0
+		pitch = 1.2
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		delay_rand_min = -2.0
+		spread_max_value = 0.0
+		max_distance_recipient_filter = -1
 		vsnd_files = "sounds/world/urn/soul_urn_idling_lp_01.vsnd"
 		vsnd_duration = 9.071428
 	}
 	Footstep.Urn.Sweetener = 
 	{
-		base = "Base.Footsteps"
-		pitch = 0.8
+		base = "Base.Ability"
+		pitch = 1.0
 		volume = 0.0
+		limiter_max = 3.0
+		volume_fade_out = 0.1
+		volume_offset_player = -5.0
+		occlusion_volume_blend_distance_min = 2500.0
+		occlusion_volume_blend_distance_max = 3000.0
 		vsnd_files = 
 		[
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_01.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_02.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_03.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_04.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_05.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_06.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_07.vsnd",
-			"sounds/player/footsteps/shared/surface_sweeteners/urn_seasonal_08.vsnd",
+			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_01.vsnd",
+			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_02.vsnd",
+			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_03.vsnd",
+			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_04.vsnd",
+			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_05.vsnd",
+			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_06.vsnd",
+			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_07.vsnd",
+			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_08.vsnd",
+			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_09.vsnd",
+			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_10.vsnd",
 		]
-		vsnd_duration = 2.158435
+		vsnd_duration = 0.850703
 	}
 	Soul.Urn.Switch.Team = 
 	{
@@ -285,16 +293,37 @@
 		]
 		vsnd_duration = 1.197256
 	}
-	Soul.Urn.CashIn.Timer = 
+	Soul.Urn.CashIn.Timer.Lp = 
 	{
-		base = "Base.Urn"
-		volume = -4.0
+		base = "Base.Urn.Zone"
+		volume = -2.0
 		volume_fade_in = 0.1
 		volume_fade_out = 0.1
 		delay_rand_min = -3.0
 		max_distance_recipient_filter = -1
 		vsnd_files = "sounds/world/urn/soul_urn_cashin_timer_lp_01.vsnd"
 		vsnd_duration = 7.852404
+	}
+	Soul.Urn.Zone.Contested.Lp = 
+	{
+		base = "Base.Urn.Zone"
+		volume = -5.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay_rand_min = -3.0
+		max_distance_recipient_filter = -1
+		vsnd_files = "sounds/world/urn/soul_urn_zone_contested_lp_01.vsnd"
+		vsnd_duration = 9.560884
+	}
+	Soul.Urn.GiveUp.Warning.Lp = 
+	{
+		base = "Base.Urn.Zone"
+		volume = -2.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		max_distance_recipient_filter = -1
+		vsnd_files = "sounds/world/urn/soul_urn_give_up_warning_lp_01.vsnd"
+		vsnd_duration = 9.746667
 	}
 	Soul.Urn.CashIn.Complete.Team = 
 	{
@@ -306,11 +335,11 @@
 	}
 	Soul.Urn.CashIn.Complete.Opponent = 
 	{
-		base = "Base.Urn"
+		base = "Base.Urn.Zone"
 		volume = 0.0
 		volume_falloff_min = 2500.0
 		vsnd_files = "sounds/world/urn/soul_urn_cashin_complete_opponent_01.vsnd"
-		vsnd_duration = 2.045079
+		vsnd_duration = 2.047392
 	}
 	Soul.Urn.Melee.Drop = 
 	{
@@ -321,6 +350,156 @@
 			"sounds/world/urn/soul_urn_melee_drop_01.vsnd",
 		]
 		vsnd_duration = 1.190658
+	}
+	Soul.Urn.Damage.Tick = 
+	{
+		base = "Base.Mod.StatusEffect"
+		volume = -7.0
+		vsnd_files = 
+		[
+			"sounds/world/urn/soul_urn_damage_tick_01.vsnd",
+			"sounds/world/urn/soul_urn_damage_tick_02.vsnd",
+			"sounds/world/urn/soul_urn_damage_tick_03.vsnd",
+			"sounds/world/urn/soul_urn_damage_tick_04.vsnd",
+			"sounds/world/urn/soul_urn_damage_tick_05.vsnd",
+			"sounds/world/urn/soul_urn_damage_tick_06.vsnd",
+		]
+		vsnd_duration = 0.492698
+	}
+	Soul.Urn.Zone.Contested = 
+	{
+		base = "Base.Urn.Zone"
+		volume = 0.0
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_stop_oldest = false
+		vsnd_files = 
+		[
+			"sounds/world/urn/soul_urn_zone_contested_01.vsnd",
+		]
+		vsnd_duration = 2.348912
+	}
+	Koth.Zone.Capture.Start.Announcement = 
+	{
+		base = "Base.MapObjective"
+		volume = 0.0
+		distance_hpf_on = 0.0
+		distance_lpf_on = 0.0
+		occlusion_scale = 0.2
+		vsnd_files = "sounds/world/koth/koth_zone_capture_start_announce_01.vsnd"
+		vsnd_duration = 6.872812
+	}
+	Koth.Zone.Contested = 
+	{
+		base = "Base.Koth"
+		volume = -1.0
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_stop_oldest = false
+		vsnd_files = 
+		[
+			"sounds/world/koth/koth_zone_contested_01.vsnd",
+			"sounds/world/koth/koth_zone_contested_02.vsnd",
+			"sounds/world/koth/koth_zone_contested_03.vsnd",
+		]
+		vsnd_duration = 3.579955
+	}
+	Koth.Zone.Blocked = 
+	{
+		base = "Base.Koth"
+		volume = -1.0
+		vsnd_files = "sounds/world/koth/koth_zone_blocked_01.vsnd"
+		vsnd_duration = 4.193583
+	}
+	Koth.Zone.Contested.Lp = 
+	{
+		base = "Base.Koth"
+		volume = -5.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay_rand_min = -6.0
+		max_distance_recipient_filter = -1
+		vsnd_files = "sounds/world/koth/koth_zone_contested_lp_01.vsnd"
+		vsnd_duration = 11.812653
+	}
+	Koth.Zone.Capturing.Lp = 
+	{
+		base = "Base.Koth"
+		volume = -6.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.2
+		delay_rand_min = -3.0
+		max_distance_recipient_filter = -1
+		vsnd_files = "sounds/world/koth/koth_capturing_lp_01.vsnd"
+		vsnd_duration = 10.348413
+	}
+	Koth.Timeout.Warning.Lp = 
+	{
+		base = "Base.Koth"
+		volume = -3.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		max_distance_recipient_filter = -1
+		vsnd_files = "sounds/world/urn/soul_urn_give_up_warning_lp_01.vsnd"
+		vsnd_duration = 9.746667
+	}
+	Koth.Cashin.Complete.Team = 
+	{
+		base = "Base.Koth"
+		volume = 0.0
+		mono_downmix_min_distance = 1000.0
+		vsnd_files = "sounds/world/koth/koth_zone_captured_team_01.vsnd"
+		vsnd_duration = 4.709705
+	}
+	Koth.CashIn.Complete.Opponent = 
+	{
+		base = "Base.Koth"
+		volume = 0.0
+		mono_downmix_min_distance = 1000.0
+		vsnd_files = "sounds/world/koth/koth_zone_captured_opponent_01.vsnd"
+		vsnd_duration = 4.569773
+	}
+	Koth.Spawn.Start = 
+	{
+		base = "Base.Koth"
+		volume = -4.0
+		vsnd_files = "sounds/world/koth/koth_star_spawn_01.vsnd"
+		vsnd_duration = 5.554671
+	}
+	Koth.Spawn.Lp = 
+	{
+		base = "Base.Koth"
+		volume = -6.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		max_distance_recipient_filter = -1
+		mono_downmix_min_distance = 500.0
+		spread_max = 500.0
+		vsnd_files = "sounds/world/koth/koth_star_spawn_lp_01.vsnd"
+		vsnd_duration = 17.214649
+	}
+	Koth.Spawn.Complete = 
+	{
+		base = "Base.Koth"
+		volume = 0.0
+		vsnd_files = "sounds/world/koth/koth_star_spawn_complete_01.vsnd"
+		vsnd_duration = 3.513968
+	}
+	Koth.Pre.Spawn.Lp = 
+	{
+		base = "Base.Koth"
+		volume = -7.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		delay_rand_min = -6.0
+		mono_downmix_min_distance = 0.0
+		mono_downmix_max_distance = 300.0
+		spread_min = 0.0
+		spread_max = 300.0
+		spread_max_value = 0.1
+		max_distance_recipient_filter = -1
+		vsnd_files = "sounds/world/koth/koth_pre_spawn_lp_01.vsnd"
+		vsnd_duration = 18.335669
 	}
 	Powerup.Gun_Lp = 
 	{

@@ -1241,6 +1241,7 @@ BeamClipStyle_t
 BeamShoot
 BeamType_t
 BeamWindUp
+Become Interactive Sound
 BeginDeathLifeStateTransition_t
 Beginning
 Behavior
@@ -2077,14 +2078,18 @@ CCitadelHotelExitTrigger
 CCitadelIdolReturnTrigger
 CCitadelInWorldEventTimer
 CCitadelInteriorTrigger
+CCitadelItemKothSpawner
+CCitadelItemKothSpawnerVData
 CCitadelItemMetal
 CCitadelItemPickup
 CCitadelItemPickupIdol
+CCitadelItemPickupIdolVData
 CCitadelItemPickupRejuv
 CCitadelItemPickupRejuvHeroTest
 CCitadelItemPickupRejuvHeroTestInfoSpawn
 CCitadelItemPickupRejuvHeroTestVData
 CCitadelItemPickupRejuvVData
+CCitadelItemPickupVData
 CCitadelItemPunchableNeutralGold
 CCitadelItemPunchableNeutralGoldVData
 CCitadelLootTable
@@ -2797,17 +2802,8 @@ CCitadel_BaseProp_MidStairs
 CCitadel_Bounce_Pad
 CCitadel_Bounce_PadVData
 CCitadel_Bounce_Pad_GraphController
-CCitadel_BreakableDroppedGoldPickup
-CCitadel_BreakableDroppedNecroPickup
 CCitadel_BreakableProp
-CCitadel_BreakablePropGoldPickup
-CCitadel_BreakablePropGoldPickupVData
-CCitadel_BreakablePropHealthPickup
 CCitadel_BreakablePropHealthPickupVData
-CCitadel_BreakablePropModifierPickup
-CCitadel_BreakablePropModifierPickupVData
-CCitadel_BreakablePropPickup
-CCitadel_BreakablePropPickupVData
 CCitadel_BreakablePropVData
 CCitadel_CapturePointVData
 CCitadel_CatAnimating
@@ -2842,8 +2838,6 @@ CCitadel_Hideout_Clock
 CCitadel_Hideout_ClockVData
 CCitadel_Ice_Dome_Blocker
 CCitadel_Ice_Path_Shard_Physics
-CCitadel_IdolCashIn
-CCitadel_IdolCashInVData
 CCitadel_InfoTrooperSpawnAPI
 CCitadel_Item
 CCitadel_Item_AOERoot
@@ -2935,6 +2929,8 @@ CCitadel_Item_TrackingProjectileApplyModifierVData
 CCitadel_Item_TrophyCollector
 CCitadel_Item_TrophyCollectorVData
 CCitadel_Item_WarpStone
+CCitadel_KothCashIn
+CCitadel_KothCashInVData
 CCitadel_Magic_Beam_Blocker
 CCitadel_MagicianTurret
 CCitadel_MagicianTurret_GraphController
@@ -3466,6 +3462,10 @@ CCitadel_Modifier_Killing_Blow_GlowVData
 CCitadel_Modifier_Knockback
 CCitadel_Modifier_KnockbackAura
 CCitadel_Modifier_Knockdown
+CCitadel_Modifier_KothComebackBonuses
+CCitadel_Modifier_KothComebackBonusesVData
+CCitadel_Modifier_KothTrooperBuff
+CCitadel_Modifier_KothTrooperBuffVData
 CCitadel_Modifier_LashGrappleEnemy_Debuff
 CCitadel_Modifier_LashGrappleTarget
 CCitadel_Modifier_Lash_Flog_Debuff
@@ -3739,6 +3739,7 @@ CCitadel_Modifier_ShakedownPulseVData
 CCitadel_Modifier_Shield
 CCitadel_Modifier_ShieldImpact
 CCitadel_Modifier_ShivDash
+CCitadel_Modifier_ShivDashDebuff
 CCitadel_Modifier_ShivDashVData
 CCitadel_Modifier_Shiv_KillingBlow_Leap
 CCitadel_Modifier_Shivas_Bracelet_Watcher
@@ -4049,9 +4050,22 @@ CCitadel_NeutralCampVData
 CCitadel_NewYears_Fireworks
 CCitadel_Omnicharge_Pendant
 CCitadel_PestilenceDroneDispenser
+CCitadel_Pickup
 CCitadel_PickupItemSpawner
 CCitadel_PickupItemSpawnerAPI
 CCitadel_PickupItemSpawnerVData
+CCitadel_Pickup_AssignedGold
+CCitadel_Pickup_Currency
+CCitadel_Pickup_Currency_VData
+CCitadel_Pickup_Gold
+CCitadel_Pickup_Gold_VData
+CCitadel_Pickup_Health
+CCitadel_Pickup_Item
+CCitadel_Pickup_Item_VData
+CCitadel_Pickup_Modifier
+CCitadel_Pickup_Modifier_VData
+CCitadel_Pickup_NecroDeath
+CCitadel_Pickup_VData
 CCitadel_PointTalker
 CCitadel_PointTalker_Base
 CCitadel_PointTalker_Idol
@@ -4078,8 +4092,6 @@ CCitadel_Projectile_WebWall
 CCitadel_Projectile_Wrecker_Teleport
 CCitadel_Projectile_WreckingBall
 CCitadel_Prop_MidBossIndicator
-CCitadel_PunchablePowerup
-CCitadel_PunchablePowerupVData
 CCitadel_RestorativeGooCube
 CCitadel_Shield
 CCitadel_ShopProp
@@ -4655,6 +4667,7 @@ CITADEL_PING_HELP
 CITADEL_PING_HELP_WITH_IDOL
 CITADEL_PING_IDOL
 CITADEL_PING_IM_BACK
+CITADEL_PING_KOTH_SPAWN
 CITADEL_PING_LEAVE_AREA
 CITADEL_PING_LETS_GO_THIS_WAY
 CITADEL_PING_LETS_HIDE
@@ -4791,6 +4804,7 @@ CInfoHeroTestingController
 CInfoHeroTestingPoint
 CInfoInstructorHintTarget
 CInfoInteraction
+CInfoKOTHSpawnLocation
 CInfoLadderDismount
 CInfoLandmark
 CInfoMidBossSpawn
@@ -4910,6 +4924,8 @@ CLASS_ICEPATH_SHARD
 CLASS_IMMOBILIZE_TRAP_PROJECTILE
 CLASS_ITEM_PICKUP
 CLASS_ITEM_SHOP
+CLASS_KOTH_CAPTURE_POINT
+CLASS_KOTH_SPAWNER
 CLASS_MAGICIAN_TURRET
 CLASS_MATCH_INTRO_HERO_CARD
 CLASS_MEDIUM_NEUTRAL_CAMP
@@ -4937,7 +4953,6 @@ CLASS_PLAYER_SPRAY
 CLASS_PRIEST_BEARTRAP_PROJECTILE
 CLASS_PROJECTILE_TOUCH_VOLUME
 CLASS_PROP_MIDBOSS_INDICATOR
-CLASS_PUNCHABLE_POWERUP
 CLASS_ROLLERMINE
 CLASS_SENTRY
 CLASS_SHIELD
@@ -6832,14 +6847,8 @@ C_CitadelViscousBall
 C_CitadelZiplinePath
 C_Citadel_BaseProp_MidStairs
 C_Citadel_Bounce_Pad
-C_Citadel_BreakableDroppedGoldPickup
-C_Citadel_BreakableDroppedNecroPickup
 C_Citadel_BreakableProp
-C_Citadel_BreakablePropPickup
 C_Citadel_BreakableProp_GraphController
-C_Citadel_BreakblePropGoldPickup
-C_Citadel_BreakblePropHealthPickup
-C_Citadel_BreakblePropModifierPickup
 C_Citadel_CatAnimating
 C_Citadel_DeployablePreview
 C_Citadel_DeployablePreview_GraphController
@@ -6857,7 +6866,15 @@ C_Citadel_Ice_Path_Shard_Physics
 C_Citadel_Magic_Beam_Blocker
 C_Citadel_Nano_Predatory_Statue
 C_Citadel_PestilenceDroneDispenser
+C_Citadel_Pickup
 C_Citadel_PickupItemSpawner
+C_Citadel_Pickup_AssignedGold
+C_Citadel_Pickup_Currency
+C_Citadel_Pickup_Gold
+C_Citadel_Pickup_Health
+C_Citadel_Pickup_Item
+C_Citadel_Pickup_Modifier
+C_Citadel_Pickup_NecroDeath
 C_Citadel_Projectile_Archer_ChargedShot
 C_Citadel_Projectile_Bebop_Hook
 C_Citadel_Projectile_BloodBomb
@@ -6867,7 +6884,6 @@ C_Citadel_Projectile_SettingSun
 C_Citadel_Projectile_Viscous_GooGrenade
 C_Citadel_Projectile_Wrecker_Teleport
 C_Citadel_Projectile_WreckingBall
-C_Citadel_PunchablePowerup
 C_Citadel_RestorativeGooCube
 C_Citadel_Shield
 C_Citadel_SmokeGrenade_Blocker
@@ -7965,6 +7981,7 @@ Cubic
 Cull Lifetime
 Curl
 CurrenciesChanged
+Currency
 CurrencySound_t
 Current Rotation Velocity Metric
 Current Velocity Metric
@@ -8209,7 +8226,6 @@ DamageIndicatorSounds_t
 DamageReceivedSounds_t
 DamageTypes_t
 Damaged Effect
-Damaged Particle
 Damaged an enemy, who has been missing for a short while
 Damaged by Abilities?
 Damaged by Bullets?
@@ -8378,6 +8394,7 @@ Detail Prop Type
 Detail2Combo_t
 DetailCombo_t
 Detect from CP's Object
+Determines how players collect the rewards from this pickup
 Determines if pausing is enabled. Temporary until we get pausing stable
 Determines the rate that we should submit match info up to the GC, 0 disables this functionality
 Determinines the amount of trackin to do, over time. 0 tracking means continue in a straight line. 1.0 tracking means the velocity will be fully turned towards the target.
@@ -9104,6 +9121,7 @@ EDeniedFromEnemy
 EDenyDistributionType
 EDenyInLaningPhase
 EDenyToDenier
+EDenyToDenierAndSplitWithClaimer
 EDenyToDenierNearbyTeammates
 EDenyToDenierTeam
 EDenyToNobody
@@ -9310,6 +9328,7 @@ ELootType_Item
 ELootType_LootTableReference
 ELoot_GoldIdol
 ELoot_Invalid
+ELoot_KothCapturePoint
 ELoot_LootTypeCount
 ELoot_NeutralGold
 ELoot_RespawnCredit
@@ -9495,6 +9514,7 @@ EMusicState_HideoutWait
 EMusicState_Idol_Carry
 EMusicState_Idol_ReturnTimer
 EMusicState_Invalid
+EMusicState_Koth_ReturnTimer
 EMusicState_Lost
 EMusicState_MatchIntro_Connecting
 EMusicState_MatchIntro_HeroReveal
@@ -9571,6 +9591,7 @@ EOrbTreasureChest
 EOrbTrophyKill
 EOverrideBlockLOS_t
 EParryCooldown
+EPickupCollectionMethod
 EPlayOfTheGameReplayTrigger
 EPlayOfTheGameReplayTrigger_BeginOutro
 EPlayOfTheGameReplayTrigger_HeroCalloutMajor
@@ -9803,6 +9824,10 @@ EStinger_KillStreak_07
 EStinger_KillStreak_08
 EStinger_KillStreak_09
 EStinger_KillStreak_10
+EStinger_Koth_DropAnnounce
+EStinger_Koth_Expire
+EStinger_Koth_Lose
+EStinger_Koth_Win
 EStinger_MidBoss_Arrived
 EStinger_PlayerKillStreak_FirstBlood
 EStinger_RejuvinatorClaimed_Enemy
@@ -10862,6 +10887,7 @@ Force BatchAnimationDecode to write transformations for all bones
 Force Cropping Off
 Force Cropping On
 Force Latest Value
+Force Spawning Koth Capture point with Warning
 Force Static
 Force a breakable to break
 Force a busy wait for the specified number of milliseconds during save to simulate a hitch
@@ -12207,6 +12233,7 @@ Issue an rcon command.
 It will be evaluated against vdata entries where the key matches the asset - if any of them evaluate to true the tag will be applied.
 Item
 Item Tooltips
+ItemChanged
 ItemDraftBucketing_t
 ItemDraftItem_t
 ItemDraftOption_t
@@ -12310,6 +12337,7 @@ KnockdownMedium
 KnockdownPancake
 KnockdownParried
 KnockdownSmall
+KothParams_t
 LARGEST_FIRST
 LAST_SERIALIZED_CODE
 LATCH_DIRTY_CLIENT_SIMULATED
@@ -13001,6 +13029,7 @@ MODIFIER_STATE_ITEMS_DISABLED
 MODIFIER_STATE_JUMP_DISABLED
 MODIFIER_STATE_KEEP_HP_PERCENTAGE_ON_MAXHEALTH_CHANGE
 MODIFIER_STATE_KNOCKDOWN_IMMUNE
+MODIFIER_STATE_KOTH_TROOPER
 MODIFIER_STATE_LADDER_DISABLE
 MODIFIER_STATE_LOCKED_AIM_ANGLES
 MODIFIER_STATE_MAGICIAN_ULT
@@ -13510,6 +13539,7 @@ Max Angle for Inaccuracy
 Max Blend Weight
 Max Climb
 Max Confirmation Traces Per Fame
+Max Difference between teams to get full trailing bonuses for Koth/Urn
 Max Distance the camera can 'see' an entity
 Max Foot Lift
 Max Goal Overshoot Scale
@@ -13661,6 +13691,7 @@ Midpoint Scale
 Min
 Min Angle
 Min Blend Weight
+Min Difference between teams to start getting trailing bonuses for Koth/Urn
 Min Distance
 Min Dot Product result from target that we will try to shoot from
 Min Extrapolation Speed
@@ -14267,6 +14298,7 @@ No Collision Behavior
 No Marker or Sound (just VO)
 No Primary Ammo
 No Sound
+No World, Just Minimap and sound
 No fade out. The object will not fade out, but will still be culled when below the minimum size and will pop at that that point.
 No scaling
 NoDamping
@@ -14479,6 +14511,7 @@ On Finished
 On Fire
 On Ground
 On Hit AnimGraph Parameter
+On Punched Sound
 On Respawn AnimGraph Parameter
 On which side of the crosshair should this hint show
 On, Frequency Dependent Transmission
@@ -14529,6 +14562,7 @@ OnHealingChargeChanged
 OnHeroChanged
 OnHeroPawnChanged
 OnInCastDelayChanged
+OnInteractiveChanged
 OnInterpolationAmountChanged
 OnInterpolationFrameChanged
 OnIsRollingChanged
@@ -15498,6 +15532,7 @@ Pickup Radius
 Pickup Sound
 Pickup rewards
 Pigeon Gameplay
+Ping Mini Map on Active
 Ping Target and Pinging Player only
 Ping a peer.
 Ping button pressed
@@ -15860,6 +15895,8 @@ PulseTestEnumShape_t
 PulseTraceContents_t
 PulseValueType_t
 PulseVariableKeysSource_t
+Punch
+Punch Settings
 Purchase the next quickbuy item
 Purge and reload all vmidi data and files.
 Purges the VSnd table
@@ -17622,6 +17659,7 @@ SpawnNeutrals
 Spawned
 Spawns an entity that activates sandbox mode controls.
 Spawns an entity that activates tutorial mode controls.
+Spawns an item pickup for a specific item. You can specify the item, or else you'll get a random one
 Spawns any neutral camps within 800 units (~20m)
 Spawns the escort with an optional delay
 Special
@@ -17804,6 +17842,7 @@ Start or stop continuously adding to the selected set.
 Start or stop continuously removing from the selected set.
 Start recording bug voice attachment.
 Start recording movie frames.
+Start the Early Warning of Koth and Teleport the active player there
 Starts SourceTV demo recording.
 Starts a calibration match
 Starts a sound event, returns a handle that can be used to stop it. Keywords: create, sound, event, audio
@@ -18017,8 +18056,10 @@ TLK_CITADEL_ANN_ENEMY_VANGUARD_CAPTURED
 TLK_CITADEL_ANN_ENEMY_VANGUARD_DESTROYED
 TLK_CITADEL_ANN_GUIDED_BOT_MATCH
 TLK_CITADEL_ANN_IDOL
+TLK_CITADEL_ANN_IDOL_SITTING
 TLK_CITADEL_ANN_KILL
 TLK_CITADEL_ANN_KILL_STREAK
+TLK_CITADEL_ANN_KOTH
 TLK_CITADEL_ANN_MIDBOSS_KILLED
 TLK_CITADEL_ANN_MIDBOSS_SPAWN
 TLK_CITADEL_ANN_PICKUP_ITEM
@@ -18192,7 +18233,7 @@ Task Blocking + Force Facing
 Task Handshake Tag
 TaskHandshakeScope_t
 TaskStatus_t
-TeamIdolState_t
+TeamKothState_t
 TeamReveal
 Teammate footstep sounds are relative to whoever we're spectating.
 Tech
@@ -18581,6 +18622,7 @@ Total health of this damage level. When it reaches 0, the damage level is 'broke
 Total size of the texture pool in MB
 TotalTranslation_SourceState
 TotalTranslation_TargetState
+Touch
 Touch_t
 Towards closest point
 Trace Bloat Radius Scale
@@ -19112,6 +19154,7 @@ VSND Container
 VSND Enum
 Vacuum Settings
 Vacuum Start Sound
+VacuumTrigger
 Valid Path Positions
 Valid When
 Validate Target Line of Sight
@@ -19537,6 +19580,7 @@ When set, tracked projectiles can hit non-tracked targets, allowing people to in
 When set, tracked projectiles won't get removed automatically when touchign their target.  ***YOU MUST MANUALLY REMOVE THEM***
 When set, tracked projectiles won't have their lifetime set to 2seconds upon IsDoneTracking().  ***YOU MUST MANUALLY REMOVE THEM***
 When set, use the value as localization key.
+When set, uses this as a custom icon for the unit, currently only used for precaching references in code.
 When set, uses this model when on the Amber team.  Falls back to Model Name if not set
 When set, uses this model when on the Sapphire team.  Falls back to Model Name if not set
 When set, validates the projectile can 'see' the target. Mitigates trigger volumes from hitting targets that are behind cover from the attack position
@@ -19561,7 +19605,7 @@ When trimming a bloated CQ, leave at least N more commands than the minimum
 When trimming a bloated CQ, try to leave room for N more commands to be added.  0 will trim only what is needed to remove the immediate bloat, a very large value will reset the whole queue.
 When trimming an overful CQ due to app 'catchup' request, leave at least N more commands than the minimum
 When true, all FindUnits calls will be drawn
-When true, don't allow pickup until we've fallen to the ground
+When true, don't allow collection until we've fallen to the ground
 When true, each bullet can apply its proc to any entities hit.  When false, we only apply the first proc to the first entity.
 When true, effectiveness (distance falloff) will be applied to the buildup.
 When true, effectiveness (distance falloff) will be applied when looking up this value.  Only works in modifiers for now.
@@ -20975,6 +21019,7 @@ citadel_fissure_max_offset_down
 citadel_fissure_max_offset_up
 citadel_fly_accelerate
 citadel_force_assigned_lane
+citadel_force_koth_spawn
 citadel_force_on_upgrade_for_all_abilities
 citadel_force_playofthegame
 citadel_force_resolution
@@ -21100,6 +21145,10 @@ citadel_hud_top_bar_enable_dynamic_player_position
 citadel_hud_visible
 citadel_idle_time
 citadel_idle_time_grace_period
+citadel_idol_cashin_buff_count
+citadel_idol_decay_duration
+citadel_idol_duration_until_decay
+citadel_idol_orbs_to_spawn
 citadel_idol_think_bias_interval
 citadel_in_world_item_panel_dpi
 citadel_inactive_time_grace_period
@@ -21126,6 +21175,17 @@ citadel_jump_overhead_clearance
 citadel_keybind_default_hold_duration
 citadel_keybindings_cloud_disable
 citadel_kick_disconnected_players
+citadel_koth_dev_test_spawn
+citadel_koth_early_warning_time
+citadel_koth_enabled
+citadel_koth_respawn_interval
+citadel_koth_reward_base
+citadel_koth_reward_buff_count
+citadel_koth_reward_time_multiplier
+citadel_koth_spawn_initial_delay
+citadel_koth_spawn_location_deck_count
+citadel_koth_spawn_window
+citadel_koth_warning_time
 citadel_landing_to_predicted
 citadel_lane_matchups_mmr_variance
 citadel_lane_swap_available_duration
@@ -21193,6 +21253,7 @@ citadel_min_match_minutes_for_replay
 citadel_minimap_arrow_show_distance_down
 citadel_minimap_arrow_show_distance_up
 citadel_minimap_draw_fow
+citadel_minimap_koth_trooper_size
 citadel_minimap_local_player_width
 citadel_minimap_max_icon_shrink
 citadel_minimap_npc_reveal_duration
@@ -21204,6 +21265,7 @@ citadel_minimap_spectator_fow_team_view
 citadel_minimap_teleporter_active_dist
 citadel_minimap_teleporter_height_dist
 citadel_minimap_teleporter_nearby_dist
+citadel_minimap_trooper_size
 citadel_minimap_unit_click_radius
 citadel_minimap_use_effects
 citadel_minimap_zip_line_thickness
@@ -21371,6 +21433,7 @@ citadel_player_level_hiding_extra_duration
 citadel_player_move_speed_min
 citadel_player_move_speed_scale
 citadel_player_neutral_gold_drop_min
+citadel_player_neutral_gold_drop_min_increase_per_minute
 citadel_player_neutral_gold_duration
 citadel_player_neutral_gold_fallrate
 citadel_player_outline_allies
@@ -21600,6 +21663,7 @@ citadel_spawn_all_heroes_in_a_line
 citadel_spawn_combine_only
 citadel_spawn_escort
 citadel_spawn_nearby_neutrals
+citadel_spawn_pickup_item
 citadel_spawn_practice_bots
 citadel_spawn_practice_bots_count
 citadel_spawn_rebels_only
@@ -21706,6 +21770,8 @@ citadel_toggle_mute
 citadel_toggle_server_pause
 citadel_track_player_vs_player_accuracy
 citadel_tracked_stats_dump
+citadel_trailingteam_bias_threshold_max
+citadel_trailingteam_bias_threshold_min
 citadel_trigger_rope_size
 citadel_trooper_aggro_radius
 citadel_trooper_boss_melee_knockback
@@ -24594,6 +24660,7 @@ k_EParam_HorizOffset
 k_EParam_TargetPosition
 k_EParam_VertOffset
 k_EPingMarkerInfo_HideMarkerAndSound
+k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 k_EPingMarkerInfo_OnlyMiniMap
 k_EPingMarkerInfo_OnlyPlaySound
 k_EPingMarkerInfo_OnlyShowMarker
@@ -25416,7 +25483,6 @@ m_BombAttachedVictimTeamParticle
 m_BombParticle
 m_Bone
 m_BoneName
-m_Bonus01
 m_BonusDamageModifier
 m_BonusDebuffModifier
 m_BonusImpactParticle
@@ -25681,6 +25747,7 @@ m_CtrlOsOffsets
 m_CtrlSoftOffsets
 m_CullingData
 m_CurlNoiseStrengthCurve
+m_Currency
 m_CurrencyTypeSounds
 m_CurrentFog
 m_CurseModifier
@@ -26473,6 +26540,11 @@ m_KnockbackAura
 m_KnockbackModifier
 m_KnockbackToWallModifier
 m_KnockedOffSlowModifier
+m_KothEarlyWarningParticle
+m_KothOnSpawnParticle
+m_KothParams
+m_KothSpawnLocationParticle
+m_KothWarningSound
 m_LandingBonusesModifier
 m_LandingParticle
 m_LandingSound
@@ -26853,6 +26925,7 @@ m_OnGlovePulled
 m_OnGreaterThan
 m_OnGreaterThanOrEqualTo
 m_OnGroundModifier
+m_OnGroundTouchParticle
 m_OnGustEnd
 m_OnGustStart
 m_OnHalfHealth
@@ -27178,6 +27251,7 @@ m_PhaseOutModifier
 m_PhonemeClasses
 m_PhysicsBodyMarkupByBoneName
 m_PhysicsDelegate
+m_PickUpAura
 m_PickupTimer
 m_PickupTimerModifier
 m_PipColor
@@ -27927,6 +28001,7 @@ m_Triggers
 m_Tris
 m_TrooperBossInvulnModifier
 m_TrooperHealthMult
+m_TrooperModifier
 m_TrooperType
 m_TurretModel
 m_TurretModifier
@@ -28036,6 +28111,7 @@ m_WakeCancel
 m_WakeFail
 m_WakeResume
 m_WakeUpDamageParticle
+m_WalkBackModifier
 m_WalkingLoopSound
 m_WallImpactFx
 m_WallImpactParticle
@@ -29108,6 +29184,7 @@ m_bHasVignetteParams
 m_bHasWeightsSet
 m_bHeadOnly
 m_bHeavyMelee
+m_bHeavyMeleeOnly
 m_bHeightFogEnabled
 m_bHidden
 m_bHide
@@ -29227,6 +29304,7 @@ m_bInitiallyPopulateInterpHistory
 m_bInitiatedSelfDelete
 m_bInputBufferCrash
 m_bInputPressedWhileSelected
+m_bInteractive
 m_bInterpolate
 m_bInterpolateEvenWithNoModel
 m_bInterpolationReadyToDraw
@@ -29738,13 +29816,18 @@ m_bPhaseInvert
 m_bPhysStartAsleep
 m_bPhysicsInitted
 m_bPickedUp
+m_bPickupExpires
 m_bPicupIsVacuum
 m_bPicupIsVacuum == false
+m_bPingMinimapOnActive
 m_bPingWheelBindable
 m_bPlaceAlongPath
 m_bPlaceFlat
 m_bPlaceNormalToSurface
 m_bPlane
+m_bPlayBlock
+m_bPlayContested
+m_bPlayCurrencySound
 m_bPlayEnd
 m_bPlayEndCap
 m_bPlayEndcapOnStop
@@ -30945,6 +31028,8 @@ m_eCategory
 m_eCitadelDamageType
 m_eClass
 m_eClimbState
+m_eCollectionMethod
+m_eCollectionMethod != Punch
 m_eCommittedAttachState
 m_eConflictType
 m_eCorrectionMethod
@@ -31439,7 +31524,7 @@ m_flAltCastDoubleTapStartTime
 m_flAltCastHoldStartTime
 m_flAlternateShiftLength
 m_flAlternateShiftWidth
-m_flAmberTime
+m_flAmberFavored
 m_flAmbientScale
 m_flAmbientScale1
 m_flAmbientScale2
@@ -31600,6 +31685,7 @@ m_flBaseCooldown
 m_flBaseDPS
 m_flBaseDamage
 m_flBaseDamping
+m_flBaseFallrate
 m_flBaseForwardFriction
 m_flBaseLeftFriction
 m_flBaseMass
@@ -31772,6 +31858,7 @@ m_flBulletLifetime
 m_flBulletOnlyTriggerRadius
 m_flBulletRadius
 m_flBulletRadiusVsWorld
+m_flBulletResist
 m_flBulletResistancePctMax
 m_flBulletResistancePctMin
 m_flBulletShouldExpireTime
@@ -32188,6 +32275,7 @@ m_flDelayBeforeCasterRegainsControlAfterFlip
 m_flDelayGain
 m_flDelayLeft
 m_flDelayRight
+m_flDelayedDelete
 m_flDelayedDieTimeRemaining
 m_flDelayedShotCreateTime
 m_flDensity
@@ -32320,7 +32408,6 @@ m_flDrainScale
 m_flDrainSuppressEndTime
 m_flDrawDistance
 m_flDropDownRate
-m_flDropOffPlayerBonusPercent
 m_flDropSpeed
 m_flDrowningDamageInterval
 m_flDuckOffHorizontal
@@ -32524,7 +32611,6 @@ m_flFarZ
 m_flFastBallSpeed
 m_flFastChargeEndTime
 m_flFastChargeStartTime
-m_flFastSpeed
 m_flFeather
 m_flFeatheringDepthMapFilter
 m_flFeatheringFilter
@@ -33013,6 +33099,8 @@ m_flKillerPlaneOffset
 m_flKillerPlaneSpeedNoise
 m_flKillerPlaneVerticalSpeed
 m_flKnockUpStrength
+m_flKothRadius
+m_flKothWarningDropHeight
 m_flLFOAmount
 m_flLFORate
 m_flLOD0
@@ -34322,7 +34410,7 @@ m_flSampleRate
 m_flSampleVelDiffStdDevScaleCutoff
 m_flSamplingPositionErrorThreshold
 m_flSamplingPositionErrorThresholdSq
-m_flSapphireTime
+m_flSapphireFavored
 m_flSatVolumeFadeOut
 m_flSatVolumeInnerConeSize
 m_flSatVolumePulsePerBat
@@ -34645,6 +34733,7 @@ m_flStatScale
 m_flStateEnterTime
 m_flStateStartTime
 m_flStaticImpactVolume
+m_flStatusResist
 m_flStealthSpeedMetersPerSecond
 m_flSteeringAxisFriction
 m_flStepDownHeight
@@ -34779,6 +34868,7 @@ m_flTargetingRadius
 m_flTargetingTaskStartTime
 m_flTechDamagePctIncrease
 m_flTechPower
+m_flTechResist
 m_flTechResistancePctMax
 m_flTechResistancePctMin
 m_flTeleportDelay
@@ -34987,6 +35077,9 @@ m_flTrooperOvertimeResist
 m_flTrooperSpawnBeforeRoundStartTimer
 m_flTrooperSpawnTimer
 m_flTrooperTakeDamageMult
+m_flTroopersMax
+m_flTroopersMin
+m_flTroopersSpawnRate
 m_flTrueValue
 m_flTurnDuration
 m_flTurnMaxAngDiff
@@ -35229,7 +35322,6 @@ m_flZombieSpawnVerticalOffset
 m_flZone1Distance
 m_flZone2Distance
 m_flZoneHeightMeters
-m_flZoneRadiusMeters
 m_flZoomFOV
 m_flZoomFOV_Relative
 m_flZoomMoveSpeedPercent
@@ -36133,6 +36225,7 @@ m_iTotal
 m_iTotalShots
 m_iTrooperWaveEventCount
 m_iTrooperWaveNumber
+m_iTroopersToSpawn
 m_iTrophyCount
 m_iUltimateUnlockRound
 m_iUpdateTime
@@ -36652,6 +36745,8 @@ m_nAlphaReferenceType
 m_nAlphaTestPointField
 m_nAlphaTestRangeField
 m_nAlphaTestSharpnessField
+m_nAmberGold
+m_nAmberGoldValue
 m_nAmberNetworth
 m_nAmbientEffect
 m_nAmbientLoopingSoundRecipients
@@ -37000,6 +37095,7 @@ m_nCullControlPoint
 m_nCullMode
 m_nCurTask
 m_nCurrencies
+m_nCurrencyAmount
 m_nCurrencyValue
 m_nCurrentBatchCount
 m_nCurrentCount
@@ -37381,7 +37477,6 @@ m_nIKAnchorBoneIndex
 m_nId
 m_nIdealMotionType
 m_nIdleAnimLoopMode
-m_nIdolScoringTeam
 m_nIgnoreCP
 m_nImportance
 m_nImpulse
@@ -37469,9 +37564,12 @@ m_nJiggleParent
 m_nJumpsThisSlideSession
 m_nJustifyHorizontal
 m_nJustifyVertical
+m_nKOTHIdx
 m_nKeysSource
 m_nKillingTeamNumber
 m_nKillsEarned
+m_nKothScoringTeam
+m_nKothWindowWarning
 m_nLFOShape
 m_nLOD
 m_nLODGroupMask
@@ -38007,6 +38105,8 @@ m_nSDFRigidIndex
 m_nSampleCount
 m_nSampleStart
 m_nSamples
+m_nSapphireGold
+m_nSapphireGoldValue
 m_nSapphireNetworth
 m_nSatVolumeIndex
 m_nSaturation
@@ -38550,6 +38650,7 @@ m_pGroomData
 m_pHandshakeInfo
 m_pHull
 m_pInfo
+m_pItemData
 m_pItemServices
 m_pJoint
 m_pKeyValues
@@ -38984,7 +39085,6 @@ m_sAllowMovementOffNavMesh
 m_sAllowMovementOffPath
 m_sAmberModelName
 m_sAmbientLoopingSound
-m_sAmbientNoise
 m_sAmbientSound
 m_sAngryLoop
 m_sAngryStart
@@ -39003,6 +39103,7 @@ m_sAttachment
 m_sAttachmentName
 m_sAttribute
 m_sAttributeName
+m_sBecomeInteractiveSound
 m_sBodyGroupName
 m_sBodyIdle
 m_sBone
@@ -39122,7 +39223,6 @@ m_sLockedSound
 m_sLoopSound
 m_sMapName
 m_sMaster
-m_sMiniMapCssClass
 m_sModelName
 m_sModelOverrideName
 m_sModelValue
@@ -39205,7 +39305,6 @@ m_sParentDetailLayer
 m_sParticleName
 m_sParticleValue
 m_sPickup
-m_sPickupName
 m_sPickupSound
 m_sPlayerDamageDealt
 m_sPlayerDamageTaken
@@ -39583,6 +39682,7 @@ m_strCrashSound
 m_strCrashingSound
 m_strCrosshairCSSClass
 m_strCustomAttachmentSource
+m_strCustomUnitIcon
 m_strDaggerExplodeSound
 m_strDaggerHitSound
 m_strDamageCrit
@@ -39770,6 +39870,21 @@ m_strKickSoundName
 m_strKillConfirmSound
 m_strKilledSound
 m_strKnightChargeExplosionSound
+m_strKothBlockedSound
+m_strKothCaptureStartAnnounce
+m_strKothCashedInSoundEnemy
+m_strKothCashedInSoundFriendly
+m_strKothCashinLoopSound
+m_strKothContestedLoopSound
+m_strKothContestedSound
+m_strKothGiveUpSound
+m_strKothGiveUpWarnSound
+m_strKothGivingUpWarningLoopSound
+m_strKothPreSpawnLoopSound
+m_strKothSpawnCompleteSound
+m_strKothSpawnLoopSound
+m_strKothSpawnLoopStartSound
+m_strLabelName
 m_strLabelToken
 m_strLandSound
 m_strLandmarkName
@@ -40049,14 +40164,7 @@ m_strUIShoppingMap
 m_strUITeamRevealMap
 m_strUnlockPrereq
 m_strUnselectedSound
-m_strUrnBlockedOpponentSound
-m_strUrnBlockedSound
-m_strUrnCashedInSoundEnemy
-m_strUrnCashedInSoundFriendly
-m_strUrnCashinLoopSound
-m_strUrnGiveUpSound
-m_strUrnGiveUpWarnSound
-m_strUrnGivingUpWarningLoopSound
+m_strUrnDroppedOffSound
 m_strUrnMeleeDropSound
 m_strUrnOverheldDamageSound
 m_strUsedCastGraphParam
@@ -40218,6 +40326,7 @@ m_tLastDamageTime
 m_tLastGroundedTime
 m_tLastHeadshot
 m_tLastLOSTime
+m_tLastPickupTime
 m_tLastRegenComponentThinkTime
 m_tLastShotID
 m_tLastStopTime
@@ -40307,14 +40416,16 @@ m_timeBeginFailedSteer
 m_timeDamage
 m_timeElapsedEvents
 m_timeEnemyDisappeared
-m_timeIdolCashInStarted
-m_timeIdolGiveUp
-m_timeIdolScoring
+m_timeKothCashInStarted
+m_timeKothGiveUp
+m_timeKothScoring
 m_timeLastSpawnCrates
 m_timeLastUpdate
 m_timeLaunch
 m_timeMatchMode
 m_timeNextCast
+m_timeNextKothSpawn
+m_timeNextKothSpawnWindowTime
 m_timeOffsetOverrideNodeIdx
 m_timeRemainingEvents
 m_timeRevealedOnMinimapByNPC
@@ -40579,7 +40690,6 @@ m_vHomePosition
 m_vHoverPosePosition
 m_vHullMax
 m_vHullMin
-m_vIdolCashInCurrentLocation
 m_vImpactPos
 m_vImpactVel
 m_vImposterPos
@@ -40606,6 +40716,8 @@ m_vInterpOutput0
 m_vInterpOutput1
 m_vJetpackInput
 m_vKnockAwayVector
+m_vKothCashInCurrentLocation
+m_vKothSpawnLocationDeck
 m_vLODOrigin
 m_vLastAbsOrigin
 m_vLastAbsVelocity
@@ -40696,6 +40808,7 @@ m_vMovementStopPosition
 m_vNavLinkExitDirection
 m_vNavLinkStartPos
 m_vNextCardColor
+m_vNextKothLocation
 m_vNoiseDirectionTarget
 m_vNoiseScale
 m_vNormal
@@ -41034,6 +41147,7 @@ m_vecCurrentTargets
 m_vecDamageDirection
 m_vecDamageForce
 m_vecDamageNormal
+m_vecDamagePercents
 m_vecDamagePosition
 m_vecDamageTakenByHitGroup
 m_vecDamageTypes
@@ -41113,6 +41227,7 @@ m_vecHUDElements
 m_vecHarmonics
 m_vecHeadColorScale
 m_vecHealthHeaderStats
+m_vecHealthPercents
 m_vecHealthStats
 m_vecHelpers
 m_vecHeroTags
@@ -41194,7 +41309,9 @@ m_vecMaterialWeights
 m_vecMax
 m_vecMaxs
 m_vecMin
+m_vecMinimapCssClasses
 m_vecMins
+m_vecModelScaleFractions
 m_vecModifierBonusCounterValues
 m_vecModifierValues
 m_vecModifiers
@@ -41394,7 +41511,7 @@ m_vecTargets
 m_vecTargetsHit
 m_vecTargetsInCone
 m_vecTargettingTiers
-m_vecTeamIdolStates
+m_vecTeamKothStates
 m_vecTeleportOrigin
 m_vecTeleportPosition
 m_vecTeleportPositionNormal

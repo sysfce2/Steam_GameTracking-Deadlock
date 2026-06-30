@@ -12,4 +12,6 @@ enum ChatMsgPingMarkerInfo : uint32_t
 	k_EPingMarkerInfo_OnlyPlaySound = 4,
 	// MPropertyFriendlyName = "Only show on Minimap, no world, no sound"
 	k_EPingMarkerInfo_OnlyMiniMap = 5,
+	// MPropertyFriendlyName = "No World, Just Minimap and sound"
+	k_EPingMarkerInfo_NoMarkerYesSoundMiniMap = 6,
 };

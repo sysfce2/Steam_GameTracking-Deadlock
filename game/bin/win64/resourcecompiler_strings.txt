@@ -20249,7 +20249,7 @@ $prefix_element$
 0123456789)"
 02V8[
 05=k
-07:42:11
+08:52:54
 08@HR0
 08B0
 08bX
@@ -20654,6 +20654,7 @@ $prefix_element$
 ?Exception@TryCatch@v8@@QEBA?AV?$Local@VValue@v8@@@2@XZ
 ?Exit@Context@v8@@QEAAXXZ
 ?Exit@Isolate@v8@@QEAAXXZ
+?Failed to create anim adapter
 ?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@I@Z
 ?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@@Z
 ?GetCurrent@Isolate@v8@@SAPEAV12@XZ
@@ -20675,7 +20676,6 @@ $prefix_element$
 ?lwh
 ?material_blend_sampler_%i_%i
 ?srJO
-?tracks
 ?tya
 ?uWS
 ?vtex
@@ -21827,7 +21827,6 @@ Base class for animation markup nodes which generate user animation data
 Base class for animations which are nodes that map to a compiled animation
 Base class for nodes which can be children of AnimMarkupTarget derived nodes
 Base class for nodes which can be children of FaceposerMarkupBase derived nodes
-Base morphs not supported anymore
 Base-10 logarithm
 Base-2 logarithm
 BaseAnimGraph2Reference
@@ -23993,6 +23992,7 @@ Cannot convert KV3 type '%s' (%u) to a string token
 Cannot convert from %s to %s
 Cannot create convex hull from %d verts
 Cannot create input layouts for mesh\n
+Cannot create texture atlas
 Cannot determine end effector bone from :: %s[%s]
 Cannot directly compile files of type "%s".\n
 Cannot find Cloth Node "%s"
@@ -27142,7 +27142,6 @@ Failed to convert introspected block: %s\n
 Failed to convert relative path to full path.  Relative path: %s
 Failed to copy material remaps into pieces child document
 Failed to copy node '%s'\n
-Failed to create anim adapter
 Failed to create associate compiler context for "%s"\n
 Failed to create child compile context while compiling graph variation: %s
 Failed to create child compiler context for "%s"\n
@@ -35214,7 +35213,7 @@ Z~wl
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
 \r@h!Aq8
 \rB6uZ
-\rCannot create texture atlas
+\rBase morphs not supported anymore
 \rKT8v
 \rLAM
 \rMinghuaQu\f
@@ -42518,7 +42517,7 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
-pc64 Jun  4 2026 07:42:35
+pc64 Jun 30 2026 08:52:45
 pcPathLengthConstraint
 peak
 peak_attr
@@ -44999,6 +44998,7 @@ trace_distance
 traceheight
 traceradius
 trackGroups
+tracks
 tracks_compressed_size
 tracks_compression_ratio
 tracks_compression_time

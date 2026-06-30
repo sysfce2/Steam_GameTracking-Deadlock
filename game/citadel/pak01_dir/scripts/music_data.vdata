@@ -831,6 +831,42 @@
 					m_strSoundEvent = soundevent:"Music.Idol.Timer.Lp"
 				}
 			}
+			EMusicState_Koth_ReturnTimer = 
+			{
+				m_MusicStateDefault = 
+				{
+					m_strSoundEvent = soundevent:"Music.Koth.Capture.Lp"
+					m_nSyncMode = "ESyncMode_Resume"
+				}
+			}
+			EStinger_Koth_DropAnnounce = 
+			{
+				m_MusicStateDefault = 
+				{
+					m_strSoundEvent = soundevent:"Stinger.Koth.Announce"
+				}
+			}
+			EStinger_Koth_Lose = 
+			{
+				m_MusicStateDefault = 
+				{
+					m_strSoundEvent = soundevent:"Stinger.Koth.Lose"
+				}
+			}
+			EStinger_Koth_Win = 
+			{
+				m_MusicStateDefault = 
+				{
+					m_strSoundEvent = soundevent:"Stinger.Koth.Win"
+				}
+			}
+			EStinger_Koth_Expire = 
+			{
+				m_MusicStateDefault = 
+				{
+					m_strSoundEvent = soundevent:"Stinger.Koth.Expire"
+				}
+			}
 		}
 	}
 	m_Arpeggiators = 

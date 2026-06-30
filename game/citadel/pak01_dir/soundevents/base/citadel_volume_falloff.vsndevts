@@ -816,4 +816,12 @@
 		volume_falloff_min = 1800.0
 		volume_falloff_max = 8000.0
 	}
+	Volume.Falloff.Koth = 
+	{
+		type = "citadel_default_3d"
+		volume_falloff_use_curve_editor = false
+		max_distance_recipient_filter = 8000.0
+		volume_falloff_min = 3000.0
+		volume_falloff_max = 8000.0
+	}
 }

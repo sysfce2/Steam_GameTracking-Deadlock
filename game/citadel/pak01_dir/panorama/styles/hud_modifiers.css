@@ -4,7 +4,6 @@ CitadelHudModifiers_Entry
 {
 	width: fit-children;
 	height: 48px;
-	margin-bottom: 5px;
 }
 
 CitadelHudModifiers_Entry.buff,CitadelHudModifiers_Entry.debuff

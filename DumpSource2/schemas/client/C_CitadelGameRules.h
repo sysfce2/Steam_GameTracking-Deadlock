@@ -28,12 +28,14 @@
 // MNetworkVarNames = "AccountID_t m_nHideoutOwner"
 // MNetworkVarNames = "CHandle<CCitadelTrooperMinimap> m_hTrooperMinimap"
 // MNetworkVarNames = "CitadelTeam_t m_iWinningTeam"
-// MNetworkVarNames = "TeamIdolState_t m_vecTeamIdolStates"
-// MNetworkVarNames = "CitadelTeam_t m_nIdolScoringTeam"
-// MNetworkVarNames = "GameTime_t m_timeIdolScoring"
-// MNetworkVarNames = "GameTime_t m_timeIdolCashInStarted"
-// MNetworkVarNames = "GameTime_t m_timeIdolGiveUp"
-// MNetworkVarNames = "VectorWS m_vIdolCashInCurrentLocation"
+// MNetworkVarNames = "TeamKothState_t m_vecTeamKothStates"
+// MNetworkVarNames = "CitadelTeam_t m_nKothScoringTeam"
+// MNetworkVarNames = "GameTime_t m_timeKothScoring"
+// MNetworkVarNames = "GameTime_t m_timeKothCashInStarted"
+// MNetworkVarNames = "GameTime_t m_timeKothGiveUp"
+// MNetworkVarNames = "int m_nAmberGold"
+// MNetworkVarNames = "int m_nSapphireGold"
+// MNetworkVarNames = "VectorWS m_vKothCashInCurrentLocation"
 // MNetworkVarNames = "EHANDLE m_hCurrentHeroDrafterRebels"
 // MNetworkVarNames = "EHANDLE m_hCurrentHeroDrafterCombine"
 // MNetworkVarNames = "int m_iMidbossKillCount"
@@ -119,17 +121,21 @@ class C_CitadelGameRules : public C_TeamplayRules
 	// MNetworkEnable
 	int32 m_iWinningTeam;
 	// MNetworkEnable
-	C_UtlVectorEmbeddedNetworkVar< TeamIdolState_t > m_vecTeamIdolStates;
+	C_UtlVectorEmbeddedNetworkVar< TeamKothState_t > m_vecTeamKothStates;
 	// MNetworkEnable
-	int32 m_nIdolScoringTeam;
+	int32 m_nKothScoringTeam;
 	// MNetworkEnable
-	GameTime_t m_timeIdolScoring;
+	GameTime_t m_timeKothScoring;
 	// MNetworkEnable
-	GameTime_t m_timeIdolCashInStarted;
+	GameTime_t m_timeKothCashInStarted;
 	// MNetworkEnable
-	GameTime_t m_timeIdolGiveUp;
+	GameTime_t m_timeKothGiveUp;
 	// MNetworkEnable
-	VectorWS m_vIdolCashInCurrentLocation;
+	int32 m_nAmberGold;
+	// MNetworkEnable
+	int32 m_nSapphireGold;
+	// MNetworkEnable
+	VectorWS m_vKothCashInCurrentLocation;
 	// MNetworkEnable
 	// MNetworkPriority = 32
 	// MNetworkChangeCallback = "playerDraftingChanged"

@@ -1,0 +1,3 @@
+class CCitadelItemKothSpawner : public CCitadelItemPickup
+{
+};

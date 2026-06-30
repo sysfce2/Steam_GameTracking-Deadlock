@@ -28,12 +28,14 @@
 // MNetworkVarNames = "AccountID_t m_nHideoutOwner"
 // MNetworkVarNames = "CHandle<CCitadelTrooperMinimap> m_hTrooperMinimap"
 // MNetworkVarNames = "CitadelTeam_t m_iWinningTeam"
-// MNetworkVarNames = "TeamIdolState_t m_vecTeamIdolStates"
-// MNetworkVarNames = "CitadelTeam_t m_nIdolScoringTeam"
-// MNetworkVarNames = "GameTime_t m_timeIdolScoring"
-// MNetworkVarNames = "GameTime_t m_timeIdolCashInStarted"
-// MNetworkVarNames = "GameTime_t m_timeIdolGiveUp"
-// MNetworkVarNames = "VectorWS m_vIdolCashInCurrentLocation"
+// MNetworkVarNames = "TeamKothState_t m_vecTeamKothStates"
+// MNetworkVarNames = "CitadelTeam_t m_nKothScoringTeam"
+// MNetworkVarNames = "GameTime_t m_timeKothScoring"
+// MNetworkVarNames = "GameTime_t m_timeKothCashInStarted"
+// MNetworkVarNames = "GameTime_t m_timeKothGiveUp"
+// MNetworkVarNames = "int m_nAmberGold"
+// MNetworkVarNames = "int m_nSapphireGold"
+// MNetworkVarNames = "VectorWS m_vKothCashInCurrentLocation"
 // MNetworkVarNames = "EHANDLE m_hCurrentHeroDrafterRebels"
 // MNetworkVarNames = "EHANDLE m_hCurrentHeroDrafterCombine"
 // MNetworkVarNames = "int m_iMidbossKillCount"
@@ -118,17 +120,21 @@ class CCitadelGameRules : public CTeamplayRules
 	// MNetworkEnable
 	int32 m_iWinningTeam;
 	// MNetworkEnable
-	CUtlVectorEmbeddedNetworkVar< TeamIdolState_t > m_vecTeamIdolStates;
+	CUtlVectorEmbeddedNetworkVar< TeamKothState_t > m_vecTeamKothStates;
 	// MNetworkEnable
-	int32 m_nIdolScoringTeam;
+	int32 m_nKothScoringTeam;
 	// MNetworkEnable
-	GameTime_t m_timeIdolScoring;
+	GameTime_t m_timeKothScoring;
 	// MNetworkEnable
-	GameTime_t m_timeIdolCashInStarted;
+	GameTime_t m_timeKothCashInStarted;
 	// MNetworkEnable
-	GameTime_t m_timeIdolGiveUp;
+	GameTime_t m_timeKothGiveUp;
 	// MNetworkEnable
-	VectorWS m_vIdolCashInCurrentLocation;
+	int32 m_nAmberGold;
+	// MNetworkEnable
+	int32 m_nSapphireGold;
+	// MNetworkEnable
+	VectorWS m_vKothCashInCurrentLocation;
 	// MNetworkEnable
 	// MNetworkPriority = 32
 	CHandle< CBaseEntity > m_hCurrentHeroDrafterRebels;
@@ -139,7 +145,13 @@ class CCitadelGameRules : public CTeamplayRules
 	bool m_bIsEndGameTest;
 	bool m_bSpawnedBots;
 	bool m_bGuideBotAssigned;
+	ParticleIndex_t m_nKothWindowWarning;
 	float32 m_timeLastSpawnCrates;
+	float32 m_timeNextKothSpawn;
+	float32 m_timeNextKothSpawnWindowTime;
+	VectorWS m_vNextKothLocation;
+	SndOpEventGuid_t m_KothWarningSound;
+	CUtlVector< VectorWS > m_vKothSpawnLocationDeck;
 	bool m_bNotifiedClientsOfNextCrateSpawn;
 	bool m_bEarlyCratesSpawned;
 	bool m_bIsEarlyCrateGamestate;

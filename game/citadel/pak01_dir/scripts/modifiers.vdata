@@ -161,8 +161,6 @@
 		m_bIsHidden = true
 		m_flAuraRadius = 70.0
 		m_nEnabledStateMask = "MODIFIER_STATE_IS_MELEE_TARGET"
-		m_sStartSound = soundevent:""
-		m_sAmbientLoopingSound = soundevent:""
 	}
 	modifier_citadel_idol_return = 
 	{
@@ -748,6 +746,7 @@
 		m_strParticleEffect = resource_name:"particles/upgrades/zipline_mastery_landing_buff.vpcf"
 		m_sLocalizationName = "zipline_boost"
 		m_nEnabledStateMask = "MODIFIER_STATE_USING_ZIPLINE_BOOST"
+		m_nDisabledStateMask = "MODIFIER_STATE_ZIPLINE_LOCKED"
 		m_eModifierDisplayLocaiton = "MODIFIER_DISPLAY_BOTTOM_LEFT"
 		m_eHudDisplayLocation = "DISPLAY_HUD_NONE"
 		m_flDuration = 8.0

@@ -137,6 +137,7 @@
 //	"m_flBeamWeaponWidth": 1.000000,
 //	"m_flBeamTurnRate": 90.000000,
 //	"m_BeamWeaponParticle": "",
+//	"m_strCustomUnitIcon": "",
 //	"m_WeaponInfo":
 //	{
 //		"m_flBulletDamage": 0.000000,

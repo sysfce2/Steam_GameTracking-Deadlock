@@ -134,7 +134,7 @@
 		"citadel_ability_storm_cloud_quip"		"Fry all enemies in a large area"
 		"citadel_ability_storm_cloud_desc"		"Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight."
 		"citadel_ability_storm_cloud_t1_desc"		"<span class=\"highlight\">+{s:BulletResistOnActive}% Bullet Resist</span> while channeling Storm Cloud"
-		"citadel_ability_storm_cloud_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime}s</span> Channel Time <br><span class=\"highlight\">+{s:Radius}m</span> Radius"
+		"citadel_ability_storm_cloud_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime}s</span> Channel Time <br><span class=\"highlight\">+{s:Radius}m</span> Final Radius<br><span class=\"highlight\">+{s:InitialRadius}m</span> Initial Radius"
 		"citadel_ability_storm_cloud_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> DPS<br><span class=\"highlight\">+{s:FlightControlEnabled}m</span> Flight Speed"
 		"citadel_ability_storm_cloud_lightning_strike_desc"		"While channeling, press{g:citadel_binding:'Attack'}to mark the targeted area to be struck with a powerful lightning bolt that <span class=\"highlight\">knocks enemies away</span> after a {s:LightningStrikeDelay}s delay. One use per cast."
 		"citadel_ability_storm_cloud_lightning_strike"			"Lightning Strike"
@@ -605,7 +605,8 @@
 		"citadel_ability_chrono_kinetic_carbine"		"Kinetic Carbine"
 		"citadel_ability_chrono_kinetic_carbine_quip"	"Charge up your weapon to deal high damage and timestop"
 		"citadel_ability_chrono_kinetic_carbine_desc"	"Charge up a powerful shot of time energy, dealing {g:citadel_inline_attribute:'SpiritDamage'} and applying a <span class=\"highlight\">Time-Stop</span> to enemies hit. The damage dealt increases with {g:citadel_inline_attribute:'WeaponDamage'}. Move speed is increased while charging.  <br><br>While in the air and charging, {g:citadel_binding:'ADS'} to timeslow your movement."
-		"citadel_ability_chrono_kinetic_carbine_t3_desc"	"+{s:SpeedBoostDuration}s Charge Hold Duration and +{s:MaxBonusBulletDamage_scale}% Max Damage Scaling"
+		"citadel_ability_chrono_kinetic_carbine_t2_desc"	"{s:AbilityCooldown}s Cooldown<br>Increases Speed Scaling"
+		"citadel_ability_chrono_kinetic_carbine_t3_desc"	"+{s:SpeedBoostDuration}s Charge Hold Duration and +{s:MaxBonusBulletDamage_scale}% Damage Scaling"
 		"citadel_ability_chrono_kinetic_carbine_charged"	"CHARGED!"
 		"citadel_ability_chrono_kinetic_carbine_expiring"	"EXPIRING"
 
@@ -1311,7 +1312,7 @@
 		"citadel_ability_lash_desc"				"<span class=\"highlight\">Pull yourself through the air</span> toward a target. Using Grapple also resets your limit of <span class=\"highlight\">air jumps and dashes</span>."
 
 		"citadel_ability_lash_t2_desc"			"<span class=\"highlight\">+{s:AbilityCastRange}m</span> Cast Range and gain <span class=\"highlight\">+{s:WeaponDamageBonus}</span> Weapon Damage for {s:WeaponDamageBonusDuration}s"
-		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> Charge<br>OnCast : <span class=\"highlight\">+{s:RestoreStaminaOnUse}</span> Stamina and <span class=\"highlight\">+{s:AirControlPercent}%</span> Air Control"
+		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> Charges<br>OnCast : <span class=\"highlight\">+{s:RestoreStaminaOnUse}</span> Stamina and <span class=\"highlight\">+{s:AirControlPercent}%</span> Air Control"
 		"LashDamage_label"						"Grapple Damage"
 		"LashDamage_postvalue_label"						"Grapple Damage"
 		"WeaponFireRateBonus_label"				"Fire Rate"
@@ -2277,7 +2278,7 @@
 
 		"citadel_ability_shiv_dash"				"Slice and Dice"
 		"citadel_ability_shiv_dash_quip"		"Dash ahead, damaging all enemies along the path"
-		"citadel_ability_shiv_dash_desc"		"Perform a <span class=\"highlight\">dash forward, damaging enemies along the path</span>.  Hit Enemies have their {g:citadel_inline_attribute:'SpiritResist'} reduced. This debuff can stack."
+		"citadel_ability_shiv_dash_desc"		"Perform a <span class=\"highlight\">dash forward, damaging enemies along the path</span> and <span class=\"highlight\">increases the damage</span> they take from you. This debuff can stack."
 		"citadel_ability_shiv_dash_ult_desc"	"<br>Ultimate Unlock: <span class=\"highlight\">While rage is full</span> an echo of Shiv retraces the dash path after a short delay, damaging enemies again."
 		"citadel_ability_shiv_dash_t3_tooltip"	"On hit"
 		"DashRange_label"							"Dash Range"
@@ -2298,7 +2299,7 @@
 		"modifier_citadel_shiv_dash_impact_slow"	"Slice and Dice"
 		"modifier_shiv_dash_heal_reduction"		"Slice and Dice Heal Debuff"
 		"BurstFireOnHeroHit_postfix"				"s"
-		"citadel_ability_shiv_dash_t2_desc"		"<span class=\"highlight\">{s:TechArmorDamageReduction}%</span> Spirit Resist<br><span class=\"highlight\">+{s:DashRange}m</span> Dash Range"
+		"citadel_ability_shiv_dash_t2_desc"		"<span class=\"highlight\">+{s:VulnerabilityPerStack}%</span> Damage Amp<br><span class=\"highlight\">+{s:DashRange}m</span> Dash Range"
 
 		"citadel_ability_shiv_dash_t3_desc"		"<span class=\"highlight\">+{s:ImpactDamage}</span> Impact Damage<br><span class=\"highlight\">-{s:CooldownReductionOnHit}s</span> Cooldown per Hero hit."
 
@@ -2325,9 +2326,9 @@
 
 		"citadel_ability_shiv_killing_blow"		"Killing Blow"
 		"citadel_ability_shiv_killing_blow_quip"	"Travel to a low health hero and instantly kill it"
-		"citadel_ability_shiv_killing_blow_active_desc"	"<span class=\"diminish\">Active:</span> Leap forward, dealing {g:citadel_inline_attribute:'SpiritDamage'} to the first enemy hero. If they are below the <span class=\"highlight\">kill threshold</span>, <span class=\"highlight\">execute</span> them instead."
+		"citadel_ability_shiv_killing_blow_active_desc"	"<span class=\"diminish\">Active:</span> Leap forward, dealing {g:citadel_inline_attribute:'SpiritDamage'} to the first enemy hero. If they are below the <span class=\"highlight\">kill threshold</span>, <span class=\"highlight\">execute</span> them instead.<br><br>Finishing an enemy with Killing Blow lets you recast for <span class=\"highlight\">{s:RecastWindow}s</span>"
 		"citadel_ability_shiv_killing_blow_passive_desc" "<span class=\"diminish\">Passive:</span> Damaging enemies fills you with rage. While at full rage, {s:hero_name} gains increased damage and <span class=\"highlight\">unlocks special properties</span> on his other abilities."
-		"citadel_ability_shiv_killing_blow_passive_desc_footer" "<br><span class=\"diminish\">Cooldown is increased by +{s:FailedExecuteCooldownPenalty}% if no target is impacted.</span>"
+		"citadel_ability_shiv_killing_blow_passive_desc_footer" "<br><span class=\"diminish\">Cooldown is increased by +{s:FailedExecuteCooldownPenalty}% if no hero is impacted.</span>"
 		
 		"citadel_ability_shiv_killing_blow/active_buff"		"Enraged"
 		"citadel_ability_shiv_killing_blow_while_full_rage" "While Rage is Full"
@@ -2346,9 +2347,9 @@
 		"BuffMoveSpeed_prefix"				"+"
 		"BuffMoveSpeed_postfix"				"m"
 
-		"citadel_ability_shiv_killing_blow_t1_desc"		"Gain <span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span> move speed while at full rage."
+		"citadel_ability_shiv_killing_blow_t1_desc"		"<span class=\"highlight\">+{s:AbilityCastRange} m</span> Range<br><span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span> in Full Rage."
 		"citadel_ability_shiv_killing_blow_t2_desc"		"<span class=\"highlight\">+{s:BuffDamage}%</span> Full Rage Bonus Damage<br><span class=\"highlight\">{s:AbilityCooldown}s</span> Cooldown"
-		"citadel_ability_shiv_killing_blow_t3_desc"		"<span class=\"highlight\">+{s:EnemyHealthPercent}%</span> Enemy Health Threshold <br>Finishing an enemy with Killing Blow lets you recast for <span class=\"highlight\">{s:RecastWindow}s</span>"
+		"citadel_ability_shiv_killing_blow_t3_desc"		"<span class=\"highlight\">+{s:EnemyHealthPercent}%</span> Enemy Health Threshold"
 
 		//-----------------------------------------------------------------------------
 		// Hero: Rutger
@@ -3593,7 +3594,7 @@
 		"ability_viper_debuffdagger" "Screwjab Dagger"
 		"ability_viper_debuffdagger_desc" "Throw a dagger, dealing {g:citadel_inline_attribute:'SpiritDamage'} and applying {g:citadel_inline_attribute:'Slow'}. <br><br>Every subsequent dagger against the same target stacks in {g:citadel_inline_attribute:'SpiritDamage'} and {g:citadel_inline_attribute:'Slow'}."
 		"ability_viper_debuffdagger_t2_desc"	"On Hit: <span class=\"highlight\">{s:BulletResistReduction}%</span> Bullet Resist and <span class=\"highlight\">{s:BulletResistReductionPerStack}%</span> Bullet Resist per Stack"
-		"ability_viper_debuffdagger_t3_desc"	"+<span class=\"highlight\">{s:MaxStacks}</span> Max Stacks<br>On Hit: Refund <span class=\"highlight\">{s:CooldownRefundPercent}%</span> Charge Cooldown"
+		"ability_viper_debuffdagger_t3_desc"	"+<span class=\"highlight\">{s:MaxStacks}</span> Max Stacks<br><span class=\"highlight\">{s:AbilityCooldownBetweenCharge}s</span> Charge Delay<br>On Hit: Refund <span class=\"highlight\">{s:CooldownRefundPercent}%</span> Charge Cooldown"
 		"ability_viper_debuffdagger_quip" "Throw a slowing dagger"
 		"ability_viper_debuffdagger/debuff" "Screwjab"
 
@@ -3808,7 +3809,7 @@
 
 		"ability_vampirebat_batblink" "Sanguine Retreat"
 		"ability_vampirebat_batblink_t1_desc" "On Cast: Gain <span class=\"highlight\">+{s:BonusFireRate}%</span> Fire Rate for {s:BuffDuration}s and add <span class=\"highlight\">{s:BonusBullets}</span> bullets"
-		"ability_vampirebat_batblink_t3_desc" "<span class=\"highlight\">+{s:MaxRecasts}</span> Recast"
+		"ability_vampirebat_batblink_t3_desc" "<span class=\"highlight\">+{s:MaxRecasts}</span> Recast<br><span class=\"highlight\">+{s:AbilityCastRange}m</span> Range"
 		"ability_vampirebat_batblink_desc" "Briefly disperse, becoming <span class=\"highlight\">untargetable</span> and flying to a target location. <br><br>Can be <span class=\"highlight\">recast</span> within a brief window."
 		"RecastWindow_label"				"Recast Window"
 		"RecastWindow_postvalue_label"		"Recast Window"
@@ -3914,7 +3915,7 @@
 		"ability_punkgoat_ult_desc" "Slam your bat into the ground, {g:citadel_inline_attribute:'Pulling'} enemies down and dealing {g:citadel_inline_attribute:'MeleeDamage'}.<br><br>The slam creates a shockwave that deals {g:citadel_inline_attribute:'SpiritDamage'} and applies {g:citadel_inline_attribute:'KnockUp'}."
 		"ability_punkgoat_ult_t1_desc" "{s:AbilityCooldown}s Cooldown"
 		"ability_punkgoat_ult_t2_desc" "+{s:AbilityCharges} Charge and +{s:AbilityCastRange}m Radius"
-		"ability_punkgoat_ult_t3_desc" "{s:AbilityCooldownBetweenCharge}s Charge Time<br>Now deals <span class=\"highlight\">60% Heavy Melee Damage</span>"
+		"ability_punkgoat_ult_t3_desc" "{s:AbilityCooldownBetweenCharge}s Charge Time<br>Now deals <span class=\"highlight\">50% Heavy Melee Damage</span>"
 		"SequentialHitScalePct_postvalue_label" "Repeat Hit Damage"
 		"SequentialHitScalePct_postfix" "%"
 		"SequentialHitTime_postvalue_label" "Repeat Hit Time"
@@ -4139,7 +4140,7 @@
 		"drifter_blood_blast" 		"Rend"
 		"drifter_blood_blast_desc"	"Swipe at enemies in a cone ahead of you, dealing {g:citadel_inline_attribute:'SpiritDamage'}. If the enemy is in <span class=\"highlight\">close range</span>, deal bonus {g:citadel_inline_attribute:'MeleeDamage'}."
 		"drifter_blood_blast_t2_desc" "{s:AbilityCooldown}s Cooldown"
-		"drifter_blood_blast_t3_desc" "Deals Heavy Melee Damage<br>Silences enemies for {s:DebuffDuration}s if close range"
+		"drifter_blood_blast_t3_desc" "Deals 55% Heavy Melee Damage<br>Silences enemies for {s:DebuffDuration}s if close range"
 		"RangeForBonusDamage_label"				"Close Range"
 		"RangeForBonusDamage_postvalue_label"	"Close Range"
 		"RangeForBonusDamage_postfix"			"m"
@@ -4262,9 +4263,9 @@
 		"ability_bookworm_dragonfire_desc" "Conjure a dragon that appears at the target location before flying forward, dealing {g:citadel_inline_attribute:'SpiritDamage'} and leaving a burning path in its trail."
 		"ability_bookworm_dragonfire/debuff" "Conjure Dragon"
 
-		"ability_bookworm_dragonfire_t1_desc" "<span class=\"highlight\">+{s:GroundFlameDuration}</span> Trail Duration <br><span class=\"highlight\">+{s:Radius}m</span> Radius"
-		"ability_bookworm_dragonfire_t2_desc" "<span class=\"highlight\">+{s:DragonTravelRange}m</span> Travel Range <br><span class=\"highlight\">{s:AbilityCooldown}s</span> Cooldown"
-		"ability_bookworm_dragonfire_t3_desc" "<span class=\"highlight\">+{s:Damage}</span> Damage <br><span class=\"highlight\">+{s:DPS}</span> DPS<br><span class=\"highlight\">+{s:AbilityCharges}</span> Charge"
+		"ability_bookworm_dragonfire_t1_desc" "<span class=\"highlight\">{s:AbilityCooldown}s</span> Cooldown"
+		"ability_bookworm_dragonfire_t2_desc" "<span class=\"highlight\">+{s:AbilityCharges}</span> Charge<br><span class=\"highlight\">+{s:GroundFlameDuration}s</span> Trail Duration <br><span class=\"highlight\">+{s:Radius}m</span> Radius<br>"
+		"ability_bookworm_dragonfire_t3_desc" "<span class=\"highlight\">+{s:DragonTravelRange}m</span> Travel Range<br><span class=\"highlight\">+{s:Damage}</span> Damage <br><span class=\"highlight\">+{s:DPS}</span> DPS"
 		"DragonTravelRange_postvalue_label" "Dragon Travel Range"
 		"DragonTravelRange_postfix"	"m"
 		"DragonTravelRange_label" "Dragon Travel Range"
@@ -4275,7 +4276,7 @@
 		"ability_bookworm_knightbarrier_desc" "Grant an ally a {g:citadel_inline_attribute:'CombatBarrier'}. While the barrier holds, they gain {g:citadel_inline_attribute:'BonusWeaponDamage'}."
 		"ability_bookworm_knightbarrier_t1_desc" "On Barrier: <span class=\"highlight\">+{s:BonusFireRate}%</span> Fire Rate"
 		"ability_bookworm_knightbarrier_t2_desc" "<span class=\"highlight\">+{s:CombatBarrier}</span> Barrier and <span class=\"highlight\">+{s:AbilityDuration}s</span> Duration"
-		"ability_bookworm_knightbarrier_t3_desc" "Increases barrier scaling.<br>Up to <span class=\"highlight\">{s:BonusTargets}</span> additional allies gain <span class=\"highlight\">{s:BonusTargetsBarrierPercentage}%</span> Barrier"
+		"ability_bookworm_knightbarrier_t3_desc" "Affects up to <span class=\"highlight\">{s:BonusTargets}</span> additional allies.<br>Increases barrier scaling."
 		"MeleeReflectPercentage_label" "Melee Damage Reflected"
 		"MeleeReflectPercentage_postvalue_label" "Melee Damage Reflected"
 		"MeleeReflectPercentage_postfix" "%"
@@ -4428,9 +4429,9 @@
 		
 		"ability_familiar_helpinghands" "Lil Helpers"
 		"ability_familiar_helpinghands_desc" "Signal a Helper to lend a hand. They can collect boxes, do Sinner's Sacrifices, or be sent to support allies and troopers.<br><br><span class=\"diminish\">Follow a hero:</span> Provides a short burst of {g:citadel_inline_attribute:'SpiritResist'} and fading {g:citadel_inline_attribute:'MoveSpeed'}.<br><br><span class=\"diminish\">Follow a trooper:</span> Provides <span class=\"highlight\">healing, damage, resists, and allows tagging along.</span> When no hero is around, souls from trooper kills are split amongst the team.<br><br><span class=\"diminish\">Can be cast during Tag Along. Helpers will take a nap for {s:HelperDowntimeDuration}s after following someone.</span>"
-		"ability_familiar_helpinghands_t1_desc" "+{s:HelperCount} Helper"
-		"ability_familiar_helpinghands_t2_desc" "+{s:TechArmorGain}% Spirit Resist<br>+{s:BonusMoveSpeed}m/s Move Speed"
-		"ability_familiar_helpinghands_t3_desc" "+{s:HelperCount} Helpers<br>+{s:InfestDamageTakenPercent}% Trooper Damage and Resist"
+		"ability_familiar_helpinghands_t1_desc" "+{s:HelperCount} Helper<br>+{s:BonusMoveSpeed}m/s Move Speed"
+		"ability_familiar_helpinghands_t2_desc" "+{s:HelperCount} Helper<br>+{s:InfestDamageTakenPercent}% Trooper Damage and Resist"
+		"ability_familiar_helpinghands_t3_desc" "+{s:HelperCount} Helper<br>+{s:TechArmorGain}% Spirit Resist"
 		"ability_familiar_helpinghands/buff" "Lil Helpers'"
 		"ability_familiar_helpinghands/spiritbuff" "Enemy Spirit Stolen"
 		"ability_familiar_helpinghands/shortdebuff" "Spirit Draining"
@@ -4825,7 +4826,7 @@
 		"ability_unicorn_prismaticguard_desc"		"Surround yourself in a protective prism. If the barrier is destroyed, it silences nearby enemies and deals a portion of the barrier as damage."
 		"ability_unicorn_prismaticguard_on_explode_desc" "On Explode"
 		"ability_unicorn_prismaticguard_t2_desc"		"+{s:CombatBarrier} Barrier and Increased Barrier Spirit Scaling"
-		"ability_unicorn_prismaticguard_t3_desc"		"+{s:DebuffDuration} Silence Duration and {s:AbilityCooldown} Cooldown. Allows Shining Wonder Bounce."
+		"ability_unicorn_prismaticguard_t3_desc"		"+{s:DebuffDuration} Silence Duration and {s:AbilityCooldown}s Cooldown. Allows Shining Wonder Bounce."
 		"ExplodeRadius_postvalue_label"				"Explosion Radius"
 		"ExplodeRadius_postfix"						"m"
 		"ExplodeRadius_label"						"Explosion Radius"

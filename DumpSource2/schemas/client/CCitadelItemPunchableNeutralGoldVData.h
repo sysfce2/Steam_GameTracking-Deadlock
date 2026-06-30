@@ -1,5 +1,6 @@
 // MGetKV3ClassDefaults = {
 //	"_class": "CCitadelItemPunchableNeutralGoldVData",
+//	"m_AmbientParticle": "",
 //	"m_flGroundOffset": 40.000000,
 //	"m_flSpinRate": 10.000000,
 //	"m_flBobHeight": 40.000000,
@@ -9,7 +10,7 @@
 //	{
 //	}
 //}
-class CCitadelItemPunchableNeutralGoldVData : public CEntitySubclassVDataBase
+class CCitadelItemPunchableNeutralGoldVData : public CCitadelItemPickupVData
 {
 	float32 m_flGroundOffset;
 	float32 m_flSpinRate;

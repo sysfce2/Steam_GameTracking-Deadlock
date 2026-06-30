@@ -7679,6 +7679,7 @@ $name_$id
 ?fromImage@QPixmap@@SA?AV1@AEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?fromImageInPlace@QPixmap@@KA?AV1@AEAVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?fromUtf8@QString@@SA?AV1@PEBDH@Z
+?gaO;
 ?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?hWL
 ?hasChildren@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
@@ -8787,7 +8788,6 @@ $name_$id
 @ffff~2
 @ffff~A
 @ffff~\v
-@gaO;
 @h"lxz
 @h"lxz=k@
 @h?RD

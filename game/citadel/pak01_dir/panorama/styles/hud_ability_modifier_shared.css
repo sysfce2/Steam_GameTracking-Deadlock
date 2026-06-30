@@ -510,6 +510,11 @@
 	
 }
 
+CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL
+{
+	ui-scale: 60%;
+}
+
 CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL #fancy_progress_container
 {
 	visibility: visible;
@@ -530,11 +535,6 @@ CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL #ExtraInfo
 	visibility: visible;
 }
 
-CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL #ExtraInfo Label.UrnDescription,CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL #ExtraInfo Label.UrnWarning
-{
-	visibility: visible;
-}
-
 CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL .ModifierProgressBarContainer
 {
 	visibility: collapse;
@@ -548,7 +548,7 @@ CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL .ModifierProgressBar
 CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL .SplitLabelProgressBar
 {
 	visibility: visible;
-	wash-color: shardColor;
+	wash-color: white;
 }
 
 CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL .SplitLabelProgressBar .SplitLabelName Label
@@ -613,8 +613,22 @@ CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL .SplitLabelProgressBar .Sp
 
 CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL .SplitLabelProgressBar .SplitLabelProgress
 {
-	wash-color: colorEnemy;
 	wash-color: shardColor;
+}
+
+CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL.is_expiring .SplitLabelProgressBar .SplitLabelName Image
+{
+	animation-duration: 0.5s;
+}
+
+CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL.is_expiring .SplitLabelProgress
+{
+	wash-color: #e24848;
+}
+
+CitadelHudModifiers_Entry.MODIFIER_STATE_HOLDING_IDOL.is_expiring
+{
+	ui-scale: 80%;
 }
 
 @keyframes 'UrnTimeoutAnim'

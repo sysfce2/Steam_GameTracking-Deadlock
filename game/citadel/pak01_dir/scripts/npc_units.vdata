@@ -4409,6 +4409,7 @@
 		m_SapphEffigyModel = resource_name:"models/npc/effigy_sapphire/effigy_sapphire_model.vmdl"
 		m_AmberCoreModel = resource_name:"models/npc/core_amber/core_amber.vmdl"
 		m_SapphCoreModel = resource_name:"models/npc/core_sapphire/core_sapphire.vmdl"
+		m_strCustomUnitIcon = panorama:"file://{images}/npcs/patron_hiddenking.psd"
 		m_flCoreRadius = 130
 		m_flCoreVerticalOffset = 350
 		m_nMaxHealth = 12000
@@ -4604,6 +4605,7 @@
 		m_SapphEffigyModel = resource_name:"models/npc/effigy_sapphire/effigy_sapphire_model.vmdl"
 		m_AmberCoreModel = resource_name:"models/npc/core_amber/core_amber.vmdl"
 		m_SapphCoreModel = resource_name:"models/npc/core_sapphire/core_sapphire.vmdl"
+		m_strCustomUnitIcon = panorama:"file://{images}/npcs/patron_archmother.psd"
 		m_flCoreRadius = 140
 		m_flCoreVerticalOffset = 350
 		m_nMaxHealth = 12000
@@ -4933,180 +4935,6 @@
 	projectile_touch_volume = 
 	{
 		_class = "projectile_touch_volume"
-	}
-	citadel_item_punchable_gold = 
-	{
-		_class = "citadel_item_punchable_gold"
-		m_flGroundOffset = 60
-		m_PunchPickupModifier = subclass:
-		{
-			_class = "modifier_item_punchable_gold"
-			_my_subclass_name = "modifier_item_punchable_gold"
-			m_nEnabledStateMask = "MODIFIER_STATE_IS_MELEE_TARGET"
-			m_bIsHidden = true
-			m_sHitSound = soundevent:"Powerup.Punchable.Souls"
-			m_flAuraRadius = 200.0
-			m_flPhysicsRadius = 20.0
-			m_modifierProvidedByAura = subclass:
-			{
-				_class = "modifier_base"
-				_my_subclass_name = "target_near_rejuv"
-				m_bIsHidden = true
-				m_nEnabledStateMask = "MODIFIER_STATE_NEAR_PUNCHABLE_PICKUP"
-			}
-			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
-		}
-		m_flBobHeight = 2.0
-		m_flBobFrequency = 1.5
-	}
-	citadel_item_pickup_rejuv = 
-	{
-		_class = "citadel_item_pickup_rejuv"
-		m_AbilityProjectile = "ability_item_pickup_effects"
-		m_RebirthModifier = subclass:
-		{
-			_class = "modifier_citadel_rebirth_credit"
-			_my_subclass_name = "modifier_citadel_rebirth_credit"
-			m_strHudMessageText = "#modifier_citadel_respawn_credit"
-			m_sLocalizationName = "modifier_citadel_respawn_credit"
-			m_strParticleEffect = resource_name:"particles/modifiers/respawn_credit_buff.vpcf"
-			m_strParticleStatusEffect = resource_name:"particles/status_fx/status_fx_respawn_credit.vpcf"
-			m_strParticleStatusEffectConfig = "60"
-			m_strSmallIconCssClass = "rejuv_credit"
-			m_eModifierDisplayLocaiton = "MODIFIER_DISPLAY_BOTTOM_LEFT"
-			m_eHudDisplayLocation = "DISPLAY_HUD_NONE"
-			m_strHudIcon = panorama:"file://{images}/upgrades/mods_armor/portable_rejuvenator.png"
-			m_DeployParticle = resource_name:"particles/modifiers/rejuv_pending.vpcf"
-			m_RespawnParticle = resource_name:"particles/upgrades/portable_rejuvinator_respawn.vpcf"
-			m_sDeploySound = soundevent:"Rejuv.Rebirth.Start"
-			m_sRespawnSound = soundevent:"Rejuv.Rebirth.Revive"
-			m_flRespawnLifePct = 100.0
-			m_flRespawnDelay = 3.0
-			m_vecScriptValues = 
-			[
-				{
-					m_eModifierValue = "MODIFIER_VALUE_HEALTH_MAX_PERCENT"
-					m_value = 0.0
-				},
-				{
-					m_eModifierValue = "MODIFIER_VALUE_FIRE_RATE"
-					m_value = 0.0
-				},
-				{
-					m_eModifierValue = "MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER"
-					m_value = 0.0
-				},
-			]
-		}
-		m_PunchPickupModifier = subclass:
-		{
-			_class = "modifier_item_punchable_rejuv"
-			_my_subclass_name = "modifier_item_punchable_rejuv"
-			m_nEnabledStateMask = "MODIFIER_STATE_IS_MELEE_TARGET"
-			m_IsDroppingParticle = resource_name:"particles/environment/rejuv_ambient.vpcf"
-			m_IsPunchableParticle = resource_name:"particles/environment/rejuv_attackable.vpcf"
-			m_IsFrozenParticle = resource_name:"particles/environment/rejuv_frozen_model.vpcf"
-			m_AoEHealParticle = resource_name:"particles/upgrades/health_nova_cast.vpcf"
-			m_bIsHidden = true
-			m_sHitSound = soundevent:"Powerup.Pickup.Punch"
-			m_DamagedParticle = resource_name:"particles/environment/rejuv_damaged.vpcf"
-			m_NearRejuvAuraModifier = subclass:
-			{
-				_class = "modifier_base_aura"
-				_my_subclass_name = "near_rejuv"
-				m_bIsHidden = true
-				m_flAuraRadius = 300.0
-				m_modifierProvidedByAura = subclass:
-				{
-					_class = "modifier_base"
-					_my_subclass_name = "target_near_rejuv"
-					m_bIsHidden = true
-					m_nEnabledStateMask = "MODIFIER_STATE_NEAR_REJUVINATOR"
-				}
-				m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
-			}
-			m_ParryCheckModifier = subclass:
-			{
-				_class = "modifier_check_nearby_player_parry"
-				_my_subclass_name = "modifier_check_nearby_player_parry"
-				m_flParryCheckRadius = 80.0
-			}
-		}
-	}
-	citadel_item_pickup_rejuv_herotest = 
-	{
-		_class = "citadel_item_pickup_rejuv_herotest"
-		m_AbilityProjectile = "ability_item_pickup_effects"
-		m_RebirthModifier = subclass:
-		{
-			_class = "modifier_citadel_rebirth_credit"
-			_my_subclass_name = "modifier_citadel_rebirth_credit"
-			m_strHudMessageText = "#modifier_citadel_respawn_credit"
-			m_sLocalizationName = "modifier_citadel_respawn_credit"
-			m_strParticleEffect = resource_name:"particles/modifiers/respawn_credit_buff.vpcf"
-			m_strParticleStatusEffect = resource_name:"particles/status_fx/status_fx_respawn_credit.vpcf"
-			m_strParticleStatusEffectConfig = "60"
-			m_strSmallIconCssClass = "rejuv_credit"
-			m_eModifierDisplayLocaiton = "MODIFIER_DISPLAY_BOTTOM_LEFT"
-			m_eHudDisplayLocation = "DISPLAY_HUD_NONE"
-			m_strHudIcon = panorama:"file://{images}/upgrades/mods_armor/portable_rejuvenator.png"
-			m_DeployParticle = resource_name:"particles/modifiers/rejuv_pending.vpcf"
-			m_RespawnParticle = resource_name:"particles/upgrades/portable_rejuvinator_respawn.vpcf"
-			m_sDeploySound = soundevent:"Rejuv.Rebirth.Start"
-			m_sRespawnSound = soundevent:"Rejuv.Rebirth.Revive"
-			m_flRespawnLifePct = 100.0
-			m_flRespawnDelay = 3.0
-			m_vecScriptValues = 
-			[
-				{
-					m_eModifierValue = "MODIFIER_VALUE_HEALTH_MAX_PERCENT"
-					m_value = 0.0
-				},
-				{
-					m_eModifierValue = "MODIFIER_VALUE_FIRE_RATE"
-					m_value = 0.0
-				},
-				{
-					m_eModifierValue = "MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER"
-					m_value = 0.0
-				},
-			]
-		}
-		m_PunchPickupModifier = subclass:
-		{
-			_class = "modifier_item_punchable_rejuv"
-			_my_subclass_name = "modifier_item_punchable_rejuv"
-			m_nEnabledStateMask = "MODIFIER_STATE_IS_MELEE_TARGET"
-			m_IsDroppingParticle = resource_name:"particles/environment/rejuv_ambient.vpcf"
-			m_IsPunchableParticle = resource_name:"particles/environment/rejuv_attackable.vpcf"
-			m_IsFrozenParticle = resource_name:"particles/environment/rejuv_frozen_model.vpcf"
-			m_AoEHealParticle = resource_name:"particles/upgrades/health_nova_cast.vpcf"
-			m_bIsHidden = true
-			m_sHitSound = soundevent:"Powerup.Pickup.Punch"
-			m_DamagedParticle = resource_name:"particles/environment/rejuv_damaged.vpcf"
-			m_NearRejuvAuraModifier = subclass:
-			{
-				_class = "modifier_base_aura"
-				_my_subclass_name = "near_rejuv"
-				m_bIsHidden = true
-				m_flAuraRadius = 300.0
-				m_modifierProvidedByAura = subclass:
-				{
-					_class = "modifier_base"
-					_my_subclass_name = "target_near_rejuv"
-					m_bIsHidden = true
-					m_nEnabledStateMask = "MODIFIER_STATE_NEAR_REJUVINATOR"
-				}
-				m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO"
-			}
-			m_ParryCheckModifier = subclass:
-			{
-				_class = "modifier_check_nearby_player_parry"
-				_my_subclass_name = "modifier_check_nearby_player_parry"
-				m_flParryCheckRadius = 80.0
-			}
-		}
-		_base = "citadel_item_pickup_rejuv"
 	}
 	citadel_spider_animating = 
 	{

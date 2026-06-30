@@ -12,7 +12,7 @@
 					<Image id="KillerImage" class="entityImage" />
 				</Panel>
 			</Panel>
-			<Panel class="croasshairImage" />
+			<Panel class="crosshairImage" />
 			<Panel class="arrowImage" />
 			<Panel class="victimContainer">
 				<Panel class="victimImageContainer">

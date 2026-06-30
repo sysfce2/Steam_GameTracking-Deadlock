@@ -1,0 +1,3 @@
+class CInfoKOTHSpawnLocation : public CPointEntity
+{
+};

@@ -426,12 +426,14 @@
 //	{
 //		"m_bIsSeasonal": false
 //	},
+//	"m_flBaseFallrate": 40.000000,
 //	"m_ItemModel": "",
 //	"m_OnKnockedOffHolderParticle": "",
 //	"m_OnKnockedOffUrnParticle": "",
 //	"m_OnOverheldDamageParticle": "",
 //	"m_strUrnMeleeDropSound": "",
 //	"m_strUrnOverheldDamageSound": "",
+//	"m_strUrnDroppedOffSound": "",
 //	"m_DropoffTimerModifier":
 //	{
 //	},
@@ -439,6 +441,7 @@
 //	{
 //	},
 //	"m_flRevealTime": 30.000000,
+//	"m_iComebackBounty": 130,
 //	"m_flDamageTickRate": 1.000000,
 //	"m_flMaxHealthDamage": 0.010000,
 //	"m_flTimeToDamage": 75.000000,
@@ -455,11 +458,13 @@ class CCitadel_Ability_GoldenIdolVData : public CCitadel_Ability_BaseHeldItemVDa
 	// MPropertyStartGroup = "Sounds"
 	CSoundEventName m_strUrnMeleeDropSound;
 	CSoundEventName m_strUrnOverheldDamageSound;
+	CSoundEventName m_strUrnDroppedOffSound;
 	// MPropertyStartGroup = "Modifiers"
 	CEmbeddedSubclass< CCitadelModifier > m_DropoffTimerModifier;
 	CEmbeddedSubclass< CCitadelModifier > m_HoldingIdolModifier;
 	// MPropertyStartGroup = "Gameplay"
 	float32 m_flRevealTime;
+	int32 m_iComebackBounty;
 	float32 m_flDamageTickRate;
 	float32 m_flMaxHealthDamage;
 	float32 m_flTimeToDamage;

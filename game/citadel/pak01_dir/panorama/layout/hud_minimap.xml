@@ -79,6 +79,12 @@
 				</Panel>
 			</Panel>
 		</snippet>
+		<snippet name="MinimapKothSnippet">
+			<Panel class="map_button ability_castrange capture_point">
+				<Panel id="HoverPanel" class="hover_panel" />
+				<Panel id="CastRange" />
+			</Panel>
+		</snippet>
 		<snippet name="MinimapAbilityWithRange">
 			<Panel class="map_button ability_castrange">
 				<Panel id="CastRange" />

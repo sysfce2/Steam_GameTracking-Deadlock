@@ -13,7 +13,7 @@
 				</Panel>
 			</Panel>
 			<Panel id="AssistsContainer" />
-			<Panel class="croasshairImage" />
+			<Panel class="crosshairImage" />
 			<Panel class="arrowImage" />
 			<Panel class="victimContainer">
 				<Panel class="victimImageContainer">

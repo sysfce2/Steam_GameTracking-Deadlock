@@ -4191,7 +4191,7 @@
 			[
 				{
 					trigger = "Music-GameOver"
-					threshold = 0.1
+					threshold = 0.6
 					mixamount = 1.0
 					attack = 0.1
 					release = 0.1
