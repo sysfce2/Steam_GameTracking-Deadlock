@@ -16771,7 +16771,6 @@ $hRh
 /zt1
 0 0 0 196
 0 == ( pInstance->GetOwnerEntity()->GetEntityIdentity()->GetFlags() & EF_IN_STAGING_LIST )
-0%Dj
 0.5 = 50% speed\n1 = 100% speed\n2 = 200% speed\n(Only editable when Fixed Length is false)
 0.CPlayer_UpdateSteamAnnouncementLastRead_Request
 0123456789
@@ -35251,6 +35250,7 @@ Z~wl
 [IMMEDIATE_HALT]
 [INPUTFUNC]
 [INVALID]
+[JDj
 [NOP]
 [NULL] %s
 [OdP
