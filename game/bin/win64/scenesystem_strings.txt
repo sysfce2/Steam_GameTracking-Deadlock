@@ -22,12 +22,13 @@
   w/ large threshold: %d,
   w/ zero threshold: %d,
   w/ zero threshold: (%.1f, %.1f)
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$8D_
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  %i fog-only.
  %s [%.2f ms]
- (08@HPXb`Q
- (08@HR`Q
- (0X`hpz`Q
+ (08@HPX`j }
+ (08@HPXbP 
+ (08@HRP 
+ (0X`hpzP 
  (EXTERN)
  (Frozen)
  (MAYBE DISABLED?!)
@@ -42,8 +43,7 @@
  *CentralNode*
  *Inactive*
  *Unused*
- .0CU
- .pBU
+ .PMU
  ; contains 
  BreakOnDelete: 
  BreakOnDraw: 
@@ -430,7 +430,6 @@ $tIP
 %s\nLOD Level: %d Draw Calls: %d Triangles: %d
 %s_%d.vtex
 %s_%d_%d.vtex
-%tf8%de8%4d8%
 %u ms
 &2&6&:&>&B&F&J&N&R&V0
 &A3\rk
@@ -447,64 +446,71 @@ $tIP
 (%6.1f,%6.1f) (%6.1f,%6.1f) Size (%6.1f,%6.1f) %s
 (%6.1f,%6.1f) (%6.1f,%6.1f) Size (%6.1f,%6.1f) Col %d %s
 (%d,%d,%d,%d)
+(1oa
 (2) Or right-click this text
 (3) Or click this button
-(5Ra
-(5Ua
-(5Va
-(9Oa
+(9va
 (<-- right-click here)
+(AMa
+(ASa
 (ActiveIdUsing: AllKeyboardKeys: %d, NavDirMask: 0x%X)
 (Click and drag to scroll)
 (Context Name: "%s")
 (Debug Log: Auto-disabled some ImGuiDebugLogFlags after 2 frames)\n
 (Dock node)
+(EQa
 (Hex)
 (Hold Ctrl to: 
 (Hold Ctrl to: use 
 (Hold Shift to display a dummy viewport)
-(IGa
-(IKa
+(IPa
 (Internal Buffer: TextA Size: %d, Capacity: %d)
 (Left) Using ImGui::PushClipRect():\nWill alter ImGui hit-testing logic + ImDrawList rendering.\n(use this if you want your clipping rectangle to affect interactions)\n\n(Center) Using ImDrawList::PushClipRect():\nWill alter ImDrawList rendering only.\n(use this as a shortcut if you are only using ImDrawList calls)\n\n(Right) Using ImDrawList::AddText() with a fine ClipRect:\nWill alter only this specific ImDrawList::AddText() rendering.\nThis is often used internally to avoid altering the clipping rectangle and minimize draw calls.
-(MZa
 (Main menu bar)
+(Mza
 (Popup)
 (R = radius, N = approx number of segments)
 (SceneWorld 3D Dump contains %d large objects - they are scaled down and will render red.)\n
 (UHa
+(Uia
 (Untitled)
 (Upa
 (Use ImGui::SameLine() to keep adding items to the right of the preceding item)
-(YWa
+(Ysa
 (Z(^(b(f(j(n(r(v(z1
 (\?=\nW>=\nW>=\nW>
-(aPa
-(aga
 (also access from 'Examples->Assets Browser' in menu)
+(ama
 (and more errors)
-(asa
 (c) 2014-2025 Omar Cornut
 (demo menu)
 (dump)
 (dump3d)
+(eba
 (except InputRouting which is spammy)
-(f@uU
-(iUa
+(f0DU
+(i1a
+(iXa
+(iga
 (in ChildD: not using same Shortcut)
 (in ChildE: using same Shortcut)
 (in PopupF)
 (in WindowA)
-(mMa
-(mSa
-(moa
 (no material)
 (no model)
 (note: some platform backends may not reflect a change of this value for existing viewports, and may need the viewport to be recreated)
+(qha
+(qra
 (see Demo->Configuration for details & more)
-(uRa
 (unnamed)
+(uqa
+(uya
 (void*)0x%p
+(yPa
+(ySa
+(yUa
+(yaa
+(yta
 ** %d instances of same table! Some data below will refer to last instance.
 **DebugBreak**
 *COPIED*
@@ -531,13 +537,6 @@ $tIP
 .%03d %03d
 ..-         -XXXXXXX-    X    -           X           -XXXXXXX          -          XXXXXXX-     XX          - XX       XX ..-         -X.....X-   X.X   -          X.X          -X.....X          -          X.....X-    X..X         -X..X     X..X---         -XXX.XXX-  X...X  -         X...X         -X....X           -           X....X-    X..X         -X...X   X...XX           -  X.X  - X.....X -        X.....X        -X...X            -            X...X-    X..X         - X...X X...X XX          -  X.X  -X.......X-       X.......X       -X..X.X           -           X.X..X-    X..X         -  X...X...X  X.X         -  X.X  -XXXX.XXXX-       XXXX.XXXX       -X.X X.X          -          X.X X.X-    X..XXX       -   X.....X   X..X        -  X.X  -   X.X   -          X.X          -XX   X.X         -         X.X   XX-    X..X..XXX    -    X...X    X...X       -  X.X  -   X.X   -    XX    X.X    XX    -      X.X        -        X.X      -    X..X..X..XX  -     X.X     X....X      -  X.X  -   X.X   -   X.X    X.X    X.X   -       X.X       -       X.X       -    X..X..X..X.X -    X...X    X.....X     -  X.X  -   X.X   -  X..X    X.X    X..X  -        X.X      -      X.X        -XXX X..X..X..X..X-   X.....X   X......X    -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -         X.X   XX-XX   X.X         -X..XX........X..X-  X...X...X  X.......X   -  X.X  -   X.X   -X.....................X-          X.X X.X-X.X X.X          -X...X...........X- X...X X...X X........X  -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -           X.X..X-X..X.X           - X..............X-X...X   X...XX.........X -XXX.XXX-   X.X   -  X..X    X.X    X..X  -            X...X-X...X            -  X.............X-X..X     X..XX..........X-X.....X-   X.X   -   X.X    X.X    X.X   -           X....X-X....X           -  X.............X- XX       XX X......XXXXX-XXXXXXX-   X.X   -    XX    X.X    XX    -          X.....X-X.....X          -   X............X--------------X...X..X    ---------   X.X   -          X.X          -          XXXXXXX-XXXXXXX          -   X...........X -             X..X X..X   -       -XXXX.XXXX-       XXXX.XXXX       -------------------------------------    X..........X -             X.X  X..X   -       -X.......X-       X.......X       -    XX           XX    -           -    X..........X -             XX    X..X  -       - X.....X -        X.....X        -   X.X           X.X   -           -     X........X  -                   X..X  -       -  X...X  -         X...X         -  X..X           X..X  -           -     X........X  -                    XX   -       -   X.X   -          X.X          - X...XXXXXXXXXXXXX...X -           -     XXXXXXXXXX  -             -------------       -    X    -           X           -X.....................X-           -------------------                                 ----------------------------------- X...XXXXXXXXXXXXX...X -                                                                                                 -  X..X           X..X  -                                                                                                 -   X.X           X.X   -                                                                                                 -    XX           XX    -                                           
 ................
-.0DU
-.0GU
-.0HU
-.0TU
-.0YU
-.0ZU
-.0yU
 .?AUReadStatsCallback_t@?4??OnBeginSubmitDisplayLists@CInstancedMeshSceneObjectDesc@@UEAAXPEAVIRenderContext@@@Z@
 .?AV<lambda_1>@?1??DrawCurrentPrimitives@CRenderBatchList@@AEAAXXZ@
 .?AV<lambda_1>@?1??GatherHammerLights@CLightBinnerGPU@@AEAAXXZ@
@@ -812,18 +811,12 @@ $tIP
 .AY4I
 .AppleDouble/
 .B.F.J.N.R.V.Z.^2
+.LDK
 .P6AXPEAVCSceneObject@@@Z
-.PHU
-.PZU
-.PxU
 .\v1o0
 .notdef
 .null
-.pDU
-.pHU
-.pJU
-.peU
-.pxU
+.p4U
 .resource/
 .vtex
 /*\n The Pentium F00F bug, shorthand for F0 0F C7 C8,\n the hexadecimal encoding of one offending instruction,\n more formally, the invalid operand with locked CMPXCHG8B\n instruction bug, is a design flaw in the majority of\n Intel Pentium, Pentium MMX, and Pentium OverDrive\n processors (all in the P5 microarchitecture).\n*/\n\nlabel:\n\tlock cmpxchg8b eax\n
@@ -847,12 +840,15 @@ $tIP
 001.001
 001.002
 001.003
-04c/
 050s0
-08@J`Q
+08@HR }
+08@JP 
+08B }
 0?333?333?333?333?
-0ljK
-0v\uK
+0\9K
+0_Ej
+0tPK
+0vLDK
 0x%02X
 0x%04X
 0x%08X
@@ -903,23 +899,21 @@ $tIP
 5_5i5p
 5by Tristan GrimmerRegularTTX ProggyCleanTT2004/
 5gib
+6 7U
+6 OU
 6 PQ
-6 gU
 6&6r6
-60^U
-60hU
+60;U
+60LU
 646.1991
 646B
-6@BU
-6@lU
 6K6S
+6P4U
+6P>U
+6PIU
 6\f%646
-6`eU
-6`oU
-6`zU
 6o6v6
-6pSU
-6pnU
+6pEU
 797k7
 7F7W7c
 7\n0K0O0S0W0[0_0c0g0k0o0
@@ -927,10 +921,11 @@ $tIP
 8859
 8888
 8C3F
-8F@qU
+8F0@U
 8\f58
 8\foQS
 8n8y
+92Ra
 9>powf
 9@9Y9`9y9
 9F9O
@@ -1021,6 +1016,8 @@ $tIP
 >333?333?333?
 >333?ff&?
 >7>Ba
+>PDU
+>PHU
 >c<yXH?B
 >fff>
 >fff?
@@ -1040,7 +1037,7 @@ $tIP
 ?JA7=
 ?Label1
 ?PUNCTUAL
-?SCENEOBJECT_VIS_LOD
+?SCENEOBJECT_VIS_NONE
 ?The "Tools" menu above gives access to: Style Editors (ImPlot/ImGui)\nand Metrics (general purpose Dear ImGui debugging tool).
 ?VertexPos_t
 ?XXXXXXXXXXXXXXXX
@@ -1052,7 +1049,7 @@ $tIP
 ?fff?fff?fff?
 ?ffffff
 ?sqrt
-@08N\uK
+@08NLDK
 @33333
 @33333#
 @33333'
@@ -1091,9 +1088,7 @@ $tIP
 @33333{
 @33333}
 @33SA
-@6@kU
-@6PGU
-@6PJU
+@60:U
 @HPX`hv
 @Hide
 @OS/2
@@ -1139,7 +1134,7 @@ $tIP
 @fffffx
 @fffffz
 @fffff|
-@n\uK
+@nLDK
 A Rather Long Title
 A#4A\v
 A*A3
@@ -1248,7 +1243,6 @@ Always On
 Always On (Advanced)
 Always On (Simple)
 AlwaysAutoResize
-AmbientLightingSHR
 AmbientOcclusionProxyAmbientStrength
 AmbientOcclusionProxyLightConeAngles
 AmbientOcclusionProxyLightPosition_2
@@ -1342,6 +1336,7 @@ B+6F
 B,\vB8
 B0 Row 0
 B0 Row 1
+B0TW
 B1 Row 0
 B1 Row 1
 B5G5R5A1_UNORM
@@ -1404,6 +1399,7 @@ Bar Plots
 Bar Stacks
 BarnLight
 BarnLightObjectDesc
+BarnLights
 Barrier\n  [%s:%s] %s\n
 Barrier\n  [%s:%s]\n
 Barry
@@ -1456,7 +1452,6 @@ BloodDefaultImpact
 Blue shape is drawn first, into channel 1: appears in front
 Blue shape is drawn first: appears in back
 BlueFuzz
-BlueNoise
 BlueScale
 BlueShift
 BlueValues
@@ -1851,7 +1846,8 @@ ClosestHit0
 ClosestHit1
 ClosestHit2
 ClosestHit3
-ClumpMask
+ClumpExp
+ClumpScale
 ClutterDesc
 ClutterSceneObjectDesc
 Coconut
@@ -1880,7 +1876,6 @@ Color/Picker Widgets
 ColorButtonPosition
 ColorEdit defaults to displaying RGB inputs if you don't specify a display mode, but the user can change it with a right-click on those inputs.\n\nColorPicker defaults to displaying RGB+HSV+Hex if you don't specify a display mode.\n\nYou can change the defaults using SetColorEditOptions().
 ColorEdit4
-ColorModeCombo
 ColorPosition
 ColorUVTestLayout
 Colorful Text
@@ -2108,13 +2103,15 @@ D_CUT_HAIR
 D_DEBUG_DRAW_MESHLETS
 D_DEBUG_OUTPUT_STATS
 D_DRAW_QUADS
+D_ENABLE_INDIRECT
 D_ENABLE_VOLUMETRIC_FOG
-D_FIRST_FRAME
+D_FLOAT_INTERMEDIATE_TEXTURES
 D_FULL_HAIR_PIPELINE
 D_HAIR_OFFSETS
 D_HAS_ROOT_VIEW
 D_INDIRECT_TRANSMITTANCE
 D_JITTER
+D_LPV_INDIRECT
 D_NO_ZTEST
 D_OCCLUSION_CULLING
 D_OPAQUE_FADE
@@ -2128,7 +2125,6 @@ D_SMOOTH_ACROSS_UV_SEAMS
 D_SPECULAR_CUBE_MAP_STATIC
 D_SUBGROUP_SIZE_32
 D_SUPPORTS_MESH_SHADER
-D_TEMPORAL_INTEGRATE
 D_VARIANT
 D_VISUALIZE_BOUNDS
 D_VISUALIZE_SCENEOBJECTS
@@ -2199,6 +2195,7 @@ Density
 DensityVolumeTexture
 Depth
 DepthPyramid
+DepthValue
 Descender
 DesignVector
 Destroy cache and custom rectangles.
@@ -2497,7 +2494,8 @@ Extensions
 EyeBallDataConstants_t
 EyeShader
 F'F2F>F\Fsa
-F@tU
+F0CU
+F@5U
 FACE_NAME
 FAMILY_NAME
 FC\r4
@@ -2515,11 +2513,10 @@ FONT_DESCENT
 FORCE_UINT
 FORWARD_LAYER_ONLY 
 FOUNDRY
-FPIU
-FPfU
 FRAGMENT_SHADER
 FSType
 FULL_NAME
+F`3U
 Factor
 Failed to allocate scratch rendertarget for %s from pool. The following pool entries were matches:\n
 Failed to allocate space for morph!\n
@@ -2631,7 +2628,6 @@ Format
 ForwardLightSetup
 Four
 FourFourFour
-FpdU
 Frag
 FragmentBounds
 FragmentDrawArgs
@@ -2802,6 +2798,7 @@ H=HF
 HAMMER_ENABLED_STENCIL_LAYER 
 HAMMER_PREFAB_STENCIL_LAYER 
 HAMMER_SELECTION_STENCIL_LAYER 
+HAMa
 HAS_AO_PROXIES 
 HAS_OVERLAY 
 HELP
@@ -2821,12 +2818,11 @@ Hair Debug Settings
 Hair Sim
 HairAlbedoVolume
 HairAoTexture
-HairColorPalate
 HairColorPalette
 HairColorTexture
+HairDetailScale
 HairDyeColor
 HairFinalComposite
-HairLengthMask
 HairLengthScale
 HairRendererManifest
 HairRoughnessPalette
@@ -3208,7 +3204,6 @@ In the color list:\nLeft-click on color square to open color picker,\nRight-clic
 In the color list:\nLeft-click on colored square to open color picker,\nRight-click to open edit options menu.
 In window "%s"
 In window '%s': %s
-InLightingTexture
 Include NaN
 IndentSpacing
 Indented
@@ -3904,7 +3899,6 @@ Node%d
 Node%d.%d
 NoiseExp
 NoiseFreq
-NoiseMask
 NoiseScale
 Normal buttons
 NormalAccumVB
@@ -4025,8 +4019,6 @@ OtherBlues
 Otilde
 Otildesmall
 Out Mem
-OutLightingFroxelTexture
-OutScatteringTexture
 Outer size
 OuterRect
 OuterRect: Pos: (%.1f,%.1f) Size: (%.1f,%.1f) Sizing: '%s'
@@ -4048,9 +4040,9 @@ Override ChildBg color
 Override Streaming GPU Memory
 P+\fGj
 P.P5
-P08@J`Q
-P08N\uK
-P2`Q
+P08@JP 
+P08NLDK
+P2P 
 P3\rA
 P8\nD
 PAPU
@@ -4070,6 +4062,7 @@ POSITION
 PRESSED
 PRE_RASTERIZATION_SHADERS
 PROGRAMMER GUIDE:
+P\9K
 PackId: 0x%X (%dx%d rect at %d,%d)
 Packed rects: %d, area: about %d px ~%dx%d px
 PackedBlobNormal
@@ -4123,7 +4116,6 @@ PixelsToPlot() needs to be called between BeginPlot() and EndPlot()!
 Plasma
 Player Overlay
 Please submit feedback:
-PljK
 Plot
 Plot 1 Sources: Legend Item Labels
 Plot 1 Targets: Plot, Y-Axes, Legend
@@ -4154,7 +4146,7 @@ Plotting
 Plum
 Plus
 PmXh]=b
-Pnp}U
+Pn`LU
 PolitiFact: Who Lies More?
 Pollock
 Pool Mem
@@ -4219,6 +4211,7 @@ ProjectedSceneObjectDesc
 PropWorldOrigin
 Property editor
 Psmall
+PtPK
 PushID
 PushPlotClipRect() needs to be called between BeginPlot() and EndPlot()!
 P{6L
@@ -4464,7 +4457,6 @@ ResolvedHairDensityTexture
 ResolvedHairDensityTextureMip1
 ResolvedHairDensityTextureMip2
 ResolvedHairDensityTextureMip3
-ResolvedHairDensityTextureMip4
 ResolvedHairTangentTexture
 Resource %s was created but never accessed\n
 ResourceCompiler/BakedLighting/DisableCullingForShadows
@@ -4541,9 +4533,11 @@ SSTCopyDepthQuadLayout
 SSTCopyToCSM
 SSTDebugColor
 SSTGeneration
+SSTHeight
 SSTNumTilesX
 SSTNumTilesY
 SSTOutputPixelExcludeEndX
+SSTOutputPixelExcludeEndY
 SSTOutputPixelExcludeStartX
 SSTOutputPixelExcludeStartY
 SSTOutputPixelHeight
@@ -4576,6 +4570,7 @@ Same title as another window##1
 Same title as another window##2
 Sample
 Sample count
+SampleHairDensityTexture
 SampleVelocityTexture
 Sampler
 Sanders
@@ -4958,8 +4953,6 @@ Spiral
 SpotLight
 SpotShadowDepth
 Sqrt
-SrcBuffer
-SrcPayload
 Ssmall
 Stacked 1
 Stacked 2
@@ -5195,7 +5188,6 @@ The quick brown fox jumps over the lazy dog.
 The same contents can be accessed in 'Tools->Style Editor' or by calling the ShowStyleEditor() function.
 The value of io.WantCaptureMouse and io.WantCaptureKeyboard are normally set by Dear ImGui to instruct your application of how to route inputs. Typically, when a value is true, it means Dear ImGui wants the corresponding inputs and we expect the underlying application to ignore them.\n\nThe most typical case is: when hovering a window, Dear ImGui set io.WantCaptureMouse to true, and underlying application should ignore mouse inputs (in practice there are many and more subtle rules leading to how those flags are set).
 Theoretical
-ThicknessTexture
 This demo has nothing to do with enabling docking!\nThis demo only demonstrate the use of ImGui::DockSpace() which allows you to manually\ncreate a docking node _within_ another window.\nMost application can simply call ImGui::DockSpaceOverViewport() and be done with it.
 This demonstrates embedding a table into another table cell.
 This example implements a console with basic coloring, completion (TAB key) and history (Up/Down keys). A more elaborate implementation may want to store entries along with extra data such as timestamp, emitter, etc.
@@ -5422,9 +5414,9 @@ Using the simplified one-liner ListBox API here.\nRefer to the "List boxes" sect
 Usmall
 V$VYW
 V,V7VB
+V0GU
 V:%0.3f
 V:%3d
-V@xU
 VERTEX_ATTRIBUTE_READ_BIT
 VERTEX_INPUT
 VIEWMODEL_LAYER 
@@ -5483,7 +5475,6 @@ Visible=%d%n
 VisibleWindow
 Visualize
 VisualizeCulled
-VisualizeSceneObjectsMode
 Voltage
 VolumeMaxs
 VolumeMins
@@ -5854,7 +5845,6 @@ Zsmall
 \fG7+B
 \fPy\vE
 \fT>M-+?#gy?
-\fp\v`ljK
 \n Render %d specific objects
 \n Render world : %s\n
 \n"\n)\n7\nA\nH\nS\nc\np\n|\n
@@ -5863,10 +5853,10 @@ Zsmall
 \n<i>PerViewConstantBuffer_t</i>
 \n<i>Procedural Layer</i>
 \nAM\nA
+\nPtPK
 \nYg:a
 \naI1 
 \r%\r1\rB\rQ\rZ\rf\rr\r~\r
-\r`ljK
 \t \t$\t6\tI\tY\th\ts\tz\t
 \tLayer %d "%s": %d inputs, %d outputs\n
 \tLayer %d "%s"\n
@@ -5931,15 +5921,13 @@ _WidthFixed
 _WidthStretch
 _XFREE86_GLYPH_RANGES
 _atlas
-`1sa
-`6PYU
-`6pQU
-`f\uK
-`ljK
-`n\uK
+`MWa
+`fLDK
+`nLDK
+`tPK
 a'aCaYb"b8b
 a-a8
-aBv\uK
+aBvLDK
 aJ!\vA
 aJaP
 a\ft/tOtet
@@ -6270,9 +6258,9 @@ f(x) = sin(x)*3+1
 f(x) = sin(x)+1
 f(x) = sin(x+.5)*100+200 
 f?yu
+fLDK
 fPfo
 fWfc
-f\uK
 fakeview
 fallback-script
 far_blue
@@ -6340,10 +6328,13 @@ g_bEnableSizeCulling
 g_consts
 g_flHealBloodAmount
 g_flHealHeightAmount
+g_tFogIndirect
 g_tHeightfield
+g_tLastFrameFogVolume
 g_tMonitorColor
 g_tNoise
 g_tPreviousRT
+g_vDecalCenter
 gbreve
 generatecullrequests
 germandbls
@@ -6363,6 +6354,7 @@ guillemotright
 guilsinglleft
 guilsinglright
 h>4hp?
+hE0a
 hair
 hairdensityaccumvolume
 hairdummybuffer
@@ -6392,7 +6384,7 @@ hitgroup_shader_%p
 hl?S
 horizontal
 horizontal split
-hpz`Q
+hpzP 
 https://github.com/epezent/implot
 https://github.com/ocornut/imgui
 https://github.com/ocornut/imgui/blob/master/docs/BACKENDS.md
@@ -6412,7 +6404,6 @@ hyphen
 hypheninferior
 hyphensuperior
 h}?fN
-h}Za
 i < V_ARRAYSIZE( s_szMissShaderNames )
 i(i4i:iP
 iacute
@@ -6738,9 +6729,9 @@ nCascade
 nCompressedSize == nUncompressedSize
 nDepthBias
 nIndex < m_RenderTargets.Count()
+nLDK
 nPnq
 nPrevTransformBufferIndex < V_ARRAYSIZE( m_transformBufferSlotsForIndex )
-n\uK
 n^nf
 nan_expectfail
 near_blue
@@ -6761,7 +6752,9 @@ nonbreakingspace
 nonmarkingreturn
 not 
 notequal
-npqU
+np<U
+npBU
+npPU
 nsuperior
 ntilde
 numbersign
@@ -6800,12 +6793,13 @@ outer_size
 overlaps
 p q g j y
 p#p7pP
-p08@H^\uK
-p2`Q
-p60{U
-p>\uK
+p08@H^LDK
+p2P 
+p6 JU
+p6p:U
+p>LDK
 pCRF
-pFPIU
+p\9K
 paragraph
 parallel
 parenleft
@@ -6833,11 +6827,10 @@ perthousand
 pervertexlighting
 pfr-metrics
 picker
-pljK
 plots
 plus
 plusminus
-pn\uK
+pnLDK
 pos2Dtex2D
 post
 postscript-cmaps
@@ -7149,9 +7142,8 @@ unicode#0x0001
 uniform_color
 uppercase
 uvtangent
-v aU
 v8vUb
-v\uK
+vLDK
 vertex cache
 vertex cache instances
 vertexbuffer
@@ -7229,7 +7221,5 @@ zerooldstyle
 zerosuperior
 zezn
 };\nImPlotColormap %s = ImPlot::AddColormap("%s", %s_Data, %d);
-}\r0zU
 }~~~~~~~~~~~~~~~~
-~pZU
 ~wZ\tBu

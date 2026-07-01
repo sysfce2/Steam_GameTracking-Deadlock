@@ -432,21 +432,21 @@
 0123456789-
 0123456789ABCDEFabcdef-+Xx
 0123456789ABCDEFabcdef-+XxPp
-0pH(
 0x%x
 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
 2\f%24
 2\fu24*
 2\nP!E
-2\vpX
+2\vpx
 58x\t
 5;FJ$,XEK4<
 5\fE545
+6h7(
 7&F|If
 7T2,
 8"3hrf
 8&Kx
-8F@O,
+8F`J,
 969p
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
@@ -459,7 +459,6 @@
 =\t ();,\n\r<>
 >-memory-
 ?ParseEXRHeaderFromMemory() failed! Error message: %s\n
-@6p0,
 @BXV
 @Integer overflow in %s
 @count
@@ -1571,7 +1570,6 @@ PooledDynamicConstantBuffer
 Position.ViewSpace
 PostMessageW
 PostThreadMessageW
-PpH(
 Predictor
 PredictorEncodeTile
 PredictorSetup
@@ -1596,8 +1594,7 @@ RENDERDOC_GetAPI
 RESOURCE_TYPE_TEXTURE
 RJqn
 RTX\n
-R\vpX
-R\vppH(
+R\vpx
 R_T5Y
 Ran out of query slots.\n
 Rasterizer state is VK_POLYGON_MODE_LINE but VkPhysicalDeviceFeatures.fillModeNonSolid is not supported.  Forcing to VK_POLYGON_MODE_FILL.  May result in incorrect rendering.\n
@@ -2306,7 +2303,6 @@ Z\tV_powd
 \nGetVfxDll(93): ERROR! Can't load %s dll, automatic RenderDoc shader debug info not available.\n
 \nMS,\nVS_MS_RTX
 \nPS_RENDER_STATE
-\nPpH(
 \nRTX
 \n\tCommand Buffer Labels - %d\n
 \n\tObjects - %d\n
@@ -2334,7 +2330,6 @@ Z\tV_powd
 \t_V_StringAfterPrefixCaseSensitive
 \t_V_strcspn
 \tg_TSPointerListNodes
-\vppH(
 \ysK
 ]rHa
 _DOVK
@@ -2546,7 +2541,6 @@ error: unable to fetch LUID for Vulkan device
 error: vkGetInstanceProcAddr not a valid entrypoint
 error: vkGetPhysicalDeviceProperties2 entrypoint does not exist for this Vulkan driver
 extraPrimitiveOverestimationSize
-fDD,
 fDeltaTime
 fDeviceToViewDepth
 fDownscaleFactor
@@ -2555,7 +2549,6 @@ fJitter
 fJitterSequenceLength
 fMotionVectorJitterCancellation
 fMotionVectorScale
-fPD,
 fPreExposure
 fPreviousFramePreExposure
 fReactiveMax
@@ -2777,7 +2770,6 @@ png/jpg
 polygonMode
 positiont
 powf
-ppH(
 preserveAttachments
 primitiveRestartEnable
 printf_enable
@@ -2791,7 +2783,6 @@ psize
 psrs
 pushConstantRanges
 quAt
-r\fppH(
 r_allow_low_gpu_memory_mode
 r_cache_pool_allocations
 r_dilatedDepth

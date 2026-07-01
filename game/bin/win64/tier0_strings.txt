@@ -77,6 +77,7 @@
 #include is NULL 
 #int#
 #nyf
+#vpulse2
 $Ib?s
 $eax
 $ebp
@@ -432,7 +433,6 @@ $xmm9
 (yaX
 ) : AssertMsg Failed in function 
 ) : Assertion Failed in function 
-)05\t8K1
 )14:;EFIJ^de
 )14:EFIJNOde\
 )EIWde
@@ -787,6 +787,7 @@ $xmm9
 1wsHp
 2,THh
 28~v
+2\vpt
 2aNuE
 3 FB
 3+5<t
@@ -813,7 +814,6 @@ $xmm9
 5\fE5d
 5m8>8=t
 5nsfZ
-5tPI1
 64-bit DWARF format is not supported\n
 67VW
 6A_p
@@ -840,6 +840,7 @@ $xmm9
 8Z~H
 8ke?;
 8powf
+8xpI1
 99jd9
 9>70
 9>expf
@@ -1706,7 +1707,7 @@ $xmm9
 ?GetWinLevelRevision@CPUInformation@@SA_NPEAG0@Z
 ?GrowByChunks@CBufferString@@QEAAHHH@Z
 ?GrowPool@CPoolAllocator@@QEAAXI@Z
-?HEAP WARNING: memory block at %p is unexpectedly allocated\n
+?HEAP WARNING: memory pointer %p is invalid\n
 ?HandleFirstWriteLockTransition@CEventRWLock@@IEAAXAEAVCEventListNode@@@Z
 ?HandleToString@CCountedStringPool_CI@@QEBAPEBDG@Z
 ?HandlerQueueHeartBeat@MiniDumpStandardData_t@@QEBAXXZ
@@ -3560,6 +3561,7 @@ ConfigAttachedModel
 Conflicting range base values given for compile_unit\n
 Connection_Inparam
 Connection_Outflow
+Console
 Constructor/destructor index ('%c%c') out of range\n
 Constructor/destructor name extraction failed\n
 Content Assertion Failed
@@ -3967,7 +3969,6 @@ GameDVR_Enabled
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
-General
 GenerateHashFromUniqueId
 GenericGameData
 Generic_x86
@@ -4119,9 +4120,9 @@ H(VVH
 H*0"ZOW
 H>r1
 HEAP WARNING: memory block at %p appears to be corrupt\n
+HEAP WARNING: memory block at %p is unexpectedly allocated\n
 HEAP WARNING: memory block at %p is unexpectedly free\n
 HEAP WARNING: memory block at %p is unexpectedly unrecognized\n
-HEAP WARNING: memory pointer %p is invalid\n
 HH:MM:SS.z
 HH:mm:ss
 HIGHDPI
@@ -4146,7 +4147,7 @@ Hit end of line before closing quote (%c)
 Hits/Min
 Hj`F
 HostStateMgr001
-I7hK1
+I7(L1
 I;u>A
 IAnimAction
 IAnimClipData
@@ -4311,7 +4312,7 @@ ISolveIKChainAnimNode
 ISubGraphAnimNode
 ISubGraphManager
 ITALIAN
-I\zH6hJ1
+I\zH68L1
 Ignore
 Ignore All Asserts
 Ignore For 24 Hours
@@ -6125,6 +6126,7 @@ Unable to create thread in %s\n
 Unable to determine CPU Frequency\n
 Unable to determine ELF default base address\n
 Unable to determine Mach-O default base address\n
+Unable to determine buffer encoding.
 Unable to load COM\n
 Unable to load SDL\n
 Unable to load oleaut32\n
@@ -6812,7 +6814,7 @@ Z>w_F
 ZSq>
 Z\>z8
 Zjz\v
-Zvpcf2
+Zvpcf1
 ZwSetTimerResolution
 [   func+child         func ]
 [   func+child       func ]
@@ -6863,7 +6865,7 @@ ZwSetTimerResolution
 \nh?oT
 \nk>oB
 \r00000000-0000-0000-0000-000000000000
-\rConsole
+\rGeneral
 \rInput contains no data
 \r\f\v\v\n\n\t\t\t\t\t
 \rmj>zjZ
@@ -7022,7 +7024,6 @@ _wWT+
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-`xJ1
 a6>r
 a?y#c?sIe?
 aC.B
@@ -8282,10 +8283,9 @@ nOffset < m_nAllocationSize
 nOverrideCPField
 nSwitchValue
 nTries < 10000000
-nUnable to determine buffer encoding.
 nXAO
 n\f"pA3Q
-n\f"pA3QX
+n\f"pA3Q0
 n]?iJ
 name
 nan(ind)
@@ -8597,7 +8597,7 @@ symbol
 symsrv.dll
 symtab
 t#tvI
-t+0re\f
+t+0Be\f
 table
 tail_frame
 tanf
@@ -8613,7 +8613,6 @@ template-param doesn't start with a 'T'\n
 template-param index doesn't end with a '_'\n
 test_angles_relative
 testscript_debug
-text
 text file busy
 texturescale
 the arena size is too small (memory at %p with size %zu)\n
@@ -8738,7 +8737,6 @@ vmdlkeys4
 void
 volatile
 vpcf
-vpcf1
 vpcf10
 vpcf11
 vpcf12
@@ -8749,6 +8747,7 @@ vpcf16
 vpcf17
 vpcf18
 vpcf19
+vpcf2
 vpcf20
 vpcf21
 vpcf22
@@ -8814,7 +8813,6 @@ vpulse14
 vpulse15
 vpulse16
 vpulse17
-vpulse2
 vpulse3
 vpulse4
 vpulse5
@@ -8862,7 +8860,6 @@ x=9v
 xSvf$
 xT?V
 xYiu
-x\tXK1
 x`tm6
 xu37
 xuRCk
@@ -8874,6 +8871,7 @@ yaw_end
 yaw_start
 z3zr
 z8ji
+z:Ktext
 z>h4
 zN,W
 zQ3W

@@ -944,34 +944,26 @@ $t5\tEi\fo
 02F@
 03F@
 03j3
-07:40:34
 086@
-08:51:41
 099i 
-0>9:0
-0AG@
+0>i60
 0BCDEFGHIJKLMNOPQRSTUVWXYZ1BCDEFGHIJKLMNOPQRSTUVWXYZ2BCDEFGHIJKLMNOPQRSTUVWXYZ3BCDEFGHIJKLMNOPQRSTUVWXYZ4BCDEFGHIJKLMNOPQRSTUVWXYZ\n
+0EG@
 0FG@
 0G4@
+0GG@
 0IDAT8
 0MF@
-0MG@
 0Ou"@
-0Q7@
-0RG@
-0V7@
+0PG@
+0SG@
 0W4@
 0a)Y
 0a6@
-0eG@
 0f4@
-0fG@
 0h6@
-0hG@
-0hO@
 0i6@
-0jG@
-0kG@
+0lG@
 0n6@
 0s6@
 0u6@
@@ -984,6 +976,8 @@ $t5\tEi\fo
 0zM@
 1"?updateGeometry@QWidget@@QEAAXXZ
 1&im*
+11:36:39
+11:36:48
 127.0.0.0
 127.0.0.1:%d
 16];h
@@ -1254,8 +1248,7 @@ $t5\tEi\fo
 2\nmg
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vp8
-2\vpx
+2\vpH
 2aboutToShow()
 2accepted()
 2actionTriggered( int )
@@ -1323,6 +1316,7 @@ $t5\tEi\fo
 49-8
 4>G1_
 4EnP6AI
+4K7@
 4V+2 W
 4[?setRegularExpression@QRegularExpressionValidator@@QEAAXAEBVQRegularExpression@@@Z
 4[YF
@@ -1341,6 +1335,7 @@ $t5\tEi\fo
 5^sr
 5yFV\f
 63TEIb
+6C60
 6F_U*
 6[?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 6\f?focusOutEvent@QPlainTextEdit@@MEAAXPEAVQFocusEvent@@@Z
@@ -1365,10 +1360,12 @@ $t5\tEi\fo
 8&Kx
 856@
 8:9a
+8EG@
 8FG@
 8J6@
-8KG@
-8OG@
+8MG@
+8O7@
+8QG@
 8R7)
 8WWWs
 8XU%
@@ -1381,10 +1378,11 @@ $t5\tEi\fo
 8f6@
 8k6@
 8l6@
+8lG@
 8liS
 8m6@
+8qG@
 8t6@
-8uG@
 8w6@
 8y6@
 8z6@
@@ -4172,10 +4170,8 @@ H56@
 H76@
 HAC K  Unused Binding
 HCto
-HDG@
 HEG@
 HKEY_CURRENT_USER\Software\Valve\GeoView
-HSG@
 HV &G
 HV.J
 H\fBp
@@ -4362,7 +4358,6 @@ J\v?event@QLabel@@MEAA_NPEAVQEvent@@@Z
 Jcqj<
 Je@4
 Jump to Instr I%d
-Jun  4 2026
 K ?toggled@QAbstractButton@@QEAAX_N@Z
 K"O*i
 K+Da
@@ -4916,8 +4911,6 @@ P?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
 P?keyboardModifiers@QGuiApplication@@SA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 PAF@
-PDG@
-PEG@
 PFG@
 PH4@
 PIDAT8
@@ -4926,10 +4919,9 @@ PJD<
 PJE=9'
 PJIa"\v
 PLF@
-POG@
+PO7@
 POISONED 
 PQ]D?
-PRG@
 PRP\vI
 PURH
 P\f?font@QTableWidgetItem@@QEBA?AVQFont@@XZ
@@ -5008,9 +5000,9 @@ Property '%s.%s' not writable
 Protocol: %d\n
 Ps6@
 PtZP
-PuG@
 Pulse domain which enables particle content to query leaf code to introspect game state.
 Pulse: %s 
+PvG@
 Px6@
 PyNn2FAh
 PzM@
@@ -5098,7 +5090,7 @@ RO^k
 RSDSN-
 RW?restore@QPainter@@QEAAXXZ
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
-R\fp8
+R\fpH
 R\r?hitTestComplexControl@QProxyStyle@@UEBA?AW4SubControl@QStyle@@W4ComplexControl@3@PEBVQStyleOptionComplex@@AEBVQPoint@@PEBVQWidget@@@Z
 R\rBe
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
@@ -5806,16 +5798,14 @@ X?setCoordinateMode@QGradient@@QEAAXW4CoordinateMode@1@@Z
 X?setDashOffset@QPen@@QEAAXN@Z
 X?setDashPattern@QPen@@QEAAXAEBV?$QVector@N@@@Z
 XClipPathUnits
-XDG@
-XEG@
+XJG@
 XJpQ
-XLG@
+XKG@
 XM3w
 XMLPacket
 XN?hasChildren@QStandardItemModel@@UEBA_NAEBVQModelIndex@@@Z
 XNML
-XO7@
-XPG@
+XOG@
 XPosition
 XResolution
 XW%\vC
@@ -5832,12 +5822,11 @@ Xd6@
 Xe6@
 XhD?\
 Xl6@
-XlG@
 Xm6@
 Xm8;
-XqG@
 Xw6@
 Xx6@
+XxG@
 Xy5@
 Xy6@
 Xz5@
@@ -6372,7 +6361,6 @@ custom_colors
 d6J0
 d6ai
 d7(N
-dJ7@
 dO{H
 dZr:
 d\f?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
@@ -6577,7 +6565,7 @@ h*CU
 h4*3
 h76@
 h<7s
-hDG@
+hO7@
 hQXk0F
 hSnX
 hW4@
@@ -6599,9 +6587,9 @@ hideFromTaskSwitching
 highlightColor
 highlightLineSearchResults
 highlightText
+hjG@
 hjO>
 hl6@
-hlG@
 hm6@
 hn6@
 horizontal differencing 
@@ -6614,6 +6602,7 @@ host:transport:%s
 https://dl.google.com/android/repository/platform-tools-latest-windows.zip
 hu6@
 hw6@
+hxG@
 hy6@
 hy\teQ
 hz6@
@@ -6847,30 +6836,30 @@ p"?value@QSpinBox@@QEBAHXZ
 p"vb
 p56@
 p66@
-p87@
 p8d8
 p>,iO~L
-p>e90
 pBF@
+pCG@
 pCheckpointName
 pCurrentFocusWidget
 pD3o
+pDG@
 pDescription
 pDevice
-pEG@
 pFilter
 pFromWidget
 pG4@
 pItem
+pJG@
 pKF@
 pLightRigButton
 pLogViewer
+pMG@
 pModule->%s( 0x%llX )\n
 pO6@
-pO7@
 pObject
 pPrevFocusWidget
-pR7@
+pQG@
 pTagName
 pToWidget
 pToolButton
@@ -6878,7 +6867,6 @@ pToolsVisModeButton
 pTraceResult
 pV?read@QImageReader@@QEAA?AVQImage@@XZ
 pVF@
-pW7@
 pWF@
 pWidget
 p\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
@@ -6891,8 +6879,8 @@ pet_preview_underwater
 pi\nH%
 pickedColor
 pixelAspectRatio
+pjG@
 pk6@
-plG@
 pointer not found in module list\n
 polymorphic_arg
 port_name
@@ -6901,11 +6889,12 @@ previous_value
 propattr_flatten_into_parent_row
 ps6@
 pseudo-
+ptG@
 pulse_node_custom_attributes
 pulse_open_graph_id %u %u
 pulse_runtime_lib
-pvG@
 px6@
+pxG@
 pzM@
 q12_
 q1AVpx
@@ -6930,7 +6919,7 @@ qt_dockwidget_floatbutton
 qtadvanceddocking-qt5.dll
 quiet
 qvm\tK
-r\vp8
+r\vpH
 r_stereo_mode_anaglyph
 r_stereo_mode_crossed
 r_stereo_mode_parallel
@@ -7039,6 +7028,7 @@ t*iv`
 t2ak
 tEXtSoftware
 tH)a]
+tJ7@
 tU3njZkq
 t\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@AEBVQMetaMethod@@01W4ConnectionType@Qt@@@Z
 t\nhM
@@ -7210,11 +7200,11 @@ wyS]
 x"?valueFromText@QSpinBox@@MEBAHAEBVQString@@@Z
 x0Ysqx
 x76@
+xBG@
+xCG@
 xEIh
 xI6@
 xIDAT(
-xIG@
-xJG@
 xNG@
 xOIIQd
 xYF@

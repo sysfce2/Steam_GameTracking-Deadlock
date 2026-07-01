@@ -82,7 +82,7 @@
 1X2\v3z3
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
 2\nP!E
-2\vp@p
+2\vph
 4\f%44
 8@HPX
 8CP-
@@ -306,8 +306,8 @@ RRRRRRQRQ
 RRRRRRRR
 RRRRRRRR4Q5QQQQQ
 RRRRRRRREEGRQQQQ
-R\fp@p
-R\vp@p
+R\fph
+R\vph
 RandomFloatWrapper
 Read-only file system
 Receive buffer overflow for %s\n
@@ -569,6 +569,7 @@ _wprintf_p_l
 _wprintf_s_l
 _wscanf_l
 _wscanf_s_l
+`2pE
 `hpB
 abort
 accessorPropertiesOnly
@@ -851,8 +852,6 @@ object
 objectId
 on\f3
 open
-p2p>
-p6p~
 page
 pagesize
 pairs
@@ -862,7 +861,6 @@ path too long
 pattern too complex
 perform arithmetic on
 permessage-deflate
-pl@F
 popen
 preload
 printf
@@ -876,6 +874,7 @@ property_set
 protocolVersion
 protocol_version
 putf
+r\vph
 random
 rawequal
 rawset

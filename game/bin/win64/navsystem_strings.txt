@@ -179,8 +179,6 @@
 .?AVIVDataResourceListener@@
 .?AVrcContext@@
 1\r51h
-2\vpX
-2\vpl
 ;1#INF
 =slow
 >0 = watershed, 1 = monotone, 2 = layers
@@ -345,7 +343,6 @@ Polyclip : Generating connections...
 Polyclip : Optimising to Quads...
 Polyclip pipeline: \n
 PropWorldOrigin
-R\fpX
 Raw Contours
 Recast
 Recast: 
@@ -480,7 +477,6 @@ nodes
 optionallycompressedtangentframe
 posxyz
 quiet
-r\vpX
 radius used to raise/lower corners in nearby areas when raising/lowering corners.
 rcBuildCompactHeightfield: Heightfield has too many layers %d (max: %d)
 rcBuildCompactHeightfield: Out of memory 'chf.areas' (%d)

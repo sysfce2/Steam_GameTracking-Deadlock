@@ -89,8 +89,11 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j0\f
- (08@HPZ0\f
+ (08@HPX`j
+ (08@HPXb`g
+ (08@HPZ
+ (08@HR`g
+ (0X`hpz`g
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -1718,8 +1721,6 @@ $hRh
 %02d%02d%02d%02d%02d%02dZ
 %02d: dur(%8.2f) amp(%8.2f) freq(%8.2f)
 %02d:%02d
-%02i enabled(%s) blocked(%s) audible(%s) speaking(%s)
-%02i speaking(%s) above_threshold(%s)
 %02x%c
 %02x%s
 %04d%02d%02d%02d%02d%02dZ
@@ -16776,8 +16777,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR0\f
-08B0\f
+08@HR
+08@J`g
 08bX
 09,h
 0:00
@@ -16820,6 +16821,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vDF
 0x%4.4x 
 0x%X
 0x%X 
@@ -17041,7 +17043,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpT`
+2\vpx:
 2^pV
 2a"l
 2bT~
@@ -17256,9 +17258,7 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@J0\f
 8A6j
-8B0\f
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17505,13 +17505,13 @@ $hRh
 >\n\vitemdetails
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >fN46R^
+>h5n
 >l\rur
 >p00<
 >yhP
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
 ?333?
-?8c1
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
 ??0Utf8Value@String@v8@@QEAA@PEAVIsolate@2@V?$Local@VValue@v8@@@2@@Z
@@ -17519,10 +17519,12 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CAbility_Synth_PlasmaFlux
+?CCitadel_Ability_ShadowPulse_VData
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
+?CitadelParty
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
+?ELOSCheck_Bounds
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17542,9 +17544,7 @@ $hRh
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?LatchVariables
-?PK6
 ?TabButton
-?TeamObjectiveHealthPanel
 ?The most recent last-played time the client already knows about"
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
@@ -17553,7 +17553,6 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
-?connectionsChanged
 ?d86L
 ?dt]X
 ?expf
@@ -17565,11 +17564,11 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N
+@08NDF
 @0pp
+@60g
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
-@CCitadel_Modifier_EmpowerBulletVData
 @DebugIndividualStyle
 @HPX`hv
 @MPropertyAttributeEditor
@@ -17588,11 +17587,14 @@ $hRh
 @\tV_iswcntrl
 @absorigin_follow
 @dKb]
+@fDF
 @fff>fff>fff>fff>
+@htP
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @n2w
+@nDF
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -17619,7 +17621,7 @@ ACTIVATE_TYPE_DATAUPDATE_CREATION
 ACTIVATE_TYPE_INITIAL_CREATION
 ACTIVATE_TYPE_ONRESTORE
 ACTOR
-ACUserMessageRequestState_t
+ACUserMessageVoiceMask_t
 AD Time Stamping
 ADD_CERT_DIR
 ADH-AES128-GCM-SHA256
@@ -18397,6 +18399,7 @@ AttributesSection_%i
 AttributesSection_%s
 AudioLimiter
 AudioManager
+AudioUtil
 AudioVolume
 AudioVolumeFull
 AudioVolumeMuted
@@ -19761,6 +19764,7 @@ CCitadelUserMsg_TeamRewards
 CCitadelUserMsg_TeamRewards_t
 CCitadelUserMsg_TriggerDamageFlash_t
 CCitadelViscousBall::Activate
+CCitadelZiplineSceneObjectDescAdderGameSystem
 CCitadel_Ability_ShivDash::OnThink
 CCitadel_Bounce_Pad::Activate
 CCitadel_DB_ActiveMatch::SetIsFeatured
@@ -21289,6 +21293,7 @@ CUserMessageRequestDllStatus_t
 CUserMessageRequestInventory
 CUserMessageRequestInventory_t
 CUserMessageRequestState"@\n
+CUserMessageRequestState_t
 CUserMessageRequestUtilAction
 CUserMessageRequestUtilAction_t
 CUserMessageResetHUD"8\n
@@ -21318,7 +21323,6 @@ CUserMessageTextMsg_t
 CUserMessageUpdateCssClasses
 CUserMessageUpdateCssClasses_t
 CUserMessageVoiceMask
-CUserMessageVoiceMask_t
 CUserMessageWaterShake
 CUserMessageWaterShake_t
 CUserMessage_DllStatus
@@ -22670,7 +22674,6 @@ CitadelOpenUpgradeShop
 CitadelOutlineManager
 CitadelOverlay
 CitadelParticipantAudio
-CitadelParty
 CitadelPartyAcceptInvite
 CitadelPartyAcceptInvite( %llu )
 CitadelPartyCancelInviteAccountID
@@ -24251,9 +24254,11 @@ DecalGameSystemClientDebug
 DecalGameSystemManifest_client
 DecalHeightVariance
 DecalMaxWobbleAngle
+DecalRtEncoding
 DecalSizeVariance
 DecalSkinnedModelMode
 DecalWorldHeight
+DecalWorldWidth
 Decals
 DecayDelayTime
 DecayDuration
@@ -25319,6 +25324,7 @@ ExtraTargetHorizontalOffset
 EyeOcclusionDS.vtex
 EyeOcclusionPingPongRT_%dx%d.vtex
 EyeOcclusionRT.vtex
+F Nj
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -28049,7 +28055,6 @@ Local
 Local IGA file does not exist for this Mod. Partner site should be set to "Custom Configuration (Bundled with Game)" for this app for cloud settings to work.\n
 Local IGA file exists for this Mod, but it could not be parsed successfully.\n
 Local IGA file exists for this Mod. It will be used for canonical inputs instead of the Steam Workshop. Be sure to set "Custom Configuration (Bundled with Game)" on Steam Partner site for this App ID.\n
-Local Players: %i
 Local player changed team (or disconnected)...\n
 Local player died...\n
 Local player disconnected...\n
@@ -29413,9 +29418,7 @@ OutgoingDamagePercent
 OutgoingDamagePercentPerStack
 OutgoingPartyInvites
 OutgoingProjectileLifetime
-OutlineAlpha
 OutlineFadePow
-OutlineOffset
 OutlineRects
 OutlineWidth
 Outlines (Depth-Tested)
@@ -29458,13 +29461,12 @@ P-224
 P-256
 P-384
 P-521
-P08JP
-P08N
+P08@J`g
+P08NDF
 P1\t98"
-P20\f
 P2P ping to "%s". Timed out after %.2fms\n
+P2`g
 P5[1
-P6@z
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30039,7 +30041,6 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-Pf@w
 Phrase
 Phrase%d
 PhraseContainer
@@ -30095,7 +30096,6 @@ Pitch: %6.1f   Yaw: %6.1f   Dist: %6.1f %19s
 Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixelToProj
-Pj0\f
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -30188,7 +30188,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-Pn@x
+PnDF
 Point entity.
 Point under crosshair
 PointType
@@ -30768,13 +30768,12 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpT`
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpPQ
+R\vpx:
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -33134,7 +33133,6 @@ SteamSetRichPresence("%s","%s")\n
 SteamTextFilterSection
 SteamUnifiedMessages
 StepSimulationFuncRotatingAnglesSerializer
-StepSize
 Stick_Pri
 Stick_Snd
 StompBounceHeight
@@ -33560,6 +33558,7 @@ TeamHero%d
 TeamHeroes
 TeamInfo
 TeamMsgPanel
+TeamObjectiveHealthPanel
 TeamOpenMicCheckbox
 TeamPlayer
 TeamPlayers
@@ -33924,7 +33923,6 @@ TossUpStrength
 TossVelocity
 Total %d entities (%d empty)\n
 Total Memory: %d mb\n
-Total Players: %i
 Total Shadow Cache Entries: %d\n
 Total client think time: %f\n
 TotalBolts
@@ -35088,7 +35086,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr0\f
+X`hr
 Xd3h
 XfJ7
 XjfR
@@ -35293,7 +35291,7 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@AudioUtil
+\f@What information do we want to display for Weapon?
 \fAccoladeID_t
 \fCitadelMMR_t
 \fKS1
@@ -35304,7 +35302,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPl9
 \ful2
 \fy&3Gl
 \l:ArR
@@ -35516,7 +35513,6 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
-\nPPQ
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -36329,7 +36325,7 @@ Z~wl
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
 \r@h!Aq8
 \rB6uZ
-\rCCitadelZiplineSceneObjectDescAdderGameSystem
+\rCCitadel_CapturePointVData
 \rChallengeID_t
 \rChallengeID_t"
 \rCitadelMMRu_t
@@ -36576,8 +36572,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpPQ
-\vpl9
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36644,9 +36638,10 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
-`20t
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`6Pj
+`6Pk
 `:zQF
 `D$daM-l
 `DZG
@@ -36655,9 +36650,11 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`\rP\f0PQ
+`fDF
 `fPw.\vM
 `h9T~
+`ht b
+`nDF
 `o_je
 `yNT
 a null shared library handle was used
@@ -36675,6 +36672,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvDF
 aD/x
 aDSS
 aECDH
@@ -37783,6 +37781,7 @@ bloomBufferClamp
 bloomBufferScaleClamp
 bloomScale
 bloomStrength
+bloomTentFilterRadius
 bloomThreshold
 bloomThresholdWidth
 bloomUvScale
@@ -37792,6 +37791,7 @@ blue
 blueLane
 blueviolet
 blur
+blurBloomStrength
 blurrects
 bmMV
 bmNP
@@ -40282,7 +40282,6 @@ env_tonemap_controller2
 env_volumetric_fog_controller
 env_volumetric_fog_volume
 env_wind_clientside
-env_wind_controller
 env_wind_volume
 enveloped-data
 environment
@@ -42053,6 +42052,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
+hpz`g
 hr_H
 href="
 hscroll
@@ -42591,6 +42591,7 @@ info_offscreen_panorama_texture
 info_particle_system
 info_particle_target
 info_portal_link
+info_target
 info_target_choreo
 info_target_portrait_root
 info_team_relative_particle_system
@@ -45551,7 +45552,7 @@ n1Z
 n5cM
 n6j/
 n:2C[
-n<}\v<}\v<}\v<}\vinfo_target
+n<}\v<}\v<}\v<}\venv_wind_controller
 n@PK
 nCRD
 nChangeOffset < INT16_MAX
@@ -46288,9 +46289,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p0j`\
-p20\f
+p08@H^DF
+p2`g
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46301,13 +46301,13 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
+p>DF
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pFP]
 pField
 pFilter
 pG_*h
@@ -46317,6 +46317,7 @@ pIp
 pLocationEntity
 pO0h
 pOtherEntity
+pOwnerModifierEventListener_t
 pRTH
 pSPo
 pSectionData != nullptr
@@ -46624,7 +46625,6 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pb0\f
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -46977,6 +46977,7 @@ playrandom
 playtime_2weeks
 playtime_forever
 plum
+pnDF
 pngsize
 point
 point arithmetic failure
@@ -47299,7 +47300,6 @@ public.
 public.attachment
 public.filter_include_others
 public.max_distance_recipient_filter
-public.other_prop_mass_input
 public.position
 public.whizby_time_to_peak
 publicExponent:
@@ -47406,10 +47406,8 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpPQ
 r\n\vstart_index
 r\vDi
-r\vpT`
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -48064,7 +48062,6 @@ score
 scratchcolor
 scratchdepth
 screen
-screenBloomStrength
 screenWindowCenter
 screenWindowWidth
 screen_refresh

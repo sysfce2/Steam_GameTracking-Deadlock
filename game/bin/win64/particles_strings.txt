@@ -955,10 +955,7 @@ $SFXDetailBlendMode
 .?AVISceneObjectDesc@@
 .?AVISceneObjectListener@@
 .?AVISequence@@
-04\r8
 0=don't clear particle attrs at init 1=clear to zero 2=clear to 0xdb -1=clear to zero at first sim
-0D+8
-2\vpD+8
 33S@ff
 3E"F
 3E"W
@@ -1727,7 +1724,6 @@ Oscillate vector
 Oscillate vector simple
 Outflow List
 OverlayProjectionDirection
-P4\r8
 P8?2
 PARENT_PARTICLE_ID
 PARENT_PARTICLE_INDEX
@@ -1836,7 +1832,6 @@ ROPE_SEGMENT_DATA
 ROPE_SEGMENT_ID
 ROTATION
 ROTATION_SPEED
-R\fpD+8
 Rad2 Deg
 Radius from CP object
 Radius scale
@@ -2094,6 +2089,7 @@ Sim Time Max: %.2fms\n
 Sim Time Min: %.2fms\n
 Sine of angle. Input in radians, output in radians
 Snapshot load error for resource '%s': %s\n
+Sp`H
 SphericalHarmonicsTextureA
 SphericalHarmonicsTextureB
 SphericalHarmonicsTextureC
@@ -2232,8 +2228,6 @@ Z>wg}?0
 \tV_tand
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \tg_flConfigMaxCoord
-\vP4\r8
-\vpD+8
 _\tV_remainderf
 __CursorQueue__
 __FireCursorsParent__
@@ -2426,7 +2420,6 @@ operators
 optionallycompressedtangentframe
 p?33s?
 pCheckpointName
-pD+8
 pDescription
 pTagName
 particle.collection_name
@@ -2467,7 +2460,6 @@ pvec_color_black
 pvec_color_white
 quX?
 qu{bK
-r\vpD+8
 r_draw_particle_children_with_parents
 r_drawparticles
 r_particle_allowprerender

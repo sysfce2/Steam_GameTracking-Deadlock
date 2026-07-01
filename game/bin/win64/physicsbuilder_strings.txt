@@ -6798,8 +6798,8 @@ $prefix_element$
 .tif
 .vmat
 .webp
+0Dsa
 0\r%0t
-0dta
 0x%llx
 16-byte data pool
 1D Blend Has No Referenced Animations
@@ -9759,6 +9759,8 @@ Overwrite all bone data
 Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
 PARENT
+PD<s
+PDsa
 PF\n%d %d\n-1.000000\n
 POINT
 POSE_SPACE_BONE
@@ -9798,8 +9800,6 @@ ParseEXRHeaderFromMemory failed! Error message: %s\n
 Particle Configuration File
 Particle system that handles the generated model/snapshot (Must be authored specifically for this case to work properly)
 ParticleCompileBinaryIdenticalHack_underlying_struct
-Pd=s
-Pdta
 Peak Cycle
 Peak Frame
 Peak Frame Number
@@ -10047,7 +10047,7 @@ R8_UNORM
 R9G9B9E5_SHAREDEXP
 RBF Based Anim Constraint
 ROTATION
-R\vpdta
+R\vpDsa
 R_T5Y
 Radial Basis Function Type
 Radius Params CP ( Prop Group Smallest Radius / Prop Group Largest Radius / Number of Avg Objects )
@@ -10973,7 +10973,7 @@ Z\tV_powd
 [experimental] Recompute Vertices
 [procedural]
 \f?nkK=f
-\nPdta
+\nPDsa
 \nclass 
 \ndummyfilename.tif
 \ng default\n
@@ -10984,7 +10984,7 @@ Z\tV_powd
 \tV_expd
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StringAfterPrefixCaseSensitive
-\vpdta
+\vpDsa
 ]>jkT>Q3
 _CustomCommand
 _CustomCommand%d
@@ -11041,8 +11041,8 @@ _volumeatlas_
 _wjb
 _zero
 `=IhC?zm6>
-`\rP\f0dta
-`dta
+`Dsa
+`\rP\f0Dsa
 absolute
 acceleration
 accent
@@ -12629,6 +12629,8 @@ overwrite_existing_flags_only
 ownerlog
 owns_polymorphic_data
 p=f3G=
+pD<s
+pDsa
 panorama_image
 panorama_style
 panorama_video
@@ -12668,8 +12670,6 @@ pathclass
 pathnode
 pathnodeclass
 pattern
-pd=s
-pdta
 peak
 peak_attr
 peak_cycle
@@ -12805,7 +12805,7 @@ quad_bend_tolerance
 quadratic
 quaternion log
 quaternion_array
-r\fpdta
+r\fpDsa
 radius0_key
 radius1_key
 radiusScale

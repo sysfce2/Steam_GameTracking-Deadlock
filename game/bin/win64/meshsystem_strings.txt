@@ -113,7 +113,6 @@
 .?AVIShaderReloadListener@@
 .?AVIVPhysicsLegacyKeyHandler@@
 .vmdl
-2\vpDE
 2_BONE_IK
 7G/S
 8a\v6;

@@ -1,4 +1,8 @@
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+ (08@HPX`j
+ (08@HPXb@
+ (08@HPZ
+ (0X`hpz@
 %%s%%s%%d:  sv[%%%d.%ds] cl[%%%d.%ds]\n
 %s:  IGameSystem::LoopActivateAllSystems {\n
 %s:  IGameSystem::LoopDeactivateAllSystems {\n
@@ -6,7 +10,6 @@
 %s:  IGameSystem::LoopInitAllSystems(start)
 %s:  } IGameSystem::LoopActivateAllSystems done\n
 %s:  } IGameSystem::LoopDeactivateAllSystems done\n
-(fp9
 (missing)
 .?AUIVTableIndexCalculator@@
 .?AV?$CBaseAppSystem@VIDebugDrawQueueMgr@@@@
@@ -85,11 +88,11 @@
 .?AVISequence@@
 .?AVISinglePlayerSharedMemory@@
 .?AVISource2Host@@
-2\vpL
-8Fp5
+08@HR
+08@J@
 ?expf
-@08N
-@HPX`hv
+@08NT
+@HPX`hvp"
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
 APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!\n
@@ -122,14 +125,14 @@ IND)ind)"
 LightmapUV
 LightmapUVW
 OverlayProjectionDirection
-P08J`
-P08N
+P08@J@
+P08NT
+P6p=
 PackedBlobNormal
 PerVertexLighting
 PivotPaint
 PredictionDiffManager001
 PropWorldOrigin
-R\fpL
 ResponseRulesCache001
 SaveRestoreDataVersion001
 Shared memory space %s (%i) still has %i references.\n
@@ -143,9 +146,9 @@ VertexGenericIntegerData
 VertexPaintBlendParams
 VertexPaintBlendParams1
 VertexPaintTintColor
-Xf06
-\fp\vPP
+X`hr
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+aBvT
 bad 
 bentnormal
 blendindices
@@ -158,6 +161,7 @@ fast
 footstep_modifier
 forcing demo version '%s' : %s\n
 host.dll
+hpz@
 lowprecisionuv
 lowprecisionuv1
 m_bBakedTwoSided
@@ -172,11 +176,10 @@ m_bUseCompressedNormalTangent
 m_bUseShadowFastPath
 medium
 optionallycompressedtangentframe
-p08@H^
-p0j`n
+p08@H^T
+p60.
 posxyz
 prev
-r\vpL
 runleft
 runright
 scripts/surfaceproperties_footsteps.txt
@@ -189,3 +192,4 @@ valve_demo_2
 very_fast
 walkleft
 walkright
+y^Ej

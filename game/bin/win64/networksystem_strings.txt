@@ -19,7 +19,11 @@
  !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  %dms faster than direct ping of %dms
  (08@HPX`j 
+ (08@HPXb0
  (08@HPZ 
+ (08@HR0
+ (08@J0
+ (0X`hpz0
  - keeping around as cacheable shared connection
  [+add recip %d]
  [COMPLEX]
@@ -248,12 +252,15 @@
 0 bit issue, spot 3
 0 bit issue, spot 4
 08@HR 
+08@J0
 08B 
+2\vp8
+2\vpl
+3^Ej
 ::Storage_t
 <classname> <fieldname>:  spew why field was excluded from networking for classname.
 @08N
 @HPX`hv
-AA:`H
 Accepting Steam Net connection %s\n
 AckSeqNum
 Activates/deactivates net message validation
@@ -702,6 +709,7 @@ Opened Steam Net Connection on socket '%s' to %s, connection %s\n
 Order,'From','To',Bits\n
 OutSeqNumAck
 Overrides IP for multihomed hosts
+P08@J0
 P08N
 PACKET_STATUS_DROPPED
 PACKET_STATUS_INVALID
@@ -763,6 +771,8 @@ QueueChange
 QueueReplayCompatFieldChange( %s ): can't place MNetworkReplayCompatField callback on a fully fake struct (e.g., a pointed to component or object), game code should move callback on entity %d to a C_BaseEntity derived class!\n
 QueueTimeMS
 RSDS}
+R\fp8
+R\vpl
 RadianEuler
 ReadFields
 Recv
@@ -994,6 +1004,7 @@ groupindex
 groupnames
 has_network_encoding_data
 hostip
+hpz0
 huge
 identified %d entity related c++ field shadowing issues:\n
 include
@@ -1094,7 +1105,6 @@ outgoing_data_bytespersecond
 outgoing_sequence
 outgoing_sequence_start
 p08@H^
-p0j`>
 p\rP\f0!h
 packet_status
 parallel
@@ -1112,6 +1122,7 @@ previous only
 pri(%u)
 problem detected locally
 qangle_pitch_yaw
+r\vp8
 records
 regex
 regex_error

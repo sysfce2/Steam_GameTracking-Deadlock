@@ -653,8 +653,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 2\n?doItemsLayout@QListView@@UEAAXXZ
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vpD
-2\vpT
+2\vpd
 2aboutToShow()
 2accepted()
 2changed()
@@ -2524,6 +2523,7 @@ I[?setRgbF@QColor@@QEAAXNNNN@Z
 I\n?compare@QString@@QEBAHAEBV1@W4CaseSensitivity@Qt@@@Z
 I\r?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 I\r?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
+I_Ej
 IgnoreConsoleKeypress
 Ignored
 ImageAbsPathBrowse
@@ -2836,10 +2836,10 @@ RGBA\t%1\t%2\t%3\t%4
 RMouse
 RMouseDoubleClick
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
-R\fpT
+R\fpt
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vpD
+R\vpd
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 Randomize
 RandomizeGradient
@@ -3542,8 +3542,8 @@ qQ?lineTo@QPainterPath@@QEAAXAEBVQPointF@@@Z
 q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
 q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 quiet
-r\vpD
-r\vpT
+r\vpd
+r\vpt
 rebuilding
 rowspan
 sO?insertRows@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z

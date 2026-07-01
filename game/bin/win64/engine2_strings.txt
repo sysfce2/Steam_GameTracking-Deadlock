@@ -150,9 +150,8 @@
  %4u stashed frames = %12s bytes
  %i refs\n
  (08@HPX`hpx
- (08@HPX`j
+ (08@HPX`j`}
  (08@HPXb
- (08@HPZ
  (08@HR
  (0X`hpz
  (Start: 
@@ -2555,10 +2554,10 @@ $tI(knN
 00A+
 0123456789abcdef
 0123456789abcdefghijklmnopqrstuvwxyz
-08:50:47
 08@HP
-08@HR
+08@HR`}
 08@J
+08B`}
 08\fj
 0: Force z prepass off. 1: Force on. -1: Don't force
 0: Use normals reconstructed from depth. 1: Output correct normals in z prepass.
@@ -2574,7 +2573,6 @@ $tI(knN
 0\n\vserializers
 0\tV_fwrite
 0iN>/
-0vD*C
 0x%x,
 0|t?L
 0|t?uj
@@ -2585,6 +2583,7 @@ $tI(knN
 1#QNAN
 1#SNAN
 1.2.11
+11:40:08
 11Y@
 127.0.0.1
 16777215"R\n\nCMsg_CVars
@@ -2616,7 +2615,6 @@ $tI(knN
 2+.google.protobuf.FieldDescriptorProto.Label
 2/.google.protobuf.MethodOptions.IdempotencyLevel:
 200000
-20X%
 25:Q
 2CZu
 2Hax
@@ -2627,7 +2625,6 @@ $tI(knN
 2\r%2t
 2\r.PrefetchType"h\n
 2\rU2t
-2\vpp
 2i0/
 3$EE\f
 3'F^7
@@ -2679,7 +2676,6 @@ $tI(knN
 6tmT
 6uu?>
 6uu?uj
-6v*H
 7>I0
 7?GX
 7K[iu
@@ -2695,7 +2691,6 @@ $tI(knN
 8>0RF>
 8@HP:
 8A3b
-8B0X%
 8Csinf
 8Smt
 8W?i
@@ -3134,15 +3129,14 @@ $tI(knN
 ?ysB
 @ Current  :  %s\n
 @08@HPX`hpx
-@08ND*C
+@08N4
 @GetProfile_ultrafast
 @HPX
 @HPX&I
-@HPX`hv`
+@HPX`hvP
+@HV0
 @^8U)zj
-@fD*C
 @i-kuX
-@nD*C
 A command with the specified name already exists. Cannot create an alias with the same name.\n
 A dB floor of when to stop transmitting packets, the volume between this and voice_threshold will still transmit packets to allow for volume ramping.
 A file with this name is already in the pool.
@@ -3152,6 +3146,7 @@ A!;I2
 A2r>
 A7/s
 A>pP&
+AA:P
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
@@ -3339,6 +3334,7 @@ Automatically records all games as SourceTV demos.
 Av8I5
 Avestan
 A{v8
+B HY
 B2Bk
 B5@S
 B86!
@@ -5573,8 +5569,6 @@ G|u0J\n
 H$6t
 H*0"ZOW
 H.FM
-H5P`
-H5R`
 HD?0
 HGR9\f
 HH:mm:ss
@@ -5597,7 +5591,6 @@ HardCancel
 HasField
 HasLegacyGameUI
 HasModAppSystems
-HeO`
 Hebrew
 Hello world!
 HelpSystem_001
@@ -5828,10 +5821,10 @@ January
 Javanese
 JiYMm
 Joystick
+Jul  1 2026
 July
 JumpOrLeap( C%d:I%d )
 Jumping to random tick %d (%.2f min)\n
-Jun 30 2026
 June
 JustInTime Resource Spawn Group
 JustInTimeManifest
@@ -6524,7 +6517,7 @@ Overrides the max players reported to prospective clients
 Overriding minidump handler with Engine2MinidumpFunction\n
 P08@J
 P08J
-P08ND*C
+P08N4
 P4File
 P:S;A
 P?fff?33s?{
@@ -6804,7 +6797,6 @@ Playing Broadcast (%s)
 Playing Demo (%s)
 Playing back demo: '%s' at tick %u\n
 PmNk
-PnD*C
 Pointers cannot be used as numeric values
 PollAndProcessInput
 Poor man's restart: reload the current map from disk.
@@ -6987,7 +6979,6 @@ RP_PAUSE
 RP_TOGGLEPAUSE
 RSDSh
 RST%d
-R\fpp
 RaiseException
 Random Float
 Random Integer
@@ -8599,7 +8590,6 @@ X\n'NETWORK_DISCONNECT_BADSPECTATORPASSWORD
 X\n'NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
 X\n'NETWORK_DISCONNECT_KICKED_NOSTEAMTICKET
 X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
-X`hr
 Xn1G
 Xr?9
 XsBI
@@ -8615,7 +8605,6 @@ You are trying to unmount addon '%s', but SetAllowAddonChanges is false which pr
 You have been kicked and banned %s by the server.\n
 Your current chat group is "%s"\n
 YpU_Z
-YzQ`
 Z-google.golang.org/protobuf/types/descriptorpb
 Z48wN39
 Z6y\r?
@@ -9169,7 +9158,6 @@ _spawngroup_logging/log_%s_group_%s.txt
 _temp_mapcycle.txt
 `-uRQg
 `3Q"X
-`60\nH
 `?m'_?&~]?(
 `RTTI
 `adjustor{
@@ -9183,7 +9171,6 @@ _temp_mapcycle.txt
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`fD*C
 `generic-class-parameter-
 `generic-method-parameter-
 `generic-type-
@@ -9197,7 +9184,6 @@ _temp_mapcycle.txt
 `managed vector constructor iterator'
 `managed vector copy constructor iterator'
 `managed vector destructor iterator'
-`nD*C
 `non-type-template-parameter
 `omni callsig'
 `placement delete closure'
@@ -9229,7 +9215,7 @@ a numbered reference must not be zero
 a&M-=Z]<i*k)n-t&q&p&|
 a6>r
 a?wSa?\
-aBvD*C
+aBv4
 a\tV_roundd
 a\v4+Wk
 abcdefghijklmnopqrstuvwxyz
@@ -9354,7 +9340,6 @@ avi
 avisound 
 b"Iq
 b#M**y`Bl+o(u,{ x$w!
-b0X%
 b0xNA;;|E)!
 b3>7
 b?qq
@@ -9965,7 +9950,6 @@ f5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
 f9U\n
 f?3Jf?6
 fD""B
-fD*C
 fD>b
 fDD"AUDT$t
 fP~V
@@ -10732,7 +10716,6 @@ n>sak><
 n?A6
 n?SZn?
 nBits != 32
-nD*C
 nGh>
 nI9>h
 nMax
@@ -10950,21 +10933,17 @@ overwatch
 owM&
 owner dead
 oz>!km>
-p08@H^D*C
-p0j 
+p08@H^4
 p0p@
-p20X%
 p2p_listpeers
 p2p_ping "%s"
 p4edit
-p>D*C
 p?ff
 p@HPX`h\f
 pClass
 pClass->m_ClassID(%i) >= %i\n
 pClient
 pCm)
-pF@\fH
 pH\fy
 pMessage
 pServerClass
@@ -11038,7 +11017,6 @@ playing %s from '%s'\n
 playsound
 playsound 
 playsound <soundname>
-pnD*C
 png 
 png_screenshot
 pointer, 
@@ -11122,7 +11100,6 @@ rEy5
 rFg7
 r\tV_sscanf
 r\tVr.>T
-r\vpp
 r_add_views_in_pre_output
 r_always_render_all_windows
 r_aspectratio
@@ -11992,7 +11969,6 @@ utl_vector,
 utlstringtoken
 uzKs@>
 v2!L.2
-vD*C
 vE-2
 vQO+t
 vWewe

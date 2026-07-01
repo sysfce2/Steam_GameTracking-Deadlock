@@ -8053,7 +8053,7 @@ $prefix_element$
 2\n?doItemsLayout@QListView@@UEAAXXZ
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vpH
+2\vpX
 2_BONE_IK
 2aboutToShow()
 2accepted()
@@ -13829,7 +13829,6 @@ ROTATION
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vpp
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Rad2 Deg
@@ -16582,7 +16581,7 @@ group_title
 grow_or_shrink
 guide_hair_count
 hResource
-hS(f
+hS(V
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
 h\tV_sind
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z

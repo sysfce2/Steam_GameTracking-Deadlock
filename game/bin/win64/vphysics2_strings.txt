@@ -421,14 +421,13 @@
 .rnsave
 .vmdl
 /%u.rnsave
-04W1
 0\r%0t
-0tU1
+0tW1
 0x%08X 
-0xB1
 2\vp!T
-2\vp$57
-2\vp4W1
+2\vp457
+2\vp<V1
+2\vptW1
 2_BONE_IK
 4\r54t
 8a\v6;
@@ -835,7 +834,6 @@ Predict
 Pressure
 PropWorldOrigin
 PushBack
-PxB1
 QAngle
 QUAT_ORTHOTWIST_JOINT
 Quadric Error Metric
@@ -850,7 +848,7 @@ REVOLUTE_JOINT
 REVOLUTE_WELD_FUSED_JOINT
 ROTATION
 RSDS\r
-R\fp4W1
+R\fptW1
 RagdollBodies
 Relax
 Relax vmap
@@ -986,10 +984,8 @@ Wrong alignment %d\n
 [1] Resolve Contacts
 [4] Touch Found
 [8] Touch Persists
-\fp\v`4W1
-\fp\v`xB1
+\fp\v`tW1
 \nLocal anchors: {%g,%g,%g}, {%g,%g,%g}\n
-\nPtU1
 \ng default\n
 \t%2d.  %16llx - %s%s\n
 \t%d. %4x - %s\n
@@ -999,7 +995,7 @@ Wrong alignment %d\n
 \tg_bUpdateStringTokenDatabase
 \tg_flConfigMaxCoord
 _____Bytes %-30s[body]\n
-`4W1
+`tW1
 acosf
 adult male human
 always
@@ -1290,7 +1286,6 @@ optionallycompressedtangentframe
 orientation
 other
 other 
-p4W1
 pModule->%s( 0x%llX )\n
 pObject
 pSkeletonPose
@@ -1322,10 +1317,11 @@ pointer not found in module list\n
 posxyz
 preMerge face 0
 preMerge face 1
+ptW1
 ptestbed
 pushaway
 pz_clip
-r\vp4W1
+r\vptW1
 race horse
 really freaking heavy
 recorded_forces

@@ -1345,7 +1345,6 @@ $toolgraphs
 .vsnd
 12dB
 1e<w 
-2\vpdz:
 33s?
 8fff?fff?fff?fff?
 <EMPTY>
@@ -1418,6 +1417,7 @@ C:\buildworker\citadel_rel_win64\build\src\soundsystem\snd_op_sys\sos_system.cpp
 C:\buildworker\citadel_rel_win64\build\src\soundsystem\snd_wave_mixer_mp3.cpp
 C:\buildworker\citadel_rel_win64\build\src\soundsystem\vmix.cpp
 C:\buildworker\citadel_rel_win64\build\src\soundsystem\vsound_manager.cpp
+CAssociateResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!\n
 CAsyncWavDataCache:  %i sounds total %s, %.2f %% of capacity\n
 CAudioDecoderWaveMP3::OpenHandle
 CAudioMixThread::MixAudioFrame
@@ -1753,7 +1753,7 @@ Exponential
 Exponential Ramp
 Extra taps
 Extract Source
-F8*K
+F8\nK
 FIELDATA COMPARE FAIL: %s->%s\n
 FIELDATASIZE COMPARE FAIL: %s->%s\n
 FIELINFO COMPARE FAIL: %s->%s\n
@@ -2326,7 +2326,6 @@ Z\tV_powd
 \nSOS PRINT STRING: %s: %s\n
 \nType Name: %s\n
 \nUpdate SoundEvent: %s\n
-\rCAssociateResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!\n
 \t dspmix %1.2f : lvol %1.2f : cvol %1.2f : rvol %1.2f : rlvol %1.2f : rrvol %1.2f\n
 \t x: %4f y: %4f z: %4f\n
 \tRefs %16s : Name (Locks)\n
@@ -3728,6 +3727,7 @@ transmissionHigh
 transmissionLow
 transmissionMid
 trigger
+u_Ej
 updateVoice
 update_stack
 use_entity_position_if_local_player

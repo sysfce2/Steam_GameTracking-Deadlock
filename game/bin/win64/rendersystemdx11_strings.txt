@@ -326,8 +326,8 @@
 7xicuU
 8"3hrf
 8&Kx
-8F7O
-8FYC
+8FGE
+8Fi9
 9&aJ
 969p
 :AM:am:PM:pm
@@ -344,7 +344,6 @@
 >-memory-
 ?ParseEXRHeaderFromMemory() failed! Error message: %s\n
 ?fff?
-@6P0
 @Integer overflow in %s
 AGS Library initialization failed: %d\n
 AGS Library initialized: v%d.%d.%d\n
@@ -1352,7 +1351,7 @@ RDEF|\t
 RENDERDOC_GetAPI
 RESOURCE_MANIPULATION
 RESOURCE_TYPE_TEXTURE
-R\vpD
+R\vpT
 R_T5Y
 RawDataUniqueID
 RayReconstruction.Hint.Render.Preset.Balanced
@@ -1793,6 +1792,7 @@ Z\tV_powd
 \tg_TSPointerListNodes
 \tpSubResource[ array %d mip %d ]: pSysMem = %p sysMemPitch = %d SysMemSlicePitch = %d\n
 \tpTextureBitsData = %p\n
+\vp4i
 _DOD3D
 _INTC_CreateDeviceExtensionContext
 _INTC_D3D11_BeginUAVOverlap
@@ -1881,7 +1881,7 @@ _psrs
 _rtx
 _tools.txt
 _wjb
-`68B
+`6H8
 agsDeInitialize
 agsDriverExtensionsDX11_CreateDevice
 agsDriverExtensionsDX11_CreateDevice failed %x, disabling AGS.\n
@@ -2103,7 +2103,7 @@ psrs
 q!T9MiZ
 r1?1
 rP1`=RO
-r\fpD
+r\fpT
 r_dilatedDepth
 r_dilated_motion_vectors
 r_dilated_reactive_masks

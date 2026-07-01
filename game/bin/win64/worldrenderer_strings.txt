@@ -151,6 +151,7 @@ Hitbox indexing is incorrect for set %s, hitbox %s. Hitboxes will not be setup p
 IKV3TransferInterface_AllowRawStringTokenTransfer
 IKV3TransferInterface_ResourceSave
 Inconsistent treatment of '%s' (existing key is %s)!\n
+J_Ej
 KV3 load transfer failed for resource '%s': %s
 KeyValues3
 Lightmap version number is out of date! Reverting to dynamic lighting
@@ -176,6 +177,7 @@ RESOURCE_TYPE_WORLD_VIS
 RSDSyj
 RTProxyGeometry
 RTProxyUniqueAlbedo
+R\vpT
 ResourceCompiler/BakedLighting/Version
 ResourceCompiler/DefaultMapBuilders/bakedlighting
 ResourceCompiler/DefaultMapBuilders/dontrequirebakedlighting
@@ -259,6 +261,7 @@ medium
 modellib
 optionallycompressedtangentframe
 posxyz
+r\fpT
 resourcesystem
 slow
 standard

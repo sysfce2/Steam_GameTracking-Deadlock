@@ -210,11 +210,10 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
- .pC3
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
- @snd_occlusion_debug
+ @SceneCoordinatorRequest
  ACTIVE GROUP
  Damage Dealt to Trooper Boss
  Damage Taken from Player
@@ -2065,8 +2064,7 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0Q3
-.0Z3
+.0P2
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14115,8 +14113,8 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PL3
-.PZ3
+.PO2
+.PX2
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14404,6 +14402,8 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
+.pJ2
+.pX2
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14470,7 +14470,7 @@ $light_emissive
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
-0>P.3
+0>p,2
 0AgffA
 0M2~@p
 0W/5
@@ -14636,9 +14636,9 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vp4
 2^pV
 2_BONE_IK
+2_Ej
 2_tasks_left
 2a"l
 2bT~
@@ -14746,14 +14746,13 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 E3
-6 Z3
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
+60K2
 62$|S)6f
 64CK\vH
 65535
@@ -14761,8 +14760,10 @@ $light_emissive
 65535"j\n
 65535B$
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666kill eater score type
+6666666666666666desc_level
 67-s
+6@C2
+6@X2
 6H,N
 6O|T%
 6Qd=
@@ -14776,7 +14777,6 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`03
 6afD
 6bX+
 6c&0|vvX
@@ -14784,7 +14784,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pE3
+6p\f2
 6qo~
 6r-m_v
 6r1ij
@@ -14834,8 +14834,6 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8F`-3
-8Fp,3
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14935,7 +14933,7 @@ $light_emissive
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;DCGameScriptedMoveDef_t
+;DSource2GameEntities001
 ;LGEW
 ;Qo0
 ;X94<
@@ -15012,7 +15010,6 @@ $light_emissive
 ========================================\n\n
 ================\n
 =CNmTransitionNode::CDefinition
-=CParentConstraint
 =O?AqP
 =Q9M
 =\n9GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_GENERIC_FLAG
@@ -15072,13 +15069,11 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->p13
 >yhP
 >ztq
 ?333?
 ?33s?
 ?CAnimFoot
-?CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<int,class CUtlString,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<int,class CUtlString,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int>::AddMultipleToTail
 ?HAI\t81\t9dcG'
 ?HP4
 ?VBH;
@@ -15094,7 +15089,8 @@ $light_emissive
 ?ffffff
 ?gwL
 ?jOb
-?modifier_priest_stackingdefense
+?levellist_t
+?m_KnockbackToWallModifier
 ?srJO
 ?tya
 ?uWS
@@ -15103,7 +15099,6 @@ $light_emissive
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
-@6p#3
 @BH]f
 @HPX`hv
 @MfKZ
@@ -15141,7 +15136,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA: N
+AA: Z
 AABBDirection
 AACompromise
 AC2,h
@@ -15862,13 +15857,11 @@ BAD INTEGER
 BAD RECURSION DEPTH\n
 BAD-TYPE
 BADFUNCTIONPOINTER
-BAI_SensingFlags_t
 BASIC_CONSTRAINTS
 BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
-BCPulseServerFuncs::CountEntitiesWithName
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -15972,6 +15965,7 @@ BOOL ABSENT
 BOOLEAN
 BOT TEST: Bot %s failed moving to node %s\n
 BOUNDARY
+BPrint some text to the game window.
 BREAKABLE
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
@@ -16111,6 +16105,7 @@ Batched Snapshot response without corresponding waiting handle! (%d)
 BatteryGenerationPercent
 BcT`
 Bd]U
+Bdebug_ai_heat_sensing
 BeamCloseDamagePercent
 BeamCloseRadius
 BeamDamageOutput
@@ -18572,6 +18567,7 @@ CPulseServerFuncs::ClearEntityMoveTypeOverride
 CPulseServerFuncs::ClearStanceOverride
 CPulseServerFuncs::ClearTargetIdentifierOverride
 CPulseServerFuncs::ConCommand
+CPulseServerFuncs::CountEntitiesWithName
 CPulseServerFuncs::CreateExplosion
 CPulseServerFuncs::CreatePhysicsBallSocketConstraint
 CPulseServerFuncs::CreatePhysicsConstraint
@@ -19063,6 +19059,7 @@ CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<enum EAbilitySlot
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<enum EAbilitySlots_t,class CHandle<class CBaseEntity>,class CDefEquals<enum EAbilitySlots_t>,struct HashMapFunctor_t<enum EAbilitySlots_t>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<enum EAbilitySlots_t,class CHandle<class CBaseEntity>,class CDefEquals<enum EAbilitySlots_t>,struct HashMapFunctor_t<enum EAbilitySlots_t>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<enum EAbilitySlots_t,class CHandle<class CCitadelBaseAbility>,class CDefEquals<enum EAbilitySlots_t>,struct HashMapFunctor_t<enum EAbilitySlots_t>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<enum EAbilitySlots_t,class CHandle<class CCitadelBaseAbility>,class CDefEquals<enum EAbilitySlots_t>,struct HashMapFunctor_t<enum EAbilitySlots_t>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<int,bool,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<int,bool,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int>::AddMultipleToTail
+CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<int,class CUtlString,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<int,class CUtlString,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<int,class Vec3D<float>,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<int,class Vec3D<float>,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<int,enum EDirectorAssignment,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<int,enum EDirectorAssignment,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<int,float,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<int,float,class CDefEquals<int>,struct HashMapFunctor_t<int>,int>::HashBucket_t,int>::AddMultipleToTail
@@ -19343,6 +19340,7 @@ CWorkThread -- Sleep
 CWorkThreadPool::StartWorkThread: Thread creation failed.\n
 CWorkThreadPool::~CWorkThreadPool: work complete queue not empty, %d items discarded.\n
 CWorkThreadPool::~CWorkThreadPool: work processing queue not empty: %d items discarded.\n
+CXQ^
 C[L6
 C\lVQ
 C\n?k_EGCMsgInitiateTradeResponse_Free_Account_Initiator_DEPRECATED
@@ -21570,7 +21568,6 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FP43
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21936,6 +21933,7 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
+Fp22
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -21977,7 +21975,7 @@ G0Tv~:
 G1b1
 G2bQ
 G2xVo\?
-G@T\tJsay
+G@T\tJ
 GAME_HEADER
 GBd<}v
 GC Connection established for server version %u\n
@@ -25772,6 +25770,7 @@ P08J`
 P08N
 P1\t98"
 P5[1
+P60C2
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26405,7 +26404,6 @@ Prime:
 Print a console message with a linked console command
 Print a hud message on all clients
 Print some text to the game window above an entity.
-Print some text to the game window.
 PrintLinkedConsoleMessage
 Printing %d %s response symbols:\n
 PriorityBounceRadius
@@ -26737,7 +26735,6 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
-R\fp4
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\r1>Vp
@@ -27634,7 +27631,6 @@ ScatterDir
 Scene %s has %d actors, but scene entity only has %d actors\n
 Scene '%s' with two stop point events!\n
 Scene sequences are unavailable in Left4Dead.\n
-SceneCoordinatorRequest
 SceneFile
 SceneFileCache002
 SceneNode Hierarchy For %d:\n
@@ -30210,7 +30206,6 @@ V3 s
 V3_ADDR_VALIDATE_PATH_INTERNAL
 V3_GENERIC_EXTENSION
 V5u f
-V@R3
 VALV
 VALVw
 VDPr
@@ -30251,6 +30246,7 @@ V\n\vItemCharges
 V\rKk
 V_a|I
 V_strcmp( pDataMap->dataClassName, pCodeClass ) == 0
+V`P2
 VacuumRadius
 ValidatePrivateScriptScope
 ValidateVertices
@@ -30722,8 +30718,8 @@ XYD%
 X\tQo
 X`hr@
 Xd3h
+Xf .2
 XfJ7
-Xfp/3
 XjfR
 XqgA+
 Xuub
@@ -32005,6 +32001,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`ht0
 `o_je
 `yNT
 a null shared library handle was used
@@ -34339,6 +34336,7 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
+dP\tp
 dSAQuality
 dWry
 dZ!2.
@@ -34527,7 +34525,6 @@ desc_itemset_equipped
 desc_itemset_missing
 desc_itemset_name
 desc_legendary
-desc_level
 desc_limited_use
 desc_mythical
 desc_rare
@@ -37606,6 +37603,7 @@ keys not set
 keyvalue
 kill eater
 kill eater 2
+kill eater score type
 kill eater score type 2
 kill eater user 1
 kill eater user 2
@@ -37759,7 +37757,6 @@ lerp_target_attachment
 less actives bias
 lethaldamageme
 level
-levellist_t
 levels
 levelup_rule
 lhash part of OpenSSL 1.0.2j  26 Sep 2016
@@ -39244,6 +39241,7 @@ modifier_priest_flashbangburn
 modifier_priest_flashbangburnaura
 modifier_priest_immobilize
 modifier_priest_knockback_buff
+modifier_priest_stackingdefense
 modifier_priest_tether
 modifier_priestknockback
 modifier_pristine_emblem
@@ -39601,7 +39599,6 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nP33
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39912,6 +39909,7 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
+np12
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -40515,7 +40513,6 @@ pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
 pcPathLengthConstraint
-pdump_modifier_message_count
 peak_memory_bytes
 pedestal_itemdef
 peek_item_defs
@@ -41141,7 +41138,6 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
-r\vp4
 rad2deg
 radial
 radialalt
@@ -42783,6 +42779,7 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
+tR\tp
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -44122,7 +44119,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-zDList of heroes to choose from that should follow a player around
+zDMagazines
 zF):O4
 zFar
 zG2m8
@@ -44183,6 +44180,5 @@ zz2K
 ~P2T
 ~R65Fu
 ~jLRG
-~pR3
 ~w]UG
 ~yhZ

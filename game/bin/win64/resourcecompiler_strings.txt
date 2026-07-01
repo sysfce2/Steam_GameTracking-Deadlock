@@ -167,8 +167,10 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (08@HPX`j0
+ (08@HPXb@d;
  (08@HPZ0
  (08@J0
+ (0X`hpz@d;
  (Bad Remap %d)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -20249,8 +20251,8 @@ $prefix_element$
 0123456789)"
 02V8[
 05=k
-08:52:54
 08@HR0
+08@J@d;
 08B0
 08bX
 09,h
@@ -20275,6 +20277,7 @@ $prefix_element$
 1 vertex
 1!1'1-191C1E1K1]1a1g1m1s1
 1.0 - FractionalPart( A ) 
+11:42:33
 11nN
 12'0
 1280x720
@@ -20307,7 +20310,6 @@ $prefix_element$
 2)252Y2]2c2k2o2u2w2{2
 2)Ab`
 2+~,@\r;Zj09
-20l;
 20t\f
 241:1: FLOAT : ( ( MINUS )? ( DIGIT )+ '.' ( DIGIT )* ( EXP )? ( FLOATSUFFIX )? | ( MINUS )? ( DIGIT )+ ( EXP )? ( FLOATSUFFIX )? | ( MINUS )? '.' ( DIGIT )+ ( EXP )? ( FLOATSUFFIX )? );
 24U\n
@@ -20325,14 +20327,14 @@ $prefix_element$
 2DBlendEditor
 2DBlendFromAnimation
 2I y)
-2Pd;
 2Tm=#
 2Uiwp"9
 2Zq)
 2\fWQx
 2\rE2h
 2\rlhp
-2\vpt
+2\vpT
+2\vph
 2^pV
 2_BONE_IK
 2a"l
@@ -20382,7 +20384,6 @@ $prefix_element$
 4\fPl
 4\r54t
 4f h
-4pe;
 4tpD
 4zj@1;IJ
 5'0v2ZP
@@ -20654,7 +20655,6 @@ $prefix_element$
 ?Exception@TryCatch@v8@@QEBA?AV?$Local@VValue@v8@@@2@XZ
 ?Exit@Context@v8@@QEAAXXZ
 ?Exit@Isolate@v8@@QEAAXXZ
-?Failed to create anim adapter
 ?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@I@Z
 ?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@@Z
 ?GetCurrent@Isolate@v8@@SAPEAV12@XZ
@@ -20667,6 +20667,7 @@ $prefix_element$
 ?PermModelData_t
 ?SelectionSource_t
 ?VBH;
+?clip_raw_size
 ?d86L
 ?dt]X
 ?func_ladder
@@ -20684,16 +20685,17 @@ $prefix_element$
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
-@08N
+@08Nt
 @0pp
 @BH]f
 @CMixControlAutomatic
-@HV0
+@HPX`hv@
 @Integer overflow in %s
 @MfKZ
 @Pgl
 @Pu\rm
 @RayTracingEnvironment::RefineNode
+@V@const char *__cdecl Reflection::Internal::GetFuncName<class CAnimNodeInstanceBase>(void)
 @V@const char *__cdecl Reflection::Internal::GetFuncName<class IPairedSequenceComponentInstance>(void)
 @WE]X
 @X!pf
@@ -20774,7 +20776,6 @@ A9ur
 A<fP
 A>x8
 AA Compromise
-AA:0
 AACompromise
 AC2,h
 ACCESS_DESCRIPTION
@@ -21827,6 +21828,7 @@ Base class for animation markup nodes which generate user animation data
 Base class for animations which are nodes that map to a compiled animation
 Base class for nodes which can be children of AnimMarkupTarget derived nodes
 Base class for nodes which can be children of FaceposerMarkupBase derived nodes
+Base morphs not supported anymore
 Base-10 logarithm
 Base-2 logarithm
 BaseAnimGraph2Reference
@@ -24735,7 +24737,6 @@ Could not bind %s to proxy (%d/%d verts did not bind)\n
 Could not compile Property source
 Could not compile inparam Source
 Could not compile inparam array
-Could not compile morph texture
 Could not create HairMetaData( %s ) node
 Could not create ModelDoc1DBlend( %s ) node
 Could not create ModelDocAnim( %s ) node
@@ -27142,6 +27143,7 @@ Failed to convert introspected block: %s\n
 Failed to convert relative path to full path.  Relative path: %s
 Failed to copy material remaps into pieces child document
 Failed to copy node '%s'\n
+Failed to create anim adapter
 Failed to create associate compiler context for "%s"\n
 Failed to create child compile context while compiling graph variation: %s
 Failed to create child compiler context for "%s"\n
@@ -30616,8 +30618,11 @@ P-224
 P-256
 P-384
 P-521
-P08N
+P08@J@d;
+P08JP
+P08Nt
 P1\t98"
+P2@d;
 P5[1
 PAGN_4
 PARAMETERS
@@ -31655,10 +31660,11 @@ RSDSX
 RT Proxy albedo: %s verts / %s.  %i/%i instances with unique data.\n
 RT Proxy geometry: %s verts / %s, %s indices / %s.  Duplicated %i verts due to partitions\n
 RT60 for low, mid, and high frequency bands for the probe.
+R\fph
 R\r1>Vp
 R\vp!6
 R\vp!y
-R\vpt
+R\vpT
 R]Di
 R_T5Y
 Rad2 Deg
@@ -35088,7 +35094,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPL
 \ful2
 \fy&3Gl
 \l:ArR
@@ -35177,6 +35182,7 @@ Z~wl
 \n//\n// Fog Irradiance Volume\n//\n
 \n//\n// Light Probe Volumes\n//\n
 \n//\n// Lightmap\n//\n
+\n3d0
 \n5a=Z
 \n:82H
 \n==============================================================================================\n
@@ -35213,7 +35219,7 @@ Z~wl
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
 \r@h!Aq8
 \rB6uZ
-\rBase morphs not supported anymore
+\rCould not compile morph texture
 \rKT8v
 \rLAM
 \rMinghuaQu\f
@@ -35523,7 +35529,6 @@ _xU`u
 _zero
 _}eOk
 `28)fk
-`2Pd;
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `=IhC?zm6>
@@ -35553,6 +35558,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvt
 aD/x
 aDSS
 aECDH
@@ -36708,7 +36714,6 @@ clip_compressed_size
 clip_compression_ratio
 clip_compression_time
 clip_name
-clip_raw_size
 clipmap_levels
 close_outline_at_hard_edges
 closed
@@ -37148,7 +37153,6 @@ const char *__cdecl Reflection::Internal::GetFuncName<class CAnimGraphSettingsGr
 const char *__cdecl Reflection::Internal::GetFuncName<class CAnimInputDamping>(void)
 const char *__cdecl Reflection::Internal::GetFuncName<class CAnimMotorInstance*>(void)
 const char *__cdecl Reflection::Internal::GetFuncName<class CAnimMotorInstance>(void)
-const char *__cdecl Reflection::Internal::GetFuncName<class CAnimNodeInstanceBase>(void)
 const char *__cdecl Reflection::Internal::GetFuncName<class CAnimParameterBase*>(void)
 const char *__cdecl Reflection::Internal::GetFuncName<class CAnimParameterBase>(void)
 const char *__cdecl Reflection::Internal::GetFuncName<class CAnimParameterConflict>(void)
@@ -39401,6 +39405,7 @@ horizontal differencing
 horizontal_pose_param_name
 houdini
 houseIdentifier
+hpz@d;
 hr_H
 hsequence
 http request
@@ -42334,7 +42339,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
+p08@H^t
+p0j 
+p2@d;
 p2{l
 p4Z3
 p4lib
@@ -42517,7 +42524,7 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
-pc64 Jun 30 2026 08:52:45
+pc64 Jul  1 2026 11:42:43
 pcPathLengthConstraint
 peak
 peak_attr
@@ -42983,6 +42990,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vph
 rad2deg
 radians
 radius0_key
