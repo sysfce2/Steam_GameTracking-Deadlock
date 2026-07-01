@@ -2278,7 +2278,7 @@
 
 		"citadel_ability_shiv_dash"				"Slice and Dice"
 		"citadel_ability_shiv_dash_quip"		"Dash ahead, damaging all enemies along the path"
-		"citadel_ability_shiv_dash_desc"		"Perform a <span class=\"highlight\">dash forward, damaging enemies along the path</span> and <span class=\"highlight\">increases the damage</span> they take from you. This debuff can stack."
+		"citadel_ability_shiv_dash_desc"		"Perform a <span class=\"highlight\">dash forward, damaging enemies along the path</span>.  Hit Enemies have their {g:citadel_inline_attribute:'SpiritResist'} reduced. This debuff can stack."
 		"citadel_ability_shiv_dash_ult_desc"	"<br>Ultimate Unlock: <span class=\"highlight\">While rage is full</span> an echo of Shiv retraces the dash path after a short delay, damaging enemies again."
 		"citadel_ability_shiv_dash_t3_tooltip"	"On hit"
 		"DashRange_label"							"Dash Range"
@@ -2299,7 +2299,7 @@
 		"modifier_citadel_shiv_dash_impact_slow"	"Slice and Dice"
 		"modifier_shiv_dash_heal_reduction"		"Slice and Dice Heal Debuff"
 		"BurstFireOnHeroHit_postfix"				"s"
-		"citadel_ability_shiv_dash_t2_desc"		"<span class=\"highlight\">+{s:VulnerabilityPerStack}%</span> Damage Amp<br><span class=\"highlight\">+{s:DashRange}m</span> Dash Range"
+		"citadel_ability_shiv_dash_t2_desc"		"<span class=\"highlight\">{s:TechArmorDamageReduction}%</span> Spirit Resist<br><span class=\"highlight\">+{s:DashRange}m</span> Dash Range"
 
 		"citadel_ability_shiv_dash_t3_desc"		"<span class=\"highlight\">+{s:ImpactDamage}</span> Impact Damage<br><span class=\"highlight\">-{s:CooldownReductionOnHit}s</span> Cooldown per Hero hit."
 

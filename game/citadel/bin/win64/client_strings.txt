@@ -90,10 +90,12 @@
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
  (08@HPX`j
- (08@HPXb`g
+ (08@HPXb0f
  (08@HPZ
- (08@HR`g
- (0X`hpz`g
+ (08@HR0f
+ (08@J0f
+ (0X`hpz0f
+ (20f
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2461,7 +2463,7 @@ $hRh
 (0x%08X)'??'
 (5Me
 (5jP
-(?CBuoyancyHelper
+(?WaterWheelDrag_t
 (ACTIVE)
 (App Id to retrieve published files from.
 (BZq
@@ -3002,7 +3004,6 @@ $hRh
 )\n\nQueryParam
 )\n\taux_stats
 )\n\tdir_index
-)binary_zstd
 )fuG
 )haI
 *%*/*O*U*_*e*k*m*s*
@@ -5254,7 +5255,6 @@ $hRh
 .?AV?$CModifierFactory@VCCitadel_Modifier_Shield@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ShieldImpact@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ShivDash@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_ShivDashDebuff@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Shiv_KillingBlow_Leap@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Shivas_Bracelet_Watcher@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Shrink_Ray@@$0PPPP@@@
@@ -8465,7 +8465,6 @@ $hRh
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Shield@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ShieldImpact@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ShivDash@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_ShivDashDebuff@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Shiv_KillingBlow_Leap@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Shivas_Bracelet_Watcher@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Shrink_Ray@@VCBaseModifier@@@@
@@ -12330,7 +12329,6 @@ $hRh
 .?AVCCitadel_Modifier_Shield@@
 .?AVCCitadel_Modifier_ShieldImpact@@
 .?AVCCitadel_Modifier_ShivDash@@
-.?AVCCitadel_Modifier_ShivDashDebuff@@
 .?AVCCitadel_Modifier_ShivDashVData@@
 .?AVCCitadel_Modifier_Shiv_KillingBlow_Leap@@
 .?AVCCitadel_Modifier_Shivas_Bracelet_Watcher@@
@@ -16778,7 +16776,7 @@ $hRh
 02V8[
 05=k
 08@HR
-08@J`g
+08@J0f
 08bX
 09,h
 0:00
@@ -16821,7 +16819,6 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vDF
 0x%4.4x 
 0x%X
 0x%X 
@@ -17043,7 +17040,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpx:
+2\vpH9
 2^pV
 2a"l
 2bT~
@@ -17259,6 +17256,7 @@ $hRh
 8<pl
 8= zp
 8A6j
+8B0\f
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17505,7 +17503,6 @@ $hRh
 >\n\vitemdetails
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >fN46R^
->h5n
 >l\rur
 >p00<
 >yhP
@@ -17519,12 +17516,10 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CCitadel_Ability_ShadowPulse_VData
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CitadelParty
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
-?ELOSCheck_Bounds
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17553,6 +17548,8 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
+?citadel_ability_necro_gravestone
+?citadel_tutorial_controller
 ?d86L
 ?dt]X
 ?expf
@@ -17564,13 +17561,12 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NDF
+@08N
 @0pp
-@60g
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
-@HPX`hv
+@HPX`hv`
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17587,14 +17583,12 @@ $hRh
 @\tV_iswcntrl
 @absorigin_follow
 @dKb]
-@fDF
 @fff>fff>fff>fff>
-@htP
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
+@m_iCurrentShotCount
 @n2w
-@nDF
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -17621,7 +17615,7 @@ ACTIVATE_TYPE_DATAUPDATE_CREATION
 ACTIVATE_TYPE_INITIAL_CREATION
 ACTIVATE_TYPE_ONRESTORE
 ACTOR
-ACUserMessageVoiceMask_t
+ACUserMessageDesiredTimescale_t
 AD Time Stamping
 ADD_CERT_DIR
 ADH-AES128-GCM-SHA256
@@ -18819,7 +18813,6 @@ BlurOutput
 BlurVert
 BlurVisionRange
 Blur_DistanceField_t
-Bm_bDucked
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -18921,8 +18914,8 @@ BookChapterLink
 BookChoice
 BookChoiceNavButton
 BookCover
+BookCustomXMLPage
 BookID_t"
-BookImagePage
 BookImageSequence
 BookInfo
 BookItemUnlock
@@ -19302,7 +19295,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2463
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:426
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2119
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2024
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2130
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
@@ -21271,7 +21264,6 @@ CUserMessageCreditsMsg_t
 CUserMessageCurrentTimescale
 CUserMessageCurrentTimescale_t
 CUserMessageDesiredTimescale
-CUserMessageDesiredTimescale_t
 CUserMessageEmpty
 CUserMessageFade
 CUserMessageFade_t
@@ -21323,6 +21315,7 @@ CUserMessageTextMsg_t
 CUserMessageUpdateCssClasses
 CUserMessageUpdateCssClasses_t
 CUserMessageVoiceMask
+CUserMessageVoiceMask_t
 CUserMessageWaterShake
 CUserMessageWaterShake_t
 CUserMessage_DllStatus
@@ -25324,7 +25317,6 @@ ExtraTargetHorizontalOffset
 EyeOcclusionDS.vtex
 EyeOcclusionPingPongRT_%dx%d.vtex
 EyeOcclusionRT.vtex
-F Nj
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -27787,6 +27779,7 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
+L=Hfl
 L>ff
 L?fff?
 L@4T
@@ -28172,7 +28165,7 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MBookCustomXMLPage
+MBookImagePage
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -29461,12 +29454,14 @@ P-224
 P-256
 P-384
 P-521
-P08@J`g
-P08NDF
+P08@J0f
+P08N
 P1\t98"
+P20f
 P2P ping to "%s". Timed out after %.2fms\n
-P2`g
 P5[1
+P6`W
+P:0f
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30188,7 +30183,6 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-PnDF
 Point entity.
 Point under crosshair
 PointType
@@ -30773,7 +30767,7 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpx:
+R\vpH9
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -33983,7 +33977,6 @@ Tried to UTIL_Remove a networked entity (%d/%s) on the client, the server contro
 Tried to UTIL_RemoveImmediate a networked entity (%d/%s) on the client, the server controls lifespan, ignoring\n
 Tried to add game system %s twice!\n
 Tried to add unknown game system %s!\n
-Tried to load a polymorphic pointer with no '%s' key
 Tried to load resource reference '%s' from a value without a resource reference specific type.
 Trigger
 Trigger Activated\n
@@ -35291,7 +35284,7 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@What information do we want to display for Weapon?
+\f@Tried to load a polymorphic pointer with no '%s' key
 \fAccoladeID_t
 \fCitadelMMR_t
 \fKS1
@@ -35302,6 +35295,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fpH9
 \ful2
 \fy&3Gl
 \l:ArR
@@ -36362,6 +36356,7 @@ Z~wl
 \rjwB\t
 \roKK
 \rrCj
+\rr_flashlighttracedistwatercutoff
 \rstyle_index_t
 \rusercmd.proto"
 \sG7tPD
@@ -36572,6 +36567,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpH9
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36638,10 +36634,9 @@ _to_curve_
 _tools_event_desc
 _xU`u
 _}eOk
+`20f
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6Pj
-`6Pk
 `:zQF
 `D$daM-l
 `DZG
@@ -36650,11 +36645,8 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`fDF
 `fPw.\vM
 `h9T~
-`ht b
-`nDF
 `o_je
 `yNT
 a null shared library handle was used
@@ -36672,7 +36664,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvDF
 aD/x
 aDSS
 aECDH
@@ -38446,7 +38437,6 @@ citadel_ability_nano_clustergrenade
 citadel_ability_nano_dash
 citadel_ability_nano_primaryweapon
 citadel_ability_necro_coffin
-citadel_ability_necro_gravestone
 citadel_ability_necro_primaryweapon
 citadel_ability_nikuman
 citadel_ability_passive_beefy
@@ -38689,7 +38679,6 @@ citadel_trigger_no_portals
 citadel_trigger_speed_boost
 citadel_trooper_minimap
 citadel_tunnel_trigger
-citadel_tutorial_controller
 citadel_usercmd.proto
 citadel_usermessages.proto
 citadel_viscous_ball
@@ -42052,7 +42041,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz`g
+hpz0f
 hr_H
 href="
 hscroll
@@ -45275,7 +45264,6 @@ modifier_shadow_strike_invis
 modifier_shadow_strike_watcher
 modifier_shadowclone
 modifier_shield_impact
-modifier_shiv_dash_debuff
 modifier_shiv_thrown_shiv_damage_debuff
 modifier_shiv_thrown_shiv_slow_debuff
 modifier_shivas_bracelet_watcher
@@ -46289,8 +46277,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^DF
-p2`g
+p08@H^
+p20\f
+p20f
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46299,9 +46288,9 @@ p2{l
 p4Z3
 p5Z3
 p5\nL,
+p60Z
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>DF
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -46332,6 +46321,7 @@ pUnitName
 p\n$k_EPingMarkerInfo_ShowMarkerOnSender
 p\n\fDevQueueSize
 p\rP\f0!h
+p\r`\fPH9
 p^i9
 packet length too long
 padding
@@ -46977,7 +46967,6 @@ playrandom
 playtime_2weeks
 playtime_forever
 plum
-pnDF
 pngsize
 point
 point arithmetic failure
@@ -50828,6 +50817,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
+zDHB
 zF):O4
 zFar
 zG2m8

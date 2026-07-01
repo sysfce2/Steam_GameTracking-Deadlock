@@ -181,12 +181,8 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j@
- (08@HPXb0
- (08@HPZ@
- (08@HR0
- (08@J0
- (0X`hpz0
+ (08@HPX`j
+ (08@HPZ
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -210,6 +206,7 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
+ .0D2
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -2064,7 +2061,6 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0P2
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -3939,7 +3935,6 @@ $light_emissive
 .?AV?$CModifierFactory@VCCitadel_Modifier_Shield@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ShieldImpact@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_ShivDash@@$0PPPP@@@
-.?AV?$CModifierFactory@VCCitadel_Modifier_ShivDashDebuff@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Shiv_KillingBlow_Leap@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Shivas_Bracelet_Watcher@@$0PPPP@@@
 .?AV?$CModifierFactory@VCCitadel_Modifier_Shrink_Ray@@$0PPPP@@@
@@ -7097,7 +7092,6 @@ $light_emissive
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Shield@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ShieldImpact@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_ShivDash@@VCBaseModifier@@@@
-.?AV?$CSubclassFactory@VCCitadel_Modifier_ShivDashDebuff@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Shiv_KillingBlow_Leap@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Shivas_Bracelet_Watcher@@VCBaseModifier@@@@
 .?AV?$CSubclassFactory@VCCitadel_Modifier_Shrink_Ray@@VCBaseModifier@@@@
@@ -10500,7 +10494,6 @@ $light_emissive
 .?AVCCitadel_Modifier_Shield@@
 .?AVCCitadel_Modifier_ShieldImpact@@
 .?AVCCitadel_Modifier_ShivDash@@
-.?AVCCitadel_Modifier_ShivDashDebuff@@
 .?AVCCitadel_Modifier_ShivDashVData@@
 .?AVCCitadel_Modifier_Shiv_KillingBlow_Leap@@
 .?AVCCitadel_Modifier_Shivas_Bracelet_Watcher@@
@@ -14095,6 +14088,7 @@ $light_emissive
 .MODIFIER_ENTRY_TYPE
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
+.P92
 .PARTICLE_MESSAGE
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
@@ -14113,8 +14107,8 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PO2
-.PX2
+.PG2
+.PP2
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14402,8 +14396,7 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pJ2
-.pX2
+.p92
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14462,15 +14455,12 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@HR@
-08@J0
-08B@
+08@HR
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
-0>p,2
 0AgffA
 0M2~@p
 0W/5
@@ -14638,7 +14628,6 @@ $light_emissive
 2\rlhp
 2^pV
 2_BONE_IK
-2_Ej
 2_tasks_left
 2a"l
 2bT~
@@ -14751,8 +14740,10 @@ $light_emissive
 6%vi
 6,2K
 6-zeZ
+60%2
 60000
-60K2
+6072
+60O2
 62$|S)6f
 64CK\vH
 65535
@@ -14762,10 +14753,9 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666desc_level
 67-s
-6@C2
-6@X2
 6H,N
 6O|T%
+6P32
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14784,7 +14774,6 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p\f2
 6qo~
 6r-m_v
 6r1ij
@@ -14834,6 +14823,8 @@ $light_emissive
 8<pl
 8= zp
 8A6j
+8Bp8
+8F '2
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15090,17 +15081,17 @@ $light_emissive
 ?gwL
 ?jOb
 ?levellist_t
-?m_KnockbackToWallModifier
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N
 @0pp
+@6092
+@6p82
 @BH]f
-@HPX`hv
+@HPX`hv`\n2
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15116,7 +15107,6 @@ $light_emissive
 @dKb]
 @fff>fff>fff>fff>
 @i1V
-@m_nCurrencyValue
 @n2w
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
@@ -15136,7 +15126,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA: Z
 AABBDirection
 AACompromise
 AC2,h
@@ -15862,6 +15851,7 @@ BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
+BCPulseServerFuncs::ConCommand
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -15965,7 +15955,6 @@ BOOL ABSENT
 BOOLEAN
 BOT TEST: Bot %s failed moving to node %s\n
 BOUNDARY
-BPrint some text to the game window.
 BREAKABLE
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
@@ -16607,7 +16596,7 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_he
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_familiar.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_necro.cpp:1990
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2119
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2024
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_tengu.cpp:2130
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1541
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_viscous.cpp:1578
@@ -18566,7 +18555,6 @@ CPulseServerFuncs::CanCharacterSeeEntity
 CPulseServerFuncs::ClearEntityMoveTypeOverride
 CPulseServerFuncs::ClearStanceOverride
 CPulseServerFuncs::ClearTargetIdentifierOverride
-CPulseServerFuncs::ConCommand
 CPulseServerFuncs::CountEntitiesWithName
 CPulseServerFuncs::CreateExplosion
 CPulseServerFuncs::CreatePhysicsBallSocketConstraint
@@ -19340,7 +19328,6 @@ CWorkThread -- Sleep
 CWorkThreadPool::StartWorkThread: Thread creation failed.\n
 CWorkThreadPool::~CWorkThreadPool: work complete queue not empty, %d items discarded.\n
 CWorkThreadPool::~CWorkThreadPool: work processing queue not empty: %d items discarded.\n
-CXQ^
 C[L6
 C\lVQ
 C\n?k_EGCMsgInitiateTradeResponse_Free_Account_Initiator_DEPRECATED
@@ -21688,7 +21675,6 @@ FastRetrigger: %s
 FearDuration
 FervorStatusResistancePercent
 Ff,n
-Ffilter_t
 Fgi?)
 Fi:je
 Field "%s" of class "%s" cannot be unserialized yet (lacking array support)!\n
@@ -21933,7 +21919,6 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
-Fp22
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25765,12 +25750,8 @@ P-224
 P-256
 P-384
 P-521
-P08@J0
-P08J`
-P08N
 P1\t98"
 P5[1
-P60C2
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26404,6 +26385,7 @@ Prime:
 Print a console message with a linked console command
 Print a hud message on all clients
 Print some text to the game window above an entity.
+Print some text to the game window.
 PrintLinkedConsoleMessage
 Printing %d %s response symbols:\n
 PriorityBounceRadius
@@ -30235,6 +30217,7 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
+VPD2
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -30246,7 +30229,6 @@ V\n\vItemCharges
 V\rKk
 V_a|I
 V_strcmp( pDataMap->dataClassName, pCodeClass ) == 0
-V`P2
 VacuumRadius
 ValidatePrivateScriptScope
 ValidateVertices
@@ -30716,9 +30698,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr@
+X`hr
 Xd3h
-Xf .2
+Xf *2
+Xf@+2
 XfJ7
 XjfR
 XqgA+
@@ -31992,6 +31975,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`60:2
 `:zQF
 `D$daM-l
 `DZG
@@ -32001,7 +31985,6 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`ht0
 `o_je
 `yNT
 a null shared library handle was used
@@ -34336,7 +34319,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dP\tp
 dSAQuality
 dWry
 dZ!2.
@@ -36507,7 +36489,6 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpz0
 hr_H
 http request
 https proxy request
@@ -39291,7 +39272,6 @@ modifier_shadow_strike_invis
 modifier_shadow_strike_watcher
 modifier_shadowclone
 modifier_shield_impact
-modifier_shiv_dash_debuff
 modifier_shiv_thrown_shiv_damage_debuff
 modifier_shiv_thrown_shiv_slow_debuff
 modifier_shivas_bracelet_watcher
@@ -39599,6 +39579,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
+nP'2
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39909,7 +39890,6 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
-np12
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -40226,7 +40206,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
+p2p8
 p2{l
 p4Z3
 p5Z3
@@ -42779,7 +42759,6 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tR\tp
 t\n\fDamageSource
 t\n\tCacheData
 t_movement_idle_turn_target
@@ -44119,7 +44098,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-zDMagazines
+zDDetermines if pausing is enabled. Temporary until we get pausing stable
 zF):O4
 zFar
 zG2m8
@@ -44180,5 +44159,6 @@ zz2K
 ~P2T
 ~R65Fu
 ~jLRG
+~pD2
 ~w]UG
 ~yhZ
