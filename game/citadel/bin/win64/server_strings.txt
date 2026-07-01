@@ -1296,6 +1296,7 @@ $light_emissive
 (.CMsgSteamLearn_SnapshotProject_Response"-
 (0'yX
 (0x%08X)'??'
+(4pT
 (5Me
 (5jP
 (ACTIVE)
@@ -1686,7 +1687,7 @@ $light_emissive
 (d4t8
 (debug)
 (default)
-(f 83
+(fP83
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
@@ -14622,6 +14623,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vp0
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14731,16 +14733,15 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 43
+6 83
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
-60(3
-60*3
+60.3
 60000
-60J3
+60\r3
 62$|S)6f
 64CK\vH
 65535
@@ -14750,10 +14751,10 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666kill eater score type
 67-s
-6@S3
-6@Y3
 6H,N
 6O|T%
+6P/3
+6P43
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14765,7 +14766,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`L3
+6`J3
 6afD
 6bX+
 6c&0|vvX
@@ -14773,7 +14774,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pD3
+6pS3
 6pY3
 6qo~
 6r-m_v
@@ -14824,7 +14825,6 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8B0/
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15061,7 +15061,7 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->p33
+>p83
 >yhP
 >ztq
 ?333?
@@ -15093,8 +15093,7 @@ $light_emissive
 @08N
 @0pp
 @BH]f
-@HPX`hv
-@HVp&3
+@HPX`hv0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15109,7 +15108,7 @@ $light_emissive
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@ht@T
+@htpT
 @i1V
 @m_nCurrencyValue
 @n2w
@@ -15131,7 +15130,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:pM
 AABBDirection
 AACompromise
 AC2,h
@@ -16502,6 +16500,7 @@ C-side of entity framework
 C3ps
 C6DN
 C7HSY
+C8Q_
 C:\buildworker\citadel_rel_win64\build\_build_\game\server\_vpc_server_citadel\unity\win64\_msvc_\Retail\server.pdb
 C:\buildworker\citadel_rel_win64\build\src\animlib\graph\animgraph_instance.cpp
 C:\buildworker\citadel_rel_win64\build\src\animlib\tasksystem\animtasksystem.cpp
@@ -25759,7 +25758,6 @@ P-521
 P08N
 P1\t98"
 P5[1
-P6`D3
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26729,6 +26727,7 @@ R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
+R\vp0
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30179,6 +30178,7 @@ UsingMelee
 Ut]<E
 Uv1t
 Uz_G3=
+V I3
 V07;m
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
@@ -30338,6 +30338,7 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
+Vp@3
 Vt_9
 VulnerabilityPerStack
 V~~Vq
@@ -30707,9 +30708,8 @@ XWY]
 XYD%
 X\tQo
 Xd3h
-Xf0.3
 XfJ7
-XfP/3
+Xf`.3
 XjfR
 XqgA+
 Xuub
@@ -30761,7 +30761,6 @@ Z7"c
 Z72\v
 ZAcceleration
 ZH^r
-ZJDj
 ZL9L
 ZLIB
 ZLONG
@@ -31918,16 +31917,14 @@ Z~wl
 ]MSd
 ][LK~lO
 ^.om5r
+^0T3
 ^DnJ
 ^DqPt
 ^J_spY
 ^Nij
-^P43
-^PJ3
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
-^pS3
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -31986,8 +31983,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2pM
-`6@O3
+`6pO3
 `:zQF
 `D$daM-l
 `DZG
@@ -39564,7 +39560,6 @@ n5cM
 n6j/
 n:2C[
 n@PK
-n@W3
 nAlpha
 nAttributeValue
 nBodyGroup
@@ -39903,6 +39898,7 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
+npW3
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -40220,13 +40216,13 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0j@
-p20/
+p0jp
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
+p6@#3
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -43653,7 +43649,6 @@ util4
 util5
 uvs are all identical
 uxX/
-v U3
 v'A>M6
 v)56
 v0o/5
@@ -43679,6 +43674,7 @@ vForward
 vHingeAxis
 vHullPos[%i] %g %g %g\n
 vNewPoint.IsValid()\n
+vPU3
 vPoint
 vPoint1
 vPoint2
