@@ -181,6 +181,12 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
+ (08@HPX`j@
+ (08@HPXb0
+ (08@HPZ@
+ (08@HR0
+ (08@J0
+ (0X`hpz0
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -204,6 +210,7 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
+ .pC3
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -1296,7 +1303,6 @@ $light_emissive
 (.CMsgSteamLearn_SnapshotProject_Response"-
 (0'yX
 (0x%08X)'??'
-(4pT
 (5Me
 (5jP
 (ACTIVE)
@@ -1687,7 +1693,6 @@ $light_emissive
 (d4t8
 (debug)
 (default)
-(fP83
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
@@ -2060,6 +2065,8 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
+.0Q3
+.0Z3
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14108,6 +14115,8 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
+.PL3
+.PZ3
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14453,11 +14462,15 @@ $light_emissive
 0123456789
 02V8[
 05=k
+08@HR@
+08@J0
+08B@
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
+0>P.3
 0AgffA
 0M2~@p
 0W/5
@@ -14623,7 +14636,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
-2\vp0
+2\vp4
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14733,15 +14746,14 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 83
+6 E3
+6 Z3
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
-60.3
 60000
-60\r3
 62$|S)6f
 64CK\vH
 65535
@@ -14753,8 +14765,6 @@ $light_emissive
 67-s
 6H,N
 6O|T%
-6P/3
-6P43
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14766,7 +14776,7 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`J3
+6`03
 6afD
 6bX+
 6c&0|vvX
@@ -14774,8 +14784,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pS3
-6pY3
+6pE3
 6qo~
 6r-m_v
 6r1ij
@@ -14825,6 +14834,8 @@ $light_emissive
 8<pl
 8= zp
 8A6j
+8F`-3
+8Fp,3
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15061,7 +15072,7 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->p83
+>p13
 >yhP
 >ztq
 ?333?
@@ -15092,8 +15103,9 @@ $light_emissive
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
+@6p#3
 @BH]f
-@HPX`hv0
+@HPX`hv
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15108,7 +15120,6 @@ $light_emissive
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@htpT
 @i1V
 @m_nCurrencyValue
 @n2w
@@ -15130,6 +15141,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA: N
 AABBDirection
 AACompromise
 AC2,h
@@ -16500,7 +16512,6 @@ C-side of entity framework
 C3ps
 C6DN
 C7HSY
-C8Q_
 C:\buildworker\citadel_rel_win64\build\_build_\game\server\_vpc_server_citadel\unity\win64\_msvc_\Retail\server.pdb
 C:\buildworker\citadel_rel_win64\build\src\animlib\graph\animgraph_instance.cpp
 C:\buildworker\citadel_rel_win64\build\src\animlib\tasksystem\animtasksystem.cpp
@@ -21559,6 +21570,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FP43
 FU\n-XP
 FVisible
 FV|FgUV
@@ -25755,6 +25767,8 @@ P-224
 P-256
 P-384
 P-521
+P08@J0
+P08J`
 P08N
 P1\t98"
 P5[1
@@ -26723,11 +26737,11 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
+R\fp4
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\r1>Vp
 R\vp!y
-R\vp0
 R]Di
 Rad2 Deg
 RadiationThink
@@ -30178,7 +30192,6 @@ UsingMelee
 Ut]<E
 Uv1t
 Uz_G3=
-V I3
 V07;m
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
@@ -30197,6 +30210,7 @@ V3 s
 V3_ADDR_VALIDATE_PATH_INTERNAL
 V3_GENERIC_EXTENSION
 V5u f
+V@R3
 VALV
 VALVw
 VDPr
@@ -30338,7 +30352,6 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
-Vp@3
 Vt_9
 VulnerabilityPerStack
 V~~Vq
@@ -30707,9 +30720,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
+X`hr@
 Xd3h
 XfJ7
-Xf`.3
+Xfp/3
 XjfR
 XqgA+
 Xuub
@@ -31917,7 +31931,6 @@ Z~wl
 ]MSd
 ][LK~lO
 ^.om5r
-^0T3
 ^DnJ
 ^DqPt
 ^J_spY
@@ -31983,7 +31996,6 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6pO3
 `:zQF
 `D$daM-l
 `DZG
@@ -36498,6 +36510,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
+hpz0
 hr_H
 http request
 https proxy request
@@ -39588,6 +39601,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
+nP33
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39898,7 +39912,6 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
-npW3
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -40216,13 +40229,11 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0jp
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6@#3
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -41130,6 +41141,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vp4
 rad2deg
 radial
 radialalt
@@ -43674,7 +43686,6 @@ vForward
 vHingeAxis
 vHullPos[%i] %g %g %g\n
 vNewPoint.IsValid()\n
-vPU3
 vPoint
 vPoint1
 vPoint2
@@ -44172,5 +44183,6 @@ zz2K
 ~P2T
 ~R65Fu
 ~jLRG
+~pR3
 ~w]UG
 ~yhZ
