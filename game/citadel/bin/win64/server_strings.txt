@@ -181,8 +181,8 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j
- (08@HPZ
+ (08@HPX`j 
+ (08@HPZ 
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -206,7 +206,6 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
- .0D2
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
@@ -2061,6 +2060,8 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
+.0M2
+.0V2
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14088,7 +14089,6 @@ $light_emissive
 .MODIFIER_ENTRY_TYPE
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
-.P92
 .PARTICLE_MESSAGE
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
@@ -14107,8 +14107,8 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PG2
-.PP2
+.PH2
+.PV2
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14396,7 +14396,6 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.p92
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14455,12 +14454,14 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@HR
+08@HR 
+08B 
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
+0>P*2
 0AgffA
 0M2~@p
 0W/5
@@ -14735,15 +14736,14 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
+6 A2
+6 V2
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
-60%2
 60000
-6072
-60O2
 62$|S)6f
 64CK\vH
 65535
@@ -14755,7 +14755,7 @@ $light_emissive
 67-s
 6H,N
 6O|T%
-6P32
+6P\n2
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14774,6 +14774,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
+6pA2
 6qo~
 6r-m_v
 6r1ij
@@ -14823,8 +14824,8 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8Bp8
-8F '2
+8F`)2
+8Fp(2
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15087,11 +15088,10 @@ $light_emissive
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08N
 @0pp
-@6092
-@6p82
 @BH]f
-@HPX`hv`\n2
+@HPX`hv
 @MfKZ
 @Pgl
 @Pu\rm
@@ -21555,6 +21555,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FP02
 FU\n-XP
 FVisible
 FV|FgUV
@@ -25750,6 +25751,8 @@ P-224
 P-256
 P-384
 P-521
+P08J@
+P08N
 P1\t98"
 P5[1
 PAGN_4
@@ -30188,6 +30191,7 @@ V3 s
 V3_ADDR_VALIDATE_PATH_INTERNAL
 V3_GENERIC_EXTENSION
 V5u f
+V@N2
 VALV
 VALVw
 VDPr
@@ -30217,7 +30221,6 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
-VPD2
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -30698,11 +30701,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr
+X`hr 
 Xd3h
-Xf *2
-Xf@+2
 XfJ7
+Xfp+2
 XjfR
 XqgA+
 Xuub
@@ -31975,7 +31977,6 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60:2
 `:zQF
 `D$daM-l
 `DZG
@@ -34713,6 +34714,7 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
+dq\fp
 draft
 draft_item_sets
 drag_override
@@ -39579,7 +39581,7 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nP'2
+nP/2
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -40206,7 +40208,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p2p8
+p08@H^
 p2{l
 p4Z3
 p5Z3
@@ -44159,6 +44161,6 @@ zz2K
 ~P2T
 ~R65Fu
 ~jLRG
-~pD2
+~pN2
 ~w]UG
 ~yhZ
