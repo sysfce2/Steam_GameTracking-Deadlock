@@ -90,12 +90,10 @@
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
  (08@HPX`j
- (08@HPXbpf
+ (08@HPXb@f
  (08@HPZ
- (08@HRpf
- (08@Jpf
- (0X`hpzpf
- (2pf
+ (08@HR@f
+ (0X`hpz@f
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16776,7 +16774,7 @@ $hRh
 02V8[
 05=k
 08@HR
-08@Jpf
+08@J@f
 08bX
 09,h
 0:00
@@ -16819,7 +16817,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vTE
+0v$E
 0x%4.4x 
 0x%X
 0x%X 
@@ -17041,7 +17039,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpL)
+2\vpX9
 2^pV
 2a"l
 2bT~
@@ -17257,7 +17255,6 @@ $hRh
 8<pl
 8= zp
 8A6j
-8Bp\f
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17562,12 +17559,12 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NTE
+@08N$E
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
-@HPX`hv
+@HPX`hvp
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17584,14 +17581,13 @@ $hRh
 @\tV_iswcntrl
 @absorigin_follow
 @dKb]
-@fTE
 @fff>fff>fff>fff>
+@ht0
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @m_iCurrentShotCount
 @n2w
-@nTE
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -17607,6 +17603,7 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
+AA:0
 AABBDirection
 AACompromise
 ABXY
@@ -27782,6 +27779,7 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
+L=8fl
 L>ff
 L?fff?
 L@4T
@@ -29456,13 +29454,13 @@ P-224
 P-256
 P-384
 P-521
-P08@Jpf
-P08NTE
+P08@J@f
+P08N$E
 P1\t98"
+P2@f
 P2P ping to "%s". Timed out after %.2fms\n
-P2pf
 P5[1
-P:pf
+P6pW
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30184,7 +30182,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-PnTE
+Pn$E
 Point entity.
 Point under crosshair
 PointType
@@ -30769,7 +30767,7 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpL)
+R\vpX9
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -35297,6 +35295,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fpX9
 \ful2
 \fy&3Gl
 \l:ArR
@@ -36568,6 +36567,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpX9
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36635,8 +36635,8 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2pf
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`60i
 `60j
 `:zQF
 `D$daM-l
@@ -36647,9 +36647,7 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
-`fTE
 `h9T~
-`nTE
 `o_je
 `yNT
 a null shared library handle was used
@@ -36667,7 +36665,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvTE
+aBv$E
 aD/x
 aDSS
 aECDH
@@ -42045,7 +42043,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpzpf
+hpz@f
 hr_H
 href="
 hscroll
@@ -46281,21 +46279,19 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^TE
-p2p\f
+p08@H^$E
+p2@f
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
 p2p_ping sending to "%s"\n
-p2pf
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6pZ
+p6@Z
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>TE
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -46326,6 +46322,7 @@ pUnitName
 p\n$k_EPingMarkerInfo_ShowMarkerOnSender
 p\n\fDevQueueSize
 p\rP\f0!h
+p\r`\fPX9
 p^i9
 packet length too long
 padding
@@ -46971,7 +46968,7 @@ playrandom
 playtime_2weeks
 playtime_forever
 plum
-pnTE
+pn$E
 pngsize
 point
 point arithmetic failure

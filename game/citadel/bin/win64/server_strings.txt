@@ -181,8 +181,8 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j 
- (08@HPZ 
+ (08@HPX`j
+ (08@HPZ
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -1688,6 +1688,7 @@ $light_emissive
 (d4t8
 (debug)
 (default)
+(f@42
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
@@ -2060,8 +2061,6 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0M2
-.0V2
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14089,6 +14088,7 @@ $light_emissive
 .MODIFIER_ENTRY_TYPE
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
+.P92
 .PARTICLE_MESSAGE
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
@@ -14107,8 +14107,6 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PH2
-.PV2
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14396,6 +14394,7 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
+.p92
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14454,14 +14453,12 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@HR 
-08B 
+08@HR
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
-0>P*2
 0AgffA
 0M2~@p
 0W/5
@@ -14736,8 +14733,6 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 A2
-6 V2
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
@@ -14753,9 +14748,12 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666desc_level
 67-s
+6@02
 6H,N
 6O|T%
-6P\n2
+6P$2
+6P&2
+6PF2
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14767,6 +14765,8 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
+6`O2
+6`U2
 6afD
 6bX+
 6c&0|vvX
@@ -14774,7 +14774,6 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pA2
 6qo~
 6r-m_v
 6r1ij
@@ -14824,8 +14823,7 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8F`)2
-8Fp(2
+8B09
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15090,8 +15088,9 @@ $light_emissive
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
+@6092
 @BH]f
-@HPX`hv
+@HPX`hv \v2
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15126,6 +15125,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:pW
 AABBDirection
 AACompromise
 AC2,h
@@ -21555,7 +21555,6 @@ FN|p
 FORM
 FORMAT
 FOV2D
-FP02
 FU\n-XP
 FVisible
 FV|FgUV
@@ -25751,7 +25750,6 @@ P-224
 P-256
 P-384
 P-521
-P08J@
 P08N
 P1\t98"
 P5[1
@@ -30191,7 +30189,6 @@ V3 s
 V3_ADDR_VALIDATE_PATH_INTERNAL
 V3_GENERIC_EXTENSION
 V5u f
-V@N2
 VALV
 VALVw
 VDPr
@@ -30701,9 +30698,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr 
+X`hr
 Xd3h
 XfJ7
+XfP*2
 Xfp+2
 XjfR
 XqgA+
@@ -31919,6 +31917,8 @@ Z~wl
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
+^p02
+^pF2
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -31977,6 +31977,9 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`2p5
+`2pW
+`6`K2
 `:zQF
 `D$daM-l
 `DZG
@@ -34714,7 +34717,6 @@ doorman_bomb_projectile
 dotProductMax
 double_shot
 down
-dq\fp
 draft
 draft_item_sets
 drag_override
@@ -39581,7 +39583,6 @@ nMeshGroupMask
 nMode
 nMoveType
 nNumerator
-nP/2
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
@@ -39596,6 +39597,7 @@ nValue
 nVersion
 n\r2S
 n`3i
+n`S2
 name constraints minimum and maximum not supported
 name of highest net worth enemy
 name too long
@@ -40209,6 +40211,8 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
+p0j@
+p209
 p2{l
 p4Z3
 p5Z3
@@ -43653,6 +43657,7 @@ v8callback
 v8object
 v8value
 v<d2}
+v@Q2
 vAj}
 vAr>
 vAu&
@@ -44156,11 +44161,11 @@ zz2K
 }Xee+
 }gE3
 }n2W
+~0E2
 ~9ob
 ~If D
 ~P2T
 ~R65Fu
 ~jLRG
-~pN2
 ~w]UG
 ~yhZ
