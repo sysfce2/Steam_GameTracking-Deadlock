@@ -2,7 +2,11 @@
 {
 	m_RenamedSerializers =
 	[
-		{ m_OldName = "CitadelTrooperMinimap"		m_NewName = "CCitadelTrooperMinimap" },
+		{ m_OldName = "CitadelTrooperMinimap"					m_NewName = "CCitadelTrooperMinimap" },
+		{ m_OldName = "CCitadel_BreakablePropGoldPickup"		m_NewName = "CCitadel_Pickup_Gold" },
+		{ m_OldName = "CCitadel_BreakableDroppedGoldPickup"		m_NewName = "CCitadel_Pickup_AssignedGold" },
+		{ m_OldName = "CCitadel_BreakablePropHealthPickup"		m_NewName = "CCitadel_Pickup_Health },
+		{ m_OldName = "CCitadel_BreakableDroppedNecroPickup"	m_NewName = "CCitadel_Pickup_NecroDeath" },
 	]
 	
 	m_FieldTypeAliases =
