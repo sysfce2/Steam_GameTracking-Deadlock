@@ -89,11 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j
- (08@HPXb@f
- (08@HPZ
- (08@HR@f
- (0X`hpz@f
+ (08@HPX`j@
+ (08@HPZ@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -3584,9 +3581,9 @@ $hRh
 .?AV<lambda>@fnKeybinderReset@@
 .?AV<lambda_10>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@
 .?AV<lambda_13>@?EE@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@
-.?AV<lambda_14>@?6???R<lambda_8>@?1??UpdateKothCashInMeter@CCitadel_Hud_TopBar@@AEAAXXZ@QEBA@H@Z@
+.?AV<lambda_14>@?6???R<lambda_8>@?1??UpdateKothCashInMeter@CCitadel_Hud_Koth@@AEAAXXZ@QEBA@H@Z@
 .?AV<lambda_15>@?1??UpdateDirtyPanel@CCitadelHeroCard@@MEAAXXZ@
-.?AV<lambda_15>@?6???R<lambda_8>@?1??UpdateKothCashInMeter@CCitadel_Hud_TopBar@@AEAAXXZ@QEBA@H@Z@
+.?AV<lambda_15>@?6???R<lambda_8>@?1??UpdateKothCashInMeter@CCitadel_Hud_Koth@@AEAAXXZ@QEBA@H@Z@
 .?AV<lambda_16>@?1???R<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@
 .?AV<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@
 .?AV<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4HitGroup_t@@@@
@@ -9613,9 +9610,9 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda>@fnKeybinderReset@@_NPEAVCCitadel_SettingsPingKeyBinder@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_10>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@I$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_13>@?EE@??UpdateDirtyPanel@CCitadel_Tooltip_ModDetails@@EEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_14>@?6???R<lambda_8>@?1??UpdateKothCashInMeter@CCitadel_Hud_TopBar@@AEAAXXZ@QEBA@H@Z@PEAVCCitadel_UI_HeroImage@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_14>@?6???R<lambda_8>@?1??UpdateKothCashInMeter@CCitadel_Hud_Koth@@AEAAXXZ@QEBA@H@Z@PEAVCCitadel_UI_HeroImage@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_15>@?1??UpdateDirtyPanel@CCitadelHeroCard@@MEAAXXZ@XPEAVCCitadel_UI_AvatarImage@@H@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_15>@?6???R<lambda_8>@?1??UpdateKothCashInMeter@CCitadel_Hud_TopBar@@AEAAXXZ@QEBA@H@Z@XPEAVCCitadel_UI_HeroImage@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_15>@?6???R<lambda_8>@?1??UpdateKothCashInMeter@CCitadel_Hud_Koth@@AEAAXXZ@QEBA@H@Z@XPEAVCCitadel_UI_HeroImage@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_16>@?1???R<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@XPEAVCCitadelModIcon@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18>@?CD@??UpdateDirtyPanel@CCitadel_DB_PostGame_Scoreboard_New@@EEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4HitGroup_t@@@@VCPulseValueFullType@@$$V@std@@
@@ -11393,6 +11390,7 @@ $hRh
 .?AVCCitadel_Hud_Hideout@@
 .?AVCCitadel_Hud_Hints@@
 .?AVCCitadel_Hud_JoinTeam@@
+.?AVCCitadel_Hud_Koth@@
 .?AVCCitadel_Hud_Main@@
 .?AVCCitadel_Hud_MatchEnd@@
 .?AVCCitadel_Hud_MatchStart@@
@@ -16773,8 +16771,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR
-08@J@f
+08@HR@
+08B@
 08bX
 09,h
 0:00
@@ -16817,7 +16815,6 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0v$E
 0x%4.4x 
 0x%X
 0x%X 
@@ -17039,7 +17036,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpX9
+2\vptI
 2^pV
 2a"l
 2bT~
@@ -17480,6 +17477,7 @@ $hRh
 >333>
 >4|6eXg_e
 >7^0g
+>81n
 >9Only Show Ping Indicator at Ping Location (no ping sound)
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
@@ -17515,7 +17513,7 @@ $hRh
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelParty
+?CitadelInviteFriendMenu
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?EncodeBC7Blocks
@@ -17559,12 +17557,13 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N$E
+@08N
 @0pp
+@60c
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
-@HPX`hvp
+@HPX`hv
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17582,7 +17581,6 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
-@ht0
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -17603,7 +17601,6 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
-AA:0
 AABBDirection
 AACompromise
 ABXY
@@ -17938,7 +17935,6 @@ AbilityResourceMax
 AbilityResourceRegenPerSecond
 AbilitySlide
 AbilitySlotIcon
-AbilitySlotMenu
 AbilitySplitShot
 AbilityStat_
 AbilityTags
@@ -18459,6 +18455,7 @@ B64_READ_PKCS7
 B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
+B>AbilitySlotMenu
 B>J7I
 BAD ENUMERATED
 BAD INTEGER
@@ -18916,8 +18913,8 @@ BookChoiceNavButton
 BookCover
 BookCustomXMLPage
 BookID_t"
+BookImagePage
 BookImageSequence
-BookInfo
 BookItemUnlock
 BookItemUnlockControl
 BookLogo
@@ -19273,8 +19270,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\abilities\ability_slide.cpp:723
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_accolades_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4318
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4492
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4321
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_ability_shared.cpp:4495
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_base_hero.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_bot_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_camera_controller.cpp:168
@@ -22232,6 +22229,7 @@ CitadelBookViewerAutoPlay
 CitadelBookViewerGoto
 CitadelBookViewerUpdate
 CitadelBookXPUpdated
+CitadelBotsMatchmakingSelected
 CitadelBotsPrivateSelected
 CitadelBuildBrowserAddSearchTag
 CitadelBuildBrowserAssignSearchTag
@@ -22559,7 +22557,6 @@ CitadelHudUpdate
 CitadelIgnoreFriend
 CitadelIntroPopupClosed
 CitadelIntroPopupsFinished
-CitadelInviteFriendMenu
 CitadelInviteFriendSelected
 CitadelItemDraftEnterState
 CitadelItemDraftOption
@@ -22667,6 +22664,7 @@ CitadelOpenUpgradeShop
 CitadelOutlineManager
 CitadelOverlay
 CitadelParticipantAudio
+CitadelParty
 CitadelPartyAcceptInvite
 CitadelPartyAcceptInvite( %llu )
 CitadelPartyCancelInviteAccountID
@@ -22725,7 +22723,6 @@ CitadelPopupGlobalLeaderboard
 CitadelPopupHeroDebut
 CitadelPopupJoinParty
 CitadelPopupJoinPartyCode
-CitadelPopupNewsPost
 CitadelPopupNewsPostClose
 CitadelPopupRankedInfo
 CitadelPopupRankedSummary
@@ -23146,6 +23143,7 @@ Citadel_Foliage
 Citadel_HUD_DB_Overlay
 Citadel_HUD_Damage_Invulnerable
 Citadel_HealthPips
+Citadel_Hud_Koth
 Citadel_JoinOrCreateParty_YourPartyCode
 Citadel_JoinOrCreateParty_YourPartyCode_Desc
 Citadel_Key_CapsLock
@@ -27756,7 +27754,6 @@ Kochanek-Bartels Late
 Korean
 Koth lost
 Koth won
-KothCashInMeter
 KothCashInMeterTeam1
 KothCashInMeterTeam2
 KothCashInTeamBar1
@@ -27779,7 +27776,7 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
-L=8fl
+L=Xfl
 L>ff
 L?fff?
 L@4T
@@ -28165,7 +28162,7 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MBookImagePage
+MBookInfo
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -29454,13 +29451,12 @@ P-224
 P-256
 P-384
 P-521
-P08@J@f
-P08N$E
+P08J`
+P08N
 P1\t98"
-P2@f
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6pW
+P6`c
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30182,7 +30178,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-Pn$E
+Pn`a
 Point entity.
 Point under crosshair
 PointType
@@ -30762,12 +30758,13 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
+R\fptI
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpX9
+R\vpp:
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34637,7 +34634,7 @@ WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
 WD%g"0Q-)
-WDCitadelBotsMatchmakingSelected
+WDCitadelPopupNewsPost
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -35079,7 +35076,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr
+X`hr@
 Xd3h
 XfJ7
 XjfR
@@ -35295,7 +35292,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fpX9
 \ful2
 \fy&3Gl
 \l:ArR
@@ -36567,7 +36563,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpX9
+\vptI
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36636,8 +36632,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60i
-`60j
 `:zQF
 `D$daM-l
 `DZG
@@ -36665,7 +36659,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$E
 aD/x
 aDSS
 aECDH
@@ -39837,6 +39830,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -40662,6 +40656,7 @@ file://{resources}/layout/citadel_hud_game_announcements.xml
 file://{resources}/layout/citadel_hud_hero_builds.xml
 file://{resources}/layout/citadel_hud_hero_shop.xml
 file://{resources}/layout/citadel_hud_item_bar_graph.xml
+file://{resources}/layout/citadel_hud_koth.xml
 file://{resources}/layout/citadel_hud_mod_bar_graph.xml
 file://{resources}/layout/citadel_hud_mod_bonus.xml
 file://{resources}/layout/citadel_hud_modifier_message.xml
@@ -42043,7 +42038,6 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz@f
 hr_H
 href="
 hscroll
@@ -46279,8 +46273,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^$E
-p2@f
+p08@H^
+p0jpO
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46290,7 +46284,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6@Z
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -46300,6 +46293,7 @@ pDescription
 pDest
 pField
 pFilter
+pFpF
 pG_*h
 pHeroReleaseVoteOptions->GetChildCount() == (int)EActiveHeroReleaseVoteOption::Count
 pHitEntity
@@ -46322,7 +46316,6 @@ pUnitName
 p\n$k_EPingMarkerInfo_ShowMarkerOnSender
 p\n\fDevQueueSize
 p\rP\f0!h
-p\r`\fPX9
 p^i9
 packet length too long
 padding
@@ -46968,7 +46961,6 @@ playrandom
 playtime_2weeks
 playtime_forever
 plum
-pn$E
 pngsize
 point
 point arithmetic failure
@@ -47397,8 +47389,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpp:
 r\n\vstart_index
 r\vDi
+r\vptI
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
