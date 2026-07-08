@@ -413,9 +413,6 @@
 //		0.000000,
 //		0.000000
 //	],
-//	"m_HeroTestingTargetDummyUpgrades":
-//	[
-//	],
 //	"m_DefaultDOF":
 //	{
 //		"m_flDofNearBlurry": 0.000000,
@@ -631,7 +628,6 @@ class CitadelGenericData_t
 	int32[6] m_nItemPricePerTier;
 	float32[6] m_flTrooperKillGoldShareFrac;
 	float32[6] m_flHeroKillGoldShareFrac;
-	CUtlVector< CSubclassName< 4 > > m_HeroTestingTargetDummyUpgrades;
 	DOFDesc_t m_DefaultDOF;
 	RejuvinatorParams_t m_RejuvParams;
 	IdolParams_t m_IdolParams;

@@ -17036,7 +17036,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vptI
+2\vptG
 2^pV
 2a"l
 2bT~
@@ -17105,6 +17105,7 @@ $hRh
 4@AA
 4Ch;
 4F0I
+4F\v0\f
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17477,7 +17478,6 @@ $hRh
 >333>
 >4|6eXg_e
 >7^0g
->81n
 >9Only Show Ping Indicator at Ping Location (no ping sound)
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
@@ -17499,6 +17499,7 @@ $hRh
 >\n\vitemdetails
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >fN46R^
+>h2n
 >l\rur
 >p00<
 >yhP
@@ -17544,7 +17545,6 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
-?citadel_ability_necro_gravestone
 ?citadel_tutorial_controller
 ?d86L
 ?dt]X
@@ -17559,7 +17559,7 @@ $hRh
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
-@60c
+@60a
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
@@ -17584,7 +17584,6 @@ $hRh
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
-@m_iCurrentShotCount
 @n2w
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
@@ -18810,6 +18809,7 @@ BlurOutput
 BlurVert
 BlurVisionRange
 Blur_DistanceField_t
+Bm_bDucked
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -19288,8 +19288,8 @@ C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_player_pa
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_post_processing_controller.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stat_tracker_schema.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_stats_shared.cpp
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2338
-C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2463
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2335
+C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_utils.cpp:2460
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\citadel_zip_line_node.cpp
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_bull.cpp:426
 C:\buildworker\citadel_rel_win64\build\src\game\shared\citadel\heroes\citadel_hero_shiv.cpp:2024
@@ -25315,6 +25315,7 @@ ExtraTargetHorizontalOffset
 EyeOcclusionDS.vtex
 EyeOcclusionPingPongRT_%dx%d.vtex
 EyeOcclusionRT.vtex
+F Kj
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -27776,7 +27777,6 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
-L=Xfl
 L>ff
 L?fff?
 L@4T
@@ -29456,7 +29456,7 @@ P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6`c
+P6`a
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30178,7 +30178,6 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-Pn`a
 Point entity.
 Point under crosshair
 PointType
@@ -30758,13 +30757,13 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fptI
+R\fptG
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpp:
+R\vpp8
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -35503,6 +35502,7 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
+\nPp8
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -36315,7 +36315,6 @@ Z~wl
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
 \r@h!Aq8
 \rB6uZ
-\rCCitadel_CapturePointVData
 \rChallengeID_t
 \rChallengeID_t"
 \rCitadelMMRu_t
@@ -36350,6 +36349,7 @@ Z~wl
 \r^mX
 \ri1I
 \rjwB\t
+\rm_vecDependentAbilities
 \roKK
 \rrCj
 \rr_flashlighttracedistwatercutoff
@@ -36563,7 +36563,8 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vptI
+\vpp8
+\vptG
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36640,8 +36641,10 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`\rP\f0p8
 `fPw.\vM
 `h9T~
+`ht@c
 `o_je
 `yNT
 a null shared library handle was used
@@ -38432,6 +38435,7 @@ citadel_ability_nano_clustergrenade
 citadel_ability_nano_dash
 citadel_ability_nano_primaryweapon
 citadel_ability_necro_coffin
+citadel_ability_necro_gravestone
 citadel_ability_necro_primaryweapon
 citadel_ability_nikuman
 citadel_ability_passive_beefy
@@ -39830,7 +39834,6 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -44135,7 +44138,6 @@ m_tail != QUEUE_ITERATOR_INVALID
 m_think
 m_time
 m_unFrameFuncThreadID == unCurrentThread
-m_vecDependentAbilities
 m_vecHealthbars.IsValidIndex( idx )
 m_vecInitialVel %.2f %.2f %.2f
 m_vecLandmarkAngles
@@ -46274,7 +46276,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0jpO
+p0jpM
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46293,7 +46295,7 @@ pDescription
 pDest
 pField
 pFilter
-pFpF
+pFpD
 pG_*h
 pHeroReleaseVoteOptions->GetChildCount() == (int)EActiveHeroReleaseVoteOption::Count
 pHitEntity
@@ -47389,10 +47391,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpp:
+r\fpp8
 r\n\vstart_index
 r\vDi
-r\vptI
+r\vptG
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -50813,7 +50815,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDHB
+zDCCitadel_Modifier_HoldingGoldenIdol
 zF):O4
 zFar
 zG2m8

@@ -8428,6 +8428,7 @@ Disable
 Disable Cockroaches
 Disable Dynamic Deformable
 Disable Hit Group & Remove Tagged Physics Bodies When Destroyed
+Disable Remove on Done Tracking
 Disable Replication
 Disable SST generation and runtime for viewmodel (use original CSM rendering).
 Disable SST runtime layers, for debugging (will exclude geo that CAN render into SST if SST otherwise enabled)
@@ -10748,6 +10749,7 @@ Finished Condition
 FinishedConditionOption
 FinishedConditionOption_OnAlmostFinished
 FinishedConditionOption_OnFinished
+Fire AbilityTouch() for all entities the projectile is touching, instead of just the first.
 Fire And Forget
 Fire Con Command
 Fire Rate
@@ -15096,6 +15098,7 @@ PBF_StartDetonateTimeOnHitTarget
 PBF_StartDetonateTimeOnHitWorld
 PBF_StickToTarget
 PBF_StickToWorld
+PBF_TouchAllEntitiesEachTick
 PBF_ValidateTargetLineOfSight
 PCKM_FLAT
 PCKM_INVALID
@@ -18623,6 +18626,7 @@ Total size of the texture pool in MB
 TotalTranslation_SourceState
 TotalTranslation_TargetState
 Touch
+Touch multiple entities at once
 Touch_t
 Towards closest point
 Trace Bloat Radius Scale
@@ -22608,6 +22612,8 @@ crash_thread
 create_flare
 create_orb
 create_radius_damage
+create_test_portal
+creates a portal
 creation control point number
 creation type
 creditsdone
@@ -26342,7 +26348,6 @@ m_HeroID
 m_HeroResourceGainedParticle
 m_HeroResourceGainedSound
 m_HeroState
-m_HeroTestingTargetDummyUpgrades
 m_HexAreaModifier
 m_HexModifier
 m_HideExpression

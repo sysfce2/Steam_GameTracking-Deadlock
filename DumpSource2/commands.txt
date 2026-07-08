@@ -1505,6 +1505,9 @@ create_orb (developmentonly gamedll defensive)
 create_radius_damage (gamedll cheat)
 	Causes radius damage where you're looking, at the passed in radius.
 
+create_test_portal (developmentonly gamedll)
+	creates a portal
+
 creditsdone (developmentonly gamedll defensive)
 	<no description>
 

@@ -38,6 +38,7 @@ enum ProjectileBehaviorFlag_t : uint32_t
 	// MPropertyFriendlyName = "Projectile only interacts / touches world"
 	// MPropertyDescription = "When set, projectile will not touch anything but the world"
 	PBF_OnlyTouchWorld = 32768,
+	// MPropertyFriendlyName = "Disable Remove on Done Tracking"
 	// MPropertyDescription = "When set, tracked projectiles won't have their lifetime set to 2seconds upon IsDoneTracking().  ***YOU MUST MANUALLY REMOVE THEM***"
 	PBF_DisableRemoveOnDoneTracking = 65536,
 	// MPropertyFriendlyName = "Disable passing through portals"
@@ -49,4 +50,7 @@ enum ProjectileBehaviorFlag_t : uint32_t
 	// MPropertyFriendlyName = "Projetile should hit when near position"
 	// MPropertyDescription = "When set, this projectile will fire an on hit event when reaching a tracked position. Useful if your position isn't going to hit the ground."
 	PBF_DetonateWhenReachingTrackedPosition = 524288,
+	// MPropertyFriendlyName = "Touch multiple entities at once"
+	// MPropertyDescription = "Fire AbilityTouch() for all entities the projectile is touching, instead of just the first."
+	PBF_TouchAllEntitiesEachTick = 1048576,
 };
