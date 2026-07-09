@@ -94,7 +94,6 @@
 
 #KothCashInMeter.capturing
 {
-	visibility: visible;
 	animation-name: Koth_Capture_Enemy_Pulse;
 	animation-duration: 0.5s;
 	animation-iteration-count: 5;

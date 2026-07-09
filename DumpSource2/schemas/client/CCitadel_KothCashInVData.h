@@ -58,8 +58,8 @@
 //	"m_flTimeToWarnAboutGivingUp": 110.000000,
 //	"m_nGiveUpOrbs": 20,
 //	"m_flTroopersMin": 5.000000,
-//	"m_flTroopersMax": 12.000000,
-//	"m_flTroopersSpawnRate": 0.300000,
+//	"m_flTroopersMax": 14.000000,
+//	"m_flTroopersSpawnRate": 0.500000,
 //	"m_flDelayedDelete": 1.000000
 //}
 class CCitadel_KothCashInVData : public CCitadel_MultiCapturePointVData

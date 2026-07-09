@@ -2905,7 +2905,7 @@ citadel_koth_spawn_location_deck_count 4 (gamedll clientdll replicated cheat)
 citadel_koth_spawn_window 60 (gamedll clientdll replicated cheat)
 	<no description>
 
-citadel_koth_warning_time 25 (gamedll clientdll replicated cheat)
+citadel_koth_warning_time 20 (gamedll clientdll replicated cheat)
 	<no description>
 
 citadel_lane_matchups_mmr_variance 0 (gamedll release)

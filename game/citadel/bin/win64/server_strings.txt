@@ -181,8 +181,11 @@
  ( NOT SUPPORTED BY ANIMGRAPH ) 
  (%ld unused bits)\n
  (%u unread)
- (08@HPX`j
- (08@HPZ
+ (08@HPX`jP
+ (08@HPXb@
+ (08@HPZP
+ (08@JP
+ (0X`hpz@
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -206,12 +209,9 @@
  - movable mesh id = none\n
  - vert %d = (%0.3f, %0.3f, %0.3f)\n
  -0000
- .Pa2
- .Ph2
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
- @SceneCoordinatorRequest
  ACTIVE GROUP
  Damage Dealt to Trooper Boss
  Damage Taken from Player
@@ -2062,7 +2062,7 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0v2
+.0b2
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14091,6 +14091,7 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
+.PC2
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14108,7 +14109,7 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PR2
+.PN2
 .PartnerAccountType
 .PingCommonData
 .PostProcessingGameStates
@@ -14396,10 +14397,7 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pP2
-.pk2
 .pp@0
-.pt2
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14457,13 +14455,14 @@ $light_emissive
 0123456789
 02V8[
 05=k
-08@HR
+08@HRP
+08@J@
+08BP
 08bX
 09,h
 0;Q5[
 0<cz
 0=normal, 1=rebirth, 2=rejuvenator
-0> M2
 0AgffA
 0M2~@p
 0W/5
@@ -14492,10 +14491,10 @@ $light_emissive
 0\n\vstyle_index
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
+0d2-
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vT*-
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14630,6 +14629,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vpd2-
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14739,29 +14739,28 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
+6 x2
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60<2
-60O2
+60>2
 62$|S)6f
 64CK\vH
 65535
 65535"
 65535"j\n
 65535B$
+6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666desc_level
 67-s
-6@d2
+6@q2
 6H,N
 6O|T%
-6PI2
-6P[2
-6Ps2
+6Pi2
+6P~2
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14780,9 +14779,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p+2
-6pC2
-6pW2
+6pS2
 6qo~
 6r-m_v
 6r1ij
@@ -14831,9 +14828,8 @@ $light_emissive
 851Pe
 8<pl
 8= zp
+8@JP
 8A6j
-8F0L2
-8F@K2
 8GZS
 8SIffK5W
 8TZvrv<
@@ -14908,6 +14904,7 @@ $light_emissive
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
 :EXTERNAL TYPE %s\n
 :LBN
+:MPropertySuppressEnumerator
 :NAy
 :QYJ
 :Vlq
@@ -14933,7 +14930,6 @@ $light_emissive
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;DSource2GameEntities001
 ;LGEW
 ;Qo0
 ;X94<
@@ -15027,7 +15023,6 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound
 >0 = watershed, 1 = monotone, 2 = layers
->042
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15050,6 +15045,7 @@ $light_emissive
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
+>PX2
 >Sem
 >WK6
 >\n:GAME_PARTICLE_MANAGER_EVENT_ADD_MODELLIST_OVERRIDE_ELEMENT
@@ -15075,8 +15071,10 @@ $light_emissive
 ?333?
 ?33s?
 ?CAnimFoot
+?GAME_HEADER
 ?HAI\t81\t9dcG'
 ?HP4
+?SatVolumeIndex_t
 ?VBH;
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
@@ -15090,22 +15088,21 @@ $light_emissive
 ?ffffff
 ?gwL
 ?jOb
-?levellist_t
+?m_bIsInCatform
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NT*-
+@08N
 @0pp
 @60\n2
-@6@B2
-@6P\t2
-@6P]2
 @BH]f
 @HPX`hv
+@HVPK2
 @MfKZ
+@Np62
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -15139,6 +15136,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:0
 AABBDirection
 AACompromise
 AC2,h
@@ -15152,6 +15150,7 @@ ACTIVATE_TYPE_DATAUPDATE_CREATION
 ACTIVATE_TYPE_INITIAL_CREATION
 ACTIVATE_TYPE_ONRESTORE
 ACTOR
+ACUserMessageUpdateCssClasses_t
 AD Time Stamping
 ADDED %s (%s) to transition.\n
 ADDED.\n
@@ -15375,6 +15374,7 @@ AVelocity: %.2f %.2f %.2f
 AW:S
 AW[.A
 AWt.
+AX&M
 A\n=STEAMLEARN_INFERENCE_METADATA_ERROR_INVALID_PUBLISHED_VERSION
 A\n\fplayer_stats
 A\n\fsocket_index
@@ -15606,7 +15606,7 @@ Already in the goal area
 AltJumpSpeed
 Alternate icon definition index %d must be greater than or equal to zero
 AlternativeSorting
-Am_AuraActive
+Am_bIndirectUseLPVs
 Amber
 AmbientCubes
 AmbushDuration
@@ -15865,7 +15865,7 @@ BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
-BCPulseServerFuncs::ConCommand
+BConditionId_t
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -16108,7 +16108,6 @@ Batched Snapshot response without corresponding waiting handle! (%d)
 BatteryGenerationPercent
 BcT`
 Bd]U
-Bdebug_ai_heat_sensing
 BeamCloseDamagePercent
 BeamCloseRadius
 BeamDamageOutput
@@ -18569,6 +18568,7 @@ CPulseServerFuncs::CanCharacterSeeEntity
 CPulseServerFuncs::ClearEntityMoveTypeOverride
 CPulseServerFuncs::ClearStanceOverride
 CPulseServerFuncs::ClearTargetIdentifierOverride
+CPulseServerFuncs::ConCommand
 CPulseServerFuncs::CountEntitiesWithName
 CPulseServerFuncs::CreateExplosion
 CPulseServerFuncs::CreatePhysicsBallSocketConstraint
@@ -18904,7 +18904,6 @@ CUserMessageShowMenu_t
 CUserMessageTextMsg
 CUserMessageTextMsg_t
 CUserMessageUpdateCssClasses
-CUserMessageUpdateCssClasses_t
 CUserMessageVoiceMask
 CUserMessageVoiceMask_t
 CUserMessageWaterShake
@@ -19343,7 +19342,6 @@ CWorkThread -- Sleep
 CWorkThreadPool::StartWorkThread: Thread creation failed.\n
 CWorkThreadPool::~CWorkThreadPool: work complete queue not empty, %d items discarded.\n
 CWorkThreadPool::~CWorkThreadPool: work processing queue not empty: %d items discarded.\n
-CXt^
 C[L6
 C\lVQ
 C\n?k_EGCMsgInitiateTradeResponse_Free_Account_Initiator_DEPRECATED
@@ -21530,7 +21528,6 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
-F S2
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -21831,6 +21828,7 @@ First valid class must be less than or equal to last valid class.
 First valid item slot must be less than or equal to last valid item slot.
 FirstDamageTime
 FirstMoveChild
+FixationStacks
 Fixed
 Fixed Length
 Fixed Section
@@ -21978,7 +21976,6 @@ G1b1
 G2bQ
 G2xVo\?
 G@T\tJ
-GAME_HEADER
 GBd<}v
 GC Connection established for server version %u\n
 GC replied with ClientRequestDropped, when we were expecting %u.  Simulating message timeout\n
@@ -24512,6 +24509,7 @@ Melee Damage Dealt
 Melee Damage Dealt to Player
 Melee Kills
 MeleeAttackLength
+MeleeBuildUp
 MeleeBurnDPS
 MeleeDamage
 MeleeDamageScale
@@ -25767,9 +25765,14 @@ P-224
 P-256
 P-384
 P-521
-P08NT*-
+P08@J@
+P08Jp
+P08N
 P1\t98"
 P5[1
+P6@i2
+P6`\n2
+P6p)2
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26307,7 +26310,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-PnT*-
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26736,6 +26738,7 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
+R\fpd2-
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\r1>Vp
@@ -27632,6 +27635,7 @@ ScatterDir
 Scene %s has %d actors, but scene entity only has %d actors\n
 Scene '%s' with two stop point events!\n
 Scene sequences are unavailable in Left4Dead.\n
+SceneCoordinatorRequest
 SceneFile
 SceneFileCache002
 SceneNode Hierarchy For %d:\n
@@ -30189,6 +30193,7 @@ UsingMelee
 Ut]<E
 Uv1t
 Uz_G3=
+V e2
 V07;m
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
@@ -30348,7 +30353,7 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
-Vph2
+Vpv2
 Vt_9
 VulnerabilityPerStack
 V~~Vq
@@ -30717,11 +30722,10 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr
+X`hrP
 Xd3h
-Xf@N2
+Xf0T2
 XfJ7
-Xf`O2
 XjfR
 XqgA+
 Xuub
@@ -31922,6 +31926,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpd2-
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -31929,13 +31934,17 @@ Z~wl
 ]MSd
 ][LK~lO
 ^.om5r
+^0Y2
+^0o2
 ^DnJ
 ^DqPt
 ^J_spY
 ^Nij
+^Px2
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
+^pq2
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -31994,11 +32003,8 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`60\v2
-`6P^2
-`6p#2
-`6p\f2
-`6p\r2
+`2Pa
+`6 t2
 `:zQF
 `D$daM-l
 `DZG
@@ -32026,7 +32032,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvT*-
 aD/x
 aDSS
 aECDH
@@ -34531,6 +34536,7 @@ desc_itemset_equipped
 desc_itemset_missing
 desc_itemset_name
 desc_legendary
+desc_level
 desc_limited_use
 desc_mythical
 desc_rare
@@ -35450,7 +35456,6 @@ f_movement_target_speed
 f_navlink_dist_to_next
 f_pose_weight_%s
 f_velocity
-f`42
 face_up
 faceposer
 facing: %s
@@ -36514,6 +36519,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
+hpz@
 hr_H
 http request
 https proxy request
@@ -37763,6 +37769,7 @@ lerp_target_attachment
 less actives bias
 lethaldamageme
 level
+levellist_t
 levels
 levelup_rule
 lhash part of OpenSSL 1.0.2j  26 Sep 2016
@@ -39571,10 +39578,8 @@ mvp_rank
 my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
-n R2
 n does not equal p q
 n0?X
-n0E2
 n1Z 
 n5cM
 n6j/
@@ -39622,7 +39627,6 @@ nValue
 nVersion
 n\r2S
 n`3i
-n`L2
 name constraints minimum and maximum not supported
 name of highest net worth enemy
 name too long
@@ -39919,7 +39923,7 @@ notifyforcemintime_y
 notifyforcemintime_z
 notmostrecent
 notsolid
-npK2
+np:2
 npc_ability_name
 npc_barrack_boss
 npc_base_defense_sentry
@@ -40236,7 +40240,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^T*-
+p08@H^
 p2{l
 p4Z3
 p5Z3
@@ -40523,6 +40527,7 @@ pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
 pcPathLengthConstraint
+pd2-
 peak_memory_bytes
 pedestal_itemdef
 peek_item_defs
@@ -40762,7 +40767,6 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pnT*-
 point
 point arithmetic failure
 point at infinity
@@ -41149,6 +41153,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vpd2-
 rad2deg
 radial
 radialalt
@@ -43682,7 +43687,6 @@ v8callback
 v8object
 v8value
 v<d2}
-v@12
 vAj}
 vAr>
 vAu&
@@ -44130,7 +44134,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-zDDetermines if pausing is enabled. Temporary until we get pausing stable
+zDIf enabled, play of the game will happen
 zF):O4
 zFar
 zG2m8

@@ -89,8 +89,11 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j@
- (08@HPZ@
+ (08@HPX`j
+ (08@HPXb l
+ (08@HPZ
+ (08@HR l
+ (0X`hpz l
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -114,7 +117,6 @@
  <-- Retval '%s'
  <b>@import</b> 
  ACTIVE GROUP
- CCitadelMusicCueData_t
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreAnalogActionHandlesReady: Analog Action not found: %s \n
@@ -130,6 +132,7 @@
  CCitadelSteamInputHandler::SteamDeviceDisconnected: %llu\n
  CCitadelSteamInputHandler::UpdateControllerActionSet: ControllerHandle: %llu, ActionSet: %llu \n
  C_PhysPropClientside::Spawn: SetupPhysicsAsModel() failed for %s.\n
+ Cm_flRoamingSpeed
  FLK
  FWa
  Failed to pack %s\n
@@ -2456,6 +2459,7 @@ $hRh
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
+(40g
 (5Me
 (5jP
 (?WaterWheelDrag_t
@@ -16771,8 +16775,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR@
-08B@
+08@HR
+08@J l
 08bX
 09,h
 0:00
@@ -17036,7 +17040,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vptG
+2\vp8?
 2^pV
 2a"l
 2bT~
@@ -17105,7 +17109,6 @@ $hRh
 4@AA
 4Ch;
 4F0I
-4F\v0\f
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17341,9 +17344,9 @@ $hRh
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
 :EXTERNAL TYPE %s\n
 :LBN
+:MNetworkEnable
 :NAy
 :NPCAttachmentSpawnKV_t
-:Number of triggers before meemop reaches full volume
 :QYJ
 :Vlq
 :\n5k_EMsgClientToGCCancelUnfinalizedTransactionsResponse
@@ -17499,13 +17502,13 @@ $hRh
 >\n\vitemdetails
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >fN46R^
->h2n
 >l\rur
 >p00<
 >yhP
 >ztq
 ?(Optional) Video Id of a YouTube video for this published file.
 ?333?
+?8l5
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
 ??0Utf8Value@String@v8@@QEAA@PEAVIsolate@2@V?$Local@VValue@v8@@@2@@Z
@@ -17514,7 +17517,7 @@ $hRh
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelInviteFriendMenu
+?CitadelMatchmakingStatus
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?EncodeBC7Blocks
@@ -17545,12 +17548,12 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
-?citadel_tutorial_controller
 ?d86L
 ?dt]X
 ?expf
 ?gwL
 ?jOb
+?m_iszFriendlyEffectName
 ?srJO
 ?tya
 ?uWS
@@ -17559,11 +17562,10 @@ $hRh
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
-@60a
+@6pg
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
-@HPX`hv
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17584,6 +17586,7 @@ $hRh
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
+@m_EmpowerBulletModifier
 @n2w
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
@@ -18809,7 +18812,7 @@ BlurOutput
 BlurVert
 BlurVisionRange
 Blur_DistanceField_t
-Bm_bDucked
+Bm_nOriginalLaneAssignment
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -18915,13 +18918,13 @@ BookCustomXMLPage
 BookID_t"
 BookImagePage
 BookImageSequence
+BookInfo
 BookItemUnlock
 BookItemUnlockControl
 BookLogo
 BookNavButton
 BookNavButtonBase
 BookNavButtonIcon
-BookPage
 BookPageID_t
 BookPageList
 BookTOCNavButton
@@ -22557,6 +22560,7 @@ CitadelHudUpdate
 CitadelIgnoreFriend
 CitadelIntroPopupClosed
 CitadelIntroPopupsFinished
+CitadelInviteFriendMenu
 CitadelInviteFriendSelected
 CitadelItemDraftEnterState
 CitadelItemDraftOption
@@ -22613,7 +22617,6 @@ CitadelMatchMetadataManager
 CitadelMatchMetadataUpdated
 CitadelMatchReportsUpdated
 CitadelMatchmakingStateChanged
-CitadelMatchmakingStatus
 CitadelMatchmakingStatusScheduledUpdate
 CitadelMinimapConvarChanged
 CitadelMinimapManifest
@@ -22723,6 +22726,7 @@ CitadelPopupGlobalLeaderboard
 CitadelPopupHeroDebut
 CitadelPopupJoinParty
 CitadelPopupJoinPartyCode
+CitadelPopupNewsPost
 CitadelPopupNewsPostClose
 CitadelPopupRankedInfo
 CitadelPopupRankedSummary
@@ -25315,7 +25319,6 @@ ExtraTargetHorizontalOffset
 EyeOcclusionDS.vtex
 EyeOcclusionPingPongRT_%dx%d.vtex
 EyeOcclusionRT.vtex
-F Kj
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -25668,6 +25671,7 @@ FireworkParticle8
 First valid class must be greater than 0.
 First valid class must be less than or equal to last valid class.
 First valid item slot must be less than or equal to last valid item slot.
+FixationStacks
 Fixed Length
 Fixed Section
 FixedLength
@@ -28162,7 +28166,7 @@ MBOIT_B_3456
 MBOIT_COLOR
 MBOIT_COLOR_FRONT
 MBb!\v
-MBookInfo
+MBookPage
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
@@ -28449,6 +28453,7 @@ MaybeAllocateAligned cannot fail here.
 Mc]T=
 MediumChargeDamagePct
 MeleeAttackLength
+MeleeBuildUp
 MeleeDamage
 MeleeDamageScale
 MeleeEMP
@@ -29451,12 +29456,13 @@ P-224
 P-256
 P-384
 P-521
-P08J`
+P08@J l
 P08N
 P1\t98"
+P2 l
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6`a
+P6P]
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30224,7 +30230,6 @@ PopupPanel
 PopupPartyInviteFriend
 PopupPickEnhanceItem
 PopupPlayerFeedback
-PopupPlaytestUser
 PopupPrivateBots
 PopupReportPlayer
 PopupSellMaxItems
@@ -30757,13 +30762,12 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fptG
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vpp8
+R\vp8?
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -34632,8 +34636,9 @@ WARNING: Too many essential breakpieces in one frame - this may cause performanc
 WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
+WC_AI_CitadelNPC
 WD%g"0Q-)
-WDCitadelPopupNewsPost
+WDPopupPlaytestUser
 WEAKNESSES
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -34654,7 +34659,6 @@ WLs6
 WOCR
 WOL: 0x%p (%s)
 WP4$!
-WPing button pressed
 WRINKLE
 WRITE_PENDING
 WRw[
@@ -35075,7 +35079,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr@
+X`hr
 Xd3h
 XfJ7
 XjfR
@@ -35502,7 +35506,6 @@ Z~wl
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
 \nGameTime_t"
-\nPp8
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -36349,11 +36352,11 @@ Z~wl
 \r^mX
 \ri1I
 \rjwB\t
-\rm_vecDependentAbilities
 \roKK
 \rrCj
 \rr_flashlighttracedistwatercutoff
 \rstyle_index_t
+\rtrigger_portal
 \rusercmd.proto"
 \sG7tPD
 \t entindex: %d\n
@@ -36563,8 +36566,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpp8
-\vptG
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36641,10 +36642,9 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`\rP\f0p8
 `fPw.\vM
 `h9T~
-`ht@c
+`ht0g
 `o_je
 `yNT
 a null shared library handle was used
@@ -38587,7 +38587,6 @@ citadel_item_market_price
 citadel_item_metal
 citadel_item_name
 citadel_item_pickup
-citadel_item_pickup_idol
 citadel_item_pickup_rejuv
 citadel_item_pickup_rejuv_herotest
 citadel_item_pickup_rejuv_herotest_infospawn
@@ -38678,6 +38677,7 @@ citadel_trigger_no_portals
 citadel_trigger_speed_boost
 citadel_trooper_minimap
 citadel_tunnel_trigger
+citadel_tutorial_controller
 citadel_usercmd.proto
 citadel_usermessages.proto
 citadel_viscous_ball
@@ -42041,6 +42041,7 @@ houseIdentifier
 hover
 hovering
 hp_stat
+hpz l
 hr_H
 href="
 hscroll
@@ -44138,6 +44139,7 @@ m_tail != QUEUE_ITERATOR_INVALID
 m_think
 m_time
 m_unFrameFuncThreadID == unCurrentThread
+m_vecDependentAbilities
 m_vecHealthbars.IsValidIndex( idx )
 m_vecInitialVel %.2f %.2f %.2f
 m_vecLandmarkAngles
@@ -46276,7 +46278,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0jpM
+p2 l
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46295,7 +46297,6 @@ pDescription
 pDest
 pField
 pFilter
-pFpD
 pG_*h
 pHeroReleaseVoteOptions->GetChildCount() == (int)EActiveHeroReleaseVoteOption::Count
 pHitEntity
@@ -47391,10 +47392,8 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpp8
 r\n\vstart_index
 r\vDi
-r\vptG
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -49737,7 +49736,6 @@ trigger_mins
 trigger_neutral_shield
 trigger_passthrough_fake_wall
 trigger_physics
-trigger_portal
 trigger_tier3phase2_shield
 trigger_transition
 tripmine
@@ -50815,7 +50813,7 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDCCitadel_Modifier_HoldingGoldenIdol
+zDcitadel_item_pickup_idol
 zF):O4
 zFar
 zG2m8

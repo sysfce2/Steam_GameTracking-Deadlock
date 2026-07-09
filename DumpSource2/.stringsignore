@@ -45163,7 +45163,9 @@ vecAncestorCursorIDs
 vecBoneLocalPos
 vecBones
 vecDir
+vecMeleeResistPercents
 vecOtherEntities
+vecSpiritResistPercents
 vecTargetLocationWhenUnreachable
 vecTargetWorldPos
 vec_events

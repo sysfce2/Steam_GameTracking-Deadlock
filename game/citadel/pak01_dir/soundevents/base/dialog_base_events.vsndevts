@@ -128,6 +128,38 @@
 		pitch_shrunken_scalar = 1.0
 		mixer_mixlayer_volume_gate = 0.1
 	}
+	Base.Idol.VO = 
+	{
+		type = "citadel_dialog"
+		base = 
+		[
+			{
+				event_name = "Base.SourceReverb"
+				field_name = "citadel_source_reverb_send"
+			},
+			{
+				event_name = "Volume.Falloff.Idol.Telegraph"
+				field_name = "citadel_perspective_default"
+			},
+		]
+		mix_group_prefix = "VO-Hero"
+		occlusion_use_group_calculation = true
+		enable_pre_priority_volume_blocking = true
+		enable_combat_blocking = true
+		combat_blocking_priority_threshold = 380.0
+		volume_fade_out = 0.1
+		max_distance_recipient_filter = 3500.0
+		block_distance_max = 3500.0
+		volume = 2.0
+		position_offset = [ 0.0, 0.0, 50.0 ]
+		spread_max_value_team = 0.0
+		spread_max_value_opponent = 0.0
+		spread_max_value_neutral = 0.0
+		spread_min_value = 0.0
+		mono_downmix_enabled = 1.0
+		mono_downmix_min_distance = 0.0
+		mono_downmix_max_distance = 0.0
+	}
 	Base.Shopkeeper.VO = 
 	{
 		base = "Base.VO.Announcer"

@@ -169,7 +169,7 @@
 	Soul.Urn.Spawn = 
 	{
 		base = "Base.Urn"
-		volume = 0.0
+		volume = -1.0
 		max_distance_recipient_filter = -1
 		vsnd_files = "sounds/world/urn/soul_urn_spawn_01.vsnd"
 		vsnd_duration = 12.985964
@@ -177,14 +177,14 @@
 	Soul.Urn.Spawn.Complete = 
 	{
 		base = "Base.Urn"
-		volume = -1.0
+		volume = -2.0
 		vsnd_files = "sounds/world/urn/soul_urn_spawn_complete_01.vsnd"
 		vsnd_duration = 2.071247
 	}
 	Soul.Urn.Pickup = 
 	{
 		base = "Base.Urn"
-		volume = 0.0
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/world/urn/soul_urn_pickup_01.vsnd",
@@ -196,7 +196,7 @@
 	Soul.Urn.Drop = 
 	{
 		base = "Base.Urn"
-		volume = 0.0
+		volume = -1.0
 		vsnd_files = 
 		[
 			"sounds/world/urn/soul_urn_drop_01.vsnd",
@@ -208,7 +208,7 @@
 	Soul.Urn.Walking.Lp = 
 	{
 		base = "Base.Urn"
-		volume = 2.0
+		volume = 1.0
 		volume_fade_in = 0.2
 		volume_fade_out = 0.2
 		delay_rand_min = -2.0
@@ -220,7 +220,7 @@
 	Soul.Urn.Idling.Lp = 
 	{
 		base = "Base.Urn"
-		volume = -2.0
+		volume = -3.0
 		volume_fade_in = 0.2
 		volume_fade_out = 0.2
 		delay_rand_min = -2.0
@@ -231,7 +231,7 @@
 	}
 	Soul.Urn.Carry.Lp = 
 	{
-		base = "Base.Ability"
+		base = "Base.Urn.Carry"
 		volume = 2.0
 		pitch = 1.2
 		volume_fade_in = 0.2
@@ -244,8 +244,7 @@
 	}
 	Footstep.Urn.Sweetener = 
 	{
-		base = "Base.Ability"
-		pitch = 1.0
+		base = "Base.Urn.Carry"
 		volume = 0.0
 		limiter_max = 3.0
 		volume_fade_out = 0.1
@@ -266,6 +265,16 @@
 			"sounds/player/footsteps/shared/urn/footstep_urn_jingle_10.vsnd",
 		]
 		vsnd_duration = 0.850703
+	}
+	Soul.Urn.Melee.Drop = 
+	{
+		base = "Base.Urn"
+		volume = -2.0
+		vsnd_files = 
+		[
+			"sounds/world/urn/soul_urn_melee_drop_01.vsnd",
+		]
+		vsnd_duration = 1.190658
 	}
 	Soul.Urn.Switch.Team = 
 	{
@@ -295,7 +304,7 @@
 	}
 	Soul.Urn.CashIn.Timer.Lp = 
 	{
-		base = "Base.Urn.Zone"
+		base = "Base.Urn"
 		volume = -2.0
 		volume_fade_in = 0.1
 		volume_fade_out = 0.1
@@ -306,7 +315,7 @@
 	}
 	Soul.Urn.Zone.Contested.Lp = 
 	{
-		base = "Base.Urn.Zone"
+		base = "Base.Urn"
 		volume = -5.0
 		volume_fade_in = 0.1
 		volume_fade_out = 0.1
@@ -317,7 +326,7 @@
 	}
 	Soul.Urn.GiveUp.Warning.Lp = 
 	{
-		base = "Base.Urn.Zone"
+		base = "Base.Urn"
 		volume = -2.0
 		volume_fade_in = 0.1
 		volume_fade_out = 0.1
@@ -335,21 +344,11 @@
 	}
 	Soul.Urn.CashIn.Complete.Opponent = 
 	{
-		base = "Base.Urn.Zone"
+		base = "Base.Urn"
 		volume = 0.0
 		volume_falloff_min = 2500.0
 		vsnd_files = "sounds/world/urn/soul_urn_cashin_complete_opponent_01.vsnd"
 		vsnd_duration = 2.047392
-	}
-	Soul.Urn.Melee.Drop = 
-	{
-		base = "Base.Urn"
-		volume = -1.0
-		vsnd_files = 
-		[
-			"sounds/world/urn/soul_urn_melee_drop_01.vsnd",
-		]
-		vsnd_duration = 1.190658
 	}
 	Soul.Urn.Damage.Tick = 
 	{
@@ -368,7 +367,7 @@
 	}
 	Soul.Urn.Zone.Contested = 
 	{
-		base = "Base.Urn.Zone"
+		base = "Base.Urn"
 		volume = 0.0
 		limiter_on = 1.0
 		limiter_max = 0.0

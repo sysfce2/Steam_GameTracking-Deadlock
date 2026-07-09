@@ -262,7 +262,7 @@
 	m_ObjectiveParams = 
 	{
 		m_GoldPerOrb = 0
-		m_NearPlayerSplitPct = 40.0
+		m_NearPlayerSplitPct = 30.0
 		m_nTier1GoldKill = 1250
 		m_nTier1GoldOrbs = 0
 		m_nTier2GoldKill = 3500

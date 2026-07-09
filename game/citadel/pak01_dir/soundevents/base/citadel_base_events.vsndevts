@@ -1804,10 +1804,10 @@
 		base = 
 		[
 			{
-				event_name = "Volume.Falloff.Urn"
+				event_name = "Volume.Falloff.Idol"
 			},
 		]
-		mixer_mixgroup = "MapObjective"
+		mixer_mixgroup = "MapObjective-LoPri"
 		volume = 0.0
 		max_distance_recipient_filter = 8000.0
 		spread_max_value = 0.5
@@ -1819,6 +1819,23 @@
 		mono_downmix_max_distance = 600.0
 		mono_downmix_min_distance = 100.0
 		position_offset = [ 0.0, 0.0, 50.0 ]
+	}
+	Base.Urn.Carry = 
+	{
+		type = "citadel_perspective_default"
+		base = 
+		[
+			{
+				event_name = "Volume.Falloff.Idol.Telegraph"
+			},
+		]
+		max_distance_recipient_filter = 3500.0
+		mix_group_prefix = "Ability"
+		occlusion_scale_non_player = 0.5
+		block_volume_min = -1.0
+		volume = 0.0
+		position_offset = [ 0.0, 0.0, 50.0 ]
+		play_from_listener_player = 1.0
 	}
 	Base.Koth = 
 	{

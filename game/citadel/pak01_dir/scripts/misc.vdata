@@ -4060,9 +4060,9 @@
 				m_flStatusResist = 35
 			}
 			m_bIsHidden = true
-			m_flAuraRadius = 787.402
-			m_flAuraTargetingCylinderUpOffset = 400.0
-			m_flAuraTargetingCylinderHalfHeight = 1000.0
+			m_flAuraRadius = 1377.95
+			m_flAuraTargetingCylinderUpOffset = 600.0
+			m_flAuraTargetingCylinderHalfHeight = 1300.0
 		}
 		m_TrooperModifier = subclass:
 		{
@@ -4073,6 +4073,8 @@
 			m_nStatusEffectPriority = 100
 			m_vecHealthPercents = [ 100, 120, 140, 160 ]
 			m_vecDamagePercents = [ 100, 120, 140, 160 ]
+			m_vecSpiritResistPercents = [ 30, 35, 40, 45 ]
+			m_vecMeleeResistPercents = [ 25, 25, 25, 25 ]
 			m_vecModelScaleFractions = [ 1.57, 1.6, 1.63, 1.66 ]
 		}
 		m_strKothCashedInSoundFriendly = soundevent:"Koth.Cashin.Complete.Team"

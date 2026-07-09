@@ -24752,7 +24752,7 @@
 	}
 	spirit_jar_idol_delivered_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24762,7 +24762,7 @@
 	}
 	spirit_jar_idol_delivered_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24772,7 +24772,7 @@
 	}
 	spirit_jar_idol_delivered_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24782,7 +24782,7 @@
 	}
 	spirit_jar_idol_delivered_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24792,7 +24792,7 @@
 	}
 	spirit_jar_idol_delivered_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24802,7 +24802,7 @@
 	}
 	spirit_jar_idol_delivered_06_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24812,7 +24812,7 @@
 	}
 	spirit_jar_idol_delivered_07_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24822,7 +24822,7 @@
 	}
 	spirit_jar_idol_delivered_08_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24832,7 +24832,7 @@
 	}
 	spirit_jar_idol_delivered_09_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24842,7 +24842,7 @@
 	}
 	spirit_jar_idol_delivered_10_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24852,7 +24852,7 @@
 	}
 	spirit_jar_idol_dropped_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24862,7 +24862,7 @@
 	}
 	spirit_jar_idol_dropped_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24872,7 +24872,7 @@
 	}
 	spirit_jar_idol_dropped_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24882,7 +24882,7 @@
 	}
 	spirit_jar_idol_dropped_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24892,7 +24892,7 @@
 	}
 	spirit_jar_idol_dropped_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24902,7 +24902,7 @@
 	}
 	spirit_jar_idol_dropped_06_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24912,7 +24912,7 @@
 	}
 	spirit_jar_idol_dropped_07_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24922,7 +24922,7 @@
 	}
 	spirit_jar_idol_dropped_08_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24932,7 +24932,7 @@
 	}
 	spirit_jar_idol_dropped_09_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24942,7 +24942,7 @@
 	}
 	spirit_jar_idol_dropped_10_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24952,7 +24952,7 @@
 	}
 	spirit_jar_idol_dropping_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24962,7 +24962,7 @@
 	}
 	spirit_jar_idol_dropping_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24972,7 +24972,7 @@
 	}
 	spirit_jar_idol_dropping_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24982,7 +24982,7 @@
 	}
 	spirit_jar_idol_dropping_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -24992,7 +24992,7 @@
 	}
 	spirit_jar_idol_dropping_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25002,7 +25002,7 @@
 	}
 	spirit_jar_idol_dropping_06_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25012,7 +25012,7 @@
 	}
 	spirit_jar_idol_dropping_07_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25022,7 +25022,7 @@
 	}
 	spirit_jar_idol_dropping_08_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25032,7 +25032,7 @@
 	}
 	spirit_jar_idol_dropping_09_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25042,7 +25042,7 @@
 	}
 	spirit_jar_idol_dropping_10_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25052,7 +25052,7 @@
 	}
 	spirit_jar_idol_holder_gets_stunned_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25062,7 +25062,7 @@
 	}
 	spirit_jar_idol_holder_gets_stunned_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25072,7 +25072,7 @@
 	}
 	spirit_jar_idol_holder_gets_stunned_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25082,7 +25082,7 @@
 	}
 	spirit_jar_idol_holder_gets_stunned_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25092,7 +25092,7 @@
 	}
 	spirit_jar_idol_holder_gets_stunned_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25102,7 +25102,7 @@
 	}
 	spirit_jar_idol_holder_stalls_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25112,7 +25112,7 @@
 	}
 	spirit_jar_idol_holder_stalls_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25122,7 +25122,7 @@
 	}
 	spirit_jar_idol_holder_stalls_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25132,7 +25132,7 @@
 	}
 	spirit_jar_idol_holder_stalls_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25142,7 +25142,7 @@
 	}
 	spirit_jar_idol_holder_stalls_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25152,7 +25152,7 @@
 	}
 	spirit_jar_idol_holder_takes_big_damage_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25162,7 +25162,7 @@
 	}
 	spirit_jar_idol_holder_takes_big_damage_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25172,7 +25172,7 @@
 	}
 	spirit_jar_idol_holder_takes_big_damage_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25182,7 +25182,7 @@
 	}
 	spirit_jar_idol_holder_takes_big_damage_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25192,7 +25192,7 @@
 	}
 	spirit_jar_idol_holder_takes_big_damage_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25202,7 +25202,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25212,7 +25212,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25222,7 +25222,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_03_alt_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25232,7 +25232,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25242,7 +25242,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25252,7 +25252,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25262,7 +25262,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_06_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25272,7 +25272,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_07_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25282,7 +25282,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_08_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25292,7 +25292,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_09_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25302,7 +25302,7 @@
 	}
 	spirit_jar_idol_picked_up_on_bridge_10_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25312,7 +25312,7 @@
 	}
 	spirit_jar_idol_picked_up_on_street_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25322,7 +25322,7 @@
 	}
 	spirit_jar_idol_picked_up_on_street_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25332,7 +25332,7 @@
 	}
 	spirit_jar_idol_picked_up_on_street_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25342,7 +25342,7 @@
 	}
 	spirit_jar_idol_picked_up_on_street_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25352,7 +25352,7 @@
 	}
 	spirit_jar_idol_picked_up_on_street_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25362,7 +25362,7 @@
 	}
 	spirit_jar_idol_picked_up_on_street_06_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25372,7 +25372,7 @@
 	}
 	spirit_jar_idol_picked_up_on_street_07_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25382,7 +25382,7 @@
 	}
 	spirit_jar_idol_picked_up_on_street_08_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25392,7 +25392,7 @@
 	}
 	spirit_jar_idol_picked_up_on_street_09_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25402,7 +25402,7 @@
 	}
 	spirit_jar_idol_picked_up_on_street_10_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25412,7 +25412,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25422,7 +25422,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_02_alt_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25432,7 +25432,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25442,7 +25442,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25452,7 +25452,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25462,7 +25462,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25472,7 +25472,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_06_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25482,7 +25482,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_07_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25492,7 +25492,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_08_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25502,7 +25502,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_09_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25512,7 +25512,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_10_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25522,7 +25522,7 @@
 	}
 	spirit_jar_idol_waiting_in_street_11_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25532,7 +25532,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25542,7 +25542,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25552,7 +25552,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25562,7 +25562,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25572,7 +25572,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25582,7 +25582,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_06_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25592,7 +25592,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_07_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25602,7 +25602,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_08_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25612,7 +25612,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_09_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25622,7 +25622,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_10_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25632,7 +25632,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_11_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25642,7 +25642,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_12_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25652,7 +25652,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_13_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25662,7 +25662,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_14_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25672,7 +25672,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_15_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25682,7 +25682,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_16_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25692,7 +25692,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_17_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25702,7 +25702,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_18_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25712,7 +25712,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_19_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25722,7 +25722,7 @@
 	}
 	spirit_jar_idol_waiting_on_bridge_20_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25732,7 +25732,7 @@
 	}
 	spirit_jar_koth_give_up_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25742,7 +25742,7 @@
 	}
 	spirit_jar_koth_give_up_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25752,7 +25752,7 @@
 	}
 	spirit_jar_koth_give_up_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25762,7 +25762,7 @@
 	}
 	spirit_jar_koth_give_up_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25772,7 +25772,7 @@
 	}
 	spirit_jar_koth_give_up_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25782,7 +25782,7 @@
 	}
 	spirit_jar_koth_give_up_06_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25792,7 +25792,7 @@
 	}
 	spirit_jar_koth_give_up_07_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25802,7 +25802,7 @@
 	}
 	spirit_jar_koth_give_up_08_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25812,7 +25812,7 @@
 	}
 	spirit_jar_koth_give_up_09_alt_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25822,7 +25822,7 @@
 	}
 	spirit_jar_koth_give_up_09_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25832,7 +25832,7 @@
 	}
 	spirit_jar_koth_give_up_10_alt_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25842,7 +25842,7 @@
 	}
 	spirit_jar_koth_give_up_10_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25852,7 +25852,7 @@
 	}
 	spirit_jar_koth_warning_01_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25862,7 +25862,7 @@
 	}
 	spirit_jar_koth_warning_02_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25872,7 +25872,7 @@
 	}
 	spirit_jar_koth_warning_03_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25882,7 +25882,7 @@
 	}
 	spirit_jar_koth_warning_04_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25892,7 +25892,7 @@
 	}
 	spirit_jar_koth_warning_05_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25902,7 +25902,7 @@
 	}
 	spirit_jar_koth_warning_06_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25912,7 +25912,7 @@
 	}
 	spirit_jar_koth_warning_07_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25922,7 +25922,7 @@
 	}
 	spirit_jar_koth_warning_08_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25932,7 +25932,7 @@
 	}
 	spirit_jar_koth_warning_09_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
@@ -25942,7 +25942,7 @@
 	}
 	spirit_jar_koth_warning_10_idol = 
 	{
-		base = "Base.Hero.VO"
+		base = "Base.Idol.VO"
 		context_name = "spirit_jar"
 		vsnd_files = 
 		[
