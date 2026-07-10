@@ -1814,8 +1814,6 @@
 		spread_min = 100.0
 		spread_max = 800.0
 		hrtf_on = 0.0
-		occlusion_scale = 0.5
-		occlusion_radius = 800.0
 		mono_downmix_max_distance = 600.0
 		mono_downmix_min_distance = 100.0
 		position_offset = [ 0.0, 0.0, 50.0 ]
