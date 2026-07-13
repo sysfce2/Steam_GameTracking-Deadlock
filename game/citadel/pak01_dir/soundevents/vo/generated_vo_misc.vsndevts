@@ -24750,6 +24750,1916 @@
 		]
 		vsnd_duration = 2.393265
 	}
+	spirit_jar_holder_stalls_astro_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_astro_01.vsnd",
+		]
+		vsnd_duration = 5.343833
+	}
+	spirit_jar_holder_stalls_astro_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_astro_02.vsnd",
+		]
+		vsnd_duration = 3.974646
+	}
+	spirit_jar_holder_stalls_astro_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_astro_03.vsnd",
+		]
+		vsnd_duration = 6.023917
+	}
+	spirit_jar_holder_stalls_astro_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_astro_04.vsnd",
+		]
+		vsnd_duration = 7.015729
+	}
+	spirit_jar_holder_stalls_astro_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_astro_05.vsnd",
+		]
+		vsnd_duration = 14.915646
+	}
+	spirit_jar_holder_stalls_atlas_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_atlas_01.vsnd",
+		]
+		vsnd_duration = 5.046854
+	}
+	spirit_jar_holder_stalls_atlas_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_atlas_02.vsnd",
+		]
+		vsnd_duration = 5.888167
+	}
+	spirit_jar_holder_stalls_atlas_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_atlas_03.vsnd",
+		]
+		vsnd_duration = 4.713625
+	}
+	spirit_jar_holder_stalls_atlas_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_atlas_04.vsnd",
+		]
+		vsnd_duration = 6.551938
+	}
+	spirit_jar_holder_stalls_atlas_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_atlas_05.vsnd",
+		]
+		vsnd_duration = 9.935062
+	}
+	spirit_jar_holder_stalls_bebop_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_bebop_01.vsnd",
+		]
+		vsnd_duration = 7.099916
+	}
+	spirit_jar_holder_stalls_bebop_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_bebop_02.vsnd",
+		]
+		vsnd_duration = 7.506
+	}
+	spirit_jar_holder_stalls_bebop_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_bebop_03.vsnd",
+		]
+		vsnd_duration = 7.686396
+	}
+	spirit_jar_holder_stalls_bebop_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_bebop_04.vsnd",
+		]
+		vsnd_duration = 8.231063
+	}
+	spirit_jar_holder_stalls_bebop_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_bebop_05.vsnd",
+		]
+		vsnd_duration = 5.951875
+	}
+	spirit_jar_holder_stalls_bookworm_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_bookworm_01.vsnd",
+		]
+		vsnd_duration = 4.242896
+	}
+	spirit_jar_holder_stalls_bookworm_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_bookworm_02.vsnd",
+		]
+		vsnd_duration = 6.501709
+	}
+	spirit_jar_holder_stalls_bookworm_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_bookworm_03.vsnd",
+		]
+		vsnd_duration = 4.672313
+	}
+	spirit_jar_holder_stalls_bookworm_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_bookworm_04.vsnd",
+		]
+		vsnd_duration = 4.921542
+	}
+	spirit_jar_holder_stalls_bookworm_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_bookworm_05.vsnd",
+		]
+		vsnd_duration = 4.665896
+	}
+	spirit_jar_holder_stalls_chrono_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_chrono_01.vsnd",
+		]
+		vsnd_duration = 4.0395
+	}
+	spirit_jar_holder_stalls_chrono_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_chrono_02.vsnd",
+		]
+		vsnd_duration = 7.485188
+	}
+	spirit_jar_holder_stalls_chrono_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_chrono_03.vsnd",
+		]
+		vsnd_duration = 10.775937
+	}
+	spirit_jar_holder_stalls_chrono_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_chrono_04.vsnd",
+		]
+		vsnd_duration = 8.10025
+	}
+	spirit_jar_holder_stalls_chrono_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_chrono_05.vsnd",
+		]
+		vsnd_duration = 7.7515
+	}
+	spirit_jar_holder_stalls_doorman_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_doorman_01.vsnd",
+		]
+		vsnd_duration = 4.435083
+	}
+	spirit_jar_holder_stalls_doorman_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_doorman_02.vsnd",
+		]
+		vsnd_duration = 5.1505
+	}
+	spirit_jar_holder_stalls_doorman_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_doorman_03.vsnd",
+		]
+		vsnd_duration = 4.514604
+	}
+	spirit_jar_holder_stalls_doorman_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_doorman_04.vsnd",
+		]
+		vsnd_duration = 4.442791
+	}
+	spirit_jar_holder_stalls_doorman_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_doorman_05.vsnd",
+		]
+		vsnd_duration = 7.671563
+	}
+	spirit_jar_holder_stalls_drifter_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_drifter_01.vsnd",
+		]
+		vsnd_duration = 4.151312
+	}
+	spirit_jar_holder_stalls_drifter_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_drifter_02.vsnd",
+		]
+		vsnd_duration = 6.511896
+	}
+	spirit_jar_holder_stalls_drifter_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_drifter_03.vsnd",
+		]
+		vsnd_duration = 8.034083
+	}
+	spirit_jar_holder_stalls_drifter_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_drifter_04.vsnd",
+		]
+		vsnd_duration = 4.252208
+	}
+	spirit_jar_holder_stalls_drifter_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_drifter_05.vsnd",
+		]
+		vsnd_duration = 10.027062
+	}
+	spirit_jar_holder_stalls_dynamo_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_dynamo_01.vsnd",
+		]
+		vsnd_duration = 5.65375
+	}
+	spirit_jar_holder_stalls_dynamo_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_dynamo_02.vsnd",
+		]
+		vsnd_duration = 6.827146
+	}
+	spirit_jar_holder_stalls_dynamo_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_dynamo_03.vsnd",
+		]
+		vsnd_duration = 5.958292
+	}
+	spirit_jar_holder_stalls_dynamo_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_dynamo_04.vsnd",
+		]
+		vsnd_duration = 6.898021
+	}
+	spirit_jar_holder_stalls_dynamo_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_dynamo_05.vsnd",
+		]
+		vsnd_duration = 6.488062
+	}
+	spirit_jar_holder_stalls_familiar_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_familiar_01.vsnd",
+		]
+		vsnd_duration = 3.950146
+	}
+	spirit_jar_holder_stalls_familiar_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_familiar_02.vsnd",
+		]
+		vsnd_duration = 6.877584
+	}
+	spirit_jar_holder_stalls_familiar_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_familiar_03.vsnd",
+		]
+		vsnd_duration = 5.972312
+	}
+	spirit_jar_holder_stalls_familiar_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_familiar_04.vsnd",
+		]
+		vsnd_duration = 5.055042
+	}
+	spirit_jar_holder_stalls_familiar_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_familiar_05.vsnd",
+		]
+		vsnd_duration = 8.860937
+	}
+	spirit_jar_holder_stalls_fencer_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_fencer_01.vsnd",
+		]
+		vsnd_duration = 5.044604
+	}
+	spirit_jar_holder_stalls_fencer_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_fencer_02.vsnd",
+		]
+		vsnd_duration = 4.406583
+	}
+	spirit_jar_holder_stalls_fencer_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_fencer_03.vsnd",
+		]
+		vsnd_duration = 3.667833
+	}
+	spirit_jar_holder_stalls_fencer_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_fencer_04.vsnd",
+		]
+		vsnd_duration = 5.220292
+	}
+	spirit_jar_holder_stalls_fencer_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_fencer_05.vsnd",
+		]
+		vsnd_duration = 14.440771
+	}
+	spirit_jar_holder_stalls_forge_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_forge_01.vsnd",
+		]
+		vsnd_duration = 9.302042
+	}
+	spirit_jar_holder_stalls_forge_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_forge_02.vsnd",
+		]
+		vsnd_duration = 5.299958
+	}
+	spirit_jar_holder_stalls_forge_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_forge_03.vsnd",
+		]
+		vsnd_duration = 6.932229
+	}
+	spirit_jar_holder_stalls_forge_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_forge_04.vsnd",
+		]
+		vsnd_duration = 8.686729
+	}
+	spirit_jar_holder_stalls_forge_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_forge_05.vsnd",
+		]
+		vsnd_duration = 6.764104
+	}
+	spirit_jar_holder_stalls_frank_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_frank_01.vsnd",
+		]
+		vsnd_duration = 4.515812
+	}
+	spirit_jar_holder_stalls_frank_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_frank_02.vsnd",
+		]
+		vsnd_duration = 4.431541
+	}
+	spirit_jar_holder_stalls_frank_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_frank_03.vsnd",
+		]
+		vsnd_duration = 7.179584
+	}
+	spirit_jar_holder_stalls_frank_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_frank_04.vsnd",
+		]
+		vsnd_duration = 7.636458
+	}
+	spirit_jar_holder_stalls_frank_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_frank_05.vsnd",
+		]
+		vsnd_duration = 7.994646
+	}
+	spirit_jar_holder_stalls_ghost_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_ghost_01.vsnd",
+		]
+		vsnd_duration = 5.418021
+	}
+	spirit_jar_holder_stalls_ghost_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_ghost_02.vsnd",
+		]
+		vsnd_duration = 8.671958
+	}
+	spirit_jar_holder_stalls_ghost_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_ghost_03.vsnd",
+		]
+		vsnd_duration = 6.106125
+	}
+	spirit_jar_holder_stalls_ghost_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_ghost_04.vsnd",
+		]
+		vsnd_duration = 5.003021
+	}
+	spirit_jar_holder_stalls_ghost_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_ghost_05.vsnd",
+		]
+		vsnd_duration = 4.962896
+	}
+	spirit_jar_holder_stalls_gigawatt_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_gigawatt_01.vsnd",
+		]
+		vsnd_duration = 7.389771
+	}
+	spirit_jar_holder_stalls_gigawatt_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_gigawatt_02.vsnd",
+		]
+		vsnd_duration = 5.608313
+	}
+	spirit_jar_holder_stalls_gigawatt_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_gigawatt_03.vsnd",
+		]
+		vsnd_duration = 6.006708
+	}
+	spirit_jar_holder_stalls_gigawatt_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_gigawatt_04.vsnd",
+		]
+		vsnd_duration = 4.885541
+	}
+	spirit_jar_holder_stalls_gigawatt_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_gigawatt_05.vsnd",
+		]
+		vsnd_duration = 6.947208
+	}
+	spirit_jar_holder_stalls_haze_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_haze_01.vsnd",
+		]
+		vsnd_duration = 5.450708
+	}
+	spirit_jar_holder_stalls_haze_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_haze_02.vsnd",
+		]
+		vsnd_duration = 7.539667
+	}
+	spirit_jar_holder_stalls_haze_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_haze_03.vsnd",
+		]
+		vsnd_duration = 7.634438
+	}
+	spirit_jar_holder_stalls_haze_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_haze_04.vsnd",
+		]
+		vsnd_duration = 3.127438
+	}
+	spirit_jar_holder_stalls_haze_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_haze_05.vsnd",
+		]
+		vsnd_duration = 6.509646
+	}
+	spirit_jar_holder_stalls_hornet_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_hornet_01.vsnd",
+		]
+		vsnd_duration = 5.550458
+	}
+	spirit_jar_holder_stalls_hornet_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_hornet_02.vsnd",
+		]
+		vsnd_duration = 6.313334
+	}
+	spirit_jar_holder_stalls_hornet_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_hornet_03.vsnd",
+		]
+		vsnd_duration = 5.866708
+	}
+	spirit_jar_holder_stalls_hornet_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_hornet_04.vsnd",
+		]
+		vsnd_duration = 6.51075
+	}
+	spirit_jar_holder_stalls_hornet_05_alt_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_hornet_05_alt_01.vsnd",
+		]
+		vsnd_duration = 7.614313
+	}
+	spirit_jar_holder_stalls_hornet_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_hornet_05.vsnd",
+		]
+		vsnd_duration = 7.113062
+	}
+	spirit_jar_holder_stalls_inferno_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_inferno_01.vsnd",
+		]
+		vsnd_duration = 4.002584
+	}
+	spirit_jar_holder_stalls_inferno_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_inferno_02.vsnd",
+		]
+		vsnd_duration = 5.827646
+	}
+	spirit_jar_holder_stalls_inferno_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_inferno_03.vsnd",
+		]
+		vsnd_duration = 4.542479
+	}
+	spirit_jar_holder_stalls_inferno_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_inferno_04.vsnd",
+		]
+		vsnd_duration = 8.948271
+	}
+	spirit_jar_holder_stalls_inferno_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_inferno_05.vsnd",
+		]
+		vsnd_duration = 3.896208
+	}
+	spirit_jar_holder_stalls_kelvin_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_kelvin_01.vsnd",
+		]
+		vsnd_duration = 8.842875
+	}
+	spirit_jar_holder_stalls_kelvin_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_kelvin_02.vsnd",
+		]
+		vsnd_duration = 7.296167
+	}
+	spirit_jar_holder_stalls_kelvin_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_kelvin_03.vsnd",
+		]
+		vsnd_duration = 7.265375
+	}
+	spirit_jar_holder_stalls_kelvin_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_kelvin_04.vsnd",
+		]
+		vsnd_duration = 3.24425
+	}
+	spirit_jar_holder_stalls_kelvin_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_kelvin_05.vsnd",
+		]
+		vsnd_duration = 8.261458
+	}
+	spirit_jar_holder_stalls_krill_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_krill_01.vsnd",
+		]
+		vsnd_duration = 4.856354
+	}
+	spirit_jar_holder_stalls_krill_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_krill_02.vsnd",
+		]
+		vsnd_duration = 4.030812
+	}
+	spirit_jar_holder_stalls_krill_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_krill_03.vsnd",
+		]
+		vsnd_duration = 5.912313
+	}
+	spirit_jar_holder_stalls_krill_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_krill_04.vsnd",
+		]
+		vsnd_duration = 4.2755
+	}
+	spirit_jar_holder_stalls_krill_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_krill_05.vsnd",
+		]
+		vsnd_duration = 4.732708
+	}
+	spirit_jar_holder_stalls_lash_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_lash_01.vsnd",
+		]
+		vsnd_duration = 5.081083
+	}
+	spirit_jar_holder_stalls_lash_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_lash_02.vsnd",
+		]
+		vsnd_duration = 9.418
+	}
+	spirit_jar_holder_stalls_lash_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_lash_03.vsnd",
+		]
+		vsnd_duration = 4.606771
+	}
+	spirit_jar_holder_stalls_lash_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_lash_04.vsnd",
+		]
+		vsnd_duration = 3.507333
+	}
+	spirit_jar_holder_stalls_lash_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_lash_05.vsnd",
+		]
+		vsnd_duration = 4.837854
+	}
+	spirit_jar_holder_stalls_magician_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_magician_01.vsnd",
+		]
+		vsnd_duration = 6.603896
+	}
+	spirit_jar_holder_stalls_magician_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_magician_02.vsnd",
+		]
+		vsnd_duration = 4.711896
+	}
+	spirit_jar_holder_stalls_magician_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_magician_03.vsnd",
+		]
+		vsnd_duration = 7.584833
+	}
+	spirit_jar_holder_stalls_magician_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_magician_04.vsnd",
+		]
+		vsnd_duration = 5.050958
+	}
+	spirit_jar_holder_stalls_magician_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_magician_05.vsnd",
+		]
+		vsnd_duration = 3.755229
+	}
+	spirit_jar_holder_stalls_mirage_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_mirage_01.vsnd",
+		]
+		vsnd_duration = 6.133313
+	}
+	spirit_jar_holder_stalls_mirage_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_mirage_02.vsnd",
+		]
+		vsnd_duration = 3.227917
+	}
+	spirit_jar_holder_stalls_mirage_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_mirage_03.vsnd",
+		]
+		vsnd_duration = 6.350083
+	}
+	spirit_jar_holder_stalls_mirage_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_mirage_04.vsnd",
+		]
+		vsnd_duration = 5.183938
+	}
+	spirit_jar_holder_stalls_mirage_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_mirage_05.vsnd",
+		]
+		vsnd_duration = 7.305958
+	}
+	spirit_jar_holder_stalls_nano_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_nano_01.vsnd",
+		]
+		vsnd_duration = 5.92575
+	}
+	spirit_jar_holder_stalls_nano_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_nano_02.vsnd",
+		]
+		vsnd_duration = 5.695958
+	}
+	spirit_jar_holder_stalls_nano_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_nano_03.vsnd",
+		]
+		vsnd_duration = 6.149416
+	}
+	spirit_jar_holder_stalls_nano_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_nano_04.vsnd",
+		]
+		vsnd_duration = 7.445479
+	}
+	spirit_jar_holder_stalls_nano_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_nano_05.vsnd",
+		]
+		vsnd_duration = 6.834
+	}
+	spirit_jar_holder_stalls_necro_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_necro_01.vsnd",
+		]
+		vsnd_duration = 4.887896
+	}
+	spirit_jar_holder_stalls_necro_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_necro_02.vsnd",
+		]
+		vsnd_duration = 5.098521
+	}
+	spirit_jar_holder_stalls_necro_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_necro_03.vsnd",
+		]
+		vsnd_duration = 5.495979
+	}
+	spirit_jar_holder_stalls_necro_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_necro_04.vsnd",
+		]
+		vsnd_duration = 8.787666
+	}
+	spirit_jar_holder_stalls_necro_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_necro_05.vsnd",
+		]
+		vsnd_duration = 8.4515
+	}
+	spirit_jar_holder_stalls_orion_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_orion_01.vsnd",
+		]
+		vsnd_duration = 5.943896
+	}
+	spirit_jar_holder_stalls_orion_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_orion_02.vsnd",
+		]
+		vsnd_duration = 6.589917
+	}
+	spirit_jar_holder_stalls_orion_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_orion_03.vsnd",
+		]
+		vsnd_duration = 7.022104
+	}
+	spirit_jar_holder_stalls_orion_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_orion_04.vsnd",
+		]
+		vsnd_duration = 4.603188
+	}
+	spirit_jar_holder_stalls_orion_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_orion_05.vsnd",
+		]
+		vsnd_duration = 12.932333
+	}
+	spirit_jar_holder_stalls_priest_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_priest_01.vsnd",
+		]
+		vsnd_duration = 5.548313
+	}
+	spirit_jar_holder_stalls_priest_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_priest_02.vsnd",
+		]
+		vsnd_duration = 8.227792
+	}
+	spirit_jar_holder_stalls_priest_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_priest_03.vsnd",
+		]
+		vsnd_duration = 3.553583
+	}
+	spirit_jar_holder_stalls_priest_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_priest_04.vsnd",
+		]
+		vsnd_duration = 6.892583
+	}
+	spirit_jar_holder_stalls_priest_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_priest_05.vsnd",
+		]
+		vsnd_duration = 6.788771
+	}
+	spirit_jar_holder_stalls_punkgoat_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_punkgoat_01.vsnd",
+		]
+		vsnd_duration = 3.35025
+	}
+	spirit_jar_holder_stalls_punkgoat_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_punkgoat_02.vsnd",
+		]
+		vsnd_duration = 6.897646
+	}
+	spirit_jar_holder_stalls_punkgoat_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_punkgoat_03.vsnd",
+		]
+		vsnd_duration = 2.9555
+	}
+	spirit_jar_holder_stalls_punkgoat_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_punkgoat_04.vsnd",
+		]
+		vsnd_duration = 4.991104
+	}
+	spirit_jar_holder_stalls_punkgoat_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_punkgoat_05.vsnd",
+		]
+		vsnd_duration = 6.557375
+	}
+	spirit_jar_holder_stalls_shiv_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_shiv_01.vsnd",
+		]
+		vsnd_duration = 5.898875
+	}
+	spirit_jar_holder_stalls_shiv_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_shiv_02.vsnd",
+		]
+		vsnd_duration = 7.701167
+	}
+	spirit_jar_holder_stalls_shiv_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_shiv_03.vsnd",
+		]
+		vsnd_duration = 4.985083
+	}
+	spirit_jar_holder_stalls_shiv_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_shiv_04.vsnd",
+		]
+		vsnd_duration = 9.170959
+	}
+	spirit_jar_holder_stalls_shiv_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_shiv_05.vsnd",
+		]
+		vsnd_duration = 6.153833
+	}
+	spirit_jar_holder_stalls_synth_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_synth_01.vsnd",
+		]
+		vsnd_duration = 5.442479
+	}
+	spirit_jar_holder_stalls_synth_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_synth_02.vsnd",
+		]
+		vsnd_duration = 6.397125
+	}
+	spirit_jar_holder_stalls_synth_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_synth_03.vsnd",
+		]
+		vsnd_duration = 5.373188
+	}
+	spirit_jar_holder_stalls_synth_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_synth_04.vsnd",
+		]
+		vsnd_duration = 4.929083
+	}
+	spirit_jar_holder_stalls_synth_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_synth_05.vsnd",
+		]
+		vsnd_duration = 5.141833
+	}
+	spirit_jar_holder_stalls_tengu_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_tengu_01.vsnd",
+		]
+		vsnd_duration = 4.111021
+	}
+	spirit_jar_holder_stalls_tengu_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_tengu_02.vsnd",
+		]
+		vsnd_duration = 3.932771
+	}
+	spirit_jar_holder_stalls_tengu_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_tengu_03.vsnd",
+		]
+		vsnd_duration = 6.167979
+	}
+	spirit_jar_holder_stalls_tengu_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_tengu_04.vsnd",
+		]
+		vsnd_duration = 6.381333
+	}
+	spirit_jar_holder_stalls_tengu_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_tengu_05.vsnd",
+		]
+		vsnd_duration = 5.072312
+	}
+	spirit_jar_holder_stalls_unicorn_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_unicorn_01.vsnd",
+		]
+		vsnd_duration = 4.880396
+	}
+	spirit_jar_holder_stalls_unicorn_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_unicorn_02.vsnd",
+		]
+		vsnd_duration = 5.086667
+	}
+	spirit_jar_holder_stalls_unicorn_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_unicorn_03.vsnd",
+		]
+		vsnd_duration = 4.990438
+	}
+	spirit_jar_holder_stalls_unicorn_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_unicorn_04.vsnd",
+		]
+		vsnd_duration = 10.489583
+	}
+	spirit_jar_holder_stalls_unicorn_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_unicorn_05.vsnd",
+		]
+		vsnd_duration = 6.495708
+	}
+	spirit_jar_holder_stalls_vampirebat_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_vampirebat_01.vsnd",
+		]
+		vsnd_duration = 4.777916
+	}
+	spirit_jar_holder_stalls_vampirebat_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_vampirebat_02.vsnd",
+		]
+		vsnd_duration = 5.684396
+	}
+	spirit_jar_holder_stalls_vampirebat_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_vampirebat_03.vsnd",
+		]
+		vsnd_duration = 6.073438
+	}
+	spirit_jar_holder_stalls_vampirebat_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_vampirebat_04.vsnd",
+		]
+		vsnd_duration = 5.650708
+	}
+	spirit_jar_holder_stalls_vampirebat_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_vampirebat_05.vsnd",
+		]
+		vsnd_duration = 5.197708
+	}
+	spirit_jar_holder_stalls_viper_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_viper_01.vsnd",
+		]
+		vsnd_duration = 3.551833
+	}
+	spirit_jar_holder_stalls_viper_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_viper_02.vsnd",
+		]
+		vsnd_duration = 7.015375
+	}
+	spirit_jar_holder_stalls_viper_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_viper_03.vsnd",
+		]
+		vsnd_duration = 6.922937
+	}
+	spirit_jar_holder_stalls_viper_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_viper_04.vsnd",
+		]
+		vsnd_duration = 6.255375
+	}
+	spirit_jar_holder_stalls_viper_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_viper_05.vsnd",
+		]
+		vsnd_duration = 7.188771
+	}
+	spirit_jar_holder_stalls_viscous_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_viscous_01.vsnd",
+		]
+		vsnd_duration = 6.191354
+	}
+	spirit_jar_holder_stalls_viscous_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_viscous_02.vsnd",
+		]
+		vsnd_duration = 4.355083
+	}
+	spirit_jar_holder_stalls_viscous_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_viscous_03.vsnd",
+		]
+		vsnd_duration = 3.518
+	}
+	spirit_jar_holder_stalls_viscous_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_viscous_04.vsnd",
+		]
+		vsnd_duration = 6.378208
+	}
+	spirit_jar_holder_stalls_viscous_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_viscous_05.vsnd",
+		]
+		vsnd_duration = 4.146396
+	}
+	spirit_jar_holder_stalls_warden_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_warden_01.vsnd",
+		]
+		vsnd_duration = 6.796229
+	}
+	spirit_jar_holder_stalls_warden_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_warden_02.vsnd",
+		]
+		vsnd_duration = 6.335437
+	}
+	spirit_jar_holder_stalls_warden_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_warden_03.vsnd",
+		]
+		vsnd_duration = 7.052042
+	}
+	spirit_jar_holder_stalls_warden_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_warden_04.vsnd",
+		]
+		vsnd_duration = 3.665958
+	}
+	spirit_jar_holder_stalls_warden_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_warden_05.vsnd",
+		]
+		vsnd_duration = 4.82225
+	}
+	spirit_jar_holder_stalls_werewolf_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_werewolf_01.vsnd",
+		]
+		vsnd_duration = 5.228771
+	}
+	spirit_jar_holder_stalls_werewolf_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_werewolf_02.vsnd",
+		]
+		vsnd_duration = 4.215562
+	}
+	spirit_jar_holder_stalls_werewolf_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_werewolf_03.vsnd",
+		]
+		vsnd_duration = 10.636875
+	}
+	spirit_jar_holder_stalls_werewolf_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_werewolf_04.vsnd",
+		]
+		vsnd_duration = 6.611479
+	}
+	spirit_jar_holder_stalls_werewolf_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_werewolf_05.vsnd",
+		]
+		vsnd_duration = 10.526313
+	}
+	spirit_jar_holder_stalls_wraith_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_wraith_01.vsnd",
+		]
+		vsnd_duration = 5.163354
+	}
+	spirit_jar_holder_stalls_wraith_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_wraith_02.vsnd",
+		]
+		vsnd_duration = 5.939437
+	}
+	spirit_jar_holder_stalls_wraith_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_wraith_03.vsnd",
+		]
+		vsnd_duration = 6.449708
+	}
+	spirit_jar_holder_stalls_wraith_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_wraith_04.vsnd",
+		]
+		vsnd_duration = 3.931375
+	}
+	spirit_jar_holder_stalls_wraith_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_wraith_05.vsnd",
+		]
+		vsnd_duration = 5.158354
+	}
+	spirit_jar_holder_stalls_yamato_01_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_yamato_01.vsnd",
+		]
+		vsnd_duration = 3.590312
+	}
+	spirit_jar_holder_stalls_yamato_02_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_yamato_02.vsnd",
+		]
+		vsnd_duration = 3.914187
+	}
+	spirit_jar_holder_stalls_yamato_03_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_yamato_03.vsnd",
+		]
+		vsnd_duration = 15.10575
+	}
+	spirit_jar_holder_stalls_yamato_04_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_yamato_04.vsnd",
+		]
+		vsnd_duration = 4.775708
+	}
+	spirit_jar_holder_stalls_yamato_05_idol = 
+	{
+		base = "Base.Idol.VO"
+		context_name = "spirit_jar"
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_jar/spirit_jar_holder_stalls_yamato_05.vsnd",
+		]
+		vsnd_duration = 5.6755
+	}
 	spirit_jar_idol_delivered_01_idol = 
 	{
 		base = "Base.Idol.VO"

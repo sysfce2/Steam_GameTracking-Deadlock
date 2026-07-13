@@ -353,6 +353,21 @@
 		vsnd_files = "sounds/abilities/drifter/a4/drifter_terror_victim_mod_lp.vsnd"
 		vsnd_duration = 14.799615
 	}
+	Drifter.Terror.Hit = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 5.0
+		volume_offset_attacker_db = -2.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		vsnd_files = 
+		[
+			"sounds/abilities/drifter/a4/drifter_terror_hit_01.vsnd",
+			"sounds/abilities/drifter/a4/drifter_terror_hit_02.vsnd",
+			"sounds/abilities/drifter/a4/drifter_terror_hit_03.vsnd",
+		]
+		vsnd_duration = 2.885896
+	}
 	Drifter.Terror.Proj.Lp = 
 	{
 		base = "Base.Ability.Projectile"
@@ -372,13 +387,12 @@
 		base = "Base.Ability.Ult"
 		volume = 4.0
 		volume_offset_opponent = 3.0
-		pitch = 1.0
 		volume_falloff_use_curve_editor = false
-		volume_falloff_floor = 0.75
-		volume_falloff_max_team = 3500.0
-		volume_falloff_max_neutral = 3500.0
-		volume_falloff_max_opponent = 4100.0
-		max_distance_recipient_filter = 4100.0
+		volume_falloff_floor = 0.5
+		volume_falloff_max_team = 8000.0
+		volume_falloff_max_neutral = 8000.0
+		volume_falloff_max_opponent = 8000.0
+		max_distance_recipient_filter = 8000.0
 		vsnd_files = "sounds/abilities/drifter/a4/drifter_terror_cast.vsnd"
 		vsnd_duration = 9.527937
 	}
@@ -387,13 +401,12 @@
 		base = "Base.Ability.Ult"
 		volume = 4.0
 		volume_offset_opponent = 3.0
-		pitch = 1.0
 		volume_falloff_use_curve_editor = false
-		volume_falloff_floor = 0.75
-		volume_falloff_max_team = 3500.0
-		volume_falloff_max_neutral = 3500.0
-		volume_falloff_max_opponent = 4100.0
-		max_distance_recipient_filter = 4100.0
+		volume_falloff_floor = 0.5
+		volume_falloff_max_team = 8000.0
+		volume_falloff_max_neutral = 8000.0
+		volume_falloff_max_opponent = 8000.0
+		max_distance_recipient_filter = 8000.0
 		vsnd_files = "sounds/abilities/drifter/a4/drifter_terror_cast_delay.vsnd"
 		vsnd_duration = 2.952766
 	}
