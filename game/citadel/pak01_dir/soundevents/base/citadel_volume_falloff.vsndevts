@@ -819,7 +819,7 @@
 	Volume.Falloff.Idol.Telegraph = 
 	{
 		type = "citadel_perspective_default"
-		volume_falloff_use_curve_editor = true
+		volume_falloff_use_curve_editor = false
 		max_distance_recipient_filter = 3500.0
 		volume_falloff_min_player = 1000.0
 		volume_falloff_min_opponent = 1000.0
@@ -829,66 +829,6 @@
 		volume_falloff_max_opponent = 3500.0
 		volume_falloff_max_neutral = 3500.0
 		volume_falloff_max_team = 3500.0
-		volume_falloff_curve_db_player = 
-		[
-			[
-				0.0, 0.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-			[
-				0.85, -6.0, -0.004735, -0.004735,
-				2.0, 3.0,
-			],
-			[
-				1.0, -16.0, -0.035318, -0.035318,
-				2.0, 3.0,
-			],
-		]
-		volume_falloff_curve_db_opponent = 
-		[
-			[
-				0.0, 0.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-			[
-				0.85, -6.080357, -0.004735, -0.004735,
-				2.0, 3.0,
-			],
-			[
-				1.0, -60.0, -0.035318, -0.035318,
-				2.0, 3.0,
-			],
-		]
-		volume_falloff_curve_db_neutral = 
-		[
-			[
-				0.0, 0.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-			[
-				0.85, -6.0, -0.004735, -0.004735,
-				2.0, 3.0,
-			],
-			[
-				1.0, -60.0, -0.035318, -0.035318,
-				2.0, 3.0,
-			],
-		]
-		volume_falloff_curve_db_team = 
-		[
-			[
-				0.0, 0.0, 0.0, 0.0,
-				0.0, 0.0,
-			],
-			[
-				0.85, -6.0, -0.004735, -0.004735,
-				2.0, 3.0,
-			],
-			[
-				1.0, -60.0, -0.035318, -0.035318,
-				2.0, 3.0,
-			],
-		]
 	}
 	Volume.Falloff.Koth = 
 	{
