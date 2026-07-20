@@ -1418,7 +1418,6 @@ $t5\tEi\fo
 :ZGKE
 :\f?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
 :\n?doSetTextCursor@QPlainTextEdit@@MEAAXAEBVQTextCursor@@@Z
-:\tV_isinfd
 :\v?canRead@QImageReader@@QEBA_NXZ
 :gqh-
 ;\n?doSetTextCursor@QTextEdit@@MEAAXAEBVQTextCursor@@@Z
@@ -1785,6 +1784,7 @@ $t5\tEi\fo
 ?Tmx;
 ?Unable to read file %s\n
 ?\f?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
+?\tV_isinfd
 ?\v?event@QFontComboBox@@MEAA_NPEAVQEvent@@@Z
 ?about@QMessageBox@@SAXPEAVQWidget@@AEBVQString@@1@Z
 ?absoluteFilePath@QFileInfo@@QEBA?AVQString@@XZ
@@ -4482,7 +4482,6 @@ MWheelRight
 MWheelUp
 M\n?done@QDialog@@UEAAXH@Z
 M\t?canDropMimeData@QAbstractProxyModel@@UEBA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
-M\tV_log2f
 M\v?event@QListWidget@@MEAA_NPEAVQEvent@@@Z
 M_J\tvL
 Machine Name or Address: (Default = Localhost)
@@ -4586,7 +4585,6 @@ NULL CELL
 NULL VP8Io parameter in VP8Decode().
 N[5#D
 N\n?averageCharWidth@QFontMetrics@@QEBAHXZ
-N\tV_logd
 N\v?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
 N_U9203
 Name\t\t\t\t\tCount\t\tParticle Count\n
@@ -5094,6 +5092,7 @@ R\fpH
 R\r?hitTestComplexControl@QProxyStyle@@UEBA?AW4SubControl@QStyle@@W4ComplexControl@3@PEBVQStyleOptionComplex@@AEBVQPoint@@PEBVQWidget@@@Z
 R\rBe
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
+R\tV_log2f
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
@@ -5256,7 +5255,7 @@ SOCKET_ERR_WRITE_OPERATION_WOULD_BLOCK
 SP?isNull@QPixmap@@QEBA_NXZ
 SPW_J
 STANDIN: %1
-S\tV_modfd
+S\tV_logd
 Sample Description
 Sample Pixel Color
 SampleFormat
@@ -5814,6 +5813,7 @@ XYY~
 XYZ, Luv
 X[[CY
 X\r?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+X\tV_modfd
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
 Xb6@
 Xbox VDP is not supported on this platform.
@@ -5879,7 +5879,6 @@ ZKSWlO
 ZS5c
 Z\f?convertFromImage@QPixmap@@QEAA_NAEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 Z\r?horizontalHeaderItem@QTableWidget@@QEBAPEAVQTableWidgetItem@@H@Z
-Z\tV_powd
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 ZoomAllCamerasIn
 ZoomAllCamerasOut
@@ -6134,9 +6133,10 @@ Z~!|L8\v1H
 \tMsn\f
 \tNew Line Indented 1 Tab...
 \tTwZ
+\tV_acosd
+\tV_asind
 \tV_atan2d
 \tV_atand
-\tV_atanf
 \tV_cosd
 \tV_exp2f
 \tV_expd
@@ -6144,6 +6144,7 @@ Z~!|L8\v1H
 \t[?setPosition@QTextCursor@@QEAAXHW4MoveMode@1@@Z
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\tL\ti\tn\tk\t  A  \n
+\t\tV_atanf
 \t\v?brushOrigin@QPainter@@QEBA?AVQPoint@@XZ
 \t_V_StringAfterPrefixCaseSensitive
 \tg_flConfigMaxCoord
@@ -6205,6 +6206,7 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
+_\tV_powd
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __CursorQueue__
 __FireCursorsParent__
@@ -6571,7 +6573,6 @@ hSnX
 hW4@
 hWF@
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
-h\tV_sind
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 ha6@
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ
@@ -6681,6 +6682,7 @@ m4UPh
 mX?setBlueF@QColor@@QEAAXN@Z
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 m\n?dragEnterEvent@QPlainTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+m\tV_sind
 m_AdditionalDependencies
 m_Bindings
 m_CommandString

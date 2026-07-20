@@ -205,7 +205,6 @@ $prefix_element$
 *** TimeFrame "%s" has attribute "%s" with an unexpected type (expected float)!\n
 *** TimeFrame "%s" is missing attribute "%s"!\n
 *** Unable to find or add attribute "%s" to element "%s"!\n
-*\tV_frexpf
 +Advanced Options
 +Animation
 +Chain Settings
@@ -6798,6 +6797,7 @@ $prefix_element$
 .tif
 .vmat
 .webp
+/\tV_frexpf
 0Dsa
 0\r%0t
 0x%llx
@@ -9370,7 +9370,6 @@ MVDataUniqueMonotonicInt
 MVDataUseLinkedEntityClasses
 MVDataUsesComponentEditor
 MVDataVirtualNodeFactoryFn
-M\tV_log2f
 Make
 Make sheet file
 MakerNoteSafety
@@ -9566,7 +9565,6 @@ NO TARGET
 NOT 
 NOT_ARRAY_MEMBERS
 NULL VP8Io parameter in VP8Decode().
-N\tV_logd
 N_U9203
 Name Mode
 Name of the bone this pose refers to
@@ -10047,6 +10045,7 @@ R8_UNORM
 R9G9B9E5_SHAREDEXP
 RBF Based Anim Constraint
 ROTATION
+R\tV_log2f
 R\vpDsa
 R_T5Y
 Radial Basis Function Type
@@ -10224,6 +10223,7 @@ SMinSampleValue
 SSAOBias
 SSAORadius
 SSAOStrength
+S\tV_logd
 Safeguard against producing a model outside budgetary limits.
 Sample Count
 Sample Rays
@@ -10960,7 +10960,6 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-Z\tV_powd
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
@@ -10982,6 +10981,7 @@ Z\tV_powd
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tV_atan2d
 \tV_expd
+\tV_strnchr
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StringAfterPrefixCaseSensitive
 \vpDsa
@@ -10998,6 +10998,7 @@ _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
+_\tV_powd
 __CACHED_editcontext_provider_lookup
 __autoskinned
 __bone_%d
@@ -12905,7 +12906,6 @@ row_fixed_blend_val
 row_pose_param_name
 row_weight_list
 s off\ng cMesh\nusemtl initialShadingGroup\n
-s\tV_sscanf_s
 sample_rays
 sanitizetrajectories
 saturation
@@ -13755,6 +13755,7 @@ writable_func
 write_separate_stream
 wyS]
 x0Ysqx
+x\tV_sscanf_s
 xfade
 yaw_bounce
 yaw_damping
@@ -13762,7 +13763,6 @@ yaw_friction
 yaw_stiffness
 z>AlignedByteArray not properly aligned\n
 zDStatic
-z\tV_strnchr
 zero dir
 zero_unselected
 zfar

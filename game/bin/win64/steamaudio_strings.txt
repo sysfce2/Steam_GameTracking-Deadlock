@@ -3815,7 +3815,6 @@ ZLIB
 ZLONG
 ZSz@
 ZXF,`i
-Z\tV_powd
 Zd[w
 Ze2Zh@
 ZjLS
@@ -3904,7 +3903,7 @@ Z~wl
 \tHAI8xpH\f
 \tJm_9
 \tLa0+
-\tV_atanf
+\t\tV_atanf
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \toRE
 \ttqE5
@@ -3934,6 +3933,7 @@ _Ek6b]
 _Lx6
 _OPENSSL_isservice
 _YWL
+_\tV_powd
 _flt.vpk
 _g@Cg
 _jPo
@@ -5719,7 +5719,6 @@ kSRP
 kV!DA
 kV'0
 kVV\t/
-k\tV_sinhf
 k^ZP
 ka`O
 kdf parameter error
@@ -6230,6 +6229,7 @@ pSPo
 pSourceFunc
 pSpecified
 pU>\AL
+p\tV_sinhf
 p^i9
 packet length too long
 padding check failed

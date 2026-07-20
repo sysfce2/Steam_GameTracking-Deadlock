@@ -1224,7 +1224,6 @@ NVSDK_NGX_Parameter_SetUI
 NVSDK_NGX_Parameter_SetULL
 NVSDK_NGX_Parameter_SetVoidPointer
 NVSDK_NGX_UpdateFeature
-N\tV_logd
 N_U9203
 NeXT
 NeXTDecode: Not enough data for scanline %ld
@@ -1452,6 +1451,7 @@ STATE_SETTING
 SUPPORTS_CS
 SUPPORTS_GS
 SV_InstanceID
+S\tV_logd
 S_BINDLESS_RUNTIME
 S_EXECUTION_REORDERING
 S_MOBILE
@@ -1691,7 +1691,6 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-Z\tV_powd
 [    Discard |    NoTear]
 [%Y-%m-%d %H:%M:%S] 
 [FlipDiscard |    NoTear]
@@ -1783,10 +1782,12 @@ Z\tV_powd
 \tScissorEnable: %d\n
 \tSlopeScaledDepthBias: %f\n
 \tV_atan2d
-\tV_atanf
 \tV_expd
+\tV_strspn
+\tV_strtoi64
 \tV_strtoui64
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\t\tV_atanf
 \t_V_StrSubst
 \t_V_strcspn
 \tg_TSPointerListNodes
@@ -1861,6 +1862,7 @@ _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
+_\tV_powd
 __Attribute__
 __Expression__
 __FROM_ATTRIBUTE_OR_FEATURE__
@@ -2232,7 +2234,5 @@ writing renderdoc capture to %s\n
 wyS]
 x0Ysqx
 y6uHI
-{\tV_strspn
 |Bati_compress_wrapper.dll
-~\tV_strtoi64
 ~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#"! 

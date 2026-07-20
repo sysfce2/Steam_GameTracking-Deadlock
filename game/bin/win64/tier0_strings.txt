@@ -787,7 +787,8 @@ $xmm9
 1wsHp
 2,THh
 28~v
-2\vpt
+2\vpD
+2\vpx
 2aNuE
 3 FB
 3+5<t
@@ -5297,6 +5298,8 @@ RPCRT4.dll
 RSDS
 RUSSIAN
 RVfQp
+R\fpx
+R\vpx
 RaiseException
 RandomFloat
 RandomFloatExp
@@ -6466,6 +6469,8 @@ V_XXH64_digest
 V_XXH64_freeState
 V_XXH64_reset
 V_XXH64_update
+V_ZSTD_DStreamInSize
+V_ZSTD_DStreamOutSize
 V_ZSTD_compress
 V_ZSTD_compressBound
 V_ZSTD_compress_usingCDict
@@ -6474,6 +6479,7 @@ V_ZSTD_createCDict_byReference
 V_ZSTD_createDCtx
 V_ZSTD_createDDict_byReference
 V_ZSTD_decompress
+V_ZSTD_decompressStream
 V_ZSTD_decompress_usingDDict
 V_ZSTD_defaultCLevel
 V_ZSTD_freeCCtx
@@ -6481,6 +6487,8 @@ V_ZSTD_freeDCtx
 V_ZSTD_getDictID_fromDDict
 V_ZSTD_getDictID_fromFrame
 V_ZSTD_getFrameContentSize
+V_ZSTD_initDStream
+V_ZSTD_isError
 V_ZSTD_maxCLevel
 V_abort
 V_acosd
@@ -7356,6 +7364,7 @@ entityType
 entity_name
 environment option "mimalloc_%s" is deprecated -- use "mimalloc_%s" instead.\n
 environment option mimalloc_%s has an invalid value.\n
+er^j
 error
 essential
 eventID
@@ -8461,6 +8470,7 @@ r9T6
 rNm>)
 rT+6ZNw
 r\tVr.>T
+r\vpx
 radius
 radius0
 radius1

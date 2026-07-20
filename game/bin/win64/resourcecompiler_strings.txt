@@ -337,6 +337,7 @@
 "TEMP" environment variable not set.  Please set your "TEMP" environment variable.\n
 "Wlw
 "YEu
+"\tV_fgets
 "`bB303
 "b}b*XhUu
 "channels" attribute not found in the header.
@@ -982,7 +983,6 @@ $prefix_element$
 *\fhsD
 *\nNx+\nCh,\n'
 *\nOx+\nDh,\n(
-*\tV_frexpf
 *d\f\f*T\v\f*4\n\f*
 *extraFilterString=tileset
 *gFBk
@@ -20231,6 +20231,7 @@ $prefix_element$
 /2x1
 /5dJ
 /RIv
+/\tV_frexpf
 /audio:In
 /audio:Out
 /lightmaps/
@@ -20497,7 +20498,6 @@ $prefix_element$
 9Y@nJM
 9Zr4
 9\not
-9\tV_isfinited
 9\tiI
 9]ZV
 9aDW
@@ -20632,6 +20632,7 @@ $prefix_element$
 >>NAVGEN MOVABLE: point_nav_movable_mesh's reference entity does not have any children and 'generate on reference entity' is disabled, so no movable nav will be generated. Skipping.\n
 >Sem
 >WK6
+>\tV_isfinited
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >fN46R^
 >fff?
@@ -24812,6 +24813,7 @@ Crossover Amount
 CryptAcquireContextW
 CryptGenRandom
 CryptReleaseContext
+Cs^j
 Cskybox
 Cubemap %i, face %i has Inf/NaN/extremely bright pixel at %i,%i: %f %f %f
 Cull Distance
@@ -29320,7 +29322,6 @@ MVDataUsesComponentEditor
 MVDataVirtualNodeFactoryFn
 MZL}
 M\rLAI)haL<|p\t\t
-M\tV_log2f
 M\vOj
 Mail
 Main Actor
@@ -29934,7 +29935,6 @@ NWzl\n\
 NXfT>o
 N[Ox
 N[iY 
-N\tV_logd
 N\v7e_
 N_U9203
 N`UaK
@@ -31662,6 +31662,7 @@ RT Proxy geometry: %s verts / %s, %s indices / %s.  Duplicated %i verts due to p
 RT60 for low, mid, and high frequency bands for the probe.
 R\fph
 R\r1>Vp
+R\tV_log2f
 R\vp!6
 R\vp!y
 R\vpT
@@ -32358,6 +32359,7 @@ SXNET_add_id_ulong
 SXNET_get_id_asc
 SXNET_get_id_ulong
 SXNetID
+S\tV_logd
 S\vQN
 S_BINDLESS_RUNTIME
 S_EXECUTION_REORDERING
@@ -35001,7 +35003,6 @@ ZLIB
 ZLONG
 ZSz@
 ZXF,`i
-Z\tV_powd
 Zd[w
 Ze2Zh@
 Zero Pose Task
@@ -35278,14 +35279,17 @@ Z~wl
 \tRemoved Degenerate Triangle Count: %i\n
 \tTriangle Count: %i\n
 \tUnique Geometry: %s unique meshes w/ %s tris, %s verts\n
+\tV_ZSTD_maxCLevel
+\tV_acosd
+\tV_asind
 \tV_atan2d
 \tV_atand
-\tV_atanf
 \tV_cosd
 \tV_coshf
 \tV_exp2f
 \tV_expd
-\tV_fgets
+\tV_strnchr
+\tV_strspn
 \tV_strtok
 \tV_strtoui64
 \tV_tand
@@ -35296,6 +35300,7 @@ Z~wl
 \t\t"CDmeInputTexture"\n
 \t\t"CDmeTextureOutputChannel"\n
 \t\t%i %s %.3f %.3f 1\r\n
+\t\tV_atanf
 \t\t[ FAIL ] - Manifest contains an illegal resource name "%s"!\n
 \t\t\t"m_colorSpace" "string" "linear"\n
 \t\t\t"m_dstChannels" "string" "g"\n
@@ -35387,6 +35392,7 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _YWL
+_\tV_powd
 __Attribute__
 __CACHED_editcontext_provider_lookup
 __CursorQueue__
@@ -39242,7 +39248,6 @@ hW*m
 hW1M
 hW_z
 hX@e
-h\tV_sind
 h`Zr
 hair_count
 halfEdges %d,%d faces %d,%d angle %.1f deg.
@@ -40165,7 +40170,6 @@ kSRP
 kV!DA
 kV'0
 kVV\t/
-k\tV_sinhf
 k^ZP
 ka`O
 kdf parameter error
@@ -40546,6 +40550,7 @@ mOD:V
 mS'7
 mXRecord
 mZKB
+m\tV_sind
 m\ta=\ruWb
 m_AST
 m_Activator
@@ -42375,6 +42380,7 @@ pTagName
 pTargetAttachmentName
 pU>\AL
 p\rP\f0
+p\tV_sinhf
 p^i9
 pack_sharedvb
 packet length too long
@@ -43406,7 +43412,6 @@ sOARecord
 sRGB
 sT5w!
 sV u\t
-s\tV_sscanf_s
 s\tor
 s_pfnRtlGenRandom && s_pfnRtlGenRandom( buf, num )
 saJ!
@@ -45772,6 +45777,7 @@ xFKF
 xOu\vsF
 xQfF
 xUN'
+x\tV_sscanf_s
 x\v6V
 xfade
 xg-9Ja
@@ -45817,7 +45823,6 @@ zDconst char *__cdecl Reflection::Internal::GetFuncName<class CFootPinningPoseOp
 zF):O4
 zG2m8
 zRXU 
-z\tV_strnchr
 zero dir
 zero_unselected
 zero_value
@@ -45836,7 +45841,6 @@ zz2K
 {9d:c
 {Hammer node %d} 
 {H}yq
-{\tV_strspn
 {actor}
 {error}
 {ghz6

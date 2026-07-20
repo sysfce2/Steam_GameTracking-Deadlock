@@ -378,7 +378,6 @@ $name_$id
 *E]1D
 *NONE*VALID*
 *\f?focusOutEvent@QAbstractSpinBox@@MEAAXPEAVQFocusEvent@@@Z
-*\tV_frexpf
 *^?style@QBrush@@QEBA?AW4BrushStyle@Qt@@XZ
 *`LDI
 *y-Affff
@@ -6747,6 +6746,7 @@ $name_$id
 .webp
 // THIS FILE IS AUTO-GENERATED\n\nLayer0\n{\n\tshader "sky.vfx"\n\t//---- Texture ----\n\tg_flBrightnessExposureBias "0.000"\n\tg_flRenderOnlyExposureBias "0.000"\n\tSkyTexture "materials/skybox/skymodel_hosekwilkie_ref/%s.exr"\n\tAttributes\n\t{\n\t\tSolarPosition "[ %f %f %f ]"\n\t\tSolarIrradiance "[ %f %f %f ]"\n\t\tSolarRadius "%f"\n\t}\n}\n
 /\r?hideEvent@QScrollBar@@MEAAXPEAVQHideEvent@@@Z
+/\tV_frexpf
 /c@3j
 /cn?z
 /e,/select,"
@@ -11708,7 +11708,6 @@ NOT
 NOT_ARRAY_MEMBERS
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
 NULL VP8Io parameter in VP8Decode().
-N\tV_logd
 N\v?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
 N_U9203
 Name Mode
@@ -12540,6 +12539,7 @@ SMinSampleValue
 SP?isNull@QPixmap@@QEBA_NXZ
 STANDIN: %1
 SUh 
+S\tV_logd
 S\v?event@QMessageBox@@MEAA_NPEAVQEvent@@@Z
 Safeguard against producing a model outside budgetary limits.
 Sample Count
@@ -13518,7 +13518,6 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-Z\tV_powd
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 Zc!Q
 Zd;W
@@ -13595,6 +13594,7 @@ Z}uU
 \f\f?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
+\f\tV_atofloat64
 \mEQ
 \n================================================================================\n
 \n?bits@QImage@@QEAAPEAEXZ
@@ -13709,8 +13709,8 @@ Z}uU
 \tK<p9@Nd
 \tR)v4N
 \tR)v4n
+\tV_acosd
 \tV_atan2d
-\tV_atofloat64
 \tV_cosd
 \tV_expd
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -13779,6 +13779,7 @@ _TIFFVSetField
 _YipQ@
 _ZynF
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
+_\tV_powd
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __CACHED_editcontext_provider_lookup
 __IsValveCQTabbedStyle
@@ -14953,7 +14954,6 @@ hS^<6?G
 hUK:J
 hW!e
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
-h\tV_sind
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 h\vcf
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ
@@ -15299,6 +15299,7 @@ lu9%
 m ]lZ
 mQfWK@
 m\n?dragEnterEvent@QPlainTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+m\tV_sind
 m_AdditionalInputDependencies
 m_AdditionalRelatedFiles
 m_ArgumentDependencies

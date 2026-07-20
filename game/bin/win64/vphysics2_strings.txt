@@ -45,7 +45,6 @@
 ( + %d more)
 (%.4g,%.4g)
 *?333?8
-*\tV_frexpf
 , Fully Rigid
 -----------------\nObject: %s\n
 -aggs
@@ -421,6 +420,7 @@
 .rnsave
 .vmdl
 /%u.rnsave
+/\tV_frexpf
 0\r%0t
 0tW1
 0x%08X 
@@ -989,8 +989,8 @@ Wrong alignment %d\n
 \ng default\n
 \t%2d.  %16llx - %s%s\n
 \t%d. %4x - %s\n
-\tV_atanf
 \tV_strtoui64
+\t\tV_atanf
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \tg_bUpdateStringTokenDatabase
 \tg_flConfigMaxCoord

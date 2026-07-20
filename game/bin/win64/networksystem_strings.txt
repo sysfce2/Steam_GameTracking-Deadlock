@@ -256,7 +256,7 @@
 08B 
 2\vp8
 2\vpl
-3^Ej
+2\vpt
 ::Storage_t
 <classname> <fieldname>:  spew why field was excluded from networking for classname.
 @08N

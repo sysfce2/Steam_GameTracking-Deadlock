@@ -1224,7 +1224,6 @@ $hRh
 <SVX
 <YGr+
 <YVtV&
-<\tV_isstrlower_fast
 <b>%s</b> (from %s)<br /><br />
 <script /> tags within XML files are no longer supported. Please create a separate script file that is included via an <include /> in the <scripts /> section.
 <string conversion failed>
@@ -1238,7 +1237,6 @@ $hRh
 =?Run@Script@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 =O?AqP
 =Q9M
-=\tV_isvalidhex
 =aes(partial)
 =cdE
 =trF6,#
@@ -1536,6 +1534,7 @@ AUTHORITY_KEYID
 AW:S
 AWt.
 A\rjW
+A\tV_isstrlower_fast
 AbW_
 AcG\nt
 Acceptable OCSP Responses
@@ -1722,6 +1721,7 @@ BUF_strndup
 BY_FILE_CTRL
 BY_Lq)
 BZZn\rN]#8f'
+B\tV_isvalidhex
 B\vP\n0
 B`4I
 Bad boolean\n
@@ -4974,7 +4974,6 @@ ZLIB
 ZLONG
 ZSz@
 ZXF,`i
-Z\tV_powd
 Zd[w
 Ze2Zh@
 ZjLS
@@ -5067,6 +5066,7 @@ Z~wl
 \tHAI8xpH\f
 \tJm_9
 \tLa0+
+\tV_strtoi64
 \tV_strtoui64
 \t\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StringAfterPrefixCaseSensitive
@@ -5100,6 +5100,7 @@ _Ek6b]
 _Lx6
 _OPENSSL_isservice
 _YWL
+_\tV_powd
 _g@Cg
 _jPo
 _wjb
@@ -9705,7 +9706,6 @@ zz2K
 ~If D
 ~P2T
 ~R65Fu
-~\tV_strtoi64
 ~jLRG
 ~w]UG
 ~yhZ

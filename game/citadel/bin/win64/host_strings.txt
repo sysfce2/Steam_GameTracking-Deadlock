@@ -90,6 +90,7 @@
 .?AVISource2Host@@
 08@HR
 08@J@
+2\vpt
 ?expf
 @08NT
 @HPX`hvp"
@@ -192,4 +193,3 @@ valve_demo_2
 very_fast
 walkleft
 walkright
-y^Ej

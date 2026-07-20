@@ -372,7 +372,6 @@ $prefix_element$
 *NONE*VALID*
 *\f?focusOutEvent@QAbstractSpinBox@@MEAAXPEAVQFocusEvent@@@Z
 *\nNx+\nCh,\n'
-*\tV_frexpf
 + ?timerEvent@QToolButton@@MEAAXPEAVQTimerEvent@@@Z
 +"?updateGeometries@QListView@@MEAAXXZ
 +Advanced Options
@@ -7888,6 +7887,7 @@ $prefix_element$
 .vsky
 .webp
 /\r?hideEvent@QScrollBar@@MEAAXPEAVQHideEvent@@@Z
+/\tV_frexpf
 /]?size@QImage@@QEBA?AVQSize@@XZ
 0\r%0t
 0x%1
@@ -8125,7 +8125,6 @@ $prefix_element$
 :: <NO TARGET BONE>
 :\f?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
 :\n?doSetTextCursor@QPlainTextEdit@@MEAAXAEBVQTextCursor@@@Z
-:\tV_isinfd
 :\v?canRead@QImageReader@@QEBA_NXZ
 ; tris:
 ;\n?doSetTextCursor@QTextEdit@@MEAAXAEBVQTextCursor@@@Z
@@ -8417,6 +8416,7 @@ $prefix_element$
 ?ToolScene
 ?Tools_Unlit_Opaque
 ?\f?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
+?\tV_isinfd
 ?absoluteFilePath@QFileInfo@@QEBA?AVQString@@XZ
 ?accept@QDialog@@UEAAXXZ
 ?actionEvent@QMenu@@MEAAXPEAVQActionEvent@@@Z
@@ -12785,7 +12785,6 @@ MWheelRight
 MWheelUp
 M\n?done@QDialog@@UEAAXH@Z
 M\t?canDropMimeData@QAbstractProxyModel@@UEBA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
-M\tV_log2f
 M\v?event@QListWidget@@MEAA_NPEAVQEvent@@@Z
 Make
 Make Angle
@@ -13057,7 +13056,6 @@ NOT_EQUAL
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
 NULL CELL 
 NULL VP8Io parameter in VP8Decode().
-N\tV_logd
 N\v?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
 N_U9203
 Name Mode
@@ -13828,6 +13826,7 @@ RMouseDoubleClick
 ROTATION
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
+R\tV_log2f
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
@@ -14105,7 +14104,7 @@ SMaxSampleValue
 SMinSampleValue
 SP?isNull@QPixmap@@QEBA_NXZ
 STANDIN: %1
-S\tV_modfd
+S\tV_logd
 Safeguard against producing a model outside budgetary limits.
 Sample Count
 Sample Pixel Color
@@ -15168,6 +15167,7 @@ XPosition
 XResolution
 XYZ, Luv
 X\r?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+X\tV_modfd
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
 Y (Green / Left)
 Y - Left
@@ -15217,7 +15217,6 @@ ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
 Z\f?convertFromImage@QPixmap@@QEAA_NAEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-Z\tV_powd
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 ZoomAllCamerasIn
 ZoomAllCamerasOut
@@ -15381,9 +15380,10 @@ ZoomForwardBack3D
 \t?defaultWidget@QWidgetAction@@QEBAPEAVQWidget@@XZ
 \t@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
+\tV_acosd
+\tV_asind
 \tV_atan2d
 \tV_atand
-\tV_atanf
 \tV_cosd
 \tV_coshf
 \tV_exp2f
@@ -15392,6 +15392,7 @@ ZoomForwardBack3D
 \tV_tanhf
 \t\f?data@QString@@QEBAPEBVQChar@@XZ
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\t\tV_atanf
 \t_V_StringAfterPrefixCaseSensitive
 \tg_flConfigMaxCoord
 \v?clear@QStandardItemModel@@QEAAXXZ
@@ -15436,6 +15437,7 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
+_\tV_powd
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __CACHED_editcontext_provider_lookup
 __CursorQueue__
@@ -16583,7 +16585,6 @@ guide_hair_count
 hResource
 hS(V
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
-h\tV_sind
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ
 hair_count
@@ -16764,7 +16765,6 @@ joint_parent
 joints
 k"?value@QAbstractSlider@@QEBAHXZ
 kX?setBlue@QColor@@QEAAXH@Z
-k\tV_sinhf
 k\v?event@QTextEdit@@MEAA_NPEAVQEvent@@@Z
 keep_colliders
 keep_vertices_in_memory
@@ -16886,6 +16886,7 @@ lowprecisionuv1
 mX?setBlueF@QColor@@QEAAXN@Z
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 m\n?dragEnterEvent@QPlainTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+m\tV_sind
 m_AdditionalInputDependencies
 m_AdditionalRelatedFiles
 m_ArgumentDependencies
@@ -17338,6 +17339,7 @@ pTraceResult
 pV?read@QImageReader@@QEAA?AVQImage@@XZ
 pWidget
 p\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
+p\tV_sinhf
 p\v?event@QWidget@@MEAA_NPEAVQEvent@@@Z
 p`?type@QStandardItem@@UEBAHXZ
 panorama_image
@@ -17638,7 +17640,6 @@ rsqrt
 s off\ng cMesh\nusemtl initialShadingGroup\n
 sO?insertRows@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 s\f?copy@QPixmap@@QEBA?AV1@HHHH@Z
-s\tV_sscanf_s
 s_hColoredVertexLayout
 sample_rays
 sanitizetrajectories
@@ -18561,6 +18562,7 @@ wyS]
 x"?valueFromText@QSpinBox@@MEBAHAEBVQString@@@Z
 x0Ysqx
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
+x\tV_sscanf_s
 xfade
 yU?qt_metacall@QDoubleValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 y\n?dragLeaveEvent@QPlainTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z

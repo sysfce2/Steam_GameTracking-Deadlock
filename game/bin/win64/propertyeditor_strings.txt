@@ -654,6 +654,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
 2\vpd
+2\vpt
 2aboutToShow()
 2accepted()
 2changed()
@@ -2523,7 +2524,6 @@ I[?setRgbF@QColor@@QEAAXNNNN@Z
 I\n?compare@QString@@QEBAHAEBV1@W4CaseSensitivity@Qt@@@Z
 I\r?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 I\r?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
-I_Ej
 IgnoreConsoleKeypress
 Ignored
 ImageAbsPathBrowse
@@ -2898,7 +2898,6 @@ SLIDER_VALTEXT_LEFT
 SLIDER_VALTEXT_RIGHT
 SP?isNull@QPixmap@@QEBA_NXZ
 STANDIN: %1
-S\tV_modfd
 Sample Pixel Color
 Save changes to "%1"?\n(%2)
 Save color changes?
@@ -3077,6 +3076,7 @@ X?setDashPattern@QPen@@QEAAXAEBV?$QVector@N@@@Z
 XN?hasChildren@QStandardItemModel@@UEBA_NAEBVQModelIndex@@@Z
 XR?mergeCharFormat@QTextCursor@@QEAAXAEBVQTextCharFormat@@@Z
 X\r?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+X\tV_modfd
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
 Y?setData@QStandardItem@@UEAAXAEBVQVariant@@H@Z
 Y?setData@QStandardItemModel@@UEAA_NAEBVQModelIndex@@AEBVQVariant@@H@Z
@@ -3257,6 +3257,7 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \t?dataChanged@QListView@@MEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
 \t?dataChanged@QTreeView@@UEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
 \t?defaultWidget@QWidgetAction@@QEBAPEAVQWidget@@XZ
+\tV_strspn
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \v ?willGrow@QHashData@@QEAA_NXZ
 \v?clear@QStandardItemModel@@QEAAXXZ
@@ -3610,7 +3611,6 @@ z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
-{\tV_strspn
 |"?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
 }\r?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z

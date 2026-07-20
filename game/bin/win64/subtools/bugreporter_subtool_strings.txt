@@ -1048,7 +1048,6 @@ severity
 steamvr status
 steamvr_system_report.txt
 submitter
-t^Ej
 tools/bugreporter/config.txt
 tools/bugreporter/sdk_config.txt
 triage*

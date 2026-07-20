@@ -2836,7 +2836,6 @@ MPropertySuppressField
 MPulseExpressionAlias
 MPulseFunctionHiddenInTool
 MVDataRoot
-M\tV_log2f
 Make Angle
 Make Angle From Forward Vector
 Make Color
@@ -3009,6 +3008,7 @@ RESOURCE_TYPE_NM_GRAPH
 RESOURCE_TYPE_NM_SKELETON
 RESOURCE_TYPE_SEQUENCE_GROUP_INTERNAL
 ROTATION
+R\tV_log2f
 R\vp!F
 R\vp!y
 Rad2 Deg
@@ -3200,7 +3200,6 @@ X`hr
 Y (Green / Left)
 Yield, Resume=%s
 Z (Blue  / Up)
-Z\tV_powd
 Zero Pose Task
 Zero frame animations are not supported for warping!
 Zero input vector for info node!
@@ -3221,20 +3220,23 @@ Zero input vector for info node!
 \t%d:%d - %s (skipped)\n
 \t%d:%d - %s\n
 \tError\n
+\tV_acosd
+\tV_asind
 \tV_atand
-\tV_atanf
 \tV_cosd
 \tV_coshf
 \tV_exp2f
 \tV_strtok
 \tV_tand
 \tV_tanhf
+\t\tV_atanf
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_FindGlobalSymbolByHash
 \tg_bUpdateStringTokenDatabase
 \tnexttoken
 _CustomCommand
 _CustomCommand%d
+_\tV_powd
 __CursorQueue__
 __FireCursorsParent__
 __State_Child_Condition__
@@ -3263,7 +3265,6 @@ attachment_type_cp1
 attr_factory
 bInherit
 bValue
-b^Ej
 bentnormal
 biased
 bindPose
@@ -3641,7 +3642,6 @@ game:tools/images/animgraph_editor/animgraph_icon_statemachine.png
 game:tools/images/animgraph_editor/animgraph_parameter_base.png
 game:tools/images/animgraph_editor/animgraph_parameter_virtual_base.png
 game:tools/images/animgraph_editor/animgraph_tag_base.png
-h\tV_sind
 handshakeTypes
 hpzP
 hsequence
@@ -3649,7 +3649,6 @@ idiv
 instantly
 is_selector
 kAnimGraphSaveRestoreVersion
-k\tV_sinhf
 keyvalues
 kv3:ParticleParamID_t
 length2d
@@ -3658,6 +3657,7 @@ lerp
 log2
 lowprecisionuv
 lowprecisionuv1
+m\tV_sind
 m_AnimOverlay
 m_EndEffectorFixedOffsetAttachment
 m_Format
@@ -3814,6 +3814,7 @@ p0j`y\v
 pCheckpointName
 pDescription
 pTagName
+p\tV_sinhf
 parameters
 parent to constrained
 particleslib

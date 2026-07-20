@@ -11,3 +11,4 @@ GetCP4ImplInterface
 p4lib
 p4lib.dll
 p4lib_perforce.dll
+sr^j

@@ -190,6 +190,7 @@
 0123456789)"
 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
 2\rE2t
+2\vpt
 333?+
 33s?+
 5\fu54l
@@ -199,7 +200,6 @@
 <anon>/
 <anon>:
 =\t ();,\n\r<>
-@\tV_iswcntrl
 A%mB,
 ANDROID_VULKAN
 ANDROID_VULKAN_4_0
@@ -369,6 +369,7 @@ DynamicGlobalsBDA
 ERROR!
 ERROR! Renderable pass data is being used across frame boundaries! Renderable pass has frame count %u. Current frame count is %u.\n
 ESC_SEQ
+E\tV_iswcntrl
 Engine2/RenderingPipeline
 Error decompressing static combo data (%i)\n
 Error decompressing static combo data (meta)\n
@@ -447,7 +448,6 @@ LoadKV3ObjectInPlace error: %s\n
 MD5 match on %s, loading from vcs\n
 MD5 mismatch on %s, will load from vfx instead.\n
 MODES
-M\tV_log2f
 MainPs
 MainVs
 Malgun Gothic
@@ -538,6 +538,7 @@ Programmer Error! Static combo not loaded!\n
 RD11<
 RDEFH
 RESOURCE_TYPE_MATERIAL
+R\tV_log2f
 RayTrace
 Raytracing Shader
 Remap01ScaleOffset
@@ -664,7 +665,6 @@ VfxRule_t
 Viewport
 WARNING: Failed to convert introspected block for file: %s\n
 WARNING: Invalid resource version (%d): %s\n
-Z\tV_powd
 [ mat_print_material_info ] Error! Cannot find material '%s'!\n
 [Dynamic shader compile] Reloading %d material(s)\n
 [Dynamic shader compile] Warning: %d material(s) are not reloaded because they have outstanding file I/O requests\n
@@ -769,6 +769,7 @@ Z\tV_powd
 \n\t\tDynamic:
 \src\shaders\
 \tV_exp2f
+\tV_strspn
 \tV_strtoui64
 \tV_towupper32
 \t\tStatic:
@@ -776,6 +777,7 @@ Z\tV_powd
 \t_V_strcspn
 ^^^ Attribute-based texture warning is now disabled after outputting 50 warnings.\n
 ^^^ Constant buffer warning is now disabled after outputting 50 warnings.\n
+_\tV_powd
 __Attribute__
 __Expression__
 __FROM_ATTRIBUTE_OR_FEATURE__
@@ -1150,4 +1152,3 @@ vs_4_1
 vs_5_0
 vs_6_0
 win98japanese
-{\tV_strspn

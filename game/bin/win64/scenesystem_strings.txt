@@ -846,7 +846,6 @@ $tIP
 08B }
 0?333?333?333?333?
 0\9K
-0_Ej
 0tPK
 0vLDK
 0x%02X
@@ -3573,7 +3572,6 @@ MSIndirectDispatchArgsRecull
 MULTISELECT_DEMO_ITEMS
 MY CUSTOM COLOR PICKER WITH AN AMAZING PALETTE!
 MY_DND
-M\tV_log2f
 Mackerel
 Macronsmall
 Main Area = entire viewport,\nWork Area = entire viewport minus sections used by the main menu bars, task bars etc.\n\nEnable the main-menu bar in Examples menu to see the difference.
@@ -4337,6 +4335,7 @@ RGBA32
 RSDS`r/y
 RTProxy Layout
 RTProxyBLAS
+R\tV_log2f
 Rand Paul
 Range: [%f,%f]
 RangeSrcItem = %I64d (0x%I64X), RangeSelected = %d
@@ -5862,7 +5861,6 @@ Zsmall
 \tLayer %d "%s"\n
 \tRT %dx%d %s %dx MSAA used by %s\n
 \tTarget %d "%s": [FMT-> %s] [MSAA-> %s] [%s size : %d %d]\n
-\tV_atanf
 \tV_exp2f
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\tInputs:\n
@@ -5870,6 +5868,7 @@ Zsmall
 \t\tOutputs:\n
 \t\tRender Attributes:\n
 \t\tRender Target Desc:\n
+\t\tV_atanf
 \t\t\t"%s": msaa = %s\n
 \t\t\tColor Target %d: HRT = %llX, MSAA = %s, Resolve = %llX, Width = %d, Height = %d\n
 \t\t\tDepth Target: HRT = %llX, MSAA = %s, Resolve = %llX, Width = %d, Height = %d\n

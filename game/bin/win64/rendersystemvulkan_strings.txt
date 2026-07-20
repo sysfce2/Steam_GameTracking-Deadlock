@@ -1465,7 +1465,6 @@ NVSDK_NGX_VULKAN_ReleaseFeature
 NVSDK_NGX_VULKAN_RequiredExtensions
 NVSDK_NGX_VULKAN_Shutdown
 NVSDK_NGX_VULKAN_Shutdown1
-N\tV_logd
 N_U9203
 NeXT
 NeXTDecode: Not enough data for scanline %ld
@@ -1723,6 +1722,7 @@ STv/N
 SUPPORTS_CS
 SUPPORTS_GS
 SV_Position
+S\tV_logd
 S_BINDLESS_RUNTIME
 S_EXECUTION_REORDERING
 S_MOBILE
@@ -2232,7 +2232,6 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-Z\tV_powd
 [%Y-%m-%d %H:%M:%S] 
 [*QmU
 \mfpmp.exe
@@ -2322,13 +2321,15 @@ Z\tV_powd
 \tThread (%s) Command Buffers (%d)\n
 \tTotal Command Buffers (%d)\n
 \tV_atan2d
-\tV_atanf
 \tV_expd
+\tV_strspn
+\tV_strtoi64
 \tV_strtoui64
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\tLabel[%d] - %s { %f, %f, %f, %f}\n
 \t\tObject[%d] - %s, Handle %p, Name "%s"\n
 \t\tObject[%d] - %s, Handle %p\n
+\t\tV_atanf
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRGBA8888
 \t_V_FixupPathName
@@ -2344,6 +2345,7 @@ _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
+_\tV_powd
 __Attribute__
 __Expression__
 __FROM_ATTRIBUTE_OR_FEATURE__
@@ -3886,8 +3888,6 @@ yChromaOffset
 yMzw\n
 ycbcrModel
 ycbcrRange
-{\tV_strspn
 {zel#|67
 |Bati_compress_wrapper.dll
-~\tV_strtoi64
 ~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#"! 

@@ -335,3 +335,4 @@ winar30.ime
 winpy.ime
 winsp.ime
 winzm.ime
+xr^j

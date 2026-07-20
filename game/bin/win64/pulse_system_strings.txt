@@ -644,7 +644,6 @@ MPulseExpressionAlias
 MPulseFunctionDisableRequirements
 MPulseFunctionHiddenInTool
 MPulseLegacyName
-M\tV_log2f
 Make Angle
 Make Angle From Forward Vector
 Make Color
@@ -737,6 +736,7 @@ PulseSystemEventObservableVariableSourceChanged_t
 PulseSystemEventYieldResume_t
 R Sqrt
 RESOURCE_TYPE_PULSE_GRAPH_DEF
+R\tV_log2f
 Rad2 Deg
 Raise pen.
 Random World Position
@@ -902,6 +902,8 @@ Yield, Resume=%s
 [NOP]
 [RETURN R%d]
 [RETURN]
+\tV_acosd
+\tV_asind
 \tV_atand
 \tV_cosd
 \tV_exp2f
@@ -1001,7 +1003,6 @@ gameitemclass
 gameunitclass
 gamma
 hInstance
-h\tV_sind
 header_expr
 header_text
 highlight_instance_id
@@ -1035,6 +1036,7 @@ localaxis
 localization_required
 lod_level
 log2
+m\tV_sind
 m_BaseClasses
 m_BlackboardResourceName
 m_Classes

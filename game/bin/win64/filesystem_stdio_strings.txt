@@ -193,7 +193,6 @@ $hRh
 'DAE
 'O6n
 'Z9t%
-'\tV_fread
 'g0dW
 'id' or 'name' missing
 'pSN.F
@@ -255,7 +254,7 @@ $hRh
 ,Reason=
 ,ShfPQ
 ,ZFDGn
-,\tV_fseek
+,\tV_fread
 ,fQM(
 ,h11]
 ,hmQ#
@@ -281,7 +280,6 @@ $hRh
 -DBF
 -U`5K
 -\6G5
--\tV_fseeki64
 -l34
 -mB:t
 -~T\viMOb
@@ -608,7 +606,6 @@ $hRh
 /2x1
 /5dJ
 /RIv
-/\tV_ftelli64
 /usr/local/ssl
 /usr/local/ssl/cert.pem
 /usr/local/ssl/certs
@@ -643,6 +640,7 @@ $hRh
 1GNK
 1H@H
 1L$1
+1\tV_fseek
 1\v5#d
 1b4Ef
 1f\t3Qg^y
@@ -668,6 +666,7 @@ $hRh
 2Zq)
 2\fWQx
 2\rlhp
+2\tV_fseeki64
 2\vp0
 2^pV
 2a"l
@@ -705,6 +704,7 @@ $hRh
 4Mv8
 4Zis
 4\fPl
+4\tV_ftelli64
 4f h
 4tpD
 4zj@1;IJ
@@ -4678,7 +4678,6 @@ eNULL
 eODj
 eTU\n
 eXQd
-e\tV_setvbuf
 e\tcCPtH
 ec group new by name failure
 ec_GF2m_simple_group_check_discriminant
@@ -5469,6 +5468,7 @@ jOJw"
 jTuf
 jV*d9O
 j[6Z
+j\tV_setvbuf
 j\vIP{s
 janetMailbox
 jb:5
@@ -7249,6 +7249,7 @@ y_jO
 ya<O
 yb_A
 yf2)
+yr^j
 yyen
 z(ov
 z/B,9d

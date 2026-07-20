@@ -90,10 +90,7 @@
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
  (08@HPX`j
- (08@HPXb l
  (08@HPZ
- (08@HR l
- (0X`hpz l
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2459,7 +2456,6 @@ $hRh
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
-(40g
 (5Me
 (5jP
 (?WaterWheelDrag_t
@@ -16776,7 +16772,6 @@ $hRh
 02V8[
 05=k
 08@HR
-08@J l
 08bX
 09,h
 0:00
@@ -16819,6 +16814,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vDH
 0x%4.4x 
 0x%X
 0x%X 
@@ -17040,7 +17036,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp8?
+2\vpx<
 2^pV
 2a"l
 2bT~
@@ -17088,7 +17084,6 @@ $hRh
 3\n/k_EGCMsgUseItemResponse_EmoticonUnlock_Complete
 3\n\nsending_gc
 3\n\rdamage_matrix
-3\tV_isEntirelyWhitespace
 3\v;8BJ\nH
 3dSkyboxFrustum
 3dSkyboxWorldOffset
@@ -17109,6 +17104,7 @@ $hRh
 4@AA
 4Ch;
 4F0I
+4F\vP
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -17239,7 +17235,6 @@ $hRh
 7\n\rannouncements
 7\rayf+
 7\tFq?
-7\tV_isbreakablewspace32
 7gS_
 7i@X
 7m:e
@@ -17282,6 +17277,7 @@ $hRh
 8\n\tgame_info
 8\n\vAbilityStat
 8\n\vreason_code
+8\tV_isEntirelyWhitespace
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
@@ -17316,7 +17312,6 @@ $hRh
 9\n\vdiagnostics
 9\n\vmvp_players
 9\not
-9\tV_isfinited
 9\tiI
 9]ZV
 9aDW
@@ -17417,6 +17412,7 @@ $hRh
 <\n\taccolades
 <\n\tresponses
 <\n\vdiagnostics
+<\tV_isbreakablewspace32
 <a class="PersonaName"%s%s%s>%s</a>
 <a href="\1\3">\1\3</a>
 <array element>
@@ -17471,7 +17467,6 @@ $hRh
 =\n\nBookReward
 =\n\rability_stats
 =\n\tstat_type
-=\tV_isvalidhex
 =cdE
 =trF6,#
 > No World, Just Minimap and sound*
@@ -17500,6 +17495,7 @@ $hRh
 >\n\vcombat_type
 >\n\vdiagnostics
 >\n\vitemdetails
+>\tV_isfinited
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >fN46R^
 >l\rur
@@ -17560,12 +17556,13 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N
+@08NDH
 @0pp
-@6pg
+@60i
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
+@HPX`hv
 @MPropertyAttributeEditor
 @MfKZ
 @Pgl
@@ -17579,15 +17576,16 @@ $hRh
 @\n<STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INTERNAL_DATA_SOURCE_ERROR
 @\n\fSingleObject
 @\n\vPowerUpBuff
-@\tV_iswcntrl
 @absorigin_follow
 @dKb]
+@fDH
 @fff>fff>fff>fff>
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @m_EmpowerBulletModifier
 @n2w
+@nDH
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -17819,7 +17817,6 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
-A\tV_iswdigit
 A_txt
 AbW_
 AbandonButton
@@ -18625,6 +18622,7 @@ B\n\fmeasurements
 B\n\nobjectives
 B\n\rHeroWhitelist
 B\n\vbook_reward
+B\tV_isvalidhex
 B\vP\n0
 B\vp\n0
 B_txt
@@ -23995,7 +23993,6 @@ D\n\fentity_index
 D\n\fentityhandle
 D\n\nItemDetail
 D\n\nvisibility
-D\tV_iswspace
 D_4X_DOWNSAMPLE
 D_AREA_LIGHTS
 D_BAKED_SHADOWS
@@ -24979,6 +24976,7 @@ E\n\rentity_killed
 E\n\rentity_killer
 E\n\vinventories
 E\n\vreport_type
+E\tV_iswcntrl
 Early Game
 EarlyRetireParticleSystems
 Earn more than 20,000 souls
@@ -25410,6 +25408,7 @@ F\n\finventories3
 F\n\fitem_scalars
 F\n\trow_range
 F\rH'4
+F\tV_iswdigit
 Face %s
 Face Actor
 FaceposerSectionPause
@@ -26995,6 +26994,7 @@ IV block
 I\n$k_EPingMarkerInfo_HideMarkerAndSound
 I\n\rexcluded_tags
 I\tHA\t981G'dc
+I\tV_iswspace
 IceBeamBuildupProcDuration
 IcePathAuraDuration
 IcePathInterval
@@ -28276,7 +28276,6 @@ M\n\ngold_stats
 M\n\raccount_stats
 M\n\tgame_type
 M\rLAI)haL<|p\t\t
-M\tV_log2f
 M\vOj
 MageTime
 Magic - 
@@ -28898,7 +28897,6 @@ N[Ox
 N[iY 
 N\n\fredirect_uri
 N\n\nchallenges
-N\tV_logd
 N\v7e_
 N`UaK
 Name\t\t\t\t\tCount\t\tParticle Count\n
@@ -29456,13 +29454,11 @@ P-224
 P-256
 P-384
 P-521
-P08@J l
-P08N
+P08J 
+P08NDH
 P1\t98"
-P2 l
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6P]
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30184,6 +30180,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
+PnDH
 Point entity.
 Point under crosshair
 PointType
@@ -30766,8 +30763,9 @@ R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
+R\tV_log2f
 R\vp!y
-R\vp8?
+R\vpx<
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -31091,7 +31089,7 @@ Reports all extant entities. Optional 2nd arg is a substring of a classname that
 Reports: %d
 Req:Locator
 Request
-RequestMatchMetadata job failed to decompress BZ2 file: %u\n
+RequestMatchMetadata job failed to decompress file\n
 RequestMatchMetadata job failed to download file for match: %llu\n
 RequestMatchMetadata job failed to parse CCitadelMatchMetadataFile from decompressed buffer.\n
 RequestMatchMetadataDownload job found non-matching MatchID: %llu vs %llu.\n
@@ -31537,6 +31535,7 @@ SXNET_get_id_asc
 SXNET_get_id_ulong
 SXNetID
 S\n\rcheat_reports
+S\tV_logd
 S\vQN
 SafeToAbandon
 Salt Length: 0x
@@ -35166,7 +35165,6 @@ ZLONG
 ZSz@
 ZXF,`i
 Z\n\nmap_values
-Z\tV_powd
 Zabecki
 Zd[w
 Ze2Zh@
@@ -36453,8 +36451,9 @@ Z~wl
 \tText
 \tTotals: %d/%d (%.3f%%) EvaluatePoses Used, %dx using bones without eval [Ave Eval/tick: %.3f]\n
 \tUTIL_CountNumBitsSet([%s]) 
+\tV_acosd
+\tV_asind
 \tV_atand
-\tV_atanf
 \tV_cosd
 \tV_exp2f
 \tV_strcat([%s], [%s] 
@@ -36465,6 +36464,7 @@ Z~wl
 \tV_strcpy( [stringINVALID], [%s]->GetPlayerName() 
 \tV_strcpy([%s], [%s] 
 \tV_stricmp( [%s]->ModelName() 
+\tV_strstr32
 \tV_strtok
 \tV_strtoui64
 \tV_strupper_fast
@@ -36530,6 +36530,7 @@ Z~wl
 \t\tEnable %s\n
 \t\tResponseGroup %d: %s\n
 \t\tScore: %u, Type: %u, Type ID: %u, Last Displayed: %u\n
+\t\tV_atanf
 \t\t\tResponse %d: %s\n
 \t\t\t\t"inputTexture%i"%s\n
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -36591,6 +36592,7 @@ _Lx6
 _OPENSSL_isservice
 _YWL
 _\n\fmap_mappings
+_\tV_powd
 __CursorQueue__
 __DefaultScriptThinkContext
 __DumpScope
@@ -36634,6 +36636,8 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`6Pl
+`6Pm
 `:zQF
 `D$daM-l
 `DZG
@@ -36642,9 +36646,11 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`fDH
 `fPw.\vM
 `h9T~
-`ht0g
+`ht`e
+`nDH
 `o_je
 `yNT
 a null shared library handle was used
@@ -36662,6 +36668,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvDH
 aD/x
 aDSS
 aECDH
@@ -39834,6 +39841,7 @@ down
 down-wrap
 down-wrap-left
 dpiaware
+dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -41639,7 +41647,6 @@ hW1M
 hW_z
 hX@e
 h\n\frequiredtags
-h\tV_sind
 h`Zr
 half_extent_xy
 half_extent_z
@@ -42041,7 +42048,6 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz l
 hr_H
 href="
 hscroll
@@ -43927,6 +43933,7 @@ mOD:V
 mS'7
 mXRecord
 mZKB
+m\tV_sind
 m\ta=\ruWb
 m_16ByteOrLessStack out of space, falling through after %d entries, consider upping NETWORKFIELDSCRATCHDATA_16BYTE_COUNT\n
 m_BaseClasses
@@ -45982,7 +45989,6 @@ oN86
 oWnS
 oXHT
 o\n$k_EPingMarkerInfo_ShowMarkerAndSound
-o\tV_snprintfcat
 oad2:,
 oaep
 oaep decoding error
@@ -46277,8 +46283,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p2 l
+p08@H^DH
+p0j0U
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46289,6 +46295,7 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
+p>DH
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -46964,6 +46971,7 @@ playrandom
 playtime_2weeks
 playtime_forever
 plum
+pnDH
 pngsize
 point
 point arithmetic failure
@@ -49339,6 +49347,7 @@ tNt5
 t\n\fDamageSource
 t\n\tCacheData
 t\n\vMatchPlayer
+t\tV_snprintfcat
 tabid
 tabindex
 tackling
@@ -50869,7 +50878,6 @@ zz2K
 |F?ToObject@Value@v8@@QEBA?AV?$MaybeLocal@VObject@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 |InzT
 |XYl
-|\tV_strstr32
 |hdX)
 |sG2
 |}Eq1

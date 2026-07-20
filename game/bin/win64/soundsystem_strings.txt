@@ -37,7 +37,6 @@ $toolgraphs
 %s: Sound event executionlist has too many active voices (%d). Index %i : %s\n
 %s: params.pSfx is NULL.\n
 %s::Execute: Can't find operator stack %s in %s\n
-'\tV_fread
 (%2db) %6lli : %s\n
 (Steam Audio) Update physics material attribute of a VMAT file. They are used for picking acoustic material property for Steam Audio.
 (connected: %s %i )
@@ -46,7 +45,7 @@ $toolgraphs
 **unload**
 *SoundEvent Data*\n\t
 +KjB
-,\tV_fseek
+,\tV_fread
 ---empty---
 ---invalid event---
 -> Success (%d attempts)\n
@@ -1344,6 +1343,7 @@ $toolgraphs
 .vrman
 .vsnd
 12dB
+1\tV_fseek
 1e<w 
 33s?
 8fff?fff?fff?fff?
@@ -2313,7 +2313,6 @@ Wrong arg count for '%s' %d, expected 2
 Wrong arg count for '%s' %d, expected 3
 Wt<c
 X<"wP
-Z\tV_powd
 [%s] %s : src %d : vol %.2f : time %.3f\n
 [Default] Determine a lifespan based on the warning/error state of the group
 [Default] General information
@@ -2331,19 +2330,21 @@ Z\tV_powd
 \tRefs %16s : Name (Locks)\n
 \tTrack: %s\n
 \tVOL: %f\n\tLVL: %f\n\tDSP: %f\n\tMUTE: %f\n\tSOLO: %f\n\n
-\tV_atanf
 \tV_coshf
+\tV_strnchr
 \tV_strtok
 \tV_tand
 \tV_tanhf
 \t[%2d] %16.16s : %s (%d) priority: %d\n
 \t\tInstrument: %s\n
+\t\tV_atanf
 \t\t\tBeat:\t%f\n
 \t\t\tSequence:\t%s\n
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_wcsncpy_bytes
 _CustomCommand
 _CustomCommand%d
+_\tV_powd
 __current_metadata_table_stack
 __procedural__
 __toolspreview__
@@ -3034,7 +3035,6 @@ is_ducked
 is_local_player_slot
 is_untimed
 k8y<=
-k\tV_sinhf
 key_groups
 last_calc_time
 left_front
@@ -3501,6 +3501,7 @@ output_y_max
 output_y_min
 output_z
 overwrite
+p\tV_sinhf
 parallel filters
 parameter
 params
@@ -3727,7 +3728,6 @@ transmissionHigh
 transmissionLow
 transmissionMid
 trigger
-u_Ej
 updateVoice
 update_stack
 use_entity_position_if_local_player
@@ -3808,5 +3808,4 @@ warn
 wave_type
 weights_field_name
 zG(knN~|wmW)
-z\tV_strnchr
 ~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown\n

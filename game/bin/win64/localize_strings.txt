@@ -305,7 +305,6 @@ Portuguese
 R\fp8
 Romanian
 Russian
-S\tV_modfd
 Simplified_Chinese
 Spanish
 Swedish
@@ -325,11 +324,12 @@ Valve_TestGendersEnglishOnly_N:n
 Valve_TestPluralsEnglishOnly:p
 Vietnamese
 WARNING: Duplicate string token '%s' found in %s (original in %s) - new value '%s', original value '%s'\n
-Z\tV_powd
+X\tV_modfd
 [END]
 [unknown string]
 \resource\valve_
 \t_V_StringAfterPrefixCaseSensitive
+_\tV_powd
 bg_BG
 brazilian
 bulgarian
@@ -425,3 +425,4 @@ vi_VN
 vietnamese
 zh_CN
 zh_TW
+zr^j

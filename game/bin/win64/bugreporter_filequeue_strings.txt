@@ -1,6 +1,6 @@
 %s%c%04i%02i%02i-%02i%02i%02i-%s
 %s%cbug.txt
-'\tV_fread
+,\tV_fread
 .?AVCBugReporter@@
 .?AVIBugReporter@@
 2\vph
@@ -38,6 +38,7 @@ config_file
 crashdump_user_name
 json
 netmask
+qr^j
 r\vph
 resource/bugreporter.res
 source2

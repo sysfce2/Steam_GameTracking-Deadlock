@@ -440,11 +440,11 @@
 08@HR
 0:pf
 0x%4.4x 
+2\vpt
 3?New@Number@v8@@SA?AV?$Local@VNumber@v8@@@2@PEAVIsolate@2@N@Z
 3?New@Object@v8@@SA?AV?$Local@VObject@v8@@@2@PEAVIsolate@2@@Z
 5butt
 6?NumberValue@Value@v8@@QEBA?AV?$Maybe@N@2@V?$Local@VContext@v8@@@2@@Z
-7\tV_isbreakablewspace32
 89n&
 8B@w
 8C:\buildworker\citadel_rel_win64\build\src\panorama\layout\stylepropertyfactory.cpp
@@ -452,6 +452,7 @@
 :context->null->UIEngine Global:\n
 << LIST TRUNCATED >>
 << Unconverted type %d >>
+<\tV_isbreakablewspace32
 <a href="\1\3">\1\3</a>
 <span class="%s"> %s="</span>
 <span class="%s"> address="</span>
@@ -462,7 +463,6 @@
 <span class="%s">%p</span>
 <span class="%s">%s</span>
 <span class="%s">0x%x</span>
-=\tV_isvalidhex
 >BrowserGoToURL
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
@@ -490,14 +490,12 @@
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @DebugIndividualStyle
 @HPX`hv
-@\tV_iswcntrl
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @panorama_streaming_load_local_images
 AA:0
 ABXY
 APIN_txt
-A\tV_iswdigit
 A_txt
 AccessDropDownMenu
 Activated
@@ -574,6 +572,7 @@ BPIN_txt
 BReadyForDisplay
 BScrollParentToFitWhenFocused
 BSetProperty
+B\tV_isvalidhex
 B\vP\n0
 B_txt
 BaseScrollBar
@@ -708,7 +707,6 @@ CreatePanelWithCurrentContext
 CreateVideoPlayer
 CuesContainer
 CycleButton
-D\tV_iswspace
 DaisyInputTypeABXY
 DaisyInputTypePIN
 DaisyInputTypeRS
@@ -823,6 +821,7 @@ DropInputFocus
 DropdownMenuFocusChanged
 E?ThrowException@Isolate@v8@@QEAA?AV?$Local@VValue@v8@@@2@V32@@Z
 EXPERIMENTAL: Sets a more-complex brush for the entire border paint area (ignores normal border color).<br><br><b>Examples:</b><pre>border-brush: gradient( linear, 0% 0%, 0% 100%, from( #fbfbfbff ), to( #c0c0c0c0 ) );\nborder-brush: gradient( linear, 0% 0%, 0% 100%, from( #fbfbfbff ), color-stop( 0.3, #ebebebff ), to( #c0c0c0c0 ) );\nborder-brush: gradient( radial, 50% 50%, 0% 0%, 80% 80%, from( #00ff00ff ), to( #0000ffff ) );</pre>
+E\tV_iswcntrl
 EdgeScrollBar
 EdgeScrollButton
 EdgeScroller
@@ -837,6 +836,7 @@ ErrorBox
 ErrorMessage
 ExecuteSteamURL
 F?ToString@Value@v8@@QEBA?AV?$MaybeLocal@VString@v8@@@2@V?$Local@VContext@v8@@@2@@Z
+F\tV_iswdigit
 Failed to load expected config file "%s"\n
 Failed to load opacity mask for panel '%s'
 Failed to parse and set new panel event for %s="%s"\n
@@ -883,7 +883,6 @@ FrameSection
 FrameStyleBlock
 Fullscreen
 GB=\nHB
-G_Ej
 Ga=UU
 GamepadInput
 GenericTextInputHandlerID
@@ -966,6 +965,7 @@ HorizontalSplitter
 HtmlUserAgent
 IND)ind)"
 IUIEngine::RegisterCustomFontPath
+I\tV_iswspace
 If 'loop = true', how many times to loop before stopping. -1 == infinite
 If >= 0, drags longer than this distance will suppress mouse click events (e.g. onactivate of embedded panels)
 If set, how many frames in the sprite sheet. Default assumes every space in image is filled.
@@ -1599,8 +1599,8 @@ XInputPad
 X`hr
 Y_txt
 [object@%p]
-\tV_atanf
 \tV_strupper_fast
+\t\tV_atanf
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_AppendSlash
 \t_V_strcspn

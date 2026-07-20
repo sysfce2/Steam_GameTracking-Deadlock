@@ -964,6 +964,7 @@ $SFXDetailBlendMode
 4?Ku
 7?sk3mx>>*vn[9d
 8f?D
+8s^j
 :???;???;???3776>????/?/????7'7&>?????????
 ;1#INF
 <DEBUG-Only>
@@ -1613,7 +1614,6 @@ MPulseExpressionAlias
 MPulseFunctionHiddenInTool
 MVectorIsCoordinate
 MVectorIsSometimesCoordinate
-M\tV_log2f
 Made disabling operators + children actually fully work.\n
 Make Angle
 Make Angle From Forward Vector
@@ -1832,6 +1832,7 @@ ROPE_SEGMENT_DATA
 ROPE_SEGMENT_ID
 ROTATION
 ROTATION_SPEED
+R\tV_log2f
 Rad2 Deg
 Radius from CP object
 Radius scale
@@ -2222,13 +2223,14 @@ Z>wg}?0
 \fT>M-+?#gy?
 \n\n----------------------------\nInstance Count:\n
 \t%4d -  %s\n
+\tV_acosd
+\tV_asind
 \tV_atand
 \tV_cosd
 \tV_exp2f
 \tV_tand
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \tg_flConfigMaxCoord
-_\tV_remainderf
 __CursorQueue__
 __FireCursorsParent__
 __State_Child_Condition__
@@ -2288,6 +2290,7 @@ compressedtangentframe
 con_command
 creation_time
 curvature
+d\tV_remainderf
 data_offset
 data_size
 def min cpu=%d system cpu=%d def gpu=%d system gpu=%d\n
@@ -2337,7 +2340,6 @@ g?Q1
 glow_alpha
 glow_rgb
 h>4hp?
-h\tV_sind
 hitbox
 hitbox_offset
 hl?S
@@ -2368,6 +2370,7 @@ lookup tables
 lowprecisionuv
 lowprecisionuv1
 lwK?
+m\tV_sind
 m_Children.m_pHead: [%p]\n
 m_Stops
 m_TagValue
