@@ -89,8 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j
- (08@HPZ
+ (08@HPX`j`
+ (08@HPZ`
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -16771,7 +16771,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR
+08@HR`
+08B`
 08bX
 09,h
 0:00
@@ -16814,7 +16815,6 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vDH
 0x%4.4x 
 0x%X
 0x%X 
@@ -17036,7 +17036,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpx<
+2\vpTN
 2^pV
 2a"l
 2bT~
@@ -17556,9 +17556,9 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08NDH
+@08N
 @0pp
-@60i
+@6pm
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @DebugIndividualStyle
@@ -17578,14 +17578,12 @@ $hRh
 @\n\vPowerUpBuff
 @absorigin_follow
 @dKb]
-@fDH
 @fff>fff>fff>fff>
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @m_EmpowerBulletModifier
 @n2w
-@nDH
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -29454,11 +29452,11 @@ P-224
 P-256
 P-384
 P-521
-P08J 
-P08NDH
+P08N
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
+P6@h
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30033,6 +30031,7 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
+Pf@e
 Phrase
 Phrase%d
 PhraseContainer
@@ -30180,7 +30179,7 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-PnDH
+Pn@f
 Point entity.
 Point under crosshair
 PointType
@@ -30759,13 +30758,14 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
+R\fpTN
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\tV_log2f
 R\vp!y
-R\vpx<
+R\vpP?
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -35078,7 +35078,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr
+X`hr`
 Xd3h
 XfJ7
 XjfR
@@ -36567,6 +36567,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpTN
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -36636,8 +36637,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6Pl
-`6Pm
+`6pn
 `:zQF
 `D$daM-l
 `DZG
@@ -36646,11 +36646,9 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`fDH
 `fPw.\vM
 `h9T~
 `ht`e
-`nDH
 `o_je
 `yNT
 a null shared library handle was used
@@ -36668,7 +36666,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvDH
 aD/x
 aDSS
 aECDH
@@ -39841,7 +39838,6 @@ down
 down-wrap
 down-wrap-left
 dpiaware
-dq\fP
 draft_inner_wheel
 draft_inner_wheel_blur
 draft_item_sets
@@ -46283,8 +46279,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^DH
-p0j0U
+p08@H^
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46295,13 +46290,13 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>DH
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
+pFPK
 pField
 pFilter
 pG_*h
@@ -46971,7 +46966,6 @@ playrandom
 playtime_2weeks
 playtime_forever
 plum
-pnDH
 pngsize
 point
 point arithmetic failure
@@ -47400,8 +47394,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpP?
 r\n\vstart_index
 r\vDi
+r\vpTN
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals

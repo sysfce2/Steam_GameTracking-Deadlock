@@ -24813,7 +24813,6 @@ Crossover Amount
 CryptAcquireContextW
 CryptGenRandom
 CryptReleaseContext
-Cs^j
 Cskybox
 Cubemap %i, face %i has Inf/NaN/extremely bright pixel at %i,%i: %f %f %f
 Cull Distance
