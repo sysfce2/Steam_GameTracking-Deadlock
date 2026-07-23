@@ -182,11 +182,7 @@
  (%ld unused bits)\n
  (%u unread)
  (08@HPX`j
- (08@HPXbp
  (08@HPZ
- (08@HRp
- (08@Jp
- (0X`hpzp
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -1691,7 +1687,7 @@ $light_emissive
 (d4t8
 (debug)
 (default)
-(f0]2
+(fP]2
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
@@ -2064,8 +2060,6 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0D2
-.0b2
 .0c2
 .0e2
 .4bb
@@ -14096,6 +14090,7 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
+.PD2
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14115,6 +14110,8 @@ $light_emissive
 .PEAVCPlayer_WeaponServices@@
 .PartnerAccountType
 .Pb2
+.Pc2
+.Pe2
 .PingCommonData
 .PostProcessingGameStates
 .Q.Ol
@@ -14403,7 +14400,6 @@ $light_emissive
 .league
 .pb2
 .pp@0
-.pv2
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14462,7 +14458,6 @@ $light_emissive
 02V8[
 05=k
 08@HR
-08@Jp
 08bX
 09,h
 0;Q5[
@@ -14742,15 +14737,17 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 D2
+6 12
+6 I2
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60T2
-60Y2
+6022
+60A2
+60S2
 62$|S)6f
 64CK\vH
 65535
@@ -14760,13 +14757,11 @@ $light_emissive
 6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 67-s
-6@M2
-6@O2
-6@o2
+6@D2
 6H,N
 6O|T%
-6Px2
-6P~2
+6PT2
+6PY2
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14778,6 +14773,9 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
+6`M2
+6`O2
+6`o2
 6afD
 6bX+
 6c&0|vvX
@@ -14785,8 +14783,8 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6p;2
-6pq2
+6px2
+6p~2
 6qo~
 6r-m_v
 6r1ij
@@ -14836,7 +14834,7 @@ $light_emissive
 8<pl
 8= zp
 8A6j
-8B b
+8B@b
 8GZS
 8SIffK5W
 8TZvrv<
@@ -15029,7 +15027,6 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound
 >0 = watershed, 1 = monotone, 2 = layers
->0E2
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15051,6 +15048,7 @@ $light_emissive
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >BShow Ping Indicator at Ping Location, Play Ping Sound, and Play VO
 >CShow Ping Indicator on Pinging Player, Play Ping Sound, and Play VO
+>PE2
 >POTG Eval: Best play interval(%.3f -> %.3f)[%.1fs] (cur: %.3f) score (%.2f -> %.2f). Primary Ent (%s)\n
 >Sem
 >WK6
@@ -15073,9 +15071,6 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->pC2
->pI2
->pJ2
 >yhP
 >ztq
 ?333?
@@ -15107,9 +15102,9 @@ $light_emissive
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
 @08N
 @0pp
-@6 b2
+@6@b2
 @BH]f
-@HPX`hv
+@HPX`hv042
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15124,7 +15119,7 @@ $light_emissive
 @\n\vPowerUpBuff
 @dKb]
 @fff>fff>fff>fff>
-@ht0
+@htP
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -21541,7 +21536,6 @@ F'pY
 F+Zb
 F,mZq
 F/o4
-F0=2
 F2M+
 F6tr
 F7!z
@@ -21578,6 +21572,7 @@ FN|p
 FORM
 FORMAT
 FOV2D
+FP=2
 FU\n-XP
 FVisible
 FV|FgUV
@@ -21943,7 +21938,6 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
-Fp:2
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25773,11 +25767,9 @@ P-224
 P-256
 P-384
 P-521
-P08@Jp
 P08N
 P1\t98"
 P5[1
-P6pi2
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -30199,6 +30191,7 @@ UsingMelee
 Ut]<E
 Uv1t
 Uz_G3=
+V n2
 V07;m
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
@@ -30246,7 +30239,6 @@ VNotify Abandoned (Not enabled)\n
 VNotify Sent\n
 VNotify StartProcess failed!\n
 VNotify: %s\n
-VPe2
 VPhysicsCollision
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: A script attempted to create a scene entity mid-game. Entity creation from scripts is only allowed during map init.\n
@@ -30359,6 +30351,7 @@ VoteRoundToTallyEntry
 VotingPosterCount
 VotingPosterSpeed
 Vp>u
+Vpe2
 Vt_9
 VulnerabilityPerStack
 V~~Vq
@@ -30729,9 +30722,8 @@ XYD%
 X\tQo
 X`hr
 Xd3h
-Xf@S2
 XfJ7
-Xf`T2
+Xf`S2
 XjfR
 XqgA+
 Xuub
@@ -31940,6 +31932,7 @@ Z~wl
 ]MSd
 ][LK~lO
 ^.om5r
+^0y2
 ^DnJ
 ^DqPt
 ^J_spY
@@ -31947,7 +31940,6 @@ Z~wl
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
-^pO2
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -32007,7 +31999,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`6Pt2
+`6pt2
 `:zQF
 `D$daM-l
 `DZG
@@ -36520,7 +36512,6 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpzp
 hr_H
 http request
 https proxy request
@@ -39581,6 +39572,7 @@ mvp_rank
 my_hero
 mzP"T
 n < (int)sizeof(ctx->enc_data)
+n Q2
 n does not equal p q
 n0?X
 n1Z 
@@ -39618,7 +39610,6 @@ nMoveType
 nNumerator
 nPitch
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
-nP|2
 nSRecord
 nSerialNumber
 nSoundEventGuid
@@ -39982,6 +39973,7 @@ npc_vehicle
 npc_yakuza_gangster
 npcclass
 npcstate
+np|2
 nsBaseUrl
 nsCaPolicyUrl
 nsCaRevocationUrl
@@ -40244,14 +40236,14 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0j0;
-p2 b
+p0jP;
+p2@b
 p2{l
 p4Z3
 p5Z3
 p5\nL,
-p6 H2
 p618
+p6@H2
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -43680,7 +43672,6 @@ uxX/
 v'A>M6
 v)56
 v0o/5
-v0z2
 v1(0)
 v1GZ
 v2i_ASN1_BIT_STRING
@@ -43708,6 +43699,7 @@ vPoint1
 vPoint2
 vPosition
 vPrevWaypoint.IsValid()\n
+vPz2
 vStartPos
 vStartPos[%s] pStartArea[%d]
 vStartPos[%s] vGoalPos[%s]
