@@ -182,10 +182,12 @@
  (%ld unused bits)\n
  (%u unread)
  (08@HPX`j
- (08@HPXb0-
+ (08@HPXbpS
  (08@HPZ
- (08@HR0-
- (0X`hpz0-
+ (08@HRpS
+ (08@JpS
+ (0X`hpzpS
+ (2pS
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -212,7 +214,7 @@
  8f\ff
  <-- Arg '%s'
  <-- Retval '%s'
- @Play the given VCD as an instanced scripted scene.
+ @instanced_scripted_scene
  ACTIVE GROUP
  Damage Dealt to Trooper Boss
  Damage Taken from Player
@@ -951,7 +953,6 @@ $light_emissive
 %s:  %s WRITE %s in CEntity2SaveRestore::EntityPatchWrite\n
 %s:  %s WRITE DirectoryClear( %s, %s )\n
 %s:  %s WRITE DirectoryCopy Append( %s [%u] )\n
-%s:  %s WRITE DirectoryCopy( %s, %p )\n
 %s:  %s WRITE DirectoryExtract( %s, %s )\n
 %s:  %s WRITE KV3 TO %s in CEntity2SaveRestore::EntityDataWrite\n
 %s:  %s WRITE Queue AsyncWrite(%s) in CEntity2SaveRestore::EntityPatchWrite\n
@@ -1697,7 +1698,6 @@ $light_emissive
 (d4t8
 (debug)
 (default)
-(f@y4
 (fS{ggRcjh
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
@@ -2073,8 +2073,11 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0D4
-.0F4
+.0R4
+.0S4
+.0k4
+.0m4
+.0u4
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14168,7 +14171,6 @@ $light_emissive
 .P6AXAEBUSoundOpvarManagerSettableData_t@@PEAVCSoundOpvarSetPointStackCollection@@@Z
 .P6AXPEAVCPulseAPIExtensionRegistrationContext_t@@@Z
 .PARTICLE_MESSAGE
-.PD4
 .PEAVCAI_Motor@@
 .PEAVCBodyComponent@@
 .PEAVCChoreoComponent@@
@@ -14186,11 +14188,14 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PH4
-.PN4
-.Pa4
+.PQ4
+.PR4
+.PS4
 .PartnerAccountType
 .PingCommonData
+.Pj4
+.Pl4
+.Pm4
 .PostProcessingGameStates
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
@@ -14476,9 +14481,13 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pD4
-.pE4
-.pH4
+.pQ4
+.pS4
+.pT4
+.pU4
+.pb4
+.pj4
+.pl4
 .pp@0
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
@@ -14538,7 +14547,7 @@ $light_emissive
 02V8[
 05=k
 08@HR
-08@J0-
+08@JpS
 08bX
 09,h
 0;Q5[
@@ -14575,6 +14584,7 @@ $light_emissive
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0v4r/
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14764,13 +14774,13 @@ $light_emissive
 3|rN>
 4)#bH
 4)m1
+4+\tpI
 474E4U4W4c4i4m4
 4<Td
 4@AA
 4Ch;
 4DL=
 4F0I
-4F\vp$
 4Mv8
 4Zis
 4\fPl
@@ -14821,18 +14831,14 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 14
-6 84
-6 N4
-6 o4
+6 X4
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60;4
-60`4
+60_4
 62$|S)6f
 64CK\vH
 65535
@@ -14842,14 +14848,11 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666CAttributeManager
 67-s
-6@24
-6@p4
-6@u4
+6@Y4
 6H,N
 6O|T%
-6P74
-6Pi4
-6Pk4
+6PZ4
+6Ps4
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14861,8 +14864,8 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`04
-6`34
+6`W4
+6`t4
 6afD
 6bX+
 6c&0|vvX
@@ -14870,7 +14873,7 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pZ4
+6pa4
 6qo~
 6r-m_v
 6r1ij
@@ -15019,7 +15022,6 @@ $light_emissive
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;DSource2GameEntities001
 ;LGEW
 ;Qo0
 ;X94<
@@ -15113,7 +15115,6 @@ $light_emissive
 >#>)>/>3>A>W>c>e>w>
 >(Only show on Minimap, no world, no sound
 >0 = watershed, 1 = monotone, 2 = layers
->054
 >33s?
 >4|6eXg_e
 >7^0g
@@ -15157,17 +15158,17 @@ $light_emissive
 >fN46R^
 >l\rur
 >p00<
->p84
 >yhP
 >ztq
+?%s:  %s WRITE DirectoryCopy( %s, %p )\n
 ?333?
 ?33s?
 ?CAnimFoot
-?Ent %5d: class %s name "%s"\n
 ?HAI\t81\t9dcG'
 ?HP4
 ?Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
 ?VBH;
+?XjK
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ?\n;GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_TINT_AND_DESAT
@@ -15180,18 +15181,19 @@ $light_emissive
 ?ffffff
 ?gwL
 ?jOb
+?m_hExplodeParticle
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08N4r/
 @0pp
-@60~4
-@6p&4
+@60Q4
 @BH]f
-@CCitadelItemPickupRejuvVData
-@HPX`hv P4
+@CCitadelItemKothSpawner
+@HPX`hv`v4
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15205,9 +15207,12 @@ $light_emissive
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
+@f4r/
 @fff>fff>fff>fff>
+@ht0
 @i1V
 @n2w
+@n4r/
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -15230,7 +15235,6 @@ AABBDirection
 AACompromise
 AC2,h
 ACCESS_DESCRIPTION
-ACCitadel_Modifier_FlameDashBurn
 ACHIEVEMENT_EVENT_
 ACID
 ACPT_STATE
@@ -16302,6 +16306,7 @@ BloodImpact
 BloodSpillDPSPercent
 BloodSpillDuration
 BlurVisionRange
+Bm_vecStatViewerModifierValues
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -19301,6 +19306,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<class CitadelLobbyPlayerSlot_t,struct CCita
 CUtlRBTree<struct CUtlOrderedMapBase<class CitadelRandomRollerId_t,class CCitadelRandomRoller,class CDefLess<class CitadelRandomRollerId_t>,unsigned short>::Node_t,class CUtlOrderedMapBase<class CitadelRandomRollerId_t,class CCitadelRandomRoller,class CDefLess<class CitadelRandomRollerId_t>,unsigned short>::CKeyLess,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CitadelRandomRollerId_t,class CCitadelRandomRoller,class CDefLess<class CitadelRandomRollerId_t>,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class HeroBuildID_t,class HeroBuild_t *,class CDefLess<class HeroBuildID_t>,int>::Node_t,class CUtlOrderedMapBase<class HeroBuildID_t,class HeroBuild_t *,class CDefLess<class HeroBuildID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class HeroBuildID_t,class HeroBuild_t *,class CDefLess<class HeroBuildID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class IWorldReference *,class CShadowCastingLightTracker::CEntityKVs,class CDefLess<class IWorldReference *>,int>::Node_t,class CUtlOrderedMapBase<class IWorldReference *,class CShadowCastingLightTracker::CEntityKVs,class CDefLess<class IWorldReference *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class IWorldReference *,class CShadowCastingLightTracker::CEntityKVs,class CDefLess<class IWorldReference *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<class LeaderboardID_t,struct CCitadelRankedSchema::RankSchemaAndInterval_t,class CDefLess<class LeaderboardID_t>,int>::Node_t,class CUtlOrderedMapBase<class LeaderboardID_t,struct CCitadelRankedSchema::RankSchemaAndInterval_t,class CDefLess<class LeaderboardID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class LeaderboardID_t,struct CCitadelRankedSchema::RankSchemaAndInterval_t,class CDefLess<class LeaderboardID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class PackedRank_t,struct CRankedSeasonDefinition::LeaderboardRank_t,class CDefLess<class PackedRank_t>,int>::Node_t,class CUtlOrderedMapBase<class PackedRank_t,struct CRankedSeasonDefinition::LeaderboardRank_t,class CDefLess<class PackedRank_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class PackedRank_t,struct CRankedSeasonDefinition::LeaderboardRank_t,class CDefLess<class PackedRank_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class PackedRank_t,struct CRankedSeasonDefinition::RankMMRestrictions_t,class CDefLess<class PackedRank_t>,int>::Node_t,class CUtlOrderedMapBase<class PackedRank_t,struct CRankedSeasonDefinition::RankMMRestrictions_t,class CDefLess<class PackedRank_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class PackedRank_t,struct CRankedSeasonDefinition::RankMMRestrictions_t,class CDefLess<class PackedRank_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class PulseCursorID_t,struct PulseGraphExecutionHistoryCursorDesc_t *,class CDefLess<class PulseCursorID_t>,int>::Node_t,class CUtlOrderedMapBase<class PulseCursorID_t,struct PulseGraphExecutionHistoryCursorDesc_t *,class CDefLess<class PulseCursorID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class PulseCursorID_t,struct PulseGraphExecutionHistoryCursorDesc_t *,class CDefLess<class PulseCursorID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -19370,6 +19376,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<struct GCSDK::SOID_t,struct GCSDK::CGCClien
 CUtlRBTree<struct CUtlOrderedMapBase<struct GCSDK::SOID_t,struct GCSDK::CGCClient::SOVersion_t *,class CDefLess<struct GCSDK::SOID_t>,int>::Node_t,class CUtlOrderedMapBase<struct GCSDK::SOID_t,struct GCSDK::CGCClient::SOVersion_t *,class CDefLess<struct GCSDK::SOID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct GCSDK::SOID_t,struct GCSDK::CGCClient::SOVersion_t *,class CDefLess<struct GCSDK::SOID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct PlayerStat_t,struct CCitadelServerStatTracker::PlayerTrackedStatInfo_t,class CDefLess<struct PlayerStat_t>,int>::Node_t,class CUtlOrderedMapBase<struct PlayerStat_t,struct CCitadelServerStatTracker::PlayerTrackedStatInfo_t,class CDefLess<struct PlayerStat_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct PlayerStat_t,struct CCitadelServerStatTracker::PlayerTrackedStatInfo_t,class CDefLess<struct PlayerStat_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct RankID_t,class CRankedSeasonDefinition *,class CDefLess<struct RankID_t>,int>::Node_t,class CUtlOrderedMapBase<struct RankID_t,class CRankedSeasonDefinition *,class CDefLess<struct RankID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct RankID_t,class CRankedSeasonDefinition *,class CDefLess<struct RankID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<struct RankID_t,class LeaderboardID_t,class CDefLess<struct RankID_t>,int>::Node_t,class CUtlOrderedMapBase<struct RankID_t,class LeaderboardID_t,class CDefLess<struct RankID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct RankID_t,class LeaderboardID_t,class CDefLess<struct RankID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct TeamStat_t,struct CCitadelServerStatTracker::TeamTrackedStatInfo_t,class CDefLess<struct TeamStat_t>,int>::Node_t,class CUtlOrderedMapBase<struct TeamStat_t,struct CCitadelServerStatTracker::TeamTrackedStatInfo_t,class CDefLess<struct TeamStat_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct TeamStat_t,struct CCitadelServerStatTracker::TeamTrackedStatInfo_t,class CDefLess<struct TeamStat_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct flexsettinghdr_t const *,struct FS_LocalToGlobal_t,class CDefLess<struct flexsettinghdr_t const *>,unsigned short>::Node_t,class CUtlOrderedMapBase<struct flexsettinghdr_t const *,struct FS_LocalToGlobal_t,class CDefLess<struct flexsettinghdr_t const *>,unsigned short>::CKeyLess,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct flexsettinghdr_t const *,struct FS_LocalToGlobal_t,class CDefLess<struct flexsettinghdr_t const *>,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned __int64,bool,class CDefLess<unsigned __int64>,int>::Node_t,class CUtlOrderedMapBase<unsigned __int64,bool,class CDefLess<unsigned __int64>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned __int64,bool,class CDefLess<unsigned __int64>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -21455,6 +21462,7 @@ Engine2/LightmapUVQuery
 Engine2/NetworkEncoderOverrides
 Engineer Sentry
 EnhancedHowlDebuffDuration
+Ent %5d: class %s name "%s"\n
 Ent %d: %s (%s)
 EntCmpOverride_CBodyComponent
 EntIndexToHScript
@@ -21635,6 +21643,7 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
+F B4
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -21645,7 +21654,6 @@ F6tr
 F7!z
 F9q'
 F<mb
-F@Y4
 FAILED - attempting to steal CopyUlt! Resetting cooldown and letting the user try again. \n
 FAILED - target has no valid ultimate ability. \n
 FALL
@@ -21798,7 +21806,6 @@ FearDuration
 FervorStatusResistancePercent
 Ff,n
 Fgi?)
-Fgrenade
 Fi:je
 Field "%s" of class "%s" cannot be unserialized yet (lacking array support)!\n
 Field %s::%s cannot have sub-keyfields since it is an atomic type!\n
@@ -25884,11 +25891,13 @@ P-224
 P-256
 P-384
 P-521
-P08@J0-
-P08J
+P08@JpS
+P08J 
+P08N4r/
 P1\t98"
-P20-
+P2pS
 P5[1
+P:pS
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26427,6 +26436,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+Pn4r/
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -30850,8 +30860,6 @@ X\tQo
 X`hr
 Xd3h
 XfJ7
-XfPo4
-Xfpp4
 XjfR
 XqgA+
 Xuub
@@ -32071,7 +32079,6 @@ Z~wl
 ^RB!r
 ^\n\ffloat_values
 ^\n\fmap_mappings
-^pu4
 _ClientLevel
 _ClientModifier
 _ClientModifierLevel
@@ -32131,6 +32138,11 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`2pS
+`6 U4
+`6PT4
+`6PU4
+`6Pk4
 `:zQF
 `D$daM-l
 `DZG
@@ -32138,9 +32150,10 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`f4r/
 `fPw.\vM
 `h9T~
-`htp
+`n4r/
 `o_je
 `yNT
 a null shared library handle was used
@@ -32159,6 +32172,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv4r/
 aD/x
 aDSS
 aECDH
@@ -34408,6 +34422,7 @@ cvarvalue
 cycle
 cz>Sp
 d e not congruent to 1
+d,\tpI
 d.allOrFirstTier
 d.authenticatedData
 d.certificate
@@ -35554,6 +35569,7 @@ f%wyLmX:
 f&dy
 f1cK%
 f45\r
+f4r/
 fBB\fy
 fC\tc
 fL\ri
@@ -36300,6 +36316,7 @@ graph_param
 graph_states
 gravestonestate
 green
+grenade
 ground5_to_water1
 ground_dash
 ground_jump
@@ -36657,7 +36674,7 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpz0-
+hpzpS
 hr_H
 http request
 https proxy request
@@ -37205,7 +37222,6 @@ instance_file
 instance_parm
 instance_variable
 instanced_scene_%s_%s
-instanced_scripted_scene
 instant
 instructor_close_lesson
 instructor_server_hint_create
@@ -38992,7 +39008,6 @@ modifier_citadel_gravity_lasso_self
 modifier_citadel_halloween_mask
 modifier_citadel_hideout_in_menu
 modifier_citadel_hideout_intro
-modifier_citadel_hideout_intro_exit
 modifier_citadel_holding_golden_idol
 modifier_citadel_hookself
 modifier_citadel_hooktarget
@@ -39744,6 +39759,7 @@ n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
 n1Z 
+n4r/
 n5cM
 n6j/
 n:2C[
@@ -40402,14 +40418,14 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0jpW
-p20-
+p08@H^4r/
+p2pS
 p2{l
 p4Z3
 p5Z3
 p5\nL,
-p60d4
 p618
+p>4r/
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40433,6 +40449,7 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
+pF`B4
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -40933,6 +40950,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
+pn4r/
 point
 point arithmetic failure
 point at infinity
@@ -43851,6 +43869,7 @@ util4
 util5
 uvs are all identical
 uxX/
+v y4
 v'A>M6
 v)56
 v0o/5
@@ -43860,6 +43879,7 @@ v2i_ASN1_BIT_STRING
 v2i_GENERAL_NAMES
 v2i_GENERAL_NAME_ex
 v3\vt
+v4r/
 v8array
 v8callback
 v8object
@@ -44312,6 +44332,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
+zDmodifier_citadel_hideout_intro_exit
 zF):O4
 zFar
 zG2m8
@@ -44367,12 +44388,11 @@ zz2K
 }Xee+
 }gE3
 }n2W
+~0l4
 ~9ob
 ~If D
 ~P2T
-~PF4
 ~R65Fu
 ~jLRG
-~pF4
 ~w]UG
 ~yhZ

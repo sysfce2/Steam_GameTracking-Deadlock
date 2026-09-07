@@ -32,6 +32,7 @@
 				m_unInterval = 1
 				m_rtIntervalStartTimestamp = 1785430800
 				m_rtIntervalEndTimestamp = 1791493200
+				m_unLeaderboardID = 1001
 			},
 		]
 	}

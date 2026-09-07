@@ -351,6 +351,7 @@ $SPECULARSCALE
 <Account ID> Clear recent cheat reports on this account.
 <Account ID> [0/1] Grants or removes dev access to an account
 <Account ID> [MMR] Locks a user to the current MMR (optionally can set the MMR as well)
+<Clear|Hero> [target account ID] Indicates that you want to be prioritized in matchmaking with optionally a specific hero. Clear will clear your status
 <ESymbolType> Dump all of the symbols in the Panorama symbol table
 <Hero ID> Unlocks the specified hero
 <HeroID>
@@ -7757,7 +7758,6 @@ Clear waypoints for npc_go_loop.
 Clearance Distance
 Clears all debug overlays
 Clears out all survey questions from this account and resets the state
-Clears that we need to be in the next playtest
 Clears the list of names to display text debugging information about the given entity(ies) on top of the entity (See Overlay Text)\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
 Clears the marked Area or Ladder.
 Clears the shader cache used for dynamic shader compile.
@@ -12113,7 +12113,6 @@ Index
 IndexAndPercentage
 IndexOnly
 Indicate to a test script that a checkpoint has been reached
-Indicates that we need to be in the next playtest
 Indicates whether or not the tv should use delta frames for storage of intermediate frames. This takes more CPU but significantly less memory.
 Indicates whether to keep any loaded ammo in the weapon on reload
 Indicates whether to treat reserve ammo as clips (reloads) instead of raw bullets
@@ -12471,6 +12470,7 @@ Layers for this mood
 Layout Grid
 Layout length vertically (Along Z axis instead of Y).
 LayoutPositionType_e
+LeaderboardID_t
 Lean Matrix
 Least Aggressive
 Least aggressive fade out. The object will be quite small before fading out. Fade out will only complete at the size cull limit.
@@ -21017,6 +21017,7 @@ citadel_dump_items_with_component
 citadel_dump_keybindings
 citadel_dump_player_stats
 citadel_dump_rank_data
+citadel_enable_chat_rate_limiting
 citadel_enable_double_ping
 citadel_enable_duplicate_heroes
 citadel_enable_fast_cooldowns
@@ -21682,8 +21683,6 @@ citadel_replay_prev_marker_threshold
 citadel_replay_toggle_pause
 citadel_report_card_dismissal_timeout
 citadel_report_card_tasks_complete
-citadel_require_in_playtest_clear
-citadel_require_in_playtest_set
 citadel_require_server_bullet_impacts_on_important_hits
 citadel_reset_camera_speed
 citadel_reset_new_player
@@ -24466,6 +24465,8 @@ k_EMsgClientToGCGetInFlightItemCharges
 k_EMsgClientToGCGetInFlightItemChargesResponse
 k_EMsgClientToGCGetLeaderboard
 k_EMsgClientToGCGetLeaderboardResponse
+k_EMsgClientToGCGetLeaderboardStatus
+k_EMsgClientToGCGetLeaderboardStatusResponse
 k_EMsgClientToGCGetLimitedItemPurchaseQuantity
 k_EMsgClientToGCGetLimitedItemPurchaseQuantityResponse
 k_EMsgClientToGCGetMatchHistory
@@ -40681,6 +40682,7 @@ m_unHeroID
 m_unHorizontalAlign
 m_unInterval
 m_unItemID
+m_unLeaderboardID
 m_unLobbyPlayerSlot
 m_unMajorStuckAttemptCount
 m_unMatchID
@@ -42041,6 +42043,7 @@ mm_idle_enabled
 mm_idle_show_warning_at_s
 mm_idle_warning_duration_s
 mm_prefer_solo_only
+mmpri
 mobile_fps_increase_during_charging
 mobile_fps_increase_during_hfr_animations
 mobile_fps_increase_during_touch
@@ -43484,7 +43487,6 @@ r_monitor_3dskybox
 r_morphing_enabled
 r_multigpu_num_gpus_found
 r_multigpu_num_gpus_used
-r_multiscattering
 r_muzzleflashbrightness
 r_muzzleflashlinear
 r_nearz

@@ -89,11 +89,12 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j
- (08@HPXb0_
- (08@HPZ
- (08@HR0_
- (0X`hpz0_
+ (08@HPX`jP7
+ (08@HPXb
+ (08@HPZP7
+ (08@HR
+ (08@JP7
+ (0X`hpz
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -116,7 +117,6 @@
  <-- Arg '%s'
  <-- Retval '%s'
  <b>@import</b> 
- A0;g
  ACTIVE GROUP
  CCitadelSteamInputHandler::BAreActionOriginsReady: SUCCESS!\n
  CCitadelSteamInputHandler::BAreActionSetsReady: SUCCESS!\n
@@ -132,8 +132,8 @@
  CCitadelSteamInputHandler::SteamDeviceConnected: %llu\n
  CCitadelSteamInputHandler::SteamDeviceDisconnected: %llu\n
  CCitadelSteamInputHandler::UpdateControllerActionSet: ControllerHandle: %llu, ActionSet: %llu \n
- CItemImbuementPair_t
  C_PhysPropClientside::Spawn: SetupPhysicsAsModel() failed for %s.\n
+ Cm_hTrigger
  FLK
  FWa
  Failed to pack %s\n
@@ -276,7 +276,6 @@
 "4\n!CMsgGCToGCUniverseStartupResponse
 "6\n CMsgGCGetAccountSubscriptionItem
 "9\n\vCMsgTESmoke
-":\n$CMsgClientToGCGetAccountLeaderboards
 "; boundary="----%s"%s%s
 ";\n\tEChatMode
 "=\n CMsgClientToGCGetHeroMMRRankings
@@ -289,6 +288,7 @@
 "N\n!CMsgGCToGCUpdateSubscriptionItems
 "N\n#CMsgClientToGCSubmitHeroReleaseVote
 "O\n CMsgGCToGCStoreProcessSettlement
+"P\n"CMsgClientToGCGetLeaderboardStatus
 "Q\n!CClientMsg_ListenForResponseFound
 "R\n CCitadelUserMsg_FlexSlotUnlocked
 "R\n"CMsgClientToGCSetNewPlayerProgress
@@ -328,6 +328,7 @@
 "c\n%CMsgGCRequestSubGCSessionInfoResponse
 "c\n(CWorkshop_GetPackageDailyRevenue_Request
 "cs73KI
+"f\n$CMsgClientToGCGetAccountLeaderboards
 "f\n\nCMsgTEDust
 "f\n\rCMsgAddSocket
 "l7ql`R2lWf
@@ -2503,9 +2504,9 @@ $hRh
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
+(4pL
 (5Me
 (5jP
-(?CBaseTriggerAPI::FindEntitiesInTrigger
 (ACTIVE)
 (App Id to retrieve published files from.
 (BZq
@@ -2814,6 +2815,7 @@ $hRh
 (\v2/.CMsgServerSignoutData_MatchDevStats.PlayerSlot
 (\v2/.CMsgServerSignoutData_PenalizedPlayers.Penalty
 (\v20.CCitadelUserMsg_GetDamageStatsResponse.StatType
+(\v20.CMsgClientToGCGetLeaderboardStatusResponse.Hero
 (\v20.CMsgGCToClientDevPlaytestStatus.LeaderboardTier")\n
 (\v20.CMsgInferenceIterateBeamSearch.CustomItemScalar
 (\v20.CMsgServerSignoutData_DetailedStats.KothCapture
@@ -2997,6 +2999,7 @@ $hRh
 )\n!register_data_source_access_token
 )\n$CITADEL_CM_ExecuteMapPositionAbility
 )\n$k_EMsgClientToGCGenerateChallengeSet
+)\n$k_EMsgClientToGCGetLeaderboardStatus
 )\n$k_EMsgClientToGCPartySetModeResponse
 )\n$k_EMsgClientToGCRecycleMultipleItems
 )\n$k_EMsgClientToGCReplacementSDRTicket
@@ -3088,6 +3091,7 @@ $hRh
 *BaseEntity::CBodyComponent
 *BaseModelEntity::CBodyComponentBaseModelEntity
 *Gets the last-played times for the account
+*PXw
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -3131,7 +3135,7 @@ $hRh
 *\n\vhero_equips
 *\n\vpreferences
 *`\n\fCameraAction
-*cl_yawspeed
+*cl_anglespeedkey
 *gFBk
 *hbJ1
 *it%2
@@ -13932,6 +13936,9 @@ $hRh
 .?AVCMsgClientToGCGetLeaderboard@@
 .?AVCMsgClientToGCGetLeaderboardResponse@@
 .?AVCMsgClientToGCGetLeaderboardResponse_LeaderboardEntry@@
+.?AVCMsgClientToGCGetLeaderboardStatus@@
+.?AVCMsgClientToGCGetLeaderboardStatusResponse@@
+.?AVCMsgClientToGCGetLeaderboardStatusResponse_Hero@@
 .?AVCMsgClientToGCGetLimitedItemPurchaseQuantity@@
 .?AVCMsgClientToGCGetLimitedItemPurchaseQuantityResponse@@
 .?AVCMsgClientToGCGetMatchHistory@@
@@ -17018,8 +17025,9 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR
-08@J0_
+08@HRP7
+08@J
+08BP7
 08bX
 09,h
 0:00
@@ -17105,6 +17113,7 @@ $hRh
 1Steam ID of user to whom to send a friend invite."
 1\n,CITADEL_CM_HideoutUpdateHeroReleaseVoteTally
 1\n,k_EMsgClientToGCGenerateChallengeSetResponse
+1\n,k_EMsgClientToGCGetLeaderboardStatusResponse
 1\n,k_EMsgClientToGCRecycleMultipleItemsResponse
 1\n,k_EMsgClientToGCReplacementSDRTicketResponse
 1\n,k_EMsgClientToGCSetNewPlayerProgressResponse
@@ -17217,6 +17226,7 @@ $hRh
 22.CMsgServerToGCMatchSignoutResponse.ESignoutResult"
 23.CMsgClientToGCCreateStaticRecipeResponse.EResponse
 23.CMsgClientToGCGenerateChallengeSetResponse.EResult"e\n
+23.CMsgClientToGCGetLeaderboardStatusResponse.EResult
 23.CMsgClientToGCPartySendChatMsgResponse.EResultCode"
 23.CMsgClientToGCPartySetReadyStateResponse.EResponse"
 23.CMsgClientToGCStartMatchmakingResponse.EResultCode
@@ -17241,7 +17251,7 @@ $hRh
 28.CMsgClientToGCPurchaseChargeCostItemsResponse.EResponse
 28.CMsgServerSignoutData_StreetBrawlData.EDraftItemOutcome
 28Vm
-2:.CMsgClientToGCUpdateHeroBuildPreferenceResponse.EResponse"1\n\tEResponse
+2:.CMsgClientToGCUpdateHeroBuildPreferenceResponse.EResponse"A\n\tEResponse
 2:3maJ
 2:pS
 2;.CMsgClientToGCSetAccountPrivacySettingResponse.EResultCode"3\n\vEResultCode
@@ -17286,7 +17296,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpdB
+2\vpld
 2^pV
 2a"l
 2bT~
@@ -17500,7 +17510,9 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@JP7
 8A6j
+8BP7
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17518,6 +17530,7 @@ $hRh
 8\n4STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PROJECT_ID
 8\n4k_EGCMsgInitiateTradeResponse_Target_Already_Trading
 8\n4k_EGCMsgInitiateTradeResponse_Trade_Banned_Initiator
+8\nP7
 8\n\nchat_lines
 8\n\nmatch_info
 8\n\nobjectives
@@ -17590,9 +17603,9 @@ $hRh
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
 :EXTERNAL TYPE %s\n
 :How high the maximum mantle is
-:Inert
 :LBN
 :NAy
+:PXw
 :QYJ
 :Vlq
 :\n5k_EMsgClientToGCCancelUnfinalizedTransactionsResponse
@@ -17762,11 +17775,11 @@ $hRh
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CITADEL_UNIT_TARGET_ZIPLINE
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
-?CitadelObjectivesMap
+?CitadelParty
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
+?EDamageFlashFlags
 ?EncodeBC7Blocks
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -17795,14 +17808,11 @@ $hRh
 ?\n;STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PUBLISHED_VERSION
 ?\n\ncurrencies
 ?\n\rmatch_outcome
-?citadel_capturepoint_show_event_timer
 ?d86L
 ?dt]X
 ?expf
 ?gwL
 ?jOb
-?m_bAtTargetElevation
-?m_bKillWhenNotTiny
 ?m_flInvisLevel
 ?srJO
 ?tya
@@ -17810,12 +17820,15 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
+@08Nt
 @0pp
-@6Pb
+@2P7
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
+@CAbilityDustStormVData
 @DebugIndividualStyle
 @EAccoladeThresholdType
+@HV0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -17853,7 +17866,6 @@ AA->Output
 AABBDirection
 AACompromise
 ABXY
-ABuildSparseShadowTree
 AC2,h
 ACCESS_DESCRIPTION
 ACID
@@ -18692,8 +18704,8 @@ B64_READ_PKCS7
 B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
-B>CitadelHudStreetBrawlRoundScoringDisplay
 B>J7I
+B>MiniMapUnitSelectEvent
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -18716,9 +18728,9 @@ BAscendantHasClass
 BAsyncSend
 BAsyncSendProto
 BC (default)
+BCCitadelPlayerPawn_GraphController2
 BCDFGHJKMNPQRSTVWXYZ0123456789
 BCanSeeInParentScroll
-BECitadelPingWheelSound_t
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -19009,7 +19021,6 @@ Bindings for CEmptyGraphController\n
 Bindings for C_Citadel_BreakableProp_GraphController\n
 Bindings for C_Citadel_DeployablePreview_GraphController\n
 Bindings for C_PortraitWorldUnit_GraphController\n
-Binfo
 Biometric Info
 Bit Set
 Blank
@@ -19286,6 +19297,7 @@ BuildModEntry
 BuildModEntry%i
 BuildNameTextEntry
 BuildParticleSimList
+BuildSparseShadowTree
 BuildTag
 BuildTag%d
 BuildTag1
@@ -19728,6 +19740,7 @@ CBasePulseGraphInstance::Shutdown( %s; %p ) %s\n
 CBasePulseGraphInstance::StartGraphReload( %p ) %s\n
 CBasePulseGraphInstance::~CBasePulseGraphInstance( %p )\n
 CBaseTempEntity::StaticInitTempEnts()
+CBaseTriggerAPI::FindEntitiesInTrigger
 CBaseTriggerAPI::IsTouching
 CBaseUserCmdExecutionNotes
 CBaseUserCmdPB
@@ -21893,6 +21906,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<class HeroID_t,enum EHeroRosterState,class 
 CUtlRBTree<struct CUtlOrderedMapBase<class HeroID_t,int,class CDefLess<class HeroID_t>,int>::Node_t,class CUtlOrderedMapBase<class HeroID_t,int,class CDefLess<class HeroID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class HeroID_t,int,class CDefLess<class HeroID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class INetworkClientService::CEventIDManager_RelayedClientMessage::EventID_t,class CUtlVector<struct CEventDispatcher_Base::EventListenerInfo_t,int,class CUtlVectorMemory_Growable<struct CEventDispatcher_Base::EventListenerInfo_t,int,0> >,class CDefLess<class INetworkClientService::CEventIDManager_RelayedClientMessage::EventID_t>,unsigned int>::Node_t,class CUtlOrderedMapBase<class INetworkClientService::CEventIDManager_RelayedClientMessage::EventID_t,class CUtlVector<struct CEventDispatcher_Base::EventListenerInfo_t,int,class CUtlVectorMemory_Growable<struct CEventDispatcher_Base::EventListenerInfo_t,int,0> >,class CDefLess<class INetworkClientService::CEventIDManager_RelayedClientMessage::EventID_t>,unsigned int>::CKeyLess,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class INetworkClientService::CEventIDManager_RelayedClientMessage::EventID_t,class CUtlVector<struct CEventDispatcher_Base::EventListenerInfo_t,int,class CUtlVectorMemory_Growable<struct CEventDispatcher_Base::EventListenerInfo_t,int,0> >,class CDefLess<class INetworkClientService::CEventIDManager_RelayedClientMessage::EventID_t>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class IPeerGroupHandler::CEventIDManager_IPeerGroupHandler::EventID_t,class CUtlVector<struct CEventDispatcher_Base::EventListenerInfo_t,int,class CUtlVectorMemory_Growable<struct CEventDispatcher_Base::EventListenerInfo_t,int,0> >,class CDefLess<class IPeerGroupHandler::CEventIDManager_IPeerGroupHandler::EventID_t>,unsigned int>::Node_t,class CUtlOrderedMapBase<class IPeerGroupHandler::CEventIDManager_IPeerGroupHandler::EventID_t,class CUtlVector<struct CEventDispatcher_Base::EventListenerInfo_t,int,class CUtlVectorMemory_Growable<struct CEventDispatcher_Base::EventListenerInfo_t,int,0> >,class CDefLess<class IPeerGroupHandler::CEventIDManager_IPeerGroupHandler::EventID_t>,unsigned int>::CKeyLess,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class IPeerGroupHandler::CEventIDManager_IPeerGroupHandler::EventID_t,class CUtlVector<struct CEventDispatcher_Base::EventListenerInfo_t,int,class CUtlVectorMemory_Growable<struct CEventDispatcher_Base::EventListenerInfo_t,int,0> >,class CDefLess<class IPeerGroupHandler::CEventIDManager_IPeerGroupHandler::EventID_t>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<class LeaderboardID_t,struct CCitadelRankedSchema::RankSchemaAndInterval_t,class CDefLess<class LeaderboardID_t>,int>::Node_t,class CUtlOrderedMapBase<class LeaderboardID_t,struct CCitadelRankedSchema::RankSchemaAndInterval_t,class CDefLess<class LeaderboardID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class LeaderboardID_t,struct CCitadelRankedSchema::RankSchemaAndInterval_t,class CDefLess<class LeaderboardID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class MatchID_t,bool,class CDefLess<class MatchID_t>,int>::Node_t,class CUtlOrderedMapBase<class MatchID_t,bool,class CDefLess<class MatchID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class MatchID_t,bool,class CDefLess<class MatchID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class MatchID_t,class CCitadel_DB_ActiveMatch *,class CDefLess<class MatchID_t>,int>::Node_t,class CUtlOrderedMapBase<class MatchID_t,class CCitadel_DB_ActiveMatch *,class CDefLess<class MatchID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class MatchID_t,class CCitadel_DB_ActiveMatch *,class CDefLess<class MatchID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class MatchID_t,struct CAsyncDataCache<class MatchID_t,class CMsgClientToGCGetAccountMatchReportsResponse>::DataContainer_t *,class CDefLess<class MatchID_t>,int>::Node_t,class CUtlOrderedMapBase<class MatchID_t,struct CAsyncDataCache<class MatchID_t,class CMsgClientToGCGetAccountMatchReportsResponse>::DataContainer_t *,class CDefLess<class MatchID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class MatchID_t,struct CAsyncDataCache<class MatchID_t,class CMsgClientToGCGetAccountMatchReportsResponse>::DataContainer_t *,class CDefLess<class MatchID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -21973,6 +21987,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<struct LeaderboardsDataStruct_t,struct CAsy
 CUtlRBTree<struct CUtlOrderedMapBase<struct MatchHistoryKey_t,struct CPaginatedAsyncDataCache<struct MatchHistoryKey_t,class CUtlVector<class CMsgClientToGCGetMatchHistoryResponse_Match,int,class CUtlVectorMemory_Growable<class CMsgClientToGCGetMatchHistoryResponse_Match,int,0> >,struct MatchHistoryPaginationInfo_t>::DataContainer_t *,class CDefLess<struct MatchHistoryKey_t>,int>::Node_t,class CUtlOrderedMapBase<struct MatchHistoryKey_t,struct CPaginatedAsyncDataCache<struct MatchHistoryKey_t,class CUtlVector<class CMsgClientToGCGetMatchHistoryResponse_Match,int,class CUtlVectorMemory_Growable<class CMsgClientToGCGetMatchHistoryResponse_Match,int,0> >,struct MatchHistoryPaginationInfo_t>::DataContainer_t *,class CDefLess<struct MatchHistoryKey_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct MatchHistoryKey_t,struct CPaginatedAsyncDataCache<struct MatchHistoryKey_t,class CUtlVector<class CMsgClientToGCGetMatchHistoryResponse_Match,int,class CUtlVectorMemory_Growable<class CMsgClientToGCGetMatchHistoryResponse_Match,int,0> >,struct MatchHistoryPaginationInfo_t>::DataContainer_t *,class CDefLess<struct MatchHistoryKey_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct PlayerStat_t,struct CCitadelClientStatTracker::PlayerTrackedStatInfo_t,class CDefLess<struct PlayerStat_t>,int>::Node_t,class CUtlOrderedMapBase<struct PlayerStat_t,struct CCitadelClientStatTracker::PlayerTrackedStatInfo_t,class CDefLess<struct PlayerStat_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct PlayerStat_t,struct CCitadelClientStatTracker::PlayerTrackedStatInfo_t,class CDefLess<struct PlayerStat_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct RankID_t,class CRankedSeasonDefinition *,class CDefLess<struct RankID_t>,int>::Node_t,class CUtlOrderedMapBase<struct RankID_t,class CRankedSeasonDefinition *,class CDefLess<struct RankID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct RankID_t,class CRankedSeasonDefinition *,class CDefLess<struct RankID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<struct RankID_t,class LeaderboardID_t,class CDefLess<struct RankID_t>,int>::Node_t,class CUtlOrderedMapBase<struct RankID_t,class LeaderboardID_t,class CDefLess<struct RankID_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct RankID_t,class LeaderboardID_t,class CDefLess<struct RankID_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct TeamStat_t,struct CCitadelClientStatTracker::TeamTrackedStatInfo_t,class CDefLess<struct TeamStat_t>,int>::Node_t,class CUtlOrderedMapBase<struct TeamStat_t,struct CCitadelClientStatTracker::TeamTrackedStatInfo_t,class CDefLess<struct TeamStat_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct TeamStat_t,struct CCitadelClientStatTracker::TeamTrackedStatInfo_t,class CDefLess<struct TeamStat_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct flexsettinghdr_t const *,struct FS_LocalToGlobal_t,class CDefLess<struct flexsettinghdr_t const *>,unsigned short>::Node_t,class CUtlOrderedMapBase<struct flexsettinghdr_t const *,struct FS_LocalToGlobal_t,class CDefLess<struct flexsettinghdr_t const *>,unsigned short>::CKeyLess,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct flexsettinghdr_t const *,struct FS_LocalToGlobal_t,class CDefLess<struct flexsettinghdr_t const *>,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<struct price_point_map_key_t,unsigned int,class CDefLess<struct price_point_map_key_t>,int>::Node_t,class CUtlOrderedMapBase<struct price_point_map_key_t,unsigned int,class CDefLess<struct price_point_map_key_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct price_point_map_key_t,unsigned int,class CDefLess<struct price_point_map_key_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -22099,6 +22114,7 @@ C\n?k_EGCMsgInitiateTradeResponse_Free_Account_Initiator_DEPRECATED
 C\n\nGoldRecord
 C\n\rannouncements
 C\n\rhave_versions
+C\n\thero_info
 C\n\tnicknames
 C\n\toperation
 C\n\votherentity
@@ -22803,6 +22819,7 @@ CitadelHudScreenEffects_Stunned
 CitadelHudShieldsContainer
 CitadelHudSoulAPContainer
 CitadelHudSpectateBar
+CitadelHudStreetBrawlRoundScoringDisplay
 CitadelHudSubtitles
 CitadelHudTeamMsg
 CitadelHudTopBar
@@ -22909,6 +22926,7 @@ CitadelNewsPage
 CitadelNewsPageRequestMore
 CitadelNextTipText
 CitadelObjectiveTooltip
+CitadelObjectivesMap
 CitadelObjectivesTooltip
 CitadelOpenBook
 CitadelOpenBuildBrowser
@@ -22919,7 +22937,6 @@ CitadelOpenUpgradeShop
 CitadelOutlineManager
 CitadelOverlay
 CitadelParticipantAudio
-CitadelParty
 CitadelPartyAcceptInvite
 CitadelPartyAcceptInvite( %llu )
 CitadelPartyCancelInviteAccountID
@@ -25690,6 +25707,7 @@ FXAA PS
 FX_RicochetSound.Ricochet
 F\fEF4+
 F\n ParticleFreezeTransitionOverride
+F\nP7
 F\n\finventories2
 F\n\finventories3
 F\n\fitem_scalars
@@ -26050,6 +26068,7 @@ ForwardFactor
 ForwardOpaque
 ForwardVelocity
 Found %d matches.\n
+Found %u heroes that had their name match '%s', please be more specific\n
 Found Property Without Tag - [ %s ]\n
 Found Property [ %s ] changing from %f to %f\n
 Found duplicate particle system index %d
@@ -28211,6 +28230,7 @@ LayoutDirtied
 LbWf
 LeaderboardEntry
 LeaderboardHeroIcon
+LeaderboardID_t"
 LeaderboardTier
 Leap to Chunk C%d
 LeapCameraSpeed
@@ -28902,7 +28922,6 @@ MiniJumpVelocity
 MiniMapEntryMouseOutEvent
 MiniMapEntryMouseOverEvent
 MiniMapFoWUnitSelectEvent
-MiniMapUnitSelectEvent
 MinimalProfileEdit
 MinimapAbilityWithRange
 MinimapBossSnippet
@@ -29798,13 +29817,13 @@ P-224
 P-256
 P-384
 P-521
-P08@J0_
-P08J
+P08@J
+P08Jp9
+P08Nt
 P1\t98"
-P20_
 P2P ping to "%s". Timed out after %.2fms\n
+P2P7
 P5[1
-P6P\
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -30381,7 +30400,6 @@ Pet NPC Script Override:
 PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
-PfPY
 Phrase
 Phrase%d
 PhraseContainer
@@ -30437,6 +30455,7 @@ Pitch: %6.1f   Yaw: %6.1f   Dist: %6.1f %19s
 Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixelToProj
+PjP7
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -30530,7 +30549,6 @@ Please Wait
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-PnPZ
 Point entity.
 Point under crosshair
 PointType
@@ -31109,14 +31127,14 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
-R\fpdB
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\tV_log2f
+R\vp t
 R\vp!y
-R\vp`3
+R\vpld
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -33513,7 +33531,6 @@ SteamTextFilterSection
 SteamUnifiedMessages
 SteamUserIgnoreStateChanged
 StepSimulationFuncRotatingAnglesSerializer
-StepSize
 Stick_Pri
 Stick_Snd
 StompBounceHeight
@@ -34591,6 +34608,7 @@ Unable to create tool implementation for '%s', of type '%s'.
 Unable to determine compressed message length, likely malformed message\n
 Unable to determine cubemap texture for env_cubemap_fog.  Cubemap source = '%s'\n
 Unable to find CNY price point for %u. Unknown currency
+Unable to find a hero that matched '%s'\n
 Unable to find cache for %s\n
 Unable to find enough dynamic attributes to hold all the attributes of name %s!
 Unable to find footstep entry %s\n
@@ -35019,6 +35037,7 @@ V~~Vq
 W!Uf
 W"Fe~
 W'6S`
+W(degrees) Increase this to change how much you have to move your camera angle to make the Chat Wheel instantly visible while holding Ping. 
 W2Q=
 W3fp
 W3i+,
@@ -35038,7 +35057,6 @@ WARNING: Too many essential breakpieces in one frame - this may cause performanc
 WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
 WASDTask
-WC_CitadelClimbRopeTrigger
 WD%g"0Q-)
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
@@ -35483,7 +35501,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr
+X`hrP7
 Xd3h
 XfJ7
 XjfR
@@ -35534,6 +35552,7 @@ YieldingRequestCheatReports
 Ykg"
 YnFpW
 You are #%d in line of %d waiting players.\n
+You cannot set mmpri while in the matchmaking queue. Please leave matchmaking and run again\n
 You have been waiting for approximately %02d:%02d.\n
 You just unlocked this item (but not really). This is just a sample to show how we might grant items through these books.
 You lost.
@@ -35687,7 +35706,6 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
-\f@The Stat Type
 \fAccoladeID_t
 \fCitadelMMR_t
 \fKS1
@@ -35874,6 +35892,7 @@ Z~wl
 \n*** A special note about internal error number 1007 ***\n\nExperience suggests that a common cause of i.e. 1007\nis unreliable memory or other hardware.  The 1007 assertion\njust happens to cross-check the results of huge numbers of\nmemory reads/writes, and so acts (unintendedly) as a stress\ntest of your memory system.\n\nI suggest the following: try compressing the file again,\npossibly monitoring progress in detail with the -vv flag.\n\n* If the error cannot be reproduced, and/or happens at different\n  points in compression, you may have a flaky memory system.\n  Try a memory-test program.  I have used Memtest86\n  (www.memtest86.com).  At the time of writing it is free (GPLd).\n  Memtest86 tests memory much more thorougly than your BIOSs\n  power-on test, and may find failures that the BIOS doesn't.\n\n* If the error can be repeatably reproduced, this is a bug in\n  bzip2, and I would very much like to hear about it.  Please\n  let me know, and, ideally, save a copy of the file causing the\n  problem -- without which I will be unable to investigate it.\n\n
 \n*CCitadelEntityMsg_BreakablePropSpawnDebris
 \n*CMsgClientToGCGenerateChallengeSetResponse
+\n*CMsgClientToGCGetLeaderboardStatusResponse
 \n*CMsgSteamLearn_RegisterDataSource_Response
 \n*COAuthToken_ImplicitGrantNoPrompt_Response
 \n*CWorkshop_PopulateItemDescriptions_Request
@@ -35911,6 +35930,7 @@ Z~wl
 \nDictionary: %s\n
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
+\nPXw
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -36115,6 +36135,7 @@ Z~wl
 \n\nGetDetails
 \n\nGoldSource
 \n\nOAuthToken
+\n\nPXw
 \n\nPerfSample
 \n\nPlayerData
 \n\nPlayerItem
@@ -36355,6 +36376,7 @@ Z~wl
 \n\rk_eType_Regen
 \n\rkiller_streak
 \n\rlast_playtime
+\n\rlifetime_wins
 \n\rlocked_heroes
 \n\rmatch_details
 \n\rmaterial_name
@@ -36630,6 +36652,7 @@ Z~wl
 \n\vhitgroup_id
 \n\vimage_width
 \n\vin_wishlist
+\n\vis_eligible
 \n\vis_verified
 \n\vitem_count2
 \n\vitem_rarity
@@ -36729,6 +36752,7 @@ Z~wl
 \rChallengeID_t
 \rChallengeID_t"
 \rCitadelMMRu_t
+\rFilter ability name to debug FindAbilityUnits functions
 \rHeroBadgeXP_t
 \rHeroBuildID_t
 \rHeroBuildID_t"
@@ -36759,7 +36783,6 @@ Z~wl
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\vpL1
 \r^mX
-\rcitadel_dev_always_lethal_damage
 \ri1I
 \rjwB\t
 \roKK
@@ -36978,7 +37001,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpdB
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -37047,9 +37069,10 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
+`2P7
+`2PB
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6p7
-`6pc
+`60x
 `:zQF
 `D$daM-l
 `DZG
@@ -37058,8 +37081,11 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`bP7
+`dP7
 `fPw.\vM
 `h9T~
+`htpL
 `o_je
 `yNT
 a null shared library handle was used
@@ -37077,6 +37103,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvt
 aD/x
 aDSS
 aECDH
@@ -42481,7 +42508,6 @@ houseIdentifier
 hover
 hovering
 hp_stat
-hpz0_
 hr_H
 href="
 hscroll
@@ -43388,6 +43414,7 @@ is_pulse_hook
 is_pulse_library_method
 is_pulse_target_method
 is_pulse_target_output
+is_rank_high_enough
 is_ready
 is_recharging
 is_reply
@@ -43784,6 +43811,7 @@ k_eInvalidHero
 k_eInvalidHeroLineup
 k_eInvalidHeroSelection
 k_eInvalidItemDef
+k_eInvalidLeaderboard
 k_eInvalidMessage
 k_eInvalidMode
 k_eInvalidParam
@@ -44127,6 +44155,7 @@ lcO/<1\r=,!\r-@@@
 leaderboardEmpty
 leaderboard_footer_text
 leaderboard_hero_name
+leaderboard_id
 leaderboard_rank
 leaderboard_region
 leaderboard_state
@@ -44189,6 +44218,7 @@ life_status
 lifespan
 lifetime_favorited
 lifetime_followers
+lifetime_matches
 lifetime_subscriptions
 lifetime_value
 lifted
@@ -44698,6 +44728,7 @@ match_duration_s
 match_end_time
 match_end_type
 match_history_date
+match_history_days
 match_history_load_state
 match_history_state
 match_intro_state
@@ -46033,7 +46064,7 @@ n1Z
 n5cM
 n6j/
 n:2C[
-n<}\v<}\v<}\v<}\vpoint_camera
+n<}\v<}\v<}\v<}\v
 n@PK
 nCRD
 nChangeOffset < INT16_MAX
@@ -46770,7 +46801,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p20_
+p08@H^t
+p2P7
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -47106,6 +47138,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pbP7
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -47468,6 +47501,7 @@ point
 point arithmetic failure
 point at infinity
 point is not on curve
+point_camera
 point_camera_vertical_fov
 point_childmodifier
 point_clientui_dialog
@@ -47888,10 +47922,9 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp`3
+r\fp t
 r\n\vstart_index
 r\vDi
-r\vpdB
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals
@@ -48000,6 +48033,7 @@ received_recent_damage
 receiver_account_id
 recency_bias
 recent_hero_name
+recent_matches
 recent_mod_name
 recent_tier_cost
 recent_tier_purchased
@@ -48182,7 +48216,11 @@ required_hero_unlocks
 required_hero_win_count
 required_hero_wins
 required_item_slot
+required_lifetime_hero_wins
+required_lifetime_matches
 required_progress
+required_recent_hero_matches
+required_recent_matches
 required_slot
 required_solo_calibration_games
 required_tags
@@ -51353,7 +51391,6 @@ z/B,9d
 z<d2
 z>Hz
 z?ff
-zDC_ItemParachute
 zF):O4
 zFar
 zG2m8

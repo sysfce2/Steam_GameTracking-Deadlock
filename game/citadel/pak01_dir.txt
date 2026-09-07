@@ -34315,7 +34315,7 @@ panorama/styles/popups/citadel_popup_keybind.vcss_c CRC:00a82d533c size:21096
 panorama/styles/popups/citadel_popup_player_feedback.vcss_c CRC:005292ea4f size:5394
 panorama/styles/popups/citadel_popup_private_bots.vcss_c CRC:006ba6014b size:5369
 panorama/styles/popups/citadel_popup_report_player.vcss_c CRC:0087413d2e size:3303
-panorama/styles/popups/citadel_popup_roster_select.vcss_c CRC:009b63d1e1 size:38093
+panorama/styles/popups/citadel_popup_roster_select.vcss_c CRC:002ef91e0e size:38140
 panorama/styles/popups/popup_activated_ability_selection.vcss_c CRC:00d4bc7304 size:7292
 panorama/styles/popups/popup_generic.vcss_c CRC:00dce9b65c size:4502
 panorama/styles/popups/popup_generic_text_entry.vcss_c CRC:00f9aaf0c8 size:3874
@@ -50871,7 +50871,7 @@ scenes/conversations/match_start_yamato_priest_convo01.vcd_c CRC:00123410ee size
 scenes/conversations/match_start_yamato_priest_convo02.vcd_c CRC:00a7de5a24 size:1491
 scenes/conversations/match_start_yamato_priest_convo03.vcd_c CRC:00623c3d9b size:1433
 scenes/conversations_vcdlist.vrman_c CRC:00140f1ee3 size:102137
-scripts/abilities.vdata_c CRC:0009290e11 size:496282
+scripts/abilities.vdata_c CRC:00cc0b3c52 size:496266
 scripts/accolades.vdata_c CRC:00fb48c5fd size:3228
 scripts/book_library.txt CRC:00100347b4 size:2319
 scripts/bots/bot_difficulty.vdata_c CRC:000c1b9323 size:2424
@@ -50898,7 +50898,7 @@ scripts/ping_wheel_message_types.vdata_c CRC:007fcae022 size:1487
 scripts/ping_wheel_messages.vdata_c CRC:00ee59550c size:6156
 scripts/precipitation.vdata_c CRC:00c073e051 size:1165
 scripts/propdata.vdata_c CRC:005e804463 size:3827
-scripts/ranked_seasons.vdata_c CRC:00294164c7 size:1796
+scripts/ranked_seasons.vdata_c CRC:00a03ffd41 size:1818
 scripts/regions.txt CRC:00974eb859 size:6734
 scripts/replay_compatability_settings.txt CRC:003c574c80 size:938
 scripts/scale_functions.vdata_c CRC:004601b6a8 size:1167

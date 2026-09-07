@@ -2308,6 +2308,9 @@ citadel_duck_spam_slow_penalty_duration 0.5 (developmentonly gamedll clientdll r
 citadel_dump_keybindings false (developmentonly clientdll defensive)
 	<no description>
 
+citadel_enable_chat_rate_limiting false (developmentonly gamedll)
+	<no description>
+
 citadel_enable_double_ping true (developmentonly clientdll)
 	Turns off the ability to have aggressive and passive pings.
 
@@ -10292,9 +10295,6 @@ r_multigpu_num_gpus_found 1 (developmentonly defensive)
 	<no description>
 
 r_multigpu_num_gpus_used 1 (developmentonly defensive)
-	<no description>
-
-r_multiscattering true (developmentonly clientdll)
 	<no description>
 
 r_muzzleflashbrightness 0.4 (clientdll replicated cheat)

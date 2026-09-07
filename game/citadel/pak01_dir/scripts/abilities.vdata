@@ -267007,7 +267007,7 @@
 			m_vDomainMaxs = [ 1.0, 1.0 ]
 		}
 		m_flVelocityCarryoverOnMiss = 0.01
-		m_flVelocityCarryoverOnHit = -0.15
+		m_flVelocityCarryoverOnHit = 0.0
 		m_LeapHitSound = soundevent:"Werewolf.Mauling.Leap.Hit"
 		m_LeapHitImpact = resource_name:"particles/abilities/werewolf/werewolf_transform_mauling_leap_impact.vpcf"
 		m_strAG2SourceName = "werewolf_transform_ability_mauling_leap"

@@ -852,6 +852,7 @@ CitadelPopupRosterSelect,CitadelPopupRosterSelect_HeroDraft
 #ConfirmButton .buttonContent SplitLabel
 {
 	horizontal-align: center;
+	overflow: squish;
 }
 
 #ConfirmButton .buttonContent SplitLabel Image

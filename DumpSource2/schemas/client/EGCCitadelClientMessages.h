@@ -156,4 +156,6 @@ enum EGCCitadelClientMessages : uint32_t
 	k_EMsgClientToGCSetAccountPrivacySettingResponse = 9283,
 	k_EMsgClientToGCStartRankedInterval = 9289,
 	k_EMsgClientToGCStartRankedIntervalResponse = 9290,
+	k_EMsgClientToGCGetLeaderboardStatus = 9293,
+	k_EMsgClientToGCGetLeaderboardStatusResponse = 9294,
 };
