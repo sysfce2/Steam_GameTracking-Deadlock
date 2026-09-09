@@ -2308,7 +2308,7 @@ citadel_duck_spam_slow_penalty_duration 0.5 (developmentonly gamedll clientdll r
 citadel_dump_keybindings false (developmentonly clientdll defensive)
 	<no description>
 
-citadel_enable_chat_rate_limiting false (developmentonly gamedll)
+citadel_enable_chat_rate_limiting true (developmentonly gamedll)
 	<no description>
 
 citadel_enable_double_ping true (developmentonly clientdll)
@@ -2320,7 +2320,7 @@ citadel_enable_new_ping_particle false (developmentonly clientdll)
 citadel_enable_parties true (developmentonly clientdll defensive)
 	Enable client side party UI
 
-citadel_enable_ping_rate_limiting false (developmentonly gamedll)
+citadel_enable_ping_rate_limiting true (developmentonly gamedll)
 	<no description>
 
 citadel_enable_survey true (developmentonly clientdll)

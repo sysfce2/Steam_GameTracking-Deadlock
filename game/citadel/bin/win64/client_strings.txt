@@ -89,11 +89,10 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`jP7
+ (08@HPX`j
  (08@HPXb
- (08@HPZP7
+ (08@HPZ
  (08@HR
- (08@JP7
  (0X`hpz
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
@@ -17025,9 +17024,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HRP7
+08@HR
 08@J
-08BP7
 08bX
 09,h
 0:00
@@ -17296,7 +17294,7 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vpld
+2\vp8u
 2^pV
 2a"l
 2bT~
@@ -17510,9 +17508,7 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@JP7
 8A6j
-8BP7
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -17530,7 +17526,6 @@ $hRh
 8\n4STEAMLEARN_SNAPSHOT_PROJECT_ERROR_INVALID_PROJECT_ID
 8\n4k_EGCMsgInitiateTradeResponse_Target_Already_Trading
 8\n4k_EGCMsgInitiateTradeResponse_Trade_Banned_Initiator
-8\nP7
 8\n\nchat_lines
 8\n\nmatch_info
 8\n\nobjectives
@@ -17820,15 +17815,13 @@ $hRh
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08Nt
 @0pp
-@2P7
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @CAbilityDustStormVData
 @DebugIndividualStyle
 @EAccoladeThresholdType
-@HV0
+@HPX`hvP
 @MfKZ
 @Pgl
 @Pu\rm
@@ -17844,6 +17837,7 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
+@ht@q
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -17863,6 +17857,7 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
+AA:p
 AABBDirection
 AACompromise
 ABXY
@@ -25707,7 +25702,6 @@ FXAA PS
 FX_RicochetSound.Ricochet
 F\fEF4+
 F\n ParticleFreezeTransitionOverride
-F\nP7
 F\n\finventories2
 F\n\finventories3
 F\n\fitem_scalars
@@ -29818,11 +29812,9 @@ P-256
 P-384
 P-521
 P08@J
-P08Jp9
-P08Nt
+P08J
 P1\t98"
 P2P ping to "%s". Timed out after %.2fms\n
-P2P7
 P5[1
 PAGN_4
 PANORAMA_LAYOUTFILE
@@ -30455,7 +30447,6 @@ Pitch: %6.1f   Yaw: %6.1f   Dist: %6.1f %19s
 Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixelToProj
-PjP7
 PlaceDecalEvent_t
 PlaceDistance
 PlaceDistanceInFrontOfCaster
@@ -31132,9 +31123,8 @@ R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\tV_log2f
-R\vp t
 R\vp!y
-R\vpld
+R\vp8u
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -35501,7 +35491,7 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hrP7
+X`hr
 Xd3h
 XfJ7
 XjfR
@@ -35716,6 +35706,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp8u
 \ful2
 \fy&3Gl
 \l:ArR
@@ -37001,6 +36992,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vp8u
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -37069,10 +37061,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2P7
-`2PB
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60x
 `:zQF
 `D$daM-l
 `DZG
@@ -37081,8 +37070,6 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`bP7
-`dP7
 `fPw.\vM
 `h9T~
 `htpL
@@ -37103,7 +37090,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvt
 aD/x
 aDSS
 aECDH
@@ -46801,8 +46787,6 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^t
-p2P7
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -46842,6 +46826,7 @@ pUnitName
 p\n$k_EPingMarkerInfo_ShowMarkerOnSender
 p\n\fDevQueueSize
 p\rP\f0!h
+p\r`\fP8u
 p^i9
 packedRank
 packed_rank
@@ -47138,7 +47123,6 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pbP7
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -47922,7 +47906,6 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp t
 r\n\vstart_index
 r\vDi
 r_citadel_edges 0
