@@ -182,12 +182,10 @@
  (%ld unused bits)\n
  (%u unread)
  (08@HPX`j
- (08@HPXbpS
+ (08@HPXb
  (08@HPZ
- (08@HRpS
- (08@JpS
- (0X`hpzpS
- (2pS
+ (08@HR
+ (0X`hpz
  (Dirty Animation)
  (Eluded)
  (INVALID PSS PARAMETERS)\n
@@ -2073,11 +2071,8 @@ $light_emissive
 ... %s culled event %s after max %i reached \n
 ....................
 ..uR5&m
-.0R4
-.0S4
-.0k4
-.0m4
-.0u4
+.0T4
+.0q4
 .4bb
 .97yY
 .?AU?$CameraOp_Approach_t@M@@
@@ -14188,15 +14183,13 @@ $light_emissive
 .PEAVCPlayer_UseServices@@
 .PEAVCPlayer_WaterServices@@
 .PEAVCPlayer_WeaponServices@@
-.PQ4
-.PR4
-.PS4
+.PO4
 .PartnerAccountType
 .PingCommonData
-.Pj4
-.Pl4
 .Pm4
+.Pn4
 .PostProcessingGameStates
+.Pq4
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
@@ -14481,14 +14474,10 @@ $light_emissive
 .google.protobuf.ServiceOptions
 .lbN
 .league
-.pQ4
-.pS4
-.pT4
-.pU4
-.pb4
-.pj4
-.pl4
+.pX4
+.pm4
 .pp@0
+.pq4
 .solo
 .steammessages_unified_base.steamworkssdk.proto"\\n"CMsgSteamLearnDataSourceDescObject
 .text$
@@ -14547,7 +14536,7 @@ $light_emissive
 02V8[
 05=k
 08@HR
-08@JpS
+08@J
 08bX
 09,h
 0;Q5[
@@ -14582,9 +14571,11 @@ $light_emissive
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
+0hh/
+0pP/
 0pp@5tqE?|sO541
 0tU+xc:
-0v4r/
+0tw/
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -14720,6 +14711,7 @@ $light_emissive
 2\n\tsource_gc
 2\r.CameraAction
 2\rlhp
+2\vptw/
 2^pV
 2_BONE_IK
 2_tasks_left
@@ -14774,13 +14766,14 @@ $light_emissive
 3|rN>
 4)#bH
 4)m1
-4+\tpI
 474E4U4W4c4i4m4
 4<Td
 4@AA
+4BhC<
 4Ch;
 4DL=
 4F0I
+4F\vp%
 4Mv8
 4Zis
 4\fPl
@@ -14831,14 +14824,14 @@ $light_emissive
 5s\nl
 5t?F
 5~EW
-6 X4
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
 60000
-60_4
+60Y4
+60\4
 62$|S)6f
 64CK\vH
 65535
@@ -14848,11 +14841,13 @@ $light_emissive
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666CAttributeManager
 67-s
-6@Y4
+6@94
+6@C4
 6H,N
 6O|T%
+6P/4
 6PZ4
-6Ps4
+6P_4
 6Qd=
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
 6\n2STEAMLEARN_INFERENCE_ERROR_INVALID_NAMED_INFERENCE
@@ -14864,8 +14859,9 @@ $light_emissive
 6\n\tstructure
 6\n\vmatch_slots
 6_wEX
-6`W4
-6`t4
+6`04
+6`c4
+6`d4
 6afD
 6bX+
 6c&0|vvX
@@ -14873,7 +14869,8 @@ $light_emissive
 6l13
 6lkc
 6myY;
-6pa4
+6p14
+6p[4
 6qo~
 6r-m_v
 6r1ij
@@ -15166,9 +15163,9 @@ $light_emissive
 ?CAnimFoot
 ?HAI\t81\t9dcG'
 ?HP4
+?HnK
 ?Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
 ?VBH;
-?XjK
 ?\n1increase_spring_strength_to_keep_target_on_screen
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ?\n;GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_TINT_AND_DESAT
@@ -15181,19 +15178,19 @@ $light_emissive
 ?ffffff
 ?gwL
 ?jOb
-?m_hExplodeParticle
+?m_ApplyStackSound
+?m_nCurrentObservedTeam
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
 @":\n$CCitadelUserMsg_SpectatorTeamChanged
-@08N4r/
 @0pp
-@60Q4
+@6@O4
+@6pU4
 @BH]f
 @CCitadelItemKothSpawner
-@HPX`hv`v4
 @MfKZ
 @Pgl
 @Pu\rm
@@ -15207,12 +15204,9 @@ $light_emissive
 @\n\fSingleObject
 @\n\vPowerUpBuff
 @dKb]
-@f4r/
 @fff>fff>fff>fff>
-@ht0
 @i1V
 @n2w
-@n4r/
 @player_start_teleport_destination
 @zipline_panel_tutorial_relay
 A graph associated with the point_pulse server entity.
@@ -15958,6 +15952,7 @@ BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
+BCPulseServerFuncs::AddNewModifier
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -16306,7 +16301,7 @@ BloodImpact
 BloodSpillDPSPercent
 BloodSpillDuration
 BlurVisionRange
-Bm_vecStatViewerModifierValues
+Bm_bUltimateTrained
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -18662,7 +18657,6 @@ CPulseMathlib::WorldVectorToVector
 CPulsePhysicsConstraintsFuncs::CreatePhysicsBallSocketConstraint
 CPulsePhysicsConstraintsFuncs::CreatePhysicsConstraint
 CPulsePhysicsConstraintsFuncs::CreatePhysicsHingeConstraint
-CPulseServerFuncs::AddNewModifier
 CPulseServerFuncs::AddVelocityToAllEntitiesWithinRadius
 CPulseServerFuncs::AddVelocityToEntity
 CPulseServerFuncs::AreEntitiesInHierarchy
@@ -21643,7 +21637,6 @@ ExtraTargetConeAngle
 ExtraTargetHorizontalOffset
 EyeAngles
 EyePosition
-F B4
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -21668,6 +21661,7 @@ FCVAR_UNLOGGED
 FCVAR_USERINFO
 FCVAR_VCONSOLE_SET_FOCUS
 FDA~i
+FDV<
 FF!w
 FILE pointer
 FILE_CTRL
@@ -22052,6 +22046,7 @@ Found target!\n
 Found target\n
 FourVectors
 FourthHitDamagePercentage
+FpD4
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame Time >%.2fms
@@ -25891,13 +25886,12 @@ P-224
 P-256
 P-384
 P-521
-P08@JpS
-P08J 
-P08N4r/
+P08@J
+P08J
 P1\t98"
-P2pS
 P5[1
-P:pS
+P60;4
+P6pO4
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s, REFERENCED: %s\n
@@ -26293,6 +26287,7 @@ PetrifyDamage
 PetrifyDamageBreakThreshold
 PetrifyDuration
 PhaseOutDuration
+Phh/
 Phys.GlassBreakLg
 Phys.GlassBreakMd
 Phys.GlassBreakSm
@@ -26436,7 +26431,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn4r/
 Point entity.
 Point under crosshair
 PointAtEntity
@@ -26484,6 +26478,7 @@ PowerUp Permanent %s
 PowerUp Temp
 PowerUp Temp %s
 PowerUpStages
+PpP/
 Pr"V
 Pre-Nav Queries Updates
 PreBounceLifetime
@@ -26865,6 +26860,7 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
+R\fptw/
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\r1>Vp
@@ -31265,6 +31261,7 @@ Z~wl
 \nDictionary: %s\n
 \nEnemy is %s
 \nGameTime_t
+\nPhh/
 \nSimulating Entities:\n\n
 \nVisMon: Polling now. (Frequency: %f)\n
 \n\fBPE_Teleport
@@ -32005,6 +32002,7 @@ Z~wl
 \tNone\n
 \tPOTG Eval: Contribution(%s) Weight(%.2f) Time(%.2f -> %.2f)\n
 \tPartyID_t
+\tPpP/
 \tPrivate script scope:
 \tPublic script scope:
 \tRead %s\t%s%s%s,\tOffs 0x%04x\n
@@ -32060,11 +32058,13 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
+\vPpP/
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
 \vj0k
 \vjC7
+\vptw/
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -32138,11 +32138,7 @@ _tools_event_desc
 _xU`u
 _}eOk
 `28)fk
-`2pS
-`6 U4
-`6PT4
-`6PU4
-`6Pk4
+`60+4
 `:zQF
 `D$daM-l
 `DZG
@@ -32150,10 +32146,9 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`f4r/
 `fPw.\vM
 `h9T~
-`n4r/
+`htP
 `o_je
 `yNT
 a null shared library handle was used
@@ -32172,7 +32167,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4r/
 aD/x
 aDSS
 aECDH
@@ -34422,7 +34416,6 @@ cvarvalue
 cycle
 cz>Sp
 d e not congruent to 1
-d,\tpI
 d.allOrFirstTier
 d.authenticatedData
 d.certificate
@@ -35567,9 +35560,9 @@ eyj5yR
 f#9i\n
 f%wyLmX:
 f&dy
+f0(4
 f1cK%
 f45\r
-f4r/
 fBB\fy
 fC\tc
 fL\ri
@@ -36674,7 +36667,6 @@ hovering
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpzpS
 hr_H
 http request
 https proxy request
@@ -39008,6 +39000,7 @@ modifier_citadel_gravity_lasso_self
 modifier_citadel_halloween_mask
 modifier_citadel_hideout_in_menu
 modifier_citadel_hideout_intro
+modifier_citadel_hideout_intro_exit
 modifier_citadel_holding_golden_idol
 modifier_citadel_hookself
 modifier_citadel_hooktarget
@@ -39759,7 +39752,6 @@ n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
 n1Z 
-n4r/
 n5cM
 n6j/
 n:2C[
@@ -40418,14 +40410,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4r/
-p2pS
+p0j@
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p>4r/
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -40449,7 +40439,6 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
-pF`B4
 pField
 pFilter
 pFirstWaypoint type[%d]
@@ -40950,7 +40939,6 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pn4r/
 point
 point arithmetic failure
 point at infinity
@@ -41060,6 +41048,7 @@ power_up_buffs
 pp == NULL || *pp != NULL
 pp&c
 ppBasis
+ppP/
 pqualid
 pre idle done
 pre mac length too long
@@ -41228,6 +41217,7 @@ pszContextName
 pszExplosionType
 pszName
 pszTagName
+ptw/
 pub: 
 pub_key
 pubkey
@@ -41337,6 +41327,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vptw/
 rad2deg
 radial
 radialalt
@@ -43869,7 +43860,6 @@ util4
 util5
 uvs are all identical
 uxX/
-v y4
 v'A>M6
 v)56
 v0o/5
@@ -43879,7 +43869,6 @@ v2i_ASN1_BIT_STRING
 v2i_GENERAL_NAMES
 v2i_GENERAL_NAME_ex
 v3\vt
-v4r/
 v8array
 v8callback
 v8object
@@ -44332,7 +44321,7 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-zDmodifier_citadel_hideout_intro_exit
+zDm_fUnpauseRawTime
 zF):O4
 zFar
 zG2m8
@@ -44388,7 +44377,6 @@ zz2K
 }Xee+
 }gE3
 }n2W
-~0l4
 ~9ob
 ~If D
 ~P2T

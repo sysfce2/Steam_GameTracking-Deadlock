@@ -89,9 +89,8 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j
+ (08@HPX`j`=
  (08@HPXb
- (08@HPZ
  (08@HR
  (0X`hpz
  (Dirty Animation)
@@ -132,7 +131,6 @@
  CCitadelSteamInputHandler::SteamDeviceDisconnected: %llu\n
  CCitadelSteamInputHandler::UpdateControllerActionSet: ControllerHandle: %llu, ActionSet: %llu \n
  C_PhysPropClientside::Spawn: SetupPhysicsAsModel() failed for %s.\n
- Cm_hTrigger
  FLK
  FWa
  Failed to pack %s\n
@@ -2503,7 +2501,6 @@ $hRh
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
-(4pL
 (5Me
 (5jP
 (ACTIVE)
@@ -3090,8 +3087,8 @@ $hRh
 *BaseEntity::CBodyComponent
 *BaseModelEntity::CBodyComponentBaseModelEntity
 *Gets the last-played times for the account
-*PXw
 *Returns the player's community preferences
+*Show user command encoding
 *UlS
 *Y$ve
 *\fhsD
@@ -3134,7 +3131,6 @@ $hRh
 *\n\vhero_equips
 *\n\vpreferences
 *`\n\fCameraAction
-*cl_anglespeedkey
 *gFBk
 *hbJ1
 *it%2
@@ -17024,8 +17020,9 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR
+08@HR`=
 08@J
+08B`=
 08bX
 09,h
 0:00
@@ -17294,7 +17291,8 @@ $hRh
 2\r.CameraAction
 2\r.ECommendType
 2\rlhp
-2\vp8u
+2\vp4
+2\vp|j
 2^pV
 2a"l
 2bT~
@@ -17352,6 +17350,7 @@ $hRh
 3w2URu
 3wQ]
 3|rN>
+4!$0m
 4(Optional) Sorting method to use on returned values.
 4)#bH
 4)m1
@@ -17600,7 +17599,6 @@ $hRh
 :How high the maximum mantle is
 :LBN
 :NAy
-:PXw
 :QYJ
 :Vlq
 :\n5k_EMsgClientToGCCancelUnfinalizedTransactionsResponse
@@ -17780,6 +17778,7 @@ $hRh
 ?Enter@Isolate@v8@@QEAAXXZ
 ?Exit@Context@v8@@QEAAXXZ
 ?Exit@Isolate@v8@@QEAAXXZ
+?Failed to load %s - KV3 error: %s\n
 ?Far field
 ?For@Symbol@v8@@SA?AV?$Local@VSymbol@v8@@@2@PEAVIsolate@2@V?$Local@VString@v8@@@2@@Z
 ?FromJustIsNothing@api_internal@v8@@YAXXZ
@@ -17793,6 +17792,7 @@ $hRh
 ?HAI\t81\t9dcG'
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
+?HitsToHeadshot
 ?LatchVariables
 ?TabButton
 ?The most recent last-played time the client already knows about"
@@ -17808,7 +17808,6 @@ $hRh
 ?expf
 ?gwL
 ?jOb
-?m_flInvisLevel
 ?srJO
 ?tya
 ?uWS
@@ -17818,10 +17817,7 @@ $hRh
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
-@CAbilityDustStormVData
 @DebugIndividualStyle
-@EAccoladeThresholdType
-@HPX`hvP
 @MfKZ
 @Pgl
 @Pu\rm
@@ -17837,11 +17833,11 @@ $hRh
 @absorigin_follow
 @dKb]
 @fff>fff>fff>fff>
-@ht@q
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @n2w
+@scripts/accolades.vdata
 A random value [0.0, 1.0] used to make sure entities are not all in sync
 A specific_item component must define either an exact item to use or a lootlist to select an item from!
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -17857,7 +17853,6 @@ A<fP
 A>x8
 AA Compromise
 AA->Output
-AA:p
 AABBDirection
 AACompromise
 ABXY
@@ -18073,6 +18068,7 @@ A\n\tent_index
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
+A\v:0J
 A_txt
 AbW_
 AbandonButton
@@ -18700,7 +18696,7 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
-B>MiniMapUnitSelectEvent
+B>While a spectator, view team sapphire's minimap view
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -25763,7 +25759,6 @@ Failed to init camera of type '%u'\n
 Failed to initialize CCitadelNewSettingsSchema. %s
 Failed to join party: %s\n
 Failed to leave party: %s\n
-Failed to load %s - KV3 error: %s\n
 Failed to load %s: %s
 Failed to load book file: %s\n
 Failed to load match history results. Error code %d\n
@@ -27152,7 +27147,6 @@ Hit Test
 Hit Test Children
 Hit Trace: %s
 Hitbox indexing is incorrect for set %s, hitbox %s. Hitboxes will not be setup properly.\n
-HitsToHeadshot
 Hltv Director
 Hofw
 Hold
@@ -28916,6 +28910,7 @@ MiniJumpVelocity
 MiniMapEntryMouseOutEvent
 MiniMapEntryMouseOverEvent
 MiniMapFoWUnitSelectEvent
+MiniMapUnitSelectEvent
 MinimalProfileEdit
 MinimapAbilityWithRange
 MinimapBossSnippet
@@ -31118,13 +31113,15 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSy_C
 RT_txt
+R\fp4
 R\n)k_EPingMarkerInfo_NoMarkerYesSoundMiniMap
 R\n\nBookReward
 R\n\rincludekvtags
 R\r1>Vp
 R\tV_log2f
 R\vp!y
-R\vp8u
+R\vp0z
+R\vp|j
 R]Di
 Rad2 Deg
 RadialAbilitySegment_%d
@@ -33095,6 +33092,7 @@ Specifies where to position the body of a tooltip relative to this panel. The fi
 Specifies which properties should transition smoothly to new values if a class/pseudo class changes the styles.  Also specifies duration, timing function, and delay.  Valid timing functions are: ease, ease-in, ease-out, ease-in-out, linear.<br><br><b>Example:</b><pre>transition: position 2.0s ease-in-out 0.0s, perspective-origin 1.2s ease-in-out 0.8s;</pre>
 Specifies which properties should transition smoothly to new values if a class/pseudo class changes the styles.<br><br><b>Examples:</b><pre>transition: position, transform, background-color;</pre>
 Specify the SO cache type to dump the contents of\n
+Specify the interval to override, 0 to disable\n
 Spectate Lobby
 Spectate User
 SpectateGame
@@ -35027,7 +35025,6 @@ V~~Vq
 W!Uf
 W"Fe~
 W'6S`
-W(degrees) Increase this to change how much you have to move your camera angle to make the Chat Wheel instantly visible while holding Ping. 
 W2Q=
 W3fp
 W3i+,
@@ -35215,6 +35212,7 @@ WinnerTie
 WinningTeam
 WinningTeamNumber
 WizardSubPanel.BgColor
+Wm_flTimeSlowedStart
 Wmn|CH
 Wn4'
 Work Item for Work Pool %s completed but job no longer existed to notify\n
@@ -35491,7 +35489,6 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr
 Xd3h
 XfJ7
 XjfR
@@ -35696,6 +35693,7 @@ Z~wl
 \f*t\n ESteamLearnGetAccessTokensResult
 \f7ig
 \f<<0A1pq
+\f@scripts/heroes.vdata
 \fAccoladeID_t
 \fCitadelMMR_t
 \fKS1
@@ -35706,7 +35704,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp8u
+\fp\vPLb
 \ful2
 \fy&3Gl
 \l:ArR
@@ -35921,7 +35919,7 @@ Z~wl
 \nDictionary: %s\n
 \nFinished generating SSTs (%.1f seconds)\n\n
 \nGameTime_t
-\nPXw
+\nP0z
 \nSimulating Entities:\n\n
 \n[ Spirit ]
 \n[ Vitality ]
@@ -36126,7 +36124,6 @@ Z~wl
 \n\nGetDetails
 \n\nGoldSource
 \n\nOAuthToken
-\n\nPXw
 \n\nPerfSample
 \n\nPlayerData
 \n\nPlayerItem
@@ -36743,7 +36740,6 @@ Z~wl
 \rChallengeID_t
 \rChallengeID_t"
 \rCitadelMMRu_t
-\rFilter ability name to debug FindAbilityUnits functions
 \rHeroBadgeXP_t
 \rHeroBuildID_t
 \rHeroBuildID_t"
@@ -36992,7 +36988,8 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vp8u
+\vp0z
+\vpLb
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -37070,9 +37067,9 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
+`\rP\f00z
 `fPw.\vM
 `h9T~
-`htpL
 `o_je
 `yNT
 a null shared library handle was used
@@ -46050,7 +46047,7 @@ n1Z
 n5cM
 n6j/
 n:2C[
-n<}\v<}\v<}\v<}\v
+n<}\v<}\v<}\v<}\vP
 n@PK
 nCRD
 nChangeOffset < INT16_MAX
@@ -46797,6 +46794,8 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
+p>D0
+p>o0
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -46812,6 +46811,7 @@ pIp
 pLocationEntity
 pO0h
 pOtherEntity
+pPrint out non-hidden modifiers.
 pRTH
 pSPo
 pSectionData != nullptr
@@ -46826,7 +46826,6 @@ pUnitName
 p\n$k_EPingMarkerInfo_ShowMarkerOnSender
 p\n\fDevQueueSize
 p\rP\f0!h
-p\r`\fP8u
 p^i9
 packedRank
 packed_rank
@@ -47906,8 +47905,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fp0z
 r\n\vstart_index
 r\vDi
+r\vp4
 r_citadel_edges 0
 r_citadel_edges 1
 r_cleardecals

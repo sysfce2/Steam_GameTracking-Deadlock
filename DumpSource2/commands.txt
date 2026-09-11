@@ -3016,6 +3016,9 @@ rangefinder (gamedll cheat)
 rangefinder2d (gamedll cheat)
 	Measures distance along a ray, only measuring along XY plane.
 
+ranked_set_active_season (developmentonly clientdll cheat)
+	<interval> Sets the override of the currently active ranked season to be the specified interval
+
 ray_bench (developmentonly gamedll defensive)
 	Load the rays and run the benchmark
 

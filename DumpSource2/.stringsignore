@@ -366,6 +366,7 @@ $SPECULARSCALE
 <bot name> <command string...>. Sends specified command to one or more player bots: [all], [east/west], [bot name]
 <entindex> <fieldname>:  Track changes to entity index entindex, for field fieldname.
 <gold> Give gold value to all players
+<interval> Sets the override of the currently active ranked season to be the specified interval
 <line> makes the guide bot say the specified line
 <msgid> Send a blank body message with a given ID to gc for routing tests
 <option number> Submit a response to the current survey question
@@ -43652,6 +43653,7 @@ randomly flip direction
 randomly select sequential CP pairs between start and end points
 rangefinder
 rangefinder2d
+ranked_set_active_season
 rate
 rate scale
 ray trace environment cp
